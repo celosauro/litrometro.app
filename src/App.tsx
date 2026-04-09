@@ -1,0 +1,184 @@
+import { useState } from 'react';
+import { GasPump, MagnifyingGlass, ArrowsClockwise } from '@phosphor-icons/react';
+import { usePrecosCombustiveis } from './hooks/usePrecosCombustiveis';
+import { CardCombustivel } from './components/FuelCard';
+import { SeletorTipoCombustivel } from './components/FuelTypeSelector';
+import { SeletorMunicipio } from './components/MunicipioSelector';
+import { SeletorOrdenacao, type OpcaoOrdenacao } from './components/SortSelector';
+import type { TipoCombustivel } from './types';
+
+export default function App() {
+  const [tipoCombustivelSelecionado, setTipoCombustivelSelecionado] = useState<TipoCombustivel>(1);
+  const [municipioSelecionado, setMunicipioSelecionado] = useState<string>('');
+  const [ordenarPor, setOrdenarPor] = useState<OpcaoOrdenacao>('preco_asc');
+  const [termoBusca, setTermoBusca] = useState('');
+
+  const { dados, carregando, erro, recarregar, ultimaAtualizacao } = usePrecosCombustiveis({
+    tipoCombustivel: tipoCombustivelSelecionado,
+    codigoIBGE: municipioSelecionado || undefined,
+  });
+
+  // Filtra e ordena os dados
+  const dadosFiltrados = dados
+    ?.filter((item) => {
+      if (!termoBusca) return true;
+      const busca = termoBusca.toLowerCase();
+      return (
+        item.nome_fantasia.toLowerCase().includes(busca) ||
+        item.razao_social.toLowerCase().includes(busca) ||
+        item.bairro.toLowerCase().includes(busca)
+      );
+    })
+    .sort((a, b) => {
+      switch (ordenarPor) {
+        case 'preco_asc':
+          return a.valor_recente - b.valor_recente;
+        case 'preco_desc':
+          return b.valor_recente - a.valor_recente;
+        case 'data':
+          return new Date(b.data_recente).getTime() - new Date(a.data_recente).getTime();
+        default:
+          return 0;
+      }
+    });
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+      {/* Header */}
+      <header className="bg-white shadow-sm sticky top-0 z-50">
+        <div className="max-w-7xl mx-auto px-4 py-4">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <GasPump size={32} weight="fill" className="text-blue-600" />
+              <div>
+                <h1 className="text-2xl font-bold text-gray-900">Litrômetro</h1>
+                <p className="text-sm text-gray-500">Preços de combustíveis em Alagoas</p>
+              </div>
+            </div>
+            
+            {ultimaAtualizacao && (
+              <div className="text-sm text-gray-500 hidden sm:block">
+                Última atualização: {new Date(ultimaAtualizacao).toLocaleString('pt-BR')}
+              </div>
+            )}
+          </div>
+        </div>
+      </header>
+
+      {/* Filtros */}
+      <div className="sticky top-[72px] bg-white/80 backdrop-blur-md shadow-sm z-40">
+        <div className="max-w-7xl mx-auto px-4 py-4">
+          {/* Seletor de combustível */}
+          <SeletorTipoCombustivel
+            selecionado={tipoCombustivelSelecionado}
+            aoMudar={setTipoCombustivelSelecionado}
+          />
+
+          {/* Filtros adicionais */}
+          <div className="mt-4 flex flex-wrap gap-3">
+            {/* Busca */}
+            <div className="relative flex-1 min-w-[200px]">
+              <MagnifyingGlass
+                size={20}
+                className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"
+              />
+              <input
+                type="text"
+                placeholder="Buscar posto, bairro..."
+                value={termoBusca}
+                onChange={(e) => setTermoBusca(e.target.value)}
+                className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              />
+            </div>
+
+            {/* Município */}
+            <SeletorMunicipio
+              selecionado={municipioSelecionado}
+              aoMudar={setMunicipioSelecionado}
+            />
+
+            {/* Ordenação */}
+            <SeletorOrdenacao selecionado={ordenarPor} aoMudar={setOrdenarPor} />
+
+            {/* Botão atualizar */}
+            <button
+              onClick={() => recarregar()}
+              disabled={carregando}
+              className="btn-secondary flex items-center gap-2"
+            >
+              <ArrowsClockwise
+                size={20}
+                className={carregando ? 'animate-spin' : ''}
+              />
+              <span className="hidden sm:inline">Atualizar</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Conteúdo principal */}
+      <main className="max-w-7xl mx-auto px-4 py-6">
+        {/* Estado de erro */}
+        {erro && (
+          <div className="bg-red-50 border border-red-200 rounded-lg p-4 mb-6">
+            <p className="text-red-700">{erro}</p>
+          </div>
+        )}
+
+        {/* Estado de loading */}
+        {carregando && (
+          <div className="flex items-center justify-center py-12">
+            <div className="animate-spin rounded-full h-12 w-12 border-4 border-blue-600 border-t-transparent" />
+          </div>
+        )}
+
+        {/* Lista de postos */}
+        {!carregando && dadosFiltrados && (
+          <>
+            <div className="flex items-center justify-between mb-4">
+              <p className="text-gray-600">
+                {dadosFiltrados.length} posto{dadosFiltrados.length !== 1 ? 's' : ''} encontrado{dadosFiltrados.length !== 1 ? 's' : ''}
+              </p>
+            </div>
+
+            {dadosFiltrados.length === 0 ? (
+              <div className="text-center py-12">
+                <GasPump size={48} className="mx-auto text-gray-300 mb-4" />
+                <p className="text-gray-500">Nenhum posto encontrado</p>
+                <p className="text-sm text-gray-400 mt-1">
+                  Tente ajustar os filtros ou selecionar outro município
+                </p>
+              </div>
+            ) : (
+              <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+                {dadosFiltrados.map((item) => (
+                  <CardCombustivel key={`${item.cnpj}-${item.tipo_combustivel}`} dados={item} />
+                ))}
+              </div>
+            )}
+          </>
+        )}
+      </main>
+
+      {/* Footer */}
+      <footer className="bg-white border-t mt-auto py-6">
+        <div className="max-w-7xl mx-auto px-4 text-center text-sm text-gray-500">
+          <p>
+            Dados fornecidos pela{' '}
+            <a
+              href="https://economizaalagoas.sefaz.al.gov.br"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              SEFAZ/AL - Economiza Alagoas
+            </a>
+          </p>
+          <p className="mt-1">
+            Os preços são baseados em vendas reais e podem não refletir o valor atual no estabelecimento.
+          </p>
+        </div>
+      </footer>
+    </div>
+  );
+}
