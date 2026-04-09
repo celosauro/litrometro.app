@@ -46,19 +46,24 @@ export default function App() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       {/* Header */}
       <header className="bg-white shadow-sm sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 py-4">
+        <div className="max-w-7xl mx-auto px-3 py-3 sm:px-4 sm:py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <GasPump size={32} weight="fill" className="text-blue-600" />
+            <div className="flex items-center gap-2 sm:gap-3">
+              <GasPump size={28} weight="fill" className="text-blue-600 sm:w-8 sm:h-8" />
               <div>
-                <h1 className="text-2xl font-bold text-gray-900">Litrômetro</h1>
-                <p className="text-sm text-gray-500">Preços de combustíveis em Alagoas</p>
+                <h1 className="text-xl sm:text-2xl font-bold text-gray-900">Litrômetro</h1>
+                <p className="text-xs sm:text-sm text-gray-500">Preços de combustíveis em Alagoas</p>
               </div>
             </div>
             
             {ultimaAtualizacao && (
-              <div className="text-sm text-gray-500 hidden sm:block">
-                Última atualização: {new Date(ultimaAtualizacao).toLocaleString('pt-BR')}
+              <div className="text-xs sm:text-sm text-gray-500 hidden sm:block">
+                Atualizado: {new Date(ultimaAtualizacao).toLocaleString('pt-BR', { 
+                  day: '2-digit', 
+                  month: '2-digit', 
+                  hour: '2-digit', 
+                  minute: '2-digit' 
+                })}
               </div>
             )}
           </div>
@@ -66,8 +71,8 @@ export default function App() {
       </header>
 
       {/* Filtros */}
-      <div className="sticky top-[72px] bg-white/80 backdrop-blur-md shadow-sm z-40">
-        <div className="max-w-7xl mx-auto px-4 py-4">
+      <div className="sticky top-[56px] sm:top-[72px] bg-white/90 backdrop-blur-md shadow-sm z-40">
+        <div className="max-w-7xl mx-auto px-3 py-3 sm:px-4 sm:py-4">
           {/* Seletor de combustível */}
           <SeletorTipoCombustivel
             selecionado={tipoCombustivelSelecionado}
@@ -75,68 +80,76 @@ export default function App() {
           />
 
           {/* Filtros adicionais */}
-          <div className="mt-4 flex flex-wrap gap-3">
-            {/* Busca */}
-            <div className="relative flex-1 min-w-[200px]">
+          <div className="mt-3 sm:mt-4 space-y-2 sm:space-y-0 sm:flex sm:flex-wrap sm:gap-3">
+            {/* Busca - full width em mobile */}
+            <div className="relative w-full sm:flex-1 sm:min-w-[200px]">
               <MagnifyingGlass
-                size={20}
-                className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"
+                size={18}
+                className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 sm:w-5 sm:h-5"
               />
               <input
                 type="text"
                 placeholder="Buscar posto, bairro..."
                 value={termoBusca}
                 onChange={(e) => setTermoBusca(e.target.value)}
-                className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                className="w-full pl-9 sm:pl-10 pr-4 py-2 text-sm sm:text-base border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               />
             </div>
 
-            {/* Município */}
-            <SeletorMunicipio
-              selecionado={municipioSelecionado}
-              aoMudar={setMunicipioSelecionado}
-            />
+            {/* Linha com selects e botão */}
+            <div className="flex gap-2 sm:gap-3">
+              {/* Município */}
+              <div className="flex-1 sm:flex-none">
+                <SeletorMunicipio
+                  selecionado={municipioSelecionado}
+                  aoMudar={setMunicipioSelecionado}
+                />
+              </div>
 
-            {/* Ordenação */}
-            <SeletorOrdenacao selecionado={ordenarPor} aoMudar={setOrdenarPor} />
+              {/* Ordenação */}
+              <div className="flex-1 sm:flex-none">
+                <SeletorOrdenacao selecionado={ordenarPor} aoMudar={setOrdenarPor} />
+              </div>
 
-            {/* Botão atualizar */}
-            <button
-              onClick={() => recarregar()}
-              disabled={carregando}
-              className="btn-secondary flex items-center gap-2"
-            >
-              <ArrowsClockwise
-                size={20}
-                className={carregando ? 'animate-spin' : ''}
-              />
-              <span className="hidden sm:inline">Atualizar</span>
-            </button>
+              {/* Botão atualizar */}
+              <button
+                onClick={() => recarregar()}
+                disabled={carregando}
+                className="btn-secondary flex items-center justify-center gap-2 px-3 sm:px-4"
+                aria-label="Atualizar dados"
+              >
+                <ArrowsClockwise
+                  size={18}
+                  className={`sm:w-5 sm:h-5 ${carregando ? 'animate-spin' : ''}`}
+                />
+                <span className="hidden sm:inline">Atualizar</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
 
       {/* Conteúdo principal */}
-      <main className="max-w-7xl mx-auto px-4 py-6">
+      <main className="max-w-7xl mx-auto px-3 py-4 sm:px-4 sm:py-6">
         {/* Estado de erro */}
         {erro && (
-          <div className="bg-red-50 border border-red-200 rounded-lg p-4 mb-6">
-            <p className="text-red-700">{erro}</p>
+          <div className="bg-red-50 border border-red-200 rounded-lg p-3 sm:p-4 mb-4 sm:mb-6">
+            <p className="text-red-700 text-sm sm:text-base">{erro}</p>
           </div>
         )}
 
         {/* Estado de loading */}
         {carregando && (
           <div className="flex items-center justify-center py-12">
-            <div className="animate-spin rounded-full h-12 w-12 border-4 border-blue-600 border-t-transparent" />
+            <div className="animate-spin rounded-full h-10 w-10 sm:h-12 sm:w-12 border-4 border-blue-600 border-t-transparent" />
           </div>
         )}
 
         {/* Lista de postos */}
         {!carregando && dadosFiltrados && (
           <>
-            <div className="flex items-center justify-between mb-4">
-              <p className="text-gray-600">
+            <div className="flex items-center justify-between mb-3 sm:mb-4">
+              <p className="text-sm sm:text-base text-gray-600">
                 {dadosFiltrados.length} posto{dadosFiltrados.length !== 1 ? 's' : ''} encontrado{dadosFiltrados.length !== 1 ? 's' : ''}
               </p>
             </div>
@@ -150,7 +163,7 @@ export default function App() {
                 </p>
               </div>
             ) : (
-              <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+              <div className="grid gap-3 sm:gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                 {dadosFiltrados.map((item) => (
                   <CardCombustivel key={`${item.cnpj}-${item.tipo_combustivel}`} dados={item} />
                 ))}
@@ -161,8 +174,8 @@ export default function App() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-white border-t mt-auto py-6">
-        <div className="max-w-7xl mx-auto px-4 text-center text-sm text-gray-500">
+      <footer className="bg-white border-t mt-auto py-4 sm:py-6">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 text-center text-xs sm:text-sm text-gray-500">
           <p>
             Dados fornecidos pela{' '}
             <a

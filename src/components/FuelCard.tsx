@@ -43,53 +43,53 @@ export function CardCombustivel({ dados }: CardCombustivelProps) {
   return (
     <div className="fuel-card">
       {/* Header com badge */}
-      <div className="px-4 pt-4 pb-2 flex items-start justify-between">
+      <div className="px-3 pt-3 pb-1.5 sm:px-4 sm:pt-4 sm:pb-2 flex items-start justify-between gap-2">
         <div className="flex-1 min-w-0">
-          <h3 className="font-semibold text-gray-900 truncate" title={nomeExibicao}>
+          <h3 className="font-semibold text-gray-900 truncate text-sm sm:text-base" title={nomeExibicao}>
             {nomeExibicao}
           </h3>
-          <p className="text-sm text-gray-500 truncate" title={dados.municipio}>
+          <p className="text-xs sm:text-sm text-gray-500 truncate" title={dados.municipio}>
             {dados.municipio}
           </p>
         </div>
-        <span className={`fuel-badge ${corCombustivel} ml-2 flex-shrink-0`}>
+        <span className={`fuel-badge ${corCombustivel} flex-shrink-0`}>
           {nomeCombustivel}
         </span>
       </div>
 
       {/* Preço principal */}
-      <div className="px-4 py-3 bg-gray-50">
-        <div className="flex items-baseline gap-2">
+      <div className="px-3 py-2 sm:px-4 sm:py-3 bg-gray-50">
+        <div className="flex items-baseline gap-1 sm:gap-2">
           <span className="price-display">{formatarPreco(dados.valor_recente)}</span>
-          <span className="text-gray-500">/litro</span>
+          <span className="text-gray-500 text-sm sm:text-base">/litro</span>
         </div>
         
         {/* Variação de preço */}
-        <div className="mt-2 flex items-center gap-4 text-sm">
+        <div className="mt-1.5 sm:mt-2 flex items-center gap-3 sm:gap-4 text-xs sm:text-sm">
           <div className="flex items-center gap-1 text-green-600">
-            <TrendDown size={16} />
+            <TrendDown size={14} className="sm:w-4 sm:h-4" />
             <span>Mín: {formatarPreco(dados.valor_minimo)}</span>
           </div>
           <div className="flex items-center gap-1 text-red-600">
-            <TrendUp size={16} />
+            <TrendUp size={14} className="sm:w-4 sm:h-4" />
             <span>Máx: {formatarPreco(dados.valor_maximo)}</span>
           </div>
         </div>
       </div>
 
       {/* Informações do estabelecimento */}
-      <div className="fuel-card-info px-4 py-3 space-y-2 text-sm text-gray-600">
+      <div className="fuel-card-info px-3 py-2 sm:px-4 sm:py-3 space-y-1.5 sm:space-y-2 text-xs sm:text-sm text-gray-600">
         <div className="flex items-start gap-2">
-          <MapPin size={18} className="flex-shrink-0 mt-0.5 text-gray-400" />
+          <MapPin size={16} className="flex-shrink-0 mt-0.5 text-gray-400 sm:w-[18px] sm:h-[18px]" />
           <span className="line-clamp-2">{formatarEndereco() || 'Endereço não informado'}</span>
         </div>
 
         <div className="flex items-center gap-2">
-          <Phone size={18} className="flex-shrink-0 text-gray-400" />
+          <Phone size={16} className="flex-shrink-0 text-gray-400 sm:w-[18px] sm:h-[18px]" />
           {dados.telefone ? (
             <a
               href={`tel:${dados.telefone.replace(/\D/g, '')}`}
-              className="text-blue-600 hover:underline"
+              className="text-blue-600 hover:underline active:text-blue-800"
             >
               {dados.telefone}
             </a>
@@ -99,13 +99,13 @@ export function CardCombustivel({ dados }: CardCombustivelProps) {
         </div>
 
         <div className="flex items-center gap-2 text-gray-400">
-          <Clock size={18} className="flex-shrink-0" />
+          <Clock size={16} className="flex-shrink-0 sm:w-[18px] sm:h-[18px]" />
           <span>Atualizado: {formatarData(dados.data_recente)}</span>
         </div>
       </div>
 
       {/* Link para mapa */}
-      <div className="px-4 pb-4">
+      <div className="px-3 pb-3 sm:px-4 sm:pb-4 mt-auto">
         <a
           href={
             dados.latitude !== 0 && dados.longitude !== 0
@@ -116,7 +116,7 @@ export function CardCombustivel({ dados }: CardCombustivelProps) {
           }
           target="_blank"
           rel="noopener noreferrer"
-          className="block w-full text-center btn-secondary text-sm"
+          className="block w-full text-center btn-secondary text-xs sm:text-sm"
         >
           Ver no mapa
         </a>

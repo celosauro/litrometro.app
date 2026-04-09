@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    @apply scroll-smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
   body {
     @apply bg-gray-50 text-gray-900 antialiased;
   }
@@ -10,7 +15,7 @@
 
 @layer components {
   .fuel-card {
-    @apply bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-200 overflow-hidden flex flex-col h-full min-h-[340px];
+    @apply bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-200 overflow-hidden flex flex-col h-full min-h-[320px] sm:min-h-[340px];
   }
   
   .fuel-card-info {
@@ -18,18 +23,41 @@
   }
   
   .fuel-badge {
-    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium text-white;
+    @apply inline-flex items-center px-2 py-0.5 sm:px-3 sm:py-1 rounded-full text-xs sm:text-sm font-medium text-white;
   }
   
   .price-display {
-    @apply text-3xl font-bold text-gray-900;
+    @apply text-2xl sm:text-3xl font-bold text-gray-900;
   }
   
   .btn-primary {
-    @apply px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium;
+    @apply px-3 py-2 sm:px-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 active:bg-blue-800 transition-colors font-medium text-sm sm:text-base;
   }
   
   .btn-secondary {
-    @apply px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-colors font-medium;
+    @apply px-3 py-2 sm:px-4 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 active:bg-gray-400 transition-colors font-medium text-sm sm:text-base;
+  }
+  
+  /* Scroll horizontal sem scrollbar visível */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Botões de combustível */
+  .fuel-type-btn {
+    @apply px-3 py-1.5 sm:px-4 sm:py-2 rounded-full font-medium text-xs sm:text-sm transition-all whitespace-nowrap flex-shrink-0;
+  }
+  
+  .fuel-type-btn-active {
+    @apply text-white shadow-md;
+  }
+  
+  .fuel-type-btn-inactive {
+    @apply bg-white text-gray-700 border border-gray-300 hover:border-gray-400 active:bg-gray-100;
   }
 }
