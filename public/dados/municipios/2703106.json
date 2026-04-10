@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2703106",
   "municipio": "Igaci",
-  "atualizadoEm": "2026-04-10T14:42:49.019Z",
+  "atualizadoEm": "2026-04-10T16:03:33.390Z",
   "totalEstabelecimentos": 14,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
-      "valorMinimo": 6.600238663484487,
-      "valorMaximo": 6.89,
-      "valorMedio": 6.705168873053683
+      "valorMinimo": 6.1181242408467815,
+      "valorMaximo": 6.890756302521009,
+      "valorMedio": 6.59363412818211
     },
     "2": {
       "totalPostos": 2,
@@ -19,37 +19,17 @@
     "3": {
       "totalPostos": 4,
       "valorMinimo": 4.6640776699029125,
-      "valorMaximo": 5.1751741345254185,
-      "valorMedio": 4.98473560834084
+      "valorMaximo": 5.199937600748791,
+      "valorMedio": 4.990979107484176
     },
     "5": {
       "totalPostos": 4,
       "valorMinimo": 6.999634502923977,
       "valorMaximo": 7.649891644594269,
-      "valorMedio": 7.244868709508505
+      "valorMedio": 7.224955112671734
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "06209130000115",
-      "tipo_combustivel": 1,
-      "razao_social": "POSTO IGACI LTDA",
-      "nome_fantasia": "POSTO IGACI LTDA",
-      "telefone": "",
-      "nome_logradouro": "Rua JOAO FARIAS",
-      "numero_imovel": "446",
-      "bairro": "CENTRO",
-      "cep": "57620000",
-      "codigo_ibge": 2703106,
-      "municipio": "IGACI",
-      "latitude": -9.539441199999999,
-      "longitude": -36.6385346,
-      "valor_minimo": 6.600238663484487,
-      "valor_maximo": 6.600238663484487,
-      "valor_medio": 6.600238663484487,
-      "valor_recente": 6.600238663484487,
-      "data_recente": "2026-04-10T13:36:04Z"
-    },
     {
       "cnpj": "22442762000261",
       "tipo_combustivel": 1,
@@ -64,11 +44,11 @@
       "municipio": "IGACI",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.650410108623365,
-      "valor_maximo": 6.650410108623365,
-      "valor_medio": 6.650410108623365,
-      "valor_recente": 6.650410108623365,
-      "data_recente": "2026-04-10T09:43:51Z"
+      "valor_minimo": 6.1181242408467815,
+      "valor_maximo": 6.1181242408467815,
+      "valor_medio": 6.1181242408467815,
+      "valor_recente": 6.1181242408467815,
+      "data_recente": "2026-04-10T15:21:30Z"
     },
     {
       "cnpj": "61923139000100",
@@ -84,11 +64,31 @@
       "municipio": "IGACI",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.680026720106881,
-      "valor_maximo": 6.680026720106881,
-      "valor_medio": 6.680026720106881,
-      "valor_recente": 6.680026720106881,
-      "data_recente": "2026-04-10T12:11:57Z"
+      "valor_minimo": 6.675567423230975,
+      "valor_maximo": 6.675567423230975,
+      "valor_medio": 6.675567423230975,
+      "valor_recente": 6.675567423230975,
+      "data_recente": "2026-04-10T13:52:45Z"
+    },
+    {
+      "cnpj": "06209130000115",
+      "tipo_combustivel": 1,
+      "razao_social": "POSTO IGACI LTDA",
+      "nome_fantasia": "POSTO IGACI LTDA",
+      "telefone": "",
+      "nome_logradouro": "Rua JOAO FARIAS",
+      "numero_imovel": "446",
+      "bairro": "CENTRO",
+      "cep": "57620000",
+      "codigo_ibge": 2703106,
+      "municipio": "IGACI",
+      "latitude": -9.539441199999999,
+      "longitude": -36.6385346,
+      "valor_minimo": 6.690088546129677,
+      "valor_maximo": 6.690088546129677,
+      "valor_medio": 6.690088546129677,
+      "valor_recente": 6.690088546129677,
+      "data_recente": "2026-04-10T15:26:15Z"
     },
     {
       "cnpj": "05019078000171",
@@ -104,11 +104,11 @@
       "municipio": "IGACI",
       "latitude": -9.543047699999999,
       "longitude": -36.6506562,
-      "valor_minimo": 6.89,
-      "valor_maximo": 6.89,
-      "valor_medio": 6.89,
-      "valor_recente": 6.89,
-      "data_recente": "2026-04-10T12:43:08Z"
+      "valor_minimo": 6.890756302521009,
+      "valor_maximo": 6.890756302521009,
+      "valor_medio": 6.890756302521009,
+      "valor_recente": 6.890756302521009,
+      "data_recente": "2026-04-10T15:24:42Z"
     },
     {
       "cnpj": "06209130000115",
@@ -204,11 +204,11 @@
       "municipio": "IGACI",
       "latitude": -9.539441199999999,
       "longitude": -36.6385346,
-      "valor_minimo": 5.109576703692585,
-      "valor_maximo": 5.109576703692585,
-      "valor_medio": 5.109576703692585,
-      "valor_recente": 5.109576703692585,
-      "data_recente": "2026-04-10T00:40:49Z"
+      "valor_minimo": 5.109787234042553,
+      "valor_maximo": 5.109787234042553,
+      "valor_medio": 5.109787234042553,
+      "valor_recente": 5.109787234042553,
+      "data_recente": "2026-04-10T14:20:11Z"
     },
     {
       "cnpj": "05019078000171",
@@ -224,11 +224,11 @@
       "municipio": "IGACI",
       "latitude": -9.543047699999999,
       "longitude": -36.6506562,
-      "valor_minimo": 5.1751741345254185,
-      "valor_maximo": 5.1751741345254185,
-      "valor_medio": 5.1751741345254185,
-      "valor_recente": 5.1751741345254185,
-      "data_recente": "2026-04-10T02:12:03Z"
+      "valor_minimo": 5.199937600748791,
+      "valor_maximo": 5.199937600748791,
+      "valor_medio": 5.199937600748791,
+      "valor_recente": 5.199937600748791,
+      "data_recente": "2026-04-10T15:01:25Z"
     },
     {
       "cnpj": "05019078000171",
@@ -251,6 +251,26 @@
       "data_recente": "2026-04-09T22:59:22Z"
     },
     {
+      "cnpj": "22442762000261",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO SEGURO COMÉRCIO DE COMBUSTÍVEIS LTDA",
+      "nome_fantasia": "AUTO POSTO SEGURO TOP FLEX",
+      "telefone": "(82) 99003065",
+      "nome_logradouro": "SIT CALDEIRAO",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57620000",
+      "codigo_ibge": 2703106,
+      "municipio": "IGACI",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.100305546703657,
+      "valor_maximo": 7.100305546703657,
+      "valor_medio": 7.100305546703657,
+      "valor_recente": 7.100305546703657,
+      "data_recente": "2026-04-10T15:22:37Z"
+    },
+    {
       "cnpj": "61923139000100",
       "tipo_combustivel": 5,
       "razao_social": "AUTO POSTO A M SANTOS LTDA",
@@ -269,26 +289,6 @@
       "valor_medio": 7.149988756465032,
       "valor_recente": 7.149988756465032,
       "data_recente": "2026-04-10T10:30:34Z"
-    },
-    {
-      "cnpj": "22442762000261",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO SEGURO COMÉRCIO DE COMBUSTÍVEIS LTDA",
-      "nome_fantasia": "AUTO POSTO SEGURO TOP FLEX",
-      "telefone": "(82) 99003065",
-      "nome_logradouro": "SIT CALDEIRAO",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57620000",
-      "codigo_ibge": 2703106,
-      "municipio": "IGACI",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.179959934050738,
-      "valor_maximo": 7.179959934050738,
-      "valor_medio": 7.179959934050738,
-      "valor_recente": 7.179959934050738,
-      "data_recente": "2026-04-10T13:31:46Z"
     },
     {
       "cnpj": "06209130000115",

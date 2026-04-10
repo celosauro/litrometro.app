@@ -1,26 +1,26 @@
 {
   "codigoIBGE": "2703304",
   "municipio": "Inhapi",
-  "atualizadoEm": "2026-04-10T14:43:48.647Z",
+  "atualizadoEm": "2026-04-10T16:05:21.034Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.988120195667365,
-      "valorMaximo": 6.989748369058714,
-      "valorMedio": 6.989205644594931
+      "valorMinimo": 6.12,
+      "valorMaximo": 6.990223463687151,
+      "valorMedio": 6.700068534128017
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.489679402722881,
+      "valorMinimo": 5.489873161711595,
       "valorMaximo": 5.489980785067252,
-      "valorMedio": 5.489830093895066
+      "valorMedio": 5.489926973389423
     },
     "5": {
       "totalPostos": 3,
       "valorMinimo": 6.11,
-      "valorMaximo": 7.689941556444171,
-      "valorMedio": 7.096576070335377
+      "valorMaximo": 7.689645891806682,
+      "valorMedio": 7.096553385713972
     }
   },
   "estabelecimentos": [
@@ -38,11 +38,31 @@
       "municipio": "INHAPI",
       "latitude": -9.216866,
       "longitude": -37.7460976,
-      "valor_minimo": 6.988120195667365,
-      "valor_maximo": 6.988120195667365,
-      "valor_medio": 6.988120195667365,
-      "valor_recente": 6.988120195667365,
-      "data_recente": "2026-04-10T13:36:12Z"
+      "valor_minimo": 6.12,
+      "valor_maximo": 6.12,
+      "valor_medio": 6.12,
+      "valor_recente": 6.12,
+      "data_recente": "2026-04-10T15:06:58Z"
+    },
+    {
+      "cnpj": "02850879000196",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO ALVES LTDA",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": " POVOADO LEOBINO",
+      "numero_imovel": "12",
+      "bairro": "ZONA RURAL",
+      "cep": "57545000",
+      "codigo_ibge": 2703304,
+      "municipio": "INHAPI",
+      "latitude": -9.2648351,
+      "longitude": -37.7312552,
+      "valor_minimo": 6.989982138696901,
+      "valor_maximo": 6.989982138696901,
+      "valor_medio": 6.989982138696901,
+      "valor_recente": 6.989982138696901,
+      "data_recente": "2026-04-10T15:19:54Z"
     },
     {
       "cnpj": "13222947000199",
@@ -58,31 +78,11 @@
       "municipio": "INHAPI",
       "latitude": -9.216866,
       "longitude": -37.7460976,
-      "valor_minimo": 6.989748369058714,
-      "valor_maximo": 6.989748369058714,
-      "valor_medio": 6.989748369058714,
-      "valor_recente": 6.989748369058714,
-      "data_recente": "2026-04-10T13:10:13Z"
-    },
-    {
-      "cnpj": "02850879000196",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO ALVES LTDA",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": " POVOADO LEOBINO",
-      "numero_imovel": "12",
-      "bairro": "ZONA RURAL",
-      "cep": "57545000",
-      "codigo_ibge": 2703304,
-      "municipio": "INHAPI",
-      "latitude": -9.2648351,
-      "longitude": -37.7312552,
-      "valor_minimo": 6.989748369058714,
-      "valor_maximo": 6.989748369058714,
-      "valor_medio": 6.989748369058714,
-      "valor_recente": 6.989748369058714,
-      "data_recente": "2026-04-10T13:36:16Z"
+      "valor_minimo": 6.990223463687151,
+      "valor_maximo": 6.990223463687151,
+      "valor_medio": 6.990223463687151,
+      "valor_recente": 6.990223463687151,
+      "data_recente": "2026-04-10T15:00:32Z"
     },
     {
       "cnpj": "02850879000196",
@@ -98,11 +98,11 @@
       "municipio": "INHAPI",
       "latitude": -9.2648351,
       "longitude": -37.7312552,
-      "valor_minimo": 5.489679402722881,
-      "valor_maximo": 5.489679402722881,
-      "valor_medio": 5.489679402722881,
-      "valor_recente": 5.489679402722881,
-      "data_recente": "2026-04-10T09:10:10Z"
+      "valor_minimo": 5.489873161711595,
+      "valor_maximo": 5.489873161711595,
+      "valor_medio": 5.489873161711595,
+      "valor_recente": 5.489873161711595,
+      "data_recente": "2026-04-10T14:56:37Z"
     },
     {
       "cnpj": "02850879000277",
@@ -122,7 +122,7 @@
       "valor_maximo": 5.489980785067252,
       "valor_medio": 5.489980785067252,
       "valor_recente": 5.489980785067252,
-      "data_recente": "2026-04-10T11:55:19Z"
+      "data_recente": "2026-04-10T14:43:46Z"
     },
     {
       "cnpj": "02850879000277",
@@ -142,7 +142,7 @@
       "valor_maximo": 6.11,
       "valor_medio": 6.11,
       "valor_recente": 6.11,
-      "data_recente": "2026-04-10T13:19:49Z"
+      "data_recente": "2026-04-10T15:03:06Z"
     },
     {
       "cnpj": "13222947000199",
@@ -158,11 +158,11 @@
       "municipio": "INHAPI",
       "latitude": -9.216866,
       "longitude": -37.7460976,
-      "valor_minimo": 7.489786654561961,
-      "valor_maximo": 7.489786654561961,
-      "valor_medio": 7.489786654561961,
-      "valor_recente": 7.489786654561961,
-      "data_recente": "2026-04-10T11:24:43Z"
+      "valor_minimo": 7.490014265335235,
+      "valor_maximo": 7.490014265335235,
+      "valor_medio": 7.490014265335235,
+      "valor_recente": 7.490014265335235,
+      "data_recente": "2026-04-10T14:59:37Z"
     },
     {
       "cnpj": "02850879000196",
@@ -178,11 +178,11 @@
       "municipio": "INHAPI",
       "latitude": -9.2648351,
       "longitude": -37.7312552,
-      "valor_minimo": 7.689941556444171,
-      "valor_maximo": 7.689941556444171,
-      "valor_medio": 7.689941556444171,
-      "valor_recente": 7.689941556444171,
-      "data_recente": "2026-04-10T12:26:41Z"
+      "valor_minimo": 7.689645891806682,
+      "valor_maximo": 7.689645891806682,
+      "valor_medio": 7.689645891806682,
+      "valor_recente": 7.689645891806682,
+      "data_recente": "2026-04-10T14:59:58Z"
     }
   ]
 }

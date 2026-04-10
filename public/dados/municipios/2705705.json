@@ -1,26 +1,26 @@
 {
   "codigoIBGE": "2705705",
   "municipio": "Olho d'Água das Flores",
-  "atualizadoEm": "2026-04-10T15:02:26.312Z",
+  "atualizadoEm": "2026-04-10T16:23:30.541Z",
   "totalEstabelecimentos": 13,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
-      "valorMinimo": 6.948976049982645,
-      "valorMaximo": 6.9907795473595975,
-      "valorMedio": 6.964944964167008
+      "valorMinimo": 6.949652777777778,
+      "valorMaximo": 6.99025069637883,
+      "valorMedio": 6.964892419304103
     },
     "2": {
       "totalPostos": 2,
       "valorMinimo": 7.0100086910202135,
-      "valorMaximo": 7.168458781362007,
-      "valorMedio": 7.08923373619111
+      "valorMaximo": 7.18974358974359,
+      "valorMedio": 7.099876140381902
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 4.989522003792037,
-      "valorMaximo": 5.440405136552722,
-      "valorMedio": 5.276675223148678
+      "valorMinimo": 4.954421877498801,
+      "valorMaximo": 5.400098529101274,
+      "valorMedio": 5.114680803464037
     },
     "4": {
       "totalPostos": 1,
@@ -31,8 +31,8 @@
     "5": {
       "totalPostos": 3,
       "valorMinimo": 6.899738857427892,
-      "valorMaximo": 8.23994726433751,
-      "valorMedio": 7.3598589440493045
+      "valorMaximo": 7.589712464911615,
+      "valorMedio": 7.143129495791233
     }
   },
   "estabelecimentos": [
@@ -50,11 +50,11 @@
       "municipio": "OLHO D'AGUA DAS FLORES",
       "latitude": -9.5301835,
       "longitude": -37.2953869,
-      "valor_minimo": 6.948976049982645,
-      "valor_maximo": 6.948976049982645,
-      "valor_medio": 6.948976049982645,
-      "valor_recente": 6.948976049982645,
-      "data_recente": "2026-04-10T13:07:46Z"
+      "valor_minimo": 6.949652777777778,
+      "valor_maximo": 6.949652777777778,
+      "valor_medio": 6.949652777777778,
+      "valor_recente": 6.949652777777778,
+      "data_recente": "2026-04-10T14:46:47Z"
     },
     {
       "cnpj": "07431049000148",
@@ -74,7 +74,7 @@
       "valor_maximo": 6.959666203059805,
       "valor_medio": 6.959666203059805,
       "valor_recente": 6.959666203059805,
-      "data_recente": "2026-04-10T13:35:25Z"
+      "data_recente": "2026-04-10T15:24:17Z"
     },
     {
       "cnpj": "08841116000165",
@@ -90,11 +90,11 @@
       "municipio": "OLHO D'AGUA DAS FLORES",
       "latitude": -9.5286443,
       "longitude": -37.2953971,
-      "valor_minimo": 6.960358056265985,
-      "valor_maximo": 6.960358056265985,
-      "valor_medio": 6.960358056265985,
-      "valor_recente": 6.960358056265985,
-      "data_recente": "2026-04-10T13:24:08Z"
+      "valor_minimo": 6.96,
+      "valor_maximo": 6.96,
+      "valor_medio": 6.96,
+      "valor_recente": 6.96,
+      "data_recente": "2026-04-10T14:39:18Z"
     },
     {
       "cnpj": "08886885000180",
@@ -110,11 +110,11 @@
       "municipio": "OLHO D'AGUA DAS FLORES",
       "latitude": -9.5409131,
       "longitude": -37.2929781,
-      "valor_minimo": 6.9907795473595975,
-      "valor_maximo": 6.9907795473595975,
-      "valor_medio": 6.9907795473595975,
-      "valor_recente": 6.9907795473595975,
-      "data_recente": "2026-04-10T13:36:52Z"
+      "valor_minimo": 6.99025069637883,
+      "valor_maximo": 6.99025069637883,
+      "valor_medio": 6.99025069637883,
+      "valor_recente": 6.99025069637883,
+      "data_recente": "2026-04-10T15:25:14Z"
     },
     {
       "cnpj": "08841116000165",
@@ -150,11 +150,31 @@
       "municipio": "OLHO D'AGUA DAS FLORES",
       "latitude": -9.5409131,
       "longitude": -37.2929781,
-      "valor_minimo": 7.168458781362007,
-      "valor_maximo": 7.168458781362007,
-      "valor_medio": 7.168458781362007,
-      "valor_recente": 7.168458781362007,
-      "data_recente": "2026-04-10T13:19:38Z"
+      "valor_minimo": 7.18974358974359,
+      "valor_maximo": 7.18974358974359,
+      "valor_medio": 7.18974358974359,
+      "valor_recente": 7.18974358974359,
+      "data_recente": "2026-04-10T14:28:49Z"
+    },
+    {
+      "cnpj": "08886885000180",
+      "tipo_combustivel": 3,
+      "razao_social": "M A J H COMÉRCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA",
+      "nome_fantasia": "AUTO POSTO DOIS IRMAOS",
+      "telefone": "",
+      "nome_logradouro": "AV RUI BARBOSA",
+      "numero_imovel": "718",
+      "bairro": "CENTRO",
+      "cep": "57442000",
+      "codigo_ibge": 2705705,
+      "municipio": "OLHO D'AGUA DAS FLORES",
+      "latitude": -9.5409131,
+      "longitude": -37.2929781,
+      "valor_minimo": 4.954421877498801,
+      "valor_maximo": 4.954421877498801,
+      "valor_medio": 4.954421877498801,
+      "valor_recente": 4.954421877498801,
+      "data_recente": "2026-04-10T15:19:13Z"
     },
     {
       "cnpj": "12261087000130",
@@ -195,26 +215,6 @@
       "valor_medio": 5.400098529101274,
       "valor_recente": 5.400098529101274,
       "data_recente": "2026-04-09T20:26:17Z"
-    },
-    {
-      "cnpj": "08886885000180",
-      "tipo_combustivel": 3,
-      "razao_social": "M A J H COMÉRCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA",
-      "nome_fantasia": "AUTO POSTO DOIS IRMAOS",
-      "telefone": "",
-      "nome_logradouro": "AV RUI BARBOSA",
-      "numero_imovel": "718",
-      "bairro": "CENTRO",
-      "cep": "57442000",
-      "codigo_ibge": 2705705,
-      "municipio": "OLHO D'AGUA DAS FLORES",
-      "latitude": -9.5409131,
-      "longitude": -37.2929781,
-      "valor_minimo": 5.440405136552722,
-      "valor_maximo": 5.440405136552722,
-      "valor_medio": 5.440405136552722,
-      "valor_recente": 5.440405136552722,
-      "data_recente": "2026-04-10T13:23:31Z"
     },
     {
       "cnpj": "12261087000130",
@@ -270,11 +270,11 @@
       "municipio": "OLHO D'AGUA DAS FLORES",
       "latitude": -9.5286443,
       "longitude": -37.2953971,
-      "valor_minimo": 6.939890710382514,
-      "valor_maximo": 6.939890710382514,
-      "valor_medio": 6.939890710382514,
-      "valor_recente": 6.939890710382514,
-      "data_recente": "2026-04-09T23:19:53Z"
+      "valor_minimo": 6.9399371650341894,
+      "valor_maximo": 6.9399371650341894,
+      "valor_medio": 6.9399371650341894,
+      "valor_recente": 6.9399371650341894,
+      "data_recente": "2026-04-10T14:13:14Z"
     },
     {
       "cnpj": "08886885000180",
@@ -290,11 +290,11 @@
       "municipio": "OLHO D'AGUA DAS FLORES",
       "latitude": -9.5409131,
       "longitude": -37.2929781,
-      "valor_minimo": 8.23994726433751,
-      "valor_maximo": 8.23994726433751,
-      "valor_medio": 8.23994726433751,
-      "valor_recente": 8.23994726433751,
-      "data_recente": "2026-04-10T13:26:42Z"
+      "valor_minimo": 7.589712464911615,
+      "valor_maximo": 7.589712464911615,
+      "valor_medio": 7.589712464911615,
+      "valor_recente": 7.589712464911615,
+      "data_recente": "2026-04-10T15:20:05Z"
     }
   ]
 }

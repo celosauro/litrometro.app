@@ -1,20 +1,20 @@
 {
   "codigoIBGE": "2705606",
   "municipio": "Novo Lino",
-  "atualizadoEm": "2026-04-10T15:01:48.549Z",
+  "atualizadoEm": "2026-04-10T16:22:32.546Z",
   "totalEstabelecimentos": 6,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.989213197969543,
-      "valorMaximo": 7.229892992751122,
-      "valorMedio": 7.109553095360333
+      "valorMinimo": 6.95,
+      "valorMaximo": 7.34,
+      "valorMedio": 7.145
     },
     "3": {
       "totalPostos": 2,
       "valorMinimo": 5.58659217877095,
-      "valorMaximo": 5.880005321271784,
-      "valorMedio": 5.733298750021367
+      "valorMaximo": 6.050003604163086,
+      "valorMedio": 5.818297891467018
     },
     "5": {
       "totalPostos": 2,
@@ -24,26 +24,6 @@
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "16674625000179",
-      "tipo_combustivel": 1,
-      "razao_social": "LINENSE AUTO POSTO LTDA - EPP",
-      "nome_fantasia": "AUTO POSTO AMIGAO",
-      "telefone": "",
-      "nome_logradouro": "Rua PROJETADA  24",
-      "numero_imovel": "110",
-      "bairro": "CENTRO",
-      "cep": "57970000",
-      "codigo_ibge": 2705606,
-      "municipio": "NOVO LINO",
-      "latitude": -8.944574,
-      "longitude": -35.666326,
-      "valor_minimo": 6.989213197969543,
-      "valor_maximo": 6.989213197969543,
-      "valor_medio": 6.989213197969543,
-      "valor_recente": 6.989213197969543,
-      "data_recente": "2026-04-10T11:27:20Z"
-    },
     {
       "cnpj": "41163486000247",
       "tipo_combustivel": 1,
@@ -58,11 +38,31 @@
       "municipio": "NOVO LINO",
       "latitude": -8.941455699999999,
       "longitude": -35.6627226,
-      "valor_minimo": 7.229892992751122,
-      "valor_maximo": 7.229892992751122,
-      "valor_medio": 7.229892992751122,
-      "valor_recente": 7.229892992751122,
-      "data_recente": "2026-04-10T13:34:01Z"
+      "valor_minimo": 6.95,
+      "valor_maximo": 6.95,
+      "valor_medio": 6.95,
+      "valor_recente": 6.95,
+      "data_recente": "2026-04-10T15:26:21Z"
+    },
+    {
+      "cnpj": "16674625000179",
+      "tipo_combustivel": 1,
+      "razao_social": "LINENSE AUTO POSTO LTDA - EPP",
+      "nome_fantasia": "AUTO POSTO AMIGAO",
+      "telefone": "",
+      "nome_logradouro": "Rua PROJETADA  24",
+      "numero_imovel": "110",
+      "bairro": "CENTRO",
+      "cep": "57970000",
+      "codigo_ibge": 2705606,
+      "municipio": "NOVO LINO",
+      "latitude": -8.944574,
+      "longitude": -35.666326,
+      "valor_minimo": 7.34,
+      "valor_maximo": 7.34,
+      "valor_medio": 7.34,
+      "valor_recente": 7.34,
+      "data_recente": "2026-04-10T14:38:59Z"
     },
     {
       "cnpj": "16674625000179",
@@ -98,11 +98,11 @@
       "municipio": "NOVO LINO",
       "latitude": -8.941455699999999,
       "longitude": -35.6627226,
-      "valor_minimo": 5.880005321271784,
-      "valor_maximo": 5.880005321271784,
-      "valor_medio": 5.880005321271784,
-      "valor_recente": 5.880005321271784,
-      "data_recente": "2026-04-10T12:34:27Z"
+      "valor_minimo": 6.050003604163086,
+      "valor_maximo": 6.050003604163086,
+      "valor_medio": 6.050003604163086,
+      "valor_recente": 6.050003604163086,
+      "data_recente": "2026-04-10T15:20:57Z"
     },
     {
       "cnpj": "41163486000247",
@@ -122,7 +122,7 @@
       "valor_maximo": 7.54,
       "valor_medio": 7.54,
       "valor_recente": 7.54,
-      "data_recente": "2026-04-10T13:25:39Z"
+      "data_recente": "2026-04-10T15:22:07Z"
     },
     {
       "cnpj": "16674625000179",

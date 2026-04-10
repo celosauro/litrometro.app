@@ -1,20 +1,20 @@
 {
   "codigoIBGE": "2705002",
   "municipio": "Mata Grande",
-  "atualizadoEm": "2026-04-10T14:58:10.964Z",
+  "atualizadoEm": "2026-04-10T16:16:53.570Z",
   "totalEstabelecimentos": 14,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
       "valorMinimo": 6.939625260235947,
-      "valorMaximo": 7.72,
-      "valorMedio": 7.383420654785265
+      "valorMaximo": 7.720139930034983,
+      "valorMedio": 7.38346729813026
     },
     "2": {
       "totalPostos": 5,
-      "valorMinimo": 6.850488097276931,
+      "valorMinimo": 6.850018837551803,
       "valorMaximo": 7.639419404125286,
-      "valorMedio": 7.164392466461064
+      "valorMedio": 7.163881309292128
     },
     "3": {
       "totalPostos": 1,
@@ -24,9 +24,9 @@
     },
     "5": {
       "totalPostos": 5,
-      "valorMinimo": 7.398773006134969,
+      "valorMinimo": 7.396449704142012,
       "valorMaximo": 8.65,
-      "valorMedio": 7.8259512578190895
+      "valorMedio": 7.825107127332553
     }
   },
   "estabelecimentos": [
@@ -68,7 +68,7 @@
       "valor_maximo": 7.49063670411985,
       "valor_medio": 7.49063670411985,
       "valor_recente": 7.49063670411985,
-      "data_recente": "2026-04-10T13:27:40Z"
+      "data_recente": "2026-04-10T15:11:48Z"
     },
     {
       "cnpj": "08850457000105",
@@ -84,11 +84,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1229984,
       "longitude": -37.7355222,
-      "valor_minimo": 7.72,
-      "valor_maximo": 7.72,
-      "valor_medio": 7.72,
-      "valor_recente": 7.72,
-      "data_recente": "2026-04-10T13:18:18Z"
+      "valor_minimo": 7.720139930034983,
+      "valor_maximo": 7.720139930034983,
+      "valor_medio": 7.720139930034983,
+      "valor_recente": 7.720139930034983,
+      "data_recente": "2026-04-10T15:21:58Z"
     },
     {
       "cnpj": "24250482000104",
@@ -104,11 +104,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1186768,
       "longitude": -37.7313914,
-      "valor_minimo": 6.850488097276931,
-      "valor_maximo": 6.850488097276931,
-      "valor_medio": 6.850488097276931,
-      "valor_recente": 6.850488097276931,
-      "data_recente": "2026-04-10T13:06:27Z"
+      "valor_minimo": 6.850018837551803,
+      "valor_maximo": 6.850018837551803,
+      "valor_medio": 6.850018837551803,
+      "valor_recente": 6.850018837551803,
+      "data_recente": "2026-04-10T15:03:04Z"
     },
     {
       "cnpj": "08804741000137",
@@ -144,11 +144,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1184121,
       "longitude": -37.729208,
-      "valor_minimo": 6.940106877645916,
-      "valor_maximo": 6.940106877645916,
-      "valor_medio": 6.940106877645916,
-      "valor_recente": 6.940106877645916,
-      "data_recente": "2026-04-10T13:20:05Z"
+      "valor_minimo": 6.938020351526364,
+      "valor_maximo": 6.938020351526364,
+      "valor_medio": 6.938020351526364,
+      "valor_recente": 6.938020351526364,
+      "data_recente": "2026-04-10T15:19:26Z"
     },
     {
       "cnpj": "08850457000105",
@@ -211,6 +211,26 @@
       "data_recente": "2026-04-09T22:47:49Z"
     },
     {
+      "cnpj": "24250482000104",
+      "tipo_combustivel": 5,
+      "razao_social": "T. LOU DE SOUSA LTDA",
+      "nome_fantasia": "POSTO TEXACO OASIS DO SERTÃO",
+      "telefone": "",
+      "nome_logradouro": " TV PEDRO VIEIRA",
+      "numero_imovel": "15",
+      "bairro": "CENTRO",
+      "cep": "57540000",
+      "codigo_ibge": 2705002,
+      "municipio": "MATA GRANDE",
+      "latitude": -9.1186768,
+      "longitude": -37.7313914,
+      "valor_minimo": 7.396449704142012,
+      "valor_maximo": 7.599939200486396,
+      "valor_medio": 7.498194452314204,
+      "valor_recente": 7.396449704142012,
+      "data_recente": "2026-04-10T15:03:04Z"
+    },
+    {
       "cnpj": "08804741000137",
       "tipo_combustivel": 5,
       "razao_social": "POSTO FARIAS LTDA",
@@ -231,26 +251,6 @@
       "data_recente": "2026-04-09T19:22:48Z"
     },
     {
-      "cnpj": "24250482000104",
-      "tipo_combustivel": 5,
-      "razao_social": "T. LOU DE SOUSA LTDA",
-      "nome_fantasia": "POSTO TEXACO OASIS DO SERTÃO",
-      "telefone": "",
-      "nome_logradouro": " TV PEDRO VIEIRA",
-      "numero_imovel": "15",
-      "bairro": "CENTRO",
-      "cep": "57540000",
-      "codigo_ibge": 2705002,
-      "municipio": "MATA GRANDE",
-      "latitude": -9.1186768,
-      "longitude": -37.7313914,
-      "valor_minimo": 7.4008207934336525,
-      "valor_maximo": 7.599939200486396,
-      "valor_medio": 7.500379996960024,
-      "valor_recente": 7.4008207934336525,
-      "data_recente": "2026-04-10T13:06:27Z"
-    },
-    {
       "cnpj": "13240923000162",
       "tipo_combustivel": 5,
       "razao_social": "AUTO POSTO PRIMOS LTDA",
@@ -264,11 +264,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1184121,
       "longitude": -37.729208,
-      "valor_minimo": 7.440215225189318,
-      "valor_maximo": 7.440215225189318,
-      "valor_medio": 7.440215225189318,
-      "valor_recente": 7.440215225189318,
-      "data_recente": "2026-04-10T13:07:49Z"
+      "valor_minimo": 7.440365662048279,
+      "valor_maximo": 7.440365662048279,
+      "valor_medio": 7.440365662048279,
+      "valor_recente": 7.440365662048279,
+      "data_recente": "2026-04-10T15:17:41Z"
     },
     {
       "cnpj": "09419389000189",
@@ -308,7 +308,7 @@
       "valor_maximo": 8.65,
       "valor_medio": 8.65,
       "valor_recente": 8.65,
-      "data_recente": "2026-04-10T12:49:44Z"
+      "data_recente": "2026-04-10T14:56:42Z"
     }
   ]
 }
