@@ -1,0 +1,62 @@
+{
+  "codigoIBGE": "2701100",
+  "municipio": "Branquinha",
+  "atualizadoEm": "2026-04-10T11:34:35.534Z",
+  "totalEstabelecimentos": 2,
+  "combustiveis": {
+    "1": {
+      "totalPostos": 1,
+      "valorMinimo": 6.988120195667365,
+      "valorMaximo": 6.988120195667365,
+      "valorMedio": 6.988120195667365
+    },
+    "5": {
+      "totalPostos": 1,
+      "valorMinimo": 7.620208793720948,
+      "valorMaximo": 7.620208793720948,
+      "valorMedio": 7.620208793720948
+    }
+  },
+  "estabelecimentos": [
+    {
+      "cnpj": "26718857000216",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO TRIUNFO LTDA",
+      "nome_fantasia": "POSTO TRIUNFO",
+      "telefone": "(82) 988112608",
+      "nome_logradouro": "Rua DR PRADO OMENA",
+      "numero_imovel": "280",
+      "bairro": "CENTRO",
+      "cep": "57830000",
+      "codigo_ibge": 2701100,
+      "municipio": "BRANQUINHA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.988120195667365,
+      "valor_maximo": 6.988120195667365,
+      "valor_medio": 6.988120195667365,
+      "valor_recente": 6.988120195667365,
+      "data_recente": "2026-04-10T00:38:21Z"
+    },
+    {
+      "cnpj": "26718857000216",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO TRIUNFO LTDA",
+      "nome_fantasia": "POSTO TRIUNFO",
+      "telefone": "(82) 988112608",
+      "nome_logradouro": "Rua DR PRADO OMENA",
+      "numero_imovel": "280",
+      "bairro": "CENTRO",
+      "cep": "57830000",
+      "codigo_ibge": 2701100,
+      "municipio": "BRANQUINHA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.620208793720948,
+      "valor_maximo": 7.620208793720948,
+      "valor_medio": 7.620208793720948,
+      "valor_recente": 7.620208793720948,
+      "data_recente": "2026-04-10T01:02:12Z"
+    }
+  ]
+}
