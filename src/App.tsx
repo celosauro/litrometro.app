@@ -1,13 +1,16 @@
 import { useState, useMemo, useEffect } from 'react';
-import { GasPump, MagnifyingGlass, ArrowsClockwise, Crosshair } from '@phosphor-icons/react';
+import { GasPump, MagnifyingGlass, ArrowsClockwise, Crosshair, List, MapTrifold } from '@phosphor-icons/react';
 import { usePrecosCombustiveis } from './hooks/usePrecosCombustiveis';
 import { useGeolocalizacao } from './hooks/useGeolocalizacao';
 import { CardCombustivel } from './components/FuelCard';
 import { SeletorTipoCombustivel } from './components/FuelTypeSelector';
 import { SeletorMunicipio } from './components/MunicipioSelector';
 import { SeletorOrdenacao, type OpcaoOrdenacao } from './components/SortSelector';
+import { MapaEstabelecimentos } from './components/MapaEstabelecimentos';
 import { calcularDistanciaKm } from './utils/distancia';
 import type { TipoCombustivel, PrecoCombustivelResumo } from './types';
+
+type VisualizacaoAtual = 'lista' | 'mapa';
 
 interface DadosComDistancia extends PrecoCombustivelResumo {
   distancia?: number;
@@ -18,6 +21,7 @@ export default function App() {
   const [municipioSelecionado, setMunicipioSelecionado] = useState<string>('');
   const [ordenarPor, setOrdenarPor] = useState<OpcaoOrdenacao>('preco_asc');
   const [termoBusca, setTermoBusca] = useState('');
+  const [visualizacao, setVisualizacao] = useState<VisualizacaoAtual>('lista');
 
   const { dados, carregando, erro, recarregar, ultimaAtualizacao } = usePrecosCombustiveis({
     tipoCombustivel: tipoCombustivelSelecionado,
@@ -189,6 +193,34 @@ export default function App() {
                 />
                 <span className="hidden sm:inline">Atualizar</span>
               </button>
+
+              {/* Toggle Lista/Mapa */}
+              <div className="flex rounded-lg overflow-hidden border border-gray-300">
+                <button
+                  onClick={() => setVisualizacao('lista')}
+                  className={`flex items-center justify-center px-3 py-2 transition-colors ${
+                    visualizacao === 'lista'
+                      ? 'bg-blue-600 text-white'
+                      : 'bg-white text-gray-600 hover:bg-gray-100'
+                  }`}
+                  aria-label="Ver lista"
+                  title="Ver lista"
+                >
+                  <List size={18} className="sm:w-5 sm:h-5" />
+                </button>
+                <button
+                  onClick={() => setVisualizacao('mapa')}
+                  className={`flex items-center justify-center px-3 py-2 transition-colors ${
+                    visualizacao === 'mapa'
+                      ? 'bg-blue-600 text-white'
+                      : 'bg-white text-gray-600 hover:bg-gray-100'
+                  }`}
+                  aria-label="Ver no mapa"
+                  title="Ver no mapa"
+                >
+                  <MapTrifold size={18} className="sm:w-5 sm:h-5" />
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -229,7 +261,7 @@ export default function App() {
         )}
 
         {/* Lista de postos */}
-        {!carregando && !carregandoLocalizacao && dadosFiltrados && (
+        {!carregando && !carregandoLocalizacao && dadosFiltrados && visualizacao === 'lista' && (
           <>
             <div className="flex items-center justify-between mb-3 sm:mb-4">
               <p className="text-sm sm:text-base text-gray-600">
@@ -257,6 +289,15 @@ export default function App() {
               </div>
             )}
           </>
+        )}
+
+        {/* Visualização em mapa */}
+        {!carregando && !carregandoLocalizacao && dadosFiltrados && visualizacao === 'mapa' && (
+          <MapaEstabelecimentos
+            dados={dadosFiltrados}
+            localizacao={localizacao}
+            tipoCombustivel={tipoCombustivelSelecionado}
+          />
         )}
       </main>
 
