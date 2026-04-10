@@ -529,7 +529,9 @@ async function main(): Promise<void> {
 
   // Valida token
   if (!SEFAZ_APP_TOKEN) {
-    console.error('❌ SEFAZ_APP_TOKEN não configurado no .env');
+    console.error('❌ SEFAZ_APP_TOKEN não configurado!');
+    console.error('   - Local: configure no arquivo .env');
+    console.error('   - GitHub Actions: configure em Settings → Secrets → SEFAZ_APP_TOKEN');
     process.exit(1);
   }
   console.log(`✓ Token configurado`);
