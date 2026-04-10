@@ -1,41 +1,61 @@
 {
   "codigoIBGE": "2700706",
   "municipio": "Batalha",
-  "atualizadoEm": "2026-04-10T15:43:57.756Z",
+  "atualizadoEm": "2026-04-10T17:45:42.434Z",
   "totalEstabelecimentos": 13,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
-      "valorMinimo": 6.799945600435197,
-      "valorMaximo": 7.079144839303412,
-      "valorMedio": 6.915013840832636
+      "valorMinimo": 5.749936852740591,
+      "valorMaximo": 6.98,
+      "valorMedio": 6.582538548076555
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.979094076655052,
+      "valorMinimo": 6.979529313466091,
       "valorMaximo": 7.173601147776184,
-      "valorMedio": 7.076347612215618
+      "valorMedio": 7.076565230621137
     },
     "3": {
       "totalPostos": 2,
       "valorMinimo": 5.2493438320209975,
-      "valorMaximo": 6.179514908079716,
-      "valorMedio": 5.714429370050357
+      "valorMaximo": 6.17970584600173,
+      "valorMedio": 5.714524839011364
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 8.5,
-      "valorMaximo": 8.5,
-      "valorMedio": 8.5
+      "valorMinimo": 8.499151103565366,
+      "valorMaximo": 8.499151103565366,
+      "valorMedio": 8.499151103565366
     },
     "5": {
       "totalPostos": 4,
       "valorMinimo": 7.3,
-      "valorMaximo": 7.819933009240554,
-      "valorMedio": 7.614952338275702
+      "valorMaximo": 7.819219641879741,
+      "valorMedio": 7.614804979444793
     }
   },
   "estabelecimentos": [
+    {
+      "cnpj": "11206098000154",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO POUSADA NOVO HORIZONTE LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 41021750",
+      "nome_logradouro": "ROD SENADOR TEOTONIO VILELA (AL - 220)",
+      "numero_imovel": "265",
+      "bairro": "SAO JOSE",
+      "cep": "57420670",
+      "codigo_ibge": 2700706,
+      "municipio": "BATALHA",
+      "latitude": -9.674948,
+      "longitude": -37.125839,
+      "valor_minimo": 5.749936852740591,
+      "valor_maximo": 5.749936852740591,
+      "valor_medio": 5.749936852740591,
+      "valor_recente": 5.749936852740591,
+      "data_recente": "2026-04-10T15:23:25Z"
+    },
     {
       "cnpj": "15739214000151",
       "tipo_combustivel": 1,
@@ -54,7 +74,7 @@
       "valor_maximo": 6.799945600435197,
       "valor_medio": 6.799945600435197,
       "valor_recente": 6.799945600435197,
-      "data_recente": "2026-04-10T13:22:17Z"
+      "data_recente": "2026-04-10T14:28:59Z"
     },
     {
       "cnpj": "11376961000111",
@@ -74,7 +94,7 @@
       "valor_maximo": 6.800271739130435,
       "valor_medio": 6.800271739130435,
       "valor_recente": 6.800271739130435,
-      "data_recente": "2026-04-10T12:43:24Z"
+      "data_recente": "2026-04-10T15:26:46Z"
     },
     {
       "cnpj": "12204558000178",
@@ -90,31 +110,11 @@
       "municipio": "BATALHA",
       "latitude": -9.674044,
       "longitude": -37.128221,
-      "valor_minimo": 6.9806931844615026,
-      "valor_maximo": 6.9806931844615026,
-      "valor_medio": 6.9806931844615026,
-      "valor_recente": 6.9806931844615026,
-      "data_recente": "2026-04-10T13:34:17Z"
-    },
-    {
-      "cnpj": "11206098000154",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO POUSADA NOVO HORIZONTE LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 41021750",
-      "nome_logradouro": "ROD SENADOR TEOTONIO VILELA (AL - 220)",
-      "numero_imovel": "265",
-      "bairro": "SAO JOSE",
-      "cep": "57420670",
-      "codigo_ibge": 2700706,
-      "municipio": "BATALHA",
-      "latitude": -9.674948,
-      "longitude": -37.125839,
-      "valor_minimo": 7.079144839303412,
-      "valor_maximo": 7.079144839303412,
-      "valor_medio": 7.079144839303412,
-      "valor_recente": 7.079144839303412,
-      "data_recente": "2026-04-10T13:30:23Z"
+      "valor_minimo": 6.98,
+      "valor_maximo": 6.98,
+      "valor_medio": 6.98,
+      "valor_recente": 6.98,
+      "data_recente": "2026-04-10T15:25:01Z"
     },
     {
       "cnpj": "12204558000178",
@@ -130,11 +130,11 @@
       "municipio": "BATALHA",
       "latitude": -9.674044,
       "longitude": -37.128221,
-      "valor_minimo": 6.979094076655052,
-      "valor_maximo": 6.979094076655052,
-      "valor_medio": 6.979094076655052,
-      "valor_recente": 6.979094076655052,
-      "data_recente": "2026-04-10T13:13:44Z"
+      "valor_minimo": 6.979529313466091,
+      "valor_maximo": 6.979529313466091,
+      "valor_medio": 6.979529313466091,
+      "valor_recente": 6.979529313466091,
+      "data_recente": "2026-04-10T15:17:39Z"
     },
     {
       "cnpj": "11206098000154",
@@ -190,11 +190,11 @@
       "municipio": "BATALHA",
       "latitude": -9.674948,
       "longitude": -37.125839,
-      "valor_minimo": 6.179514908079716,
-      "valor_maximo": 6.179514908079716,
-      "valor_medio": 6.179514908079716,
-      "valor_recente": 6.179514908079716,
-      "data_recente": "2026-04-10T11:58:40Z"
+      "valor_minimo": 6.17970584600173,
+      "valor_maximo": 6.17970584600173,
+      "valor_medio": 6.17970584600173,
+      "valor_recente": 6.17970584600173,
+      "data_recente": "2026-04-10T15:23:25Z"
     },
     {
       "cnpj": "15739214000151",
@@ -210,11 +210,11 @@
       "municipio": "BATALHA",
       "latitude": -9.7734693,
       "longitude": -36.0966998,
-      "valor_minimo": 8.5,
-      "valor_maximo": 8.5,
-      "valor_medio": 8.5,
-      "valor_recente": 8.5,
-      "data_recente": "2026-04-10T09:02:38Z"
+      "valor_minimo": 8.499151103565366,
+      "valor_maximo": 8.499151103565366,
+      "valor_medio": 8.499151103565366,
+      "valor_recente": 8.499151103565366,
+      "data_recente": "2026-04-10T14:28:59Z"
     },
     {
       "cnpj": "15739214000151",
@@ -234,7 +234,7 @@
       "valor_maximo": 7.3,
       "valor_medio": 7.3,
       "valor_recente": 7.3,
-      "data_recente": "2026-04-10T09:02:38Z"
+      "data_recente": "2026-04-10T14:28:59Z"
     },
     {
       "cnpj": "11376961000111",
@@ -254,7 +254,7 @@
       "valor_maximo": 7.649938800489596,
       "valor_medio": 7.649938800489596,
       "valor_recente": 7.649938800489596,
-      "data_recente": "2026-04-10T11:18:10Z"
+      "data_recente": "2026-04-10T15:14:25Z"
     },
     {
       "cnpj": "12204558000178",
@@ -270,11 +270,11 @@
       "municipio": "BATALHA",
       "latitude": -9.674044,
       "longitude": -37.128221,
-      "valor_minimo": 7.689937543372658,
-      "valor_maximo": 7.689937543372658,
-      "valor_medio": 7.689937543372658,
-      "valor_recente": 7.689937543372658,
-      "data_recente": "2026-04-10T13:33:41Z"
+      "valor_minimo": 7.690061475409836,
+      "valor_maximo": 7.690061475409836,
+      "valor_medio": 7.690061475409836,
+      "valor_recente": 7.690061475409836,
+      "data_recente": "2026-04-10T15:24:03Z"
     },
     {
       "cnpj": "11206098000154",
@@ -290,11 +290,11 @@
       "municipio": "BATALHA",
       "latitude": -9.674948,
       "longitude": -37.125839,
-      "valor_minimo": 7.819933009240554,
-      "valor_maximo": 7.819933009240554,
-      "valor_medio": 7.819933009240554,
-      "valor_recente": 7.819933009240554,
-      "data_recente": "2026-04-10T12:34:29Z"
+      "valor_minimo": 7.819219641879741,
+      "valor_maximo": 7.819219641879741,
+      "valor_medio": 7.819219641879741,
+      "valor_recente": 7.819219641879741,
+      "data_recente": "2026-04-10T15:26:54Z"
     }
   ]
 }
