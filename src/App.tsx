@@ -1,11 +1,17 @@
-import { useState } from 'react';
-import { GasPump, MagnifyingGlass, ArrowsClockwise } from '@phosphor-icons/react';
+import { useState, useMemo, useEffect } from 'react';
+import { GasPump, MagnifyingGlass, ArrowsClockwise, Crosshair } from '@phosphor-icons/react';
 import { usePrecosCombustiveis } from './hooks/usePrecosCombustiveis';
+import { useGeolocalizacao } from './hooks/useGeolocalizacao';
 import { CardCombustivel } from './components/FuelCard';
 import { SeletorTipoCombustivel } from './components/FuelTypeSelector';
 import { SeletorMunicipio } from './components/MunicipioSelector';
 import { SeletorOrdenacao, type OpcaoOrdenacao } from './components/SortSelector';
-import type { TipoCombustivel } from './types';
+import { calcularDistanciaKm } from './utils/distancia';
+import type { TipoCombustivel, PrecoCombustivelResumo } from './types';
+
+interface DadosComDistancia extends PrecoCombustivelResumo {
+  distancia?: number;
+}
 
 export default function App() {
   const [tipoCombustivelSelecionado, setTipoCombustivelSelecionado] = useState<TipoCombustivel>(1);
@@ -18,8 +24,42 @@ export default function App() {
     codigoIBGE: municipioSelecionado || undefined,
   });
 
+  const { 
+    localizacao, 
+    carregando: carregandoLocalizacao, 
+    erro: erroLocalizacao,
+    obterLocalizacao 
+  } = useGeolocalizacao();
+
+  // Ordena por distância automaticamente quando localização for obtida
+  useEffect(() => {
+    if (localizacao) {
+      setOrdenarPor('distancia');
+    }
+  }, [localizacao]);
+
+  // Calcula distância para cada estabelecimento
+  const dadosComDistancia: DadosComDistancia[] | undefined = useMemo(() => {
+    if (!dados) return undefined;
+    
+    return dados.map(item => {
+      let distancia: number | undefined;
+      
+      if (localizacao && item.latitude !== 0 && item.longitude !== 0) {
+        distancia = calcularDistanciaKm(
+          localizacao.latitude,
+          localizacao.longitude,
+          item.latitude,
+          item.longitude
+        );
+      }
+      
+      return { ...item, distancia };
+    });
+  }, [dados, localizacao]);
+
   // Filtra e ordena os dados
-  const dadosFiltrados = dados
+  const dadosFiltrados = dadosComDistancia
     ?.filter((item) => {
       if (!termoBusca) return true;
       const busca = termoBusca.toLowerCase();
@@ -37,6 +77,11 @@ export default function App() {
           return b.valor_recente - a.valor_recente;
         case 'data':
           return new Date(b.data_recente).getTime() - new Date(a.data_recente).getTime();
+        case 'distancia':
+          // Estabelecimentos sem distância ficam no final
+          const distA = a.distancia ?? Infinity;
+          const distB = b.distancia ?? Infinity;
+          return distA - distB;
         default:
           return 0;
       }
@@ -108,8 +153,28 @@ export default function App() {
 
               {/* Ordenação */}
               <div className="flex-1 sm:flex-none">
-                <SeletorOrdenacao selecionado={ordenarPor} aoMudar={setOrdenarPor} />
+                <SeletorOrdenacao 
+                  selecionado={ordenarPor} 
+                  aoMudar={setOrdenarPor}
+                  localizacaoDisponivel={!!localizacao}
+                />
               </div>
+
+              {/* Botão localização */}
+              <button
+                onClick={obterLocalizacao}
+                disabled={carregandoLocalizacao}
+                className={`btn-secondary flex items-center justify-center gap-2 px-3 sm:px-4 ${
+                  localizacao ? 'bg-green-100 text-green-700 border-green-300' : ''
+                }`}
+                aria-label="Obter localização"
+                title={localizacao ? 'Localização obtida' : 'Obter minha localização'}
+              >
+                <Crosshair
+                  size={18}
+                  className={`sm:w-5 sm:h-5 ${carregandoLocalizacao ? 'animate-pulse' : ''}`}
+                />
+              </button>
 
               {/* Botão atualizar */}
               <button
@@ -138,15 +203,33 @@ export default function App() {
           </div>
         )}
 
-        {/* Estado de loading */}
-        {carregando && (
-          <div className="flex items-center justify-center py-12">
+        {/* Erro de localização */}
+        {erroLocalizacao && (
+          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 sm:p-4 mb-4 sm:mb-6">
+            <p className="text-yellow-700 text-sm sm:text-base">📍 {erroLocalizacao}</p>
+          </div>
+        )}
+
+        {/* Indicador de localização obtida */}
+        {localizacao && (
+          <div className="bg-green-50 border border-green-200 rounded-lg p-2 sm:p-3 mb-4 sm:mb-6 flex items-center gap-2 text-sm text-green-700">
+            <Crosshair size={16} />
+            <span>Localização obtida - ordenando por proximidade disponível</span>
+          </div>
+        )}
+
+        {/* Estado de loading - dados ou localização */}
+        {(carregando || carregandoLocalizacao) && (
+          <div className="flex flex-col items-center justify-center py-12">
             <div className="animate-spin rounded-full h-10 w-10 sm:h-12 sm:w-12 border-4 border-blue-600 border-t-transparent" />
+            {carregandoLocalizacao && (
+              <p className="mt-4 text-sm text-gray-500">Obtendo sua localização...</p>
+            )}
           </div>
         )}
 
         {/* Lista de postos */}
-        {!carregando && dadosFiltrados && (
+        {!carregando && !carregandoLocalizacao && dadosFiltrados && (
           <>
             <div className="flex items-center justify-between mb-3 sm:mb-4">
               <p className="text-sm sm:text-base text-gray-600">
@@ -165,7 +248,11 @@ export default function App() {
             ) : (
               <div className="grid gap-3 sm:gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                 {dadosFiltrados.map((item) => (
-                  <CardCombustivel key={`${item.cnpj}-${item.tipo_combustivel}`} dados={item} />
+                  <CardCombustivel 
+                    key={`${item.cnpj}-${item.tipo_combustivel}`} 
+                    dados={item}
+                    distancia={item.distancia}
+                  />
                 ))}
               </div>
             )}

@@ -1,19 +1,21 @@
 import { CaretDown } from '@phosphor-icons/react';
 
-type OpcaoOrdenacao = 'preco_asc' | 'preco_desc' | 'data';
+type OpcaoOrdenacao = 'preco_asc' | 'preco_desc' | 'data' | 'distancia';
 
 interface SeletorOrdenacaoProps {
   selecionado: OpcaoOrdenacao;
   aoMudar: (opcao: OpcaoOrdenacao) => void;
+  localizacaoDisponivel?: boolean;
 }
 
-const opcoesOrdenacao: { valor: OpcaoOrdenacao; rotulo: string }[] = [
+const opcoesOrdenacao: { valor: OpcaoOrdenacao; rotulo: string; requerLocalizacao?: boolean }[] = [
   { valor: 'preco_asc', rotulo: 'Menor preço' },
   { valor: 'preco_desc', rotulo: 'Maior preço' },
   { valor: 'data', rotulo: 'Mais recente' },
+  { valor: 'distancia', rotulo: 'Mais próximo', requerLocalizacao: true },
 ];
 
-export function SeletorOrdenacao({ selecionado, aoMudar }: SeletorOrdenacaoProps) {
+export function SeletorOrdenacao({ selecionado, aoMudar, localizacaoDisponivel = false }: SeletorOrdenacaoProps) {
   return (
     <div className="relative w-full sm:w-auto sm:min-w-[160px]">
       <select
@@ -22,8 +24,12 @@ export function SeletorOrdenacao({ selecionado, aoMudar }: SeletorOrdenacaoProps
         className="w-full appearance-none pl-3 pr-8 sm:pl-4 sm:pr-10 py-2 text-sm sm:text-base border border-gray-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-500 focus:border-transparent cursor-pointer"
       >
         {opcoesOrdenacao.map((opcao) => (
-          <option key={opcao.valor} value={opcao.valor}>
-            {opcao.rotulo}
+          <option 
+            key={opcao.valor} 
+            value={opcao.valor}
+            disabled={opcao.requerLocalizacao && !localizacaoDisponivel}
+          >
+            {opcao.rotulo}{opcao.requerLocalizacao && !localizacaoDisponivel ? ' 📍' : ''}
           </option>
         ))}
       </select>

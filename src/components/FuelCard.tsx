@@ -1,12 +1,14 @@
-import { MapPin, Phone, Clock, TrendUp, TrendDown } from '@phosphor-icons/react';
+import { MapPin, Phone, Clock, TrendUp, TrendDown, NavigationArrow } from '@phosphor-icons/react';
 import type { PrecoCombustivelResumo, TipoCombustivel } from '../types';
 import { TIPOS_COMBUSTIVEL, CORES_COMBUSTIVEL } from '../types';
+import { formatarDistancia } from '../utils/distancia';
 
 interface CardCombustivelProps {
   dados: PrecoCombustivelResumo;
+  distancia?: number;
 }
 
-export function CardCombustivel({ dados }: CardCombustivelProps) {
+export function CardCombustivel({ dados, distancia }: CardCombustivelProps) {
   const tipoCombustivel = dados.tipo_combustivel as TipoCombustivel;
   const nomeCombustivel = TIPOS_COMBUSTIVEL[tipoCombustivel];
   const corCombustivel = CORES_COMBUSTIVEL[tipoCombustivel];
@@ -45,9 +47,17 @@ export function CardCombustivel({ dados }: CardCombustivelProps) {
       {/* Header com badge */}
       <div className="px-3 pt-3 pb-1.5 sm:px-4 sm:pt-4 sm:pb-2 flex items-start justify-between gap-2">
         <div className="flex-1 min-w-0">
-          <h3 className="font-semibold text-gray-900 truncate text-sm sm:text-base" title={nomeExibicao}>
-            {nomeExibicao}
-          </h3>
+          <div className="flex items-center gap-2">
+            <h3 className="font-semibold text-gray-900 truncate text-sm sm:text-base" title={nomeExibicao}>
+              {nomeExibicao}
+            </h3>
+            {distancia !== undefined && (
+              <span className="flex items-center gap-0.5 text-xs text-blue-600 bg-blue-50 px-1.5 py-0.5 rounded-full flex-shrink-0">
+                <NavigationArrow size={12} />
+                {formatarDistancia(distancia)}
+              </span>
+            )}
+          </div>
           <p className="text-xs sm:text-sm text-gray-500 truncate" title={dados.municipio}>
             {dados.municipio}
           </p>
