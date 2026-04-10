@@ -463,35 +463,47 @@ function criarResumoMunicipio(
 function salvarHistorico(
   codigoIBGE: string,
   vendas: VendaCombustivel[],
-  data: string
+  data: string,
+  tipoCombustivel: TipoCombustivel
 ): void {
-  const historicoDiario: HistoricoDiario = {
-    data,
-    codigoIBGE,
-    municipio: MUNICIPIOS_AL[codigoIBGE] || codigoIBGE,
-    coletadoEm: new Date().toISOString(),
-    vendas: vendas.map(v => ({
-      cnpj: v.estabelecimento.cnpj,
-      tipo_combustivel: Number(v.produto.codigo.charAt(0)) as TipoCombustivel || 1,
-      valor_venda: v.produto.venda.valorVenda,
-      data_venda: v.produto.venda.dataVenda,
-    })),
-  };
+  if (vendas.length === 0) return;
+
+  const novasVendas = vendas.map(v => ({
+    cnpj: v.estabelecimento.cnpj,
+    tipo_combustivel: tipoCombustivel,
+    valor_venda: v.produto.venda.valorVenda,
+    data_venda: v.produto.venda.dataVenda,
+  }));
 
   const caminhoHistorico = path.join(DADOS_DIR, 'historico', data, `${codigoIBGE}.json`);
   
   // Carrega histórico existente e faz merge
   const historicoExistente = carregarJSON<HistoricoDiario>(caminhoHistorico);
+  
+  let vendasFinais = novasVendas;
+  
   if (historicoExistente) {
-    // Evita duplicatas usando combinação de cnpj + data_venda
+    // Evita duplicatas usando cnpj + tipo + data_venda + valor (para maior precisão)
     const vendasExistentes = new Set(
-      historicoExistente.vendas.map(v => `${v.cnpj}-${v.data_venda}`)
+      historicoExistente.vendas.map(v => 
+        `${v.cnpj}-${v.tipo_combustivel}-${v.data_venda}-${v.valor_venda.toFixed(5)}`
+      )
     );
-    const novasVendas = historicoDiario.vendas.filter(
-      v => !vendasExistentes.has(`${v.cnpj}-${v.data_venda}`)
+    const vendasUnicas = novasVendas.filter(
+      v => !vendasExistentes.has(
+        `${v.cnpj}-${v.tipo_combustivel}-${v.data_venda}-${v.valor_venda.toFixed(5)}`
+      )
     );
-    historicoDiario.vendas = [...historicoExistente.vendas, ...novasVendas];
+    vendasFinais = [...historicoExistente.vendas, ...vendasUnicas];
   }
+
+  const historicoDiario: HistoricoDiario = {
+    data,
+    codigoIBGE,
+    municipio: MUNICIPIOS_AL[codigoIBGE] || codigoIBGE,
+    coletadoEm: new Date().toISOString(),
+    vendas: vendasFinais,
+  };
 
   salvarJSON(caminhoHistorico, historicoDiario);
 }
@@ -549,6 +561,9 @@ async function main(): Promise<void> {
         const resumos = sumarizarPorEstabelecimento(vendas, tipoCombustivel);
         estabelecimentosMunicipio.push(...resumos);
         
+        // Salva histórico por tipo de combustível (corrige bug do tipo incorreto)
+        salvarHistorico(codigoIBGE, vendas, dataHoje, tipoCombustivel);
+        
         // Mostra faixa de preço
         if (resumos.length > 0) {
           const precos = resumos.map(r => r.valor_recente);
@@ -569,9 +584,6 @@ async function main(): Promise<void> {
       const resumoMunicipio = criarResumoMunicipio(codigoIBGE, estabelecimentosMunicipio);
       const caminhoMunicipio = path.join(DADOS_DIR, 'municipios', `${codigoIBGE}.json`);
       salvarJSON(caminhoMunicipio, resumoMunicipio);
-      
-      // Salva histórico do dia
-      salvarHistorico(codigoIBGE, vendasMunicipio, dataHoje);
       
       // Adiciona aos totais
       todosEstabelecimentos.push(...estabelecimentosMunicipio);
