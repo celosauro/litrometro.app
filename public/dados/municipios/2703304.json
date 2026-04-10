@@ -1,20 +1,20 @@
 {
   "codigoIBGE": "2703304",
   "municipio": "Inhapi",
-  "atualizadoEm": "2026-04-10T11:47:48.046Z",
+  "atualizadoEm": "2026-04-10T14:43:48.647Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
       "valorMinimo": 6.988120195667365,
-      "valorMaximo": 6.990023752969121,
-      "valorMedio": 6.989297439231734
+      "valorMaximo": 6.989748369058714,
+      "valorMedio": 6.989205644594931
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 4.499039253362613,
-      "valorMaximo": 5.489679402722881,
-      "valorMedio": 4.994359328042747
+      "valorMinimo": 5.489679402722881,
+      "valorMaximo": 5.489980785067252,
+      "valorMedio": 5.489830093895066
     },
     "5": {
       "totalPostos": 3,
@@ -24,26 +24,6 @@
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "02850879000196",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO ALVES LTDA",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": " POVOADO LEOBINO",
-      "numero_imovel": "12",
-      "bairro": "ZONA RURAL",
-      "cep": "57545000",
-      "codigo_ibge": 2703304,
-      "municipio": "INHAPI",
-      "latitude": -9.2648351,
-      "longitude": -37.7312552,
-      "valor_minimo": 6.988120195667365,
-      "valor_maximo": 6.988120195667365,
-      "valor_medio": 6.988120195667365,
-      "valor_recente": 6.988120195667365,
-      "data_recente": "2026-04-10T11:24:47Z"
-    },
     {
       "cnpj": "02850879000277",
       "tipo_combustivel": 1,
@@ -58,11 +38,11 @@
       "municipio": "INHAPI",
       "latitude": -9.216866,
       "longitude": -37.7460976,
-      "valor_minimo": 6.989748369058714,
-      "valor_maximo": 6.989748369058714,
-      "valor_medio": 6.989748369058714,
-      "valor_recente": 6.989748369058714,
-      "data_recente": "2026-04-10T11:32:21Z"
+      "valor_minimo": 6.988120195667365,
+      "valor_maximo": 6.988120195667365,
+      "valor_medio": 6.988120195667365,
+      "valor_recente": 6.988120195667365,
+      "data_recente": "2026-04-10T13:36:12Z"
     },
     {
       "cnpj": "13222947000199",
@@ -78,31 +58,31 @@
       "municipio": "INHAPI",
       "latitude": -9.216866,
       "longitude": -37.7460976,
-      "valor_minimo": 6.990023752969121,
-      "valor_maximo": 6.990023752969121,
-      "valor_medio": 6.990023752969121,
-      "valor_recente": 6.990023752969121,
-      "data_recente": "2026-04-10T11:29:26Z"
+      "valor_minimo": 6.989748369058714,
+      "valor_maximo": 6.989748369058714,
+      "valor_medio": 6.989748369058714,
+      "valor_recente": 6.989748369058714,
+      "data_recente": "2026-04-10T13:10:13Z"
     },
     {
-      "cnpj": "02850879000277",
-      "tipo_combustivel": 3,
+      "cnpj": "02850879000196",
+      "tipo_combustivel": 1,
       "razao_social": "AUTO POSTO ALVES LTDA",
-      "nome_fantasia": "AUTO POSTO ALVES",
+      "nome_fantasia": "",
       "telefone": "",
-      "nome_logradouro": "AV POMPILIO BRANDAO DE ALCANTARA",
-      "numero_imovel": "1192",
-      "bairro": "CENTRO",
+      "nome_logradouro": " POVOADO LEOBINO",
+      "numero_imovel": "12",
+      "bairro": "ZONA RURAL",
       "cep": "57545000",
       "codigo_ibge": 2703304,
       "municipio": "INHAPI",
-      "latitude": -9.216866,
-      "longitude": -37.7460976,
-      "valor_minimo": 4.499039253362613,
-      "valor_maximo": 4.499039253362613,
-      "valor_medio": 4.499039253362613,
-      "valor_recente": 4.499039253362613,
-      "data_recente": "2026-04-09T23:06:18Z"
+      "latitude": -9.2648351,
+      "longitude": -37.7312552,
+      "valor_minimo": 6.989748369058714,
+      "valor_maximo": 6.989748369058714,
+      "valor_medio": 6.989748369058714,
+      "valor_recente": 6.989748369058714,
+      "data_recente": "2026-04-10T13:36:16Z"
     },
     {
       "cnpj": "02850879000196",
@@ -126,6 +106,26 @@
     },
     {
       "cnpj": "02850879000277",
+      "tipo_combustivel": 3,
+      "razao_social": "AUTO POSTO ALVES LTDA",
+      "nome_fantasia": "AUTO POSTO ALVES",
+      "telefone": "",
+      "nome_logradouro": "AV POMPILIO BRANDAO DE ALCANTARA",
+      "numero_imovel": "1192",
+      "bairro": "CENTRO",
+      "cep": "57545000",
+      "codigo_ibge": 2703304,
+      "municipio": "INHAPI",
+      "latitude": -9.216866,
+      "longitude": -37.7460976,
+      "valor_minimo": 5.489980785067252,
+      "valor_maximo": 5.489980785067252,
+      "valor_medio": 5.489980785067252,
+      "valor_recente": 5.489980785067252,
+      "data_recente": "2026-04-10T11:55:19Z"
+    },
+    {
+      "cnpj": "02850879000277",
       "tipo_combustivel": 5,
       "razao_social": "AUTO POSTO ALVES LTDA",
       "nome_fantasia": "AUTO POSTO ALVES",
@@ -142,7 +142,7 @@
       "valor_maximo": 6.11,
       "valor_medio": 6.11,
       "valor_recente": 6.11,
-      "data_recente": "2026-04-10T11:17:12Z"
+      "data_recente": "2026-04-10T13:19:49Z"
     },
     {
       "cnpj": "13222947000199",
@@ -182,7 +182,7 @@
       "valor_maximo": 7.689941556444171,
       "valor_medio": 7.689941556444171,
       "valor_recente": 7.689941556444171,
-      "data_recente": "2026-04-10T10:44:28Z"
+      "data_recente": "2026-04-10T12:26:41Z"
     }
   ]
 }

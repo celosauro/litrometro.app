@@ -1,20 +1,20 @@
 {
   "codigoIBGE": "2706422",
   "municipio": "Pariconha",
-  "atualizadoEm": "2026-04-10T12:12:13.460Z",
+  "atualizadoEm": "2026-04-10T15:07:16.970Z",
   "totalEstabelecimentos": 5,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 7.186858316221766,
-      "valorMaximo": 7.189811010682005,
-      "valorMedio": 7.188334663451886
+      "valorMinimo": 7.189811010682005,
+      "valorMaximo": 7.194244604316546,
+      "valorMedio": 7.192027807499276
     },
     "2": {
       "totalPostos": 2,
       "valorMinimo": 7.1890726096333575,
-      "valorMaximo": 7.239382239382239,
-      "valorMedio": 7.214227424507799
+      "valorMaximo": 7.24112961622013,
+      "valorMedio": 7.215101112926744
     },
     "5": {
       "totalPostos": 1,
@@ -24,26 +24,6 @@
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "27457330000167",
-      "tipo_combustivel": 1,
-      "razao_social": "GABRIEL BEZERRA DE MELO SOUZA - EPP",
-      "nome_fantasia": "AUTO POSTO GT",
-      "telefone": "(82) 99833813",
-      "nome_logradouro": "Rua FELIX JOSE DOS SANTOS",
-      "numero_imovel": "417",
-      "bairro": "CENTRO",
-      "cep": "57475000",
-      "codigo_ibge": 2706422,
-      "municipio": "PARICONHA",
-      "latitude": -9.2554482,
-      "longitude": -38.0027017,
-      "valor_minimo": 7.186858316221766,
-      "valor_maximo": 7.186858316221766,
-      "valor_medio": 7.186858316221766,
-      "valor_recente": 7.186858316221766,
-      "data_recente": "2026-04-09T23:46:34Z"
-    },
     {
       "cnpj": "04590794000141",
       "tipo_combustivel": 1,
@@ -63,6 +43,26 @@
       "valor_medio": 7.189811010682005,
       "valor_recente": 7.189811010682005,
       "data_recente": "2026-04-09T17:32:32Z"
+    },
+    {
+      "cnpj": "27457330000167",
+      "tipo_combustivel": 1,
+      "razao_social": "GABRIEL BEZERRA DE MELO SOUZA - EPP",
+      "nome_fantasia": "AUTO POSTO GT",
+      "telefone": "(82) 99833813",
+      "nome_logradouro": "Rua FELIX JOSE DOS SANTOS",
+      "numero_imovel": "417",
+      "bairro": "CENTRO",
+      "cep": "57475000",
+      "codigo_ibge": 2706422,
+      "municipio": "PARICONHA",
+      "latitude": -9.2554482,
+      "longitude": -38.0027017,
+      "valor_minimo": 7.194244604316546,
+      "valor_maximo": 7.194244604316546,
+      "valor_medio": 7.194244604316546,
+      "valor_recente": 7.194244604316546,
+      "data_recente": "2026-04-10T12:57:52Z"
     },
     {
       "cnpj": "04590794000141",
@@ -98,11 +98,11 @@
       "municipio": "PARICONHA",
       "latitude": -9.2554482,
       "longitude": -38.0027017,
-      "valor_minimo": 7.239382239382239,
-      "valor_maximo": 7.239382239382239,
-      "valor_medio": 7.239382239382239,
-      "valor_recente": 7.239382239382239,
-      "data_recente": "2026-04-09T23:00:39Z"
+      "valor_minimo": 7.24112961622013,
+      "valor_maximo": 7.24112961622013,
+      "valor_medio": 7.24112961622013,
+      "valor_recente": 7.24112961622013,
+      "data_recente": "2026-04-10T12:57:52Z"
     },
     {
       "cnpj": "04590794000141",

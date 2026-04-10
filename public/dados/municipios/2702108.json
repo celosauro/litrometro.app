@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2702108",
   "municipio": "Colônia Leopoldina",
-  "atualizadoEm": "2026-04-10T11:40:21.452Z",
+  "atualizadoEm": "2026-04-10T14:32:08.318Z",
   "totalEstabelecimentos": 7,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
       "valorMinimo": 6.8493150684931505,
-      "valorMaximo": 6.900005149065445,
-      "valorMedio": 6.874660108779297
+      "valorMaximo": 6.849829351535837,
+      "valorMedio": 6.849572210014493
     },
     "2": {
       "totalPostos": 1,
@@ -19,37 +19,17 @@
     "3": {
       "totalPostos": 2,
       "valorMinimo": 5.446623093681917,
-      "valorMaximo": 5.449888277290316,
-      "valorMedio": 5.448255685486116
+      "valorMaximo": 5.45,
+      "valorMedio": 5.448311546840959
     },
     "5": {
       "totalPostos": 2,
       "valorMinimo": 7.45,
-      "valorMaximo": 7.540056550424128,
-      "valorMedio": 7.495028275212064
+      "valorMaximo": 7.539961797526892,
+      "valorMedio": 7.494980898763446
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "14341647000272",
-      "tipo_combustivel": 1,
-      "razao_social": "ANDRESSA PEREIRA ALVES - EPP",
-      "nome_fantasia": "AUTO POSTO CASTELIANO",
-      "telefone": "(82) 88200083",
-      "nome_logradouro": "LOT JARDIM 2",
-      "numero_imovel": "SN",
-      "bairro": "LOTEAMENTO JARDIM",
-      "cep": "57975000",
-      "codigo_ibge": 2702108,
-      "municipio": "COLONIA LEOPOLDINA",
-      "latitude": -8.982249399999999,
-      "longitude": -35.784354,
-      "valor_minimo": 6.8493150684931505,
-      "valor_maximo": 6.8493150684931505,
-      "valor_medio": 6.8493150684931505,
-      "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-10T00:29:23Z"
-    },
     {
       "cnpj": "08560691000190",
       "tipo_combustivel": 1,
@@ -64,11 +44,31 @@
       "municipio": "COLONIA LEOPOLDINA",
       "latitude": -8.911863499999999,
       "longitude": -35.7187274,
-      "valor_minimo": 6.900005149065445,
-      "valor_maximo": 6.900005149065445,
-      "valor_medio": 6.900005149065445,
-      "valor_recente": 6.900005149065445,
-      "data_recente": "2026-04-10T09:32:52Z"
+      "valor_minimo": 6.8493150684931505,
+      "valor_maximo": 6.8493150684931505,
+      "valor_medio": 6.8493150684931505,
+      "valor_recente": 6.8493150684931505,
+      "data_recente": "2026-04-10T13:23:19Z"
+    },
+    {
+      "cnpj": "14341647000272",
+      "tipo_combustivel": 1,
+      "razao_social": "ANDRESSA PEREIRA ALVES - EPP",
+      "nome_fantasia": "AUTO POSTO CASTELIANO",
+      "telefone": "(82) 88200083",
+      "nome_logradouro": "LOT JARDIM 2",
+      "numero_imovel": "SN",
+      "bairro": "LOTEAMENTO JARDIM",
+      "cep": "57975000",
+      "codigo_ibge": 2702108,
+      "municipio": "COLONIA LEOPOLDINA",
+      "latitude": -8.982249399999999,
+      "longitude": -35.784354,
+      "valor_minimo": 6.849829351535837,
+      "valor_maximo": 6.849829351535837,
+      "valor_medio": 6.849829351535837,
+      "valor_recente": 6.849829351535837,
+      "data_recente": "2026-04-10T13:22:18Z"
     },
     {
       "cnpj": "14341647000272",
@@ -124,11 +124,11 @@
       "municipio": "COLONIA LEOPOLDINA",
       "latitude": -8.911863499999999,
       "longitude": -35.7187274,
-      "valor_minimo": 5.449888277290316,
-      "valor_maximo": 5.449888277290316,
-      "valor_medio": 5.449888277290316,
-      "valor_recente": 5.449888277290316,
-      "data_recente": "2026-04-09T23:34:20Z"
+      "valor_minimo": 5.45,
+      "valor_maximo": 5.45,
+      "valor_medio": 5.45,
+      "valor_recente": 5.45,
+      "data_recente": "2026-04-03T14:35:20Z"
     },
     {
       "cnpj": "14341647000272",
@@ -164,11 +164,11 @@
       "municipio": "COLONIA LEOPOLDINA",
       "latitude": -8.911863499999999,
       "longitude": -35.7187274,
-      "valor_minimo": 7.540056550424128,
-      "valor_maximo": 7.540056550424128,
-      "valor_medio": 7.540056550424128,
-      "valor_recente": 7.540056550424128,
-      "data_recente": "2026-04-09T11:53:18Z"
+      "valor_minimo": 7.539961797526892,
+      "valor_maximo": 7.539961797526892,
+      "valor_medio": 7.539961797526892,
+      "valor_recente": 7.539961797526892,
+      "data_recente": "2026-04-10T12:41:55Z"
     }
   ]
 }

@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2701209",
   "municipio": "Cacimbinhas",
-  "atualizadoEm": "2026-04-10T11:35:10.560Z",
+  "atualizadoEm": "2026-04-10T14:22:34.168Z",
   "totalEstabelecimentos": 13,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
       "valorMinimo": 6.751677852348993,
-      "valorMaximo": 6.986027944111776,
-      "valorMedio": 6.8626442417854605
+      "valorMaximo": 6.988120195667365,
+      "valorMedio": 6.86340078689494
     },
     "2": {
       "totalPostos": 3,
-      "valorMinimo": 6.099949605241055,
+      "valorMinimo": 6.647058823529412,
       "valorMaximo": 6.889986377813192,
-      "valorMedio": 6.545664935527886
+      "valorMedio": 6.779036361995064
     },
     "3": {
       "totalPostos": 3,
       "valorMinimo": 4.99,
-      "valorMaximo": 5.989817310572027,
-      "valorMedio": 5.559936054650568
+      "valorMaximo": 5.9880239520958085,
+      "valorMedio": 5.5593381753789055
     },
     "5": {
       "totalPostos": 4,
-      "valorMinimo": 6.080011845380764,
-      "valorMaximo": 7.789375292101574,
-      "valorMedio": 7.232153191940957
+      "valorMinimo": 7.28974675277556,
+      "valorMaximo": 7.9399890390938985,
+      "valorMedio": 7.622276464779525
     }
   },
   "estabelecimentos": [
@@ -64,11 +64,11 @@
       "municipio": "CACIMBINHAS",
       "latitude": -9.3995816,
       "longitude": -36.9267589,
-      "valor_minimo": 6.850226928895613,
-      "valor_maximo": 6.850226928895613,
-      "valor_medio": 6.850226928895613,
-      "valor_recente": 6.850226928895613,
-      "data_recente": "2026-04-09T23:14:19Z"
+      "valor_minimo": 6.850404312668464,
+      "valor_maximo": 6.850404312668464,
+      "valor_medio": 6.850404312668464,
+      "valor_recente": 6.850404312668464,
+      "data_recente": "2026-04-10T13:31:44Z"
     },
     {
       "cnpj": "34745647000164",
@@ -84,31 +84,11 @@
       "municipio": "CACIMBINHAS",
       "latitude": -9.3994992,
       "longitude": -36.9904045,
-      "valor_minimo": 6.986027944111776,
-      "valor_maximo": 6.986027944111776,
-      "valor_medio": 6.986027944111776,
-      "valor_recente": 6.986027944111776,
-      "data_recente": "2026-04-10T09:25:42Z"
-    },
-    {
-      "cnpj": "05560272000160",
-      "tipo_combustivel": 2,
-      "razao_social": "M A A VITORINO DIESEL - EPP",
-      "nome_fantasia": "AUTO POSTO VITORINO",
-      "telefone": "",
-      "nome_logradouro": " BR 316",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57570000",
-      "codigo_ibge": 2701209,
-      "municipio": "CACIMBINHAS",
-      "latitude": -9.404568099999999,
-      "longitude": -36.9910042,
-      "valor_minimo": 6.099949605241055,
-      "valor_maximo": 6.099949605241055,
-      "valor_medio": 6.099949605241055,
-      "valor_recente": 6.099949605241055,
-      "data_recente": "2026-04-08T16:34:51Z"
+      "valor_minimo": 6.988120195667365,
+      "valor_maximo": 6.988120195667365,
+      "valor_medio": 6.988120195667365,
+      "valor_recente": 6.988120195667365,
+      "data_recente": "2026-04-10T13:27:25Z"
     },
     {
       "cnpj": "11910007000167",
@@ -129,6 +109,26 @@
       "valor_medio": 6.647058823529412,
       "valor_recente": 6.647058823529412,
       "data_recente": "2026-04-04T17:45:26Z"
+    },
+    {
+      "cnpj": "05560272000160",
+      "tipo_combustivel": 2,
+      "razao_social": "M A A VITORINO DIESEL - EPP",
+      "nome_fantasia": "AUTO POSTO VITORINO",
+      "telefone": "",
+      "nome_logradouro": " BR 316",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57570000",
+      "codigo_ibge": 2701209,
+      "municipio": "CACIMBINHAS",
+      "latitude": -9.404568099999999,
+      "longitude": -36.9910042,
+      "valor_minimo": 6.800063884642588,
+      "valor_maximo": 6.800063884642588,
+      "valor_medio": 6.800063884642588,
+      "valor_recente": 6.800063884642588,
+      "data_recente": "2026-04-10T12:19:44Z"
     },
     {
       "cnpj": "13631547000137",
@@ -168,7 +168,7 @@
       "valor_maximo": 4.99,
       "valor_medio": 4.99,
       "valor_recente": 4.99,
-      "data_recente": "2026-04-09T23:00:54Z"
+      "data_recente": "2026-04-10T13:07:54Z"
     },
     {
       "cnpj": "05560272000160",
@@ -184,11 +184,11 @@
       "municipio": "CACIMBINHAS",
       "latitude": -9.404568099999999,
       "longitude": -36.9910042,
-      "valor_minimo": 5.699990853379676,
-      "valor_maximo": 5.699990853379676,
-      "valor_medio": 5.699990853379676,
-      "valor_recente": 5.699990853379676,
-      "data_recente": "2026-04-08T16:34:51Z"
+      "valor_minimo": 5.699990574040909,
+      "valor_maximo": 5.699990574040909,
+      "valor_medio": 5.699990574040909,
+      "valor_recente": 5.699990574040909,
+      "data_recente": "2026-04-10T12:19:44Z"
     },
     {
       "cnpj": "34745647000164",
@@ -204,31 +204,11 @@
       "municipio": "CACIMBINHAS",
       "latitude": -9.3994992,
       "longitude": -36.9904045,
-      "valor_minimo": 5.989817310572027,
-      "valor_maximo": 5.989817310572027,
-      "valor_medio": 5.989817310572027,
-      "valor_recente": 5.989817310572027,
-      "data_recente": "2026-04-10T09:08:32Z"
-    },
-    {
-      "cnpj": "05560272000160",
-      "tipo_combustivel": 5,
-      "razao_social": "M A A VITORINO DIESEL - EPP",
-      "nome_fantasia": "AUTO POSTO VITORINO",
-      "telefone": "",
-      "nome_logradouro": " BR 316",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57570000",
-      "codigo_ibge": 2701209,
-      "municipio": "CACIMBINHAS",
-      "latitude": -9.404568099999999,
-      "longitude": -36.9910042,
-      "valor_minimo": 6.080011845380764,
-      "valor_maximo": 6.080011845380764,
-      "valor_medio": 6.080011845380764,
-      "valor_recente": 6.080011845380764,
-      "data_recente": "2026-04-08T16:34:51Z"
+      "valor_minimo": 5.9880239520958085,
+      "valor_maximo": 5.9880239520958085,
+      "valor_medio": 5.9880239520958085,
+      "valor_recente": 5.9880239520958085,
+      "data_recente": "2026-04-10T13:07:28Z"
     },
     {
       "cnpj": "13631547000137",
@@ -244,11 +224,31 @@
       "municipio": "CACIMBINHAS",
       "latitude": -9.3995816,
       "longitude": -36.9267589,
-      "valor_minimo": 7.289994861050717,
-      "valor_maximo": 7.289994861050717,
-      "valor_medio": 7.289994861050717,
-      "valor_recente": 7.289994861050717,
-      "data_recente": "2026-04-10T08:47:17Z"
+      "valor_minimo": 7.28974675277556,
+      "valor_maximo": 7.28974675277556,
+      "valor_medio": 7.28974675277556,
+      "valor_recente": 7.28974675277556,
+      "data_recente": "2026-04-10T12:50:49Z"
+    },
+    {
+      "cnpj": "05560272000160",
+      "tipo_combustivel": 5,
+      "razao_social": "M A A VITORINO DIESEL - EPP",
+      "nome_fantasia": "AUTO POSTO VITORINO",
+      "telefone": "",
+      "nome_logradouro": " BR 316",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57570000",
+      "codigo_ibge": 2701209,
+      "municipio": "CACIMBINHAS",
+      "latitude": -9.404568099999999,
+      "longitude": -36.9910042,
+      "valor_minimo": 7.4901392980178745,
+      "valor_maximo": 7.4901392980178745,
+      "valor_medio": 7.4901392980178745,
+      "valor_recente": 7.4901392980178745,
+      "data_recente": "2026-04-10T12:19:44Z"
     },
     {
       "cnpj": "11910007000167",
@@ -284,11 +284,11 @@
       "municipio": "CACIMBINHAS",
       "latitude": -9.3994992,
       "longitude": -36.9904045,
-      "valor_minimo": 7.789375292101574,
-      "valor_maximo": 7.789375292101574,
-      "valor_medio": 7.789375292101574,
-      "valor_recente": 7.789375292101574,
-      "data_recente": "2026-04-10T08:17:26Z"
+      "valor_minimo": 7.9399890390938985,
+      "valor_maximo": 7.9399890390938985,
+      "valor_medio": 7.9399890390938985,
+      "valor_recente": 7.9399890390938985,
+      "data_recente": "2026-04-10T13:05:32Z"
     }
   ]
 }

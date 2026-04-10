@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2707206",
   "municipio": "Poço das Trincheiras",
-  "atualizadoEm": "2026-04-10T12:22:07.390Z",
+  "atualizadoEm": "2026-04-10T15:12:29.073Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
       "valorMinimo": 6.968641114982578,
-      "valorMaximo": 6.989547038327526,
-      "valorMedio": 6.975609756097561
+      "valorMaximo": 6.990683229813665,
+      "valorMedio": 6.976474207727322
     },
     "2": {
       "totalPostos": 1,
@@ -26,7 +26,7 @@
       "totalPostos": 3,
       "valorMinimo": 7.799703611262772,
       "valorMaximo": 7.99,
-      "valorMedio": 7.863203337461987
+      "valorMedio": 7.863237137090191
     }
   },
   "estabelecimentos": [
@@ -48,7 +48,7 @@
       "valor_maximo": 6.968641114982578,
       "valor_medio": 6.968641114982578,
       "valor_recente": 6.968641114982578,
-      "data_recente": "2026-04-10T11:23:22Z"
+      "data_recente": "2026-04-10T13:35:32Z"
     },
     {
       "cnpj": "09025340000141",
@@ -64,11 +64,11 @@
       "municipio": "POCO DAS TRINCHEIRAS",
       "latitude": -9.3063022,
       "longitude": -37.2854321,
-      "valor_minimo": 6.968641114982578,
-      "valor_maximo": 6.968641114982578,
-      "valor_medio": 6.968641114982578,
-      "valor_recente": 6.968641114982578,
-      "data_recente": "2026-04-09T21:28:41Z"
+      "valor_minimo": 6.970098278385725,
+      "valor_maximo": 6.970098278385725,
+      "valor_medio": 6.970098278385725,
+      "valor_recente": 6.970098278385725,
+      "data_recente": "2026-04-10T12:53:24Z"
     },
     {
       "cnpj": "29720522000140",
@@ -84,11 +84,11 @@
       "municipio": "POCO DAS TRINCHEIRAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.989547038327526,
-      "valor_maximo": 6.989547038327526,
-      "valor_medio": 6.989547038327526,
-      "valor_recente": 6.989547038327526,
-      "data_recente": "2026-04-10T11:29:59Z"
+      "valor_minimo": 6.990683229813665,
+      "valor_maximo": 6.990683229813665,
+      "valor_medio": 6.990683229813665,
+      "valor_recente": 6.990683229813665,
+      "data_recente": "2026-04-10T12:41:45Z"
     },
     {
       "cnpj": "09025340000141",
@@ -131,26 +131,6 @@
       "data_recente": "2026-04-10T10:35:31Z"
     },
     {
-      "cnpj": "08886737000165",
-      "tipo_combustivel": 5,
-      "razao_social": "COMÉRCIO DE COMBUSTÍVEIS NOSSA SENHORA DE FÁTIMA LTDA.",
-      "nome_fantasia": "AUTO POSTO NOSSA SENHORA DE FATIMA",
-      "telefone": "",
-      "nome_logradouro": "RDV BR 316",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57510000",
-      "codigo_ibge": 2707206,
-      "municipio": "POCO DAS TRINCHEIRAS",
-      "latitude": -9.3237539,
-      "longitude": -37.30406809999999,
-      "valor_minimo": 7.799703611262772,
-      "valor_maximo": 7.799703611262772,
-      "valor_medio": 7.799703611262772,
-      "valor_recente": 7.799703611262772,
-      "data_recente": "2026-04-10T10:11:40Z"
-    },
-    {
       "cnpj": "09025340000141",
       "tipo_combustivel": 5,
       "razao_social": "FERREIRA E SANTOS AUTO POSTO LTDA - ME",
@@ -164,11 +144,31 @@
       "municipio": "POCO DAS TRINCHEIRAS",
       "latitude": -9.3063022,
       "longitude": -37.2854321,
-      "valor_minimo": 7.799906401123186,
-      "valor_maximo": 7.799906401123186,
-      "valor_medio": 7.799906401123186,
-      "valor_recente": 7.799906401123186,
-      "data_recente": "2026-04-09T21:27:38Z"
+      "valor_minimo": 7.799703611262772,
+      "valor_maximo": 7.799703611262772,
+      "valor_medio": 7.799703611262772,
+      "valor_recente": 7.799703611262772,
+      "data_recente": "2026-04-10T12:40:14Z"
+    },
+    {
+      "cnpj": "08886737000165",
+      "tipo_combustivel": 5,
+      "razao_social": "COMÉRCIO DE COMBUSTÍVEIS NOSSA SENHORA DE FÁTIMA LTDA.",
+      "nome_fantasia": "AUTO POSTO NOSSA SENHORA DE FATIMA",
+      "telefone": "",
+      "nome_logradouro": "RDV BR 316",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57510000",
+      "codigo_ibge": 2707206,
+      "municipio": "POCO DAS TRINCHEIRAS",
+      "latitude": -9.3237539,
+      "longitude": -37.30406809999999,
+      "valor_minimo": 7.8000078000078,
+      "valor_maximo": 7.8000078000078,
+      "valor_medio": 7.8000078000078,
+      "valor_recente": 7.8000078000078,
+      "data_recente": "2026-04-10T12:50:05Z"
     },
     {
       "cnpj": "29720522000140",

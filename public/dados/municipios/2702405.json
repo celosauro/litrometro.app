@@ -1,38 +1,38 @@
 {
   "codigoIBGE": "2702405",
   "municipio": "Delmiro Gouveia",
-  "atualizadoEm": "2026-04-10T11:42:38.179Z",
+  "atualizadoEm": "2026-04-10T14:36:15.615Z",
   "totalEstabelecimentos": 51,
   "combustiveis": {
     "1": {
       "totalPostos": 13,
       "valorMinimo": 7.1,
-      "valorMaximo": 7.809970014992504,
-      "valorMedio": 7.449619051265268
+      "valorMaximo": 7.511737089201878,
+      "valorMedio": 7.420529873946124
     },
     "2": {
       "totalPostos": 9,
-      "valorMinimo": 7.289958082741024,
-      "valorMaximo": 7.799095304944626,
-      "valorMedio": 7.530236488760112
+      "valorMinimo": 7.288629737609329,
+      "valorMaximo": 7.799554565701559,
+      "valorMedio": 7.530388648591544
     },
     "3": {
       "totalPostos": 13,
       "valorMinimo": 4.879953152449737,
       "valorMaximo": 5.490483162518301,
-      "valorMedio": 5.412796462080929
+      "valorMedio": 5.412601941098133
     },
     "4": {
       "totalPostos": 3,
-      "valorMinimo": 8.183306055646481,
-      "valorMaximo": 8.990380293086398,
-      "valorMedio": 8.72108614836703
+      "valorMinimo": 8.188666885031116,
+      "valorMaximo": 8.989572096368214,
+      "valorMedio": 8.722603692589182
     },
     "5": {
       "totalPostos": 13,
-      "valorMinimo": 7.2998391288206905,
+      "valorMinimo": 7.559531309058839,
       "valorMaximo": 8.990380293086398,
-      "valorMedio": 8.095088661925617
+      "valorMedio": 8.141397664689794
     }
   },
   "estabelecimentos": [
@@ -51,10 +51,10 @@
       "latitude": -9.3477979,
       "longitude": -37.986385,
       "valor_minimo": 7.09882005899705,
-      "valor_maximo": 7.496251874062969,
-      "valor_medio": 7.29753596653001,
-      "valor_recente": 7.496251874062969,
-      "data_recente": "2026-04-10T01:51:29Z"
+      "valor_maximo": 7.49812734082397,
+      "valor_medio": 7.2984736999105095,
+      "valor_recente": 7.49812734082397,
+      "data_recente": "2026-04-10T13:27:35Z"
     },
     {
       "cnpj": "17348259000392",
@@ -90,11 +90,11 @@
       "municipio": "DELMIRO GOUVEIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.139457401237506,
-      "valor_maximo": 7.139457401237506,
-      "valor_medio": 7.139457401237506,
-      "valor_recente": 7.139457401237506,
-      "data_recente": "2026-04-10T09:27:58Z"
+      "valor_minimo": 7.139797229758675,
+      "valor_maximo": 7.139797229758675,
+      "valor_medio": 7.139797229758675,
+      "valor_recente": 7.139797229758675,
+      "data_recente": "2026-04-10T13:30:46Z"
     },
     {
       "cnpj": "45685725000107",
@@ -110,11 +110,31 @@
       "municipio": "DELMIRO GOUVEIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.319572536963841,
-      "valor_maximo": 7.319572536963841,
-      "valor_medio": 7.319572536963841,
-      "valor_recente": 7.319572536963841,
-      "data_recente": "2026-04-09T21:05:35Z"
+      "valor_minimo": 7.318496898941992,
+      "valor_maximo": 7.318496898941992,
+      "valor_medio": 7.318496898941992,
+      "valor_recente": 7.318496898941992,
+      "data_recente": "2026-04-10T13:29:56Z"
+    },
+    {
+      "cnpj": "12436978000180",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO FREITAS & MAIA LTDA - EPP",
+      "nome_fantasia": "POSTO ALDO",
+      "telefone": "",
+      "nome_logradouro": "Rua FLORIANO PEIXOTO",
+      "numero_imovel": "247",
+      "bairro": "CENTRO",
+      "cep": "57480000",
+      "codigo_ibge": 2702405,
+      "municipio": "DELMIRO GOUVEIA",
+      "latitude": -9.3759976,
+      "longitude": -37.9963113,
+      "valor_minimo": 7.409502828818906,
+      "valor_maximo": 7.409502828818906,
+      "valor_medio": 7.409502828818906,
+      "valor_recente": 7.409502828818906,
+      "data_recente": "2026-04-10T13:34:33Z"
     },
     {
       "cnpj": "26937274000103",
@@ -150,11 +170,11 @@
       "municipio": "DELMIRO GOUVEIA",
       "latitude": -9.3868928,
       "longitude": -37.9911577,
-      "valor_minimo": 7.47984267453294,
-      "valor_maximo": 7.47984267453294,
-      "valor_medio": 7.47984267453294,
-      "valor_recente": 7.47984267453294,
-      "data_recente": "2026-04-10T09:10:21Z"
+      "valor_minimo": 7.479431563201197,
+      "valor_maximo": 7.479431563201197,
+      "valor_medio": 7.479431563201197,
+      "valor_recente": 7.479431563201197,
+      "data_recente": "2026-04-10T13:33:36Z"
     },
     {
       "cnpj": "17348259000201",
@@ -170,31 +190,11 @@
       "municipio": "DELMIRO GOUVEIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.494646680942184,
-      "valor_maximo": 7.494646680942184,
-      "valor_medio": 7.494646680942184,
-      "valor_recente": 7.494646680942184,
-      "data_recente": "2026-04-10T01:58:58Z"
-    },
-    {
-      "cnpj": "05518639000268",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO DA PEDRA LTDA",
-      "nome_fantasia": "POSTO DA PEDRA 2",
-      "telefone": "(82) 36411839",
-      "nome_logradouro": "Rua HELENO PEREIRA PINTO",
-      "numero_imovel": "31",
-      "bairro": "CAMPO GRANDE",
-      "cep": "57480000",
-      "codigo_ibge": 2702405,
-      "municipio": "DELMIRO GOUVEIA",
-      "latitude": -9.376377999999999,
-      "longitude": -37.9971771,
-      "valor_minimo": 7.5,
-      "valor_maximo": 7.5,
-      "valor_medio": 7.5,
-      "valor_recente": 7.5,
-      "data_recente": "2026-04-10T09:21:08Z"
+      "valor_minimo": 7.499625018749063,
+      "valor_maximo": 7.499625018749063,
+      "valor_medio": 7.499625018749063,
+      "valor_recente": 7.499625018749063,
+      "data_recente": "2026-04-10T13:27:23Z"
     },
     {
       "cnpj": "10427868000126",
@@ -210,51 +210,11 @@
       "municipio": "DELMIRO GOUVEIA",
       "latitude": -9.3893472,
       "longitude": -37.9860696,
-      "valor_minimo": 7.502679528403001,
-      "valor_maximo": 7.502679528403001,
-      "valor_medio": 7.502679528403001,
-      "valor_recente": 7.502679528403001,
-      "data_recente": "2026-04-09T23:27:17Z"
-    },
-    {
-      "cnpj": "05518639000420",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO DA PEDRA LTDA",
-      "nome_fantasia": "POSTO DA PEDRA 5",
-      "telefone": "(82) 36411135",
-      "nome_logradouro": "Rua BENEDITO LISBOA",
-      "numero_imovel": "108",
-      "bairro": "CENTRO",
-      "cep": "57480000",
-      "codigo_ibge": 2702405,
-      "municipio": "DELMIRO GOUVEIA",
-      "latitude": -9.3881404,
-      "longitude": -37.998562,
-      "valor_minimo": 7.5075075075075075,
-      "valor_maximo": 7.5075075075075075,
-      "valor_medio": 7.5075075075075075,
-      "valor_recente": 7.5075075075075075,
-      "data_recente": "2026-04-10T09:28:12Z"
-    },
-    {
-      "cnpj": "05518639000349",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO DA PEDRA LTDA",
-      "nome_fantasia": "POSTO DA PEDRA 4",
-      "telefone": "(82) 36411765",
-      "nome_logradouro": "Rua FREITAS CAVALCANTE",
-      "numero_imovel": "10",
-      "bairro": "CENTRO",
-      "cep": "57480000",
-      "codigo_ibge": 2702405,
-      "municipio": "DELMIRO GOUVEIA",
-      "latitude": -9.383075,
-      "longitude": -38.00085199999999,
-      "valor_minimo": 7.5075075075075075,
-      "valor_maximo": 7.5075075075075075,
-      "valor_medio": 7.5075075075075075,
-      "valor_recente": 7.5075075075075075,
-      "data_recente": "2026-04-10T00:42:47Z"
+      "valor_minimo": 7.501875468867217,
+      "valor_maximo": 7.501875468867217,
+      "valor_medio": 7.501875468867217,
+      "valor_recente": 7.501875468867217,
+      "data_recente": "2026-04-10T13:07:43Z"
     },
     {
       "cnpj": "05518639000187",
@@ -274,27 +234,67 @@
       "valor_maximo": 7.51,
       "valor_medio": 7.51,
       "valor_recente": 7.51,
-      "data_recente": "2026-04-10T01:11:36Z"
+      "data_recente": "2026-04-10T13:31:29Z"
     },
     {
-      "cnpj": "12436978000180",
+      "cnpj": "05518639000268",
       "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO FREITAS & MAIA LTDA - EPP",
-      "nome_fantasia": "POSTO ALDO",
-      "telefone": "",
-      "nome_logradouro": "Rua FLORIANO PEIXOTO",
-      "numero_imovel": "247",
+      "razao_social": "AUTO POSTO DA PEDRA LTDA",
+      "nome_fantasia": "POSTO DA PEDRA 2",
+      "telefone": "(82) 36411839",
+      "nome_logradouro": "Rua HELENO PEREIRA PINTO",
+      "numero_imovel": "31",
+      "bairro": "CAMPO GRANDE",
+      "cep": "57480000",
+      "codigo_ibge": 2702405,
+      "municipio": "DELMIRO GOUVEIA",
+      "latitude": -9.376377999999999,
+      "longitude": -37.9971771,
+      "valor_minimo": 7.510044684765874,
+      "valor_maximo": 7.510044684765874,
+      "valor_medio": 7.510044684765874,
+      "valor_recente": 7.510044684765874,
+      "data_recente": "2026-04-10T13:33:30Z"
+    },
+    {
+      "cnpj": "05518639000420",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO DA PEDRA LTDA",
+      "nome_fantasia": "POSTO DA PEDRA 5",
+      "telefone": "(82) 36411135",
+      "nome_logradouro": "Rua BENEDITO LISBOA",
+      "numero_imovel": "108",
       "bairro": "CENTRO",
       "cep": "57480000",
       "codigo_ibge": 2702405,
       "municipio": "DELMIRO GOUVEIA",
-      "latitude": -9.3759976,
-      "longitude": -37.9963113,
-      "valor_minimo": 7.809970014992504,
-      "valor_maximo": 7.809970014992504,
-      "valor_medio": 7.809970014992504,
-      "valor_recente": 7.809970014992504,
-      "data_recente": "2026-04-10T09:30:20Z"
+      "latitude": -9.3881404,
+      "longitude": -37.998562,
+      "valor_minimo": 7.51063829787234,
+      "valor_maximo": 7.51063829787234,
+      "valor_medio": 7.51063829787234,
+      "valor_recente": 7.51063829787234,
+      "data_recente": "2026-04-10T13:30:19Z"
+    },
+    {
+      "cnpj": "05518639000349",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO DA PEDRA LTDA",
+      "nome_fantasia": "POSTO DA PEDRA 4",
+      "telefone": "(82) 36411765",
+      "nome_logradouro": "Rua FREITAS CAVALCANTE",
+      "numero_imovel": "10",
+      "bairro": "CENTRO",
+      "cep": "57480000",
+      "codigo_ibge": 2702405,
+      "municipio": "DELMIRO GOUVEIA",
+      "latitude": -9.383075,
+      "longitude": -38.00085199999999,
+      "valor_minimo": 7.511737089201878,
+      "valor_maximo": 7.511737089201878,
+      "valor_medio": 7.511737089201878,
+      "valor_recente": 7.511737089201878,
+      "data_recente": "2026-04-10T13:35:52Z"
     },
     {
       "cnpj": "43472899000158",
@@ -310,11 +310,11 @@
       "municipio": "DELMIRO GOUVEIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.289958082741024,
-      "valor_maximo": 7.289958082741024,
-      "valor_medio": 7.289958082741024,
-      "valor_recente": 7.289958082741024,
-      "data_recente": "2026-04-09T21:54:44Z"
+      "valor_minimo": 7.288629737609329,
+      "valor_maximo": 7.288629737609329,
+      "valor_medio": 7.288629737609329,
+      "valor_recente": 7.288629737609329,
+      "data_recente": "2026-04-10T11:03:07Z"
     },
     {
       "cnpj": "45685725000107",
@@ -374,7 +374,7 @@
       "valor_maximo": 7.479431563201197,
       "valor_medio": 7.479431563201197,
       "valor_recente": 7.479431563201197,
-      "data_recente": "2026-04-10T08:39:29Z"
+      "data_recente": "2026-04-10T13:35:34Z"
     },
     {
       "cnpj": "26937274000103",
@@ -410,11 +410,11 @@
       "municipio": "DELMIRO GOUVEIA",
       "latitude": -9.3893472,
       "longitude": -37.9860696,
-      "valor_minimo": 7.538635506973238,
-      "valor_maximo": 7.538635506973238,
-      "valor_medio": 7.538635506973238,
-      "valor_recente": 7.538635506973238,
-      "data_recente": "2026-04-09T23:27:17Z"
+      "valor_minimo": 7.5376884422110555,
+      "valor_maximo": 7.5376884422110555,
+      "valor_medio": 7.5376884422110555,
+      "valor_recente": 7.5376884422110555,
+      "data_recente": "2026-04-10T13:21:26Z"
     },
     {
       "cnpj": "12436978000180",
@@ -430,11 +430,11 @@
       "municipio": "DELMIRO GOUVEIA",
       "latitude": -9.3759976,
       "longitude": -37.9963113,
-      "valor_minimo": 7.648183556405353,
-      "valor_maximo": 7.648183556405353,
-      "valor_medio": 7.648183556405353,
-      "valor_recente": 7.648183556405353,
-      "data_recente": "2026-04-10T08:23:49Z"
+      "valor_minimo": 7.649938800489596,
+      "valor_maximo": 7.649938800489596,
+      "valor_medio": 7.649938800489596,
+      "valor_recente": 7.649938800489596,
+      "data_recente": "2026-04-10T13:03:57Z"
     },
     {
       "cnpj": "17348259000120",
@@ -451,10 +451,10 @@
       "latitude": -9.3477979,
       "longitude": -37.986385,
       "valor_minimo": 7.680981595092025,
-      "valor_maximo": 7.799095304944626,
-      "valor_medio": 7.740038450018325,
-      "valor_recente": 7.799095304944626,
-      "data_recente": "2026-04-09T18:16:54Z"
+      "valor_maximo": 7.798701298701299,
+      "valor_medio": 7.739841446896662,
+      "valor_recente": 7.798701298701299,
+      "data_recente": "2026-04-10T13:27:35Z"
     },
     {
       "cnpj": "17348259000201",
@@ -470,11 +470,11 @@
       "municipio": "DELMIRO GOUVEIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.797270955165692,
-      "valor_maximo": 7.797270955165692,
-      "valor_medio": 7.797270955165692,
-      "valor_recente": 7.797270955165692,
-      "data_recente": "2026-04-10T01:29:16Z"
+      "valor_minimo": 7.799554565701559,
+      "valor_maximo": 7.799554565701559,
+      "valor_medio": 7.799554565701559,
+      "valor_recente": 7.799554565701559,
+      "data_recente": "2026-04-10T13:25:08Z"
     },
     {
       "cnpj": "57932086000108",
@@ -494,7 +494,7 @@
       "valor_maximo": 4.879953152449737,
       "valor_medio": 4.879953152449737,
       "valor_recente": 4.879953152449737,
-      "data_recente": "2026-04-10T09:33:22Z"
+      "data_recente": "2026-04-10T13:32:36Z"
     },
     {
       "cnpj": "43472899000158",
@@ -514,7 +514,7 @@
       "valor_maximo": 5.1894135962636225,
       "valor_medio": 5.1894135962636225,
       "valor_recente": 5.1894135962636225,
-      "data_recente": "2026-04-10T09:27:03Z"
+      "data_recente": "2026-04-10T13:01:31Z"
     },
     {
       "cnpj": "17348259000392",
@@ -537,26 +537,6 @@
       "data_recente": "2026-04-10T01:49:34Z"
     },
     {
-      "cnpj": "17348259000201",
-      "tipo_combustivel": 3,
-      "razao_social": "POSTO ALINE LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 36415660",
-      "nome_logradouro": "AV ANTONIO JOSE DA COSTA",
-      "numero_imovel": "59",
-      "bairro": "CENTRO",
-      "cep": "57480000",
-      "codigo_ibge": 2702405,
-      "municipio": "DELMIRO GOUVEIA",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 5.469861065528936,
-      "valor_maximo": 5.469861065528936,
-      "valor_medio": 5.469861065528936,
-      "valor_recente": 5.469861065528936,
-      "data_recente": "2026-04-10T01:28:18Z"
-    },
-    {
       "cnpj": "45685725000107",
       "tipo_combustivel": 3,
       "razao_social": "AUTO POSTO NOSSA SRA DO ROSARIO LTDA",
@@ -577,6 +557,26 @@
       "data_recente": "2026-04-09T19:04:53Z"
     },
     {
+      "cnpj": "17348259000201",
+      "tipo_combustivel": 3,
+      "razao_social": "POSTO ALINE LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 36415660",
+      "nome_logradouro": "AV ANTONIO JOSE DA COSTA",
+      "numero_imovel": "59",
+      "bairro": "CENTRO",
+      "cep": "57480000",
+      "codigo_ibge": 2702405,
+      "municipio": "DELMIRO GOUVEIA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 5.469929644952434,
+      "valor_maximo": 5.469929644952434,
+      "valor_medio": 5.469929644952434,
+      "valor_recente": 5.469929644952434,
+      "data_recente": "2026-04-10T13:33:44Z"
+    },
+    {
       "cnpj": "17348259000120",
       "tipo_combustivel": 3,
       "razao_social": "POSTO ALINE LTDA",
@@ -590,11 +590,11 @@
       "municipio": "DELMIRO GOUVEIA",
       "latitude": -9.3477979,
       "longitude": -37.986385,
-      "valor_minimo": 5.469903231097261,
-      "valor_maximo": 5.469945355191257,
-      "valor_medio": 5.469924293144259,
-      "valor_recente": 5.469903231097261,
-      "data_recente": "2026-04-09T21:58:03Z"
+      "valor_minimo": 5.469945355191257,
+      "valor_maximo": 5.469968623935455,
+      "valor_medio": 5.4699569895633555,
+      "valor_recente": 5.469968623935455,
+      "data_recente": "2026-04-10T13:04:25Z"
     },
     {
       "cnpj": "04431113000100",
@@ -614,7 +614,27 @@
       "valor_maximo": 5.47945205479452,
       "valor_medio": 5.47945205479452,
       "valor_recente": 5.47945205479452,
-      "data_recente": "2026-04-10T00:42:05Z"
+      "data_recente": "2026-04-10T12:32:48Z"
+    },
+    {
+      "cnpj": "05518639000349",
+      "tipo_combustivel": 3,
+      "razao_social": "AUTO POSTO DA PEDRA LTDA",
+      "nome_fantasia": "POSTO DA PEDRA 4",
+      "telefone": "(82) 36411765",
+      "nome_logradouro": "Rua FREITAS CAVALCANTE",
+      "numero_imovel": "10",
+      "bairro": "CENTRO",
+      "cep": "57480000",
+      "codigo_ibge": 2702405,
+      "municipio": "DELMIRO GOUVEIA",
+      "latitude": -9.383075,
+      "longitude": -38.00085199999999,
+      "valor_minimo": 5.4874041621029575,
+      "valor_maximo": 5.4874041621029575,
+      "valor_medio": 5.4874041621029575,
+      "valor_recente": 5.4874041621029575,
+      "data_recente": "2026-04-10T11:23:53Z"
     },
     {
       "cnpj": "12436978000180",
@@ -657,26 +677,6 @@
       "data_recente": "2026-04-09T21:30:41Z"
     },
     {
-      "cnpj": "05518639000349",
-      "tipo_combustivel": 3,
-      "razao_social": "AUTO POSTO DA PEDRA LTDA",
-      "nome_fantasia": "POSTO DA PEDRA 4",
-      "telefone": "(82) 36411765",
-      "nome_logradouro": "Rua FREITAS CAVALCANTE",
-      "numero_imovel": "10",
-      "bairro": "CENTRO",
-      "cep": "57480000",
-      "codigo_ibge": 2702405,
-      "municipio": "DELMIRO GOUVEIA",
-      "latitude": -9.383075,
-      "longitude": -38.00085199999999,
-      "valor_minimo": 5.489980785067252,
-      "valor_maximo": 5.489980785067252,
-      "valor_medio": 5.489980785067252,
-      "valor_recente": 5.489980785067252,
-      "data_recente": "2026-04-09T22:17:01Z"
-    },
-    {
       "cnpj": "05518639000268",
       "tipo_combustivel": 3,
       "razao_social": "AUTO POSTO DA PEDRA LTDA",
@@ -710,11 +710,11 @@
       "municipio": "DELMIRO GOUVEIA",
       "latitude": -9.3881404,
       "longitude": -37.998562,
-      "valor_minimo": 5.490282200505106,
-      "valor_maximo": 5.490282200505106,
-      "valor_medio": 5.490282200505106,
-      "valor_recente": 5.490282200505106,
-      "data_recente": "2026-04-09T21:27:18Z"
+      "valor_minimo": 5.490196078431373,
+      "valor_maximo": 5.490196078431373,
+      "valor_medio": 5.490196078431373,
+      "valor_recente": 5.490196078431373,
+      "data_recente": "2026-04-10T09:54:33Z"
     },
     {
       "cnpj": "10427868000126",
@@ -734,7 +734,7 @@
       "valor_maximo": 5.490483162518301,
       "valor_medio": 5.490483162518301,
       "valor_recente": 5.490483162518301,
-      "data_recente": "2026-04-09T23:27:17Z"
+      "data_recente": "2026-04-10T10:03:28Z"
     },
     {
       "cnpj": "04431113000100",
@@ -750,11 +750,11 @@
       "municipio": "DELMIRO GOUVEIA",
       "latitude": -9.3868928,
       "longitude": -37.9911577,
-      "valor_minimo": 8.183306055646481,
-      "valor_maximo": 8.183306055646481,
-      "valor_medio": 8.183306055646481,
-      "valor_recente": 8.183306055646481,
-      "data_recente": "2026-04-10T08:14:00Z"
+      "valor_minimo": 8.188666885031116,
+      "valor_maximo": 8.188666885031116,
+      "valor_medio": 8.188666885031116,
+      "valor_recente": 8.188666885031116,
+      "data_recente": "2026-04-10T13:26:31Z"
     },
     {
       "cnpj": "05518639000420",
@@ -790,31 +790,11 @@
       "municipio": "DELMIRO GOUVEIA",
       "latitude": -9.383075,
       "longitude": -38.00085199999999,
-      "valor_minimo": 8.990380293086398,
-      "valor_maximo": 8.990380293086398,
-      "valor_medio": 8.990380293086398,
-      "valor_recente": 8.990380293086398,
-      "data_recente": "2026-04-09T21:11:24Z"
-    },
-    {
-      "cnpj": "04431113000100",
-      "tipo_combustivel": 5,
-      "razao_social": "COMERCIO DE COMBUSTIVEIS NENZITA LTDA - EPP",
-      "nome_fantasia": "POSTO NENZITA",
-      "telefone": "",
-      "nome_logradouro": "AV CAXANGA",
-      "numero_imovel": "126",
-      "bairro": "PEDRA VELHA",
-      "cep": "57480000",
-      "codigo_ibge": 2702405,
-      "municipio": "DELMIRO GOUVEIA",
-      "latitude": -9.3868928,
-      "longitude": -37.9911577,
-      "valor_minimo": 7.2998391288206905,
-      "valor_maximo": 7.2998391288206905,
-      "valor_medio": 7.2998391288206905,
-      "valor_recente": 7.2998391288206905,
-      "data_recente": "2026-04-10T09:23:16Z"
+      "valor_minimo": 8.989572096368214,
+      "valor_maximo": 8.989572096368214,
+      "valor_medio": 8.989572096368214,
+      "valor_recente": 8.989572096368214,
+      "data_recente": "2026-04-10T11:24:31Z"
     },
     {
       "cnpj": "45685725000107",
@@ -837,24 +817,24 @@
       "data_recente": "2026-04-09T19:07:01Z"
     },
     {
-      "cnpj": "05518639000187",
+      "cnpj": "04431113000100",
       "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO DA PEDRA LTDA",
-      "nome_fantasia": "POSTO DA PEDRA 1",
-      "telefone": "(82) 6411335",
-      "nome_logradouro": "Rua FLORIANO PEIXOTO",
-      "numero_imovel": "281",
-      "bairro": "CENTRO",
+      "razao_social": "COMERCIO DE COMBUSTIVEIS NENZITA LTDA - EPP",
+      "nome_fantasia": "POSTO NENZITA",
+      "telefone": "",
+      "nome_logradouro": "AV CAXANGA",
+      "numero_imovel": "126",
+      "bairro": "PEDRA VELHA",
       "cep": "57480000",
       "codigo_ibge": 2702405,
       "municipio": "DELMIRO GOUVEIA",
-      "latitude": -9.379742799999999,
-      "longitude": -37.9967191,
-      "valor_minimo": 7.579984836997726,
-      "valor_maximo": 8.99,
-      "valor_medio": 8.284992418498863,
-      "valor_recente": 7.579984836997726,
-      "data_recente": "2026-04-10T09:24:08Z"
+      "latitude": -9.3868928,
+      "longitude": -37.9911577,
+      "valor_minimo": 7.59,
+      "valor_maximo": 7.59,
+      "valor_medio": 7.59,
+      "valor_recente": 7.59,
+      "data_recente": "2026-04-10T13:11:38Z"
     },
     {
       "cnpj": "43472899000158",
@@ -870,11 +850,11 @@
       "municipio": "DELMIRO GOUVEIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.769404086706549,
-      "valor_maximo": 7.769404086706549,
-      "valor_medio": 7.769404086706549,
-      "valor_recente": 7.769404086706549,
-      "data_recente": "2026-04-10T00:30:30Z"
+      "valor_minimo": 7.769605304050554,
+      "valor_maximo": 7.769605304050554,
+      "valor_medio": 7.769605304050554,
+      "valor_recente": 7.769605304050554,
+      "data_recente": "2026-04-10T13:16:43Z"
     },
     {
       "cnpj": "17348259000120",
@@ -891,10 +871,30 @@
       "latitude": -9.3477979,
       "longitude": -37.986385,
       "valor_minimo": 7.8700084471424,
-      "valor_maximo": 8.249974218830566,
-      "valor_medio": 8.059991332986483,
-      "valor_recente": 8.249974218830566,
-      "data_recente": "2026-04-10T00:35:47Z"
+      "valor_maximo": 8.25,
+      "valor_medio": 8.0600042235712,
+      "valor_recente": 8.25,
+      "data_recente": "2026-04-10T12:05:05Z"
+    },
+    {
+      "cnpj": "05518639000187",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO DA PEDRA LTDA",
+      "nome_fantasia": "POSTO DA PEDRA 1",
+      "telefone": "(82) 6411335",
+      "nome_logradouro": "Rua FLORIANO PEIXOTO",
+      "numero_imovel": "281",
+      "bairro": "CENTRO",
+      "cep": "57480000",
+      "codigo_ibge": 2702405,
+      "municipio": "DELMIRO GOUVEIA",
+      "latitude": -9.379742799999999,
+      "longitude": -37.9967191,
+      "valor_minimo": 7.960353475041796,
+      "valor_maximo": 8.99,
+      "valor_medio": 8.475176737520897,
+      "valor_recente": 7.960353475041796,
+      "data_recente": "2026-04-10T12:53:51Z"
     },
     {
       "cnpj": "17348259000392",
@@ -917,26 +917,6 @@
       "data_recente": "2026-04-09T19:49:28Z"
     },
     {
-      "cnpj": "17348259000201",
-      "tipo_combustivel": 5,
-      "razao_social": "POSTO ALINE LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 36415660",
-      "nome_logradouro": "AV ANTONIO JOSE DA COSTA",
-      "numero_imovel": "59",
-      "bairro": "CENTRO",
-      "cep": "57480000",
-      "codigo_ibge": 2702405,
-      "municipio": "DELMIRO GOUVEIA",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 8.249258160237389,
-      "valor_maximo": 8.249258160237389,
-      "valor_medio": 8.249258160237389,
-      "valor_recente": 8.249258160237389,
-      "data_recente": "2026-04-10T01:28:51Z"
-    },
-    {
       "cnpj": "10427868000126",
       "tipo_combustivel": 5,
       "razao_social": "LOURENCO ARAUJO FORTES E FILHOS LTDA  - ME",
@@ -950,31 +930,51 @@
       "municipio": "DELMIRO GOUVEIA",
       "latitude": -9.3893472,
       "longitude": -37.9860696,
-      "valor_minimo": 8.250144377526606,
-      "valor_maximo": 8.250144377526606,
-      "valor_medio": 8.250144377526606,
-      "valor_recente": 8.250144377526606,
-      "data_recente": "2026-04-09T22:34:59Z"
+      "valor_minimo": 8.249917500824992,
+      "valor_maximo": 8.249917500824992,
+      "valor_medio": 8.249917500824992,
+      "valor_recente": 8.249917500824992,
+      "data_recente": "2026-04-10T11:17:14Z"
     },
     {
-      "cnpj": "12436978000180",
+      "cnpj": "17348259000201",
       "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO FREITAS & MAIA LTDA - EPP",
-      "nome_fantasia": "POSTO ALDO",
-      "telefone": "",
-      "nome_logradouro": "Rua FLORIANO PEIXOTO",
-      "numero_imovel": "247",
+      "razao_social": "POSTO ALINE LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 36415660",
+      "nome_logradouro": "AV ANTONIO JOSE DA COSTA",
+      "numero_imovel": "59",
       "bairro": "CENTRO",
       "cep": "57480000",
       "codigo_ibge": 2702405,
       "municipio": "DELMIRO GOUVEIA",
-      "latitude": -9.3759976,
-      "longitude": -37.9963113,
-      "valor_minimo": 8.259684480052861,
-      "valor_maximo": 8.329862557267806,
-      "valor_medio": 8.294773518660334,
-      "valor_recente": 8.329862557267806,
-      "data_recente": "2026-04-10T04:07:47Z"
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 8.25,
+      "valor_maximo": 8.25,
+      "valor_medio": 8.25,
+      "valor_recente": 8.25,
+      "data_recente": "2026-04-10T11:21:20Z"
+    },
+    {
+      "cnpj": "05518639000420",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO DA PEDRA LTDA",
+      "nome_fantasia": "POSTO DA PEDRA 5",
+      "telefone": "(82) 36411135",
+      "nome_logradouro": "Rua BENEDITO LISBOA",
+      "numero_imovel": "108",
+      "bairro": "CENTRO",
+      "cep": "57480000",
+      "codigo_ibge": 2702405,
+      "municipio": "DELMIRO GOUVEIA",
+      "latitude": -9.3881404,
+      "longitude": -37.998562,
+      "valor_minimo": 8.257638315441783,
+      "valor_maximo": 8.257638315441783,
+      "valor_medio": 8.257638315441783,
+      "valor_recente": 8.257638315441783,
+      "data_recente": "2026-04-10T12:18:18Z"
     },
     {
       "cnpj": "05518639000268",
@@ -997,24 +997,24 @@
       "data_recente": "2026-04-10T09:17:11Z"
     },
     {
-      "cnpj": "05518639000420",
+      "cnpj": "12436978000180",
       "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO DA PEDRA LTDA",
-      "nome_fantasia": "POSTO DA PEDRA 5",
-      "telefone": "(82) 36411135",
-      "nome_logradouro": "Rua BENEDITO LISBOA",
-      "numero_imovel": "108",
+      "razao_social": "AUTO POSTO FREITAS & MAIA LTDA - EPP",
+      "nome_fantasia": "POSTO ALDO",
+      "telefone": "",
+      "nome_logradouro": "Rua FLORIANO PEIXOTO",
+      "numero_imovel": "247",
       "bairro": "CENTRO",
       "cep": "57480000",
       "codigo_ibge": 2702405,
       "municipio": "DELMIRO GOUVEIA",
-      "latitude": -9.3881404,
-      "longitude": -37.998562,
-      "valor_minimo": 8.260188087774294,
-      "valor_maximo": 8.260188087774294,
-      "valor_medio": 8.260188087774294,
-      "valor_recente": 8.260188087774294,
-      "data_recente": "2026-04-09T21:59:15Z"
+      "latitude": -9.3759976,
+      "longitude": -37.9963113,
+      "valor_minimo": 8.263157894736842,
+      "valor_maximo": 8.32967032967033,
+      "valor_medio": 8.296414112203585,
+      "valor_recente": 8.263157894736842,
+      "data_recente": "2026-04-10T13:05:42Z"
     },
     {
       "cnpj": "05518639000349",

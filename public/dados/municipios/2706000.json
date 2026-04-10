@@ -1,20 +1,20 @@
 {
   "codigoIBGE": "2706000",
   "municipio": "Olivença",
-  "atualizadoEm": "2026-04-10T12:06:49.906Z",
+  "atualizadoEm": "2026-04-10T15:04:13.452Z",
   "totalEstabelecimentos": 6,
   "combustiveis": {
     "1": {
       "totalPostos": 1,
-      "valorMinimo": 6.95,
-      "valorMaximo": 6.95,
-      "valorMedio": 6.95
+      "valorMinimo": 6.950880444856349,
+      "valorMaximo": 6.950880444856349,
+      "valorMedio": 6.950880444856349
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.949931600547195,
+      "valorMinimo": 6.948096885813149,
       "valorMaximo": 7.088846880907372,
-      "valorMedio": 7.019389240727284
+      "valorMedio": 7.01847188336026
     },
     "3": {
       "totalPostos": 1,
@@ -24,9 +24,9 @@
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.420048972323217,
-      "valorMaximo": 7.420058829110921,
-      "valorMedio": 7.420053900717069
+      "valorMinimo": 7.419965129650926,
+      "valorMaximo": 7.420048972323217,
+      "valorMedio": 7.4200070509870715
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "OLIVENCA",
       "latitude": -9.565324,
       "longitude": -35.789666,
-      "valor_minimo": 6.95,
-      "valor_maximo": 6.95,
-      "valor_medio": 6.95,
-      "valor_recente": 6.95,
-      "data_recente": "2026-04-10T11:27:24Z"
+      "valor_minimo": 6.950880444856349,
+      "valor_maximo": 6.950880444856349,
+      "valor_medio": 6.950880444856349,
+      "valor_recente": 6.950880444856349,
+      "data_recente": "2026-04-10T13:19:22Z"
     },
     {
       "cnpj": "27069763000145",
@@ -64,11 +64,11 @@
       "municipio": "OLIVENCA",
       "latitude": -9.519277,
       "longitude": -37.191994,
-      "valor_minimo": 6.949931600547195,
-      "valor_maximo": 6.949931600547195,
-      "valor_medio": 6.949931600547195,
-      "valor_recente": 6.949931600547195,
-      "data_recente": "2026-04-10T11:22:39Z"
+      "valor_minimo": 6.948096885813149,
+      "valor_maximo": 6.948096885813149,
+      "valor_medio": 6.948096885813149,
+      "valor_recente": 6.948096885813149,
+      "data_recente": "2026-04-10T13:34:06Z"
     },
     {
       "cnpj": "30044555000104",
@@ -108,7 +108,27 @@
       "valor_maximo": 5.699954400364797,
       "valor_medio": 5.699954400364797,
       "valor_recente": 5.699954400364797,
-      "data_recente": "2026-04-10T00:51:45Z"
+      "data_recente": "2026-04-10T12:54:12Z"
+    },
+    {
+      "cnpj": "27069763000145",
+      "tipo_combustivel": 5,
+      "razao_social": "MARCELA MARTINS DE LIMA EIRELI - ME",
+      "nome_fantasia": "POSTO NOSSA SENHORA DO CARMO",
+      "telefone": "(82) 96413192",
+      "nome_logradouro": "Rua DR JOSE REBELO TORRES",
+      "numero_imovel": "SN",
+      "bairro": "CENTRO",
+      "cep": "57550000",
+      "codigo_ibge": 2706000,
+      "municipio": "OLIVENCA",
+      "latitude": -9.519277,
+      "longitude": -37.191994,
+      "valor_minimo": 7.419965129650926,
+      "valor_maximo": 7.419965129650926,
+      "valor_medio": 7.419965129650926,
+      "valor_recente": 7.419965129650926,
+      "data_recente": "2026-04-10T12:57:38Z"
     },
     {
       "cnpj": "30044555000104",
@@ -128,27 +148,7 @@
       "valor_maximo": 7.420048972323217,
       "valor_medio": 7.420048972323217,
       "valor_recente": 7.420048972323217,
-      "data_recente": "2026-04-10T09:23:14Z"
-    },
-    {
-      "cnpj": "27069763000145",
-      "tipo_combustivel": 5,
-      "razao_social": "MARCELA MARTINS DE LIMA EIRELI - ME",
-      "nome_fantasia": "POSTO NOSSA SENHORA DO CARMO",
-      "telefone": "(82) 96413192",
-      "nome_logradouro": "Rua DR JOSE REBELO TORRES",
-      "numero_imovel": "SN",
-      "bairro": "CENTRO",
-      "cep": "57550000",
-      "codigo_ibge": 2706000,
-      "municipio": "OLIVENCA",
-      "latitude": -9.519277,
-      "longitude": -37.191994,
-      "valor_minimo": 7.420058829110921,
-      "valor_maximo": 7.420058829110921,
-      "valor_medio": 7.420058829110921,
-      "valor_recente": 7.420058829110921,
-      "data_recente": "2026-04-10T11:13:28Z"
+      "data_recente": "2026-04-10T13:31:02Z"
     }
   ]
 }
