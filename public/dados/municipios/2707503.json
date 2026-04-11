@@ -1,38 +1,38 @@
 {
   "codigoIBGE": "2707503",
   "municipio": "Porto Real do Colégio",
-  "atualizadoEm": "2026-04-11T05:34:16.395Z",
+  "atualizadoEm": "2026-04-11T06:28:09.728Z",
   "totalEstabelecimentos": 9,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 7.019185774450164,
+      "valorMinimo": 7.019655034095467,
       "valorMaximo": 7.42,
-      "valorMedio": 7.219592887225081
+      "valorMedio": 7.219827517047733
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 7.0688030160226205,
+      "valorMinimo": 7.07,
       "valorMaximo": 7.072135785007072,
-      "valorMedio": 7.070469400514846
+      "valorMedio": 7.071067892503536
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.04999495000505,
+      "valorMinimo": 5.04965494024575,
       "valorMaximo": 5.04999495000505,
-      "valorMedio": 5.04999495000505
+      "valorMedio": 5.049824945125399
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 7.459975477316518,
-      "valorMaximo": 7.459975477316518,
-      "valorMedio": 7.459975477316518
+      "valorMinimo": 7.459903021260724,
+      "valorMaximo": 7.459903021260724,
+      "valorMedio": 7.459903021260724
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.299999574896806,
-      "valorMaximo": 7.300031285848368,
-      "valorMedio": 7.3000154303725875
+      "valorMinimo": 7.300016060035332,
+      "valorMaximo": 7.799995581965583,
+      "valorMedio": 7.5500058210004575
     }
   },
   "estabelecimentos": [
@@ -50,11 +50,11 @@
       "municipio": "PORTO REAL DO COLEGIO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.019185774450164,
-      "valor_maximo": 7.019185774450164,
-      "valor_medio": 7.019185774450164,
-      "valor_recente": 7.019185774450164,
-      "data_recente": "2026-04-10T15:37:32Z"
+      "valor_minimo": 7.019655034095467,
+      "valor_maximo": 7.019655034095467,
+      "valor_medio": 7.019655034095467,
+      "valor_recente": 7.019655034095467,
+      "data_recente": "2026-04-10T18:18:27Z"
     },
     {
       "cnpj": "07839831000109",
@@ -74,7 +74,7 @@
       "valor_maximo": 7.42,
       "valor_medio": 7.42,
       "valor_recente": 7.42,
-      "data_recente": "2026-04-10T15:43:58Z"
+      "data_recente": "2026-04-10T18:32:31Z"
     },
     {
       "cnpj": "07839831000109",
@@ -90,11 +90,11 @@
       "municipio": "PORTO REAL DO COLEGIO",
       "latitude": -10.1870404,
       "longitude": -36.8382112,
-      "valor_minimo": 7.0688030160226205,
-      "valor_maximo": 7.0688030160226205,
-      "valor_medio": 7.0688030160226205,
-      "valor_recente": 7.0688030160226205,
-      "data_recente": "2026-04-10T15:42:08Z"
+      "valor_minimo": 7.07,
+      "valor_maximo": 7.07,
+      "valor_medio": 7.07,
+      "valor_recente": 7.07,
+      "data_recente": "2026-04-10T18:15:30Z"
     },
     {
       "cnpj": "43465775000145",
@@ -114,7 +114,27 @@
       "valor_maximo": 7.072135785007072,
       "valor_medio": 7.072135785007072,
       "valor_recente": 7.072135785007072,
-      "data_recente": "2026-04-10T15:31:03Z"
+      "data_recente": "2026-04-10T17:52:32Z"
+    },
+    {
+      "cnpj": "07839831000109",
+      "tipo_combustivel": 3,
+      "razao_social": "AUTO POSTO PORTO REAL LTDA",
+      "nome_fantasia": "AUTOPEL PORTO REAL",
+      "telefone": "(82) 35531413",
+      "nome_logradouro": "RDV BR 101 KM 245",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57290000",
+      "codigo_ibge": 2707503,
+      "municipio": "PORTO REAL DO COLEGIO",
+      "latitude": -10.1870404,
+      "longitude": -36.8382112,
+      "valor_minimo": 5.04965494024575,
+      "valor_maximo": 5.04965494024575,
+      "valor_medio": 5.04965494024575,
+      "valor_recente": 5.04965494024575,
+      "data_recente": "2026-04-10T17:52:04Z"
     },
     {
       "cnpj": "43465775000145",
@@ -134,27 +154,7 @@
       "valor_maximo": 5.04999495000505,
       "valor_medio": 5.04999495000505,
       "valor_recente": 5.04999495000505,
-      "data_recente": "2026-04-10T15:37:32Z"
-    },
-    {
-      "cnpj": "07839831000109",
-      "tipo_combustivel": 3,
-      "razao_social": "AUTO POSTO PORTO REAL LTDA",
-      "nome_fantasia": "AUTOPEL PORTO REAL",
-      "telefone": "(82) 35531413",
-      "nome_logradouro": "RDV BR 101 KM 245",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57290000",
-      "codigo_ibge": 2707503,
-      "municipio": "PORTO REAL DO COLEGIO",
-      "latitude": -10.1870404,
-      "longitude": -36.8382112,
-      "valor_minimo": 5.04999495000505,
-      "valor_maximo": 5.04999495000505,
-      "valor_medio": 5.04999495000505,
-      "valor_recente": 5.04999495000505,
-      "data_recente": "2026-04-10T15:42:08Z"
+      "data_recente": "2026-04-10T18:18:27Z"
     },
     {
       "cnpj": "43465775000145",
@@ -170,11 +170,11 @@
       "municipio": "PORTO REAL DO COLEGIO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.459975477316518,
-      "valor_maximo": 7.459975477316518,
-      "valor_medio": 7.459975477316518,
-      "valor_recente": 7.459975477316518,
-      "data_recente": "2026-04-10T14:39:43Z"
+      "valor_minimo": 7.459903021260724,
+      "valor_maximo": 7.459903021260724,
+      "valor_medio": 7.459903021260724,
+      "valor_recente": 7.459903021260724,
+      "data_recente": "2026-04-10T18:38:25Z"
     },
     {
       "cnpj": "43465775000145",
@@ -190,11 +190,11 @@
       "municipio": "PORTO REAL DO COLEGIO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.299999574896806,
-      "valor_maximo": 7.299999574896806,
-      "valor_medio": 7.299999574896806,
-      "valor_recente": 7.299999574896806,
-      "data_recente": "2026-04-10T15:16:16Z"
+      "valor_minimo": 7.300016060035332,
+      "valor_maximo": 7.300016060035332,
+      "valor_medio": 7.300016060035332,
+      "valor_recente": 7.300016060035332,
+      "data_recente": "2026-04-10T18:06:40Z"
     },
     {
       "cnpj": "07839831000109",
@@ -210,11 +210,11 @@
       "municipio": "PORTO REAL DO COLEGIO",
       "latitude": -10.1870404,
       "longitude": -36.8382112,
-      "valor_minimo": 7.300031285848368,
-      "valor_maximo": 7.300031285848368,
-      "valor_medio": 7.300031285848368,
-      "valor_recente": 7.300031285848368,
-      "data_recente": "2026-04-10T15:37:10Z"
+      "valor_minimo": 7.799995581965583,
+      "valor_maximo": 7.799995581965583,
+      "valor_medio": 7.799995581965583,
+      "valor_recente": 7.799995581965583,
+      "data_recente": "2026-04-10T18:28:11Z"
     }
   ]
 }
