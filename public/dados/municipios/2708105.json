@@ -1,49 +1,29 @@
 {
   "codigoIBGE": "2708105",
   "municipio": "Santana do Mundaú",
-  "atualizadoEm": "2026-04-11T19:09:27.943Z",
+  "atualizadoEm": "2026-04-11T20:10:05.896Z",
   "totalEstabelecimentos": 5,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.889428918590522,
+      "valorMinimo": 6.889908256880734,
       "valorMaximo": 6.890215893431328,
-      "valorMedio": 6.889822406010925
+      "valorMedio": 6.890062075156031
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.690224194833276,
-      "valorMaximo": 5.690224194833276,
-      "valorMedio": 5.690224194833276
+      "valorMinimo": 5.688282138794084,
+      "valorMaximo": 5.688282138794084,
+      "valorMedio": 5.688282138794084
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.349574405635456,
-      "valorMaximo": 7.35,
-      "valorMedio": 7.349787202817728
+      "valorMinimo": 7.349937550510616,
+      "valorMaximo": 7.35023888276369,
+      "valorMedio": 7.350088216637153
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "11140617000129",
-      "tipo_combustivel": 1,
-      "razao_social": "ALMEIDA & VASCONCELOS LTDA",
-      "nome_fantasia": "AUTO POSTO EMANUELLY",
-      "telefone": "",
-      "nome_logradouro": "ROD AL 205",
-      "numero_imovel": "20",
-      "bairro": "ZONA RURAL",
-      "cep": "57840000",
-      "codigo_ibge": 2708105,
-      "municipio": "SANTANA DO MUNDAU",
-      "latitude": -9.1702427,
-      "longitude": -36.2207663,
-      "valor_minimo": 6.889428918590522,
-      "valor_maximo": 6.889428918590522,
-      "valor_medio": 6.889428918590522,
-      "valor_recente": 6.889428918590522,
-      "data_recente": "2026-04-11T15:01:36Z"
-    },
     {
       "cnpj": "40433057000107",
       "tipo_combustivel": 1,
@@ -58,11 +38,31 @@
       "municipio": "SANTANA DO MUNDAU",
       "latitude": 0,
       "longitude": 0,
+      "valor_minimo": 6.889908256880734,
+      "valor_maximo": 6.889908256880734,
+      "valor_medio": 6.889908256880734,
+      "valor_recente": 6.889908256880734,
+      "data_recente": "2026-04-11T17:11:16Z"
+    },
+    {
+      "cnpj": "11140617000129",
+      "tipo_combustivel": 1,
+      "razao_social": "ALMEIDA & VASCONCELOS LTDA",
+      "nome_fantasia": "AUTO POSTO EMANUELLY",
+      "telefone": "",
+      "nome_logradouro": "ROD AL 205",
+      "numero_imovel": "20",
+      "bairro": "ZONA RURAL",
+      "cep": "57840000",
+      "codigo_ibge": 2708105,
+      "municipio": "SANTANA DO MUNDAU",
+      "latitude": -9.1702427,
+      "longitude": -36.2207663,
       "valor_minimo": 6.890215893431328,
       "valor_maximo": 6.890215893431328,
       "valor_medio": 6.890215893431328,
       "valor_recente": 6.890215893431328,
-      "data_recente": "2026-04-11T14:59:05Z"
+      "data_recente": "2026-04-11T16:11:36Z"
     },
     {
       "cnpj": "11140617000129",
@@ -78,11 +78,11 @@
       "municipio": "SANTANA DO MUNDAU",
       "latitude": -9.1702427,
       "longitude": -36.2207663,
-      "valor_minimo": 5.690224194833276,
-      "valor_maximo": 5.690224194833276,
-      "valor_medio": 5.690224194833276,
-      "valor_recente": 5.690224194833276,
-      "data_recente": "2026-04-11T14:20:28Z"
+      "valor_minimo": 5.688282138794084,
+      "valor_maximo": 5.688282138794084,
+      "valor_medio": 5.688282138794084,
+      "valor_recente": 5.688282138794084,
+      "data_recente": "2026-04-11T16:11:36Z"
     },
     {
       "cnpj": "11140617000129",
@@ -98,11 +98,11 @@
       "municipio": "SANTANA DO MUNDAU",
       "latitude": -9.1702427,
       "longitude": -36.2207663,
-      "valor_minimo": 7.349574405635456,
-      "valor_maximo": 7.349574405635456,
-      "valor_medio": 7.349574405635456,
-      "valor_recente": 7.349574405635456,
-      "data_recente": "2026-04-11T14:47:29Z"
+      "valor_minimo": 7.349937550510616,
+      "valor_maximo": 7.349937550510616,
+      "valor_medio": 7.349937550510616,
+      "valor_recente": 7.349937550510616,
+      "data_recente": "2026-04-11T15:57:15Z"
     },
     {
       "cnpj": "40433057000107",
@@ -118,11 +118,11 @@
       "municipio": "SANTANA DO MUNDAU",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.35,
-      "valor_maximo": 7.35,
-      "valor_medio": 7.35,
-      "valor_recente": 7.35,
-      "data_recente": "2026-04-11T14:40:52Z"
+      "valor_minimo": 7.35023888276369,
+      "valor_maximo": 7.35023888276369,
+      "valor_medio": 7.35023888276369,
+      "valor_recente": 7.35023888276369,
+      "data_recente": "2026-04-11T17:15:03Z"
     }
   ]
 }

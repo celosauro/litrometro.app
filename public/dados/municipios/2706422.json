@@ -1,49 +1,29 @@
 {
   "codigoIBGE": "2706422",
   "municipio": "Pariconha",
-  "atualizadoEm": "2026-04-11T19:00:28.476Z",
+  "atualizadoEm": "2026-04-11T20:00:56.630Z",
   "totalEstabelecimentos": 6,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
       "valorMinimo": 7.190106413574921,
-      "valorMaximo": 7.190106413574921,
-      "valorMedio": 7.190106413574921
+      "valorMaximo": 7.1907957813998085,
+      "valorMedio": 7.190451097487365
     },
     "2": {
       "totalPostos": 2,
       "valorMinimo": 7.1890726096333575,
-      "valorMaximo": 7.24025582237239,
-      "valorMedio": 7.214664216002873
+      "valorMaximo": 7.2400810889081955,
+      "valorMedio": 7.2145768492707765
     },
     "5": {
       "totalPostos": 2,
       "valorMinimo": 7.6698880196349135,
-      "valorMaximo": 7.779937791601866,
-      "valorMedio": 7.72491290561839
+      "valorMaximo": 7.7805825242718445,
+      "valorMedio": 7.725235271953379
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "27457330000167",
-      "tipo_combustivel": 1,
-      "razao_social": "GABRIEL BEZERRA DE MELO SOUZA - EPP",
-      "nome_fantasia": "AUTO POSTO GT",
-      "telefone": "(82) 99833813",
-      "nome_logradouro": "Rua FELIX JOSE DOS SANTOS",
-      "numero_imovel": "417",
-      "bairro": "CENTRO",
-      "cep": "57475000",
-      "codigo_ibge": 2706422,
-      "municipio": "PARICONHA",
-      "latitude": -9.2554482,
-      "longitude": -38.0027017,
-      "valor_minimo": 7.190106413574921,
-      "valor_maximo": 7.190106413574921,
-      "valor_medio": 7.190106413574921,
-      "valor_recente": 7.190106413574921,
-      "data_recente": "2026-04-11T14:52:56Z"
-    },
     {
       "cnpj": "04590794000141",
       "tipo_combustivel": 1,
@@ -63,6 +43,26 @@
       "valor_medio": 7.190106413574921,
       "valor_recente": 7.190106413574921,
       "data_recente": "2026-04-10T19:15:52Z"
+    },
+    {
+      "cnpj": "27457330000167",
+      "tipo_combustivel": 1,
+      "razao_social": "GABRIEL BEZERRA DE MELO SOUZA - EPP",
+      "nome_fantasia": "AUTO POSTO GT",
+      "telefone": "(82) 99833813",
+      "nome_logradouro": "Rua FELIX JOSE DOS SANTOS",
+      "numero_imovel": "417",
+      "bairro": "CENTRO",
+      "cep": "57475000",
+      "codigo_ibge": 2706422,
+      "municipio": "PARICONHA",
+      "latitude": -9.2554482,
+      "longitude": -38.0027017,
+      "valor_minimo": 7.1907957813998085,
+      "valor_maximo": 7.1907957813998085,
+      "valor_medio": 7.1907957813998085,
+      "valor_recente": 7.1907957813998085,
+      "data_recente": "2026-04-11T15:58:43Z"
     },
     {
       "cnpj": "04590794000141",
@@ -98,11 +98,11 @@
       "municipio": "PARICONHA",
       "latitude": -9.2554482,
       "longitude": -38.0027017,
-      "valor_minimo": 7.24025582237239,
-      "valor_maximo": 7.24025582237239,
-      "valor_medio": 7.24025582237239,
-      "valor_recente": 7.24025582237239,
-      "data_recente": "2026-04-11T14:52:56Z"
+      "valor_minimo": 7.2400810889081955,
+      "valor_maximo": 7.2400810889081955,
+      "valor_medio": 7.2400810889081955,
+      "valor_recente": 7.2400810889081955,
+      "data_recente": "2026-04-11T15:43:55Z"
     },
     {
       "cnpj": "04590794000141",
@@ -138,11 +138,11 @@
       "municipio": "PARICONHA",
       "latitude": -9.2554482,
       "longitude": -38.0027017,
-      "valor_minimo": 7.779937791601866,
-      "valor_maximo": 7.779937791601866,
-      "valor_medio": 7.779937791601866,
-      "valor_recente": 7.779937791601866,
-      "data_recente": "2026-04-11T14:52:56Z"
+      "valor_minimo": 7.7805825242718445,
+      "valor_maximo": 7.7805825242718445,
+      "valor_medio": 7.7805825242718445,
+      "valor_recente": 7.7805825242718445,
+      "data_recente": "2026-04-11T15:58:43Z"
     }
   ]
 }

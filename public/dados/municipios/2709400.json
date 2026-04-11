@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2709400",
   "municipio": "Viçosa",
-  "atualizadoEm": "2026-04-11T19:15:51.130Z",
+  "atualizadoEm": "2026-04-11T20:16:40.222Z",
   "totalEstabelecimentos": 14,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
-      "valorMinimo": 7.150537634408602,
-      "valorMaximo": 7.389890629618682,
-      "valorMedio": 7.279933753726155
+      "valorMinimo": 7.150495049504951,
+      "valorMaximo": 7.610109370381318,
+      "valorMedio": 7.335089273626428
     },
     "2": {
       "totalPostos": 4,
       "valorMinimo": 7.15,
-      "valorMaximo": 7.6923076923076925,
-      "valorMedio": 7.405290476872918
+      "valorMaximo": 7.69,
+      "valorMedio": 7.404954681227676
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.990059642147117,
+      "valorMinimo": 5.989458552946814,
       "valorMaximo": 6.090133982947624,
-      "valorMedio": 6.040096812547371
+      "valorMedio": 6.039796267947219
     },
     "5": {
       "totalPostos": 4,
-      "valorMinimo": 7.349915206331261,
+      "valorMinimo": 7.352941176470588,
       "valorMaximo": 7.6923076923076925,
-      "valorMedio": 7.5774892935657086
+      "valorMedio": 7.577288274136434
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "VICOSA",
       "latitude": -9.3735369,
       "longitude": -36.2510856,
-      "valor_minimo": 7.150537634408602,
-      "valor_maximo": 7.150537634408602,
-      "valor_medio": 7.150537634408602,
-      "valor_recente": 7.150537634408602,
-      "data_recente": "2026-04-11T15:04:56Z"
+      "valor_minimo": 7.150495049504951,
+      "valor_maximo": 7.150495049504951,
+      "valor_medio": 7.150495049504951,
+      "valor_recente": 7.150495049504951,
+      "data_recente": "2026-04-11T17:16:11Z"
     },
     {
       "cnpj": "07478815000120",
@@ -64,11 +64,11 @@
       "municipio": "VICOSA",
       "latitude": -9.3694174,
       "longitude": -36.2427277,
-      "valor_minimo": 7.28945167841357,
-      "valor_maximo": 7.28945167841357,
-      "valor_medio": 7.28945167841357,
-      "valor_recente": 7.28945167841357,
-      "data_recente": "2026-04-11T15:18:12Z"
+      "valor_minimo": 7.289665211062591,
+      "valor_maximo": 7.289665211062591,
+      "valor_medio": 7.289665211062591,
+      "valor_recente": 7.289665211062591,
+      "data_recente": "2026-04-11T17:04:10Z"
     },
     {
       "cnpj": "18527801000175",
@@ -84,11 +84,11 @@
       "municipio": "VICOSA",
       "latitude": -9.830609899999999,
       "longitude": -35.8872314,
-      "valor_minimo": 7.2898550724637685,
-      "valor_maximo": 7.2898550724637685,
-      "valor_medio": 7.2898550724637685,
-      "valor_recente": 7.2898550724637685,
-      "data_recente": "2026-04-11T15:12:59Z"
+      "valor_minimo": 7.290087463556851,
+      "valor_maximo": 7.290087463556851,
+      "valor_medio": 7.290087463556851,
+      "valor_recente": 7.290087463556851,
+      "data_recente": "2026-04-11T16:13:25Z"
     },
     {
       "cnpj": "08616112000183",
@@ -104,11 +104,11 @@
       "municipio": "VICOSA",
       "latitude": -9.371023899999999,
       "longitude": -36.2448909,
-      "valor_minimo": 7.389890629618682,
-      "valor_maximo": 7.389890629618682,
-      "valor_medio": 7.389890629618682,
-      "valor_recente": 7.389890629618682,
-      "data_recente": "2026-04-11T15:21:02Z"
+      "valor_minimo": 7.610109370381318,
+      "valor_maximo": 7.610109370381318,
+      "valor_medio": 7.610109370381318,
+      "valor_recente": 7.610109370381318,
+      "data_recente": "2026-04-11T17:15:57Z"
     },
     {
       "cnpj": "28463788000191",
@@ -128,27 +128,7 @@
       "valor_maximo": 7.15,
       "valor_medio": 7.15,
       "valor_recente": 7.15,
-      "data_recente": "2026-04-11T15:04:56Z"
-    },
-    {
-      "cnpj": "07478815000120",
-      "tipo_combustivel": 2,
-      "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
-      "nome_fantasia": "POSTO SABALANGA",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 210",
-      "numero_imovel": "1",
-      "bairro": "FAZ ALTO CONCEICAO",
-      "cep": "57700000",
-      "codigo_ibge": 2709400,
-      "municipio": "VICOSA",
-      "latitude": -9.3694174,
-      "longitude": -36.2427277,
-      "valor_minimo": 7.389380530973451,
-      "valor_maximo": 7.389380530973451,
-      "valor_medio": 7.389380530973451,
-      "valor_recente": 7.389380530973451,
-      "data_recente": "2026-04-11T15:11:36Z"
+      "data_recente": "2026-04-11T17:16:11Z"
     },
     {
       "cnpj": "18527801000175",
@@ -164,11 +144,31 @@
       "municipio": "VICOSA",
       "latitude": -9.830609899999999,
       "longitude": -35.8872314,
-      "valor_minimo": 7.389473684210526,
-      "valor_maximo": 7.389473684210526,
-      "valor_medio": 7.389473684210526,
-      "valor_recente": 7.389473684210526,
-      "data_recente": "2026-04-11T15:12:59Z"
+      "valor_minimo": 7.389705882352941,
+      "valor_maximo": 7.389705882352941,
+      "valor_medio": 7.389705882352941,
+      "valor_recente": 7.389705882352941,
+      "data_recente": "2026-04-11T16:13:25Z"
+    },
+    {
+      "cnpj": "07478815000120",
+      "tipo_combustivel": 2,
+      "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
+      "nome_fantasia": "POSTO SABALANGA",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 210",
+      "numero_imovel": "1",
+      "bairro": "FAZ ALTO CONCEICAO",
+      "cep": "57700000",
+      "codigo_ibge": 2709400,
+      "municipio": "VICOSA",
+      "latitude": -9.3694174,
+      "longitude": -36.2427277,
+      "valor_minimo": 7.390112842557764,
+      "valor_maximo": 7.390112842557764,
+      "valor_medio": 7.390112842557764,
+      "valor_recente": 7.390112842557764,
+      "data_recente": "2026-04-11T17:01:51Z"
     },
     {
       "cnpj": "08616112000183",
@@ -184,11 +184,11 @@
       "municipio": "VICOSA",
       "latitude": -9.371023899999999,
       "longitude": -36.2448909,
-      "valor_minimo": 7.6923076923076925,
-      "valor_maximo": 7.6923076923076925,
-      "valor_medio": 7.6923076923076925,
-      "valor_recente": 7.6923076923076925,
-      "data_recente": "2026-04-11T15:23:32Z"
+      "valor_minimo": 7.69,
+      "valor_maximo": 7.69,
+      "valor_medio": 7.69,
+      "valor_recente": 7.69,
+      "data_recente": "2026-04-11T17:11:34Z"
     },
     {
       "cnpj": "07478815000120",
@@ -204,11 +204,11 @@
       "municipio": "VICOSA",
       "latitude": -9.3694174,
       "longitude": -36.2427277,
-      "valor_minimo": 5.990059642147117,
-      "valor_maximo": 5.990059642147117,
-      "valor_medio": 5.990059642147117,
-      "valor_recente": 5.990059642147117,
-      "data_recente": "2026-04-11T15:17:43Z"
+      "valor_minimo": 5.989458552946814,
+      "valor_maximo": 5.989458552946814,
+      "valor_medio": 5.989458552946814,
+      "valor_recente": 5.989458552946814,
+      "data_recente": "2026-04-11T16:16:11Z"
     },
     {
       "cnpj": "18527801000175",
@@ -244,11 +244,11 @@
       "municipio": "VICOSA",
       "latitude": -9.3735369,
       "longitude": -36.2510856,
-      "valor_minimo": 7.349915206331261,
-      "valor_maximo": 7.349915206331261,
-      "valor_medio": 7.349915206331261,
-      "valor_recente": 7.349915206331261,
-      "data_recente": "2026-04-11T13:27:12Z"
+      "valor_minimo": 7.352941176470588,
+      "valor_maximo": 7.352941176470588,
+      "valor_medio": 7.352941176470588,
+      "valor_recente": 7.352941176470588,
+      "data_recente": "2026-04-11T16:24:17Z"
     },
     {
       "cnpj": "08616112000183",
@@ -264,11 +264,11 @@
       "municipio": "VICOSA",
       "latitude": -9.371023899999999,
       "longitude": -36.2448909,
-      "valor_minimo": 7.577749683944374,
-      "valor_maximo": 7.577749683944374,
-      "valor_medio": 7.577749683944374,
-      "valor_recente": 7.577749683944374,
-      "data_recente": "2026-04-11T13:32:52Z"
+      "valor_minimo": 7.573919636087945,
+      "valor_maximo": 7.573919636087945,
+      "valor_medio": 7.573919636087945,
+      "valor_recente": 7.573919636087945,
+      "data_recente": "2026-04-11T15:48:14Z"
     },
     {
       "cnpj": "07478815000120",

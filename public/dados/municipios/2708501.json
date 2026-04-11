@@ -1,55 +1,35 @@
 {
   "codigoIBGE": "2708501",
   "municipio": "São Luís do Quitunde",
-  "atualizadoEm": "2026-04-11T19:11:10.357Z",
+  "atualizadoEm": "2026-04-11T20:11:58.550Z",
   "totalEstabelecimentos": 11,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.490134994807892,
-      "valorMaximo": 6.589909525006283,
-      "valorMedio": 6.55646537587199
+      "valorMinimo": 6.589785831960461,
+      "valorMaximo": 6.738544474393531,
+      "valorMedio": 6.639433382954961
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.589618815896189,
+      "valorMinimo": 6.589785831960461,
       "valorMaximo": 6.589785831960461,
-      "valorMedio": 6.589702323928325
+      "valorMedio": 6.589785831960461
     },
     "3": {
       "totalPostos": 3,
       "valorMinimo": 5.29,
       "valorMaximo": 5.37952552584862,
-      "valorMedio": 5.3232033522341275
+      "valorMedio": 5.323214926177268
     },
     "5": {
       "totalPostos": 3,
       "valorMinimo": 7.2500543754078155,
-      "valorMaximo": 7.519927808693036,
-      "valorMedio": 7.419992563367849
+      "valorMaximo": 7.520047915349549,
+      "valorMedio": 7.420059313507143
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "49974887000108",
-      "tipo_combustivel": 1,
-      "razao_social": "W V DE PAULA  LTDA",
-      "nome_fantasia": "AUTO POSTO TANQUE CHEIO",
-      "telefone": "(82) 30268523",
-      "nome_logradouro": "ROD AL 413 - NORTE",
-      "numero_imovel": "SN",
-      "bairro": "SANTO INACIO",
-      "cep": "57920000",
-      "codigo_ibge": 2708501,
-      "municipio": "SAO LUIS DO QUITUNDE",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.490134994807892,
-      "valor_maximo": 6.490134994807892,
-      "valor_medio": 6.490134994807892,
-      "valor_recente": 6.490134994807892,
-      "data_recente": "2026-04-11T15:25:59Z"
-    },
     {
       "cnpj": "10535038000112",
       "tipo_combustivel": 1,
@@ -64,11 +44,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": -9.3144076,
       "longitude": -35.570283,
-      "valor_minimo": 6.589351607801793,
-      "valor_maximo": 6.589351607801793,
-      "valor_medio": 6.589351607801793,
-      "valor_recente": 6.589351607801793,
-      "data_recente": "2026-04-11T15:21:33Z"
+      "valor_minimo": 6.589785831960461,
+      "valor_maximo": 6.589785831960461,
+      "valor_medio": 6.589785831960461,
+      "valor_recente": 6.589785831960461,
+      "data_recente": "2026-04-11T16:58:44Z"
     },
     {
       "cnpj": "28442466000166",
@@ -84,11 +64,31 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": -9.350797,
       "longitude": -35.555955,
-      "valor_minimo": 6.589909525006283,
-      "valor_maximo": 6.589909525006283,
-      "valor_medio": 6.589909525006283,
-      "valor_recente": 6.589909525006283,
-      "data_recente": "2026-04-11T14:36:46Z"
+      "valor_minimo": 6.58996984251089,
+      "valor_maximo": 6.58996984251089,
+      "valor_medio": 6.58996984251089,
+      "valor_recente": 6.58996984251089,
+      "data_recente": "2026-04-11T16:42:17Z"
+    },
+    {
+      "cnpj": "49974887000108",
+      "tipo_combustivel": 1,
+      "razao_social": "W V DE PAULA  LTDA",
+      "nome_fantasia": "AUTO POSTO TANQUE CHEIO",
+      "telefone": "(82) 30268523",
+      "nome_logradouro": "ROD AL 413 - NORTE",
+      "numero_imovel": "SN",
+      "bairro": "SANTO INACIO",
+      "cep": "57920000",
+      "codigo_ibge": 2708501,
+      "municipio": "SAO LUIS DO QUITUNDE",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.738544474393531,
+      "valor_maximo": 6.738544474393531,
+      "valor_medio": 6.738544474393531,
+      "valor_recente": 6.738544474393531,
+      "data_recente": "2026-04-11T17:15:28Z"
     },
     {
       "cnpj": "10535038000112",
@@ -104,11 +104,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": -9.3144076,
       "longitude": -35.570283,
-      "valor_minimo": 6.589618815896189,
-      "valor_maximo": 6.589618815896189,
-      "valor_medio": 6.589618815896189,
-      "valor_recente": 6.589618815896189,
-      "data_recente": "2026-04-11T14:53:09Z"
+      "valor_minimo": 6.589785831960461,
+      "valor_maximo": 6.589785831960461,
+      "valor_medio": 6.589785831960461,
+      "valor_recente": 6.589785831960461,
+      "data_recente": "2026-04-11T16:58:44Z"
     },
     {
       "cnpj": "28442466000166",
@@ -148,7 +148,7 @@
       "valor_maximo": 5.29,
       "valor_medio": 5.29,
       "valor_recente": 5.29,
-      "data_recente": "2026-04-11T14:54:21Z"
+      "data_recente": "2026-04-11T16:58:44Z"
     },
     {
       "cnpj": "49974887000108",
@@ -164,11 +164,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.300084530853762,
-      "valor_maximo": 5.300084530853762,
-      "valor_medio": 5.300084530853762,
-      "valor_recente": 5.300084530853762,
-      "data_recente": "2026-04-11T15:24:24Z"
+      "valor_minimo": 5.300119252683185,
+      "valor_maximo": 5.300119252683185,
+      "valor_medio": 5.300119252683185,
+      "valor_recente": 5.300119252683185,
+      "data_recente": "2026-04-11T17:12:04Z"
     },
     {
       "cnpj": "28442466000166",
@@ -224,11 +224,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": -9.3144076,
       "longitude": -35.570283,
-      "valor_minimo": 7.489995506002696,
+      "valor_minimo": 7.489978077043533,
       "valor_maximo": 7.490075649764063,
-      "valor_medio": 7.490035577883379,
-      "valor_recente": 7.489995506002696,
-      "data_recente": "2026-04-11T11:28:49Z"
+      "valor_medio": 7.4900268634037985,
+      "valor_recente": 7.490075649764063,
+      "data_recente": "2026-04-11T16:58:44Z"
     },
     {
       "cnpj": "28442466000166",
@@ -244,11 +244,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": -9.350797,
       "longitude": -35.555955,
-      "valor_minimo": 7.519927808693036,
+      "valor_minimo": 7.520047915349549,
       "valor_maximo": 8.519701810436635,
-      "valor_medio": 8.019814809564835,
-      "valor_recente": 7.519927808693036,
-      "data_recente": "2026-04-11T14:58:14Z"
+      "valor_medio": 8.019874862893092,
+      "valor_recente": 7.520047915349549,
+      "data_recente": "2026-04-11T16:13:44Z"
     }
   ]
 }

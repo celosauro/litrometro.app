@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2705101",
   "municipio": "Matriz de Camaragibe",
-  "atualizadoEm": "2026-04-11T18:53:26.493Z",
+  "atualizadoEm": "2026-04-11T19:51:44.274Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.499133448873484,
-      "valorMaximo": 6.629980773055758,
-      "valorMedio": 6.573038073976413
+      "valorMinimo": 6.499837504062398,
+      "valorMaximo": 6.630043568857738,
+      "valorMedio": 6.571672493105709
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.569434239529757,
-      "valorMaximo": 5.689900426742532,
-      "valorMedio": 5.629667333136144
+      "valorMinimo": 5.29,
+      "valorMaximo": 5.569434239529757,
+      "valorMedio": 5.429717119764879
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 7.54906894816306,
-      "valorMaximo": 7.54906894816306,
-      "valorMedio": 7.54906894816306
+      "valorMinimo": 7.549448890231013,
+      "valorMaximo": 7.549448890231013,
+      "valorMedio": 7.549448890231013
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.02000702000702,
-      "valorMaximo": 7.099917628957307,
-      "valorMedio": 7.059962324482163
+      "valorMinimo": 7.0200432304971505,
+      "valorMaximo": 7.149495960534782,
+      "valorMedio": 7.084769595515967
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "MATRIZ DE CAMARAGIBE",
       "latitude": -9.2430177,
       "longitude": -35.4899024,
-      "valor_minimo": 6.499133448873484,
-      "valor_maximo": 6.499133448873484,
-      "valor_medio": 6.499133448873484,
-      "valor_recente": 6.499133448873484,
-      "data_recente": "2026-04-11T15:13:06Z"
+      "valor_minimo": 6.499837504062398,
+      "valor_maximo": 6.499837504062398,
+      "valor_medio": 6.499837504062398,
+      "valor_recente": 6.499837504062398,
+      "data_recente": "2026-04-11T17:21:01Z"
     },
     {
       "cnpj": "20031527000190",
@@ -64,11 +64,11 @@
       "municipio": "MATRIZ DE CAMARAGIBE",
       "latitude": -9.1524118,
       "longitude": -35.5261781,
-      "valor_minimo": 6.59,
-      "valor_maximo": 6.59,
-      "valor_medio": 6.59,
-      "valor_recente": 6.59,
-      "data_recente": "2026-04-11T14:36:21Z"
+      "valor_minimo": 6.585136406396989,
+      "valor_maximo": 6.585136406396989,
+      "valor_medio": 6.585136406396989,
+      "valor_recente": 6.585136406396989,
+      "data_recente": "2026-04-11T17:04:37Z"
     },
     {
       "cnpj": "05988846000103",
@@ -84,11 +84,31 @@
       "municipio": "MATRIZ DE CAMARAGIBE",
       "latitude": -9.2430177,
       "longitude": -35.4899024,
-      "valor_minimo": 6.629980773055758,
-      "valor_maximo": 6.629980773055758,
-      "valor_medio": 6.629980773055758,
-      "valor_recente": 6.629980773055758,
-      "data_recente": "2026-04-11T15:26:19Z"
+      "valor_minimo": 6.630043568857738,
+      "valor_maximo": 6.630043568857738,
+      "valor_medio": 6.630043568857738,
+      "valor_recente": 6.630043568857738,
+      "data_recente": "2026-04-11T17:12:20Z"
+    },
+    {
+      "cnpj": "20031527000190",
+      "tipo_combustivel": 3,
+      "razao_social": "POSTO 4X4 COMERCIO DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "POSTO 4X4",
+      "telefone": "(82) 33286434",
+      "nome_logradouro": "ROD AL 105 NORTE",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57910000",
+      "codigo_ibge": 2705101,
+      "municipio": "MATRIZ DE CAMARAGIBE",
+      "latitude": -9.1524118,
+      "longitude": -35.5261781,
+      "valor_minimo": 5.29,
+      "valor_maximo": 5.29,
+      "valor_medio": 5.29,
+      "valor_recente": 5.29,
+      "data_recente": "2026-04-11T17:01:28Z"
     },
     {
       "cnpj": "05988846000103",
@@ -111,26 +131,6 @@
       "data_recente": "2026-04-09T17:17:31Z"
     },
     {
-      "cnpj": "20031527000190",
-      "tipo_combustivel": 3,
-      "razao_social": "POSTO 4X4 COMERCIO DE COMBUSTIVEIS LTDA",
-      "nome_fantasia": "POSTO 4X4",
-      "telefone": "(82) 33286434",
-      "nome_logradouro": "ROD AL 105 NORTE",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57910000",
-      "codigo_ibge": 2705101,
-      "municipio": "MATRIZ DE CAMARAGIBE",
-      "latitude": -9.1524118,
-      "longitude": -35.5261781,
-      "valor_minimo": 5.689900426742532,
-      "valor_maximo": 5.689900426742532,
-      "valor_medio": 5.689900426742532,
-      "valor_recente": 5.689900426742532,
-      "data_recente": "2026-04-11T13:28:57Z"
-    },
-    {
       "cnpj": "14638806000114",
       "tipo_combustivel": 4,
       "razao_social": "AUTO POSTO BOM JESUS EIRELI - EPP",
@@ -145,10 +145,10 @@
       "latitude": -9.2430177,
       "longitude": -35.4899024,
       "valor_minimo": 6.479481641468682,
-      "valor_maximo": 7.54906894816306,
-      "valor_medio": 7.014275294815871,
-      "valor_recente": 7.54906894816306,
-      "data_recente": "2026-04-11T14:52:17Z"
+      "valor_maximo": 7.549448890231013,
+      "valor_medio": 7.014465265849848,
+      "valor_recente": 7.549448890231013,
+      "data_recente": "2026-04-11T15:28:10Z"
     },
     {
       "cnpj": "05988846000103",
@@ -164,11 +164,11 @@
       "municipio": "MATRIZ DE CAMARAGIBE",
       "latitude": -9.2430177,
       "longitude": -35.4899024,
-      "valor_minimo": 7.02000702000702,
-      "valor_maximo": 7.02000702000702,
-      "valor_medio": 7.02000702000702,
-      "valor_recente": 7.02000702000702,
-      "data_recente": "2026-04-11T15:03:35Z"
+      "valor_minimo": 7.0200432304971505,
+      "valor_maximo": 7.0200432304971505,
+      "valor_medio": 7.0200432304971505,
+      "valor_recente": 7.0200432304971505,
+      "data_recente": "2026-04-11T16:58:31Z"
     },
     {
       "cnpj": "20031527000190",
@@ -184,11 +184,11 @@
       "municipio": "MATRIZ DE CAMARAGIBE",
       "latitude": -9.1524118,
       "longitude": -35.5261781,
-      "valor_minimo": 7.099917628957307,
-      "valor_maximo": 7.099917628957307,
-      "valor_medio": 7.099917628957307,
-      "valor_recente": 7.099917628957307,
-      "data_recente": "2026-04-11T15:22:32Z"
+      "valor_minimo": 7.149495960534782,
+      "valor_maximo": 7.149495960534782,
+      "valor_medio": 7.149495960534782,
+      "valor_recente": 7.149495960534782,
+      "data_recente": "2026-04-11T17:00:08Z"
     }
   ]
 }
