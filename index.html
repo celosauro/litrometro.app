@@ -3,11 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Litrômetro - Compare preços de combustíveis em Alagoas" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    
+    <!-- SEO básico -->
     <title>Litrômetro - Preços de Combustíveis em Alagoas</title>
+    <meta name="description" content="Compare preços de combustíveis em todos os 102 municípios de Alagoas. Gasolina, etanol, diesel e GNV com dados da SEFAZ/AL atualizados diariamente." />
+    <meta name="keywords" content="preços combustíveis, gasolina, etanol, diesel, GNV, Alagoas, Maceió, posto de gasolina, economia, abastecimento" />
+    <meta name="author" content="Litrômetro" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://litrometro.app/" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/og-image.svg" />
+    
+    <!-- Theme color -->
+    <meta name="theme-color" content="#2563eb" />
+    <meta name="msapplication-TileColor" content="#2563eb" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://litrometro.app/" />
+    <meta property="og:title" content="Litrômetro - Preços de Combustíveis em Alagoas" />
+    <meta property="og:description" content="Compare preços de combustíveis em todos os 102 municípios de Alagoas. Gasolina, etanol, diesel e GNV com dados da SEFAZ/AL atualizados diariamente." />
+    <meta property="og:image" content="https://litrometro.app/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Litrômetro" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://litrometro.app/" />
+    <meta name="twitter:title" content="Litrômetro - Preços de Combustíveis em Alagoas" />
+    <meta name="twitter:description" content="Compare preços de combustíveis em todos os 102 municípios de Alagoas. Dados atualizados da SEFAZ/AL." />
+    <meta name="twitter:image" content="https://litrometro.app/og-image.png" />
+    
+    <!-- Google Analytics - Adicione seu ID -->
+    <!-- O tracking é ativado apenas após consentimento do usuário (ver CookieBanner) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      // Configuração inicial com consentimento padrão negado
+      gtag('consent', 'default', {
+        'analytics_storage': 'denied',
+        'ad_storage': 'denied'
+      });
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
   </head>
   <body>
+    <!-- GitHub Pages SPA redirect script -->
+    <script type="text/javascript">
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

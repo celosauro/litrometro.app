@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="200" fill="rgba(255,255,255,0.05)"/>
+  <circle cx="1100" cy="530" r="250" fill="rgba(255,255,255,0.05)"/>
+  
+  <!-- Gas Pump Icon (simplified) -->
+  <g transform="translate(480, 160)">
+    <!-- Pump body -->
+    <rect x="40" y="60" width="160" height="200" rx="10" fill="white"/>
+    <!-- Pump display -->
+    <rect x="60" y="80" width="120" height="60" rx="5" fill="#1e40af"/>
+    <!-- Nozzle holder -->
+    <rect x="200" y="100" width="30" height="80" rx="5" fill="white"/>
+    <!-- Nozzle -->
+    <path d="M230 140 L280 140 L280 160 L260 180 L230 180 Z" fill="white"/>
+    <!-- Hose -->
+    <path d="M260 160 Q300 180 280 220 Q260 260 200 260" stroke="white" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <!-- Base -->
+    <rect x="20" y="260" width="200" height="20" rx="5" fill="white"/>
+  </g>
+  
+  <!-- Title: Litrômetro -->
+  <text x="600" y="440" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="bold" fill="white">
+    Litrômetro
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="500" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="rgba(255,255,255,0.9)">
+    Preços de Combustíveis em Alagoas
+  </text>
+  
+  <!-- Badge: SEFAZ/AL -->
+  <rect x="480" y="540" width="240" height="40" rx="20" fill="rgba(255,255,255,0.2)"/>
+  <text x="600" y="567" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="white">
+    Dados oficiais da SEFAZ/AL
+  </text>
+</svg>

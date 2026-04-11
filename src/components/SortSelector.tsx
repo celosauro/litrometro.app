@@ -9,7 +9,7 @@ interface SeletorOrdenacaoProps {
 }
 
 const opcoesOrdenacao: { valor: OpcaoOrdenacao; rotulo: string; requerLocalizacao?: boolean }[] = [
-  { valor: 'preco_asc', rotulo: 'Menor preço' },
+  { valor: 'preco_asc', rotulo: 'Menor Preço + Menor Distância' },
   { valor: 'preco_desc', rotulo: 'Maior preço' },
   { valor: 'data', rotulo: 'Mais recente' },
   { valor: 'distancia', rotulo: 'Mais próximo', requerLocalizacao: true },

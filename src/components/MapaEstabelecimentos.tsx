@@ -94,7 +94,7 @@ export function MapaEstabelecimentos({
   }, []);
 
   return (
-    <div className="w-full h-[calc(100vh-200px)] sm:h-[calc(100vh-220px)] rounded-lg overflow-hidden shadow-lg">
+    <div className="w-full h-[500px] sm:h-[calc(100vh-280px)] min-h-[400px] rounded-lg overflow-hidden shadow-lg">
       <Map
         initialViewState={viewInicial}
         mapStyle={MAP_STYLE}

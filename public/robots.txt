@@ -1,0 +1,14 @@
+# Litrômetro - Preços de Combustíveis em Alagoas
+# https://litrometro.app
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://litrometro.app/sitemap.xml
+
+# Crawl-delay (opcional, para ser gentil com o servidor)
+Crawl-delay: 1
+
+# Arquivos de dados (não indexar JSONs)
+Disallow: /dados/
