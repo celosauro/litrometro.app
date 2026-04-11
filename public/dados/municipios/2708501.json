@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2708501",
   "municipio": "São Luís do Quitunde",
-  "atualizadoEm": "2026-04-11T17:07:48.306Z",
+  "atualizadoEm": "2026-04-11T18:07:22.409Z",
   "totalEstabelecimentos": 11,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
       "valorMinimo": 6.490134994807892,
-      "valorMaximo": 6.589785831960461,
-      "valorMedio": 6.555845370011937
+      "valorMaximo": 6.589909525006283,
+      "valorMedio": 6.55646537587199
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.589785831960461,
+      "valorMinimo": 6.589618815896189,
       "valorMaximo": 6.589785831960461,
-      "valorMedio": 6.589785831960461
+      "valorMedio": 6.589702323928325
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 5.289605924358635,
+      "valorMinimo": 5.29,
       "valorMaximo": 5.37952552584862,
-      "valorMedio": 5.3231616023659045
+      "valorMedio": 5.3232033522341275
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.45,
-      "valorMaximo": 7.519645072752566,
-      "valorMedio": 7.486546859585087
+      "valorMinimo": 7.2500543754078155,
+      "valorMaximo": 7.519927808693036,
+      "valorMedio": 7.419992563367849
     }
   },
   "estabelecimentos": [
@@ -48,7 +48,27 @@
       "valor_maximo": 6.490134994807892,
       "valor_medio": 6.490134994807892,
       "valor_recente": 6.490134994807892,
-      "data_recente": "2026-04-11T13:56:05Z"
+      "data_recente": "2026-04-11T15:25:59Z"
+    },
+    {
+      "cnpj": "10535038000112",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO SANTO ANTONIO LTDA - EPP",
+      "nome_fantasia": "AUTO POSTO SANTO ANTONIO",
+      "telefone": "(82) 32531252",
+      "nome_logradouro": "Rua DR FRANCISCO DE OLIVEIRA BUARQUE",
+      "numero_imovel": "537",
+      "bairro": "CENTRO",
+      "cep": "57920000",
+      "codigo_ibge": 2708501,
+      "municipio": "SAO LUIS DO QUITUNDE",
+      "latitude": -9.3144076,
+      "longitude": -35.570283,
+      "valor_minimo": 6.589351607801793,
+      "valor_maximo": 6.589351607801793,
+      "valor_medio": 6.589351607801793,
+      "valor_recente": 6.589351607801793,
+      "data_recente": "2026-04-11T15:21:33Z"
     },
     {
       "cnpj": "28442466000166",
@@ -64,31 +84,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": -9.350797,
       "longitude": -35.555955,
-      "valor_minimo": 6.587615283267457,
-      "valor_maximo": 6.587615283267457,
-      "valor_medio": 6.587615283267457,
-      "valor_recente": 6.587615283267457,
-      "data_recente": "2026-04-11T13:55:14Z"
-    },
-    {
-      "cnpj": "10535038000112",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO SANTO ANTONIO LTDA - EPP",
-      "nome_fantasia": "AUTO POSTO SANTO ANTONIO",
-      "telefone": "(82) 32531252",
-      "nome_logradouro": "Rua DR FRANCISCO DE OLIVEIRA BUARQUE",
-      "numero_imovel": "537",
-      "bairro": "CENTRO",
-      "cep": "57920000",
-      "codigo_ibge": 2708501,
-      "municipio": "SAO LUIS DO QUITUNDE",
-      "latitude": -9.3144076,
-      "longitude": -35.570283,
-      "valor_minimo": 6.589785831960461,
-      "valor_maximo": 6.589785831960461,
-      "valor_medio": 6.589785831960461,
-      "valor_recente": 6.589785831960461,
-      "data_recente": "2026-04-11T13:40:20Z"
+      "valor_minimo": 6.589909525006283,
+      "valor_maximo": 6.589909525006283,
+      "valor_medio": 6.589909525006283,
+      "valor_recente": 6.589909525006283,
+      "data_recente": "2026-04-11T14:36:46Z"
     },
     {
       "cnpj": "10535038000112",
@@ -104,11 +104,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": -9.3144076,
       "longitude": -35.570283,
-      "valor_minimo": 6.589785831960461,
-      "valor_maximo": 6.589785831960461,
-      "valor_medio": 6.589785831960461,
-      "valor_recente": 6.589785831960461,
-      "data_recente": "2026-04-11T13:40:20Z"
+      "valor_minimo": 6.589618815896189,
+      "valor_maximo": 6.589618815896189,
+      "valor_medio": 6.589618815896189,
+      "valor_recente": 6.589618815896189,
+      "data_recente": "2026-04-11T14:53:09Z"
     },
     {
       "cnpj": "28442466000166",
@@ -144,11 +144,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": -9.3144076,
       "longitude": -35.570283,
-      "valor_minimo": 5.289605924358635,
-      "valor_maximo": 5.289605924358635,
-      "valor_medio": 5.289605924358635,
-      "valor_recente": 5.289605924358635,
-      "data_recente": "2026-04-11T13:40:20Z"
+      "valor_minimo": 5.29,
+      "valor_maximo": 5.29,
+      "valor_medio": 5.29,
+      "valor_recente": 5.29,
+      "data_recente": "2026-04-11T14:54:21Z"
     },
     {
       "cnpj": "49974887000108",
@@ -164,11 +164,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.30035335689046,
-      "valor_maximo": 5.30035335689046,
-      "valor_medio": 5.30035335689046,
-      "valor_recente": 5.30035335689046,
-      "data_recente": "2026-04-11T13:54:31Z"
+      "valor_minimo": 5.300084530853762,
+      "valor_maximo": 5.300084530853762,
+      "valor_medio": 5.300084530853762,
+      "valor_recente": 5.300084530853762,
+      "data_recente": "2026-04-11T15:24:24Z"
     },
     {
       "cnpj": "28442466000166",
@@ -204,11 +204,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.45,
-      "valor_maximo": 7.45,
-      "valor_medio": 7.45,
-      "valor_recente": 7.45,
-      "data_recente": "2026-04-11T13:36:40Z"
+      "valor_minimo": 7.2500543754078155,
+      "valor_maximo": 7.2500543754078155,
+      "valor_medio": 7.2500543754078155,
+      "valor_recente": 7.2500543754078155,
+      "data_recente": "2026-04-11T14:54:26Z"
     },
     {
       "cnpj": "10535038000112",
@@ -244,11 +244,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": -9.350797,
       "longitude": -35.555955,
-      "valor_minimo": 7.519550832163626,
-      "valor_maximo": 7.519645072752566,
-      "valor_medio": 7.519597952458096,
-      "valor_recente": 7.519645072752566,
-      "data_recente": "2026-04-11T13:55:14Z"
+      "valor_minimo": 7.519927808693036,
+      "valor_maximo": 8.519701810436635,
+      "valor_medio": 8.019814809564835,
+      "valor_recente": 7.519927808693036,
+      "data_recente": "2026-04-11T14:58:14Z"
     }
   ]
 }
