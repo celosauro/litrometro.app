@@ -1,27 +1,9 @@
 {
   "codigoIBGE": "2702603",
   "municipio": "Feira Grande",
-  "atualizadoEm": "2026-04-11T01:26:55.947Z",
-  "totalEstabelecimentos": 7,
+  "atualizadoEm": "2026-04-11T04:23:11.556Z",
+  "totalEstabelecimentos": 2,
   "combustiveis": {
-    "1": {
-      "totalPostos": 2,
-      "valorMinimo": 6.8493150684931505,
-      "valorMaximo": 6.850253459377997,
-      "valorMedio": 6.8497842639355735
-    },
-    "2": {
-      "totalPostos": 2,
-      "valorMinimo": 6.8979875086745315,
-      "valorMaximo": 6.901477832512315,
-      "valorMedio": 6.899732670593423
-    },
-    "3": {
-      "totalPostos": 1,
-      "valorMinimo": 5.289561696884351,
-      "valorMaximo": 5.289561696884351,
-      "valorMedio": 5.289561696884351
-    },
     "4": {
       "totalPostos": 1,
       "valorMinimo": 7.289938225945103,
@@ -36,106 +18,6 @@
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "05769126000149",
-      "tipo_combustivel": 1,
-      "razao_social": "MANOEL A DE ALMEIDA JUNIOR  - EPP",
-      "nome_fantasia": "AUTO POSTO MASSAPE",
-      "telefone": "",
-      "nome_logradouro": "DT MASSAPE",
-      "numero_imovel": "6",
-      "bairro": "MASSAPE",
-      "cep": "57340000",
-      "codigo_ibge": 2702603,
-      "municipio": "FEIRA GRANDE",
-      "latitude": -9.8511321,
-      "longitude": -36.673818,
-      "valor_minimo": 6.8493150684931505,
-      "valor_maximo": 6.8493150684931505,
-      "valor_medio": 6.8493150684931505,
-      "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-10T15:24:05Z"
-    },
-    {
-      "cnpj": "07826783000106",
-      "tipo_combustivel": 1,
-      "razao_social": "OLIVEIRA & GOMES LTDA EPP",
-      "nome_fantasia": "AUTO POSTO NOSSA SENHORA DE FATIMA",
-      "telefone": "(82) 34212580",
-      "nome_logradouro": "Rua FRANCISCO JOSE GONCALVES",
-      "numero_imovel": "28",
-      "bairro": "CENTRO",
-      "cep": "57340000",
-      "codigo_ibge": 2702603,
-      "municipio": "FEIRA GRANDE",
-      "latitude": -9.8986249,
-      "longitude": -36.6776837,
-      "valor_minimo": 6.850253459377997,
-      "valor_maximo": 6.850253459377997,
-      "valor_medio": 6.850253459377997,
-      "valor_recente": 6.850253459377997,
-      "data_recente": "2026-04-10T15:14:23Z"
-    },
-    {
-      "cnpj": "07826783000106",
-      "tipo_combustivel": 2,
-      "razao_social": "OLIVEIRA & GOMES LTDA EPP",
-      "nome_fantasia": "AUTO POSTO NOSSA SENHORA DE FATIMA",
-      "telefone": "(82) 34212580",
-      "nome_logradouro": "Rua FRANCISCO JOSE GONCALVES",
-      "numero_imovel": "28",
-      "bairro": "CENTRO",
-      "cep": "57340000",
-      "codigo_ibge": 2702603,
-      "municipio": "FEIRA GRANDE",
-      "latitude": -9.8986249,
-      "longitude": -36.6776837,
-      "valor_minimo": 6.8979875086745315,
-      "valor_maximo": 6.8979875086745315,
-      "valor_medio": 6.8979875086745315,
-      "valor_recente": 6.8979875086745315,
-      "data_recente": "2026-04-10T00:52:04Z"
-    },
-    {
-      "cnpj": "05769126000149",
-      "tipo_combustivel": 2,
-      "razao_social": "MANOEL A DE ALMEIDA JUNIOR  - EPP",
-      "nome_fantasia": "AUTO POSTO MASSAPE",
-      "telefone": "",
-      "nome_logradouro": "DT MASSAPE",
-      "numero_imovel": "6",
-      "bairro": "MASSAPE",
-      "cep": "57340000",
-      "codigo_ibge": 2702603,
-      "municipio": "FEIRA GRANDE",
-      "latitude": -9.8511321,
-      "longitude": -36.673818,
-      "valor_minimo": 6.901477832512315,
-      "valor_maximo": 6.901477832512315,
-      "valor_medio": 6.901477832512315,
-      "valor_recente": 6.901477832512315,
-      "data_recente": "2026-04-10T15:14:48Z"
-    },
-    {
-      "cnpj": "05769126000149",
-      "tipo_combustivel": 3,
-      "razao_social": "MANOEL A DE ALMEIDA JUNIOR  - EPP",
-      "nome_fantasia": "AUTO POSTO MASSAPE",
-      "telefone": "",
-      "nome_logradouro": "DT MASSAPE",
-      "numero_imovel": "6",
-      "bairro": "MASSAPE",
-      "cep": "57340000",
-      "codigo_ibge": 2702603,
-      "municipio": "FEIRA GRANDE",
-      "latitude": -9.8511321,
-      "longitude": -36.673818,
-      "valor_minimo": 5.289561696884351,
-      "valor_maximo": 5.289561696884351,
-      "valor_medio": 5.289561696884351,
-      "valor_recente": 5.289561696884351,
-      "data_recente": "2026-04-10T15:14:48Z"
-    },
     {
       "cnpj": "07826783000106",
       "tipo_combustivel": 4,
@@ -174,7 +56,7 @@
       "valor_maximo": 7.290087463556851,
       "valor_medio": 7.290087463556851,
       "valor_recente": 7.290087463556851,
-      "data_recente": "2026-04-10T15:14:48Z"
+      "data_recente": "2026-04-10T15:41:00Z"
     }
   ]
 }

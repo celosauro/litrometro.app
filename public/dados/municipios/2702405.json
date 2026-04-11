@@ -1,26 +1,26 @@
 {
   "codigoIBGE": "2702405",
   "municipio": "Delmiro Gouveia",
-  "atualizadoEm": "2026-04-11T01:25:45.803Z",
+  "atualizadoEm": "2026-04-11T04:21:18.077Z",
   "totalEstabelecimentos": 50,
   "combustiveis": {
     "1": {
       "totalPostos": 13,
-      "valorMinimo": 6.779863864163363,
-      "valorMaximo": 7.511266900350526,
-      "valorMedio": 7.374282898266335
+      "valorMinimo": 7.1,
+      "valorMaximo": 7.51044776119403,
+      "valorMedio": 7.4282807851178365
     },
     "2": {
       "totalPostos": 8,
-      "valorMinimo": 7.289719626168225,
+      "valorMinimo": 7.289692374981776,
       "valorMaximo": 7.8,
-      "valorMedio": 7.534099059796248
+      "valorMedio": 7.533990836192826
     },
     "3": {
       "totalPostos": 13,
-      "valorMinimo": 4.879933821791538,
+      "valorMinimo": 4.879953152449737,
       "valorMaximo": 5.491738788355626,
-      "valorMedio": 5.412616223486131
+      "valorMedio": 5.412617710459839
     },
     "4": {
       "totalPostos": 3,
@@ -30,32 +30,12 @@
     },
     "5": {
       "totalPostos": 13,
-      "valorMinimo": 7.339755351681958,
+      "valorMinimo": 7.299950503217291,
       "valorMaximo": 8.99,
-      "valorMedio": 8.1442605972561
+      "valorMedio": 8.07124193790495
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "04431113000100",
-      "tipo_combustivel": 1,
-      "razao_social": "COMERCIO DE COMBUSTIVEIS NENZITA LTDA - EPP",
-      "nome_fantasia": "POSTO NENZITA",
-      "telefone": "",
-      "nome_logradouro": "AV CAXANGA",
-      "numero_imovel": "126",
-      "bairro": "PEDRA VELHA",
-      "cep": "57480000",
-      "codigo_ibge": 2702405,
-      "municipio": "DELMIRO GOUVEIA",
-      "latitude": -9.3868928,
-      "longitude": -37.9911577,
-      "valor_minimo": 6.779863864163363,
-      "valor_maximo": 6.779863864163363,
-      "valor_medio": 6.779863864163363,
-      "valor_recente": 6.779863864163363,
-      "data_recente": "2026-04-10T15:14:35Z"
-    },
     {
       "cnpj": "17348259000120",
       "tipo_combustivel": 1,
@@ -74,7 +54,7 @@
       "valor_maximo": 7.5,
       "valor_medio": 7.2994100294985245,
       "valor_recente": 7.5,
-      "data_recente": "2026-04-10T15:16:00Z"
+      "data_recente": "2026-04-10T15:30:01Z"
     },
     {
       "cnpj": "17348259000392",
@@ -110,11 +90,11 @@
       "municipio": "DELMIRO GOUVEIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.137758743754461,
-      "valor_maximo": 7.137758743754461,
-      "valor_medio": 7.137758743754461,
-      "valor_recente": 7.137758743754461,
-      "data_recente": "2026-04-10T15:22:07Z"
+      "valor_minimo": 7.139214686384498,
+      "valor_maximo": 7.139214686384498,
+      "valor_medio": 7.139214686384498,
+      "valor_recente": 7.139214686384498,
+      "data_recente": "2026-04-10T15:37:15Z"
     },
     {
       "cnpj": "45685725000107",
@@ -130,11 +110,31 @@
       "municipio": "DELMIRO GOUVEIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.317965605561654,
-      "valor_maximo": 7.317965605561654,
-      "valor_medio": 7.317965605561654,
-      "valor_recente": 7.317965605561654,
-      "data_recente": "2026-04-10T15:17:50Z"
+      "valor_minimo": 7.318713450292398,
+      "valor_maximo": 7.318713450292398,
+      "valor_medio": 7.318713450292398,
+      "valor_recente": 7.318713450292398,
+      "data_recente": "2026-04-10T15:42:50Z"
+    },
+    {
+      "cnpj": "04431113000100",
+      "tipo_combustivel": 1,
+      "razao_social": "COMERCIO DE COMBUSTIVEIS NENZITA LTDA - EPP",
+      "nome_fantasia": "POSTO NENZITA",
+      "telefone": "",
+      "nome_logradouro": "AV CAXANGA",
+      "numero_imovel": "126",
+      "bairro": "PEDRA VELHA",
+      "cep": "57480000",
+      "codigo_ibge": 2702405,
+      "municipio": "DELMIRO GOUVEIA",
+      "latitude": -9.3868928,
+      "longitude": -37.9911577,
+      "valor_minimo": 7.479431563201197,
+      "valor_maximo": 7.479431563201197,
+      "valor_medio": 7.479431563201197,
+      "valor_recente": 7.479431563201197,
+      "data_recente": "2026-04-10T15:30:05Z"
     },
     {
       "cnpj": "26937274000103",
@@ -157,26 +157,6 @@
       "data_recente": "2026-04-10T14:28:32Z"
     },
     {
-      "cnpj": "10427868000126",
-      "tipo_combustivel": 1,
-      "razao_social": "LOURENCO ARAUJO FORTES E FILHOS LTDA  - ME",
-      "nome_fantasia": "POSTO DA PEDRA 3",
-      "telefone": "(82) 32214052",
-      "nome_logradouro": "AV CAXANGA",
-      "numero_imovel": "623",
-      "bairro": "PEDRA VELHA",
-      "cep": "57480000",
-      "codigo_ibge": 2702405,
-      "municipio": "DELMIRO GOUVEIA",
-      "latitude": -9.3893472,
-      "longitude": -37.9860696,
-      "valor_minimo": 7.499625018749063,
-      "valor_maximo": 7.499625018749063,
-      "valor_medio": 7.499625018749063,
-      "valor_recente": 7.499625018749063,
-      "data_recente": "2026-04-10T15:26:20Z"
-    },
-    {
       "cnpj": "17348259000201",
       "tipo_combustivel": 1,
       "razao_social": "POSTO ALINE LTDA",
@@ -197,6 +177,26 @@
       "data_recente": "2026-04-10T14:05:23Z"
     },
     {
+      "cnpj": "10427868000126",
+      "tipo_combustivel": 1,
+      "razao_social": "LOURENCO ARAUJO FORTES E FILHOS LTDA  - ME",
+      "nome_fantasia": "POSTO DA PEDRA 3",
+      "telefone": "(82) 32214052",
+      "nome_logradouro": "AV CAXANGA",
+      "numero_imovel": "623",
+      "bairro": "PEDRA VELHA",
+      "cep": "57480000",
+      "codigo_ibge": 2702405,
+      "municipio": "DELMIRO GOUVEIA",
+      "latitude": -9.3893472,
+      "longitude": -37.9860696,
+      "valor_minimo": 7.501875468867217,
+      "valor_maximo": 7.501875468867217,
+      "valor_medio": 7.501875468867217,
+      "valor_recente": 7.501875468867217,
+      "data_recente": "2026-04-10T15:40:07Z"
+    },
+    {
       "cnpj": "05518639000349",
       "tipo_combustivel": 1,
       "razao_social": "AUTO POSTO DA PEDRA LTDA",
@@ -210,11 +210,11 @@
       "municipio": "DELMIRO GOUVEIA",
       "latitude": -9.383075,
       "longitude": -38.00085199999999,
-      "valor_minimo": 7.509762691498949,
-      "valor_maximo": 7.509762691498949,
-      "valor_medio": 7.509762691498949,
-      "valor_recente": 7.509762691498949,
-      "data_recente": "2026-04-10T15:12:18Z"
+      "valor_minimo": 7.508532423208191,
+      "valor_maximo": 7.508532423208191,
+      "valor_medio": 7.508532423208191,
+      "valor_recente": 7.508532423208191,
+      "data_recente": "2026-04-10T15:41:46Z"
     },
     {
       "cnpj": "05518639000268",
@@ -274,7 +274,7 @@
       "valor_maximo": 7.51,
       "valor_medio": 7.51,
       "valor_recente": 7.51,
-      "data_recente": "2026-04-10T15:11:15Z"
+      "data_recente": "2026-04-10T15:31:57Z"
     },
     {
       "cnpj": "05518639000420",
@@ -290,11 +290,11 @@
       "municipio": "DELMIRO GOUVEIA",
       "latitude": -9.3881404,
       "longitude": -37.998562,
-      "valor_minimo": 7.511266900350526,
-      "valor_maximo": 7.511266900350526,
-      "valor_medio": 7.511266900350526,
-      "valor_recente": 7.511266900350526,
-      "data_recente": "2026-04-10T15:26:35Z"
+      "valor_minimo": 7.51044776119403,
+      "valor_maximo": 7.51044776119403,
+      "valor_medio": 7.51044776119403,
+      "valor_recente": 7.51044776119403,
+      "data_recente": "2026-04-10T15:37:17Z"
     },
     {
       "cnpj": "43472899000158",
@@ -310,11 +310,11 @@
       "municipio": "DELMIRO GOUVEIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.289719626168225,
-      "valor_maximo": 7.289719626168225,
-      "valor_medio": 7.289719626168225,
-      "valor_recente": 7.289719626168225,
-      "data_recente": "2026-04-10T13:38:01Z"
+      "valor_minimo": 7.289692374981776,
+      "valor_maximo": 7.289692374981776,
+      "valor_medio": 7.289692374981776,
+      "valor_recente": 7.289692374981776,
+      "data_recente": "2026-04-10T15:40:41Z"
     },
     {
       "cnpj": "45685725000107",
@@ -330,11 +330,11 @@
       "municipio": "DELMIRO GOUVEIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.317965605561654,
-      "valor_maximo": 7.317965605561654,
-      "valor_medio": 7.317965605561654,
-      "valor_recente": 7.317965605561654,
-      "data_recente": "2026-04-10T14:51:25Z"
+      "valor_minimo": 7.319929728674604,
+      "valor_maximo": 7.319929728674604,
+      "valor_medio": 7.319929728674604,
+      "valor_recente": 7.319929728674604,
+      "data_recente": "2026-04-10T15:35:43Z"
     },
     {
       "cnpj": "17348259000392",
@@ -374,7 +374,7 @@
       "valor_maximo": 7.479431563201197,
       "valor_medio": 7.479431563201197,
       "valor_recente": 7.479431563201197,
-      "data_recente": "2026-04-10T15:07:04Z"
+      "data_recente": "2026-04-10T15:38:10Z"
     },
     {
       "cnpj": "10427868000126",
@@ -390,11 +390,11 @@
       "municipio": "DELMIRO GOUVEIA",
       "latitude": -9.3893472,
       "longitude": -37.9860696,
-      "valor_minimo": 7.5388026607538805,
-      "valor_maximo": 7.5388026607538805,
-      "valor_medio": 7.5388026607538805,
-      "valor_recente": 7.5388026607538805,
-      "data_recente": "2026-04-10T14:28:52Z"
+      "valor_minimo": 7.536,
+      "valor_maximo": 7.536,
+      "valor_medio": 7.536,
+      "valor_recente": 7.536,
+      "data_recente": "2026-04-10T15:29:09Z"
     },
     {
       "cnpj": "12436978000180",
@@ -470,11 +470,11 @@
       "municipio": "DELMIRO GOUVEIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 4.879933821791538,
-      "valor_maximo": 4.879933821791538,
-      "valor_medio": 4.879933821791538,
-      "valor_recente": 4.879933821791538,
-      "data_recente": "2026-04-10T15:24:05Z"
+      "valor_minimo": 4.879953152449737,
+      "valor_maximo": 4.879953152449737,
+      "valor_medio": 4.879953152449737,
+      "valor_recente": 4.879953152449737,
+      "data_recente": "2026-04-10T15:40:28Z"
     },
     {
       "cnpj": "43472899000158",
@@ -777,6 +777,26 @@
       "data_recente": "2026-04-10T14:42:36Z"
     },
     {
+      "cnpj": "04431113000100",
+      "tipo_combustivel": 5,
+      "razao_social": "COMERCIO DE COMBUSTIVEIS NENZITA LTDA - EPP",
+      "nome_fantasia": "POSTO NENZITA",
+      "telefone": "",
+      "nome_logradouro": "AV CAXANGA",
+      "numero_imovel": "126",
+      "bairro": "PEDRA VELHA",
+      "cep": "57480000",
+      "codigo_ibge": 2702405,
+      "municipio": "DELMIRO GOUVEIA",
+      "latitude": -9.3868928,
+      "longitude": -37.9911577,
+      "valor_minimo": 7.299950503217291,
+      "valor_maximo": 7.299950503217291,
+      "valor_medio": 7.299950503217291,
+      "valor_recente": 7.299950503217291,
+      "data_recente": "2026-04-10T15:28:36Z"
+    },
+    {
       "cnpj": "12436978000180",
       "tipo_combustivel": 5,
       "razao_social": "AUTO POSTO FREITAS & MAIA LTDA - EPP",
@@ -790,11 +810,11 @@
       "municipio": "DELMIRO GOUVEIA",
       "latitude": -9.3759976,
       "longitude": -37.9963113,
-      "valor_minimo": 7.339755351681958,
+      "valor_minimo": 7.339829476248477,
       "valor_maximo": 8.329862557267806,
-      "valor_medio": 7.834808954474882,
-      "valor_recente": 7.339755351681958,
-      "data_recente": "2026-04-10T15:17:26Z"
+      "valor_medio": 7.834846016758141,
+      "valor_recente": 7.339829476248477,
+      "data_recente": "2026-04-10T15:43:11Z"
     },
     {
       "cnpj": "45685725000107",
@@ -851,10 +871,10 @@
       "latitude": -9.3477979,
       "longitude": -37.986385,
       "valor_minimo": 7.8700084471424,
-      "valor_maximo": 8.24973600844773,
-      "valor_medio": 8.059872227795065,
-      "valor_recente": 8.24973600844773,
-      "data_recente": "2026-04-10T14:42:16Z"
+      "valor_maximo": 8.249690636601127,
+      "valor_medio": 8.059849541871763,
+      "valor_recente": 8.249690636601127,
+      "data_recente": "2026-04-10T15:37:40Z"
     },
     {
       "cnpj": "17348259000392",
@@ -894,27 +914,27 @@
       "valor_maximo": 8.99,
       "valor_medio": 8.575,
       "valor_recente": 8.99,
-      "data_recente": "2026-04-10T15:06:13Z"
+      "data_recente": "2026-04-10T15:30:36Z"
     },
     {
-      "cnpj": "04431113000100",
+      "cnpj": "17348259000201",
       "tipo_combustivel": 5,
-      "razao_social": "COMERCIO DE COMBUSTIVEIS NENZITA LTDA - EPP",
-      "nome_fantasia": "POSTO NENZITA",
-      "telefone": "",
-      "nome_logradouro": "AV CAXANGA",
-      "numero_imovel": "126",
-      "bairro": "PEDRA VELHA",
+      "razao_social": "POSTO ALINE LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 36415660",
+      "nome_logradouro": "AV ANTONIO JOSE DA COSTA",
+      "numero_imovel": "59",
+      "bairro": "CENTRO",
       "cep": "57480000",
       "codigo_ibge": 2702405,
       "municipio": "DELMIRO GOUVEIA",
-      "latitude": -9.3868928,
-      "longitude": -37.9911577,
-      "valor_minimo": 8.249123530624871,
-      "valor_maximo": 8.249123530624871,
-      "valor_medio": 8.249123530624871,
-      "valor_recente": 8.249123530624871,
-      "data_recente": "2026-04-10T14:33:41Z"
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 8.249901703122736,
+      "valor_maximo": 8.249901703122736,
+      "valor_medio": 8.249901703122736,
+      "valor_recente": 8.249901703122736,
+      "data_recente": "2026-04-10T15:35:56Z"
     },
     {
       "cnpj": "10427868000126",
@@ -935,26 +955,6 @@
       "valor_medio": 8.249917500824992,
       "valor_recente": 8.249917500824992,
       "data_recente": "2026-04-10T11:17:14Z"
-    },
-    {
-      "cnpj": "17348259000201",
-      "tipo_combustivel": 5,
-      "razao_social": "POSTO ALINE LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 36415660",
-      "nome_logradouro": "AV ANTONIO JOSE DA COSTA",
-      "numero_imovel": "59",
-      "bairro": "CENTRO",
-      "cep": "57480000",
-      "codigo_ibge": 2702405,
-      "municipio": "DELMIRO GOUVEIA",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 8.25,
-      "valor_maximo": 8.25,
-      "valor_medio": 8.25,
-      "valor_recente": 8.25,
-      "data_recente": "2026-04-10T13:51:01Z"
     },
     {
       "cnpj": "05518639000420",

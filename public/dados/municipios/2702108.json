@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2702108",
   "municipio": "Colônia Leopoldina",
-  "atualizadoEm": "2026-04-11T01:24:07.184Z",
+  "atualizadoEm": "2026-04-11T04:19:42.994Z",
   "totalEstabelecimentos": 7,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
       "valorMinimo": 6.8493150684931505,
-      "valorMaximo": 6.8493150684931505,
-      "valorMedio": 6.8493150684931505
+      "valorMaximo": 6.850045548470238,
+      "valorMedio": 6.849680308481695
     },
     "2": {
       "totalPostos": 1,
@@ -31,26 +31,6 @@
   },
   "estabelecimentos": [
     {
-      "cnpj": "08560691000190",
-      "tipo_combustivel": 1,
-      "razao_social": "POSTO DE COMBUSTIVEL SAO JOSE LTDA",
-      "nome_fantasia": "AUTO POSTO SAO JOSE",
-      "telefone": "(82) 33524267",
-      "nome_logradouro": "Rua SEVERINO FERREIRA DE LIMA",
-      "numero_imovel": "S/N",
-      "bairro": "CENTRO",
-      "cep": "57975000",
-      "codigo_ibge": 2702108,
-      "municipio": "COLONIA LEOPOLDINA",
-      "latitude": -8.911863499999999,
-      "longitude": -35.7187274,
-      "valor_minimo": 6.8493150684931505,
-      "valor_maximo": 6.8493150684931505,
-      "valor_medio": 6.8493150684931505,
-      "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-10T15:19:45Z"
-    },
-    {
       "cnpj": "14341647000272",
       "tipo_combustivel": 1,
       "razao_social": "ANDRESSA PEREIRA ALVES - EPP",
@@ -69,6 +49,26 @@
       "valor_medio": 6.8493150684931505,
       "valor_recente": 6.8493150684931505,
       "data_recente": "2026-04-10T15:05:36Z"
+    },
+    {
+      "cnpj": "08560691000190",
+      "tipo_combustivel": 1,
+      "razao_social": "POSTO DE COMBUSTIVEL SAO JOSE LTDA",
+      "nome_fantasia": "AUTO POSTO SAO JOSE",
+      "telefone": "(82) 33524267",
+      "nome_logradouro": "Rua SEVERINO FERREIRA DE LIMA",
+      "numero_imovel": "S/N",
+      "bairro": "CENTRO",
+      "cep": "57975000",
+      "codigo_ibge": 2702108,
+      "municipio": "COLONIA LEOPOLDINA",
+      "latitude": -8.911863499999999,
+      "longitude": -35.7187274,
+      "valor_minimo": 6.850045548470238,
+      "valor_maximo": 6.850045548470238,
+      "valor_medio": 6.850045548470238,
+      "valor_recente": 6.850045548470238,
+      "data_recente": "2026-04-10T15:32:36Z"
     },
     {
       "cnpj": "14341647000272",

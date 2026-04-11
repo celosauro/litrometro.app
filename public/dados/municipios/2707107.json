@@ -1,55 +1,35 @@
 {
   "codigoIBGE": "2707107",
   "municipio": "Piranhas",
-  "atualizadoEm": "2026-04-11T01:47:01.768Z",
+  "atualizadoEm": "2026-04-11T05:32:14.662Z",
   "totalEstabelecimentos": 18,
   "combustiveis": {
     "1": {
       "totalPostos": 6,
-      "valorMinimo": 7.099290780141844,
-      "valorMaximo": 7.45,
-      "valorMedio": 7.313459736405605
+      "valorMinimo": 7.099056603773585,
+      "valorMaximo": 7.450454477723141,
+      "valorMedio": 7.313051995975003
     },
     "2": {
       "totalPostos": 3,
-      "valorMinimo": 7.09985232307168,
-      "valorMaximo": 7.5910931174089065,
-      "valorMedio": 7.296903474284755
+      "valorMinimo": 7.099290780141844,
+      "valorMaximo": 7.588235294117647,
+      "valorMedio": 7.295857384851469
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 5.879981184060211,
+      "valorMinimo": 5.880000940800151,
       "valorMaximo": 6.189970184976942,
-      "valorMedio": 6.082625195500029
+      "valorMedio": 6.082207793418388
     },
     "5": {
       "totalPostos": 6,
-      "valorMinimo": 7.509988284418276,
+      "valorMinimo": 7.507462686567164,
       "valorMaximo": 7.99,
-      "valorMedio": 7.794519913794495
+      "valorMedio": 7.844029846217442
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "70019039000136",
-      "tipo_combustivel": 1,
-      "razao_social": "REMI DA SILVA - ME",
-      "nome_fantasia": "AUTO POSTO SENHOR DO BOMFIM",
-      "telefone": "",
-      "nome_logradouro": "ROD AL 220",
-      "numero_imovel": "642",
-      "bairro": "PIAU",
-      "cep": "57460000",
-      "codigo_ibge": 2707107,
-      "municipio": "PIRANHAS",
-      "latitude": -9.381468,
-      "longitude": -38.0021811,
-      "valor_minimo": 7.099290780141844,
-      "valor_maximo": 7.099290780141844,
-      "valor_medio": 7.099290780141844,
-      "valor_recente": 7.099290780141844,
-      "data_recente": "2026-04-10T15:17:39Z"
-    },
     {
       "cnpj": "00497402000143",
       "tipo_combustivel": 1,
@@ -64,11 +44,31 @@
       "municipio": "PIRANHAS",
       "latitude": -9.478838,
       "longitude": -37.6682468,
-      "valor_minimo": 7.100213219616204,
-      "valor_maximo": 7.100213219616204,
-      "valor_medio": 7.100213219616204,
-      "valor_recente": 7.100213219616204,
-      "data_recente": "2026-04-10T15:23:04Z"
+      "valor_minimo": 7.099056603773585,
+      "valor_maximo": 7.099056603773585,
+      "valor_medio": 7.099056603773585,
+      "valor_recente": 7.099056603773585,
+      "data_recente": "2026-04-10T15:44:23Z"
+    },
+    {
+      "cnpj": "70019039000136",
+      "tipo_combustivel": 1,
+      "razao_social": "REMI DA SILVA - ME",
+      "nome_fantasia": "AUTO POSTO SENHOR DO BOMFIM",
+      "telefone": "",
+      "nome_logradouro": "ROD AL 220",
+      "numero_imovel": "642",
+      "bairro": "PIAU",
+      "cep": "57460000",
+      "codigo_ibge": 2707107,
+      "municipio": "PIRANHAS",
+      "latitude": -9.381468,
+      "longitude": -38.0021811,
+      "valor_minimo": 7.1,
+      "valor_maximo": 7.1,
+      "valor_medio": 7.1,
+      "valor_recente": 7.1,
+      "data_recente": "2026-04-10T15:31:32Z"
     },
     {
       "cnpj": "22590658000133",
@@ -104,11 +104,11 @@
       "municipio": "PIRANHAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.4487895716946,
-      "valor_maximo": 7.4487895716946,
-      "valor_medio": 7.4487895716946,
-      "valor_recente": 7.4487895716946,
-      "data_recente": "2026-04-10T15:23:01Z"
+      "valor_minimo": 7.446336047372317,
+      "valor_maximo": 7.446336047372317,
+      "valor_medio": 7.446336047372317,
+      "valor_recente": 7.446336047372317,
+      "data_recente": "2026-04-10T15:41:00Z"
     },
     {
       "cnpj": "05767699000214",
@@ -144,11 +144,11 @@
       "municipio": "PIRANHAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.45,
-      "valor_maximo": 7.45,
-      "valor_medio": 7.45,
-      "valor_recente": 7.45,
-      "data_recente": "2026-04-10T15:24:09Z"
+      "valor_minimo": 7.450454477723141,
+      "valor_maximo": 7.450454477723141,
+      "valor_medio": 7.450454477723141,
+      "valor_recente": 7.450454477723141,
+      "data_recente": "2026-04-10T15:33:35Z"
     },
     {
       "cnpj": "70019039000136",
@@ -164,11 +164,11 @@
       "municipio": "PIRANHAS",
       "latitude": -9.381468,
       "longitude": -38.0021811,
-      "valor_minimo": 7.09985232307168,
-      "valor_maximo": 7.09985232307168,
-      "valor_medio": 7.09985232307168,
-      "valor_recente": 7.09985232307168,
-      "data_recente": "2026-04-10T15:18:08Z"
+      "valor_minimo": 7.099290780141844,
+      "valor_maximo": 7.099290780141844,
+      "valor_medio": 7.099290780141844,
+      "valor_recente": 7.099290780141844,
+      "data_recente": "2026-04-10T15:28:19Z"
     },
     {
       "cnpj": "00497402000143",
@@ -184,11 +184,11 @@
       "municipio": "PIRANHAS",
       "latitude": -9.478838,
       "longitude": -37.6682468,
-      "valor_minimo": 7.1997649823736785,
-      "valor_maximo": 7.1997649823736785,
-      "valor_medio": 7.1997649823736785,
-      "valor_recente": 7.1997649823736785,
-      "data_recente": "2026-04-10T15:16:44Z"
+      "valor_minimo": 7.200046080294914,
+      "valor_maximo": 7.200046080294914,
+      "valor_medio": 7.200046080294914,
+      "valor_recente": 7.200046080294914,
+      "data_recente": "2026-04-10T15:43:19Z"
     },
     {
       "cnpj": "46715427000177",
@@ -204,11 +204,11 @@
       "municipio": "PIRANHAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.5910931174089065,
-      "valor_maximo": 7.5910931174089065,
-      "valor_medio": 7.5910931174089065,
-      "valor_recente": 7.5910931174089065,
-      "data_recente": "2026-04-10T14:11:55Z"
+      "valor_minimo": 7.588235294117647,
+      "valor_maximo": 7.588235294117647,
+      "valor_medio": 7.588235294117647,
+      "valor_recente": 7.588235294117647,
+      "data_recente": "2026-04-10T15:32:15Z"
     },
     {
       "cnpj": "00497402000143",
@@ -224,11 +224,11 @@
       "municipio": "PIRANHAS",
       "latitude": -9.478838,
       "longitude": -37.6682468,
-      "valor_minimo": 5.879981184060211,
-      "valor_maximo": 5.879981184060211,
-      "valor_medio": 5.879981184060211,
-      "valor_recente": 5.879981184060211,
-      "data_recente": "2026-04-10T15:26:20Z"
+      "valor_minimo": 5.880000940800151,
+      "valor_maximo": 5.880000940800151,
+      "valor_medio": 5.880000940800151,
+      "valor_recente": 5.880000940800151,
+      "data_recente": "2026-04-10T15:30:43Z"
     },
     {
       "cnpj": "43473530000160",
@@ -244,11 +244,11 @@
       "municipio": "PIRANHAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.177924217462932,
-      "valor_maximo": 6.177924217462932,
-      "valor_medio": 6.177924217462932,
-      "valor_recente": 6.177924217462932,
-      "data_recente": "2026-04-10T14:25:34Z"
+      "valor_minimo": 6.176652254478073,
+      "valor_maximo": 6.176652254478073,
+      "valor_medio": 6.176652254478073,
+      "valor_recente": 6.176652254478073,
+      "data_recente": "2026-04-10T15:41:00Z"
     },
     {
       "cnpj": "05767699000214",
@@ -284,31 +284,11 @@
       "municipio": "PIRANHAS",
       "latitude": -9.381468,
       "longitude": -38.0021811,
-      "valor_minimo": 7.50975975975976,
+      "valor_minimo": 7.507462686567164,
       "valor_maximo": 7.51001001001001,
-      "valor_medio": 7.509884884884885,
-      "valor_recente": 7.51001001001001,
-      "data_recente": "2026-04-10T15:06:01Z"
-    },
-    {
-      "cnpj": "00497402000143",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO CAPIÁ I LTDA",
-      "nome_fantasia": "AUTO POSTO CAPIA",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 220",
-      "numero_imovel": "09",
-      "bairro": "PIAU",
-      "cep": "57460000",
-      "codigo_ibge": 2707107,
-      "municipio": "PIRANHAS",
-      "latitude": -9.478838,
-      "longitude": -37.6682468,
-      "valor_minimo": 7.509988284418276,
-      "valor_maximo": 7.509988284418276,
-      "valor_medio": 7.509988284418276,
-      "valor_recente": 7.509988284418276,
-      "data_recente": "2026-04-10T15:23:41Z"
+      "valor_medio": 7.508736348288587,
+      "valor_recente": 7.507462686567164,
+      "data_recente": "2026-04-10T15:30:33Z"
     },
     {
       "cnpj": "22590658000133",
@@ -329,6 +309,26 @@
       "valor_medio": 7.77996303142329,
       "valor_recente": 7.77996303142329,
       "data_recente": "2026-04-10T14:32:58Z"
+    },
+    {
+      "cnpj": "00497402000143",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO CAPIÁ I LTDA",
+      "nome_fantasia": "AUTO POSTO CAPIA",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 220",
+      "numero_imovel": "09",
+      "bairro": "PIAU",
+      "cep": "57460000",
+      "codigo_ibge": 2707107,
+      "municipio": "PIRANHAS",
+      "latitude": -9.478838,
+      "longitude": -37.6682468,
+      "valor_minimo": 7.809595202398801,
+      "valor_maximo": 7.809595202398801,
+      "valor_medio": 7.809595202398801,
+      "valor_recente": 7.809595202398801,
+      "data_recente": "2026-04-10T15:33:18Z"
     },
     {
       "cnpj": "05767699000214",
@@ -388,7 +388,7 @@
       "valor_maximo": 7.99,
       "valor_medio": 7.99,
       "valor_recente": 7.99,
-      "data_recente": "2026-04-10T15:23:41Z"
+      "data_recente": "2026-04-10T15:44:09Z"
     }
   ]
 }
