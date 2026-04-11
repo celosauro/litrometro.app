@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2702553",
   "municipio": "Estrela de Alagoas",
-  "atualizadoEm": "2026-04-11T19:39:44.728Z",
+  "atualizadoEm": "2026-04-11T20:32:44.272Z",
   "totalEstabelecimentos": 12,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
       "valorMinimo": 6.84,
-      "valorMaximo": 6.889899407468651,
-      "valorMedio": 6.873235523334362
+      "valorMaximo": 6.889768863254853,
+      "valorMedio": 6.872044166539496
     },
     "2": {
       "totalPostos": 1,
@@ -19,20 +19,20 @@
     "3": {
       "totalPostos": 3,
       "valorMinimo": 4.95000495000495,
-      "valorMaximo": 4.990019960079841,
-      "valorMedio": 4.976599306936886
+      "valorMaximo": 4.990021382751247,
+      "valorMedio": 4.976267196143643
     },
     "4": {
       "totalPostos": 2,
       "valorMinimo": 7.982525814138205,
-      "valorMaximo": 8.39966414777498,
-      "valorMedio": 8.191094980956592
+      "valorMaximo": 8.4,
+      "valorMedio": 8.191262907069103
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.28,
-      "valorMaximo": 7.99,
-      "valorMedio": 7.529983627854004
+      "valorMinimo": 7.090103966114747,
+      "valorMaximo": 7.32,
+      "valorMedio": 7.230034655371583
     }
   },
   "estabelecimentos": [
@@ -70,11 +70,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.3904417,
       "longitude": -36.7595025,
-      "valor_minimo": 6.889807162534435,
-      "valor_maximo": 6.889807162534435,
-      "valor_medio": 6.889807162534435,
-      "valor_recente": 6.889807162534435,
-      "data_recente": "2026-04-11T15:14:34Z"
+      "valor_minimo": 6.886363636363637,
+      "valor_maximo": 6.886363636363637,
+      "valor_medio": 6.886363636363637,
+      "valor_recente": 6.886363636363637,
+      "data_recente": "2026-04-11T17:21:14Z"
     },
     {
       "cnpj": "25359544000175",
@@ -90,11 +90,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.490857100000001,
       "longitude": -36.5661638,
-      "valor_minimo": 6.889899407468651,
-      "valor_maximo": 6.889899407468651,
-      "valor_medio": 6.889899407468651,
-      "valor_recente": 6.889899407468651,
-      "data_recente": "2026-04-11T15:18:19Z"
+      "valor_minimo": 6.889768863254853,
+      "valor_maximo": 6.889768863254853,
+      "valor_medio": 6.889768863254853,
+      "valor_recente": 6.889768863254853,
+      "data_recente": "2026-04-11T16:26:39Z"
     },
     {
       "cnpj": "29689769000140",
@@ -150,11 +150,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.490857100000001,
       "longitude": -36.5661638,
-      "valor_minimo": 4.989773010725867,
-      "valor_maximo": 4.989773010725867,
-      "valor_medio": 4.989773010725867,
-      "valor_recente": 4.989773010725867,
-      "data_recente": "2026-04-11T15:04:55Z"
+      "valor_minimo": 4.988775255674732,
+      "valor_maximo": 4.988775255674732,
+      "valor_medio": 4.988775255674732,
+      "valor_recente": 4.988775255674732,
+      "data_recente": "2026-04-11T15:57:26Z"
     },
     {
       "cnpj": "22727145000121",
@@ -170,11 +170,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.3904417,
       "longitude": -36.7595025,
-      "valor_minimo": 4.990019960079841,
-      "valor_maximo": 4.990019960079841,
-      "valor_medio": 4.990019960079841,
-      "valor_recente": 4.990019960079841,
-      "data_recente": "2026-04-11T12:45:31Z"
+      "valor_minimo": 4.990021382751247,
+      "valor_maximo": 4.990021382751247,
+      "valor_medio": 4.990021382751247,
+      "valor_recente": 4.990021382751247,
+      "data_recente": "2026-04-11T16:26:40Z"
     },
     {
       "cnpj": "29689769000140",
@@ -210,11 +210,31 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.490857100000001,
       "longitude": -36.5661638,
-      "valor_minimo": 8.39966414777498,
-      "valor_maximo": 8.39966414777498,
-      "valor_medio": 8.39966414777498,
-      "valor_recente": 8.39966414777498,
-      "data_recente": "2026-04-11T15:20:41Z"
+      "valor_minimo": 8.4,
+      "valor_maximo": 8.4,
+      "valor_medio": 8.4,
+      "valor_recente": 8.4,
+      "data_recente": "2026-04-11T15:35:54Z"
+    },
+    {
+      "cnpj": "22727145000121",
+      "tipo_combustivel": 5,
+      "razao_social": "L FERNANDES DOS SANTOS LTDA",
+      "nome_fantasia": "AUTO POSTO ESTRELA DE ALAGOAS",
+      "telefone": "(82) 32219835",
+      "nome_logradouro": "AV ARLINDO GARROTE",
+      "numero_imovel": "111",
+      "bairro": "CENTRO",
+      "cep": "57625000",
+      "codigo_ibge": 2702553,
+      "municipio": "ESTRELA DE ALAGOAS",
+      "latitude": -9.3904417,
+      "longitude": -36.7595025,
+      "valor_minimo": 7.090103966114747,
+      "valor_maximo": 7.99,
+      "valor_medio": 7.540051983057374,
+      "valor_recente": 7.090103966114747,
+      "data_recente": "2026-04-11T16:09:49Z"
     },
     {
       "cnpj": "29689769000140",
@@ -237,26 +257,6 @@
       "data_recente": "2026-04-11T15:12:53Z"
     },
     {
-      "cnpj": "22727145000121",
-      "tipo_combustivel": 5,
-      "razao_social": "L FERNANDES DOS SANTOS LTDA",
-      "nome_fantasia": "AUTO POSTO ESTRELA DE ALAGOAS",
-      "telefone": "(82) 32219835",
-      "nome_logradouro": "AV ARLINDO GARROTE",
-      "numero_imovel": "111",
-      "bairro": "CENTRO",
-      "cep": "57625000",
-      "codigo_ibge": 2702553,
-      "municipio": "ESTRELA DE ALAGOAS",
-      "latitude": -9.3904417,
-      "longitude": -36.7595025,
-      "valor_minimo": 7.319512195121951,
-      "valor_maximo": 7.99,
-      "valor_medio": 7.654756097560975,
-      "valor_recente": 7.99,
-      "data_recente": "2026-04-11T13:35:17Z"
-    },
-    {
       "cnpj": "25359544000175",
       "tipo_combustivel": 5,
       "razao_social": "LFS COMERCIO DE COMBUSTIVEIS EIRELI - ME",
@@ -270,11 +270,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.490857100000001,
       "longitude": -36.5661638,
-      "valor_minimo": 7.31995088356201,
-      "valor_maximo": 7.31995088356201,
-      "valor_medio": 7.31995088356201,
-      "valor_recente": 7.31995088356201,
-      "data_recente": "2026-04-11T15:17:03Z"
+      "valor_minimo": 7.32,
+      "valor_maximo": 7.32,
+      "valor_medio": 7.32,
+      "valor_recente": 7.32,
+      "data_recente": "2026-04-11T15:58:23Z"
     }
   ]
 }

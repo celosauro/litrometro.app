@@ -1,26 +1,26 @@
 {
   "codigoIBGE": "2702306",
   "municipio": "Coruripe",
-  "atualizadoEm": "2026-04-11T19:37:53.945Z",
+  "atualizadoEm": "2026-04-11T20:30:58.405Z",
   "totalEstabelecimentos": 22,
   "combustiveis": {
     "1": {
       "totalPostos": 7,
-      "valorMinimo": 5.9250693802035155,
-      "valorMaximo": 7.120816520294327,
-      "valorMedio": 6.737184037263085
+      "valorMinimo": 6.879753615425817,
+      "valorMaximo": 7.119217081850533,
+      "valorMedio": 7.019543602850141
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.21969696969697,
-      "valorMaximo": 7.21969696969697,
-      "valorMedio": 7.21969696969697
+      "valorMinimo": 7.22,
+      "valorMaximo": 7.22,
+      "valorMedio": 7.22
     },
     "3": {
       "totalPostos": 6,
       "valorMinimo": 4.25,
       "valorMaximo": 5.74989170637433,
-      "valorMedio": 5.064746682474351
+      "valorMedio": 5.263047409970536
     },
     "4": {
       "totalPostos": 1,
@@ -30,52 +30,12 @@
     },
     "5": {
       "totalPostos": 7,
-      "valorMinimo": 6.969936341248084,
-      "valorMaximo": 7.45,
-      "valorMedio": 7.314173756939897
+      "valorMinimo": 6.9292225750281675,
+      "valorMaximo": 7.44997871434653,
+      "valorMedio": 7.308373269721905
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "56141661000191",
-      "tipo_combustivel": 1,
-      "razao_social": "ARAUJO E MORAES COMERCIO DE COMBUSTIVEIS LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 32739138",
-      "nome_logradouro": "ROD VEREADOR JORGE VENANCIO dos santos",
-      "numero_imovel": "68",
-      "bairro": "pindorama",
-      "cep": "57230000",
-      "codigo_ibge": 2702306,
-      "municipio": "CORURIPE",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 5.9250693802035155,
-      "valor_maximo": 5.9250693802035155,
-      "valor_medio": 5.9250693802035155,
-      "valor_recente": 5.9250693802035155,
-      "data_recente": "2026-04-11T00:17:11Z"
-    },
-    {
-      "cnpj": "55681612000189",
-      "tipo_combustivel": 1,
-      "razao_social": "BARRETO E OLIVEIRA COMERCIO DE COMBUSTIVEIS LTDA",
-      "nome_fantasia": "POSTO LAGOA",
-      "telefone": "(79) 99999999",
-      "nome_logradouro": "AV L",
-      "numero_imovel": "84",
-      "bairro": "LAGOA DO PAU",
-      "cep": "57230000",
-      "codigo_ibge": 2702306,
-      "municipio": "CORURIPE",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 5.927306616961789,
-      "valor_maximo": 5.927306616961789,
-      "valor_medio": 5.927306616961789,
-      "valor_recente": 5.927306616961789,
-      "data_recente": "2026-04-11T15:20:56Z"
-    },
     {
       "cnpj": "05848209000123",
       "tipo_combustivel": 1,
@@ -90,11 +50,31 @@
       "municipio": "CORURIPE",
       "latitude": -10.1230258,
       "longitude": -36.1760483,
-      "valor_minimo": 6.9790301441677585,
-      "valor_maximo": 6.9790301441677585,
-      "valor_medio": 6.9790301441677585,
-      "valor_recente": 6.9790301441677585,
-      "data_recente": "2026-04-11T15:26:53Z"
+      "valor_minimo": 6.879753615425817,
+      "valor_maximo": 6.879753615425817,
+      "valor_medio": 6.879753615425817,
+      "valor_recente": 6.879753615425817,
+      "data_recente": "2026-04-11T16:56:31Z"
+    },
+    {
+      "cnpj": "56141661000191",
+      "tipo_combustivel": 1,
+      "razao_social": "ARAUJO E MORAES COMERCIO DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 32739138",
+      "nome_logradouro": "ROD VEREADOR JORGE VENANCIO dos santos",
+      "numero_imovel": "68",
+      "bairro": "pindorama",
+      "cep": "57230000",
+      "codigo_ibge": 2702306,
+      "municipio": "CORURIPE",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.939990196764932,
+      "valor_maximo": 6.939990196764932,
+      "valor_medio": 6.939990196764932,
+      "valor_recente": 6.939990196764932,
+      "data_recente": "2026-04-11T15:58:41Z"
     },
     {
       "cnpj": "10589833000274",
@@ -110,11 +90,31 @@
       "municipio": "CORURIPE",
       "latitude": -10.1457326,
       "longitude": -36.3226082,
-      "valor_minimo": 6.98909700866648,
-      "valor_maximo": 6.98909700866648,
-      "valor_medio": 6.98909700866648,
-      "valor_recente": 6.98909700866648,
-      "data_recente": "2026-04-11T15:25:50Z"
+      "valor_minimo": 6.989072308765404,
+      "valor_maximo": 6.989072308765404,
+      "valor_medio": 6.989072308765404,
+      "valor_recente": 6.989072308765404,
+      "data_recente": "2026-04-11T17:16:51Z"
+    },
+    {
+      "cnpj": "55681612000189",
+      "tipo_combustivel": 1,
+      "razao_social": "BARRETO E OLIVEIRA COMERCIO DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "POSTO LAGOA",
+      "telefone": "(79) 99999999",
+      "nome_logradouro": "AV L",
+      "numero_imovel": "84",
+      "bairro": "LAGOA DO PAU",
+      "cep": "57230000",
+      "codigo_ibge": 2702306,
+      "municipio": "CORURIPE",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.989651928504233,
+      "valor_maximo": 6.989651928504233,
+      "valor_medio": 6.989651928504233,
+      "valor_recente": 6.989651928504233,
+      "data_recente": "2026-04-11T17:01:35Z"
     },
     {
       "cnpj": "33600518000115",
@@ -130,11 +130,11 @@
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.099751508697196,
-      "valor_maximo": 7.099751508697196,
-      "valor_medio": 7.099751508697196,
-      "valor_recente": 7.099751508697196,
-      "data_recente": "2026-04-11T15:27:07Z"
+      "valor_minimo": 7.099903006789525,
+      "valor_maximo": 7.099903006789525,
+      "valor_medio": 7.099903006789525,
+      "valor_recente": 7.099903006789525,
+      "data_recente": "2026-04-11T17:19:38Z"
     },
     {
       "cnpj": "29853107000164",
@@ -170,11 +170,11 @@
       "municipio": "CORURIPE",
       "latitude": -10.139914,
       "longitude": -36.1627961,
-      "valor_minimo": 7.120816520294327,
-      "valor_maximo": 7.120816520294327,
-      "valor_medio": 7.120816520294327,
-      "valor_recente": 7.120816520294327,
-      "data_recente": "2026-04-11T15:20:10Z"
+      "valor_minimo": 7.119217081850533,
+      "valor_maximo": 7.119217081850533,
+      "valor_medio": 7.119217081850533,
+      "valor_recente": 7.119217081850533,
+      "data_recente": "2026-04-11T17:19:08Z"
     },
     {
       "cnpj": "09081895000100",
@@ -190,11 +190,11 @@
       "municipio": "CORURIPE",
       "latitude": -10.139914,
       "longitude": -36.1627961,
-      "valor_minimo": 7.21969696969697,
-      "valor_maximo": 7.21969696969697,
-      "valor_medio": 7.21969696969697,
-      "valor_recente": 7.21969696969697,
-      "data_recente": "2026-04-11T15:27:08Z"
+      "valor_minimo": 7.22,
+      "valor_maximo": 7.22,
+      "valor_medio": 7.22,
+      "valor_recente": 7.22,
+      "data_recente": "2026-04-11T17:11:12Z"
     },
     {
       "cnpj": "05848209000123",
@@ -214,27 +214,7 @@
       "valor_maximo": 4.25,
       "valor_medio": 4.25,
       "valor_recente": 4.25,
-      "data_recente": "2026-04-11T15:24:38Z"
-    },
-    {
-      "cnpj": "55681612000189",
-      "tipo_combustivel": 3,
-      "razao_social": "BARRETO E OLIVEIRA COMERCIO DE COMBUSTIVEIS LTDA",
-      "nome_fantasia": "POSTO LAGOA",
-      "telefone": "(79) 99999999",
-      "nome_logradouro": "AV L",
-      "numero_imovel": "84",
-      "bairro": "LAGOA DO PAU",
-      "cep": "57230000",
-      "codigo_ibge": 2702306,
-      "municipio": "CORURIPE",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 4.399910559561742,
-      "valor_maximo": 4.399910559561742,
-      "valor_medio": 4.399910559561742,
-      "valor_recente": 4.399910559561742,
-      "data_recente": "2026-04-11T15:20:56Z"
+      "data_recente": "2026-04-11T17:22:25Z"
     },
     {
       "cnpj": "56141661000191",
@@ -274,7 +254,27 @@
       "valor_maximo": 5.1493305870236865,
       "valor_medio": 5.1493305870236865,
       "valor_recente": 5.1493305870236865,
-      "data_recente": "2026-04-11T15:21:53Z"
+      "data_recente": "2026-04-11T17:12:02Z"
+    },
+    {
+      "cnpj": "55681612000189",
+      "tipo_combustivel": 3,
+      "razao_social": "BARRETO E OLIVEIRA COMERCIO DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "POSTO LAGOA",
+      "telefone": "(79) 99999999",
+      "nome_logradouro": "AV L",
+      "numero_imovel": "84",
+      "bairro": "LAGOA DO PAU",
+      "cep": "57230000",
+      "codigo_ibge": 2702306,
+      "municipio": "CORURIPE",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 5.589714924538849,
+      "valor_maximo": 5.589714924538849,
+      "valor_medio": 5.589714924538849,
+      "valor_recente": 5.589714924538849,
+      "data_recente": "2026-04-11T16:03:36Z"
     },
     {
       "cnpj": "09081895000100",
@@ -294,7 +294,7 @@
       "valor_maximo": 5.749425287356321,
       "valor_medio": 5.749425287356321,
       "valor_recente": 5.749425287356321,
-      "data_recente": "2026-04-11T15:07:25Z"
+      "data_recente": "2026-04-11T17:06:43Z"
     },
     {
       "cnpj": "29853107000164",
@@ -350,11 +350,11 @@
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.969936341248084,
-      "valor_maximo": 6.969936341248084,
-      "valor_medio": 6.969936341248084,
-      "valor_recente": 6.969936341248084,
-      "data_recente": "2026-04-11T15:04:45Z"
+      "valor_minimo": 6.9292225750281675,
+      "valor_maximo": 6.9292225750281675,
+      "valor_medio": 6.9292225750281675,
+      "valor_recente": 6.9292225750281675,
+      "data_recente": "2026-04-11T15:32:43Z"
     },
     {
       "cnpj": "05848209000123",
@@ -390,31 +390,11 @@
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.389380530973451,
-      "valor_maximo": 7.389380530973451,
-      "valor_medio": 7.389380530973451,
-      "valor_recente": 7.389380530973451,
-      "data_recente": "2026-04-11T14:08:43Z"
-    },
-    {
-      "cnpj": "09081895000100",
-      "tipo_combustivel": 5,
-      "razao_social": "T. DE F. ROCHA & BARBOSA LTDA  - ME",
-      "nome_fantasia": "POSTO SAO PEDRO III",
-      "telefone": "",
-      "nome_logradouro": "ROD GUTTEMBERG BREDA NETO",
-      "numero_imovel": "3145/A",
-      "bairro": "COMENDADOR TERCIO WANDERLEY",
-      "cep": "57230000",
-      "codigo_ibge": 2702306,
-      "municipio": "CORURIPE",
-      "latitude": -10.139914,
-      "longitude": -36.1627961,
       "valor_minimo": 7.39,
-      "valor_maximo": 7.430033847931974,
-      "valor_medio": 7.410016923965987,
+      "valor_maximo": 7.39,
+      "valor_medio": 7.39,
       "valor_recente": 7.39,
-      "data_recente": "2026-04-11T14:56:12Z"
+      "data_recente": "2026-04-11T17:19:36Z"
     },
     {
       "cnpj": "56141661000191",
@@ -430,31 +410,31 @@
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.39,
-      "valor_maximo": 7.39,
-      "valor_medio": 7.39,
-      "valor_recente": 7.39,
-      "data_recente": "2026-04-11T10:55:48Z"
+      "valor_minimo": 7.390027158349807,
+      "valor_maximo": 7.390027158349807,
+      "valor_medio": 7.390027158349807,
+      "valor_recente": 7.390027158349807,
+      "data_recente": "2026-04-11T16:31:15Z"
     },
     {
-      "cnpj": "10589833000274",
+      "cnpj": "09081895000100",
       "tipo_combustivel": 5,
-      "razao_social": "COOPERATIVA AGROINDUSTRIAL DOS PRODUTORES RURAIS DA COLÔNIA PINDORAMA LTDA",
-      "nome_fantasia": "POSTO PINDORAMA",
-      "telefone": "(82) 32746460",
-      "nome_logradouro": "AV VEREADOR VENANCIO ROCHA DOS SANTOS",
-      "numero_imovel": "S/N",
-      "bairro": "COLONIA PINDORAMA",
+      "razao_social": "T. DE F. ROCHA & BARBOSA LTDA  - ME",
+      "nome_fantasia": "POSTO SAO PEDRO III",
+      "telefone": "",
+      "nome_logradouro": "ROD GUTTEMBERG BREDA NETO",
+      "numero_imovel": "3145/A",
+      "bairro": "COMENDADOR TERCIO WANDERLEY",
       "cep": "57230000",
       "codigo_ibge": 2702306,
       "municipio": "CORURIPE",
-      "latitude": -10.1457326,
-      "longitude": -36.3226082,
-      "valor_minimo": 7.449899426357744,
-      "valor_maximo": 7.449899426357744,
-      "valor_medio": 7.449899426357744,
-      "valor_recente": 7.449899426357744,
-      "data_recente": "2026-04-11T15:21:53Z"
+      "latitude": -10.139914,
+      "longitude": -36.1627961,
+      "valor_minimo": 7.390109078009991,
+      "valor_maximo": 7.429972509101717,
+      "valor_medio": 7.410040793555854,
+      "valor_recente": 7.390109078009991,
+      "data_recente": "2026-04-11T17:10:59Z"
     },
     {
       "cnpj": "33600518000115",
@@ -470,11 +450,31 @@
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.45,
-      "valor_maximo": 7.45,
-      "valor_medio": 7.45,
-      "valor_recente": 7.45,
-      "data_recente": "2026-04-11T13:22:06Z"
+      "valor_minimo": 7.449275362318841,
+      "valor_maximo": 7.449275362318841,
+      "valor_medio": 7.449275362318841,
+      "valor_recente": 7.449275362318841,
+      "data_recente": "2026-04-11T17:01:10Z"
+    },
+    {
+      "cnpj": "10589833000274",
+      "tipo_combustivel": 5,
+      "razao_social": "COOPERATIVA AGROINDUSTRIAL DOS PRODUTORES RURAIS DA COLÔNIA PINDORAMA LTDA",
+      "nome_fantasia": "POSTO PINDORAMA",
+      "telefone": "(82) 32746460",
+      "nome_logradouro": "AV VEREADOR VENANCIO ROCHA DOS SANTOS",
+      "numero_imovel": "S/N",
+      "bairro": "COLONIA PINDORAMA",
+      "cep": "57230000",
+      "codigo_ibge": 2702306,
+      "municipio": "CORURIPE",
+      "latitude": -10.1457326,
+      "longitude": -36.3226082,
+      "valor_minimo": 7.44997871434653,
+      "valor_maximo": 7.44997871434653,
+      "valor_medio": 7.44997871434653,
+      "valor_recente": 7.44997871434653,
+      "data_recente": "2026-04-11T17:04:20Z"
     }
   ]
 }

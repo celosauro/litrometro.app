@@ -1,20 +1,20 @@
 {
   "codigoIBGE": "2702504",
   "municipio": "Dois Riachos",
-  "atualizadoEm": "2026-04-11T19:39:18.237Z",
+  "atualizadoEm": "2026-04-11T20:32:14.986Z",
   "totalEstabelecimentos": 7,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.8,
+      "valorMinimo": 6.799594457587022,
       "valorMaximo": 6.889424733034792,
-      "valorMedio": 6.8447123665173955
+      "valorMedio": 6.844509595310907
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 6.8,
-      "valorMaximo": 6.8,
-      "valorMedio": 6.8
+      "valorMinimo": 6.799892990904227,
+      "valorMaximo": 6.799892990904227,
+      "valorMedio": 6.799892990904227
     },
     "3": {
       "totalPostos": 2,
@@ -24,9 +24,9 @@
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.497674418604651,
-      "valorMaximo": 7.5,
-      "valorMedio": 7.498837209302326
+      "valorMinimo": 7.26,
+      "valorMaximo": 7.497674418604651,
+      "valorMedio": 7.378837209302326
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "DOIS RIACHOS",
       "latitude": -9.3892335,
       "longitude": -37.09705090000001,
-      "valor_minimo": 6.8,
-      "valor_maximo": 6.8,
-      "valor_medio": 6.8,
-      "valor_recente": 6.8,
-      "data_recente": "2026-04-11T12:25:56Z"
+      "valor_minimo": 6.799594457587022,
+      "valor_maximo": 6.799594457587022,
+      "valor_medio": 6.799594457587022,
+      "valor_recente": 6.799594457587022,
+      "data_recente": "2026-04-11T16:32:26Z"
     },
     {
       "cnpj": "09418619000195",
@@ -84,11 +84,11 @@
       "municipio": "DOIS RIACHOS",
       "latitude": -9.3892335,
       "longitude": -37.09705090000001,
-      "valor_minimo": 6.8,
-      "valor_maximo": 6.8,
-      "valor_medio": 6.8,
-      "valor_recente": 6.8,
-      "data_recente": "2026-04-11T14:25:51Z"
+      "valor_minimo": 6.799892990904227,
+      "valor_maximo": 6.799892990904227,
+      "valor_medio": 6.799892990904227,
+      "valor_recente": 6.799892990904227,
+      "data_recente": "2026-04-11T17:13:34Z"
     },
     {
       "cnpj": "10230405000170",
@@ -131,6 +131,26 @@
       "data_recente": "2026-04-11T15:05:14Z"
     },
     {
+      "cnpj": "10230405000170",
+      "tipo_combustivel": 5,
+      "razao_social": "ADENILSON OLIVEIRA SILVA - EPP",
+      "nome_fantasia": "AUTO POSTO TANGARA",
+      "telefone": "(82) 36213443",
+      "nome_logradouro": "AV PASTOR MANOEL PEREIRA LIMA",
+      "numero_imovel": "457",
+      "bairro": "PASTOR OZORIO BRAZ",
+      "cep": "57560000",
+      "codigo_ibge": 2702504,
+      "municipio": "DOIS RIACHOS",
+      "latitude": -9.3892335,
+      "longitude": -37.09705090000001,
+      "valor_minimo": 7.26,
+      "valor_maximo": 7.26,
+      "valor_medio": 7.26,
+      "valor_recente": 7.26,
+      "data_recente": "2026-04-11T16:27:27Z"
+    },
+    {
       "cnpj": "09418619000195",
       "tipo_combustivel": 5,
       "razao_social": "GIVALDO OLIVEIRA DA ROCHA - ME",
@@ -149,26 +169,6 @@
       "valor_medio": 7.497674418604651,
       "valor_recente": 7.497674418604651,
       "data_recente": "2026-04-11T14:53:19Z"
-    },
-    {
-      "cnpj": "10230405000170",
-      "tipo_combustivel": 5,
-      "razao_social": "ADENILSON OLIVEIRA SILVA - EPP",
-      "nome_fantasia": "AUTO POSTO TANGARA",
-      "telefone": "(82) 36213443",
-      "nome_logradouro": "AV PASTOR MANOEL PEREIRA LIMA",
-      "numero_imovel": "457",
-      "bairro": "PASTOR OZORIO BRAZ",
-      "cep": "57560000",
-      "codigo_ibge": 2702504,
-      "municipio": "DOIS RIACHOS",
-      "latitude": -9.3892335,
-      "longitude": -37.09705090000001,
-      "valor_minimo": 7.5,
-      "valor_maximo": 7.5,
-      "valor_medio": 7.5,
-      "valor_recente": 7.5,
-      "data_recente": "2026-04-11T14:15:39Z"
     }
   ]
 }
