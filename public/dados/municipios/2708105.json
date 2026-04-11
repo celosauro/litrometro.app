@@ -1,26 +1,26 @@
 {
   "codigoIBGE": "2708105",
   "municipio": "Santana do Mundaú",
-  "atualizadoEm": "2026-04-11T09:07:24.499Z",
+  "atualizadoEm": "2026-04-11T10:06:40.976Z",
   "totalEstabelecimentos": 5,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.889899407468651,
-      "valorMaximo": 6.889899407468651,
-      "valorMedio": 6.889899407468651
+      "valorMinimo": 6.62763724732133,
+      "valorMaximo": 6.890215893431328,
+      "valorMedio": 6.758926570376328
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.690224194833276,
-      "valorMaximo": 5.690224194833276,
-      "valorMedio": 5.690224194833276
+      "valorMinimo": 5.689900426742532,
+      "valorMaximo": 5.689900426742532,
+      "valorMedio": 5.689900426742532
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.349700975763299,
-      "valorMaximo": 7.350032544565058,
-      "valorMedio": 7.349866760164178
+      "valorMinimo": 7.350032544565058,
+      "valorMaximo": 7.350364963503649,
+      "valorMedio": 7.350198754034354
     }
   },
   "estabelecimentos": [
@@ -38,11 +38,11 @@
       "municipio": "SANTANA DO MUNDAU",
       "latitude": -9.1702427,
       "longitude": -36.2207663,
-      "valor_minimo": 6.889899407468651,
-      "valor_maximo": 6.889899407468651,
-      "valor_medio": 6.889899407468651,
-      "valor_recente": 6.889899407468651,
-      "data_recente": "2026-04-10T19:43:15Z"
+      "valor_minimo": 6.62763724732133,
+      "valor_maximo": 6.62763724732133,
+      "valor_medio": 6.62763724732133,
+      "valor_recente": 6.62763724732133,
+      "data_recente": "2026-04-10T22:14:40Z"
     },
     {
       "cnpj": "40433057000107",
@@ -58,11 +58,11 @@
       "municipio": "SANTANA DO MUNDAU",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.889899407468651,
-      "valor_maximo": 6.889899407468651,
-      "valor_medio": 6.889899407468651,
-      "valor_recente": 6.889899407468651,
-      "data_recente": "2026-04-10T20:20:12Z"
+      "valor_minimo": 6.890215893431328,
+      "valor_maximo": 6.890215893431328,
+      "valor_medio": 6.890215893431328,
+      "valor_recente": 6.890215893431328,
+      "data_recente": "2026-04-10T22:20:12Z"
     },
     {
       "cnpj": "11140617000129",
@@ -78,31 +78,11 @@
       "municipio": "SANTANA DO MUNDAU",
       "latitude": -9.1702427,
       "longitude": -36.2207663,
-      "valor_minimo": 5.690224194833276,
-      "valor_maximo": 5.690224194833276,
-      "valor_medio": 5.690224194833276,
-      "valor_recente": 5.690224194833276,
-      "data_recente": "2026-04-10T16:49:30Z"
-    },
-    {
-      "cnpj": "40433057000107",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO LIMA LTDA",
-      "nome_fantasia": "AUTO POSTO SAO JOSE",
-      "telefone": "",
-      "nome_logradouro": "AV DOUTOR MUNIZ FALCAO",
-      "numero_imovel": "S/N",
-      "bairro": "CENTRO",
-      "cep": "57840000",
-      "codigo_ibge": 2708105,
-      "municipio": "SANTANA DO MUNDAU",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.349700975763299,
-      "valor_maximo": 7.349700975763299,
-      "valor_medio": 7.349700975763299,
-      "valor_recente": 7.349700975763299,
-      "data_recente": "2026-04-10T18:55:09Z"
+      "valor_minimo": 5.689900426742532,
+      "valor_maximo": 5.689900426742532,
+      "valor_medio": 5.689900426742532,
+      "valor_recente": 5.689900426742532,
+      "data_recente": "2026-04-10T20:37:40Z"
     },
     {
       "cnpj": "11140617000129",
@@ -123,6 +103,26 @@
       "valor_medio": 7.350032544565058,
       "valor_recente": 7.350032544565058,
       "data_recente": "2026-04-10T17:36:45Z"
+    },
+    {
+      "cnpj": "40433057000107",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO LIMA LTDA",
+      "nome_fantasia": "AUTO POSTO SAO JOSE",
+      "telefone": "",
+      "nome_logradouro": "AV DOUTOR MUNIZ FALCAO",
+      "numero_imovel": "S/N",
+      "bairro": "CENTRO",
+      "cep": "57840000",
+      "codigo_ibge": 2708105,
+      "municipio": "SANTANA DO MUNDAU",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.350364963503649,
+      "valor_maximo": 7.350364963503649,
+      "valor_medio": 7.350364963503649,
+      "valor_recente": 7.350364963503649,
+      "data_recente": "2026-04-10T21:42:06Z"
     }
   ]
 }

@@ -1,55 +1,35 @@
 {
   "codigoIBGE": "2707305",
   "municipio": "Porto Calvo",
-  "atualizadoEm": "2026-04-11T09:04:10.418Z",
+  "atualizadoEm": "2026-04-11T10:02:48.487Z",
   "totalEstabelecimentos": 14,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
-      "valorMinimo": 6.789676250848992,
-      "valorMaximo": 7.1,
-      "valorMedio": 6.906034841961198
+      "valorMinimo": 6.788321167883212,
+      "valorMaximo": 7.103448275862069,
+      "valorMedio": 6.906500511699795
     },
     "2": {
       "totalPostos": 2,
       "valorMinimo": 6.890215893431328,
-      "valorMaximo": 7.139800285306705,
-      "valorMedio": 7.015008089369016
+      "valorMaximo": 7.142857142857143,
+      "valorMedio": 7.016536518144235
     },
     "3": {
       "totalPostos": 4,
       "valorMinimo": 5.285714285714286,
       "valorMaximo": 5.609783462358353,
-      "valorMedio": 5.498554696110018
+      "valorMedio": 5.498730983043945
     },
     "5": {
       "totalPostos": 4,
-      "valorMinimo": 7.599794238683128,
-      "valorMaximo": 7.6900154761561454,
-      "valorMedio": 7.662442063297824
+      "valorMinimo": 7.679927505711478,
+      "valorMaximo": 7.690391459074733,
+      "valorMedio": 7.685004990365988
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "34190671000184",
-      "tipo_combustivel": 1,
-      "razao_social": "POSTO FERREIRA E JACINTO LTDA",
-      "nome_fantasia": "POSTO DETH",
-      "telefone": "(82) 88080423",
-      "nome_logradouro": "ROD AL 101 NORTE",
-      "numero_imovel": "S/N",
-      "bairro": "CENTRO",
-      "cep": "57900000",
-      "codigo_ibge": 2707305,
-      "municipio": "PORTO CALVO",
-      "latitude": -8.922867,
-      "longitude": -35.1588491,
-      "valor_minimo": 6.789676250848992,
-      "valor_maximo": 6.789676250848992,
-      "valor_medio": 6.789676250848992,
-      "valor_recente": 6.789676250848992,
-      "data_recente": "2026-04-10T20:23:26Z"
-    },
     {
       "cnpj": "50773495000160",
       "tipo_combustivel": 1,
@@ -64,11 +44,31 @@
       "municipio": "PORTO CALVO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.79001867255135,
-      "valor_maximo": 6.79001867255135,
-      "valor_medio": 6.79001867255135,
-      "valor_recente": 6.79001867255135,
-      "data_recente": "2026-04-10T20:03:32Z"
+      "valor_minimo": 6.788321167883212,
+      "valor_maximo": 6.788321167883212,
+      "valor_medio": 6.788321167883212,
+      "valor_recente": 6.788321167883212,
+      "data_recente": "2026-04-10T22:01:08Z"
+    },
+    {
+      "cnpj": "34190671000184",
+      "tipo_combustivel": 1,
+      "razao_social": "POSTO FERREIRA E JACINTO LTDA",
+      "nome_fantasia": "POSTO DETH",
+      "telefone": "(82) 88080423",
+      "nome_logradouro": "ROD AL 101 NORTE",
+      "numero_imovel": "S/N",
+      "bairro": "CENTRO",
+      "cep": "57900000",
+      "codigo_ibge": 2707305,
+      "municipio": "PORTO CALVO",
+      "latitude": -8.922867,
+      "longitude": -35.1588491,
+      "valor_minimo": 6.7897881586094515,
+      "valor_maximo": 6.7897881586094515,
+      "valor_medio": 6.7897881586094515,
+      "valor_recente": 6.7897881586094515,
+      "data_recente": "2026-04-10T22:19:49Z"
     },
     {
       "cnpj": "10673213000138",
@@ -88,7 +88,7 @@
       "valor_maximo": 6.944444444444445,
       "valor_medio": 6.944444444444445,
       "valor_recente": 6.944444444444445,
-      "data_recente": "2026-04-10T20:17:46Z"
+      "data_recente": "2026-04-10T22:04:38Z"
     },
     {
       "cnpj": "13074634000130",
@@ -104,11 +104,11 @@
       "municipio": "PORTO CALVO",
       "latitude": -9.052577,
       "longitude": -35.421595,
-      "valor_minimo": 7.1,
-      "valor_maximo": 7.1,
-      "valor_medio": 7.1,
-      "valor_recente": 7.1,
-      "data_recente": "2026-04-10T20:18:49Z"
+      "valor_minimo": 7.103448275862069,
+      "valor_maximo": 7.103448275862069,
+      "valor_medio": 7.103448275862069,
+      "valor_recente": 7.103448275862069,
+      "data_recente": "2026-04-10T22:13:13Z"
     },
     {
       "cnpj": "50773495000160",
@@ -128,7 +128,7 @@
       "valor_maximo": 6.890215893431328,
       "valor_medio": 6.890215893431328,
       "valor_recente": 6.890215893431328,
-      "data_recente": "2026-04-10T17:53:39Z"
+      "data_recente": "2026-04-10T22:01:48Z"
     },
     {
       "cnpj": "10673213000138",
@@ -144,11 +144,11 @@
       "municipio": "PORTO CALVO",
       "latitude": -9.0474879,
       "longitude": -35.4052326,
-      "valor_minimo": 7.139800285306705,
-      "valor_maximo": 7.139800285306705,
-      "valor_medio": 7.139800285306705,
-      "valor_recente": 7.139800285306705,
-      "data_recente": "2026-04-10T20:02:37Z"
+      "valor_minimo": 7.142857142857143,
+      "valor_maximo": 7.142857142857143,
+      "valor_medio": 7.142857142857143,
+      "valor_recente": 7.142857142857143,
+      "data_recente": "2026-04-10T22:00:34Z"
     },
     {
       "cnpj": "10673213000138",
@@ -204,11 +204,11 @@
       "municipio": "PORTO CALVO",
       "latitude": -8.922867,
       "longitude": -35.1588491,
-      "valor_minimo": 5.608524957936063,
-      "valor_maximo": 5.608524957936063,
-      "valor_medio": 5.608524957936063,
-      "valor_recente": 5.608524957936063,
-      "data_recente": "2026-04-10T20:00:55Z"
+      "valor_minimo": 5.60923010567177,
+      "valor_maximo": 5.60923010567177,
+      "valor_medio": 5.60923010567177,
+      "valor_recente": 5.60923010567177,
+      "data_recente": "2026-04-10T21:53:51Z"
     },
     {
       "cnpj": "50773495000160",
@@ -231,26 +231,6 @@
       "data_recente": "2026-04-10T07:44:21Z"
     },
     {
-      "cnpj": "13074634000130",
-      "tipo_combustivel": 5,
-      "razao_social": "J A LINS - EPP",
-      "nome_fantasia": "POSTO CAJA",
-      "telefone": "",
-      "nome_logradouro": "LOT OSCAR CUNHA RUA B",
-      "numero_imovel": "09",
-      "bairro": "ZONA URBANA",
-      "cep": "57900000",
-      "codigo_ibge": 2707305,
-      "municipio": "PORTO CALVO",
-      "latitude": -9.052577,
-      "longitude": -35.421595,
-      "valor_minimo": 7.599794238683128,
-      "valor_maximo": 7.599794238683128,
-      "valor_medio": 7.599794238683128,
-      "valor_recente": 7.599794238683128,
-      "data_recente": "2026-04-10T19:44:11Z"
-    },
-    {
       "cnpj": "34190671000184",
       "tipo_combustivel": 5,
       "razao_social": "POSTO FERREIRA E JACINTO LTDA",
@@ -264,11 +244,11 @@
       "municipio": "PORTO CALVO",
       "latitude": -8.922867,
       "longitude": -35.1588491,
-      "valor_minimo": 7.679958538352024,
-      "valor_maximo": 7.679958538352024,
-      "valor_medio": 7.679958538352024,
-      "valor_recente": 7.679958538352024,
-      "data_recente": "2026-04-10T12:43:24Z"
+      "valor_minimo": 7.679927505711478,
+      "valor_maximo": 7.679927505711478,
+      "valor_medio": 7.679927505711478,
+      "valor_recente": 7.679927505711478,
+      "data_recente": "2026-04-10T21:41:14Z"
     },
     {
       "cnpj": "50773495000160",
@@ -288,7 +268,27 @@
       "valor_maximo": 7.68,
       "valor_medio": 7.68,
       "valor_recente": 7.68,
-      "data_recente": "2026-04-10T18:32:24Z"
+      "data_recente": "2026-04-10T21:46:30Z"
+    },
+    {
+      "cnpj": "13074634000130",
+      "tipo_combustivel": 5,
+      "razao_social": "J A LINS - EPP",
+      "nome_fantasia": "POSTO CAJA",
+      "telefone": "",
+      "nome_logradouro": "LOT OSCAR CUNHA RUA B",
+      "numero_imovel": "09",
+      "bairro": "ZONA URBANA",
+      "cep": "57900000",
+      "codigo_ibge": 2707305,
+      "municipio": "PORTO CALVO",
+      "latitude": -9.052577,
+      "longitude": -35.421595,
+      "valor_minimo": 7.6897009966777405,
+      "valor_maximo": 7.6897009966777405,
+      "valor_medio": 7.6897009966777405,
+      "valor_recente": 7.6897009966777405,
+      "data_recente": "2026-04-10T22:12:03Z"
     },
     {
       "cnpj": "10673213000138",
@@ -304,11 +304,11 @@
       "municipio": "PORTO CALVO",
       "latitude": -9.0474879,
       "longitude": -35.4052326,
-      "valor_minimo": 7.6900154761561454,
-      "valor_maximo": 7.6900154761561454,
-      "valor_medio": 7.6900154761561454,
-      "valor_recente": 7.6900154761561454,
-      "data_recente": "2026-04-10T19:53:09Z"
+      "valor_minimo": 7.690391459074733,
+      "valor_maximo": 7.690391459074733,
+      "valor_medio": 7.690391459074733,
+      "valor_recente": 7.690391459074733,
+      "data_recente": "2026-04-10T22:03:50Z"
     }
   ]
 }
