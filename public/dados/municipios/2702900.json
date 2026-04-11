@@ -1,61 +1,41 @@
 {
   "codigoIBGE": "2702900",
   "municipio": "Girau do Ponciano",
-  "atualizadoEm": "2026-04-11T21:36:30.059Z",
+  "atualizadoEm": "2026-04-11T22:33:31.621Z",
   "totalEstabelecimentos": 16,
   "combustiveis": {
     "1": {
       "totalPostos": 5,
-      "valorMinimo": 6.900343642611684,
-      "valorMaximo": 6.9906976744186045,
-      "valorMedio": 6.954459265969897
+      "valorMinimo": 6.899724011039559,
+      "valorMaximo": 6.990322580645161,
+      "valorMedio": 6.954410781046673
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7,
-      "valorMaximo": 7,
-      "valorMedio": 7
+      "valorMinimo": 6.999860002799944,
+      "valorMaximo": 6.999860002799944,
+      "valorMedio": 6.999860002799944
     },
     "3": {
       "totalPostos": 3,
       "valorMinimo": 5.0900946757609695,
-      "valorMaximo": 5.489945155393053,
-      "valorMedio": 5.22340284462939
+      "valorMaximo": 5.488721804511278,
+      "valorMedio": 5.222995061002131
     },
     "4": {
       "totalPostos": 2,
-      "valorMinimo": 7.62586781829115,
-      "valorMaximo": 8.199857869130268,
-      "valorMedio": 7.912862843710709
+      "valorMinimo": 8.200082000820009,
+      "valorMaximo": 8.200922603792927,
+      "valorMedio": 8.200502302306468
     },
     "5": {
       "totalPostos": 5,
-      "valorMinimo": 7.188235294117647,
+      "valorMinimo": 7.19,
       "valorMaximo": 7.599939200486396,
-      "valorMedio": 7.295717867455065
+      "valorMedio": 7.296104828355643
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "33296262000102",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO J N C DOS SANTOS & CIA LTDA",
-      "nome_fantasia": "AUTO POSTO 3 M",
-      "telefone": "(82) 99827677",
-      "nome_logradouro": "Rua DR.JOSE BENTO",
-      "numero_imovel": "30",
-      "bairro": "NOSSA SENHORA DA CONCEICAO",
-      "cep": "57360000",
-      "codigo_ibge": 2702900,
-      "municipio": "GIRAU DO PONCIANO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.900343642611684,
-      "valor_maximo": 6.900343642611684,
-      "valor_medio": 6.900343642611684,
-      "valor_recente": 6.900343642611684,
-      "data_recente": "2026-04-11T17:21:26Z"
-    },
     {
       "cnpj": "09657072000180",
       "tipo_combustivel": 1,
@@ -70,11 +50,31 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.882258799999999,
       "longitude": -36.8186161,
-      "valor_minimo": 6.901489117983964,
-      "valor_maximo": 6.901489117983964,
-      "valor_medio": 6.901489117983964,
-      "valor_recente": 6.901489117983964,
-      "data_recente": "2026-04-11T17:19:22Z"
+      "valor_minimo": 6.899724011039559,
+      "valor_maximo": 6.899724011039559,
+      "valor_medio": 6.899724011039559,
+      "valor_recente": 6.899724011039559,
+      "data_recente": "2026-04-11T18:55:28Z"
+    },
+    {
+      "cnpj": "33296262000102",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO J N C DOS SANTOS & CIA LTDA",
+      "nome_fantasia": "AUTO POSTO 3 M",
+      "telefone": "(82) 99827677",
+      "nome_logradouro": "Rua DR.JOSE BENTO",
+      "numero_imovel": "30",
+      "bairro": "NOSSA SENHORA DA CONCEICAO",
+      "cep": "57360000",
+      "codigo_ibge": 2702900,
+      "municipio": "GIRAU DO PONCIANO",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.9019876627827275,
+      "valor_maximo": 6.9019876627827275,
+      "valor_medio": 6.9019876627827275,
+      "valor_recente": 6.9019876627827275,
+      "data_recente": "2026-04-11T19:25:58Z"
     },
     {
       "cnpj": "08422115000186",
@@ -90,31 +90,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.8855612,
       "longitude": -36.8209998,
-      "valor_minimo": 6.989528795811518,
-      "valor_maximo": 6.989528795811518,
-      "valor_medio": 6.989528795811518,
-      "valor_recente": 6.989528795811518,
-      "data_recente": "2026-04-11T17:07:40Z"
-    },
-    {
-      "cnpj": "17830342000131",
-      "tipo_combustivel": 1,
-      "razao_social": "JOSE BARBOSA DE CARVALHO & CIA LTDA",
-      "nome_fantasia": "POSTO NOSSA SENHORA DA CONCEICAO",
-      "telefone": "",
-      "nome_logradouro": "Rua FERNANDO COLLOR DE MELLO",
-      "numero_imovel": "20",
-      "bairro": "CANAFISTULA",
-      "cep": "57360000",
-      "codigo_ibge": 2702900,
-      "municipio": "GIRAU DO PONCIANO",
-      "latitude": -9.882830799999999,
-      "longitude": -36.8305595,
-      "valor_minimo": 6.99023709902371,
-      "valor_maximo": 6.99023709902371,
-      "valor_medio": 6.99023709902371,
-      "valor_recente": 6.99023709902371,
-      "data_recente": "2026-04-11T16:02:51Z"
+      "valor_minimo": 6.989782551742206,
+      "valor_maximo": 6.989782551742206,
+      "valor_medio": 6.989782551742206,
+      "valor_recente": 6.989782551742206,
+      "data_recente": "2026-04-11T19:15:46Z"
     },
     {
       "cnpj": "08422115000348",
@@ -130,11 +110,31 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.883111,
       "longitude": -36.8272288,
-      "valor_minimo": 6.9906976744186045,
-      "valor_maximo": 6.9906976744186045,
-      "valor_medio": 6.9906976744186045,
-      "valor_recente": 6.9906976744186045,
-      "data_recente": "2026-04-11T16:22:35Z"
+      "valor_minimo": 6.99023709902371,
+      "valor_maximo": 6.99023709902371,
+      "valor_medio": 6.99023709902371,
+      "valor_recente": 6.99023709902371,
+      "data_recente": "2026-04-11T18:23:50Z"
+    },
+    {
+      "cnpj": "17830342000131",
+      "tipo_combustivel": 1,
+      "razao_social": "JOSE BARBOSA DE CARVALHO & CIA LTDA",
+      "nome_fantasia": "POSTO NOSSA SENHORA DA CONCEICAO",
+      "telefone": "",
+      "nome_logradouro": "Rua FERNANDO COLLOR DE MELLO",
+      "numero_imovel": "20",
+      "bairro": "CANAFISTULA",
+      "cep": "57360000",
+      "codigo_ibge": 2702900,
+      "municipio": "GIRAU DO PONCIANO",
+      "latitude": -9.882830799999999,
+      "longitude": -36.8305595,
+      "valor_minimo": 6.990322580645161,
+      "valor_maximo": 6.990322580645161,
+      "valor_medio": 6.990322580645161,
+      "valor_recente": 6.990322580645161,
+      "data_recente": "2026-04-11T18:49:03Z"
     },
     {
       "cnpj": "33296262000102",
@@ -150,11 +150,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7,
-      "valor_maximo": 7,
-      "valor_medio": 7,
-      "valor_recente": 7,
-      "data_recente": "2026-04-11T17:21:26Z"
+      "valor_minimo": 6.999860002799944,
+      "valor_maximo": 6.999860002799944,
+      "valor_medio": 6.999860002799944,
+      "valor_recente": 6.999860002799944,
+      "data_recente": "2026-04-11T19:07:42Z"
     },
     {
       "cnpj": "09657072000180",
@@ -174,7 +174,7 @@
       "valor_maximo": 5.0900946757609695,
       "valor_medio": 5.0900946757609695,
       "valor_recente": 5.0900946757609695,
-      "data_recente": "2026-04-11T17:20:40Z"
+      "data_recente": "2026-04-11T18:55:39Z"
     },
     {
       "cnpj": "33296262000102",
@@ -194,7 +194,7 @@
       "valor_maximo": 5.090168702734148,
       "valor_medio": 5.090168702734148,
       "valor_recente": 5.090168702734148,
-      "data_recente": "2026-04-11T17:21:26Z"
+      "data_recente": "2026-04-11T19:34:43Z"
     },
     {
       "cnpj": "08422115000186",
@@ -210,11 +210,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.8855612,
       "longitude": -36.8209998,
-      "valor_minimo": 5.489945155393053,
-      "valor_maximo": 5.489945155393053,
-      "valor_medio": 5.489945155393053,
-      "valor_recente": 5.489945155393053,
-      "data_recente": "2026-04-11T08:27:24Z"
+      "valor_minimo": 5.488721804511278,
+      "valor_maximo": 5.488721804511278,
+      "valor_medio": 5.488721804511278,
+      "valor_recente": 5.488721804511278,
+      "data_recente": "2026-04-11T19:06:13Z"
     },
     {
       "cnpj": "09657072000180",
@@ -230,11 +230,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.882258799999999,
       "longitude": -36.8186161,
-      "valor_minimo": 7.62586781829115,
-      "valor_maximo": 7.62586781829115,
-      "valor_medio": 7.62586781829115,
-      "valor_recente": 7.62586781829115,
-      "data_recente": "2026-04-11T16:21:51Z"
+      "valor_minimo": 8.200082000820009,
+      "valor_maximo": 8.200082000820009,
+      "valor_medio": 8.200082000820009,
+      "valor_recente": 8.200082000820009,
+      "data_recente": "2026-04-11T17:36:42Z"
     },
     {
       "cnpj": "33296262000102",
@@ -250,11 +250,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 8.199857869130268,
-      "valor_maximo": 8.199857869130268,
-      "valor_medio": 8.199857869130268,
-      "valor_recente": 8.199857869130268,
-      "data_recente": "2026-04-11T16:48:58Z"
+      "valor_minimo": 8.200922603792927,
+      "valor_maximo": 8.200922603792927,
+      "valor_medio": 8.200922603792927,
+      "valor_recente": 8.200922603792927,
+      "data_recente": "2026-04-11T18:47:44Z"
     },
     {
       "cnpj": "08422115000186",
@@ -270,11 +270,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.8855612,
       "longitude": -36.8209998,
-      "valor_minimo": 7.188235294117647,
-      "valor_maximo": 7.188235294117647,
-      "valor_medio": 7.188235294117647,
-      "valor_recente": 7.188235294117647,
-      "data_recente": "2026-04-11T17:02:10Z"
+      "valor_minimo": 7.19,
+      "valor_maximo": 7.19,
+      "valor_medio": 7.19,
+      "valor_recente": 7.19,
+      "data_recente": "2026-04-11T19:16:01Z"
     },
     {
       "cnpj": "08422115000348",
@@ -310,11 +310,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.249949250355248,
-      "valor_maximo": 7.249949250355248,
-      "valor_medio": 7.249949250355248,
-      "valor_recente": 7.249949250355248,
-      "data_recente": "2026-04-11T16:48:58Z"
+      "valor_minimo": 7.2500543754078155,
+      "valor_maximo": 7.2500543754078155,
+      "valor_medio": 7.2500543754078155,
+      "valor_recente": 7.2500543754078155,
+      "data_recente": "2026-04-11T18:44:59Z"
     },
     {
       "cnpj": "09657072000180",
@@ -330,11 +330,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.882258799999999,
       "longitude": -36.8186161,
-      "valor_minimo": 7.249989401839841,
-      "valor_maximo": 7.249989401839841,
-      "valor_medio": 7.249989401839841,
-      "valor_recente": 7.249989401839841,
-      "data_recente": "2026-04-11T17:14:00Z"
+      "valor_minimo": 7.2500543754078155,
+      "valor_maximo": 7.2500543754078155,
+      "valor_medio": 7.2500543754078155,
+      "valor_recente": 7.2500543754078155,
+      "data_recente": "2026-04-11T17:29:25Z"
     },
     {
       "cnpj": "17830342000131",

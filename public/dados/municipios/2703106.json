@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2703106",
   "municipio": "Igaci",
-  "atualizadoEm": "2026-04-11T21:37:23.292Z",
+  "atualizadoEm": "2026-04-11T22:34:19.055Z",
   "totalEstabelecimentos": 14,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
-      "valorMinimo": 6.650410108623365,
-      "valorMaximo": 6.891798759476223,
-      "valorMedio": 6.72812071023843
+      "valorMinimo": 6.118081180811808,
+      "valorMaximo": 6.890410958904109,
+      "valorMedio": 6.644415592927627
     },
     "2": {
       "totalPostos": 2,
       "valorMinimo": 6.976744186046512,
-      "valorMaximo": 6.990019960079841,
-      "valorMedio": 6.983382073063176
+      "valorMaximo": 6.989953841976649,
+      "valorMedio": 6.98334901401158
     },
     "3": {
       "totalPostos": 4,
-      "valorMinimo": 4.58852867830424,
+      "valorMinimo": 4.990019960079841,
       "valorMaximo": 5.390086206896552,
-      "valorMedio": 4.992158711320158
+      "valorMedio": 5.092537493556125
     },
     "5": {
       "totalPostos": 4,
-      "valorMinimo": 6.749222301986121,
-      "valorMaximo": 7.649425287356322,
-      "valorMedio": 7.2061298766411825
+      "valorMinimo": 6.7502238137869295,
+      "valorMaximo": 7.65001706678803,
+      "valorMedio": 7.206400383804871
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "IGACI",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.650410108623365,
-      "valor_maximo": 6.650410108623365,
-      "valor_medio": 6.650410108623365,
-      "valor_recente": 6.650410108623365,
-      "data_recente": "2026-04-11T17:00:45Z"
+      "valor_minimo": 6.118081180811808,
+      "valor_maximo": 6.118081180811808,
+      "valor_medio": 6.118081180811808,
+      "valor_recente": 6.118081180811808,
+      "data_recente": "2026-04-11T18:33:26Z"
     },
     {
       "cnpj": "61923139000100",
@@ -68,7 +68,7 @@
       "valor_maximo": 6.680026720106881,
       "valor_medio": 6.680026720106881,
       "valor_recente": 6.680026720106881,
-      "data_recente": "2026-04-11T15:31:25Z"
+      "data_recente": "2026-04-11T19:32:54Z"
     },
     {
       "cnpj": "06209130000115",
@@ -84,11 +84,11 @@
       "municipio": "IGACI",
       "latitude": -9.539441199999999,
       "longitude": -36.6385346,
-      "valor_minimo": 6.690247252747253,
-      "valor_maximo": 6.690247252747253,
-      "valor_medio": 6.690247252747253,
-      "valor_recente": 6.690247252747253,
-      "data_recente": "2026-04-11T16:48:14Z"
+      "valor_minimo": 6.889143511887712,
+      "valor_maximo": 6.889143511887712,
+      "valor_medio": 6.889143511887712,
+      "valor_recente": 6.889143511887712,
+      "data_recente": "2026-04-11T19:33:58Z"
     },
     {
       "cnpj": "05019078000171",
@@ -104,11 +104,11 @@
       "municipio": "IGACI",
       "latitude": -9.543047699999999,
       "longitude": -36.6506562,
-      "valor_minimo": 6.891798759476223,
-      "valor_maximo": 6.891798759476223,
-      "valor_medio": 6.891798759476223,
-      "valor_recente": 6.891798759476223,
-      "data_recente": "2026-04-11T17:12:31Z"
+      "valor_minimo": 6.890410958904109,
+      "valor_maximo": 6.890410958904109,
+      "valor_medio": 6.890410958904109,
+      "valor_recente": 6.890410958904109,
+      "data_recente": "2026-04-11T19:20:21Z"
     },
     {
       "cnpj": "05019078000171",
@@ -144,31 +144,11 @@
       "municipio": "IGACI",
       "latitude": -9.539441199999999,
       "longitude": -36.6385346,
-      "valor_minimo": 6.990019960079841,
-      "valor_maximo": 6.990019960079841,
-      "valor_medio": 6.990019960079841,
-      "valor_recente": 6.990019960079841,
-      "data_recente": "2026-04-11T08:32:56Z"
-    },
-    {
-      "cnpj": "22442762000261",
-      "tipo_combustivel": 3,
-      "razao_social": "AUTO POSTO SEGURO COMÉRCIO DE COMBUSTÍVEIS LTDA",
-      "nome_fantasia": "AUTO POSTO SEGURO TOP FLEX",
-      "telefone": "(82) 99003065",
-      "nome_logradouro": "SIT CALDEIRAO",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57620000",
-      "codigo_ibge": 2703106,
-      "municipio": "IGACI",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 4.58852867830424,
-      "valor_maximo": 4.58852867830424,
-      "valor_medio": 4.58852867830424,
-      "valor_recente": 4.58852867830424,
-      "data_recente": "2026-04-11T15:55:59Z"
+      "valor_minimo": 6.989953841976649,
+      "valor_maximo": 6.989953841976649,
+      "valor_medio": 6.989953841976649,
+      "valor_recente": 6.989953841976649,
+      "data_recente": "2026-04-11T17:47:51Z"
     },
     {
       "cnpj": "61923139000100",
@@ -188,7 +168,27 @@
       "valor_maximo": 4.990019960079841,
       "valor_medio": 4.990019960079841,
       "valor_recente": 4.990019960079841,
-      "data_recente": "2026-04-11T15:31:25Z"
+      "data_recente": "2026-04-11T18:19:45Z"
+    },
+    {
+      "cnpj": "22442762000261",
+      "tipo_combustivel": 3,
+      "razao_social": "AUTO POSTO SEGURO COMÉRCIO DE COMBUSTÍVEIS LTDA",
+      "nome_fantasia": "AUTO POSTO SEGURO TOP FLEX",
+      "telefone": "(82) 99003065",
+      "nome_logradouro": "SIT CALDEIRAO",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57620000",
+      "codigo_ibge": 2703106,
+      "municipio": "IGACI",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 4.990043807248108,
+      "valor_maximo": 4.990043807248108,
+      "valor_medio": 4.990043807248108,
+      "valor_recente": 4.990043807248108,
+      "data_recente": "2026-04-11T18:38:47Z"
     },
     {
       "cnpj": "06209130000115",
@@ -244,11 +244,11 @@
       "municipio": "IGACI",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.749222301986121,
-      "valor_maximo": 6.749222301986121,
-      "valor_medio": 6.749222301986121,
-      "valor_recente": 6.749222301986121,
-      "data_recente": "2026-04-11T16:00:35Z"
+      "valor_minimo": 6.7502238137869295,
+      "valor_maximo": 6.7502238137869295,
+      "valor_medio": 6.7502238137869295,
+      "valor_recente": 6.7502238137869295,
+      "data_recente": "2026-04-11T18:39:11Z"
     },
     {
       "cnpj": "61923139000100",
@@ -264,11 +264,11 @@
       "municipio": "IGACI",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.150518412584913,
-      "valor_maximo": 7.150518412584913,
-      "valor_medio": 7.150518412584913,
-      "valor_recente": 7.150518412584913,
-      "data_recente": "2026-04-11T15:31:08Z"
+      "valor_minimo": 7.15000715000715,
+      "valor_maximo": 7.15000715000715,
+      "valor_medio": 7.15000715000715,
+      "valor_recente": 7.15000715000715,
+      "data_recente": "2026-04-11T19:23:50Z"
     },
     {
       "cnpj": "05019078000171",
@@ -304,11 +304,11 @@
       "municipio": "IGACI",
       "latitude": -9.539441199999999,
       "longitude": -36.6385346,
-      "valor_minimo": 7.649425287356322,
-      "valor_maximo": 7.649425287356322,
-      "valor_medio": 7.649425287356322,
-      "valor_recente": 7.649425287356322,
-      "data_recente": "2026-04-11T14:25:23Z"
+      "valor_minimo": 7.65001706678803,
+      "valor_maximo": 7.65001706678803,
+      "valor_medio": 7.65001706678803,
+      "valor_recente": 7.65001706678803,
+      "data_recente": "2026-04-11T19:05:05Z"
     }
   ]
 }
