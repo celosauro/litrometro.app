@@ -1,44 +1,44 @@
 {
   "codigoIBGE": "2700409",
   "municipio": "Atalaia",
-  "atualizadoEm": "2026-04-11T15:25:18.216Z",
+  "atualizadoEm": "2026-04-11T16:25:47.229Z",
   "totalEstabelecimentos": 24,
   "combustiveis": {
     "1": {
       "totalPostos": 7,
-      "valorMinimo": 6.490088289188739,
-      "valorMaximo": 6.890215893431328,
-      "valorMedio": 6.71837134397064
+      "valorMinimo": 6.489259378005771,
+      "valorMaximo": 6.889899407468651,
+      "valorMedio": 6.718242421085686
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 7.139942880456957,
-      "valorMaximo": 7.190106413574921,
-      "valorMedio": 7.165024647015938
+      "valorMinimo": 7.137758743754461,
+      "valorMaximo": 7.190068456404644,
+      "valorMedio": 7.163913600079553
     },
     "3": {
       "totalPostos": 6,
-      "valorMinimo": 4.670462387853692,
-      "valorMaximo": 5.489679402722881,
-      "valorMedio": 5.208337482194375
+      "valorMinimo": 5.149762180228821,
+      "valorMaximo": 5.48847420417124,
+      "valorMedio": 5.294559182364915
     },
     "4": {
       "totalPostos": 2,
       "valorMinimo": 6.789980993755091,
-      "valorMaximo": 6.989847555190082,
-      "valorMedio": 6.889914274472586
+      "valorMaximo": 6.989934494328168,
+      "valorMedio": 6.889957744041629
     },
     "5": {
       "totalPostos": 6,
-      "valorMinimo": 6.3812154696132595,
-      "valorMaximo": 7.580154220779221,
-      "valorMedio": 6.98854129432457
+      "valorMinimo": 6.849784231796699,
+      "valorMaximo": 7.189917745744768,
+      "valorMedio": 6.991672304168255
     },
     "6": {
       "totalPostos": 1,
-      "valorMinimo": 4.189323607427056,
-      "valorMaximo": 4.189323607427056,
-      "valorMedio": 4.189323607427056
+      "valorMinimo": 4.189610389610389,
+      "valorMaximo": 4.189610389610389,
+      "valorMedio": 4.189610389610389
     }
   },
   "estabelecimentos": [
@@ -56,11 +56,11 @@
       "municipio": "ATALAIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.490088289188739,
-      "valor_maximo": 6.490088289188739,
-      "valor_medio": 6.490088289188739,
-      "valor_recente": 6.490088289188739,
-      "data_recente": "2026-04-11T10:49:24Z"
+      "valor_minimo": 6.489259378005771,
+      "valor_maximo": 6.489259378005771,
+      "valor_medio": 6.489259378005771,
+      "valor_recente": 6.489259378005771,
+      "data_recente": "2026-04-11T13:19:22Z"
     },
     {
       "cnpj": "31278560000136",
@@ -76,31 +76,11 @@
       "municipio": "ATALAIA",
       "latitude": -9.4881612,
       "longitude": -36.1468669,
-      "valor_minimo": 6.679631070118902,
-      "valor_maximo": 6.679631070118902,
-      "valor_medio": 6.679631070118902,
-      "valor_recente": 6.679631070118902,
-      "data_recente": "2026-04-11T12:07:42Z"
-    },
-    {
-      "cnpj": "39741813000178",
-      "tipo_combustivel": 1,
-      "razao_social": "MARIA FILHA DE OLIVEIRA LTDA",
-      "nome_fantasia": "POSTO 15",
-      "telefone": "(82) 81575355",
-      "nome_logradouro": "ROD BR 316",
-      "numero_imovel": "SN",
-      "bairro": "BOCA DA MATA",
-      "cep": "57690000",
-      "codigo_ibge": 2700409,
-      "municipio": "ATALAIA",
-      "latitude": -9.5149011,
-      "longitude": -36.0017582,
-      "valor_minimo": 6.6897089976586015,
-      "valor_maximo": 6.6897089976586015,
-      "valor_medio": 6.6897089976586015,
-      "valor_recente": 6.6897089976586015,
-      "data_recente": "2026-04-11T12:18:35Z"
+      "valor_minimo": 6.679278878255063,
+      "valor_maximo": 6.679278878255063,
+      "valor_medio": 6.679278878255063,
+      "valor_recente": 6.679278878255063,
+      "data_recente": "2026-04-11T13:58:10Z"
     },
     {
       "cnpj": "07150975000145",
@@ -116,11 +96,31 @@
       "municipio": "ATALAIA",
       "latitude": -9.5093176,
       "longitude": -36.0117388,
-      "valor_minimo": 6.689853521503578,
-      "valor_maximo": 6.689853521503578,
-      "valor_medio": 6.689853521503578,
-      "valor_recente": 6.689853521503578,
-      "data_recente": "2026-04-11T12:19:17Z"
+      "valor_minimo": 6.6896482813749,
+      "valor_maximo": 6.6896482813749,
+      "valor_medio": 6.6896482813749,
+      "valor_recente": 6.6896482813749,
+      "data_recente": "2026-04-11T13:56:11Z"
+    },
+    {
+      "cnpj": "39741813000178",
+      "tipo_combustivel": 1,
+      "razao_social": "MARIA FILHA DE OLIVEIRA LTDA",
+      "nome_fantasia": "POSTO 15",
+      "telefone": "(82) 81575355",
+      "nome_logradouro": "ROD BR 316",
+      "numero_imovel": "SN",
+      "bairro": "BOCA DA MATA",
+      "cep": "57690000",
+      "codigo_ibge": 2700409,
+      "municipio": "ATALAIA",
+      "latitude": -9.5149011,
+      "longitude": -36.0017582,
+      "valor_minimo": 6.689925327457461,
+      "valor_maximo": 6.689925327457461,
+      "valor_medio": 6.689925327457461,
+      "valor_recente": 6.689925327457461,
+      "data_recente": "2026-04-11T13:55:28Z"
     },
     {
       "cnpj": "12486809000235",
@@ -136,11 +136,11 @@
       "municipio": "ATALAIA",
       "latitude": -9.5108483,
       "longitude": -36.0043199,
-      "valor_minimo": 6.749156355455568,
-      "valor_maximo": 6.749156355455568,
-      "valor_medio": 6.749156355455568,
-      "valor_recente": 6.749156355455568,
-      "data_recente": "2026-04-11T12:14:50Z"
+      "valor_minimo": 6.749740394600208,
+      "valor_maximo": 6.749740394600208,
+      "valor_medio": 6.749740394600208,
+      "valor_recente": 6.749740394600208,
+      "data_recente": "2026-04-11T13:57:51Z"
     },
     {
       "cnpj": "11679330000171",
@@ -160,7 +160,7 @@
       "valor_maximo": 6.839945280437757,
       "valor_medio": 6.839945280437757,
       "valor_recente": 6.839945280437757,
-      "data_recente": "2026-04-11T12:15:22Z"
+      "data_recente": "2026-04-11T13:58:06Z"
     },
     {
       "cnpj": "10889582000162",
@@ -176,11 +176,11 @@
       "municipio": "ATALAIA",
       "latitude": -9.5093176,
       "longitude": -36.0117388,
-      "valor_minimo": 6.890215893431328,
-      "valor_maximo": 6.890215893431328,
-      "valor_medio": 6.890215893431328,
-      "valor_recente": 6.890215893431328,
-      "data_recente": "2026-04-11T12:00:54Z"
+      "valor_minimo": 6.889899407468651,
+      "valor_maximo": 6.889899407468651,
+      "valor_medio": 6.889899407468651,
+      "valor_recente": 6.889899407468651,
+      "data_recente": "2026-04-11T13:53:47Z"
     },
     {
       "cnpj": "11679330000171",
@@ -196,11 +196,11 @@
       "municipio": "ATALAIA",
       "latitude": -9.5877691,
       "longitude": -35.95618899999999,
-      "valor_minimo": 7.139942880456957,
-      "valor_maximo": 7.139942880456957,
-      "valor_medio": 7.139942880456957,
-      "valor_recente": 7.139942880456957,
-      "data_recente": "2026-04-11T12:15:17Z"
+      "valor_minimo": 7.137758743754461,
+      "valor_maximo": 7.137758743754461,
+      "valor_medio": 7.137758743754461,
+      "valor_recente": 7.137758743754461,
+      "data_recente": "2026-04-11T13:57:02Z"
     },
     {
       "cnpj": "10889582000162",
@@ -216,31 +216,11 @@
       "municipio": "ATALAIA",
       "latitude": -9.5093176,
       "longitude": -36.0117388,
-      "valor_minimo": 7.190106413574921,
-      "valor_maximo": 7.190106413574921,
-      "valor_medio": 7.190106413574921,
-      "valor_recente": 7.190106413574921,
-      "data_recente": "2026-04-11T12:21:27Z"
-    },
-    {
-      "cnpj": "31278560000136",
-      "tipo_combustivel": 3,
-      "razao_social": "AUTO POSTO IMPERADOR LTDA",
-      "nome_fantasia": "AUTO POSTO IMPERADOR",
-      "telefone": "(82) 34214790",
-      "nome_logradouro": "ROD BR 316",
-      "numero_imovel": "SN",
-      "bairro": "DISTRITO BRANCA",
-      "cep": "57690000",
-      "codigo_ibge": 2700409,
-      "municipio": "ATALAIA",
-      "latitude": -9.4881612,
-      "longitude": -36.1468669,
-      "valor_minimo": 4.670462387853692,
-      "valor_maximo": 4.670462387853692,
-      "valor_medio": 4.670462387853692,
-      "valor_recente": 4.670462387853692,
-      "data_recente": "2026-04-11T10:55:23Z"
+      "valor_minimo": 7.190068456404644,
+      "valor_maximo": 7.190068456404644,
+      "valor_medio": 7.190068456404644,
+      "valor_recente": 7.190068456404644,
+      "data_recente": "2026-04-11T13:54:40Z"
     },
     {
       "cnpj": "07150975000145",
@@ -256,11 +236,11 @@
       "municipio": "ATALAIA",
       "latitude": -9.5093176,
       "longitude": -36.0117388,
-      "valor_minimo": 5.149899106370712,
-      "valor_maximo": 5.149899106370712,
-      "valor_medio": 5.149899106370712,
-      "valor_recente": 5.149899106370712,
-      "data_recente": "2026-04-11T12:08:09Z"
+      "valor_minimo": 5.149762180228821,
+      "valor_maximo": 5.149762180228821,
+      "valor_medio": 5.149762180228821,
+      "valor_recente": 5.149762180228821,
+      "data_recente": "2026-04-11T13:56:37Z"
     },
     {
       "cnpj": "39741813000178",
@@ -276,11 +256,31 @@
       "municipio": "ATALAIA",
       "latitude": -9.5149011,
       "longitude": -36.0017582,
-      "valor_minimo": 5.160153059030913,
-      "valor_maximo": 5.160153059030913,
-      "valor_medio": 5.160153059030913,
-      "valor_recente": 5.160153059030913,
-      "data_recente": "2026-04-11T12:18:35Z"
+      "valor_minimo": 5.160224985809381,
+      "valor_maximo": 5.160224985809381,
+      "valor_medio": 5.160224985809381,
+      "valor_recente": 5.160224985809381,
+      "data_recente": "2026-04-11T13:53:41Z"
+    },
+    {
+      "cnpj": "31278560000136",
+      "tipo_combustivel": 3,
+      "razao_social": "AUTO POSTO IMPERADOR LTDA",
+      "nome_fantasia": "AUTO POSTO IMPERADOR",
+      "telefone": "(82) 34214790",
+      "nome_logradouro": "ROD BR 316",
+      "numero_imovel": "SN",
+      "bairro": "DISTRITO BRANCA",
+      "cep": "57690000",
+      "codigo_ibge": 2700409,
+      "municipio": "ATALAIA",
+      "latitude": -9.4881612,
+      "longitude": -36.1468669,
+      "valor_minimo": 5.1893939393939394,
+      "valor_maximo": 5.1893939393939394,
+      "valor_medio": 5.1893939393939394,
+      "valor_recente": 5.1893939393939394,
+      "data_recente": "2026-04-11T13:58:10Z"
     },
     {
       "cnpj": "12486809000235",
@@ -296,11 +296,11 @@
       "municipio": "ATALAIA",
       "latitude": -9.5108483,
       "longitude": -36.0043199,
-      "valor_minimo": 5.389867049946101,
-      "valor_maximo": 5.389867049946101,
-      "valor_medio": 5.389867049946101,
-      "valor_recente": 5.389867049946101,
-      "data_recente": "2026-04-11T12:08:44Z"
+      "valor_minimo": 5.3895198246662686,
+      "valor_maximo": 5.3895198246662686,
+      "valor_medio": 5.3895198246662686,
+      "valor_recente": 5.3895198246662686,
+      "data_recente": "2026-04-11T13:39:13Z"
     },
     {
       "cnpj": "10889582000162",
@@ -316,11 +316,11 @@
       "municipio": "ATALAIA",
       "latitude": -9.5093176,
       "longitude": -36.0117388,
-      "valor_minimo": 5.389963887241955,
-      "valor_maximo": 5.389963887241955,
-      "valor_medio": 5.389963887241955,
-      "valor_recente": 5.389963887241955,
-      "data_recente": "2026-04-11T11:03:03Z"
+      "valor_minimo": 5.38997995991984,
+      "valor_maximo": 5.38997995991984,
+      "valor_medio": 5.38997995991984,
+      "valor_recente": 5.38997995991984,
+      "data_recente": "2026-04-11T12:33:13Z"
     },
     {
       "cnpj": "11679330000171",
@@ -336,11 +336,11 @@
       "municipio": "ATALAIA",
       "latitude": -9.5877691,
       "longitude": -35.95618899999999,
-      "valor_minimo": 5.489679402722881,
-      "valor_maximo": 5.489679402722881,
-      "valor_medio": 5.489679402722881,
-      "valor_recente": 5.489679402722881,
-      "data_recente": "2026-04-11T12:15:22Z"
+      "valor_minimo": 5.48847420417124,
+      "valor_maximo": 5.48847420417124,
+      "valor_medio": 5.48847420417124,
+      "valor_recente": 5.48847420417124,
+      "data_recente": "2026-04-11T13:53:25Z"
     },
     {
       "cnpj": "12486809000235",
@@ -376,31 +376,11 @@
       "municipio": "ATALAIA",
       "latitude": -9.5877691,
       "longitude": -35.95618899999999,
-      "valor_minimo": 6.989847555190082,
-      "valor_maximo": 6.989847555190082,
-      "valor_medio": 6.989847555190082,
-      "valor_recente": 6.989847555190082,
-      "data_recente": "2026-04-11T12:21:56Z"
-    },
-    {
-      "cnpj": "31278560000136",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO IMPERADOR LTDA",
-      "nome_fantasia": "AUTO POSTO IMPERADOR",
-      "telefone": "(82) 34214790",
-      "nome_logradouro": "ROD BR 316",
-      "numero_imovel": "SN",
-      "bairro": "DISTRITO BRANCA",
-      "cep": "57690000",
-      "codigo_ibge": 2700409,
-      "municipio": "ATALAIA",
-      "latitude": -9.4881612,
-      "longitude": -36.1468669,
-      "valor_minimo": 6.3812154696132595,
-      "valor_maximo": 6.3812154696132595,
-      "valor_medio": 6.3812154696132595,
-      "valor_recente": 6.3812154696132595,
-      "data_recente": "2026-04-11T10:58:55Z"
+      "valor_minimo": 6.989934494328168,
+      "valor_maximo": 6.989934494328168,
+      "valor_medio": 6.989934494328168,
+      "valor_recente": 6.989934494328168,
+      "data_recente": "2026-04-11T13:49:35Z"
     },
     {
       "cnpj": "48494384000172",
@@ -416,11 +396,11 @@
       "municipio": "ATALAIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.849962336506198,
-      "valor_maximo": 6.849962336506198,
-      "valor_medio": 6.849962336506198,
-      "valor_recente": 6.849962336506198,
-      "data_recente": "2026-04-11T00:00:29Z"
+      "valor_minimo": 6.849784231796699,
+      "valor_maximo": 6.849784231796699,
+      "valor_medio": 6.849784231796699,
+      "valor_recente": 6.849784231796699,
+      "data_recente": "2026-04-11T13:19:22Z"
     },
     {
       "cnpj": "39741813000178",
@@ -436,11 +416,31 @@
       "municipio": "ATALAIA",
       "latitude": -9.5149011,
       "longitude": -36.0017582,
-      "valor_minimo": 6.890020515826495,
-      "valor_maximo": 6.890020515826495,
-      "valor_medio": 6.890020515826495,
-      "valor_recente": 6.890020515826495,
-      "data_recente": "2026-04-11T12:17:42Z"
+      "valor_minimo": 6.889899407468651,
+      "valor_maximo": 6.889899407468651,
+      "valor_medio": 6.889899407468651,
+      "valor_recente": 6.889899407468651,
+      "data_recente": "2026-04-11T13:28:51Z"
+    },
+    {
+      "cnpj": "07150975000145",
+      "tipo_combustivel": 5,
+      "razao_social": "DORIA & SARMENTO COMERCIO DE COMBUSTIVEIS LTDA - EPP",
+      "nome_fantasia": "AUTO POSTO ATALAIA",
+      "telefone": "",
+      "nome_logradouro": "RDV BR 316  KM 45",
+      "numero_imovel": "S/N",
+      "bairro": "JOSE PAULINO",
+      "cep": "57690000",
+      "codigo_ibge": 2700409,
+      "municipio": "ATALAIA",
+      "latitude": -9.5093176,
+      "longitude": -36.0117388,
+      "valor_minimo": 6.890097033927465,
+      "valor_maximo": 6.890097033927465,
+      "valor_medio": 6.890097033927465,
+      "valor_recente": 6.890097033927465,
+      "data_recente": "2026-04-11T13:47:00Z"
     },
     {
       "cnpj": "10889582000162",
@@ -456,11 +456,31 @@
       "municipio": "ATALAIA",
       "latitude": -9.5093176,
       "longitude": -36.0117388,
-      "valor_minimo": 7.0399774774774775,
+      "valor_minimo": 7.0399399258459665,
       "valor_maximo": 7.0899358360806835,
-      "valor_medio": 7.0649566567790805,
-      "valor_recente": 7.0399774774774775,
-      "data_recente": "2026-04-11T11:40:24Z"
+      "valor_medio": 7.064937880963325,
+      "valor_recente": 7.0399399258459665,
+      "data_recente": "2026-04-11T13:54:11Z"
+    },
+    {
+      "cnpj": "31278560000136",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO IMPERADOR LTDA",
+      "nome_fantasia": "AUTO POSTO IMPERADOR",
+      "telefone": "(82) 34214790",
+      "nome_logradouro": "ROD BR 316",
+      "numero_imovel": "SN",
+      "bairro": "DISTRITO BRANCA",
+      "cep": "57690000",
+      "codigo_ibge": 2700409,
+      "municipio": "ATALAIA",
+      "latitude": -9.4881612,
+      "longitude": -36.1468669,
+      "valor_minimo": 7.090395480225989,
+      "valor_maximo": 7.090395480225989,
+      "valor_medio": 7.090395480225989,
+      "valor_recente": 7.090395480225989,
+      "data_recente": "2026-04-11T13:58:10Z"
     },
     {
       "cnpj": "11679330000171",
@@ -483,26 +503,6 @@
       "data_recente": "2026-04-11T11:43:11Z"
     },
     {
-      "cnpj": "07150975000145",
-      "tipo_combustivel": 5,
-      "razao_social": "DORIA & SARMENTO COMERCIO DE COMBUSTIVEIS LTDA - EPP",
-      "nome_fantasia": "AUTO POSTO ATALAIA",
-      "telefone": "",
-      "nome_logradouro": "RDV BR 316  KM 45",
-      "numero_imovel": "S/N",
-      "bairro": "JOSE PAULINO",
-      "cep": "57690000",
-      "codigo_ibge": 2700409,
-      "municipio": "ATALAIA",
-      "latitude": -9.5093176,
-      "longitude": -36.0117388,
-      "valor_minimo": 7.580154220779221,
-      "valor_maximo": 7.580154220779221,
-      "valor_medio": 7.580154220779221,
-      "valor_recente": 7.580154220779221,
-      "data_recente": "2026-04-11T11:56:14Z"
-    },
-    {
       "cnpj": "12486809000235",
       "tipo_combustivel": 6,
       "razao_social": "CDA EMPREENDIMENTOS LTDA",
@@ -516,11 +516,11 @@
       "municipio": "ATALAIA",
       "latitude": -9.5108483,
       "longitude": -36.0043199,
-      "valor_minimo": 4.189323607427056,
-      "valor_maximo": 4.189323607427056,
-      "valor_medio": 4.189323607427056,
-      "valor_recente": 4.189323607427056,
-      "data_recente": "2026-04-11T12:15:28Z"
+      "valor_minimo": 4.189610389610389,
+      "valor_maximo": 4.189610389610389,
+      "valor_medio": 4.189610389610389,
+      "valor_recente": 4.189610389610389,
+      "data_recente": "2026-04-11T13:44:53Z"
     }
   ]
 }

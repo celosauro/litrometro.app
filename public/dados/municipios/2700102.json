@@ -1,54 +1,54 @@
 {
   "codigoIBGE": "2700102",
   "municipio": "Água Branca",
-  "atualizadoEm": "2026-04-11T15:23:50.413Z",
+  "atualizadoEm": "2026-04-11T16:24:21.387Z",
   "totalEstabelecimentos": 17,
   "combustiveis": {
     "1": {
       "totalPostos": 5,
-      "valorMinimo": 6.99,
-      "valorMaximo": 7.259528130671506,
-      "valorMedio": 7.145619726922002
+      "valorMinimo": 7.045691483625121,
+      "valorMaximo": 7.260055176419341,
+      "valorMedio": 7.1566704927461355
     },
     "2": {
       "totalPostos": 4,
-      "valorMinimo": 7.2898550724637685,
-      "valorMaximo": 7.3597710547833195,
-      "valorMedio": 7.307733729867005
+      "valorMinimo": 7.28759654702408,
+      "valorMaximo": 7.359570661896243,
+      "valorMedio": 7.306438757317669
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 5.04999495000505,
-      "valorMaximo": 5.882352941176471,
-      "valorMedio": 5.374060638692595
+      "valorMinimo": 5.05050505050505,
+      "valorMaximo": 5.880000940800151,
+      "valorMedio": 5.373446672067156
     },
     "5": {
       "totalPostos": 5,
-      "valorMinimo": 7.2497946165369935,
-      "valorMaximo": 8.688775510204081,
-      "valorMedio": 7.893727172572002
+      "valorMinimo": 7.249528780629259,
+      "valorMaximo": 7.990064289888954,
+      "valorMedio": 7.673930889113192
     }
   },
   "estabelecimentos": [
     {
-      "cnpj": "33967242000370",
+      "cnpj": "27591789000159",
       "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO CAPIA II",
-      "nome_fantasia": "AUTO POSTO CAPIA III",
-      "telefone": "(82) 96023633",
+      "razao_social": "AUTO POSTO DA PEDRA AGUA BRANCA LTDA",
+      "nome_fantasia": "POSTO CANGACO",
+      "telefone": "",
       "nome_logradouro": "ROD AL 145",
-      "numero_imovel": "204",
-      "bairro": "CENTRO",
+      "numero_imovel": "01",
+      "bairro": "POV. TABELA",
       "cep": "57490000",
       "codigo_ibge": 2700102,
       "municipio": "AGUA BRANCA",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.99,
-      "valor_maximo": 6.99,
-      "valor_medio": 6.99,
-      "valor_recente": 6.99,
-      "data_recente": "2026-04-11T12:19:36Z"
+      "latitude": -9.262425,
+      "longitude": -37.935444,
+      "valor_minimo": 7.045691483625121,
+      "valor_maximo": 7.045691483625121,
+      "valor_medio": 7.045691483625121,
+      "valor_recente": 7.045691483625121,
+      "data_recente": "2026-04-11T13:57:35Z"
     },
     {
       "cnpj": "34184162000149",
@@ -64,31 +64,11 @@
       "municipio": "AGUA BRANCA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.099391480730223,
-      "valor_maximo": 7.099391480730223,
-      "valor_medio": 7.099391480730223,
-      "valor_recente": 7.099391480730223,
-      "data_recente": "2026-04-11T10:23:18Z"
-    },
-    {
-      "cnpj": "27591789000159",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO DA PEDRA AGUA BRANCA LTDA",
-      "nome_fantasia": "POSTO CANGACO",
-      "telefone": "",
-      "nome_logradouro": "ROD AL 145",
-      "numero_imovel": "01",
-      "bairro": "POV. TABELA",
-      "cep": "57490000",
-      "codigo_ibge": 2700102,
-      "municipio": "AGUA BRANCA",
-      "latitude": -9.262425,
-      "longitude": -37.935444,
-      "valor_minimo": 7.1890726096333575,
-      "valor_maximo": 7.1890726096333575,
-      "valor_medio": 7.1890726096333575,
-      "valor_recente": 7.1890726096333575,
-      "data_recente": "2026-04-11T12:16:10Z"
+      "valor_minimo": 7.099247479767144,
+      "valor_maximo": 7.099247479767144,
+      "valor_medio": 7.099247479767144,
+      "valor_recente": 7.099247479767144,
+      "data_recente": "2026-04-11T13:53:41Z"
     },
     {
       "cnpj": "47328180000107",
@@ -104,11 +84,31 @@
       "municipio": "AGUA BRANCA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.190106413574921,
-      "valor_maximo": 7.190106413574921,
-      "valor_medio": 7.190106413574921,
-      "valor_recente": 7.190106413574921,
-      "data_recente": "2026-04-11T11:08:00Z"
+      "valor_minimo": 7.1890726096333575,
+      "valor_maximo": 7.1890726096333575,
+      "valor_medio": 7.1890726096333575,
+      "valor_recente": 7.1890726096333575,
+      "data_recente": "2026-04-11T13:04:35Z"
+    },
+    {
+      "cnpj": "33967242000370",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO CAPIA II",
+      "nome_fantasia": "AUTO POSTO CAPIA III",
+      "telefone": "(82) 96023633",
+      "nome_logradouro": "ROD AL 145",
+      "numero_imovel": "204",
+      "bairro": "CENTRO",
+      "cep": "57490000",
+      "codigo_ibge": 2700102,
+      "municipio": "AGUA BRANCA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.189285714285714,
+      "valor_maximo": 7.189285714285714,
+      "valor_medio": 7.189285714285714,
+      "valor_recente": 7.189285714285714,
+      "data_recente": "2026-04-11T13:56:41Z"
     },
     {
       "cnpj": "22213274000100",
@@ -124,11 +124,11 @@
       "municipio": "AGUA BRANCA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.259528130671506,
-      "valor_maximo": 7.259528130671506,
-      "valor_medio": 7.259528130671506,
-      "valor_recente": 7.259528130671506,
-      "data_recente": "2026-04-11T12:20:19Z"
+      "valor_minimo": 7.260055176419341,
+      "valor_maximo": 7.260055176419341,
+      "valor_medio": 7.260055176419341,
+      "valor_recente": 7.260055176419341,
+      "data_recente": "2026-04-11T13:58:21Z"
     },
     {
       "cnpj": "27591789000159",
@@ -144,11 +144,31 @@
       "municipio": "AGUA BRANCA",
       "latitude": -9.262425,
       "longitude": -37.935444,
-      "valor_minimo": 7.2898550724637685,
-      "valor_maximo": 7.2898550724637685,
-      "valor_medio": 7.2898550724637685,
-      "valor_recente": 7.2898550724637685,
-      "data_recente": "2026-04-11T00:05:27Z"
+      "valor_minimo": 7.28759654702408,
+      "valor_maximo": 7.28759654702408,
+      "valor_medio": 7.28759654702408,
+      "valor_recente": 7.28759654702408,
+      "data_recente": "2026-04-11T13:28:35Z"
+    },
+    {
+      "cnpj": "47328180000107",
+      "tipo_combustivel": 2,
+      "razao_social": "AGUA BRANCA PRIME LTDA",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "Rua Conego Nicodemos",
+      "numero_imovel": "115",
+      "bairro": "centro",
+      "cep": "57490000",
+      "codigo_ibge": 2700102,
+      "municipio": "AGUA BRANCA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.288629737609329,
+      "valor_maximo": 7.288629737609329,
+      "valor_medio": 7.288629737609329,
+      "valor_recente": 7.288629737609329,
+      "data_recente": "2026-04-11T12:51:59Z"
     },
     {
       "cnpj": "33967242000370",
@@ -164,31 +184,11 @@
       "municipio": "AGUA BRANCA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.290046656298601,
-      "valor_maximo": 7.290046656298601,
-      "valor_medio": 7.290046656298601,
-      "valor_recente": 7.290046656298601,
-      "data_recente": "2026-04-11T11:27:56Z"
-    },
-    {
-      "cnpj": "47328180000107",
-      "tipo_combustivel": 2,
-      "razao_social": "AGUA BRANCA PRIME LTDA",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "Rua Conego Nicodemos",
-      "numero_imovel": "115",
-      "bairro": "centro",
-      "cep": "57490000",
-      "codigo_ibge": 2700102,
-      "municipio": "AGUA BRANCA",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.29126213592233,
-      "valor_maximo": 7.29126213592233,
-      "valor_medio": 7.29126213592233,
-      "valor_recente": 7.29126213592233,
-      "data_recente": "2026-04-10T23:55:09Z"
+      "valor_minimo": 7.289958082741024,
+      "valor_maximo": 7.289958082741024,
+      "valor_medio": 7.289958082741024,
+      "valor_recente": 7.289958082741024,
+      "data_recente": "2026-04-11T13:44:01Z"
     },
     {
       "cnpj": "22213274000100",
@@ -204,11 +204,11 @@
       "municipio": "AGUA BRANCA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.3597710547833195,
-      "valor_maximo": 7.3597710547833195,
-      "valor_medio": 7.3597710547833195,
-      "valor_recente": 7.3597710547833195,
-      "data_recente": "2026-04-11T12:07:42Z"
+      "valor_minimo": 7.359570661896243,
+      "valor_maximo": 7.359570661896243,
+      "valor_medio": 7.359570661896243,
+      "valor_recente": 7.359570661896243,
+      "data_recente": "2026-04-11T13:23:34Z"
     },
     {
       "cnpj": "22213274000100",
@@ -224,11 +224,11 @@
       "municipio": "AGUA BRANCA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.04999495000505,
-      "valor_maximo": 5.04999495000505,
-      "valor_medio": 5.04999495000505,
-      "valor_recente": 5.04999495000505,
-      "data_recente": "2026-04-11T11:27:28Z"
+      "valor_minimo": 5.05050505050505,
+      "valor_maximo": 5.05050505050505,
+      "valor_medio": 5.05050505050505,
+      "valor_recente": 5.05050505050505,
+      "data_recente": "2026-04-11T13:37:21Z"
     },
     {
       "cnpj": "34184162000149",
@@ -264,11 +264,11 @@
       "municipio": "AGUA BRANCA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.882352941176471,
-      "valor_maximo": 5.882352941176471,
-      "valor_medio": 5.882352941176471,
-      "valor_recente": 5.882352941176471,
-      "data_recente": "2026-04-11T11:49:31Z"
+      "valor_minimo": 5.880000940800151,
+      "valor_maximo": 5.880000940800151,
+      "valor_medio": 5.880000940800151,
+      "valor_recente": 5.880000940800151,
+      "data_recente": "2026-04-11T13:44:01Z"
     },
     {
       "cnpj": "34184162000149",
@@ -284,11 +284,11 @@
       "municipio": "AGUA BRANCA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.2497946165369935,
-      "valor_maximo": 7.2497946165369935,
-      "valor_medio": 7.2497946165369935,
-      "valor_recente": 7.2497946165369935,
-      "data_recente": "2026-04-11T08:48:38Z"
+      "valor_minimo": 7.249528780629259,
+      "valor_maximo": 7.249528780629259,
+      "valor_medio": 7.249528780629259,
+      "valor_recente": 7.249528780629259,
+      "data_recente": "2026-04-11T12:39:00Z"
     },
     {
       "cnpj": "22213274000100",
@@ -304,11 +304,11 @@
       "municipio": "AGUA BRANCA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.549828870545601,
-      "valor_maximo": 7.549828870545601,
-      "valor_medio": 7.549828870545601,
-      "valor_recente": 7.549828870545601,
-      "data_recente": "2026-04-11T12:18:56Z"
+      "valor_minimo": 7.550075490689482,
+      "valor_maximo": 7.550075490689482,
+      "valor_medio": 7.550075490689482,
+      "valor_recente": 7.550075490689482,
+      "data_recente": "2026-04-11T13:58:14Z"
     },
     {
       "cnpj": "27591789000159",
@@ -325,10 +325,10 @@
       "latitude": -9.262425,
       "longitude": -37.935444,
       "valor_minimo": 7.59,
-      "valor_maximo": 8.688775510204081,
-      "valor_medio": 8.13938775510204,
-      "valor_recente": 8.688775510204081,
-      "data_recente": "2026-04-11T12:18:42Z"
+      "valor_maximo": 8.689607229753214,
+      "valor_medio": 8.139803614876607,
+      "valor_recente": 7.59,
+      "data_recente": "2026-04-11T13:56:35Z"
     },
     {
       "cnpj": "33967242000370",
@@ -344,11 +344,11 @@
       "municipio": "AGUA BRANCA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.9899773723840815,
-      "valor_maximo": 7.9899773723840815,
-      "valor_medio": 7.9899773723840815,
-      "valor_recente": 7.9899773723840815,
-      "data_recente": "2026-04-10T23:47:50Z"
+      "valor_minimo": 7.989985884358271,
+      "valor_maximo": 7.989985884358271,
+      "valor_medio": 7.989985884358271,
+      "valor_recente": 7.989985884358271,
+      "data_recente": "2026-04-11T13:54:47Z"
     },
     {
       "cnpj": "47328180000107",
@@ -364,11 +364,11 @@
       "municipio": "AGUA BRANCA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.990259493189255,
-      "valor_maximo": 7.990259493189255,
-      "valor_medio": 7.990259493189255,
-      "valor_recente": 7.990259493189255,
-      "data_recente": "2026-04-10T21:53:45Z"
+      "valor_minimo": 7.990064289888954,
+      "valor_maximo": 7.990064289888954,
+      "valor_medio": 7.990064289888954,
+      "valor_recente": 7.990064289888954,
+      "data_recente": "2026-04-11T12:52:36Z"
     }
   ]
 }

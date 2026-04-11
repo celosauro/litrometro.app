@@ -1,49 +1,29 @@
 {
   "codigoIBGE": "2703304",
   "municipio": "Inhapi",
-  "atualizadoEm": "2026-04-11T15:40:00.343Z",
+  "atualizadoEm": "2026-04-11T16:39:36.756Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.989172196996158,
+      "valorMinimo": 6.989341254586755,
       "valorMaximo": 6.990074094785404,
-      "valorMedio": 6.989692029808663
+      "valorMedio": 6.9896919405456925
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 4.450261780104712,
-      "valorMaximo": 5.489571899012074,
-      "valorMedio": 4.969916839558393
+      "valorMinimo": 5.489699273067294,
+      "valorMaximo": 5.489980785067252,
+      "valorMedio": 5.489840029067273
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.249910924249982,
+      "valorMinimo": 6.109722183207394,
       "valorMaximo": 7.689941556444171,
-      "valorMedio": 7.476562568106412
+      "valorMedio": 7.096499654425549
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "02850879000277",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO ALVES LTDA",
-      "nome_fantasia": "AUTO POSTO ALVES",
-      "telefone": "",
-      "nome_logradouro": "AV POMPILIO BRANDAO DE ALCANTARA",
-      "numero_imovel": "1192",
-      "bairro": "CENTRO",
-      "cep": "57545000",
-      "codigo_ibge": 2703304,
-      "municipio": "INHAPI",
-      "latitude": -9.216866,
-      "longitude": -37.7460976,
-      "valor_minimo": 6.989172196996158,
-      "valor_maximo": 6.989172196996158,
-      "valor_medio": 6.989172196996158,
-      "valor_recente": 6.989172196996158,
-      "data_recente": "2026-04-11T12:16:00Z"
-    },
     {
       "cnpj": "02850879000196",
       "tipo_combustivel": 1,
@@ -58,11 +38,31 @@
       "municipio": "INHAPI",
       "latitude": -9.2648351,
       "longitude": -37.7312552,
-      "valor_minimo": 6.989829797644427,
-      "valor_maximo": 6.989829797644427,
-      "valor_medio": 6.989829797644427,
-      "valor_recente": 6.989829797644427,
-      "data_recente": "2026-04-11T12:07:46Z"
+      "valor_minimo": 6.989341254586755,
+      "valor_maximo": 6.989341254586755,
+      "valor_medio": 6.989341254586755,
+      "valor_recente": 6.989341254586755,
+      "data_recente": "2026-04-11T13:53:54Z"
+    },
+    {
+      "cnpj": "02850879000277",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO ALVES LTDA",
+      "nome_fantasia": "AUTO POSTO ALVES",
+      "telefone": "",
+      "nome_logradouro": "AV POMPILIO BRANDAO DE ALCANTARA",
+      "numero_imovel": "1192",
+      "bairro": "CENTRO",
+      "cep": "57545000",
+      "codigo_ibge": 2703304,
+      "municipio": "INHAPI",
+      "latitude": -9.216866,
+      "longitude": -37.7460976,
+      "valor_minimo": 6.989660472264916,
+      "valor_maximo": 6.989660472264916,
+      "valor_medio": 6.989660472264916,
+      "valor_recente": 6.989660472264916,
+      "data_recente": "2026-04-11T13:53:55Z"
     },
     {
       "cnpj": "13222947000199",
@@ -85,26 +85,6 @@
       "data_recente": "2026-04-11T10:59:26Z"
     },
     {
-      "cnpj": "02850879000277",
-      "tipo_combustivel": 3,
-      "razao_social": "AUTO POSTO ALVES LTDA",
-      "nome_fantasia": "AUTO POSTO ALVES",
-      "telefone": "",
-      "nome_logradouro": "AV POMPILIO BRANDAO DE ALCANTARA",
-      "numero_imovel": "1192",
-      "bairro": "CENTRO",
-      "cep": "57545000",
-      "codigo_ibge": 2703304,
-      "municipio": "INHAPI",
-      "latitude": -9.216866,
-      "longitude": -37.7460976,
-      "valor_minimo": 4.450261780104712,
-      "valor_maximo": 4.450261780104712,
-      "valor_medio": 4.450261780104712,
-      "valor_recente": 4.450261780104712,
-      "data_recente": "2026-04-11T02:13:18Z"
-    },
-    {
       "cnpj": "02850879000196",
       "tipo_combustivel": 3,
       "razao_social": "AUTO POSTO ALVES LTDA",
@@ -118,11 +98,31 @@
       "municipio": "INHAPI",
       "latitude": -9.2648351,
       "longitude": -37.7312552,
-      "valor_minimo": 5.489571899012074,
-      "valor_maximo": 5.489571899012074,
-      "valor_medio": 5.489571899012074,
-      "valor_recente": 5.489571899012074,
-      "data_recente": "2026-04-11T11:07:02Z"
+      "valor_minimo": 5.489699273067294,
+      "valor_maximo": 5.489699273067294,
+      "valor_medio": 5.489699273067294,
+      "valor_recente": 5.489699273067294,
+      "data_recente": "2026-04-11T13:14:30Z"
+    },
+    {
+      "cnpj": "02850879000277",
+      "tipo_combustivel": 3,
+      "razao_social": "AUTO POSTO ALVES LTDA",
+      "nome_fantasia": "AUTO POSTO ALVES",
+      "telefone": "",
+      "nome_logradouro": "AV POMPILIO BRANDAO DE ALCANTARA",
+      "numero_imovel": "1192",
+      "bairro": "CENTRO",
+      "cep": "57545000",
+      "codigo_ibge": 2703304,
+      "municipio": "INHAPI",
+      "latitude": -9.216866,
+      "longitude": -37.7460976,
+      "valor_minimo": 5.489980785067252,
+      "valor_maximo": 5.489980785067252,
+      "valor_medio": 5.489980785067252,
+      "valor_recente": 5.489980785067252,
+      "data_recente": "2026-04-11T12:28:42Z"
     },
     {
       "cnpj": "02850879000277",
@@ -138,11 +138,11 @@
       "municipio": "INHAPI",
       "latitude": -9.216866,
       "longitude": -37.7460976,
-      "valor_minimo": 7.249910924249982,
-      "valor_maximo": 7.249910924249982,
-      "valor_medio": 7.249910924249982,
-      "valor_recente": 7.249910924249982,
-      "data_recente": "2026-04-11T10:57:47Z"
+      "valor_minimo": 6.109722183207394,
+      "valor_maximo": 6.109722183207394,
+      "valor_medio": 6.109722183207394,
+      "valor_recente": 6.109722183207394,
+      "data_recente": "2026-04-11T13:34:22Z"
     },
     {
       "cnpj": "13222947000199",
