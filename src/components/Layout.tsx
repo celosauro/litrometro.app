@@ -8,9 +8,9 @@ export function Layout() {
   const isHomePage = location.pathname === '/';
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex flex-col">
+    <div className={`bg-gradient-to-br from-blue-50 to-indigo-100 flex flex-col ${isHomePage ? 'h-screen overflow-hidden' : 'min-h-screen'}`}>
       {/* Header */}
-      <header className="bg-white shadow-sm sticky top-0 z-50">
+      <header className="bg-white shadow-sm sticky top-0 z-50 flex-shrink-0">
         <div className="max-w-7xl mx-auto px-3 py-3 sm:px-4 sm:py-4">
           <div className="flex items-center justify-between">
             <Link to="/" className="flex items-center gap-2 sm:gap-3 hover:opacity-80 transition-opacity">
@@ -34,10 +34,12 @@ export function Layout() {
       </header>
 
       {/* Conteúdo da página */}
-      <Outlet />
+      <div className="flex-1 flex flex-col overflow-hidden min-h-0">
+        <Outlet />
+      </div>
 
-      {/* Footer */}
-      <Footer />
+      {/* Footer - oculto na home para dar espaço ao mapa */}
+      {!isHomePage && <Footer />}
 
       {/* Cookie Banner */}
       <CookieBanner />

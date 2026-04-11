@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useMemo, useCallback, useRef, useEffect } from 'react';
 import {
   Map,
   Marker,
@@ -7,6 +7,7 @@ import {
   GeolocateControl,
   ScaleControl,
 } from 'react-map-gl/maplibre';
+import type { MapRef } from 'react-map-gl/maplibre';
 
 import PinPreco from './PinPreco';
 import type { PrecoCombustivelResumo, TipoCombustivel } from '../types';
@@ -31,14 +32,82 @@ interface MapaEstabelecimentosProps {
   dados: DadosComDistancia[];
   localizacao?: { latitude: number; longitude: number } | null;
   tipoCombustivel: TipoCombustivel;
+  estabelecimentoSelecionado?: DadosComDistancia | null;
+  onSelecionarEstabelecimento?: (item: DadosComDistancia) => void;
+  municipioSelecionado?: string;
+  className?: string;
 }
 
 export function MapaEstabelecimentos({ 
   dados, 
   localizacao, 
-  tipoCombustivel 
+  tipoCombustivel,
+  estabelecimentoSelecionado,
+  onSelecionarEstabelecimento,
+  municipioSelecionado,
+  className = '',
 }: MapaEstabelecimentosProps) {
+  const mapRef = useRef<MapRef>(null);
   const [popupInfo, setPopupInfo] = useState<DadosComDistancia | null>(null);
+  const [mapCarregado, setMapCarregado] = useState(false);
+  const ultimoMunicipioRef = useRef<string | undefined>(undefined);
+
+  // Callback quando o mapa carrega
+  const handleMapLoad = useCallback(() => {
+    setMapCarregado(true);
+  }, []);
+
+  // Voa para o estabelecimento selecionado
+  useEffect(() => {
+    if (!mapCarregado) return;
+    if (estabelecimentoSelecionado && estabelecimentoSelecionado.latitude !== 0 && estabelecimentoSelecionado.longitude !== 0) {
+      mapRef.current?.flyTo({
+        center: [estabelecimentoSelecionado.longitude, estabelecimentoSelecionado.latitude],
+        zoom: 15,
+        duration: 1000,
+        essential: true,
+      });
+      setPopupInfo(estabelecimentoSelecionado);
+    }
+  }, [estabelecimentoSelecionado, mapCarregado]);
+
+  // Voa para o município selecionado quando muda
+  useEffect(() => {
+    if (!mapCarregado) return;
+    
+    // Só executa se o município realmente mudou
+    if (municipioSelecionado === ultimoMunicipioRef.current) return;
+    
+    ultimoMunicipioRef.current = municipioSelecionado;
+    
+    if (!municipioSelecionado || !dados.length) return;
+    
+    // Usa os dados já filtrados (todos pertencem ao município selecionado)
+    const estabelecimentosValidos = dados.filter(
+      item => item.latitude !== 0 && item.longitude !== 0
+    );
+    
+    if (estabelecimentosValidos.length === 0) return;
+    
+    // Calcula o centro (média das coordenadas)
+    const somaLat = estabelecimentosValidos.reduce((acc, item) => acc + item.latitude, 0);
+    const somaLng = estabelecimentosValidos.reduce((acc, item) => acc + item.longitude, 0);
+    const centroLat = somaLat / estabelecimentosValidos.length;
+    const centroLng = somaLng / estabelecimentosValidos.length;
+    
+    const map = mapRef.current;
+    if (map) {
+      map.flyTo({
+        center: [centroLng, centroLat],
+        zoom: 12,
+        duration: 1000,
+        essential: true,
+      });
+    }
+    
+    // Fecha popup ao mudar município
+    setPopupInfo(null);
+  }, [municipioSelecionado, dados, mapCarregado]);
 
   // Calcula o centro inicial do mapa
   const viewInicial = useMemo(() => {
@@ -91,14 +160,25 @@ export function MapaEstabelecimentos({
   const handleMarkerClick = useCallback((e: any, item: DadosComDistancia) => {
     e.originalEvent.stopPropagation();
     setPopupInfo(item);
-  }, []);
+    onSelecionarEstabelecimento?.(item);
+  }, [onSelecionarEstabelecimento]);
+
+  // Gera uma chave única baseada nos dados para forçar remount quando dados mudam significativamente
+  const mapKey = useMemo(() => {
+    if (!dados.length) return 'empty';
+    // Usa o primeiro CNPJ + quantidade como chave
+    return `${dados[0]?.cnpj}-${dados.length}`;
+  }, [dados]);
 
   return (
-    <div className="w-full h-[500px] sm:h-[calc(100vh-280px)] min-h-[400px] rounded-lg overflow-hidden shadow-lg">
+    <div className={`w-full h-full min-h-[400px] rounded-lg overflow-hidden shadow-lg ${className}`}>
       <Map
+        key={mapKey}
+        ref={mapRef}
         initialViewState={viewInicial}
         mapStyle={MAP_STYLE}
         style={{ width: '100%', height: '100%' }}
+        onLoad={handleMapLoad}
       >
         {/* Controles */}
         <GeolocateControl position="top-left" />
@@ -117,7 +197,7 @@ export function MapaEstabelecimentos({
             <PinPreco 
               valor={item.valor_recente} 
               tipoCombustivel={item.tipo_combustivel}
-              selecionado={popupInfo?.cnpj === item.cnpj}
+              selecionado={estabelecimentoSelecionado?.cnpj === item.cnpj || popupInfo?.cnpj === item.cnpj}
             />
           </Marker>
         ))}

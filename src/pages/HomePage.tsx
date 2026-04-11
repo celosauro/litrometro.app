@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect } from 'react';
-import { GasPump, MagnifyingGlass, ArrowsClockwise, Crosshair, List, MapTrifold } from '@phosphor-icons/react';
+import { GasPump, MagnifyingGlass, ArrowsClockwise, Crosshair } from '@phosphor-icons/react';
 import { usePrecosCombustiveis } from '../hooks/usePrecosCombustiveis';
 import { useGeolocalizacao } from '../hooks/useGeolocalizacao';
 import { CardCombustivel } from '../components/FuelCard';
@@ -9,8 +9,6 @@ import { SeletorOrdenacao, type OpcaoOrdenacao } from '../components/SortSelecto
 import { MapaEstabelecimentos } from '../components/MapaEstabelecimentos';
 import { calcularDistanciaKm } from '../utils/distancia';
 import type { TipoCombustivel, PrecoCombustivelResumo } from '../types';
-
-type VisualizacaoAtual = 'lista' | 'mapa';
 
 // Código IBGE de Maceió (padrão quando não há localização)
 const CODIGO_MACEIO = '2704302';
@@ -24,8 +22,8 @@ export default function HomePage() {
   const [municipioSelecionado, setMunicipioSelecionado] = useState<string>(CODIGO_MACEIO);
   const [ordenarPor, setOrdenarPor] = useState<OpcaoOrdenacao>('preco_asc');
   const [termoBusca, setTermoBusca] = useState('');
-  const [visualizacao, setVisualizacao] = useState<VisualizacaoAtual>('lista');
   const [mostrarStatusLocalizacao, setMostrarStatusLocalizacao] = useState(true);
+  const [estabelecimentoSelecionado, setEstabelecimentoSelecionado] = useState<DadosComDistancia | null>(null);
 
   const { dados, carregando, erro, recarregar } = usePrecosCombustiveis({
     tipoCombustivel: tipoCombustivelSelecionado,
@@ -60,7 +58,6 @@ export default function HomePage() {
   // Atualiza município baseado na localização do usuário
   useEffect(() => {
     if (localizacao && dados && dados.length > 0) {
-      // Encontra o estabelecimento mais próximo para determinar o município
       let menorDistancia = Infinity;
       let municipioMaisProximo = CODIGO_MACEIO;
 
@@ -82,6 +79,11 @@ export default function HomePage() {
       setMunicipioSelecionado(municipioMaisProximo);
     }
   }, [localizacao, dados]);
+
+  // Limpa seleção quando filtros mudam
+  useEffect(() => {
+    setEstabelecimentoSelecionado(null);
+  }, [tipoCombustivelSelecionado, municipioSelecionado, ordenarPor, termoBusca]);
 
   // Calcula distância para cada estabelecimento
   const dadosComDistancia: DadosComDistancia[] | undefined = useMemo(() => {
@@ -123,7 +125,6 @@ export default function HomePage() {
         case 'data':
           return new Date(b.data_recente).getTime() - new Date(a.data_recente).getTime();
         case 'distancia':
-          // Estabelecimentos sem distância ficam no final
           const distA = a.distancia ?? Infinity;
           const distB = b.distancia ?? Infinity;
           return distA - distB;
@@ -132,11 +133,17 @@ export default function HomePage() {
       }
     });
 
+  const handleSelecionarEstabelecimento = (item: DadosComDistancia) => {
+    setEstabelecimentoSelecionado(prev => 
+      prev?.cnpj === item.cnpj ? null : item
+    );
+  };
+
   return (
-    <div className="flex flex-col flex-1 w-full">
+    <div className="flex flex-col flex-1 w-full h-full overflow-hidden">
       {/* Filtros */}
-      <div className="sticky top-[56px] sm:top-[72px] bg-white/90 backdrop-blur-md shadow-sm z-40">
-        <div className="max-w-7xl mx-auto px-3 py-3 sm:px-4 sm:py-4">
+      <div className="sticky top-0 bg-white/90 backdrop-blur-md shadow-sm z-40 flex-shrink-0">
+        <div className="max-w-full mx-auto px-3 py-3 sm:px-4 sm:py-4">
           {/* Seletor de combustível */}
           <SeletorTipoCombustivel
             selecionado={tipoCombustivelSelecionado}
@@ -145,7 +152,7 @@ export default function HomePage() {
 
           {/* Filtros adicionais */}
           <div className="mt-3 sm:mt-4 space-y-2 sm:space-y-0 sm:flex sm:flex-wrap sm:gap-3">
-            {/* Busca - full width em mobile */}
+            {/* Busca */}
             <div className="relative w-full sm:flex-1 sm:min-w-[200px]">
               <MagnifyingGlass
                 size={18}
@@ -160,10 +167,10 @@ export default function HomePage() {
               />
             </div>
 
-            {/* Linha com selects e botão */}
-            <div className="flex gap-2 sm:gap-3">
+            {/* Linha com selects e botões */}
+            <div className="flex gap-2 sm:gap-3 flex-wrap">
               {/* Município */}
-              <div className="flex-1 sm:flex-none">
+              <div className="flex-1 sm:flex-none min-w-[120px]">
                 <SeletorMunicipio
                   selecionado={municipioSelecionado}
                   aoMudar={setMunicipioSelecionado}
@@ -171,7 +178,7 @@ export default function HomePage() {
               </div>
 
               {/* Ordenação */}
-              <div className="flex-1 sm:flex-none">
+              <div className="flex-1 sm:flex-none min-w-[140px]">
                 <SeletorOrdenacao 
                   selecionado={ordenarPor} 
                   aoMudar={setOrdenarPor}
@@ -208,66 +215,38 @@ export default function HomePage() {
                 />
                 <span className="hidden sm:inline">Atualizar</span>
               </button>
-
-              {/* Toggle Lista/Mapa */}
-              <div className="flex rounded-lg overflow-hidden border border-gray-300">
-                <button
-                  onClick={() => setVisualizacao('lista')}
-                  className={`flex items-center justify-center px-3 py-2 transition-colors ${
-                    visualizacao === 'lista'
-                      ? 'bg-blue-600 text-white'
-                      : 'bg-white text-gray-600 hover:bg-gray-100'
-                  }`}
-                  aria-label="Ver lista"
-                  title="Ver lista"
-                >
-                  <List size={18} className="sm:w-5 sm:h-5" />
-                </button>
-                <button
-                  onClick={() => setVisualizacao('mapa')}
-                  className={`flex items-center justify-center px-3 py-2 transition-colors ${
-                    visualizacao === 'mapa'
-                      ? 'bg-blue-600 text-white'
-                      : 'bg-white text-gray-600 hover:bg-gray-100'
-                  }`}
-                  aria-label="Ver no mapa"
-                  title="Ver no mapa"
-                >
-                  <MapTrifold size={18} className="sm:w-5 sm:h-5" />
-                </button>
-              </div>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Conteúdo principal */}
-      <main className="w-full max-w-7xl mx-auto px-3 py-4 sm:px-4 sm:py-6 flex-1">
-        {/* Estado de erro */}
-        {erro && (
-          <div className="bg-red-50 border border-red-200 rounded-lg p-3 sm:p-4 mb-4 sm:mb-6">
-            <p className="text-red-700 text-sm sm:text-base">{erro}</p>
+      {/* Conteúdo principal - Split View */}
+      <main className="flex-1 flex flex-col lg:flex-row w-full overflow-hidden min-h-0">
+        {/* Alertas */}
+        {(erro || (erroLocalizacao && mostrarStatusLocalizacao) || (localizacao && mostrarStatusLocalizacao)) && (
+          <div className="px-3 py-2 sm:px-4 space-y-2 lg:hidden">
+            {erro && (
+              <div className="bg-red-50 border border-red-200 rounded-lg p-3">
+                <p className="text-red-700 text-sm">{erro}</p>
+              </div>
+            )}
+            {erroLocalizacao && mostrarStatusLocalizacao && (
+              <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3">
+                <p className="text-yellow-700 text-sm">📍 {erroLocalizacao}</p>
+              </div>
+            )}
+            {localizacao && mostrarStatusLocalizacao && (
+              <div className="bg-green-50 border border-green-200 rounded-lg p-2 flex items-center gap-2 text-sm text-green-700">
+                <Crosshair size={16} />
+                <span>Localização obtida</span>
+              </div>
+            )}
           </div>
         )}
 
-        {/* Erro de localização */}
-        {erroLocalizacao && mostrarStatusLocalizacao && (
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 sm:p-4 mb-4 sm:mb-6">
-            <p className="text-yellow-700 text-sm sm:text-base">📍 {erroLocalizacao}</p>
-          </div>
-        )}
-
-        {/* Indicador de localização obtida */}
-        {localizacao && mostrarStatusLocalizacao && (
-          <div className="bg-green-50 border border-green-200 rounded-lg p-2 sm:p-3 mb-4 sm:mb-6 flex items-center gap-2 text-sm text-green-700">
-            <Crosshair size={16} />
-            <span>Localização obtida - ordenando por proximidade disponível</span>
-          </div>
-        )}
-
-        {/* Estado de loading - apenas carregamento inicial (sem dados) */}
+        {/* Loading state */}
         {(carregando || carregandoLocalizacao) && !dadosFiltrados && (
-          <div className="flex flex-col items-center justify-center py-12">
+          <div className="flex-1 flex flex-col items-center justify-center py-12">
             <div className="animate-spin rounded-full h-10 w-10 sm:h-12 sm:w-12 border-4 border-blue-600 border-t-transparent" />
             {carregandoLocalizacao && (
               <p className="mt-4 text-sm text-gray-500">Obtendo sua localização...</p>
@@ -275,44 +254,60 @@ export default function HomePage() {
           </div>
         )}
 
-        {/* Lista de postos */}
-        {dadosFiltrados && visualizacao === 'lista' && (
-          <>
-            <div className="flex items-center justify-between mb-3 sm:mb-4">
-              <p className="text-sm sm:text-base text-gray-600">
-                {dadosFiltrados.length} posto{dadosFiltrados.length !== 1 ? 's' : ''} encontrado{dadosFiltrados.length !== 1 ? 's' : ''}
-              </p>
-            </div>
-
-            {dadosFiltrados.length === 0 ? (
-              <div className="text-center py-12">
-                <GasPump size={48} className="mx-auto text-gray-300 mb-4" />
-                <p className="text-gray-500">Nenhum posto encontrado</p>
-                <p className="text-sm text-gray-400 mt-1">
-                  Tente ajustar os filtros ou selecionar outro município
+        {/* Split View: Lista + Mapa */}
+        {dadosFiltrados && (
+          <div className="flex-1 flex flex-col lg:flex-row overflow-hidden min-h-0">
+            {/* Sidebar - Lista de postos */}
+            <aside className="flex-shrink-0 lg:w-[400px] xl:w-[450px] border-r border-gray-200 bg-white/50 flex flex-col overflow-hidden max-h-[40vh] lg:max-h-none">
+              {/* Header da lista */}
+              <div className="px-3 py-2 sm:px-4 sm:py-3 border-b border-gray-200 bg-white flex-shrink-0">
+                <p className="text-sm sm:text-base text-gray-600 font-medium">
+                  {dadosFiltrados.length} posto{dadosFiltrados.length !== 1 ? 's' : ''} encontrado{dadosFiltrados.length !== 1 ? 's' : ''}
                 </p>
+                {estabelecimentoSelecionado && (
+                  <p className="text-xs text-blue-600 mt-1">
+                    Clique no mapa ou em outro posto para mudar a seleção
+                  </p>
+                )}
               </div>
-            ) : (
-              <div className="grid gap-3 sm:gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-                {dadosFiltrados.map((item) => (
-                  <CardCombustivel 
-                    key={`${item.cnpj}-${item.tipo_combustivel}`} 
-                    dados={item}
-                    distancia={item.distancia}
-                  />
-                ))}
-              </div>
-            )}
-          </>
-        )}
 
-        {/* Visualização em mapa */}
-        {dadosFiltrados && visualizacao === 'mapa' && (
-          <MapaEstabelecimentos
-            dados={dadosFiltrados}
-            localizacao={localizacao}
-            tipoCombustivel={tipoCombustivelSelecionado}
-          />
+              {/* Lista scrollável */}
+              <div className="flex-1 overflow-y-auto px-3 py-3 sm:px-4 sm:py-4 space-y-3">
+                {dadosFiltrados.length === 0 ? (
+                  <div className="text-center py-12">
+                    <GasPump size={48} className="mx-auto text-gray-300 mb-4" />
+                    <p className="text-gray-500">Nenhum posto encontrado</p>
+                    <p className="text-sm text-gray-400 mt-1">
+                      Tente ajustar os filtros
+                    </p>
+                  </div>
+                ) : (
+                  dadosFiltrados.map((item) => (
+                    <CardCombustivel 
+                      key={`${item.cnpj}-${item.tipo_combustivel}`} 
+                      dados={item}
+                      distancia={item.distancia}
+                      isSelected={estabelecimentoSelecionado?.cnpj === item.cnpj}
+                      onClick={() => handleSelecionarEstabelecimento(item)}
+                    />
+                  ))
+                )}
+              </div>
+            </aside>
+
+            {/* Mapa */}
+            <div className="flex-1 min-h-[300px] lg:min-h-0 relative">
+              <MapaEstabelecimentos
+                dados={dadosFiltrados}
+                localizacao={localizacao}
+                tipoCombustivel={tipoCombustivelSelecionado}
+                estabelecimentoSelecionado={estabelecimentoSelecionado}
+                onSelecionarEstabelecimento={handleSelecionarEstabelecimento}
+                municipioSelecionado={municipioSelecionado}
+                className="absolute inset-0"
+              />
+            </div>
+          </div>
         )}
       </main>
     </div>

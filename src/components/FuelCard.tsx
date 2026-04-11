@@ -6,9 +6,11 @@ import { formatarDistancia } from '../utils/distancia';
 interface CardCombustivelProps {
   dados: PrecoCombustivelResumo;
   distancia?: number;
+  isSelected?: boolean;
+  onClick?: () => void;
 }
 
-export function CardCombustivel({ dados, distancia }: CardCombustivelProps) {
+export function CardCombustivel({ dados, distancia, isSelected, onClick }: CardCombustivelProps) {
   const tipoCombustivel = dados.tipo_combustivel as TipoCombustivel;
   const nomeCombustivel = TIPOS_COMBUSTIVEL[tipoCombustivel];
   const corCombustivel = CORES_COMBUSTIVEL[tipoCombustivel];
@@ -43,7 +45,17 @@ export function CardCombustivel({ dados, distancia }: CardCombustivelProps) {
   const nomeExibicao = dados.nome_fantasia || dados.razao_social;
 
   return (
-    <div className="fuel-card">
+    <div 
+      className={`fuel-card cursor-pointer transition-all border-2 ${
+        isSelected 
+          ? 'border-blue-500 shadow-lg scale-[1.02] bg-blue-50/50' 
+          : 'border-transparent hover:shadow-md hover:scale-[1.01]'
+      }`}
+      onClick={onClick}
+      role="button"
+      tabIndex={0}
+      onKeyDown={(e) => e.key === 'Enter' && onClick?.()}
+    >
       {/* Header com badge */}
       <div className="px-3 pt-3 pb-1.5 sm:px-4 sm:pt-4 sm:pb-2 flex items-start justify-between gap-2">
         <div className="flex-1 min-w-0">
