@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2702900",
   "municipio": "Girau do Ponciano",
-  "atualizadoEm": "2026-04-11T17:38:27.155Z",
+  "atualizadoEm": "2026-04-11T18:42:44.224Z",
   "totalEstabelecimentos": 16,
   "combustiveis": {
     "1": {
       "totalPostos": 5,
-      "valorMinimo": 6.896551724137931,
-      "valorMaximo": 7.99,
-      "valorMedio": 7.1532798853833555
+      "valorMinimo": 6.899724011039559,
+      "valorMaximo": 7.990019960079841,
+      "valorMedio": 7.153950074430516
     },
     "2": {
       "totalPostos": 1,
@@ -18,44 +18,24 @@
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 5.089058524173028,
+      "valorMinimo": 5.0899219545300305,
       "valorMaximo": 5.489945155393053,
-      "valorMedio": 5.223032785109017
+      "valorMedio": 5.223320595228017
     },
     "4": {
       "totalPostos": 2,
-      "valorMinimo": 8.199708454810496,
-      "valorMaximo": 8.19998407770082,
-      "valorMedio": 8.199846266255658
+      "valorMinimo": 8.19998407770082,
+      "valorMaximo": 8.200082000820009,
+      "valorMedio": 8.200033039260415
     },
     "5": {
       "totalPostos": 5,
       "valorMinimo": 7.189768162920161,
-      "valorMaximo": 8.19,
-      "valorMedio": 7.495757900261514
+      "valorMaximo": 7.599638499774063,
+      "valorMedio": 7.295895676115234
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "33296262000102",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO J N C DOS SANTOS & CIA LTDA",
-      "nome_fantasia": "AUTO POSTO 3 M",
-      "telefone": "(82) 99827677",
-      "nome_logradouro": "Rua DR.JOSE BENTO",
-      "numero_imovel": "30",
-      "bairro": "NOSSA SENHORA DA CONCEICAO",
-      "cep": "57360000",
-      "codigo_ibge": 2702900,
-      "municipio": "GIRAU DO PONCIANO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.896551724137931,
-      "valor_maximo": 6.896551724137931,
-      "valor_medio": 6.896551724137931,
-      "valor_recente": 6.896551724137931,
-      "data_recente": "2026-04-11T13:56:05Z"
-    },
     {
       "cnpj": "09657072000180",
       "tipo_combustivel": 1,
@@ -70,11 +50,31 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.882258799999999,
       "longitude": -36.8186161,
-      "valor_minimo": 6.899882701994066,
-      "valor_maximo": 6.899882701994066,
-      "valor_medio": 6.899882701994066,
-      "valor_recente": 6.899882701994066,
-      "data_recente": "2026-04-11T13:46:36Z"
+      "valor_minimo": 6.899724011039559,
+      "valor_maximo": 6.899724011039559,
+      "valor_medio": 6.899724011039559,
+      "valor_recente": 6.899724011039559,
+      "data_recente": "2026-04-11T15:02:01Z"
+    },
+    {
+      "cnpj": "33296262000102",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO J N C DOS SANTOS & CIA LTDA",
+      "nome_fantasia": "AUTO POSTO 3 M",
+      "telefone": "(82) 99827677",
+      "nome_logradouro": "Rua DR.JOSE BENTO",
+      "numero_imovel": "30",
+      "bairro": "NOSSA SENHORA DA CONCEICAO",
+      "cep": "57360000",
+      "codigo_ibge": 2702900,
+      "municipio": "GIRAU DO PONCIANO",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.900041400248401,
+      "valor_maximo": 6.900041400248401,
+      "valor_medio": 6.900041400248401,
+      "valor_recente": 6.900041400248401,
+      "data_recente": "2026-04-11T15:24:48Z"
     },
     {
       "cnpj": "08422115000348",
@@ -130,11 +130,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.8855612,
       "longitude": -36.8209998,
-      "valor_minimo": 7.99,
-      "valor_maximo": 7.99,
-      "valor_medio": 7.99,
-      "valor_recente": 7.99,
-      "data_recente": "2026-04-11T13:34:31Z"
+      "valor_minimo": 7.990019960079841,
+      "valor_maximo": 7.990019960079841,
+      "valor_medio": 7.990019960079841,
+      "valor_recente": 7.990019960079841,
+      "data_recente": "2026-04-11T15:08:31Z"
     },
     {
       "cnpj": "33296262000102",
@@ -154,7 +154,7 @@
       "valor_maximo": 7.000350017500875,
       "valor_medio": 7.000350017500875,
       "valor_recente": 7.000350017500875,
-      "data_recente": "2026-04-11T13:56:05Z"
+      "data_recente": "2026-04-11T14:53:27Z"
     },
     {
       "cnpj": "09657072000180",
@@ -170,11 +170,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.882258799999999,
       "longitude": -36.8186161,
-      "valor_minimo": 5.089058524173028,
-      "valor_maximo": 5.089058524173028,
-      "valor_medio": 5.089058524173028,
-      "valor_recente": 5.089058524173028,
-      "data_recente": "2026-04-11T00:00:24Z"
+      "valor_minimo": 5.0899219545300305,
+      "valor_maximo": 5.0899219545300305,
+      "valor_medio": 5.0899219545300305,
+      "valor_recente": 5.0899219545300305,
+      "data_recente": "2026-04-11T14:49:49Z"
     },
     {
       "cnpj": "33296262000102",
@@ -194,7 +194,7 @@
       "valor_maximo": 5.0900946757609695,
       "valor_medio": 5.0900946757609695,
       "valor_recente": 5.0900946757609695,
-      "data_recente": "2026-04-11T13:56:05Z"
+      "data_recente": "2026-04-11T14:35:51Z"
     },
     {
       "cnpj": "08422115000186",
@@ -217,26 +217,6 @@
       "data_recente": "2026-04-11T08:27:24Z"
     },
     {
-      "cnpj": "09657072000180",
-      "tipo_combustivel": 4,
-      "razao_social": "AUTO POSTO KILTER LTDA - ME",
-      "nome_fantasia": "AUTO POSTO KILTER LTDA",
-      "telefone": "(82) 35221355",
-      "nome_logradouro": "ROD AL 115",
-      "numero_imovel": "800",
-      "bairro": "DISTRITO INDUSTRIAL",
-      "cep": "57360000",
-      "codigo_ibge": 2702900,
-      "municipio": "GIRAU DO PONCIANO",
-      "latitude": -9.882258799999999,
-      "longitude": -36.8186161,
-      "valor_minimo": 8.199708454810496,
-      "valor_maximo": 8.199708454810496,
-      "valor_medio": 8.199708454810496,
-      "valor_recente": 8.199708454810496,
-      "data_recente": "2026-04-10T23:31:53Z"
-    },
-    {
       "cnpj": "33296262000102",
       "tipo_combustivel": 4,
       "razao_social": "AUTO POSTO J N C DOS SANTOS & CIA LTDA",
@@ -255,6 +235,26 @@
       "valor_medio": 8.19998407770082,
       "valor_recente": 8.19998407770082,
       "data_recente": "2026-04-11T12:18:13Z"
+    },
+    {
+      "cnpj": "09657072000180",
+      "tipo_combustivel": 4,
+      "razao_social": "AUTO POSTO KILTER LTDA - ME",
+      "nome_fantasia": "AUTO POSTO KILTER LTDA",
+      "telefone": "(82) 35221355",
+      "nome_logradouro": "ROD AL 115",
+      "numero_imovel": "800",
+      "bairro": "DISTRITO INDUSTRIAL",
+      "cep": "57360000",
+      "codigo_ibge": 2702900,
+      "municipio": "GIRAU DO PONCIANO",
+      "latitude": -9.882258799999999,
+      "longitude": -36.8186161,
+      "valor_minimo": 8.200082000820009,
+      "valor_maximo": 8.200082000820009,
+      "valor_medio": 8.200082000820009,
+      "valor_recente": 8.200082000820009,
+      "data_recente": "2026-04-11T14:32:04Z"
     },
     {
       "cnpj": "08422115000348",
@@ -277,6 +277,46 @@
       "data_recente": "2026-04-10T22:52:41Z"
     },
     {
+      "cnpj": "08422115000186",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTOPEL-AUTO POSTO PROGRESSO LTDA",
+      "nome_fantasia": "AUTOPEL",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 115",
+      "numero_imovel": "SN",
+      "bairro": "PROGRESSO",
+      "cep": "57360000",
+      "codigo_ibge": 2702900,
+      "municipio": "GIRAU DO PONCIANO",
+      "latitude": -9.8855612,
+      "longitude": -36.8209998,
+      "valor_minimo": 7.190106413574921,
+      "valor_maximo": 7.190106413574921,
+      "valor_medio": 7.190106413574921,
+      "valor_recente": 7.190106413574921,
+      "data_recente": "2026-04-11T14:21:59Z"
+    },
+    {
+      "cnpj": "09657072000180",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO KILTER LTDA - ME",
+      "nome_fantasia": "AUTO POSTO KILTER LTDA",
+      "telefone": "(82) 35221355",
+      "nome_logradouro": "ROD AL 115",
+      "numero_imovel": "800",
+      "bairro": "DISTRITO INDUSTRIAL",
+      "cep": "57360000",
+      "codigo_ibge": 2702900,
+      "municipio": "GIRAU DO PONCIANO",
+      "latitude": -9.882258799999999,
+      "longitude": -36.8186161,
+      "valor_minimo": 7.249932353206458,
+      "valor_maximo": 7.249932353206458,
+      "valor_medio": 7.249932353206458,
+      "valor_recente": 7.249932353206458,
+      "data_recente": "2026-04-11T14:53:33Z"
+    },
+    {
       "cnpj": "33296262000102",
       "tipo_combustivel": 5,
       "razao_social": "AUTO POSTO J N C DOS SANTOS & CIA LTDA",
@@ -297,26 +337,6 @@
       "data_recente": "2026-04-11T13:18:43Z"
     },
     {
-      "cnpj": "09657072000180",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO KILTER LTDA - ME",
-      "nome_fantasia": "AUTO POSTO KILTER LTDA",
-      "telefone": "(82) 35221355",
-      "nome_logradouro": "ROD AL 115",
-      "numero_imovel": "800",
-      "bairro": "DISTRITO INDUSTRIAL",
-      "cep": "57360000",
-      "codigo_ibge": 2702900,
-      "municipio": "GIRAU DO PONCIANO",
-      "latitude": -9.882258799999999,
-      "longitude": -36.8186161,
-      "valor_minimo": 7.2502041927579635,
-      "valor_maximo": 7.2502041927579635,
-      "valor_medio": 7.2502041927579635,
-      "valor_recente": 7.2502041927579635,
-      "data_recente": "2026-04-11T09:39:24Z"
-    },
-    {
       "cnpj": "17830342000131",
       "tipo_combustivel": 5,
       "razao_social": "JOSE BARBOSA DE CARVALHO & CIA LTDA",
@@ -330,31 +350,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.882830799999999,
       "longitude": -36.8305595,
-      "valor_minimo": 7.598784194528875,
-      "valor_maximo": 7.598784194528875,
-      "valor_medio": 7.598784194528875,
-      "valor_recente": 7.598784194528875,
-      "data_recente": "2026-04-11T13:14:52Z"
-    },
-    {
-      "cnpj": "08422115000186",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTOPEL-AUTO POSTO PROGRESSO LTDA",
-      "nome_fantasia": "AUTOPEL",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 115",
-      "numero_imovel": "SN",
-      "bairro": "PROGRESSO",
-      "cep": "57360000",
-      "codigo_ibge": 2702900,
-      "municipio": "GIRAU DO PONCIANO",
-      "latitude": -9.8855612,
-      "longitude": -36.8209998,
-      "valor_minimo": 8.19,
-      "valor_maximo": 8.19,
-      "valor_medio": 8.19,
-      "valor_recente": 8.19,
-      "data_recente": "2026-04-11T13:57:34Z"
+      "valor_minimo": 7.599638499774063,
+      "valor_maximo": 7.599638499774063,
+      "valor_medio": 7.599638499774063,
+      "valor_recente": 7.599638499774063,
+      "data_recente": "2026-04-11T15:22:23Z"
     }
   ]
 }

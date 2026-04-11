@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2702504",
   "municipio": "Dois Riachos",
-  "atualizadoEm": "2026-04-11T17:35:56.624Z",
+  "atualizadoEm": "2026-04-11T18:40:54.078Z",
   "totalEstabelecimentos": 7,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
       "valorMinimo": 6.8,
-      "valorMaximo": 6.890034364261169,
-      "valorMedio": 6.845017182130585
+      "valorMaximo": 6.889424733034792,
+      "valorMedio": 6.8447123665173955
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.060051578042491,
-      "valorMaximo": 7.060051578042491,
-      "valorMedio": 7.060051578042491
+      "valorMinimo": 6.8,
+      "valorMaximo": 6.8,
+      "valorMedio": 6.8
     },
     "3": {
       "totalPostos": 2,
       "valorMinimo": 5.30035335689046,
-      "valorMaximo": 5.598997493734336,
-      "valorMedio": 5.449675425312398
+      "valorMaximo": 5.600746268656716,
+      "valorMedio": 5.450549812773588
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.5,
-      "valorMaximo": 7.50000878583302,
-      "valorMedio": 7.5000043929165106
+      "valorMinimo": 7.497674418604651,
+      "valorMaximo": 7.5,
+      "valorMedio": 7.498837209302326
     }
   },
   "estabelecimentos": [
@@ -64,11 +64,11 @@
       "municipio": "DOIS RIACHOS",
       "latitude": -9.389135399999999,
       "longitude": -37.0896568,
-      "valor_minimo": 6.890034364261169,
-      "valor_maximo": 6.890034364261169,
-      "valor_medio": 6.890034364261169,
-      "valor_recente": 6.890034364261169,
-      "data_recente": "2026-04-11T13:49:48Z"
+      "valor_minimo": 6.889424733034792,
+      "valor_maximo": 6.889424733034792,
+      "valor_medio": 6.889424733034792,
+      "valor_recente": 6.889424733034792,
+      "data_recente": "2026-04-11T15:16:43Z"
     },
     {
       "cnpj": "10230405000170",
@@ -84,11 +84,11 @@
       "municipio": "DOIS RIACHOS",
       "latitude": -9.3892335,
       "longitude": -37.09705090000001,
-      "valor_minimo": 7.060051578042491,
-      "valor_maximo": 7.060051578042491,
-      "valor_medio": 7.060051578042491,
-      "valor_recente": 7.060051578042491,
-      "data_recente": "2026-04-11T13:06:45Z"
+      "valor_minimo": 6.8,
+      "valor_maximo": 6.8,
+      "valor_medio": 6.8,
+      "valor_recente": 6.8,
+      "data_recente": "2026-04-11T14:25:51Z"
     },
     {
       "cnpj": "10230405000170",
@@ -124,11 +124,31 @@
       "municipio": "DOIS RIACHOS",
       "latitude": -9.389135399999999,
       "longitude": -37.0896568,
-      "valor_minimo": 5.598997493734336,
-      "valor_maximo": 5.598997493734336,
-      "valor_medio": 5.598997493734336,
-      "valor_recente": 5.598997493734336,
-      "data_recente": "2026-04-11T00:43:50Z"
+      "valor_minimo": 5.600746268656716,
+      "valor_maximo": 5.600746268656716,
+      "valor_medio": 5.600746268656716,
+      "valor_recente": 5.600746268656716,
+      "data_recente": "2026-04-11T15:05:14Z"
+    },
+    {
+      "cnpj": "09418619000195",
+      "tipo_combustivel": 5,
+      "razao_social": "GIVALDO OLIVEIRA DA ROCHA - ME",
+      "nome_fantasia": "POSTO NAYARA",
+      "telefone": "(82) 36213443",
+      "nome_logradouro": "AV FREI DAMIAO DE BOZZANO",
+      "numero_imovel": "317",
+      "bairro": "CENTRO",
+      "cep": "57560000",
+      "codigo_ibge": 2702504,
+      "municipio": "DOIS RIACHOS",
+      "latitude": -9.389135399999999,
+      "longitude": -37.0896568,
+      "valor_minimo": 7.497674418604651,
+      "valor_maximo": 7.497674418604651,
+      "valor_medio": 7.497674418604651,
+      "valor_recente": 7.497674418604651,
+      "data_recente": "2026-04-11T14:53:19Z"
     },
     {
       "cnpj": "10230405000170",
@@ -148,27 +168,7 @@
       "valor_maximo": 7.5,
       "valor_medio": 7.5,
       "valor_recente": 7.5,
-      "data_recente": "2026-04-11T13:58:04Z"
-    },
-    {
-      "cnpj": "09418619000195",
-      "tipo_combustivel": 5,
-      "razao_social": "GIVALDO OLIVEIRA DA ROCHA - ME",
-      "nome_fantasia": "POSTO NAYARA",
-      "telefone": "(82) 36213443",
-      "nome_logradouro": "AV FREI DAMIAO DE BOZZANO",
-      "numero_imovel": "317",
-      "bairro": "CENTRO",
-      "cep": "57560000",
-      "codigo_ibge": 2702504,
-      "municipio": "DOIS RIACHOS",
-      "latitude": -9.389135399999999,
-      "longitude": -37.0896568,
-      "valor_minimo": 7.50000878583302,
-      "valor_maximo": 7.50000878583302,
-      "valor_medio": 7.50000878583302,
-      "valor_recente": 7.50000878583302,
-      "data_recente": "2026-04-10T20:52:43Z"
+      "data_recente": "2026-04-11T14:15:39Z"
     }
   ]
 }

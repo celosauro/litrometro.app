@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2702009",
   "municipio": "Coité do Nóia",
-  "atualizadoEm": "2026-04-11T17:33:19.609Z",
+  "atualizadoEm": "2026-04-11T18:38:17.860Z",
   "totalEstabelecimentos": 10,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.7503712704198735,
-      "valorMaximo": 6.889899407468651,
-      "valorMedio": 6.8101528564430085
+      "valorMinimo": 6.75,
+      "valorMaximo": 6.890215893431328,
+      "valorMedio": 6.810134594957276
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.889424733034792,
-      "valorMaximo": 7.050064670809805,
-      "valorMedio": 6.9697447019222984
+      "valorMinimo": 6.890215893431328,
+      "valorMaximo": 7.05,
+      "valorMedio": 6.970107946715664
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 4.985044865403789,
+      "valorMinimo": 4.9893975302482225,
       "valorMaximo": 5.090039678502391,
-      "valorMedio": 5.03754227195309
+      "valorMedio": 5.039718604375307
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.090061506283567,
-      "valorMaximo": 7.2500543754078155,
-      "valorMedio": 7.163407700377948
+      "valorMinimo": 7.090128755364807,
+      "valorMaximo": 7.249879168680522,
+      "valorMedio": 7.16337171449593
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "COITE DO NOIA",
       "latitude": -9.6325553,
       "longitude": -36.5809891,
-      "valor_minimo": 6.7503712704198735,
-      "valor_maximo": 6.7503712704198735,
-      "valor_medio": 6.7503712704198735,
-      "valor_recente": 6.7503712704198735,
-      "data_recente": "2026-04-11T13:34:18Z"
+      "valor_minimo": 6.75,
+      "valor_maximo": 6.75,
+      "valor_medio": 6.75,
+      "valor_recente": 6.75,
+      "data_recente": "2026-04-11T15:04:25Z"
     },
     {
       "cnpj": "61964063000152",
@@ -84,11 +84,11 @@
       "municipio": "COITE DO NOIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.889899407468651,
-      "valor_maximo": 6.889899407468651,
-      "valor_medio": 6.889899407468651,
-      "valor_recente": 6.889899407468651,
-      "data_recente": "2026-04-11T13:44:51Z"
+      "valor_minimo": 6.890215893431328,
+      "valor_maximo": 6.890215893431328,
+      "valor_medio": 6.890215893431328,
+      "valor_recente": 6.890215893431328,
+      "data_recente": "2026-04-11T15:24:26Z"
     },
     {
       "cnpj": "42377369000168",
@@ -104,11 +104,11 @@
       "municipio": "COITE DO NOIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.889424733034792,
-      "valor_maximo": 6.889424733034792,
-      "valor_medio": 6.889424733034792,
-      "valor_recente": 6.889424733034792,
-      "data_recente": "2026-04-11T13:34:51Z"
+      "valor_minimo": 6.890215893431328,
+      "valor_maximo": 6.890215893431328,
+      "valor_medio": 6.890215893431328,
+      "valor_recente": 6.890215893431328,
+      "data_recente": "2026-04-11T14:54:49Z"
     },
     {
       "cnpj": "08482940000176",
@@ -124,11 +124,11 @@
       "municipio": "COITE DO NOIA",
       "latitude": -9.6325553,
       "longitude": -36.5809891,
-      "valor_minimo": 7.050064670809805,
-      "valor_maximo": 7.050064670809805,
-      "valor_medio": 7.050064670809805,
-      "valor_recente": 7.050064670809805,
-      "data_recente": "2026-04-11T13:42:21Z"
+      "valor_minimo": 7.05,
+      "valor_maximo": 7.05,
+      "valor_medio": 7.05,
+      "valor_recente": 7.05,
+      "data_recente": "2026-04-11T14:17:45Z"
     },
     {
       "cnpj": "42377369000168",
@@ -144,11 +144,11 @@
       "municipio": "COITE DO NOIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 4.985044865403789,
-      "valor_maximo": 4.985044865403789,
-      "valor_medio": 4.985044865403789,
-      "valor_recente": 4.985044865403789,
-      "data_recente": "2026-04-11T13:31:57Z"
+      "valor_minimo": 4.9893975302482225,
+      "valor_maximo": 4.9893975302482225,
+      "valor_medio": 4.9893975302482225,
+      "valor_recente": 4.9893975302482225,
+      "data_recente": "2026-04-11T14:49:47Z"
     },
     {
       "cnpj": "61964063000152",
@@ -184,11 +184,11 @@
       "municipio": "COITE DO NOIA",
       "latitude": -9.6325553,
       "longitude": -36.5809891,
-      "valor_minimo": 7.090061506283567,
+      "valor_minimo": 7.090128755364807,
       "valor_maximo": 7.290223809870963,
-      "valor_medio": 7.190142658077265,
-      "valor_recente": 7.090061506283567,
-      "data_recente": "2026-04-11T13:15:47Z"
+      "valor_medio": 7.190176282617886,
+      "valor_recente": 7.090128755364807,
+      "data_recente": "2026-04-11T14:06:30Z"
     },
     {
       "cnpj": "61964063000152",
@@ -224,11 +224,11 @@
       "municipio": "COITE DO NOIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.2500543754078155,
-      "valor_maximo": 7.2500543754078155,
-      "valor_medio": 7.2500543754078155,
-      "valor_recente": 7.2500543754078155,
-      "data_recente": "2026-04-11T13:41:44Z"
+      "valor_minimo": 7.249879168680522,
+      "valor_maximo": 7.249879168680522,
+      "valor_medio": 7.249879168680522,
+      "valor_recente": 7.249879168680522,
+      "data_recente": "2026-04-11T14:42:16Z"
     }
   ]
 }
