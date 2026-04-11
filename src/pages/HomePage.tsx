@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect } from 'react';
-import { GasPump, MagnifyingGlass, ArrowsClockwise, Crosshair } from '@phosphor-icons/react';
+import { GasPump, MagnifyingGlass, ArrowsClockwise, Crosshair, List, X } from '@phosphor-icons/react';
 import { usePrecosCombustiveis } from '../hooks/usePrecosCombustiveis';
 import { useGeolocalizacao } from '../hooks/useGeolocalizacao';
 import { CardCombustivel } from '../components/FuelCard';
@@ -24,6 +24,7 @@ export default function HomePage() {
   const [termoBusca, setTermoBusca] = useState('');
   const [mostrarStatusLocalizacao, setMostrarStatusLocalizacao] = useState(true);
   const [estabelecimentoSelecionado, setEstabelecimentoSelecionado] = useState<DadosComDistancia | null>(null);
+  const [mostrarListaMobile, setMostrarListaMobile] = useState(false);
 
   const { dados, carregando, erro, recarregar } = usePrecosCombustiveis({
     tipoCombustivel: tipoCombustivelSelecionado,
@@ -119,19 +120,85 @@ export default function HomePage() {
     .sort((a, b) => {
       switch (ordenarPor) {
         case 'preco_asc':
-          return a.valor_recente - b.valor_recente;
+          // Ordena por preço, desempata por distância
+          if (a.valor_recente !== b.valor_recente) {
+            return a.valor_recente - b.valor_recente;
+          }
+          const distA = a.distancia ?? Infinity;
+          const distB = b.distancia ?? Infinity;
+          return distA - distB;
         case 'preco_desc':
           return b.valor_recente - a.valor_recente;
         case 'data':
           return new Date(b.data_recente).getTime() - new Date(a.data_recente).getTime();
         case 'distancia':
-          const distA = a.distancia ?? Infinity;
-          const distB = b.distancia ?? Infinity;
-          return distA - distB;
+          const distA2 = a.distancia ?? Infinity;
+          const distB2 = b.distancia ?? Infinity;
+          return distA2 - distB2;
         default:
           return 0;
       }
     });
+
+  // Identifica o melhor posto (prioriza postos até 5km, depois menor preço)
+  const cnpjMelhorPosto = useMemo(() => {
+    if (!dadosFiltrados || dadosFiltrados.length === 0) return null;
+    
+    // Verifica se temos localização disponível
+    const comDistancia = dadosFiltrados.filter(item => item.distancia !== undefined);
+    const temLocalizacao = comDistancia.length > 0;
+    
+    if (temLocalizacao) {
+      // Limite de distância preferencial (5km)
+      const DISTANCIA_MAXIMA_PREFERENCIAL = 5;
+      
+      // Postos dentro de 5km
+      const postosProximos = comDistancia.filter(item => item.distancia! <= DISTANCIA_MAXIMA_PREFERENCIAL);
+      
+      if (postosProximos.length > 0) {
+        // Se há postos dentro de 5km, pega o de menor preço entre eles
+        const melhor = postosProximos.reduce((melhor, atual) => 
+          atual.valor_recente < melhor.valor_recente ? atual : melhor
+        );
+        return melhor.cnpj;
+      } else {
+        // Se não há postos dentro de 5km, usa score combinado para todos
+        const precos = comDistancia.map(i => i.valor_recente);
+        const distancias = comDistancia.map(i => i.distancia!);
+        
+        const minPreco = Math.min(...precos);
+        const maxPreco = Math.max(...precos);
+        const rangePreco = maxPreco - minPreco || 1;
+        
+        const minDist = Math.min(...distancias);
+        const maxDist = Math.max(...distancias);
+        const rangeDist = maxDist - minDist || 1;
+        
+        let melhor = comDistancia[0];
+        let melhorScore = Infinity;
+        
+        for (const item of comDistancia) {
+          // Score normalizado com peso maior para distância
+          const precoNorm = (item.valor_recente - minPreco) / rangePreco;
+          const distNorm = (item.distancia! - minDist) / rangeDist;
+          const score = precoNorm + (distNorm * 1.5); // Distância com peso 1.5x
+          
+          if (score < melhorScore) {
+            melhorScore = score;
+            melhor = item;
+          }
+        }
+        
+        return melhor.cnpj;
+      }
+    } else {
+      // Sem localização: apenas menor preço
+      const menorPreco = dadosFiltrados.reduce((melhor, atual) => 
+        atual.valor_recente < melhor.valor_recente ? atual : melhor
+      );
+      return menorPreco.cnpj;
+    }
+  }, [dadosFiltrados]);
 
   const handleSelecionarEstabelecimento = (item: DadosComDistancia) => {
     setEstabelecimentoSelecionado(prev => 
@@ -256,19 +323,29 @@ export default function HomePage() {
 
         {/* Split View: Lista + Mapa */}
         {dadosFiltrados && (
-          <div className="flex-1 flex flex-col lg:flex-row overflow-hidden min-h-0">
+          <div className="flex-1 flex flex-col lg:flex-row overflow-hidden min-h-0 relative">
             {/* Sidebar - Lista de postos */}
-            <aside className="flex-shrink-0 lg:w-[400px] xl:w-[450px] border-r border-gray-200 bg-white/50 flex flex-col overflow-hidden max-h-[40vh] lg:max-h-none">
+            <aside className={`lg:w-[400px] xl:w-[450px] border-r border-gray-200 bg-white flex flex-col overflow-hidden ${mostrarListaMobile ? 'absolute inset-0 z-30 flex' : 'hidden lg:flex'}`}>
               {/* Header da lista */}
-              <div className="px-3 py-2 sm:px-4 sm:py-3 border-b border-gray-200 bg-white flex-shrink-0">
-                <p className="text-sm sm:text-base text-gray-600 font-medium">
-                  {dadosFiltrados.length} posto{dadosFiltrados.length !== 1 ? 's' : ''} encontrado{dadosFiltrados.length !== 1 ? 's' : ''}
-                </p>
-                {estabelecimentoSelecionado && (
-                  <p className="text-xs text-blue-600 mt-1">
-                    Clique no mapa ou em outro posto para mudar a seleção
+              <div className="px-3 py-2 sm:px-4 sm:py-3 border-b border-gray-200 bg-white flex-shrink-0 flex items-center justify-between">
+                <div>
+                  <p className="text-sm sm:text-base text-gray-600 font-medium">
+                    {dadosFiltrados.length} posto{dadosFiltrados.length !== 1 ? 's' : ''} encontrado{dadosFiltrados.length !== 1 ? 's' : ''}
                   </p>
-                )}
+                  {estabelecimentoSelecionado && (
+                    <p className="text-xs text-blue-600 mt-1">
+                      Clique no mapa ou em outro posto para mudar a seleção
+                    </p>
+                  )}
+                </div>
+                {/* Botão fechar lista mobile */}
+                <button
+                  onClick={() => setMostrarListaMobile(false)}
+                  className="lg:hidden p-2 rounded-full hover:bg-gray-100"
+                  aria-label="Fechar lista"
+                >
+                  <X size={20} className="text-gray-600" />
+                </button>
               </div>
 
               {/* Lista scrollável */}
@@ -288,6 +365,7 @@ export default function HomePage() {
                       dados={item}
                       distancia={item.distancia}
                       isSelected={estabelecimentoSelecionado?.cnpj === item.cnpj}
+                      isMelhor={item.cnpj === cnpjMelhorPosto}
                       onClick={() => handleSelecionarEstabelecimento(item)}
                     />
                   ))
@@ -296,7 +374,7 @@ export default function HomePage() {
             </aside>
 
             {/* Mapa */}
-            <div className="flex-1 min-h-[300px] lg:min-h-0 relative">
+            <div className="flex-1 min-h-0 relative">
               <MapaEstabelecimentos
                 dados={dadosFiltrados}
                 localizacao={localizacao}
@@ -304,8 +382,18 @@ export default function HomePage() {
                 estabelecimentoSelecionado={estabelecimentoSelecionado}
                 onSelecionarEstabelecimento={handleSelecionarEstabelecimento}
                 municipioSelecionado={municipioSelecionado}
+                cnpjMelhor={cnpjMelhorPosto}
                 className="absolute inset-0"
               />
+              
+              {/* Botão flutuante para mostrar lista no mobile */}
+              <button
+                onClick={() => setMostrarListaMobile(true)}
+                className="lg:hidden absolute bottom-4 left-1/2 -translate-x-1/2 bg-blue-600 text-white px-4 py-2.5 rounded-full shadow-lg flex items-center gap-2 hover:bg-blue-700 active:bg-blue-800 transition-colors z-20"
+              >
+                <List size={20} weight="bold" />
+                <span className="text-sm font-medium">Ver lista ({dadosFiltrados.length})</span>
+              </button>
             </div>
           </div>
         )}

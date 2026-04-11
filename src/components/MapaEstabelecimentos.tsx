@@ -35,6 +35,7 @@ interface MapaEstabelecimentosProps {
   estabelecimentoSelecionado?: DadosComDistancia | null;
   onSelecionarEstabelecimento?: (item: DadosComDistancia) => void;
   municipioSelecionado?: string;
+  cnpjMelhor?: string | null;
   className?: string;
 }
 
@@ -45,6 +46,7 @@ export function MapaEstabelecimentos({
   estabelecimentoSelecionado,
   onSelecionarEstabelecimento,
   municipioSelecionado,
+  cnpjMelhor,
   className = '',
 }: MapaEstabelecimentosProps) {
   const mapRef = useRef<MapRef>(null);
@@ -198,6 +200,7 @@ export function MapaEstabelecimentos({
               valor={item.valor_recente} 
               tipoCombustivel={item.tipo_combustivel}
               selecionado={estabelecimentoSelecionado?.cnpj === item.cnpj || popupInfo?.cnpj === item.cnpj}
+              isMelhor={item.cnpj === cnpjMelhor}
             />
           </Marker>
         ))}

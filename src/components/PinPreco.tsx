@@ -1,10 +1,12 @@
 import { memo } from 'react';
+import { Star } from '@phosphor-icons/react';
 import type { TipoCombustivel } from '../types';
 
 interface PinPrecoProps {
   valor: number;
   tipoCombustivel: TipoCombustivel;
   selecionado?: boolean;
+  isMelhor?: boolean;
 }
 
 const CORES_PIN: Record<TipoCombustivel, { bg: string; border: string }> = {
@@ -16,8 +18,10 @@ const CORES_PIN: Record<TipoCombustivel, { bg: string; border: string }> = {
   6: { bg: 'bg-blue-500', border: 'border-blue-600' },
 };
 
-function PinPreco({ valor, tipoCombustivel, selecionado }: PinPrecoProps) {
-  const cores = CORES_PIN[tipoCombustivel] || CORES_PIN[1];
+function PinPreco({ valor, tipoCombustivel, selecionado, isMelhor }: PinPrecoProps) {
+  const cores = isMelhor 
+    ? { bg: 'bg-gradient-to-r from-yellow-400 to-amber-500', border: 'border-amber-600' }
+    : (CORES_PIN[tipoCombustivel] || CORES_PIN[1]);
   
   const formatarPreco = (v: number) => {
     return v.toLocaleString('pt-BR', {
@@ -30,9 +34,15 @@ function PinPreco({ valor, tipoCombustivel, selecionado }: PinPrecoProps) {
     <div 
       className={`
         relative cursor-pointer transition-transform duration-150
-        ${selecionado ? 'scale-125 z-10' : 'hover:scale-110'}
+        ${selecionado || isMelhor ? 'scale-125 z-10' : 'hover:scale-110'}
       `}
     >
+      {/* Estrela para melhor preço */}
+      {isMelhor && (
+        <div className="absolute -top-3 left-1/2 -translate-x-1/2 text-yellow-400 drop-shadow-md">
+          <Star size={16} weight="fill" />
+        </div>
+      )}
       {/* Badge com preço */}
       <div 
         className={`
@@ -41,6 +51,7 @@ function PinPreco({ valor, tipoCombustivel, selecionado }: PinPrecoProps) {
           px-1.5 py-0.5 rounded-md
           border-2 shadow-lg
           whitespace-nowrap
+          ${isMelhor ? 'ring-2 ring-yellow-300 ring-offset-1' : ''}
         `}
       >
         {formatarPreco(valor)}
