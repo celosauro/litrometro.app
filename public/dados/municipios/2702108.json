@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2702108",
   "municipio": "Colônia Leopoldina",
-  "atualizadoEm": "2026-04-11T10:40:09.619Z",
+  "atualizadoEm": "2026-04-11T15:33:50.765Z",
   "totalEstabelecimentos": 7,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.8493150684931505,
-      "valorMaximo": 6.8493150684931505,
-      "valorMedio": 6.8493150684931505
+      "valorMinimo": 6.840052015604681,
+      "valorMaximo": 6.849838969404187,
+      "valorMedio": 6.844945492504435
     },
     "2": {
       "totalPostos": 1,
@@ -18,38 +18,18 @@
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.448410970831519,
-      "valorMaximo": 5.450185306300415,
-      "valorMedio": 5.4492981385659665
+      "valorMinimo": 5.45,
+      "valorMaximo": 5.450333832947268,
+      "valorMedio": 5.450166916473634
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.45,
-      "valorMaximo": 7.539772298876574,
-      "valorMedio": 7.494886149438287
+      "valorMinimo": 7.449344457687723,
+      "valorMaximo": 7.539958834142251,
+      "valorMedio": 7.494651645914987
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "08560691000190",
-      "tipo_combustivel": 1,
-      "razao_social": "POSTO DE COMBUSTIVEL SAO JOSE LTDA",
-      "nome_fantasia": "AUTO POSTO SAO JOSE",
-      "telefone": "(82) 33524267",
-      "nome_logradouro": "Rua SEVERINO FERREIRA DE LIMA",
-      "numero_imovel": "S/N",
-      "bairro": "CENTRO",
-      "cep": "57975000",
-      "codigo_ibge": 2702108,
-      "municipio": "COLONIA LEOPOLDINA",
-      "latitude": -8.911863499999999,
-      "longitude": -35.7187274,
-      "valor_minimo": 6.8493150684931505,
-      "valor_maximo": 6.8493150684931505,
-      "valor_medio": 6.8493150684931505,
-      "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-10T22:09:55Z"
-    },
     {
       "cnpj": "14341647000272",
       "tipo_combustivel": 1,
@@ -64,11 +44,31 @@
       "municipio": "COLONIA LEOPOLDINA",
       "latitude": -8.982249399999999,
       "longitude": -35.784354,
-      "valor_minimo": 6.8493150684931505,
-      "valor_maximo": 6.8493150684931505,
-      "valor_medio": 6.8493150684931505,
-      "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-10T21:39:02Z"
+      "valor_minimo": 6.840052015604681,
+      "valor_maximo": 6.840052015604681,
+      "valor_medio": 6.840052015604681,
+      "valor_recente": 6.840052015604681,
+      "data_recente": "2026-04-11T12:18:16Z"
+    },
+    {
+      "cnpj": "08560691000190",
+      "tipo_combustivel": 1,
+      "razao_social": "POSTO DE COMBUSTIVEL SAO JOSE LTDA",
+      "nome_fantasia": "AUTO POSTO SAO JOSE",
+      "telefone": "(82) 33524267",
+      "nome_logradouro": "Rua SEVERINO FERREIRA DE LIMA",
+      "numero_imovel": "S/N",
+      "bairro": "CENTRO",
+      "cep": "57975000",
+      "codigo_ibge": 2702108,
+      "municipio": "COLONIA LEOPOLDINA",
+      "latitude": -8.911863499999999,
+      "longitude": -35.7187274,
+      "valor_minimo": 6.849838969404187,
+      "valor_maximo": 6.849838969404187,
+      "valor_medio": 6.849838969404187,
+      "valor_recente": 6.849838969404187,
+      "data_recente": "2026-04-11T12:17:25Z"
     },
     {
       "cnpj": "14341647000272",
@@ -88,7 +88,7 @@
       "valor_maximo": 6.8493150684931505,
       "valor_medio": 6.8493150684931505,
       "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-10T22:02:04Z"
+      "data_recente": "2026-04-11T12:18:16Z"
     },
     {
       "cnpj": "14341647000272",
@@ -104,11 +104,11 @@
       "municipio": "COLONIA LEOPOLDINA",
       "latitude": -8.982249399999999,
       "longitude": -35.784354,
-      "valor_minimo": 5.448410970831519,
-      "valor_maximo": 5.448410970831519,
-      "valor_medio": 5.448410970831519,
-      "valor_recente": 5.448410970831519,
-      "data_recente": "2026-04-10T21:39:02Z"
+      "valor_minimo": 5.45,
+      "valor_maximo": 5.45,
+      "valor_medio": 5.45,
+      "valor_recente": 5.45,
+      "data_recente": "2026-04-11T12:18:16Z"
     },
     {
       "cnpj": "08560691000190",
@@ -124,11 +124,11 @@
       "municipio": "COLONIA LEOPOLDINA",
       "latitude": -8.911863499999999,
       "longitude": -35.7187274,
-      "valor_minimo": 5.450185306300415,
-      "valor_maximo": 5.450185306300415,
-      "valor_medio": 5.450185306300415,
-      "valor_recente": 5.450185306300415,
-      "data_recente": "2026-04-10T16:10:51Z"
+      "valor_minimo": 5.450333832947268,
+      "valor_maximo": 5.450333832947268,
+      "valor_medio": 5.450333832947268,
+      "valor_recente": 5.450333832947268,
+      "data_recente": "2026-04-10T23:21:48Z"
     },
     {
       "cnpj": "14341647000272",
@@ -144,11 +144,11 @@
       "municipio": "COLONIA LEOPOLDINA",
       "latitude": -8.982249399999999,
       "longitude": -35.784354,
-      "valor_minimo": 7.45,
-      "valor_maximo": 7.45,
-      "valor_medio": 7.45,
-      "valor_recente": 7.45,
-      "data_recente": "2026-04-10T21:39:02Z"
+      "valor_minimo": 7.449344457687723,
+      "valor_maximo": 7.449344457687723,
+      "valor_medio": 7.449344457687723,
+      "valor_recente": 7.449344457687723,
+      "data_recente": "2026-04-11T12:18:16Z"
     },
     {
       "cnpj": "08560691000190",
@@ -164,11 +164,11 @@
       "municipio": "COLONIA LEOPOLDINA",
       "latitude": -8.911863499999999,
       "longitude": -35.7187274,
-      "valor_minimo": 7.539772298876574,
-      "valor_maximo": 7.539772298876574,
-      "valor_medio": 7.539772298876574,
-      "valor_recente": 7.539772298876574,
-      "data_recente": "2026-04-10T21:59:56Z"
+      "valor_minimo": 7.539958834142251,
+      "valor_maximo": 7.539958834142251,
+      "valor_medio": 7.539958834142251,
+      "valor_recente": 7.539958834142251,
+      "data_recente": "2026-04-11T12:21:41Z"
     }
   ]
 }

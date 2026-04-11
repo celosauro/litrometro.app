@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2708501",
   "municipio": "São Luís do Quitunde",
-  "atualizadoEm": "2026-04-11T11:21:48.798Z",
+  "atualizadoEm": "2026-04-11T16:05:48.371Z",
   "totalEstabelecimentos": 11,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.4899243923808285,
-      "valorMaximo": 6.588765887658877,
-      "valorMedio": 6.555641858052451
+      "valorMinimo": 6.490134994807892,
+      "valorMaximo": 6.589785831960461,
+      "valorMedio": 6.555845370011937
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.589351607801793,
+      "valorMinimo": 6.589785831960461,
       "valorMaximo": 6.589785831960461,
-      "valorMedio": 6.589568719881127
+      "valorMedio": 6.589785831960461
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 5.378271782000717,
-      "valorMaximo": 5.55000555000555,
-      "valorMedio": 5.489276578724003
+      "valorMinimo": 5.289605924358635,
+      "valorMaximo": 5.37952552584862,
+      "valorMedio": 5.3231616023659045
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.25031720137756,
-      "valorMaximo": 8.519822787686016,
-      "valorMedio": 7.752968946262996
+      "valorMinimo": 7.45,
+      "valorMaximo": 7.519645072752566,
+      "valorMedio": 7.486546859585087
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.4899243923808285,
-      "valor_maximo": 6.4899243923808285,
-      "valor_medio": 6.4899243923808285,
-      "valor_recente": 6.4899243923808285,
-      "data_recente": "2026-04-10T22:17:55Z"
+      "valor_minimo": 6.490134994807892,
+      "valor_maximo": 6.490134994807892,
+      "valor_medio": 6.490134994807892,
+      "valor_recente": 6.490134994807892,
+      "data_recente": "2026-04-11T13:56:05Z"
     },
     {
       "cnpj": "28442466000166",
@@ -64,11 +64,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": -9.350797,
       "longitude": -35.555955,
-      "valor_minimo": 6.588235294117647,
-      "valor_maximo": 6.588235294117647,
-      "valor_medio": 6.588235294117647,
-      "valor_recente": 6.588235294117647,
-      "data_recente": "2026-04-10T21:52:41Z"
+      "valor_minimo": 6.587615283267457,
+      "valor_maximo": 6.587615283267457,
+      "valor_medio": 6.587615283267457,
+      "valor_recente": 6.587615283267457,
+      "data_recente": "2026-04-11T13:55:14Z"
     },
     {
       "cnpj": "10535038000112",
@@ -84,31 +84,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": -9.3144076,
       "longitude": -35.570283,
-      "valor_minimo": 6.588765887658877,
-      "valor_maximo": 6.588765887658877,
-      "valor_medio": 6.588765887658877,
-      "valor_recente": 6.588765887658877,
-      "data_recente": "2026-04-10T22:03:40Z"
-    },
-    {
-      "cnpj": "28442466000166",
-      "tipo_combustivel": 2,
-      "razao_social": "SANTOS DE FREITAS E CIA LTDA - EPP",
-      "nome_fantasia": "ESTRELA AUTO POSTO",
-      "telefone": "(82) 32511365",
-      "nome_logradouro": "ROD AL 413 KM 60",
-      "numero_imovel": "S/N",
-      "bairro": "CENTRO",
-      "cep": "57920000",
-      "codigo_ibge": 2708501,
-      "municipio": "SAO LUIS DO QUITUNDE",
-      "latitude": -9.350797,
-      "longitude": -35.555955,
-      "valor_minimo": 6.589351607801793,
-      "valor_maximo": 6.589351607801793,
-      "valor_medio": 6.589351607801793,
-      "valor_recente": 6.589351607801793,
-      "data_recente": "2026-04-10T21:52:41Z"
+      "valor_minimo": 6.589785831960461,
+      "valor_maximo": 6.589785831960461,
+      "valor_medio": 6.589785831960461,
+      "valor_recente": 6.589785831960461,
+      "data_recente": "2026-04-11T13:40:20Z"
     },
     {
       "cnpj": "10535038000112",
@@ -128,11 +108,11 @@
       "valor_maximo": 6.589785831960461,
       "valor_medio": 6.589785831960461,
       "valor_recente": 6.589785831960461,
-      "data_recente": "2026-04-10T21:56:38Z"
+      "data_recente": "2026-04-11T13:40:20Z"
     },
     {
       "cnpj": "28442466000166",
-      "tipo_combustivel": 3,
+      "tipo_combustivel": 2,
       "razao_social": "SANTOS DE FREITAS E CIA LTDA - EPP",
       "nome_fantasia": "ESTRELA AUTO POSTO",
       "telefone": "(82) 32511365",
@@ -144,11 +124,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": -9.350797,
       "longitude": -35.555955,
-      "valor_minimo": 5.378271782000717,
-      "valor_maximo": 5.378271782000717,
-      "valor_medio": 5.378271782000717,
-      "valor_recente": 5.378271782000717,
-      "data_recente": "2026-04-10T21:52:41Z"
+      "valor_minimo": 6.589785831960461,
+      "valor_maximo": 6.589785831960461,
+      "valor_medio": 6.589785831960461,
+      "valor_recente": 6.589785831960461,
+      "data_recente": "2026-04-11T13:55:14Z"
     },
     {
       "cnpj": "10535038000112",
@@ -164,11 +144,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": -9.3144076,
       "longitude": -35.570283,
-      "valor_minimo": 5.539552404165743,
-      "valor_maximo": 5.539552404165743,
-      "valor_medio": 5.539552404165743,
-      "valor_recente": 5.539552404165743,
-      "data_recente": "2026-04-10T21:56:38Z"
+      "valor_minimo": 5.289605924358635,
+      "valor_maximo": 5.289605924358635,
+      "valor_medio": 5.289605924358635,
+      "valor_recente": 5.289605924358635,
+      "data_recente": "2026-04-11T13:40:20Z"
     },
     {
       "cnpj": "49974887000108",
@@ -184,11 +164,31 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.55000555000555,
-      "valor_maximo": 5.55000555000555,
-      "valor_medio": 5.55000555000555,
-      "valor_recente": 5.55000555000555,
-      "data_recente": "2026-04-10T22:12:40Z"
+      "valor_minimo": 5.30035335689046,
+      "valor_maximo": 5.30035335689046,
+      "valor_medio": 5.30035335689046,
+      "valor_recente": 5.30035335689046,
+      "data_recente": "2026-04-11T13:54:31Z"
+    },
+    {
+      "cnpj": "28442466000166",
+      "tipo_combustivel": 3,
+      "razao_social": "SANTOS DE FREITAS E CIA LTDA - EPP",
+      "nome_fantasia": "ESTRELA AUTO POSTO",
+      "telefone": "(82) 32511365",
+      "nome_logradouro": "ROD AL 413 KM 60",
+      "numero_imovel": "S/N",
+      "bairro": "CENTRO",
+      "cep": "57920000",
+      "codigo_ibge": 2708501,
+      "municipio": "SAO LUIS DO QUITUNDE",
+      "latitude": -9.350797,
+      "longitude": -35.555955,
+      "valor_minimo": 5.37952552584862,
+      "valor_maximo": 5.37952552584862,
+      "valor_medio": 5.37952552584862,
+      "valor_recente": 5.37952552584862,
+      "data_recente": "2026-04-11T13:55:14Z"
     },
     {
       "cnpj": "49974887000108",
@@ -204,11 +204,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.25031720137756,
-      "valor_maximo": 7.25031720137756,
-      "valor_medio": 7.25031720137756,
-      "valor_recente": 7.25031720137756,
-      "data_recente": "2026-04-10T22:15:11Z"
+      "valor_minimo": 7.45,
+      "valor_maximo": 7.45,
+      "valor_medio": 7.45,
+      "valor_recente": 7.45,
+      "data_recente": "2026-04-11T13:36:40Z"
     },
     {
       "cnpj": "10535038000112",
@@ -224,11 +224,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": -9.3144076,
       "longitude": -35.570283,
-      "valor_minimo": 7.488766849725412,
-      "valor_maximo": 7.49063670411985,
-      "valor_medio": 7.489701776922631,
-      "valor_recente": 7.488766849725412,
-      "data_recente": "2026-04-10T21:47:30Z"
+      "valor_minimo": 7.489995506002696,
+      "valor_maximo": 7.490075649764063,
+      "valor_medio": 7.490035577883379,
+      "valor_recente": 7.489995506002696,
+      "data_recente": "2026-04-11T11:28:49Z"
     },
     {
       "cnpj": "28442466000166",
@@ -244,11 +244,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": -9.350797,
       "longitude": -35.555955,
-      "valor_minimo": 7.519645072752566,
-      "valor_maximo": 8.519822787686016,
-      "valor_medio": 8.01973393021929,
-      "valor_recente": 8.519822787686016,
-      "data_recente": "2026-04-10T22:19:46Z"
+      "valor_minimo": 7.519550832163626,
+      "valor_maximo": 7.519645072752566,
+      "valor_medio": 7.519597952458096,
+      "valor_recente": 7.519645072752566,
+      "data_recente": "2026-04-11T13:55:14Z"
     }
   ]
 }

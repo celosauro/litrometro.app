@@ -1,20 +1,20 @@
 {
   "codigoIBGE": "2706802",
   "municipio": "Piaçabuçu",
-  "atualizadoEm": "2026-04-11T11:13:42.493Z",
+  "atualizadoEm": "2026-04-11T15:57:00.269Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 7.1199715201139195,
-      "valorMaximo": 7.121746252181035,
-      "valorMedio": 7.120858886147477
+      "valorMinimo": 7.118483412322274,
+      "valorMaximo": 7.120816520294327,
+      "valorMedio": 7.119649966308301
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.2194719471947195,
-      "valorMaximo": 7.2194719471947195,
-      "valorMedio": 7.2194719471947195
+      "valorMinimo": 7.214285714285714,
+      "valorMaximo": 7.214285714285714,
+      "valorMedio": 7.214285714285714
     },
     "3": {
       "totalPostos": 1,
@@ -31,31 +31,11 @@
     "5": {
       "totalPostos": 3,
       "valorMinimo": 2.9,
-      "valorMaximo": 7.889990982867448,
-      "valorMedio": 6.226293290585446
+      "valorMaximo": 7.8901688496133815,
+      "valorMedio": 6.226779233075587
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "05388025000209",
-      "tipo_combustivel": 1,
-      "razao_social": "BARBOSA & ROCHA LTDA",
-      "nome_fantasia": "POSTO SAO PEDRO",
-      "telefone": "",
-      "nome_logradouro": "LGO SANTA TEREZINHA",
-      "numero_imovel": "55",
-      "bairro": "CENTRO",
-      "cep": "57210000",
-      "codigo_ibge": 2706802,
-      "municipio": "PIACABUCU",
-      "latitude": -10.4073113,
-      "longitude": -36.4313297,
-      "valor_minimo": 7.1199715201139195,
-      "valor_maximo": 7.1199715201139195,
-      "valor_medio": 7.1199715201139195,
-      "valor_recente": 7.1199715201139195,
-      "data_recente": "2026-04-10T22:15:21Z"
-    },
     {
       "cnpj": "24197104000104",
       "tipo_combustivel": 1,
@@ -70,11 +50,31 @@
       "municipio": "PIACABUCU",
       "latitude": -10.4072761,
       "longitude": -36.4252736,
-      "valor_minimo": 7.121746252181035,
-      "valor_maximo": 7.121746252181035,
-      "valor_medio": 7.121746252181035,
-      "valor_recente": 7.121746252181035,
-      "data_recente": "2026-04-10T22:06:42Z"
+      "valor_minimo": 7.118483412322274,
+      "valor_maximo": 7.118483412322274,
+      "valor_medio": 7.118483412322274,
+      "valor_recente": 7.118483412322274,
+      "data_recente": "2026-04-11T13:51:32Z"
+    },
+    {
+      "cnpj": "05388025000209",
+      "tipo_combustivel": 1,
+      "razao_social": "BARBOSA & ROCHA LTDA",
+      "nome_fantasia": "POSTO SAO PEDRO",
+      "telefone": "",
+      "nome_logradouro": "LGO SANTA TEREZINHA",
+      "numero_imovel": "55",
+      "bairro": "CENTRO",
+      "cep": "57210000",
+      "codigo_ibge": 2706802,
+      "municipio": "PIACABUCU",
+      "latitude": -10.4073113,
+      "longitude": -36.4313297,
+      "valor_minimo": 7.120816520294327,
+      "valor_maximo": 7.120816520294327,
+      "valor_medio": 7.120816520294327,
+      "valor_recente": 7.120816520294327,
+      "data_recente": "2026-04-11T13:53:15Z"
     },
     {
       "cnpj": "05388025000209",
@@ -90,11 +90,11 @@
       "municipio": "PIACABUCU",
       "latitude": -10.4073113,
       "longitude": -36.4313297,
-      "valor_minimo": 7.2194719471947195,
-      "valor_maximo": 7.2194719471947195,
-      "valor_medio": 7.2194719471947195,
-      "valor_recente": 7.2194719471947195,
-      "data_recente": "2026-04-10T22:15:31Z"
+      "valor_minimo": 7.214285714285714,
+      "valor_maximo": 7.214285714285714,
+      "valor_medio": 7.214285714285714,
+      "valor_recente": 7.214285714285714,
+      "data_recente": "2026-04-11T13:56:48Z"
     },
     {
       "cnpj": "05388025000209",
@@ -114,7 +114,7 @@
       "valor_maximo": 5.54016620498615,
       "valor_medio": 5.54016620498615,
       "valor_recente": 5.54016620498615,
-      "data_recente": "2026-04-10T22:15:38Z"
+      "data_recente": "2026-04-11T13:53:15Z"
     },
     {
       "cnpj": "07824798000305",
@@ -157,26 +157,6 @@
       "data_recente": "2026-04-02T13:51:24Z"
     },
     {
-      "cnpj": "24197104000104",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO TRÊS IRMÃOS LTDA  - EPP",
-      "nome_fantasia": "AUTO POSTO TRES IRMAOS",
-      "telefone": "(82) 35521193",
-      "nome_logradouro": "AV ULISSES GUEDES",
-      "numero_imovel": "266",
-      "bairro": "BRASILIA",
-      "cep": "57210000",
-      "codigo_ibge": 2706802,
-      "municipio": "PIACABUCU",
-      "latitude": -10.4072761,
-      "longitude": -36.4252736,
-      "valor_minimo": 7.888888888888889,
-      "valor_maximo": 7.888888888888889,
-      "valor_medio": 7.888888888888889,
-      "valor_recente": 7.888888888888889,
-      "data_recente": "2026-04-10T19:08:52Z"
-    },
-    {
       "cnpj": "05388025000209",
       "tipo_combustivel": 5,
       "razao_social": "BARBOSA & ROCHA LTDA",
@@ -190,11 +170,31 @@
       "municipio": "PIACABUCU",
       "latitude": -10.4073113,
       "longitude": -36.4313297,
-      "valor_minimo": 7.889990982867448,
-      "valor_maximo": 7.889990982867448,
-      "valor_medio": 7.889990982867448,
-      "valor_recente": 7.889990982867448,
-      "data_recente": "2026-04-10T21:58:37Z"
+      "valor_minimo": 7.8901688496133815,
+      "valor_maximo": 7.8901688496133815,
+      "valor_medio": 7.8901688496133815,
+      "valor_recente": 7.8901688496133815,
+      "data_recente": "2026-04-11T12:05:14Z"
+    },
+    {
+      "cnpj": "24197104000104",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO TRÊS IRMÃOS LTDA  - EPP",
+      "nome_fantasia": "AUTO POSTO TRES IRMAOS",
+      "telefone": "(82) 35521193",
+      "nome_logradouro": "AV ULISSES GUEDES",
+      "numero_imovel": "266",
+      "bairro": "BRASILIA",
+      "cep": "57210000",
+      "codigo_ibge": 2706802,
+      "municipio": "PIACABUCU",
+      "latitude": -10.4072761,
+      "longitude": -36.4252736,
+      "valor_minimo": 7.8901688496133815,
+      "valor_maximo": 7.8901688496133815,
+      "valor_medio": 7.8901688496133815,
+      "valor_recente": 7.8901688496133815,
+      "data_recente": "2026-04-11T10:15:49Z"
     }
   ]
 }

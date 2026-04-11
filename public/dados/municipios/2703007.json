@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2703007",
   "municipio": "Ibateguara",
-  "atualizadoEm": "2026-04-11T10:49:16.254Z",
+  "atualizadoEm": "2026-04-11T15:38:35.223Z",
   "totalEstabelecimentos": 10,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.651162790697675,
+      "valorMinimo": 6.649466192170818,
       "valorMaximo": 6.989748369058714,
-      "valorMedio": 6.864211765895807
+      "valorMedio": 6.863534483372807
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.786407766990291,
-      "valorMaximo": 6.95,
-      "valorMedio": 6.868203883495146
+      "valorMinimo": 6.599965529127887,
+      "valorMaximo": 6.951388888888889,
+      "valorMedio": 6.775677209008388
     },
     "3": {
       "totalPostos": 2,
       "valorMinimo": 5.188067444876784,
-      "valorMaximo": 5.189834024896266,
-      "valorMedio": 5.188950734886525
+      "valorMaximo": 5.189952252439277,
+      "valorMedio": 5.1890098486580305
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.389970554317767,
-      "valorMaximo": 7.651260504201681,
-      "valorMedio": 7.477077019506482
+      "valorMinimo": 7.389546351084813,
+      "valorMaximo": 7.6502732240437155,
+      "valorMedio": 7.47657006824907
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "IBATEGUARA",
       "latitude": -8.968526599999999,
       "longitude": -35.9246712,
-      "valor_minimo": 6.651162790697675,
-      "valor_maximo": 6.651162790697675,
-      "valor_medio": 6.651162790697675,
-      "valor_recente": 6.651162790697675,
-      "data_recente": "2026-04-10T22:06:33Z"
+      "valor_minimo": 6.649466192170818,
+      "valor_maximo": 6.649466192170818,
+      "valor_medio": 6.649466192170818,
+      "valor_recente": 6.649466192170818,
+      "data_recente": "2026-04-11T11:43:44Z"
     },
     {
       "cnpj": "37308725000151",
@@ -64,11 +64,11 @@
       "municipio": "IBATEGUARA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.951724137931034,
-      "valor_maximo": 6.951724137931034,
-      "valor_medio": 6.951724137931034,
-      "valor_recente": 6.951724137931034,
-      "data_recente": "2026-04-10T22:17:51Z"
+      "valor_minimo": 6.951388888888889,
+      "valor_maximo": 6.951388888888889,
+      "valor_medio": 6.951388888888889,
+      "valor_recente": 6.951388888888889,
+      "data_recente": "2026-04-11T12:02:27Z"
     },
     {
       "cnpj": "14432556000161",
@@ -88,7 +88,7 @@
       "valor_maximo": 6.989748369058714,
       "valor_medio": 6.989748369058714,
       "valor_recente": 6.989748369058714,
-      "data_recente": "2026-04-10T03:40:14Z"
+      "data_recente": "2026-04-11T00:59:40Z"
     },
     {
       "cnpj": "11457014000155",
@@ -104,11 +104,11 @@
       "municipio": "IBATEGUARA",
       "latitude": -8.968526599999999,
       "longitude": -35.9246712,
-      "valor_minimo": 6.786407766990291,
-      "valor_maximo": 6.786407766990291,
-      "valor_medio": 6.786407766990291,
-      "valor_recente": 6.786407766990291,
-      "data_recente": "2026-04-10T22:08:09Z"
+      "valor_minimo": 6.599965529127887,
+      "valor_maximo": 6.599965529127887,
+      "valor_medio": 6.599965529127887,
+      "valor_recente": 6.599965529127887,
+      "data_recente": "2026-04-11T12:03:38Z"
     },
     {
       "cnpj": "37308725000151",
@@ -124,11 +124,11 @@
       "municipio": "IBATEGUARA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.95,
-      "valor_maximo": 6.95,
-      "valor_medio": 6.95,
-      "valor_recente": 6.95,
-      "data_recente": "2026-04-10T22:17:51Z"
+      "valor_minimo": 6.951388888888889,
+      "valor_maximo": 6.951388888888889,
+      "valor_medio": 6.951388888888889,
+      "valor_recente": 6.951388888888889,
+      "data_recente": "2026-04-11T12:02:27Z"
     },
     {
       "cnpj": "14432556000161",
@@ -164,31 +164,11 @@
       "municipio": "IBATEGUARA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.189834024896266,
-      "valor_maximo": 5.189834024896266,
-      "valor_medio": 5.189834024896266,
-      "valor_recente": 5.189834024896266,
-      "data_recente": "2026-04-10T22:17:51Z"
-    },
-    {
-      "cnpj": "14432556000161",
-      "tipo_combustivel": 5,
-      "razao_social": "POSTO NOVO HORIZONTE LTDA - EPP",
-      "nome_fantasia": "POSTO NOVO HORIZONTE",
-      "telefone": "(82) 88567888",
-      "nome_logradouro": "Rua FERNANDO BEZERRA LEITE",
-      "numero_imovel": "708",
-      "bairro": "CENTRO",
-      "cep": "57890000",
-      "codigo_ibge": 2703007,
-      "municipio": "IBATEGUARA",
-      "latitude": -8.9682481,
-      "longitude": -35.9230209,
-      "valor_minimo": 7.389970554317767,
-      "valor_maximo": 7.389970554317767,
-      "valor_medio": 7.389970554317767,
-      "valor_recente": 7.389970554317767,
-      "data_recente": "2026-04-09T21:11:55Z"
+      "valor_minimo": 5.189952252439277,
+      "valor_maximo": 5.189952252439277,
+      "valor_medio": 5.189952252439277,
+      "valor_recente": 5.189952252439277,
+      "data_recente": "2026-04-11T12:02:27Z"
     },
     {
       "cnpj": "11457014000155",
@@ -204,11 +184,31 @@
       "municipio": "IBATEGUARA",
       "latitude": -8.968526599999999,
       "longitude": -35.9246712,
-      "valor_minimo": 7.39,
-      "valor_maximo": 7.39,
-      "valor_medio": 7.39,
-      "valor_recente": 7.39,
-      "data_recente": "2026-04-10T16:22:29Z"
+      "valor_minimo": 7.389546351084813,
+      "valor_maximo": 7.389546351084813,
+      "valor_medio": 7.389546351084813,
+      "valor_recente": 7.389546351084813,
+      "data_recente": "2026-04-11T11:05:39Z"
+    },
+    {
+      "cnpj": "14432556000161",
+      "tipo_combustivel": 5,
+      "razao_social": "POSTO NOVO HORIZONTE LTDA - EPP",
+      "nome_fantasia": "POSTO NOVO HORIZONTE",
+      "telefone": "(82) 88567888",
+      "nome_logradouro": "Rua FERNANDO BEZERRA LEITE",
+      "numero_imovel": "708",
+      "bairro": "CENTRO",
+      "cep": "57890000",
+      "codigo_ibge": 2703007,
+      "municipio": "IBATEGUARA",
+      "latitude": -8.9682481,
+      "longitude": -35.9230209,
+      "valor_minimo": 7.389890629618682,
+      "valor_maximo": 7.389890629618682,
+      "valor_medio": 7.389890629618682,
+      "valor_recente": 7.389890629618682,
+      "data_recente": "2026-04-10T23:17:17Z"
     },
     {
       "cnpj": "37308725000151",
@@ -224,11 +224,11 @@
       "municipio": "IBATEGUARA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.651260504201681,
-      "valor_maximo": 7.651260504201681,
-      "valor_medio": 7.651260504201681,
-      "valor_recente": 7.651260504201681,
-      "data_recente": "2026-04-10T22:17:51Z"
+      "valor_minimo": 7.6502732240437155,
+      "valor_maximo": 7.6502732240437155,
+      "valor_medio": 7.6502732240437155,
+      "valor_recente": 7.6502732240437155,
+      "data_recente": "2026-04-11T12:02:27Z"
     }
   ]
 }

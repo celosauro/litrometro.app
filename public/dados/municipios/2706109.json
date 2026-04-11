@@ -1,20 +1,20 @@
 {
   "codigoIBGE": "2706109",
   "municipio": "Ouro Branco",
-  "atualizadoEm": "2026-04-11T11:08:49.727Z",
+  "atualizadoEm": "2026-04-11T15:52:27.347Z",
   "totalEstabelecimentos": 4,
   "combustiveis": {
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.96983758700696,
-      "valorMaximo": 6.988120195667365,
-      "valorMedio": 6.978978891337163
+      "valorMinimo": 6.96875,
+      "valorMaximo": 6.989547038327526,
+      "valorMedio": 6.979148519163763
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.689941556444171,
-      "valorMaximo": 7.6999443859379255,
-      "valorMedio": 7.694942971191049
+      "valorMinimo": 7.683284457478006,
+      "valorMaximo": 7.689866344821421,
+      "valorMedio": 7.686575401149714
     }
   },
   "estabelecimentos": [
@@ -32,11 +32,11 @@
       "municipio": "OURO BRANCO",
       "latitude": -9.164654,
       "longitude": -37.357874,
-      "valor_minimo": 6.96983758700696,
-      "valor_maximo": 6.96983758700696,
-      "valor_medio": 6.96983758700696,
-      "valor_recente": 6.96983758700696,
-      "data_recente": "2026-04-10T22:12:38Z"
+      "valor_minimo": 6.96875,
+      "valor_maximo": 6.96875,
+      "valor_medio": 6.96875,
+      "valor_recente": 6.96875,
+      "data_recente": "2026-04-11T13:36:37Z"
     },
     {
       "cnpj": "10523574000106",
@@ -52,31 +52,11 @@
       "municipio": "OURO BRANCO",
       "latitude": -9.164638799999999,
       "longitude": -37.3579813,
-      "valor_minimo": 6.988120195667365,
-      "valor_maximo": 6.988120195667365,
-      "valor_medio": 6.988120195667365,
-      "valor_recente": 6.988120195667365,
-      "data_recente": "2026-04-10T22:04:21Z"
-    },
-    {
-      "cnpj": "10523574000106",
-      "tipo_combustivel": 5,
-      "razao_social": "POSTO ALMEIDA LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 36291198",
-      "nome_logradouro": "Rua CORONEL LUCENA",
-      "numero_imovel": "1040",
-      "bairro": "JOAO ALVES DA SILVA",
-      "cep": "57525000",
-      "codigo_ibge": 2706109,
-      "municipio": "OURO BRANCO",
-      "latitude": -9.164638799999999,
-      "longitude": -37.3579813,
-      "valor_minimo": 7.689941556444171,
-      "valor_maximo": 7.689941556444171,
-      "valor_medio": 7.689941556444171,
-      "valor_recente": 7.689941556444171,
-      "data_recente": "2026-04-10T22:10:15Z"
+      "valor_minimo": 6.989547038327526,
+      "valor_maximo": 6.989547038327526,
+      "valor_medio": 6.989547038327526,
+      "valor_recente": 6.989547038327526,
+      "data_recente": "2026-04-11T10:20:29Z"
     },
     {
       "cnpj": "14683196000170",
@@ -92,11 +72,31 @@
       "municipio": "OURO BRANCO",
       "latitude": -9.164654,
       "longitude": -37.357874,
-      "valor_minimo": 7.6999443859379255,
-      "valor_maximo": 7.6999443859379255,
-      "valor_medio": 7.6999443859379255,
-      "valor_recente": 7.6999443859379255,
-      "data_recente": "2026-04-10T22:13:11Z"
+      "valor_minimo": 7.683284457478006,
+      "valor_maximo": 7.683284457478006,
+      "valor_medio": 7.683284457478006,
+      "valor_recente": 7.683284457478006,
+      "data_recente": "2026-04-11T13:36:37Z"
+    },
+    {
+      "cnpj": "10523574000106",
+      "tipo_combustivel": 5,
+      "razao_social": "POSTO ALMEIDA LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 36291198",
+      "nome_logradouro": "Rua CORONEL LUCENA",
+      "numero_imovel": "1040",
+      "bairro": "JOAO ALVES DA SILVA",
+      "cep": "57525000",
+      "codigo_ibge": 2706109,
+      "municipio": "OURO BRANCO",
+      "latitude": -9.164638799999999,
+      "longitude": -37.3579813,
+      "valor_minimo": 7.689866344821421,
+      "valor_maximo": 7.689866344821421,
+      "valor_medio": 7.689866344821421,
+      "valor_recente": 7.689866344821421,
+      "data_recente": "2026-04-11T09:43:05Z"
     }
   ]
 }

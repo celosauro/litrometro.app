@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2705101",
   "municipio": "Matriz de Camaragibe",
-  "atualizadoEm": "2026-04-11T11:03:22.368Z",
+  "atualizadoEm": "2026-04-11T15:47:34.631Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.499978333405555,
-      "valorMaximo": 6.949270326615705,
-      "valorMedio": 6.7930851966760635
+      "valorMinimo": 6.499822925274466,
+      "valorMaximo": 6.629834254143646,
+      "valorMedio": 6.5732190598060365
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.289885738468049,
-      "valorMaximo": 5.569434239529757,
-      "valorMedio": 5.429659988998903
+      "valorMinimo": 5.569434239529757,
+      "valorMaximo": 5.689900426742532,
+      "valorMedio": 5.629667333136144
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 7.549943521058577,
-      "valorMaximo": 7.549943521058577,
-      "valorMedio": 7.549943521058577
+      "valorMinimo": 7.547169811320755,
+      "valorMaximo": 7.547169811320755,
+      "valorMedio": 7.547169811320755
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.149942006959165,
-      "valorMaximo": 8.490038961993678,
-      "valorMedio": 7.819990484476421
+      "valorMinimo": 7.021063189568706,
+      "valorMaximo": 7.449344457687723,
+      "valorMedio": 7.235203823628215
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,31 @@
       "municipio": "MATRIZ DE CAMARAGIBE",
       "latitude": -9.2430177,
       "longitude": -35.4899024,
-      "valor_minimo": 6.499978333405555,
-      "valor_maximo": 6.499978333405555,
-      "valor_medio": 6.499978333405555,
-      "valor_recente": 6.499978333405555,
-      "data_recente": "2026-04-10T21:53:14Z"
+      "valor_minimo": 6.499822925274466,
+      "valor_maximo": 6.499822925274466,
+      "valor_medio": 6.499822925274466,
+      "valor_recente": 6.499822925274466,
+      "data_recente": "2026-04-11T13:51:15Z"
+    },
+    {
+      "cnpj": "20031527000190",
+      "tipo_combustivel": 1,
+      "razao_social": "POSTO 4X4 COMERCIO DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "POSTO 4X4",
+      "telefone": "(82) 33286434",
+      "nome_logradouro": "ROD AL 105 NORTE",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57910000",
+      "codigo_ibge": 2705101,
+      "municipio": "MATRIZ DE CAMARAGIBE",
+      "latitude": -9.1524118,
+      "longitude": -35.5261781,
+      "valor_minimo": 6.59,
+      "valor_maximo": 6.59,
+      "valor_medio": 6.59,
+      "valor_recente": 6.59,
+      "data_recente": "2026-04-11T13:43:28Z"
     },
     {
       "cnpj": "05988846000103",
@@ -64,51 +84,11 @@
       "municipio": "MATRIZ DE CAMARAGIBE",
       "latitude": -9.2430177,
       "longitude": -35.4899024,
-      "valor_minimo": 6.93000693000693,
-      "valor_maximo": 6.93000693000693,
-      "valor_medio": 6.93000693000693,
-      "valor_recente": 6.93000693000693,
-      "data_recente": "2026-04-10T22:19:38Z"
-    },
-    {
-      "cnpj": "20031527000190",
-      "tipo_combustivel": 1,
-      "razao_social": "POSTO 4X4 COMERCIO DE COMBUSTIVEIS LTDA",
-      "nome_fantasia": "POSTO 4X4",
-      "telefone": "(82) 33286434",
-      "nome_logradouro": "ROD AL 105 NORTE",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57910000",
-      "codigo_ibge": 2705101,
-      "municipio": "MATRIZ DE CAMARAGIBE",
-      "latitude": -9.1524118,
-      "longitude": -35.5261781,
-      "valor_minimo": 6.949270326615705,
-      "valor_maximo": 6.949270326615705,
-      "valor_medio": 6.949270326615705,
-      "valor_recente": 6.949270326615705,
-      "data_recente": "2026-04-10T20:37:28Z"
-    },
-    {
-      "cnpj": "20031527000190",
-      "tipo_combustivel": 3,
-      "razao_social": "POSTO 4X4 COMERCIO DE COMBUSTIVEIS LTDA",
-      "nome_fantasia": "POSTO 4X4",
-      "telefone": "(82) 33286434",
-      "nome_logradouro": "ROD AL 105 NORTE",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57910000",
-      "codigo_ibge": 2705101,
-      "municipio": "MATRIZ DE CAMARAGIBE",
-      "latitude": -9.1524118,
-      "longitude": -35.5261781,
-      "valor_minimo": 5.289885738468049,
-      "valor_maximo": 5.289885738468049,
-      "valor_medio": 5.289885738468049,
-      "valor_recente": 5.289885738468049,
-      "data_recente": "2026-04-10T22:16:49Z"
+      "valor_minimo": 6.629834254143646,
+      "valor_maximo": 6.629834254143646,
+      "valor_medio": 6.629834254143646,
+      "valor_recente": 6.629834254143646,
+      "data_recente": "2026-04-11T13:56:32Z"
     },
     {
       "cnpj": "05988846000103",
@@ -131,6 +111,26 @@
       "data_recente": "2026-04-09T17:17:31Z"
     },
     {
+      "cnpj": "20031527000190",
+      "tipo_combustivel": 3,
+      "razao_social": "POSTO 4X4 COMERCIO DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "POSTO 4X4",
+      "telefone": "(82) 33286434",
+      "nome_logradouro": "ROD AL 105 NORTE",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57910000",
+      "codigo_ibge": 2705101,
+      "municipio": "MATRIZ DE CAMARAGIBE",
+      "latitude": -9.1524118,
+      "longitude": -35.5261781,
+      "valor_minimo": 5.689900426742532,
+      "valor_maximo": 5.689900426742532,
+      "valor_medio": 5.689900426742532,
+      "valor_recente": 5.689900426742532,
+      "data_recente": "2026-04-11T13:28:57Z"
+    },
+    {
       "cnpj": "14638806000114",
       "tipo_combustivel": 4,
       "razao_social": "AUTO POSTO BOM JESUS EIRELI - EPP",
@@ -145,30 +145,10 @@
       "latitude": -9.2430177,
       "longitude": -35.4899024,
       "valor_minimo": 6.479481641468682,
-      "valor_maximo": 7.549943521058577,
-      "valor_medio": 7.0147125812636295,
-      "valor_recente": 7.549943521058577,
-      "data_recente": "2026-04-10T21:29:00Z"
-    },
-    {
-      "cnpj": "20031527000190",
-      "tipo_combustivel": 5,
-      "razao_social": "POSTO 4X4 COMERCIO DE COMBUSTIVEIS LTDA",
-      "nome_fantasia": "POSTO 4X4",
-      "telefone": "(82) 33286434",
-      "nome_logradouro": "ROD AL 105 NORTE",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57910000",
-      "codigo_ibge": 2705101,
-      "municipio": "MATRIZ DE CAMARAGIBE",
-      "latitude": -9.1524118,
-      "longitude": -35.5261781,
-      "valor_minimo": 7.149942006959165,
-      "valor_maximo": 7.149942006959165,
-      "valor_medio": 7.149942006959165,
-      "valor_recente": 7.149942006959165,
-      "data_recente": "2026-04-10T22:20:14Z"
+      "valor_maximo": 7.547169811320755,
+      "valor_medio": 7.013325726394719,
+      "valor_recente": 7.547169811320755,
+      "data_recente": "2026-04-11T13:31:54Z"
     },
     {
       "cnpj": "05988846000103",
@@ -184,11 +164,31 @@
       "municipio": "MATRIZ DE CAMARAGIBE",
       "latitude": -9.2430177,
       "longitude": -35.4899024,
-      "valor_minimo": 8.490038961993678,
-      "valor_maximo": 8.490038961993678,
-      "valor_medio": 8.490038961993678,
-      "valor_recente": 8.490038961993678,
-      "data_recente": "2026-04-10T21:42:00Z"
+      "valor_minimo": 7.021063189568706,
+      "valor_maximo": 7.021063189568706,
+      "valor_medio": 7.021063189568706,
+      "valor_recente": 7.021063189568706,
+      "data_recente": "2026-04-11T13:33:25Z"
+    },
+    {
+      "cnpj": "20031527000190",
+      "tipo_combustivel": 5,
+      "razao_social": "POSTO 4X4 COMERCIO DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "POSTO 4X4",
+      "telefone": "(82) 33286434",
+      "nome_logradouro": "ROD AL 105 NORTE",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57910000",
+      "codigo_ibge": 2705101,
+      "municipio": "MATRIZ DE CAMARAGIBE",
+      "latitude": -9.1524118,
+      "longitude": -35.5261781,
+      "valor_minimo": 7.449344457687723,
+      "valor_maximo": 7.449344457687723,
+      "valor_medio": 7.449344457687723,
+      "valor_recente": 7.449344457687723,
+      "data_recente": "2026-04-11T13:28:57Z"
     }
   ]
 }

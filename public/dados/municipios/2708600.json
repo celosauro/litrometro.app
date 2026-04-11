@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2708600",
   "municipio": "São Miguel dos Campos",
-  "atualizadoEm": "2026-04-11T11:22:19.255Z",
+  "atualizadoEm": "2026-04-11T16:06:20.998Z",
   "totalEstabelecimentos": 24,
   "combustiveis": {
     "1": {
       "totalPostos": 8,
-      "valorMinimo": 6.3796402602372755,
-      "valorMaximo": 6.850018837551803,
-      "valorMedio": 6.48488869498946
+      "valorMinimo": 6.379992344009187,
+      "valorMaximo": 6.44937917860554,
+      "valorMedio": 6.395812628203752
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 6.8891144379599085,
-      "valorMaximo": 6.8891144379599085,
-      "valorMedio": 6.8891144379599085
+      "valorMinimo": 6.889908256880734,
+      "valorMaximo": 6.889908256880734,
+      "valorMedio": 6.889908256880734
     },
     "3": {
       "totalPostos": 8,
-      "valorMinimo": 4.890023374311729,
-      "valorMaximo": 5.24006908462867,
-      "valorMedio": 5.098587773872031
+      "valorMinimo": 4.889993481095176,
+      "valorMaximo": 5.2398720682302775,
+      "valorMedio": 5.098342406726683
     },
     "5": {
       "totalPostos": 7,
-      "valorMinimo": 6.7899275612280094,
-      "valorMaximo": 7,
-      "valorMedio": 6.92853110283064
+      "valorMinimo": 6.789978927651604,
+      "valorMaximo": 7.249879168680522,
+      "valorMedio": 6.9942481951638635
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,71 @@
       "municipio": "SAO MIGUEL DOS CAMPOS",
       "latitude": -9.7796041,
       "longitude": -36.1009769,
-      "valor_minimo": 6.3796402602372755,
-      "valor_maximo": 6.3796402602372755,
-      "valor_medio": 6.3796402602372755,
-      "valor_recente": 6.3796402602372755,
-      "data_recente": "2026-04-10T22:02:38Z"
+      "valor_minimo": 6.379992344009187,
+      "valor_maximo": 6.379992344009187,
+      "valor_medio": 6.379992344009187,
+      "valor_recente": 6.379992344009187,
+      "data_recente": "2026-04-11T13:34:42Z"
+    },
+    {
+      "cnpj": "29709059000135",
+      "tipo_combustivel": 1,
+      "razao_social": "POSTO SM LTDA",
+      "nome_fantasia": "POSTO SM",
+      "telefone": "",
+      "nome_logradouro": "Q Y-1",
+      "numero_imovel": "SN",
+      "bairro": "HELIO JATOBA",
+      "cep": "57246200",
+      "codigo_ibge": 2708600,
+      "municipio": "SAO MIGUEL DOS CAMPOS",
+      "latitude": -9.78253389999999,
+      "longitude": -36.1020543,
+      "valor_minimo": 6.388553002821443,
+      "valor_maximo": 6.388553002821443,
+      "valor_medio": 6.388553002821443,
+      "valor_recente": 6.388553002821443,
+      "data_recente": "2026-04-11T13:49:28Z"
+    },
+    {
+      "cnpj": "11908167000171",
+      "tipo_combustivel": 1,
+      "razao_social": "DIESEL DISTRIBUIDORA E SERVICOS LTDA",
+      "nome_fantasia": "POSTO VIA SUL",
+      "telefone": "(82) 2712215",
+      "nome_logradouro": "ROD BR 101 SUL, KM 137",
+      "numero_imovel": "S/N",
+      "bairro": "HELIO JATOBA",
+      "cep": "57246370",
+      "codigo_ibge": 2708600,
+      "municipio": "SAO MIGUEL DOS CAMPOS",
+      "latitude": -12.6073526,
+      "longitude": -39.0616908,
+      "valor_minimo": 6.389124893797791,
+      "valor_maximo": 6.389124893797791,
+      "valor_medio": 6.389124893797791,
+      "valor_recente": 6.389124893797791,
+      "data_recente": "2026-04-11T13:57:23Z"
+    },
+    {
+      "cnpj": "04735992000156",
+      "tipo_combustivel": 1,
+      "razao_social": "MAXI POSTO LUB LTDA",
+      "nome_fantasia": "MAXI POSTO II",
+      "telefone": "",
+      "nome_logradouro": "Rua JOSE MEDEIROS APRATTO",
+      "numero_imovel": "271",
+      "bairro": "CENTRO",
+      "cep": "57240000",
+      "codigo_ibge": 2708600,
+      "municipio": "SAO MIGUEL DOS CAMPOS",
+      "latitude": -9.7763051,
+      "longitude": -36.1056368,
+      "valor_minimo": 6.389660493827161,
+      "valor_maximo": 6.389660493827161,
+      "valor_medio": 6.389660493827161,
+      "valor_recente": 6.389660493827161,
+      "data_recente": "2026-04-11T13:58:19Z"
     },
     {
       "cnpj": "11908167000503",
@@ -68,27 +128,7 @@
       "valor_maximo": 6.389776357827476,
       "valor_medio": 6.389776357827476,
       "valor_recente": 6.389776357827476,
-      "data_recente": "2026-04-10T22:08:29Z"
-    },
-    {
-      "cnpj": "04735992000156",
-      "tipo_combustivel": 1,
-      "razao_social": "MAXI POSTO LUB LTDA",
-      "nome_fantasia": "MAXI POSTO II",
-      "telefone": "",
-      "nome_logradouro": "Rua JOSE MEDEIROS APRATTO",
-      "numero_imovel": "271",
-      "bairro": "CENTRO",
-      "cep": "57240000",
-      "codigo_ibge": 2708600,
-      "municipio": "SAO MIGUEL DOS CAMPOS",
-      "latitude": -9.7763051,
-      "longitude": -36.1056368,
-      "valor_minimo": 6.389776357827476,
-      "valor_maximo": 6.389776357827476,
-      "valor_medio": 6.389776357827476,
-      "valor_recente": 6.389776357827476,
-      "data_recente": "2026-04-10T22:18:43Z"
+      "data_recente": "2026-04-11T13:52:44Z"
     },
     {
       "cnpj": "11908167000414",
@@ -108,27 +148,7 @@
       "valor_maximo": 6.389980510559443,
       "valor_medio": 6.389980510559443,
       "valor_recente": 6.389980510559443,
-      "data_recente": "2026-04-10T22:20:14Z"
-    },
-    {
-      "cnpj": "11908167000171",
-      "tipo_combustivel": 1,
-      "razao_social": "DIESEL DISTRIBUIDORA E SERVICOS LTDA",
-      "nome_fantasia": "POSTO VIA SUL",
-      "telefone": "(82) 2712215",
-      "nome_logradouro": "ROD BR 101 SUL, KM 137",
-      "numero_imovel": "S/N",
-      "bairro": "HELIO JATOBA",
-      "cep": "57246370",
-      "codigo_ibge": 2708600,
-      "municipio": "SAO MIGUEL DOS CAMPOS",
-      "latitude": -12.6073526,
-      "longitude": -39.0616908,
-      "valor_minimo": 6.389990443026155,
-      "valor_maximo": 6.389990443026155,
-      "valor_medio": 6.389990443026155,
-      "valor_recente": 6.389990443026155,
-      "data_recente": "2026-04-10T22:19:06Z"
+      "data_recente": "2026-04-11T13:55:44Z"
     },
     {
       "cnpj": "02991589000162",
@@ -144,31 +164,11 @@
       "municipio": "SAO MIGUEL DOS CAMPOS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.390079932242867,
-      "valor_maximo": 6.390079932242867,
-      "valor_medio": 6.390079932242867,
-      "valor_recente": 6.390079932242867,
-      "data_recente": "2026-04-10T22:18:25Z"
-    },
-    {
-      "cnpj": "29709059000135",
-      "tipo_combustivel": 1,
-      "razao_social": "POSTO SM LTDA",
-      "nome_fantasia": "POSTO SM",
-      "telefone": "",
-      "nome_logradouro": "Q Y-1",
-      "numero_imovel": "SN",
-      "bairro": "HELIO JATOBA",
-      "cep": "57246200",
-      "codigo_ibge": 2708600,
-      "municipio": "SAO MIGUEL DOS CAMPOS",
-      "latitude": -9.78253389999999,
-      "longitude": -36.1020543,
-      "valor_minimo": 6.699846860643185,
-      "valor_maximo": 6.699846860643185,
-      "valor_medio": 6.699846860643185,
-      "valor_recente": 6.699846860643185,
-      "data_recente": "2026-04-10T22:04:50Z"
+      "valor_minimo": 6.390034244181983,
+      "valor_maximo": 6.390034244181983,
+      "valor_medio": 6.390034244181983,
+      "valor_recente": 6.390034244181983,
+      "data_recente": "2026-04-11T13:58:16Z"
     },
     {
       "cnpj": "41585759000160",
@@ -184,11 +184,11 @@
       "municipio": "SAO MIGUEL DOS CAMPOS",
       "latitude": -9.7784547,
       "longitude": -36.0920727,
-      "valor_minimo": 6.850018837551803,
-      "valor_maximo": 6.850018837551803,
-      "valor_medio": 6.850018837551803,
-      "valor_recente": 6.850018837551803,
-      "data_recente": "2026-04-10T22:18:24Z"
+      "valor_minimo": 6.44937917860554,
+      "valor_maximo": 6.44937917860554,
+      "valor_medio": 6.44937917860554,
+      "valor_recente": 6.44937917860554,
+      "data_recente": "2026-04-11T13:56:54Z"
     },
     {
       "cnpj": "04735992000156",
@@ -204,11 +204,11 @@
       "municipio": "SAO MIGUEL DOS CAMPOS",
       "latitude": -9.7763051,
       "longitude": -36.1056368,
-      "valor_minimo": 6.8891144379599085,
-      "valor_maximo": 6.8891144379599085,
-      "valor_medio": 6.8891144379599085,
-      "valor_recente": 6.8891144379599085,
-      "data_recente": "2026-04-10T22:16:36Z"
+      "valor_minimo": 6.889908256880734,
+      "valor_maximo": 6.889908256880734,
+      "valor_medio": 6.889908256880734,
+      "valor_recente": 6.889908256880734,
+      "data_recente": "2026-04-11T13:51:08Z"
     },
     {
       "cnpj": "41585759000160",
@@ -224,11 +224,11 @@
       "municipio": "SAO MIGUEL DOS CAMPOS",
       "latitude": -9.7784547,
       "longitude": -36.0920727,
-      "valor_minimo": 4.890023374311729,
-      "valor_maximo": 4.890023374311729,
-      "valor_medio": 4.890023374311729,
-      "valor_recente": 4.890023374311729,
-      "data_recente": "2026-04-10T21:20:13Z"
+      "valor_minimo": 4.889993481095176,
+      "valor_maximo": 4.889993481095176,
+      "valor_medio": 4.889993481095176,
+      "valor_recente": 4.889993481095176,
+      "data_recente": "2026-04-11T13:57:57Z"
     },
     {
       "cnpj": "23817031000135",
@@ -244,11 +244,11 @@
       "municipio": "SAO MIGUEL DOS CAMPOS",
       "latitude": -9.7796041,
       "longitude": -36.1009769,
-      "valor_minimo": 4.979837705978992,
-      "valor_maximo": 4.979837705978992,
-      "valor_medio": 4.979837705978992,
-      "valor_recente": 4.979837705978992,
-      "data_recente": "2026-04-10T22:02:38Z"
+      "valor_minimo": 4.979616187729939,
+      "valor_maximo": 4.979616187729939,
+      "valor_medio": 4.979616187729939,
+      "valor_recente": 4.979616187729939,
+      "data_recente": "2026-04-10T23:13:16Z"
     },
     {
       "cnpj": "04735992000156",
@@ -264,11 +264,11 @@
       "municipio": "SAO MIGUEL DOS CAMPOS",
       "latitude": -9.7763051,
       "longitude": -36.1056368,
-      "valor_minimo": 4.99,
-      "valor_maximo": 4.99,
-      "valor_medio": 4.99,
-      "valor_recente": 4.99,
-      "data_recente": "2026-04-10T22:02:49Z"
+      "valor_minimo": 4.989024146876871,
+      "valor_maximo": 4.989024146876871,
+      "valor_medio": 4.989024146876871,
+      "valor_recente": 4.989024146876871,
+      "data_recente": "2026-04-11T13:35:42Z"
     },
     {
       "cnpj": "29709059000135",
@@ -291,24 +291,24 @@
       "data_recente": "2026-04-06T13:24:45Z"
     },
     {
-      "cnpj": "11908167000414",
+      "cnpj": "11908167000171",
       "tipo_combustivel": 3,
       "razao_social": "DIESEL DISTRIBUIDORA E SERVICOS LTDA",
-      "nome_fantasia": "POSTO CINEMA",
-      "telefone": "(82) 32711297",
-      "nome_logradouro": "Rua BARAO DE JEQUIA",
-      "numero_imovel": "86",
-      "bairro": "CENTRO",
-      "cep": "57240052",
+      "nome_fantasia": "POSTO VIA SUL",
+      "telefone": "(82) 2712215",
+      "nome_logradouro": "ROD BR 101 SUL, KM 137",
+      "numero_imovel": "S/N",
+      "bairro": "HELIO JATOBA",
+      "cep": "57246370",
       "codigo_ibge": 2708600,
       "municipio": "SAO MIGUEL DOS CAMPOS",
-      "latitude": -9.7803427,
-      "longitude": -36.0971704,
+      "latitude": -12.6073526,
+      "longitude": -39.0616908,
       "valor_minimo": 5.1894135962636225,
       "valor_maximo": 5.1894135962636225,
       "valor_medio": 5.1894135962636225,
       "valor_recente": 5.1894135962636225,
-      "data_recente": "2026-04-10T21:25:59Z"
+      "data_recente": "2026-04-11T13:37:00Z"
     },
     {
       "cnpj": "11908167000503",
@@ -324,31 +324,31 @@
       "municipio": "SAO MIGUEL DOS CAMPOS",
       "latitude": -9.797169799999999,
       "longitude": -36.11038670000001,
-      "valor_minimo": 5.189952252439277,
-      "valor_maximo": 5.189952252439277,
-      "valor_medio": 5.189952252439277,
-      "valor_recente": 5.189952252439277,
-      "data_recente": "2026-04-10T22:07:26Z"
+      "valor_minimo": 5.1894135962636225,
+      "valor_maximo": 5.1894135962636225,
+      "valor_medio": 5.1894135962636225,
+      "valor_recente": 5.1894135962636225,
+      "data_recente": "2026-04-11T13:05:23Z"
     },
     {
-      "cnpj": "11908167000171",
+      "cnpj": "11908167000414",
       "tipo_combustivel": 3,
       "razao_social": "DIESEL DISTRIBUIDORA E SERVICOS LTDA",
-      "nome_fantasia": "POSTO VIA SUL",
-      "telefone": "(82) 2712215",
-      "nome_logradouro": "ROD BR 101 SUL, KM 137",
-      "numero_imovel": "S/N",
-      "bairro": "HELIO JATOBA",
-      "cep": "57246370",
+      "nome_fantasia": "POSTO CINEMA",
+      "telefone": "(82) 32711297",
+      "nome_logradouro": "Rua BARAO DE JEQUIA",
+      "numero_imovel": "86",
+      "bairro": "CENTRO",
+      "cep": "57240052",
       "codigo_ibge": 2708600,
       "municipio": "SAO MIGUEL DOS CAMPOS",
-      "latitude": -12.6073526,
-      "longitude": -39.0616908,
+      "latitude": -9.7803427,
+      "longitude": -36.0971704,
       "valor_minimo": 5.189952252439277,
       "valor_maximo": 5.189952252439277,
       "valor_medio": 5.189952252439277,
       "valor_recente": 5.189952252439277,
-      "data_recente": "2026-04-10T20:43:18Z"
+      "data_recente": "2026-04-11T13:19:37Z"
     },
     {
       "cnpj": "02991589000162",
@@ -364,11 +364,11 @@
       "municipio": "SAO MIGUEL DOS CAMPOS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.24006908462867,
-      "valor_maximo": 5.24006908462867,
-      "valor_medio": 5.24006908462867,
-      "valor_recente": 5.24006908462867,
-      "data_recente": "2026-04-10T15:59:21Z"
+      "valor_minimo": 5.2398720682302775,
+      "valor_maximo": 5.2398720682302775,
+      "valor_medio": 5.2398720682302775,
+      "valor_recente": 5.2398720682302775,
+      "data_recente": "2026-04-10T19:29:43Z"
     },
     {
       "cnpj": "04735992000156",
@@ -384,11 +384,11 @@
       "municipio": "SAO MIGUEL DOS CAMPOS",
       "latitude": -9.7763051,
       "longitude": -36.1056368,
-      "valor_minimo": 6.7899275612280094,
-      "valor_maximo": 6.7899275612280094,
-      "valor_medio": 6.7899275612280094,
-      "valor_recente": 6.7899275612280094,
-      "data_recente": "2026-04-10T22:19:40Z"
+      "valor_minimo": 6.789978927651604,
+      "valor_maximo": 6.789978927651604,
+      "valor_medio": 6.789978927651604,
+      "valor_recente": 6.789978927651604,
+      "data_recente": "2026-04-11T13:55:49Z"
     },
     {
       "cnpj": "02991589000162",
@@ -404,11 +404,11 @@
       "municipio": "SAO MIGUEL DOS CAMPOS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.849958508822747,
-      "valor_maximo": 6.849958508822747,
-      "valor_medio": 6.849958508822747,
-      "valor_recente": 6.849958508822747,
-      "data_recente": "2026-04-10T22:20:24Z"
+      "valor_minimo": 6.850008551393877,
+      "valor_maximo": 6.850008551393877,
+      "valor_medio": 6.850008551393877,
+      "valor_recente": 6.850008551393877,
+      "data_recente": "2026-04-11T13:53:53Z"
     },
     {
       "cnpj": "41585759000160",
@@ -424,11 +424,11 @@
       "municipio": "SAO MIGUEL DOS CAMPOS",
       "latitude": -9.7784547,
       "longitude": -36.0920727,
-      "valor_minimo": 6.889878902004011,
-      "valor_maximo": 6.889878902004011,
-      "valor_medio": 6.889878902004011,
-      "valor_recente": 6.889878902004011,
-      "data_recente": "2026-04-10T21:42:14Z"
+      "valor_minimo": 6.89,
+      "valor_maximo": 6.89,
+      "valor_medio": 6.89,
+      "valor_recente": 6.89,
+      "data_recente": "2026-04-11T13:50:38Z"
     },
     {
       "cnpj": "11908167000414",
@@ -444,11 +444,11 @@
       "municipio": "SAO MIGUEL DOS CAMPOS",
       "latitude": -9.7803427,
       "longitude": -36.0971704,
-      "valor_minimo": 6.989976373879856,
-      "valor_maximo": 6.989976373879856,
-      "valor_medio": 6.989976373879856,
-      "valor_recente": 6.989976373879856,
-      "data_recente": "2026-04-10T20:31:31Z"
+      "valor_minimo": 6.989951944080384,
+      "valor_maximo": 6.989951944080384,
+      "valor_medio": 6.989951944080384,
+      "valor_recente": 6.989951944080384,
+      "data_recente": "2026-04-11T13:42:06Z"
     },
     {
       "cnpj": "11908167000503",
@@ -468,27 +468,7 @@
       "valor_maximo": 6.989976373879856,
       "valor_medio": 6.989976373879856,
       "valor_recente": 6.989976373879856,
-      "data_recente": "2026-04-10T20:06:00Z"
-    },
-    {
-      "cnpj": "11908167000171",
-      "tipo_combustivel": 5,
-      "razao_social": "DIESEL DISTRIBUIDORA E SERVICOS LTDA",
-      "nome_fantasia": "POSTO VIA SUL",
-      "telefone": "(82) 2712215",
-      "nome_logradouro": "ROD BR 101 SUL, KM 137",
-      "numero_imovel": "S/N",
-      "bairro": "HELIO JATOBA",
-      "cep": "57246370",
-      "codigo_ibge": 2708600,
-      "municipio": "SAO MIGUEL DOS CAMPOS",
-      "latitude": -12.6073526,
-      "longitude": -39.0616908,
-      "valor_minimo": 6.99,
-      "valor_maximo": 6.99,
-      "valor_medio": 6.99,
-      "valor_recente": 6.99,
-      "data_recente": "2026-04-10T22:04:43Z"
+      "data_recente": "2026-04-11T13:05:23Z"
     },
     {
       "cnpj": "29709059000135",
@@ -504,11 +484,31 @@
       "municipio": "SAO MIGUEL DOS CAMPOS",
       "latitude": -9.78253389999999,
       "longitude": -36.1020543,
-      "valor_minimo": 7,
-      "valor_maximo": 7,
-      "valor_medio": 7,
-      "valor_recente": 7,
-      "data_recente": "2026-04-10T21:41:44Z"
+      "valor_minimo": 7.199942400460796,
+      "valor_maximo": 7.199942400460796,
+      "valor_medio": 7.199942400460796,
+      "valor_recente": 7.199942400460796,
+      "data_recente": "2026-04-11T13:30:10Z"
+    },
+    {
+      "cnpj": "11908167000171",
+      "tipo_combustivel": 5,
+      "razao_social": "DIESEL DISTRIBUIDORA E SERVICOS LTDA",
+      "nome_fantasia": "POSTO VIA SUL",
+      "telefone": "(82) 2712215",
+      "nome_logradouro": "ROD BR 101 SUL, KM 137",
+      "numero_imovel": "S/N",
+      "bairro": "HELIO JATOBA",
+      "cep": "57246370",
+      "codigo_ibge": 2708600,
+      "municipio": "SAO MIGUEL DOS CAMPOS",
+      "latitude": -12.6073526,
+      "longitude": -39.0616908,
+      "valor_minimo": 7.249879168680522,
+      "valor_maximo": 7.249879168680522,
+      "valor_medio": 7.249879168680522,
+      "valor_recente": 7.249879168680522,
+      "data_recente": "2026-04-11T13:31:09Z"
     }
   ]
 }
