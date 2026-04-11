@@ -1,55 +1,35 @@
 {
   "codigoIBGE": "2707305",
   "municipio": "Porto Calvo",
-  "atualizadoEm": "2026-04-11T20:55:07.458Z",
+  "atualizadoEm": "2026-04-11T21:57:50.761Z",
   "totalEstabelecimentos": 14,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
-      "valorMinimo": 6.789509382771874,
-      "valorMaximo": 7.099751508697196,
-      "valorMedio": 6.904684858840325
+      "valorMinimo": 6.788866259334691,
+      "valorMaximo": 7.100591715976331,
+      "valorMedio": 6.905897585942937
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.889424733034792,
-      "valorMaximo": 7.137777777777778,
-      "valorMedio": 7.013601255406285
+      "valorMinimo": 6.89,
+      "valorMaximo": 7.142857142857143,
+      "valorMedio": 7.0164285714285715
     },
     "3": {
       "totalPostos": 4,
       "valorMinimo": 5.285714285714286,
-      "valorMaximo": 5.60971505496971,
-      "valorMedio": 5.498537594262858
+      "valorMaximo": 5.609783462358353,
+      "valorMedio": 5.4988454081869715
     },
     "5": {
       "totalPostos": 4,
-      "valorMinimo": 7.678727114210985,
-      "valorMaximo": 7.689990836094253,
-      "valorMedio": 7.684664185357488
+      "valorMinimo": 7.67962308598351,
+      "valorMaximo": 7.690026036231008,
+      "valorMedio": 7.684843156129666
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "34190671000184",
-      "tipo_combustivel": 1,
-      "razao_social": "POSTO FERREIRA E JACINTO LTDA",
-      "nome_fantasia": "POSTO DETH",
-      "telefone": "(82) 88080423",
-      "nome_logradouro": "ROD AL 101 NORTE",
-      "numero_imovel": "S/N",
-      "bairro": "CENTRO",
-      "cep": "57900000",
-      "codigo_ibge": 2707305,
-      "municipio": "PORTO CALVO",
-      "latitude": -8.922867,
-      "longitude": -35.1588491,
-      "valor_minimo": 6.789509382771874,
-      "valor_maximo": 6.789509382771874,
-      "valor_medio": 6.789509382771874,
-      "valor_recente": 6.789509382771874,
-      "data_recente": "2026-04-11T17:21:57Z"
-    },
     {
       "cnpj": "50773495000160",
       "tipo_combustivel": 1,
@@ -64,11 +44,31 @@
       "municipio": "PORTO CALVO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.789524733268671,
-      "valor_maximo": 6.789524733268671,
-      "valor_medio": 6.789524733268671,
-      "valor_recente": 6.789524733268671,
-      "data_recente": "2026-04-11T17:13:24Z"
+      "valor_minimo": 6.788866259334691,
+      "valor_maximo": 6.788866259334691,
+      "valor_medio": 6.788866259334691,
+      "valor_recente": 6.788866259334691,
+      "data_recente": "2026-04-11T19:10:15Z"
+    },
+    {
+      "cnpj": "34190671000184",
+      "tipo_combustivel": 1,
+      "razao_social": "POSTO FERREIRA E JACINTO LTDA",
+      "nome_fantasia": "POSTO DETH",
+      "telefone": "(82) 88080423",
+      "nome_logradouro": "ROD AL 101 NORTE",
+      "numero_imovel": "S/N",
+      "bairro": "CENTRO",
+      "cep": "57900000",
+      "codigo_ibge": 2707305,
+      "municipio": "PORTO CALVO",
+      "latitude": -8.922867,
+      "longitude": -35.1588491,
+      "valor_minimo": 6.789687924016282,
+      "valor_maximo": 6.789687924016282,
+      "valor_medio": 6.789687924016282,
+      "valor_recente": 6.789687924016282,
+      "data_recente": "2026-04-11T19:29:06Z"
     },
     {
       "cnpj": "10673213000138",
@@ -84,11 +84,11 @@
       "municipio": "PORTO CALVO",
       "latitude": -9.0474879,
       "longitude": -35.4052326,
-      "valor_minimo": 6.939953810623557,
-      "valor_maximo": 6.939953810623557,
-      "valor_medio": 6.939953810623557,
-      "valor_recente": 6.939953810623557,
-      "data_recente": "2026-04-11T16:01:42Z"
+      "valor_minimo": 6.944444444444445,
+      "valor_maximo": 6.944444444444445,
+      "valor_medio": 6.944444444444445,
+      "valor_recente": 6.944444444444445,
+      "data_recente": "2026-04-11T19:33:05Z"
     },
     {
       "cnpj": "13074634000130",
@@ -104,11 +104,11 @@
       "municipio": "PORTO CALVO",
       "latitude": -9.052577,
       "longitude": -35.421595,
-      "valor_minimo": 7.099751508697196,
-      "valor_maximo": 7.099751508697196,
-      "valor_medio": 7.099751508697196,
-      "valor_recente": 7.099751508697196,
-      "data_recente": "2026-04-11T16:05:14Z"
+      "valor_minimo": 7.100591715976331,
+      "valor_maximo": 7.100591715976331,
+      "valor_medio": 7.100591715976331,
+      "valor_recente": 7.100591715976331,
+      "data_recente": "2026-04-11T19:04:07Z"
     },
     {
       "cnpj": "50773495000160",
@@ -124,11 +124,11 @@
       "municipio": "PORTO CALVO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.889424733034792,
-      "valor_maximo": 6.889424733034792,
-      "valor_medio": 6.889424733034792,
-      "valor_recente": 6.889424733034792,
-      "data_recente": "2026-04-11T16:17:02Z"
+      "valor_minimo": 6.89,
+      "valor_maximo": 6.89,
+      "valor_medio": 6.89,
+      "valor_recente": 6.89,
+      "data_recente": "2026-04-11T19:02:20Z"
     },
     {
       "cnpj": "10673213000138",
@@ -144,11 +144,11 @@
       "municipio": "PORTO CALVO",
       "latitude": -9.0474879,
       "longitude": -35.4052326,
-      "valor_minimo": 7.137777777777778,
-      "valor_maximo": 7.137777777777778,
-      "valor_medio": 7.137777777777778,
-      "valor_recente": 7.137777777777778,
-      "data_recente": "2026-04-11T15:59:51Z"
+      "valor_minimo": 7.142857142857143,
+      "valor_maximo": 7.142857142857143,
+      "valor_medio": 7.142857142857143,
+      "valor_recente": 7.142857142857143,
+      "data_recente": "2026-04-11T17:57:48Z"
     },
     {
       "cnpj": "10673213000138",
@@ -191,6 +191,26 @@
       "data_recente": "2026-04-06T08:12:03Z"
     },
     {
+      "cnpj": "34190671000184",
+      "tipo_combustivel": 3,
+      "razao_social": "POSTO FERREIRA E JACINTO LTDA",
+      "nome_fantasia": "POSTO DETH",
+      "telefone": "(82) 88080423",
+      "nome_logradouro": "ROD AL 101 NORTE",
+      "numero_imovel": "S/N",
+      "bairro": "CENTRO",
+      "cep": "57900000",
+      "codigo_ibge": 2707305,
+      "municipio": "PORTO CALVO",
+      "latitude": -8.922867,
+      "longitude": -35.1588491,
+      "valor_minimo": 5.609687806243875,
+      "valor_maximo": 5.609687806243875,
+      "valor_medio": 5.609687806243875,
+      "valor_recente": 5.609687806243875,
+      "data_recente": "2026-04-11T19:30:31Z"
+    },
+    {
       "cnpj": "50773495000160",
       "tipo_combustivel": 3,
       "razao_social": "AUTO POSTO PORTO CALVO LTDA",
@@ -204,51 +224,11 @@
       "municipio": "PORTO CALVO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.608524957936063,
-      "valor_maximo": 5.608524957936063,
-      "valor_medio": 5.608524957936063,
-      "valor_recente": 5.608524957936063,
-      "data_recente": "2026-04-11T16:17:02Z"
-    },
-    {
-      "cnpj": "34190671000184",
-      "tipo_combustivel": 3,
-      "razao_social": "POSTO FERREIRA E JACINTO LTDA",
-      "nome_fantasia": "POSTO DETH",
-      "telefone": "(82) 88080423",
-      "nome_logradouro": "ROD AL 101 NORTE",
-      "numero_imovel": "S/N",
-      "bairro": "CENTRO",
-      "cep": "57900000",
-      "codigo_ibge": 2707305,
-      "municipio": "PORTO CALVO",
-      "latitude": -8.922867,
-      "longitude": -35.1588491,
-      "valor_minimo": 5.60971505496971,
-      "valor_maximo": 5.60971505496971,
-      "valor_medio": 5.60971505496971,
-      "valor_recente": 5.60971505496971,
-      "data_recente": "2026-04-11T16:10:14Z"
-    },
-    {
-      "cnpj": "34190671000184",
-      "tipo_combustivel": 5,
-      "razao_social": "POSTO FERREIRA E JACINTO LTDA",
-      "nome_fantasia": "POSTO DETH",
-      "telefone": "(82) 88080423",
-      "nome_logradouro": "ROD AL 101 NORTE",
-      "numero_imovel": "S/N",
-      "bairro": "CENTRO",
-      "cep": "57900000",
-      "codigo_ibge": 2707305,
-      "municipio": "PORTO CALVO",
-      "latitude": -8.922867,
-      "longitude": -35.1588491,
-      "valor_minimo": 7.678727114210985,
-      "valor_maximo": 7.678727114210985,
-      "valor_medio": 7.678727114210985,
-      "valor_recente": 7.678727114210985,
-      "data_recente": "2026-04-11T17:00:09Z"
+      "valor_minimo": 5.609783462358353,
+      "valor_maximo": 5.609783462358353,
+      "valor_medio": 5.609783462358353,
+      "valor_recente": 5.609783462358353,
+      "data_recente": "2026-04-11T19:11:02Z"
     },
     {
       "cnpj": "50773495000160",
@@ -264,11 +244,31 @@
       "municipio": "PORTO CALVO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.68,
-      "valor_maximo": 7.68,
-      "valor_medio": 7.68,
-      "valor_recente": 7.68,
-      "data_recente": "2026-04-11T16:59:12Z"
+      "valor_minimo": 7.67962308598351,
+      "valor_maximo": 7.67962308598351,
+      "valor_medio": 7.67962308598351,
+      "valor_recente": 7.67962308598351,
+      "data_recente": "2026-04-11T19:10:38Z"
+    },
+    {
+      "cnpj": "34190671000184",
+      "tipo_combustivel": 5,
+      "razao_social": "POSTO FERREIRA E JACINTO LTDA",
+      "nome_fantasia": "POSTO DETH",
+      "telefone": "(82) 88080423",
+      "nome_logradouro": "ROD AL 101 NORTE",
+      "numero_imovel": "S/N",
+      "bairro": "CENTRO",
+      "cep": "57900000",
+      "codigo_ibge": 2707305,
+      "municipio": "PORTO CALVO",
+      "latitude": -8.922867,
+      "longitude": -35.1588491,
+      "valor_minimo": 7.679723502304148,
+      "valor_maximo": 7.679723502304148,
+      "valor_medio": 7.679723502304148,
+      "valor_recente": 7.679723502304148,
+      "data_recente": "2026-04-11T19:30:31Z"
     },
     {
       "cnpj": "13074634000130",
@@ -284,11 +284,11 @@
       "municipio": "PORTO CALVO",
       "latitude": -9.052577,
       "longitude": -35.421595,
-      "valor_minimo": 7.689938791124713,
-      "valor_maximo": 7.689938791124713,
-      "valor_medio": 7.689938791124713,
-      "valor_recente": 7.689938791124713,
-      "data_recente": "2026-04-11T17:22:38Z"
+      "valor_minimo": 7.69,
+      "valor_maximo": 7.69,
+      "valor_medio": 7.69,
+      "valor_recente": 7.69,
+      "data_recente": "2026-04-11T19:19:16Z"
     },
     {
       "cnpj": "10673213000138",
@@ -304,11 +304,11 @@
       "municipio": "PORTO CALVO",
       "latitude": -9.0474879,
       "longitude": -35.4052326,
-      "valor_minimo": 7.689990836094253,
-      "valor_maximo": 7.689990836094253,
-      "valor_medio": 7.689990836094253,
-      "valor_recente": 7.689990836094253,
-      "data_recente": "2026-04-11T15:30:48Z"
+      "valor_minimo": 7.690026036231008,
+      "valor_maximo": 7.690026036231008,
+      "valor_medio": 7.690026036231008,
+      "valor_recente": 7.690026036231008,
+      "data_recente": "2026-04-11T19:33:19Z"
     }
   ]
 }
