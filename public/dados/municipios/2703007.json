@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2703007",
   "municipio": "Ibateguara",
-  "atualizadoEm": "2026-04-11T07:04:28.980Z",
+  "atualizadoEm": "2026-04-11T07:59:08.171Z",
   "totalEstabelecimentos": 10,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.649124582532132,
+      "valorMinimo": 6.949961508852963,
       "valorMaximo": 6.989748369058714,
-      "valorMedio": 6.862944820147937
+      "valorMedio": 6.975970838323092
     },
     "2": {
       "totalPostos": 2,
@@ -25,31 +25,11 @@
     "5": {
       "totalPostos": 3,
       "valorMinimo": 7.389970554317767,
-      "valorMaximo": 7.649938800489596,
-      "valorMedio": 7.476636451602455
+      "valorMaximo": 7.650187265917603,
+      "valorMedio": 7.476719273411791
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "11457014000155",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO TOP LINE LTDA - EPP",
-      "nome_fantasia": "AUTO POSTO TOP LINE",
-      "telefone": "(82) 32031114",
-      "nome_logradouro": "Rua DRA JANETE DE ARAUJO",
-      "numero_imovel": "227",
-      "bairro": "CENTRO",
-      "cep": "57890000",
-      "codigo_ibge": 2703007,
-      "municipio": "IBATEGUARA",
-      "latitude": -8.968526599999999,
-      "longitude": -35.9246712,
-      "valor_minimo": 6.649124582532132,
-      "valor_maximo": 6.649124582532132,
-      "valor_medio": 6.649124582532132,
-      "valor_recente": 6.649124582532132,
-      "data_recente": "2026-04-10T18:02:43Z"
-    },
     {
       "cnpj": "37308725000151",
       "tipo_combustivel": 1,
@@ -69,6 +49,26 @@
       "valor_medio": 6.949961508852963,
       "valor_recente": 6.949961508852963,
       "data_recente": "2026-04-10T18:27:38Z"
+    },
+    {
+      "cnpj": "11457014000155",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO TOP LINE LTDA - EPP",
+      "nome_fantasia": "AUTO POSTO TOP LINE",
+      "telefone": "(82) 32031114",
+      "nome_logradouro": "Rua DRA JANETE DE ARAUJO",
+      "numero_imovel": "227",
+      "bairro": "CENTRO",
+      "cep": "57890000",
+      "codigo_ibge": 2703007,
+      "municipio": "IBATEGUARA",
+      "latitude": -8.968526599999999,
+      "longitude": -35.9246712,
+      "valor_minimo": 6.988202637057599,
+      "valor_maximo": 6.988202637057599,
+      "valor_medio": 6.988202637057599,
+      "valor_recente": 6.988202637057599,
+      "data_recente": "2026-04-10T20:11:30Z"
     },
     {
       "cnpj": "14432556000161",
@@ -128,7 +128,7 @@
       "valor_maximo": 6.987112504353884,
       "valor_medio": 6.987112504353884,
       "valor_recente": 6.987112504353884,
-      "data_recente": "2026-04-10T15:21:19Z"
+      "data_recente": "2026-04-10T19:42:52Z"
     },
     {
       "cnpj": "14432556000161",
@@ -224,11 +224,11 @@
       "municipio": "IBATEGUARA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.649938800489596,
-      "valor_maximo": 7.649938800489596,
-      "valor_medio": 7.649938800489596,
-      "valor_recente": 7.649938800489596,
-      "data_recente": "2026-04-10T15:07:09Z"
+      "valor_minimo": 7.650187265917603,
+      "valor_maximo": 7.650187265917603,
+      "valor_medio": 7.650187265917603,
+      "valor_recente": 7.650187265917603,
+      "data_recente": "2026-04-10T19:43:30Z"
     }
   ]
 }

@@ -1,38 +1,38 @@
 {
   "codigoIBGE": "2705804",
   "municipio": "Olho d'Água do Casado",
-  "atualizadoEm": "2026-04-11T07:17:23.066Z",
+  "atualizadoEm": "2026-04-11T08:13:32.396Z",
   "totalEstabelecimentos": 5,
   "combustiveis": {
     "1": {
+      "totalPostos": 1,
+      "valorMinimo": 7.346387575962187,
+      "valorMaximo": 7.346387575962187,
+      "valorMedio": 7.346387575962187
+    },
+    "2": {
       "totalPostos": 1,
       "valorMinimo": 7.3493385595296425,
       "valorMaximo": 7.3493385595296425,
       "valorMedio": 7.3493385595296425
     },
-    "2": {
-      "totalPostos": 1,
-      "valorMinimo": 7.347538574577516,
-      "valorMaximo": 7.347538574577516,
-      "valorMedio": 7.347538574577516
-    },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.459807776321537,
-      "valorMaximo": 5.459807776321537,
-      "valorMedio": 5.459807776321537
+      "valorMinimo": 5.458515283842795,
+      "valorMaximo": 5.458515283842795,
+      "valorMedio": 5.458515283842795
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 7.6767676767676765,
-      "valorMaximo": 7.6767676767676765,
-      "valorMedio": 7.6767676767676765
+      "valorMinimo": 7.679901697258275,
+      "valorMaximo": 7.679901697258275,
+      "valorMedio": 7.679901697258275
     },
     "5": {
       "totalPostos": 1,
-      "valorMinimo": 7.548725637181409,
-      "valorMaximo": 7.548725637181409,
-      "valorMedio": 7.548725637181409
+      "valorMinimo": 7.549019607843137,
+      "valorMaximo": 7.549019607843137,
+      "valorMedio": 7.549019607843137
     }
   },
   "estabelecimentos": [
@@ -50,11 +50,11 @@
       "municipio": "OLHO D'AGUA DO CASADO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.3493385595296425,
-      "valor_maximo": 7.3493385595296425,
-      "valor_medio": 7.3493385595296425,
-      "valor_recente": 7.3493385595296425,
-      "data_recente": "2026-04-10T18:38:10Z"
+      "valor_minimo": 7.346387575962187,
+      "valor_maximo": 7.346387575962187,
+      "valor_medio": 7.346387575962187,
+      "valor_recente": 7.346387575962187,
+      "data_recente": "2026-04-10T19:27:35Z"
     },
     {
       "cnpj": "31586899000108",
@@ -70,11 +70,11 @@
       "municipio": "OLHO D'AGUA DO CASADO",
       "latitude": -9.5012558,
       "longitude": -37.8269288,
-      "valor_minimo": 7.347538574577516,
-      "valor_maximo": 7.347538574577516,
-      "valor_medio": 7.347538574577516,
-      "valor_recente": 7.347538574577516,
-      "data_recente": "2026-04-10T18:34:50Z"
+      "valor_minimo": 7.3493385595296425,
+      "valor_maximo": 7.3493385595296425,
+      "valor_medio": 7.3493385595296425,
+      "valor_recente": 7.3493385595296425,
+      "data_recente": "2026-04-10T20:31:31Z"
     },
     {
       "cnpj": "43473879000100",
@@ -90,11 +90,11 @@
       "municipio": "OLHO D'AGUA DO CASADO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.459807776321537,
-      "valor_maximo": 5.459807776321537,
-      "valor_medio": 5.459807776321537,
-      "valor_recente": 5.459807776321537,
-      "data_recente": "2026-04-10T17:15:34Z"
+      "valor_minimo": 5.458515283842795,
+      "valor_maximo": 5.458515283842795,
+      "valor_medio": 5.458515283842795,
+      "valor_recente": 5.458515283842795,
+      "data_recente": "2026-04-10T20:00:47Z"
     },
     {
       "cnpj": "31586899000108",
@@ -110,11 +110,11 @@
       "municipio": "OLHO D'AGUA DO CASADO",
       "latitude": -9.5012558,
       "longitude": -37.8269288,
-      "valor_minimo": 7.6767676767676765,
-      "valor_maximo": 7.6767676767676765,
-      "valor_medio": 7.6767676767676765,
-      "valor_recente": 7.6767676767676765,
-      "data_recente": "2026-04-10T14:59:24Z"
+      "valor_minimo": 7.679901697258275,
+      "valor_maximo": 7.679901697258275,
+      "valor_medio": 7.679901697258275,
+      "valor_recente": 7.679901697258275,
+      "data_recente": "2026-04-10T20:06:11Z"
     },
     {
       "cnpj": "43473879000100",
@@ -130,11 +130,11 @@
       "municipio": "OLHO D'AGUA DO CASADO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.548725637181409,
-      "valor_maximo": 7.548725637181409,
-      "valor_medio": 7.548725637181409,
-      "valor_recente": 7.548725637181409,
-      "data_recente": "2026-04-10T17:58:40Z"
+      "valor_minimo": 7.549019607843137,
+      "valor_maximo": 7.549019607843137,
+      "valor_medio": 7.549019607843137,
+      "valor_recente": 7.549019607843137,
+      "data_recente": "2026-04-10T20:28:58Z"
     }
   ]
 }

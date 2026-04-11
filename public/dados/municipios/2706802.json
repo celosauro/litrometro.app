@@ -1,26 +1,26 @@
 {
   "codigoIBGE": "2706802",
   "municipio": "Piaçabuçu",
-  "atualizadoEm": "2026-04-11T07:22:45.082Z",
+  "atualizadoEm": "2026-04-11T08:18:07.816Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 7.117437722419929,
+      "valorMinimo": 7.119126720455624,
       "valorMaximo": 7.1200222144693095,
-      "valorMedio": 7.118729968444619
+      "valorMedio": 7.119574467462467
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.219444444444444,
-      "valorMaximo": 7.219444444444444,
-      "valorMedio": 7.219444444444444
+      "valorMinimo": 7.2202166064981945,
+      "valorMaximo": 7.2202166064981945,
+      "valorMedio": 7.2202166064981945
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.5397727272727275,
-      "valorMaximo": 5.5397727272727275,
-      "valorMedio": 5.5397727272727275
+      "valorMinimo": 5.54016620498615,
+      "valorMaximo": 5.54016620498615,
+      "valorMedio": 5.54016620498615
     },
     "4": {
       "totalPostos": 1,
@@ -31,8 +31,8 @@
     "5": {
       "totalPostos": 3,
       "valorMinimo": 2.9,
-      "valorMaximo": 7.889994540123778,
-      "valorMedio": 6.224115827100083
+      "valorMaximo": 7.889546351084813,
+      "valorMedio": 6.226145079991234
     }
   },
   "estabelecimentos": [
@@ -50,11 +50,11 @@
       "municipio": "PIACABUCU",
       "latitude": -10.4073113,
       "longitude": -36.4313297,
-      "valor_minimo": 7.117437722419929,
-      "valor_maximo": 7.117437722419929,
-      "valor_medio": 7.117437722419929,
-      "valor_recente": 7.117437722419929,
-      "data_recente": "2026-04-10T18:38:52Z"
+      "valor_minimo": 7.119126720455624,
+      "valor_maximo": 7.119126720455624,
+      "valor_medio": 7.119126720455624,
+      "valor_recente": 7.119126720455624,
+      "data_recente": "2026-04-10T20:26:34Z"
     },
     {
       "cnpj": "24197104000104",
@@ -74,7 +74,7 @@
       "valor_maximo": 7.1200222144693095,
       "valor_medio": 7.1200222144693095,
       "valor_recente": 7.1200222144693095,
-      "data_recente": "2026-04-10T17:40:31Z"
+      "data_recente": "2026-04-10T20:21:19Z"
     },
     {
       "cnpj": "05388025000209",
@@ -90,11 +90,11 @@
       "municipio": "PIACABUCU",
       "latitude": -10.4073113,
       "longitude": -36.4313297,
-      "valor_minimo": 7.219444444444444,
-      "valor_maximo": 7.219444444444444,
-      "valor_medio": 7.219444444444444,
-      "valor_recente": 7.219444444444444,
-      "data_recente": "2026-04-10T16:32:41Z"
+      "valor_minimo": 7.2202166064981945,
+      "valor_maximo": 7.2202166064981945,
+      "valor_medio": 7.2202166064981945,
+      "valor_recente": 7.2202166064981945,
+      "data_recente": "2026-04-10T20:06:10Z"
     },
     {
       "cnpj": "05388025000209",
@@ -110,11 +110,11 @@
       "municipio": "PIACABUCU",
       "latitude": -10.4073113,
       "longitude": -36.4313297,
-      "valor_minimo": 5.5397727272727275,
-      "valor_maximo": 5.5397727272727275,
-      "valor_medio": 5.5397727272727275,
-      "valor_recente": 5.5397727272727275,
-      "data_recente": "2026-04-10T17:56:24Z"
+      "valor_minimo": 5.54016620498615,
+      "valor_maximo": 5.54016620498615,
+      "valor_medio": 5.54016620498615,
+      "valor_recente": 5.54016620498615,
+      "data_recente": "2026-04-10T20:30:55Z"
     },
     {
       "cnpj": "07824798000305",
@@ -157,26 +157,6 @@
       "data_recente": "2026-04-02T13:51:24Z"
     },
     {
-      "cnpj": "05388025000209",
-      "tipo_combustivel": 5,
-      "razao_social": "BARBOSA & ROCHA LTDA",
-      "nome_fantasia": "POSTO SAO PEDRO",
-      "telefone": "",
-      "nome_logradouro": "LGO SANTA TEREZINHA",
-      "numero_imovel": "55",
-      "bairro": "CENTRO",
-      "cep": "57210000",
-      "codigo_ibge": 2706802,
-      "municipio": "PIACABUCU",
-      "latitude": -10.4073113,
-      "longitude": -36.4313297,
-      "valor_minimo": 7.882352941176471,
-      "valor_maximo": 7.882352941176471,
-      "valor_medio": 7.882352941176471,
-      "valor_recente": 7.882352941176471,
-      "data_recente": "2026-04-10T15:21:16Z"
-    },
-    {
       "cnpj": "24197104000104",
       "tipo_combustivel": 5,
       "razao_social": "AUTO POSTO TRÊS IRMÃOS LTDA  - EPP",
@@ -190,11 +170,31 @@
       "municipio": "PIACABUCU",
       "latitude": -10.4072761,
       "longitude": -36.4252736,
-      "valor_minimo": 7.889994540123778,
-      "valor_maximo": 7.889994540123778,
-      "valor_medio": 7.889994540123778,
-      "valor_recente": 7.889994540123778,
-      "data_recente": "2026-04-10T16:17:40Z"
+      "valor_minimo": 7.888888888888889,
+      "valor_maximo": 7.888888888888889,
+      "valor_medio": 7.888888888888889,
+      "valor_recente": 7.888888888888889,
+      "data_recente": "2026-04-10T19:08:52Z"
+    },
+    {
+      "cnpj": "05388025000209",
+      "tipo_combustivel": 5,
+      "razao_social": "BARBOSA & ROCHA LTDA",
+      "nome_fantasia": "POSTO SAO PEDRO",
+      "telefone": "",
+      "nome_logradouro": "LGO SANTA TEREZINHA",
+      "numero_imovel": "55",
+      "bairro": "CENTRO",
+      "cep": "57210000",
+      "codigo_ibge": 2706802,
+      "municipio": "PIACABUCU",
+      "latitude": -10.4073113,
+      "longitude": -36.4313297,
+      "valor_minimo": 7.889546351084813,
+      "valor_maximo": 7.889546351084813,
+      "valor_medio": 7.889546351084813,
+      "valor_recente": 7.889546351084813,
+      "data_recente": "2026-04-10T19:49:31Z"
     }
   ]
 }

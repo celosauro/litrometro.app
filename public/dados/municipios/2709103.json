@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2709103",
   "municipio": "Taquarana",
-  "atualizadoEm": "2026-04-11T07:33:14.183Z",
+  "atualizadoEm": "2026-04-11T08:27:07.532Z",
   "totalEstabelecimentos": 10,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.6893696581196584,
-      "valorMaximo": 6.899158220237073,
-      "valorMedio": 6.828888460410319
+      "valorMinimo": 6.689406099518459,
+      "valorMaximo": 6.899902818270165,
+      "valorMedio": 6.828169900444723
     },
     "2": {
       "totalPostos": 1,
@@ -18,9 +18,9 @@
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 4.789891834976548,
+      "valorMinimo": 4.789939295232455,
       "valorMaximo": 4.88997555012225,
-      "valorMedio": 4.839933692549399
+      "valorMedio": 4.839957422677353
     },
     "4": {
       "totalPostos": 1,
@@ -30,9 +30,9 @@
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.399570910705038,
-      "valorMaximo": 7.399927810864465,
-      "valorMedio": 7.399699780941776
+      "valorMinimo": 7.396883593033913,
+      "valorMaximo": 7.399958359358734,
+      "valorMedio": 7.398932181365461
     }
   },
   "estabelecimentos": [
@@ -50,31 +50,11 @@
       "municipio": "TAQUARANA",
       "latitude": -9.6451013,
       "longitude": -36.4903116,
-      "valor_minimo": 6.6893696581196584,
-      "valor_maximo": 6.6893696581196584,
-      "valor_medio": 6.6893696581196584,
-      "valor_recente": 6.6893696581196584,
-      "data_recente": "2026-04-10T18:23:34Z"
-    },
-    {
-      "cnpj": "69999456000103",
-      "tipo_combustivel": 1,
-      "razao_social": "S.A DA SILVA E CIA LTDA",
-      "nome_fantasia": "AUTO POSTO SANTA CRUZ",
-      "telefone": "",
-      "nome_logradouro": "Rua VINTE E UM DE SETEMBRO",
-      "numero_imovel": "83",
-      "bairro": "CENTRO",
-      "cep": "57640000",
-      "codigo_ibge": 2709103,
-      "municipio": "TAQUARANA",
-      "latitude": -9.6468235,
-      "longitude": -36.4910774,
-      "valor_minimo": 6.898137502874224,
-      "valor_maximo": 6.898137502874224,
-      "valor_medio": 6.898137502874224,
-      "valor_recente": 6.898137502874224,
-      "data_recente": "2026-04-10T18:20:13Z"
+      "valor_minimo": 6.689406099518459,
+      "valor_maximo": 6.689406099518459,
+      "valor_medio": 6.689406099518459,
+      "valor_recente": 6.689406099518459,
+      "data_recente": "2026-04-10T19:23:38Z"
     },
     {
       "cnpj": "15706489000199",
@@ -90,11 +70,31 @@
       "municipio": "TAQUARANA",
       "latitude": -9.645102300000001,
       "longitude": -36.4935948,
-      "valor_minimo": 6.899158220237073,
-      "valor_maximo": 6.899158220237073,
-      "valor_medio": 6.899158220237073,
-      "valor_recente": 6.899158220237073,
-      "data_recente": "2026-04-10T18:32:30Z"
+      "valor_minimo": 6.895200783545544,
+      "valor_maximo": 6.895200783545544,
+      "valor_medio": 6.895200783545544,
+      "valor_recente": 6.895200783545544,
+      "data_recente": "2026-04-10T20:28:04Z"
+    },
+    {
+      "cnpj": "69999456000103",
+      "tipo_combustivel": 1,
+      "razao_social": "S.A DA SILVA E CIA LTDA",
+      "nome_fantasia": "AUTO POSTO SANTA CRUZ",
+      "telefone": "",
+      "nome_logradouro": "Rua VINTE E UM DE SETEMBRO",
+      "numero_imovel": "83",
+      "bairro": "CENTRO",
+      "cep": "57640000",
+      "codigo_ibge": 2709103,
+      "municipio": "TAQUARANA",
+      "latitude": -9.6468235,
+      "longitude": -36.4910774,
+      "valor_minimo": 6.899902818270165,
+      "valor_maximo": 6.899902818270165,
+      "valor_medio": 6.899902818270165,
+      "valor_recente": 6.899902818270165,
+      "data_recente": "2026-04-10T20:08:37Z"
     },
     {
       "cnpj": "20097123000108",
@@ -130,11 +130,11 @@
       "municipio": "TAQUARANA",
       "latitude": -9.6451013,
       "longitude": -36.4903116,
-      "valor_minimo": 4.789891834976548,
-      "valor_maximo": 4.789891834976548,
-      "valor_medio": 4.789891834976548,
-      "valor_recente": 4.789891834976548,
-      "data_recente": "2026-04-10T16:25:13Z"
+      "valor_minimo": 4.789939295232455,
+      "valor_maximo": 4.789939295232455,
+      "valor_medio": 4.789939295232455,
+      "valor_recente": 4.789939295232455,
+      "data_recente": "2026-04-10T19:15:06Z"
     },
     {
       "cnpj": "15706489000199",
@@ -177,24 +177,24 @@
       "data_recente": "2026-04-10T16:22:26Z"
     },
     {
-      "cnpj": "20097123000108",
+      "cnpj": "15706489000199",
       "tipo_combustivel": 5,
-      "razao_social": "POSTO DE COMBUSTIVEL MIRANTE LTDA -",
-      "nome_fantasia": "POSTO MIRANTE",
-      "telefone": "(82) 33383844",
-      "nome_logradouro": "Rua PEDRO ROSA",
-      "numero_imovel": "140",
-      "bairro": "CENTRO",
+      "razao_social": "AUTO POSTO MANGUEIRAO EIRELI EPP",
+      "nome_fantasia": "POSTO MANGUEIRAO",
+      "telefone": "",
+      "nome_logradouro": "AV PAI JOAO",
+      "numero_imovel": "526",
+      "bairro": "PAI JOAO",
       "cep": "57640000",
       "codigo_ibge": 2709103,
       "municipio": "TAQUARANA",
-      "latitude": -9.6451013,
-      "longitude": -36.4903116,
-      "valor_minimo": 7.399570910705038,
-      "valor_maximo": 7.399570910705038,
-      "valor_medio": 7.399570910705038,
-      "valor_recente": 7.399570910705038,
-      "data_recente": "2026-04-10T16:22:26Z"
+      "latitude": -9.645102300000001,
+      "longitude": -36.4935948,
+      "valor_minimo": 7.396883593033913,
+      "valor_maximo": 7.396883593033913,
+      "valor_medio": 7.396883593033913,
+      "valor_recente": 7.396883593033913,
+      "data_recente": "2026-04-10T20:28:04Z"
     },
     {
       "cnpj": "69999456000103",
@@ -210,31 +210,31 @@
       "municipio": "TAQUARANA",
       "latitude": -9.6468235,
       "longitude": -36.4910774,
-      "valor_minimo": 7.399600621255824,
-      "valor_maximo": 7.399600621255824,
-      "valor_medio": 7.399600621255824,
-      "valor_recente": 7.399600621255824,
-      "data_recente": "2026-04-10T17:45:43Z"
+      "valor_minimo": 7.399954591703736,
+      "valor_maximo": 7.399954591703736,
+      "valor_medio": 7.399954591703736,
+      "valor_recente": 7.399954591703736,
+      "data_recente": "2026-04-10T19:41:00Z"
     },
     {
-      "cnpj": "15706489000199",
+      "cnpj": "20097123000108",
       "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO MANGUEIRAO EIRELI EPP",
-      "nome_fantasia": "POSTO MANGUEIRAO",
-      "telefone": "",
-      "nome_logradouro": "AV PAI JOAO",
-      "numero_imovel": "526",
-      "bairro": "PAI JOAO",
+      "razao_social": "POSTO DE COMBUSTIVEL MIRANTE LTDA -",
+      "nome_fantasia": "POSTO MIRANTE",
+      "telefone": "(82) 33383844",
+      "nome_logradouro": "Rua PEDRO ROSA",
+      "numero_imovel": "140",
+      "bairro": "CENTRO",
       "cep": "57640000",
       "codigo_ibge": 2709103,
       "municipio": "TAQUARANA",
-      "latitude": -9.645102300000001,
-      "longitude": -36.4935948,
-      "valor_minimo": 7.399927810864465,
-      "valor_maximo": 7.399927810864465,
-      "valor_medio": 7.399927810864465,
-      "valor_recente": 7.399927810864465,
-      "data_recente": "2026-04-10T18:38:45Z"
+      "latitude": -9.6451013,
+      "longitude": -36.4903116,
+      "valor_minimo": 7.399958359358734,
+      "valor_maximo": 7.399958359358734,
+      "valor_medio": 7.399958359358734,
+      "valor_recente": 7.399958359358734,
+      "data_recente": "2026-04-10T20:16:36Z"
     }
   ]
 }

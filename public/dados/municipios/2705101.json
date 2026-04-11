@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2705101",
   "municipio": "Matriz de Camaragibe",
-  "atualizadoEm": "2026-04-11T07:14:15.266Z",
+  "atualizadoEm": "2026-04-11T08:10:38.484Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.5,
-      "valorMaximo": 6.629938882671946,
-      "valorMedio": 6.572518055313135
+      "valorMinimo": 6.49955765260985,
+      "valorMaximo": 6.629101756711965,
+      "valorMedio": 6.5719038592564445
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.289885738468049,
+      "valorMinimo": 5.289968860617997,
       "valorMaximo": 5.569434239529757,
-      "valorMedio": 5.429659988998903
+      "valorMedio": 5.429701550073878
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 7.549543881723812,
-      "valorMaximo": 7.549543881723812,
-      "valorMedio": 7.549543881723812
+      "valorMinimo": 7.549448890231013,
+      "valorMaximo": 7.549448890231013,
+      "valorMedio": 7.549448890231013
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.02000702000702,
-      "valorMaximo": 7.149492639702729,
-      "valorMedio": 7.084749829854875
+      "valorMinimo": 7.15,
+      "valorMaximo": 8.490003898201259,
+      "valorMedio": 7.82000194910063
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "MATRIZ DE CAMARAGIBE",
       "latitude": -9.2430177,
       "longitude": -35.4899024,
-      "valor_minimo": 6.5,
-      "valor_maximo": 6.5,
-      "valor_medio": 6.5,
-      "valor_recente": 6.5,
-      "data_recente": "2026-04-10T18:39:10Z"
+      "valor_minimo": 6.49955765260985,
+      "valor_maximo": 6.49955765260985,
+      "valor_medio": 6.49955765260985,
+      "valor_recente": 6.49955765260985,
+      "data_recente": "2026-04-10T20:31:38Z"
     },
     {
       "cnpj": "20031527000190",
@@ -64,11 +64,11 @@
       "municipio": "MATRIZ DE CAMARAGIBE",
       "latitude": -9.1524118,
       "longitude": -35.5261781,
-      "valor_minimo": 6.587615283267457,
-      "valor_maximo": 6.587615283267457,
-      "valor_medio": 6.587615283267457,
-      "valor_recente": 6.587615283267457,
-      "data_recente": "2026-04-10T17:46:28Z"
+      "valor_minimo": 6.587052168447517,
+      "valor_maximo": 6.587052168447517,
+      "valor_medio": 6.587052168447517,
+      "valor_recente": 6.587052168447517,
+      "data_recente": "2026-04-10T20:07:41Z"
     },
     {
       "cnpj": "05988846000103",
@@ -84,11 +84,11 @@
       "municipio": "MATRIZ DE CAMARAGIBE",
       "latitude": -9.2430177,
       "longitude": -35.4899024,
-      "valor_minimo": 6.629938882671946,
-      "valor_maximo": 6.629938882671946,
-      "valor_medio": 6.629938882671946,
-      "valor_recente": 6.629938882671946,
-      "data_recente": "2026-04-10T18:39:12Z"
+      "valor_minimo": 6.629101756711965,
+      "valor_maximo": 6.629101756711965,
+      "valor_medio": 6.629101756711965,
+      "valor_recente": 6.629101756711965,
+      "data_recente": "2026-04-10T20:33:27Z"
     },
     {
       "cnpj": "20031527000190",
@@ -104,11 +104,11 @@
       "municipio": "MATRIZ DE CAMARAGIBE",
       "latitude": -9.1524118,
       "longitude": -35.5261781,
-      "valor_minimo": 5.289885738468049,
-      "valor_maximo": 5.289885738468049,
-      "valor_medio": 5.289885738468049,
-      "valor_recente": 5.289885738468049,
-      "data_recente": "2026-04-10T17:48:43Z"
+      "valor_minimo": 5.289968860617997,
+      "valor_maximo": 5.289968860617997,
+      "valor_medio": 5.289968860617997,
+      "valor_recente": 5.289968860617997,
+      "data_recente": "2026-04-10T20:20:06Z"
     },
     {
       "cnpj": "05988846000103",
@@ -145,30 +145,10 @@
       "latitude": -9.2430177,
       "longitude": -35.4899024,
       "valor_minimo": 6.479481641468682,
-      "valor_maximo": 7.549543881723812,
-      "valor_medio": 7.014512761596247,
-      "valor_recente": 7.549543881723812,
-      "data_recente": "2026-04-10T18:35:02Z"
-    },
-    {
-      "cnpj": "05988846000103",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO VASCONCELOS LTDA -",
-      "nome_fantasia": "POSTO BOM JESUS",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 101 NORTE",
-      "numero_imovel": "S/N",
-      "bairro": "CENTRO",
-      "cep": "57910000",
-      "codigo_ibge": 2705101,
-      "municipio": "MATRIZ DE CAMARAGIBE",
-      "latitude": -9.2430177,
-      "longitude": -35.4899024,
-      "valor_minimo": 7.02000702000702,
-      "valor_maximo": 7.02000702000702,
-      "valor_medio": 7.02000702000702,
-      "valor_recente": 7.02000702000702,
-      "data_recente": "2026-04-10T17:21:40Z"
+      "valor_maximo": 7.549448890231013,
+      "valor_medio": 7.014465265849848,
+      "valor_recente": 7.549448890231013,
+      "data_recente": "2026-04-10T19:32:41Z"
     },
     {
       "cnpj": "20031527000190",
@@ -184,11 +164,31 @@
       "municipio": "MATRIZ DE CAMARAGIBE",
       "latitude": -9.1524118,
       "longitude": -35.5261781,
-      "valor_minimo": 7.149492639702729,
-      "valor_maximo": 7.149492639702729,
-      "valor_medio": 7.149492639702729,
-      "valor_recente": 7.149492639702729,
-      "data_recente": "2026-04-10T14:01:40Z"
+      "valor_minimo": 7.15,
+      "valor_maximo": 7.15,
+      "valor_medio": 7.15,
+      "valor_recente": 7.15,
+      "data_recente": "2026-04-10T20:15:09Z"
+    },
+    {
+      "cnpj": "05988846000103",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO VASCONCELOS LTDA -",
+      "nome_fantasia": "POSTO BOM JESUS",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 101 NORTE",
+      "numero_imovel": "S/N",
+      "bairro": "CENTRO",
+      "cep": "57910000",
+      "codigo_ibge": 2705101,
+      "municipio": "MATRIZ DE CAMARAGIBE",
+      "latitude": -9.2430177,
+      "longitude": -35.4899024,
+      "valor_minimo": 8.490003898201259,
+      "valor_maximo": 8.490003898201259,
+      "valor_medio": 8.490003898201259,
+      "valor_recente": 8.490003898201259,
+      "data_recente": "2026-04-10T20:28:37Z"
     }
   ]
 }

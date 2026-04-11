@@ -1,55 +1,35 @@
 {
   "codigoIBGE": "2701605",
   "municipio": "Canapi",
-  "atualizadoEm": "2026-04-11T06:56:43.986Z",
+  "atualizadoEm": "2026-04-11T07:49:24.193Z",
   "totalEstabelecimentos": 21,
   "combustiveis": {
     "1": {
       "totalPostos": 6,
-      "valorMinimo": 6.639883588510692,
+      "valorMinimo": 6.700687818948302,
       "valorMaximo": 6.988120195667365,
-      "valorMedio": 6.829819167398131
+      "valorMedio": 6.884805572976173
     },
     "2": {
       "totalPostos": 5,
-      "valorMinimo": 6.809901596921924,
-      "valorMaximo": 7.250602409638554,
-      "valorMedio": 7.0355771600262305
+      "valorMinimo": 6.809078771695594,
+      "valorMaximo": 7.249456652982372,
+      "valorMedio": 7.034896187854168
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 5.930830039525691,
+      "valorMinimo": 5.929841897233201,
       "valorMaximo": 5.989316239316239,
-      "valorMedio": 5.953266467699824
+      "valorMedio": 5.952937086935662
     },
     "5": {
       "totalPostos": 7,
-      "valorMinimo": 7.28000728000728,
-      "valorMaximo": 7.789982083041209,
-      "valorMedio": 7.534122685054184
+      "valorMinimo": 6.629693397788226,
+      "valorMaximo": 7.985071397663349,
+      "valorMedio": 7.417837635497908
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "27246281000113",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO KELLY BEZERRA LTDA - EPP",
-      "nome_fantasia": "AUTO POSTO KELLY BEZERRA",
-      "telefone": "(82) 36412381",
-      "nome_logradouro": "ROD POVOADO CARIE - BR 316",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57530000",
-      "codigo_ibge": 2701605,
-      "municipio": "CANAPI",
-      "latitude": -9.189925,
-      "longitude": -37.51899,
-      "valor_minimo": 6.639883588510692,
-      "valor_maximo": 6.639883588510692,
-      "valor_medio": 6.639883588510692,
-      "valor_recente": 6.639883588510692,
-      "data_recente": "2026-04-10T18:16:52Z"
-    },
     {
       "cnpj": "24938944000172",
       "tipo_combustivel": 1,
@@ -64,11 +44,11 @@
       "municipio": "CANAPI",
       "latitude": -9.117225,
       "longitude": -37.604013,
-      "valor_minimo": 6.699995536312101,
-      "valor_maximo": 6.699995536312101,
-      "valor_medio": 6.699995536312101,
-      "valor_recente": 6.699995536312101,
-      "data_recente": "2026-04-10T17:40:28Z"
+      "valor_minimo": 6.700687818948302,
+      "valor_maximo": 6.700687818948302,
+      "valor_medio": 6.700687818948302,
+      "valor_recente": 6.700687818948302,
+      "data_recente": "2026-04-10T20:28:23Z"
     },
     {
       "cnpj": "54983925000129",
@@ -84,11 +64,31 @@
       "municipio": "CANAPI",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.749915626054674,
-      "valor_maximo": 6.749915626054674,
-      "valor_medio": 6.749915626054674,
-      "valor_recente": 6.749915626054674,
-      "data_recente": "2026-04-10T18:27:59Z"
+      "valor_minimo": 6.749460043196544,
+      "valor_maximo": 6.749460043196544,
+      "valor_medio": 6.749460043196544,
+      "valor_recente": 6.749460043196544,
+      "data_recente": "2026-04-10T20:19:18Z"
+    },
+    {
+      "cnpj": "27246281000113",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO KELLY BEZERRA LTDA - EPP",
+      "nome_fantasia": "AUTO POSTO KELLY BEZERRA",
+      "telefone": "(82) 36412381",
+      "nome_logradouro": "ROD POVOADO CARIE - BR 316",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57530000",
+      "codigo_ibge": 2701605,
+      "municipio": "CANAPI",
+      "latitude": -9.189925,
+      "longitude": -37.51899,
+      "valor_minimo": 6.939625260235947,
+      "valor_maximo": 6.939625260235947,
+      "valor_medio": 6.939625260235947,
+      "valor_recente": 6.939625260235947,
+      "data_recente": "2026-04-10T20:27:15Z"
     },
     {
       "cnpj": "28451142000194",
@@ -104,11 +104,11 @@
       "municipio": "CANAPI",
       "latitude": -9.1176632,
       "longitude": -37.6038522,
-      "valor_minimo": 6.9404432132963985,
-      "valor_maximo": 6.969933854479856,
-      "valor_medio": 6.955188533888127,
-      "valor_recente": 6.9404432132963985,
-      "data_recente": "2026-04-10T17:45:15Z"
+      "valor_minimo": 6.939953810623557,
+      "valor_maximo": 6.970383275261324,
+      "valor_medio": 6.95516854294244,
+      "valor_recente": 6.970383275261324,
+      "data_recente": "2026-04-10T20:34:42Z"
     },
     {
       "cnpj": "07483858000101",
@@ -128,7 +128,7 @@
       "valor_maximo": 6.960556844547564,
       "valor_medio": 6.960556844547564,
       "valor_recente": 6.960556844547564,
-      "data_recente": "2026-04-10T18:26:29Z"
+      "data_recente": "2026-04-10T20:16:33Z"
     },
     {
       "cnpj": "24296959000184",
@@ -148,7 +148,7 @@
       "valor_maximo": 6.988120195667365,
       "valor_medio": 6.988120195667365,
       "valor_recente": 6.988120195667365,
-      "data_recente": "2026-04-10T18:39:29Z"
+      "data_recente": "2026-04-10T20:29:36Z"
     },
     {
       "cnpj": "24938944000172",
@@ -164,11 +164,11 @@
       "municipio": "CANAPI",
       "latitude": -9.117225,
       "longitude": -37.604013,
-      "valor_minimo": 6.809901596921924,
-      "valor_maximo": 6.809901596921924,
-      "valor_medio": 6.809901596921924,
-      "valor_recente": 6.809901596921924,
-      "data_recente": "2026-04-10T14:19:04Z"
+      "valor_minimo": 6.809078771695594,
+      "valor_maximo": 6.809078771695594,
+      "valor_medio": 6.809078771695594,
+      "valor_recente": 6.809078771695594,
+      "data_recente": "2026-04-10T20:28:56Z"
     },
     {
       "cnpj": "54983925000129",
@@ -184,11 +184,11 @@
       "municipio": "CANAPI",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.859651529702291,
-      "valor_maximo": 6.859651529702291,
-      "valor_medio": 6.859651529702291,
-      "valor_recente": 6.859651529702291,
-      "data_recente": "2026-04-10T18:18:07Z"
+      "valor_minimo": 6.858710562414266,
+      "valor_maximo": 6.858710562414266,
+      "valor_medio": 6.858710562414266,
+      "valor_recente": 6.858710562414266,
+      "data_recente": "2026-04-10T20:11:37Z"
     },
     {
       "cnpj": "07483858000101",
@@ -204,11 +204,11 @@
       "municipio": "CANAPI",
       "latitude": -9.1180471,
       "longitude": -37.6017756,
-      "valor_minimo": 7.1199715201139195,
-      "valor_maximo": 7.1199715201139195,
-      "valor_medio": 7.1199715201139195,
-      "valor_recente": 7.1199715201139195,
-      "data_recente": "2026-04-10T18:07:04Z"
+      "valor_minimo": 7.117437722419929,
+      "valor_maximo": 7.117437722419929,
+      "valor_medio": 7.117437722419929,
+      "valor_recente": 7.117437722419929,
+      "data_recente": "2026-04-10T20:14:12Z"
     },
     {
       "cnpj": "27246281000113",
@@ -224,11 +224,11 @@
       "municipio": "CANAPI",
       "latitude": -9.189925,
       "longitude": -37.51899,
-      "valor_minimo": 7.137758743754461,
-      "valor_maximo": 7.137758743754461,
-      "valor_medio": 7.137758743754461,
-      "valor_recente": 7.137758743754461,
-      "data_recente": "2026-04-10T17:16:29Z"
+      "valor_minimo": 7.139797229758675,
+      "valor_maximo": 7.139797229758675,
+      "valor_medio": 7.139797229758675,
+      "valor_recente": 7.139797229758675,
+      "data_recente": "2026-04-10T20:00:03Z"
     },
     {
       "cnpj": "35831352000173",
@@ -244,11 +244,11 @@
       "municipio": "CANAPI",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.250602409638554,
-      "valor_maximo": 7.250602409638554,
-      "valor_medio": 7.250602409638554,
-      "valor_recente": 7.250602409638554,
-      "data_recente": "2026-04-10T18:33:29Z"
+      "valor_minimo": 7.249456652982372,
+      "valor_maximo": 7.249456652982372,
+      "valor_medio": 7.249456652982372,
+      "valor_recente": 7.249456652982372,
+      "data_recente": "2026-04-10T20:04:04Z"
     },
     {
       "cnpj": "28451142000194",
@@ -264,11 +264,11 @@
       "municipio": "CANAPI",
       "latitude": -9.1176632,
       "longitude": -37.6038522,
-      "valor_minimo": 5.930830039525691,
-      "valor_maximo": 5.930830039525691,
-      "valor_medio": 5.930830039525691,
-      "valor_recente": 5.930830039525691,
-      "data_recente": "2026-04-10T17:09:34Z"
+      "valor_minimo": 5.929841897233201,
+      "valor_maximo": 5.929841897233201,
+      "valor_medio": 5.929841897233201,
+      "valor_recente": 5.929841897233201,
+      "data_recente": "2026-04-10T20:20:40Z"
     },
     {
       "cnpj": "27246281000113",
@@ -288,7 +288,7 @@
       "valor_maximo": 5.939653124257544,
       "valor_medio": 5.939653124257544,
       "valor_recente": 5.939653124257544,
-      "data_recente": "2026-04-10T17:39:35Z"
+      "data_recente": "2026-04-10T19:52:49Z"
     },
     {
       "cnpj": "24296959000184",
@@ -311,6 +311,26 @@
       "data_recente": "2026-04-10T16:53:10Z"
     },
     {
+      "cnpj": "27246281000113",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO KELLY BEZERRA LTDA - EPP",
+      "nome_fantasia": "AUTO POSTO KELLY BEZERRA",
+      "telefone": "(82) 36412381",
+      "nome_logradouro": "ROD POVOADO CARIE - BR 316",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57530000",
+      "codigo_ibge": 2701605,
+      "municipio": "CANAPI",
+      "latitude": -9.189925,
+      "longitude": -37.51899,
+      "valor_minimo": 6.629693397788226,
+      "valor_maximo": 6.629693397788226,
+      "valor_medio": 6.629693397788226,
+      "valor_recente": 6.629693397788226,
+      "data_recente": "2026-04-10T19:54:55Z"
+    },
+    {
       "cnpj": "24938944000172",
       "tipo_combustivel": 5,
       "razao_social": "POSTO DERIVADOS DE PETROLEO LTDA",
@@ -324,11 +344,11 @@
       "municipio": "CANAPI",
       "latitude": -9.117225,
       "longitude": -37.604013,
-      "valor_minimo": 7.28000728000728,
-      "valor_maximo": 7.28000728000728,
-      "valor_medio": 7.28000728000728,
-      "valor_recente": 7.28000728000728,
-      "data_recente": "2026-04-10T14:19:04Z"
+      "valor_minimo": 7.280033779356736,
+      "valor_maximo": 7.280033779356736,
+      "valor_medio": 7.280033779356736,
+      "valor_recente": 7.280033779356736,
+      "data_recente": "2026-04-10T20:21:35Z"
     },
     {
       "cnpj": "54983925000129",
@@ -344,11 +364,11 @@
       "municipio": "CANAPI",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.299270072992701,
-      "valor_maximo": 7.299270072992701,
-      "valor_medio": 7.299270072992701,
-      "valor_recente": 7.299270072992701,
-      "data_recente": "2026-04-10T17:20:37Z"
+      "valor_minimo": 7.299802905321556,
+      "valor_maximo": 7.299802905321556,
+      "valor_medio": 7.299802905321556,
+      "valor_recente": 7.299802905321556,
+      "data_recente": "2026-04-10T18:41:51Z"
     },
     {
       "cnpj": "28451142000194",
@@ -364,31 +384,11 @@
       "municipio": "CANAPI",
       "latitude": -9.1176632,
       "longitude": -37.6038522,
-      "valor_minimo": 7.359976448075366,
-      "valor_maximo": 7.359976448075366,
-      "valor_medio": 7.359976448075366,
-      "valor_recente": 7.359976448075366,
-      "data_recente": "2026-04-10T16:47:58Z"
-    },
-    {
-      "cnpj": "27246281000113",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO KELLY BEZERRA LTDA - EPP",
-      "nome_fantasia": "AUTO POSTO KELLY BEZERRA",
-      "telefone": "(82) 36412381",
-      "nome_logradouro": "ROD POVOADO CARIE - BR 316",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57530000",
-      "codigo_ibge": 2701605,
-      "municipio": "CANAPI",
-      "latitude": -9.189925,
-      "longitude": -37.51899,
-      "valor_minimo": 7.639419404125286,
-      "valor_maximo": 7.639419404125286,
-      "valor_medio": 7.639419404125286,
-      "valor_recente": 7.639419404125286,
-      "data_recente": "2026-04-10T18:26:56Z"
+      "valor_minimo": 7.3599632690541785,
+      "valor_maximo": 7.3599632690541785,
+      "valor_medio": 7.3599632690541785,
+      "valor_recente": 7.3599632690541785,
+      "data_recente": "2026-04-10T20:19:34Z"
     },
     {
       "cnpj": "35831352000173",
@@ -424,11 +424,11 @@
       "municipio": "CANAPI",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.689846364280306,
-      "valor_maximo": 7.689846364280306,
-      "valor_medio": 7.689846364280306,
-      "valor_recente": 7.689846364280306,
-      "data_recente": "2026-04-10T18:38:40Z"
+      "valor_minimo": 7.689941556444171,
+      "valor_maximo": 7.689941556444171,
+      "valor_medio": 7.689941556444171,
+      "valor_recente": 7.689941556444171,
+      "data_recente": "2026-04-10T20:25:47Z"
     },
     {
       "cnpj": "07483858000101",
@@ -444,11 +444,11 @@
       "municipio": "CANAPI",
       "latitude": -9.1180471,
       "longitude": -37.6017756,
-      "valor_minimo": 7.789982083041209,
-      "valor_maximo": 7.789982083041209,
-      "valor_medio": 7.789982083041209,
-      "valor_recente": 7.789982083041209,
-      "data_recente": "2026-04-10T15:59:17Z"
+      "valor_minimo": 7.985071397663349,
+      "valor_maximo": 7.985071397663349,
+      "valor_medio": 7.985071397663349,
+      "valor_recente": 7.985071397663349,
+      "data_recente": "2026-04-10T19:39:20Z"
     }
   ]
 }

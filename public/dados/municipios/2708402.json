@@ -1,55 +1,35 @@
 {
   "codigoIBGE": "2708402",
   "municipio": "São José da Tapera",
-  "atualizadoEm": "2026-04-11T07:29:35.568Z",
+  "atualizadoEm": "2026-04-11T08:24:14.249Z",
   "totalEstabelecimentos": 11,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.9888178913738015,
+      "valorMinimo": 6.939625260235947,
       "valorMaximo": 7.141843971631205,
-      "valorMedio": 7.040063552938842
+      "valorMedio": 7.023344466530898
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 7.18988069570217,
-      "valorMaximo": 7.610126582278481,
-      "valorMedio": 7.400003638990325
+      "valorMinimo": 7.042253521126761,
+      "valorMaximo": 7.3125,
+      "valorMedio": 7.17737676056338
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 5.451577801958651,
+      "valorMinimo": 5.449891067538126,
       "valorMaximo": 6.030084235860409,
-      "valorMedio": 5.690100929250043
+      "valorMedio": 5.689538684443202
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.1900350877192984,
-      "valorMaximo": 7.899815027745838,
-      "valorMedio": 7.646642869466924
+      "valorMinimo": 6.79,
+      "valorMaximo": 7.85017382527756,
+      "valorMedio": 7.343462375050696
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "30434665000174",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO CONFIANCA LTDA",
-      "nome_fantasia": "AUTO POSTO PAGUE MENOS",
-      "telefone": "(82) 99482210",
-      "nome_logradouro": "AV MANOEL MACIANO",
-      "numero_imovel": "S/N",
-      "bairro": "DEZ",
-      "cep": "57445000",
-      "codigo_ibge": 2708402,
-      "municipio": "SAO JOSE DA TAPERA",
-      "latitude": -9.55372,
-      "longitude": -37.37467,
-      "valor_minimo": 6.9888178913738015,
-      "valor_maximo": 6.9888178913738015,
-      "valor_medio": 6.9888178913738015,
-      "valor_recente": 6.9888178913738015,
-      "data_recente": "2026-04-10T18:27:42Z"
-    },
     {
       "cnpj": "14959471000136",
       "tipo_combustivel": 1,
@@ -64,11 +44,31 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": -9.5309789,
       "longitude": -37.5115726,
-      "valor_minimo": 6.989528795811518,
-      "valor_maximo": 6.989528795811518,
-      "valor_medio": 6.989528795811518,
-      "valor_recente": 6.989528795811518,
-      "data_recente": "2026-04-10T18:33:35Z"
+      "valor_minimo": 6.939625260235947,
+      "valor_maximo": 6.939625260235947,
+      "valor_medio": 6.939625260235947,
+      "valor_recente": 6.939625260235947,
+      "data_recente": "2026-04-10T20:30:31Z"
+    },
+    {
+      "cnpj": "30434665000174",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO CONFIANCA LTDA",
+      "nome_fantasia": "AUTO POSTO PAGUE MENOS",
+      "telefone": "(82) 99482210",
+      "nome_logradouro": "AV MANOEL MACIANO",
+      "numero_imovel": "S/N",
+      "bairro": "DEZ",
+      "cep": "57445000",
+      "codigo_ibge": 2708402,
+      "municipio": "SAO JOSE DA TAPERA",
+      "latitude": -9.55372,
+      "longitude": -37.37467,
+      "valor_minimo": 6.98856416772554,
+      "valor_maximo": 6.98856416772554,
+      "valor_medio": 6.98856416772554,
+      "valor_recente": 6.98856416772554,
+      "data_recente": "2026-04-10T20:30:55Z"
     },
     {
       "cnpj": "12512646000137",
@@ -88,7 +88,7 @@
       "valor_maximo": 7.141843971631205,
       "valor_medio": 7.141843971631205,
       "valor_recente": 7.141843971631205,
-      "data_recente": "2026-04-10T18:34:50Z"
+      "data_recente": "2026-04-10T20:27:55Z"
     },
     {
       "cnpj": "14959471000136",
@@ -104,11 +104,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": -9.5309789,
       "longitude": -37.5115726,
-      "valor_minimo": 7.18988069570217,
-      "valor_maximo": 7.18988069570217,
-      "valor_medio": 7.18988069570217,
-      "valor_recente": 7.18988069570217,
-      "data_recente": "2026-04-10T18:15:02Z"
+      "valor_minimo": 7.042253521126761,
+      "valor_maximo": 7.042253521126761,
+      "valor_medio": 7.042253521126761,
+      "valor_recente": 7.042253521126761,
+      "data_recente": "2026-04-10T20:28:14Z"
     },
     {
       "cnpj": "12512646000137",
@@ -124,11 +124,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.610126582278481,
-      "valor_maximo": 7.610126582278481,
-      "valor_medio": 7.610126582278481,
-      "valor_recente": 7.610126582278481,
-      "data_recente": "2026-04-10T17:59:35Z"
+      "valor_minimo": 7.3125,
+      "valor_maximo": 7.3125,
+      "valor_medio": 7.3125,
+      "valor_recente": 7.3125,
+      "data_recente": "2026-04-10T20:30:18Z"
     },
     {
       "cnpj": "14959471000136",
@@ -144,11 +144,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": -9.5309789,
       "longitude": -37.5115726,
-      "valor_minimo": 5.451577801958651,
-      "valor_maximo": 5.451577801958651,
-      "valor_medio": 5.451577801958651,
-      "valor_recente": 5.451577801958651,
-      "data_recente": "2026-04-10T17:20:29Z"
+      "valor_minimo": 5.449891067538126,
+      "valor_maximo": 5.449891067538126,
+      "valor_medio": 5.449891067538126,
+      "valor_recente": 5.449891067538126,
+      "data_recente": "2026-04-10T20:13:22Z"
     },
     {
       "cnpj": "30434665000174",
@@ -191,6 +191,26 @@
       "data_recente": "2026-04-10T09:43:41Z"
     },
     {
+      "cnpj": "30434665000174",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO CONFIANCA LTDA",
+      "nome_fantasia": "AUTO POSTO PAGUE MENOS",
+      "telefone": "(82) 99482210",
+      "nome_logradouro": "AV MANOEL MACIANO",
+      "numero_imovel": "S/N",
+      "bairro": "DEZ",
+      "cep": "57445000",
+      "codigo_ibge": 2708402,
+      "municipio": "SAO JOSE DA TAPERA",
+      "latitude": -9.55372,
+      "longitude": -37.37467,
+      "valor_minimo": 6.79,
+      "valor_maximo": 6.79,
+      "valor_medio": 6.79,
+      "valor_recente": 6.79,
+      "data_recente": "2026-04-10T20:32:42Z"
+    },
+    {
       "cnpj": "14959471000136",
       "tipo_combustivel": 5,
       "razao_social": "ASHP COMERCIO DE COMBUSTIVEIS E DERIVADOS LTDA.",
@@ -204,11 +224,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": -9.5309789,
       "longitude": -37.5115726,
-      "valor_minimo": 7.1900350877192984,
-      "valor_maximo": 7.1900350877192984,
-      "valor_medio": 7.1900350877192984,
-      "valor_recente": 7.1900350877192984,
-      "data_recente": "2026-04-10T17:47:31Z"
+      "valor_minimo": 7.39021329987453,
+      "valor_maximo": 7.39021329987453,
+      "valor_medio": 7.39021329987453,
+      "valor_recente": 7.39021329987453,
+      "data_recente": "2026-04-10T20:21:53Z"
     },
     {
       "cnpj": "12512646000137",
@@ -224,31 +244,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.850078492935636,
-      "valor_maximo": 7.850078492935636,
-      "valor_medio": 7.850078492935636,
-      "valor_recente": 7.850078492935636,
-      "data_recente": "2026-04-10T18:22:14Z"
-    },
-    {
-      "cnpj": "30434665000174",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO CONFIANCA LTDA",
-      "nome_fantasia": "AUTO POSTO PAGUE MENOS",
-      "telefone": "(82) 99482210",
-      "nome_logradouro": "AV MANOEL MACIANO",
-      "numero_imovel": "S/N",
-      "bairro": "DEZ",
-      "cep": "57445000",
-      "codigo_ibge": 2708402,
-      "municipio": "SAO JOSE DA TAPERA",
-      "latitude": -9.55372,
-      "longitude": -37.37467,
-      "valor_minimo": 7.899815027745838,
-      "valor_maximo": 7.899815027745838,
-      "valor_medio": 7.899815027745838,
-      "valor_recente": 7.899815027745838,
-      "data_recente": "2026-04-09T22:54:39Z"
+      "valor_minimo": 7.85017382527756,
+      "valor_maximo": 7.85017382527756,
+      "valor_medio": 7.85017382527756,
+      "valor_recente": 7.85017382527756,
+      "data_recente": "2026-04-10T20:31:56Z"
     }
   ]
 }
