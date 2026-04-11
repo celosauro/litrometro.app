@@ -1,55 +1,35 @@
 {
   "codigoIBGE": "2703007",
   "municipio": "Ibateguara",
-  "atualizadoEm": "2026-04-11T09:43:02.117Z",
+  "atualizadoEm": "2026-04-11T10:49:16.254Z",
   "totalEstabelecimentos": 10,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.949961508852963,
+      "valorMinimo": 6.651162790697675,
       "valorMaximo": 6.989748369058714,
-      "valorMedio": 6.975970838323092
+      "valorMedio": 6.864211765895807
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.951388888888889,
-      "valorMaximo": 6.987112504353884,
-      "valorMedio": 6.969250696621387
+      "valorMinimo": 6.786407766990291,
+      "valorMaximo": 6.95,
+      "valorMedio": 6.868203883495146
     },
     "3": {
       "totalPostos": 2,
       "valorMinimo": 5.188067444876784,
-      "valorMaximo": 5.190074602659747,
-      "valorMedio": 5.189071023768266
+      "valorMaximo": 5.189834024896266,
+      "valorMedio": 5.188950734886525
     },
     "5": {
       "totalPostos": 3,
       "valorMinimo": 7.389970554317767,
-      "valorMaximo": 7.650187265917603,
-      "valorMedio": 7.476719273411791
+      "valorMaximo": 7.651260504201681,
+      "valorMedio": 7.477077019506482
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "37308725000151",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO TANQUE CHEIO LTDA",
-      "nome_fantasia": "AUTO POSTO TANQUE CHEIO",
-      "telefone": "(82) 93555335",
-      "nome_logradouro": "Rua DRA JANETE DE ARAUJO",
-      "numero_imovel": "360",
-      "bairro": "CENTRO",
-      "cep": "57890000",
-      "codigo_ibge": 2703007,
-      "municipio": "IBATEGUARA",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.949961508852963,
-      "valor_maximo": 6.949961508852963,
-      "valor_medio": 6.949961508852963,
-      "valor_recente": 6.949961508852963,
-      "data_recente": "2026-04-10T18:27:38Z"
-    },
     {
       "cnpj": "11457014000155",
       "tipo_combustivel": 1,
@@ -64,11 +44,31 @@
       "municipio": "IBATEGUARA",
       "latitude": -8.968526599999999,
       "longitude": -35.9246712,
-      "valor_minimo": 6.988202637057599,
-      "valor_maximo": 6.988202637057599,
-      "valor_medio": 6.988202637057599,
-      "valor_recente": 6.988202637057599,
-      "data_recente": "2026-04-10T20:11:30Z"
+      "valor_minimo": 6.651162790697675,
+      "valor_maximo": 6.651162790697675,
+      "valor_medio": 6.651162790697675,
+      "valor_recente": 6.651162790697675,
+      "data_recente": "2026-04-10T22:06:33Z"
+    },
+    {
+      "cnpj": "37308725000151",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO TANQUE CHEIO LTDA",
+      "nome_fantasia": "AUTO POSTO TANQUE CHEIO",
+      "telefone": "(82) 93555335",
+      "nome_logradouro": "Rua DRA JANETE DE ARAUJO",
+      "numero_imovel": "360",
+      "bairro": "CENTRO",
+      "cep": "57890000",
+      "codigo_ibge": 2703007,
+      "municipio": "IBATEGUARA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.951724137931034,
+      "valor_maximo": 6.951724137931034,
+      "valor_medio": 6.951724137931034,
+      "valor_recente": 6.951724137931034,
+      "data_recente": "2026-04-10T22:17:51Z"
     },
     {
       "cnpj": "14432556000161",
@@ -91,26 +91,6 @@
       "data_recente": "2026-04-10T03:40:14Z"
     },
     {
-      "cnpj": "37308725000151",
-      "tipo_combustivel": 2,
-      "razao_social": "AUTO POSTO TANQUE CHEIO LTDA",
-      "nome_fantasia": "AUTO POSTO TANQUE CHEIO",
-      "telefone": "(82) 93555335",
-      "nome_logradouro": "Rua DRA JANETE DE ARAUJO",
-      "numero_imovel": "360",
-      "bairro": "CENTRO",
-      "cep": "57890000",
-      "codigo_ibge": 2703007,
-      "municipio": "IBATEGUARA",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.951388888888889,
-      "valor_maximo": 6.951388888888889,
-      "valor_medio": 6.951388888888889,
-      "valor_recente": 6.951388888888889,
-      "data_recente": "2026-04-10T15:07:09Z"
-    },
-    {
       "cnpj": "11457014000155",
       "tipo_combustivel": 2,
       "razao_social": "AUTO POSTO TOP LINE LTDA - EPP",
@@ -124,11 +104,31 @@
       "municipio": "IBATEGUARA",
       "latitude": -8.968526599999999,
       "longitude": -35.9246712,
-      "valor_minimo": 6.987112504353884,
-      "valor_maximo": 6.987112504353884,
-      "valor_medio": 6.987112504353884,
-      "valor_recente": 6.987112504353884,
-      "data_recente": "2026-04-10T19:42:52Z"
+      "valor_minimo": 6.786407766990291,
+      "valor_maximo": 6.786407766990291,
+      "valor_medio": 6.786407766990291,
+      "valor_recente": 6.786407766990291,
+      "data_recente": "2026-04-10T22:08:09Z"
+    },
+    {
+      "cnpj": "37308725000151",
+      "tipo_combustivel": 2,
+      "razao_social": "AUTO POSTO TANQUE CHEIO LTDA",
+      "nome_fantasia": "AUTO POSTO TANQUE CHEIO",
+      "telefone": "(82) 93555335",
+      "nome_logradouro": "Rua DRA JANETE DE ARAUJO",
+      "numero_imovel": "360",
+      "bairro": "CENTRO",
+      "cep": "57890000",
+      "codigo_ibge": 2703007,
+      "municipio": "IBATEGUARA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.95,
+      "valor_maximo": 6.95,
+      "valor_medio": 6.95,
+      "valor_recente": 6.95,
+      "data_recente": "2026-04-10T22:17:51Z"
     },
     {
       "cnpj": "14432556000161",
@@ -164,11 +164,11 @@
       "municipio": "IBATEGUARA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.190074602659747,
-      "valor_maximo": 5.190074602659747,
-      "valor_medio": 5.190074602659747,
-      "valor_recente": 5.190074602659747,
-      "data_recente": "2026-04-10T15:07:09Z"
+      "valor_minimo": 5.189834024896266,
+      "valor_maximo": 5.189834024896266,
+      "valor_medio": 5.189834024896266,
+      "valor_recente": 5.189834024896266,
+      "data_recente": "2026-04-10T22:17:51Z"
     },
     {
       "cnpj": "14432556000161",
@@ -224,11 +224,11 @@
       "municipio": "IBATEGUARA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.650187265917603,
-      "valor_maximo": 7.650187265917603,
-      "valor_medio": 7.650187265917603,
-      "valor_recente": 7.650187265917603,
-      "data_recente": "2026-04-10T19:43:30Z"
+      "valor_minimo": 7.651260504201681,
+      "valor_maximo": 7.651260504201681,
+      "valor_medio": 7.651260504201681,
+      "valor_recente": 7.651260504201681,
+      "data_recente": "2026-04-10T22:17:51Z"
     }
   ]
 }

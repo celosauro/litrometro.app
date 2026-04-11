@@ -1,55 +1,35 @@
 {
   "codigoIBGE": "2701803",
   "municipio": "Carneiros",
-  "atualizadoEm": "2026-04-11T09:37:34.568Z",
+  "atualizadoEm": "2026-04-11T10:34:14.537Z",
   "totalEstabelecimentos": 6,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.989748369058714,
-      "valorMaximo": 6.989884897104988,
-      "valorMedio": 6.989816633081851
+      "valorMinimo": 6.988120195667365,
+      "valorMaximo": 6.990074094785404,
+      "valorMedio": 6.989097145226385
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.050197405527355,
-      "valorMaximo": 7.050197405527355,
-      "valorMedio": 7.050197405527355
+      "valorMinimo": 7.050528789659224,
+      "valorMaximo": 7.050528789659224,
+      "valorMedio": 7.050528789659224
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.1894135962636225,
-      "valorMaximo": 5.1894135962636225,
-      "valorMedio": 5.1894135962636225
+      "valorMinimo": 5.189952252439277,
+      "valorMaximo": 5.189952252439277,
+      "valorMedio": 5.189952252439277
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.8005910717063305,
-      "valorMaximo": 7.8900260400896265,
-      "valorMedio": 7.8453085558979785
+      "valorMinimo": 7.320644216691069,
+      "valorMaximo": 7.8005910717063305,
+      "valorMedio": 7.5606176441987
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "36996902000177",
-      "tipo_combustivel": 1,
-      "razao_social": "POSTO PREMIUM LTDA",
-      "nome_fantasia": "POSTO PREMIUM",
-      "telefone": "(82) 82202866",
-      "nome_logradouro": "Rua PADRE CICERO",
-      "numero_imovel": "584",
-      "bairro": "CENTRO",
-      "cep": "57535000",
-      "codigo_ibge": 2701803,
-      "municipio": "CARNEIROS",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.989748369058714,
-      "valor_maximo": 6.989748369058714,
-      "valor_medio": 6.989748369058714,
-      "valor_recente": 6.989748369058714,
-      "data_recente": "2026-04-10T19:37:43Z"
-    },
     {
       "cnpj": "00994685000139",
       "tipo_combustivel": 1,
@@ -64,11 +44,31 @@
       "municipio": "CARNEIROS",
       "latitude": -9.4828391,
       "longitude": -37.376628,
-      "valor_minimo": 6.989884897104988,
-      "valor_maximo": 6.989884897104988,
-      "valor_medio": 6.989884897104988,
-      "valor_recente": 6.989884897104988,
-      "data_recente": "2026-04-10T15:50:57Z"
+      "valor_minimo": 6.988120195667365,
+      "valor_maximo": 6.988120195667365,
+      "valor_medio": 6.988120195667365,
+      "valor_recente": 6.988120195667365,
+      "data_recente": "2026-04-10T21:31:49Z"
+    },
+    {
+      "cnpj": "36996902000177",
+      "tipo_combustivel": 1,
+      "razao_social": "POSTO PREMIUM LTDA",
+      "nome_fantasia": "POSTO PREMIUM",
+      "telefone": "(82) 82202866",
+      "nome_logradouro": "Rua PADRE CICERO",
+      "numero_imovel": "584",
+      "bairro": "CENTRO",
+      "cep": "57535000",
+      "codigo_ibge": 2701803,
+      "municipio": "CARNEIROS",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.990074094785404,
+      "valor_maximo": 6.990074094785404,
+      "valor_medio": 6.990074094785404,
+      "valor_recente": 6.990074094785404,
+      "data_recente": "2026-04-10T22:19:48Z"
     },
     {
       "cnpj": "00994685000139",
@@ -84,11 +84,11 @@
       "municipio": "CARNEIROS",
       "latitude": -9.4828391,
       "longitude": -37.376628,
-      "valor_minimo": 7.050197405527355,
-      "valor_maximo": 7.050197405527355,
-      "valor_medio": 7.050197405527355,
-      "valor_recente": 7.050197405527355,
-      "data_recente": "2026-04-10T19:02:20Z"
+      "valor_minimo": 7.050528789659224,
+      "valor_maximo": 7.050528789659224,
+      "valor_medio": 7.050528789659224,
+      "valor_recente": 7.050528789659224,
+      "data_recente": "2026-04-10T22:04:25Z"
     },
     {
       "cnpj": "36996902000177",
@@ -104,11 +104,31 @@
       "municipio": "CARNEIROS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.1894135962636225,
-      "valor_maximo": 5.1894135962636225,
-      "valor_medio": 5.1894135962636225,
-      "valor_recente": 5.1894135962636225,
-      "data_recente": "2026-04-10T19:37:43Z"
+      "valor_minimo": 5.189952252439277,
+      "valor_maximo": 5.189952252439277,
+      "valor_medio": 5.189952252439277,
+      "valor_recente": 5.189952252439277,
+      "data_recente": "2026-04-10T21:19:57Z"
+    },
+    {
+      "cnpj": "36996902000177",
+      "tipo_combustivel": 5,
+      "razao_social": "POSTO PREMIUM LTDA",
+      "nome_fantasia": "POSTO PREMIUM",
+      "telefone": "(82) 82202866",
+      "nome_logradouro": "Rua PADRE CICERO",
+      "numero_imovel": "584",
+      "bairro": "CENTRO",
+      "cep": "57535000",
+      "codigo_ibge": 2701803,
+      "municipio": "CARNEIROS",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.320644216691069,
+      "valor_maximo": 8.347245409015025,
+      "valor_medio": 7.833944812853048,
+      "valor_recente": 7.320644216691069,
+      "data_recente": "2026-04-10T21:19:18Z"
     },
     {
       "cnpj": "00994685000139",
@@ -129,26 +149,6 @@
       "valor_medio": 7.8005910717063305,
       "valor_recente": 7.8005910717063305,
       "data_recente": "2026-04-10T15:33:55Z"
-    },
-    {
-      "cnpj": "36996902000177",
-      "tipo_combustivel": 5,
-      "razao_social": "POSTO PREMIUM LTDA",
-      "nome_fantasia": "POSTO PREMIUM",
-      "telefone": "(82) 82202866",
-      "nome_logradouro": "Rua PADRE CICERO",
-      "numero_imovel": "584",
-      "bairro": "CENTRO",
-      "cep": "57535000",
-      "codigo_ibge": 2701803,
-      "municipio": "CARNEIROS",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.8900260400896265,
-      "valor_maximo": 8.347245409015025,
-      "valor_medio": 8.118635724552327,
-      "valor_recente": 7.8900260400896265,
-      "data_recente": "2026-04-10T19:29:32Z"
     }
   ]
 }
