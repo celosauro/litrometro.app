@@ -1,26 +1,26 @@
 {
   "codigoIBGE": "2709103",
   "municipio": "Taquarana",
-  "atualizadoEm": "2026-04-11T23:07:15.191Z",
+  "atualizadoEm": "2026-04-12T02:00:01.243Z",
   "totalEstabelecimentos": 10,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
       "valorMinimo": 6.689396978205642,
-      "valorMaximo": 6.899131996408261,
-      "valorMedio": 6.82915321345357
+      "valorMaximo": 6.9,
+      "valorMedio": 6.829442547984151
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 6.688900747065102,
-      "valorMaximo": 6.688900747065102,
-      "valorMedio": 6.688900747065102
+      "valorMinimo": 6.689595872742906,
+      "valorMaximo": 6.689595872742906,
+      "valorMedio": 6.689595872742906
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 4.789811356889783,
+      "valorMinimo": 4.789463181001796,
       "valorMaximo": 4.88997555012225,
-      "valorMedio": 4.839893453506017
+      "valorMedio": 4.839719365562023
     },
     "4": {
       "totalPostos": 1,
@@ -30,9 +30,9 @@
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.399408284023669,
-      "valorMaximo": 7.4,
-      "valorMedio": 7.399775056672986
+      "valorMinimo": 7.399600621255824,
+      "valorMaximo": 7.399950037471896,
+      "valorMedio": 7.399717093327848
     }
   },
   "estabelecimentos": [
@@ -54,7 +54,7 @@
       "valor_maximo": 6.689396978205642,
       "valor_medio": 6.689396978205642,
       "valor_recente": 6.689396978205642,
-      "data_recente": "2026-04-11T17:28:03Z"
+      "data_recente": "2026-04-11T23:13:49Z"
     },
     {
       "cnpj": "69999456000103",
@@ -74,7 +74,7 @@
       "valor_maximo": 6.89893066574681,
       "valor_medio": 6.89893066574681,
       "valor_recente": 6.89893066574681,
-      "data_recente": "2026-04-11T17:55:03Z"
+      "data_recente": "2026-04-11T23:13:33Z"
     },
     {
       "cnpj": "15706489000199",
@@ -90,11 +90,11 @@
       "municipio": "TAQUARANA",
       "latitude": -9.645102300000001,
       "longitude": -36.4935948,
-      "valor_minimo": 6.899131996408261,
-      "valor_maximo": 6.899131996408261,
-      "valor_medio": 6.899131996408261,
-      "valor_recente": 6.899131996408261,
-      "data_recente": "2026-04-11T19:34:04Z"
+      "valor_minimo": 6.9,
+      "valor_maximo": 6.9,
+      "valor_medio": 6.9,
+      "valor_recente": 6.9,
+      "data_recente": "2026-04-11T23:13:46Z"
     },
     {
       "cnpj": "20097123000108",
@@ -110,11 +110,11 @@
       "municipio": "TAQUARANA",
       "latitude": -9.6451013,
       "longitude": -36.4903116,
-      "valor_minimo": 6.688900747065102,
-      "valor_maximo": 6.688900747065102,
-      "valor_medio": 6.688900747065102,
-      "valor_recente": 6.688900747065102,
-      "data_recente": "2026-04-11T17:16:58Z"
+      "valor_minimo": 6.689595872742906,
+      "valor_maximo": 6.689595872742906,
+      "valor_medio": 6.689595872742906,
+      "valor_recente": 6.689595872742906,
+      "data_recente": "2026-04-11T23:13:21Z"
     },
     {
       "cnpj": "20097123000108",
@@ -130,11 +130,11 @@
       "municipio": "TAQUARANA",
       "latitude": -9.6451013,
       "longitude": -36.4903116,
-      "valor_minimo": 4.789811356889783,
-      "valor_maximo": 4.789811356889783,
-      "valor_medio": 4.789811356889783,
-      "valor_recente": 4.789811356889783,
-      "data_recente": "2026-04-11T17:16:58Z"
+      "valor_minimo": 4.789463181001796,
+      "valor_maximo": 4.789463181001796,
+      "valor_medio": 4.789463181001796,
+      "valor_recente": 4.789463181001796,
+      "data_recente": "2026-04-11T23:12:37Z"
     },
     {
       "cnpj": "15706489000199",
@@ -177,6 +177,26 @@
       "data_recente": "2026-04-11T17:16:58Z"
     },
     {
+      "cnpj": "15706489000199",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO MANGUEIRAO EIRELI EPP",
+      "nome_fantasia": "POSTO MANGUEIRAO",
+      "telefone": "",
+      "nome_logradouro": "AV PAI JOAO",
+      "numero_imovel": "526",
+      "bairro": "PAI JOAO",
+      "cep": "57640000",
+      "codigo_ibge": 2709103,
+      "municipio": "TAQUARANA",
+      "latitude": -9.645102300000001,
+      "longitude": -36.4935948,
+      "valor_minimo": 7.399600621255824,
+      "valor_maximo": 7.399600621255824,
+      "valor_medio": 7.399600621255824,
+      "valor_recente": 7.399600621255824,
+      "data_recente": "2026-04-11T22:56:16Z"
+    },
+    {
       "cnpj": "69999456000103",
       "tipo_combustivel": 5,
       "razao_social": "S.A DA SILVA E CIA LTDA",
@@ -190,11 +210,11 @@
       "municipio": "TAQUARANA",
       "latitude": -9.6468235,
       "longitude": -36.4910774,
-      "valor_minimo": 7.399408284023669,
-      "valor_maximo": 7.399408284023669,
-      "valor_medio": 7.399408284023669,
-      "valor_recente": 7.399408284023669,
-      "data_recente": "2026-04-11T17:55:21Z"
+      "valor_minimo": 7.399600621255824,
+      "valor_maximo": 7.399600621255824,
+      "valor_medio": 7.399600621255824,
+      "valor_recente": 7.399600621255824,
+      "data_recente": "2026-04-11T22:46:07Z"
     },
     {
       "cnpj": "20097123000108",
@@ -210,31 +230,11 @@
       "municipio": "TAQUARANA",
       "latitude": -9.6451013,
       "longitude": -36.4903116,
-      "valor_minimo": 7.399916885995291,
-      "valor_maximo": 7.399916885995291,
-      "valor_medio": 7.399916885995291,
-      "valor_recente": 7.399916885995291,
-      "data_recente": "2026-04-11T17:16:58Z"
-    },
-    {
-      "cnpj": "15706489000199",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO MANGUEIRAO EIRELI EPP",
-      "nome_fantasia": "POSTO MANGUEIRAO",
-      "telefone": "",
-      "nome_logradouro": "AV PAI JOAO",
-      "numero_imovel": "526",
-      "bairro": "PAI JOAO",
-      "cep": "57640000",
-      "codigo_ibge": 2709103,
-      "municipio": "TAQUARANA",
-      "latitude": -9.645102300000001,
-      "longitude": -36.4935948,
-      "valor_minimo": 7.4,
-      "valor_maximo": 7.4,
-      "valor_medio": 7.4,
-      "valor_recente": 7.4,
-      "data_recente": "2026-04-11T18:53:53Z"
+      "valor_minimo": 7.399950037471896,
+      "valor_maximo": 7.399950037471896,
+      "valor_medio": 7.399950037471896,
+      "valor_recente": 7.399950037471896,
+      "data_recente": "2026-04-11T22:32:02Z"
     }
   ]
 }

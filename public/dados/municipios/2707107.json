@@ -1,35 +1,55 @@
 {
   "codigoIBGE": "2707107",
   "municipio": "Piranhas",
-  "atualizadoEm": "2026-04-11T22:53:05.265Z",
+  "atualizadoEm": "2026-04-12T01:48:57.949Z",
   "totalEstabelecimentos": 18,
   "combustiveis": {
     "1": {
       "totalPostos": 6,
-      "valorMinimo": 7.1,
-      "valorMaximo": 7.52,
-      "valorMedio": 7.378076411387418
+      "valorMinimo": 7.1000168158293,
+      "valorMaximo": 7.449899426357744,
+      "valorMedio": 7.283160728608261
     },
     "2": {
       "totalPostos": 3,
-      "valorMinimo": 7.100709219858156,
-      "valorMaximo": 7.587253414264036,
-      "valorMedio": 7.2960115449474
+      "valorMinimo": 7.099290780141844,
+      "valorMaximo": 7.589556769884639,
+      "valorMedio": 7.296288002402318
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 5.880000940800151,
-      "valorMaximo": 6.190034045187248,
-      "valorMedio": 6.083246943996376
+      "valorMinimo": 5.882352941176471,
+      "valorMaximo": 6.191950464396285,
+      "valorMedio": 6.08450003666706
     },
     "5": {
       "totalPostos": 6,
-      "valorMinimo": 6.9847127042699,
+      "valorMinimo": 7.509813542688911,
       "valorMaximo": 7.989964203528509,
-      "valorMedio": 7.662118506002167
+      "valorMedio": 7.737321807199998
     }
   },
   "estabelecimentos": [
+    {
+      "cnpj": "00497402000143",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO CAPIÁ I LTDA",
+      "nome_fantasia": "AUTO POSTO CAPIA",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 220",
+      "numero_imovel": "09",
+      "bairro": "PIAU",
+      "cep": "57460000",
+      "codigo_ibge": 2707107,
+      "municipio": "PIRANHAS",
+      "latitude": -9.478838,
+      "longitude": -37.6682468,
+      "valor_minimo": 7.1000168158293,
+      "valor_maximo": 7.1000168158293,
+      "valor_medio": 7.1000168158293,
+      "valor_recente": 7.1000168158293,
+      "data_recente": "2026-04-11T23:18:06Z"
+    },
     {
       "cnpj": "70019039000136",
       "tipo_combustivel": 1,
@@ -44,11 +64,11 @@
       "municipio": "PIRANHAS",
       "latitude": -9.381468,
       "longitude": -38.0021811,
-      "valor_minimo": 7.1,
-      "valor_maximo": 7.1,
-      "valor_medio": 7.1,
-      "valor_recente": 7.1,
-      "data_recente": "2026-04-11T19:35:04Z"
+      "valor_minimo": 7.100591715976331,
+      "valor_maximo": 7.100591715976331,
+      "valor_medio": 7.100591715976331,
+      "valor_recente": 7.100591715976331,
+      "data_recente": "2026-04-11T22:55:49Z"
     },
     {
       "cnpj": "22590658000133",
@@ -64,11 +84,11 @@
       "municipio": "PIRANHAS",
       "latitude": -9.6070863,
       "longitude": -37.7624625,
-      "valor_minimo": 7.2982046416581525,
-      "valor_maximo": 7.2982046416581525,
-      "valor_medio": 7.2982046416581525,
-      "valor_recente": 7.2982046416581525,
-      "data_recente": "2026-04-11T18:12:23Z"
+      "valor_minimo": 7.151219512195122,
+      "valor_maximo": 7.151219512195122,
+      "valor_medio": 7.151219512195122,
+      "valor_recente": 7.151219512195122,
+      "data_recente": "2026-04-11T23:16:56Z"
     },
     {
       "cnpj": "43473530000160",
@@ -84,11 +104,31 @@
       "municipio": "PIRANHAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.4487895716946,
-      "valor_maximo": 7.4487895716946,
-      "valor_medio": 7.4487895716946,
-      "valor_recente": 7.4487895716946,
-      "data_recente": "2026-04-11T19:13:52Z"
+      "valor_minimo": 7.447864945382324,
+      "valor_maximo": 7.447864945382324,
+      "valor_medio": 7.447864945382324,
+      "valor_recente": 7.447864945382324,
+      "data_recente": "2026-04-11T23:12:09Z"
+    },
+    {
+      "cnpj": "46715427000177",
+      "tipo_combustivel": 1,
+      "razao_social": "POSTOS PRIME LTDA",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "ROD ALTEMAR DUTRA",
+      "numero_imovel": "01",
+      "bairro": "ZONA RURAL",
+      "cep": "57460000",
+      "codigo_ibge": 2707107,
+      "municipio": "PIRANHAS",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.449371955908742,
+      "valor_maximo": 7.449371955908742,
+      "valor_medio": 7.449371955908742,
+      "valor_recente": 7.449371955908742,
+      "data_recente": "2026-04-11T22:49:54Z"
     },
     {
       "cnpj": "05767699000214",
@@ -108,47 +148,7 @@
       "valor_maximo": 7.449899426357744,
       "valor_medio": 7.449899426357744,
       "valor_recente": 7.449899426357744,
-      "data_recente": "2026-04-11T18:48:12Z"
-    },
-    {
-      "cnpj": "46715427000177",
-      "tipo_combustivel": 1,
-      "razao_social": "POSTOS PRIME LTDA",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "ROD ALTEMAR DUTRA",
-      "numero_imovel": "01",
-      "bairro": "ZONA RURAL",
-      "cep": "57460000",
-      "codigo_ibge": 2707107,
-      "municipio": "PIRANHAS",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.451564828614009,
-      "valor_maximo": 7.451564828614009,
-      "valor_medio": 7.451564828614009,
-      "valor_recente": 7.451564828614009,
-      "data_recente": "2026-04-11T19:29:32Z"
-    },
-    {
-      "cnpj": "00497402000143",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO CAPIÁ I LTDA",
-      "nome_fantasia": "AUTO POSTO CAPIA",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 220",
-      "numero_imovel": "09",
-      "bairro": "PIAU",
-      "cep": "57460000",
-      "codigo_ibge": 2707107,
-      "municipio": "PIRANHAS",
-      "latitude": -9.478838,
-      "longitude": -37.6682468,
-      "valor_minimo": 7.52,
-      "valor_maximo": 7.52,
-      "valor_medio": 7.52,
-      "valor_recente": 7.52,
-      "data_recente": "2026-04-11T19:33:04Z"
+      "data_recente": "2026-04-11T22:56:56Z"
     },
     {
       "cnpj": "70019039000136",
@@ -164,11 +164,11 @@
       "municipio": "PIRANHAS",
       "latitude": -9.381468,
       "longitude": -38.0021811,
-      "valor_minimo": 7.100709219858156,
-      "valor_maximo": 7.100709219858156,
-      "valor_medio": 7.100709219858156,
-      "valor_recente": 7.100709219858156,
-      "data_recente": "2026-04-11T19:29:50Z"
+      "valor_minimo": 7.099290780141844,
+      "valor_maximo": 7.099290780141844,
+      "valor_medio": 7.099290780141844,
+      "valor_recente": 7.099290780141844,
+      "data_recente": "2026-04-11T22:51:18Z"
     },
     {
       "cnpj": "00497402000143",
@@ -184,11 +184,11 @@
       "municipio": "PIRANHAS",
       "latitude": -9.478838,
       "longitude": -37.6682468,
-      "valor_minimo": 7.200072000720008,
-      "valor_maximo": 7.200072000720008,
-      "valor_medio": 7.200072000720008,
-      "valor_recente": 7.200072000720008,
-      "data_recente": "2026-04-11T19:08:03Z"
+      "valor_minimo": 7.200016457180474,
+      "valor_maximo": 7.200016457180474,
+      "valor_medio": 7.200016457180474,
+      "valor_recente": 7.200016457180474,
+      "data_recente": "2026-04-11T23:10:19Z"
     },
     {
       "cnpj": "46715427000177",
@@ -204,11 +204,11 @@
       "municipio": "PIRANHAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.587253414264036,
-      "valor_maximo": 7.587253414264036,
-      "valor_medio": 7.587253414264036,
-      "valor_recente": 7.587253414264036,
-      "data_recente": "2026-04-11T19:30:03Z"
+      "valor_minimo": 7.589556769884639,
+      "valor_maximo": 7.589556769884639,
+      "valor_medio": 7.589556769884639,
+      "valor_recente": 7.589556769884639,
+      "data_recente": "2026-04-11T22:58:05Z"
     },
     {
       "cnpj": "00497402000143",
@@ -224,11 +224,11 @@
       "municipio": "PIRANHAS",
       "latitude": -9.478838,
       "longitude": -37.6682468,
-      "valor_minimo": 5.880000940800151,
-      "valor_maximo": 5.880000940800151,
-      "valor_medio": 5.880000940800151,
-      "valor_recente": 5.880000940800151,
-      "data_recente": "2026-04-11T19:07:43Z"
+      "valor_minimo": 5.882352941176471,
+      "valor_maximo": 5.882352941176471,
+      "valor_medio": 5.882352941176471,
+      "valor_recente": 5.882352941176471,
+      "data_recente": "2026-04-11T22:54:29Z"
     },
     {
       "cnpj": "43473530000160",
@@ -244,11 +244,11 @@
       "municipio": "PIRANHAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.17970584600173,
-      "valor_maximo": 6.17970584600173,
-      "valor_medio": 6.17970584600173,
-      "valor_recente": 6.17970584600173,
-      "data_recente": "2026-04-11T19:19:17Z"
+      "valor_minimo": 6.179196704428424,
+      "valor_maximo": 6.179196704428424,
+      "valor_medio": 6.179196704428424,
+      "valor_recente": 6.179196704428424,
+      "data_recente": "2026-04-11T22:42:59Z"
     },
     {
       "cnpj": "05767699000214",
@@ -264,31 +264,11 @@
       "municipio": "PIRANHAS",
       "latitude": -9.655431199999999,
       "longitude": -37.6652237,
-      "valor_minimo": 6.190034045187248,
-      "valor_maximo": 6.190034045187248,
-      "valor_medio": 6.190034045187248,
-      "valor_recente": 6.190034045187248,
-      "data_recente": "2026-04-11T15:21:28Z"
-    },
-    {
-      "cnpj": "22590658000133",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO CENTER DIVINA LUZ EIRELI - EPP",
-      "nome_fantasia": "AUTO POSTO DIVINA LUZ",
-      "telefone": "(82) 88794281",
-      "nome_logradouro": "ROD AL 225",
-      "numero_imovel": "SN",
-      "bairro": "XINGO",
-      "cep": "57460000",
-      "codigo_ibge": 2707107,
-      "municipio": "PIRANHAS",
-      "latitude": -9.6070863,
-      "longitude": -37.7624625,
-      "valor_minimo": 6.9847127042699,
-      "valor_maximo": 6.9847127042699,
-      "valor_medio": 6.9847127042699,
-      "valor_recente": 6.9847127042699,
-      "data_recente": "2026-04-11T19:17:07Z"
+      "valor_minimo": 6.191950464396285,
+      "valor_maximo": 6.191950464396285,
+      "valor_medio": 6.191950464396285,
+      "valor_recente": 6.191950464396285,
+      "data_recente": "2026-04-11T22:57:11Z"
     },
     {
       "cnpj": "70019039000136",
@@ -304,11 +284,11 @@
       "municipio": "PIRANHAS",
       "latitude": -9.381468,
       "longitude": -38.0021811,
-      "valor_minimo": 7.509950684657171,
-      "valor_maximo": 7.510044684765874,
-      "valor_medio": 7.509997684711522,
-      "valor_recente": 7.509950684657171,
-      "data_recente": "2026-04-11T17:57:23Z"
+      "valor_minimo": 7.509386733416771,
+      "valor_maximo": 7.509813542688911,
+      "valor_medio": 7.509600138052841,
+      "valor_recente": 7.509813542688911,
+      "data_recente": "2026-04-11T22:50:47Z"
     },
     {
       "cnpj": "00497402000143",
@@ -324,31 +304,31 @@
       "municipio": "PIRANHAS",
       "latitude": -9.478838,
       "longitude": -37.6682468,
-      "valor_minimo": 7.510109763142692,
-      "valor_maximo": 7.510109763142692,
-      "valor_medio": 7.510109763142692,
-      "valor_recente": 7.510109763142692,
-      "data_recente": "2026-04-11T19:06:22Z"
+      "valor_minimo": 7.509940165991122,
+      "valor_maximo": 7.509940165991122,
+      "valor_medio": 7.509940165991122,
+      "valor_recente": 7.509940165991122,
+      "data_recente": "2026-04-11T22:04:34Z"
     },
     {
-      "cnpj": "43473530000160",
+      "cnpj": "22590658000133",
       "tipo_combustivel": 5,
-      "razao_social": "H. SENA PIRANHAS COMERCIO DE COMBUSTIVEIS LTDA",
-      "nome_fantasia": "POSTO PARAISO",
-      "telefone": "(75) 991238113",
-      "nome_logradouro": "ROD ALTEMAR DUTRA, KM 14",
-      "numero_imovel": "60",
-      "bairro": "VILA SERGIPE",
+      "razao_social": "AUTO POSTO CENTER DIVINA LUZ EIRELI - EPP",
+      "nome_fantasia": "AUTO POSTO DIVINA LUZ",
+      "telefone": "(82) 88794281",
+      "nome_logradouro": "ROD AL 225",
+      "numero_imovel": "SN",
+      "bairro": "XINGO",
       "cep": "57460000",
       "codigo_ibge": 2707107,
       "municipio": "PIRANHAS",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.988200589970502,
-      "valor_maximo": 7.988200589970502,
-      "valor_medio": 7.988200589970502,
-      "valor_recente": 7.988200589970502,
-      "data_recente": "2026-04-11T16:57:56Z"
+      "latitude": -9.6070863,
+      "longitude": -37.7624625,
+      "valor_minimo": 7.59052059052059,
+      "valor_maximo": 7.59052059052059,
+      "valor_medio": 7.59052059052059,
+      "valor_recente": 7.59052059052059,
+      "data_recente": "2026-04-11T23:16:56Z"
     },
     {
       "cnpj": "46715427000177",
@@ -364,11 +344,31 @@
       "municipio": "PIRANHAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.989773090444231,
-      "valor_maximo": 7.989773090444231,
-      "valor_medio": 7.989773090444231,
-      "valor_recente": 7.989773090444231,
-      "data_recente": "2026-04-11T19:07:52Z"
+      "valor_minimo": 7.83956535634388,
+      "valor_maximo": 7.83956535634388,
+      "valor_medio": 7.83956535634388,
+      "valor_recente": 7.83956535634388,
+      "data_recente": "2026-04-11T22:52:25Z"
+    },
+    {
+      "cnpj": "43473530000160",
+      "tipo_combustivel": 5,
+      "razao_social": "H. SENA PIRANHAS COMERCIO DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "POSTO PARAISO",
+      "telefone": "(75) 991238113",
+      "nome_logradouro": "ROD ALTEMAR DUTRA, KM 14",
+      "numero_imovel": "60",
+      "bairro": "VILA SERGIPE",
+      "cep": "57460000",
+      "codigo_ibge": 2707107,
+      "municipio": "PIRANHAS",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.984126984126984,
+      "valor_maximo": 7.984126984126984,
+      "valor_medio": 7.984126984126984,
+      "valor_recente": 7.984126984126984,
+      "data_recente": "2026-04-11T22:27:01Z"
     },
     {
       "cnpj": "05767699000214",

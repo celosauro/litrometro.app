@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2704609",
   "municipio": "Maravilha",
-  "atualizadoEm": "2026-04-11T22:41:11.147Z",
+  "atualizadoEm": "2026-04-12T01:40:46.253Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 1,
-      "valorMinimo": 6.769564040075819,
-      "valorMaximo": 6.769564040075819,
-      "valorMedio": 6.769564040075819
+      "valorMinimo": 6.7697931828182645,
+      "valorMaximo": 6.7697931828182645,
+      "valorMedio": 6.7697931828182645
     },
     "2": {
       "totalPostos": 3,
-      "valorMinimo": 6.759615384615385,
-      "valorMaximo": 6.820108139704808,
-      "valorMedio": 6.789529927884961
+      "valorMinimo": 5.455886445866963,
+      "valorMaximo": 6.7897881586094515,
+      "valorMedio": 6.334446483726494
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.529953917050691,
-      "valorMaximo": 5.61955605507165,
-      "valorMedio": 5.574754986061171
+      "valorMinimo": 5.529801324503311,
+      "valorMaximo": 5.619871866921434,
+      "valorMedio": 5.574836595712373
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.290138900871366,
-      "valorMaximo": 7.299270072992701,
-      "valorMedio": 7.294704486932034
+      "valorMinimo": 5.831149927219796,
+      "valorMaximo": 7.299980533385244,
+      "valorMedio": 6.56556523030252
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,31 @@
       "municipio": "MARAVILHA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.769564040075819,
-      "valor_maximo": 6.769564040075819,
-      "valor_medio": 6.769564040075819,
-      "valor_recente": 6.769564040075819,
-      "data_recente": "2026-04-11T19:33:00Z"
+      "valor_minimo": 6.7697931828182645,
+      "valor_maximo": 6.7697931828182645,
+      "valor_medio": 6.7697931828182645,
+      "valor_recente": 6.7697931828182645,
+      "data_recente": "2026-04-11T21:17:24Z"
+    },
+    {
+      "cnpj": "08418303000564",
+      "tipo_combustivel": 2,
+      "razao_social": "IRMAOS JOTA PINTO & CIA LTDA",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": " BR 316",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57520000",
+      "codigo_ibge": 2704609,
+      "municipio": "MARAVILHA",
+      "latitude": -9.2772442,
+      "longitude": -37.38293669999999,
+      "valor_minimo": 5.455886445866963,
+      "valor_maximo": 5.455886445866963,
+      "valor_medio": 5.455886445866963,
+      "valor_recente": 5.455886445866963,
+      "data_recente": "2026-04-11T21:07:55Z"
     },
     {
       "cnpj": "14683196000251",
@@ -64,11 +84,11 @@
       "municipio": "MARAVILHA",
       "latitude": -9.233737099999999,
       "longitude": -37.3501512,
-      "valor_minimo": 6.759615384615385,
-      "valor_maximo": 6.759615384615385,
-      "valor_medio": 6.759615384615385,
-      "valor_recente": 6.759615384615385,
-      "data_recente": "2026-04-11T19:36:02Z"
+      "valor_minimo": 6.757664846703066,
+      "valor_maximo": 6.757664846703066,
+      "valor_medio": 6.757664846703066,
+      "valor_recente": 6.757664846703066,
+      "data_recente": "2026-04-11T20:20:22Z"
     },
     {
       "cnpj": "60501647000129",
@@ -84,31 +104,11 @@
       "municipio": "MARAVILHA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.788866259334691,
-      "valor_maximo": 6.788866259334691,
-      "valor_medio": 6.788866259334691,
-      "valor_recente": 6.788866259334691,
-      "data_recente": "2026-04-11T19:26:45Z"
-    },
-    {
-      "cnpj": "08418303000564",
-      "tipo_combustivel": 2,
-      "razao_social": "IRMAOS JOTA PINTO & CIA LTDA",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": " BR 316",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57520000",
-      "codigo_ibge": 2704609,
-      "municipio": "MARAVILHA",
-      "latitude": -9.2772442,
-      "longitude": -37.38293669999999,
-      "valor_minimo": 6.820108139704808,
-      "valor_maximo": 6.820108139704808,
-      "valor_medio": 6.820108139704808,
-      "valor_recente": 6.820108139704808,
-      "data_recente": "2026-04-11T19:29:52Z"
+      "valor_minimo": 6.7897881586094515,
+      "valor_maximo": 6.7897881586094515,
+      "valor_medio": 6.7897881586094515,
+      "valor_recente": 6.7897881586094515,
+      "data_recente": "2026-04-11T21:07:37Z"
     },
     {
       "cnpj": "08418303000564",
@@ -124,11 +124,11 @@
       "municipio": "MARAVILHA",
       "latitude": -9.2772442,
       "longitude": -37.38293669999999,
-      "valor_minimo": 5.529953917050691,
-      "valor_maximo": 5.529953917050691,
-      "valor_medio": 5.529953917050691,
-      "valor_recente": 5.529953917050691,
-      "data_recente": "2026-04-11T19:30:21Z"
+      "valor_minimo": 5.529801324503311,
+      "valor_maximo": 5.529801324503311,
+      "valor_medio": 5.529801324503311,
+      "valor_recente": 5.529801324503311,
+      "data_recente": "2026-04-11T21:04:21Z"
     },
     {
       "cnpj": "60501647000129",
@@ -144,11 +144,11 @@
       "municipio": "MARAVILHA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.61955605507165,
-      "valor_maximo": 5.61955605507165,
-      "valor_medio": 5.61955605507165,
-      "valor_recente": 5.61955605507165,
-      "data_recente": "2026-04-11T17:09:59Z"
+      "valor_minimo": 5.619871866921434,
+      "valor_maximo": 5.619871866921434,
+      "valor_medio": 5.619871866921434,
+      "valor_recente": 5.619871866921434,
+      "data_recente": "2026-04-11T21:09:06Z"
     },
     {
       "cnpj": "08418303000564",
@@ -164,11 +164,11 @@
       "municipio": "MARAVILHA",
       "latitude": -9.2772442,
       "longitude": -37.38293669999999,
-      "valor_minimo": 7.290138900871366,
-      "valor_maximo": 7.290138900871366,
-      "valor_medio": 7.290138900871366,
-      "valor_recente": 7.290138900871366,
-      "data_recente": "2026-04-11T19:33:11Z"
+      "valor_minimo": 5.831149927219796,
+      "valor_maximo": 5.831149927219796,
+      "valor_medio": 5.831149927219796,
+      "valor_recente": 5.831149927219796,
+      "data_recente": "2026-04-11T20:54:52Z"
     },
     {
       "cnpj": "60501647000129",
@@ -184,11 +184,11 @@
       "municipio": "MARAVILHA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.299270072992701,
-      "valor_maximo": 7.299270072992701,
-      "valor_medio": 7.299270072992701,
-      "valor_recente": 7.299270072992701,
-      "data_recente": "2026-04-11T19:24:47Z"
+      "valor_minimo": 7.299980533385244,
+      "valor_maximo": 7.299980533385244,
+      "valor_medio": 7.299980533385244,
+      "valor_recente": 7.299980533385244,
+      "data_recente": "2026-04-11T21:13:13Z"
     }
   ]
 }

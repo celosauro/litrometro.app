@@ -1,20 +1,20 @@
 {
   "codigoIBGE": "2706802",
   "municipio": "Piaçabuçu",
-  "atualizadoEm": "2026-04-11T22:51:34.869Z",
+  "atualizadoEm": "2026-04-12T01:47:57.838Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 7.117437722419929,
-      "valorMaximo": 7.120284697508897,
-      "valorMedio": 7.118861209964413
+      "valorMinimo": 7.119771863117871,
+      "valorMaximo": 7.1199715201139195,
+      "valorMedio": 7.119871691615895
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.220408163265306,
-      "valorMaximo": 7.220408163265306,
-      "valorMedio": 7.220408163265306
+      "valorMinimo": 7.2202166064981945,
+      "valorMaximo": 7.2202166064981945,
+      "valorMedio": 7.2202166064981945
     },
     "3": {
       "totalPostos": 1,
@@ -31,8 +31,8 @@
     "5": {
       "totalPostos": 3,
       "valorMinimo": 2.9,
-      "valorMaximo": 7.890625,
-      "valorMedio": 6.22693128320446
+      "valorMaximo": 7.8901688496133815,
+      "valorMedio": 6.226722949871127
     }
   },
   "estabelecimentos": [
@@ -50,11 +50,11 @@
       "municipio": "PIACABUCU",
       "latitude": -10.4073113,
       "longitude": -36.4313297,
-      "valor_minimo": 7.117437722419929,
-      "valor_maximo": 7.117437722419929,
-      "valor_medio": 7.117437722419929,
-      "valor_recente": 7.117437722419929,
-      "data_recente": "2026-04-11T19:32:26Z"
+      "valor_minimo": 7.119771863117871,
+      "valor_maximo": 7.119771863117871,
+      "valor_medio": 7.119771863117871,
+      "valor_recente": 7.119771863117871,
+      "data_recente": "2026-04-11T23:17:56Z"
     },
     {
       "cnpj": "24197104000104",
@@ -70,11 +70,11 @@
       "municipio": "PIACABUCU",
       "latitude": -10.4072761,
       "longitude": -36.4252736,
-      "valor_minimo": 7.120284697508897,
-      "valor_maximo": 7.120284697508897,
-      "valor_medio": 7.120284697508897,
-      "valor_recente": 7.120284697508897,
-      "data_recente": "2026-04-11T19:35:52Z"
+      "valor_minimo": 7.1199715201139195,
+      "valor_maximo": 7.1199715201139195,
+      "valor_medio": 7.1199715201139195,
+      "valor_recente": 7.1199715201139195,
+      "data_recente": "2026-04-11T23:07:44Z"
     },
     {
       "cnpj": "05388025000209",
@@ -90,11 +90,11 @@
       "municipio": "PIACABUCU",
       "latitude": -10.4073113,
       "longitude": -36.4313297,
-      "valor_minimo": 7.220408163265306,
-      "valor_maximo": 7.220408163265306,
-      "valor_medio": 7.220408163265306,
-      "valor_recente": 7.220408163265306,
-      "data_recente": "2026-04-11T19:36:19Z"
+      "valor_minimo": 7.2202166064981945,
+      "valor_maximo": 7.2202166064981945,
+      "valor_medio": 7.2202166064981945,
+      "valor_recente": 7.2202166064981945,
+      "data_recente": "2026-04-11T23:09:43Z"
     },
     {
       "cnpj": "05388025000209",
@@ -114,7 +114,7 @@
       "valor_maximo": 5.54016620498615,
       "valor_medio": 5.54016620498615,
       "valor_recente": 5.54016620498615,
-      "data_recente": "2026-04-11T18:29:16Z"
+      "data_recente": "2026-04-11T23:09:55Z"
     },
     {
       "cnpj": "07824798000305",
@@ -157,6 +157,26 @@
       "data_recente": "2026-04-02T13:51:24Z"
     },
     {
+      "cnpj": "24197104000104",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO TRÊS IRMÃOS LTDA  - EPP",
+      "nome_fantasia": "AUTO POSTO TRES IRMAOS",
+      "telefone": "(82) 35521193",
+      "nome_logradouro": "AV ULISSES GUEDES",
+      "numero_imovel": "266",
+      "bairro": "BRASILIA",
+      "cep": "57210000",
+      "codigo_ibge": 2706802,
+      "municipio": "PIACABUCU",
+      "latitude": -10.4072761,
+      "longitude": -36.4252736,
+      "valor_minimo": 7.89,
+      "valor_maximo": 7.89,
+      "valor_medio": 7.89,
+      "valor_recente": 7.89,
+      "data_recente": "2026-04-11T21:41:54Z"
+    },
+    {
       "cnpj": "05388025000209",
       "tipo_combustivel": 5,
       "razao_social": "BARBOSA & ROCHA LTDA",
@@ -174,27 +194,7 @@
       "valor_maximo": 7.8901688496133815,
       "valor_medio": 7.8901688496133815,
       "valor_recente": 7.8901688496133815,
-      "data_recente": "2026-04-11T19:26:17Z"
-    },
-    {
-      "cnpj": "24197104000104",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO TRÊS IRMÃOS LTDA  - EPP",
-      "nome_fantasia": "AUTO POSTO TRES IRMAOS",
-      "telefone": "(82) 35521193",
-      "nome_logradouro": "AV ULISSES GUEDES",
-      "numero_imovel": "266",
-      "bairro": "BRASILIA",
-      "cep": "57210000",
-      "codigo_ibge": 2706802,
-      "municipio": "PIACABUCU",
-      "latitude": -10.4072761,
-      "longitude": -36.4252736,
-      "valor_minimo": 7.890625,
-      "valor_maximo": 7.890625,
-      "valor_medio": 7.890625,
-      "valor_recente": 7.890625,
-      "data_recente": "2026-04-11T17:59:40Z"
+      "data_recente": "2026-04-11T23:10:01Z"
     }
   ]
 }

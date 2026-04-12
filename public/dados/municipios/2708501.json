@@ -1,56 +1,36 @@
 {
   "codigoIBGE": "2708501",
   "municipio": "São Luís do Quitunde",
-  "atualizadoEm": "2026-04-11T23:02:48.698Z",
+  "atualizadoEm": "2026-04-12T01:54:40.042Z",
   "totalEstabelecimentos": 11,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.589913555839827,
-      "valorMaximo": 6.740361283364789,
-      "valorMedio": 6.640092246661311
+      "valorMinimo": 6.589785831960461,
+      "valorMaximo": 7.35,
+      "valorMedio": 6.909550697098385
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.587743732590529,
-      "valorMaximo": 6.59,
-      "valorMedio": 6.588871866295264
+      "valorMinimo": 6.589062156819679,
+      "valorMaximo": 6.84,
+      "valorMedio": 6.7145310784098395
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 5.289605924358635,
-      "valorMaximo": 5.3792361484669176,
-      "valorMedio": 5.322933009891598
+      "valorMinimo": 5.289839100727353,
+      "valorMaximo": 5.37952552584862,
+      "valorMedio": 5.323161293086386
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.4898352236250805,
-      "valorMaximo": 7.519921063254047,
-      "valorMedio": 7.503234238611069
+      "valorMinimo": 7.49063670411985,
+      "valorMaximo": 7.519927808693036,
+      "valorMedio": 7.503492164647214
     }
   },
   "estabelecimentos": [
     {
-      "cnpj": "28442466000166",
-      "tipo_combustivel": 1,
-      "razao_social": "SANTOS DE FREITAS E CIA LTDA - EPP",
-      "nome_fantasia": "ESTRELA AUTO POSTO",
-      "telefone": "(82) 32511365",
-      "nome_logradouro": "ROD AL 413 KM 60",
-      "numero_imovel": "S/N",
-      "bairro": "CENTRO",
-      "cep": "57920000",
-      "codigo_ibge": 2708501,
-      "municipio": "SAO LUIS DO QUITUNDE",
-      "latitude": -9.350797,
-      "longitude": -35.555955,
-      "valor_minimo": 6.589913555839827,
-      "valor_maximo": 6.589913555839827,
-      "valor_medio": 6.589913555839827,
-      "valor_recente": 6.589913555839827,
-      "data_recente": "2026-04-11T19:34:54Z"
-    },
-    {
       "cnpj": "10535038000112",
       "tipo_combustivel": 1,
       "razao_social": "AUTO POSTO SANTO ANTONIO LTDA - EPP",
@@ -64,11 +44,31 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": -9.3144076,
       "longitude": -35.570283,
-      "valor_minimo": 6.59000190077932,
-      "valor_maximo": 6.59000190077932,
-      "valor_medio": 6.59000190077932,
-      "valor_recente": 6.59000190077932,
-      "data_recente": "2026-04-11T18:54:30Z"
+      "valor_minimo": 6.589785831960461,
+      "valor_maximo": 6.589785831960461,
+      "valor_medio": 6.589785831960461,
+      "valor_recente": 6.589785831960461,
+      "data_recente": "2026-04-11T23:05:50Z"
+    },
+    {
+      "cnpj": "28442466000166",
+      "tipo_combustivel": 1,
+      "razao_social": "SANTOS DE FREITAS E CIA LTDA - EPP",
+      "nome_fantasia": "ESTRELA AUTO POSTO",
+      "telefone": "(82) 32511365",
+      "nome_logradouro": "ROD AL 413 KM 60",
+      "numero_imovel": "S/N",
+      "bairro": "CENTRO",
+      "cep": "57920000",
+      "codigo_ibge": 2708501,
+      "municipio": "SAO LUIS DO QUITUNDE",
+      "latitude": -9.350797,
+      "longitude": -35.555955,
+      "valor_minimo": 6.788866259334691,
+      "valor_maximo": 6.788866259334691,
+      "valor_medio": 6.788866259334691,
+      "valor_recente": 6.788866259334691,
+      "data_recente": "2026-04-11T23:15:39Z"
     },
     {
       "cnpj": "49974887000108",
@@ -84,11 +84,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.740361283364789,
-      "valor_maximo": 6.740361283364789,
-      "valor_medio": 6.740361283364789,
-      "valor_recente": 6.740361283364789,
-      "data_recente": "2026-04-11T19:35:57Z"
+      "valor_minimo": 7.35,
+      "valor_maximo": 7.35,
+      "valor_medio": 7.35,
+      "valor_recente": 7.35,
+      "data_recente": "2026-04-11T22:56:43Z"
     },
     {
       "cnpj": "28442466000166",
@@ -104,11 +104,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": -9.350797,
       "longitude": -35.555955,
-      "valor_minimo": 6.587743732590529,
-      "valor_maximo": 6.587743732590529,
-      "valor_medio": 6.587743732590529,
-      "valor_recente": 6.587743732590529,
-      "data_recente": "2026-04-11T18:21:00Z"
+      "valor_minimo": 6.589062156819679,
+      "valor_maximo": 6.589062156819679,
+      "valor_medio": 6.589062156819679,
+      "valor_recente": 6.589062156819679,
+      "data_recente": "2026-04-11T23:15:39Z"
     },
     {
       "cnpj": "10535038000112",
@@ -124,11 +124,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": -9.3144076,
       "longitude": -35.570283,
-      "valor_minimo": 6.59,
-      "valor_maximo": 6.59,
-      "valor_medio": 6.59,
-      "valor_recente": 6.59,
-      "data_recente": "2026-04-11T18:31:20Z"
+      "valor_minimo": 6.84,
+      "valor_maximo": 6.84,
+      "valor_medio": 6.84,
+      "valor_recente": 6.84,
+      "data_recente": "2026-04-11T22:59:52Z"
     },
     {
       "cnpj": "10535038000112",
@@ -144,11 +144,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": -9.3144076,
       "longitude": -35.570283,
-      "valor_minimo": 5.289605924358635,
-      "valor_maximo": 5.289605924358635,
-      "valor_medio": 5.289605924358635,
-      "valor_recente": 5.289605924358635,
-      "data_recente": "2026-04-11T18:31:20Z"
+      "valor_minimo": 5.289839100727353,
+      "valor_maximo": 5.289839100727353,
+      "valor_medio": 5.289839100727353,
+      "valor_recente": 5.289839100727353,
+      "data_recente": "2026-04-11T22:59:52Z"
     },
     {
       "cnpj": "49974887000108",
@@ -164,11 +164,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.2999569568492415,
-      "valor_maximo": 5.2999569568492415,
-      "valor_medio": 5.2999569568492415,
-      "valor_recente": 5.2999569568492415,
-      "data_recente": "2026-04-11T19:28:33Z"
+      "valor_minimo": 5.300119252683185,
+      "valor_maximo": 5.300119252683185,
+      "valor_medio": 5.300119252683185,
+      "valor_recente": 5.300119252683185,
+      "data_recente": "2026-04-11T22:28:52Z"
     },
     {
       "cnpj": "28442466000166",
@@ -184,11 +184,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": -9.350797,
       "longitude": -35.555955,
-      "valor_minimo": 5.3792361484669176,
-      "valor_maximo": 5.3792361484669176,
-      "valor_medio": 5.3792361484669176,
-      "valor_recente": 5.3792361484669176,
-      "data_recente": "2026-04-11T18:21:00Z"
+      "valor_minimo": 5.37952552584862,
+      "valor_maximo": 5.37952552584862,
+      "valor_medio": 5.37952552584862,
+      "valor_recente": 5.37952552584862,
+      "data_recente": "2026-04-11T23:15:39Z"
     },
     {
       "cnpj": "10535038000112",
@@ -204,11 +204,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": -9.3144076,
       "longitude": -35.570283,
-      "valor_minimo": 7.4898352236250805,
-      "valor_maximo": 7.489978077043533,
-      "valor_medio": 7.489906650334307,
-      "valor_recente": 7.4898352236250805,
-      "data_recente": "2026-04-11T18:34:40Z"
+      "valor_minimo": 7.489514679448772,
+      "valor_maximo": 7.49063670411985,
+      "valor_medio": 7.490075691784311,
+      "valor_recente": 7.49063670411985,
+      "data_recente": "2026-04-11T22:56:15Z"
     },
     {
       "cnpj": "49974887000108",
@@ -224,11 +224,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.499946428954079,
-      "valor_maximo": 7.499946428954079,
-      "valor_medio": 7.499946428954079,
-      "valor_recente": 7.499946428954079,
-      "data_recente": "2026-04-11T19:03:52Z"
+      "valor_minimo": 7.499911981128754,
+      "valor_maximo": 7.499911981128754,
+      "valor_medio": 7.499911981128754,
+      "valor_recente": 7.499911981128754,
+      "data_recente": "2026-04-11T23:02:01Z"
     },
     {
       "cnpj": "28442466000166",
@@ -244,11 +244,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": -9.350797,
       "longitude": -35.555955,
-      "valor_minimo": 7.519921063254047,
-      "valor_maximo": 7.520047915349549,
-      "valor_medio": 7.519984489301798,
-      "valor_recente": 7.519921063254047,
-      "data_recente": "2026-04-11T19:28:26Z"
+      "valor_minimo": 7.519831262322894,
+      "valor_maximo": 7.519927808693036,
+      "valor_medio": 7.519879535507965,
+      "valor_recente": 7.519927808693036,
+      "data_recente": "2026-04-11T23:15:39Z"
     }
   ]
 }

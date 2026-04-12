@@ -1,7 +1,7 @@
 {
   "codigoIBGE": "2708105",
   "municipio": "Santana do Mundaú",
-  "atualizadoEm": "2026-04-11T23:00:16.814Z",
+  "atualizadoEm": "2026-04-12T01:52:49.477Z",
   "totalEstabelecimentos": 5,
   "combustiveis": {
     "1": {
@@ -12,38 +12,18 @@
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.688282138794084,
-      "valorMaximo": 5.688282138794084,
-      "valorMedio": 5.688282138794084
+      "valorMinimo": 5.691519635742743,
+      "valorMaximo": 5.691519635742743,
+      "valorMedio": 5.691519635742743
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.350073493385596,
-      "valorMaximo": 7.35023888276369,
-      "valorMedio": 7.350156188074642
+      "valorMinimo": 7.342995169082125,
+      "valorMaximo": 7.350031096285408,
+      "valorMedio": 7.346513132683766
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "11140617000129",
-      "tipo_combustivel": 1,
-      "razao_social": "ALMEIDA & VASCONCELOS LTDA",
-      "nome_fantasia": "AUTO POSTO EMANUELLY",
-      "telefone": "",
-      "nome_logradouro": "ROD AL 205",
-      "numero_imovel": "20",
-      "bairro": "ZONA RURAL",
-      "cep": "57840000",
-      "codigo_ibge": 2708105,
-      "municipio": "SANTANA DO MUNDAU",
-      "latitude": -9.1702427,
-      "longitude": -36.2207663,
-      "valor_minimo": 6.889424733034792,
-      "valor_maximo": 6.889424733034792,
-      "valor_medio": 6.889424733034792,
-      "valor_recente": 6.889424733034792,
-      "data_recente": "2026-04-11T19:09:30Z"
-    },
     {
       "cnpj": "40433057000107",
       "tipo_combustivel": 1,
@@ -58,11 +38,31 @@
       "municipio": "SANTANA DO MUNDAU",
       "latitude": 0,
       "longitude": 0,
+      "valor_minimo": 6.889424733034792,
+      "valor_maximo": 6.889424733034792,
+      "valor_medio": 6.889424733034792,
+      "valor_recente": 6.889424733034792,
+      "data_recente": "2026-04-11T21:36:46Z"
+    },
+    {
+      "cnpj": "11140617000129",
+      "tipo_combustivel": 1,
+      "razao_social": "ALMEIDA & VASCONCELOS LTDA",
+      "nome_fantasia": "AUTO POSTO EMANUELLY",
+      "telefone": "",
+      "nome_logradouro": "ROD AL 205",
+      "numero_imovel": "20",
+      "bairro": "ZONA RURAL",
+      "cep": "57840000",
+      "codigo_ibge": 2708105,
+      "municipio": "SANTANA DO MUNDAU",
+      "latitude": -9.1702427,
+      "longitude": -36.2207663,
       "valor_minimo": 6.890215893431328,
       "valor_maximo": 6.890215893431328,
       "valor_medio": 6.890215893431328,
       "valor_recente": 6.890215893431328,
-      "data_recente": "2026-04-11T18:39:05Z"
+      "data_recente": "2026-04-11T22:15:51Z"
     },
     {
       "cnpj": "11140617000129",
@@ -78,11 +78,11 @@
       "municipio": "SANTANA DO MUNDAU",
       "latitude": -9.1702427,
       "longitude": -36.2207663,
-      "valor_minimo": 5.688282138794084,
-      "valor_maximo": 5.688282138794084,
-      "valor_medio": 5.688282138794084,
-      "valor_recente": 5.688282138794084,
-      "data_recente": "2026-04-11T16:11:36Z"
+      "valor_minimo": 5.691519635742743,
+      "valor_maximo": 5.691519635742743,
+      "valor_medio": 5.691519635742743,
+      "valor_recente": 5.691519635742743,
+      "data_recente": "2026-04-11T21:44:47Z"
     },
     {
       "cnpj": "11140617000129",
@@ -98,11 +98,11 @@
       "municipio": "SANTANA DO MUNDAU",
       "latitude": -9.1702427,
       "longitude": -36.2207663,
-      "valor_minimo": 7.350073493385596,
-      "valor_maximo": 7.350073493385596,
-      "valor_medio": 7.350073493385596,
-      "valor_recente": 7.350073493385596,
-      "data_recente": "2026-04-11T19:31:23Z"
+      "valor_minimo": 7.342995169082125,
+      "valor_maximo": 7.342995169082125,
+      "valor_medio": 7.342995169082125,
+      "valor_recente": 7.342995169082125,
+      "data_recente": "2026-04-11T21:44:47Z"
     },
     {
       "cnpj": "40433057000107",
@@ -118,11 +118,11 @@
       "municipio": "SANTANA DO MUNDAU",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.35023888276369,
-      "valor_maximo": 7.35023888276369,
-      "valor_medio": 7.35023888276369,
-      "valor_recente": 7.35023888276369,
-      "data_recente": "2026-04-11T17:15:03Z"
+      "valor_minimo": 7.350031096285408,
+      "valor_maximo": 7.350031096285408,
+      "valor_medio": 7.350031096285408,
+      "valor_recente": 7.350031096285408,
+      "data_recente": "2026-04-11T21:38:23Z"
     }
   ]
 }

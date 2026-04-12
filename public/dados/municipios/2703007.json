@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2703007",
   "municipio": "Ibateguara",
-  "atualizadoEm": "2026-04-11T22:33:54.840Z",
+  "atualizadoEm": "2026-04-12T01:35:13.507Z",
   "totalEstabelecimentos": 10,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.6,
+      "valorMinimo": 6.650735294117647,
       "valorMaximo": 6.989515726410384,
-      "valorMedio": 6.846968205099757
+      "valorMedio": 6.863541076321585
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.95,
+      "valorMinimo": 6.951388888888889,
       "valorMaximo": 6.988202637057599,
-      "valorMedio": 6.9691013185288
+      "valorMedio": 6.969795762973244
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.189952252439277,
-      "valorMaximo": 5.190279214064116,
-      "valorMedio": 5.190115733251696
+      "valorMinimo": 5.188356164383562,
+      "valorMaximo": 5.189952252439277,
+      "valorMedio": 5.18915420841142
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.389890629618682,
-      "valorMaximo": 7.689647221581739,
-      "valorMedio": 7.576450195094272
+      "valorMinimo": 6.8,
+      "valorMaximo": 7.649847094801223,
+      "valorMedio": 7.279912574806635
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "IBATEGUARA",
       "latitude": -8.968526599999999,
       "longitude": -35.9246712,
-      "valor_minimo": 6.6,
-      "valor_maximo": 6.6,
-      "valor_medio": 6.6,
-      "valor_recente": 6.6,
-      "data_recente": "2026-04-11T18:29:02Z"
+      "valor_minimo": 6.650735294117647,
+      "valor_maximo": 6.650735294117647,
+      "valor_medio": 6.650735294117647,
+      "valor_recente": 6.650735294117647,
+      "data_recente": "2026-04-11T19:41:02Z"
     },
     {
       "cnpj": "37308725000151",
@@ -64,11 +64,11 @@
       "municipio": "IBATEGUARA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.951388888888889,
-      "valor_maximo": 6.951388888888889,
-      "valor_medio": 6.951388888888889,
-      "valor_recente": 6.951388888888889,
-      "data_recente": "2026-04-11T16:34:44Z"
+      "valor_minimo": 6.9503722084367245,
+      "valor_maximo": 6.9503722084367245,
+      "valor_medio": 6.9503722084367245,
+      "valor_recente": 6.9503722084367245,
+      "data_recente": "2026-04-11T20:48:43Z"
     },
     {
       "cnpj": "14432556000161",
@@ -104,11 +104,11 @@
       "municipio": "IBATEGUARA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.95,
-      "valor_maximo": 6.95,
-      "valor_medio": 6.95,
-      "valor_recente": 6.95,
-      "data_recente": "2026-04-11T18:13:09Z"
+      "valor_minimo": 6.951388888888889,
+      "valor_maximo": 6.951388888888889,
+      "valor_medio": 6.951388888888889,
+      "valor_recente": 6.951388888888889,
+      "data_recente": "2026-04-11T20:47:21Z"
     },
     {
       "cnpj": "11457014000155",
@@ -131,6 +131,26 @@
       "data_recente": "2026-04-11T16:13:41Z"
     },
     {
+      "cnpj": "37308725000151",
+      "tipo_combustivel": 3,
+      "razao_social": "AUTO POSTO TANQUE CHEIO LTDA",
+      "nome_fantasia": "AUTO POSTO TANQUE CHEIO",
+      "telefone": "(82) 93555335",
+      "nome_logradouro": "Rua DRA JANETE DE ARAUJO",
+      "numero_imovel": "360",
+      "bairro": "CENTRO",
+      "cep": "57890000",
+      "codigo_ibge": 2703007,
+      "municipio": "IBATEGUARA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 5.188356164383562,
+      "valor_maximo": 5.188356164383562,
+      "valor_medio": 5.188356164383562,
+      "valor_recente": 5.188356164383562,
+      "data_recente": "2026-04-11T20:47:21Z"
+    },
+    {
       "cnpj": "14432556000161",
       "tipo_combustivel": 3,
       "razao_social": "POSTO NOVO HORIZONTE LTDA - EPP",
@@ -151,24 +171,24 @@
       "data_recente": "2026-04-11T16:57:44Z"
     },
     {
-      "cnpj": "37308725000151",
-      "tipo_combustivel": 3,
-      "razao_social": "AUTO POSTO TANQUE CHEIO LTDA",
-      "nome_fantasia": "AUTO POSTO TANQUE CHEIO",
-      "telefone": "(82) 93555335",
+      "cnpj": "11457014000155",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO TOP LINE LTDA - EPP",
+      "nome_fantasia": "AUTO POSTO TOP LINE",
+      "telefone": "(82) 32031114",
       "nome_logradouro": "Rua DRA JANETE DE ARAUJO",
-      "numero_imovel": "360",
+      "numero_imovel": "227",
       "bairro": "CENTRO",
       "cep": "57890000",
       "codigo_ibge": 2703007,
       "municipio": "IBATEGUARA",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 5.190279214064116,
-      "valor_maximo": 5.190279214064116,
-      "valor_medio": 5.190279214064116,
-      "valor_recente": 5.190279214064116,
-      "data_recente": "2026-04-11T18:12:11Z"
+      "latitude": -8.968526599999999,
+      "longitude": -35.9246712,
+      "valor_minimo": 6.8,
+      "valor_maximo": 6.8,
+      "valor_medio": 6.8,
+      "valor_recente": 6.8,
+      "data_recente": "2026-04-11T20:02:31Z"
     },
     {
       "cnpj": "14432556000161",
@@ -204,31 +224,11 @@
       "municipio": "IBATEGUARA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.649812734082397,
-      "valor_maximo": 7.649812734082397,
-      "valor_medio": 7.649812734082397,
-      "valor_recente": 7.649812734082397,
-      "data_recente": "2026-04-11T16:34:44Z"
-    },
-    {
-      "cnpj": "11457014000155",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO TOP LINE LTDA - EPP",
-      "nome_fantasia": "AUTO POSTO TOP LINE",
-      "telefone": "(82) 32031114",
-      "nome_logradouro": "Rua DRA JANETE DE ARAUJO",
-      "numero_imovel": "227",
-      "bairro": "CENTRO",
-      "cep": "57890000",
-      "codigo_ibge": 2703007,
-      "municipio": "IBATEGUARA",
-      "latitude": -8.968526599999999,
-      "longitude": -35.9246712,
-      "valor_minimo": 7.689647221581739,
-      "valor_maximo": 7.689647221581739,
-      "valor_medio": 7.689647221581739,
-      "valor_recente": 7.689647221581739,
-      "data_recente": "2026-04-11T16:06:02Z"
+      "valor_minimo": 7.649847094801223,
+      "valor_maximo": 7.649847094801223,
+      "valor_medio": 7.649847094801223,
+      "valor_recente": 7.649847094801223,
+      "data_recente": "2026-04-11T20:47:21Z"
     }
   ]
 }
