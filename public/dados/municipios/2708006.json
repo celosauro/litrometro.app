@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2708006",
   "municipio": "Santana do Ipanema",
-  "atualizadoEm": "2026-04-12T01:52:26.775Z",
+  "atualizadoEm": "2026-04-12T06:15:28.638Z",
   "totalEstabelecimentos": 33,
   "combustiveis": {
     "1": {
       "totalPostos": 8,
-      "valorMinimo": 6.910958904109589,
-      "valorMaximo": 6.981395348837209,
-      "valorMedio": 6.947535026223795
+      "valorMinimo": 6.9102209944751385,
+      "valorMaximo": 6.979094076655052,
+      "valorMedio": 6.947473247794809
     },
     "2": {
       "totalPostos": 7,
-      "valorMinimo": 6.701657458563536,
-      "valorMaximo": 7.15,
-      "valorMedio": 7.015955880507066
+      "valorMinimo": 6.700133868808567,
+      "valorMaximo": 7.150793650793651,
+      "valorMedio": 7.015341462395207
     },
     "3": {
       "totalPostos": 9,
-      "valorMinimo": 5.300344006350887,
+      "valorMinimo": 5.299788135593221,
       "valorMaximo": 5.970167064439141,
-      "valorMedio": 5.840759851949485
+      "valorMedio": 5.839774046160681
     },
     "5": {
       "totalPostos": 9,
-      "valorMinimo": 7.500936680404646,
-      "valorMaximo": 8.083,
-      "valorMedio": 7.779430120190928
+      "valorMinimo": 7.5,
+      "valorMaximo": 7.854166666666667,
+      "valorMedio": 7.7760622001850646
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": -9.3640671,
       "longitude": -37.2649857,
-      "valor_minimo": 6.910958904109589,
-      "valor_maximo": 6.910958904109589,
-      "valor_medio": 6.910958904109589,
-      "valor_recente": 6.910958904109589,
-      "data_recente": "2026-04-11T23:17:23Z"
+      "valor_minimo": 6.9102209944751385,
+      "valor_maximo": 6.9102209944751385,
+      "valor_medio": 6.9102209944751385,
+      "valor_recente": 6.9102209944751385,
+      "data_recente": "2026-04-12T02:44:40Z"
     },
     {
       "cnpj": "05885727000117",
@@ -64,11 +64,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": -9.371188499999999,
       "longitude": -37.2394206,
-      "valor_minimo": 6.929941142965635,
-      "valor_maximo": 6.929941142965635,
-      "valor_medio": 6.929941142965635,
-      "valor_recente": 6.929941142965635,
-      "data_recente": "2026-04-11T23:08:57Z"
+      "valor_minimo": 6.928571428571429,
+      "valor_maximo": 6.928571428571429,
+      "valor_medio": 6.928571428571429,
+      "valor_recente": 6.928571428571429,
+      "data_recente": "2026-04-12T02:30:35Z"
     },
     {
       "cnpj": "12688818000128",
@@ -88,7 +88,27 @@
       "valor_maximo": 6.939625260235947,
       "valor_medio": 6.939625260235947,
       "valor_recente": 6.939625260235947,
-      "data_recente": "2026-04-11T23:03:13Z"
+      "data_recente": "2026-04-12T00:51:09Z"
+    },
+    {
+      "cnpj": "26362482000113",
+      "tipo_combustivel": 1,
+      "razao_social": "NOBRE COMERCIO DE COMBUSTIVEIS - EIRELI - EPP",
+      "nome_fantasia": "AUTO POSTO NOBRE",
+      "telefone": "",
+      "nome_logradouro": "AV GOVERNADOR GERALDO BULHOES BARROS",
+      "numero_imovel": "1212",
+      "bairro": "DOMINGOS ACACIO",
+      "cep": "57500000",
+      "codigo_ibge": 2708006,
+      "municipio": "SANTANA DO IPANEMA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.948976049982645,
+      "valor_maximo": 6.948976049982645,
+      "valor_medio": 6.948976049982645,
+      "valor_recente": 6.948976049982645,
+      "data_recente": "2026-04-12T01:59:55Z"
     },
     {
       "cnpj": "08529008000232",
@@ -108,27 +128,7 @@
       "valor_maximo": 6.949270326615705,
       "valor_medio": 6.949270326615705,
       "valor_recente": 6.949270326615705,
-      "data_recente": "2026-04-11T23:13:41Z"
-    },
-    {
-      "cnpj": "26362482000113",
-      "tipo_combustivel": 1,
-      "razao_social": "NOBRE COMERCIO DE COMBUSTIVEIS - EIRELI - EPP",
-      "nome_fantasia": "AUTO POSTO NOBRE",
-      "telefone": "",
-      "nome_logradouro": "AV GOVERNADOR GERALDO BULHOES BARROS",
-      "numero_imovel": "1212",
-      "bairro": "DOMINGOS ACACIO",
-      "cep": "57500000",
-      "codigo_ibge": 2708006,
-      "municipio": "SANTANA DO IPANEMA",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.949994787503909,
-      "valor_maximo": 6.949994787503909,
-      "valor_medio": 6.949994787503909,
-      "valor_recente": 6.949994787503909,
-      "data_recente": "2026-04-11T23:11:56Z"
+      "data_recente": "2026-04-12T02:01:03Z"
     },
     {
       "cnpj": "08529008000151",
@@ -144,11 +144,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.950236308034473,
-      "valor_maximo": 6.950236308034473,
-      "valor_medio": 6.950236308034473,
-      "valor_recente": 6.950236308034473,
-      "data_recente": "2026-04-11T23:05:47Z"
+      "valor_minimo": 6.9504950495049505,
+      "valor_maximo": 6.9504950495049505,
+      "valor_medio": 6.9504950495049505,
+      "valor_recente": 6.9504950495049505,
+      "data_recente": "2026-04-12T01:51:56Z"
     },
     {
       "cnpj": "08418303000130",
@@ -164,11 +164,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": -9.3697311,
       "longitude": -37.2466911,
-      "valor_minimo": 6.968858131487889,
-      "valor_maximo": 6.968858131487889,
-      "valor_medio": 6.968858131487889,
-      "valor_recente": 6.968858131487889,
-      "data_recente": "2026-04-11T23:13:50Z"
+      "valor_minimo": 6.973532796317606,
+      "valor_maximo": 6.973532796317606,
+      "valor_medio": 6.973532796317606,
+      "valor_recente": 6.973532796317606,
+      "data_recente": "2026-04-12T00:55:30Z"
     },
     {
       "cnpj": "01332922000169",
@@ -184,11 +184,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": -9.367818,
       "longitude": -37.248427,
-      "valor_minimo": 6.981395348837209,
-      "valor_maximo": 6.981395348837209,
-      "valor_medio": 6.981395348837209,
-      "valor_recente": 6.981395348837209,
-      "data_recente": "2026-04-11T22:28:09Z"
+      "valor_minimo": 6.979094076655052,
+      "valor_maximo": 6.979094076655052,
+      "valor_medio": 6.979094076655052,
+      "valor_recente": 6.979094076655052,
+      "data_recente": "2026-04-12T02:35:55Z"
     },
     {
       "cnpj": "05738409000123",
@@ -204,11 +204,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": -9.372088999999999,
       "longitude": -37.2431561,
-      "valor_minimo": 6.701657458563536,
-      "valor_maximo": 6.701657458563536,
-      "valor_medio": 6.701657458563536,
-      "valor_recente": 6.701657458563536,
-      "data_recente": "2026-04-11T21:19:30Z"
+      "valor_minimo": 6.700133868808567,
+      "valor_maximo": 6.700133868808567,
+      "valor_medio": 6.700133868808567,
+      "valor_recente": 6.700133868808567,
+      "data_recente": "2026-04-11T23:20:48Z"
     },
     {
       "cnpj": "26362482000113",
@@ -224,11 +224,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.9097956307258634,
-      "valor_maximo": 6.9097956307258634,
-      "valor_medio": 6.9097956307258634,
-      "valor_recente": 6.9097956307258634,
-      "data_recente": "2026-04-11T23:18:29Z"
+      "valor_minimo": 6.9096671949286845,
+      "valor_maximo": 6.9096671949286845,
+      "valor_medio": 6.9096671949286845,
+      "valor_recente": 6.9096671949286845,
+      "data_recente": "2026-04-12T01:22:19Z"
     },
     {
       "cnpj": "08529008000151",
@@ -244,11 +244,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.049295774647887,
-      "valor_maximo": 7.049295774647887,
-      "valor_medio": 7.049295774647887,
-      "valor_recente": 7.049295774647887,
-      "data_recente": "2026-04-11T22:46:17Z"
+      "valor_minimo": 7.049700387733521,
+      "valor_maximo": 7.049700387733521,
+      "valor_medio": 7.049700387733521,
+      "valor_recente": 7.049700387733521,
+      "data_recente": "2026-04-12T01:42:13Z"
     },
     {
       "cnpj": "05885727000117",
@@ -264,11 +264,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": -9.371188499999999,
       "longitude": -37.2394206,
-      "valor_minimo": 7.070135746606335,
-      "valor_maximo": 7.070135746606335,
-      "valor_medio": 7.070135746606335,
-      "valor_recente": 7.070135746606335,
-      "data_recente": "2026-04-11T15:03:42Z"
+      "valor_minimo": 7.067137809187279,
+      "valor_maximo": 7.067137809187279,
+      "valor_medio": 7.067137809187279,
+      "valor_recente": 7.067137809187279,
+      "data_recente": "2026-04-11T23:32:54Z"
     },
     {
       "cnpj": "08529008000232",
@@ -288,7 +288,7 @@
       "valor_maximo": 7.092198581560283,
       "valor_medio": 7.092198581560283,
       "valor_recente": 7.092198581560283,
-      "data_recente": "2026-04-11T23:18:30Z"
+      "data_recente": "2026-04-12T02:01:03Z"
     },
     {
       "cnpj": "01332922000169",
@@ -304,11 +304,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": -9.367818,
       "longitude": -37.248427,
-      "valor_minimo": 7.138607971445568,
-      "valor_maximo": 7.138607971445568,
-      "valor_medio": 7.138607971445568,
-      "valor_recente": 7.138607971445568,
-      "data_recente": "2026-04-11T21:45:16Z"
+      "valor_minimo": 7.137758743754461,
+      "valor_maximo": 7.137758743754461,
+      "valor_medio": 7.137758743754461,
+      "valor_recente": 7.137758743754461,
+      "data_recente": "2026-04-12T02:35:55Z"
     },
     {
       "cnpj": "08418303000130",
@@ -324,11 +324,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": -9.3697311,
       "longitude": -37.2466911,
-      "valor_minimo": 7.15,
-      "valor_maximo": 7.15,
-      "valor_medio": 7.15,
-      "valor_recente": 7.15,
-      "data_recente": "2026-04-11T23:12:50Z"
+      "valor_minimo": 7.150793650793651,
+      "valor_maximo": 7.150793650793651,
+      "valor_medio": 7.150793650793651,
+      "valor_recente": 7.150793650793651,
+      "data_recente": "2026-04-12T00:58:45Z"
     },
     {
       "cnpj": "05738409000123",
@@ -344,11 +344,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": -9.372088999999999,
       "longitude": -37.2431561,
-      "valor_minimo": 5.300344006350887,
-      "valor_maximo": 5.300344006350887,
-      "valor_medio": 5.300344006350887,
-      "valor_recente": 5.300344006350887,
-      "data_recente": "2026-04-11T21:03:16Z"
+      "valor_minimo": 5.299788135593221,
+      "valor_maximo": 5.299788135593221,
+      "valor_medio": 5.299788135593221,
+      "valor_recente": 5.299788135593221,
+      "data_recente": "2026-04-11T23:23:36Z"
     },
     {
       "cnpj": "12688818000128",
@@ -364,11 +364,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": -9.3700663,
       "longitude": -37.2488942,
-      "valor_minimo": 5.600044800358403,
-      "valor_maximo": 5.600044800358403,
-      "valor_medio": 5.600044800358403,
-      "valor_recente": 5.600044800358403,
-      "data_recente": "2026-04-11T22:33:15Z"
+      "valor_minimo": 5.599104143337066,
+      "valor_maximo": 5.599104143337066,
+      "valor_medio": 5.599104143337066,
+      "valor_recente": 5.599104143337066,
+      "data_recente": "2026-04-11T23:31:41Z"
     },
     {
       "cnpj": "05885727000117",
@@ -384,11 +384,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": -9.371188499999999,
       "longitude": -37.2394206,
-      "valor_minimo": 5.929439667951379,
-      "valor_maximo": 5.929439667951379,
-      "valor_medio": 5.929439667951379,
-      "valor_recente": 5.929439667951379,
-      "data_recente": "2026-04-11T15:18:47Z"
+      "valor_minimo": 5.928853754940712,
+      "valor_maximo": 5.928853754940712,
+      "valor_medio": 5.928853754940712,
+      "valor_recente": 5.928853754940712,
+      "data_recente": "2026-04-12T02:30:51Z"
     },
     {
       "cnpj": "04979169000196",
@@ -424,11 +424,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": -9.3699579,
       "longitude": -37.2474336,
-      "valor_minimo": 5.950609937518595,
-      "valor_maximo": 5.950609937518595,
-      "valor_medio": 5.950609937518595,
-      "valor_recente": 5.950609937518595,
-      "data_recente": "2026-04-11T23:00:39Z"
+      "valor_minimo": 5.950019833399445,
+      "valor_maximo": 5.950019833399445,
+      "valor_medio": 5.950019833399445,
+      "valor_recente": 5.950019833399445,
+      "data_recente": "2026-04-12T02:00:43Z"
     },
     {
       "cnpj": "08418303000130",
@@ -444,11 +444,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": -9.3697311,
       "longitude": -37.2466911,
-      "valor_minimo": 5.959619952494061,
-      "valor_maximo": 5.959619952494061,
-      "valor_medio": 5.959619952494061,
-      "valor_recente": 5.959619952494061,
-      "data_recente": "2026-04-11T22:57:33Z"
+      "valor_minimo": 5.959821428571429,
+      "valor_maximo": 5.959821428571429,
+      "valor_medio": 5.959821428571429,
+      "valor_recente": 5.959821428571429,
+      "data_recente": "2026-04-12T00:32:46Z"
     },
     {
       "cnpj": "08529008000151",
@@ -464,11 +464,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.960692285127603,
-      "valor_maximo": 5.960692285127603,
-      "valor_medio": 5.960692285127603,
-      "valor_recente": 5.960692285127603,
-      "data_recente": "2026-04-11T22:46:17Z"
+      "valor_minimo": 5.959919541086196,
+      "valor_maximo": 5.959919541086196,
+      "valor_medio": 5.959919541086196,
+      "valor_recente": 5.959919541086196,
+      "data_recente": "2026-04-12T01:00:59Z"
     },
     {
       "cnpj": "26362482000113",
@@ -484,11 +484,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.965909090909091,
-      "valor_maximo": 5.965909090909091,
-      "valor_medio": 5.965909090909091,
-      "valor_recente": 5.965909090909091,
-      "data_recente": "2026-04-11T23:15:05Z"
+      "valor_minimo": 5.960280651682721,
+      "valor_maximo": 5.960280651682721,
+      "valor_medio": 5.960280651682721,
+      "valor_recente": 5.960280651682721,
+      "data_recente": "2026-04-12T01:44:53Z"
     },
     {
       "cnpj": "01332922000169",
@@ -524,31 +524,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": -9.372088999999999,
       "longitude": -37.2431561,
-      "valor_minimo": 7.500936680404646,
-      "valor_maximo": 7.500936680404646,
-      "valor_medio": 7.500936680404646,
-      "valor_recente": 7.500936680404646,
-      "data_recente": "2026-04-11T21:19:30Z"
-    },
-    {
-      "cnpj": "08418303000130",
-      "tipo_combustivel": 5,
-      "razao_social": "IRMAOS JOTA PINTO & CIA LTDA",
-      "nome_fantasia": "POSTO JOTA PINTO",
-      "telefone": "",
-      "nome_logradouro": "Rua DOMINGOS ACACIO",
-      "numero_imovel": "144",
-      "bairro": "DOMINGOS ACACIO",
-      "cep": "57500000",
-      "codigo_ibge": 2708006,
-      "municipio": "SANTANA DO IPANEMA",
-      "latitude": -9.3697311,
-      "longitude": -37.2466911,
-      "valor_minimo": 7.610202117420597,
-      "valor_maximo": 7.610202117420597,
-      "valor_medio": 7.610202117420597,
-      "valor_recente": 7.610202117420597,
-      "data_recente": "2026-04-11T23:16:34Z"
+      "valor_minimo": 7.5,
+      "valor_maximo": 7.5,
+      "valor_medio": 7.5,
+      "valor_recente": 7.5,
+      "data_recente": "2026-04-11T23:23:36Z"
     },
     {
       "cnpj": "26362482000113",
@@ -564,11 +544,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.690086621751684,
-      "valor_maximo": 7.690086621751684,
-      "valor_medio": 7.690086621751684,
-      "valor_recente": 7.690086621751684,
-      "data_recente": "2026-04-11T23:18:01Z"
+      "valor_minimo": 7.6900974858902,
+      "valor_maximo": 7.6900974858902,
+      "valor_medio": 7.6900974858902,
+      "valor_recente": 7.6900974858902,
+      "data_recente": "2026-04-12T01:45:16Z"
     },
     {
       "cnpj": "12688818000128",
@@ -584,11 +564,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": -9.3700663,
       "longitude": -37.2488942,
-      "valor_minimo": 7.8,
-      "valor_maximo": 7.8,
-      "valor_medio": 7.8,
-      "valor_recente": 7.8,
-      "data_recente": "2026-04-11T23:03:13Z"
+      "valor_minimo": 7.8000124992187985,
+      "valor_maximo": 7.8000124992187985,
+      "valor_medio": 7.8000124992187985,
+      "valor_recente": 7.8000124992187985,
+      "data_recente": "2026-04-12T00:51:09Z"
     },
     {
       "cnpj": "04979169000196",
@@ -611,6 +591,26 @@
       "data_recente": "2026-04-11T21:51:57Z"
     },
     {
+      "cnpj": "01332922000169",
+      "tipo_combustivel": 5,
+      "razao_social": "POSTO MARACANA LTDA",
+      "nome_fantasia": "POSTO MARACANA",
+      "telefone": "(82) 6211534",
+      "nome_logradouro": "Rua PEDRO BRANDAO",
+      "numero_imovel": "370",
+      "bairro": "CAMOXINGA",
+      "cep": "57500000",
+      "codigo_ibge": 2708006,
+      "municipio": "SANTANA DO IPANEMA",
+      "latitude": -9.367818,
+      "longitude": -37.248427,
+      "valor_minimo": 7.809672386895476,
+      "valor_maximo": 7.809672386895476,
+      "valor_medio": 7.809672386895476,
+      "valor_recente": 7.809672386895476,
+      "data_recente": "2026-04-12T02:35:55Z"
+    },
+    {
       "cnpj": "05885727000117",
       "tipo_combustivel": 5,
       "razao_social": "AUTO POSTO SANTANA LTDA",
@@ -624,11 +624,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": -9.371188499999999,
       "longitude": -37.2394206,
-      "valor_minimo": 7.829738771442807,
-      "valor_maximo": 7.829738771442807,
-      "valor_medio": 7.829738771442807,
-      "valor_recente": 7.829738771442807,
-      "data_recente": "2026-04-11T23:18:43Z"
+      "valor_minimo": 7.829977628635347,
+      "valor_maximo": 7.829977628635347,
+      "valor_medio": 7.829977628635347,
+      "valor_recente": 7.829977628635347,
+      "data_recente": "2026-04-12T02:31:00Z"
     },
     {
       "cnpj": "08529008000232",
@@ -645,10 +645,10 @@
       "latitude": -9.3699579,
       "longitude": -37.2474336,
       "valor_minimo": 7.849909726038151,
-      "valor_maximo": 7.849925526347571,
-      "valor_medio": 7.849917626192861,
-      "valor_recente": 7.849925526347571,
-      "data_recente": "2026-04-11T23:13:05Z"
+      "valor_maximo": 7.849909726038151,
+      "valor_medio": 7.849909726038151,
+      "valor_recente": 7.849909726038151,
+      "data_recente": "2026-04-12T02:00:15Z"
     },
     {
       "cnpj": "08529008000151",
@@ -664,31 +664,31 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.850196078431373,
-      "valor_maximo": 7.850200114351058,
-      "valor_medio": 7.850198096391216,
-      "valor_recente": 7.850200114351058,
-      "data_recente": "2026-04-11T22:46:50Z"
+      "valor_minimo": 7.849942158320939,
+      "valor_maximo": 7.850063781768227,
+      "valor_medio": 7.850002970044583,
+      "valor_recente": 7.849942158320939,
+      "data_recente": "2026-04-12T01:19:56Z"
     },
     {
-      "cnpj": "01332922000169",
+      "cnpj": "08418303000130",
       "tipo_combustivel": 5,
-      "razao_social": "POSTO MARACANA LTDA",
-      "nome_fantasia": "POSTO MARACANA",
-      "telefone": "(82) 6211534",
-      "nome_logradouro": "Rua PEDRO BRANDAO",
-      "numero_imovel": "370",
-      "bairro": "CAMOXINGA",
+      "razao_social": "IRMAOS JOTA PINTO & CIA LTDA",
+      "nome_fantasia": "POSTO JOTA PINTO",
+      "telefone": "",
+      "nome_logradouro": "Rua DOMINGOS ACACIO",
+      "numero_imovel": "144",
+      "bairro": "DOMINGOS ACACIO",
       "cep": "57500000",
       "codigo_ibge": 2708006,
       "municipio": "SANTANA DO IPANEMA",
-      "latitude": -9.367818,
-      "longitude": -37.248427,
-      "valor_minimo": 8.083,
-      "valor_maximo": 8.083,
-      "valor_medio": 8.083,
-      "valor_recente": 8.083,
-      "data_recente": "2026-04-11T22:54:42Z"
+      "latitude": -9.3697311,
+      "longitude": -37.2466911,
+      "valor_minimo": 7.854166666666667,
+      "valor_maximo": 7.854166666666667,
+      "valor_medio": 7.854166666666667,
+      "valor_recente": 7.854166666666667,
+      "data_recente": "2026-04-11T23:55:38Z"
     }
   ]
 }

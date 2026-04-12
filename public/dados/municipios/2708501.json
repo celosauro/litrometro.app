@@ -1,75 +1,35 @@
 {
   "codigoIBGE": "2708501",
   "municipio": "São Luís do Quitunde",
-  "atualizadoEm": "2026-04-12T01:54:40.042Z",
+  "atualizadoEm": "2026-04-12T06:17:34.791Z",
   "totalEstabelecimentos": 11,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.589785831960461,
-      "valorMaximo": 7.35,
-      "valorMedio": 6.909550697098385
+      "valorMinimo": 6.489954633830201,
+      "valorMaximo": 6.589062156819679,
+      "valorMedio": 6.556026315823186
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.589062156819679,
-      "valorMaximo": 6.84,
-      "valorMedio": 6.7145310784098395
+      "valorMinimo": 6.589785831960461,
+      "valorMaximo": 6.5898722627737225,
+      "valorMedio": 6.5898290473670915
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 5.289839100727353,
-      "valorMaximo": 5.37952552584862,
-      "valorMedio": 5.323161293086386
+      "valorMinimo": 5.289885738468049,
+      "valorMaximo": 5.3792361484669176,
+      "valorMedio": 5.323040628978322
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.49063670411985,
+      "valorMinimo": 7.25163161711385,
       "valorMaximo": 7.519927808693036,
-      "valorMedio": 7.503492164647214
+      "valorMedio": 7.420545025190317
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "10535038000112",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO SANTO ANTONIO LTDA - EPP",
-      "nome_fantasia": "AUTO POSTO SANTO ANTONIO",
-      "telefone": "(82) 32531252",
-      "nome_logradouro": "Rua DR FRANCISCO DE OLIVEIRA BUARQUE",
-      "numero_imovel": "537",
-      "bairro": "CENTRO",
-      "cep": "57920000",
-      "codigo_ibge": 2708501,
-      "municipio": "SAO LUIS DO QUITUNDE",
-      "latitude": -9.3144076,
-      "longitude": -35.570283,
-      "valor_minimo": 6.589785831960461,
-      "valor_maximo": 6.589785831960461,
-      "valor_medio": 6.589785831960461,
-      "valor_recente": 6.589785831960461,
-      "data_recente": "2026-04-11T23:05:50Z"
-    },
-    {
-      "cnpj": "28442466000166",
-      "tipo_combustivel": 1,
-      "razao_social": "SANTOS DE FREITAS E CIA LTDA - EPP",
-      "nome_fantasia": "ESTRELA AUTO POSTO",
-      "telefone": "(82) 32511365",
-      "nome_logradouro": "ROD AL 413 KM 60",
-      "numero_imovel": "S/N",
-      "bairro": "CENTRO",
-      "cep": "57920000",
-      "codigo_ibge": 2708501,
-      "municipio": "SAO LUIS DO QUITUNDE",
-      "latitude": -9.350797,
-      "longitude": -35.555955,
-      "valor_minimo": 6.788866259334691,
-      "valor_maximo": 6.788866259334691,
-      "valor_medio": 6.788866259334691,
-      "valor_recente": 6.788866259334691,
-      "data_recente": "2026-04-11T23:15:39Z"
-    },
     {
       "cnpj": "49974887000108",
       "tipo_combustivel": 1,
@@ -84,15 +44,35 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.35,
-      "valor_maximo": 7.35,
-      "valor_medio": 7.35,
-      "valor_recente": 7.35,
-      "data_recente": "2026-04-11T22:56:43Z"
+      "valor_minimo": 6.489954633830201,
+      "valor_maximo": 6.489954633830201,
+      "valor_medio": 6.489954633830201,
+      "valor_recente": 6.489954633830201,
+      "data_recente": "2026-04-12T00:09:38Z"
+    },
+    {
+      "cnpj": "10535038000112",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO SANTO ANTONIO LTDA - EPP",
+      "nome_fantasia": "AUTO POSTO SANTO ANTONIO",
+      "telefone": "(82) 32531252",
+      "nome_logradouro": "Rua DR FRANCISCO DE OLIVEIRA BUARQUE",
+      "numero_imovel": "537",
+      "bairro": "CENTRO",
+      "cep": "57920000",
+      "codigo_ibge": 2708501,
+      "municipio": "SAO LUIS DO QUITUNDE",
+      "latitude": -9.3144076,
+      "longitude": -35.570283,
+      "valor_minimo": 6.589062156819679,
+      "valor_maximo": 6.589062156819679,
+      "valor_medio": 6.589062156819679,
+      "valor_recente": 6.589062156819679,
+      "data_recente": "2026-04-12T00:38:58Z"
     },
     {
       "cnpj": "28442466000166",
-      "tipo_combustivel": 2,
+      "tipo_combustivel": 1,
       "razao_social": "SANTOS DE FREITAS E CIA LTDA - EPP",
       "nome_fantasia": "ESTRELA AUTO POSTO",
       "telefone": "(82) 32511365",
@@ -108,7 +88,7 @@
       "valor_maximo": 6.589062156819679,
       "valor_medio": 6.589062156819679,
       "valor_recente": 6.589062156819679,
-      "data_recente": "2026-04-11T23:15:39Z"
+      "data_recente": "2026-04-11T23:33:05Z"
     },
     {
       "cnpj": "10535038000112",
@@ -124,11 +104,31 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": -9.3144076,
       "longitude": -35.570283,
-      "valor_minimo": 6.84,
-      "valor_maximo": 6.84,
-      "valor_medio": 6.84,
-      "valor_recente": 6.84,
-      "data_recente": "2026-04-11T22:59:52Z"
+      "valor_minimo": 6.589785831960461,
+      "valor_maximo": 6.589785831960461,
+      "valor_medio": 6.589785831960461,
+      "valor_recente": 6.589785831960461,
+      "data_recente": "2026-04-12T00:04:09Z"
+    },
+    {
+      "cnpj": "28442466000166",
+      "tipo_combustivel": 2,
+      "razao_social": "SANTOS DE FREITAS E CIA LTDA - EPP",
+      "nome_fantasia": "ESTRELA AUTO POSTO",
+      "telefone": "(82) 32511365",
+      "nome_logradouro": "ROD AL 413 KM 60",
+      "numero_imovel": "S/N",
+      "bairro": "CENTRO",
+      "cep": "57920000",
+      "codigo_ibge": 2708501,
+      "municipio": "SAO LUIS DO QUITUNDE",
+      "latitude": -9.350797,
+      "longitude": -35.555955,
+      "valor_minimo": 6.5898722627737225,
+      "valor_maximo": 6.5898722627737225,
+      "valor_medio": 6.5898722627737225,
+      "valor_recente": 6.5898722627737225,
+      "data_recente": "2026-04-11T23:31:47Z"
     },
     {
       "cnpj": "10535038000112",
@@ -144,11 +144,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": -9.3144076,
       "longitude": -35.570283,
-      "valor_minimo": 5.289839100727353,
-      "valor_maximo": 5.289839100727353,
-      "valor_medio": 5.289839100727353,
-      "valor_recente": 5.289839100727353,
-      "data_recente": "2026-04-11T22:59:52Z"
+      "valor_minimo": 5.289885738468049,
+      "valor_maximo": 5.289885738468049,
+      "valor_medio": 5.289885738468049,
+      "valor_recente": 5.289885738468049,
+      "data_recente": "2026-04-12T00:10:21Z"
     },
     {
       "cnpj": "49974887000108",
@@ -164,11 +164,11 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.300119252683185,
-      "valor_maximo": 5.300119252683185,
-      "valor_medio": 5.300119252683185,
-      "valor_recente": 5.300119252683185,
-      "data_recente": "2026-04-11T22:28:52Z"
+      "valor_minimo": 5.3,
+      "valor_maximo": 5.3,
+      "valor_medio": 5.3,
+      "valor_recente": 5.3,
+      "data_recente": "2026-04-12T00:09:17Z"
     },
     {
       "cnpj": "28442466000166",
@@ -184,11 +184,31 @@
       "municipio": "SAO LUIS DO QUITUNDE",
       "latitude": -9.350797,
       "longitude": -35.555955,
-      "valor_minimo": 5.37952552584862,
-      "valor_maximo": 5.37952552584862,
-      "valor_medio": 5.37952552584862,
-      "valor_recente": 5.37952552584862,
-      "data_recente": "2026-04-11T23:15:39Z"
+      "valor_minimo": 5.3792361484669176,
+      "valor_maximo": 5.3792361484669176,
+      "valor_medio": 5.3792361484669176,
+      "valor_recente": 5.3792361484669176,
+      "data_recente": "2026-04-11T23:25:35Z"
+    },
+    {
+      "cnpj": "49974887000108",
+      "tipo_combustivel": 5,
+      "razao_social": "W V DE PAULA  LTDA",
+      "nome_fantasia": "AUTO POSTO TANQUE CHEIO",
+      "telefone": "(82) 30268523",
+      "nome_logradouro": "ROD AL 413 - NORTE",
+      "numero_imovel": "SN",
+      "bairro": "SANTO INACIO",
+      "cep": "57920000",
+      "codigo_ibge": 2708501,
+      "municipio": "SAO LUIS DO QUITUNDE",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.25163161711385,
+      "valor_maximo": 7.25163161711385,
+      "valor_medio": 7.25163161711385,
+      "valor_recente": 7.25163161711385,
+      "data_recente": "2026-04-12T00:08:24Z"
     },
     {
       "cnpj": "10535038000112",
@@ -205,30 +225,10 @@
       "latitude": -9.3144076,
       "longitude": -35.570283,
       "valor_minimo": 7.489514679448772,
-      "valor_maximo": 7.49063670411985,
-      "valor_medio": 7.490075691784311,
-      "valor_recente": 7.49063670411985,
-      "data_recente": "2026-04-11T22:56:15Z"
-    },
-    {
-      "cnpj": "49974887000108",
-      "tipo_combustivel": 5,
-      "razao_social": "W V DE PAULA  LTDA",
-      "nome_fantasia": "AUTO POSTO TANQUE CHEIO",
-      "telefone": "(82) 30268523",
-      "nome_logradouro": "ROD AL 413 - NORTE",
-      "numero_imovel": "SN",
-      "bairro": "SANTO INACIO",
-      "cep": "57920000",
-      "codigo_ibge": 2708501,
-      "municipio": "SAO LUIS DO QUITUNDE",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.499911981128754,
-      "valor_maximo": 7.499911981128754,
-      "valor_medio": 7.499911981128754,
-      "valor_recente": 7.499911981128754,
-      "data_recente": "2026-04-11T23:02:01Z"
+      "valor_maximo": 7.490075649764063,
+      "valor_medio": 7.489795164606417,
+      "valor_recente": 7.490075649764063,
+      "data_recente": "2026-04-12T00:36:57Z"
     },
     {
       "cnpj": "28442466000166",
@@ -248,7 +248,7 @@
       "valor_maximo": 7.519927808693036,
       "valor_medio": 7.519879535507965,
       "valor_recente": 7.519927808693036,
-      "data_recente": "2026-04-11T23:15:39Z"
+      "data_recente": "2026-04-11T23:31:47Z"
     }
   ]
 }

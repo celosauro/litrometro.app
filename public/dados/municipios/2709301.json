@@ -1,35 +1,55 @@
 {
   "codigoIBGE": "2709301",
   "municipio": "União dos Palmares",
-  "atualizadoEm": "2026-04-12T02:01:26.080Z",
+  "atualizadoEm": "2026-04-12T06:22:09.789Z",
   "totalEstabelecimentos": 42,
   "combustiveis": {
     "1": {
       "totalPostos": 12,
-      "valorMinimo": 6.688963210702341,
-      "valorMaximo": 7.1888297872340425,
-      "valorMedio": 6.908335857739921
+      "valorMinimo": 6.590096027113538,
+      "valorMaximo": 7.190106413574921,
+      "valorMedio": 6.878552023671102
     },
     "2": {
       "totalPostos": 7,
       "valorMinimo": 6.788866259334691,
-      "valorMaximo": 7.389344262295082,
-      "valorMedio": 6.99673393999491
+      "valorMaximo": 7.390983000739098,
+      "valorMedio": 6.997365352145641
     },
     "3": {
       "totalPostos": 11,
-      "valorMinimo": 5.189952252439277,
+      "valorMinimo": 5.189565780946209,
       "valorMaximo": 5.489679402722881,
-      "valorMedio": 5.336027953023248
+      "valorMedio": 5.335959288179087
     },
     "5": {
       "totalPostos": 12,
-      "valorMinimo": 7.189938398357289,
-      "valorMaximo": 8.179611650485437,
-      "valorMedio": 7.417361345065127
+      "valorMinimo": 7.190106413574921,
+      "valorMaximo": 7.4202325006183525,
+      "valorMedio": 7.334888222592184
     }
   },
   "estabelecimentos": [
+    {
+      "cnpj": "15696129000153",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO GLOBO LTDA",
+      "nome_fantasia": "AUTO POSTO GLOBO",
+      "telefone": "(82) 32811265",
+      "nome_logradouro": "FAZ FRIOS",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57800000",
+      "codigo_ibge": 2709301,
+      "municipio": "UNIAO DOS PALMARES",
+      "latitude": -9.1610344,
+      "longitude": -36.0166255,
+      "valor_minimo": 6.590096027113538,
+      "valor_maximo": 6.590096027113538,
+      "valor_medio": 6.590096027113538,
+      "valor_recente": 6.590096027113538,
+      "data_recente": "2026-04-12T02:27:39Z"
+    },
     {
       "cnpj": "14341647000191",
       "tipo_combustivel": 1,
@@ -44,11 +64,31 @@
       "municipio": "UNIAO DOS PALMARES",
       "latitude": -9.1710826,
       "longitude": -36.0002818,
-      "valor_minimo": 6.688963210702341,
-      "valor_maximo": 6.688963210702341,
-      "valor_medio": 6.688963210702341,
-      "valor_recente": 6.688963210702341,
-      "data_recente": "2026-04-11T23:05:22Z"
+      "valor_minimo": 6.68985817500669,
+      "valor_maximo": 6.68985817500669,
+      "valor_medio": 6.68985817500669,
+      "valor_recente": 6.68985817500669,
+      "data_recente": "2026-04-12T00:57:37Z"
+    },
+    {
+      "cnpj": "29766200000131",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO GLOBO III LTDA",
+      "nome_fantasia": "POSTO GLOBO III",
+      "telefone": "",
+      "nome_logradouro": "AV JOAO LYRA FILHO",
+      "numero_imovel": "304",
+      "bairro": "ROBERTO CORREIA DE ARAUJO",
+      "cep": "57800000",
+      "codigo_ibge": 2709301,
+      "municipio": "UNIAO DOS PALMARES",
+      "latitude": -9.1651025,
+      "longitude": -36.0241759,
+      "valor_minimo": 6.788617886178862,
+      "valor_maximo": 6.788617886178862,
+      "valor_medio": 6.788617886178862,
+      "valor_recente": 6.788617886178862,
+      "data_recente": "2026-04-12T01:00:41Z"
     },
     {
       "cnpj": "25294255000135",
@@ -71,26 +111,6 @@
       "data_recente": "2026-04-11T21:59:47Z"
     },
     {
-      "cnpj": "29766200000131",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO GLOBO III LTDA",
-      "nome_fantasia": "POSTO GLOBO III",
-      "telefone": "",
-      "nome_logradouro": "AV JOAO LYRA FILHO",
-      "numero_imovel": "304",
-      "bairro": "ROBERTO CORREIA DE ARAUJO",
-      "cep": "57800000",
-      "codigo_ibge": 2709301,
-      "municipio": "UNIAO DOS PALMARES",
-      "latitude": -9.1651025,
-      "longitude": -36.0241759,
-      "valor_minimo": 6.789941832831632,
-      "valor_maximo": 6.789941832831632,
-      "valor_medio": 6.789941832831632,
-      "valor_recente": 6.789941832831632,
-      "data_recente": "2026-04-11T22:25:54Z"
-    },
-    {
       "cnpj": "30934089000124",
       "tipo_combustivel": 1,
       "razao_social": "AUTO POSTO GLOBO IV",
@@ -104,11 +124,11 @@
       "municipio": "UNIAO DOS PALMARES",
       "latitude": -9.156784,
       "longitude": -36.023653,
-      "valor_minimo": 6.790402897238569,
-      "valor_maximo": 6.790402897238569,
-      "valor_medio": 6.790402897238569,
-      "valor_recente": 6.790402897238569,
-      "data_recente": "2026-04-11T23:00:51Z"
+      "valor_minimo": 6.788866259334691,
+      "valor_maximo": 6.788866259334691,
+      "valor_medio": 6.788866259334691,
+      "valor_recente": 6.788866259334691,
+      "data_recente": "2026-04-12T02:23:12Z"
     },
     {
       "cnpj": "14296183000149",
@@ -131,24 +151,24 @@
       "data_recente": "2026-04-11T22:52:47Z"
     },
     {
-      "cnpj": "15696129000153",
+      "cnpj": "28343707000110",
       "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO GLOBO LTDA",
-      "nome_fantasia": "AUTO POSTO GLOBO",
-      "telefone": "(82) 32811265",
-      "nome_logradouro": "FAZ FRIOS",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
+      "razao_social": "AUTO POSTO COMERCIO DE COMBUSTÍVEL UNIÃO LTDA",
+      "nome_fantasia": "AUTO POSTO UNIAO",
+      "telefone": "",
+      "nome_logradouro": "Rua MARECHAL DEODORO DA FONSECA",
+      "numero_imovel": "135",
+      "bairro": "CENTRO",
       "cep": "57800000",
       "codigo_ibge": 2709301,
       "municipio": "UNIAO DOS PALMARES",
-      "latitude": -9.1610344,
-      "longitude": -36.0166255,
+      "latitude": -9.1595809,
+      "longitude": -36.0317783,
       "valor_minimo": 6.949270326615705,
       "valor_maximo": 6.949270326615705,
       "valor_medio": 6.949270326615705,
       "valor_recente": 6.949270326615705,
-      "data_recente": "2026-04-11T23:18:34Z"
+      "data_recente": "2026-04-12T00:56:02Z"
     },
     {
       "cnpj": "35736818000151",
@@ -164,31 +184,11 @@
       "municipio": "UNIAO DOS PALMARES",
       "latitude": -9.166376399999999,
       "longitude": -36.024463,
-      "valor_minimo": 6.94970937578974,
-      "valor_maximo": 6.94970937578974,
-      "valor_medio": 6.94970937578974,
-      "valor_recente": 6.94970937578974,
-      "data_recente": "2026-04-11T23:13:02Z"
-    },
-    {
-      "cnpj": "28343707000110",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO COMERCIO DE COMBUSTÍVEL UNIÃO LTDA",
-      "nome_fantasia": "AUTO POSTO UNIAO",
-      "telefone": "",
-      "nome_logradouro": "Rua MARECHAL DEODORO DA FONSECA",
-      "numero_imovel": "135",
-      "bairro": "CENTRO",
-      "cep": "57800000",
-      "codigo_ibge": 2709301,
-      "municipio": "UNIAO DOS PALMARES",
-      "latitude": -9.1595809,
-      "longitude": -36.0317783,
-      "valor_minimo": 6.950236308034473,
-      "valor_maximo": 6.950236308034473,
-      "valor_medio": 6.950236308034473,
-      "valor_recente": 6.950236308034473,
-      "data_recente": "2026-04-11T23:04:48Z"
+      "valor_minimo": 6.950118104765875,
+      "valor_maximo": 6.950118104765875,
+      "valor_medio": 6.950118104765875,
+      "valor_recente": 6.950118104765875,
+      "data_recente": "2026-04-12T00:43:18Z"
     },
     {
       "cnpj": "13745004000140",
@@ -204,11 +204,11 @@
       "municipio": "UNIAO DOS PALMARES",
       "latitude": -9.152399299999999,
       "longitude": -36.0226203,
-      "valor_minimo": 6.978367062107467,
-      "valor_maximo": 6.978367062107467,
-      "valor_medio": 6.978367062107467,
-      "valor_recente": 6.978367062107467,
-      "data_recente": "2026-04-11T23:06:41Z"
+      "valor_minimo": 6.979341150195421,
+      "valor_maximo": 6.979341150195421,
+      "valor_medio": 6.979341150195421,
+      "valor_recente": 6.979341150195421,
+      "data_recente": "2026-04-12T02:25:50Z"
     },
     {
       "cnpj": "26718857000135",
@@ -224,11 +224,11 @@
       "municipio": "UNIAO DOS PALMARES",
       "latitude": -9.163159799999999,
       "longitude": -36.0182594,
-      "valor_minimo": 6.988120195667365,
-      "valor_maximo": 6.988120195667365,
-      "valor_medio": 6.988120195667365,
-      "valor_recente": 6.988120195667365,
-      "data_recente": "2026-04-11T23:04:01Z"
+      "valor_minimo": 6.990074094785404,
+      "valor_maximo": 6.990074094785404,
+      "valor_medio": 6.990074094785404,
+      "valor_recente": 6.990074094785404,
+      "data_recente": "2026-04-11T23:59:34Z"
     },
     {
       "cnpj": "06053479000100",
@@ -244,11 +244,11 @@
       "municipio": "UNIAO DOS PALMARES",
       "latitude": -9.1533729,
       "longitude": -36.0171661,
-      "valor_minimo": 6.9904761904761905,
-      "valor_maximo": 6.9904761904761905,
-      "valor_medio": 6.9904761904761905,
-      "valor_recente": 6.9904761904761905,
-      "data_recente": "2026-04-11T23:05:58Z"
+      "valor_minimo": 6.990562740300594,
+      "valor_maximo": 6.990562740300594,
+      "valor_medio": 6.990562740300594,
+      "valor_recente": 6.990562740300594,
+      "data_recente": "2026-04-12T02:43:36Z"
     },
     {
       "cnpj": "12810280000182",
@@ -264,11 +264,11 @@
       "municipio": "UNIAO DOS PALMARES",
       "latitude": -9.1508135,
       "longitude": -36.0137151,
-      "valor_minimo": 7.1888297872340425,
-      "valor_maximo": 7.1888297872340425,
-      "valor_medio": 7.1888297872340425,
-      "valor_recente": 7.1888297872340425,
-      "data_recente": "2026-04-11T23:13:59Z"
+      "valor_minimo": 7.190106413574921,
+      "valor_maximo": 7.190106413574921,
+      "valor_medio": 7.190106413574921,
+      "valor_recente": 7.190106413574921,
+      "data_recente": "2026-04-12T02:22:53Z"
     },
     {
       "cnpj": "14341647000191",
@@ -288,27 +288,7 @@
       "valor_maximo": 6.788866259334691,
       "valor_medio": 6.788866259334691,
       "valor_recente": 6.788866259334691,
-      "data_recente": "2026-04-11T23:05:22Z"
-    },
-    {
-      "cnpj": "15696129000153",
-      "tipo_combustivel": 2,
-      "razao_social": "AUTO POSTO GLOBO LTDA",
-      "nome_fantasia": "AUTO POSTO GLOBO",
-      "telefone": "(82) 32811265",
-      "nome_logradouro": "FAZ FRIOS",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57800000",
-      "codigo_ibge": 2709301,
-      "municipio": "UNIAO DOS PALMARES",
-      "latitude": -9.1610344,
-      "longitude": -36.0166255,
-      "valor_minimo": 6.789930011490651,
-      "valor_maximo": 6.789930011490651,
-      "valor_medio": 6.789930011490651,
-      "valor_recente": 6.789930011490651,
-      "data_recente": "2026-04-11T22:20:14Z"
+      "data_recente": "2026-04-12T00:57:37Z"
     },
     {
       "cnpj": "29766200000131",
@@ -324,11 +304,31 @@
       "municipio": "UNIAO DOS PALMARES",
       "latitude": -9.1651025,
       "longitude": -36.0241759,
-      "valor_minimo": 6.78995588734306,
-      "valor_maximo": 6.78995588734306,
-      "valor_medio": 6.78995588734306,
-      "valor_recente": 6.78995588734306,
-      "data_recente": "2026-04-11T22:09:05Z"
+      "valor_minimo": 6.789524733268671,
+      "valor_maximo": 6.789524733268671,
+      "valor_medio": 6.789524733268671,
+      "valor_recente": 6.789524733268671,
+      "data_recente": "2026-04-12T00:46:01Z"
+    },
+    {
+      "cnpj": "15696129000153",
+      "tipo_combustivel": 2,
+      "razao_social": "AUTO POSTO GLOBO LTDA",
+      "nome_fantasia": "AUTO POSTO GLOBO",
+      "telefone": "(82) 32811265",
+      "nome_logradouro": "FAZ FRIOS",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57800000",
+      "codigo_ibge": 2709301,
+      "municipio": "UNIAO DOS PALMARES",
+      "latitude": -9.1610344,
+      "longitude": -36.0166255,
+      "valor_minimo": 6.79,
+      "valor_maximo": 6.79,
+      "valor_medio": 6.79,
+      "valor_recente": 6.79,
+      "data_recente": "2026-04-12T01:38:35Z"
     },
     {
       "cnpj": "14296183000149",
@@ -364,11 +364,11 @@
       "municipio": "UNIAO DOS PALMARES",
       "latitude": -9.1533729,
       "longitude": -36.0171661,
-      "valor_minimo": 7.089056269384138,
-      "valor_maximo": 7.089056269384138,
-      "valor_medio": 7.089056269384138,
-      "valor_recente": 7.089056269384138,
-      "data_recente": "2026-04-11T23:08:06Z"
+      "valor_minimo": 7.092198581560283,
+      "valor_maximo": 7.092198581560283,
+      "valor_medio": 7.092198581560283,
+      "valor_recente": 7.092198581560283,
+      "data_recente": "2026-04-12T02:38:29Z"
     },
     {
       "cnpj": "28343707000110",
@@ -404,11 +404,11 @@
       "municipio": "UNIAO DOS PALMARES",
       "latitude": -9.1508135,
       "longitude": -36.0137151,
-      "valor_minimo": 7.389344262295082,
-      "valor_maximo": 7.389344262295082,
-      "valor_medio": 7.389344262295082,
-      "valor_recente": 7.389344262295082,
-      "data_recente": "2026-04-11T22:57:24Z"
+      "valor_minimo": 7.390983000739098,
+      "valor_maximo": 7.390983000739098,
+      "valor_medio": 7.390983000739098,
+      "valor_recente": 7.390983000739098,
+      "data_recente": "2026-04-12T01:42:21Z"
     },
     {
       "cnpj": "14341647000191",
@@ -424,11 +424,11 @@
       "municipio": "UNIAO DOS PALMARES",
       "latitude": -9.1710826,
       "longitude": -36.0002818,
-      "valor_minimo": 5.189952252439277,
-      "valor_maximo": 5.189952252439277,
-      "valor_medio": 5.189952252439277,
-      "valor_recente": 5.189952252439277,
-      "data_recente": "2026-04-11T23:05:22Z"
+      "valor_minimo": 5.189565780946209,
+      "valor_maximo": 5.189565780946209,
+      "valor_medio": 5.189565780946209,
+      "valor_recente": 5.189565780946209,
+      "data_recente": "2026-04-12T00:57:37Z"
     },
     {
       "cnpj": "30934089000124",
@@ -448,7 +448,7 @@
       "valor_maximo": 5.2493438320209975,
       "valor_medio": 5.2493438320209975,
       "valor_recente": 5.2493438320209975,
-      "data_recente": "2026-04-11T22:56:33Z"
+      "data_recente": "2026-04-12T00:11:02Z"
     },
     {
       "cnpj": "13745004000140",
@@ -468,7 +468,7 @@
       "valor_maximo": 5.279831045406547,
       "valor_medio": 5.279831045406547,
       "valor_recente": 5.279831045406547,
-      "data_recente": "2026-04-11T22:40:53Z"
+      "data_recente": "2026-04-12T02:23:01Z"
     },
     {
       "cnpj": "25294255000135",
@@ -504,11 +504,11 @@
       "municipio": "UNIAO DOS PALMARES",
       "latitude": -9.166376399999999,
       "longitude": -36.024463,
-      "valor_minimo": 5.289605924358635,
-      "valor_maximo": 5.289605924358635,
-      "valor_medio": 5.289605924358635,
-      "valor_recente": 5.289605924358635,
-      "data_recente": "2026-04-11T21:16:42Z"
+      "valor_minimo": 5.289885738468049,
+      "valor_maximo": 5.289885738468049,
+      "valor_medio": 5.289885738468049,
+      "valor_recente": 5.289885738468049,
+      "data_recente": "2026-04-12T00:36:17Z"
     },
     {
       "cnpj": "15696129000153",
@@ -528,7 +528,7 @@
       "valor_maximo": 5.289885738468049,
       "valor_medio": 5.289885738468049,
       "valor_recente": 5.289885738468049,
-      "data_recente": "2026-04-11T21:48:02Z"
+      "data_recente": "2026-04-12T02:00:24Z"
     },
     {
       "cnpj": "06053479000100",
@@ -544,11 +544,11 @@
       "municipio": "UNIAO DOS PALMARES",
       "latitude": -9.1533729,
       "longitude": -36.0171661,
-      "valor_minimo": 5.30035335689046,
-      "valor_maximo": 5.30035335689046,
-      "valor_medio": 5.30035335689046,
-      "valor_recente": 5.30035335689046,
-      "data_recente": "2026-04-11T22:53:10Z"
+      "valor_minimo": 5.299417064122946,
+      "valor_maximo": 5.299417064122946,
+      "valor_medio": 5.299417064122946,
+      "valor_recente": 5.299417064122946,
+      "data_recente": "2026-04-12T02:06:33Z"
     },
     {
       "cnpj": "29766200000131",
@@ -564,11 +564,11 @@
       "municipio": "UNIAO DOS PALMARES",
       "latitude": -9.1651025,
       "longitude": -36.0241759,
-      "valor_minimo": 5.389173175329922,
-      "valor_maximo": 5.389173175329922,
-      "valor_medio": 5.389173175329922,
-      "valor_recente": 5.389173175329922,
-      "data_recente": "2026-04-11T20:55:43Z"
+      "valor_minimo": 5.389867049946101,
+      "valor_maximo": 5.389867049946101,
+      "valor_medio": 5.389867049946101,
+      "valor_recente": 5.389867049946101,
+      "data_recente": "2026-04-12T00:23:36Z"
     },
     {
       "cnpj": "12810280000182",
@@ -584,11 +584,11 @@
       "municipio": "UNIAO DOS PALMARES",
       "latitude": -9.1508135,
       "longitude": -36.0137151,
-      "valor_minimo": 5.449891067538126,
-      "valor_maximo": 5.449891067538126,
-      "valor_medio": 5.449891067538126,
-      "valor_recente": 5.449891067538126,
-      "data_recente": "2026-04-11T23:11:42Z"
+      "valor_minimo": 5.448884276076804,
+      "valor_maximo": 5.448884276076804,
+      "valor_medio": 5.448884276076804,
+      "valor_recente": 5.448884276076804,
+      "data_recente": "2026-04-12T02:21:41Z"
     },
     {
       "cnpj": "26718857000135",
@@ -604,11 +604,11 @@
       "municipio": "UNIAO DOS PALMARES",
       "latitude": -9.163159799999999,
       "longitude": -36.0182594,
-      "valor_minimo": 5.47945205479452,
-      "valor_maximo": 5.47945205479452,
-      "valor_medio": 5.47945205479452,
-      "valor_recente": 5.47945205479452,
-      "data_recente": "2026-04-11T22:15:36Z"
+      "valor_minimo": 5.480052608505042,
+      "valor_maximo": 5.480052608505042,
+      "valor_medio": 5.480052608505042,
+      "valor_recente": 5.480052608505042,
+      "data_recente": "2026-04-11T23:53:20Z"
     },
     {
       "cnpj": "28343707000110",
@@ -644,11 +644,31 @@
       "municipio": "UNIAO DOS PALMARES",
       "latitude": -9.1508135,
       "longitude": -36.0137151,
-      "valor_minimo": 7.189938398357289,
-      "valor_maximo": 7.189938398357289,
-      "valor_medio": 7.189938398357289,
-      "valor_recente": 7.189938398357289,
-      "data_recente": "2026-04-11T22:57:24Z"
+      "valor_minimo": 7.190106413574921,
+      "valor_maximo": 7.190106413574921,
+      "valor_medio": 7.190106413574921,
+      "valor_recente": 7.190106413574921,
+      "data_recente": "2026-04-12T01:43:15Z"
+    },
+    {
+      "cnpj": "28343707000110",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO COMERCIO DE COMBUSTÍVEL UNIÃO LTDA",
+      "nome_fantasia": "AUTO POSTO UNIAO",
+      "telefone": "",
+      "nome_logradouro": "Rua MARECHAL DEODORO DA FONSECA",
+      "numero_imovel": "135",
+      "bairro": "CENTRO",
+      "cep": "57800000",
+      "codigo_ibge": 2709301,
+      "municipio": "UNIAO DOS PALMARES",
+      "latitude": -9.1595809,
+      "longitude": -36.0317783,
+      "valor_minimo": 7.192561838488977,
+      "valor_maximo": 7.192561838488977,
+      "valor_medio": 7.192561838488977,
+      "valor_recente": 7.192561838488977,
+      "data_recente": "2026-04-12T00:32:20Z"
     },
     {
       "cnpj": "14296183000149",
@@ -711,24 +731,24 @@
       "data_recente": "2026-04-11T22:11:00Z"
     },
     {
-      "cnpj": "28343707000110",
+      "cnpj": "06053479000100",
       "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO COMERCIO DE COMBUSTÍVEL UNIÃO LTDA",
-      "nome_fantasia": "AUTO POSTO UNIAO",
-      "telefone": "",
-      "nome_logradouro": "Rua MARECHAL DEODORO DA FONSECA",
-      "numero_imovel": "135",
+      "razao_social": "M DA SILVA LIMA FILHO POSTO",
+      "nome_fantasia": "AUTO POSTO E POUSADA SANTO EDUARDO",
+      "telefone": "(82) 32811449",
+      "nome_logradouro": "Rua JUVENAL MENDONCA",
+      "numero_imovel": "930",
       "bairro": "CENTRO",
       "cep": "57800000",
       "codigo_ibge": 2709301,
       "municipio": "UNIAO DOS PALMARES",
-      "latitude": -9.1595809,
-      "longitude": -36.0317783,
-      "valor_minimo": 7.349865364143027,
-      "valor_maximo": 7.349865364143027,
-      "valor_medio": 7.349865364143027,
-      "valor_recente": 7.349865364143027,
-      "data_recente": "2026-04-11T23:04:30Z"
+      "latitude": -9.1533729,
+      "longitude": -36.0171661,
+      "valor_minimo": 7.349977708426215,
+      "valor_maximo": 7.349977708426215,
+      "valor_medio": 7.349977708426215,
+      "valor_recente": 7.349977708426215,
+      "data_recente": "2026-04-12T02:20:13Z"
     },
     {
       "cnpj": "25294255000135",
@@ -751,26 +771,6 @@
       "data_recente": "2026-04-11T17:38:52Z"
     },
     {
-      "cnpj": "29766200000131",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO GLOBO III LTDA",
-      "nome_fantasia": "POSTO GLOBO III",
-      "telefone": "",
-      "nome_logradouro": "AV JOAO LYRA FILHO",
-      "numero_imovel": "304",
-      "bairro": "ROBERTO CORREIA DE ARAUJO",
-      "cep": "57800000",
-      "codigo_ibge": 2709301,
-      "municipio": "UNIAO DOS PALMARES",
-      "latitude": -9.1651025,
-      "longitude": -36.0241759,
-      "valor_minimo": 7.389271653543307,
-      "valor_maximo": 7.389271653543307,
-      "valor_medio": 7.389271653543307,
-      "valor_recente": 7.389271653543307,
-      "data_recente": "2026-04-11T20:54:18Z"
-    },
-    {
       "cnpj": "35736818000151",
       "tipo_combustivel": 5,
       "razao_social": "C G DE J PEDROSA",
@@ -784,11 +784,31 @@
       "municipio": "UNIAO DOS PALMARES",
       "latitude": -9.166376399999999,
       "longitude": -36.024463,
+      "valor_minimo": 7.386363636363637,
+      "valor_maximo": 7.386363636363637,
+      "valor_medio": 7.386363636363637,
+      "valor_recente": 7.386363636363637,
+      "data_recente": "2026-04-11T23:55:58Z"
+    },
+    {
+      "cnpj": "29766200000131",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO GLOBO III LTDA",
+      "nome_fantasia": "POSTO GLOBO III",
+      "telefone": "",
+      "nome_logradouro": "AV JOAO LYRA FILHO",
+      "numero_imovel": "304",
+      "bairro": "ROBERTO CORREIA DE ARAUJO",
+      "cep": "57800000",
+      "codigo_ibge": 2709301,
+      "municipio": "UNIAO DOS PALMARES",
+      "latitude": -9.1651025,
+      "longitude": -36.0241759,
       "valor_minimo": 7.389890629618682,
       "valor_maximo": 7.389890629618682,
       "valor_medio": 7.389890629618682,
       "valor_recente": 7.389890629618682,
-      "data_recente": "2026-04-11T22:52:35Z"
+      "data_recente": "2026-04-12T00:44:56Z"
     },
     {
       "cnpj": "15696129000153",
@@ -849,26 +869,6 @@
       "valor_medio": 7.4202325006183525,
       "valor_recente": 7.4202325006183525,
       "data_recente": "2026-04-11T22:54:46Z"
-    },
-    {
-      "cnpj": "06053479000100",
-      "tipo_combustivel": 5,
-      "razao_social": "M DA SILVA LIMA FILHO POSTO",
-      "nome_fantasia": "AUTO POSTO E POUSADA SANTO EDUARDO",
-      "telefone": "(82) 32811449",
-      "nome_logradouro": "Rua JUVENAL MENDONCA",
-      "numero_imovel": "930",
-      "bairro": "CENTRO",
-      "cep": "57800000",
-      "codigo_ibge": 2709301,
-      "municipio": "UNIAO DOS PALMARES",
-      "latitude": -9.1533729,
-      "longitude": -36.0171661,
-      "valor_minimo": 8.179611650485437,
-      "valor_maximo": 8.179611650485437,
-      "valor_medio": 8.179611650485437,
-      "valor_recente": 8.179611650485437,
-      "data_recente": "2026-04-11T20:47:59Z"
     }
   ]
 }

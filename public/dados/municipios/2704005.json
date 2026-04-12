@@ -1,95 +1,35 @@
 {
   "codigoIBGE": "2704005",
   "municipio": "Junqueiro",
-  "atualizadoEm": "2026-04-12T01:38:41.962Z",
+  "atualizadoEm": "2026-04-12T05:54:55.043Z",
   "totalEstabelecimentos": 15,
   "combustiveis": {
     "1": {
       "totalPostos": 5,
-      "valorMinimo": 6.648936170212766,
-      "valorMaximo": 6.93,
-      "valorMedio": 6.841607119583424
+      "valorMinimo": 6.49,
+      "valorMaximo": 6.891798759476223,
+      "valorMedio": 6.702106382668681
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.88,
-      "valorMaximo": 7.149892978117662,
-      "valorMedio": 7.014946489058831
+      "valorMinimo": 6.878543718293047,
+      "valorMaximo": 7.15,
+      "valorMedio": 7.014271859146524
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 5.109862033725089,
+      "valorMinimo": 5.109489051094891,
       "valorMaximo": 5.669746613003798,
-      "valorMedio": 5.323180394784045
+      "valorMedio": 5.323056067240646
     },
     "5": {
       "totalPostos": 5,
-      "valorMinimo": 6.89001099890011,
+      "valorMinimo": 6.889988339163751,
       "valorMaximo": 7.58,
-      "valorMedio": 7.307964371139581
+      "valorMedio": 7.307945040820131
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "33748712000223",
-      "tipo_combustivel": 1,
-      "razao_social": "CS COMERCIO DE COMBUSTIVEIS LTDA",
-      "nome_fantasia": "JCE AUTO POSTO SANTA CECILIA",
-      "telefone": "(82) 99859231",
-      "nome_logradouro": "Rua FREI PASCASIO",
-      "numero_imovel": "140",
-      "bairro": "CENTRO",
-      "cep": "57270000",
-      "codigo_ibge": 2704005,
-      "municipio": "JUNQUEIRO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.648936170212766,
-      "valor_maximo": 6.648936170212766,
-      "valor_medio": 6.648936170212766,
-      "valor_recente": 6.648936170212766,
-      "data_recente": "2026-04-11T21:09:21Z"
-    },
-    {
-      "cnpj": "07531582000181",
-      "tipo_combustivel": 1,
-      "razao_social": "SILVA COMBUSTIVEL LTDA - EPP",
-      "nome_fantasia": "AUTO POSTO TRES IRMAOS",
-      "telefone": "",
-      "nome_logradouro": "RDV BR - 101 SUL",
-      "numero_imovel": "240",
-      "bairro": "CENTRO",
-      "cep": "57270000",
-      "codigo_ibge": 2704005,
-      "municipio": "JUNQUEIRO",
-      "latitude": -9.7094673,
-      "longitude": -36.0389556,
-      "valor_minimo": 6.849674694669559,
-      "valor_maximo": 6.849674694669559,
-      "valor_medio": 6.849674694669559,
-      "valor_recente": 6.849674694669559,
-      "data_recente": "2026-04-11T21:14:00Z"
-    },
-    {
-      "cnpj": "57214182000110",
-      "tipo_combustivel": 1,
-      "razao_social": "VL PEREIRA COMBUSTÍVEIS JUNQUEIRO LTDA",
-      "nome_fantasia": "ALE JUNQUEIRO",
-      "telefone": "(79) 98588646",
-      "nome_logradouro": "ROD ROD BR 101 SUL KM 192",
-      "numero_imovel": "S/N",
-      "bairro": "GILBERTO PEREIRA",
-      "cep": "57270000",
-      "codigo_ibge": 2704005,
-      "municipio": "JUNQUEIRO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.889424733034792,
-      "valor_maximo": 6.889424733034792,
-      "valor_medio": 6.889424733034792,
-      "valor_recente": 6.889424733034792,
-      "data_recente": "2026-04-11T20:26:18Z"
-    },
     {
       "cnpj": "55668549000140",
       "tipo_combustivel": 1,
@@ -104,11 +44,11 @@
       "municipio": "JUNQUEIRO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.89,
-      "valor_maximo": 6.89,
-      "valor_medio": 6.89,
-      "valor_recente": 6.89,
-      "data_recente": "2026-04-11T20:34:10Z"
+      "valor_minimo": 6.49,
+      "valor_maximo": 6.49,
+      "valor_medio": 6.49,
+      "valor_recente": 6.49,
+      "data_recente": "2026-04-12T00:17:05Z"
     },
     {
       "cnpj": "42337336000194",
@@ -124,11 +64,71 @@
       "municipio": "JUNQUEIRO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.93,
-      "valor_maximo": 6.93,
-      "valor_medio": 6.93,
-      "valor_recente": 6.93,
-      "data_recente": "2026-04-11T20:45:18Z"
+      "valor_minimo": 6.629971590909091,
+      "valor_maximo": 6.629971590909091,
+      "valor_medio": 6.629971590909091,
+      "valor_recente": 6.629971590909091,
+      "data_recente": "2026-04-11T22:26:48Z"
+    },
+    {
+      "cnpj": "33748712000223",
+      "tipo_combustivel": 1,
+      "razao_social": "CS COMERCIO DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "JCE AUTO POSTO SANTA CECILIA",
+      "telefone": "(82) 99859231",
+      "nome_logradouro": "Rua FREI PASCASIO",
+      "numero_imovel": "140",
+      "bairro": "CENTRO",
+      "cep": "57270000",
+      "codigo_ibge": 2704005,
+      "municipio": "JUNQUEIRO",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.649446494464945,
+      "valor_maximo": 6.649446494464945,
+      "valor_medio": 6.649446494464945,
+      "valor_recente": 6.649446494464945,
+      "data_recente": "2026-04-12T01:01:28Z"
+    },
+    {
+      "cnpj": "07531582000181",
+      "tipo_combustivel": 1,
+      "razao_social": "SILVA COMBUSTIVEL LTDA - EPP",
+      "nome_fantasia": "AUTO POSTO TRES IRMAOS",
+      "telefone": "",
+      "nome_logradouro": "RDV BR - 101 SUL",
+      "numero_imovel": "240",
+      "bairro": "CENTRO",
+      "cep": "57270000",
+      "codigo_ibge": 2704005,
+      "municipio": "JUNQUEIRO",
+      "latitude": -9.7094673,
+      "longitude": -36.0389556,
+      "valor_minimo": 6.8493150684931505,
+      "valor_maximo": 6.8493150684931505,
+      "valor_medio": 6.8493150684931505,
+      "valor_recente": 6.8493150684931505,
+      "data_recente": "2026-04-12T00:33:11Z"
+    },
+    {
+      "cnpj": "57214182000110",
+      "tipo_combustivel": 1,
+      "razao_social": "VL PEREIRA COMBUSTÍVEIS JUNQUEIRO LTDA",
+      "nome_fantasia": "ALE JUNQUEIRO",
+      "telefone": "(79) 98588646",
+      "nome_logradouro": "ROD ROD BR 101 SUL KM 192",
+      "numero_imovel": "S/N",
+      "bairro": "GILBERTO PEREIRA",
+      "cep": "57270000",
+      "codigo_ibge": 2704005,
+      "municipio": "JUNQUEIRO",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.891798759476223,
+      "valor_maximo": 6.891798759476223,
+      "valor_medio": 6.891798759476223,
+      "valor_recente": 6.891798759476223,
+      "data_recente": "2026-04-12T00:21:02Z"
     },
     {
       "cnpj": "33748712000223",
@@ -144,11 +144,11 @@
       "municipio": "JUNQUEIRO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.88,
-      "valor_maximo": 6.88,
-      "valor_medio": 6.88,
-      "valor_recente": 6.88,
-      "data_recente": "2026-04-11T19:05:24Z"
+      "valor_minimo": 6.878543718293047,
+      "valor_maximo": 6.878543718293047,
+      "valor_medio": 6.878543718293047,
+      "valor_recente": 6.878543718293047,
+      "data_recente": "2026-04-11T22:48:41Z"
     },
     {
       "cnpj": "07531582000181",
@@ -164,11 +164,11 @@
       "municipio": "JUNQUEIRO",
       "latitude": -9.7094673,
       "longitude": -36.0389556,
-      "valor_minimo": 7.149892978117662,
-      "valor_maximo": 7.149892978117662,
-      "valor_medio": 7.149892978117662,
-      "valor_recente": 7.149892978117662,
-      "data_recente": "2026-04-11T19:06:28Z"
+      "valor_minimo": 7.15,
+      "valor_maximo": 7.15,
+      "valor_medio": 7.15,
+      "valor_recente": 7.15,
+      "data_recente": "2026-04-12T00:35:10Z"
     },
     {
       "cnpj": "33748712000223",
@@ -184,11 +184,11 @@
       "municipio": "JUNQUEIRO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.109862033725089,
-      "valor_maximo": 5.109862033725089,
-      "valor_medio": 5.109862033725089,
-      "valor_recente": 5.109862033725089,
-      "data_recente": "2026-04-11T20:27:40Z"
+      "valor_minimo": 5.109489051094891,
+      "valor_maximo": 5.109489051094891,
+      "valor_medio": 5.109489051094891,
+      "valor_recente": 5.109489051094891,
+      "data_recente": "2026-04-12T00:52:35Z"
     },
     {
       "cnpj": "55668549000140",
@@ -244,11 +244,11 @@
       "municipio": "JUNQUEIRO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.89001099890011,
-      "valor_maximo": 6.89001099890011,
-      "valor_medio": 6.89001099890011,
-      "valor_recente": 6.89001099890011,
-      "data_recente": "2026-04-11T19:06:48Z"
+      "valor_minimo": 6.889988339163751,
+      "valor_maximo": 6.889988339163751,
+      "valor_medio": 6.889988339163751,
+      "valor_recente": 6.889988339163751,
+      "data_recente": "2026-04-11T22:31:08Z"
     },
     {
       "cnpj": "33748712000223",
@@ -304,11 +304,11 @@
       "municipio": "JUNQUEIRO",
       "latitude": -9.7094673,
       "longitude": -36.0389556,
-      "valor_minimo": 7.4,
-      "valor_maximo": 7.4,
-      "valor_medio": 7.4,
-      "valor_recente": 7.4,
-      "data_recente": "2026-04-11T18:54:27Z"
+      "valor_minimo": 7.399926008139104,
+      "valor_maximo": 7.399926008139104,
+      "valor_medio": 7.399926008139104,
+      "valor_recente": 7.399926008139104,
+      "data_recente": "2026-04-12T00:32:18Z"
     },
     {
       "cnpj": "42337336000194",
