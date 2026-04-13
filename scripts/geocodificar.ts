@@ -106,8 +106,7 @@ async function geocodificarEndereco(
   logradouro: string,
   numero: string,
   bairro: string,
-  municipio: string,
-  cep: string
+  municipio: string
 ): Promise<{ latitude: number; longitude: number } | null> {
   // Monta query de busca
   const partes = [
@@ -226,8 +225,7 @@ async function main(): Promise<void> {
       est.nome_logradouro,
       est.numero_imovel,
       est.bairro,
-      est.municipio,
-      est.cep
+      est.municipio
     );
 
     if (coords) {
