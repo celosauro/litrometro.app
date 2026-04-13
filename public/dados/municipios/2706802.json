@@ -1,26 +1,26 @@
 {
   "codigoIBGE": "2706802",
   "municipio": "Piaçabuçu",
-  "atualizadoEm": "2026-04-13T13:41:30.001Z",
+  "atualizadoEm": "2026-04-13T15:29:45.640Z",
   "totalEstabelecimentos": 7,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 7.117437722419929,
-      "valorMaximo": 7.121057985757884,
-      "valorMedio": 7.119247854088906
+      "valorMinimo": 7.1199715201139195,
+      "valorMaximo": 7.120478496154941,
+      "valorMedio": 7.1202250081344305
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.22,
-      "valorMaximo": 7.22,
-      "valorMedio": 7.22
+      "valorMinimo": 7.2202166064981945,
+      "valorMaximo": 7.2202166064981945,
+      "valorMedio": 7.2202166064981945
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.54016620498615,
-      "valorMaximo": 5.54016620498615,
-      "valorMedio": 5.54016620498615
+      "valorMinimo": 5.539859287574096,
+      "valorMaximo": 5.539859287574096,
+      "valorMedio": 5.539859287574096
     },
     "4": {
       "totalPostos": 1,
@@ -30,32 +30,12 @@
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.889892171473656,
-      "valorMaximo": 7.890013215772137,
-      "valorMedio": 7.889952693622897
+      "valorMinimo": 7.889670842932433,
+      "valorMaximo": 7.889892171473656,
+      "valorMedio": 7.889781507203045
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "05388025000209",
-      "tipo_combustivel": 1,
-      "razao_social": "BARBOSA & ROCHA LTDA",
-      "nome_fantasia": "POSTO SAO PEDRO",
-      "telefone": "",
-      "nome_logradouro": "LGO SANTA TEREZINHA",
-      "numero_imovel": "55",
-      "bairro": "CENTRO",
-      "cep": "57210000",
-      "codigo_ibge": 2706802,
-      "municipio": "PIACABUCU",
-      "latitude": -10.4073113,
-      "longitude": -36.4313297,
-      "valor_minimo": 7.117437722419929,
-      "valor_maximo": 7.117437722419929,
-      "valor_medio": 7.117437722419929,
-      "valor_recente": 7.117437722419929,
-      "data_recente": "2026-04-12T10:38:08Z"
-    },
     {
       "cnpj": "24197104000104",
       "tipo_combustivel": 1,
@@ -70,11 +50,31 @@
       "municipio": "PIACABUCU",
       "latitude": -10.4072761,
       "longitude": -36.4252736,
-      "valor_minimo": 7.121057985757884,
-      "valor_maximo": 7.121057985757884,
-      "valor_medio": 7.121057985757884,
-      "valor_recente": 7.121057985757884,
-      "data_recente": "2026-04-12T09:54:55Z"
+      "valor_minimo": 7.1199715201139195,
+      "valor_maximo": 7.1199715201139195,
+      "valor_medio": 7.1199715201139195,
+      "valor_recente": 7.1199715201139195,
+      "data_recente": "2026-04-12T13:32:59Z"
+    },
+    {
+      "cnpj": "05388025000209",
+      "tipo_combustivel": 1,
+      "razao_social": "BARBOSA & ROCHA LTDA",
+      "nome_fantasia": "POSTO SAO PEDRO",
+      "telefone": "",
+      "nome_logradouro": "LGO SANTA TEREZINHA",
+      "numero_imovel": "55",
+      "bairro": "CENTRO",
+      "cep": "57210000",
+      "codigo_ibge": 2706802,
+      "municipio": "PIACABUCU",
+      "latitude": -10.4073113,
+      "longitude": -36.4313297,
+      "valor_minimo": 7.120478496154941,
+      "valor_maximo": 7.120478496154941,
+      "valor_medio": 7.120478496154941,
+      "valor_recente": 7.120478496154941,
+      "data_recente": "2026-04-12T13:40:15Z"
     },
     {
       "cnpj": "05388025000209",
@@ -90,11 +90,11 @@
       "municipio": "PIACABUCU",
       "latitude": -10.4073113,
       "longitude": -36.4313297,
-      "valor_minimo": 7.22,
-      "valor_maximo": 7.22,
-      "valor_medio": 7.22,
-      "valor_recente": 7.22,
-      "data_recente": "2026-04-12T00:05:52Z"
+      "valor_minimo": 7.2202166064981945,
+      "valor_maximo": 7.2202166064981945,
+      "valor_medio": 7.2202166064981945,
+      "valor_recente": 7.2202166064981945,
+      "data_recente": "2026-04-12T13:30:32Z"
     },
     {
       "cnpj": "05388025000209",
@@ -110,11 +110,11 @@
       "municipio": "PIACABUCU",
       "latitude": -10.4073113,
       "longitude": -36.4313297,
-      "valor_minimo": 5.54016620498615,
-      "valor_maximo": 5.54016620498615,
-      "valor_medio": 5.54016620498615,
-      "valor_recente": 5.54016620498615,
-      "data_recente": "2026-04-12T10:29:51Z"
+      "valor_minimo": 5.539859287574096,
+      "valor_maximo": 5.539859287574096,
+      "valor_medio": 5.539859287574096,
+      "valor_recente": 5.539859287574096,
+      "data_recente": "2026-04-12T12:09:10Z"
     },
     {
       "cnpj": "07824798000305",
@@ -137,6 +137,26 @@
       "data_recente": "2026-04-09T14:12:11Z"
     },
     {
+      "cnpj": "24197104000104",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO TRÊS IRMÃOS LTDA  - EPP",
+      "nome_fantasia": "AUTO POSTO TRES IRMAOS",
+      "telefone": "(82) 35521193",
+      "nome_logradouro": "AV ULISSES GUEDES",
+      "numero_imovel": "266",
+      "bairro": "BRASILIA",
+      "cep": "57210000",
+      "codigo_ibge": 2706802,
+      "municipio": "PIACABUCU",
+      "latitude": -10.4072761,
+      "longitude": -36.4252736,
+      "valor_minimo": 7.889670842932433,
+      "valor_maximo": 7.889670842932433,
+      "valor_medio": 7.889670842932433,
+      "valor_recente": 7.889670842932433,
+      "data_recente": "2026-04-12T11:37:27Z"
+    },
+    {
       "cnpj": "05388025000209",
       "tipo_combustivel": 5,
       "razao_social": "BARBOSA & ROCHA LTDA",
@@ -155,26 +175,6 @@
       "valor_medio": 7.889892171473656,
       "valor_recente": 7.889892171473656,
       "data_recente": "2026-04-12T10:02:12Z"
-    },
-    {
-      "cnpj": "24197104000104",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO TRÊS IRMÃOS LTDA  - EPP",
-      "nome_fantasia": "AUTO POSTO TRES IRMAOS",
-      "telefone": "(82) 35521193",
-      "nome_logradouro": "AV ULISSES GUEDES",
-      "numero_imovel": "266",
-      "bairro": "BRASILIA",
-      "cep": "57210000",
-      "codigo_ibge": 2706802,
-      "municipio": "PIACABUCU",
-      "latitude": -10.4072761,
-      "longitude": -36.4252736,
-      "valor_minimo": 7.890013215772137,
-      "valor_maximo": 7.890013215772137,
-      "valor_medio": 7.890013215772137,
-      "valor_recente": 7.890013215772137,
-      "data_recente": "2026-04-12T00:12:48Z"
     }
   ]
 }

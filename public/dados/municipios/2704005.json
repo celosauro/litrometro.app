@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2704005",
   "municipio": "Junqueiro",
-  "atualizadoEm": "2026-04-13T13:25:35.662Z",
+  "atualizadoEm": "2026-04-13T15:14:11.655Z",
   "totalEstabelecimentos": 15,
   "combustiveis": {
     "1": {
       "totalPostos": 5,
       "valorMinimo": 6.49,
-      "valorMaximo": 6.929985413627839,
-      "valorMedio": 6.733754481251836
+      "valorMaximo": 6.889424733034792,
+      "valorMedio": 6.701491201568833
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.879053796260969,
-      "valorMaximo": 7.15,
-      "valorMedio": 7.014526898130485
+      "valorMinimo": 6.879293424926399,
+      "valorMaximo": 7.145256087321578,
+      "valorMedio": 7.012274756123988
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 5.109489051094891,
+      "valorMinimo": 5.109862033725089,
       "valorMaximo": 5.669746613003798,
-      "valorMedio": 5.323056067240646
+      "valorMedio": 5.323180394784045
     },
     "5": {
       "totalPostos": 5,
-      "valorMinimo": 6.890028445161862,
-      "valorMaximo": 7.58,
-      "valorMedio": 7.307927880381937
+      "valorMinimo": 6.89,
+      "valorMaximo": 7.6999464396867445,
+      "valorMedio": 7.367967413861086
     }
   },
   "estabelecimentos": [
@@ -51,6 +51,26 @@
       "data_recente": "2026-04-12T00:17:05Z"
     },
     {
+      "cnpj": "42337336000194",
+      "tipo_combustivel": 1,
+      "razao_social": "JOSE VALMIR DA SILVA FILHO",
+      "nome_fantasia": "POSTO FREI DAMIAO",
+      "telefone": "(82) 81237200",
+      "nome_logradouro": "Rua JOAO AVELINO DOS SANTOS",
+      "numero_imovel": "714",
+      "bairro": "RETIRO",
+      "cep": "57270000",
+      "codigo_ibge": 2704005,
+      "municipio": "JUNQUEIRO",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.629585485366177,
+      "valor_maximo": 6.629585485366177,
+      "valor_medio": 6.629585485366177,
+      "valor_recente": 6.629585485366177,
+      "data_recente": "2026-04-12T11:59:19Z"
+    },
+    {
       "cnpj": "33748712000223",
       "tipo_combustivel": 1,
       "razao_social": "CS COMERCIO DE COMBUSTIVEIS LTDA",
@@ -64,11 +84,11 @@
       "municipio": "JUNQUEIRO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.507673164661966,
-      "valor_maximo": 6.507673164661966,
-      "valor_medio": 6.507673164661966,
-      "valor_recente": 6.507673164661966,
-      "data_recente": "2026-04-12T09:25:23Z"
+      "valor_minimo": 6.649380581964851,
+      "valor_maximo": 6.649380581964851,
+      "valor_medio": 6.649380581964851,
+      "valor_recente": 6.649380581964851,
+      "data_recente": "2026-04-12T13:36:51Z"
     },
     {
       "cnpj": "07531582000181",
@@ -84,11 +104,11 @@
       "municipio": "JUNQUEIRO",
       "latitude": -9.7094673,
       "longitude": -36.0389556,
-      "valor_minimo": 6.8493150684931505,
-      "valor_maximo": 6.8493150684931505,
-      "valor_medio": 6.8493150684931505,
-      "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-12T09:48:19Z"
+      "valor_minimo": 6.84906520747834,
+      "valor_maximo": 6.84906520747834,
+      "valor_medio": 6.84906520747834,
+      "valor_recente": 6.84906520747834,
+      "data_recente": "2026-04-12T13:38:42Z"
     },
     {
       "cnpj": "57214182000110",
@@ -104,31 +124,11 @@
       "municipio": "JUNQUEIRO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.891798759476223,
-      "valor_maximo": 6.891798759476223,
-      "valor_medio": 6.891798759476223,
-      "valor_recente": 6.891798759476223,
-      "data_recente": "2026-04-12T00:21:02Z"
-    },
-    {
-      "cnpj": "42337336000194",
-      "tipo_combustivel": 1,
-      "razao_social": "JOSE VALMIR DA SILVA FILHO",
-      "nome_fantasia": "POSTO FREI DAMIAO",
-      "telefone": "(82) 81237200",
-      "nome_logradouro": "Rua JOAO AVELINO DOS SANTOS",
-      "numero_imovel": "714",
-      "bairro": "RETIRO",
-      "cep": "57270000",
-      "codigo_ibge": 2704005,
-      "municipio": "JUNQUEIRO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.929985413627839,
-      "valor_maximo": 6.929985413627839,
-      "valor_medio": 6.929985413627839,
-      "valor_recente": 6.929985413627839,
-      "data_recente": "2026-04-12T09:56:57Z"
+      "valor_minimo": 6.889424733034792,
+      "valor_maximo": 6.889424733034792,
+      "valor_medio": 6.889424733034792,
+      "valor_recente": 6.889424733034792,
+      "data_recente": "2026-04-12T13:11:14Z"
     },
     {
       "cnpj": "33748712000223",
@@ -144,11 +144,11 @@
       "municipio": "JUNQUEIRO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.879053796260969,
-      "valor_maximo": 6.879053796260969,
-      "valor_medio": 6.879053796260969,
-      "valor_recente": 6.879053796260969,
-      "data_recente": "2026-04-12T09:14:42Z"
+      "valor_minimo": 6.879293424926399,
+      "valor_maximo": 6.879293424926399,
+      "valor_medio": 6.879293424926399,
+      "valor_recente": 6.879293424926399,
+      "data_recente": "2026-04-12T13:05:46Z"
     },
     {
       "cnpj": "07531582000181",
@@ -164,11 +164,11 @@
       "municipio": "JUNQUEIRO",
       "latitude": -9.7094673,
       "longitude": -36.0389556,
-      "valor_minimo": 7.15,
-      "valor_maximo": 7.15,
-      "valor_medio": 7.15,
-      "valor_recente": 7.15,
-      "data_recente": "2026-04-12T10:12:35Z"
+      "valor_minimo": 7.145256087321578,
+      "valor_maximo": 7.145256087321578,
+      "valor_medio": 7.145256087321578,
+      "valor_recente": 7.145256087321578,
+      "data_recente": "2026-04-12T13:21:27Z"
     },
     {
       "cnpj": "33748712000223",
@@ -184,11 +184,11 @@
       "municipio": "JUNQUEIRO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.109489051094891,
-      "valor_maximo": 5.109489051094891,
-      "valor_medio": 5.109489051094891,
-      "valor_recente": 5.109489051094891,
-      "data_recente": "2026-04-12T00:52:35Z"
+      "valor_minimo": 5.109862033725089,
+      "valor_maximo": 5.109862033725089,
+      "valor_medio": 5.109862033725089,
+      "valor_recente": 5.109862033725089,
+      "data_recente": "2026-04-12T13:07:38Z"
     },
     {
       "cnpj": "55668549000140",
@@ -244,11 +244,11 @@
       "municipio": "JUNQUEIRO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.890028445161862,
-      "valor_maximo": 6.890028445161862,
-      "valor_medio": 6.890028445161862,
-      "valor_recente": 6.890028445161862,
-      "data_recente": "2026-04-12T09:41:34Z"
+      "valor_minimo": 6.89,
+      "valor_maximo": 6.89,
+      "valor_medio": 6.89,
+      "valor_recente": 6.89,
+      "data_recente": "2026-04-12T13:22:16Z"
     },
     {
       "cnpj": "33748712000223",
@@ -264,11 +264,11 @@
       "municipio": "JUNQUEIRO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.279920227179121,
-      "valor_maximo": 7.279920227179121,
-      "valor_medio": 7.279920227179121,
-      "valor_recente": 7.279920227179121,
-      "data_recente": "2026-04-11T20:15:47Z"
+      "valor_minimo": 7.28,
+      "valor_maximo": 7.28,
+      "valor_medio": 7.28,
+      "valor_recente": 7.28,
+      "data_recente": "2026-04-12T13:21:00Z"
     },
     {
       "cnpj": "57214182000110",
@@ -291,26 +291,6 @@
       "data_recente": "2026-04-11T19:27:56Z"
     },
     {
-      "cnpj": "07531582000181",
-      "tipo_combustivel": 5,
-      "razao_social": "SILVA COMBUSTIVEL LTDA - EPP",
-      "nome_fantasia": "AUTO POSTO TRES IRMAOS",
-      "telefone": "",
-      "nome_logradouro": "RDV BR - 101 SUL",
-      "numero_imovel": "240",
-      "bairro": "CENTRO",
-      "cep": "57270000",
-      "codigo_ibge": 2704005,
-      "municipio": "JUNQUEIRO",
-      "latitude": -9.7094673,
-      "longitude": -36.0389556,
-      "valor_minimo": 7.399800099950025,
-      "valor_maximo": 7.399800099950025,
-      "valor_medio": 7.399800099950025,
-      "valor_recente": 7.399800099950025,
-      "data_recente": "2026-04-12T08:19:01Z"
-    },
-    {
       "cnpj": "42337336000194",
       "tipo_combustivel": 5,
       "razao_social": "JOSE VALMIR DA SILVA FILHO",
@@ -329,6 +309,26 @@
       "valor_medio": 7.58,
       "valor_recente": 7.58,
       "data_recente": "2026-04-11T18:58:00Z"
+    },
+    {
+      "cnpj": "07531582000181",
+      "tipo_combustivel": 5,
+      "razao_social": "SILVA COMBUSTIVEL LTDA - EPP",
+      "nome_fantasia": "AUTO POSTO TRES IRMAOS",
+      "telefone": "",
+      "nome_logradouro": "RDV BR - 101 SUL",
+      "numero_imovel": "240",
+      "bairro": "CENTRO",
+      "cep": "57270000",
+      "codigo_ibge": 2704005,
+      "municipio": "JUNQUEIRO",
+      "latitude": -9.7094673,
+      "longitude": -36.0389556,
+      "valor_minimo": 7.6999464396867445,
+      "valor_maximo": 7.6999464396867445,
+      "valor_medio": 7.6999464396867445,
+      "valor_recente": 7.6999464396867445,
+      "data_recente": "2026-04-12T11:02:37Z"
     }
   ]
 }

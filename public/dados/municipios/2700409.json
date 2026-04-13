@@ -1,47 +1,67 @@
 {
   "codigoIBGE": "2700409",
   "municipio": "Atalaia",
-  "atualizadoEm": "2026-04-13T13:01:44.469Z",
+  "atualizadoEm": "2026-04-13T14:52:32.119Z",
   "totalEstabelecimentos": 24,
   "combustiveis": {
     "1": {
       "totalPostos": 7,
-      "valorMinimo": 6.489900082183485,
-      "valorMaximo": 6.889899407468651,
-      "valorMedio": 6.718035024609157
+      "valorMinimo": 6.01135225375626,
+      "valorMaximo": 6.890008638065074,
+      "valorMedio": 6.622749423202367
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 7.1380952380952385,
-      "valorMaximo": 7.190106413574921,
-      "valorMedio": 7.16410082583508
+      "valorMinimo": 7.139797229758675,
+      "valorMaximo": 7.189964157706093,
+      "valorMedio": 7.164880693732384
     },
     "3": {
       "totalPostos": 6,
-      "valorMinimo": 5.149592798971281,
-      "valorMaximo": 5.489478499542543,
-      "valorMedio": 5.294871018841146
+      "valorMinimo": 4.67047223663726,
+      "valorMaximo": 5.599888002239955,
+      "valorMedio": 5.2600071521566045
     },
     "4": {
       "totalPostos": 2,
       "valorMinimo": 6.7897881586094515,
-      "valorMaximo": 6.939932435559258,
-      "valorMedio": 6.864860297084355
+      "valorMaximo": 6.9897691500524655,
+      "valorMedio": 6.889778654330959
     },
     "5": {
       "totalPostos": 6,
-      "valorMinimo": 6.853625170998632,
-      "valorMaximo": 7.189993530299763,
-      "valorMedio": 7.000562792491247
+      "valorMinimo": 6.849890430971512,
+      "valorMaximo": 7.18958947444101,
+      "valorMedio": 6.99968753645224
     },
     "6": {
       "totalPostos": 1,
-      "valorMinimo": 4.189944134078212,
-      "valorMaximo": 4.189944134078212,
-      "valorMedio": 4.189944134078212
+      "valorMinimo": 4.1895494534790725,
+      "valorMaximo": 4.1895494534790725,
+      "valorMedio": 4.1895494534790725
     }
   },
   "estabelecimentos": [
+    {
+      "cnpj": "31278560000136",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO IMPERADOR LTDA",
+      "nome_fantasia": "AUTO POSTO IMPERADOR",
+      "telefone": "(82) 34214790",
+      "nome_logradouro": "ROD BR 316",
+      "numero_imovel": "SN",
+      "bairro": "DISTRITO BRANCA",
+      "cep": "57690000",
+      "codigo_ibge": 2700409,
+      "municipio": "ATALAIA",
+      "latitude": -9.4881612,
+      "longitude": -36.1468669,
+      "valor_minimo": 6.01135225375626,
+      "valor_maximo": 6.01135225375626,
+      "valor_medio": 6.01135225375626,
+      "valor_recente": 6.01135225375626,
+      "data_recente": "2026-04-12T12:45:55Z"
+    },
     {
       "cnpj": "48494384000172",
       "tipo_combustivel": 1,
@@ -56,51 +76,11 @@
       "municipio": "ATALAIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.489900082183485,
-      "valor_maximo": 6.489900082183485,
-      "valor_medio": 6.489900082183485,
-      "valor_recente": 6.489900082183485,
-      "data_recente": "2026-04-11T18:31:28Z"
-    },
-    {
-      "cnpj": "31278560000136",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO IMPERADOR LTDA",
-      "nome_fantasia": "AUTO POSTO IMPERADOR",
-      "telefone": "(82) 34214790",
-      "nome_logradouro": "ROD BR 316",
-      "numero_imovel": "SN",
-      "bairro": "DISTRITO BRANCA",
-      "cep": "57690000",
-      "codigo_ibge": 2700409,
-      "municipio": "ATALAIA",
-      "latitude": -9.4881612,
-      "longitude": -36.1468669,
-      "valor_minimo": 6.679087098276665,
-      "valor_maximo": 6.679087098276665,
-      "valor_medio": 6.679087098276665,
-      "valor_recente": 6.679087098276665,
-      "data_recente": "2026-04-12T09:50:58Z"
-    },
-    {
-      "cnpj": "07150975000145",
-      "tipo_combustivel": 1,
-      "razao_social": "DORIA & SARMENTO COMERCIO DE COMBUSTIVEIS LTDA - EPP",
-      "nome_fantasia": "AUTO POSTO ATALAIA",
-      "telefone": "",
-      "nome_logradouro": "RDV BR 316  KM 45",
-      "numero_imovel": "S/N",
-      "bairro": "JOSE PAULINO",
-      "cep": "57690000",
-      "codigo_ibge": 2700409,
-      "municipio": "ATALAIA",
-      "latitude": -9.5093176,
-      "longitude": -36.0117388,
-      "valor_minimo": 6.688741721854305,
-      "valor_maximo": 6.688741721854305,
-      "valor_medio": 6.688741721854305,
-      "valor_recente": 6.688741721854305,
-      "data_recente": "2026-04-12T10:55:22Z"
+      "valor_minimo": 6.490272373540856,
+      "valor_maximo": 6.490272373540856,
+      "valor_medio": 6.490272373540856,
+      "valor_recente": 6.490272373540856,
+      "data_recente": "2026-04-12T13:43:36Z"
     },
     {
       "cnpj": "39741813000178",
@@ -116,11 +96,31 @@
       "municipio": "ATALAIA",
       "latitude": -9.5149011,
       "longitude": -36.0017582,
-      "valor_minimo": 6.688963210702341,
-      "valor_maximo": 6.688963210702341,
-      "valor_medio": 6.688963210702341,
-      "valor_recente": 6.688963210702341,
-      "data_recente": "2026-04-12T10:41:36Z"
+      "valor_minimo": 6.68960244648318,
+      "valor_maximo": 6.68960244648318,
+      "valor_medio": 6.68960244648318,
+      "valor_recente": 6.68960244648318,
+      "data_recente": "2026-04-12T13:34:21Z"
+    },
+    {
+      "cnpj": "07150975000145",
+      "tipo_combustivel": 1,
+      "razao_social": "DORIA & SARMENTO COMERCIO DE COMBUSTIVEIS LTDA - EPP",
+      "nome_fantasia": "AUTO POSTO ATALAIA",
+      "telefone": "",
+      "nome_logradouro": "RDV BR 316  KM 45",
+      "numero_imovel": "S/N",
+      "bairro": "JOSE PAULINO",
+      "cep": "57690000",
+      "codigo_ibge": 2700409,
+      "municipio": "ATALAIA",
+      "latitude": -9.5093176,
+      "longitude": -36.0117388,
+      "valor_minimo": 6.690378135529764,
+      "valor_maximo": 6.690378135529764,
+      "valor_medio": 6.690378135529764,
+      "valor_recente": 6.690378135529764,
+      "data_recente": "2026-04-12T13:33:27Z"
     },
     {
       "cnpj": "12486809000235",
@@ -136,11 +136,11 @@
       "municipio": "ATALAIA",
       "latitude": -9.5108483,
       "longitude": -36.0043199,
-      "valor_minimo": 6.749915626054674,
-      "valor_maximo": 6.749915626054674,
-      "valor_medio": 6.749915626054674,
-      "valor_recente": 6.749915626054674,
-      "data_recente": "2026-04-12T10:42:29Z"
+      "valor_minimo": 6.749468650371945,
+      "valor_maximo": 6.749468650371945,
+      "valor_medio": 6.749468650371945,
+      "valor_recente": 6.749468650371945,
+      "data_recente": "2026-04-12T13:35:48Z"
     },
     {
       "cnpj": "11679330000171",
@@ -156,11 +156,11 @@
       "municipio": "ATALAIA",
       "latitude": -9.5877691,
       "longitude": -35.95618899999999,
-      "valor_minimo": 6.83973802572398,
-      "valor_maximo": 6.83973802572398,
-      "valor_medio": 6.83973802572398,
-      "valor_recente": 6.83973802572398,
-      "data_recente": "2026-04-12T10:41:48Z"
+      "valor_minimo": 6.838163464669488,
+      "valor_maximo": 6.838163464669488,
+      "valor_medio": 6.838163464669488,
+      "valor_recente": 6.838163464669488,
+      "data_recente": "2026-04-12T13:36:29Z"
     },
     {
       "cnpj": "10889582000162",
@@ -176,11 +176,11 @@
       "municipio": "ATALAIA",
       "latitude": -9.5093176,
       "longitude": -36.0117388,
-      "valor_minimo": 6.889899407468651,
-      "valor_maximo": 6.889899407468651,
-      "valor_medio": 6.889899407468651,
-      "valor_recente": 6.889899407468651,
-      "data_recente": "2026-04-12T10:48:11Z"
+      "valor_minimo": 6.890008638065074,
+      "valor_maximo": 6.890008638065074,
+      "valor_medio": 6.890008638065074,
+      "valor_recente": 6.890008638065074,
+      "data_recente": "2026-04-12T13:38:06Z"
     },
     {
       "cnpj": "11679330000171",
@@ -196,11 +196,11 @@
       "municipio": "ATALAIA",
       "latitude": -9.5877691,
       "longitude": -35.95618899999999,
-      "valor_minimo": 7.1380952380952385,
-      "valor_maximo": 7.1380952380952385,
-      "valor_medio": 7.1380952380952385,
-      "valor_recente": 7.1380952380952385,
-      "data_recente": "2026-04-12T10:49:50Z"
+      "valor_minimo": 7.139797229758675,
+      "valor_maximo": 7.139797229758675,
+      "valor_medio": 7.139797229758675,
+      "valor_recente": 7.139797229758675,
+      "data_recente": "2026-04-12T13:39:21Z"
     },
     {
       "cnpj": "10889582000162",
@@ -216,51 +216,11 @@
       "municipio": "ATALAIA",
       "latitude": -9.5093176,
       "longitude": -36.0117388,
-      "valor_minimo": 7.190106413574921,
-      "valor_maximo": 7.190106413574921,
-      "valor_medio": 7.190106413574921,
-      "valor_recente": 7.190106413574921,
-      "data_recente": "2026-04-12T10:43:16Z"
-    },
-    {
-      "cnpj": "07150975000145",
-      "tipo_combustivel": 3,
-      "razao_social": "DORIA & SARMENTO COMERCIO DE COMBUSTIVEIS LTDA - EPP",
-      "nome_fantasia": "AUTO POSTO ATALAIA",
-      "telefone": "",
-      "nome_logradouro": "RDV BR 316  KM 45",
-      "numero_imovel": "S/N",
-      "bairro": "JOSE PAULINO",
-      "cep": "57690000",
-      "codigo_ibge": 2700409,
-      "municipio": "ATALAIA",
-      "latitude": -9.5093176,
-      "longitude": -36.0117388,
-      "valor_minimo": 5.149592798971281,
-      "valor_maximo": 5.149592798971281,
-      "valor_medio": 5.149592798971281,
-      "valor_recente": 5.149592798971281,
-      "data_recente": "2026-04-12T10:07:54Z"
-    },
-    {
-      "cnpj": "39741813000178",
-      "tipo_combustivel": 3,
-      "razao_social": "MARIA FILHA DE OLIVEIRA LTDA",
-      "nome_fantasia": "POSTO 15",
-      "telefone": "(82) 81575355",
-      "nome_logradouro": "ROD BR 316",
-      "numero_imovel": "SN",
-      "bairro": "BOCA DA MATA",
-      "cep": "57690000",
-      "codigo_ibge": 2700409,
-      "municipio": "ATALAIA",
-      "latitude": -9.5149011,
-      "longitude": -36.0017582,
-      "valor_minimo": 5.160491278769739,
-      "valor_maximo": 5.160491278769739,
-      "valor_medio": 5.160491278769739,
-      "valor_recente": 5.160491278769739,
-      "data_recente": "2026-04-12T10:39:35Z"
+      "valor_minimo": 7.189964157706093,
+      "valor_maximo": 7.189964157706093,
+      "valor_medio": 7.189964157706093,
+      "valor_recente": 7.189964157706093,
+      "data_recente": "2026-04-12T13:31:07Z"
     },
     {
       "cnpj": "31278560000136",
@@ -276,31 +236,51 @@
       "municipio": "ATALAIA",
       "latitude": -9.4881612,
       "longitude": -36.1468669,
-      "valor_minimo": 5.190179806362379,
-      "valor_maximo": 5.190179806362379,
-      "valor_medio": 5.190179806362379,
-      "valor_recente": 5.190179806362379,
-      "data_recente": "2026-04-12T08:37:32Z"
+      "valor_minimo": 4.67047223663726,
+      "valor_maximo": 4.67047223663726,
+      "valor_medio": 4.67047223663726,
+      "valor_recente": 4.67047223663726,
+      "data_recente": "2026-04-12T12:49:34Z"
     },
     {
-      "cnpj": "12486809000235",
+      "cnpj": "39741813000178",
       "tipo_combustivel": 3,
-      "razao_social": "CDA EMPREENDIMENTOS LTDA",
-      "nome_fantasia": "POSTO CHA DE ATALAIA",
-      "telefone": "(82) 3261842",
-      "nome_logradouro": "AV PEDRO PEREIRA ACIOLI",
-      "numero_imovel": "103",
-      "bairro": "VILA JOSE PAULINO",
+      "razao_social": "MARIA FILHA DE OLIVEIRA LTDA",
+      "nome_fantasia": "POSTO 15",
+      "telefone": "(82) 81575355",
+      "nome_logradouro": "ROD BR 316",
+      "numero_imovel": "SN",
+      "bairro": "BOCA DA MATA",
       "cep": "57690000",
       "codigo_ibge": 2700409,
       "municipio": "ATALAIA",
-      "latitude": -9.5108483,
-      "longitude": -36.0043199,
-      "valor_minimo": 5.389374579690652,
-      "valor_maximo": 5.389374579690652,
-      "valor_medio": 5.389374579690652,
-      "valor_recente": 5.389374579690652,
-      "data_recente": "2026-04-12T10:02:28Z"
+      "latitude": -9.5149011,
+      "longitude": -36.0017582,
+      "valor_minimo": 5.159876224858174,
+      "valor_maximo": 5.159876224858174,
+      "valor_medio": 5.159876224858174,
+      "valor_recente": 5.159876224858174,
+      "data_recente": "2026-04-12T13:08:16Z"
+    },
+    {
+      "cnpj": "07150975000145",
+      "tipo_combustivel": 3,
+      "razao_social": "DORIA & SARMENTO COMERCIO DE COMBUSTIVEIS LTDA - EPP",
+      "nome_fantasia": "AUTO POSTO ATALAIA",
+      "telefone": "",
+      "nome_logradouro": "RDV BR 316  KM 45",
+      "numero_imovel": "S/N",
+      "bairro": "JOSE PAULINO",
+      "cep": "57690000",
+      "codigo_ibge": 2700409,
+      "municipio": "ATALAIA",
+      "latitude": -9.5093176,
+      "longitude": -36.0117388,
+      "valor_minimo": 5.24996224135327,
+      "valor_maximo": 5.24996224135327,
+      "valor_medio": 5.24996224135327,
+      "valor_recente": 5.24996224135327,
+      "data_recente": "2026-04-12T13:13:14Z"
     },
     {
       "cnpj": "10889582000162",
@@ -316,11 +296,11 @@
       "municipio": "ATALAIA",
       "latitude": -9.5093176,
       "longitude": -36.0117388,
-      "valor_minimo": 5.390109149710281,
-      "valor_maximo": 5.390109149710281,
-      "valor_medio": 5.390109149710281,
-      "valor_recente": 5.390109149710281,
-      "data_recente": "2026-04-12T00:00:45Z"
+      "valor_minimo": 5.389963887241955,
+      "valor_maximo": 5.389963887241955,
+      "valor_medio": 5.389963887241955,
+      "valor_recente": 5.389963887241955,
+      "data_recente": "2026-04-12T11:54:45Z"
     },
     {
       "cnpj": "11679330000171",
@@ -336,11 +316,31 @@
       "municipio": "ATALAIA",
       "latitude": -9.5877691,
       "longitude": -35.95618899999999,
-      "valor_minimo": 5.489478499542543,
-      "valor_maximo": 5.489478499542543,
-      "valor_medio": 5.489478499542543,
-      "valor_recente": 5.489478499542543,
-      "data_recente": "2026-04-12T10:46:37Z"
+      "valor_minimo": 5.489880320609011,
+      "valor_maximo": 5.489880320609011,
+      "valor_medio": 5.489880320609011,
+      "valor_recente": 5.489880320609011,
+      "data_recente": "2026-04-12T13:38:47Z"
+    },
+    {
+      "cnpj": "12486809000235",
+      "tipo_combustivel": 3,
+      "razao_social": "CDA EMPREENDIMENTOS LTDA",
+      "nome_fantasia": "POSTO CHA DE ATALAIA",
+      "telefone": "(82) 3261842",
+      "nome_logradouro": "AV PEDRO PEREIRA ACIOLI",
+      "numero_imovel": "103",
+      "bairro": "VILA JOSE PAULINO",
+      "cep": "57690000",
+      "codigo_ibge": 2700409,
+      "municipio": "ATALAIA",
+      "latitude": -9.5108483,
+      "longitude": -36.0043199,
+      "valor_minimo": 5.599888002239955,
+      "valor_maximo": 5.599888002239955,
+      "valor_medio": 5.599888002239955,
+      "valor_recente": 5.599888002239955,
+      "data_recente": "2026-04-12T13:18:23Z"
     },
     {
       "cnpj": "12486809000235",
@@ -360,7 +360,7 @@
       "valor_maximo": 6.7897881586094515,
       "valor_medio": 6.7897881586094515,
       "valor_recente": 6.7897881586094515,
-      "data_recente": "2026-04-12T09:06:03Z"
+      "data_recente": "2026-04-12T12:33:05Z"
     },
     {
       "cnpj": "11679330000171",
@@ -376,11 +376,11 @@
       "municipio": "ATALAIA",
       "latitude": -9.5877691,
       "longitude": -35.95618899999999,
-      "valor_minimo": 6.939932435559258,
-      "valor_maximo": 6.939932435559258,
-      "valor_medio": 6.939932435559258,
-      "valor_recente": 6.939932435559258,
-      "data_recente": "2026-04-12T10:35:58Z"
+      "valor_minimo": 6.9897691500524655,
+      "valor_maximo": 6.9897691500524655,
+      "valor_medio": 6.9897691500524655,
+      "valor_recente": 6.9897691500524655,
+      "data_recente": "2026-04-12T13:41:48Z"
     },
     {
       "cnpj": "48494384000172",
@@ -396,11 +396,11 @@
       "municipio": "ATALAIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.853625170998632,
-      "valor_maximo": 6.853625170998632,
-      "valor_medio": 6.853625170998632,
-      "valor_recente": 6.853625170998632,
-      "data_recente": "2026-04-11T19:39:44Z"
+      "valor_minimo": 6.849890430971512,
+      "valor_maximo": 6.849890430971512,
+      "valor_medio": 6.849890430971512,
+      "valor_recente": 6.849890430971512,
+      "data_recente": "2026-04-12T11:55:47Z"
     },
     {
       "cnpj": "07150975000145",
@@ -416,11 +416,11 @@
       "municipio": "ATALAIA",
       "latitude": -9.5093176,
       "longitude": -36.0117388,
-      "valor_minimo": 6.889866630001375,
-      "valor_maximo": 6.889866630001375,
-      "valor_medio": 6.889866630001375,
-      "valor_recente": 6.889866630001375,
-      "data_recente": "2026-04-12T10:50:32Z"
+      "valor_minimo": 6.888586956521739,
+      "valor_maximo": 6.888586956521739,
+      "valor_medio": 6.888586956521739,
+      "valor_recente": 6.888586956521739,
+      "data_recente": "2026-04-12T12:53:11Z"
     },
     {
       "cnpj": "39741813000178",
@@ -436,11 +436,11 @@
       "municipio": "ATALAIA",
       "latitude": -9.5149011,
       "longitude": -36.0017582,
-      "valor_minimo": 6.889899407468651,
-      "valor_maximo": 6.889899407468651,
-      "valor_medio": 6.889899407468651,
-      "valor_recente": 6.889899407468651,
-      "data_recente": "2026-04-12T10:20:21Z"
+      "valor_minimo": 6.889892341445992,
+      "valor_maximo": 6.889892341445992,
+      "valor_medio": 6.889892341445992,
+      "valor_recente": 6.889892341445992,
+      "data_recente": "2026-04-12T12:43:21Z"
     },
     {
       "cnpj": "10889582000162",
@@ -456,11 +456,11 @@
       "municipio": "ATALAIA",
       "latitude": -9.5093176,
       "longitude": -36.0117388,
-      "valor_minimo": 7.0399399258459665,
-      "valor_maximo": 7.089940660631468,
-      "valor_medio": 7.064940293238717,
-      "valor_recente": 7.089940660631468,
-      "data_recente": "2026-04-12T10:43:10Z"
+      "valor_minimo": 7.04,
+      "valor_maximo": 7.090187180941577,
+      "valor_medio": 7.065093590470788,
+      "valor_recente": 7.090187180941577,
+      "data_recente": "2026-04-12T13:31:07Z"
     },
     {
       "cnpj": "31278560000136",
@@ -476,11 +476,11 @@
       "municipio": "ATALAIA",
       "latitude": -9.4881612,
       "longitude": -36.1468669,
-      "valor_minimo": 7.090051355547593,
-      "valor_maximo": 7.090051355547593,
-      "valor_medio": 7.090051355547593,
-      "valor_recente": 7.090051355547593,
-      "data_recente": "2026-04-12T09:50:58Z"
+      "valor_minimo": 7.089978834391614,
+      "valor_maximo": 7.089978834391614,
+      "valor_medio": 7.089978834391614,
+      "valor_recente": 7.089978834391614,
+      "data_recente": "2026-04-12T10:53:37Z"
     },
     {
       "cnpj": "11679330000171",
@@ -496,11 +496,11 @@
       "municipio": "ATALAIA",
       "latitude": -9.5877691,
       "longitude": -35.95618899999999,
-      "valor_minimo": 7.189993530299763,
-      "valor_maximo": 7.189993530299763,
-      "valor_medio": 7.189993530299763,
-      "valor_recente": 7.189993530299763,
-      "data_recente": "2026-04-11T23:28:26Z"
+      "valor_minimo": 7.18958947444101,
+      "valor_maximo": 7.18958947444101,
+      "valor_medio": 7.18958947444101,
+      "valor_recente": 7.18958947444101,
+      "data_recente": "2026-04-12T11:36:24Z"
     },
     {
       "cnpj": "12486809000235",
@@ -516,11 +516,11 @@
       "municipio": "ATALAIA",
       "latitude": -9.5108483,
       "longitude": -36.0043199,
-      "valor_minimo": 4.189944134078212,
-      "valor_maximo": 4.189944134078212,
-      "valor_medio": 4.189944134078212,
-      "valor_recente": 4.189944134078212,
-      "data_recente": "2026-04-12T10:53:48Z"
+      "valor_minimo": 4.1895494534790725,
+      "valor_maximo": 4.1895494534790725,
+      "valor_medio": 4.1895494534790725,
+      "valor_recente": 4.1895494534790725,
+      "data_recente": "2026-04-12T13:36:35Z"
     }
   ]
 }

@@ -1,26 +1,26 @@
 {
   "codigoIBGE": "2702306",
   "municipio": "Coruripe",
-  "atualizadoEm": "2026-04-13T13:13:33.704Z",
+  "atualizadoEm": "2026-04-13T15:04:13.406Z",
   "totalEstabelecimentos": 22,
   "combustiveis": {
     "1": {
       "totalPostos": 7,
       "valorMinimo": 5.854177754124534,
-      "valorMaximo": 7.119850187265918,
-      "valorMedio": 6.726689344355572
+      "valorMaximo": 7.120535714285714,
+      "valorMedio": 6.724226751995024
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.2202166064981945,
-      "valorMaximo": 7.2202166064981945,
-      "valorMedio": 7.2202166064981945
+      "valorMinimo": 7.220362622036262,
+      "valorMaximo": 7.220362622036262,
+      "valorMedio": 7.220362622036262
     },
     "3": {
       "totalPostos": 6,
-      "valorMinimo": 4.249936110401227,
-      "valorMaximo": 5.75,
-      "valorMedio": 4.949553180649404
+      "valorMinimo": 4.249713144362755,
+      "valorMaximo": 5.748778384593274,
+      "valorMedio": 5.064290880229922
     },
     "4": {
       "totalPostos": 1,
@@ -30,9 +30,9 @@
     },
     "5": {
       "totalPostos": 7,
-      "valorMinimo": 6.639850521617273,
-      "valorMaximo": 7.449714427613608,
-      "valorMedio": 7.234024474567645
+      "valorMinimo": 6.6399573068803415,
+      "valorMaximo": 7.649906308557152,
+      "valorMedio": 7.2155328715671105
     }
   },
   "estabelecimentos": [
@@ -90,11 +90,11 @@
       "municipio": "CORURIPE",
       "latitude": -10.1230258,
       "longitude": -36.1760483,
-      "valor_minimo": 6.97986577181208,
-      "valor_maximo": 6.97986577181208,
-      "valor_medio": 6.97986577181208,
-      "valor_recente": 6.97986577181208,
-      "data_recente": "2026-04-12T10:30:38Z"
+      "valor_minimo": 6.979828296223913,
+      "valor_maximo": 6.979828296223913,
+      "valor_medio": 6.979828296223913,
+      "valor_recente": 6.979828296223913,
+      "data_recente": "2026-04-12T13:43:07Z"
     },
     {
       "cnpj": "10589833000274",
@@ -110,11 +110,11 @@
       "municipio": "CORURIPE",
       "latitude": -10.1457326,
       "longitude": -36.3226082,
-      "valor_minimo": 6.988120195667365,
-      "valor_maximo": 6.988120195667365,
-      "valor_medio": 6.988120195667365,
-      "valor_recente": 6.988120195667365,
-      "data_recente": "2026-04-12T10:47:33Z"
+      "valor_minimo": 6.989247311827957,
+      "valor_maximo": 6.989247311827957,
+      "valor_medio": 6.989247311827957,
+      "valor_recente": 6.989247311827957,
+      "data_recente": "2026-04-12T13:43:38Z"
     },
     {
       "cnpj": "33600518000115",
@@ -130,31 +130,11 @@
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.099290780141844,
-      "valor_maximo": 7.099290780141844,
-      "valor_medio": 7.099290780141844,
-      "valor_recente": 7.099290780141844,
-      "data_recente": "2026-04-12T10:22:43Z"
-    },
-    {
-      "cnpj": "09081895000100",
-      "tipo_combustivel": 1,
-      "razao_social": "T. DE F. ROCHA & BARBOSA LTDA  - ME",
-      "nome_fantasia": "POSTO SAO PEDRO III",
-      "telefone": "",
-      "nome_logradouro": "ROD GUTTEMBERG BREDA NETO",
-      "numero_imovel": "3145/A",
-      "bairro": "COMENDADOR TERCIO WANDERLEY",
-      "cep": "57230000",
-      "codigo_ibge": 2702306,
-      "municipio": "CORURIPE",
-      "latitude": -10.139914,
-      "longitude": -36.1627961,
-      "valor_minimo": 7.1182141045154745,
-      "valor_maximo": 7.1182141045154745,
-      "valor_medio": 7.1182141045154745,
-      "valor_recente": 7.1182141045154745,
-      "data_recente": "2026-04-12T10:48:33Z"
+      "valor_minimo": 7.09849157054126,
+      "valor_maximo": 7.09849157054126,
+      "valor_medio": 7.09849157054126,
+      "valor_recente": 7.09849157054126,
+      "data_recente": "2026-04-12T13:40:17Z"
     },
     {
       "cnpj": "29853107000164",
@@ -170,11 +150,31 @@
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.119850187265918,
-      "valor_maximo": 7.119850187265918,
-      "valor_medio": 7.119850187265918,
-      "valor_recente": 7.119850187265918,
-      "data_recente": "2026-04-12T09:44:29Z"
+      "valor_minimo": 7.1,
+      "valor_maximo": 7.1,
+      "valor_medio": 7.1,
+      "valor_recente": 7.1,
+      "data_recente": "2026-04-12T13:41:58Z"
+    },
+    {
+      "cnpj": "09081895000100",
+      "tipo_combustivel": 1,
+      "razao_social": "T. DE F. ROCHA & BARBOSA LTDA  - ME",
+      "nome_fantasia": "POSTO SAO PEDRO III",
+      "telefone": "",
+      "nome_logradouro": "ROD GUTTEMBERG BREDA NETO",
+      "numero_imovel": "3145/A",
+      "bairro": "COMENDADOR TERCIO WANDERLEY",
+      "cep": "57230000",
+      "codigo_ibge": 2702306,
+      "municipio": "CORURIPE",
+      "latitude": -10.139914,
+      "longitude": -36.1627961,
+      "valor_minimo": 7.120535714285714,
+      "valor_maximo": 7.120535714285714,
+      "valor_medio": 7.120535714285714,
+      "valor_recente": 7.120535714285714,
+      "data_recente": "2026-04-12T13:31:30Z"
     },
     {
       "cnpj": "09081895000100",
@@ -190,11 +190,11 @@
       "municipio": "CORURIPE",
       "latitude": -10.139914,
       "longitude": -36.1627961,
-      "valor_minimo": 7.2202166064981945,
-      "valor_maximo": 7.2202166064981945,
-      "valor_medio": 7.2202166064981945,
-      "valor_recente": 7.2202166064981945,
-      "data_recente": "2026-04-12T10:46:39Z"
+      "valor_minimo": 7.220362622036262,
+      "valor_maximo": 7.220362622036262,
+      "valor_medio": 7.220362622036262,
+      "valor_recente": 7.220362622036262,
+      "data_recente": "2026-04-12T13:31:47Z"
     },
     {
       "cnpj": "05848209000123",
@@ -210,11 +210,11 @@
       "municipio": "CORURIPE",
       "latitude": -10.1230258,
       "longitude": -36.1760483,
-      "valor_minimo": 4.249936110401227,
-      "valor_maximo": 4.249936110401227,
-      "valor_medio": 4.249936110401227,
-      "valor_recente": 4.249936110401227,
-      "data_recente": "2026-04-12T10:30:07Z"
+      "valor_minimo": 4.249713144362755,
+      "valor_maximo": 4.249713144362755,
+      "valor_medio": 4.249713144362755,
+      "valor_recente": 4.249713144362755,
+      "data_recente": "2026-04-12T13:42:40Z"
     },
     {
       "cnpj": "55681612000189",
@@ -250,11 +250,11 @@
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 4.401085850016966,
-      "valor_maximo": 4.401085850016966,
-      "valor_medio": 4.401085850016966,
-      "valor_recente": 4.401085850016966,
-      "data_recente": "2026-04-12T00:08:54Z"
+      "valor_minimo": 5.08997308997309,
+      "valor_maximo": 5.08997308997309,
+      "valor_medio": 5.08997308997309,
+      "valor_recente": 5.08997308997309,
+      "data_recente": "2026-04-12T11:56:14Z"
     },
     {
       "cnpj": "10589833000274",
@@ -270,11 +270,11 @@
       "municipio": "CORURIPE",
       "latitude": -10.1457326,
       "longitude": -36.3226082,
-      "valor_minimo": 5.14894709809964,
-      "valor_maximo": 5.14894709809964,
-      "valor_medio": 5.14894709809964,
-      "valor_recente": 5.14894709809964,
-      "data_recente": "2026-04-12T10:47:33Z"
+      "valor_minimo": 5.149930637071817,
+      "valor_maximo": 5.149930637071817,
+      "valor_medio": 5.149930637071817,
+      "valor_recente": 5.149930637071817,
+      "data_recente": "2026-04-12T13:26:42Z"
     },
     {
       "cnpj": "09081895000100",
@@ -310,11 +310,11 @@
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.75,
-      "valor_maximo": 5.75,
-      "valor_medio": 5.75,
-      "valor_recente": 5.75,
-      "data_recente": "2026-04-12T09:17:49Z"
+      "valor_minimo": 5.748778384593274,
+      "valor_maximo": 5.748778384593274,
+      "valor_medio": 5.748778384593274,
+      "valor_recente": 5.748778384593274,
+      "data_recente": "2026-04-12T13:11:12Z"
     },
     {
       "cnpj": "07824798000488",
@@ -350,11 +350,11 @@
       "municipio": "CORURIPE",
       "latitude": -10.1230258,
       "longitude": -36.1760483,
-      "valor_minimo": 6.639850521617273,
-      "valor_maximo": 6.639850521617273,
-      "valor_medio": 6.639850521617273,
-      "valor_recente": 6.639850521617273,
-      "data_recente": "2026-04-12T10:27:56Z"
+      "valor_minimo": 6.6399573068803415,
+      "valor_maximo": 6.6399573068803415,
+      "valor_medio": 6.6399573068803415,
+      "valor_recente": 6.6399573068803415,
+      "data_recente": "2026-04-12T11:13:46Z"
     },
     {
       "cnpj": "55681612000189",
@@ -377,26 +377,6 @@
       "data_recente": "2026-04-11T21:25:11Z"
     },
     {
-      "cnpj": "09081895000100",
-      "tipo_combustivel": 5,
-      "razao_social": "T. DE F. ROCHA & BARBOSA LTDA  - ME",
-      "nome_fantasia": "POSTO SAO PEDRO III",
-      "telefone": "",
-      "nome_logradouro": "ROD GUTTEMBERG BREDA NETO",
-      "numero_imovel": "3145/A",
-      "bairro": "COMENDADOR TERCIO WANDERLEY",
-      "cep": "57230000",
-      "codigo_ibge": 2702306,
-      "municipio": "CORURIPE",
-      "latitude": -10.139914,
-      "longitude": -36.1627961,
-      "valor_minimo": 7.389890629618682,
-      "valor_maximo": 7.429972509101717,
-      "valor_medio": 7.409931569360199,
-      "valor_recente": 7.389890629618682,
-      "data_recente": "2026-04-12T09:12:48Z"
-    },
-    {
       "cnpj": "29853107000164",
       "tipo_combustivel": 5,
       "razao_social": "RL COMERCIO DE COMBUSTIVEIS -",
@@ -410,11 +390,11 @@
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.389977060172931,
-      "valor_maximo": 7.389977060172931,
-      "valor_medio": 7.389977060172931,
-      "valor_recente": 7.389977060172931,
-      "data_recente": "2026-04-11T21:56:02Z"
+      "valor_minimo": 7,
+      "valor_maximo": 7,
+      "valor_medio": 7,
+      "valor_recente": 7,
+      "data_recente": "2026-04-12T11:52:59Z"
     },
     {
       "cnpj": "56141661000191",
@@ -430,31 +410,31 @@
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.3900076539364985,
-      "valor_maximo": 7.3900076539364985,
-      "valor_medio": 7.3900076539364985,
-      "valor_recente": 7.3900076539364985,
-      "data_recente": "2026-04-12T10:11:24Z"
+      "valor_minimo": 7.389991264195682,
+      "valor_maximo": 7.389991264195682,
+      "valor_medio": 7.389991264195682,
+      "valor_recente": 7.389991264195682,
+      "data_recente": "2026-04-12T12:03:26Z"
     },
     {
-      "cnpj": "10589833000274",
+      "cnpj": "09081895000100",
       "tipo_combustivel": 5,
-      "razao_social": "COOPERATIVA AGROINDUSTRIAL DOS PRODUTORES RURAIS DA COLÔNIA PINDORAMA LTDA",
-      "nome_fantasia": "POSTO PINDORAMA",
-      "telefone": "(82) 32746460",
-      "nome_logradouro": "AV VEREADOR VENANCIO ROCHA DOS SANTOS",
-      "numero_imovel": "S/N",
-      "bairro": "COLONIA PINDORAMA",
+      "razao_social": "T. DE F. ROCHA & BARBOSA LTDA  - ME",
+      "nome_fantasia": "POSTO SAO PEDRO III",
+      "telefone": "",
+      "nome_logradouro": "ROD GUTTEMBERG BREDA NETO",
+      "numero_imovel": "3145/A",
+      "bairro": "COMENDADOR TERCIO WANDERLEY",
       "cep": "57230000",
       "codigo_ibge": 2702306,
       "municipio": "CORURIPE",
-      "latitude": -10.1457326,
-      "longitude": -36.3226082,
-      "valor_minimo": 7.449714427613608,
-      "valor_maximo": 7.449714427613608,
-      "valor_medio": 7.449714427613608,
-      "valor_recente": 7.449714427613608,
-      "data_recente": "2026-04-12T10:05:05Z"
+      "latitude": -10.139914,
+      "longitude": -36.1627961,
+      "valor_minimo": 7.429420505200595,
+      "valor_maximo": 7.649906308557152,
+      "valor_medio": 7.539663406878873,
+      "valor_recente": 7.649906308557152,
+      "data_recente": "2026-04-12T13:25:35Z"
     },
     {
       "cnpj": "33600518000115",
@@ -470,11 +450,31 @@
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.449714427613608,
-      "valor_maximo": 7.449714427613608,
-      "valor_medio": 7.449714427613608,
-      "valor_recente": 7.449714427613608,
-      "data_recente": "2026-04-12T00:33:43Z"
+      "valor_minimo": 7.449902394326919,
+      "valor_maximo": 7.449902394326919,
+      "valor_medio": 7.449902394326919,
+      "valor_recente": 7.449902394326919,
+      "data_recente": "2026-04-12T11:51:41Z"
+    },
+    {
+      "cnpj": "10589833000274",
+      "tipo_combustivel": 5,
+      "razao_social": "COOPERATIVA AGROINDUSTRIAL DOS PRODUTORES RURAIS DA COLÔNIA PINDORAMA LTDA",
+      "nome_fantasia": "POSTO PINDORAMA",
+      "telefone": "(82) 32746460",
+      "nome_logradouro": "AV VEREADOR VENANCIO ROCHA DOS SANTOS",
+      "numero_imovel": "S/N",
+      "bairro": "COLONIA PINDORAMA",
+      "cep": "57230000",
+      "codigo_ibge": 2702306,
+      "municipio": "CORURIPE",
+      "latitude": -10.1457326,
+      "longitude": -36.3226082,
+      "valor_minimo": 7.449956225608761,
+      "valor_maximo": 7.449956225608761,
+      "valor_medio": 7.449956225608761,
+      "valor_recente": 7.449956225608761,
+      "data_recente": "2026-04-12T13:42:53Z"
     }
   ]
 }

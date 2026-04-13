@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2707206",
   "municipio": "Poço das Trincheiras",
-  "atualizadoEm": "2026-04-13T13:43:56.700Z",
+  "atualizadoEm": "2026-04-13T15:31:29.830Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
       "valorMinimo": 6.968641114982578,
-      "valorMaximo": 6.9904761904761905,
-      "valorMedio": 6.97624326500145
+      "valorMaximo": 6.986027944111776,
+      "valorMedio": 6.9751727450889085
     },
     "2": {
       "totalPostos": 1,
@@ -24,9 +24,9 @@
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.782101167315175,
-      "valorMaximo": 7.8,
-      "valorMedio": 7.794028636873766
+      "valorMinimo": 7.799984743306125,
+      "valorMaximo": 7.99,
+      "valorMedio": 7.863328247768709
     }
   },
   "estabelecimentos": [
@@ -64,11 +64,11 @@
       "municipio": "POCO DAS TRINCHEIRAS",
       "latitude": -9.3237539,
       "longitude": -37.30406809999999,
-      "valor_minimo": 6.9696124895455815,
-      "valor_maximo": 6.9696124895455815,
-      "valor_medio": 6.9696124895455815,
-      "valor_recente": 6.9696124895455815,
-      "data_recente": "2026-04-12T10:45:41Z"
+      "valor_minimo": 6.97084917617237,
+      "valor_maximo": 6.97084917617237,
+      "valor_medio": 6.97084917617237,
+      "valor_recente": 6.97084917617237,
+      "data_recente": "2026-04-12T13:31:34Z"
     },
     {
       "cnpj": "29720522000140",
@@ -84,11 +84,11 @@
       "municipio": "POCO DAS TRINCHEIRAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.9904761904761905,
-      "valor_maximo": 6.9904761904761905,
-      "valor_medio": 6.9904761904761905,
-      "valor_recente": 6.9904761904761905,
-      "data_recente": "2026-04-12T10:22:30Z"
+      "valor_minimo": 6.986027944111776,
+      "valor_maximo": 6.986027944111776,
+      "valor_medio": 6.986027944111776,
+      "valor_recente": 6.986027944111776,
+      "data_recente": "2026-04-12T13:32:05Z"
     },
     {
       "cnpj": "09025340000141",
@@ -128,27 +128,7 @@
       "valor_maximo": 5.649717514124294,
       "valor_medio": 5.649717514124294,
       "valor_recente": 5.649717514124294,
-      "data_recente": "2026-04-11T23:18:48Z"
-    },
-    {
-      "cnpj": "29720522000140",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO DOIS AMIGOS LTDA.",
-      "nome_fantasia": "AUTO POSTO DOIS AMIGOS",
-      "telefone": "(82) 36266524",
-      "nome_logradouro": "SIT PEDRA DA BOLA",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57510000",
-      "codigo_ibge": 2707206,
-      "municipio": "POCO DAS TRINCHEIRAS",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.782101167315175,
-      "valor_maximo": 7.782101167315175,
-      "valor_medio": 7.782101167315175,
-      "valor_recente": 7.782101167315175,
-      "data_recente": "2026-04-11T22:57:48Z"
+      "data_recente": "2026-04-12T13:35:12Z"
     },
     {
       "cnpj": "08886737000165",
@@ -189,6 +169,26 @@
       "valor_medio": 7.8,
       "valor_recente": 7.8,
       "data_recente": "2026-04-12T10:08:19Z"
+    },
+    {
+      "cnpj": "29720522000140",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO DOIS AMIGOS LTDA.",
+      "nome_fantasia": "AUTO POSTO DOIS AMIGOS",
+      "telefone": "(82) 36266524",
+      "nome_logradouro": "SIT PEDRA DA BOLA",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57510000",
+      "codigo_ibge": 2707206,
+      "municipio": "POCO DAS TRINCHEIRAS",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.99,
+      "valor_maximo": 7.99,
+      "valor_medio": 7.99,
+      "valor_recente": 7.99,
+      "data_recente": "2026-04-12T11:32:14Z"
     }
   ]
 }
