@@ -1,61 +1,41 @@
 {
   "codigoIBGE": "2705705",
   "municipio": "Olho d'Água das Flores",
-  "atualizadoEm": "2026-04-13T19:33:29.384Z",
+  "atualizadoEm": "2026-04-13T20:35:50.242Z",
   "totalEstabelecimentos": 13,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
-      "valorMinimo": 6.839945280437757,
-      "valorMaximo": 6.960886119764624,
-      "valorMedio": 6.926918865723682
+      "valorMinimo": 6.739657681380362,
+      "valorMaximo": 6.959910913140312,
+      "valorMedio": 6.841376523630169
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 7.0100086910202135,
-      "valorMaximo": 7.189646908451829,
-      "valorMedio": 7.099827799736021
+      "valorMinimo": 6.97887323943662,
+      "valorMaximo": 7.0100086910202135,
+      "valorMedio": 6.994440965228417
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 4.9892044510878595,
-      "valorMaximo": 5.440405136552722,
-      "valorMedio": 5.276392540732606
+      "valorMinimo": 4.989522003792037,
+      "valorMaximo": 5.440217391304348,
+      "valorMedio": 5.27643580988454
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 6.549583401404999,
-      "valorMaximo": 6.549583401404999,
-      "valorMedio": 6.549583401404999
+      "valorMinimo": 6.549995158727296,
+      "valorMaximo": 6.549995158727296,
+      "valorMedio": 6.549995158727296
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 6.899973082099597,
-      "valorMaximo": 7.151370679380214,
-      "valorMedio": 6.997135367451971
+      "valorMinimo": 6.9400623408761035,
+      "valorMaximo": 7.839975475168608,
+      "valorMedio": 7.373232767440764
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "08886885000180",
-      "tipo_combustivel": 1,
-      "razao_social": "M A J H COMÉRCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA",
-      "nome_fantasia": "AUTO POSTO DOIS IRMAOS",
-      "telefone": "",
-      "nome_logradouro": "AV RUI BARBOSA",
-      "numero_imovel": "718",
-      "bairro": "CENTRO",
-      "cep": "57442000",
-      "codigo_ibge": 2705705,
-      "municipio": "OLHO D'AGUA DAS FLORES",
-      "latitude": -9.5409131,
-      "longitude": -37.2929781,
-      "valor_minimo": 6.839945280437757,
-      "valor_maximo": 6.839945280437757,
-      "valor_medio": 6.839945280437757,
-      "valor_recente": 6.839945280437757,
-      "data_recente": "2026-04-12T19:50:04Z"
-    },
     {
       "cnpj": "12261087000130",
       "tipo_combustivel": 1,
@@ -70,11 +50,51 @@
       "municipio": "OLHO D'AGUA DAS FLORES",
       "latitude": -9.5301835,
       "longitude": -37.2953869,
-      "valor_minimo": 6.9469331495520334,
-      "valor_maximo": 6.9469331495520334,
-      "valor_medio": 6.9469331495520334,
-      "valor_recente": 6.9469331495520334,
-      "data_recente": "2026-04-12T19:49:42Z"
+      "valor_minimo": 6.739657681380362,
+      "valor_maximo": 6.739657681380362,
+      "valor_medio": 6.739657681380362,
+      "valor_recente": 6.739657681380362,
+      "data_recente": "2026-04-12T21:59:20Z"
+    },
+    {
+      "cnpj": "07431049000148",
+      "tipo_combustivel": 1,
+      "razao_social": "SILVA MELO & CIA. LTDA.",
+      "nome_fantasia": "POSTO SAO PEDRO",
+      "telefone": "(82) 6231787",
+      "nome_logradouro": "RDV AL 220",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57442000",
+      "codigo_ibge": 2705705,
+      "municipio": "OLHO D'AGUA DAS FLORES",
+      "latitude": -9.5413832,
+      "longitude": -37.2894755,
+      "valor_minimo": 6.83,
+      "valor_maximo": 6.83,
+      "valor_medio": 6.83,
+      "valor_recente": 6.83,
+      "data_recente": "2026-04-13T10:02:14Z"
+    },
+    {
+      "cnpj": "08886885000180",
+      "tipo_combustivel": 1,
+      "razao_social": "M A J H COMÉRCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA",
+      "nome_fantasia": "AUTO POSTO DOIS IRMAOS",
+      "telefone": "",
+      "nome_logradouro": "AV RUI BARBOSA",
+      "numero_imovel": "718",
+      "bairro": "CENTRO",
+      "cep": "57442000",
+      "codigo_ibge": 2705705,
+      "municipio": "OLHO D'AGUA DAS FLORES",
+      "latitude": -9.5409131,
+      "longitude": -37.2929781,
+      "valor_minimo": 6.8359375,
+      "valor_maximo": 6.8359375,
+      "valor_medio": 6.8359375,
+      "valor_recente": 6.8359375,
+      "data_recente": "2026-04-13T10:03:11Z"
     },
     {
       "cnpj": "08841116000165",
@@ -97,24 +117,24 @@
       "data_recente": "2026-04-11T13:03:45Z"
     },
     {
-      "cnpj": "07431049000148",
-      "tipo_combustivel": 1,
-      "razao_social": "SILVA MELO & CIA. LTDA.",
-      "nome_fantasia": "POSTO SAO PEDRO",
-      "telefone": "(82) 6231787",
-      "nome_logradouro": "RDV AL 220",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
+      "cnpj": "08886885000180",
+      "tipo_combustivel": 2,
+      "razao_social": "M A J H COMÉRCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA",
+      "nome_fantasia": "AUTO POSTO DOIS IRMAOS",
+      "telefone": "",
+      "nome_logradouro": "AV RUI BARBOSA",
+      "numero_imovel": "718",
+      "bairro": "CENTRO",
       "cep": "57442000",
       "codigo_ibge": 2705705,
       "municipio": "OLHO D'AGUA DAS FLORES",
-      "latitude": -9.5413832,
-      "longitude": -37.2894755,
-      "valor_minimo": 6.960886119764624,
-      "valor_maximo": 6.960886119764624,
-      "valor_medio": 6.960886119764624,
-      "valor_recente": 6.960886119764624,
-      "data_recente": "2026-04-12T19:44:31Z"
+      "latitude": -9.5409131,
+      "longitude": -37.2929781,
+      "valor_minimo": 6.97887323943662,
+      "valor_maximo": 6.97887323943662,
+      "valor_medio": 6.97887323943662,
+      "valor_recente": 6.97887323943662,
+      "data_recente": "2026-04-12T23:14:57Z"
     },
     {
       "cnpj": "08841116000165",
@@ -137,26 +157,6 @@
       "data_recente": "2026-04-06T21:29:54Z"
     },
     {
-      "cnpj": "08886885000180",
-      "tipo_combustivel": 2,
-      "razao_social": "M A J H COMÉRCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA",
-      "nome_fantasia": "AUTO POSTO DOIS IRMAOS",
-      "telefone": "",
-      "nome_logradouro": "AV RUI BARBOSA",
-      "numero_imovel": "718",
-      "bairro": "CENTRO",
-      "cep": "57442000",
-      "codigo_ibge": 2705705,
-      "municipio": "OLHO D'AGUA DAS FLORES",
-      "latitude": -9.5409131,
-      "longitude": -37.2929781,
-      "valor_minimo": 7.189646908451829,
-      "valor_maximo": 7.189646908451829,
-      "valor_medio": 7.189646908451829,
-      "valor_recente": 7.189646908451829,
-      "data_recente": "2026-04-12T19:19:48Z"
-    },
-    {
       "cnpj": "12261087000130",
       "tipo_combustivel": 3,
       "razao_social": "A A MELO LTDA",
@@ -170,11 +170,11 @@
       "municipio": "OLHO D'AGUA DAS FLORES",
       "latitude": -9.5301835,
       "longitude": -37.2953869,
-      "valor_minimo": 4.9892044510878595,
-      "valor_maximo": 4.9892044510878595,
-      "valor_medio": 4.9892044510878595,
-      "valor_recente": 4.9892044510878595,
-      "data_recente": "2026-04-12T19:49:42Z"
+      "valor_minimo": 4.989522003792037,
+      "valor_maximo": 4.989522003792037,
+      "valor_medio": 4.989522003792037,
+      "valor_recente": 4.989522003792037,
+      "data_recente": "2026-04-12T21:49:59Z"
     },
     {
       "cnpj": "07431049000148",
@@ -210,11 +210,11 @@
       "municipio": "OLHO D'AGUA DAS FLORES",
       "latitude": -9.5409131,
       "longitude": -37.2929781,
-      "valor_minimo": 5.440405136552722,
-      "valor_maximo": 5.440405136552722,
-      "valor_medio": 5.440405136552722,
-      "valor_recente": 5.440405136552722,
-      "data_recente": "2026-04-12T18:00:31Z"
+      "valor_minimo": 5.440217391304348,
+      "valor_maximo": 5.440217391304348,
+      "valor_medio": 5.440217391304348,
+      "valor_recente": 5.440217391304348,
+      "data_recente": "2026-04-12T23:11:26Z"
     },
     {
       "cnpj": "12261087000130",
@@ -230,31 +230,11 @@
       "municipio": "OLHO D'AGUA DAS FLORES",
       "latitude": -9.5301835,
       "longitude": -37.2953869,
-      "valor_minimo": 6.549583401404999,
-      "valor_maximo": 6.549583401404999,
-      "valor_medio": 6.549583401404999,
-      "valor_recente": 6.549583401404999,
-      "data_recente": "2026-04-12T19:49:42Z"
-    },
-    {
-      "cnpj": "12261087000130",
-      "tipo_combustivel": 5,
-      "razao_social": "A A MELO LTDA",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "AV 2 DE DEZEMBRO",
-      "numero_imovel": "777",
-      "bairro": "CENTRO",
-      "cep": "57442000",
-      "codigo_ibge": 2705705,
-      "municipio": "OLHO D'AGUA DAS FLORES",
-      "latitude": -9.5301835,
-      "longitude": -37.2953869,
-      "valor_minimo": 6.899973082099597,
-      "valor_maximo": 6.899973082099597,
-      "valor_medio": 6.899973082099597,
-      "valor_recente": 6.899973082099597,
-      "data_recente": "2026-04-12T19:16:38Z"
+      "valor_minimo": 6.549995158727296,
+      "valor_maximo": 6.549995158727296,
+      "valor_medio": 6.549995158727296,
+      "valor_recente": 6.549995158727296,
+      "data_recente": "2026-04-12T21:49:59Z"
     },
     {
       "cnpj": "08841116000165",
@@ -277,6 +257,26 @@
       "data_recente": "2026-04-10T18:10:49Z"
     },
     {
+      "cnpj": "12261087000130",
+      "tipo_combustivel": 5,
+      "razao_social": "A A MELO LTDA",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "AV 2 DE DEZEMBRO",
+      "numero_imovel": "777",
+      "bairro": "CENTRO",
+      "cep": "57442000",
+      "codigo_ibge": 2705705,
+      "municipio": "OLHO D'AGUA DAS FLORES",
+      "latitude": -9.5301835,
+      "longitude": -37.2953869,
+      "valor_minimo": 7.339660486277579,
+      "valor_maximo": 7.339660486277579,
+      "valor_medio": 7.339660486277579,
+      "valor_recente": 7.339660486277579,
+      "data_recente": "2026-04-12T21:49:59Z"
+    },
+    {
       "cnpj": "08886885000180",
       "tipo_combustivel": 5,
       "razao_social": "M A J H COMÉRCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA",
@@ -290,11 +290,11 @@
       "municipio": "OLHO D'AGUA DAS FLORES",
       "latitude": -9.5409131,
       "longitude": -37.2929781,
-      "valor_minimo": 7.151370679380214,
-      "valor_maximo": 7.151370679380214,
-      "valor_medio": 7.151370679380214,
-      "valor_recente": 7.151370679380214,
-      "data_recente": "2026-04-12T19:17:01Z"
+      "valor_minimo": 7.839975475168608,
+      "valor_maximo": 7.839975475168608,
+      "valor_medio": 7.839975475168608,
+      "valor_recente": 7.839975475168608,
+      "data_recente": "2026-04-13T10:04:04Z"
     }
   ]
 }

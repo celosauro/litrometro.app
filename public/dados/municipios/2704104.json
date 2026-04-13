@@ -1,26 +1,26 @@
 {
   "codigoIBGE": "2704104",
   "municipio": "Lagoa da Canoa",
-  "atualizadoEm": "2026-04-13T19:24:49.449Z",
+  "atualizadoEm": "2026-04-13T20:28:46.932Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.59,
-      "valorMaximo": 6.7799956130730425,
-      "valorMedio": 6.684997806536521
+      "valorMinimo": 6.7796150718351855,
+      "valorMaximo": 6.79054054054054,
+      "valorMedio": 6.7850778061878625
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.049700387733521,
-      "valorMaximo": 7.049700387733521,
-      "valorMedio": 7.049700387733521
+      "valorMinimo": 7.050197405527355,
+      "valorMaximo": 7.050197405527355,
+      "valorMedio": 7.050197405527355
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 4.990019960079841,
+      "valorMinimo": 4.987531172069826,
       "valorMaximo": 5.089058524173028,
-      "valorMedio": 5.039539242126434
+      "valorMedio": 5.038294848121427
     },
     "4": {
       "totalPostos": 1,
@@ -31,31 +31,11 @@
     "5": {
       "totalPostos": 2,
       "valorMinimo": 6.98,
-      "valorMaximo": 7.289958082741024,
-      "valorMedio": 7.134979041370512
+      "valorMaximo": 7.289938556067589,
+      "valorMedio": 7.134969278033795
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "12451076000201",
-      "tipo_combustivel": 1,
-      "razao_social": "POSTO ARAPIRACA LTDA",
-      "nome_fantasia": "POSTO ALVORADA",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 115",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57330000",
-      "codigo_ibge": 2704104,
-      "municipio": "LAGOA DA CANOA",
-      "latitude": -9.8218401,
-      "longitude": -36.7376825,
-      "valor_minimo": 6.59,
-      "valor_maximo": 6.59,
-      "valor_medio": 6.59,
-      "valor_recente": 6.59,
-      "data_recente": "2026-04-12T19:49:14Z"
-    },
     {
       "cnpj": "45859299000172",
       "tipo_combustivel": 1,
@@ -70,11 +50,31 @@
       "municipio": "LAGOA DA CANOA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.7799956130730425,
-      "valor_maximo": 6.7799956130730425,
-      "valor_medio": 6.7799956130730425,
-      "valor_recente": 6.7799956130730425,
-      "data_recente": "2026-04-12T19:49:39Z"
+      "valor_minimo": 6.7796150718351855,
+      "valor_maximo": 6.7796150718351855,
+      "valor_medio": 6.7796150718351855,
+      "valor_recente": 6.7796150718351855,
+      "data_recente": "2026-04-13T09:13:01Z"
+    },
+    {
+      "cnpj": "12451076000201",
+      "tipo_combustivel": 1,
+      "razao_social": "POSTO ARAPIRACA LTDA",
+      "nome_fantasia": "POSTO ALVORADA",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 115",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57330000",
+      "codigo_ibge": 2704104,
+      "municipio": "LAGOA DA CANOA",
+      "latitude": -9.8218401,
+      "longitude": -36.7376825,
+      "valor_minimo": 6.79054054054054,
+      "valor_maximo": 6.79054054054054,
+      "valor_medio": 6.79054054054054,
+      "valor_recente": 6.79054054054054,
+      "data_recente": "2026-04-13T00:33:35Z"
     },
     {
       "cnpj": "45859299000172",
@@ -90,11 +90,11 @@
       "municipio": "LAGOA DA CANOA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.049700387733521,
-      "valor_maximo": 7.049700387733521,
-      "valor_medio": 7.049700387733521,
-      "valor_recente": 7.049700387733521,
-      "data_recente": "2026-04-12T19:47:22Z"
+      "valor_minimo": 7.050197405527355,
+      "valor_maximo": 7.050197405527355,
+      "valor_medio": 7.050197405527355,
+      "valor_recente": 7.050197405527355,
+      "data_recente": "2026-04-13T08:42:17Z"
     },
     {
       "cnpj": "12451076000201",
@@ -110,11 +110,11 @@
       "municipio": "LAGOA DA CANOA",
       "latitude": -9.8218401,
       "longitude": -36.7376825,
-      "valor_minimo": 4.990019960079841,
-      "valor_maximo": 4.990019960079841,
-      "valor_medio": 4.990019960079841,
-      "valor_recente": 4.990019960079841,
-      "data_recente": "2026-04-12T19:33:53Z"
+      "valor_minimo": 4.987531172069826,
+      "valor_maximo": 4.987531172069826,
+      "valor_medio": 4.987531172069826,
+      "valor_recente": 4.987531172069826,
+      "data_recente": "2026-04-13T00:39:51Z"
     },
     {
       "cnpj": "45859299000172",
@@ -154,7 +154,7 @@
       "valor_maximo": 8.19000819000819,
       "valor_medio": 8.19000819000819,
       "valor_recente": 8.19000819000819,
-      "data_recente": "2026-04-12T17:00:38Z"
+      "data_recente": "2026-04-12T20:26:34Z"
     },
     {
       "cnpj": "12451076000201",
@@ -174,7 +174,7 @@
       "valor_maximo": 6.98,
       "valor_medio": 6.98,
       "valor_recente": 6.98,
-      "data_recente": "2026-04-12T19:23:06Z"
+      "data_recente": "2026-04-13T00:37:14Z"
     },
     {
       "cnpj": "45859299000172",
@@ -190,11 +190,11 @@
       "municipio": "LAGOA DA CANOA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.289958082741024,
-      "valor_maximo": 7.289958082741024,
-      "valor_medio": 7.289958082741024,
-      "valor_recente": 7.289958082741024,
-      "data_recente": "2026-04-12T19:26:41Z"
+      "valor_minimo": 7.289938556067589,
+      "valor_maximo": 7.289938556067589,
+      "valor_medio": 7.289938556067589,
+      "valor_recente": 7.289938556067589,
+      "data_recente": "2026-04-13T00:41:46Z"
     }
   ]
 }

@@ -1,38 +1,38 @@
 {
   "codigoIBGE": "2702603",
   "municipio": "Feira Grande",
-  "atualizadoEm": "2026-04-13T19:16:34.007Z",
+  "atualizadoEm": "2026-04-13T20:21:09.281Z",
   "totalEstabelecimentos": 7,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.849829351535837,
-      "valorMaximo": 7.050632911392405,
-      "valorMedio": 6.950231131464121
+      "valorMinimo": 6.8493150684931505,
+      "valorMaximo": 6.849829351535837,
+      "valorMedio": 6.849572210014493
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.901311249137336,
-      "valorMaximo": 7.101355713363461,
-      "valorMedio": 7.0013334812503984
+      "valorMinimo": 6.9,
+      "valorMaximo": 6.901311249137336,
+      "valorMedio": 6.900655624568668
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.290199809705043,
-      "valorMaximo": 5.290199809705043,
-      "valorMedio": 5.290199809705043
+      "valorMinimo": 5.2896825396825395,
+      "valorMaximo": 5.2896825396825395,
+      "valorMedio": 5.2896825396825395
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 7.290147885857113,
-      "valorMaximo": 7.290147885857113,
-      "valorMedio": 7.290147885857113
+      "valorMinimo": 7.289996042573577,
+      "valorMaximo": 7.289996042573577,
+      "valorMedio": 7.289996042573577
     },
     "5": {
       "totalPostos": 1,
-      "valorMinimo": 7.290223809870963,
-      "valorMaximo": 7.290223809870963,
-      "valorMedio": 7.290223809870963
+      "valorMinimo": 7.289935653151746,
+      "valorMaximo": 7.289935653151746,
+      "valorMedio": 7.289935653151746
     }
   },
   "estabelecimentos": [
@@ -50,11 +50,11 @@
       "municipio": "FEIRA GRANDE",
       "latitude": -9.8986249,
       "longitude": -36.6776837,
-      "valor_minimo": 6.849829351535837,
-      "valor_maximo": 6.849829351535837,
-      "valor_medio": 6.849829351535837,
-      "valor_recente": 6.849829351535837,
-      "data_recente": "2026-04-12T18:40:49Z"
+      "valor_minimo": 6.8493150684931505,
+      "valor_maximo": 6.8493150684931505,
+      "valor_medio": 6.8493150684931505,
+      "valor_recente": 6.8493150684931505,
+      "data_recente": "2026-04-13T00:53:42Z"
     },
     {
       "cnpj": "05769126000149",
@@ -70,11 +70,31 @@
       "municipio": "FEIRA GRANDE",
       "latitude": -9.8511321,
       "longitude": -36.673818,
-      "valor_minimo": 7.050632911392405,
-      "valor_maximo": 7.050632911392405,
-      "valor_medio": 7.050632911392405,
-      "valor_recente": 7.050632911392405,
-      "data_recente": "2026-04-12T19:04:14Z"
+      "valor_minimo": 6.849829351535837,
+      "valor_maximo": 6.849829351535837,
+      "valor_medio": 6.849829351535837,
+      "valor_recente": 6.849829351535837,
+      "data_recente": "2026-04-12T23:54:12Z"
+    },
+    {
+      "cnpj": "05769126000149",
+      "tipo_combustivel": 2,
+      "razao_social": "MANOEL A DE ALMEIDA JUNIOR  - EPP",
+      "nome_fantasia": "AUTO POSTO MASSAPE",
+      "telefone": "",
+      "nome_logradouro": "DT MASSAPE",
+      "numero_imovel": "6",
+      "bairro": "MASSAPE",
+      "cep": "57340000",
+      "codigo_ibge": 2702603,
+      "municipio": "FEIRA GRANDE",
+      "latitude": -9.8511321,
+      "longitude": -36.673818,
+      "valor_minimo": 6.9,
+      "valor_maximo": 6.9,
+      "valor_medio": 6.9,
+      "valor_recente": 6.9,
+      "data_recente": "2026-04-12T23:49:11Z"
     },
     {
       "cnpj": "07826783000106",
@@ -94,27 +114,7 @@
       "valor_maximo": 6.901311249137336,
       "valor_medio": 6.901311249137336,
       "valor_recente": 6.901311249137336,
-      "data_recente": "2026-04-12T18:40:49Z"
-    },
-    {
-      "cnpj": "05769126000149",
-      "tipo_combustivel": 2,
-      "razao_social": "MANOEL A DE ALMEIDA JUNIOR  - EPP",
-      "nome_fantasia": "AUTO POSTO MASSAPE",
-      "telefone": "",
-      "nome_logradouro": "DT MASSAPE",
-      "numero_imovel": "6",
-      "bairro": "MASSAPE",
-      "cep": "57340000",
-      "codigo_ibge": 2702603,
-      "municipio": "FEIRA GRANDE",
-      "latitude": -9.8511321,
-      "longitude": -36.673818,
-      "valor_minimo": 7.101355713363461,
-      "valor_maximo": 7.101355713363461,
-      "valor_medio": 7.101355713363461,
-      "valor_recente": 7.101355713363461,
-      "data_recente": "2026-04-12T19:19:52Z"
+      "data_recente": "2026-04-13T00:53:14Z"
     },
     {
       "cnpj": "05769126000149",
@@ -130,11 +130,11 @@
       "municipio": "FEIRA GRANDE",
       "latitude": -9.8511321,
       "longitude": -36.673818,
-      "valor_minimo": 5.290199809705043,
-      "valor_maximo": 5.290199809705043,
-      "valor_medio": 5.290199809705043,
-      "valor_recente": 5.290199809705043,
-      "data_recente": "2026-04-12T17:22:42Z"
+      "valor_minimo": 5.2896825396825395,
+      "valor_maximo": 5.2896825396825395,
+      "valor_medio": 5.2896825396825395,
+      "valor_recente": 5.2896825396825395,
+      "data_recente": "2026-04-12T23:49:11Z"
     },
     {
       "cnpj": "07826783000106",
@@ -150,11 +150,11 @@
       "municipio": "FEIRA GRANDE",
       "latitude": -9.8986249,
       "longitude": -36.6776837,
-      "valor_minimo": 7.290147885857113,
-      "valor_maximo": 7.290147885857113,
-      "valor_medio": 7.290147885857113,
-      "valor_recente": 7.290147885857113,
-      "data_recente": "2026-04-12T17:21:40Z"
+      "valor_minimo": 7.289996042573577,
+      "valor_maximo": 7.289996042573577,
+      "valor_medio": 7.289996042573577,
+      "valor_recente": 7.289996042573577,
+      "data_recente": "2026-04-13T08:56:21Z"
     },
     {
       "cnpj": "05769126000149",
@@ -170,11 +170,11 @@
       "municipio": "FEIRA GRANDE",
       "latitude": -9.8511321,
       "longitude": -36.673818,
-      "valor_minimo": 7.290223809870963,
-      "valor_maximo": 7.290223809870963,
-      "valor_medio": 7.290223809870963,
-      "valor_recente": 7.290223809870963,
-      "data_recente": "2026-04-12T17:38:57Z"
+      "valor_minimo": 7.289935653151746,
+      "valor_maximo": 7.289935653151746,
+      "valor_medio": 7.289935653151746,
+      "valor_recente": 7.289935653151746,
+      "data_recente": "2026-04-12T22:31:23Z"
     }
   ]
 }

@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2705002",
   "municipio": "Mata Grande",
-  "atualizadoEm": "2026-04-13T19:29:33.717Z",
+  "atualizadoEm": "2026-04-13T20:32:45.071Z",
   "totalEstabelecimentos": 14,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.939625260235947,
-      "valorMaximo": 7.719891008174387,
-      "valorMedio": 7.3831171640118045
+      "valorMinimo": 6.939930618951981,
+      "valorMaximo": 7.49063670411985,
+      "valorMedio": 7.259368632549783
     },
     "2": {
       "totalPostos": 5,
-      "valorMinimo": 6.85,
+      "valorMinimo": 6.849957774232899,
       "valorMaximo": 7.633587786259542,
-      "valorMedio": 7.170760342436918
+      "valorMedio": 7.170750771185989
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.62043795620438,
-      "valorMaximo": 5.62043795620438,
-      "valorMedio": 5.62043795620438
+      "valorMinimo": 5.6202343314115675,
+      "valorMaximo": 5.6202343314115675,
+      "valorMedio": 5.6202343314115675
     },
     "5": {
       "totalPostos": 5,
-      "valorMinimo": 7.199940802131123,
-      "valorMaximo": 8.650091443823834,
-      "valorMedio": 7.831418681290226
+      "valorMinimo": 7.150016085525502,
+      "valorMaximo": 8.23994726433751,
+      "valorMedio": 7.701918566211148
     }
   },
   "estabelecimentos": [
@@ -44,31 +44,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1179273,
       "longitude": -37.7255414,
-      "valor_minimo": 6.939625260235947,
-      "valor_maximo": 6.939625260235947,
-      "valor_medio": 6.939625260235947,
-      "valor_recente": 6.939625260235947,
-      "data_recente": "2026-04-12T10:49:07Z"
-    },
-    {
-      "cnpj": "09419389000189",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO J G LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 36421232",
-      "nome_logradouro": "ROD AL 145, KM 21",
-      "numero_imovel": "159",
-      "bairro": "SITIO TERRA NOVA",
-      "cep": "57540000",
-      "codigo_ibge": 2705002,
-      "municipio": "MATA GRANDE",
-      "latitude": -9.118687099999999,
-      "longitude": -37.73142,
-      "valor_minimo": 7.4898352236250805,
-      "valor_maximo": 7.4898352236250805,
-      "valor_medio": 7.4898352236250805,
-      "valor_recente": 7.4898352236250805,
-      "data_recente": "2026-04-12T19:32:45Z"
+      "valor_minimo": 6.939930618951981,
+      "valor_maximo": 6.939930618951981,
+      "valor_medio": 6.939930618951981,
+      "valor_recente": 6.939930618951981,
+      "data_recente": "2026-04-12T23:01:59Z"
     },
     {
       "cnpj": "08850457000105",
@@ -84,11 +64,31 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1229984,
       "longitude": -37.7355222,
-      "valor_minimo": 7.719891008174387,
-      "valor_maximo": 7.719891008174387,
-      "valor_medio": 7.719891008174387,
-      "valor_recente": 7.719891008174387,
-      "data_recente": "2026-04-12T19:39:22Z"
+      "valor_minimo": 7.347538574577516,
+      "valor_maximo": 7.347538574577516,
+      "valor_medio": 7.347538574577516,
+      "valor_recente": 7.347538574577516,
+      "data_recente": "2026-04-13T08:57:08Z"
+    },
+    {
+      "cnpj": "09419389000189",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO J G LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 36421232",
+      "nome_logradouro": "ROD AL 145, KM 21",
+      "numero_imovel": "159",
+      "bairro": "SITIO TERRA NOVA",
+      "cep": "57540000",
+      "codigo_ibge": 2705002,
+      "municipio": "MATA GRANDE",
+      "latitude": -9.118687099999999,
+      "longitude": -37.73142,
+      "valor_minimo": 7.49063670411985,
+      "valor_maximo": 7.49063670411985,
+      "valor_medio": 7.49063670411985,
+      "valor_recente": 7.49063670411985,
+      "data_recente": "2026-04-13T09:54:10Z"
     },
     {
       "cnpj": "24250482000104",
@@ -104,31 +104,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1186768,
       "longitude": -37.7313914,
-      "valor_minimo": 6.85,
-      "valor_maximo": 6.85,
-      "valor_medio": 6.85,
-      "valor_recente": 6.85,
-      "data_recente": "2026-04-12T17:51:36Z"
-    },
-    {
-      "cnpj": "08804741000137",
-      "tipo_combustivel": 2,
-      "razao_social": "POSTO FARIAS LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 36411670",
-      "nome_logradouro": "Rua SIQUEIRA CAMPOS",
-      "numero_imovel": "05",
-      "bairro": "BOM SUCESSO",
-      "cep": "57540000",
-      "codigo_ibge": 2705002,
-      "municipio": "MATA GRANDE",
-      "latitude": -9.1179273,
-      "longitude": -37.7255414,
-      "valor_minimo": 6.939625260235947,
-      "valor_maximo": 6.939625260235947,
-      "valor_medio": 6.939625260235947,
-      "valor_recente": 6.939625260235947,
-      "data_recente": "2026-04-11T22:12:03Z"
+      "valor_minimo": 6.849957774232899,
+      "valor_maximo": 6.849957774232899,
+      "valor_medio": 6.849957774232899,
+      "valor_recente": 6.849957774232899,
+      "data_recente": "2026-04-13T10:04:10Z"
     },
     {
       "cnpj": "13240923000162",
@@ -144,11 +124,31 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1184121,
       "longitude": -37.729208,
-      "valor_minimo": 6.939951961569255,
-      "valor_maximo": 6.939951961569255,
-      "valor_medio": 6.939951961569255,
-      "valor_recente": 6.939951961569255,
-      "data_recente": "2026-04-12T19:41:31Z"
+      "valor_minimo": 6.939625260235947,
+      "valor_maximo": 6.939625260235947,
+      "valor_medio": 6.939625260235947,
+      "valor_recente": 6.939625260235947,
+      "data_recente": "2026-04-13T08:15:05Z"
+    },
+    {
+      "cnpj": "08804741000137",
+      "tipo_combustivel": 2,
+      "razao_social": "POSTO FARIAS LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 36411670",
+      "nome_logradouro": "Rua SIQUEIRA CAMPOS",
+      "numero_imovel": "05",
+      "bairro": "BOM SUCESSO",
+      "cep": "57540000",
+      "codigo_ibge": 2705002,
+      "municipio": "MATA GRANDE",
+      "latitude": -9.1179273,
+      "longitude": -37.7255414,
+      "valor_minimo": 6.939946331081706,
+      "valor_maximo": 6.939946331081706,
+      "valor_medio": 6.939946331081706,
+      "valor_recente": 6.939946331081706,
+      "data_recente": "2026-04-12T23:02:19Z"
     },
     {
       "cnpj": "08850457000105",
@@ -204,11 +204,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1184121,
       "longitude": -37.729208,
-      "valor_minimo": 5.62043795620438,
-      "valor_maximo": 5.62043795620438,
-      "valor_medio": 5.62043795620438,
-      "valor_recente": 5.62043795620438,
-      "data_recente": "2026-04-12T14:03:25Z"
+      "valor_minimo": 5.6202343314115675,
+      "valor_maximo": 5.6202343314115675,
+      "valor_medio": 5.6202343314115675,
+      "valor_recente": 5.6202343314115675,
+      "data_recente": "2026-04-13T08:15:29Z"
     },
     {
       "cnpj": "24250482000104",
@@ -224,11 +224,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1186768,
       "longitude": -37.7313914,
-      "valor_minimo": 7.199940802131123,
+      "valor_minimo": 7.150016085525502,
       "valor_maximo": 7.599939200486396,
-      "valor_medio": 7.39994000130876,
-      "valor_recente": 7.199940802131123,
-      "data_recente": "2026-04-12T16:52:49Z"
+      "valor_medio": 7.374977643005949,
+      "valor_recente": 7.150016085525502,
+      "data_recente": "2026-04-13T10:04:10Z"
     },
     {
       "cnpj": "13240923000162",
@@ -244,11 +244,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1184121,
       "longitude": -37.729208,
-      "valor_minimo": 7.52,
-      "valor_maximo": 7.52,
-      "valor_medio": 7.52,
-      "valor_recente": 7.52,
-      "data_recente": "2026-04-12T16:00:04Z"
+      "valor_minimo": 7.38,
+      "valor_maximo": 7.38,
+      "valor_medio": 7.38,
+      "valor_recente": 7.38,
+      "data_recente": "2026-04-13T09:35:33Z"
     },
     {
       "cnpj": "08804741000137",
@@ -264,31 +264,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1179273,
       "longitude": -37.7255414,
-      "valor_minimo": 7.549828870545601,
-      "valor_maximo": 7.549828870545601,
-      "valor_medio": 7.549828870545601,
-      "valor_recente": 7.549828870545601,
-      "data_recente": "2026-04-11T20:36:22Z"
-    },
-    {
-      "cnpj": "09419389000189",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO J G LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 36421232",
-      "nome_logradouro": "ROD AL 145, KM 21",
-      "numero_imovel": "159",
-      "bairro": "SITIO TERRA NOVA",
-      "cep": "57540000",
-      "codigo_ibge": 2705002,
-      "municipio": "MATA GRANDE",
-      "latitude": -9.118687099999999,
-      "longitude": -37.73142,
-      "valor_minimo": 8.237232289950576,
-      "valor_maximo": 8.237232289950576,
-      "valor_medio": 8.237232289950576,
-      "valor_recente": 8.237232289950576,
-      "data_recente": "2026-04-12T19:33:01Z"
+      "valor_minimo": 7.499682216855218,
+      "valor_maximo": 7.499682216855218,
+      "valor_medio": 7.499682216855218,
+      "valor_recente": 7.499682216855218,
+      "data_recente": "2026-04-12T22:10:21Z"
     },
     {
       "cnpj": "08850457000105",
@@ -304,11 +284,31 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1229984,
       "longitude": -37.7355222,
-      "valor_minimo": 8.650091443823834,
-      "valor_maximo": 8.650091443823834,
-      "valor_medio": 8.650091443823834,
-      "valor_recente": 8.650091443823834,
-      "data_recente": "2026-04-12T19:30:16Z"
+      "valor_minimo": 8.23994726433751,
+      "valor_maximo": 8.23994726433751,
+      "valor_medio": 8.23994726433751,
+      "valor_recente": 8.23994726433751,
+      "data_recente": "2026-04-13T02:30:02Z"
+    },
+    {
+      "cnpj": "09419389000189",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO J G LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 36421232",
+      "nome_logradouro": "ROD AL 145, KM 21",
+      "numero_imovel": "159",
+      "bairro": "SITIO TERRA NOVA",
+      "cep": "57540000",
+      "codigo_ibge": 2705002,
+      "municipio": "MATA GRANDE",
+      "latitude": -9.118687099999999,
+      "longitude": -37.73142,
+      "valor_minimo": 8.23994726433751,
+      "valor_maximo": 8.23994726433751,
+      "valor_medio": 8.23994726433751,
+      "valor_recente": 8.23994726433751,
+      "data_recente": "2026-04-13T09:06:52Z"
     }
   ]
 }
