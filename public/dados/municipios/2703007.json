@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2703007",
   "municipio": "Ibateguara",
-  "atualizadoEm": "2026-04-13T15:09:02.373Z",
+  "atualizadoEm": "2026-04-13T16:22:32.434Z",
   "totalEstabelecimentos": 10,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.6,
-      "valorMaximo": 6.989515726410384,
-      "valorMedio": 6.847079954780472
+      "valorMinimo": 6.650904033379694,
+      "valorMaximo": 6.989868136780154,
+      "valorMedio": 6.863432994679992
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.951388888888889,
-      "valorMaximo": 6.988120195667365,
-      "valorMedio": 6.969754542278127
+      "valorMinimo": 6.951724137931034,
+      "valorMaximo": 6.989304812834225,
+      "valorMedio": 6.970514475382629
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.189952252439277,
+      "valorMinimo": 5.185567010309279,
       "valorMaximo": 5.189952252439277,
-      "valorMedio": 5.189952252439277
+      "valorMedio": 5.187759631374278
     },
     "5": {
       "totalPostos": 3,
       "valorMinimo": 7.389890629618682,
       "valorMaximo": 7.689463955637708,
-      "valorMedio": 7.576366926049931
+      "valorMedio": 7.5760698490294835
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "IBATEGUARA",
       "latitude": -8.968526599999999,
       "longitude": -35.9246712,
-      "valor_minimo": 6.6,
-      "valor_maximo": 6.6,
-      "valor_medio": 6.6,
-      "valor_recente": 6.6,
-      "data_recente": "2026-04-12T13:14:26Z"
+      "valor_minimo": 6.650904033379694,
+      "valor_maximo": 6.650904033379694,
+      "valor_medio": 6.650904033379694,
+      "valor_recente": 6.650904033379694,
+      "data_recente": "2026-04-12T13:57:30Z"
     },
     {
       "cnpj": "37308725000151",
@@ -64,11 +64,11 @@
       "municipio": "IBATEGUARA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.951724137931034,
-      "valor_maximo": 6.951724137931034,
-      "valor_medio": 6.951724137931034,
-      "valor_recente": 6.951724137931034,
-      "data_recente": "2026-04-12T10:43:18Z"
+      "valor_minimo": 6.9495268138801265,
+      "valor_maximo": 6.9495268138801265,
+      "valor_medio": 6.9495268138801265,
+      "valor_recente": 6.9495268138801265,
+      "data_recente": "2026-04-12T15:11:06Z"
     },
     {
       "cnpj": "14432556000161",
@@ -84,11 +84,11 @@
       "municipio": "IBATEGUARA",
       "latitude": -8.9682481,
       "longitude": -35.9230209,
-      "valor_minimo": 6.989515726410384,
-      "valor_maximo": 6.989515726410384,
-      "valor_medio": 6.989515726410384,
-      "valor_recente": 6.989515726410384,
-      "data_recente": "2026-04-11T16:57:18Z"
+      "valor_minimo": 6.989868136780154,
+      "valor_maximo": 6.989868136780154,
+      "valor_medio": 6.989868136780154,
+      "valor_recente": 6.989868136780154,
+      "data_recente": "2026-04-12T15:30:02Z"
     },
     {
       "cnpj": "37308725000151",
@@ -104,11 +104,11 @@
       "municipio": "IBATEGUARA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.951388888888889,
-      "valor_maximo": 6.951388888888889,
-      "valor_medio": 6.951388888888889,
-      "valor_recente": 6.951388888888889,
-      "data_recente": "2026-04-12T10:37:30Z"
+      "valor_minimo": 6.951724137931034,
+      "valor_maximo": 6.951724137931034,
+      "valor_medio": 6.951724137931034,
+      "valor_recente": 6.951724137931034,
+      "data_recente": "2026-04-12T15:11:06Z"
     },
     {
       "cnpj": "11457014000155",
@@ -124,11 +124,31 @@
       "municipio": "IBATEGUARA",
       "latitude": -8.968526599999999,
       "longitude": -35.9246712,
-      "valor_minimo": 6.988120195667365,
-      "valor_maximo": 6.988120195667365,
-      "valor_medio": 6.988120195667365,
-      "valor_recente": 6.988120195667365,
-      "data_recente": "2026-04-12T00:56:57Z"
+      "valor_minimo": 6.989304812834225,
+      "valor_maximo": 6.989304812834225,
+      "valor_medio": 6.989304812834225,
+      "valor_recente": 6.989304812834225,
+      "data_recente": "2026-04-12T15:28:42Z"
+    },
+    {
+      "cnpj": "37308725000151",
+      "tipo_combustivel": 3,
+      "razao_social": "AUTO POSTO TANQUE CHEIO LTDA",
+      "nome_fantasia": "AUTO POSTO TANQUE CHEIO",
+      "telefone": "(82) 93555335",
+      "nome_logradouro": "Rua DRA JANETE DE ARAUJO",
+      "numero_imovel": "360",
+      "bairro": "CENTRO",
+      "cep": "57890000",
+      "codigo_ibge": 2703007,
+      "municipio": "IBATEGUARA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 5.185567010309279,
+      "valor_maximo": 5.185567010309279,
+      "valor_medio": 5.185567010309279,
+      "valor_recente": 5.185567010309279,
+      "data_recente": "2026-04-12T15:11:06Z"
     },
     {
       "cnpj": "14432556000161",
@@ -149,26 +169,6 @@
       "valor_medio": 5.189952252439277,
       "valor_recente": 5.189952252439277,
       "data_recente": "2026-04-11T22:27:31Z"
-    },
-    {
-      "cnpj": "37308725000151",
-      "tipo_combustivel": 3,
-      "razao_social": "AUTO POSTO TANQUE CHEIO LTDA",
-      "nome_fantasia": "AUTO POSTO TANQUE CHEIO",
-      "telefone": "(82) 93555335",
-      "nome_logradouro": "Rua DRA JANETE DE ARAUJO",
-      "numero_imovel": "360",
-      "bairro": "CENTRO",
-      "cep": "57890000",
-      "codigo_ibge": 2703007,
-      "municipio": "IBATEGUARA",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 5.189952252439277,
-      "valor_maximo": 5.189952252439277,
-      "valor_medio": 5.189952252439277,
-      "valor_recente": 5.189952252439277,
-      "data_recente": "2026-04-12T00:49:22Z"
     },
     {
       "cnpj": "14432556000161",
@@ -204,11 +204,11 @@
       "municipio": "IBATEGUARA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.649746192893401,
-      "valor_maximo": 7.649746192893401,
-      "valor_medio": 7.649746192893401,
-      "valor_recente": 7.649746192893401,
-      "data_recente": "2026-04-12T10:43:18Z"
+      "valor_minimo": 7.648854961832061,
+      "valor_maximo": 7.648854961832061,
+      "valor_medio": 7.648854961832061,
+      "valor_recente": 7.648854961832061,
+      "data_recente": "2026-04-12T15:11:06Z"
     },
     {
       "cnpj": "11457014000155",

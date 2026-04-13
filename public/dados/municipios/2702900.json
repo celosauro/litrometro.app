@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2702900",
   "municipio": "Girau do Ponciano",
-  "atualizadoEm": "2026-04-13T15:08:30.200Z",
+  "atualizadoEm": "2026-04-13T16:22:01.706Z",
   "totalEstabelecimentos": 16,
   "combustiveis": {
     "1": {
       "totalPostos": 5,
-      "valorMinimo": 6.899862825788752,
-      "valorMaximo": 6.990074094785404,
-      "valorMedio": 6.953841598089554
+      "valorMinimo": 6.899686520376176,
+      "valorMaximo": 6.990223463687151,
+      "valorMedio": 6.95387042855797
     },
     "2": {
       "totalPostos": 1,
@@ -18,44 +18,24 @@
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 5.089678510998308,
-      "valorMaximo": 5.490120746432492,
-      "valorMedio": 5.2232979777305895
+      "valorMinimo": 5.089058524173028,
+      "valorMaximo": 5.490131578947368,
+      "valorMedio": 5.223094926293789
     },
     "4": {
       "totalPostos": 2,
       "valorMinimo": 8.199823388419327,
-      "valorMaximo": 8.200054659743099,
-      "valorMedio": 8.199939024081214
+      "valorMaximo": 8.200082000820009,
+      "valorMedio": 8.199952694619668
     },
     "5": {
       "totalPostos": 5,
-      "valorMinimo": 7.187723054960743,
-      "valorMaximo": 8.19000819000819,
-      "valorMedio": 7.495462880201202
+      "valorMinimo": 7.189791516894321,
+      "valorMaximo": 8.19,
+      "valorMedio": 7.495948297409503
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "09657072000180",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO KILTER LTDA - ME",
-      "nome_fantasia": "AUTO POSTO KILTER LTDA",
-      "telefone": "(82) 35221355",
-      "nome_logradouro": "ROD AL 115",
-      "numero_imovel": "800",
-      "bairro": "DISTRITO INDUSTRIAL",
-      "cep": "57360000",
-      "codigo_ibge": 2702900,
-      "municipio": "GIRAU DO PONCIANO",
-      "latitude": -9.882258799999999,
-      "longitude": -36.8186161,
-      "valor_minimo": 6.899862825788752,
-      "valor_maximo": 6.899862825788752,
-      "valor_medio": 6.899862825788752,
-      "valor_recente": 6.899862825788752,
-      "data_recente": "2026-04-12T00:02:09Z"
-    },
     {
       "cnpj": "33296262000102",
       "tipo_combustivel": 1,
@@ -70,51 +50,31 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.9,
-      "valor_maximo": 6.9,
-      "valor_medio": 6.9,
-      "valor_recente": 6.9,
-      "data_recente": "2026-04-12T13:39:02Z"
+      "valor_minimo": 6.899686520376176,
+      "valor_maximo": 6.899686520376176,
+      "valor_medio": 6.899686520376176,
+      "valor_recente": 6.899686520376176,
+      "data_recente": "2026-04-12T15:44:13Z"
     },
     {
-      "cnpj": "08422115000186",
+      "cnpj": "09657072000180",
       "tipo_combustivel": 1,
-      "razao_social": "AUTOPEL-AUTO POSTO PROGRESSO LTDA",
-      "nome_fantasia": "AUTOPEL",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 115",
-      "numero_imovel": "SN",
-      "bairro": "PROGRESSO",
-      "cep": "57360000",
-      "codigo_ibge": 2702900,
-      "municipio": "GIRAU DO PONCIANO",
-      "latitude": -9.8855612,
-      "longitude": -36.8209998,
-      "valor_minimo": 6.989522700814901,
-      "valor_maximo": 6.989522700814901,
-      "valor_medio": 6.989522700814901,
-      "valor_recente": 6.989522700814901,
-      "data_recente": "2026-04-12T12:59:53Z"
-    },
-    {
-      "cnpj": "08422115000348",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTOPEL-AUTO POSTO PROGRESSO LTDA",
-      "nome_fantasia": "AUTOPEL",
+      "razao_social": "AUTO POSTO KILTER LTDA - ME",
+      "nome_fantasia": "AUTO POSTO KILTER LTDA",
       "telefone": "(82) 35221355",
-      "nome_logradouro": "AV TIRADENTES",
-      "numero_imovel": "SN",
-      "bairro": "CENTRO",
+      "nome_logradouro": "ROD AL 115",
+      "numero_imovel": "800",
+      "bairro": "DISTRITO INDUSTRIAL",
       "cep": "57360000",
       "codigo_ibge": 2702900,
       "municipio": "GIRAU DO PONCIANO",
-      "latitude": -9.883111,
-      "longitude": -36.8272288,
-      "valor_minimo": 6.989748369058714,
-      "valor_maximo": 6.989748369058714,
-      "valor_medio": 6.989748369058714,
-      "valor_recente": 6.989748369058714,
-      "data_recente": "2026-04-12T10:04:59Z"
+      "latitude": -9.882258799999999,
+      "longitude": -36.8186161,
+      "valor_minimo": 6.900120752113162,
+      "valor_maximo": 6.900120752113162,
+      "valor_medio": 6.900120752113162,
+      "valor_recente": 6.900120752113162,
+      "data_recente": "2026-04-12T15:50:34Z"
     },
     {
       "cnpj": "17830342000131",
@@ -130,11 +90,51 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.882830799999999,
       "longitude": -36.8305595,
+      "valor_minimo": 6.989247311827957,
+      "valor_maximo": 6.989247311827957,
+      "valor_medio": 6.989247311827957,
+      "valor_recente": 6.989247311827957,
+      "data_recente": "2026-04-12T15:46:30Z"
+    },
+    {
+      "cnpj": "08422115000186",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTOPEL-AUTO POSTO PROGRESSO LTDA",
+      "nome_fantasia": "AUTOPEL",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 115",
+      "numero_imovel": "SN",
+      "bairro": "PROGRESSO",
+      "cep": "57360000",
+      "codigo_ibge": 2702900,
+      "municipio": "GIRAU DO PONCIANO",
+      "latitude": -9.8855612,
+      "longitude": -36.8209998,
       "valor_minimo": 6.990074094785404,
       "valor_maximo": 6.990074094785404,
       "valor_medio": 6.990074094785404,
       "valor_recente": 6.990074094785404,
-      "data_recente": "2026-04-12T13:24:53Z"
+      "data_recente": "2026-04-12T15:46:57Z"
+    },
+    {
+      "cnpj": "08422115000348",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTOPEL-AUTO POSTO PROGRESSO LTDA",
+      "nome_fantasia": "AUTOPEL",
+      "telefone": "(82) 35221355",
+      "nome_logradouro": "AV TIRADENTES",
+      "numero_imovel": "SN",
+      "bairro": "CENTRO",
+      "cep": "57360000",
+      "codigo_ibge": 2702900,
+      "municipio": "GIRAU DO PONCIANO",
+      "latitude": -9.883111,
+      "longitude": -36.8272288,
+      "valor_minimo": 6.990223463687151,
+      "valor_maximo": 6.990223463687151,
+      "valor_medio": 6.990223463687151,
+      "valor_recente": 6.990223463687151,
+      "data_recente": "2026-04-12T15:30:11Z"
     },
     {
       "cnpj": "33296262000102",
@@ -154,7 +154,7 @@
       "valor_maximo": 7,
       "valor_medio": 7,
       "valor_recente": 7,
-      "data_recente": "2026-04-12T13:39:02Z"
+      "data_recente": "2026-04-12T15:41:09Z"
     },
     {
       "cnpj": "33296262000102",
@@ -170,11 +170,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.089678510998308,
-      "valor_maximo": 5.089678510998308,
-      "valor_medio": 5.089678510998308,
-      "valor_recente": 5.089678510998308,
-      "data_recente": "2026-04-12T13:39:02Z"
+      "valor_minimo": 5.089058524173028,
+      "valor_maximo": 5.089058524173028,
+      "valor_medio": 5.089058524173028,
+      "valor_recente": 5.089058524173028,
+      "data_recente": "2026-04-12T15:41:09Z"
     },
     {
       "cnpj": "09657072000180",
@@ -194,7 +194,7 @@
       "valor_maximo": 5.0900946757609695,
       "valor_medio": 5.0900946757609695,
       "valor_recente": 5.0900946757609695,
-      "data_recente": "2026-04-12T00:02:09Z"
+      "data_recente": "2026-04-12T15:47:48Z"
     },
     {
       "cnpj": "08422115000186",
@@ -210,11 +210,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.8855612,
       "longitude": -36.8209998,
-      "valor_minimo": 5.490120746432492,
-      "valor_maximo": 5.490120746432492,
-      "valor_medio": 5.490120746432492,
-      "valor_recente": 5.490120746432492,
-      "data_recente": "2026-04-12T08:37:34Z"
+      "valor_minimo": 5.490131578947368,
+      "valor_maximo": 5.490131578947368,
+      "valor_medio": 5.490131578947368,
+      "valor_recente": 5.490131578947368,
+      "data_recente": "2026-04-12T13:57:28Z"
     },
     {
       "cnpj": "33296262000102",
@@ -250,11 +250,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.882258799999999,
       "longitude": -36.8186161,
-      "valor_minimo": 8.200054659743099,
-      "valor_maximo": 8.200054659743099,
-      "valor_medio": 8.200054659743099,
-      "valor_recente": 8.200054659743099,
-      "data_recente": "2026-04-11T22:58:18Z"
+      "valor_minimo": 8.200082000820009,
+      "valor_maximo": 8.200082000820009,
+      "valor_medio": 8.200082000820009,
+      "valor_recente": 8.200082000820009,
+      "data_recente": "2026-04-12T15:48:31Z"
     },
     {
       "cnpj": "08422115000348",
@@ -270,31 +270,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.883111,
       "longitude": -36.8272288,
-      "valor_minimo": 7.187723054960743,
-      "valor_maximo": 7.187723054960743,
-      "valor_medio": 7.187723054960743,
-      "valor_recente": 7.187723054960743,
-      "data_recente": "2026-04-11T23:02:06Z"
-    },
-    {
-      "cnpj": "09657072000180",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO KILTER LTDA - ME",
-      "nome_fantasia": "AUTO POSTO KILTER LTDA",
-      "telefone": "(82) 35221355",
-      "nome_logradouro": "ROD AL 115",
-      "numero_imovel": "800",
-      "bairro": "DISTRITO INDUSTRIAL",
-      "cep": "57360000",
-      "codigo_ibge": 2702900,
-      "municipio": "GIRAU DO PONCIANO",
-      "latitude": -9.882258799999999,
-      "longitude": -36.8186161,
-      "valor_minimo": 7.249528780629259,
-      "valor_maximo": 7.249528780629259,
-      "valor_medio": 7.249528780629259,
-      "valor_recente": 7.249528780629259,
-      "data_recente": "2026-04-11T22:58:26Z"
+      "valor_minimo": 7.189791516894321,
+      "valor_maximo": 7.189791516894321,
+      "valor_medio": 7.189791516894321,
+      "valor_recente": 7.189791516894321,
+      "data_recente": "2026-04-12T14:54:35Z"
     },
     {
       "cnpj": "33296262000102",
@@ -310,11 +290,31 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.2500543754078155,
-      "valor_maximo": 7.2500543754078155,
-      "valor_medio": 7.2500543754078155,
-      "valor_recente": 7.2500543754078155,
-      "data_recente": "2026-04-12T13:30:15Z"
+      "valor_minimo": 7.249879168680522,
+      "valor_maximo": 7.249879168680522,
+      "valor_medio": 7.249879168680522,
+      "valor_recente": 7.249879168680522,
+      "data_recente": "2026-04-12T13:46:45Z"
+    },
+    {
+      "cnpj": "09657072000180",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO KILTER LTDA - ME",
+      "nome_fantasia": "AUTO POSTO KILTER LTDA",
+      "telefone": "(82) 35221355",
+      "nome_logradouro": "ROD AL 115",
+      "numero_imovel": "800",
+      "bairro": "DISTRITO INDUSTRIAL",
+      "cep": "57360000",
+      "codigo_ibge": 2702900,
+      "municipio": "GIRAU DO PONCIANO",
+      "latitude": -9.882258799999999,
+      "longitude": -36.8186161,
+      "valor_minimo": 7.2500708014726705,
+      "valor_maximo": 7.2500708014726705,
+      "valor_medio": 7.2500708014726705,
+      "valor_recente": 7.2500708014726705,
+      "data_recente": "2026-04-12T15:49:12Z"
     },
     {
       "cnpj": "17830342000131",
@@ -350,11 +350,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.8855612,
       "longitude": -36.8209998,
-      "valor_minimo": 8.19000819000819,
-      "valor_maximo": 8.19000819000819,
-      "valor_medio": 8.19000819000819,
-      "valor_recente": 8.19000819000819,
-      "data_recente": "2026-04-12T13:33:30Z"
+      "valor_minimo": 8.19,
+      "valor_maximo": 8.19,
+      "valor_medio": 8.19,
+      "valor_recente": 8.19,
+      "data_recente": "2026-04-12T14:56:44Z"
     }
   ]
 }

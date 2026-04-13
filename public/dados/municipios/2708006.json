@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2708006",
   "municipio": "Santana do Ipanema",
-  "atualizadoEm": "2026-04-13T15:35:38.142Z",
+  "atualizadoEm": "2026-04-13T16:47:22.530Z",
   "totalEstabelecimentos": 33,
   "combustiveis": {
     "1": {
       "totalPostos": 8,
-      "valorMinimo": 6.909090909090909,
-      "valorMaximo": 6.979166666666667,
-      "valorMedio": 6.947132801244849
+      "valorMinimo": 6.9102209944751385,
+      "valorMaximo": 6.982608695652174,
+      "valorMedio": 6.9479521906147435
     },
     "2": {
       "totalPostos": 7,
       "valorMinimo": 6.700133868808567,
       "valorMaximo": 7.15,
-      "valorMedio": 7.035016485136109
+      "valorMedio": 7.035850252304651
     },
     "3": {
       "totalPostos": 9,
       "valorMinimo": 5.299788135593221,
       "valorMaximo": 5.970202622169249,
-      "valorMedio": 5.839895243437232
+      "valorMedio": 5.839801954159378
     },
     "5": {
       "totalPostos": 9,
       "valorMinimo": 7.5,
-      "valorMaximo": 7.850525985241011,
-      "valorMedio": 7.778423397182826
+      "valorMaximo": 7.849909726038151,
+      "valorMedio": 7.778506233782601
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": -9.3640671,
       "longitude": -37.2649857,
-      "valor_minimo": 6.909090909090909,
-      "valor_maximo": 6.909090909090909,
-      "valor_medio": 6.909090909090909,
-      "valor_recente": 6.909090909090909,
-      "data_recente": "2026-04-12T13:27:29Z"
+      "valor_minimo": 6.9102209944751385,
+      "valor_maximo": 6.9102209944751385,
+      "valor_medio": 6.9102209944751385,
+      "valor_recente": 6.9102209944751385,
+      "data_recente": "2026-04-12T15:38:52Z"
     },
     {
       "cnpj": "05885727000117",
@@ -68,7 +68,7 @@
       "valor_maximo": 6.93000693000693,
       "valor_medio": 6.93000693000693,
       "valor_recente": 6.93000693000693,
-      "data_recente": "2026-04-12T12:16:58Z"
+      "data_recente": "2026-04-12T15:24:39Z"
     },
     {
       "cnpj": "12688818000128",
@@ -104,31 +104,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.948976049982645,
-      "valor_maximo": 6.948976049982645,
-      "valor_medio": 6.948976049982645,
-      "valor_recente": 6.948976049982645,
-      "data_recente": "2026-04-12T13:44:03Z"
-    },
-    {
-      "cnpj": "08529008000151",
-      "tipo_combustivel": 1,
-      "razao_social": "LEMOS E DAMASCENO COMBUSTIVEIS LTDA",
-      "nome_fantasia": "LEMOS AUTO POSTO",
-      "telefone": "(82) 36213926",
-      "nome_logradouro": "AV GOVERNADOR GERALDO BULHOES BARROS",
-      "numero_imovel": "1683",
-      "bairro": "DOMINGOS ACACIO",
-      "cep": "57500000",
-      "codigo_ibge": 2708006,
-      "municipio": "SANTANA DO IPANEMA",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.9499602859412235,
-      "valor_maximo": 6.9499602859412235,
-      "valor_medio": 6.9499602859412235,
-      "valor_recente": 6.9499602859412235,
-      "data_recente": "2026-04-12T13:15:25Z"
+      "valor_minimo": 6.950236308034473,
+      "valor_maximo": 6.950236308034473,
+      "valor_medio": 6.950236308034473,
+      "valor_recente": 6.950236308034473,
+      "data_recente": "2026-04-12T15:49:43Z"
     },
     {
       "cnpj": "08529008000232",
@@ -148,7 +128,27 @@
       "valor_maximo": 6.950236308034473,
       "valor_medio": 6.950236308034473,
       "valor_recente": 6.950236308034473,
-      "data_recente": "2026-04-12T13:22:19Z"
+      "data_recente": "2026-04-12T15:47:37Z"
+    },
+    {
+      "cnpj": "08529008000151",
+      "tipo_combustivel": 1,
+      "razao_social": "LEMOS E DAMASCENO COMBUSTIVEIS LTDA",
+      "nome_fantasia": "LEMOS AUTO POSTO",
+      "telefone": "(82) 36213926",
+      "nome_logradouro": "AV GOVERNADOR GERALDO BULHOES BARROS",
+      "numero_imovel": "1683",
+      "bairro": "DOMINGOS ACACIO",
+      "cep": "57500000",
+      "codigo_ibge": 2708006,
+      "municipio": "SANTANA DO IPANEMA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.950683028478815,
+      "valor_maximo": 6.950683028478815,
+      "valor_medio": 6.950683028478815,
+      "valor_recente": 6.950683028478815,
+      "data_recente": "2026-04-12T15:46:05Z"
     },
     {
       "cnpj": "08418303000130",
@@ -168,7 +168,7 @@
       "valor_maximo": 6.97,
       "valor_medio": 6.97,
       "valor_recente": 6.97,
-      "data_recente": "2026-04-12T13:17:55Z"
+      "data_recente": "2026-04-12T15:04:35Z"
     },
     {
       "cnpj": "01332922000169",
@@ -184,11 +184,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": -9.367818,
       "longitude": -37.248427,
-      "valor_minimo": 6.979166666666667,
-      "valor_maximo": 6.979166666666667,
-      "valor_medio": 6.979166666666667,
-      "valor_recente": 6.979166666666667,
-      "data_recente": "2026-04-12T13:33:36Z"
+      "valor_minimo": 6.982608695652174,
+      "valor_maximo": 6.982608695652174,
+      "valor_medio": 6.982608695652174,
+      "valor_recente": 6.982608695652174,
+      "data_recente": "2026-04-12T14:42:53Z"
     },
     {
       "cnpj": "05738409000123",
@@ -224,11 +224,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.049700387733521,
-      "valor_maximo": 7.049700387733521,
-      "valor_medio": 7.049700387733521,
-      "valor_recente": 7.049700387733521,
-      "data_recente": "2026-04-12T13:25:08Z"
+      "valor_minimo": 7.05,
+      "valor_maximo": 7.05,
+      "valor_medio": 7.05,
+      "valor_recente": 7.05,
+      "data_recente": "2026-04-12T15:35:11Z"
     },
     {
       "cnpj": "26362482000113",
@@ -244,11 +244,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.050197405527355,
-      "valor_maximo": 7.050197405527355,
-      "valor_medio": 7.050197405527355,
-      "valor_recente": 7.050197405527355,
-      "data_recente": "2026-04-12T13:43:11Z"
+      "valor_minimo": 7.050078547070769,
+      "valor_maximo": 7.050078547070769,
+      "valor_medio": 7.050078547070769,
+      "valor_recente": 7.050078547070769,
+      "data_recente": "2026-04-12T15:47:55Z"
     },
     {
       "cnpj": "05885727000117",
@@ -264,11 +264,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": -9.371188499999999,
       "longitude": -37.2394206,
-      "valor_minimo": 7.067137809187279,
-      "valor_maximo": 7.067137809187279,
-      "valor_medio": 7.067137809187279,
-      "valor_recente": 7.067137809187279,
-      "data_recente": "2026-04-11T23:32:54Z"
+      "valor_minimo": 7.072135785007072,
+      "valor_maximo": 7.072135785007072,
+      "valor_medio": 7.072135785007072,
+      "valor_recente": 7.072135785007072,
+      "data_recente": "2026-04-12T15:24:45Z"
     },
     {
       "cnpj": "08529008000232",
@@ -284,11 +284,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": -9.3699579,
       "longitude": -37.2474336,
-      "valor_minimo": 7.090187180941577,
-      "valor_maximo": 7.090187180941577,
-      "valor_medio": 7.090187180941577,
-      "valor_recente": 7.090187180941577,
-      "data_recente": "2026-04-12T13:23:04Z"
+      "valor_minimo": 7.090844821491693,
+      "valor_maximo": 7.090844821491693,
+      "valor_medio": 7.090844821491693,
+      "valor_recente": 7.090844821491693,
+      "data_recente": "2026-04-12T15:34:31Z"
     },
     {
       "cnpj": "01332922000169",
@@ -371,26 +371,6 @@
       "data_recente": "2026-04-12T13:31:14Z"
     },
     {
-      "cnpj": "05885727000117",
-      "tipo_combustivel": 3,
-      "razao_social": "AUTO POSTO SANTANA LTDA",
-      "nome_fantasia": "AUTO POSTO SANTANA",
-      "telefone": "",
-      "nome_logradouro": "AV DR. ARSENIO MOREIRA",
-      "numero_imovel": "552",
-      "bairro": "MONUMENTO",
-      "cep": "57500000",
-      "codigo_ibge": 2708006,
-      "municipio": "SANTANA DO IPANEMA",
-      "latitude": -9.371188499999999,
-      "longitude": -37.2394206,
-      "valor_minimo": 5.928853754940712,
-      "valor_maximo": 5.928853754940712,
-      "valor_medio": 5.928853754940712,
-      "valor_recente": 5.928853754940712,
-      "data_recente": "2026-04-12T02:30:51Z"
-    },
-    {
       "cnpj": "04979169000196",
       "tipo_combustivel": 3,
       "razao_social": "ALMIR E SILVA LTDA - EPP",
@@ -404,11 +384,31 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": -9.3640671,
       "longitude": -37.2649857,
-      "valor_minimo": 5.930011862396204,
-      "valor_maximo": 5.930011862396204,
-      "valor_medio": 5.930011862396204,
-      "valor_recente": 5.930011862396204,
-      "data_recente": "2026-04-12T12:48:35Z"
+      "valor_minimo": 5.92967032967033,
+      "valor_maximo": 5.92967032967033,
+      "valor_medio": 5.92967032967033,
+      "valor_recente": 5.92967032967033,
+      "data_recente": "2026-04-12T14:50:11Z"
+    },
+    {
+      "cnpj": "05885727000117",
+      "tipo_combustivel": 3,
+      "razao_social": "AUTO POSTO SANTANA LTDA",
+      "nome_fantasia": "AUTO POSTO SANTANA",
+      "telefone": "",
+      "nome_logradouro": "AV DR. ARSENIO MOREIRA",
+      "numero_imovel": "552",
+      "bairro": "MONUMENTO",
+      "cep": "57500000",
+      "codigo_ibge": 2708006,
+      "municipio": "SANTANA DO IPANEMA",
+      "latitude": -9.371188499999999,
+      "longitude": -37.2394206,
+      "valor_minimo": 5.9297912713472485,
+      "valor_maximo": 5.9297912713472485,
+      "valor_medio": 5.9297912713472485,
+      "valor_recente": 5.9297912713472485,
+      "data_recente": "2026-04-12T15:22:55Z"
     },
     {
       "cnpj": "08529008000232",
@@ -424,11 +424,31 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": -9.3699579,
       "longitude": -37.2474336,
-      "valor_minimo": 5.949920346391079,
-      "valor_maximo": 5.949920346391079,
-      "valor_medio": 5.949920346391079,
-      "valor_recente": 5.949920346391079,
-      "data_recente": "2026-04-12T12:27:55Z"
+      "valor_minimo": 5.94883997620464,
+      "valor_maximo": 5.94883997620464,
+      "valor_medio": 5.94883997620464,
+      "valor_recente": 5.94883997620464,
+      "data_recente": "2026-04-12T15:34:10Z"
+    },
+    {
+      "cnpj": "26362482000113",
+      "tipo_combustivel": 3,
+      "razao_social": "NOBRE COMERCIO DE COMBUSTIVEIS - EIRELI - EPP",
+      "nome_fantasia": "AUTO POSTO NOBRE",
+      "telefone": "",
+      "nome_logradouro": "AV GOVERNADOR GERALDO BULHOES BARROS",
+      "numero_imovel": "1212",
+      "bairro": "DOMINGOS ACACIO",
+      "cep": "57500000",
+      "codigo_ibge": 2708006,
+      "municipio": "SANTANA DO IPANEMA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 5.959535852424874,
+      "valor_maximo": 5.959535852424874,
+      "valor_medio": 5.959535852424874,
+      "valor_recente": 5.959535852424874,
+      "data_recente": "2026-04-12T15:43:47Z"
     },
     {
       "cnpj": "08529008000151",
@@ -444,11 +464,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.959535852424874,
-      "valor_maximo": 5.959535852424874,
-      "valor_medio": 5.959535852424874,
-      "valor_recente": 5.959535852424874,
-      "data_recente": "2026-04-12T13:14:52Z"
+      "valor_minimo": 5.959830740806961,
+      "valor_maximo": 5.959830740806961,
+      "valor_medio": 5.959830740806961,
+      "valor_recente": 5.959830740806961,
+      "data_recente": "2026-04-12T15:45:48Z"
     },
     {
       "cnpj": "08418303000130",
@@ -469,26 +489,6 @@
       "valor_medio": 5.96,
       "valor_recente": 5.96,
       "data_recente": "2026-04-12T13:14:48Z"
-    },
-    {
-      "cnpj": "26362482000113",
-      "tipo_combustivel": 3,
-      "razao_social": "NOBRE COMERCIO DE COMBUSTIVEIS - EIRELI - EPP",
-      "nome_fantasia": "AUTO POSTO NOBRE",
-      "telefone": "",
-      "nome_logradouro": "AV GOVERNADOR GERALDO BULHOES BARROS",
-      "numero_imovel": "1212",
-      "bairro": "DOMINGOS ACACIO",
-      "cep": "57500000",
-      "codigo_ibge": 2708006,
-      "municipio": "SANTANA DO IPANEMA",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 5.960185957801883,
-      "valor_maximo": 5.960185957801883,
-      "valor_medio": 5.960185957801883,
-      "valor_recente": 5.960185957801883,
-      "data_recente": "2026-04-12T13:43:11Z"
     },
     {
       "cnpj": "01332922000169",
@@ -551,6 +551,26 @@
       "data_recente": "2026-04-12T11:12:58Z"
     },
     {
+      "cnpj": "04979169000196",
+      "tipo_combustivel": 5,
+      "razao_social": "ALMIR E SILVA LTDA - EPP",
+      "nome_fantasia": "POSTO FILADELFIA 2",
+      "telefone": "",
+      "nome_logradouro": "Rua CICERO BEZERRA DE SOARES",
+      "numero_imovel": "435",
+      "bairro": "CAMOXINGA",
+      "cep": "57500000",
+      "codigo_ibge": 2708006,
+      "municipio": "SANTANA DO IPANEMA",
+      "latitude": -9.3640671,
+      "longitude": -37.2649857,
+      "valor_minimo": 7.797752808988764,
+      "valor_maximo": 7.797752808988764,
+      "valor_medio": 7.797752808988764,
+      "valor_recente": 7.797752808988764,
+      "data_recente": "2026-04-12T14:50:11Z"
+    },
+    {
       "cnpj": "12688818000128",
       "tipo_combustivel": 5,
       "razao_social": "JOSE CARLOS MORONI VALENCA & CIA LTDA",
@@ -571,26 +591,6 @@
       "data_recente": "2026-04-12T13:31:52Z"
     },
     {
-      "cnpj": "04979169000196",
-      "tipo_combustivel": 5,
-      "razao_social": "ALMIR E SILVA LTDA - EPP",
-      "nome_fantasia": "POSTO FILADELFIA 2",
-      "telefone": "",
-      "nome_logradouro": "Rua CICERO BEZERRA DE SOARES",
-      "numero_imovel": "435",
-      "bairro": "CAMOXINGA",
-      "cep": "57500000",
-      "codigo_ibge": 2708006,
-      "municipio": "SANTANA DO IPANEMA",
-      "latitude": -9.3640671,
-      "longitude": -37.2649857,
-      "valor_minimo": 7.8,
-      "valor_maximo": 7.8,
-      "valor_medio": 7.8,
-      "valor_recente": 7.8,
-      "data_recente": "2026-04-12T12:21:46Z"
-    },
-    {
       "cnpj": "01332922000169",
       "tipo_combustivel": 5,
       "razao_social": "POSTO MARACANA LTDA",
@@ -604,11 +604,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": -9.367818,
       "longitude": -37.248427,
-      "valor_minimo": 7.805555555555555,
-      "valor_maximo": 7.805555555555555,
-      "valor_medio": 7.805555555555555,
-      "valor_recente": 7.805555555555555,
-      "data_recente": "2026-04-11T23:23:14Z"
+      "valor_minimo": 7.809972299168975,
+      "valor_maximo": 7.809972299168975,
+      "valor_medio": 7.809972299168975,
+      "valor_recente": 7.809972299168975,
+      "data_recente": "2026-04-12T15:48:25Z"
     },
     {
       "cnpj": "05885727000117",
@@ -624,11 +624,11 @@
       "municipio": "SANTANA DO IPANEMA",
       "latitude": -9.371188499999999,
       "longitude": -37.2394206,
-      "valor_minimo": 7.829977628635347,
-      "valor_maximo": 7.829977628635347,
-      "valor_medio": 7.829977628635347,
-      "valor_recente": 7.829977628635347,
-      "data_recente": "2026-04-12T02:31:00Z"
+      "valor_minimo": 7.830240388379924,
+      "valor_maximo": 7.830240388379924,
+      "valor_medio": 7.830240388379924,
+      "valor_recente": 7.830240388379924,
+      "data_recente": "2026-04-12T15:21:34Z"
     },
     {
       "cnpj": "08529008000232",
@@ -645,10 +645,30 @@
       "latitude": -9.3699579,
       "longitude": -37.2474336,
       "valor_minimo": 7.849125554685461,
-      "valor_maximo": 7.850525985241011,
-      "valor_medio": 7.8498257699632354,
-      "valor_recente": 7.850525985241011,
-      "data_recente": "2026-04-12T13:03:07Z"
+      "valor_maximo": 7.850032970138475,
+      "valor_medio": 7.849579262411968,
+      "valor_recente": 7.849125554685461,
+      "data_recente": "2026-04-12T14:54:52Z"
+    },
+    {
+      "cnpj": "26362482000113",
+      "tipo_combustivel": 5,
+      "razao_social": "NOBRE COMERCIO DE COMBUSTIVEIS - EIRELI - EPP",
+      "nome_fantasia": "AUTO POSTO NOBRE",
+      "telefone": "",
+      "nome_logradouro": "AV GOVERNADOR GERALDO BULHOES BARROS",
+      "numero_imovel": "1212",
+      "bairro": "DOMINGOS ACACIO",
+      "cep": "57500000",
+      "codigo_ibge": 2708006,
+      "municipio": "SANTANA DO IPANEMA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.849909726038151,
+      "valor_maximo": 7.849909726038151,
+      "valor_medio": 7.849909726038151,
+      "valor_recente": 7.849909726038151,
+      "data_recente": "2026-04-12T14:48:33Z"
     },
     {
       "cnpj": "08529008000151",
@@ -665,30 +685,10 @@
       "latitude": 0,
       "longitude": 0,
       "valor_minimo": 7.849909726038151,
-      "valor_maximo": 7.849925526347571,
-      "valor_medio": 7.849917626192861,
+      "valor_maximo": 7.849909726038151,
+      "valor_medio": 7.849909726038151,
       "valor_recente": 7.849909726038151,
-      "data_recente": "2026-04-12T13:18:23Z"
-    },
-    {
-      "cnpj": "26362482000113",
-      "tipo_combustivel": 5,
-      "razao_social": "NOBRE COMERCIO DE COMBUSTIVEIS - EIRELI - EPP",
-      "nome_fantasia": "AUTO POSTO NOBRE",
-      "telefone": "",
-      "nome_logradouro": "AV GOVERNADOR GERALDO BULHOES BARROS",
-      "numero_imovel": "1212",
-      "bairro": "DOMINGOS ACACIO",
-      "cep": "57500000",
-      "codigo_ibge": 2708006,
-      "municipio": "SANTANA DO IPANEMA",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.850196078431373,
-      "valor_maximo": 7.850196078431373,
-      "valor_medio": 7.850196078431373,
-      "valor_recente": 7.850196078431373,
-      "data_recente": "2026-04-12T13:43:11Z"
+      "data_recente": "2026-04-12T15:43:29Z"
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2702108",
   "municipio": "Colônia Leopoldina",
-  "atualizadoEm": "2026-04-13T15:03:01.581Z",
+  "atualizadoEm": "2026-04-13T16:17:12.944Z",
   "totalEstabelecimentos": 7,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.850023288309269,
-      "valorMaximo": 6.850097043041443,
-      "valorMedio": 6.850060165675356
+      "valorMinimo": 6.8493150684931505,
+      "valorMaximo": 6.8493150684931505,
+      "valorMedio": 6.8493150684931505
     },
     "2": {
       "totalPostos": 1,
@@ -19,14 +19,14 @@
     "3": {
       "totalPostos": 2,
       "valorMinimo": 5.449591280653951,
-      "valorMaximo": 5.45,
-      "valorMedio": 5.449795640326975
+      "valorMaximo": 5.449591280653951,
+      "valorMedio": 5.449591280653951
     },
     "5": {
       "totalPostos": 2,
       "valorMinimo": 7.449899426357744,
-      "valorMaximo": 7.540340823405218,
-      "valorMedio": 7.495120124881481
+      "valorMaximo": 7.539772298876574,
+      "valorMedio": 7.494835862617159
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "COLONIA LEOPOLDINA",
       "latitude": -8.982249399999999,
       "longitude": -35.784354,
-      "valor_minimo": 6.850023288309269,
-      "valor_maximo": 6.850023288309269,
-      "valor_medio": 6.850023288309269,
-      "valor_recente": 6.850023288309269,
-      "data_recente": "2026-04-12T12:07:58Z"
+      "valor_minimo": 6.8493150684931505,
+      "valor_maximo": 6.8493150684931505,
+      "valor_medio": 6.8493150684931505,
+      "valor_recente": 6.8493150684931505,
+      "data_recente": "2026-04-12T15:43:33Z"
     },
     {
       "cnpj": "08560691000190",
@@ -64,11 +64,11 @@
       "municipio": "COLONIA LEOPOLDINA",
       "latitude": -8.911863499999999,
       "longitude": -35.7187274,
-      "valor_minimo": 6.850097043041443,
-      "valor_maximo": 6.850097043041443,
-      "valor_medio": 6.850097043041443,
-      "valor_recente": 6.850097043041443,
-      "data_recente": "2026-04-12T13:34:10Z"
+      "valor_minimo": 6.8493150684931505,
+      "valor_maximo": 6.8493150684931505,
+      "valor_medio": 6.8493150684931505,
+      "valor_recente": 6.8493150684931505,
+      "data_recente": "2026-04-12T15:40:41Z"
     },
     {
       "cnpj": "14341647000272",
@@ -89,6 +89,26 @@
       "valor_medio": 6.848115721355158,
       "valor_recente": 6.848115721355158,
       "data_recente": "2026-04-12T00:36:40Z"
+    },
+    {
+      "cnpj": "14341647000272",
+      "tipo_combustivel": 3,
+      "razao_social": "ANDRESSA PEREIRA ALVES - EPP",
+      "nome_fantasia": "AUTO POSTO CASTELIANO",
+      "telefone": "(82) 88200083",
+      "nome_logradouro": "LOT JARDIM 2",
+      "numero_imovel": "SN",
+      "bairro": "LOTEAMENTO JARDIM",
+      "cep": "57975000",
+      "codigo_ibge": 2702108,
+      "municipio": "COLONIA LEOPOLDINA",
+      "latitude": -8.982249399999999,
+      "longitude": -35.784354,
+      "valor_minimo": 5.449591280653951,
+      "valor_maximo": 5.449591280653951,
+      "valor_medio": 5.449591280653951,
+      "valor_recente": 5.449591280653951,
+      "data_recente": "2026-04-12T15:40:47Z"
     },
     {
       "cnpj": "08560691000190",
@@ -112,26 +132,6 @@
     },
     {
       "cnpj": "14341647000272",
-      "tipo_combustivel": 3,
-      "razao_social": "ANDRESSA PEREIRA ALVES - EPP",
-      "nome_fantasia": "AUTO POSTO CASTELIANO",
-      "telefone": "(82) 88200083",
-      "nome_logradouro": "LOT JARDIM 2",
-      "numero_imovel": "SN",
-      "bairro": "LOTEAMENTO JARDIM",
-      "cep": "57975000",
-      "codigo_ibge": 2702108,
-      "municipio": "COLONIA LEOPOLDINA",
-      "latitude": -8.982249399999999,
-      "longitude": -35.784354,
-      "valor_minimo": 5.45,
-      "valor_maximo": 5.45,
-      "valor_medio": 5.45,
-      "valor_recente": 5.45,
-      "data_recente": "2026-04-12T00:36:40Z"
-    },
-    {
-      "cnpj": "14341647000272",
       "tipo_combustivel": 5,
       "razao_social": "ANDRESSA PEREIRA ALVES - EPP",
       "nome_fantasia": "AUTO POSTO CASTELIANO",
@@ -148,7 +148,7 @@
       "valor_maximo": 7.449899426357744,
       "valor_medio": 7.449899426357744,
       "valor_recente": 7.449899426357744,
-      "data_recente": "2026-04-12T10:21:58Z"
+      "data_recente": "2026-04-12T15:43:33Z"
     },
     {
       "cnpj": "08560691000190",
@@ -164,11 +164,11 @@
       "municipio": "COLONIA LEOPOLDINA",
       "latitude": -8.911863499999999,
       "longitude": -35.7187274,
-      "valor_minimo": 7.540340823405218,
-      "valor_maximo": 7.540340823405218,
-      "valor_medio": 7.540340823405218,
-      "valor_recente": 7.540340823405218,
-      "data_recente": "2026-04-12T13:06:37Z"
+      "valor_minimo": 7.539772298876574,
+      "valor_maximo": 7.539772298876574,
+      "valor_medio": 7.539772298876574,
+      "valor_recente": 7.539772298876574,
+      "data_recente": "2026-04-12T15:43:13Z"
     }
   ]
 }

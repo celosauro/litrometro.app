@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2707206",
   "municipio": "Poço das Trincheiras",
-  "atualizadoEm": "2026-04-13T15:31:29.830Z",
+  "atualizadoEm": "2026-04-13T16:43:52.549Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
       "valorMinimo": 6.968641114982578,
-      "valorMaximo": 6.986027944111776,
-      "valorMedio": 6.9751727450889085
+      "valorMaximo": 6.99,
+      "valorMedio": 6.976368416667891
     },
     "2": {
       "totalPostos": 1,
@@ -24,9 +24,9 @@
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.799984743306125,
+      "valorMinimo": 7.8,
       "valorMaximo": 7.99,
-      "valorMedio": 7.863328247768709
+      "valorMedio": 7.8634373374935
     }
   },
   "estabelecimentos": [
@@ -64,11 +64,11 @@
       "municipio": "POCO DAS TRINCHEIRAS",
       "latitude": -9.3237539,
       "longitude": -37.30406809999999,
-      "valor_minimo": 6.97084917617237,
-      "valor_maximo": 6.97084917617237,
-      "valor_medio": 6.97084917617237,
-      "valor_recente": 6.97084917617237,
-      "data_recente": "2026-04-12T13:31:34Z"
+      "valor_minimo": 6.970464135021097,
+      "valor_maximo": 6.970464135021097,
+      "valor_medio": 6.970464135021097,
+      "valor_recente": 6.970464135021097,
+      "data_recente": "2026-04-12T15:47:41Z"
     },
     {
       "cnpj": "29720522000140",
@@ -84,11 +84,11 @@
       "municipio": "POCO DAS TRINCHEIRAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.986027944111776,
-      "valor_maximo": 6.986027944111776,
-      "valor_medio": 6.986027944111776,
-      "valor_recente": 6.986027944111776,
-      "data_recente": "2026-04-12T13:32:05Z"
+      "valor_minimo": 6.99,
+      "valor_maximo": 6.99,
+      "valor_medio": 6.99,
+      "valor_recente": 6.99,
+      "data_recente": "2026-04-12T14:53:34Z"
     },
     {
       "cnpj": "09025340000141",
@@ -131,26 +131,6 @@
       "data_recente": "2026-04-12T13:35:12Z"
     },
     {
-      "cnpj": "08886737000165",
-      "tipo_combustivel": 5,
-      "razao_social": "COMÉRCIO DE COMBUSTÍVEIS NOSSA SENHORA DE FÁTIMA LTDA.",
-      "nome_fantasia": "AUTO POSTO NOSSA SENHORA DE FATIMA",
-      "telefone": "",
-      "nome_logradouro": "RDV BR 316",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57510000",
-      "codigo_ibge": 2707206,
-      "municipio": "POCO DAS TRINCHEIRAS",
-      "latitude": -9.3237539,
-      "longitude": -37.30406809999999,
-      "valor_minimo": 7.799984743306125,
-      "valor_maximo": 7.799984743306125,
-      "valor_medio": 7.799984743306125,
-      "valor_recente": 7.799984743306125,
-      "data_recente": "2026-04-11T23:58:40Z"
-    },
-    {
       "cnpj": "09025340000141",
       "tipo_combustivel": 5,
       "razao_social": "FERREIRA E SANTOS AUTO POSTO LTDA - ME",
@@ -169,6 +149,26 @@
       "valor_medio": 7.8,
       "valor_recente": 7.8,
       "data_recente": "2026-04-12T10:08:19Z"
+    },
+    {
+      "cnpj": "08886737000165",
+      "tipo_combustivel": 5,
+      "razao_social": "COMÉRCIO DE COMBUSTÍVEIS NOSSA SENHORA DE FÁTIMA LTDA.",
+      "nome_fantasia": "AUTO POSTO NOSSA SENHORA DE FATIMA",
+      "telefone": "",
+      "nome_logradouro": "RDV BR 316",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57510000",
+      "codigo_ibge": 2707206,
+      "municipio": "POCO DAS TRINCHEIRAS",
+      "latitude": -9.3237539,
+      "longitude": -37.30406809999999,
+      "valor_minimo": 7.800312012480499,
+      "valor_maximo": 7.800312012480499,
+      "valor_medio": 7.800312012480499,
+      "valor_recente": 7.800312012480499,
+      "data_recente": "2026-04-12T15:47:06Z"
     },
     {
       "cnpj": "29720522000140",

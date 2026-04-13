@@ -1,61 +1,41 @@
 {
   "codigoIBGE": "2704203",
   "municipio": "Limoeiro de Anadia",
-  "atualizadoEm": "2026-04-13T15:15:17.345Z",
+  "atualizadoEm": "2026-04-13T16:28:42.492Z",
   "totalEstabelecimentos": 20,
   "combustiveis": {
     "1": {
       "totalPostos": 5,
-      "valorMinimo": 6.57791357485814,
+      "valorMinimo": 5.546988341781736,
       "valorMaximo": 6.990074094785404,
-      "valorMedio": 6.763203537786024
+      "valorMedio": 6.5570154347727625
     },
     "2": {
       "totalPostos": 3,
-      "valorMinimo": 5.230925349315247,
-      "valorMaximo": 6.989994441356309,
-      "valorMedio": 6.400123063221137
+      "valorMinimo": 5.230994669973108,
+      "valorMaximo": 6.98909700866648,
+      "valorMedio": 6.39971816340163
     },
     "3": {
       "totalPostos": 5,
-      "valorMinimo": 4.385994046686511,
-      "valorMaximo": 5.389348202268795,
-      "valorMedio": 4.968859655556122
+      "valorMinimo": 4.385841148643041,
+      "valorMaximo": 5.389795808415495,
+      "valorMedio": 4.969160371740545
     },
     "4": {
       "totalPostos": 2,
-      "valorMinimo": 6.551830206090433,
-      "valorMaximo": 6.9875,
-      "valorMedio": 6.769665103045217
+      "valorMinimo": 6.551882085425903,
+      "valorMaximo": 6.988120195667365,
+      "valorMedio": 6.7700011405466345
     },
     "5": {
       "totalPostos": 5,
-      "valorMinimo": 6.0629880405738446,
-      "valorMaximo": 7.288629737609329,
-      "valorMedio": 6.923882230673842
+      "valorMinimo": 6.062989842753227,
+      "valorMaximo": 7.289958082741024,
+      "valorMedio": 6.923888074998904
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "12330196000161",
-      "tipo_combustivel": 1,
-      "razao_social": "POSTO PELEVE LTDA",
-      "nome_fantasia": "AUTO POSTO G. CHAGAS",
-      "telefone": "(82) 35215055",
-      "nome_logradouro": "SIT PELEVE NOVO",
-      "numero_imovel": "63",
-      "bairro": "ZONA RURAL",
-      "cep": "57260000",
-      "codigo_ibge": 2704203,
-      "municipio": "LIMOEIRO DE ANADIA",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.57791357485814,
-      "valor_maximo": 6.57791357485814,
-      "valor_medio": 6.57791357485814,
-      "valor_recente": 6.57791357485814,
-      "data_recente": "2026-04-12T13:34:27Z"
-    },
     {
       "cnpj": "37715958000179",
       "tipo_combustivel": 1,
@@ -70,11 +50,31 @@
       "municipio": "LIMOEIRO DE ANADIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.579813133307014,
-      "valor_maximo": 6.579813133307014,
-      "valor_medio": 6.579813133307014,
-      "valor_recente": 6.579813133307014,
-      "data_recente": "2026-04-12T13:11:26Z"
+      "valor_minimo": 5.546988341781736,
+      "valor_maximo": 5.546988341781736,
+      "valor_medio": 5.546988341781736,
+      "valor_recente": 5.546988341781736,
+      "data_recente": "2026-04-12T15:35:07Z"
+    },
+    {
+      "cnpj": "12330196000161",
+      "tipo_combustivel": 1,
+      "razao_social": "POSTO PELEVE LTDA",
+      "nome_fantasia": "AUTO POSTO G. CHAGAS",
+      "telefone": "(82) 35215055",
+      "nome_logradouro": "SIT PELEVE NOVO",
+      "numero_imovel": "63",
+      "bairro": "ZONA RURAL",
+      "cep": "57260000",
+      "codigo_ibge": 2704203,
+      "municipio": "LIMOEIRO DE ANADIA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.579950938962297,
+      "valor_maximo": 6.579950938962297,
+      "valor_medio": 6.579950938962297,
+      "valor_recente": 6.579950938962297,
+      "data_recente": "2026-04-12T15:42:34Z"
     },
     {
       "cnpj": "00807244000261",
@@ -90,11 +90,11 @@
       "municipio": "LIMOEIRO DE ANADIA",
       "latitude": -9.742691299999999,
       "longitude": -36.49913859999999,
-      "valor_minimo": 6.679580522343197,
-      "valor_maximo": 6.679580522343197,
-      "valor_medio": 6.679580522343197,
-      "valor_recente": 6.679580522343197,
-      "data_recente": "2026-04-12T13:29:17Z"
+      "valor_minimo": 6.678966789667896,
+      "valor_maximo": 6.678966789667896,
+      "valor_medio": 6.678966789667896,
+      "valor_recente": 6.678966789667896,
+      "data_recente": "2026-04-12T15:44:28Z"
     },
     {
       "cnpj": "37827515000170",
@@ -110,11 +110,11 @@
       "municipio": "LIMOEIRO DE ANADIA",
       "latitude": -9.7401853,
       "longitude": -36.470928,
-      "valor_minimo": 6.988636363636363,
-      "valor_maximo": 6.988636363636363,
-      "valor_medio": 6.988636363636363,
-      "valor_recente": 6.988636363636363,
-      "data_recente": "2026-04-12T13:42:04Z"
+      "valor_minimo": 6.98909700866648,
+      "valor_maximo": 6.98909700866648,
+      "valor_medio": 6.98909700866648,
+      "valor_recente": 6.98909700866648,
+      "data_recente": "2026-04-12T15:50:32Z"
     },
     {
       "cnpj": "57930433000163",
@@ -134,7 +134,7 @@
       "valor_maximo": 6.990074094785404,
       "valor_medio": 6.990074094785404,
       "valor_recente": 6.990074094785404,
-      "data_recente": "2026-04-12T13:14:58Z"
+      "data_recente": "2026-04-12T15:49:24Z"
     },
     {
       "cnpj": "37715958000179",
@@ -150,11 +150,11 @@
       "municipio": "LIMOEIRO DE ANADIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.230925349315247,
-      "valor_maximo": 5.230925349315247,
-      "valor_medio": 5.230925349315247,
-      "valor_recente": 5.230925349315247,
-      "data_recente": "2026-04-12T12:44:17Z"
+      "valor_minimo": 5.230994669973108,
+      "valor_maximo": 5.230994669973108,
+      "valor_medio": 5.230994669973108,
+      "valor_recente": 5.230994669973108,
+      "data_recente": "2026-04-12T15:38:19Z"
     },
     {
       "cnpj": "00807244000261",
@@ -170,11 +170,11 @@
       "municipio": "LIMOEIRO DE ANADIA",
       "latitude": -9.742691299999999,
       "longitude": -36.49913859999999,
-      "valor_minimo": 6.979449398991857,
-      "valor_maximo": 6.979449398991857,
-      "valor_medio": 6.979449398991857,
-      "valor_recente": 6.979449398991857,
-      "data_recente": "2026-04-12T13:17:35Z"
+      "valor_minimo": 6.979062811565304,
+      "valor_maximo": 6.979062811565304,
+      "valor_medio": 6.979062811565304,
+      "valor_recente": 6.979062811565304,
+      "data_recente": "2026-04-12T15:40:30Z"
     },
     {
       "cnpj": "37827515000170",
@@ -190,11 +190,11 @@
       "municipio": "LIMOEIRO DE ANADIA",
       "latitude": -9.7401853,
       "longitude": -36.470928,
-      "valor_minimo": 6.989994441356309,
-      "valor_maximo": 6.989994441356309,
-      "valor_medio": 6.989994441356309,
-      "valor_recente": 6.989994441356309,
-      "data_recente": "2026-04-12T11:47:26Z"
+      "valor_minimo": 6.98909700866648,
+      "valor_maximo": 6.98909700866648,
+      "valor_medio": 6.98909700866648,
+      "valor_recente": 6.98909700866648,
+      "data_recente": "2026-04-12T15:33:15Z"
     },
     {
       "cnpj": "37715958000179",
@@ -210,11 +210,11 @@
       "municipio": "LIMOEIRO DE ANADIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 4.385994046686511,
-      "valor_maximo": 4.385994046686511,
-      "valor_medio": 4.385994046686511,
-      "valor_recente": 4.385994046686511,
-      "data_recente": "2026-04-12T13:10:47Z"
+      "valor_minimo": 4.385841148643041,
+      "valor_maximo": 4.385841148643041,
+      "valor_medio": 4.385841148643041,
+      "valor_recente": 4.385841148643041,
+      "data_recente": "2026-04-12T15:35:07Z"
     },
     {
       "cnpj": "12330196000161",
@@ -237,26 +237,6 @@
       "data_recente": "2026-04-11T20:03:41Z"
     },
     {
-      "cnpj": "37827515000170",
-      "tipo_combustivel": 3,
-      "razao_social": "U T B COMERCIO DE COMBUSTIVEL E LUBRIFICANTES LTDA",
-      "nome_fantasia": "AUTO POSTO 3N",
-      "telefone": "(82) 96710002",
-      "nome_logradouro": "SIT POVOADO CADOZ",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57260000",
-      "codigo_ibge": 2704203,
-      "municipio": "LIMOEIRO DE ANADIA",
-      "latitude": -9.7401853,
-      "longitude": -36.470928,
-      "valor_minimo": 5.089058524173028,
-      "valor_maximo": 5.089058524173028,
-      "valor_medio": 5.089058524173028,
-      "valor_recente": 5.089058524173028,
-      "data_recente": "2026-04-12T11:30:28Z"
-    },
-    {
       "cnpj": "57930433000163",
       "tipo_combustivel": 3,
       "razao_social": "AGRESTE LIMOEIRO COMBUSTIVEIS E SERVICOS LTDA",
@@ -270,11 +250,31 @@
       "municipio": "LIMOEIRO DE ANADIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.0899219545300305,
-      "valor_maximo": 5.0899219545300305,
-      "valor_medio": 5.0899219545300305,
-      "valor_recente": 5.0899219545300305,
-      "data_recente": "2026-04-12T13:02:52Z"
+      "valor_minimo": 5.0900946757609695,
+      "valor_maximo": 5.0900946757609695,
+      "valor_medio": 5.0900946757609695,
+      "valor_recente": 5.0900946757609695,
+      "data_recente": "2026-04-12T15:49:09Z"
+    },
+    {
+      "cnpj": "37827515000170",
+      "tipo_combustivel": 3,
+      "razao_social": "U T B COMERCIO DE COMBUSTIVEL E LUBRIFICANTES LTDA",
+      "nome_fantasia": "AUTO POSTO 3N",
+      "telefone": "(82) 96710002",
+      "nome_logradouro": "SIT POVOADO CADOZ",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57260000",
+      "codigo_ibge": 2704203,
+      "municipio": "LIMOEIRO DE ANADIA",
+      "latitude": -9.7401853,
+      "longitude": -36.470928,
+      "valor_minimo": 5.0900946757609695,
+      "valor_maximo": 5.0900946757609695,
+      "valor_medio": 5.0900946757609695,
+      "valor_recente": 5.0900946757609695,
+      "data_recente": "2026-04-12T15:46:33Z"
     },
     {
       "cnpj": "00807244000261",
@@ -290,11 +290,11 @@
       "municipio": "LIMOEIRO DE ANADIA",
       "latitude": -9.742691299999999,
       "longitude": -36.49913859999999,
-      "valor_minimo": 5.389348202268795,
-      "valor_maximo": 5.389348202268795,
-      "valor_medio": 5.389348202268795,
-      "valor_recente": 5.389348202268795,
-      "data_recente": "2026-04-12T13:05:35Z"
+      "valor_minimo": 5.389795808415495,
+      "valor_maximo": 5.389795808415495,
+      "valor_medio": 5.389795808415495,
+      "valor_recente": 5.389795808415495,
+      "data_recente": "2026-04-12T15:22:41Z"
     },
     {
       "cnpj": "37715958000179",
@@ -310,11 +310,11 @@
       "municipio": "LIMOEIRO DE ANADIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.551830206090433,
-      "valor_maximo": 6.551830206090433,
-      "valor_medio": 6.551830206090433,
-      "valor_recente": 6.551830206090433,
-      "data_recente": "2026-04-12T12:01:03Z"
+      "valor_minimo": 6.551882085425903,
+      "valor_maximo": 6.551882085425903,
+      "valor_medio": 6.551882085425903,
+      "valor_recente": 6.551882085425903,
+      "data_recente": "2026-04-12T15:38:19Z"
     },
     {
       "cnpj": "12330196000161",
@@ -330,11 +330,11 @@
       "municipio": "LIMOEIRO DE ANADIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.9875,
-      "valor_maximo": 6.9875,
-      "valor_medio": 6.9875,
-      "valor_recente": 6.9875,
-      "data_recente": "2026-04-12T13:34:27Z"
+      "valor_minimo": 6.988120195667365,
+      "valor_maximo": 6.988120195667365,
+      "valor_medio": 6.988120195667365,
+      "valor_recente": 6.988120195667365,
+      "data_recente": "2026-04-12T15:29:23Z"
     },
     {
       "cnpj": "37715958000179",
@@ -350,11 +350,11 @@
       "municipio": "LIMOEIRO DE ANADIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.0629880405738446,
-      "valor_maximo": 6.0629880405738446,
-      "valor_medio": 6.0629880405738446,
-      "valor_recente": 6.0629880405738446,
-      "data_recente": "2026-04-12T12:44:17Z"
+      "valor_minimo": 6.062989842753227,
+      "valor_maximo": 6.062989842753227,
+      "valor_medio": 6.062989842753227,
+      "valor_recente": 6.062989842753227,
+      "data_recente": "2026-04-12T15:38:19Z"
     },
     {
       "cnpj": "12330196000161",
@@ -370,11 +370,11 @@
       "municipio": "LIMOEIRO DE ANADIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.989320608952511,
-      "valor_maximo": 6.989320608952511,
-      "valor_medio": 6.989320608952511,
-      "valor_recente": 6.989320608952511,
-      "data_recente": "2026-04-11T22:46:42Z"
+      "valor_minimo": 6.988120195667365,
+      "valor_maximo": 6.988120195667365,
+      "valor_medio": 6.988120195667365,
+      "valor_recente": 6.988120195667365,
+      "data_recente": "2026-04-12T15:24:21Z"
     },
     {
       "cnpj": "00807244000261",
@@ -390,11 +390,11 @@
       "municipio": "LIMOEIRO DE ANADIA",
       "latitude": -9.742691299999999,
       "longitude": -36.49913859999999,
-      "valor_minimo": 6.989843028624192,
-      "valor_maximo": 6.989843028624192,
-      "valor_medio": 6.989843028624192,
-      "valor_recente": 6.989843028624192,
-      "data_recente": "2026-04-12T13:20:04Z"
+      "valor_minimo": 6.989742516223571,
+      "valor_maximo": 6.989742516223571,
+      "valor_medio": 6.989742516223571,
+      "valor_recente": 6.989742516223571,
+      "data_recente": "2026-04-12T15:25:20Z"
     },
     {
       "cnpj": "57930433000163",
@@ -414,7 +414,7 @@
       "valor_maximo": 7.288629737609329,
       "valor_medio": 7.288629737609329,
       "valor_recente": 7.288629737609329,
-      "data_recente": "2026-04-12T12:03:45Z"
+      "data_recente": "2026-04-12T15:49:09Z"
     },
     {
       "cnpj": "37827515000170",
@@ -430,11 +430,11 @@
       "municipio": "LIMOEIRO DE ANADIA",
       "latitude": -9.7401853,
       "longitude": -36.470928,
-      "valor_minimo": 7.288629737609329,
-      "valor_maximo": 7.288629737609329,
-      "valor_medio": 7.288629737609329,
-      "valor_recente": 7.288629737609329,
-      "data_recente": "2026-04-12T12:08:31Z"
+      "valor_minimo": 7.289958082741024,
+      "valor_maximo": 7.289958082741024,
+      "valor_medio": 7.289958082741024,
+      "valor_recente": 7.289958082741024,
+      "data_recente": "2026-04-12T15:36:40Z"
     }
   ]
 }

@@ -1,20 +1,20 @@
 {
   "codigoIBGE": "2702603",
   "municipio": "Feira Grande",
-  "atualizadoEm": "2026-04-13T15:07:03.877Z",
+  "atualizadoEm": "2026-04-13T16:20:35.345Z",
   "totalEstabelecimentos": 7,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.849658314350798,
-      "valorMaximo": 6.993006993006993,
-      "valorMedio": 6.9213326536788955
+      "valorMinimo": 6.8493150684931505,
+      "valorMaximo": 6.8493150684931505,
+      "valorMedio": 6.8493150684931505
     },
     "2": {
       "totalPostos": 2,
       "valorMinimo": 6.90035881865857,
-      "valorMaximo": 6.9025021570319245,
-      "valorMedio": 6.901430487845247
+      "valorMaximo": 6.901311249137336,
+      "valorMedio": 6.900835033897954
     },
     "3": {
       "totalPostos": 1,
@@ -30,32 +30,12 @@
     },
     "5": {
       "totalPostos": 1,
-      "valorMinimo": 7.289975797280353,
-      "valorMaximo": 7.289975797280353,
-      "valorMedio": 7.289975797280353
+      "valorMinimo": 7.289958082741024,
+      "valorMaximo": 7.289958082741024,
+      "valorMedio": 7.289958082741024
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "07826783000106",
-      "tipo_combustivel": 1,
-      "razao_social": "OLIVEIRA & GOMES LTDA EPP",
-      "nome_fantasia": "AUTO POSTO NOSSA SENHORA DE FATIMA",
-      "telefone": "(82) 34212580",
-      "nome_logradouro": "Rua FRANCISCO JOSE GONCALVES",
-      "numero_imovel": "28",
-      "bairro": "CENTRO",
-      "cep": "57340000",
-      "codigo_ibge": 2702603,
-      "municipio": "FEIRA GRANDE",
-      "latitude": -9.8986249,
-      "longitude": -36.6776837,
-      "valor_minimo": 6.849658314350798,
-      "valor_maximo": 6.849658314350798,
-      "valor_medio": 6.849658314350798,
-      "valor_recente": 6.849658314350798,
-      "data_recente": "2026-04-12T09:33:41Z"
-    },
     {
       "cnpj": "05769126000149",
       "tipo_combustivel": 1,
@@ -70,11 +50,31 @@
       "municipio": "FEIRA GRANDE",
       "latitude": -9.8511321,
       "longitude": -36.673818,
-      "valor_minimo": 6.993006993006993,
-      "valor_maximo": 6.993006993006993,
-      "valor_medio": 6.993006993006993,
-      "valor_recente": 6.993006993006993,
-      "data_recente": "2026-04-12T13:33:17Z"
+      "valor_minimo": 6.8493150684931505,
+      "valor_maximo": 6.8493150684931505,
+      "valor_medio": 6.8493150684931505,
+      "valor_recente": 6.8493150684931505,
+      "data_recente": "2026-04-12T15:47:21Z"
+    },
+    {
+      "cnpj": "07826783000106",
+      "tipo_combustivel": 1,
+      "razao_social": "OLIVEIRA & GOMES LTDA EPP",
+      "nome_fantasia": "AUTO POSTO NOSSA SENHORA DE FATIMA",
+      "telefone": "(82) 34212580",
+      "nome_logradouro": "Rua FRANCISCO JOSE GONCALVES",
+      "numero_imovel": "28",
+      "bairro": "CENTRO",
+      "cep": "57340000",
+      "codigo_ibge": 2702603,
+      "municipio": "FEIRA GRANDE",
+      "latitude": -9.8986249,
+      "longitude": -36.6776837,
+      "valor_minimo": 6.8493150684931505,
+      "valor_maximo": 6.8493150684931505,
+      "valor_medio": 6.8493150684931505,
+      "valor_recente": 6.8493150684931505,
+      "data_recente": "2026-04-12T14:39:54Z"
     },
     {
       "cnpj": "07826783000106",
@@ -110,11 +110,11 @@
       "municipio": "FEIRA GRANDE",
       "latitude": -9.8511321,
       "longitude": -36.673818,
-      "valor_minimo": 6.9025021570319245,
-      "valor_maximo": 6.9025021570319245,
-      "valor_medio": 6.9025021570319245,
-      "valor_recente": 6.9025021570319245,
-      "data_recente": "2026-04-12T11:59:29Z"
+      "valor_minimo": 6.901311249137336,
+      "valor_maximo": 6.901311249137336,
+      "valor_medio": 6.901311249137336,
+      "valor_recente": 6.901311249137336,
+      "data_recente": "2026-04-12T15:47:21Z"
     },
     {
       "cnpj": "05769126000149",
@@ -134,7 +134,7 @@
       "valor_maximo": 5.290072297654735,
       "valor_medio": 5.290072297654735,
       "valor_recente": 5.290072297654735,
-      "data_recente": "2026-04-12T11:59:29Z"
+      "data_recente": "2026-04-12T15:47:21Z"
     },
     {
       "cnpj": "07826783000106",
@@ -170,11 +170,11 @@
       "municipio": "FEIRA GRANDE",
       "latitude": -9.8511321,
       "longitude": -36.673818,
-      "valor_minimo": 7.289975797280353,
-      "valor_maximo": 7.289975797280353,
-      "valor_medio": 7.289975797280353,
-      "valor_recente": 7.289975797280353,
-      "data_recente": "2026-04-12T11:49:25Z"
+      "valor_minimo": 7.289958082741024,
+      "valor_maximo": 7.289958082741024,
+      "valor_medio": 7.289958082741024,
+      "valor_recente": 7.289958082741024,
+      "data_recente": "2026-04-12T15:47:21Z"
     }
   ]
 }
