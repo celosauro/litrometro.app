@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2708956",
   "municipio": "Senador Rui Palmeira",
-  "atualizadoEm": "2026-04-13T09:51:48.277Z",
+  "atualizadoEm": "2026-04-13T11:42:53.015Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.843575418994414,
-      "valorMaximo": 6.991011235955056,
-      "valorMedio": 6.917293327474734
+      "valorMinimo": 6.99009900990099,
+      "valorMaximo": 6.993055555555555,
+      "valorMedio": 6.991577282728272
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.939526979181419,
-      "valorMaximo": 7.090651558073654,
-      "valorMedio": 7.015089268627537
+      "valorMinimo": 7.090651558073654,
+      "valorMaximo": 7.342143906020558,
+      "valorMedio": 7.216397732047106
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.326423475568717,
+      "valorMinimo": 5.446889432219505,
       "valorMaximo": 5.449591280653951,
-      "valorMedio": 5.388007378111334
+      "valorMedio": 5.448240356436727
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.25648998481452,
-      "valorMaximo": 7.390019127108329,
-      "valorMedio": 7.323254555961425
+      "valorMinimo": 7.390019127108329,
+      "valorMaximo": 7.700046638683457,
+      "valorMedio": 7.545032882895892
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "SENADOR RUI PALMEIRA",
       "latitude": -9.4732108,
       "longitude": -37.4579235,
-      "valor_minimo": 6.843575418994414,
-      "valor_maximo": 6.843575418994414,
-      "valor_medio": 6.843575418994414,
-      "valor_recente": 6.843575418994414,
-      "data_recente": "2026-04-11T23:48:01Z"
+      "valor_minimo": 6.99009900990099,
+      "valor_maximo": 6.99009900990099,
+      "valor_medio": 6.99009900990099,
+      "valor_recente": 6.99009900990099,
+      "data_recente": "2026-04-12T10:37:25Z"
     },
     {
       "cnpj": "33967242000108",
@@ -64,31 +64,11 @@
       "municipio": "SENADOR RUI PALMEIRA",
       "latitude": -9.4708228,
       "longitude": -37.4572343,
-      "valor_minimo": 6.991011235955056,
-      "valor_maximo": 6.991011235955056,
-      "valor_medio": 6.991011235955056,
-      "valor_recente": 6.991011235955056,
-      "data_recente": "2026-04-11T23:51:56Z"
-    },
-    {
-      "cnpj": "19487785000105",
-      "tipo_combustivel": 2,
-      "razao_social": "H F ANDRADE COMERCIO DE COMBUSTIVEIS LTDA",
-      "nome_fantasia": "AUTO POSTO SANTO ANTONIO",
-      "telefone": "(82) 99370131",
-      "nome_logradouro": "ROD AL-135, RODOVIA WILSON MOURA",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57515000",
-      "codigo_ibge": 2708956,
-      "municipio": "SENADOR RUI PALMEIRA",
-      "latitude": -9.4732108,
-      "longitude": -37.4579235,
-      "valor_minimo": 6.939526979181419,
-      "valor_maximo": 6.939526979181419,
-      "valor_medio": 6.939526979181419,
-      "valor_recente": 6.939526979181419,
-      "data_recente": "2026-04-11T23:48:01Z"
+      "valor_minimo": 6.993055555555555,
+      "valor_maximo": 6.993055555555555,
+      "valor_medio": 6.993055555555555,
+      "valor_recente": 6.993055555555555,
+      "data_recente": "2026-04-12T10:45:54Z"
     },
     {
       "cnpj": "33967242000108",
@@ -112,6 +92,26 @@
     },
     {
       "cnpj": "19487785000105",
+      "tipo_combustivel": 2,
+      "razao_social": "H F ANDRADE COMERCIO DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "AUTO POSTO SANTO ANTONIO",
+      "telefone": "(82) 99370131",
+      "nome_logradouro": "ROD AL-135, RODOVIA WILSON MOURA",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57515000",
+      "codigo_ibge": 2708956,
+      "municipio": "SENADOR RUI PALMEIRA",
+      "latitude": -9.4732108,
+      "longitude": -37.4579235,
+      "valor_minimo": 7.342143906020558,
+      "valor_maximo": 7.342143906020558,
+      "valor_medio": 7.342143906020558,
+      "valor_recente": 7.342143906020558,
+      "data_recente": "2026-04-12T10:35:05Z"
+    },
+    {
+      "cnpj": "19487785000105",
       "tipo_combustivel": 3,
       "razao_social": "H F ANDRADE COMERCIO DE COMBUSTIVEIS LTDA",
       "nome_fantasia": "AUTO POSTO SANTO ANTONIO",
@@ -124,11 +124,11 @@
       "municipio": "SENADOR RUI PALMEIRA",
       "latitude": -9.4732108,
       "longitude": -37.4579235,
-      "valor_minimo": 5.326423475568717,
-      "valor_maximo": 5.326423475568717,
-      "valor_medio": 5.326423475568717,
-      "valor_recente": 5.326423475568717,
-      "data_recente": "2026-04-11T23:47:19Z"
+      "valor_minimo": 5.446889432219505,
+      "valor_maximo": 5.446889432219505,
+      "valor_medio": 5.446889432219505,
+      "valor_recente": 5.446889432219505,
+      "data_recente": "2026-04-11T21:31:19Z"
     },
     {
       "cnpj": "33967242000108",
@@ -151,26 +151,6 @@
       "data_recente": "2026-04-11T23:39:47Z"
     },
     {
-      "cnpj": "19487785000105",
-      "tipo_combustivel": 5,
-      "razao_social": "H F ANDRADE COMERCIO DE COMBUSTIVEIS LTDA",
-      "nome_fantasia": "AUTO POSTO SANTO ANTONIO",
-      "telefone": "(82) 99370131",
-      "nome_logradouro": "ROD AL-135, RODOVIA WILSON MOURA",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57515000",
-      "codigo_ibge": 2708956,
-      "municipio": "SENADOR RUI PALMEIRA",
-      "latitude": -9.4732108,
-      "longitude": -37.4579235,
-      "valor_minimo": 7.25648998481452,
-      "valor_maximo": 7.25648998481452,
-      "valor_medio": 7.25648998481452,
-      "valor_recente": 7.25648998481452,
-      "data_recente": "2026-04-11T23:35:47Z"
-    },
-    {
       "cnpj": "33967242000108",
       "tipo_combustivel": 5,
       "razao_social": "AUTO POSTO CAPIA II",
@@ -189,6 +169,26 @@
       "valor_medio": 7.390019127108329,
       "valor_recente": 7.390019127108329,
       "data_recente": "2026-04-11T23:43:13Z"
+    },
+    {
+      "cnpj": "19487785000105",
+      "tipo_combustivel": 5,
+      "razao_social": "H F ANDRADE COMERCIO DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "AUTO POSTO SANTO ANTONIO",
+      "telefone": "(82) 99370131",
+      "nome_logradouro": "ROD AL-135, RODOVIA WILSON MOURA",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57515000",
+      "codigo_ibge": 2708956,
+      "municipio": "SENADOR RUI PALMEIRA",
+      "latitude": -9.4732108,
+      "longitude": -37.4579235,
+      "valor_minimo": 7.700046638683457,
+      "valor_maximo": 7.700046638683457,
+      "valor_medio": 7.700046638683457,
+      "valor_recente": 7.700046638683457,
+      "data_recente": "2026-04-12T10:48:20Z"
     }
   ]
 }
