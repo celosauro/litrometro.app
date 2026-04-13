@@ -1,41 +1,61 @@
 {
   "codigoIBGE": "2702900",
   "municipio": "Girau do Ponciano",
-  "atualizadoEm": "2026-04-13T11:20:04.218Z",
+  "atualizadoEm": "2026-04-13T13:18:22.884Z",
   "totalEstabelecimentos": 16,
   "combustiveis": {
     "1": {
       "totalPostos": 5,
-      "valorMinimo": 6.899862825788752,
+      "valorMinimo": 6.8994708994708995,
       "valorMaximo": 6.991266375545852,
-      "valorMedio": 6.954373699988778
+      "valorMedio": 6.95397179187494
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 6.99953336444237,
-      "valorMaximo": 6.99953336444237,
-      "valorMedio": 6.99953336444237
+      "valorMinimo": 7,
+      "valorMaximo": 7,
+      "valorMedio": 7
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 5.0899219545300305,
-      "valorMaximo": 5.488721804511278,
-      "valorMedio": 5.22291281160076
+      "valorMinimo": 5.0900946757609695,
+      "valorMaximo": 5.490120746432492,
+      "valorMedio": 5.2237081710341835
     },
     "4": {
       "totalPostos": 2,
-      "valorMinimo": 8.199857869130268,
+      "valorMinimo": 8.199884236928419,
       "valorMaximo": 8.200054659743099,
-      "valorMedio": 8.199956264436683
+      "valorMedio": 8.199969448335759
     },
     "5": {
       "totalPostos": 5,
       "valorMinimo": 7.187723054960743,
-      "valorMaximo": 8.18994451097131,
-      "valorMedio": 7.494511176711188
+      "valorMaximo": 8.190029451521363,
+      "valorMedio": 7.495467132503836
     }
   },
   "estabelecimentos": [
+    {
+      "cnpj": "33296262000102",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO J N C DOS SANTOS & CIA LTDA",
+      "nome_fantasia": "AUTO POSTO 3 M",
+      "telefone": "(82) 99827677",
+      "nome_logradouro": "Rua DR.JOSE BENTO",
+      "numero_imovel": "30",
+      "bairro": "NOSSA SENHORA DA CONCEICAO",
+      "cep": "57360000",
+      "codigo_ibge": 2702900,
+      "municipio": "GIRAU DO PONCIANO",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.8994708994708995,
+      "valor_maximo": 6.8994708994708995,
+      "valor_medio": 6.8994708994708995,
+      "valor_recente": 6.8994708994708995,
+      "data_recente": "2026-04-12T10:50:01Z"
+    },
     {
       "cnpj": "09657072000180",
       "tipo_combustivel": 1,
@@ -57,24 +77,24 @@
       "data_recente": "2026-04-12T00:02:09Z"
     },
     {
-      "cnpj": "33296262000102",
+      "cnpj": "17830342000131",
       "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO J N C DOS SANTOS & CIA LTDA",
-      "nome_fantasia": "AUTO POSTO 3 M",
-      "telefone": "(82) 99827677",
-      "nome_logradouro": "Rua DR.JOSE BENTO",
-      "numero_imovel": "30",
-      "bairro": "NOSSA SENHORA DA CONCEICAO",
+      "razao_social": "JOSE BARBOSA DE CARVALHO & CIA LTDA",
+      "nome_fantasia": "POSTO NOSSA SENHORA DA CONCEICAO",
+      "telefone": "",
+      "nome_logradouro": "Rua FERNANDO COLLOR DE MELLO",
+      "numero_imovel": "20",
+      "bairro": "CANAFISTULA",
       "cep": "57360000",
       "codigo_ibge": 2702900,
       "municipio": "GIRAU DO PONCIANO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.900293255131965,
-      "valor_maximo": 6.900293255131965,
-      "valor_medio": 6.900293255131965,
-      "valor_recente": 6.900293255131965,
-      "data_recente": "2026-04-12T02:01:22Z"
+      "latitude": -9.882830799999999,
+      "longitude": -36.8305595,
+      "valor_minimo": 6.989510489510489,
+      "valor_maximo": 6.989510489510489,
+      "valor_medio": 6.989510489510489,
+      "valor_recente": 6.989510489510489,
+      "data_recente": "2026-04-12T10:40:30Z"
     },
     {
       "cnpj": "08422115000348",
@@ -94,7 +114,7 @@
       "valor_maximo": 6.989748369058714,
       "valor_medio": 6.989748369058714,
       "valor_recente": 6.989748369058714,
-      "data_recente": "2026-04-11T23:02:06Z"
+      "data_recente": "2026-04-12T10:04:59Z"
     },
     {
       "cnpj": "08422115000186",
@@ -110,31 +130,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.8855612,
       "longitude": -36.8209998,
-      "valor_minimo": 6.9906976744186045,
-      "valor_maximo": 6.9906976744186045,
-      "valor_medio": 6.9906976744186045,
-      "valor_recente": 6.9906976744186045,
-      "data_recente": "2026-04-12T02:17:31Z"
-    },
-    {
-      "cnpj": "17830342000131",
-      "tipo_combustivel": 1,
-      "razao_social": "JOSE BARBOSA DE CARVALHO & CIA LTDA",
-      "nome_fantasia": "POSTO NOSSA SENHORA DA CONCEICAO",
-      "telefone": "",
-      "nome_logradouro": "Rua FERNANDO COLLOR DE MELLO",
-      "numero_imovel": "20",
-      "bairro": "CANAFISTULA",
-      "cep": "57360000",
-      "codigo_ibge": 2702900,
-      "municipio": "GIRAU DO PONCIANO",
-      "latitude": -9.882830799999999,
-      "longitude": -36.8305595,
       "valor_minimo": 6.991266375545852,
       "valor_maximo": 6.991266375545852,
       "valor_medio": 6.991266375545852,
       "valor_recente": 6.991266375545852,
-      "data_recente": "2026-04-11T22:58:03Z"
+      "data_recente": "2026-04-12T08:38:21Z"
     },
     {
       "cnpj": "33296262000102",
@@ -150,31 +150,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.99953336444237,
-      "valor_maximo": 6.99953336444237,
-      "valor_medio": 6.99953336444237,
-      "valor_recente": 6.99953336444237,
-      "data_recente": "2026-04-12T02:01:22Z"
-    },
-    {
-      "cnpj": "33296262000102",
-      "tipo_combustivel": 3,
-      "razao_social": "AUTO POSTO J N C DOS SANTOS & CIA LTDA",
-      "nome_fantasia": "AUTO POSTO 3 M",
-      "telefone": "(82) 99827677",
-      "nome_logradouro": "Rua DR.JOSE BENTO",
-      "numero_imovel": "30",
-      "bairro": "NOSSA SENHORA DA CONCEICAO",
-      "cep": "57360000",
-      "codigo_ibge": 2702900,
-      "municipio": "GIRAU DO PONCIANO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 5.0899219545300305,
-      "valor_maximo": 5.0899219545300305,
-      "valor_medio": 5.0899219545300305,
-      "valor_recente": 5.0899219545300305,
-      "data_recente": "2026-04-12T02:01:22Z"
+      "valor_minimo": 7,
+      "valor_maximo": 7,
+      "valor_medio": 7,
+      "valor_recente": 7,
+      "data_recente": "2026-04-12T10:14:38Z"
     },
     {
       "cnpj": "09657072000180",
@@ -197,6 +177,26 @@
       "data_recente": "2026-04-12T00:02:09Z"
     },
     {
+      "cnpj": "33296262000102",
+      "tipo_combustivel": 3,
+      "razao_social": "AUTO POSTO J N C DOS SANTOS & CIA LTDA",
+      "nome_fantasia": "AUTO POSTO 3 M",
+      "telefone": "(82) 99827677",
+      "nome_logradouro": "Rua DR.JOSE BENTO",
+      "numero_imovel": "30",
+      "bairro": "NOSSA SENHORA DA CONCEICAO",
+      "cep": "57360000",
+      "codigo_ibge": 2702900,
+      "municipio": "GIRAU DO PONCIANO",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 5.090909090909091,
+      "valor_maximo": 5.090909090909091,
+      "valor_medio": 5.090909090909091,
+      "valor_recente": 5.090909090909091,
+      "data_recente": "2026-04-12T10:31:55Z"
+    },
+    {
       "cnpj": "08422115000186",
       "tipo_combustivel": 3,
       "razao_social": "AUTOPEL-AUTO POSTO PROGRESSO LTDA",
@@ -210,11 +210,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.8855612,
       "longitude": -36.8209998,
-      "valor_minimo": 5.488721804511278,
-      "valor_maximo": 5.488721804511278,
-      "valor_medio": 5.488721804511278,
-      "valor_recente": 5.488721804511278,
-      "data_recente": "2026-04-11T19:06:13Z"
+      "valor_minimo": 5.490120746432492,
+      "valor_maximo": 5.490120746432492,
+      "valor_medio": 5.490120746432492,
+      "valor_recente": 5.490120746432492,
+      "data_recente": "2026-04-12T08:37:34Z"
     },
     {
       "cnpj": "33296262000102",
@@ -230,11 +230,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 8.199857869130268,
-      "valor_maximo": 8.199857869130268,
-      "valor_medio": 8.199857869130268,
-      "valor_recente": 8.199857869130268,
-      "data_recente": "2026-04-12T00:29:09Z"
+      "valor_minimo": 8.199884236928419,
+      "valor_maximo": 8.199884236928419,
+      "valor_medio": 8.199884236928419,
+      "valor_recente": 8.199884236928419,
+      "data_recente": "2026-04-12T10:31:55Z"
     },
     {
       "cnpj": "09657072000180",
@@ -277,26 +277,6 @@
       "data_recente": "2026-04-11T23:02:06Z"
     },
     {
-      "cnpj": "33296262000102",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO J N C DOS SANTOS & CIA LTDA",
-      "nome_fantasia": "AUTO POSTO 3 M",
-      "telefone": "(82) 99827677",
-      "nome_logradouro": "Rua DR.JOSE BENTO",
-      "numero_imovel": "30",
-      "bairro": "NOSSA SENHORA DA CONCEICAO",
-      "cep": "57360000",
-      "codigo_ibge": 2702900,
-      "municipio": "GIRAU DO PONCIANO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.2465753424657535,
-      "valor_maximo": 7.2465753424657535,
-      "valor_medio": 7.2465753424657535,
-      "valor_recente": 7.2465753424657535,
-      "data_recente": "2026-04-12T01:34:00Z"
-    },
-    {
       "cnpj": "09657072000180",
       "tipo_combustivel": 5,
       "razao_social": "AUTO POSTO KILTER LTDA - ME",
@@ -317,6 +297,26 @@
       "data_recente": "2026-04-11T22:58:26Z"
     },
     {
+      "cnpj": "33296262000102",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO J N C DOS SANTOS & CIA LTDA",
+      "nome_fantasia": "AUTO POSTO 3 M",
+      "telefone": "(82) 99827677",
+      "nome_logradouro": "Rua DR.JOSE BENTO",
+      "numero_imovel": "30",
+      "bairro": "NOSSA SENHORA DA CONCEICAO",
+      "cep": "57360000",
+      "codigo_ibge": 2702900,
+      "municipio": "GIRAU DO PONCIANO",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.2500543754078155,
+      "valor_maximo": 7.2500543754078155,
+      "valor_medio": 7.2500543754078155,
+      "valor_recente": 7.2500543754078155,
+      "data_recente": "2026-04-12T08:54:27Z"
+    },
+    {
       "cnpj": "17830342000131",
       "tipo_combustivel": 5,
       "razao_social": "JOSE BARBOSA DE CARVALHO & CIA LTDA",
@@ -330,11 +330,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.882830799999999,
       "longitude": -36.8305595,
-      "valor_minimo": 7.598784194528875,
-      "valor_maximo": 7.598784194528875,
-      "valor_medio": 7.598784194528875,
-      "valor_recente": 7.598784194528875,
-      "data_recente": "2026-04-11T22:58:02Z"
+      "valor_minimo": 7.6,
+      "valor_maximo": 7.6,
+      "valor_medio": 7.6,
+      "valor_recente": 7.6,
+      "data_recente": "2026-04-12T10:26:03Z"
     },
     {
       "cnpj": "08422115000186",
@@ -350,11 +350,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.8855612,
       "longitude": -36.8209998,
-      "valor_minimo": 8.18994451097131,
-      "valor_maximo": 8.18994451097131,
-      "valor_medio": 8.18994451097131,
-      "valor_recente": 8.18994451097131,
-      "data_recente": "2026-04-12T00:57:59Z"
+      "valor_minimo": 8.190029451521363,
+      "valor_maximo": 8.190029451521363,
+      "valor_medio": 8.190029451521363,
+      "valor_recente": 8.190029451521363,
+      "data_recente": "2026-04-12T10:22:53Z"
     }
   ]
 }

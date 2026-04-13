@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2701407",
   "municipio": "Campo Alegre",
-  "atualizadoEm": "2026-04-13T11:13:53.368Z",
+  "atualizadoEm": "2026-04-13T13:08:22.747Z",
   "totalEstabelecimentos": 14,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
-      "valorMinimo": 6.589785831960461,
-      "valorMaximo": 6.99009900990099,
-      "valorMedio": 6.88494328179748
+      "valorMinimo": 6.59020618556701,
+      "valorMaximo": 6.990074094785404,
+      "valorMedio": 6.884991247664804
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.986027944111776,
+      "valorMinimo": 6.989585517578807,
       "valorMaximo": 6.989748369058714,
-      "valorMedio": 6.987888156585245
+      "valorMedio": 6.989666943318761
     },
     "3": {
       "totalPostos": 4,
-      "valorMinimo": 4.88997555012225,
+      "valorMinimo": 3.141991003324858,
       "valorMaximo": 5.099959200326397,
-      "valorMedio": 5.042487845184912
+      "valorMedio": 4.605232670588578
     },
     "5": {
       "totalPostos": 4,
-      "valorMinimo": 7.289943172296113,
+      "valorMinimo": 7.289958082741024,
       "valorMaximo": 7.299781181619256,
-      "valorMedio": 7.292424222561949
+      "valorMedio": 7.292451041751577
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "CAMPO ALEGRE",
       "latitude": -10.1172981,
       "longitude": -36.768521,
-      "valor_minimo": 6.589785831960461,
-      "valor_maximo": 6.589785831960461,
-      "valor_medio": 6.589785831960461,
-      "valor_recente": 6.589785831960461,
-      "data_recente": "2026-04-11T23:53:54Z"
+      "valor_minimo": 6.59020618556701,
+      "valor_maximo": 6.59020618556701,
+      "valor_medio": 6.59020618556701,
+      "valor_recente": 6.59020618556701,
+      "data_recente": "2026-04-12T10:47:26Z"
     },
     {
       "cnpj": "09280439000190",
@@ -84,11 +84,11 @@
       "municipio": "CAMPO ALEGRE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.989951944080384,
-      "valor_maximo": 6.989951944080384,
-      "valor_medio": 6.989951944080384,
-      "valor_recente": 6.989951944080384,
-      "data_recente": "2026-04-12T01:07:14Z"
+      "valor_minimo": 6.989748369058714,
+      "valor_maximo": 6.989748369058714,
+      "valor_medio": 6.989748369058714,
+      "valor_recente": 6.989748369058714,
+      "data_recente": "2026-04-12T10:29:28Z"
     },
     {
       "cnpj": "11968667000107",
@@ -104,11 +104,11 @@
       "municipio": "CAMPO ALEGRE",
       "latitude": -9.9041795,
       "longitude": -36.2203955,
-      "valor_minimo": 6.99009900990099,
-      "valor_maximo": 6.99009900990099,
-      "valor_medio": 6.99009900990099,
-      "valor_recente": 6.99009900990099,
-      "data_recente": "2026-04-12T00:57:39Z"
+      "valor_minimo": 6.990074094785404,
+      "valor_maximo": 6.990074094785404,
+      "valor_medio": 6.990074094785404,
+      "valor_recente": 6.990074094785404,
+      "data_recente": "2026-04-12T09:57:54Z"
     },
     {
       "cnpj": "07583696000175",
@@ -124,11 +124,11 @@
       "municipio": "CAMPO ALEGRE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.986027944111776,
-      "valor_maximo": 6.986027944111776,
-      "valor_medio": 6.986027944111776,
-      "valor_recente": 6.986027944111776,
-      "data_recente": "2026-04-12T00:24:15Z"
+      "valor_minimo": 6.989585517578807,
+      "valor_maximo": 6.989585517578807,
+      "valor_medio": 6.989585517578807,
+      "valor_recente": 6.989585517578807,
+      "data_recente": "2026-04-12T10:05:43Z"
     },
     {
       "cnpj": "09280439000190",
@@ -164,11 +164,31 @@
       "municipio": "CAMPO ALEGRE",
       "latitude": -10.1172981,
       "longitude": -36.768521,
-      "valor_minimo": 4.88997555012225,
-      "valor_maximo": 4.88997555012225,
-      "valor_medio": 4.88997555012225,
-      "valor_recente": 4.88997555012225,
-      "data_recente": "2026-04-11T23:43:10Z"
+      "valor_minimo": 3.141991003324858,
+      "valor_maximo": 3.141991003324858,
+      "valor_medio": 3.141991003324858,
+      "valor_recente": 3.141991003324858,
+      "data_recente": "2026-04-12T10:46:07Z"
+    },
+    {
+      "cnpj": "11968667000107",
+      "tipo_combustivel": 3,
+      "razao_social": "AUTO POSTO NOSSA SENHORA APARECIDA LTDA",
+      "nome_fantasia": "POSTO NOSSA SENHORA APARECIDA",
+      "telefone": "(82) 35421119",
+      "nome_logradouro": "AV EUGENIA ALBUQUERQUE",
+      "numero_imovel": "50",
+      "bairro": "LUZIAPOLIS",
+      "cep": "57250000",
+      "codigo_ibge": 2701407,
+      "municipio": "CAMPO ALEGRE",
+      "latitude": -9.9041795,
+      "longitude": -36.2203955,
+      "valor_minimo": 5.089058524173028,
+      "valor_maximo": 5.089058524173028,
+      "valor_medio": 5.089058524173028,
+      "valor_recente": 5.089058524173028,
+      "data_recente": "2026-04-12T09:57:32Z"
     },
     {
       "cnpj": "07583696000175",
@@ -189,26 +209,6 @@
       "valor_medio": 5.0899219545300305,
       "valor_recente": 5.0899219545300305,
       "data_recente": "2026-04-07T23:37:30Z"
-    },
-    {
-      "cnpj": "11968667000107",
-      "tipo_combustivel": 3,
-      "razao_social": "AUTO POSTO NOSSA SENHORA APARECIDA LTDA",
-      "nome_fantasia": "POSTO NOSSA SENHORA APARECIDA",
-      "telefone": "(82) 35421119",
-      "nome_logradouro": "AV EUGENIA ALBUQUERQUE",
-      "numero_imovel": "50",
-      "bairro": "LUZIAPOLIS",
-      "cep": "57250000",
-      "codigo_ibge": 2701407,
-      "municipio": "CAMPO ALEGRE",
-      "latitude": -9.9041795,
-      "longitude": -36.2203955,
-      "valor_minimo": 5.0900946757609695,
-      "valor_maximo": 5.0900946757609695,
-      "valor_medio": 5.0900946757609695,
-      "valor_recente": 5.0900946757609695,
-      "data_recente": "2026-04-12T00:48:45Z"
     },
     {
       "cnpj": "09280439000190",
@@ -251,26 +251,6 @@
       "data_recente": "2026-04-12T00:47:18Z"
     },
     {
-      "cnpj": "07583696000175",
-      "tipo_combustivel": 5,
-      "razao_social": "AGRESTE COMBUSTIVEIS E SERVICOS LTDA",
-      "nome_fantasia": "POSTO AGRESTE",
-      "telefone": "(82) 33262347",
-      "nome_logradouro": "ROD AL-220, KM 36",
-      "numero_imovel": "345",
-      "bairro": "SAO FRANCISCO",
-      "cep": "57252004",
-      "codigo_ibge": 2701407,
-      "municipio": "CAMPO ALEGRE",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.289943172296113,
-      "valor_maximo": 7.289943172296113,
-      "valor_medio": 7.289943172296113,
-      "valor_recente": 7.289943172296113,
-      "data_recente": "2026-04-12T00:54:45Z"
-    },
-    {
       "cnpj": "11968667000107",
       "tipo_combustivel": 5,
       "razao_social": "AUTO POSTO NOSSA SENHORA APARECIDA LTDA",
@@ -291,6 +271,26 @@
       "data_recente": "2026-04-11T21:58:18Z"
     },
     {
+      "cnpj": "07583696000175",
+      "tipo_combustivel": 5,
+      "razao_social": "AGRESTE COMBUSTIVEIS E SERVICOS LTDA",
+      "nome_fantasia": "POSTO AGRESTE",
+      "telefone": "(82) 33262347",
+      "nome_logradouro": "ROD AL-220, KM 36",
+      "numero_imovel": "345",
+      "bairro": "SAO FRANCISCO",
+      "cep": "57252004",
+      "codigo_ibge": 2701407,
+      "municipio": "CAMPO ALEGRE",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.29,
+      "valor_maximo": 7.29,
+      "valor_medio": 7.29,
+      "valor_recente": 7.29,
+      "data_recente": "2026-04-12T10:02:15Z"
+    },
+    {
       "cnpj": "02991589000324",
       "tipo_combustivel": 5,
       "razao_social": "POSTO 4 RODAS LTDA",
@@ -304,11 +304,11 @@
       "municipio": "CAMPO ALEGRE",
       "latitude": -10.1172981,
       "longitude": -36.768521,
-      "valor_minimo": 7.290014453591403,
-      "valor_maximo": 7.290014453591403,
-      "valor_medio": 7.290014453591403,
-      "valor_recente": 7.290014453591403,
-      "data_recente": "2026-04-11T22:02:24Z"
+      "valor_minimo": 7.290064902646031,
+      "valor_maximo": 7.290064902646031,
+      "valor_medio": 7.290064902646031,
+      "valor_recente": 7.290064902646031,
+      "data_recente": "2026-04-12T10:46:31Z"
     }
   ]
 }

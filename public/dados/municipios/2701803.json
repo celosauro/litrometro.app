@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2701803",
   "municipio": "Carneiros",
-  "atualizadoEm": "2026-04-13T11:15:13.534Z",
+  "atualizadoEm": "2026-04-13T13:11:08.546Z",
   "totalEstabelecimentos": 6,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.989748369058714,
-      "valorMaximo": 6.989951944080384,
-      "valorMedio": 6.989850156569549
+      "valorMinimo": 6.988120195667365,
+      "valorMaximo": 6.989748369058714,
+      "valorMedio": 6.98893428236304
     },
     "2": {
       "totalPostos": 1,
@@ -31,6 +31,26 @@
   },
   "estabelecimentos": [
     {
+      "cnpj": "00994685000139",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO CARNEIROS LTDA.",
+      "nome_fantasia": "AUTO POSTO CARNEIROS",
+      "telefone": "(82) 36213443",
+      "nome_logradouro": "Rua TIRADENTES",
+      "numero_imovel": "210",
+      "bairro": "CENTRO",
+      "cep": "57535000",
+      "codigo_ibge": 2701803,
+      "municipio": "CARNEIROS",
+      "latitude": -9.4828391,
+      "longitude": -37.376628,
+      "valor_minimo": 6.988120195667365,
+      "valor_maximo": 6.988120195667365,
+      "valor_medio": 6.988120195667365,
+      "valor_recente": 6.988120195667365,
+      "data_recente": "2026-04-12T10:48:14Z"
+    },
+    {
       "cnpj": "36996902000177",
       "tipo_combustivel": 1,
       "razao_social": "POSTO PREMIUM LTDA",
@@ -49,26 +69,6 @@
       "valor_medio": 6.989748369058714,
       "valor_recente": 6.989748369058714,
       "data_recente": "2026-04-11T23:02:20Z"
-    },
-    {
-      "cnpj": "00994685000139",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO CARNEIROS LTDA.",
-      "nome_fantasia": "AUTO POSTO CARNEIROS",
-      "telefone": "(82) 36213443",
-      "nome_logradouro": "Rua TIRADENTES",
-      "numero_imovel": "210",
-      "bairro": "CENTRO",
-      "cep": "57535000",
-      "codigo_ibge": 2701803,
-      "municipio": "CARNEIROS",
-      "latitude": -9.4828391,
-      "longitude": -37.376628,
-      "valor_minimo": 6.989951944080384,
-      "valor_maximo": 6.989951944080384,
-      "valor_medio": 6.989951944080384,
-      "valor_recente": 6.989951944080384,
-      "data_recente": "2026-04-11T23:07:34Z"
     },
     {
       "cnpj": "00994685000139",

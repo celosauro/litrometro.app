@@ -1,20 +1,20 @@
 {
   "codigoIBGE": "2707602",
   "municipio": "Quebrangulo",
-  "atualizadoEm": "2026-04-13T11:37:33.489Z",
+  "atualizadoEm": "2026-04-13T13:46:09.668Z",
   "totalEstabelecimentos": 5,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.899724011039559,
-      "valorMaximo": 6.899882701994066,
-      "valorMedio": 6.899803356516813
+      "valorMinimo": 6.9,
+      "valorMaximo": 6.9,
+      "valorMedio": 6.9
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.097232079488999,
-      "valorMaximo": 7.097232079488999,
-      "valorMedio": 7.097232079488999
+      "valorMinimo": 7.099518003969379,
+      "valorMaximo": 7.099518003969379,
+      "valorMedio": 7.099518003969379
     },
     "3": {
       "totalPostos": 1,
@@ -24,32 +24,12 @@
     },
     "5": {
       "totalPostos": 1,
-      "valorMinimo": 7.8,
-      "valorMaximo": 7.8,
-      "valorMedio": 7.8
+      "valorMinimo": 7.799672871718982,
+      "valorMaximo": 7.799672871718982,
+      "valorMedio": 7.799672871718982
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "51723624000178",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO GPL LTDA",
-      "nome_fantasia": "AUTO POSTO GPL",
-      "telefone": "(82) 96627581",
-      "nome_logradouro": "Rua 13 DE JUNHO",
-      "numero_imovel": "S/N",
-      "bairro": "CENTRO",
-      "cep": "57750000",
-      "codigo_ibge": 2707602,
-      "municipio": "QUEBRANGULO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.899724011039559,
-      "valor_maximo": 6.899724011039559,
-      "valor_medio": 6.899724011039559,
-      "valor_recente": 6.899724011039559,
-      "data_recente": "2026-04-12T00:01:59Z"
-    },
     {
       "cnpj": "56268982000151",
       "tipo_combustivel": 1,
@@ -64,11 +44,31 @@
       "municipio": "QUEBRANGULO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.899882701994066,
-      "valor_maximo": 6.899882701994066,
-      "valor_medio": 6.899882701994066,
-      "valor_recente": 6.899882701994066,
-      "data_recente": "2026-04-12T01:19:23Z"
+      "valor_minimo": 6.9,
+      "valor_maximo": 6.9,
+      "valor_medio": 6.9,
+      "valor_recente": 6.9,
+      "data_recente": "2026-04-12T12:57:30Z"
+    },
+    {
+      "cnpj": "51723624000178",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO GPL LTDA",
+      "nome_fantasia": "AUTO POSTO GPL",
+      "telefone": "(82) 96627581",
+      "nome_logradouro": "Rua 13 DE JUNHO",
+      "numero_imovel": "S/N",
+      "bairro": "CENTRO",
+      "cep": "57750000",
+      "codigo_ibge": 2707602,
+      "municipio": "QUEBRANGULO",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.9,
+      "valor_maximo": 6.9,
+      "valor_medio": 6.9,
+      "valor_recente": 6.9,
+      "data_recente": "2026-04-12T11:25:48Z"
     },
     {
       "cnpj": "51723624000178",
@@ -84,11 +84,11 @@
       "municipio": "QUEBRANGULO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.097232079488999,
-      "valor_maximo": 7.097232079488999,
-      "valor_medio": 7.097232079488999,
-      "valor_recente": 7.097232079488999,
-      "data_recente": "2026-04-12T00:02:40Z"
+      "valor_minimo": 7.099518003969379,
+      "valor_maximo": 7.099518003969379,
+      "valor_medio": 7.099518003969379,
+      "valor_recente": 7.099518003969379,
+      "data_recente": "2026-04-12T11:00:59Z"
     },
     {
       "cnpj": "56268982000151",
@@ -124,11 +124,11 @@
       "municipio": "QUEBRANGULO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.8,
-      "valor_maximo": 7.8,
-      "valor_medio": 7.8,
-      "valor_recente": 7.8,
-      "data_recente": "2026-04-11T23:56:24Z"
+      "valor_minimo": 7.799672871718982,
+      "valor_maximo": 7.799672871718982,
+      "valor_medio": 7.799672871718982,
+      "valor_recente": 7.799672871718982,
+      "data_recente": "2026-04-12T11:30:11Z"
     }
   ]
 }

@@ -1,41 +1,61 @@
 {
   "codigoIBGE": "2702355",
   "municipio": "Craíbas",
-  "atualizadoEm": "2026-04-13T11:17:27.601Z",
+  "atualizadoEm": "2026-04-13T13:14:04.188Z",
   "totalEstabelecimentos": 27,
   "combustiveis": {
     "1": {
       "totalPostos": 6,
       "valorMinimo": 6.578947368421052,
-      "valorMaximo": 6.889807162534435,
-      "valorMedio": 6.761186468019763
+      "valorMaximo": 6.889908256880734,
+      "valorMedio": 6.762251164862657
     },
     "2": {
       "totalPostos": 6,
       "valorMinimo": 5.460996463339045,
-      "valorMaximo": 6.9405940594059405,
-      "valorMedio": 6.609968920471971
+      "valorMaximo": 6.939953810623557,
+      "valorMedio": 6.609878695078912
     },
     "3": {
       "totalPostos": 6,
       "valorMinimo": 4.739047999201676,
-      "valorMaximo": 5.389092476826902,
-      "valorMedio": 5.030911735761936
+      "valorMaximo": 5.385029617662897,
+      "valorMedio": 5.030429962987292
     },
     "4": {
       "totalPostos": 3,
       "valorMinimo": 6.918373586059309,
       "valorMaximo": 7.889546351084813,
-      "valorMedio": 7.332487473601418
+      "valorMedio": 7.332609349915168
     },
     "5": {
       "totalPostos": 6,
-      "valorMinimo": 6.485772178662673,
+      "valorMinimo": 6.949965253648367,
       "valorMaximo": 7.939965612761486,
-      "valorMedio": 7.224309896304544
+      "valorMedio": 7.301624848452319
     }
   },
   "estabelecimentos": [
+    {
+      "cnpj": "17652161000162",
+      "tipo_combustivel": 1,
+      "razao_social": "W W SILVA COMBUSTIVEIS LTDA",
+      "nome_fantasia": "AUTO POSTO MIX II",
+      "telefone": "",
+      "nome_logradouro": "ROD AL 220 KM 22",
+      "numero_imovel": "45",
+      "bairro": "FOLHA MIUDA",
+      "cep": "57320000",
+      "codigo_ibge": 2702355,
+      "municipio": "CRAIBAS",
+      "latitude": -9.702018,
+      "longitude": -36.794719,
+      "valor_minimo": 6.578947368421052,
+      "valor_maximo": 6.578947368421052,
+      "valor_medio": 6.578947368421052,
+      "valor_recente": 6.578947368421052,
+      "data_recente": "2026-04-12T08:26:21Z"
+    },
     {
       "cnpj": "13478481000197",
       "tipo_combustivel": 1,
@@ -57,26 +77,6 @@
       "data_recente": "2026-04-11T21:50:47Z"
     },
     {
-      "cnpj": "17652161000162",
-      "tipo_combustivel": 1,
-      "razao_social": "W W SILVA COMBUSTIVEIS LTDA",
-      "nome_fantasia": "AUTO POSTO MIX II",
-      "telefone": "",
-      "nome_logradouro": "ROD AL 220 KM 22",
-      "numero_imovel": "45",
-      "bairro": "FOLHA MIUDA",
-      "cep": "57320000",
-      "codigo_ibge": 2702355,
-      "municipio": "CRAIBAS",
-      "latitude": -9.702018,
-      "longitude": -36.794719,
-      "valor_minimo": 6.578947368421052,
-      "valor_maximo": 6.578947368421052,
-      "valor_medio": 6.578947368421052,
-      "valor_recente": 6.578947368421052,
-      "data_recente": "2026-04-12T00:06:40Z"
-    },
-    {
       "cnpj": "37919380000172",
       "tipo_combustivel": 1,
       "razao_social": "C D DA SILVA E CIA LTDA",
@@ -90,51 +90,11 @@
       "municipio": "CRAIBAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.7487767842078625,
-      "valor_maximo": 6.7487767842078625,
-      "valor_medio": 6.7487767842078625,
-      "valor_recente": 6.7487767842078625,
-      "data_recente": "2026-04-12T02:36:22Z"
-    },
-    {
-      "cnpj": "16986565000120",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO ALIANCA LTDA.",
-      "nome_fantasia": "POSTO ALIANÇA",
-      "telefone": "",
-      "nome_logradouro": "PC SAO PEDRO",
-      "numero_imovel": "01",
-      "bairro": "CENTRO",
-      "cep": "57320000",
-      "codigo_ibge": 2702355,
-      "municipio": "CRAIBAS",
-      "latitude": -9.618775,
-      "longitude": -36.7690264,
-      "valor_minimo": 6.880984952120383,
-      "valor_maximo": 6.880984952120383,
-      "valor_medio": 6.880984952120383,
-      "valor_recente": 6.880984952120383,
-      "data_recente": "2026-04-12T01:10:30Z"
-    },
-    {
-      "cnpj": "11984917000194",
-      "tipo_combustivel": 1,
-      "razao_social": "JOSE JAMES DA SILVA - ME",
-      "nome_fantasia": "AUTO POSTO MIX",
-      "telefone": "(82) 91229517",
-      "nome_logradouro": "Rua PEDRO GAMA",
-      "numero_imovel": "303",
-      "bairro": "CENTRO",
-      "cep": "57320000",
-      "codigo_ibge": 2702355,
-      "municipio": "CRAIBAS",
-      "latitude": -9.614823,
-      "longitude": -36.7690849,
-      "valor_minimo": 6.889655172413793,
-      "valor_maximo": 6.889655172413793,
-      "valor_medio": 6.889655172413793,
-      "valor_recente": 6.889655172413793,
-      "data_recente": "2026-04-12T00:03:15Z"
+      "valor_minimo": 6.749915626054674,
+      "valor_maximo": 6.749915626054674,
+      "valor_medio": 6.749915626054674,
+      "valor_recente": 6.749915626054674,
+      "data_recente": "2026-04-12T10:39:41Z"
     },
     {
       "cnpj": "14794278000192",
@@ -150,11 +110,51 @@
       "municipio": "CRAIBAS",
       "latitude": -9.6166065,
       "longitude": -36.7610918,
-      "valor_minimo": 6.889807162534435,
-      "valor_maximo": 6.889807162534435,
-      "valor_medio": 6.889807162534435,
-      "valor_recente": 6.889807162534435,
-      "data_recente": "2026-04-12T02:32:10Z"
+      "valor_minimo": 6.886363636363637,
+      "valor_maximo": 6.886363636363637,
+      "valor_medio": 6.886363636363637,
+      "valor_recente": 6.886363636363637,
+      "data_recente": "2026-04-12T07:56:23Z"
+    },
+    {
+      "cnpj": "11984917000194",
+      "tipo_combustivel": 1,
+      "razao_social": "JOSE JAMES DA SILVA - ME",
+      "nome_fantasia": "AUTO POSTO MIX",
+      "telefone": "(82) 91229517",
+      "nome_logradouro": "Rua PEDRO GAMA",
+      "numero_imovel": "303",
+      "bairro": "CENTRO",
+      "cep": "57320000",
+      "codigo_ibge": 2702355,
+      "municipio": "CRAIBAS",
+      "latitude": -9.614823,
+      "longitude": -36.7690849,
+      "valor_minimo": 6.889424733034792,
+      "valor_maximo": 6.889424733034792,
+      "valor_medio": 6.889424733034792,
+      "valor_recente": 6.889424733034792,
+      "data_recente": "2026-04-12T10:46:24Z"
+    },
+    {
+      "cnpj": "16986565000120",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO ALIANCA LTDA.",
+      "nome_fantasia": "POSTO ALIANÇA",
+      "telefone": "",
+      "nome_logradouro": "PC SAO PEDRO",
+      "numero_imovel": "01",
+      "bairro": "CENTRO",
+      "cep": "57320000",
+      "codigo_ibge": 2702355,
+      "municipio": "CRAIBAS",
+      "latitude": -9.618775,
+      "longitude": -36.7690264,
+      "valor_minimo": 6.889908256880734,
+      "valor_maximo": 6.889908256880734,
+      "valor_medio": 6.889908256880734,
+      "valor_recente": 6.889908256880734,
+      "data_recente": "2026-04-12T10:42:05Z"
     },
     {
       "cnpj": "13478481000197",
@@ -190,11 +190,11 @@
       "municipio": "CRAIBAS",
       "latitude": -9.702018,
       "longitude": -36.794719,
-      "valor_minimo": 6.579979360165119,
-      "valor_maximo": 6.579979360165119,
-      "valor_medio": 6.579979360165119,
-      "valor_recente": 6.579979360165119,
-      "data_recente": "2026-04-12T00:06:40Z"
+      "valor_minimo": 6.580263157894737,
+      "valor_maximo": 6.580263157894737,
+      "valor_medio": 6.580263157894737,
+      "valor_recente": 6.580263157894737,
+      "data_recente": "2026-04-12T08:26:21Z"
     },
     {
       "cnpj": "37919380000172",
@@ -214,7 +214,7 @@
       "valor_maximo": 6.8493150684931505,
       "valor_medio": 6.8493150684931505,
       "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-12T01:35:38Z"
+      "data_recente": "2026-04-12T07:23:56Z"
     },
     {
       "cnpj": "11984917000194",
@@ -230,11 +230,11 @@
       "municipio": "CRAIBAS",
       "latitude": -9.614823,
       "longitude": -36.7690849,
-      "valor_minimo": 6.8914285714285715,
-      "valor_maximo": 6.8914285714285715,
-      "valor_medio": 6.8914285714285715,
-      "valor_recente": 6.8914285714285715,
-      "data_recente": "2026-04-11T23:07:25Z"
+      "valor_minimo": 6.890282131661442,
+      "valor_maximo": 6.890282131661442,
+      "valor_medio": 6.890282131661442,
+      "valor_recente": 6.890282131661442,
+      "data_recente": "2026-04-12T09:52:25Z"
     },
     {
       "cnpj": "16986565000120",
@@ -250,11 +250,11 @@
       "municipio": "CRAIBAS",
       "latitude": -9.618775,
       "longitude": -36.7690264,
-      "valor_minimo": 6.9375,
-      "valor_maximo": 6.9375,
-      "valor_medio": 6.9375,
-      "valor_recente": 6.9375,
-      "data_recente": "2026-04-12T01:03:54Z"
+      "valor_minimo": 6.938461538461539,
+      "valor_maximo": 6.938461538461539,
+      "valor_medio": 6.938461538461539,
+      "valor_recente": 6.938461538461539,
+      "data_recente": "2026-04-12T09:08:59Z"
     },
     {
       "cnpj": "14794278000192",
@@ -270,11 +270,11 @@
       "municipio": "CRAIBAS",
       "latitude": -9.6166065,
       "longitude": -36.7610918,
-      "valor_minimo": 6.9405940594059405,
-      "valor_maximo": 6.9405940594059405,
-      "valor_medio": 6.9405940594059405,
-      "valor_recente": 6.9405940594059405,
-      "data_recente": "2026-04-12T02:32:10Z"
+      "valor_minimo": 6.939953810623557,
+      "valor_maximo": 6.939953810623557,
+      "valor_medio": 6.939953810623557,
+      "valor_recente": 6.939953810623557,
+      "data_recente": "2026-04-12T07:56:23Z"
     },
     {
       "cnpj": "13478481000197",
@@ -314,27 +314,7 @@
       "valor_maximo": 4.988375954832281,
       "valor_medio": 4.988375954832281,
       "valor_recente": 4.988375954832281,
-      "data_recente": "2026-04-12T01:10:14Z"
-    },
-    {
-      "cnpj": "11984917000194",
-      "tipo_combustivel": 3,
-      "razao_social": "JOSE JAMES DA SILVA - ME",
-      "nome_fantasia": "AUTO POSTO MIX",
-      "telefone": "(82) 91229517",
-      "nome_logradouro": "Rua PEDRO GAMA",
-      "numero_imovel": "303",
-      "bairro": "CENTRO",
-      "cep": "57320000",
-      "codigo_ibge": 2702355,
-      "municipio": "CRAIBAS",
-      "latitude": -9.614823,
-      "longitude": -36.7690849,
-      "valor_minimo": 4.989190088142358,
-      "valor_maximo": 4.989190088142358,
-      "valor_medio": 4.989190088142358,
-      "valor_recente": 4.989190088142358,
-      "data_recente": "2026-04-11T23:29:18Z"
+      "data_recente": "2026-04-12T09:01:42Z"
     },
     {
       "cnpj": "14794278000192",
@@ -350,11 +330,31 @@
       "municipio": "CRAIBAS",
       "latitude": -9.6166065,
       "longitude": -36.7610918,
-      "valor_minimo": 4.98984771573604,
-      "valor_maximo": 4.98984771573604,
-      "valor_medio": 4.98984771573604,
-      "valor_recente": 4.98984771573604,
-      "data_recente": "2026-04-12T02:32:10Z"
+      "valor_minimo": 4.990019960079841,
+      "valor_maximo": 4.990019960079841,
+      "valor_medio": 4.990019960079841,
+      "valor_recente": 4.990019960079841,
+      "data_recente": "2026-04-12T07:53:46Z"
+    },
+    {
+      "cnpj": "11984917000194",
+      "tipo_combustivel": 3,
+      "razao_social": "JOSE JAMES DA SILVA - ME",
+      "nome_fantasia": "AUTO POSTO MIX",
+      "telefone": "(82) 91229517",
+      "nome_logradouro": "Rua PEDRO GAMA",
+      "numero_imovel": "303",
+      "bairro": "CENTRO",
+      "cep": "57320000",
+      "codigo_ibge": 2702355,
+      "municipio": "CRAIBAS",
+      "latitude": -9.614823,
+      "longitude": -36.7690849,
+      "valor_minimo": 4.990029910269192,
+      "valor_maximo": 4.990029910269192,
+      "valor_medio": 4.990029910269192,
+      "valor_recente": 4.990029910269192,
+      "data_recente": "2026-04-12T07:50:31Z"
     },
     {
       "cnpj": "17652161000162",
@@ -370,11 +370,11 @@
       "municipio": "CRAIBAS",
       "latitude": -9.702018,
       "longitude": -36.794719,
-      "valor_minimo": 5.089916179832359,
-      "valor_maximo": 5.089916179832359,
-      "valor_medio": 5.089916179832359,
-      "valor_recente": 5.089916179832359,
-      "data_recente": "2026-04-12T00:02:26Z"
+      "valor_minimo": 5.090076335877862,
+      "valor_maximo": 5.090076335877862,
+      "valor_medio": 5.090076335877862,
+      "valor_recente": 5.090076335877862,
+      "data_recente": "2026-04-12T08:26:21Z"
     },
     {
       "cnpj": "37919380000172",
@@ -390,11 +390,11 @@
       "municipio": "CRAIBAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.389092476826902,
-      "valor_maximo": 5.389092476826902,
-      "valor_medio": 5.389092476826902,
-      "valor_recente": 5.389092476826902,
-      "data_recente": "2026-04-12T02:36:22Z"
+      "valor_minimo": 5.385029617662897,
+      "valor_maximo": 5.385029617662897,
+      "valor_medio": 5.385029617662897,
+      "valor_recente": 5.385029617662897,
+      "data_recente": "2026-04-12T10:36:45Z"
     },
     {
       "cnpj": "13478481000197",
@@ -430,11 +430,11 @@
       "municipio": "CRAIBAS",
       "latitude": -9.618775,
       "longitude": -36.7690264,
-      "valor_minimo": 7.189542483660131,
-      "valor_maximo": 7.189542483660131,
-      "valor_medio": 7.189542483660131,
-      "valor_recente": 7.189542483660131,
-      "data_recente": "2026-04-12T01:10:42Z"
+      "valor_minimo": 7.18990811260138,
+      "valor_maximo": 7.18990811260138,
+      "valor_medio": 7.18990811260138,
+      "valor_recente": 7.18990811260138,
+      "data_recente": "2026-04-12T10:41:01Z"
     },
     {
       "cnpj": "37919380000172",
@@ -454,7 +454,7 @@
       "valor_maximo": 7.889546351084813,
       "valor_medio": 7.889546351084813,
       "valor_recente": 7.889546351084813,
-      "data_recente": "2026-04-12T02:36:22Z"
+      "data_recente": "2026-04-12T09:28:22Z"
     },
     {
       "cnpj": "13478481000197",
@@ -470,11 +470,11 @@
       "municipio": "CRAIBAS",
       "latitude": -9.6174088,
       "longitude": -36.76887230000001,
-      "valor_minimo": 6.485772178662673,
-      "valor_maximo": 6.485772178662673,
-      "valor_medio": 6.485772178662673,
-      "valor_recente": 6.485772178662673,
-      "data_recente": "2026-04-12T00:29:13Z"
+      "valor_minimo": 6.949965253648367,
+      "valor_maximo": 6.949965253648367,
+      "valor_medio": 6.949965253648367,
+      "valor_recente": 6.949965253648367,
+      "data_recente": "2026-04-12T10:37:01Z"
     },
     {
       "cnpj": "17652161000162",
@@ -490,11 +490,11 @@
       "municipio": "CRAIBAS",
       "latitude": -9.702018,
       "longitude": -36.794719,
-      "valor_minimo": 7.0500110156422116,
-      "valor_maximo": 7.789375292101574,
-      "valor_medio": 7.419693153871893,
-      "valor_recente": 7.0500110156422116,
-      "data_recente": "2026-04-12T00:02:26Z"
+      "valor_minimo": 7.04990836035528,
+      "valor_maximo": 7.790109034267913,
+      "valor_medio": 7.420008697311596,
+      "valor_recente": 7.04990836035528,
+      "data_recente": "2026-04-12T08:26:21Z"
     },
     {
       "cnpj": "14794278000192",
@@ -511,10 +511,10 @@
       "latitude": -9.6166065,
       "longitude": -36.7610918,
       "valor_minimo": 7.1938775510204085,
-      "valor_maximo": 7.290087463556851,
-      "valor_medio": 7.24198250728863,
-      "valor_recente": 7.290087463556851,
-      "data_recente": "2026-04-12T02:32:10Z"
+      "valor_maximo": 7.289917166523851,
+      "valor_medio": 7.24189735877213,
+      "valor_recente": 7.289917166523851,
+      "data_recente": "2026-04-12T09:46:29Z"
     },
     {
       "cnpj": "37919380000172",
@@ -530,11 +530,11 @@
       "municipio": "CRAIBAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.289988492520138,
-      "valor_maximo": 7.289988492520138,
-      "valor_medio": 7.289988492520138,
-      "valor_recente": 7.289988492520138,
-      "data_recente": "2026-04-12T02:36:22Z"
+      "valor_minimo": 7.289958082741024,
+      "valor_maximo": 7.289958082741024,
+      "valor_medio": 7.289958082741024,
+      "valor_recente": 7.289958082741024,
+      "data_recente": "2026-04-12T08:35:56Z"
     },
     {
       "cnpj": "11984917000194",
