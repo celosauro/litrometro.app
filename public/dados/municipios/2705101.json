@@ -1,55 +1,35 @@
 {
   "codigoIBGE": "2705101",
   "municipio": "Matriz de Camaragibe",
-  "atualizadoEm": "2026-04-11T11:03:22.368Z",
+  "atualizadoEm": "2026-04-13T22:03:16.691Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.499978333405555,
-      "valorMaximo": 6.949270326615705,
-      "valorMedio": 6.7930851966760635
+      "valorMinimo": 6.549646319098769,
+      "valorMaximo": 6.799945600435197,
+      "valorMedio": 6.646459250498142
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.289885738468049,
+      "valorMinimo": 5.289975964937085,
       "valorMaximo": 5.569434239529757,
-      "valorMedio": 5.429659988998903
+      "valorMedio": 5.429705102233421
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 7.549943521058577,
-      "valorMaximo": 7.549943521058577,
-      "valorMedio": 7.549943521058577
+      "valorMinimo": 7.5499789118515395,
+      "valorMaximo": 7.5499789118515395,
+      "valorMedio": 7.5499789118515395
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.149942006959165,
-      "valorMaximo": 8.490038961993678,
-      "valorMedio": 7.819990484476421
+      "valorMinimo": 7.02000702000702,
+      "valorMaximo": 7.15,
+      "valorMedio": 7.08500351000351
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "14638806000114",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO BOM JESUS EIRELI - EPP",
-      "nome_fantasia": "POSTO PADRE CICERO",
-      "telefone": "(82) 99164219",
-      "nome_logradouro": "ROD AL 101 NORTE",
-      "numero_imovel": "S/N",
-      "bairro": "CENTRO",
-      "cep": "57910000",
-      "codigo_ibge": 2705101,
-      "municipio": "MATRIZ DE CAMARAGIBE",
-      "latitude": -9.2430177,
-      "longitude": -35.4899024,
-      "valor_minimo": 6.499978333405555,
-      "valor_maximo": 6.499978333405555,
-      "valor_medio": 6.499978333405555,
-      "valor_recente": 6.499978333405555,
-      "data_recente": "2026-04-10T21:53:14Z"
-    },
     {
       "cnpj": "05988846000103",
       "tipo_combustivel": 1,
@@ -64,11 +44,11 @@
       "municipio": "MATRIZ DE CAMARAGIBE",
       "latitude": -9.2430177,
       "longitude": -35.4899024,
-      "valor_minimo": 6.93000693000693,
-      "valor_maximo": 6.93000693000693,
-      "valor_medio": 6.93000693000693,
-      "valor_recente": 6.93000693000693,
-      "data_recente": "2026-04-10T22:19:38Z"
+      "valor_minimo": 6.549646319098769,
+      "valor_maximo": 6.549646319098769,
+      "valor_medio": 6.549646319098769,
+      "valor_recente": 6.549646319098769,
+      "data_recente": "2026-04-13T14:28:51Z"
     },
     {
       "cnpj": "20031527000190",
@@ -84,11 +64,31 @@
       "municipio": "MATRIZ DE CAMARAGIBE",
       "latitude": -9.1524118,
       "longitude": -35.5261781,
-      "valor_minimo": 6.949270326615705,
-      "valor_maximo": 6.949270326615705,
-      "valor_medio": 6.949270326615705,
-      "valor_recente": 6.949270326615705,
-      "data_recente": "2026-04-10T20:37:28Z"
+      "valor_minimo": 6.589785831960461,
+      "valor_maximo": 6.589785831960461,
+      "valor_medio": 6.589785831960461,
+      "valor_recente": 6.589785831960461,
+      "data_recente": "2026-04-13T14:32:24Z"
+    },
+    {
+      "cnpj": "14638806000114",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO BOM JESUS EIRELI - EPP",
+      "nome_fantasia": "POSTO PADRE CICERO",
+      "telefone": "(82) 99164219",
+      "nome_logradouro": "ROD AL 101 NORTE",
+      "numero_imovel": "S/N",
+      "bairro": "CENTRO",
+      "cep": "57910000",
+      "codigo_ibge": 2705101,
+      "municipio": "MATRIZ DE CAMARAGIBE",
+      "latitude": -9.2430177,
+      "longitude": -35.4899024,
+      "valor_minimo": 6.799945600435197,
+      "valor_maximo": 6.799945600435197,
+      "valor_medio": 6.799945600435197,
+      "valor_recente": 6.799945600435197,
+      "data_recente": "2026-04-13T14:15:33Z"
     },
     {
       "cnpj": "20031527000190",
@@ -104,11 +104,11 @@
       "municipio": "MATRIZ DE CAMARAGIBE",
       "latitude": -9.1524118,
       "longitude": -35.5261781,
-      "valor_minimo": 5.289885738468049,
-      "valor_maximo": 5.289885738468049,
-      "valor_medio": 5.289885738468049,
-      "valor_recente": 5.289885738468049,
-      "data_recente": "2026-04-10T22:16:49Z"
+      "valor_minimo": 5.289975964937085,
+      "valor_maximo": 5.289975964937085,
+      "valor_medio": 5.289975964937085,
+      "valor_recente": 5.289975964937085,
+      "data_recente": "2026-04-13T14:23:45Z"
     },
     {
       "cnpj": "05988846000103",
@@ -145,30 +145,10 @@
       "latitude": -9.2430177,
       "longitude": -35.4899024,
       "valor_minimo": 6.479481641468682,
-      "valor_maximo": 7.549943521058577,
-      "valor_medio": 7.0147125812636295,
-      "valor_recente": 7.549943521058577,
-      "data_recente": "2026-04-10T21:29:00Z"
-    },
-    {
-      "cnpj": "20031527000190",
-      "tipo_combustivel": 5,
-      "razao_social": "POSTO 4X4 COMERCIO DE COMBUSTIVEIS LTDA",
-      "nome_fantasia": "POSTO 4X4",
-      "telefone": "(82) 33286434",
-      "nome_logradouro": "ROD AL 105 NORTE",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57910000",
-      "codigo_ibge": 2705101,
-      "municipio": "MATRIZ DE CAMARAGIBE",
-      "latitude": -9.1524118,
-      "longitude": -35.5261781,
-      "valor_minimo": 7.149942006959165,
-      "valor_maximo": 7.149942006959165,
-      "valor_medio": 7.149942006959165,
-      "valor_recente": 7.149942006959165,
-      "data_recente": "2026-04-10T22:20:14Z"
+      "valor_maximo": 7.5499789118515395,
+      "valor_medio": 7.014730276660111,
+      "valor_recente": 7.5499789118515395,
+      "data_recente": "2026-04-13T14:18:30Z"
     },
     {
       "cnpj": "05988846000103",
@@ -184,11 +164,31 @@
       "municipio": "MATRIZ DE CAMARAGIBE",
       "latitude": -9.2430177,
       "longitude": -35.4899024,
-      "valor_minimo": 8.490038961993678,
-      "valor_maximo": 8.490038961993678,
-      "valor_medio": 8.490038961993678,
-      "valor_recente": 8.490038961993678,
-      "data_recente": "2026-04-10T21:42:00Z"
+      "valor_minimo": 7.02000702000702,
+      "valor_maximo": 7.02000702000702,
+      "valor_medio": 7.02000702000702,
+      "valor_recente": 7.02000702000702,
+      "data_recente": "2026-04-13T14:23:18Z"
+    },
+    {
+      "cnpj": "20031527000190",
+      "tipo_combustivel": 5,
+      "razao_social": "POSTO 4X4 COMERCIO DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "POSTO 4X4",
+      "telefone": "(82) 33286434",
+      "nome_logradouro": "ROD AL 105 NORTE",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57910000",
+      "codigo_ibge": 2705101,
+      "municipio": "MATRIZ DE CAMARAGIBE",
+      "latitude": -9.1524118,
+      "longitude": -35.5261781,
+      "valor_minimo": 7.15,
+      "valor_maximo": 7.15,
+      "valor_medio": 7.15,
+      "valor_recente": 7.15,
+      "data_recente": "2026-04-13T13:45:30Z"
     }
   ]
 }
