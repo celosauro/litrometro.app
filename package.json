@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "collect": "tsx scripts/coletar-precos-json.ts"
+    "collect": "tsx scripts/coletar-precos-json.ts",
+    "geocode": "tsx scripts/geocodificar.ts"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.7",

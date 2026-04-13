@@ -1,0 +1,56 @@
+name: Geocodificar Estabelecimentos
+
+on:
+  # Executa a cada hora (30 minutos após a coleta)
+  schedule:
+    - cron: '30 * * * *'
+  # Permite execução manual
+  workflow_dispatch:
+
+jobs:
+  geocode:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Instalar dependências
+        run: npm ci
+
+      - name: Executar geocodificação
+        run: npm run geocode
+
+      - name: Verificar mudanças
+        id: changes
+        run: |
+          if [[ -n $(git status --porcelain public/dados/) ]]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit e Push dos dados
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add public/dados/
+          git commit -m "chore: atualiza geocodificação [$(date -u +"%Y-%m-%d %H:%M UTC")]"
+          git push
+
+      - name: Log de conclusão
+        run: |
+          echo "Geocodificação concluída em $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+          echo "Mudanças detectadas: ${{ steps.changes.outputs.changed }}"

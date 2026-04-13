@@ -1,4 +1,4 @@
-import { MapPin, Phone, Clock, TrendUp, TrendDown, NavigationArrow, Star } from '@phosphor-icons/react';
+import { MapPin, Phone, Clock, TrendUp, TrendDown, NavigationArrow, Star, MapPinLine } from '@phosphor-icons/react';
 import type { PrecoCombustivelResumo, TipoCombustivel } from '../types';
 import { TIPOS_COMBUSTIVEL, CORES_COMBUSTIVEL } from '../types';
 import { formatarDistancia } from '../utils/distancia';
@@ -44,6 +44,7 @@ export function CardCombustivel({ dados, distancia, isSelected, isMelhor, onClic
   };
 
   const nomeExibicao = dados.nome_fantasia || dados.razao_social;
+  const temCoordenadas = dados.latitude !== 0 && dados.longitude !== 0;
 
   return (
     <div 
@@ -81,8 +82,17 @@ export function CardCombustivel({ dados, distancia, isSelected, isMelhor, onClic
               </span>
             )}
           </div>
-          <p className="text-xs sm:text-sm text-gray-500 truncate" title={dados.municipio}>
-            {dados.municipio}
+          <p className="text-xs sm:text-sm text-gray-500 truncate flex items-center gap-1" title={dados.municipio}>
+            <span>{dados.municipio}</span>
+            {!temCoordenadas && (
+              <span 
+                className="inline-flex items-center gap-0.5 text-[10px] text-orange-600 bg-orange-50 px-1.5 py-0.5 rounded-full"
+                title="Localização indisponível nos dados da SEFAZ"
+              >
+                <MapPinLine size={10} />
+                <span className="hidden sm:inline">Fora do mapa</span>
+              </span>
+            )}
           </p>
         </div>
         <span className={`fuel-badge ${corCombustivel} flex-shrink-0`}>
@@ -141,7 +151,7 @@ export function CardCombustivel({ dados, distancia, isSelected, isMelhor, onClic
       <div className="px-3 pb-3 sm:px-4 sm:pb-4 mt-auto">
         <a
           href={
-            dados.latitude !== 0 && dados.longitude !== 0
+            temCoordenadas
               ? `https://www.google.com/maps/search/?api=1&query=${dados.latitude},${dados.longitude}`
               : `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
                   `${dados.nome_logradouro}, ${dados.numero_imovel}, ${dados.bairro}, ${dados.municipio}, AL`
@@ -151,7 +161,7 @@ export function CardCombustivel({ dados, distancia, isSelected, isMelhor, onClic
           rel="noopener noreferrer"
           className="block w-full text-center btn-secondary text-xs sm:text-sm"
         >
-          Ver no mapa
+          {temCoordenadas ? 'Ver no mapa' : 'Buscar endereço'}
         </a>
       </div>
     </div>
