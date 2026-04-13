@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2701209",
   "municipio": "Cacimbinhas",
-  "atualizadoEm": "2026-04-13T20:12:30.735Z",
+  "atualizadoEm": "2026-04-13T21:43:55.797Z",
   "totalEstabelecimentos": 13,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
       "valorMinimo": 6.750561797752809,
-      "valorMaximo": 6.989748369058714,
-      "valorMedio": 6.863508561350968
+      "valorMaximo": 6.989585517578807,
+      "valorMedio": 6.863501685411954
     },
     "2": {
       "totalPostos": 3,
       "valorMinimo": 6.647058823529412,
-      "valorMaximo": 6.889925885259402,
-      "valorMedio": 6.779016197810467
+      "valorMaximo": 6.89,
+      "valorMedio": 6.779040902724
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 4.661870503597123,
-      "valorMaximo": 5.699990574040909,
-      "valorMedio": 5.118052305797166
+      "valorMinimo": 4.992295839753467,
+      "valorMaximo": 5.989458552946814,
+      "valorMedio": 5.560581655580396
     },
     "5": {
       "totalPostos": 4,
-      "valorMinimo": 7.290044052863436,
-      "valorMaximo": 7.94,
-      "valorMedio": 7.617497425636672
+      "valorMinimo": 7.290046656298601,
+      "valorMaximo": 7.939928272564256,
+      "valorMedio": 7.617480144636526
     }
   },
   "estabelecimentos": [
@@ -64,11 +64,11 @@
       "municipio": "CACIMBINHAS",
       "latitude": -9.3995816,
       "longitude": -36.9267589,
-      "valor_minimo": 6.850215517241379,
-      "valor_maximo": 6.850215517241379,
-      "valor_medio": 6.850215517241379,
-      "valor_recente": 6.850215517241379,
-      "data_recente": "2026-04-13T09:53:24Z"
+      "valor_minimo": 6.850357740904247,
+      "valor_maximo": 6.850357740904247,
+      "valor_medio": 6.850357740904247,
+      "valor_recente": 6.850357740904247,
+      "data_recente": "2026-04-13T14:30:15Z"
     },
     {
       "cnpj": "34745647000164",
@@ -84,11 +84,11 @@
       "municipio": "CACIMBINHAS",
       "latitude": -9.3994992,
       "longitude": -36.9904045,
-      "valor_minimo": 6.989748369058714,
-      "valor_maximo": 6.989748369058714,
-      "valor_medio": 6.989748369058714,
-      "valor_recente": 6.989748369058714,
-      "data_recente": "2026-04-13T09:56:24Z"
+      "valor_minimo": 6.989585517578807,
+      "valor_maximo": 6.989585517578807,
+      "valor_medio": 6.989585517578807,
+      "valor_recente": 6.989585517578807,
+      "data_recente": "2026-04-13T14:21:59Z"
     },
     {
       "cnpj": "11910007000167",
@@ -144,31 +144,11 @@
       "municipio": "CACIMBINHAS",
       "latitude": -9.3995816,
       "longitude": -36.9267589,
-      "valor_minimo": 6.889925885259402,
-      "valor_maximo": 6.889925885259402,
-      "valor_medio": 6.889925885259402,
-      "valor_recente": 6.889925885259402,
-      "data_recente": "2026-04-13T10:02:19Z"
-    },
-    {
-      "cnpj": "34745647000164",
-      "tipo_combustivel": 3,
-      "razao_social": "P. COSTA & FRANÇA LTDA",
-      "nome_fantasia": "AUTO POSTO KELLY BEZERRA - CACIMBINHAS",
-      "telefone": "(82) 82197711",
-      "nome_logradouro": "LOT OLIVEIROS BATALHA DE ARAUJO",
-      "numero_imovel": "SN",
-      "bairro": "CENTRO",
-      "cep": "57570000",
-      "codigo_ibge": 2701209,
-      "municipio": "CACIMBINHAS",
-      "latitude": -9.3994992,
-      "longitude": -36.9904045,
-      "valor_minimo": 4.661870503597123,
-      "valor_maximo": 4.661870503597123,
-      "valor_medio": 4.661870503597123,
-      "valor_recente": 4.661870503597123,
-      "data_recente": "2026-04-13T01:00:18Z"
+      "valor_minimo": 6.89,
+      "valor_maximo": 6.89,
+      "valor_medio": 6.89,
+      "valor_recente": 6.89,
+      "data_recente": "2026-04-13T14:00:12Z"
     },
     {
       "cnpj": "13631547000137",
@@ -211,6 +191,26 @@
       "data_recente": "2026-04-10T12:19:44Z"
     },
     {
+      "cnpj": "34745647000164",
+      "tipo_combustivel": 3,
+      "razao_social": "P. COSTA & FRANÇA LTDA",
+      "nome_fantasia": "AUTO POSTO KELLY BEZERRA - CACIMBINHAS",
+      "telefone": "(82) 82197711",
+      "nome_logradouro": "LOT OLIVEIROS BATALHA DE ARAUJO",
+      "numero_imovel": "SN",
+      "bairro": "CENTRO",
+      "cep": "57570000",
+      "codigo_ibge": 2701209,
+      "municipio": "CACIMBINHAS",
+      "latitude": -9.3994992,
+      "longitude": -36.9904045,
+      "valor_minimo": 5.989458552946814,
+      "valor_maximo": 5.989458552946814,
+      "valor_medio": 5.989458552946814,
+      "valor_recente": 5.989458552946814,
+      "data_recente": "2026-04-13T12:53:44Z"
+    },
+    {
       "cnpj": "13631547000137",
       "tipo_combustivel": 5,
       "razao_social": "AUTO POSTO MINADOR LTDA",
@@ -224,11 +224,11 @@
       "municipio": "CACIMBINHAS",
       "latitude": -9.3995816,
       "longitude": -36.9267589,
-      "valor_minimo": 7.290044052863436,
-      "valor_maximo": 7.290044052863436,
-      "valor_medio": 7.290044052863436,
-      "valor_recente": 7.290044052863436,
-      "data_recente": "2026-04-13T09:34:18Z"
+      "valor_minimo": 7.290046656298601,
+      "valor_maximo": 7.290046656298601,
+      "valor_medio": 7.290046656298601,
+      "valor_recente": 7.290046656298601,
+      "data_recente": "2026-04-13T14:26:46Z"
     },
     {
       "cnpj": "05560272000160",
@@ -284,11 +284,11 @@
       "municipio": "CACIMBINHAS",
       "latitude": -9.3994992,
       "longitude": -36.9904045,
-      "valor_minimo": 7.94,
-      "valor_maximo": 7.94,
-      "valor_medio": 7.94,
-      "valor_recente": 7.94,
-      "data_recente": "2026-04-13T09:30:44Z"
+      "valor_minimo": 7.939928272564256,
+      "valor_maximo": 7.939928272564256,
+      "valor_medio": 7.939928272564256,
+      "valor_recente": 7.939928272564256,
+      "data_recente": "2026-04-13T13:37:00Z"
     }
   ]
 }

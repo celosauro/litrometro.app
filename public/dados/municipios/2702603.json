@@ -1,20 +1,20 @@
 {
   "codigoIBGE": "2702603",
   "municipio": "Feira Grande",
-  "atualizadoEm": "2026-04-13T20:21:09.281Z",
+  "atualizadoEm": "2026-04-13T21:51:33.597Z",
   "totalEstabelecimentos": 7,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.8493150684931505,
-      "valorMaximo": 6.849829351535837,
-      "valorMedio": 6.849572210014493
+      "valorMinimo": 6.849829351535837,
+      "valorMaximo": 6.850253459377997,
+      "valorMedio": 6.850041405456917
     },
     "2": {
       "totalPostos": 2,
       "valorMinimo": 6.9,
-      "valorMaximo": 6.901311249137336,
-      "valorMedio": 6.900655624568668
+      "valorMaximo": 6.900608519269777,
+      "valorMedio": 6.900304259634888
     },
     "3": {
       "totalPostos": 1,
@@ -24,9 +24,9 @@
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 7.289996042573577,
-      "valorMaximo": 7.289996042573577,
-      "valorMedio": 7.289996042573577
+      "valorMinimo": 7.289863663307647,
+      "valorMaximo": 7.289863663307647,
+      "valorMedio": 7.289863663307647
     },
     "5": {
       "totalPostos": 1,
@@ -36,26 +36,6 @@
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "07826783000106",
-      "tipo_combustivel": 1,
-      "razao_social": "OLIVEIRA & GOMES LTDA EPP",
-      "nome_fantasia": "AUTO POSTO NOSSA SENHORA DE FATIMA",
-      "telefone": "(82) 34212580",
-      "nome_logradouro": "Rua FRANCISCO JOSE GONCALVES",
-      "numero_imovel": "28",
-      "bairro": "CENTRO",
-      "cep": "57340000",
-      "codigo_ibge": 2702603,
-      "municipio": "FEIRA GRANDE",
-      "latitude": -9.8986249,
-      "longitude": -36.6776837,
-      "valor_minimo": 6.8493150684931505,
-      "valor_maximo": 6.8493150684931505,
-      "valor_medio": 6.8493150684931505,
-      "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-13T00:53:42Z"
-    },
     {
       "cnpj": "05769126000149",
       "tipo_combustivel": 1,
@@ -75,6 +55,26 @@
       "valor_medio": 6.849829351535837,
       "valor_recente": 6.849829351535837,
       "data_recente": "2026-04-12T23:54:12Z"
+    },
+    {
+      "cnpj": "07826783000106",
+      "tipo_combustivel": 1,
+      "razao_social": "OLIVEIRA & GOMES LTDA EPP",
+      "nome_fantasia": "AUTO POSTO NOSSA SENHORA DE FATIMA",
+      "telefone": "(82) 34212580",
+      "nome_logradouro": "Rua FRANCISCO JOSE GONCALVES",
+      "numero_imovel": "28",
+      "bairro": "CENTRO",
+      "cep": "57340000",
+      "codigo_ibge": 2702603,
+      "municipio": "FEIRA GRANDE",
+      "latitude": -9.8986249,
+      "longitude": -36.6776837,
+      "valor_minimo": 6.850253459377997,
+      "valor_maximo": 6.850253459377997,
+      "valor_medio": 6.850253459377997,
+      "valor_recente": 6.850253459377997,
+      "data_recente": "2026-04-13T13:35:37Z"
     },
     {
       "cnpj": "05769126000149",
@@ -110,11 +110,11 @@
       "municipio": "FEIRA GRANDE",
       "latitude": -9.8986249,
       "longitude": -36.6776837,
-      "valor_minimo": 6.901311249137336,
-      "valor_maximo": 6.901311249137336,
-      "valor_medio": 6.901311249137336,
-      "valor_recente": 6.901311249137336,
-      "data_recente": "2026-04-13T00:53:14Z"
+      "valor_minimo": 6.900608519269777,
+      "valor_maximo": 6.900608519269777,
+      "valor_medio": 6.900608519269777,
+      "valor_recente": 6.900608519269777,
+      "data_recente": "2026-04-13T11:18:46Z"
     },
     {
       "cnpj": "05769126000149",
@@ -150,11 +150,11 @@
       "municipio": "FEIRA GRANDE",
       "latitude": -9.8986249,
       "longitude": -36.6776837,
-      "valor_minimo": 7.289996042573577,
-      "valor_maximo": 7.289996042573577,
-      "valor_medio": 7.289996042573577,
-      "valor_recente": 7.289996042573577,
-      "data_recente": "2026-04-13T08:56:21Z"
+      "valor_minimo": 7.289863663307647,
+      "valor_maximo": 7.289863663307647,
+      "valor_medio": 7.289863663307647,
+      "valor_recente": 7.289863663307647,
+      "data_recente": "2026-04-13T14:12:02Z"
     },
     {
       "cnpj": "05769126000149",

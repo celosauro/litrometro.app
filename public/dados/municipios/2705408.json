@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2705408",
   "municipio": "Monteirópolis",
-  "atualizadoEm": "2026-04-13T20:34:33.595Z",
+  "atualizadoEm": "2026-04-13T22:04:50.922Z",
   "totalEstabelecimentos": 6,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.840136054421769,
+      "valorMinimo": 6.8406337371854615,
       "valorMaximo": 6.989748369058714,
-      "valorMedio": 6.914942211740241
+      "valorMedio": 6.915191053122088
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 6.839131727624145,
-      "valorMaximo": 6.839131727624145,
-      "valorMedio": 6.839131727624145
+      "valorMinimo": 6.839945280437757,
+      "valorMaximo": 6.839945280437757,
+      "valorMedio": 6.839945280437757
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.289955696621041,
-      "valorMaximo": 5.289955696621041,
-      "valorMedio": 5.289955696621041
+      "valorMinimo": 5.289139633286319,
+      "valorMaximo": 5.289139633286319,
+      "valorMedio": 5.289139633286319
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.142857142857143,
-      "valorMaximo": 7.35023888276369,
-      "valorMedio": 7.2465480128104165
+      "valorMinimo": 7.35023888276369,
+      "valorMaximo": 7.8901688496133815,
+      "valorMedio": 7.620203866188536
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "MONTEIROPOLIS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.840136054421769,
-      "valor_maximo": 6.840136054421769,
-      "valor_medio": 6.840136054421769,
-      "valor_recente": 6.840136054421769,
-      "data_recente": "2026-04-13T09:38:38Z"
+      "valor_minimo": 6.8406337371854615,
+      "valor_maximo": 6.8406337371854615,
+      "valor_medio": 6.8406337371854615,
+      "valor_recente": 6.8406337371854615,
+      "data_recente": "2026-04-13T14:24:06Z"
     },
     {
       "cnpj": "17303640000173",
@@ -68,7 +68,7 @@
       "valor_maximo": 6.989748369058714,
       "valor_medio": 6.989748369058714,
       "valor_recente": 6.989748369058714,
-      "data_recente": "2026-04-13T09:39:03Z"
+      "data_recente": "2026-04-13T14:25:10Z"
     },
     {
       "cnpj": "36009881000159",
@@ -84,11 +84,11 @@
       "municipio": "MONTEIROPOLIS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.839131727624145,
-      "valor_maximo": 6.839131727624145,
-      "valor_medio": 6.839131727624145,
-      "valor_recente": 6.839131727624145,
-      "data_recente": "2026-04-13T09:47:23Z"
+      "valor_minimo": 6.839945280437757,
+      "valor_maximo": 6.839945280437757,
+      "valor_medio": 6.839945280437757,
+      "valor_recente": 6.839945280437757,
+      "data_recente": "2026-04-13T13:55:56Z"
     },
     {
       "cnpj": "36009881000159",
@@ -104,31 +104,11 @@
       "municipio": "MONTEIROPOLIS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.289955696621041,
-      "valor_maximo": 5.289955696621041,
-      "valor_medio": 5.289955696621041,
-      "valor_recente": 5.289955696621041,
-      "data_recente": "2026-04-13T09:37:23Z"
-    },
-    {
-      "cnpj": "17303640000173",
-      "tipo_combustivel": 5,
-      "razao_social": "SEMAN COMERCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA.",
-      "nome_fantasia": "AUTO POSTO MONTEIROPOLIS",
-      "telefone": "(82) 36281171",
-      "nome_logradouro": "ROD AL 220",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57440000",
-      "codigo_ibge": 2705408,
-      "municipio": "MONTEIROPOLIS",
-      "latitude": -9.5936867,
-      "longitude": -37.2383001,
-      "valor_minimo": 7.142857142857143,
-      "valor_maximo": 7.142857142857143,
-      "valor_medio": 7.142857142857143,
-      "valor_recente": 7.142857142857143,
-      "data_recente": "2026-04-13T09:14:20Z"
+      "valor_minimo": 5.289139633286319,
+      "valor_maximo": 5.289139633286319,
+      "valor_medio": 5.289139633286319,
+      "valor_recente": 5.289139633286319,
+      "data_recente": "2026-04-13T13:55:56Z"
     },
     {
       "cnpj": "36009881000159",
@@ -148,7 +128,27 @@
       "valor_maximo": 7.35023888276369,
       "valor_medio": 7.349968772559267,
       "valor_recente": 7.35023888276369,
-      "data_recente": "2026-04-12T16:58:21Z"
+      "data_recente": "2026-04-13T13:55:56Z"
+    },
+    {
+      "cnpj": "17303640000173",
+      "tipo_combustivel": 5,
+      "razao_social": "SEMAN COMERCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA.",
+      "nome_fantasia": "AUTO POSTO MONTEIROPOLIS",
+      "telefone": "(82) 36281171",
+      "nome_logradouro": "ROD AL 220",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57440000",
+      "codigo_ibge": 2705408,
+      "municipio": "MONTEIROPOLIS",
+      "latitude": -9.5936867,
+      "longitude": -37.2383001,
+      "valor_minimo": 7.8901688496133815,
+      "valor_maximo": 7.8901688496133815,
+      "valor_medio": 7.8901688496133815,
+      "valor_recente": 7.8901688496133815,
+      "data_recente": "2026-04-13T13:57:17Z"
     }
   ]
 }

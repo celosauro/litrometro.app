@@ -1,55 +1,35 @@
 {
   "codigoIBGE": "2707206",
   "municipio": "Poço das Trincheiras",
-  "atualizadoEm": "2026-04-13T20:42:52.467Z",
+  "atualizadoEm": "2026-04-13T22:12:55.488Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.968641114982578,
-      "valorMaximo": 6.986111111111111,
-      "valorMedio": 6.974922811183039
+      "valorMinimo": 6.9696124895455815,
+      "valorMaximo": 6.993055555555555,
+      "valorMedio": 6.977642756049821
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 6.979341150195421,
-      "valorMaximo": 6.979341150195421,
-      "valorMedio": 6.979341150195421
+      "valorMinimo": 6.9799906933457425,
+      "valorMaximo": 6.9799906933457425,
+      "valorMedio": 6.9799906933457425
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.651685393258427,
-      "valorMaximo": 5.651685393258427,
-      "valorMedio": 5.651685393258427
+      "valorMinimo": 5.311087756174461,
+      "valorMaximo": 5.311087756174461,
+      "valorMedio": 5.311087756174461
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.39,
-      "valorMaximo": 7.799220272904483,
-      "valorMedio": 7.656645223161007
+      "valorMinimo": 7.799703611262772,
+      "valorMaximo": 7.98961350244682,
+      "valorMedio": 7.863108304572464
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "09025340000141",
-      "tipo_combustivel": 1,
-      "razao_social": "FERREIRA E SANTOS AUTO POSTO LTDA - ME",
-      "nome_fantasia": "AUTO POSTO SAO SEBASTIAO",
-      "telefone": "(82) 99925114",
-      "nome_logradouro": "ROD AL 130",
-      "numero_imovel": "S/N",
-      "bairro": "PREFEITO JOSE MEDEIROS",
-      "cep": "57510000",
-      "codigo_ibge": 2707206,
-      "municipio": "POCO DAS TRINCHEIRAS",
-      "latitude": -9.3063022,
-      "longitude": -37.2854321,
-      "valor_minimo": 6.968641114982578,
-      "valor_maximo": 6.968641114982578,
-      "valor_medio": 6.968641114982578,
-      "valor_recente": 6.968641114982578,
-      "data_recente": "2026-04-12T21:27:01Z"
-    },
     {
       "cnpj": "08886737000165",
       "tipo_combustivel": 1,
@@ -64,11 +44,31 @@
       "municipio": "POCO DAS TRINCHEIRAS",
       "latitude": -9.3237539,
       "longitude": -37.30406809999999,
-      "valor_minimo": 6.97001620745543,
-      "valor_maximo": 6.97001620745543,
-      "valor_medio": 6.97001620745543,
-      "valor_recente": 6.97001620745543,
-      "data_recente": "2026-04-13T09:53:21Z"
+      "valor_minimo": 6.9696124895455815,
+      "valor_maximo": 6.9696124895455815,
+      "valor_medio": 6.9696124895455815,
+      "valor_recente": 6.9696124895455815,
+      "data_recente": "2026-04-13T14:28:22Z"
+    },
+    {
+      "cnpj": "09025340000141",
+      "tipo_combustivel": 1,
+      "razao_social": "FERREIRA E SANTOS AUTO POSTO LTDA - ME",
+      "nome_fantasia": "AUTO POSTO SAO SEBASTIAO",
+      "telefone": "(82) 99925114",
+      "nome_logradouro": "ROD AL 130",
+      "numero_imovel": "S/N",
+      "bairro": "PREFEITO JOSE MEDEIROS",
+      "cep": "57510000",
+      "codigo_ibge": 2707206,
+      "municipio": "POCO DAS TRINCHEIRAS",
+      "latitude": -9.3063022,
+      "longitude": -37.2854321,
+      "valor_minimo": 6.970260223048327,
+      "valor_maximo": 6.970260223048327,
+      "valor_medio": 6.970260223048327,
+      "valor_recente": 6.970260223048327,
+      "data_recente": "2026-04-13T14:04:29Z"
     },
     {
       "cnpj": "29720522000140",
@@ -84,11 +84,11 @@
       "municipio": "POCO DAS TRINCHEIRAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.986111111111111,
-      "valor_maximo": 6.986111111111111,
-      "valor_medio": 6.986111111111111,
-      "valor_recente": 6.986111111111111,
-      "data_recente": "2026-04-13T09:23:19Z"
+      "valor_minimo": 6.993055555555555,
+      "valor_maximo": 6.993055555555555,
+      "valor_medio": 6.993055555555555,
+      "valor_recente": 6.993055555555555,
+      "data_recente": "2026-04-13T14:22:51Z"
     },
     {
       "cnpj": "09025340000141",
@@ -104,11 +104,11 @@
       "municipio": "POCO DAS TRINCHEIRAS",
       "latitude": -9.3063022,
       "longitude": -37.2854321,
-      "valor_minimo": 6.979341150195421,
-      "valor_maximo": 6.979341150195421,
-      "valor_medio": 6.979341150195421,
-      "valor_recente": 6.979341150195421,
-      "data_recente": "2026-04-12T21:27:01Z"
+      "valor_minimo": 6.9799906933457425,
+      "valor_maximo": 6.9799906933457425,
+      "valor_medio": 6.9799906933457425,
+      "valor_recente": 6.9799906933457425,
+      "data_recente": "2026-04-13T14:06:31Z"
     },
     {
       "cnpj": "08886737000165",
@@ -124,51 +124,11 @@
       "municipio": "POCO DAS TRINCHEIRAS",
       "latitude": -9.3237539,
       "longitude": -37.30406809999999,
-      "valor_minimo": 5.651685393258427,
-      "valor_maximo": 5.651685393258427,
-      "valor_medio": 5.651685393258427,
-      "valor_recente": 5.651685393258427,
-      "data_recente": "2026-04-13T07:05:02Z"
-    },
-    {
-      "cnpj": "08886737000165",
-      "tipo_combustivel": 5,
-      "razao_social": "COMÉRCIO DE COMBUSTÍVEIS NOSSA SENHORA DE FÁTIMA LTDA.",
-      "nome_fantasia": "AUTO POSTO NOSSA SENHORA DE FATIMA",
-      "telefone": "",
-      "nome_logradouro": "RDV BR 316",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57510000",
-      "codigo_ibge": 2707206,
-      "municipio": "POCO DAS TRINCHEIRAS",
-      "latitude": -9.3237539,
-      "longitude": -37.30406809999999,
-      "valor_minimo": 7.39,
-      "valor_maximo": 7.39,
-      "valor_medio": 7.39,
-      "valor_recente": 7.39,
-      "data_recente": "2026-04-13T09:39:05Z"
-    },
-    {
-      "cnpj": "29720522000140",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO DOIS AMIGOS LTDA.",
-      "nome_fantasia": "AUTO POSTO DOIS AMIGOS",
-      "telefone": "(82) 36266524",
-      "nome_logradouro": "SIT PEDRA DA BOLA",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57510000",
-      "codigo_ibge": 2707206,
-      "municipio": "POCO DAS TRINCHEIRAS",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.780715396578538,
-      "valor_maximo": 7.780715396578538,
-      "valor_medio": 7.780715396578538,
-      "valor_recente": 7.780715396578538,
-      "data_recente": "2026-04-13T09:35:18Z"
+      "valor_minimo": 5.311087756174461,
+      "valor_maximo": 5.311087756174461,
+      "valor_medio": 5.311087756174461,
+      "valor_recente": 5.311087756174461,
+      "data_recente": "2026-04-13T13:34:04Z"
     },
     {
       "cnpj": "09025340000141",
@@ -184,11 +144,51 @@
       "municipio": "POCO DAS TRINCHEIRAS",
       "latitude": -9.3063022,
       "longitude": -37.2854321,
-      "valor_minimo": 7.799220272904483,
-      "valor_maximo": 7.799220272904483,
-      "valor_medio": 7.799220272904483,
-      "valor_recente": 7.799220272904483,
-      "data_recente": "2026-04-12T21:26:30Z"
+      "valor_minimo": 7.799703611262772,
+      "valor_maximo": 7.799703611262772,
+      "valor_medio": 7.799703611262772,
+      "valor_recente": 7.799703611262772,
+      "data_recente": "2026-04-13T14:04:29Z"
+    },
+    {
+      "cnpj": "08886737000165",
+      "tipo_combustivel": 5,
+      "razao_social": "COMÉRCIO DE COMBUSTÍVEIS NOSSA SENHORA DE FÁTIMA LTDA.",
+      "nome_fantasia": "AUTO POSTO NOSSA SENHORA DE FATIMA",
+      "telefone": "",
+      "nome_logradouro": "RDV BR 316",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57510000",
+      "codigo_ibge": 2707206,
+      "municipio": "POCO DAS TRINCHEIRAS",
+      "latitude": -9.3237539,
+      "longitude": -37.30406809999999,
+      "valor_minimo": 7.8000078000078,
+      "valor_maximo": 7.8000078000078,
+      "valor_medio": 7.8000078000078,
+      "valor_recente": 7.8000078000078,
+      "data_recente": "2026-04-13T14:08:43Z"
+    },
+    {
+      "cnpj": "29720522000140",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO DOIS AMIGOS LTDA.",
+      "nome_fantasia": "AUTO POSTO DOIS AMIGOS",
+      "telefone": "(82) 36266524",
+      "nome_logradouro": "SIT PEDRA DA BOLA",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57510000",
+      "codigo_ibge": 2707206,
+      "municipio": "POCO DAS TRINCHEIRAS",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.98961350244682,
+      "valor_maximo": 7.98961350244682,
+      "valor_medio": 7.98961350244682,
+      "valor_recente": 7.98961350244682,
+      "data_recente": "2026-04-13T12:21:29Z"
     }
   ]
 }

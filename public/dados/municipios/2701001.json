@@ -1,38 +1,38 @@
 {
   "codigoIBGE": "2701001",
   "municipio": "Boca da Mata",
-  "atualizadoEm": "2026-04-13T20:11:25.530Z",
+  "atualizadoEm": "2026-04-13T21:43:01.571Z",
   "totalEstabelecimentos": 13,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
-      "valorMinimo": 6.669334400426838,
-      "valorMaximo": 6.949270326615705,
-      "valorMedio": 6.799602889550835
+      "valorMinimo": 6.64,
+      "valorMaximo": 6.79001867255135,
+      "valorMedio": 6.72166447693221
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.02046783625731,
-      "valorMaximo": 7.02046783625731,
-      "valorMedio": 7.02046783625731
+      "valorMinimo": 7.02000702000702,
+      "valorMaximo": 7.02000702000702,
+      "valorMedio": 7.02000702000702
     },
     "3": {
       "totalPostos": 4,
-      "valorMinimo": 5.499037668408029,
-      "valorMaximo": 5.689981365311029,
-      "valorMedio": 5.594716115252895
+      "valorMinimo": 5.472527472527473,
+      "valorMaximo": 5.690159003008165,
+      "valorMedio": 5.588157257346671
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 7.25,
-      "valorMaximo": 7.25,
-      "valorMedio": 7.25
+      "valorMinimo": 7.250062266500622,
+      "valorMaximo": 7.250062266500622,
+      "valorMedio": 7.250062266500622
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.370011423517706,
-      "valorMaximo": 7.739965492190338,
-      "valorMedio": 7.513132473636213
+      "valorMinimo": 7.370283018867925,
+      "valorMaximo": 7.74,
+      "valorMedio": 7.6167092669674235
     }
   },
   "estabelecimentos": [
@@ -50,51 +50,11 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.663338,
       "longitude": -36.084506,
-      "valor_minimo": 6.669334400426838,
-      "valor_maximo": 6.669334400426838,
-      "valor_medio": 6.669334400426838,
-      "valor_recente": 6.669334400426838,
-      "data_recente": "2026-04-13T09:51:39Z"
-    },
-    {
-      "cnpj": "02681327000100",
-      "tipo_combustivel": 1,
-      "razao_social": "POSTO PADRE CÍCERO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
-      "nome_fantasia": "AUTO POSTO PADRE CICERO",
-      "telefone": "(82) 2791366",
-      "nome_logradouro": "Rua JOSE ROBERTO",
-      "numero_imovel": "24",
-      "bairro": "CENTRO",
-      "cep": "57680000",
-      "codigo_ibge": 2701001,
-      "municipio": "BOCA DA MATA",
-      "latitude": -9.644614,
-      "longitude": -36.214373,
-      "valor_minimo": 6.7897881586094515,
-      "valor_maximo": 6.7897881586094515,
-      "valor_medio": 6.7897881586094515,
-      "valor_recente": 6.7897881586094515,
-      "data_recente": "2026-04-13T09:50:19Z"
-    },
-    {
-      "cnpj": "02970015000108",
-      "tipo_combustivel": 1,
-      "razao_social": "DANIELLE TOLEDO GOMES TENORIO COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
-      "nome_fantasia": "POSTO SAFRA",
-      "telefone": "(82) 2791366",
-      "nome_logradouro": "RDV AL 215  KM 056",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57680000",
-      "codigo_ibge": 2701001,
-      "municipio": "BOCA DA MATA",
-      "latitude": -9.637674,
-      "longitude": -36.21101,
-      "valor_minimo": 6.79001867255135,
-      "valor_maximo": 6.79001867255135,
-      "valor_medio": 6.79001867255135,
-      "valor_recente": 6.79001867255135,
-      "data_recente": "2026-04-13T10:04:25Z"
+      "valor_minimo": 6.64,
+      "valor_maximo": 6.64,
+      "valor_medio": 6.64,
+      "valor_recente": 6.64,
+      "data_recente": "2026-04-13T13:56:46Z"
     },
     {
       "cnpj": "23768811000132",
@@ -110,11 +70,51 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.6482528,
       "longitude": -36.2126435,
-      "valor_minimo": 6.949270326615705,
-      "valor_maximo": 6.949270326615705,
-      "valor_medio": 6.949270326615705,
-      "valor_recente": 6.949270326615705,
-      "data_recente": "2026-04-13T09:11:06Z"
+      "valor_minimo": 6.666666666666667,
+      "valor_maximo": 6.666666666666667,
+      "valor_medio": 6.666666666666667,
+      "valor_recente": 6.666666666666667,
+      "data_recente": "2026-04-13T13:10:08Z"
+    },
+    {
+      "cnpj": "02970015000108",
+      "tipo_combustivel": 1,
+      "razao_social": "DANIELLE TOLEDO GOMES TENORIO COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+      "nome_fantasia": "POSTO SAFRA",
+      "telefone": "(82) 2791366",
+      "nome_logradouro": "RDV AL 215  KM 056",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57680000",
+      "codigo_ibge": 2701001,
+      "municipio": "BOCA DA MATA",
+      "latitude": -9.637674,
+      "longitude": -36.21101,
+      "valor_minimo": 6.789972568510823,
+      "valor_maximo": 6.789972568510823,
+      "valor_medio": 6.789972568510823,
+      "valor_recente": 6.789972568510823,
+      "data_recente": "2026-04-13T14:20:17Z"
+    },
+    {
+      "cnpj": "02681327000100",
+      "tipo_combustivel": 1,
+      "razao_social": "POSTO PADRE CÍCERO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+      "nome_fantasia": "AUTO POSTO PADRE CICERO",
+      "telefone": "(82) 2791366",
+      "nome_logradouro": "Rua JOSE ROBERTO",
+      "numero_imovel": "24",
+      "bairro": "CENTRO",
+      "cep": "57680000",
+      "codigo_ibge": 2701001,
+      "municipio": "BOCA DA MATA",
+      "latitude": -9.644614,
+      "longitude": -36.214373,
+      "valor_minimo": 6.79001867255135,
+      "valor_maximo": 6.79001867255135,
+      "valor_medio": 6.79001867255135,
+      "valor_recente": 6.79001867255135,
+      "data_recente": "2026-04-13T13:28:16Z"
     },
     {
       "cnpj": "02681327000100",
@@ -130,11 +130,11 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.644614,
       "longitude": -36.214373,
-      "valor_minimo": 7.02046783625731,
-      "valor_maximo": 7.02046783625731,
-      "valor_medio": 7.02046783625731,
-      "valor_recente": 7.02046783625731,
-      "data_recente": "2026-04-13T00:39:42Z"
+      "valor_minimo": 7.02000702000702,
+      "valor_maximo": 7.02000702000702,
+      "valor_medio": 7.02000702000702,
+      "valor_recente": 7.02000702000702,
+      "data_recente": "2026-04-13T14:25:52Z"
     },
     {
       "cnpj": "31122428000130",
@@ -150,11 +150,11 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.663338,
       "longitude": -36.084506,
-      "valor_minimo": 5.499037668408029,
-      "valor_maximo": 5.499037668408029,
-      "valor_medio": 5.499037668408029,
-      "valor_recente": 5.499037668408029,
-      "data_recente": "2026-04-12T20:45:13Z"
+      "valor_minimo": 5.472527472527473,
+      "valor_maximo": 5.472527472527473,
+      "valor_medio": 5.472527472527473,
+      "valor_recente": 5.472527472527473,
+      "data_recente": "2026-04-13T13:56:46Z"
     },
     {
       "cnpj": "23768811000132",
@@ -190,11 +190,11 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.637674,
       "longitude": -36.21101,
-      "valor_minimo": 5.689900426742532,
-      "valor_maximo": 5.689900426742532,
-      "valor_medio": 5.689900426742532,
-      "valor_recente": 5.689900426742532,
-      "data_recente": "2026-04-13T08:08:53Z"
+      "valor_minimo": 5.689997553301052,
+      "valor_maximo": 5.689997553301052,
+      "valor_medio": 5.689997553301052,
+      "valor_recente": 5.689997553301052,
+      "data_recente": "2026-04-13T14:16:28Z"
     },
     {
       "cnpj": "02681327000100",
@@ -210,11 +210,11 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.644614,
       "longitude": -36.214373,
-      "valor_minimo": 5.689981365311029,
-      "valor_maximo": 5.689981365311029,
-      "valor_medio": 5.689981365311029,
-      "valor_recente": 5.689981365311029,
-      "data_recente": "2026-04-13T00:48:38Z"
+      "valor_minimo": 5.690159003008165,
+      "valor_maximo": 5.690159003008165,
+      "valor_medio": 5.690159003008165,
+      "valor_recente": 5.690159003008165,
+      "data_recente": "2026-04-13T12:00:31Z"
     },
     {
       "cnpj": "02970015000108",
@@ -230,11 +230,11 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.637674,
       "longitude": -36.21101,
-      "valor_minimo": 7.25,
-      "valor_maximo": 7.25,
-      "valor_medio": 7.25,
-      "valor_recente": 7.25,
-      "data_recente": "2026-04-13T09:49:57Z"
+      "valor_minimo": 7.250062266500622,
+      "valor_maximo": 7.250062266500622,
+      "valor_medio": 7.250062266500622,
+      "valor_recente": 7.250062266500622,
+      "data_recente": "2026-04-13T13:29:03Z"
     },
     {
       "cnpj": "02681327000100",
@@ -250,11 +250,11 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.644614,
       "longitude": -36.214373,
-      "valor_minimo": 7.370011423517706,
-      "valor_maximo": 7.370011423517706,
-      "valor_medio": 7.370011423517706,
-      "valor_recente": 7.370011423517706,
-      "data_recente": "2026-04-13T09:15:43Z"
+      "valor_minimo": 7.370283018867925,
+      "valor_maximo": 7.370283018867925,
+      "valor_medio": 7.370283018867925,
+      "valor_recente": 7.370283018867925,
+      "data_recente": "2026-04-13T13:30:20Z"
     },
     {
       "cnpj": "31122428000130",
@@ -270,11 +270,11 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.663338,
       "longitude": -36.084506,
-      "valor_minimo": 7.429420505200595,
-      "valor_maximo": 7.429420505200595,
-      "valor_medio": 7.429420505200595,
-      "valor_recente": 7.429420505200595,
-      "data_recente": "2026-04-12T20:45:13Z"
+      "valor_minimo": 7.739844782034346,
+      "valor_maximo": 7.739844782034346,
+      "valor_medio": 7.739844782034346,
+      "valor_recente": 7.739844782034346,
+      "data_recente": "2026-04-13T14:29:14Z"
     },
     {
       "cnpj": "23768811000132",
@@ -290,11 +290,11 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.6482528,
       "longitude": -36.2126435,
-      "valor_minimo": 7.739965492190338,
-      "valor_maximo": 7.739965492190338,
-      "valor_medio": 7.739965492190338,
-      "valor_recente": 7.739965492190338,
-      "data_recente": "2026-04-13T10:02:51Z"
+      "valor_minimo": 7.74,
+      "valor_maximo": 7.74,
+      "valor_medio": 7.74,
+      "valor_recente": 7.74,
+      "data_recente": "2026-04-13T14:32:30Z"
     }
   ]
 }
