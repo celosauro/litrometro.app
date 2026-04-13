@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo, useEffect, useRef } from 'react';
 import { GasPump, MagnifyingGlass, ArrowsClockwise, Crosshair, List, X } from '@phosphor-icons/react';
 import { usePrecosCombustiveis } from '../hooks/usePrecosCombustiveis';
 import { useGeolocalizacao } from '../hooks/useGeolocalizacao';
@@ -25,6 +25,9 @@ export default function HomePage() {
   const [mostrarStatusLocalizacao, setMostrarStatusLocalizacao] = useState(true);
   const [estabelecimentoSelecionado, setEstabelecimentoSelecionado] = useState<DadosComDistancia | null>(null);
   const [mostrarListaMobile, setMostrarListaMobile] = useState(false);
+  
+  // Ref para controlar se a localização já foi aplicada ao município
+  const localizacaoAplicadaRef = useRef(false);
 
   const { dados, carregando, erro, recarregar } = usePrecosCombustiveis({
     tipoCombustivel: tipoCombustivelSelecionado,
@@ -56,8 +59,11 @@ export default function HomePage() {
     }
   }, [localizacao, erroLocalizacao]);
 
-  // Atualiza município baseado na localização do usuário
+  // Atualiza município baseado na localização do usuário (apenas na primeira vez)
   useEffect(() => {
+    // Só aplica a localização uma vez para não sobrescrever seleção manual
+    if (localizacaoAplicadaRef.current) return;
+    
     if (localizacao && dados && dados.length > 0) {
       let menorDistancia = Infinity;
       let municipioMaisProximo = CODIGO_MACEIO;
@@ -78,6 +84,7 @@ export default function HomePage() {
       }
 
       setMunicipioSelecionado(municipioMaisProximo);
+      localizacaoAplicadaRef.current = true;
     }
   }, [localizacao, dados]);
 
@@ -106,46 +113,50 @@ export default function HomePage() {
     });
   }, [dados, localizacao]);
 
-  // Filtra e ordena os dados
-  const dadosFiltrados = dadosComDistancia
-    ?.filter((item) => {
-      if (!termoBusca) return true;
-      const busca = termoBusca.toLowerCase();
-      return (
-        item.nome_fantasia.toLowerCase().includes(busca) ||
-        item.razao_social.toLowerCase().includes(busca) ||
-        item.bairro.toLowerCase().includes(busca)
-      );
-    })
-    .sort((a, b) => {
-      switch (ordenarPor) {
-        case 'preco_asc':
-          // Ordena por preço, desempata por distância
-          if (a.valor_recente !== b.valor_recente) {
-            return a.valor_recente - b.valor_recente;
-          }
-          const distA = a.distancia ?? Infinity;
-          const distB = b.distancia ?? Infinity;
-          return distA - distB;
-        case 'preco_desc':
-          return b.valor_recente - a.valor_recente;
-        case 'data':
-          return new Date(b.data_recente).getTime() - new Date(a.data_recente).getTime();
-        case 'distancia':
-          const distA2 = a.distancia ?? Infinity;
-          const distB2 = b.distancia ?? Infinity;
-          return distA2 - distB2;
-        default:
-          return 0;
-      }
-    });
+  // Filtra e ordena os dados (base)
+  const dadosFiltradosBase = useMemo(() => {
+    if (!dadosComDistancia) return [];
+    
+    return dadosComDistancia
+      .filter((item) => {
+        if (!termoBusca) return true;
+        const busca = termoBusca.toLowerCase();
+        return (
+          item.nome_fantasia.toLowerCase().includes(busca) ||
+          item.razao_social.toLowerCase().includes(busca) ||
+          item.bairro.toLowerCase().includes(busca)
+        );
+      })
+      .sort((a, b) => {
+        switch (ordenarPor) {
+          case 'preco_asc':
+            // Ordena por preço, desempata por distância
+            if (a.valor_recente !== b.valor_recente) {
+              return a.valor_recente - b.valor_recente;
+            }
+            const distA = a.distancia ?? Infinity;
+            const distB = b.distancia ?? Infinity;
+            return distA - distB;
+          case 'preco_desc':
+            return b.valor_recente - a.valor_recente;
+          case 'data':
+            return new Date(b.data_recente).getTime() - new Date(a.data_recente).getTime();
+          case 'distancia':
+            const distA2 = a.distancia ?? Infinity;
+            const distB2 = b.distancia ?? Infinity;
+            return distA2 - distB2;
+          default:
+            return 0;
+        }
+      });
+  }, [dadosComDistancia, termoBusca, ordenarPor]);
 
   // Identifica o melhor posto (prioriza postos até 5km, depois menor preço)
   const cnpjMelhorPosto = useMemo(() => {
-    if (!dadosFiltrados || dadosFiltrados.length === 0) return null;
+    if (!dadosFiltradosBase || dadosFiltradosBase.length === 0) return null;
     
     // Verifica se temos localização disponível
-    const comDistancia = dadosFiltrados.filter(item => item.distancia !== undefined);
+    const comDistancia = dadosFiltradosBase.filter(item => item.distancia !== undefined);
     const temLocalizacao = comDistancia.length > 0;
     
     if (temLocalizacao) {
@@ -193,12 +204,30 @@ export default function HomePage() {
       }
     } else {
       // Sem localização: apenas menor preço
-      const menorPreco = dadosFiltrados.reduce((melhor, atual) => 
+      const menorPreco = dadosFiltradosBase.reduce((melhor, atual) => 
         atual.valor_recente < melhor.valor_recente ? atual : melhor
       );
       return menorPreco.cnpj;
     }
-  }, [dadosFiltrados]);
+  }, [dadosFiltradosBase]);
+
+  // Lista final com o melhor posto sempre no topo
+  const dadosFiltrados = useMemo(() => {
+    if (!dadosFiltradosBase || dadosFiltradosBase.length === 0) return [];
+    if (!cnpjMelhorPosto) return dadosFiltradosBase;
+    
+    // Encontra o melhor posto
+    const indiceMelhor = dadosFiltradosBase.findIndex(item => item.cnpj === cnpjMelhorPosto);
+    
+    // Se o melhor já está no topo, retorna a lista original
+    if (indiceMelhor <= 0) return dadosFiltradosBase;
+    
+    // Move o melhor para o topo
+    const melhor = dadosFiltradosBase[indiceMelhor];
+    const resto = dadosFiltradosBase.filter((_, i) => i !== indiceMelhor);
+    
+    return [melhor, ...resto];
+  }, [dadosFiltradosBase, cnpjMelhorPosto]);
 
   const handleSelecionarEstabelecimento = (item: DadosComDistancia) => {
     setEstabelecimentoSelecionado(prev => 

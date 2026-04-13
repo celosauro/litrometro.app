@@ -52,7 +52,8 @@ export function MapaEstabelecimentos({
   const mapRef = useRef<MapRef>(null);
   const [popupInfo, setPopupInfo] = useState<DadosComDistancia | null>(null);
   const [mapCarregado, setMapCarregado] = useState(false);
-  const ultimoMunicipioRef = useRef<string | undefined>(undefined);
+  // Guarda o último município para o qual o mapa voou
+  const ultimoFlyToRef = useRef<string | null>(null);
 
   // Callback quando o mapa carrega
   const handleMapLoad = useCallback(() => {
@@ -73,18 +74,30 @@ export function MapaEstabelecimentos({
     }
   }, [estabelecimentoSelecionado, mapCarregado]);
 
-  // Voa para o município selecionado quando muda
+  // Voa para o centro dos dados quando o município muda
   useEffect(() => {
     if (!mapCarregado) return;
+    if (!dados.length) return;
     
-    // Só executa se o município realmente mudou
-    if (municipioSelecionado === ultimoMunicipioRef.current) return;
+    // Identifica o município atual baseado nos dados
+    // Converte para string para comparação consistente
+    const municipioDosDados = String(dados[0]?.codigo_ibge || '');
+    const municipioAlvo = municipioSelecionado || 'todos';
     
-    ultimoMunicipioRef.current = municipioSelecionado;
+    // Se os dados não correspondem ao município selecionado, aguarda
+    if (municipioSelecionado && municipioDosDados !== municipioSelecionado) {
+      return;
+    }
     
-    if (!municipioSelecionado || !dados.length) return;
+    // Cria uma chave única para este estado
+    const chaveAtual = `${municipioAlvo}_${dados.length}`;
     
-    // Usa os dados já filtrados (todos pertencem ao município selecionado)
+    // Se já voamos para este estado, não voa novamente
+    if (ultimoFlyToRef.current === chaveAtual) {
+      return;
+    }
+    
+    // Usa os dados já filtrados
     const estabelecimentosValidos = dados.filter(
       item => item.latitude !== 0 && item.longitude !== 0
     );
@@ -101,15 +114,18 @@ export function MapaEstabelecimentos({
     if (map) {
       map.flyTo({
         center: [centroLng, centroLat],
-        zoom: 12,
+        zoom: municipioSelecionado ? 12 : 7,
         duration: 1000,
         essential: true,
       });
+      
+      // Marca que já voamos para este estado
+      ultimoFlyToRef.current = chaveAtual;
     }
     
     // Fecha popup ao mudar município
     setPopupInfo(null);
-  }, [municipioSelecionado, dados, mapCarregado]);
+  }, [dados, mapCarregado, municipioSelecionado]);
 
   // Calcula o centro inicial do mapa
   const viewInicial = useMemo(() => {
@@ -165,17 +181,9 @@ export function MapaEstabelecimentos({
     onSelecionarEstabelecimento?.(item);
   }, [onSelecionarEstabelecimento]);
 
-  // Gera uma chave única baseada nos dados para forçar remount quando dados mudam significativamente
-  const mapKey = useMemo(() => {
-    if (!dados.length) return 'empty';
-    // Usa o primeiro CNPJ + quantidade como chave
-    return `${dados[0]?.cnpj}-${dados.length}`;
-  }, [dados]);
-
   return (
     <div className={`w-full h-full min-h-[400px] rounded-lg overflow-hidden shadow-lg ${className}`}>
       <Map
-        key={mapKey}
         ref={mapRef}
         initialViewState={viewInicial}
         mapStyle={MAP_STYLE}
