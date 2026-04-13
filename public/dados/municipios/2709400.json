@@ -1,36 +1,56 @@
 {
   "codigoIBGE": "2709400",
   "municipio": "Viçosa",
-  "atualizadoEm": "2026-04-13T18:48:16.648Z",
+  "atualizadoEm": "2026-04-13T19:59:17.154Z",
   "totalEstabelecimentos": 14,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
-      "valorMinimo": 7.15,
-      "valorMaximo": 7.386888273314866,
-      "valorMedio": 7.279014044800082
+      "valorMinimo": 6.919994342558106,
+      "valorMaximo": 7.610109370381318,
+      "valorMedio": 7.242489696350798
     },
     "2": {
       "totalPostos": 4,
-      "valorMinimo": 7.15,
-      "valorMaximo": 7.6923076923076925,
-      "valorMedio": 7.4062311179909655
+      "valorMinimo": 7.151785714285714,
+      "valorMaximo": 7.920716112531969,
+      "valorMedio": 7.462666872128096
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.9880239520958085,
+      "valorMinimo": 5.9904191616766465,
       "valorMaximo": 6.090484885372287,
-      "valorMedio": 6.039254418734048
+      "valorMedio": 6.040452023524466
     },
     "5": {
       "totalPostos": 4,
-      "valorMinimo": 7.349486049926578,
-      "valorMaximo": 7.6928953399541635,
-      "valorMedio": 7.580646895370327
+      "valorMinimo": 7.3500588004704035,
+      "valorMaximo": 7.989997251992306,
+      "valorMedio": 7.655771054935338
     }
   },
   "estabelecimentos": [
     {
+      "cnpj": "07478815000120",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
+      "nome_fantasia": "POSTO SABALANGA",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 210",
+      "numero_imovel": "1",
+      "bairro": "FAZ ALTO CONCEICAO",
+      "cep": "57700000",
+      "codigo_ibge": 2709400,
+      "municipio": "VICOSA",
+      "latitude": -9.3694174,
+      "longitude": -36.2427277,
+      "valor_minimo": 6.919994342558106,
+      "valor_maximo": 6.919994342558106,
+      "valor_medio": 6.919994342558106,
+      "valor_recente": 6.919994342558106,
+      "data_recente": "2026-04-13T10:03:33Z"
+    },
+    {
       "cnpj": "28463788000191",
       "tipo_combustivel": 1,
       "razao_social": "VANILDO ALBUQUERQUE LTDA",
@@ -48,27 +68,7 @@
       "valor_maximo": 7.15,
       "valor_medio": 7.15,
       "valor_recente": 7.15,
-      "data_recente": "2026-04-12T19:38:20Z"
-    },
-    {
-      "cnpj": "07478815000120",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
-      "nome_fantasia": "POSTO SABALANGA",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 210",
-      "numero_imovel": "1",
-      "bairro": "FAZ ALTO CONCEICAO",
-      "cep": "57700000",
-      "codigo_ibge": 2709400,
-      "municipio": "VICOSA",
-      "latitude": -9.3694174,
-      "longitude": -36.2427277,
-      "valor_minimo": 7.2882588149763725,
-      "valor_maximo": 7.2882588149763725,
-      "valor_medio": 7.2882588149763725,
-      "valor_recente": 7.2882588149763725,
-      "data_recente": "2026-04-12T19:12:42Z"
+      "data_recente": "2026-04-13T09:55:53Z"
     },
     {
       "cnpj": "18527801000175",
@@ -84,11 +84,11 @@
       "municipio": "VICOSA",
       "latitude": -9.830609899999999,
       "longitude": -35.8872314,
-      "valor_minimo": 7.290909090909091,
-      "valor_maximo": 7.290909090909091,
-      "valor_medio": 7.290909090909091,
-      "valor_recente": 7.290909090909091,
-      "data_recente": "2026-04-12T19:18:06Z"
+      "valor_minimo": 7.2898550724637685,
+      "valor_maximo": 7.2898550724637685,
+      "valor_medio": 7.2898550724637685,
+      "valor_recente": 7.2898550724637685,
+      "data_recente": "2026-04-12T22:42:54Z"
     },
     {
       "cnpj": "08616112000183",
@@ -104,11 +104,11 @@
       "municipio": "VICOSA",
       "latitude": -9.371023899999999,
       "longitude": -36.2448909,
-      "valor_minimo": 7.386888273314866,
-      "valor_maximo": 7.386888273314866,
-      "valor_medio": 7.386888273314866,
-      "valor_recente": 7.386888273314866,
-      "data_recente": "2026-04-11T22:16:32Z"
+      "valor_minimo": 7.610109370381318,
+      "valor_maximo": 7.610109370381318,
+      "valor_medio": 7.610109370381318,
+      "valor_recente": 7.610109370381318,
+      "data_recente": "2026-04-13T10:04:28Z"
     },
     {
       "cnpj": "28463788000191",
@@ -124,31 +124,11 @@
       "municipio": "VICOSA",
       "latitude": -9.3735369,
       "longitude": -36.2510856,
-      "valor_minimo": 7.15,
-      "valor_maximo": 7.15,
-      "valor_medio": 7.15,
-      "valor_recente": 7.15,
-      "data_recente": "2026-04-12T19:24:30Z"
-    },
-    {
-      "cnpj": "18527801000175",
-      "tipo_combustivel": 2,
-      "razao_social": "AUTO POSTO VICOSA EIRELI - EPP",
-      "nome_fantasia": "POSTO VICOSA",
-      "telefone": "",
-      "nome_logradouro": "LOT BREJO",
-      "numero_imovel": "S/N",
-      "bairro": "CENTRO",
-      "cep": "57700000",
-      "codigo_ibge": 2709400,
-      "municipio": "VICOSA",
-      "latitude": -9.830609899999999,
-      "longitude": -35.8872314,
-      "valor_minimo": 7.391143911439114,
-      "valor_maximo": 7.391143911439114,
-      "valor_medio": 7.391143911439114,
-      "valor_recente": 7.391143911439114,
-      "data_recente": "2026-04-12T15:45:34Z"
+      "valor_minimo": 7.151785714285714,
+      "valor_maximo": 7.151785714285714,
+      "valor_medio": 7.151785714285714,
+      "valor_recente": 7.151785714285714,
+      "data_recente": "2026-04-13T09:55:53Z"
     },
     {
       "cnpj": "07478815000120",
@@ -164,11 +144,31 @@
       "municipio": "VICOSA",
       "latitude": -9.3694174,
       "longitude": -36.2427277,
-      "valor_minimo": 7.391472868217054,
-      "valor_maximo": 7.391472868217054,
-      "valor_medio": 7.391472868217054,
-      "valor_recente": 7.391472868217054,
-      "data_recente": "2026-04-12T18:39:06Z"
+      "valor_minimo": 7.386861313868613,
+      "valor_maximo": 7.386861313868613,
+      "valor_medio": 7.386861313868613,
+      "valor_recente": 7.386861313868613,
+      "data_recente": "2026-04-13T10:05:44Z"
+    },
+    {
+      "cnpj": "18527801000175",
+      "tipo_combustivel": 2,
+      "razao_social": "AUTO POSTO VICOSA EIRELI - EPP",
+      "nome_fantasia": "POSTO VICOSA",
+      "telefone": "",
+      "nome_logradouro": "LOT BREJO",
+      "numero_imovel": "S/N",
+      "bairro": "CENTRO",
+      "cep": "57700000",
+      "codigo_ibge": 2709400,
+      "municipio": "VICOSA",
+      "latitude": -9.830609899999999,
+      "longitude": -35.8872314,
+      "valor_minimo": 7.391304347826087,
+      "valor_maximo": 7.391304347826087,
+      "valor_medio": 7.391304347826087,
+      "valor_recente": 7.391304347826087,
+      "data_recente": "2026-04-12T22:52:05Z"
     },
     {
       "cnpj": "08616112000183",
@@ -184,11 +184,11 @@
       "municipio": "VICOSA",
       "latitude": -9.371023899999999,
       "longitude": -36.2448909,
-      "valor_minimo": 7.6923076923076925,
-      "valor_maximo": 7.6923076923076925,
-      "valor_medio": 7.6923076923076925,
-      "valor_recente": 7.6923076923076925,
-      "data_recente": "2026-04-11T22:08:35Z"
+      "valor_minimo": 7.920716112531969,
+      "valor_maximo": 7.920716112531969,
+      "valor_medio": 7.920716112531969,
+      "valor_recente": 7.920716112531969,
+      "data_recente": "2026-04-13T10:06:00Z"
     },
     {
       "cnpj": "07478815000120",
@@ -204,11 +204,11 @@
       "municipio": "VICOSA",
       "latitude": -9.3694174,
       "longitude": -36.2427277,
-      "valor_minimo": 5.9880239520958085,
-      "valor_maximo": 5.9880239520958085,
-      "valor_medio": 5.9880239520958085,
-      "valor_recente": 5.9880239520958085,
-      "data_recente": "2026-04-12T18:39:06Z"
+      "valor_minimo": 5.9904191616766465,
+      "valor_maximo": 5.9904191616766465,
+      "valor_medio": 5.9904191616766465,
+      "valor_recente": 5.9904191616766465,
+      "data_recente": "2026-04-13T09:08:34Z"
     },
     {
       "cnpj": "18527801000175",
@@ -244,11 +244,11 @@
       "municipio": "VICOSA",
       "latitude": -9.3735369,
       "longitude": -36.2510856,
-      "valor_minimo": 7.349486049926578,
-      "valor_maximo": 7.349486049926578,
-      "valor_medio": 7.349486049926578,
-      "valor_recente": 7.349486049926578,
-      "data_recente": "2026-04-12T13:27:36Z"
+      "valor_minimo": 7.3500588004704035,
+      "valor_maximo": 7.3500588004704035,
+      "valor_medio": 7.3500588004704035,
+      "valor_recente": 7.3500588004704035,
+      "data_recente": "2026-04-13T09:01:34Z"
     },
     {
       "cnpj": "08616112000183",
@@ -271,26 +271,6 @@
       "data_recente": "2026-04-11T20:40:36Z"
     },
     {
-      "cnpj": "07478815000120",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
-      "nome_fantasia": "POSTO SABALANGA",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 210",
-      "numero_imovel": "1",
-      "bairro": "FAZ ALTO CONCEICAO",
-      "cep": "57700000",
-      "codigo_ibge": 2709400,
-      "municipio": "VICOSA",
-      "latitude": -9.3694174,
-      "longitude": -36.2427277,
-      "valor_minimo": 7.690073364276089,
-      "valor_maximo": 7.690073364276089,
-      "valor_medio": 7.690073364276089,
-      "valor_recente": 7.690073364276089,
-      "data_recente": "2026-04-12T18:54:32Z"
-    },
-    {
       "cnpj": "18527801000175",
       "tipo_combustivel": 5,
       "razao_social": "AUTO POSTO VICOSA EIRELI - EPP",
@@ -309,6 +289,26 @@
       "valor_medio": 7.6928953399541635,
       "valor_recente": 7.6928953399541635,
       "data_recente": "2026-04-12T15:45:34Z"
+    },
+    {
+      "cnpj": "07478815000120",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
+      "nome_fantasia": "POSTO SABALANGA",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 210",
+      "numero_imovel": "1",
+      "bairro": "FAZ ALTO CONCEICAO",
+      "cep": "57700000",
+      "codigo_ibge": 2709400,
+      "municipio": "VICOSA",
+      "latitude": -9.3694174,
+      "longitude": -36.2427277,
+      "valor_minimo": 7.989997251992306,
+      "valor_maximo": 7.989997251992306,
+      "valor_medio": 7.989997251992306,
+      "valor_recente": 7.989997251992306,
+      "data_recente": "2026-04-13T09:55:19Z"
     }
   ]
 }

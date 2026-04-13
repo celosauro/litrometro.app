@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2709103",
   "municipio": "Taquarana",
-  "atualizadoEm": "2026-04-13T18:46:18.109Z",
+  "atualizadoEm": "2026-04-13T19:54:57.084Z",
   "totalEstabelecimentos": 10,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.889081455805893,
-      "valorMaximo": 6.89908256880734,
-      "valorMedio": 6.895698230120014
+      "valorMinimo": 6.6889297044581735,
+      "valorMaximo": 6.896551724137931,
+      "valorMedio": 6.827344384244678
     },
     "2": {
       "totalPostos": 1,
@@ -18,21 +18,21 @@
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 4.789875835721108,
+      "valorMinimo": 4.789771094722727,
       "valorMaximo": 4.88997555012225,
-      "valorMedio": 4.839925692921678
+      "valorMedio": 4.839873322422489
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 7.989668761316434,
-      "valorMaximo": 7.989668761316434,
-      "valorMedio": 7.989668761316434
+      "valorMinimo": 7.989863516641392,
+      "valorMaximo": 7.989863516641392,
+      "valorMedio": 7.989863516641392
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.399645808736718,
+      "valorMinimo": 7.398929296658667,
       "valorMaximo": 7.4,
-      "valorMedio": 7.399793139442257
+      "valorMedio": 7.399603662821941
     }
   },
   "estabelecimentos": [
@@ -50,11 +50,11 @@
       "municipio": "TAQUARANA",
       "latitude": -9.6451013,
       "longitude": -36.4903116,
-      "valor_minimo": 6.889081455805893,
-      "valor_maximo": 6.889081455805893,
-      "valor_medio": 6.889081455805893,
-      "valor_recente": 6.889081455805893,
-      "data_recente": "2026-04-12T19:26:32Z"
+      "valor_minimo": 6.6889297044581735,
+      "valor_maximo": 6.6889297044581735,
+      "valor_medio": 6.6889297044581735,
+      "valor_recente": 6.6889297044581735,
+      "data_recente": "2026-04-13T10:02:20Z"
     },
     {
       "cnpj": "69999456000103",
@@ -70,11 +70,11 @@
       "municipio": "TAQUARANA",
       "latitude": -9.6468235,
       "longitude": -36.4910774,
-      "valor_minimo": 6.89893066574681,
-      "valor_maximo": 6.89893066574681,
-      "valor_medio": 6.89893066574681,
-      "valor_recente": 6.89893066574681,
-      "data_recente": "2026-04-12T18:17:57Z"
+      "valor_minimo": 6.896551724137931,
+      "valor_maximo": 6.896551724137931,
+      "valor_medio": 6.896551724137931,
+      "valor_recente": 6.896551724137931,
+      "data_recente": "2026-04-12T23:52:32Z"
     },
     {
       "cnpj": "15706489000199",
@@ -90,11 +90,11 @@
       "municipio": "TAQUARANA",
       "latitude": -9.645102300000001,
       "longitude": -36.4935948,
-      "valor_minimo": 6.89908256880734,
-      "valor_maximo": 6.89908256880734,
-      "valor_medio": 6.89908256880734,
-      "valor_recente": 6.89908256880734,
-      "data_recente": "2026-04-12T19:28:33Z"
+      "valor_minimo": 6.896551724137931,
+      "valor_maximo": 6.896551724137931,
+      "valor_medio": 6.896551724137931,
+      "valor_recente": 6.896551724137931,
+      "data_recente": "2026-04-13T09:54:10Z"
     },
     {
       "cnpj": "20097123000108",
@@ -130,11 +130,11 @@
       "municipio": "TAQUARANA",
       "latitude": -9.6451013,
       "longitude": -36.4903116,
-      "valor_minimo": 4.789875835721108,
-      "valor_maximo": 4.789875835721108,
-      "valor_medio": 4.789875835721108,
-      "valor_recente": 4.789875835721108,
-      "data_recente": "2026-04-12T16:32:07Z"
+      "valor_minimo": 4.789771094722727,
+      "valor_maximo": 4.789771094722727,
+      "valor_medio": 4.789771094722727,
+      "valor_recente": 4.789771094722727,
+      "data_recente": "2026-04-13T00:47:15Z"
     },
     {
       "cnpj": "15706489000199",
@@ -170,11 +170,11 @@
       "municipio": "TAQUARANA",
       "latitude": -9.6451013,
       "longitude": -36.4903116,
-      "valor_minimo": 7.989668761316434,
-      "valor_maximo": 7.989668761316434,
-      "valor_medio": 7.989668761316434,
-      "valor_recente": 7.989668761316434,
-      "data_recente": "2026-04-12T16:32:07Z"
+      "valor_minimo": 7.989863516641392,
+      "valor_maximo": 7.989863516641392,
+      "valor_medio": 7.989863516641392,
+      "valor_recente": 7.989863516641392,
+      "data_recente": "2026-04-13T00:06:04Z"
     },
     {
       "cnpj": "20097123000108",
@@ -190,31 +190,11 @@
       "municipio": "TAQUARANA",
       "latitude": -9.6451013,
       "longitude": -36.4903116,
-      "valor_minimo": 7.399645808736718,
-      "valor_maximo": 7.399645808736718,
-      "valor_medio": 7.399645808736718,
-      "valor_recente": 7.399645808736718,
-      "data_recente": "2026-04-12T16:32:07Z"
-    },
-    {
-      "cnpj": "69999456000103",
-      "tipo_combustivel": 5,
-      "razao_social": "S.A DA SILVA E CIA LTDA",
-      "nome_fantasia": "AUTO POSTO SANTA CRUZ",
-      "telefone": "",
-      "nome_logradouro": "Rua VINTE E UM DE SETEMBRO",
-      "numero_imovel": "83",
-      "bairro": "CENTRO",
-      "cep": "57640000",
-      "codigo_ibge": 2709103,
-      "municipio": "TAQUARANA",
-      "latitude": -9.6468235,
-      "longitude": -36.4910774,
-      "valor_minimo": 7.399733609590054,
-      "valor_maximo": 7.399733609590054,
-      "valor_medio": 7.399733609590054,
-      "valor_recente": 7.399733609590054,
-      "data_recente": "2026-04-12T15:09:11Z"
+      "valor_minimo": 7.398929296658667,
+      "valor_maximo": 7.398929296658667,
+      "valor_medio": 7.398929296658667,
+      "valor_recente": 7.398929296658667,
+      "data_recente": "2026-04-12T23:41:44Z"
     },
     {
       "cnpj": "15706489000199",
@@ -230,11 +210,31 @@
       "municipio": "TAQUARANA",
       "latitude": -9.645102300000001,
       "longitude": -36.4935948,
+      "valor_minimo": 7.399881691807158,
+      "valor_maximo": 7.399881691807158,
+      "valor_medio": 7.399881691807158,
+      "valor_recente": 7.399881691807158,
+      "data_recente": "2026-04-13T00:01:43Z"
+    },
+    {
+      "cnpj": "69999456000103",
+      "tipo_combustivel": 5,
+      "razao_social": "S.A DA SILVA E CIA LTDA",
+      "nome_fantasia": "AUTO POSTO SANTA CRUZ",
+      "telefone": "",
+      "nome_logradouro": "Rua VINTE E UM DE SETEMBRO",
+      "numero_imovel": "83",
+      "bairro": "CENTRO",
+      "cep": "57640000",
+      "codigo_ibge": 2709103,
+      "municipio": "TAQUARANA",
+      "latitude": -9.6468235,
+      "longitude": -36.4910774,
       "valor_minimo": 7.4,
       "valor_maximo": 7.4,
       "valor_medio": 7.4,
       "valor_recente": 7.4,
-      "data_recente": "2026-04-12T19:31:14Z"
+      "data_recente": "2026-04-12T22:51:42Z"
     }
   ]
 }
