@@ -1,20 +1,20 @@
 {
   "codigoIBGE": "2705002",
   "municipio": "Mata Grande",
-  "atualizadoEm": "2026-04-13T16:32:28.412Z",
+  "atualizadoEm": "2026-04-13T18:22:20.703Z",
   "totalEstabelecimentos": 14,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
       "valorMinimo": 6.939625260235947,
-      "valorMaximo": 7.489316239316239,
-      "valorMedio": 7.259546720635676
+      "valorMaximo": 7.719891008174387,
+      "valorMedio": 7.3831171640118045
     },
     "2": {
       "totalPostos": 5,
-      "valorMinimo": 6.8493150684931505,
-      "valorMaximo": 7.6380952380952385,
-      "valorMedio": 7.171555829718021
+      "valorMinimo": 6.85,
+      "valorMaximo": 7.633587786259542,
+      "valorMedio": 7.170760342436918
     },
     "3": {
       "totalPostos": 1,
@@ -24,9 +24,9 @@
     },
     "5": {
       "totalPostos": 5,
-      "valorMinimo": 7.199871734787005,
-      "valorMaximo": 8.65,
-      "valorMedio": 7.8319501087830234
+      "valorMinimo": 7.199940802131123,
+      "valorMaximo": 8.650091443823834,
+      "valorMedio": 7.831418681290226
     }
   },
   "estabelecimentos": [
@@ -51,26 +51,6 @@
       "data_recente": "2026-04-12T10:49:07Z"
     },
     {
-      "cnpj": "08850457000105",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO SERRANO LTDA EPP",
-      "nome_fantasia": "AUTO POSTO SERRANO",
-      "telefone": "(82) 36421200",
-      "nome_logradouro": "RDV AL 140 DER/AL",
-      "numero_imovel": "140",
-      "bairro": "ZONA RURAL",
-      "cep": "57540000",
-      "codigo_ibge": 2705002,
-      "municipio": "MATA GRANDE",
-      "latitude": -9.1229984,
-      "longitude": -37.7355222,
-      "valor_minimo": 7.349698662354843,
-      "valor_maximo": 7.349698662354843,
-      "valor_medio": 7.349698662354843,
-      "valor_recente": 7.349698662354843,
-      "data_recente": "2026-04-12T15:28:24Z"
-    },
-    {
       "cnpj": "09419389000189",
       "tipo_combustivel": 1,
       "razao_social": "AUTO POSTO J G LTDA",
@@ -84,11 +64,31 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.118687099999999,
       "longitude": -37.73142,
-      "valor_minimo": 7.489316239316239,
-      "valor_maximo": 7.489316239316239,
-      "valor_medio": 7.489316239316239,
-      "valor_recente": 7.489316239316239,
-      "data_recente": "2026-04-12T15:30:03Z"
+      "valor_minimo": 7.4898352236250805,
+      "valor_maximo": 7.4898352236250805,
+      "valor_medio": 7.4898352236250805,
+      "valor_recente": 7.4898352236250805,
+      "data_recente": "2026-04-12T19:32:45Z"
+    },
+    {
+      "cnpj": "08850457000105",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO SERRANO LTDA EPP",
+      "nome_fantasia": "AUTO POSTO SERRANO",
+      "telefone": "(82) 36421200",
+      "nome_logradouro": "RDV AL 140 DER/AL",
+      "numero_imovel": "140",
+      "bairro": "ZONA RURAL",
+      "cep": "57540000",
+      "codigo_ibge": 2705002,
+      "municipio": "MATA GRANDE",
+      "latitude": -9.1229984,
+      "longitude": -37.7355222,
+      "valor_minimo": 7.719891008174387,
+      "valor_maximo": 7.719891008174387,
+      "valor_medio": 7.719891008174387,
+      "valor_recente": 7.719891008174387,
+      "data_recente": "2026-04-12T19:39:22Z"
     },
     {
       "cnpj": "24250482000104",
@@ -104,11 +104,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1186768,
       "longitude": -37.7313914,
-      "valor_minimo": 6.8493150684931505,
-      "valor_maximo": 6.8493150684931505,
-      "valor_medio": 6.8493150684931505,
-      "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-12T15:44:03Z"
+      "valor_minimo": 6.85,
+      "valor_maximo": 6.85,
+      "valor_medio": 6.85,
+      "valor_recente": 6.85,
+      "data_recente": "2026-04-12T17:51:36Z"
     },
     {
       "cnpj": "08804741000137",
@@ -144,11 +144,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1184121,
       "longitude": -37.729208,
-      "valor_minimo": 6.940106877645916,
-      "valor_maximo": 6.940106877645916,
-      "valor_medio": 6.940106877645916,
-      "valor_recente": 6.940106877645916,
-      "data_recente": "2026-04-12T15:50:26Z"
+      "valor_minimo": 6.939951961569255,
+      "valor_maximo": 6.939951961569255,
+      "valor_medio": 6.939951961569255,
+      "valor_recente": 6.939951961569255,
+      "data_recente": "2026-04-12T19:41:31Z"
     },
     {
       "cnpj": "08850457000105",
@@ -168,7 +168,7 @@
       "valor_maximo": 7.49063670411985,
       "valor_medio": 7.49063670411985,
       "valor_recente": 7.49063670411985,
-      "data_recente": "2026-04-12T03:02:49Z"
+      "data_recente": "2026-04-12T16:38:20Z"
     },
     {
       "cnpj": "09419389000189",
@@ -184,11 +184,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.118687099999999,
       "longitude": -37.73142,
-      "valor_minimo": 7.6380952380952385,
-      "valor_maximo": 7.6380952380952385,
-      "valor_medio": 7.6380952380952385,
-      "valor_recente": 7.6380952380952385,
-      "data_recente": "2026-04-12T14:31:15Z"
+      "valor_minimo": 7.633587786259542,
+      "valor_maximo": 7.633587786259542,
+      "valor_medio": 7.633587786259542,
+      "valor_recente": 7.633587786259542,
+      "data_recente": "2026-04-12T19:32:19Z"
     },
     {
       "cnpj": "13240923000162",
@@ -224,11 +224,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1186768,
       "longitude": -37.7313914,
-      "valor_minimo": 7.199871734787005,
+      "valor_minimo": 7.199940802131123,
       "valor_maximo": 7.599939200486396,
-      "valor_medio": 7.399905467636701,
-      "valor_recente": 7.199871734787005,
-      "data_recente": "2026-04-12T15:40:46Z"
+      "valor_medio": 7.39994000130876,
+      "valor_recente": 7.199940802131123,
+      "data_recente": "2026-04-12T16:52:49Z"
     },
     {
       "cnpj": "13240923000162",
@@ -244,11 +244,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1184121,
       "longitude": -37.729208,
-      "valor_minimo": 7.5201026742450034,
-      "valor_maximo": 7.5201026742450034,
-      "valor_medio": 7.5201026742450034,
-      "valor_recente": 7.5201026742450034,
-      "data_recente": "2026-04-12T14:03:25Z"
+      "valor_minimo": 7.52,
+      "valor_maximo": 7.52,
+      "valor_medio": 7.52,
+      "valor_recente": 7.52,
+      "data_recente": "2026-04-12T16:00:04Z"
     },
     {
       "cnpj": "08804741000137",
@@ -284,11 +284,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.118687099999999,
       "longitude": -37.73142,
-      "valor_minimo": 8.23994726433751,
-      "valor_maximo": 8.23994726433751,
-      "valor_medio": 8.23994726433751,
-      "valor_recente": 8.23994726433751,
-      "data_recente": "2026-04-12T15:29:25Z"
+      "valor_minimo": 8.237232289950576,
+      "valor_maximo": 8.237232289950576,
+      "valor_medio": 8.237232289950576,
+      "valor_recente": 8.237232289950576,
+      "data_recente": "2026-04-12T19:33:01Z"
     },
     {
       "cnpj": "08850457000105",
@@ -304,11 +304,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1229984,
       "longitude": -37.7355222,
-      "valor_minimo": 8.65,
-      "valor_maximo": 8.65,
-      "valor_medio": 8.65,
-      "valor_recente": 8.65,
-      "data_recente": "2026-04-12T02:45:14Z"
+      "valor_minimo": 8.650091443823834,
+      "valor_maximo": 8.650091443823834,
+      "valor_medio": 8.650091443823834,
+      "valor_recente": 8.650091443823834,
+      "data_recente": "2026-04-12T19:30:16Z"
     }
   ]
 }

@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2709400",
   "municipio": "Viçosa",
-  "atualizadoEm": "2026-04-13T16:56:26.885Z",
+  "atualizadoEm": "2026-04-13T18:48:16.648Z",
   "totalEstabelecimentos": 14,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
-      "valorMinimo": 7.1507128309572305,
+      "valorMinimo": 7.15,
       "valorMaximo": 7.386888273314866,
-      "valorMedio": 7.278667738497621
+      "valorMedio": 7.279014044800082
     },
     "2": {
       "totalPostos": 4,
-      "valorMinimo": 7.151607963246555,
+      "valorMinimo": 7.15,
       "valorMaximo": 7.6923076923076925,
-      "valorMedio": 7.4061913623365765
+      "valorMedio": 7.4062311179909655
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.989936905997923,
+      "valorMinimo": 5.9880239520958085,
       "valorMaximo": 6.090484885372287,
-      "valorMedio": 6.040210895685105
+      "valorMedio": 6.039254418734048
     },
     "5": {
       "totalPostos": 4,
       "valorMinimo": 7.349486049926578,
       "valorMaximo": 7.6928953399541635,
-      "valorMedio": 7.580515389796256
+      "valorMedio": 7.580646895370327
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "VICOSA",
       "latitude": -9.3735369,
       "longitude": -36.2510856,
-      "valor_minimo": 7.1507128309572305,
-      "valor_maximo": 7.1507128309572305,
-      "valor_medio": 7.1507128309572305,
-      "valor_recente": 7.1507128309572305,
-      "data_recente": "2026-04-12T15:40:57Z"
+      "valor_minimo": 7.15,
+      "valor_maximo": 7.15,
+      "valor_medio": 7.15,
+      "valor_recente": 7.15,
+      "data_recente": "2026-04-12T19:38:20Z"
     },
     {
       "cnpj": "07478815000120",
@@ -64,11 +64,11 @@
       "municipio": "VICOSA",
       "latitude": -9.3694174,
       "longitude": -36.2427277,
-      "valor_minimo": 7.287214777254618,
-      "valor_maximo": 7.287214777254618,
-      "valor_medio": 7.287214777254618,
-      "valor_recente": 7.287214777254618,
-      "data_recente": "2026-04-12T15:48:48Z"
+      "valor_minimo": 7.2882588149763725,
+      "valor_maximo": 7.2882588149763725,
+      "valor_medio": 7.2882588149763725,
+      "valor_recente": 7.2882588149763725,
+      "data_recente": "2026-04-12T19:12:42Z"
     },
     {
       "cnpj": "18527801000175",
@@ -84,11 +84,11 @@
       "municipio": "VICOSA",
       "latitude": -9.830609899999999,
       "longitude": -35.8872314,
-      "valor_minimo": 7.2898550724637685,
-      "valor_maximo": 7.2898550724637685,
-      "valor_medio": 7.2898550724637685,
-      "valor_recente": 7.2898550724637685,
-      "data_recente": "2026-04-12T15:45:34Z"
+      "valor_minimo": 7.290909090909091,
+      "valor_maximo": 7.290909090909091,
+      "valor_medio": 7.290909090909091,
+      "valor_recente": 7.290909090909091,
+      "data_recente": "2026-04-12T19:18:06Z"
     },
     {
       "cnpj": "08616112000183",
@@ -124,31 +124,11 @@
       "municipio": "VICOSA",
       "latitude": -9.3735369,
       "longitude": -36.2510856,
-      "valor_minimo": 7.151607963246555,
-      "valor_maximo": 7.151607963246555,
-      "valor_medio": 7.151607963246555,
-      "valor_recente": 7.151607963246555,
-      "data_recente": "2026-04-12T15:44:46Z"
-    },
-    {
-      "cnpj": "07478815000120",
-      "tipo_combustivel": 2,
-      "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
-      "nome_fantasia": "POSTO SABALANGA",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 210",
-      "numero_imovel": "1",
-      "bairro": "FAZ ALTO CONCEICAO",
-      "cep": "57700000",
-      "codigo_ibge": 2709400,
-      "municipio": "VICOSA",
-      "latitude": -9.3694174,
-      "longitude": -36.2427277,
-      "valor_minimo": 7.389705882352941,
-      "valor_maximo": 7.389705882352941,
-      "valor_medio": 7.389705882352941,
-      "valor_recente": 7.389705882352941,
-      "data_recente": "2026-04-12T15:18:14Z"
+      "valor_minimo": 7.15,
+      "valor_maximo": 7.15,
+      "valor_medio": 7.15,
+      "valor_recente": 7.15,
+      "data_recente": "2026-04-12T19:24:30Z"
     },
     {
       "cnpj": "18527801000175",
@@ -169,6 +149,26 @@
       "valor_medio": 7.391143911439114,
       "valor_recente": 7.391143911439114,
       "data_recente": "2026-04-12T15:45:34Z"
+    },
+    {
+      "cnpj": "07478815000120",
+      "tipo_combustivel": 2,
+      "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
+      "nome_fantasia": "POSTO SABALANGA",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 210",
+      "numero_imovel": "1",
+      "bairro": "FAZ ALTO CONCEICAO",
+      "cep": "57700000",
+      "codigo_ibge": 2709400,
+      "municipio": "VICOSA",
+      "latitude": -9.3694174,
+      "longitude": -36.2427277,
+      "valor_minimo": 7.391472868217054,
+      "valor_maximo": 7.391472868217054,
+      "valor_medio": 7.391472868217054,
+      "valor_recente": 7.391472868217054,
+      "data_recente": "2026-04-12T18:39:06Z"
     },
     {
       "cnpj": "08616112000183",
@@ -204,11 +204,11 @@
       "municipio": "VICOSA",
       "latitude": -9.3694174,
       "longitude": -36.2427277,
-      "valor_minimo": 5.989936905997923,
-      "valor_maximo": 5.989936905997923,
-      "valor_medio": 5.989936905997923,
-      "valor_recente": 5.989936905997923,
-      "data_recente": "2026-04-12T15:10:15Z"
+      "valor_minimo": 5.9880239520958085,
+      "valor_maximo": 5.9880239520958085,
+      "valor_medio": 5.9880239520958085,
+      "valor_recente": 5.9880239520958085,
+      "data_recente": "2026-04-12T18:39:06Z"
     },
     {
       "cnpj": "18527801000175",
@@ -284,11 +284,11 @@
       "municipio": "VICOSA",
       "latitude": -9.3694174,
       "longitude": -36.2427277,
-      "valor_minimo": 7.689547341979802,
-      "valor_maximo": 7.689547341979802,
-      "valor_medio": 7.689547341979802,
-      "valor_recente": 7.689547341979802,
-      "data_recente": "2026-04-12T13:56:49Z"
+      "valor_minimo": 7.690073364276089,
+      "valor_maximo": 7.690073364276089,
+      "valor_medio": 7.690073364276089,
+      "valor_recente": 7.690073364276089,
+      "data_recente": "2026-04-12T18:54:32Z"
     },
     {
       "cnpj": "18527801000175",

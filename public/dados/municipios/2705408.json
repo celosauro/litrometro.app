@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2705408",
   "municipio": "Monteirópolis",
-  "atualizadoEm": "2026-04-13T16:34:30.986Z",
+  "atualizadoEm": "2026-04-13T18:24:13.823Z",
   "totalEstabelecimentos": 6,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
       "valorMinimo": 6.65,
-      "valorMaximo": 6.990562740300594,
-      "valorMedio": 6.820281370150298
+      "valorMaximo": 6.988934187536401,
+      "valorMedio": 6.819467093768201
     },
     "2": {
       "totalPostos": 1,
@@ -24,9 +24,9 @@
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.142857142857143,
-      "valorMaximo": 7.3500588004704035,
-      "valorMedio": 7.246457971663773
+      "valorMinimo": 7.349853002939941,
+      "valorMaximo": 7.389890629618682,
+      "valorMedio": 7.3698718162793115
     }
   },
   "estabelecimentos": [
@@ -48,7 +48,7 @@
       "valor_maximo": 6.65,
       "valor_medio": 6.65,
       "valor_recente": 6.65,
-      "data_recente": "2026-04-12T15:40:01Z"
+      "data_recente": "2026-04-12T19:28:27Z"
     },
     {
       "cnpj": "17303640000173",
@@ -64,11 +64,11 @@
       "municipio": "MONTEIROPOLIS",
       "latitude": -9.5936867,
       "longitude": -37.2383001,
-      "valor_minimo": 6.990562740300594,
-      "valor_maximo": 6.990562740300594,
-      "valor_medio": 6.990562740300594,
-      "valor_recente": 6.990562740300594,
-      "data_recente": "2026-04-12T15:49:31Z"
+      "valor_minimo": 6.988934187536401,
+      "valor_maximo": 6.988934187536401,
+      "valor_medio": 6.988934187536401,
+      "valor_recente": 6.988934187536401,
+      "data_recente": "2026-04-12T19:41:33Z"
     },
     {
       "cnpj": "36009881000159",
@@ -88,7 +88,7 @@
       "valor_maximo": 6.839945280437757,
       "valor_medio": 6.839945280437757,
       "valor_recente": 6.839945280437757,
-      "data_recente": "2026-04-12T15:45:24Z"
+      "data_recente": "2026-04-12T19:48:26Z"
     },
     {
       "cnpj": "36009881000159",
@@ -108,27 +108,7 @@
       "valor_maximo": 5.289885738468049,
       "valor_medio": 5.289885738468049,
       "valor_recente": 5.289885738468049,
-      "data_recente": "2026-04-12T15:38:56Z"
-    },
-    {
-      "cnpj": "17303640000173",
-      "tipo_combustivel": 5,
-      "razao_social": "SEMAN COMERCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA.",
-      "nome_fantasia": "AUTO POSTO MONTEIROPOLIS",
-      "telefone": "(82) 36281171",
-      "nome_logradouro": "ROD AL 220",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57440000",
-      "codigo_ibge": 2705408,
-      "municipio": "MONTEIROPOLIS",
-      "latitude": -9.5936867,
-      "longitude": -37.2383001,
-      "valor_minimo": 7.142857142857143,
-      "valor_maximo": 7.142857142857143,
-      "valor_medio": 7.142857142857143,
-      "valor_recente": 7.142857142857143,
-      "data_recente": "2026-04-11T23:06:10Z"
+      "data_recente": "2026-04-12T19:46:07Z"
     },
     {
       "cnpj": "36009881000159",
@@ -144,11 +124,31 @@
       "municipio": "MONTEIROPOLIS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.3500588004704035,
-      "valor_maximo": 7.350131233595801,
-      "valor_medio": 7.350095017033102,
-      "valor_recente": 7.3500588004704035,
-      "data_recente": "2026-04-12T10:53:11Z"
+      "valor_minimo": 7.349853002939941,
+      "valor_maximo": 7.35023888276369,
+      "valor_medio": 7.350045942851816,
+      "valor_recente": 7.349853002939941,
+      "data_recente": "2026-04-12T19:26:17Z"
+    },
+    {
+      "cnpj": "17303640000173",
+      "tipo_combustivel": 5,
+      "razao_social": "SEMAN COMERCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA.",
+      "nome_fantasia": "AUTO POSTO MONTEIROPOLIS",
+      "telefone": "(82) 36281171",
+      "nome_logradouro": "ROD AL 220",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57440000",
+      "codigo_ibge": 2705408,
+      "municipio": "MONTEIROPOLIS",
+      "latitude": -9.5936867,
+      "longitude": -37.2383001,
+      "valor_minimo": 7.389890629618682,
+      "valor_maximo": 7.389890629618682,
+      "valor_medio": 7.389890629618682,
+      "valor_recente": 7.389890629618682,
+      "data_recente": "2026-04-12T19:14:04Z"
     }
   ]
 }

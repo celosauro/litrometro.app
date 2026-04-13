@@ -1,62 +1,42 @@
 {
   "codigoIBGE": "2702603",
   "municipio": "Feira Grande",
-  "atualizadoEm": "2026-04-13T16:20:35.345Z",
+  "atualizadoEm": "2026-04-13T18:09:14.643Z",
   "totalEstabelecimentos": 7,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.8493150684931505,
-      "valorMaximo": 6.8493150684931505,
-      "valorMedio": 6.8493150684931505
+      "valorMinimo": 6.849829351535837,
+      "valorMaximo": 7.050632911392405,
+      "valorMedio": 6.950231131464121
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.90035881865857,
-      "valorMaximo": 6.901311249137336,
-      "valorMedio": 6.900835033897954
+      "valorMinimo": 6.901311249137336,
+      "valorMaximo": 7.101355713363461,
+      "valorMedio": 7.0013334812503984
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.290072297654735,
-      "valorMaximo": 5.290072297654735,
-      "valorMedio": 5.290072297654735
+      "valorMinimo": 5.290199809705043,
+      "valorMaximo": 5.290199809705043,
+      "valorMedio": 5.290199809705043
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 7.290400972053463,
-      "valorMaximo": 7.290400972053463,
-      "valorMedio": 7.290400972053463
+      "valorMinimo": 7.290147885857113,
+      "valorMaximo": 7.290147885857113,
+      "valorMedio": 7.290147885857113
     },
     "5": {
       "totalPostos": 1,
-      "valorMinimo": 7.289958082741024,
-      "valorMaximo": 7.289958082741024,
-      "valorMedio": 7.289958082741024
+      "valorMinimo": 7.290223809870963,
+      "valorMaximo": 7.290223809870963,
+      "valorMedio": 7.290223809870963
     }
   },
   "estabelecimentos": [
     {
-      "cnpj": "05769126000149",
-      "tipo_combustivel": 1,
-      "razao_social": "MANOEL A DE ALMEIDA JUNIOR  - EPP",
-      "nome_fantasia": "AUTO POSTO MASSAPE",
-      "telefone": "",
-      "nome_logradouro": "DT MASSAPE",
-      "numero_imovel": "6",
-      "bairro": "MASSAPE",
-      "cep": "57340000",
-      "codigo_ibge": 2702603,
-      "municipio": "FEIRA GRANDE",
-      "latitude": -9.8511321,
-      "longitude": -36.673818,
-      "valor_minimo": 6.8493150684931505,
-      "valor_maximo": 6.8493150684931505,
-      "valor_medio": 6.8493150684931505,
-      "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-12T15:47:21Z"
-    },
-    {
       "cnpj": "07826783000106",
       "tipo_combustivel": 1,
       "razao_social": "OLIVEIRA & GOMES LTDA EPP",
@@ -70,11 +50,31 @@
       "municipio": "FEIRA GRANDE",
       "latitude": -9.8986249,
       "longitude": -36.6776837,
-      "valor_minimo": 6.8493150684931505,
-      "valor_maximo": 6.8493150684931505,
-      "valor_medio": 6.8493150684931505,
-      "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-12T14:39:54Z"
+      "valor_minimo": 6.849829351535837,
+      "valor_maximo": 6.849829351535837,
+      "valor_medio": 6.849829351535837,
+      "valor_recente": 6.849829351535837,
+      "data_recente": "2026-04-12T18:40:49Z"
+    },
+    {
+      "cnpj": "05769126000149",
+      "tipo_combustivel": 1,
+      "razao_social": "MANOEL A DE ALMEIDA JUNIOR  - EPP",
+      "nome_fantasia": "AUTO POSTO MASSAPE",
+      "telefone": "",
+      "nome_logradouro": "DT MASSAPE",
+      "numero_imovel": "6",
+      "bairro": "MASSAPE",
+      "cep": "57340000",
+      "codigo_ibge": 2702603,
+      "municipio": "FEIRA GRANDE",
+      "latitude": -9.8511321,
+      "longitude": -36.673818,
+      "valor_minimo": 7.050632911392405,
+      "valor_maximo": 7.050632911392405,
+      "valor_medio": 7.050632911392405,
+      "valor_recente": 7.050632911392405,
+      "data_recente": "2026-04-12T19:04:14Z"
     },
     {
       "cnpj": "07826783000106",
@@ -90,31 +90,31 @@
       "municipio": "FEIRA GRANDE",
       "latitude": -9.8986249,
       "longitude": -36.6776837,
-      "valor_minimo": 6.90035881865857,
-      "valor_maximo": 6.90035881865857,
-      "valor_medio": 6.90035881865857,
-      "valor_recente": 6.90035881865857,
-      "data_recente": "2026-04-12T00:23:42Z"
-    },
-    {
-      "cnpj": "05769126000149",
-      "tipo_combustivel": 2,
-      "razao_social": "MANOEL A DE ALMEIDA JUNIOR  - EPP",
-      "nome_fantasia": "AUTO POSTO MASSAPE",
-      "telefone": "",
-      "nome_logradouro": "DT MASSAPE",
-      "numero_imovel": "6",
-      "bairro": "MASSAPE",
-      "cep": "57340000",
-      "codigo_ibge": 2702603,
-      "municipio": "FEIRA GRANDE",
-      "latitude": -9.8511321,
-      "longitude": -36.673818,
       "valor_minimo": 6.901311249137336,
       "valor_maximo": 6.901311249137336,
       "valor_medio": 6.901311249137336,
       "valor_recente": 6.901311249137336,
-      "data_recente": "2026-04-12T15:47:21Z"
+      "data_recente": "2026-04-12T18:40:49Z"
+    },
+    {
+      "cnpj": "05769126000149",
+      "tipo_combustivel": 2,
+      "razao_social": "MANOEL A DE ALMEIDA JUNIOR  - EPP",
+      "nome_fantasia": "AUTO POSTO MASSAPE",
+      "telefone": "",
+      "nome_logradouro": "DT MASSAPE",
+      "numero_imovel": "6",
+      "bairro": "MASSAPE",
+      "cep": "57340000",
+      "codigo_ibge": 2702603,
+      "municipio": "FEIRA GRANDE",
+      "latitude": -9.8511321,
+      "longitude": -36.673818,
+      "valor_minimo": 7.101355713363461,
+      "valor_maximo": 7.101355713363461,
+      "valor_medio": 7.101355713363461,
+      "valor_recente": 7.101355713363461,
+      "data_recente": "2026-04-12T19:19:52Z"
     },
     {
       "cnpj": "05769126000149",
@@ -130,11 +130,11 @@
       "municipio": "FEIRA GRANDE",
       "latitude": -9.8511321,
       "longitude": -36.673818,
-      "valor_minimo": 5.290072297654735,
-      "valor_maximo": 5.290072297654735,
-      "valor_medio": 5.290072297654735,
-      "valor_recente": 5.290072297654735,
-      "data_recente": "2026-04-12T15:47:21Z"
+      "valor_minimo": 5.290199809705043,
+      "valor_maximo": 5.290199809705043,
+      "valor_medio": 5.290199809705043,
+      "valor_recente": 5.290199809705043,
+      "data_recente": "2026-04-12T17:22:42Z"
     },
     {
       "cnpj": "07826783000106",
@@ -150,11 +150,11 @@
       "municipio": "FEIRA GRANDE",
       "latitude": -9.8986249,
       "longitude": -36.6776837,
-      "valor_minimo": 7.290400972053463,
-      "valor_maximo": 7.290400972053463,
-      "valor_medio": 7.290400972053463,
-      "valor_recente": 7.290400972053463,
-      "data_recente": "2026-04-12T01:01:02Z"
+      "valor_minimo": 7.290147885857113,
+      "valor_maximo": 7.290147885857113,
+      "valor_medio": 7.290147885857113,
+      "valor_recente": 7.290147885857113,
+      "data_recente": "2026-04-12T17:21:40Z"
     },
     {
       "cnpj": "05769126000149",
@@ -170,11 +170,11 @@
       "municipio": "FEIRA GRANDE",
       "latitude": -9.8511321,
       "longitude": -36.673818,
-      "valor_minimo": 7.289958082741024,
-      "valor_maximo": 7.289958082741024,
-      "valor_medio": 7.289958082741024,
-      "valor_recente": 7.289958082741024,
-      "data_recente": "2026-04-12T15:47:21Z"
+      "valor_minimo": 7.290223809870963,
+      "valor_maximo": 7.290223809870963,
+      "valor_medio": 7.290223809870963,
+      "valor_recente": 7.290223809870963,
+      "data_recente": "2026-04-12T17:38:57Z"
     }
   ]
 }

@@ -1,20 +1,20 @@
 {
   "codigoIBGE": "2706109",
   "municipio": "Ouro Branco",
-  "atualizadoEm": "2026-04-13T16:37:49.931Z",
+  "atualizadoEm": "2026-04-13T18:27:38.696Z",
   "totalEstabelecimentos": 4,
   "combustiveis": {
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.967383761276891,
+      "valorMinimo": 6.967071057192374,
       "valorMaximo": 6.988202637057599,
-      "valorMedio": 6.977793199167245
+      "valorMedio": 6.9776368471249866
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.683284457478006,
-      "valorMaximo": 7.68990261404408,
-      "valorMedio": 7.686593535761043
+      "valorMinimo": 7.690184049079755,
+      "valorMaximo": 7.7,
+      "valorMedio": 7.6950920245398775
     }
   },
   "estabelecimentos": [
@@ -32,11 +32,11 @@
       "municipio": "OURO BRANCO",
       "latitude": -9.164654,
       "longitude": -37.357874,
-      "valor_minimo": 6.967383761276891,
-      "valor_maximo": 6.967383761276891,
-      "valor_medio": 6.967383761276891,
-      "valor_recente": 6.967383761276891,
-      "data_recente": "2026-04-12T15:36:44Z"
+      "valor_minimo": 6.967071057192374,
+      "valor_maximo": 6.967071057192374,
+      "valor_medio": 6.967071057192374,
+      "valor_recente": 6.967071057192374,
+      "data_recente": "2026-04-12T18:20:19Z"
     },
     {
       "cnpj": "10523574000106",
@@ -56,27 +56,7 @@
       "valor_maximo": 6.988202637057599,
       "valor_medio": 6.988202637057599,
       "valor_recente": 6.988202637057599,
-      "data_recente": "2026-04-12T09:27:39Z"
-    },
-    {
-      "cnpj": "14683196000170",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO LIMEIRINHA LTDA",
-      "nome_fantasia": "AUTO POSTO E POUSADA LIMEIRINHA",
-      "telefone": "(82) 88224816",
-      "nome_logradouro": "Rua CORONEL LUCENA",
-      "numero_imovel": "425",
-      "bairro": "LUIZ GONZAGA DE CARVALHO",
-      "cep": "57525000",
-      "codigo_ibge": 2706109,
-      "municipio": "OURO BRANCO",
-      "latitude": -9.164654,
-      "longitude": -37.357874,
-      "valor_minimo": 7.683284457478006,
-      "valor_maximo": 7.683284457478006,
-      "valor_medio": 7.683284457478006,
-      "valor_recente": 7.683284457478006,
-      "data_recente": "2026-04-11T13:36:37Z"
+      "data_recente": "2026-04-12T19:18:51Z"
     },
     {
       "cnpj": "10523574000106",
@@ -92,11 +72,31 @@
       "municipio": "OURO BRANCO",
       "latitude": -9.164638799999999,
       "longitude": -37.3579813,
-      "valor_minimo": 7.68990261404408,
-      "valor_maximo": 7.68990261404408,
-      "valor_medio": 7.68990261404408,
-      "valor_recente": 7.68990261404408,
-      "data_recente": "2026-04-11T21:55:28Z"
+      "valor_minimo": 7.690184049079755,
+      "valor_maximo": 7.690184049079755,
+      "valor_medio": 7.690184049079755,
+      "valor_recente": 7.690184049079755,
+      "data_recente": "2026-04-12T16:30:54Z"
+    },
+    {
+      "cnpj": "14683196000170",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO LIMEIRINHA LTDA",
+      "nome_fantasia": "AUTO POSTO E POUSADA LIMEIRINHA",
+      "telefone": "(82) 88224816",
+      "nome_logradouro": "Rua CORONEL LUCENA",
+      "numero_imovel": "425",
+      "bairro": "LUIZ GONZAGA DE CARVALHO",
+      "cep": "57525000",
+      "codigo_ibge": 2706109,
+      "municipio": "OURO BRANCO",
+      "latitude": -9.164654,
+      "longitude": -37.357874,
+      "valor_minimo": 7.7,
+      "valor_maximo": 7.7,
+      "valor_medio": 7.7,
+      "valor_recente": 7.7,
+      "data_recente": "2026-04-12T19:00:31Z"
     }
   ]
 }

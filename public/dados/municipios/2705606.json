@@ -1,29 +1,49 @@
 {
   "codigoIBGE": "2705606",
   "municipio": "Novo Lino",
-  "atualizadoEm": "2026-04-13T16:35:32.573Z",
+  "atualizadoEm": "2026-04-13T18:25:12.005Z",
   "totalEstabelecimentos": 6,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.98981077147016,
-      "valorMaximo": 7.159970832320567,
-      "valorMedio": 7.074890801895363
+      "valorMinimo": 6.950090043735528,
+      "valorMaximo": 6.98981077147016,
+      "valorMedio": 6.969950407602845
     },
     "3": {
       "totalPostos": 2,
       "valorMinimo": 5.5874190564292325,
-      "valorMaximo": 5.880020559512446,
-      "valorMedio": 5.733719807970839
+      "valorMaximo": 5.880459770114943,
+      "valorMedio": 5.733939413272088
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.7600055877628,
+      "valorMinimo": 7.540068935803533,
       "valorMaximo": 7.889763779527559,
-      "valorMedio": 7.8248846836451795
+      "valorMedio": 7.714916357665546
     }
   },
   "estabelecimentos": [
+    {
+      "cnpj": "41163486000247",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO NOVO LINO LTDA - EPP",
+      "nome_fantasia": "AUTO POSTO NOVO LINO II",
+      "telefone": "(82) 99835582",
+      "nome_logradouro": "SIT LINO",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57970000",
+      "codigo_ibge": 2705606,
+      "municipio": "NOVO LINO",
+      "latitude": -8.941455699999999,
+      "longitude": -35.6627226,
+      "valor_minimo": 6.950090043735528,
+      "valor_maximo": 6.950090043735528,
+      "valor_medio": 6.950090043735528,
+      "valor_recente": 6.950090043735528,
+      "data_recente": "2026-04-12T19:47:15Z"
+    },
     {
       "cnpj": "16674625000179",
       "tipo_combustivel": 1,
@@ -43,26 +63,6 @@
       "valor_medio": 6.98981077147016,
       "valor_recente": 6.98981077147016,
       "data_recente": "2026-04-12T14:08:20Z"
-    },
-    {
-      "cnpj": "41163486000247",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO NOVO LINO LTDA - EPP",
-      "nome_fantasia": "AUTO POSTO NOVO LINO II",
-      "telefone": "(82) 99835582",
-      "nome_logradouro": "SIT LINO",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57970000",
-      "codigo_ibge": 2705606,
-      "municipio": "NOVO LINO",
-      "latitude": -8.941455699999999,
-      "longitude": -35.6627226,
-      "valor_minimo": 7.159970832320567,
-      "valor_maximo": 7.159970832320567,
-      "valor_medio": 7.159970832320567,
-      "valor_recente": 7.159970832320567,
-      "data_recente": "2026-04-12T15:39:59Z"
     },
     {
       "cnpj": "16674625000179",
@@ -98,11 +98,11 @@
       "municipio": "NOVO LINO",
       "latitude": -8.941455699999999,
       "longitude": -35.6627226,
-      "valor_minimo": 5.880020559512446,
-      "valor_maximo": 5.880020559512446,
-      "valor_medio": 5.880020559512446,
-      "valor_recente": 5.880020559512446,
-      "data_recente": "2026-04-12T14:52:48Z"
+      "valor_minimo": 5.880459770114943,
+      "valor_maximo": 5.880459770114943,
+      "valor_medio": 5.880459770114943,
+      "valor_recente": 5.880459770114943,
+      "data_recente": "2026-04-12T19:47:48Z"
     },
     {
       "cnpj": "41163486000247",
@@ -118,11 +118,11 @@
       "municipio": "NOVO LINO",
       "latitude": -8.941455699999999,
       "longitude": -35.6627226,
-      "valor_minimo": 7.7600055877628,
-      "valor_maximo": 7.7600055877628,
-      "valor_medio": 7.7600055877628,
-      "valor_recente": 7.7600055877628,
-      "data_recente": "2026-04-12T15:48:16Z"
+      "valor_minimo": 7.540068935803533,
+      "valor_maximo": 7.540068935803533,
+      "valor_medio": 7.540068935803533,
+      "valor_recente": 7.540068935803533,
+      "data_recente": "2026-04-12T19:47:15Z"
     },
     {
       "cnpj": "16674625000179",

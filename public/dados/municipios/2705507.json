@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2705507",
   "municipio": "Murici",
-  "atualizadoEm": "2026-04-13T16:35:02.478Z",
+  "atualizadoEm": "2026-04-13T18:24:45.414Z",
   "totalEstabelecimentos": 10,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.499696680821562,
-      "valorMaximo": 6.989209885137487,
-      "valorMedio": 6.662922434374553
+      "valorMinimo": 6.499431725929534,
+      "valorMaximo": 6.989748369058714,
+      "valorMedio": 6.662958925269937
     },
     "2": {
       "totalPostos": 2,
@@ -19,17 +19,37 @@
     "3": {
       "totalPostos": 2,
       "valorMinimo": 5.199126546740148,
-      "valorMaximo": 5.738880918220947,
-      "valorMedio": 5.469003732480548
+      "valorMaximo": 5.7396992998967065,
+      "valorMedio": 5.469412923318427
     },
     "5": {
       "totalPostos": 3,
       "valorMinimo": 7.159212880143112,
-      "valorMaximo": 7.589502427184466,
-      "valorMedio": 7.349577007728293
+      "valorMaximo": 7.588332938107659,
+      "valorMedio": 7.3491819394169235
     }
   },
   "estabelecimentos": [
+    {
+      "cnpj": "04168430000178",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO NILLO VERDE LTDA - EPP",
+      "nome_fantasia": "NICOLAU FERREIRA",
+      "telefone": "(82) 32861168",
+      "nome_logradouro": "CJ RESIDENCIAL ANTENOR MARINHO DE MELO",
+      "numero_imovel": "02",
+      "bairro": "CIDADE ALTA",
+      "cep": "57820000",
+      "codigo_ibge": 2705507,
+      "municipio": "MURICI",
+      "latitude": -9.628416999999999,
+      "longitude": -35.7359735,
+      "valor_minimo": 6.499431725929534,
+      "valor_maximo": 6.499431725929534,
+      "valor_medio": 6.499431725929534,
+      "valor_recente": 6.499431725929534,
+      "data_recente": "2026-04-12T19:27:57Z"
+    },
     {
       "cnpj": "35741586000120",
       "tipo_combustivel": 1,
@@ -51,26 +71,6 @@
       "data_recente": "2026-04-12T00:51:04Z"
     },
     {
-      "cnpj": "04168430000178",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO NILLO VERDE LTDA - EPP",
-      "nome_fantasia": "NICOLAU FERREIRA",
-      "telefone": "(82) 32861168",
-      "nome_logradouro": "CJ RESIDENCIAL ANTENOR MARINHO DE MELO",
-      "numero_imovel": "02",
-      "bairro": "CIDADE ALTA",
-      "cep": "57820000",
-      "codigo_ibge": 2705507,
-      "municipio": "MURICI",
-      "latitude": -9.628416999999999,
-      "longitude": -35.7359735,
-      "valor_minimo": 6.499860737164608,
-      "valor_maximo": 6.499860737164608,
-      "valor_medio": 6.499860737164608,
-      "valor_recente": 6.499860737164608,
-      "data_recente": "2026-04-12T15:31:23Z"
-    },
-    {
       "cnpj": "05079209000106",
       "tipo_combustivel": 1,
       "razao_social": "AUTO POSTO FERNANDES LTDA",
@@ -84,11 +84,11 @@
       "municipio": "MURICI",
       "latitude": -9.307119100000001,
       "longitude": -35.9411649,
-      "valor_minimo": 6.989209885137487,
-      "valor_maximo": 6.989209885137487,
-      "valor_medio": 6.989209885137487,
-      "valor_recente": 6.989209885137487,
-      "data_recente": "2026-04-12T15:46:32Z"
+      "valor_minimo": 6.989748369058714,
+      "valor_maximo": 6.989748369058714,
+      "valor_medio": 6.989748369058714,
+      "valor_recente": 6.989748369058714,
+      "data_recente": "2026-04-12T19:45:17Z"
     },
     {
       "cnpj": "35741586000120",
@@ -164,11 +164,11 @@
       "municipio": "MURICI",
       "latitude": -9.307119100000001,
       "longitude": -35.9411649,
-      "valor_minimo": 5.738880918220947,
-      "valor_maximo": 5.738880918220947,
-      "valor_medio": 5.738880918220947,
-      "valor_recente": 5.738880918220947,
-      "data_recente": "2026-04-12T15:06:38Z"
+      "valor_minimo": 5.7396992998967065,
+      "valor_maximo": 5.7396992998967065,
+      "valor_medio": 5.7396992998967065,
+      "valor_recente": 5.7396992998967065,
+      "data_recente": "2026-04-12T19:46:25Z"
     },
     {
       "cnpj": "35741586000120",
@@ -204,11 +204,11 @@
       "municipio": "MURICI",
       "latitude": -9.628416999999999,
       "longitude": -35.7359735,
-      "valor_minimo": 7.3000157158573,
-      "valor_maximo": 7.3000157158573,
-      "valor_medio": 7.3000157158573,
-      "valor_recente": 7.3000157158573,
-      "data_recente": "2026-04-12T12:55:08Z"
+      "valor_minimo": 7.3,
+      "valor_maximo": 7.3,
+      "valor_medio": 7.3,
+      "valor_recente": 7.3,
+      "data_recente": "2026-04-12T17:43:53Z"
     },
     {
       "cnpj": "05079209000106",
@@ -224,11 +224,11 @@
       "municipio": "MURICI",
       "latitude": -9.307119100000001,
       "longitude": -35.9411649,
-      "valor_minimo": 7.589502427184466,
-      "valor_maximo": 7.589502427184466,
-      "valor_medio": 7.589502427184466,
-      "valor_recente": 7.589502427184466,
-      "data_recente": "2026-04-12T14:34:44Z"
+      "valor_minimo": 7.588332938107659,
+      "valor_maximo": 7.588332938107659,
+      "valor_medio": 7.588332938107659,
+      "valor_recente": 7.588332938107659,
+      "data_recente": "2026-04-12T18:16:17Z"
     }
   ]
 }
