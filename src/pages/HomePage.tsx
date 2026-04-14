@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect, useRef } from 'react';
-import { GasPump, MagnifyingGlass, ArrowsClockwise, Crosshair, List, X } from '@phosphor-icons/react';
+import { GasPump, MagnifyingGlass, Crosshair, List, X } from '@phosphor-icons/react';
 import { usePrecosCombustiveis } from '../hooks/usePrecosCombustiveis';
 import { useGeolocalizacao } from '../hooks/useGeolocalizacao';
 import { CardCombustivel } from '../components/FuelCard';
@@ -27,7 +27,7 @@ export default function HomePage() {
   // Cache dos centróides dos municípios
   const centroidesMunicipiosRef = useRef<Array<{codigo_ibge: string; municipio: string; latitude: number; longitude: number}> | null>(null);
 
-  const { dados, carregando, erro, recarregar } = usePrecosCombustiveis({
+  const { dados, carregando, erro } = usePrecosCombustiveis({
     tipoCombustivel: tipoCombustivelSelecionado,
     codigoIBGE: municipioSelecionado || undefined,
   });
@@ -279,20 +279,6 @@ export default function HomePage() {
                   size={18}
                   className={`sm:w-5 sm:h-5 ${carregandoLocalizacao ? 'animate-pulse' : ''}`}
                 />
-              </button>
-
-              {/* Botão atualizar */}
-              <button
-                onClick={() => recarregar()}
-                disabled={carregando}
-                className="btn-secondary flex items-center justify-center gap-2 px-3 sm:px-4"
-                aria-label="Atualizar dados"
-              >
-                <ArrowsClockwise
-                  size={18}
-                  className={`sm:w-5 sm:h-5 ${carregando ? 'animate-spin' : ''}`}
-                />
-                <span className="hidden sm:inline">Atualizar</span>
               </button>
             </div>
           </div>
