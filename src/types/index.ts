@@ -230,5 +230,3 @@ export const MUNICIPIOS_AL: Record<string, string> = {
   '2709301': 'União dos Palmares',
   '2709400': 'Viçosa',
 };
-
-export const CODIGOS_MUNICIPIOS = Object.keys(MUNICIPIOS_AL);
