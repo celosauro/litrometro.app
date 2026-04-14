@@ -1,7 +1,7 @@
 import { Shield, Cookie, MapPin, ChartLine, Eye, Trash, UserCircle } from '@phosphor-icons/react';
 
 export default function PrivacidadePage() {
-  const dataAtualizacao = '10 de abril de 2026';
+  const dataAtualizacao = '14 de abril de 2026';
 
   return (
     <main className="max-w-4xl mx-auto px-4 py-8 sm:py-12 flex-1">

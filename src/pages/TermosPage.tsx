@@ -1,7 +1,7 @@
 import { FileText, Warning, Scales, Copyright, Handshake, Gavel } from '@phosphor-icons/react';
 
 export default function TermosPage() {
-  const dataAtualizacao = '10 de abril de 2026';
+  const dataAtualizacao = '14 de abril de 2026';
 
   return (
     <main className="max-w-4xl mx-auto px-4 py-8 sm:py-12 flex-1">
