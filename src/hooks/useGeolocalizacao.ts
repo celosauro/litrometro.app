@@ -3,6 +3,7 @@ import { useState, useCallback, useEffect } from 'react';
 interface Coordenadas {
   latitude: number;
   longitude: number;
+  timestamp?: number; // Usado para forçar atualização mesmo com mesmas coordenadas
 }
 
 interface UseGeolocalizacaoReturn {
@@ -13,6 +14,16 @@ interface UseGeolocalizacaoReturn {
   obterLocalizacao: () => void;
 }
 
+// Localização padrão para desenvolvimento (Maceió)
+const LOCALIZACAO_DEV = {
+  latitude: -9.661185,
+  longitude: -35.706977,
+};
+
+// Verifica se está em ambiente de desenvolvimento
+const isLocalhost = typeof window !== 'undefined' && 
+  (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1');
+
 export function useGeolocalizacao(): UseGeolocalizacaoReturn {
   const [localizacao, setLocalizacao] = useState<Coordenadas | null>(null);
   const [carregando, setCarregando] = useState(true); // Inicia como true pois solicita automaticamente
@@ -20,6 +31,23 @@ export function useGeolocalizacao(): UseGeolocalizacaoReturn {
   const [permissaoNegada, setPermissaoNegada] = useState(false);
 
   const obterLocalizacao = useCallback(() => {
+    // Em localhost, usa localização de desenvolvimento
+    if (isLocalhost) {
+      setCarregando(true);
+      // Pequeno delay para simular requisição
+      setTimeout(() => {
+        // Adiciona timestamp para garantir que React detecte como nova localização
+        setLocalizacao({ 
+          ...LOCALIZACAO_DEV,
+          timestamp: Date.now()
+        });
+        setCarregando(false);
+        setPermissaoNegada(false);
+        setErro(null);
+      }, 300);
+      return;
+    }
+
     if (!navigator.geolocation) {
       setErro('Geolocalização não suportada pelo navegador');
       return;
@@ -33,6 +61,7 @@ export function useGeolocalizacao(): UseGeolocalizacaoReturn {
         setLocalizacao({
           latitude: posicao.coords.latitude,
           longitude: posicao.coords.longitude,
+          timestamp: Date.now(),
         });
         setCarregando(false);
         setPermissaoNegada(false);

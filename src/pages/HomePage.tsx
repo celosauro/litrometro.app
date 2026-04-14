@@ -5,7 +5,6 @@ import { useGeolocalizacao } from '../hooks/useGeolocalizacao';
 import { CardCombustivel } from '../components/FuelCard';
 import { SeletorTipoCombustivel } from '../components/FuelTypeSelector';
 import { SeletorMunicipio } from '../components/MunicipioSelector';
-import { SeletorOrdenacao, type OpcaoOrdenacao } from '../components/SortSelector';
 import { MapaEstabelecimentos } from '../components/MapaEstabelecimentos';
 import { calcularDistanciaKm } from '../utils/distancia';
 import type { TipoCombustivel, PrecoCombustivelResumo } from '../types';
@@ -20,14 +19,13 @@ interface DadosComDistancia extends PrecoCombustivelResumo {
 export default function HomePage() {
   const [tipoCombustivelSelecionado, setTipoCombustivelSelecionado] = useState<TipoCombustivel>(1);
   const [municipioSelecionado, setMunicipioSelecionado] = useState<string>(CODIGO_MACEIO);
-  const [ordenarPor, setOrdenarPor] = useState<OpcaoOrdenacao>('preco_asc');
   const [termoBusca, setTermoBusca] = useState('');
   const [mostrarStatusLocalizacao, setMostrarStatusLocalizacao] = useState(true);
   const [estabelecimentoSelecionado, setEstabelecimentoSelecionado] = useState<DadosComDistancia | null>(null);
   const [mostrarListaMobile, setMostrarListaMobile] = useState(false);
   
-  // Ref para controlar se a localização já foi aplicada ao município
-  const localizacaoAplicadaRef = useRef(false);
+  // Cache dos centróides dos municípios
+  const centroidesMunicipiosRef = useRef<Array<{codigo_ibge: string; municipio: string; latitude: number; longitude: number}> | null>(null);
 
   const { dados, carregando, erro, recarregar } = usePrecosCombustiveis({
     tipoCombustivel: tipoCombustivelSelecionado,
@@ -41,13 +39,6 @@ export default function HomePage() {
     obterLocalizacao 
   } = useGeolocalizacao();
 
-  // Ordena por distância automaticamente quando localização for obtida
-  useEffect(() => {
-    if (localizacao) {
-      setOrdenarPor('distancia');
-    }
-  }, [localizacao]);
-
   // Oculta tooltips de status após 3 segundos
   useEffect(() => {
     if (localizacao || erroLocalizacao) {
@@ -59,39 +50,53 @@ export default function HomePage() {
     }
   }, [localizacao, erroLocalizacao]);
 
-  // Atualiza município baseado na localização do usuário (apenas na primeira vez)
+  // Atualiza município baseado na localização do usuário
   useEffect(() => {
-    // Só aplica a localização uma vez para não sobrescrever seleção manual
-    if (localizacaoAplicadaRef.current) return;
+    if (!localizacao) return;
     
-    if (localizacao && dados && dados.length > 0) {
-      let menorDistancia = Infinity;
-      let municipioMaisProximo = CODIGO_MACEIO;
-
-      for (const item of dados) {
-        if (item.latitude !== 0 && item.longitude !== 0) {
+    // Função assíncrona para buscar centróides e encontrar município mais próximo
+    const atualizarMunicipio = async () => {
+      try {
+        // Carrega centróides se ainda não tiver
+        if (!centroidesMunicipiosRef.current) {
+          const resposta = await fetch('/dados/municipios-centro.json');
+          if (resposta.ok) {
+            centroidesMunicipiosRef.current = await resposta.json();
+          }
+        }
+        
+        const centroides = centroidesMunicipiosRef.current;
+        if (!centroides || centroides.length === 0) return;
+        
+        let menorDistancia = Infinity;
+        let municipioMaisProximo = CODIGO_MACEIO;
+        
+        for (const mun of centroides) {
           const dist = calcularDistanciaKm(
             localizacao.latitude,
             localizacao.longitude,
-            item.latitude,
-            item.longitude
+            mun.latitude,
+            mun.longitude
           );
           if (dist < menorDistancia) {
             menorDistancia = dist;
-            municipioMaisProximo = item.codigo_ibge;
+            municipioMaisProximo = mun.codigo_ibge;
           }
         }
+        
+        setMunicipioSelecionado(municipioMaisProximo);
+      } catch (error) {
+        console.error('Erro ao buscar município mais próximo:', error);
       }
-
-      setMunicipioSelecionado(municipioMaisProximo);
-      localizacaoAplicadaRef.current = true;
-    }
-  }, [localizacao, dados]);
+    };
+    
+    atualizarMunicipio();
+  }, [localizacao]);
 
   // Limpa seleção quando filtros mudam
   useEffect(() => {
     setEstabelecimentoSelecionado(null);
-  }, [tipoCombustivelSelecionado, municipioSelecionado, ordenarPor, termoBusca]);
+  }, [tipoCombustivelSelecionado, municipioSelecionado, termoBusca]);
 
   // Calcula distância para cada estabelecimento
   const dadosComDistancia: DadosComDistancia[] | undefined = useMemo(() => {
@@ -128,28 +133,15 @@ export default function HomePage() {
         );
       })
       .sort((a, b) => {
-        switch (ordenarPor) {
-          case 'preco_asc':
-            // Ordena por preço, desempata por distância
-            if (a.valor_recente !== b.valor_recente) {
-              return a.valor_recente - b.valor_recente;
-            }
-            const distA = a.distancia ?? Infinity;
-            const distB = b.distancia ?? Infinity;
-            return distA - distB;
-          case 'preco_desc':
-            return b.valor_recente - a.valor_recente;
-          case 'data':
-            return new Date(b.data_recente).getTime() - new Date(a.data_recente).getTime();
-          case 'distancia':
-            const distA2 = a.distancia ?? Infinity;
-            const distB2 = b.distancia ?? Infinity;
-            return distA2 - distB2;
-          default:
-            return 0;
+        // Ordena por menor preço, desempata por distância
+        if (a.valor_recente !== b.valor_recente) {
+          return a.valor_recente - b.valor_recente;
         }
+        const distA = a.distancia ?? Infinity;
+        const distB = b.distancia ?? Infinity;
+        return distA - distB;
       });
-  }, [dadosComDistancia, termoBusca, ordenarPor]);
+  }, [dadosComDistancia, termoBusca]);
 
   // Identifica o melhor posto (prioriza postos até 5km, depois menor preço)
   const cnpjMelhorPosto = useMemo(() => {
@@ -270,15 +262,6 @@ export default function HomePage() {
                 <SeletorMunicipio
                   selecionado={municipioSelecionado}
                   aoMudar={setMunicipioSelecionado}
-                />
-              </div>
-
-              {/* Ordenação */}
-              <div className="flex-1 sm:flex-none min-w-[140px]">
-                <SeletorOrdenacao 
-                  selecionado={ordenarPor} 
-                  aoMudar={setOrdenarPor}
-                  localizacaoDisponivel={!!localizacao}
                 />
               </div>
 

@@ -609,10 +609,44 @@ async function main(): Promise<void> {
   const caminhoAtual = path.join(DADOS_DIR, 'atual.json');
   salvarJSON(caminhoAtual, dadosAtuais);
 
+  // Gera centróides dos municípios para localização rápida
+  const centroidesMunicipios: Record<string, {
+    codigo_ibge: string;
+    municipio: string;
+    latitudes: number[];
+    longitudes: number[];
+  }> = {};
+  
+  for (const est of todosEstabelecimentos) {
+    if (est.latitude === 0 || est.longitude === 0) continue;
+    const codigo = est.codigo_ibge;
+    if (!centroidesMunicipios[codigo]) {
+      centroidesMunicipios[codigo] = {
+        codigo_ibge: codigo,
+        municipio: est.municipio,
+        latitudes: [],
+        longitudes: []
+      };
+    }
+    centroidesMunicipios[codigo].latitudes.push(est.latitude);
+    centroidesMunicipios[codigo].longitudes.push(est.longitude);
+  }
+  
+  const listaCentroides = Object.values(centroidesMunicipios).map(m => ({
+    codigo_ibge: m.codigo_ibge,
+    municipio: m.municipio,
+    latitude: m.latitudes.reduce((a, b) => a + b, 0) / m.latitudes.length,
+    longitude: m.longitudes.reduce((a, b) => a + b, 0) / m.longitudes.length
+  })).sort((a, b) => a.municipio.localeCompare(b.municipio));
+  
+  const caminhoCentroides = path.join(DADOS_DIR, 'municipios-centro.json');
+  salvarJSON(caminhoCentroides, listaCentroides);
+
   console.log('\n' + '='.repeat(60));
   console.log('Coleta finalizada!');
   console.log(`Total: ${todosEstabelecimentos.length} estabelecimentos`);
   console.log(`Municípios: ${municipiosProcessados.size}`);
+  console.log(`Centróides: ${listaCentroides.length} municípios`);
   console.log(`Arquivos salvos em: ${DADOS_DIR}`);
   console.log('='.repeat(60));
 }

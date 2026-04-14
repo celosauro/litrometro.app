@@ -54,6 +54,8 @@ export function MapaEstabelecimentos({
   const [mapCarregado, setMapCarregado] = useState(false);
   // Guarda o último município para o qual o mapa voou
   const ultimoFlyToRef = useRef<string | null>(null);
+  // Guarda o timestamp da última localização processada
+  const ultimoTimestampLocRef = useRef<number | null>(null);
 
   // Callback quando o mapa carrega
   const handleMapLoad = useCallback(() => {
@@ -73,6 +75,31 @@ export function MapaEstabelecimentos({
       setPopupInfo(estabelecimentoSelecionado);
     }
   }, [estabelecimentoSelecionado, mapCarregado]);
+
+  // Voa para a localização do usuário quando ela é obtida
+  useEffect(() => {
+    if (!mapCarregado) return;
+    if (!localizacao) return;
+    
+    // Verifica se é uma nova solicitação de localização (usando timestamp)
+    const timestamp = (localizacao as { timestamp?: number }).timestamp;
+    if (timestamp && ultimoTimestampLocRef.current === timestamp) {
+      return;
+    }
+    
+    // Salva o timestamp atual
+    if (timestamp) {
+      ultimoTimestampLocRef.current = timestamp;
+    }
+    
+    // Voa para a localização do usuário
+    mapRef.current?.flyTo({
+      center: [localizacao.longitude, localizacao.latitude],
+      zoom: 13,
+      duration: 1000,
+      essential: true,
+    });
+  }, [localizacao, mapCarregado]);
 
   // Voa para o centro dos dados quando o município muda
   useEffect(() => {
