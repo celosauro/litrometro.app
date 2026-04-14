@@ -1,56 +1,36 @@
 {
   "codigoIBGE": "2708956",
   "municipio": "Senador Rui Palmeira",
-  "atualizadoEm": "2026-04-14T14:31:19.028Z",
+  "atualizadoEm": "2026-04-14T19:43:24.095Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.990230286113049,
-      "valorMaximo": 6.9906976744186045,
-      "valorMedio": 6.990463980265827
+      "valorMinimo": 6.989597888526626,
+      "valorMaximo": 6.989976373879856,
+      "valorMedio": 6.989787131203242
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 7.04135737009544,
-      "valorMaximo": 7.090395480225989,
-      "valorMedio": 7.065876425160715
+      "valorMinimo": 6.978021978021978,
+      "valorMaximo": 7.089368258859785,
+      "valorMedio": 7.033695118440882
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.445652173913044,
-      "valorMaximo": 5.451086956521739,
-      "valorMedio": 5.448369565217392
+      "valorMinimo": 5.377431906614786,
+      "valorMaximo": 5.449888277290316,
+      "valorMedio": 5.413660091952551
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.389983432912958,
-      "valorMaximo": 7.3901098901098905,
-      "valorMedio": 7.390046661511424
+      "valorMinimo": 7.274095590176921,
+      "valorMaximo": 7.389830508474576,
+      "valorMedio": 7.331963049325749
     }
   },
   "estabelecimentos": [
     {
-      "cnpj": "33967242000108",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO CAPIA II",
-      "nome_fantasia": "AUTO POSTO CAPIA II",
-      "telefone": "(82) 96023633",
-      "nome_logradouro": "AV MUNIZ FALCAO",
-      "numero_imovel": "56",
-      "bairro": "CENTRO",
-      "cep": "57515000",
-      "codigo_ibge": 2708956,
-      "municipio": "SENADOR RUI PALMEIRA",
-      "latitude": -9.4708228,
-      "longitude": -37.4572343,
-      "valor_minimo": 6.990230286113049,
-      "valor_maximo": 6.990230286113049,
-      "valor_medio": 6.990230286113049,
-      "valor_recente": 6.990230286113049,
-      "data_recente": "2026-04-14T13:35:01Z"
-    },
-    {
       "cnpj": "19487785000105",
       "tipo_combustivel": 1,
       "razao_social": "H F ANDRADE COMERCIO DE COMBUSTIVEIS LTDA",
@@ -64,11 +44,31 @@
       "municipio": "SENADOR RUI PALMEIRA",
       "latitude": -9.4732108,
       "longitude": -37.4579235,
-      "valor_minimo": 6.9906976744186045,
-      "valor_maximo": 6.9906976744186045,
-      "valor_medio": 6.9906976744186045,
-      "valor_recente": 6.9906976744186045,
-      "data_recente": "2026-04-14T13:28:16Z"
+      "valor_minimo": 6.989597888526626,
+      "valor_maximo": 6.989597888526626,
+      "valor_medio": 6.989597888526626,
+      "valor_recente": 6.989597888526626,
+      "data_recente": "2026-04-14T17:08:15Z"
+    },
+    {
+      "cnpj": "33967242000108",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO CAPIA II",
+      "nome_fantasia": "AUTO POSTO CAPIA II",
+      "telefone": "(82) 96023633",
+      "nome_logradouro": "AV MUNIZ FALCAO",
+      "numero_imovel": "56",
+      "bairro": "CENTRO",
+      "cep": "57515000",
+      "codigo_ibge": 2708956,
+      "municipio": "SENADOR RUI PALMEIRA",
+      "latitude": -9.4708228,
+      "longitude": -37.4572343,
+      "valor_minimo": 6.989976373879856,
+      "valor_maximo": 6.989976373879856,
+      "valor_medio": 6.989976373879856,
+      "valor_recente": 6.989976373879856,
+      "data_recente": "2026-04-14T17:26:30Z"
     },
     {
       "cnpj": "19487785000105",
@@ -84,11 +84,11 @@
       "municipio": "SENADOR RUI PALMEIRA",
       "latitude": -9.4732108,
       "longitude": -37.4579235,
-      "valor_minimo": 7.04135737009544,
-      "valor_maximo": 7.04135737009544,
-      "valor_medio": 7.04135737009544,
-      "valor_recente": 7.04135737009544,
-      "data_recente": "2026-04-14T12:47:04Z"
+      "valor_minimo": 6.978021978021978,
+      "valor_maximo": 6.978021978021978,
+      "valor_medio": 6.978021978021978,
+      "valor_recente": 6.978021978021978,
+      "data_recente": "2026-04-14T15:55:22Z"
     },
     {
       "cnpj": "33967242000108",
@@ -104,31 +104,11 @@
       "municipio": "SENADOR RUI PALMEIRA",
       "latitude": -9.4708228,
       "longitude": -37.4572343,
-      "valor_minimo": 7.090395480225989,
-      "valor_maximo": 7.090395480225989,
-      "valor_medio": 7.090395480225989,
-      "valor_recente": 7.090395480225989,
-      "data_recente": "2026-04-14T13:32:43Z"
-    },
-    {
-      "cnpj": "33967242000108",
-      "tipo_combustivel": 3,
-      "razao_social": "AUTO POSTO CAPIA II",
-      "nome_fantasia": "AUTO POSTO CAPIA II",
-      "telefone": "(82) 96023633",
-      "nome_logradouro": "AV MUNIZ FALCAO",
-      "numero_imovel": "56",
-      "bairro": "CENTRO",
-      "cep": "57515000",
-      "codigo_ibge": 2708956,
-      "municipio": "SENADOR RUI PALMEIRA",
-      "latitude": -9.4708228,
-      "longitude": -37.4572343,
-      "valor_minimo": 5.445652173913044,
-      "valor_maximo": 5.445652173913044,
-      "valor_medio": 5.445652173913044,
-      "valor_recente": 5.445652173913044,
-      "data_recente": "2026-04-14T13:32:43Z"
+      "valor_minimo": 7.089368258859785,
+      "valor_maximo": 7.089368258859785,
+      "valor_medio": 7.089368258859785,
+      "valor_recente": 7.089368258859785,
+      "data_recente": "2026-04-14T16:38:53Z"
     },
     {
       "cnpj": "19487785000105",
@@ -144,15 +124,15 @@
       "municipio": "SENADOR RUI PALMEIRA",
       "latitude": -9.4732108,
       "longitude": -37.4579235,
-      "valor_minimo": 5.451086956521739,
-      "valor_maximo": 5.451086956521739,
-      "valor_medio": 5.451086956521739,
-      "valor_recente": 5.451086956521739,
-      "data_recente": "2026-04-14T13:28:16Z"
+      "valor_minimo": 5.377431906614786,
+      "valor_maximo": 5.377431906614786,
+      "valor_medio": 5.377431906614786,
+      "valor_recente": 5.377431906614786,
+      "data_recente": "2026-04-14T15:00:13Z"
     },
     {
       "cnpj": "33967242000108",
-      "tipo_combustivel": 5,
+      "tipo_combustivel": 3,
       "razao_social": "AUTO POSTO CAPIA II",
       "nome_fantasia": "AUTO POSTO CAPIA II",
       "telefone": "(82) 96023633",
@@ -164,11 +144,11 @@
       "municipio": "SENADOR RUI PALMEIRA",
       "latitude": -9.4708228,
       "longitude": -37.4572343,
-      "valor_minimo": 7.389983432912958,
-      "valor_maximo": 7.389983432912958,
-      "valor_medio": 7.389983432912958,
-      "valor_recente": 7.389983432912958,
-      "data_recente": "2026-04-14T13:33:17Z"
+      "valor_minimo": 5.449888277290316,
+      "valor_maximo": 5.449888277290316,
+      "valor_medio": 5.449888277290316,
+      "valor_recente": 5.449888277290316,
+      "data_recente": "2026-04-14T14:52:16Z"
     },
     {
       "cnpj": "19487785000105",
@@ -184,11 +164,31 @@
       "municipio": "SENADOR RUI PALMEIRA",
       "latitude": -9.4732108,
       "longitude": -37.4579235,
-      "valor_minimo": 7.3901098901098905,
-      "valor_maximo": 7.3901098901098905,
-      "valor_medio": 7.3901098901098905,
-      "valor_recente": 7.3901098901098905,
-      "data_recente": "2026-04-14T13:29:39Z"
+      "valor_minimo": 7.274095590176921,
+      "valor_maximo": 7.274095590176921,
+      "valor_medio": 7.274095590176921,
+      "valor_recente": 7.274095590176921,
+      "data_recente": "2026-04-14T15:55:22Z"
+    },
+    {
+      "cnpj": "33967242000108",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO CAPIA II",
+      "nome_fantasia": "AUTO POSTO CAPIA II",
+      "telefone": "(82) 96023633",
+      "nome_logradouro": "AV MUNIZ FALCAO",
+      "numero_imovel": "56",
+      "bairro": "CENTRO",
+      "cep": "57515000",
+      "codigo_ibge": 2708956,
+      "municipio": "SENADOR RUI PALMEIRA",
+      "latitude": -9.4708228,
+      "longitude": -37.4572343,
+      "valor_minimo": 7.389830508474576,
+      "valor_maximo": 7.389830508474576,
+      "valor_medio": 7.389830508474576,
+      "valor_recente": 7.389830508474576,
+      "data_recente": "2026-04-14T17:00:49Z"
     }
   ]
 }
