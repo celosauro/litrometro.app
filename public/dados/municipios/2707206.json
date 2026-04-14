@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2707206",
   "municipio": "Poço das Trincheiras",
-  "atualizadoEm": "2026-04-14T19:35:29.850Z",
+  "atualizadoEm": "2026-04-14T21:13:47.824Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
       "valorMinimo": 6.968641114982578,
-      "valorMaximo": 6.990562740300594,
-      "valorMedio": 6.97640128509439
+      "valorMaximo": 6.984866123399302,
+      "valorMedio": 6.975243153534701
     },
     "2": {
       "totalPostos": 1,
@@ -18,15 +18,15 @@
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.649717514124294,
-      "valorMaximo": 5.649717514124294,
-      "valorMedio": 5.649717514124294
+      "valorMinimo": 5.2,
+      "valorMaximo": 5.2,
+      "valorMedio": 5.2
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.781553398058253,
-      "valorMaximo": 7.799954117916953,
-      "valorMedio": 7.792926157046966
+      "valorMinimo": 7.106138494103417,
+      "valorMaximo": 7.797270955165692,
+      "valorMedio": 7.561171387103665
     }
   },
   "estabelecimentos": [
@@ -64,11 +64,11 @@
       "municipio": "POCO DAS TRINCHEIRAS",
       "latitude": -9.3237539,
       "longitude": -37.30406809999999,
-      "valor_minimo": 6.97,
-      "valor_maximo": 6.97,
-      "valor_medio": 6.97,
-      "valor_recente": 6.97,
-      "data_recente": "2026-04-14T16:26:00Z"
+      "valor_minimo": 6.972222222222222,
+      "valor_maximo": 6.972222222222222,
+      "valor_medio": 6.972222222222222,
+      "valor_recente": 6.972222222222222,
+      "data_recente": "2026-04-14T19:27:11Z"
     },
     {
       "cnpj": "29720522000140",
@@ -84,11 +84,11 @@
       "municipio": "POCO DAS TRINCHEIRAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.990562740300594,
-      "valor_maximo": 6.990562740300594,
-      "valor_medio": 6.990562740300594,
-      "valor_recente": 6.990562740300594,
-      "data_recente": "2026-04-14T17:30:03Z"
+      "valor_minimo": 6.984866123399302,
+      "valor_maximo": 6.984866123399302,
+      "valor_medio": 6.984866123399302,
+      "valor_recente": 6.984866123399302,
+      "data_recente": "2026-04-14T19:26:41Z"
     },
     {
       "cnpj": "09025340000141",
@@ -124,11 +124,31 @@
       "municipio": "POCO DAS TRINCHEIRAS",
       "latitude": -9.3237539,
       "longitude": -37.30406809999999,
-      "valor_minimo": 5.649717514124294,
-      "valor_maximo": 5.649717514124294,
-      "valor_medio": 5.649717514124294,
-      "valor_recente": 5.649717514124294,
-      "data_recente": "2026-04-14T17:11:37Z"
+      "valor_minimo": 5.2,
+      "valor_maximo": 5.2,
+      "valor_medio": 5.2,
+      "valor_recente": 5.2,
+      "data_recente": "2026-04-14T19:15:14Z"
+    },
+    {
+      "cnpj": "08886737000165",
+      "tipo_combustivel": 5,
+      "razao_social": "COMÉRCIO DE COMBUSTÍVEIS NOSSA SENHORA DE FÁTIMA LTDA.",
+      "nome_fantasia": "AUTO POSTO NOSSA SENHORA DE FATIMA",
+      "telefone": "",
+      "nome_logradouro": "RDV BR 316",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57510000",
+      "codigo_ibge": 2707206,
+      "municipio": "POCO DAS TRINCHEIRAS",
+      "latitude": -9.3237539,
+      "longitude": -37.30406809999999,
+      "valor_minimo": 7.106138494103417,
+      "valor_maximo": 7.106138494103417,
+      "valor_medio": 7.106138494103417,
+      "valor_recente": 7.106138494103417,
+      "data_recente": "2026-04-14T19:17:34Z"
     },
     {
       "cnpj": "29720522000140",
@@ -144,11 +164,11 @@
       "municipio": "POCO DAS TRINCHEIRAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.781553398058253,
-      "valor_maximo": 7.781553398058253,
-      "valor_medio": 7.781553398058253,
-      "valor_recente": 7.781553398058253,
-      "data_recente": "2026-04-14T13:22:46Z"
+      "valor_minimo": 7.780104712041885,
+      "valor_maximo": 7.780104712041885,
+      "valor_medio": 7.780104712041885,
+      "valor_recente": 7.780104712041885,
+      "data_recente": "2026-04-14T18:42:26Z"
     },
     {
       "cnpj": "09025340000141",
@@ -169,26 +189,6 @@
       "valor_medio": 7.797270955165692,
       "valor_recente": 7.797270955165692,
       "data_recente": "2026-04-14T14:10:06Z"
-    },
-    {
-      "cnpj": "08886737000165",
-      "tipo_combustivel": 5,
-      "razao_social": "COMÉRCIO DE COMBUSTÍVEIS NOSSA SENHORA DE FÁTIMA LTDA.",
-      "nome_fantasia": "AUTO POSTO NOSSA SENHORA DE FATIMA",
-      "telefone": "",
-      "nome_logradouro": "RDV BR 316",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57510000",
-      "codigo_ibge": 2707206,
-      "municipio": "POCO DAS TRINCHEIRAS",
-      "latitude": -9.3237539,
-      "longitude": -37.30406809999999,
-      "valor_minimo": 7.799954117916953,
-      "valor_maximo": 7.799954117916953,
-      "valor_medio": 7.799954117916953,
-      "valor_recente": 7.799954117916953,
-      "data_recente": "2026-04-14T16:34:16Z"
     }
   ]
 }

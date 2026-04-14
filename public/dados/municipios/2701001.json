@@ -1,61 +1,41 @@
 {
   "codigoIBGE": "2701001",
   "municipio": "Boca da Mata",
-  "atualizadoEm": "2026-04-14T19:09:38.729Z",
+  "atualizadoEm": "2026-04-14T20:45:17.307Z",
   "totalEstabelecimentos": 13,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
-      "valorMinimo": 6.668880770508137,
-      "valorMaximo": 6.79001867255135,
-      "valorMedio": 6.727140115002159
+      "valorMinimo": 6.669334400426838,
+      "valorMaximo": 6.889763779527559,
+      "valorMedio": 6.754724020703306
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.019514249613927,
-      "valorMaximo": 7.019514249613927,
-      "valorMedio": 7.019514249613927
+      "valorMinimo": 7.02000702000702,
+      "valorMaximo": 7.02000702000702,
+      "valorMedio": 7.02000702000702
     },
     "3": {
       "totalPostos": 4,
       "valorMinimo": 5.499037668408029,
-      "valorMaximo": 5.690376569037657,
-      "valorMedio": 5.594855386044483
+      "valorMaximo": 5.691056910569106,
+      "valorMedio": 5.59501737727114
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 7.2500543754078155,
-      "valorMaximo": 7.2500543754078155,
-      "valorMedio": 7.2500543754078155
+      "valorMinimo": 7.250001812500453,
+      "valorMaximo": 7.250001812500453,
+      "valorMedio": 7.250001812500453
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.369957106849638,
-      "valorMaximo": 7.429420505200595,
-      "valorMedio": 7.399980758658711
+      "valorMinimo": 7.3699933178727255,
+      "valorMaximo": 7.739944587751983,
+      "valorMedio": 7.5131194702751
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "23768811000132",
-      "tipo_combustivel": 1,
-      "razao_social": "A T MELO DA ROCHA EIRELI - ME",
-      "nome_fantasia": "AUTO POSTO SANTO ANTONIO",
-      "telefone": "(82) 32219831",
-      "nome_logradouro": "AV CEL JOVENTINO P DAMASO",
-      "numero_imovel": "307",
-      "bairro": "VARELA",
-      "cep": "57680000",
-      "codigo_ibge": 2701001,
-      "municipio": "BOCA DA MATA",
-      "latitude": -9.6482528,
-      "longitude": -36.2126435,
-      "valor_minimo": 6.668880770508137,
-      "valor_maximo": 6.668880770508137,
-      "valor_medio": 6.668880770508137,
-      "valor_recente": 6.668880770508137,
-      "data_recente": "2026-04-14T17:24:12Z"
-    },
     {
       "cnpj": "31122428000130",
       "tipo_combustivel": 1,
@@ -70,11 +50,31 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.663338,
       "longitude": -36.084506,
-      "valor_minimo": 6.67,
-      "valor_maximo": 6.67,
-      "valor_medio": 6.67,
-      "valor_recente": 6.67,
-      "data_recente": "2026-04-14T16:19:06Z"
+      "valor_minimo": 6.669334400426838,
+      "valor_maximo": 6.669334400426838,
+      "valor_medio": 6.669334400426838,
+      "valor_recente": 6.669334400426838,
+      "data_recente": "2026-04-14T19:21:57Z"
+    },
+    {
+      "cnpj": "23768811000132",
+      "tipo_combustivel": 1,
+      "razao_social": "A T MELO DA ROCHA EIRELI - ME",
+      "nome_fantasia": "AUTO POSTO SANTO ANTONIO",
+      "telefone": "(82) 32219831",
+      "nome_logradouro": "AV CEL JOVENTINO P DAMASO",
+      "numero_imovel": "307",
+      "bairro": "VARELA",
+      "cep": "57680000",
+      "codigo_ibge": 2701001,
+      "municipio": "BOCA DA MATA",
+      "latitude": -9.6482528,
+      "longitude": -36.2126435,
+      "valor_minimo": 6.669779230307477,
+      "valor_maximo": 6.669779230307477,
+      "valor_medio": 6.669779230307477,
+      "valor_recente": 6.669779230307477,
+      "data_recente": "2026-04-14T19:24:37Z"
     },
     {
       "cnpj": "02970015000108",
@@ -90,11 +90,11 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.637674,
       "longitude": -36.21101,
-      "valor_minimo": 6.779661016949152,
-      "valor_maximo": 6.779661016949152,
-      "valor_medio": 6.779661016949152,
-      "valor_recente": 6.779661016949152,
-      "data_recente": "2026-04-14T17:36:51Z"
+      "valor_minimo": 6.79001867255135,
+      "valor_maximo": 6.79001867255135,
+      "valor_medio": 6.79001867255135,
+      "valor_recente": 6.79001867255135,
+      "data_recente": "2026-04-14T19:34:59Z"
     },
     {
       "cnpj": "02681327000100",
@@ -110,11 +110,11 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.644614,
       "longitude": -36.214373,
-      "valor_minimo": 6.79001867255135,
-      "valor_maximo": 6.79001867255135,
-      "valor_medio": 6.79001867255135,
-      "valor_recente": 6.79001867255135,
-      "data_recente": "2026-04-14T16:21:55Z"
+      "valor_minimo": 6.889763779527559,
+      "valor_maximo": 6.889763779527559,
+      "valor_medio": 6.889763779527559,
+      "valor_recente": 6.889763779527559,
+      "data_recente": "2026-04-14T19:34:17Z"
     },
     {
       "cnpj": "02681327000100",
@@ -130,11 +130,11 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.644614,
       "longitude": -36.214373,
-      "valor_minimo": 7.019514249613927,
-      "valor_maximo": 7.019514249613927,
-      "valor_medio": 7.019514249613927,
-      "valor_recente": 7.019514249613927,
-      "data_recente": "2026-04-14T15:20:37Z"
+      "valor_minimo": 7.02000702000702,
+      "valor_maximo": 7.02000702000702,
+      "valor_medio": 7.02000702000702,
+      "valor_recente": 7.02000702000702,
+      "data_recente": "2026-04-14T18:24:44Z"
     },
     {
       "cnpj": "23768811000132",
@@ -177,26 +177,6 @@
       "data_recente": "2026-04-14T14:25:00Z"
     },
     {
-      "cnpj": "02970015000108",
-      "tipo_combustivel": 3,
-      "razao_social": "DANIELLE TOLEDO GOMES TENORIO COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
-      "nome_fantasia": "POSTO SAFRA",
-      "telefone": "(82) 2791366",
-      "nome_logradouro": "RDV AL 215  KM 056",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57680000",
-      "codigo_ibge": 2701001,
-      "municipio": "BOCA DA MATA",
-      "latitude": -9.637674,
-      "longitude": -36.21101,
-      "valor_minimo": 5.690062306182253,
-      "valor_maximo": 5.690062306182253,
-      "valor_medio": 5.690062306182253,
-      "valor_recente": 5.690062306182253,
-      "data_recente": "2026-04-14T17:23:46Z"
-    },
-    {
       "cnpj": "02681327000100",
       "tipo_combustivel": 3,
       "razao_social": "POSTO PADRE CÍCERO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
@@ -210,11 +190,31 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.644614,
       "longitude": -36.214373,
-      "valor_minimo": 5.690376569037657,
-      "valor_maximo": 5.690376569037657,
-      "valor_medio": 5.690376569037657,
-      "valor_recente": 5.690376569037657,
-      "data_recente": "2026-04-14T14:12:54Z"
+      "valor_minimo": 5.690029929557429,
+      "valor_maximo": 5.690029929557429,
+      "valor_medio": 5.690029929557429,
+      "valor_recente": 5.690029929557429,
+      "data_recente": "2026-04-14T18:24:44Z"
+    },
+    {
+      "cnpj": "02970015000108",
+      "tipo_combustivel": 3,
+      "razao_social": "DANIELLE TOLEDO GOMES TENORIO COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+      "nome_fantasia": "POSTO SAFRA",
+      "telefone": "(82) 2791366",
+      "nome_logradouro": "RDV AL 215  KM 056",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57680000",
+      "codigo_ibge": 2701001,
+      "municipio": "BOCA DA MATA",
+      "latitude": -9.637674,
+      "longitude": -36.21101,
+      "valor_minimo": 5.691056910569106,
+      "valor_maximo": 5.691056910569106,
+      "valor_medio": 5.691056910569106,
+      "valor_recente": 5.691056910569106,
+      "data_recente": "2026-04-14T18:14:26Z"
     },
     {
       "cnpj": "02970015000108",
@@ -230,11 +230,11 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.637674,
       "longitude": -36.21101,
-      "valor_minimo": 7.2500543754078155,
-      "valor_maximo": 7.2500543754078155,
-      "valor_medio": 7.2500543754078155,
-      "valor_recente": 7.2500543754078155,
-      "data_recente": "2026-04-14T14:36:03Z"
+      "valor_minimo": 7.250001812500453,
+      "valor_maximo": 7.250001812500453,
+      "valor_medio": 7.250001812500453,
+      "valor_recente": 7.250001812500453,
+      "data_recente": "2026-04-14T18:33:30Z"
     },
     {
       "cnpj": "02681327000100",
@@ -250,31 +250,11 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.644614,
       "longitude": -36.214373,
-      "valor_minimo": 7.369957106849638,
-      "valor_maximo": 7.369957106849638,
-      "valor_medio": 7.369957106849638,
-      "valor_recente": 7.369957106849638,
-      "data_recente": "2026-04-14T15:20:03Z"
-    },
-    {
-      "cnpj": "31122428000130",
-      "tipo_combustivel": 5,
-      "razao_social": "C C JATOBA DA ROCHA",
-      "nome_fantasia": "POSTO SANTA RITA",
-      "telefone": "(82) 32211058",
-      "nome_logradouro": "ROD AL 215 KM 11",
-      "numero_imovel": "1717",
-      "bairro": "ZONA RURAL",
-      "cep": "57680000",
-      "codigo_ibge": 2701001,
-      "municipio": "BOCA DA MATA",
-      "latitude": -9.663338,
-      "longitude": -36.084506,
-      "valor_minimo": 7.4005646639259,
-      "valor_maximo": 7.4005646639259,
-      "valor_medio": 7.4005646639259,
-      "valor_recente": 7.4005646639259,
-      "data_recente": "2026-04-14T17:13:40Z"
+      "valor_minimo": 7.3699933178727255,
+      "valor_maximo": 7.3699933178727255,
+      "valor_medio": 7.3699933178727255,
+      "valor_recente": 7.3699933178727255,
+      "data_recente": "2026-04-14T17:58:15Z"
     },
     {
       "cnpj": "23768811000132",
@@ -294,7 +274,27 @@
       "valor_maximo": 7.429420505200595,
       "valor_medio": 7.429420505200595,
       "valor_recente": 7.429420505200595,
-      "data_recente": "2026-04-14T15:11:48Z"
+      "data_recente": "2026-04-14T18:38:03Z"
+    },
+    {
+      "cnpj": "31122428000130",
+      "tipo_combustivel": 5,
+      "razao_social": "C C JATOBA DA ROCHA",
+      "nome_fantasia": "POSTO SANTA RITA",
+      "telefone": "(82) 32211058",
+      "nome_logradouro": "ROD AL 215 KM 11",
+      "numero_imovel": "1717",
+      "bairro": "ZONA RURAL",
+      "cep": "57680000",
+      "codigo_ibge": 2701001,
+      "municipio": "BOCA DA MATA",
+      "latitude": -9.663338,
+      "longitude": -36.084506,
+      "valor_minimo": 7.739944587751983,
+      "valor_maximo": 7.739944587751983,
+      "valor_medio": 7.739944587751983,
+      "valor_recente": 7.739944587751983,
+      "data_recente": "2026-04-14T18:14:50Z"
     }
   ]
 }

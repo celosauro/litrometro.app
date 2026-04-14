@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2703007",
   "municipio": "Ibateguara",
-  "atualizadoEm": "2026-04-14T19:18:03.722Z",
+  "atualizadoEm": "2026-04-14T20:54:36.733Z",
   "totalEstabelecimentos": 10,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.9479768786127165,
-      "valorMaximo": 6.990033222591362,
-      "valorMedio": 6.975376765623814
+      "valorMinimo": 6.75,
+      "valorMaximo": 6.99,
+      "valorMedio": 6.895992292870905
     },
     "2": {
       "totalPostos": 2,
@@ -25,11 +25,31 @@
     "5": {
       "totalPostos": 3,
       "valorMinimo": 7.389787410188936,
-      "valorMaximo": 7.8901259888661,
-      "valorMedio": 7.556637799685013
+      "valorMaximo": 7.89000603257591,
+      "valorMedio": 7.556597814254949
     }
   },
   "estabelecimentos": [
+    {
+      "cnpj": "11457014000155",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO TOP LINE LTDA - EPP",
+      "nome_fantasia": "AUTO POSTO TOP LINE",
+      "telefone": "(82) 32031114",
+      "nome_logradouro": "Rua DRA JANETE DE ARAUJO",
+      "numero_imovel": "227",
+      "bairro": "CENTRO",
+      "cep": "57890000",
+      "codigo_ibge": 2703007,
+      "municipio": "IBATEGUARA",
+      "latitude": -8.968526599999999,
+      "longitude": -35.9246712,
+      "valor_minimo": 6.75,
+      "valor_maximo": 6.75,
+      "valor_medio": 6.75,
+      "valor_recente": 6.75,
+      "data_recente": "2026-04-14T19:29:42Z"
+    },
     {
       "cnpj": "37308725000151",
       "tipo_combustivel": 1,
@@ -64,31 +84,11 @@
       "municipio": "IBATEGUARA",
       "latitude": -8.9682481,
       "longitude": -35.9230209,
-      "valor_minimo": 6.988120195667365,
-      "valor_maximo": 6.988120195667365,
-      "valor_medio": 6.988120195667365,
-      "valor_recente": 6.988120195667365,
-      "data_recente": "2026-04-14T11:54:42Z"
-    },
-    {
-      "cnpj": "11457014000155",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO TOP LINE LTDA - EPP",
-      "nome_fantasia": "AUTO POSTO TOP LINE",
-      "telefone": "(82) 32031114",
-      "nome_logradouro": "Rua DRA JANETE DE ARAUJO",
-      "numero_imovel": "227",
-      "bairro": "CENTRO",
-      "cep": "57890000",
-      "codigo_ibge": 2703007,
-      "municipio": "IBATEGUARA",
-      "latitude": -8.968526599999999,
-      "longitude": -35.9246712,
-      "valor_minimo": 6.990033222591362,
-      "valor_maximo": 6.990033222591362,
-      "valor_medio": 6.990033222591362,
-      "valor_recente": 6.990033222591362,
-      "data_recente": "2026-04-14T16:28:24Z"
+      "valor_minimo": 6.99,
+      "valor_maximo": 6.99,
+      "valor_medio": 6.99,
+      "valor_recente": 6.99,
+      "data_recente": "2026-04-14T17:57:44Z"
     },
     {
       "cnpj": "37308725000151",
@@ -224,11 +224,11 @@
       "municipio": "IBATEGUARA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.8901259888661,
-      "valor_maximo": 7.8901259888661,
-      "valor_medio": 7.8901259888661,
-      "valor_recente": 7.8901259888661,
-      "data_recente": "2026-04-14T15:51:26Z"
+      "valor_minimo": 7.89000603257591,
+      "valor_maximo": 7.89000603257591,
+      "valor_medio": 7.89000603257591,
+      "valor_recente": 7.89000603257591,
+      "data_recente": "2026-04-14T17:58:54Z"
     }
   ]
 }

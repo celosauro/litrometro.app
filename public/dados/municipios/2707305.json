@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2707305",
   "municipio": "Porto Calvo",
-  "atualizadoEm": "2026-04-14T19:35:54.158Z",
+  "atualizadoEm": "2026-04-14T21:14:02.912Z",
   "totalEstabelecimentos": 14,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
-      "valorMinimo": 6.738544474393531,
+      "valorMinimo": 6.740023474178404,
       "valorMaximo": 7.099290780141844,
-      "valorMedio": 6.854506577595849
+      "valorMedio": 6.854625126876588
     },
     "2": {
       "totalPostos": 2,
       "valorMinimo": 6.888833623476747,
-      "valorMaximo": 6.988372093023256,
-      "valorMedio": 6.938602858250001
+      "valorMaximo": 6.993006993006993,
+      "valorMedio": 6.94092030824187
     },
     "3": {
       "totalPostos": 4,
       "valorMinimo": 5.52,
       "valorMaximo": 5.609852999602702,
-      "valorMedio": 5.569817528098256
+      "valorMedio": 5.5698875262576415
     },
     "5": {
       "totalPostos": 4,
-      "valorMinimo": 7.679965949887117,
-      "valorMaximo": 7.690082644628099,
-      "valorMedio": 7.685005568238368
+      "valorMinimo": 7.679766039115336,
+      "valorMaximo": 7.69,
+      "valorMedio": 7.684931058273997
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "PORTO CALVO",
       "latitude": -9.0474879,
       "longitude": -35.4052326,
-      "valor_minimo": 6.738544474393531,
-      "valor_maximo": 6.738544474393531,
-      "valor_medio": 6.738544474393531,
-      "valor_recente": 6.738544474393531,
-      "data_recente": "2026-04-14T16:44:59Z"
+      "valor_minimo": 6.740023474178404,
+      "valor_maximo": 6.740023474178404,
+      "valor_medio": 6.740023474178404,
+      "valor_recente": 6.740023474178404,
+      "data_recente": "2026-04-14T19:09:56Z"
     },
     {
       "cnpj": "34190671000184",
@@ -64,11 +64,11 @@
       "municipio": "PORTO CALVO",
       "latitude": -8.922867,
       "longitude": -35.1588491,
-      "valor_minimo": 6.7897881586094515,
-      "valor_maximo": 6.7897881586094515,
-      "valor_medio": 6.7897881586094515,
-      "valor_recente": 6.7897881586094515,
-      "data_recente": "2026-04-14T17:14:44Z"
+      "valor_minimo": 6.788783355947535,
+      "valor_maximo": 6.788783355947535,
+      "valor_medio": 6.788783355947535,
+      "valor_recente": 6.788783355947535,
+      "data_recente": "2026-04-14T19:33:10Z"
     },
     {
       "cnpj": "50773495000160",
@@ -144,11 +144,11 @@
       "municipio": "PORTO CALVO",
       "latitude": -9.0474879,
       "longitude": -35.4052326,
-      "valor_minimo": 6.988372093023256,
-      "valor_maximo": 6.988372093023256,
-      "valor_medio": 6.988372093023256,
-      "valor_recente": 6.988372093023256,
-      "data_recente": "2026-04-14T15:54:01Z"
+      "valor_minimo": 6.993006993006993,
+      "valor_maximo": 6.993006993006993,
+      "valor_medio": 6.993006993006993,
+      "valor_recente": 6.993006993006993,
+      "data_recente": "2026-04-14T18:47:25Z"
     },
     {
       "cnpj": "13074634000130",
@@ -184,11 +184,11 @@
       "municipio": "PORTO CALVO",
       "latitude": -9.0474879,
       "longitude": -35.4052326,
-      "valor_minimo": 5.5399615895996455,
-      "valor_maximo": 5.5399615895996455,
-      "valor_medio": 5.5399615895996455,
-      "valor_recente": 5.5399615895996455,
-      "data_recente": "2026-04-14T16:48:16Z"
+      "valor_minimo": 5.539982050458157,
+      "valor_maximo": 5.539982050458157,
+      "valor_medio": 5.539982050458157,
+      "valor_recente": 5.539982050458157,
+      "data_recente": "2026-04-14T18:47:25Z"
     },
     {
       "cnpj": "34190671000184",
@@ -204,11 +204,11 @@
       "municipio": "PORTO CALVO",
       "latitude": -8.922867,
       "longitude": -35.1588491,
-      "valor_minimo": 5.609455523190679,
-      "valor_maximo": 5.609455523190679,
-      "valor_medio": 5.609455523190679,
-      "valor_recente": 5.609455523190679,
-      "data_recente": "2026-04-14T17:21:58Z"
+      "valor_minimo": 5.60971505496971,
+      "valor_maximo": 5.60971505496971,
+      "valor_medio": 5.60971505496971,
+      "valor_recente": 5.60971505496971,
+      "data_recente": "2026-04-14T19:33:10Z"
     },
     {
       "cnpj": "50773495000160",
@@ -231,6 +231,26 @@
       "data_recente": "2026-04-14T15:54:52Z"
     },
     {
+      "cnpj": "34190671000184",
+      "tipo_combustivel": 5,
+      "razao_social": "POSTO FERREIRA E JACINTO LTDA",
+      "nome_fantasia": "POSTO DETH",
+      "telefone": "(82) 88080423",
+      "nome_logradouro": "ROD AL 101 NORTE",
+      "numero_imovel": "S/N",
+      "bairro": "CENTRO",
+      "cep": "57900000",
+      "codigo_ibge": 2707305,
+      "municipio": "PORTO CALVO",
+      "latitude": -8.922867,
+      "longitude": -35.1588491,
+      "valor_minimo": 7.679766039115336,
+      "valor_maximo": 7.679766039115336,
+      "valor_medio": 7.679766039115336,
+      "valor_recente": 7.679766039115336,
+      "data_recente": "2026-04-14T19:33:10Z"
+    },
+    {
       "cnpj": "50773495000160",
       "tipo_combustivel": 5,
       "razao_social": "AUTO POSTO PORTO CALVO LTDA",
@@ -251,24 +271,24 @@
       "data_recente": "2026-04-14T08:11:31Z"
     },
     {
-      "cnpj": "34190671000184",
+      "cnpj": "10673213000138",
       "tipo_combustivel": 5,
-      "razao_social": "POSTO FERREIRA E JACINTO LTDA",
-      "nome_fantasia": "POSTO DETH",
-      "telefone": "(82) 88080423",
-      "nome_logradouro": "ROD AL 101 NORTE",
+      "razao_social": "AUTO POSTO COMANDATUBA LTDA. - ME",
+      "nome_fantasia": "AUTO POSTO COMANDATUBA",
+      "telefone": "(82) 33540182",
+      "nome_logradouro": "ROD AL-105 NORTE KM 102",
       "numero_imovel": "S/N",
-      "bairro": "CENTRO",
+      "bairro": "ZONA DE EXPANCAO URBANA",
       "cep": "57900000",
       "codigo_ibge": 2707305,
       "municipio": "PORTO CALVO",
-      "latitude": -8.922867,
-      "longitude": -35.1588491,
-      "valor_minimo": 7.679973678438254,
-      "valor_maximo": 7.679973678438254,
-      "valor_medio": 7.679973678438254,
-      "valor_recente": 7.679973678438254,
-      "data_recente": "2026-04-14T16:46:19Z"
+      "latitude": -9.0474879,
+      "longitude": -35.4052326,
+      "valor_minimo": 7.689992244093537,
+      "valor_maximo": 7.689992244093537,
+      "valor_medio": 7.689992244093537,
+      "valor_recente": 7.689992244093537,
+      "data_recente": "2026-04-14T19:09:20Z"
     },
     {
       "cnpj": "13074634000130",
@@ -288,27 +308,7 @@
       "valor_maximo": 7.69,
       "valor_medio": 7.69,
       "valor_recente": 7.69,
-      "data_recente": "2026-04-14T17:09:44Z"
-    },
-    {
-      "cnpj": "10673213000138",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO COMANDATUBA LTDA. - ME",
-      "nome_fantasia": "AUTO POSTO COMANDATUBA",
-      "telefone": "(82) 33540182",
-      "nome_logradouro": "ROD AL-105 NORTE KM 102",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA DE EXPANCAO URBANA",
-      "cep": "57900000",
-      "codigo_ibge": 2707305,
-      "municipio": "PORTO CALVO",
-      "latitude": -9.0474879,
-      "longitude": -35.4052326,
-      "valor_minimo": 7.690082644628099,
-      "valor_maximo": 7.690082644628099,
-      "valor_medio": 7.690082644628099,
-      "valor_recente": 7.690082644628099,
-      "data_recente": "2026-04-14T15:35:37Z"
+      "data_recente": "2026-04-14T19:21:29Z"
     }
   ]
 }

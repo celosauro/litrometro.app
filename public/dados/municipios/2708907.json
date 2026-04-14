@@ -1,56 +1,36 @@
 {
   "codigoIBGE": "2708907",
   "municipio": "Satuba",
-  "atualizadoEm": "2026-04-14T19:42:59.810Z",
+  "atualizadoEm": "2026-04-14T21:19:53.104Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
       "valorMinimo": 6.8493150684931505,
-      "valorMaximo": 6.8493150684931505,
-      "valorMedio": 6.8493150684931505
+      "valorMaximo": 6.85,
+      "valorMedio": 6.849657534246575
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.98909700866648,
-      "valorMaximo": 7.1890726096333575,
-      "valorMedio": 7.089084809149918
+      "valorMinimo": 6.989748369058714,
+      "valorMaximo": 7.147962830593281,
+      "valorMedio": 7.068855599825998
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.189952252439277,
-      "valorMaximo": 5.35,
-      "valorMedio": 5.269976126219639
+      "valorMinimo": 5.1894135962636225,
+      "valorMaximo": 5.349023803155924,
+      "valorMedio": 5.269218699709773
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 6.7898475536754725,
-      "valorMaximo": 9.55,
-      "valorMedio": 8.169923776837736
+      "valorMinimo": 6.789941832831632,
+      "valorMaximo": 7.28989155693261,
+      "valorMedio": 7.0399166948821215
     }
   },
   "estabelecimentos": [
     {
-      "cnpj": "10523779000183",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO PONTO 10 LTDA - EPP",
-      "nome_fantasia": "AUTO POSTO PONTO 10",
-      "telefone": "",
-      "nome_logradouro": "ROD BR 316",
-      "numero_imovel": "S/N",
-      "bairro": "PRIMAVERA",
-      "cep": "57120000",
-      "codigo_ibge": 2708907,
-      "municipio": "SATUBA",
-      "latitude": -9.571623299999999,
-      "longitude": -35.8254097,
-      "valor_minimo": 6.8493150684931505,
-      "valor_maximo": 6.8493150684931505,
-      "valor_medio": 6.8493150684931505,
-      "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-14T17:34:39Z"
-    },
-    {
       "cnpj": "48196035000174",
       "tipo_combustivel": 1,
       "razao_social": "POSTO SATUBA LTDA",
@@ -68,7 +48,27 @@
       "valor_maximo": 6.8493150684931505,
       "valor_medio": 6.8493150684931505,
       "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-14T17:32:42Z"
+      "data_recente": "2026-04-14T19:29:57Z"
+    },
+    {
+      "cnpj": "10523779000183",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO PONTO 10 LTDA - EPP",
+      "nome_fantasia": "AUTO POSTO PONTO 10",
+      "telefone": "",
+      "nome_logradouro": "ROD BR 316",
+      "numero_imovel": "S/N",
+      "bairro": "PRIMAVERA",
+      "cep": "57120000",
+      "codigo_ibge": 2708907,
+      "municipio": "SATUBA",
+      "latitude": -9.571623299999999,
+      "longitude": -35.8254097,
+      "valor_minimo": 6.85,
+      "valor_maximo": 6.85,
+      "valor_medio": 6.85,
+      "valor_recente": 6.85,
+      "data_recente": "2026-04-14T19:18:35Z"
     },
     {
       "cnpj": "10523779000183",
@@ -84,11 +84,11 @@
       "municipio": "SATUBA",
       "latitude": -9.571623299999999,
       "longitude": -35.8254097,
-      "valor_minimo": 6.98909700866648,
-      "valor_maximo": 6.98909700866648,
-      "valor_medio": 6.98909700866648,
-      "valor_recente": 6.98909700866648,
-      "data_recente": "2026-04-14T16:21:26Z"
+      "valor_minimo": 6.989748369058714,
+      "valor_maximo": 6.989748369058714,
+      "valor_medio": 6.989748369058714,
+      "valor_recente": 6.989748369058714,
+      "data_recente": "2026-04-14T19:27:29Z"
     },
     {
       "cnpj": "48196035000174",
@@ -104,11 +104,11 @@
       "municipio": "SATUBA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.1890726096333575,
-      "valor_maximo": 7.1890726096333575,
-      "valor_medio": 7.1890726096333575,
-      "valor_recente": 7.1890726096333575,
-      "data_recente": "2026-04-14T16:14:31Z"
+      "valor_minimo": 7.147962830593281,
+      "valor_maximo": 7.147962830593281,
+      "valor_medio": 7.147962830593281,
+      "valor_recente": 7.147962830593281,
+      "data_recente": "2026-04-14T18:10:06Z"
     },
     {
       "cnpj": "10523779000183",
@@ -124,11 +124,11 @@
       "municipio": "SATUBA",
       "latitude": -9.571623299999999,
       "longitude": -35.8254097,
-      "valor_minimo": 5.189952252439277,
-      "valor_maximo": 5.189952252439277,
-      "valor_medio": 5.189952252439277,
-      "valor_recente": 5.189952252439277,
-      "data_recente": "2026-04-14T17:32:58Z"
+      "valor_minimo": 5.1894135962636225,
+      "valor_maximo": 5.1894135962636225,
+      "valor_medio": 5.1894135962636225,
+      "valor_recente": 5.1894135962636225,
+      "data_recente": "2026-04-14T19:35:46Z"
     },
     {
       "cnpj": "48196035000174",
@@ -144,11 +144,11 @@
       "municipio": "SATUBA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.35,
-      "valor_maximo": 5.35,
-      "valor_medio": 5.35,
-      "valor_recente": 5.35,
-      "data_recente": "2026-04-14T17:19:57Z"
+      "valor_minimo": 5.349023803155924,
+      "valor_maximo": 5.349023803155924,
+      "valor_medio": 5.349023803155924,
+      "valor_recente": 5.349023803155924,
+      "data_recente": "2026-04-14T18:57:22Z"
     },
     {
       "cnpj": "10523779000183",
@@ -164,11 +164,11 @@
       "municipio": "SATUBA",
       "latitude": -9.571623299999999,
       "longitude": -35.8254097,
-      "valor_minimo": 6.7898475536754725,
-      "valor_maximo": 6.7898475536754725,
-      "valor_medio": 6.7898475536754725,
-      "valor_recente": 6.7898475536754725,
-      "data_recente": "2026-04-14T17:32:15Z"
+      "valor_minimo": 6.789941832831632,
+      "valor_maximo": 6.789941832831632,
+      "valor_medio": 6.789941832831632,
+      "valor_recente": 6.789941832831632,
+      "data_recente": "2026-04-14T19:18:28Z"
     },
     {
       "cnpj": "48196035000174",
@@ -184,11 +184,11 @@
       "municipio": "SATUBA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 9.55,
-      "valor_maximo": 9.55,
-      "valor_medio": 9.55,
-      "valor_recente": 9.55,
-      "data_recente": "2026-04-14T17:16:09Z"
+      "valor_minimo": 7.28989155693261,
+      "valor_maximo": 7.28989155693261,
+      "valor_medio": 7.28989155693261,
+      "valor_recente": 7.28989155693261,
+      "data_recente": "2026-04-14T19:27:13Z"
     }
   ]
 }

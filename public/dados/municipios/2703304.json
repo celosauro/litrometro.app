@@ -1,26 +1,26 @@
 {
   "codigoIBGE": "2703304",
   "municipio": "Inhapi",
-  "atualizadoEm": "2026-04-14T19:19:14.029Z",
+  "atualizadoEm": "2026-04-14T20:55:55.850Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
       "valorMinimo": 6.988120195667365,
       "valorMaximo": 6.993006993006993,
-      "valorMedio": 6.990237568751056
+      "valorMedio": 6.990291852577691
     },
     "3": {
       "totalPostos": 2,
       "valorMinimo": 5.489679402722881,
-      "valorMaximo": 5.48976718459295,
-      "valorMedio": 5.4897232936579154
+      "valorMaximo": 5.489679402722881,
+      "valorMedio": 5.489679402722881
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.489514679448772,
+      "valorMinimo": 6.11,
       "valorMaximo": 7.490075649764063,
-      "valorMedio": 7.4898604471834815
+      "valorMedio": 7.029863443070945
     }
   },
   "estabelecimentos": [
@@ -42,7 +42,7 @@
       "valor_maximo": 6.988120195667365,
       "valor_medio": 6.988120195667365,
       "valor_recente": 6.988120195667365,
-      "data_recente": "2026-04-14T17:34:38Z"
+      "data_recente": "2026-04-14T19:32:43Z"
     },
     {
       "cnpj": "02850879000196",
@@ -58,11 +58,11 @@
       "municipio": "INHAPI",
       "latitude": -9.2648351,
       "longitude": -37.7312552,
-      "valor_minimo": 6.989585517578807,
-      "valor_maximo": 6.989585517578807,
-      "valor_medio": 6.989585517578807,
-      "valor_recente": 6.989585517578807,
-      "data_recente": "2026-04-14T17:34:00Z"
+      "valor_minimo": 6.989748369058714,
+      "valor_maximo": 6.989748369058714,
+      "valor_medio": 6.989748369058714,
+      "valor_recente": 6.989748369058714,
+      "data_recente": "2026-04-14T19:36:47Z"
     },
     {
       "cnpj": "13222947000199",
@@ -82,7 +82,7 @@
       "valor_maximo": 6.993006993006993,
       "valor_medio": 6.993006993006993,
       "valor_recente": 6.993006993006993,
-      "data_recente": "2026-04-14T17:14:58Z"
+      "data_recente": "2026-04-14T19:25:01Z"
     },
     {
       "cnpj": "02850879000277",
@@ -118,11 +118,31 @@
       "municipio": "INHAPI",
       "latitude": -9.2648351,
       "longitude": -37.7312552,
-      "valor_minimo": 5.48976718459295,
-      "valor_maximo": 5.48976718459295,
-      "valor_medio": 5.48976718459295,
-      "valor_recente": 5.48976718459295,
-      "data_recente": "2026-04-14T13:54:50Z"
+      "valor_minimo": 5.489679402722881,
+      "valor_maximo": 5.489679402722881,
+      "valor_medio": 5.489679402722881,
+      "valor_recente": 5.489679402722881,
+      "data_recente": "2026-04-14T18:45:24Z"
+    },
+    {
+      "cnpj": "02850879000277",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO ALVES LTDA",
+      "nome_fantasia": "AUTO POSTO ALVES",
+      "telefone": "",
+      "nome_logradouro": "AV POMPILIO BRANDAO DE ALCANTARA",
+      "numero_imovel": "1192",
+      "bairro": "CENTRO",
+      "cep": "57545000",
+      "codigo_ibge": 2703304,
+      "municipio": "INHAPI",
+      "latitude": -9.216866,
+      "longitude": -37.7460976,
+      "valor_minimo": 6.11,
+      "valor_maximo": 6.11,
+      "valor_medio": 6.11,
+      "valor_recente": 6.11,
+      "data_recente": "2026-04-14T19:36:17Z"
     },
     {
       "cnpj": "02850879000196",
@@ -142,27 +162,7 @@
       "valor_maximo": 7.489514679448772,
       "valor_medio": 7.489514679448772,
       "valor_recente": 7.489514679448772,
-      "data_recente": "2026-04-14T15:20:58Z"
-    },
-    {
-      "cnpj": "02850879000277",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO ALVES LTDA",
-      "nome_fantasia": "AUTO POSTO ALVES",
-      "telefone": "",
-      "nome_logradouro": "AV POMPILIO BRANDAO DE ALCANTARA",
-      "numero_imovel": "1192",
-      "bairro": "CENTRO",
-      "cep": "57545000",
-      "codigo_ibge": 2703304,
-      "municipio": "INHAPI",
-      "latitude": -9.216866,
-      "longitude": -37.7460976,
-      "valor_minimo": 7.489991012337609,
-      "valor_maximo": 7.489991012337609,
-      "valor_medio": 7.489991012337609,
-      "valor_recente": 7.489991012337609,
-      "data_recente": "2026-04-14T17:28:16Z"
+      "data_recente": "2026-04-14T18:32:40Z"
     },
     {
       "cnpj": "13222947000199",

@@ -1,26 +1,26 @@
 {
   "codigoIBGE": "2705705",
   "municipio": "Olho d'Água das Flores",
-  "atualizadoEm": "2026-04-14T19:28:23.050Z",
+  "atualizadoEm": "2026-04-14T21:06:59.697Z",
   "totalEstabelecimentos": 13,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
-      "valorMinimo": 6.809523809523809,
-      "valorMaximo": 7.236595425571804,
-      "valorMedio": 6.989004758673703
+      "valorMinimo": 6.739944734418176,
+      "valorMaximo": 6.960065714646784,
+      "valorMedio": 6.8375513518769475
     },
     "2": {
       "totalPostos": 2,
       "valorMinimo": 7.0100086910202135,
-      "valorMaximo": 7.189964157706093,
-      "valorMedio": 7.099986424363154
+      "valorMaximo": 7.1897187022557745,
+      "valorMedio": 7.099863696637994
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 5.269251008594983,
+      "valorMinimo": 5.2697313971860655,
       "valorMaximo": 5.440217391304348,
-      "valorMedio": 5.369906747918713
+      "valorMedio": 5.370066877449074
     },
     "4": {
       "totalPostos": 1,
@@ -30,32 +30,12 @@
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 6.899917438767085,
-      "valorMaximo": 7.35,
-      "valorMedio": 7.063305812922361
+      "valorMinimo": 6.939938032831053,
+      "valorMaximo": 7.339691856199559,
+      "valorMedio": 7.137432502239876
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "07431049000148",
-      "tipo_combustivel": 1,
-      "razao_social": "SILVA MELO & CIA. LTDA.",
-      "nome_fantasia": "POSTO SAO PEDRO",
-      "telefone": "(82) 6231787",
-      "nome_logradouro": "RDV AL 220",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57442000",
-      "codigo_ibge": 2705705,
-      "municipio": "OLHO D'AGUA DAS FLORES",
-      "latitude": -9.5413832,
-      "longitude": -37.2894755,
-      "valor_minimo": 6.809523809523809,
-      "valor_maximo": 6.809523809523809,
-      "valor_medio": 6.809523809523809,
-      "valor_recente": 6.809523809523809,
-      "data_recente": "2026-04-14T17:30:52Z"
-    },
     {
       "cnpj": "12261087000130",
       "tipo_combustivel": 1,
@@ -70,31 +50,31 @@
       "municipio": "OLHO D'AGUA DAS FLORES",
       "latitude": -9.5301835,
       "longitude": -37.2953869,
-      "valor_minimo": 6.949899799599199,
-      "valor_maximo": 6.949899799599199,
-      "valor_medio": 6.949899799599199,
-      "valor_recente": 6.949899799599199,
-      "data_recente": "2026-04-14T17:17:48Z"
+      "valor_minimo": 6.739944734418176,
+      "valor_maximo": 6.739944734418176,
+      "valor_medio": 6.739944734418176,
+      "valor_recente": 6.739944734418176,
+      "data_recente": "2026-04-14T18:15:24Z"
     },
     {
-      "cnpj": "08841116000165",
+      "cnpj": "07431049000148",
       "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO SAO JOAO BATISTA LIMITADA - EPP",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "AV DOIS DE DEZEMBRO",
-      "numero_imovel": "904",
-      "bairro": "CENTRO",
+      "razao_social": "SILVA MELO & CIA. LTDA.",
+      "nome_fantasia": "POSTO SAO PEDRO",
+      "telefone": "(82) 6231787",
+      "nome_logradouro": "RDV AL 220",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
       "cep": "57442000",
       "codigo_ibge": 2705705,
       "municipio": "OLHO D'AGUA DAS FLORES",
-      "latitude": -9.5286443,
-      "longitude": -37.2953971,
-      "valor_minimo": 6.96,
-      "valor_maximo": 6.96,
-      "valor_medio": 6.96,
-      "valor_recente": 6.96,
-      "data_recente": "2026-04-14T17:12:59Z"
+      "latitude": -9.5413832,
+      "longitude": -37.2894755,
+      "valor_minimo": 6.810113940714513,
+      "valor_maximo": 6.810113940714513,
+      "valor_medio": 6.810113940714513,
+      "valor_recente": 6.810113940714513,
+      "data_recente": "2026-04-14T19:31:31Z"
     },
     {
       "cnpj": "08886885000180",
@@ -110,11 +90,31 @@
       "municipio": "OLHO D'AGUA DAS FLORES",
       "latitude": -9.5409131,
       "longitude": -37.2929781,
-      "valor_minimo": 7.236595425571804,
-      "valor_maximo": 7.236595425571804,
-      "valor_medio": 7.236595425571804,
-      "valor_recente": 7.236595425571804,
-      "data_recente": "2026-04-14T15:35:43Z"
+      "valor_minimo": 6.840081017728317,
+      "valor_maximo": 6.840081017728317,
+      "valor_medio": 6.840081017728317,
+      "valor_recente": 6.840081017728317,
+      "data_recente": "2026-04-14T19:31:36Z"
+    },
+    {
+      "cnpj": "08841116000165",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO SAO JOAO BATISTA LIMITADA - EPP",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "AV DOIS DE DEZEMBRO",
+      "numero_imovel": "904",
+      "bairro": "CENTRO",
+      "cep": "57442000",
+      "codigo_ibge": 2705705,
+      "municipio": "OLHO D'AGUA DAS FLORES",
+      "latitude": -9.5286443,
+      "longitude": -37.2953971,
+      "valor_minimo": 6.960065714646784,
+      "valor_maximo": 6.960065714646784,
+      "valor_medio": 6.960065714646784,
+      "valor_recente": 6.960065714646784,
+      "data_recente": "2026-04-14T17:59:22Z"
     },
     {
       "cnpj": "08841116000165",
@@ -150,11 +150,11 @@
       "municipio": "OLHO D'AGUA DAS FLORES",
       "latitude": -9.5409131,
       "longitude": -37.2929781,
-      "valor_minimo": 7.189964157706093,
-      "valor_maximo": 7.189964157706093,
-      "valor_medio": 7.189964157706093,
-      "valor_recente": 7.189964157706093,
-      "data_recente": "2026-04-14T15:36:17Z"
+      "valor_minimo": 7.1897187022557745,
+      "valor_maximo": 7.1897187022557745,
+      "valor_medio": 7.1897187022557745,
+      "valor_recente": 7.1897187022557745,
+      "data_recente": "2026-04-14T19:21:14Z"
     },
     {
       "cnpj": "12261087000130",
@@ -170,11 +170,11 @@
       "municipio": "OLHO D'AGUA DAS FLORES",
       "latitude": -9.5301835,
       "longitude": -37.2953869,
-      "valor_minimo": 5.269251008594983,
-      "valor_maximo": 5.269251008594983,
-      "valor_medio": 5.269251008594983,
-      "valor_recente": 5.269251008594983,
-      "data_recente": "2026-04-14T16:55:06Z"
+      "valor_minimo": 5.2697313971860655,
+      "valor_maximo": 5.2697313971860655,
+      "valor_medio": 5.2697313971860655,
+      "valor_recente": 5.2697313971860655,
+      "data_recente": "2026-04-14T18:20:45Z"
     },
     {
       "cnpj": "07431049000148",
@@ -214,7 +214,7 @@
       "valor_maximo": 5.440217391304348,
       "valor_medio": 5.440217391304348,
       "valor_recente": 5.440217391304348,
-      "data_recente": "2026-04-14T13:33:56Z"
+      "data_recente": "2026-04-14T19:13:37Z"
     },
     {
       "cnpj": "12261087000130",
@@ -237,26 +237,6 @@
       "data_recente": "2026-04-14T15:50:27Z"
     },
     {
-      "cnpj": "12261087000130",
-      "tipo_combustivel": 5,
-      "razao_social": "A A MELO LTDA",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "AV 2 DE DEZEMBRO",
-      "numero_imovel": "777",
-      "bairro": "CENTRO",
-      "cep": "57442000",
-      "codigo_ibge": 2705705,
-      "municipio": "OLHO D'AGUA DAS FLORES",
-      "latitude": -9.5301835,
-      "longitude": -37.2953869,
-      "valor_minimo": 6.899917438767085,
-      "valor_maximo": 6.899917438767085,
-      "valor_medio": 6.899917438767085,
-      "valor_recente": 6.899917438767085,
-      "data_recente": "2026-04-14T16:32:13Z"
-    },
-    {
       "cnpj": "08841116000165",
       "tipo_combustivel": 5,
       "razao_social": "AUTO POSTO SAO JOAO BATISTA LIMITADA - EPP",
@@ -270,11 +250,11 @@
       "municipio": "OLHO D'AGUA DAS FLORES",
       "latitude": -9.5286443,
       "longitude": -37.2953971,
-      "valor_minimo": 6.94,
-      "valor_maximo": 6.94,
-      "valor_medio": 6.94,
-      "valor_recente": 6.94,
-      "data_recente": "2026-04-13T23:41:33Z"
+      "valor_minimo": 6.939938032831053,
+      "valor_maximo": 6.939938032831053,
+      "valor_medio": 6.939938032831053,
+      "valor_recente": 6.939938032831053,
+      "data_recente": "2026-04-14T19:36:22Z"
     },
     {
       "cnpj": "08886885000180",
@@ -290,11 +270,31 @@
       "municipio": "OLHO D'AGUA DAS FLORES",
       "latitude": -9.5409131,
       "longitude": -37.2929781,
-      "valor_minimo": 7.35,
-      "valor_maximo": 7.35,
-      "valor_medio": 7.35,
-      "valor_recente": 7.35,
-      "data_recente": "2026-04-14T15:35:10Z"
+      "valor_minimo": 7.132667617689016,
+      "valor_maximo": 7.132667617689016,
+      "valor_medio": 7.132667617689016,
+      "valor_recente": 7.132667617689016,
+      "data_recente": "2026-04-14T19:32:11Z"
+    },
+    {
+      "cnpj": "12261087000130",
+      "tipo_combustivel": 5,
+      "razao_social": "A A MELO LTDA",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "AV 2 DE DEZEMBRO",
+      "numero_imovel": "777",
+      "bairro": "CENTRO",
+      "cep": "57442000",
+      "codigo_ibge": 2705705,
+      "municipio": "OLHO D'AGUA DAS FLORES",
+      "latitude": -9.5301835,
+      "longitude": -37.2953869,
+      "valor_minimo": 7.339691856199559,
+      "valor_maximo": 7.339691856199559,
+      "valor_medio": 7.339691856199559,
+      "valor_recente": 7.339691856199559,
+      "data_recente": "2026-04-14T18:20:45Z"
     }
   ]
 }

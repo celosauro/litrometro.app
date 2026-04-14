@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2708402",
   "municipio": "São José da Tapera",
-  "atualizadoEm": "2026-04-14T19:40:31.603Z",
+  "atualizadoEm": "2026-04-14T21:17:54.754Z",
   "totalEstabelecimentos": 11,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.990147783251231,
-      "valorMaximo": 7.09,
-      "valorMedio": 7.02671592775041
+      "valorMinimo": 6.990120746432492,
+      "valorMaximo": 7.089684509039348,
+      "valorMedio": 7.0266017518239465
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 7.1875,
-      "valorMaximo": 7.187723054960743,
-      "valorMedio": 7.187611527480371
+      "valorMinimo": 7.189791516894321,
+      "valorMaximo": 7.189964157706093,
+      "valorMedio": 7.189877837300207
     },
     "3": {
       "totalPostos": 3,
       "valorMinimo": 5.760536398467433,
-      "valorMaximo": 5.889975262103899,
-      "valorMedio": 5.81680499850525
+      "valorMaximo": 6.05,
+      "valorMedio": 5.8701465778039505
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.390051711401132,
-      "valorMaximo": 7.8995080815179195,
-      "valorMedio": 7.566553167812301
+      "valorMinimo": 7.207207207207207,
+      "valorMaximo": 7.9,
+      "valorMedio": 7.555735735735735
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": -9.5309789,
       "longitude": -37.5115726,
-      "valor_minimo": 6.990147783251231,
-      "valor_maximo": 6.990147783251231,
-      "valor_medio": 6.990147783251231,
-      "valor_recente": 6.990147783251231,
-      "data_recente": "2026-04-14T17:29:36Z"
+      "valor_minimo": 6.990120746432492,
+      "valor_maximo": 6.990120746432492,
+      "valor_medio": 6.990120746432492,
+      "valor_recente": 6.990120746432492,
+      "data_recente": "2026-04-14T19:32:29Z"
     },
     {
       "cnpj": "12512646000137",
@@ -68,7 +68,7 @@
       "valor_maximo": 7,
       "valor_medio": 7,
       "valor_recente": 7,
-      "data_recente": "2026-04-14T17:08:14Z"
+      "data_recente": "2026-04-14T19:31:05Z"
     },
     {
       "cnpj": "30434665000174",
@@ -84,31 +84,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": -9.55372,
       "longitude": -37.37467,
-      "valor_minimo": 7.09,
-      "valor_maximo": 7.09,
-      "valor_medio": 7.09,
-      "valor_recente": 7.09,
-      "data_recente": "2026-04-14T17:15:07Z"
-    },
-    {
-      "cnpj": "14959471000136",
-      "tipo_combustivel": 2,
-      "razao_social": "ASHP COMERCIO DE COMBUSTIVEIS E DERIVADOS LTDA.",
-      "nome_fantasia": "AUTO POSTO DOIS IRMAOS - TAPERA",
-      "telefone": "",
-      "nome_logradouro": "ROD AL 220",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57445000",
-      "codigo_ibge": 2708402,
-      "municipio": "SAO JOSE DA TAPERA",
-      "latitude": -9.5309789,
-      "longitude": -37.5115726,
-      "valor_minimo": 7.1875,
-      "valor_maximo": 7.1875,
-      "valor_medio": 7.1875,
-      "valor_recente": 7.1875,
-      "data_recente": "2026-04-14T15:30:31Z"
+      "valor_minimo": 7.089684509039348,
+      "valor_maximo": 7.089684509039348,
+      "valor_medio": 7.089684509039348,
+      "valor_recente": 7.089684509039348,
+      "data_recente": "2026-04-14T19:21:46Z"
     },
     {
       "cnpj": "12512646000137",
@@ -124,11 +104,31 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.187723054960743,
-      "valor_maximo": 7.187723054960743,
-      "valor_medio": 7.187723054960743,
-      "valor_recente": 7.187723054960743,
-      "data_recente": "2026-04-14T17:16:32Z"
+      "valor_minimo": 7.189791516894321,
+      "valor_maximo": 7.189791516894321,
+      "valor_medio": 7.189791516894321,
+      "valor_recente": 7.189791516894321,
+      "data_recente": "2026-04-14T19:15:53Z"
+    },
+    {
+      "cnpj": "14959471000136",
+      "tipo_combustivel": 2,
+      "razao_social": "ASHP COMERCIO DE COMBUSTIVEIS E DERIVADOS LTDA.",
+      "nome_fantasia": "AUTO POSTO DOIS IRMAOS - TAPERA",
+      "telefone": "",
+      "nome_logradouro": "ROD AL 220",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57445000",
+      "codigo_ibge": 2708402,
+      "municipio": "SAO JOSE DA TAPERA",
+      "latitude": -9.5309789,
+      "longitude": -37.5115726,
+      "valor_minimo": 7.189964157706093,
+      "valor_maximo": 7.189964157706093,
+      "valor_medio": 7.189964157706093,
+      "valor_recente": 7.189964157706093,
+      "data_recente": "2026-04-14T17:46:49Z"
     },
     {
       "cnpj": "12512646000137",
@@ -184,11 +184,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": -9.55372,
       "longitude": -37.37467,
-      "valor_minimo": 5.889975262103899,
-      "valor_maximo": 5.889975262103899,
-      "valor_medio": 5.889975262103899,
-      "valor_recente": 5.889975262103899,
-      "data_recente": "2026-04-14T16:59:45Z"
+      "valor_minimo": 6.05,
+      "valor_maximo": 6.05,
+      "valor_medio": 6.05,
+      "valor_recente": 6.05,
+      "data_recente": "2026-04-14T18:48:42Z"
     },
     {
       "cnpj": "14959471000136",
@@ -204,11 +204,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": -9.5309789,
       "longitude": -37.5115726,
-      "valor_minimo": 7.390051711401132,
-      "valor_maximo": 7.390051711401132,
-      "valor_medio": 7.390051711401132,
-      "valor_recente": 7.390051711401132,
-      "data_recente": "2026-04-14T15:30:55Z"
+      "valor_minimo": 7.207207207207207,
+      "valor_maximo": 7.207207207207207,
+      "valor_medio": 7.207207207207207,
+      "valor_recente": 7.207207207207207,
+      "data_recente": "2026-04-14T19:05:23Z"
     },
     {
       "cnpj": "12512646000137",
@@ -224,11 +224,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.410099710517851,
-      "valor_maximo": 7.410099710517851,
-      "valor_medio": 7.410099710517851,
-      "valor_recente": 7.410099710517851,
-      "data_recente": "2026-04-14T17:22:52Z"
+      "valor_minimo": 7.56,
+      "valor_maximo": 7.56,
+      "valor_medio": 7.56,
+      "valor_recente": 7.56,
+      "data_recente": "2026-04-14T19:14:39Z"
     },
     {
       "cnpj": "30434665000174",
@@ -244,11 +244,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": -9.55372,
       "longitude": -37.37467,
-      "valor_minimo": 7.8995080815179195,
-      "valor_maximo": 7.8995080815179195,
-      "valor_medio": 7.8995080815179195,
-      "valor_recente": 7.8995080815179195,
-      "data_recente": "2026-04-14T16:18:38Z"
+      "valor_minimo": 7.9,
+      "valor_maximo": 7.9,
+      "valor_medio": 7.9,
+      "valor_recente": 7.9,
+      "data_recente": "2026-04-14T19:04:48Z"
     }
   ]
 }
