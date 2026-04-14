@@ -79,8 +79,8 @@ export function usePrecosCombustiveis({
           cacheTimestamp = agora;
         }
 
-        estabelecimentos = cacheAtual.estabelecimentos;
-        atualizadoEm = cacheAtual.atualizadoEm;
+        estabelecimentos = cacheAtual!.estabelecimentos;
+        atualizadoEm = cacheAtual!.atualizadoEm;
       }
 
       // Filtra por tipo de combustível
