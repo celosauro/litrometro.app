@@ -1,38 +1,38 @@
 {
   "codigoIBGE": "2705200",
   "municipio": "Messias",
-  "atualizadoEm": "2026-04-14T08:44:05.486Z",
+  "atualizadoEm": "2026-04-14T14:11:57.175Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.688963210702341,
+      "valorMinimo": 6.6898061288305195,
       "valorMaximo": 6.788866259334691,
-      "valorMedio": 6.738914735018517
+      "valorMedio": 6.739336194082606
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 6.989991120270997,
-      "valorMaximo": 6.989991120270997,
-      "valorMedio": 6.989991120270997
+      "valorMinimo": 6.989748369058714,
+      "valorMaximo": 6.989748369058714,
+      "valorMedio": 6.989748369058714
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.1798710212115715,
-      "valorMaximo": 5.189999870262977,
-      "valorMedio": 5.184935445737274
+      "valorMinimo": 5.18996355715662,
+      "valorMaximo": 5.349882302589343,
+      "valorMedio": 5.2699229298729815
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 6.789917647451072,
-      "valorMaximo": 7.1499815887974085,
-      "valorMedio": 6.96994961812424
+      "valorMinimo": 7.059986350693055,
+      "valorMaximo": 8.58,
+      "valorMedio": 7.819993175346528
     },
     "6": {
       "totalPostos": 1,
-      "valorMinimo": 4.189902960324284,
-      "valorMaximo": 4.189902960324284,
-      "valorMedio": 4.189902960324284
+      "valorMinimo": 4.189990949619549,
+      "valorMaximo": 4.189990949619549,
+      "valorMedio": 4.189990949619549
     }
   },
   "estabelecimentos": [
@@ -50,11 +50,11 @@
       "municipio": "MESSIAS",
       "latitude": -9.3886292,
       "longitude": -35.8392634,
-      "valor_minimo": 6.688963210702341,
-      "valor_maximo": 6.688963210702341,
-      "valor_medio": 6.688963210702341,
-      "valor_recente": 6.688963210702341,
-      "data_recente": "2026-04-14T02:41:10Z"
+      "valor_minimo": 6.6898061288305195,
+      "valor_maximo": 6.6898061288305195,
+      "valor_medio": 6.6898061288305195,
+      "valor_recente": 6.6898061288305195,
+      "data_recente": "2026-04-14T13:34:56Z"
     },
     {
       "cnpj": "27806368000106",
@@ -68,13 +68,13 @@
       "cep": "57990000",
       "codigo_ibge": 2705200,
       "municipio": "MESSIAS",
-      "latitude": 0,
-      "longitude": 0,
+      "latitude": -9.38333,
+      "longitude": -35.84167,
       "valor_minimo": 6.788866259334691,
       "valor_maximo": 6.788866259334691,
       "valor_medio": 6.788866259334691,
       "valor_recente": 6.788866259334691,
-      "data_recente": "2026-04-14T06:51:46Z"
+      "data_recente": "2026-04-14T13:33:55Z"
     },
     {
       "cnpj": "27806368000106",
@@ -88,13 +88,33 @@
       "cep": "57990000",
       "codigo_ibge": 2705200,
       "municipio": "MESSIAS",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.989991120270997,
-      "valor_maximo": 6.989991120270997,
-      "valor_medio": 6.989991120270997,
-      "valor_recente": 6.989991120270997,
-      "data_recente": "2026-04-14T04:09:57Z"
+      "latitude": -9.38333,
+      "longitude": -35.84167,
+      "valor_minimo": 6.989748369058714,
+      "valor_maximo": 6.989748369058714,
+      "valor_medio": 6.989748369058714,
+      "valor_recente": 6.989748369058714,
+      "data_recente": "2026-04-14T13:30:47Z"
+    },
+    {
+      "cnpj": "27806368000106",
+      "tipo_combustivel": 3,
+      "razao_social": "FERNANDES & FERNANDES COMERCIO DE COMBUSTIVEIS LTDA - EPP",
+      "nome_fantasia": "AUTO POSTO DIDONE 2",
+      "telefone": "(82) 32211058",
+      "nome_logradouro": "ROD BR 101 KM 74",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA URBANA",
+      "cep": "57990000",
+      "codigo_ibge": 2705200,
+      "municipio": "MESSIAS",
+      "latitude": -9.38333,
+      "longitude": -35.84167,
+      "valor_minimo": 5.18996355715662,
+      "valor_maximo": 5.18996355715662,
+      "valor_medio": 5.18996355715662,
+      "valor_recente": 5.18996355715662,
+      "data_recente": "2026-04-14T13:29:26Z"
     },
     {
       "cnpj": "11908167000333",
@@ -110,51 +130,11 @@
       "municipio": "MESSIAS",
       "latitude": -9.3886292,
       "longitude": -35.8392634,
-      "valor_minimo": 5.1798710212115715,
-      "valor_maximo": 5.1798710212115715,
-      "valor_medio": 5.1798710212115715,
-      "valor_recente": 5.1798710212115715,
-      "data_recente": "2026-04-14T00:02:09Z"
-    },
-    {
-      "cnpj": "27806368000106",
-      "tipo_combustivel": 3,
-      "razao_social": "FERNANDES & FERNANDES COMERCIO DE COMBUSTIVEIS LTDA - EPP",
-      "nome_fantasia": "AUTO POSTO DIDONE 2",
-      "telefone": "(82) 32211058",
-      "nome_logradouro": "ROD BR 101 KM 74",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA URBANA",
-      "cep": "57990000",
-      "codigo_ibge": 2705200,
-      "municipio": "MESSIAS",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 5.189999870262977,
-      "valor_maximo": 5.189999870262977,
-      "valor_medio": 5.189999870262977,
-      "valor_recente": 5.189999870262977,
-      "data_recente": "2026-04-14T06:50:36Z"
-    },
-    {
-      "cnpj": "27806368000106",
-      "tipo_combustivel": 5,
-      "razao_social": "FERNANDES & FERNANDES COMERCIO DE COMBUSTIVEIS LTDA - EPP",
-      "nome_fantasia": "AUTO POSTO DIDONE 2",
-      "telefone": "(82) 32211058",
-      "nome_logradouro": "ROD BR 101 KM 74",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA URBANA",
-      "cep": "57990000",
-      "codigo_ibge": 2705200,
-      "municipio": "MESSIAS",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.789917647451072,
-      "valor_maximo": 6.789917647451072,
-      "valor_medio": 6.789917647451072,
-      "valor_recente": 6.789917647451072,
-      "data_recente": "2026-04-14T05:31:32Z"
+      "valor_minimo": 5.349882302589343,
+      "valor_maximo": 5.349882302589343,
+      "valor_medio": 5.349882302589343,
+      "valor_recente": 5.349882302589343,
+      "data_recente": "2026-04-14T11:03:54Z"
     },
     {
       "cnpj": "11908167000333",
@@ -170,11 +150,31 @@
       "municipio": "MESSIAS",
       "latitude": -9.3886292,
       "longitude": -35.8392634,
-      "valor_minimo": 7.1499815887974085,
-      "valor_maximo": 7.1499815887974085,
-      "valor_medio": 7.1499815887974085,
-      "valor_recente": 7.1499815887974085,
-      "data_recente": "2026-04-13T22:26:39Z"
+      "valor_minimo": 7.059986350693055,
+      "valor_maximo": 7.059986350693055,
+      "valor_medio": 7.059986350693055,
+      "valor_recente": 7.059986350693055,
+      "data_recente": "2026-04-14T12:59:25Z"
+    },
+    {
+      "cnpj": "27806368000106",
+      "tipo_combustivel": 5,
+      "razao_social": "FERNANDES & FERNANDES COMERCIO DE COMBUSTIVEIS LTDA - EPP",
+      "nome_fantasia": "AUTO POSTO DIDONE 2",
+      "telefone": "(82) 32211058",
+      "nome_logradouro": "ROD BR 101 KM 74",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA URBANA",
+      "cep": "57990000",
+      "codigo_ibge": 2705200,
+      "municipio": "MESSIAS",
+      "latitude": -9.38333,
+      "longitude": -35.84167,
+      "valor_minimo": 8.58,
+      "valor_maximo": 8.58,
+      "valor_medio": 8.58,
+      "valor_recente": 8.58,
+      "data_recente": "2026-04-14T13:30:01Z"
     },
     {
       "cnpj": "27806368000106",
@@ -188,13 +188,13 @@
       "cep": "57990000",
       "codigo_ibge": 2705200,
       "municipio": "MESSIAS",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 4.189902960324284,
-      "valor_maximo": 4.189902960324284,
-      "valor_medio": 4.189902960324284,
-      "valor_recente": 4.189902960324284,
-      "data_recente": "2026-04-14T06:52:48Z"
+      "latitude": -9.38333,
+      "longitude": -35.84167,
+      "valor_minimo": 4.189990949619549,
+      "valor_maximo": 4.189990949619549,
+      "valor_medio": 4.189990949619549,
+      "valor_recente": 4.189990949619549,
+      "data_recente": "2026-04-14T13:34:27Z"
     }
   ]
 }

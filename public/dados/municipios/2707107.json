@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2707107",
   "municipio": "Piranhas",
-  "atualizadoEm": "2026-04-14T08:53:46.015Z",
+  "atualizadoEm": "2026-04-14T14:21:44.365Z",
   "totalEstabelecimentos": 18,
   "combustiveis": {
     "1": {
       "totalPostos": 6,
-      "valorMinimo": 7.099290780141844,
-      "valorMaximo": 7.4511627906976745,
-      "valorMedio": 7.313241487504592
+      "valorMinimo": 7.098591549295775,
+      "valorMaximo": 7.451564828614009,
+      "valorMedio": 7.313381374243034
     },
     "2": {
       "totalPostos": 3,
-      "valorMinimo": 7.100591715976331,
+      "valorMinimo": 7.099290780141844,
       "valorMaximo": 7.590132827324478,
-      "valorMedio": 7.297549206741295
+      "valorMedio": 7.296489895920412
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 5.882352941176471,
+      "valorMinimo": 5.880047040376323,
       "valorMaximo": 6.1899957289029475,
-      "valorMedio": 6.0834242958474505
+      "valorMedio": 6.083238138858938
     },
     "5": {
       "totalPostos": 6,
-      "valorMinimo": 7.510018214936248,
+      "valorMinimo": 7.510044684765874,
       "valorMaximo": 7.99,
-      "valorMedio": 7.844422593698106
+      "valorMedio": 7.844348265178897
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "PIRANHAS",
       "latitude": -9.381468,
       "longitude": -38.0021811,
-      "valor_minimo": 7.099290780141844,
-      "valor_maximo": 7.099290780141844,
-      "valor_medio": 7.099290780141844,
-      "valor_recente": 7.099290780141844,
-      "data_recente": "2026-04-13T22:57:07Z"
+      "valor_minimo": 7.098591549295775,
+      "valor_maximo": 7.098591549295775,
+      "valor_medio": 7.098591549295775,
+      "valor_recente": 7.098591549295775,
+      "data_recente": "2026-04-14T13:25:32Z"
     },
     {
       "cnpj": "00497402000143",
@@ -64,11 +64,11 @@
       "municipio": "PIRANHAS",
       "latitude": -9.478838,
       "longitude": -37.6682468,
-      "valor_minimo": 7.100003550001775,
-      "valor_maximo": 7.100003550001775,
-      "valor_medio": 7.100003550001775,
-      "valor_recente": 7.100003550001775,
-      "data_recente": "2026-04-13T23:53:12Z"
+      "valor_minimo": 7.099953140309274,
+      "valor_maximo": 7.099953140309274,
+      "valor_medio": 7.099953140309274,
+      "valor_recente": 7.099953140309274,
+      "data_recente": "2026-04-14T13:36:53Z"
     },
     {
       "cnpj": "22590658000133",
@@ -84,11 +84,11 @@
       "municipio": "PIRANHAS",
       "latitude": -9.6070863,
       "longitude": -37.7624625,
-      "valor_minimo": 7.330487804878048,
-      "valor_maximo": 7.330487804878048,
-      "valor_medio": 7.330487804878048,
-      "valor_recente": 7.330487804878048,
-      "data_recente": "2026-04-14T02:27:27Z"
+      "valor_minimo": 7.330226364846871,
+      "valor_maximo": 7.330226364846871,
+      "valor_medio": 7.330226364846871,
+      "valor_recente": 7.330226364846871,
+      "data_recente": "2026-04-14T13:36:23Z"
     },
     {
       "cnpj": "43473530000160",
@@ -102,33 +102,13 @@
       "cep": "57460000",
       "codigo_ibge": 2707107,
       "municipio": "PIRANHAS",
-      "latitude": 0,
-      "longitude": 0,
+      "latitude": -9.62361,
+      "longitude": -37.75667,
       "valor_minimo": 7.4487895716946,
       "valor_maximo": 7.4487895716946,
       "valor_medio": 7.4487895716946,
       "valor_recente": 7.4487895716946,
-      "data_recente": "2026-04-14T00:54:41Z"
-    },
-    {
-      "cnpj": "46715427000177",
-      "tipo_combustivel": 1,
-      "razao_social": "POSTOS PRIME LTDA",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "ROD ALTEMAR DUTRA",
-      "numero_imovel": "01",
-      "bairro": "ZONA RURAL",
-      "cep": "57460000",
-      "codigo_ibge": 2707107,
-      "municipio": "PIRANHAS",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.449714427613608,
-      "valor_maximo": 7.449714427613608,
-      "valor_medio": 7.449714427613608,
-      "valor_recente": 7.449714427613608,
-      "data_recente": "2026-04-14T00:10:16Z"
+      "data_recente": "2026-04-14T13:25:16Z"
     },
     {
       "cnpj": "05767699000214",
@@ -151,6 +131,26 @@
       "data_recente": "2026-04-13T23:04:39Z"
     },
     {
+      "cnpj": "46715427000177",
+      "tipo_combustivel": 1,
+      "razao_social": "POSTOS PRIME LTDA",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "ROD ALTEMAR DUTRA",
+      "numero_imovel": "01",
+      "bairro": "ZONA RURAL",
+      "cep": "57460000",
+      "codigo_ibge": 2707107,
+      "municipio": "PIRANHAS",
+      "latitude": -9.62361,
+      "longitude": -37.75667,
+      "valor_minimo": 7.451564828614009,
+      "valor_maximo": 7.451564828614009,
+      "valor_medio": 7.451564828614009,
+      "valor_recente": 7.451564828614009,
+      "data_recente": "2026-04-14T13:16:53Z"
+    },
+    {
       "cnpj": "70019039000136",
       "tipo_combustivel": 2,
       "razao_social": "REMI DA SILVA - ME",
@@ -164,11 +164,11 @@
       "municipio": "PIRANHAS",
       "latitude": -9.381468,
       "longitude": -38.0021811,
-      "valor_minimo": 7.100591715976331,
-      "valor_maximo": 7.100591715976331,
-      "valor_medio": 7.100591715976331,
-      "valor_recente": 7.100591715976331,
-      "data_recente": "2026-04-13T22:57:07Z"
+      "valor_minimo": 7.099290780141844,
+      "valor_maximo": 7.099290780141844,
+      "valor_medio": 7.099290780141844,
+      "valor_recente": 7.099290780141844,
+      "data_recente": "2026-04-14T09:51:10Z"
     },
     {
       "cnpj": "00497402000143",
@@ -184,11 +184,11 @@
       "municipio": "PIRANHAS",
       "latitude": -9.478838,
       "longitude": -37.6682468,
-      "valor_minimo": 7.201923076923077,
-      "valor_maximo": 7.201923076923077,
-      "valor_medio": 7.201923076923077,
-      "valor_recente": 7.201923076923077,
-      "data_recente": "2026-04-13T23:53:12Z"
+      "valor_minimo": 7.200046080294914,
+      "valor_maximo": 7.200046080294914,
+      "valor_medio": 7.200046080294914,
+      "valor_recente": 7.200046080294914,
+      "data_recente": "2026-04-14T13:31:00Z"
     },
     {
       "cnpj": "46715427000177",
@@ -202,13 +202,13 @@
       "cep": "57460000",
       "codigo_ibge": 2707107,
       "municipio": "PIRANHAS",
-      "latitude": 0,
-      "longitude": 0,
+      "latitude": -9.62361,
+      "longitude": -37.75667,
       "valor_minimo": 7.590132827324478,
       "valor_maximo": 7.590132827324478,
       "valor_medio": 7.590132827324478,
       "valor_recente": 7.590132827324478,
-      "data_recente": "2026-04-13T22:07:10Z"
+      "data_recente": "2026-04-14T13:16:53Z"
     },
     {
       "cnpj": "00497402000143",
@@ -224,11 +224,11 @@
       "municipio": "PIRANHAS",
       "latitude": -9.478838,
       "longitude": -37.6682468,
-      "valor_minimo": 5.882352941176471,
-      "valor_maximo": 5.882352941176471,
-      "valor_medio": 5.882352941176471,
-      "valor_recente": 5.882352941176471,
-      "data_recente": "2026-04-13T23:16:27Z"
+      "valor_minimo": 5.880047040376323,
+      "valor_maximo": 5.880047040376323,
+      "valor_medio": 5.880047040376323,
+      "valor_recente": 5.880047040376323,
+      "data_recente": "2026-04-14T11:21:53Z"
     },
     {
       "cnpj": "43473530000160",
@@ -242,13 +242,13 @@
       "cep": "57460000",
       "codigo_ibge": 2707107,
       "municipio": "PIRANHAS",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.177924217462932,
-      "valor_maximo": 6.177924217462932,
-      "valor_medio": 6.177924217462932,
-      "valor_recente": 6.177924217462932,
-      "data_recente": "2026-04-13T23:40:38Z"
+      "latitude": -9.62361,
+      "longitude": -37.75667,
+      "valor_minimo": 6.179671647297546,
+      "valor_maximo": 6.179671647297546,
+      "valor_medio": 6.179671647297546,
+      "valor_recente": 6.179671647297546,
+      "data_recente": "2026-04-14T12:51:02Z"
     },
     {
       "cnpj": "05767699000214",
@@ -284,11 +284,11 @@
       "municipio": "PIRANHAS",
       "latitude": -9.381468,
       "longitude": -38.0021811,
-      "valor_minimo": 7.51,
-      "valor_maximo": 7.510018214936248,
-      "valor_medio": 7.5100091074681234,
-      "valor_recente": 7.510018214936248,
-      "data_recente": "2026-04-13T22:56:47Z"
+      "valor_minimo": 7.510044684765874,
+      "valor_maximo": 7.51051051051051,
+      "valor_medio": 7.510277597638192,
+      "valor_recente": 7.510044684765874,
+      "data_recente": "2026-04-14T13:10:12Z"
     },
     {
       "cnpj": "22590658000133",
@@ -304,11 +304,11 @@
       "municipio": "PIRANHAS",
       "latitude": -9.6070863,
       "longitude": -37.7624625,
-      "valor_minimo": 7.78,
-      "valor_maximo": 7.78,
-      "valor_medio": 7.78,
-      "valor_recente": 7.78,
-      "data_recente": "2026-04-14T02:58:50Z"
+      "valor_minimo": 7.7795275590551185,
+      "valor_maximo": 7.7795275590551185,
+      "valor_medio": 7.7795275590551185,
+      "valor_recente": 7.7795275590551185,
+      "data_recente": "2026-04-14T13:31:00Z"
     },
     {
       "cnpj": "00497402000143",
@@ -362,13 +362,13 @@
       "cep": "57460000",
       "codigo_ibge": 2707107,
       "municipio": "PIRANHAS",
-      "latitude": 0,
-      "longitude": 0,
+      "latitude": -9.62361,
+      "longitude": -37.75667,
       "valor_minimo": 7.989773090444231,
       "valor_maximo": 7.989773090444231,
       "valor_medio": 7.989773090444231,
       "valor_recente": 7.989773090444231,
-      "data_recente": "2026-04-13T21:03:26Z"
+      "data_recente": "2026-04-14T13:10:39Z"
     },
     {
       "cnpj": "46715427000177",
@@ -382,13 +382,13 @@
       "cep": "57460000",
       "codigo_ibge": 2707107,
       "municipio": "PIRANHAS",
-      "latitude": 0,
-      "longitude": 0,
+      "latitude": -9.62361,
+      "longitude": -37.75667,
       "valor_minimo": 7.99,
       "valor_maximo": 7.99,
       "valor_medio": 7.99,
       "valor_recente": 7.99,
-      "data_recente": "2026-04-13T21:04:57Z"
+      "data_recente": "2026-04-14T13:14:50Z"
     }
   ]
 }

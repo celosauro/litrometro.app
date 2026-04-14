@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2705408",
   "municipio": "Monteirópolis",
-  "atualizadoEm": "2026-04-14T08:44:57.430Z",
+  "atualizadoEm": "2026-04-14T14:12:03.743Z",
   "totalEstabelecimentos": 6,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.839590443686006,
-      "valorMaximo": 6.989748369058714,
-      "valorMedio": 6.91466940637236
+      "valorMinimo": 6.761261261261262,
+      "valorMaximo": 6.990111464411754,
+      "valorMedio": 6.8756863628365075
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 6.840506329113924,
-      "valorMaximo": 6.840506329113924,
-      "valorMedio": 6.840506329113924
+      "valorMinimo": 6.760182524928173,
+      "valorMaximo": 6.760182524928173,
+      "valorMedio": 6.760182524928173
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.289885738468049,
-      "valorMaximo": 5.289885738468049,
-      "valorMedio": 5.289885738468049
+      "valorMinimo": 5.15,
+      "valorMaximo": 5.15,
+      "valorMedio": 5.15
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.349968762632759,
-      "valorMaximo": 7.389890629618682,
-      "valorMedio": 7.369929696125721
+      "valorMinimo": 7.15307582260372,
+      "valorMaximo": 7.350172215843858,
+      "valorMedio": 7.251624019223788
     }
   },
   "estabelecimentos": [
@@ -42,13 +42,13 @@
       "cep": "57440000",
       "codigo_ibge": 2705408,
       "municipio": "MONTEIROPOLIS",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.839590443686006,
-      "valor_maximo": 6.839590443686006,
-      "valor_medio": 6.839590443686006,
-      "valor_recente": 6.839590443686006,
-      "data_recente": "2026-04-14T00:43:49Z"
+      "latitude": -9.60278,
+      "longitude": -37.24833,
+      "valor_minimo": 6.761261261261262,
+      "valor_maximo": 6.761261261261262,
+      "valor_medio": 6.761261261261262,
+      "valor_recente": 6.761261261261262,
+      "data_recente": "2026-04-14T13:34:04Z"
     },
     {
       "cnpj": "17303640000173",
@@ -64,11 +64,11 @@
       "municipio": "MONTEIROPOLIS",
       "latitude": -9.5936867,
       "longitude": -37.2383001,
-      "valor_minimo": 6.989748369058714,
-      "valor_maximo": 6.989748369058714,
-      "valor_medio": 6.989748369058714,
-      "valor_recente": 6.989748369058714,
-      "data_recente": "2026-04-13T23:58:43Z"
+      "valor_minimo": 6.990111464411754,
+      "valor_maximo": 6.990111464411754,
+      "valor_medio": 6.990111464411754,
+      "valor_recente": 6.990111464411754,
+      "data_recente": "2026-04-14T13:31:52Z"
     },
     {
       "cnpj": "36009881000159",
@@ -82,13 +82,13 @@
       "cep": "57440000",
       "codigo_ibge": 2705408,
       "municipio": "MONTEIROPOLIS",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.840506329113924,
-      "valor_maximo": 6.840506329113924,
-      "valor_medio": 6.840506329113924,
-      "valor_recente": 6.840506329113924,
-      "data_recente": "2026-04-14T00:43:49Z"
+      "latitude": -9.60278,
+      "longitude": -37.24833,
+      "valor_minimo": 6.760182524928173,
+      "valor_maximo": 6.760182524928173,
+      "valor_medio": 6.760182524928173,
+      "valor_recente": 6.760182524928173,
+      "data_recente": "2026-04-14T13:36:28Z"
     },
     {
       "cnpj": "36009881000159",
@@ -102,33 +102,13 @@
       "cep": "57440000",
       "codigo_ibge": 2705408,
       "municipio": "MONTEIROPOLIS",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 5.289885738468049,
-      "valor_maximo": 5.289885738468049,
-      "valor_medio": 5.289885738468049,
-      "valor_recente": 5.289885738468049,
-      "data_recente": "2026-04-14T00:29:38Z"
-    },
-    {
-      "cnpj": "36009881000159",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO SERTAO CENTER LTDA",
-      "nome_fantasia": "AUTO POSTO SERTAO",
-      "telefone": "(82) 99919009",
-      "nome_logradouro": "ROD AL 220",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57440000",
-      "codigo_ibge": 2705408,
-      "municipio": "MONTEIROPOLIS",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.349968762632759,
-      "valor_maximo": 7.350110213078619,
-      "valor_medio": 7.350039487855689,
-      "valor_recente": 7.349968762632759,
-      "data_recente": "2026-04-14T00:23:17Z"
+      "latitude": -9.60278,
+      "longitude": -37.24833,
+      "valor_minimo": 5.15,
+      "valor_maximo": 5.15,
+      "valor_medio": 5.15,
+      "valor_recente": 5.15,
+      "data_recente": "2026-04-14T12:15:06Z"
     },
     {
       "cnpj": "17303640000173",
@@ -144,11 +124,31 @@
       "municipio": "MONTEIROPOLIS",
       "latitude": -9.5936867,
       "longitude": -37.2383001,
-      "valor_minimo": 7.389890629618682,
-      "valor_maximo": 7.389890629618682,
-      "valor_medio": 7.389890629618682,
-      "valor_recente": 7.389890629618682,
-      "data_recente": "2026-04-13T19:32:36Z"
+      "valor_minimo": 7.15307582260372,
+      "valor_maximo": 7.15307582260372,
+      "valor_medio": 7.15307582260372,
+      "valor_recente": 7.15307582260372,
+      "data_recente": "2026-04-14T09:26:45Z"
+    },
+    {
+      "cnpj": "36009881000159",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO SERTAO CENTER LTDA",
+      "nome_fantasia": "AUTO POSTO SERTAO",
+      "telefone": "(82) 99919009",
+      "nome_logradouro": "ROD AL 220",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57440000",
+      "codigo_ibge": 2705408,
+      "municipio": "MONTEIROPOLIS",
+      "latitude": -9.60278,
+      "longitude": -37.24833,
+      "valor_minimo": 7.3499926503013375,
+      "valor_maximo": 7.350172215843858,
+      "valor_medio": 7.350082433072598,
+      "valor_recente": 7.350172215843858,
+      "data_recente": "2026-04-14T12:45:07Z"
     }
   ]
 }

@@ -1,41 +1,61 @@
 {
   "codigoIBGE": "2702603",
   "municipio": "Feira Grande",
-  "atualizadoEm": "2026-04-14T08:32:58.922Z",
+  "atualizadoEm": "2026-04-14T13:55:48.357Z",
   "totalEstabelecimentos": 7,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
       "valorMinimo": 6.8493150684931505,
-      "valorMaximo": 6.8499998895937715,
-      "valorMedio": 6.8496574790434614
+      "valorMaximo": 6.8493150684931505,
+      "valorMedio": 6.8493150684931505
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.896551724137931,
-      "valorMaximo": 6.900093589143659,
-      "valorMedio": 6.898322656640795
+      "valorMinimo": 6.854009595613434,
+      "valorMaximo": 6.901311249137336,
+      "valorMedio": 6.877660422375385
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.289861169541439,
-      "valorMaximo": 5.289861169541439,
-      "valorMedio": 5.289861169541439
+      "valorMinimo": 5.287009063444109,
+      "valorMaximo": 5.287009063444109,
+      "valorMedio": 5.287009063444109
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 7.28977137884661,
-      "valorMaximo": 7.28977137884661,
-      "valorMedio": 7.28977137884661
+      "valorMinimo": 7.29,
+      "valorMaximo": 7.29,
+      "valorMedio": 7.29
     },
     "5": {
       "totalPostos": 1,
-      "valorMinimo": 7.28999392635086,
-      "valorMaximo": 7.28999392635086,
-      "valorMedio": 7.28999392635086
+      "valorMinimo": 7.290087463556851,
+      "valorMaximo": 7.290087463556851,
+      "valorMedio": 7.290087463556851
     }
   },
   "estabelecimentos": [
+    {
+      "cnpj": "05769126000149",
+      "tipo_combustivel": 1,
+      "razao_social": "MANOEL A DE ALMEIDA JUNIOR  - EPP",
+      "nome_fantasia": "AUTO POSTO MASSAPE",
+      "telefone": "",
+      "nome_logradouro": "DT MASSAPE",
+      "numero_imovel": "6",
+      "bairro": "MASSAPE",
+      "cep": "57340000",
+      "codigo_ibge": 2702603,
+      "municipio": "FEIRA GRANDE",
+      "latitude": -9.8511321,
+      "longitude": -36.673818,
+      "valor_minimo": 6.8493150684931505,
+      "valor_maximo": 6.8493150684931505,
+      "valor_medio": 6.8493150684931505,
+      "valor_recente": 6.8493150684931505,
+      "data_recente": "2026-04-14T13:30:53Z"
+    },
     {
       "cnpj": "07826783000106",
       "tipo_combustivel": 1,
@@ -54,11 +74,11 @@
       "valor_maximo": 6.8493150684931505,
       "valor_medio": 6.8493150684931505,
       "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-14T00:55:43Z"
+      "data_recente": "2026-04-14T13:31:08Z"
     },
     {
       "cnpj": "05769126000149",
-      "tipo_combustivel": 1,
+      "tipo_combustivel": 2,
       "razao_social": "MANOEL A DE ALMEIDA JUNIOR  - EPP",
       "nome_fantasia": "AUTO POSTO MASSAPE",
       "telefone": "",
@@ -70,11 +90,11 @@
       "municipio": "FEIRA GRANDE",
       "latitude": -9.8511321,
       "longitude": -36.673818,
-      "valor_minimo": 6.8499998895937715,
-      "valor_maximo": 6.8499998895937715,
-      "valor_medio": 6.8499998895937715,
-      "valor_recente": 6.8499998895937715,
-      "data_recente": "2026-04-14T05:51:51Z"
+      "valor_minimo": 6.854009595613434,
+      "valor_maximo": 6.854009595613434,
+      "valor_medio": 6.854009595613434,
+      "valor_recente": 6.854009595613434,
+      "data_recente": "2026-04-14T13:27:09Z"
     },
     {
       "cnpj": "07826783000106",
@@ -90,31 +110,11 @@
       "municipio": "FEIRA GRANDE",
       "latitude": -9.8986249,
       "longitude": -36.6776837,
-      "valor_minimo": 6.896551724137931,
-      "valor_maximo": 6.896551724137931,
-      "valor_medio": 6.896551724137931,
-      "valor_recente": 6.896551724137931,
-      "data_recente": "2026-04-13T23:35:40Z"
-    },
-    {
-      "cnpj": "05769126000149",
-      "tipo_combustivel": 2,
-      "razao_social": "MANOEL A DE ALMEIDA JUNIOR  - EPP",
-      "nome_fantasia": "AUTO POSTO MASSAPE",
-      "telefone": "",
-      "nome_logradouro": "DT MASSAPE",
-      "numero_imovel": "6",
-      "bairro": "MASSAPE",
-      "cep": "57340000",
-      "codigo_ibge": 2702603,
-      "municipio": "FEIRA GRANDE",
-      "latitude": -9.8511321,
-      "longitude": -36.673818,
-      "valor_minimo": 6.900093589143659,
-      "valor_maximo": 6.900093589143659,
-      "valor_medio": 6.900093589143659,
-      "valor_recente": 6.900093589143659,
-      "data_recente": "2026-04-14T05:35:14Z"
+      "valor_minimo": 6.901311249137336,
+      "valor_maximo": 6.901311249137336,
+      "valor_medio": 6.901311249137336,
+      "valor_recente": 6.901311249137336,
+      "data_recente": "2026-04-14T09:51:45Z"
     },
     {
       "cnpj": "05769126000149",
@@ -130,11 +130,11 @@
       "municipio": "FEIRA GRANDE",
       "latitude": -9.8511321,
       "longitude": -36.673818,
-      "valor_minimo": 5.289861169541439,
-      "valor_maximo": 5.289861169541439,
-      "valor_medio": 5.289861169541439,
-      "valor_recente": 5.289861169541439,
-      "data_recente": "2026-04-14T05:43:45Z"
+      "valor_minimo": 5.287009063444109,
+      "valor_maximo": 5.287009063444109,
+      "valor_medio": 5.287009063444109,
+      "valor_recente": 5.287009063444109,
+      "data_recente": "2026-04-14T13:30:05Z"
     },
     {
       "cnpj": "07826783000106",
@@ -150,11 +150,11 @@
       "municipio": "FEIRA GRANDE",
       "latitude": -9.8986249,
       "longitude": -36.6776837,
-      "valor_minimo": 7.28977137884661,
-      "valor_maximo": 7.28977137884661,
-      "valor_medio": 7.28977137884661,
-      "valor_recente": 7.28977137884661,
-      "data_recente": "2026-04-13T23:26:27Z"
+      "valor_minimo": 7.29,
+      "valor_maximo": 7.29,
+      "valor_medio": 7.29,
+      "valor_recente": 7.29,
+      "data_recente": "2026-04-14T12:08:23Z"
     },
     {
       "cnpj": "05769126000149",
@@ -170,11 +170,11 @@
       "municipio": "FEIRA GRANDE",
       "latitude": -9.8511321,
       "longitude": -36.673818,
-      "valor_minimo": 7.28999392635086,
-      "valor_maximo": 7.28999392635086,
-      "valor_medio": 7.28999392635086,
-      "valor_recente": 7.28999392635086,
-      "data_recente": "2026-04-14T03:05:16Z"
+      "valor_minimo": 7.290087463556851,
+      "valor_maximo": 7.290087463556851,
+      "valor_medio": 7.290087463556851,
+      "valor_recente": 7.290087463556851,
+      "data_recente": "2026-04-14T13:10:39Z"
     }
   ]
 }
