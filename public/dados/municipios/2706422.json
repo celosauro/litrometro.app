@@ -1,7 +1,7 @@
 {
   "codigoIBGE": "2706422",
   "municipio": "Pariconha",
-  "atualizadoEm": "2026-04-13T22:09:21.983Z",
+  "atualizadoEm": "2026-04-14T00:15:04.442Z",
   "totalEstabelecimentos": 6,
   "combustiveis": {
     "1": {
@@ -13,17 +13,37 @@
     "2": {
       "totalPostos": 2,
       "valorMinimo": 7.1890726096333575,
-      "valorMaximo": 7.24112961622013,
-      "valorMedio": 7.215101112926744
+      "valorMaximo": 7.239382239382239,
+      "valorMedio": 7.214227424507799
     },
     "5": {
       "totalPostos": 2,
       "valorMinimo": 7.6698880196349135,
-      "valorMaximo": 7.989773090444231,
-      "valorMedio": 7.829830555039573
+      "valorMaximo": 7.990013315579228,
+      "valorMedio": 7.82995066760707
     }
   },
   "estabelecimentos": [
+    {
+      "cnpj": "27457330000167",
+      "tipo_combustivel": 1,
+      "razao_social": "GABRIEL BEZERRA DE MELO SOUZA - EPP",
+      "nome_fantasia": "AUTO POSTO GT",
+      "telefone": "(82) 99833813",
+      "nome_logradouro": "Rua FELIX JOSE DOS SANTOS",
+      "numero_imovel": "417",
+      "bairro": "CENTRO",
+      "cep": "57475000",
+      "codigo_ibge": 2706422,
+      "municipio": "PARICONHA",
+      "latitude": -9.2554482,
+      "longitude": -38.0027017,
+      "valor_minimo": 7.190106413574921,
+      "valor_maximo": 7.190106413574921,
+      "valor_medio": 7.190106413574921,
+      "valor_recente": 7.190106413574921,
+      "data_recente": "2026-04-13T15:50:29Z"
+    },
     {
       "cnpj": "04590794000141",
       "tipo_combustivel": 1,
@@ -43,26 +63,6 @@
       "valor_medio": 7.190106413574921,
       "valor_recente": 7.190106413574921,
       "data_recente": "2026-04-10T19:15:52Z"
-    },
-    {
-      "cnpj": "27457330000167",
-      "tipo_combustivel": 1,
-      "razao_social": "GABRIEL BEZERRA DE MELO SOUZA - EPP",
-      "nome_fantasia": "AUTO POSTO GT",
-      "telefone": "(82) 99833813",
-      "nome_logradouro": "Rua FELIX JOSE DOS SANTOS",
-      "numero_imovel": "417",
-      "bairro": "CENTRO",
-      "cep": "57475000",
-      "codigo_ibge": 2706422,
-      "municipio": "PARICONHA",
-      "latitude": -9.2554482,
-      "longitude": -38.0027017,
-      "valor_minimo": 7.190106413574921,
-      "valor_maximo": 7.190106413574921,
-      "valor_medio": 7.190106413574921,
-      "valor_recente": 7.190106413574921,
-      "data_recente": "2026-04-13T11:53:56Z"
     },
     {
       "cnpj": "04590794000141",
@@ -98,11 +98,11 @@
       "municipio": "PARICONHA",
       "latitude": -9.2554482,
       "longitude": -38.0027017,
-      "valor_minimo": 7.24112961622013,
-      "valor_maximo": 7.24112961622013,
-      "valor_medio": 7.24112961622013,
-      "valor_recente": 7.24112961622013,
-      "data_recente": "2026-04-13T11:53:56Z"
+      "valor_minimo": 7.239382239382239,
+      "valor_maximo": 7.239382239382239,
+      "valor_medio": 7.239382239382239,
+      "valor_recente": 7.239382239382239,
+      "data_recente": "2026-04-13T15:25:02Z"
     },
     {
       "cnpj": "04590794000141",
@@ -138,11 +138,11 @@
       "municipio": "PARICONHA",
       "latitude": -9.2554482,
       "longitude": -38.0027017,
-      "valor_minimo": 7.989773090444231,
-      "valor_maximo": 7.989773090444231,
-      "valor_medio": 7.989773090444231,
-      "valor_recente": 7.989773090444231,
-      "data_recente": "2026-04-12T23:54:12Z"
+      "valor_minimo": 7.990013315579228,
+      "valor_maximo": 7.990013315579228,
+      "valor_medio": 7.990013315579228,
+      "valor_recente": 7.990013315579228,
+      "data_recente": "2026-04-13T15:31:09Z"
     }
   ]
 }

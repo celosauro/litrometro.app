@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2702207",
   "municipio": "Coqueiro Seco",
-  "atualizadoEm": "2026-04-13T21:48:46.775Z",
+  "atualizadoEm": "2026-04-13T23:46:32.132Z",
   "totalEstabelecimentos": 4,
   "combustiveis": {
     "1": {
+      "totalPostos": 1,
+      "valorMinimo": 6.958250497017892,
+      "valorMaximo": 6.958250497017892,
+      "valorMedio": 6.958250497017892
+    },
+    "2": {
       "totalPostos": 1,
       "valorMinimo": 6.958942240779401,
       "valorMaximo": 6.958942240779401,
       "valorMedio": 6.958942240779401
     },
-    "2": {
-      "totalPostos": 1,
-      "valorMinimo": 6.959634122091868,
-      "valorMaximo": 6.959634122091868,
-      "valorMedio": 6.959634122091868
-    },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.389673385792821,
-      "valorMaximo": 5.389673385792821,
-      "valorMedio": 5.389673385792821
+      "valorMinimo": 5.389948006932409,
+      "valorMaximo": 5.389948006932409,
+      "valorMedio": 5.389948006932409
     },
     "5": {
       "totalPostos": 1,
-      "valorMinimo": 7.659956642923506,
-      "valorMaximo": 7.659956642923506,
-      "valorMedio": 7.659956642923506
+      "valorMinimo": 7.659984463120088,
+      "valorMaximo": 7.659984463120088,
+      "valorMedio": 7.659984463120088
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "COQUEIRO SECO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.958942240779401,
-      "valor_maximo": 6.958942240779401,
-      "valor_medio": 6.958942240779401,
-      "valor_recente": 6.958942240779401,
-      "data_recente": "2026-04-13T14:27:30Z"
+      "valor_minimo": 6.958250497017892,
+      "valor_maximo": 6.958250497017892,
+      "valor_medio": 6.958250497017892,
+      "valor_recente": 6.958250497017892,
+      "data_recente": "2026-04-13T18:09:32Z"
     },
     {
       "cnpj": "46256235000140",
@@ -64,11 +64,11 @@
       "municipio": "COQUEIRO SECO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.959634122091868,
-      "valor_maximo": 6.959634122091868,
-      "valor_medio": 6.959634122091868,
-      "valor_recente": 6.959634122091868,
-      "data_recente": "2026-04-13T13:50:33Z"
+      "valor_minimo": 6.958942240779401,
+      "valor_maximo": 6.958942240779401,
+      "valor_medio": 6.958942240779401,
+      "valor_recente": 6.958942240779401,
+      "data_recente": "2026-04-13T17:43:51Z"
     },
     {
       "cnpj": "46256235000140",
@@ -84,11 +84,11 @@
       "municipio": "COQUEIRO SECO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.389673385792821,
-      "valor_maximo": 5.389673385792821,
-      "valor_medio": 5.389673385792821,
-      "valor_recente": 5.389673385792821,
-      "data_recente": "2026-04-13T13:05:09Z"
+      "valor_minimo": 5.389948006932409,
+      "valor_maximo": 5.389948006932409,
+      "valor_medio": 5.389948006932409,
+      "valor_recente": 5.389948006932409,
+      "data_recente": "2026-04-13T17:43:51Z"
     },
     {
       "cnpj": "46256235000140",
@@ -104,11 +104,11 @@
       "municipio": "COQUEIRO SECO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.659956642923506,
-      "valor_maximo": 7.659956642923506,
-      "valor_medio": 7.659956642923506,
-      "valor_recente": 7.659956642923506,
-      "data_recente": "2026-04-13T13:56:03Z"
+      "valor_minimo": 7.659984463120088,
+      "valor_maximo": 7.659984463120088,
+      "valor_medio": 7.659984463120088,
+      "valor_recente": 7.659984463120088,
+      "data_recente": "2026-04-13T17:29:41Z"
     }
   ]
 }

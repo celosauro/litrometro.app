@@ -1,7 +1,7 @@
 {
   "codigoIBGE": "2701803",
   "municipio": "Carneiros",
-  "atualizadoEm": "2026-04-13T21:47:02.536Z",
+  "atualizadoEm": "2026-04-13T23:44:22.376Z",
   "totalEstabelecimentos": 6,
   "combustiveis": {
     "1": {
@@ -18,15 +18,15 @@
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.189952252439277,
-      "valorMaximo": 5.189952252439277,
-      "valorMedio": 5.189952252439277
+      "valorMinimo": 5.1894135962636225,
+      "valorMaximo": 5.1894135962636225,
+      "valorMedio": 5.1894135962636225
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.800312012480499,
-      "valorMaximo": 7.889965986394558,
-      "valorMedio": 7.845138999437529
+      "valorMinimo": 7.320644216691069,
+      "valorMaximo": 7.799703611262772,
+      "valorMedio": 7.560173913976921
     }
   },
   "estabelecimentos": [
@@ -104,31 +104,11 @@
       "municipio": "CARNEIROS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.189952252439277,
-      "valor_maximo": 5.189952252439277,
-      "valor_medio": 5.189952252439277,
-      "valor_recente": 5.189952252439277,
-      "data_recente": "2026-04-13T11:54:10Z"
-    },
-    {
-      "cnpj": "00994685000139",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO CARNEIROS LTDA.",
-      "nome_fantasia": "AUTO POSTO CARNEIROS",
-      "telefone": "(82) 36213443",
-      "nome_logradouro": "Rua TIRADENTES",
-      "numero_imovel": "210",
-      "bairro": "CENTRO",
-      "cep": "57535000",
-      "codigo_ibge": 2701803,
-      "municipio": "CARNEIROS",
-      "latitude": -9.4828391,
-      "longitude": -37.376628,
-      "valor_minimo": 7.800312012480499,
-      "valor_maximo": 7.800312012480499,
-      "valor_medio": 7.800312012480499,
-      "valor_recente": 7.800312012480499,
-      "data_recente": "2026-04-11T17:12:06Z"
+      "valor_minimo": 5.1894135962636225,
+      "valor_maximo": 5.1894135962636225,
+      "valor_medio": 5.1894135962636225,
+      "valor_recente": 5.1894135962636225,
+      "data_recente": "2026-04-13T16:04:58Z"
     },
     {
       "cnpj": "36996902000177",
@@ -144,11 +124,31 @@
       "municipio": "CARNEIROS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.889965986394558,
-      "valor_maximo": 8.3500334001336,
-      "valor_medio": 8.119999693264079,
-      "valor_recente": 7.889965986394558,
-      "data_recente": "2026-04-13T12:05:00Z"
+      "valor_minimo": 7.320644216691069,
+      "valor_maximo": 8.350877192982455,
+      "valor_medio": 7.835760704836762,
+      "valor_recente": 7.320644216691069,
+      "data_recente": "2026-04-13T16:05:39Z"
+    },
+    {
+      "cnpj": "00994685000139",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO CARNEIROS LTDA.",
+      "nome_fantasia": "AUTO POSTO CARNEIROS",
+      "telefone": "(82) 36213443",
+      "nome_logradouro": "Rua TIRADENTES",
+      "numero_imovel": "210",
+      "bairro": "CENTRO",
+      "cep": "57535000",
+      "codigo_ibge": 2701803,
+      "municipio": "CARNEIROS",
+      "latitude": -9.4828391,
+      "longitude": -37.376628,
+      "valor_minimo": 7.799703611262772,
+      "valor_maximo": 7.799703611262772,
+      "valor_medio": 7.799703611262772,
+      "valor_recente": 7.799703611262772,
+      "data_recente": "2026-04-13T17:25:44Z"
     }
   ]
 }

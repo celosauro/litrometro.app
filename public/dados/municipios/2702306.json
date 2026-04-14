@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2702306",
   "municipio": "Coruripe",
-  "atualizadoEm": "2026-04-13T21:49:14.155Z",
+  "atualizadoEm": "2026-04-13T23:47:05.723Z",
   "totalEstabelecimentos": 22,
   "combustiveis": {
     "1": {
       "totalPostos": 7,
-      "valorMinimo": 6.939995729233398,
-      "valorMaximo": 7.1199715201139195,
-      "valorMedio": 7.033561895214239
+      "valorMinimo": 6.019820295983087,
+      "valorMaximo": 7.120996441281139,
+      "valorMedio": 6.896765079133921
     },
     "2": {
       "totalPostos": 1,
@@ -18,9 +18,9 @@
     },
     "3": {
       "totalPostos": 6,
-      "valorMinimo": 4.24954108627578,
-      "valorMaximo": 5.749770009199632,
-      "valorMedio": 5.147795626646941
+      "valorMinimo": 4.249839434810533,
+      "valorMaximo": 5.74985634935836,
+      "valorMedio": 5.116642705739614
     },
     "4": {
       "totalPostos": 1,
@@ -30,32 +30,12 @@
     },
     "5": {
       "totalPostos": 7,
-      "valorMinimo": 6.857079515223175,
-      "valorMaximo": 7.568876778686043,
-      "valorMedio": 7.296498632503222
+      "valorMinimo": 4.55,
+      "valorMaximo": 7.44997871434653,
+      "valorMedio": 6.862823485096492
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "56141661000191",
-      "tipo_combustivel": 1,
-      "razao_social": "ARAUJO E MORAES COMERCIO DE COMBUSTIVEIS LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 32739138",
-      "nome_logradouro": "ROD VEREADOR JORGE VENANCIO dos santos",
-      "numero_imovel": "68",
-      "bairro": "pindorama",
-      "cep": "57230000",
-      "codigo_ibge": 2702306,
-      "municipio": "CORURIPE",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.939995729233398,
-      "valor_maximo": 6.939995729233398,
-      "valor_medio": 6.939995729233398,
-      "valor_recente": 6.939995729233398,
-      "data_recente": "2026-04-13T12:28:52Z"
-    },
     {
       "cnpj": "05848209000123",
       "tipo_combustivel": 1,
@@ -70,11 +50,31 @@
       "municipio": "CORURIPE",
       "latitude": -10.1230258,
       "longitude": -36.1760483,
-      "valor_minimo": 6.977307110438729,
-      "valor_maximo": 6.977307110438729,
-      "valor_medio": 6.977307110438729,
-      "valor_recente": 6.977307110438729,
-      "data_recente": "2026-04-13T14:01:41Z"
+      "valor_minimo": 6.019820295983087,
+      "valor_maximo": 6.019820295983087,
+      "valor_medio": 6.019820295983087,
+      "valor_recente": 6.019820295983087,
+      "data_recente": "2026-04-13T18:10:06Z"
+    },
+    {
+      "cnpj": "56141661000191",
+      "tipo_combustivel": 1,
+      "razao_social": "ARAUJO E MORAES COMERCIO DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 32739138",
+      "nome_logradouro": "ROD VEREADOR JORGE VENANCIO dos santos",
+      "numero_imovel": "68",
+      "bairro": "pindorama",
+      "cep": "57230000",
+      "codigo_ibge": 2702306,
+      "municipio": "CORURIPE",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.940106877645916,
+      "valor_maximo": 6.940106877645916,
+      "valor_medio": 6.940106877645916,
+      "valor_recente": 6.940106877645916,
+      "data_recente": "2026-04-13T17:16:44Z"
     },
     {
       "cnpj": "10589833000274",
@@ -90,11 +90,11 @@
       "municipio": "CORURIPE",
       "latitude": -10.1457326,
       "longitude": -36.3226082,
-      "valor_minimo": 6.988120195667365,
-      "valor_maximo": 6.988120195667365,
-      "valor_medio": 6.988120195667365,
-      "valor_recente": 6.988120195667365,
-      "data_recente": "2026-04-13T14:29:38Z"
+      "valor_minimo": 6.988372093023256,
+      "valor_maximo": 6.988372093023256,
+      "valor_medio": 6.988372093023256,
+      "valor_recente": 6.988372093023256,
+      "data_recente": "2026-04-13T18:11:47Z"
     },
     {
       "cnpj": "55681612000189",
@@ -110,11 +110,11 @@
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.990074094785404,
-      "valor_maximo": 6.990074094785404,
-      "valor_medio": 6.990074094785404,
-      "valor_recente": 6.990074094785404,
-      "data_recente": "2026-04-13T14:27:21Z"
+      "valor_minimo": 6.989829797644427,
+      "valor_maximo": 6.989829797644427,
+      "valor_medio": 6.989829797644427,
+      "valor_recente": 6.989829797644427,
+      "data_recente": "2026-04-13T17:49:44Z"
     },
     {
       "cnpj": "33600518000115",
@@ -130,11 +130,11 @@
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.1,
-      "valor_maximo": 7.1,
-      "valor_medio": 7.1,
-      "valor_recente": 7.1,
-      "data_recente": "2026-04-13T14:29:17Z"
+      "valor_minimo": 7.098765432098766,
+      "valor_maximo": 7.098765432098766,
+      "valor_medio": 7.098765432098766,
+      "valor_recente": 7.098765432098766,
+      "data_recente": "2026-04-13T18:14:00Z"
     },
     {
       "cnpj": "29853107000164",
@@ -170,11 +170,11 @@
       "municipio": "CORURIPE",
       "latitude": -10.139914,
       "longitude": -36.1627961,
-      "valor_minimo": 7.1199715201139195,
-      "valor_maximo": 7.1199715201139195,
-      "valor_medio": 7.1199715201139195,
-      "valor_recente": 7.1199715201139195,
-      "data_recente": "2026-04-13T14:32:43Z"
+      "valor_minimo": 7.120996441281139,
+      "valor_maximo": 7.120996441281139,
+      "valor_medio": 7.120996441281139,
+      "valor_recente": 7.120996441281139,
+      "data_recente": "2026-04-13T18:12:33Z"
     },
     {
       "cnpj": "09081895000100",
@@ -194,7 +194,7 @@
       "valor_maximo": 7.2202166064981945,
       "valor_medio": 7.2202166064981945,
       "valor_recente": 7.2202166064981945,
-      "data_recente": "2026-04-13T14:16:11Z"
+      "data_recente": "2026-04-13T18:04:16Z"
     },
     {
       "cnpj": "05848209000123",
@@ -210,11 +210,11 @@
       "municipio": "CORURIPE",
       "latitude": -10.1230258,
       "longitude": -36.1760483,
-      "valor_minimo": 4.24954108627578,
-      "valor_maximo": 4.24954108627578,
-      "valor_medio": 4.24954108627578,
-      "valor_recente": 4.24954108627578,
-      "data_recente": "2026-04-13T14:28:44Z"
+      "valor_minimo": 4.249839434810533,
+      "valor_maximo": 4.249839434810533,
+      "valor_medio": 4.249839434810533,
+      "valor_recente": 4.249839434810533,
+      "data_recente": "2026-04-13T18:07:45Z"
     },
     {
       "cnpj": "56141661000191",
@@ -250,11 +250,11 @@
       "municipio": "CORURIPE",
       "latitude": -10.1457326,
       "longitude": -36.3226082,
-      "valor_minimo": 5.149860953754248,
-      "valor_maximo": 5.149860953754248,
-      "valor_medio": 5.149860953754248,
-      "valor_recente": 5.149860953754248,
-      "data_recente": "2026-04-13T14:29:29Z"
+      "valor_minimo": 5.149942558333003,
+      "valor_maximo": 5.149942558333003,
+      "valor_medio": 5.149942558333003,
+      "valor_recente": 5.149942558333003,
+      "data_recente": "2026-04-13T18:15:42Z"
     },
     {
       "cnpj": "55681612000189",
@@ -270,31 +270,11 @@
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.590027391134217,
-      "valor_maximo": 5.590027391134217,
-      "valor_medio": 5.590027391134217,
-      "valor_recente": 5.590027391134217,
-      "data_recente": "2026-04-13T14:27:21Z"
-    },
-    {
-      "cnpj": "09081895000100",
-      "tipo_combustivel": 3,
-      "razao_social": "T. DE F. ROCHA & BARBOSA LTDA  - ME",
-      "nome_fantasia": "POSTO SAO PEDRO III",
-      "telefone": "",
-      "nome_logradouro": "ROD GUTTEMBERG BREDA NETO",
-      "numero_imovel": "3145/A",
-      "bairro": "COMENDADOR TERCIO WANDERLEY",
-      "cep": "57230000",
-      "codigo_ibge": 2702306,
-      "municipio": "CORURIPE",
-      "latitude": -10.139914,
-      "longitude": -36.1627961,
-      "valor_minimo": 5.747126436781609,
-      "valor_maximo": 5.747126436781609,
-      "valor_medio": 5.747126436781609,
-      "valor_recente": 5.747126436781609,
-      "data_recente": "2026-04-12T00:07:29Z"
+      "valor_minimo": 5.4,
+      "valor_maximo": 5.4,
+      "valor_medio": 5.4,
+      "valor_recente": 5.4,
+      "data_recente": "2026-04-13T17:55:30Z"
     },
     {
       "cnpj": "29853107000164",
@@ -317,6 +297,26 @@
       "data_recente": "2026-04-13T12:02:18Z"
     },
     {
+      "cnpj": "09081895000100",
+      "tipo_combustivel": 3,
+      "razao_social": "T. DE F. ROCHA & BARBOSA LTDA  - ME",
+      "nome_fantasia": "POSTO SAO PEDRO III",
+      "telefone": "",
+      "nome_logradouro": "ROD GUTTEMBERG BREDA NETO",
+      "numero_imovel": "3145/A",
+      "bairro": "COMENDADOR TERCIO WANDERLEY",
+      "cep": "57230000",
+      "codigo_ibge": 2702306,
+      "municipio": "CORURIPE",
+      "latitude": -10.139914,
+      "longitude": -36.1627961,
+      "valor_minimo": 5.74985634935836,
+      "valor_maximo": 5.74985634935836,
+      "valor_medio": 5.74985634935836,
+      "valor_recente": 5.74985634935836,
+      "data_recente": "2026-04-13T18:07:19Z"
+    },
+    {
       "cnpj": "07824798000488",
       "tipo_combustivel": 4,
       "razao_social": "COOPERATIVA DOS AGRICULTORES FAMILIARES E DOS EMPREENDIMENTOS SOLIDARIOS",
@@ -337,24 +337,44 @@
       "data_recente": "2026-04-09T18:08:54Z"
     },
     {
-      "cnpj": "56141661000191",
+      "cnpj": "09081895000100",
       "tipo_combustivel": 5,
-      "razao_social": "ARAUJO E MORAES COMERCIO DE COMBUSTIVEIS LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 32739138",
-      "nome_logradouro": "ROD VEREADOR JORGE VENANCIO dos santos",
-      "numero_imovel": "68",
-      "bairro": "pindorama",
+      "razao_social": "T. DE F. ROCHA & BARBOSA LTDA  - ME",
+      "nome_fantasia": "POSTO SAO PEDRO III",
+      "telefone": "",
+      "nome_logradouro": "ROD GUTTEMBERG BREDA NETO",
+      "numero_imovel": "3145/A",
+      "bairro": "COMENDADOR TERCIO WANDERLEY",
       "cep": "57230000",
       "codigo_ibge": 2702306,
       "municipio": "CORURIPE",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.857079515223175,
-      "valor_maximo": 6.857079515223175,
-      "valor_medio": 6.857079515223175,
-      "valor_recente": 6.857079515223175,
-      "data_recente": "2026-04-12T23:42:20Z"
+      "latitude": -10.139914,
+      "longitude": -36.1627961,
+      "valor_minimo": 4.55,
+      "valor_maximo": 7.389890629618682,
+      "valor_medio": 5.96994531480934,
+      "valor_recente": 4.55,
+      "data_recente": "2026-04-13T17:59:30Z"
+    },
+    {
+      "cnpj": "05848209000123",
+      "tipo_combustivel": 5,
+      "razao_social": "A L C COMERCIO DE COMBUSTIVEIS E SERVICOS LTDA",
+      "nome_fantasia": "POSTO SANTA RITA",
+      "telefone": "",
+      "nome_logradouro": "TR DO CEMITERIO",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57230000",
+      "codigo_ibge": 2702306,
+      "municipio": "CORURIPE",
+      "latitude": -10.1230258,
+      "longitude": -36.1760483,
+      "valor_minimo": 6.639985895627644,
+      "valor_maximo": 6.639985895627644,
+      "valor_medio": 6.639985895627644,
+      "valor_recente": 6.639985895627644,
+      "data_recente": "2026-04-13T18:12:18Z"
     },
     {
       "cnpj": "55681612000189",
@@ -370,31 +390,31 @@
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.969936341248084,
-      "valor_maximo": 6.969936341248084,
-      "valor_medio": 6.969936341248084,
-      "valor_recente": 6.969936341248084,
-      "data_recente": "2026-04-13T10:30:43Z"
+      "valor_minimo": 7.169990258253066,
+      "valor_maximo": 7.169990258253066,
+      "valor_medio": 7.169990258253066,
+      "valor_recente": 7.169990258253066,
+      "data_recente": "2026-04-13T15:47:36Z"
     },
     {
-      "cnpj": "09081895000100",
+      "cnpj": "56141661000191",
       "tipo_combustivel": 5,
-      "razao_social": "T. DE F. ROCHA & BARBOSA LTDA  - ME",
-      "nome_fantasia": "POSTO SAO PEDRO III",
-      "telefone": "",
-      "nome_logradouro": "ROD GUTTEMBERG BREDA NETO",
-      "numero_imovel": "3145/A",
-      "bairro": "COMENDADOR TERCIO WANDERLEY",
+      "razao_social": "ARAUJO E MORAES COMERCIO DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 32739138",
+      "nome_logradouro": "ROD VEREADOR JORGE VENANCIO dos santos",
+      "numero_imovel": "68",
+      "bairro": "pindorama",
       "cep": "57230000",
       "codigo_ibge": 2702306,
       "municipio": "CORURIPE",
-      "latitude": -10.139914,
-      "longitude": -36.1627961,
-      "valor_minimo": 7.389705882352941,
-      "valor_maximo": 7.430209107313448,
-      "valor_medio": 7.409957494833195,
-      "valor_recente": 7.389705882352941,
-      "data_recente": "2026-04-13T14:09:31Z"
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.389890629618682,
+      "valor_maximo": 7.389890629618682,
+      "valor_medio": 7.389890629618682,
+      "valor_recente": 7.389890629618682,
+      "data_recente": "2026-04-13T16:36:37Z"
     },
     {
       "cnpj": "29853107000164",
@@ -417,26 +437,6 @@
       "data_recente": "2026-04-13T11:54:04Z"
     },
     {
-      "cnpj": "10589833000274",
-      "tipo_combustivel": 5,
-      "razao_social": "COOPERATIVA AGROINDUSTRIAL DOS PRODUTORES RURAIS DA COLÔNIA PINDORAMA LTDA",
-      "nome_fantasia": "POSTO PINDORAMA",
-      "telefone": "(82) 32746460",
-      "nome_logradouro": "AV VEREADOR VENANCIO ROCHA DOS SANTOS",
-      "numero_imovel": "S/N",
-      "bairro": "COLONIA PINDORAMA",
-      "cep": "57230000",
-      "codigo_ibge": 2702306,
-      "municipio": "CORURIPE",
-      "latitude": -10.1457326,
-      "longitude": -36.3226082,
-      "valor_minimo": 7.449962377727615,
-      "valor_maximo": 7.449962377727615,
-      "valor_medio": 7.449962377727615,
-      "valor_recente": 7.449962377727615,
-      "data_recente": "2026-04-13T14:27:19Z"
-    },
-    {
       "cnpj": "33600518000115",
       "tipo_combustivel": 5,
       "razao_social": "RAFAELA JERONIMO DA SILVA",
@@ -450,31 +450,31 @@
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.44997384543093,
-      "valor_maximo": 7.44997384543093,
-      "valor_medio": 7.44997384543093,
-      "valor_recente": 7.44997384543093,
-      "data_recente": "2026-04-13T14:28:03Z"
+      "valor_minimo": 7.449963210975763,
+      "valor_maximo": 7.449963210975763,
+      "valor_medio": 7.449963210975763,
+      "valor_recente": 7.449963210975763,
+      "data_recente": "2026-04-13T17:53:55Z"
     },
     {
-      "cnpj": "05848209000123",
+      "cnpj": "10589833000274",
       "tipo_combustivel": 5,
-      "razao_social": "A L C COMERCIO DE COMBUSTIVEIS E SERVICOS LTDA",
-      "nome_fantasia": "POSTO SANTA RITA",
-      "telefone": "",
-      "nome_logradouro": "TR DO CEMITERIO",
+      "razao_social": "COOPERATIVA AGROINDUSTRIAL DOS PRODUTORES RURAIS DA COLÔNIA PINDORAMA LTDA",
+      "nome_fantasia": "POSTO PINDORAMA",
+      "telefone": "(82) 32746460",
+      "nome_logradouro": "AV VEREADOR VENANCIO ROCHA DOS SANTOS",
       "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
+      "bairro": "COLONIA PINDORAMA",
       "cep": "57230000",
       "codigo_ibge": 2702306,
       "municipio": "CORURIPE",
-      "latitude": -10.1230258,
-      "longitude": -36.1760483,
-      "valor_minimo": 7.568876778686043,
-      "valor_maximo": 7.568876778686043,
-      "valor_medio": 7.568876778686043,
-      "valor_recente": 7.568876778686043,
-      "data_recente": "2026-04-13T14:27:50Z"
+      "latitude": -10.1457326,
+      "longitude": -36.3226082,
+      "valor_minimo": 7.44997871434653,
+      "valor_maximo": 7.44997871434653,
+      "valor_medio": 7.44997871434653,
+      "valor_recente": 7.44997871434653,
+      "data_recente": "2026-04-13T18:11:47Z"
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2706802",
   "municipio": "Piaçabuçu",
-  "atualizadoEm": "2026-04-13T22:11:19.846Z",
+  "atualizadoEm": "2026-04-14T00:17:51.808Z",
   "totalEstabelecimentos": 7,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 7.120567375886525,
-      "valorMaximo": 7.122507122507122,
-      "valorMedio": 7.121537249196823
+      "valorMinimo": 7.119609438567942,
+      "valorMaximo": 7.120199146514936,
+      "valorMedio": 7.119904292541438
     },
     "2": {
       "totalPostos": 1,
@@ -18,9 +18,9 @@
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.54016620498615,
-      "valorMaximo": 5.54016620498615,
-      "valorMedio": 5.54016620498615
+      "valorMinimo": 5.539859287574096,
+      "valorMaximo": 5.539859287574096,
+      "valorMedio": 5.539859287574096
     },
     "4": {
       "totalPostos": 1,
@@ -30,32 +30,12 @@
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.89004854368932,
-      "valorMaximo": 7.890625,
-      "valorMedio": 7.890336771844661
+      "valorMinimo": 7.89003984063745,
+      "valorMaximo": 7.8901688496133815,
+      "valorMedio": 7.890104345125415
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "24197104000104",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO TRÊS IRMÃOS LTDA  - EPP",
-      "nome_fantasia": "AUTO POSTO TRES IRMAOS",
-      "telefone": "(82) 35521193",
-      "nome_logradouro": "AV ULISSES GUEDES",
-      "numero_imovel": "266",
-      "bairro": "BRASILIA",
-      "cep": "57210000",
-      "codigo_ibge": 2706802,
-      "municipio": "PIACABUCU",
-      "latitude": -10.4072761,
-      "longitude": -36.4252736,
-      "valor_minimo": 7.120567375886525,
-      "valor_maximo": 7.120567375886525,
-      "valor_medio": 7.120567375886525,
-      "valor_recente": 7.120567375886525,
-      "data_recente": "2026-04-13T14:23:27Z"
-    },
     {
       "cnpj": "05388025000209",
       "tipo_combustivel": 1,
@@ -70,11 +50,31 @@
       "municipio": "PIACABUCU",
       "latitude": -10.4073113,
       "longitude": -36.4313297,
-      "valor_minimo": 7.122507122507122,
-      "valor_maximo": 7.122507122507122,
-      "valor_medio": 7.122507122507122,
-      "valor_recente": 7.122507122507122,
-      "data_recente": "2026-04-13T14:31:33Z"
+      "valor_minimo": 7.119609438567942,
+      "valor_maximo": 7.119609438567942,
+      "valor_medio": 7.119609438567942,
+      "valor_recente": 7.119609438567942,
+      "data_recente": "2026-04-13T18:02:00Z"
+    },
+    {
+      "cnpj": "24197104000104",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO TRÊS IRMÃOS LTDA  - EPP",
+      "nome_fantasia": "AUTO POSTO TRES IRMAOS",
+      "telefone": "(82) 35521193",
+      "nome_logradouro": "AV ULISSES GUEDES",
+      "numero_imovel": "266",
+      "bairro": "BRASILIA",
+      "cep": "57210000",
+      "codigo_ibge": 2706802,
+      "municipio": "PIACABUCU",
+      "latitude": -10.4072761,
+      "longitude": -36.4252736,
+      "valor_minimo": 7.120199146514936,
+      "valor_maximo": 7.120199146514936,
+      "valor_medio": 7.120199146514936,
+      "valor_recente": 7.120199146514936,
+      "data_recente": "2026-04-13T17:53:39Z"
     },
     {
       "cnpj": "05388025000209",
@@ -94,7 +94,7 @@
       "valor_maximo": 7.2202166064981945,
       "valor_medio": 7.2202166064981945,
       "valor_recente": 7.2202166064981945,
-      "data_recente": "2026-04-13T14:28:54Z"
+      "data_recente": "2026-04-13T17:18:50Z"
     },
     {
       "cnpj": "05388025000209",
@@ -110,11 +110,11 @@
       "municipio": "PIACABUCU",
       "latitude": -10.4073113,
       "longitude": -36.4313297,
-      "valor_minimo": 5.54016620498615,
-      "valor_maximo": 5.54016620498615,
-      "valor_medio": 5.54016620498615,
-      "valor_recente": 5.54016620498615,
-      "data_recente": "2026-04-13T14:28:35Z"
+      "valor_minimo": 5.539859287574096,
+      "valor_maximo": 5.539859287574096,
+      "valor_medio": 5.539859287574096,
+      "valor_recente": 5.539859287574096,
+      "data_recente": "2026-04-13T18:04:50Z"
     },
     {
       "cnpj": "07824798000305",
@@ -150,11 +150,11 @@
       "municipio": "PIACABUCU",
       "latitude": -10.4072761,
       "longitude": -36.4252736,
-      "valor_minimo": 7.89004854368932,
-      "valor_maximo": 7.89004854368932,
-      "valor_medio": 7.89004854368932,
-      "valor_recente": 7.89004854368932,
-      "data_recente": "2026-04-13T11:57:13Z"
+      "valor_minimo": 7.89003984063745,
+      "valor_maximo": 7.89003984063745,
+      "valor_medio": 7.89003984063745,
+      "valor_recente": 7.89003984063745,
+      "data_recente": "2026-04-13T17:28:13Z"
     },
     {
       "cnpj": "05388025000209",
@@ -170,11 +170,11 @@
       "municipio": "PIACABUCU",
       "latitude": -10.4073113,
       "longitude": -36.4313297,
-      "valor_minimo": 7.890625,
-      "valor_maximo": 7.890625,
-      "valor_medio": 7.890625,
-      "valor_recente": 7.890625,
-      "data_recente": "2026-04-13T14:29:00Z"
+      "valor_minimo": 7.8901688496133815,
+      "valor_maximo": 7.8901688496133815,
+      "valor_medio": 7.8901688496133815,
+      "valor_recente": 7.8901688496133815,
+      "data_recente": "2026-04-13T17:25:58Z"
     }
   ]
 }

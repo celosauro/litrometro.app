@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2703106",
   "municipio": "Igaci",
-  "atualizadoEm": "2026-04-13T21:53:43.462Z",
+  "atualizadoEm": "2026-04-13T23:52:56.159Z",
   "totalEstabelecimentos": 14,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
-      "valorMinimo": 6.648936170212766,
-      "valorMaximo": 6.890410958904109,
-      "valorMedio": 6.777352053371231
+      "valorMinimo": 6.65019950598518,
+      "valorMaximo": 6.8900595510765,
+      "valorMedio": 6.777293666514363
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.989547038327526,
-      "valorMaximo": 6.990216631726065,
-      "valorMedio": 6.989881835026796
+      "valorMinimo": 6.988120195667365,
+      "valorMaximo": 6.989547038327526,
+      "valorMedio": 6.988833616997446
     },
     "3": {
       "totalPostos": 4,
-      "valorMinimo": 4.788029925187033,
-      "valorMaximo": 5.3895754970446,
-      "valorMedio": 5.0419063455778685
+      "valorMinimo": 4.78963110667996,
+      "valorMaximo": 5.388026607538802,
+      "valorMedio": 5.0419194185746505
     },
     "5": {
       "totalPostos": 4,
-      "valorMinimo": 7.150073869322785,
-      "valorMaximo": 7.649974067884516,
-      "valorMedio": 7.332457417960642
+      "valorMinimo": 6.749354005167959,
+      "valorMaximo": 7.337,
+      "valorMedio": 7.106559556927635
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "IGACI",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.648936170212766,
-      "valor_maximo": 6.648936170212766,
-      "valor_medio": 6.648936170212766,
-      "valor_recente": 6.648936170212766,
-      "data_recente": "2026-04-13T14:30:16Z"
+      "valor_minimo": 6.65019950598518,
+      "valor_maximo": 6.65019950598518,
+      "valor_medio": 6.65019950598518,
+      "valor_recente": 6.65019950598518,
+      "data_recente": "2026-04-13T16:32:39Z"
     },
     {
       "cnpj": "61923139000100",
@@ -68,7 +68,7 @@
       "valor_maximo": 6.680026720106881,
       "valor_medio": 6.680026720106881,
       "valor_recente": 6.680026720106881,
-      "data_recente": "2026-04-13T13:27:55Z"
+      "data_recente": "2026-04-13T17:49:27Z"
     },
     {
       "cnpj": "05019078000171",
@@ -84,11 +84,11 @@
       "municipio": "IGACI",
       "latitude": -9.543047699999999,
       "longitude": -36.6506562,
-      "valor_minimo": 6.890034364261169,
-      "valor_maximo": 6.890034364261169,
-      "valor_medio": 6.890034364261169,
-      "valor_recente": 6.890034364261169,
-      "data_recente": "2026-04-13T14:31:15Z"
+      "valor_minimo": 6.888888888888889,
+      "valor_maximo": 6.888888888888889,
+      "valor_medio": 6.888888888888889,
+      "valor_recente": 6.888888888888889,
+      "data_recente": "2026-04-13T17:48:14Z"
     },
     {
       "cnpj": "06209130000115",
@@ -104,11 +104,11 @@
       "municipio": "IGACI",
       "latitude": -9.539441199999999,
       "longitude": -36.6385346,
-      "valor_minimo": 6.890410958904109,
-      "valor_maximo": 6.890410958904109,
-      "valor_medio": 6.890410958904109,
-      "valor_recente": 6.890410958904109,
-      "data_recente": "2026-04-13T13:50:07Z"
+      "valor_minimo": 6.8900595510765,
+      "valor_maximo": 6.8900595510765,
+      "valor_medio": 6.8900595510765,
+      "valor_recente": 6.8900595510765,
+      "data_recente": "2026-04-13T18:10:41Z"
     },
     {
       "cnpj": "05019078000171",
@@ -124,31 +124,31 @@
       "municipio": "IGACI",
       "latitude": -9.543047699999999,
       "longitude": -36.6506562,
+      "valor_minimo": 6.988120195667365,
+      "valor_maximo": 6.988120195667365,
+      "valor_medio": 6.988120195667365,
+      "valor_recente": 6.988120195667365,
+      "data_recente": "2026-04-13T17:48:14Z"
+    },
+    {
+      "cnpj": "06209130000115",
+      "tipo_combustivel": 2,
+      "razao_social": "POSTO IGACI LTDA",
+      "nome_fantasia": "POSTO IGACI LTDA",
+      "telefone": "",
+      "nome_logradouro": "Rua JOAO FARIAS",
+      "numero_imovel": "446",
+      "bairro": "CENTRO",
+      "cep": "57620000",
+      "codigo_ibge": 2703106,
+      "municipio": "IGACI",
+      "latitude": -9.539441199999999,
+      "longitude": -36.6385346,
       "valor_minimo": 6.989547038327526,
       "valor_maximo": 6.989547038327526,
       "valor_medio": 6.989547038327526,
       "valor_recente": 6.989547038327526,
-      "data_recente": "2026-04-13T14:25:10Z"
-    },
-    {
-      "cnpj": "06209130000115",
-      "tipo_combustivel": 2,
-      "razao_social": "POSTO IGACI LTDA",
-      "nome_fantasia": "POSTO IGACI LTDA",
-      "telefone": "",
-      "nome_logradouro": "Rua JOAO FARIAS",
-      "numero_imovel": "446",
-      "bairro": "CENTRO",
-      "cep": "57620000",
-      "codigo_ibge": 2703106,
-      "municipio": "IGACI",
-      "latitude": -9.539441199999999,
-      "longitude": -36.6385346,
-      "valor_minimo": 6.990216631726065,
-      "valor_maximo": 6.990216631726065,
-      "valor_medio": 6.990216631726065,
-      "valor_recente": 6.990216631726065,
-      "data_recente": "2026-04-13T08:32:38Z"
+      "data_recente": "2026-04-13T17:32:58Z"
     },
     {
       "cnpj": "22442762000261",
@@ -164,11 +164,11 @@
       "municipio": "IGACI",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 4.788029925187033,
-      "valor_maximo": 4.788029925187033,
-      "valor_medio": 4.788029925187033,
-      "valor_recente": 4.788029925187033,
-      "data_recente": "2026-04-12T22:12:35Z"
+      "valor_minimo": 4.78963110667996,
+      "valor_maximo": 4.78963110667996,
+      "valor_medio": 4.78963110667996,
+      "valor_recente": 4.78963110667996,
+      "data_recente": "2026-04-13T15:14:13Z"
     },
     {
       "cnpj": "61923139000100",
@@ -188,7 +188,7 @@
       "valor_maximo": 4.990019960079841,
       "valor_medio": 4.990019960079841,
       "valor_recente": 4.990019960079841,
-      "data_recente": "2026-04-13T13:19:02Z"
+      "data_recente": "2026-04-13T17:52:05Z"
     },
     {
       "cnpj": "06209130000115",
@@ -224,31 +224,11 @@
       "municipio": "IGACI",
       "latitude": -9.543047699999999,
       "longitude": -36.6506562,
-      "valor_minimo": 5.3895754970446,
-      "valor_maximo": 5.3895754970446,
-      "valor_medio": 5.3895754970446,
-      "valor_recente": 5.3895754970446,
-      "data_recente": "2026-04-13T02:03:47Z"
-    },
-    {
-      "cnpj": "61923139000100",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO A M SANTOS LTDA",
-      "nome_fantasia": "POSTO PREMIUM",
-      "telefone": "",
-      "nome_logradouro": "ROD AL 115",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57620000",
-      "codigo_ibge": 2703106,
-      "municipio": "IGACI",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.150073869322785,
-      "valor_maximo": 7.150073869322785,
-      "valor_medio": 7.150073869322785,
-      "valor_recente": 7.150073869322785,
-      "data_recente": "2026-04-13T12:52:45Z"
+      "valor_minimo": 5.388026607538802,
+      "valor_maximo": 5.388026607538802,
+      "valor_medio": 5.388026607538802,
+      "valor_recente": 5.388026607538802,
+      "data_recente": "2026-04-13T17:25:16Z"
     },
     {
       "cnpj": "22442762000261",
@@ -264,31 +244,31 @@
       "municipio": "IGACI",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.1797817346352675,
-      "valor_maximo": 7.1797817346352675,
-      "valor_medio": 7.1797817346352675,
-      "valor_recente": 7.1797817346352675,
-      "data_recente": "2026-04-13T14:26:05Z"
+      "valor_minimo": 6.749354005167959,
+      "valor_maximo": 6.749354005167959,
+      "valor_medio": 6.749354005167959,
+      "valor_recente": 6.749354005167959,
+      "data_recente": "2026-04-13T15:13:25Z"
     },
     {
-      "cnpj": "05019078000171",
+      "cnpj": "61923139000100",
       "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO JP LTDA - EPP",
-      "nome_fantasia": "",
+      "razao_social": "AUTO POSTO A M SANTOS LTDA",
+      "nome_fantasia": "POSTO PREMIUM",
       "telefone": "",
-      "nome_logradouro": "RDV AL 115",
+      "nome_logradouro": "ROD AL 115",
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57620000",
       "codigo_ibge": 2703106,
       "municipio": "IGACI",
-      "latitude": -9.543047699999999,
-      "longitude": -36.6506562,
-      "valor_minimo": 7.35,
-      "valor_maximo": 7.35,
-      "valor_medio": 7.35,
-      "valor_recente": 7.35,
-      "data_recente": "2026-04-13T14:26:27Z"
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.1500927056482615,
+      "valor_maximo": 7.1500927056482615,
+      "valor_medio": 7.1500927056482615,
+      "valor_recente": 7.1500927056482615,
+      "data_recente": "2026-04-13T17:51:51Z"
     },
     {
       "cnpj": "06209130000115",
@@ -304,11 +284,31 @@
       "municipio": "IGACI",
       "latitude": -9.539441199999999,
       "longitude": -36.6385346,
-      "valor_minimo": 7.649974067884516,
-      "valor_maximo": 7.649974067884516,
-      "valor_medio": 7.649974067884516,
-      "valor_recente": 7.649974067884516,
-      "data_recente": "2026-04-13T14:25:45Z"
+      "valor_minimo": 7.189791516894321,
+      "valor_maximo": 7.189791516894321,
+      "valor_medio": 7.189791516894321,
+      "valor_recente": 7.189791516894321,
+      "data_recente": "2026-04-13T17:32:58Z"
+    },
+    {
+      "cnpj": "05019078000171",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO JP LTDA - EPP",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 115",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57620000",
+      "codigo_ibge": 2703106,
+      "municipio": "IGACI",
+      "latitude": -9.543047699999999,
+      "longitude": -36.6506562,
+      "valor_minimo": 7.337,
+      "valor_maximo": 7.337,
+      "valor_medio": 7.337,
+      "valor_recente": 7.337,
+      "data_recente": "2026-04-13T17:25:16Z"
     }
   ]
 }
