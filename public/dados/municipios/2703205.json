@@ -1,20 +1,20 @@
 {
   "codigoIBGE": "2703205",
   "municipio": "Igreja Nova",
-  "atualizadoEm": "2026-04-14T01:40:32.583Z",
+  "atualizadoEm": "2026-04-14T08:35:37.018Z",
   "totalEstabelecimentos": 7,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.889899407468651,
-      "valorMaximo": 6.990562740300594,
-      "valorMedio": 6.940231073884622
+      "valorMinimo": 6.89,
+      "valorMaximo": 6.990361445783132,
+      "valorMedio": 6.940180722891566
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.289899095701966,
-      "valorMaximo": 7.289899095701966,
-      "valorMedio": 7.289899095701966
+      "valorMinimo": 7.090522335145356,
+      "valorMaximo": 7.090522335145356,
+      "valorMedio": 7.090522335145356
     },
     "3": {
       "totalPostos": 2,
@@ -24,9 +24,9 @@
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.489963448978369,
-      "valorMaximo": 7.989985884358271,
-      "valorMedio": 7.73997466666832
+      "valorMinimo": 7.489969068707221,
+      "valorMaximo": 7.989932684817131,
+      "valorMedio": 7.739950876762176
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "IGREJA NOVA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.889899407468651,
-      "valor_maximo": 6.889899407468651,
-      "valor_medio": 6.889899407468651,
-      "valor_recente": 6.889899407468651,
-      "data_recente": "2026-04-13T18:13:54Z"
+      "valor_minimo": 6.89,
+      "valor_maximo": 6.89,
+      "valor_medio": 6.89,
+      "valor_recente": 6.89,
+      "data_recente": "2026-04-14T02:29:42Z"
     },
     {
       "cnpj": "19739379000184",
@@ -64,11 +64,11 @@
       "municipio": "IGREJA NOVA",
       "latitude": -10.0830464,
       "longitude": -36.5661908,
-      "valor_minimo": 6.990562740300594,
-      "valor_maximo": 6.990562740300594,
-      "valor_medio": 6.990562740300594,
-      "valor_recente": 6.990562740300594,
-      "data_recente": "2026-04-13T14:21:14Z"
+      "valor_minimo": 6.990361445783132,
+      "valor_maximo": 6.990361445783132,
+      "valor_medio": 6.990361445783132,
+      "valor_recente": 6.990361445783132,
+      "data_recente": "2026-04-13T20:20:05Z"
     },
     {
       "cnpj": "19739379000184",
@@ -84,11 +84,11 @@
       "municipio": "IGREJA NOVA",
       "latitude": -10.0830464,
       "longitude": -36.5661908,
-      "valor_minimo": 7.289899095701966,
-      "valor_maximo": 7.289899095701966,
-      "valor_medio": 7.289899095701966,
-      "valor_recente": 7.289899095701966,
-      "data_recente": "2026-04-13T18:11:45Z"
+      "valor_minimo": 7.090522335145356,
+      "valor_maximo": 7.090522335145356,
+      "valor_medio": 7.090522335145356,
+      "valor_recente": 7.090522335145356,
+      "data_recente": "2026-04-14T03:25:01Z"
     },
     {
       "cnpj": "55682117000194",
@@ -108,7 +108,7 @@
       "valor_maximo": 5.489980785067252,
       "valor_medio": 5.489980785067252,
       "valor_recente": 5.489980785067252,
-      "data_recente": "2026-04-13T13:59:09Z"
+      "data_recente": "2026-04-14T02:24:53Z"
     },
     {
       "cnpj": "19739379000184",
@@ -128,7 +128,7 @@
       "valor_maximo": 5.649717514124294,
       "valor_medio": 5.649717514124294,
       "valor_recente": 5.649717514124294,
-      "data_recente": "2026-04-13T15:23:41Z"
+      "data_recente": "2026-04-14T03:06:31Z"
     },
     {
       "cnpj": "55682117000194",
@@ -144,11 +144,11 @@
       "municipio": "IGREJA NOVA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.489926486419981,
-      "valor_maximo": 7.489963448978369,
-      "valor_medio": 7.489944967699175,
-      "valor_recente": 7.489963448978369,
-      "data_recente": "2026-04-13T15:31:24Z"
+      "valor_minimo": 7.48992705540494,
+      "valor_maximo": 7.489969068707221,
+      "valor_medio": 7.48994806205608,
+      "valor_recente": 7.489969068707221,
+      "data_recente": "2026-04-14T02:22:28Z"
     },
     {
       "cnpj": "19739379000184",
@@ -164,11 +164,11 @@
       "municipio": "IGREJA NOVA",
       "latitude": -10.0830464,
       "longitude": -36.5661908,
-      "valor_minimo": 7.989985884358271,
-      "valor_maximo": 7.989985884358271,
-      "valor_medio": 7.989985884358271,
-      "valor_recente": 7.989985884358271,
-      "data_recente": "2026-04-13T14:21:14Z"
+      "valor_minimo": 7.989932684817131,
+      "valor_maximo": 7.989932684817131,
+      "valor_medio": 7.989932684817131,
+      "valor_recente": 7.989932684817131,
+      "data_recente": "2026-04-14T03:24:40Z"
     }
   ]
 }

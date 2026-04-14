@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2701209",
   "municipio": "Cacimbinhas",
-  "atualizadoEm": "2026-04-14T01:30:53.965Z",
+  "atualizadoEm": "2026-04-14T08:25:42.275Z",
   "totalEstabelecimentos": 13,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.750561797752809,
-      "valorMaximo": 6.988120195667365,
-      "valorMedio": 6.8626656873044425
+      "valorMinimo": 5.919952774498229,
+      "valorMaximo": 6.849829351535837,
+      "valorMedio": 6.506781307928958
     },
     "2": {
       "totalPostos": 3,
@@ -18,18 +18,38 @@
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 4.992295839753467,
-      "valorMaximo": 5.989817310572027,
-      "valorMedio": 5.560701241455468
+      "valorMinimo": 4.661676646706587,
+      "valorMaximo": 5.699990574040909,
+      "valorMedio": 5.117987686833654
     },
     "5": {
       "totalPostos": 4,
-      "valorMinimo": 7.289872898728987,
-      "valorMaximo": 7.789982083041209,
-      "valorMedio": 7.579950157863362
+      "valorMinimo": 6.75365141187926,
+      "valorMaximo": 7.75,
+      "valorMedio": 7.320960000333187
     }
   },
   "estabelecimentos": [
+    {
+      "cnpj": "34745647000164",
+      "tipo_combustivel": 1,
+      "razao_social": "P. COSTA & FRANÇA LTDA",
+      "nome_fantasia": "AUTO POSTO KELLY BEZERRA - CACIMBINHAS",
+      "telefone": "(82) 82197711",
+      "nome_logradouro": "LOT OLIVEIROS BATALHA DE ARAUJO",
+      "numero_imovel": "SN",
+      "bairro": "CENTRO",
+      "cep": "57570000",
+      "codigo_ibge": 2701209,
+      "municipio": "CACIMBINHAS",
+      "latitude": -9.3994992,
+      "longitude": -36.9904045,
+      "valor_minimo": 5.919952774498229,
+      "valor_maximo": 5.919952774498229,
+      "valor_medio": 5.919952774498229,
+      "valor_recente": 5.919952774498229,
+      "data_recente": "2026-04-14T00:44:44Z"
+    },
     {
       "cnpj": "11910007000167",
       "tipo_combustivel": 1,
@@ -64,31 +84,11 @@
       "municipio": "CACIMBINHAS",
       "latitude": -9.3995816,
       "longitude": -36.9267589,
-      "valor_minimo": 6.8493150684931505,
-      "valor_maximo": 6.8493150684931505,
-      "valor_medio": 6.8493150684931505,
-      "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-13T17:49:00Z"
-    },
-    {
-      "cnpj": "34745647000164",
-      "tipo_combustivel": 1,
-      "razao_social": "P. COSTA & FRANÇA LTDA",
-      "nome_fantasia": "AUTO POSTO KELLY BEZERRA - CACIMBINHAS",
-      "telefone": "(82) 82197711",
-      "nome_logradouro": "LOT OLIVEIROS BATALHA DE ARAUJO",
-      "numero_imovel": "SN",
-      "bairro": "CENTRO",
-      "cep": "57570000",
-      "codigo_ibge": 2701209,
-      "municipio": "CACIMBINHAS",
-      "latitude": -9.3994992,
-      "longitude": -36.9904045,
-      "valor_minimo": 6.988120195667365,
-      "valor_maximo": 6.988120195667365,
-      "valor_medio": 6.988120195667365,
-      "valor_recente": 6.988120195667365,
-      "data_recente": "2026-04-13T18:14:39Z"
+      "valor_minimo": 6.849829351535837,
+      "valor_maximo": 6.849829351535837,
+      "valor_medio": 6.849829351535837,
+      "valor_recente": 6.849829351535837,
+      "data_recente": "2026-04-13T22:52:58Z"
     },
     {
       "cnpj": "11910007000167",
@@ -148,7 +148,27 @@
       "valor_maximo": 6.89,
       "valor_medio": 6.89,
       "valor_recente": 6.89,
-      "data_recente": "2026-04-13T18:15:42Z"
+      "data_recente": "2026-04-13T21:55:01Z"
+    },
+    {
+      "cnpj": "34745647000164",
+      "tipo_combustivel": 3,
+      "razao_social": "P. COSTA & FRANÇA LTDA",
+      "nome_fantasia": "AUTO POSTO KELLY BEZERRA - CACIMBINHAS",
+      "telefone": "(82) 82197711",
+      "nome_logradouro": "LOT OLIVEIROS BATALHA DE ARAUJO",
+      "numero_imovel": "SN",
+      "bairro": "CENTRO",
+      "cep": "57570000",
+      "codigo_ibge": 2701209,
+      "municipio": "CACIMBINHAS",
+      "latitude": -9.3994992,
+      "longitude": -36.9904045,
+      "valor_minimo": 4.661676646706587,
+      "valor_maximo": 4.661676646706587,
+      "valor_medio": 4.661676646706587,
+      "valor_recente": 4.661676646706587,
+      "data_recente": "2026-04-14T00:43:31Z"
     },
     {
       "cnpj": "13631547000137",
@@ -192,7 +212,7 @@
     },
     {
       "cnpj": "34745647000164",
-      "tipo_combustivel": 3,
+      "tipo_combustivel": 5,
       "razao_social": "P. COSTA & FRANÇA LTDA",
       "nome_fantasia": "AUTO POSTO KELLY BEZERRA - CACIMBINHAS",
       "telefone": "(82) 82197711",
@@ -204,11 +224,11 @@
       "municipio": "CACIMBINHAS",
       "latitude": -9.3994992,
       "longitude": -36.9904045,
-      "valor_minimo": 5.989817310572027,
-      "valor_maximo": 5.989817310572027,
-      "valor_medio": 5.989817310572027,
-      "valor_recente": 5.989817310572027,
-      "data_recente": "2026-04-13T17:58:44Z"
+      "valor_minimo": 6.75365141187926,
+      "valor_maximo": 6.75365141187926,
+      "valor_medio": 6.75365141187926,
+      "valor_recente": 6.75365141187926,
+      "data_recente": "2026-04-14T00:44:07Z"
     },
     {
       "cnpj": "13631547000137",
@@ -224,11 +244,11 @@
       "municipio": "CACIMBINHAS",
       "latitude": -9.3995816,
       "longitude": -36.9267589,
-      "valor_minimo": 7.289872898728987,
-      "valor_maximo": 7.289872898728987,
-      "valor_medio": 7.289872898728987,
-      "valor_recente": 7.289872898728987,
-      "data_recente": "2026-04-13T17:45:47Z"
+      "valor_minimo": 7.290049291435613,
+      "valor_maximo": 7.290049291435613,
+      "valor_medio": 7.290049291435613,
+      "valor_recente": 7.290049291435613,
+      "data_recente": "2026-04-13T23:02:41Z"
     },
     {
       "cnpj": "05560272000160",
@@ -264,31 +284,11 @@
       "municipio": "CACIMBINHAS",
       "latitude": -9.3999701,
       "longitude": -36.992904,
-      "valor_minimo": 7.7498063516653755,
-      "valor_maximo": 7.7498063516653755,
-      "valor_medio": 7.7498063516653755,
-      "valor_recente": 7.7498063516653755,
-      "data_recente": "2026-04-13T00:02:00Z"
-    },
-    {
-      "cnpj": "34745647000164",
-      "tipo_combustivel": 5,
-      "razao_social": "P. COSTA & FRANÇA LTDA",
-      "nome_fantasia": "AUTO POSTO KELLY BEZERRA - CACIMBINHAS",
-      "telefone": "(82) 82197711",
-      "nome_logradouro": "LOT OLIVEIROS BATALHA DE ARAUJO",
-      "numero_imovel": "SN",
-      "bairro": "CENTRO",
-      "cep": "57570000",
-      "codigo_ibge": 2701209,
-      "municipio": "CACIMBINHAS",
-      "latitude": -9.3994992,
-      "longitude": -36.9904045,
-      "valor_minimo": 7.789982083041209,
-      "valor_maximo": 7.789982083041209,
-      "valor_medio": 7.789982083041209,
-      "valor_recente": 7.789982083041209,
-      "data_recente": "2026-04-13T17:57:07Z"
+      "valor_minimo": 7.75,
+      "valor_maximo": 7.75,
+      "valor_medio": 7.75,
+      "valor_recente": 7.75,
+      "data_recente": "2026-04-14T00:30:07Z"
     }
   ]
 }
