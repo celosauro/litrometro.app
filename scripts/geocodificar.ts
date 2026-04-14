@@ -1,7 +1,10 @@
 /**
  * Script de geocodificação de estabelecimentos
- * Executa via GitHub Actions diariamente ou manualmente
- * Busca coordenadas via Nominatim (OpenStreetMap) para estabelecimentos sem localização
+ * Executa via GitHub Actions ou manualmente
+ * Busca coordenadas usando múltiplos provedores em cascata:
+ * 1. Nominatim (OpenStreetMap) - gratuito, 1 req/s
+ * 2. OpenCage - 2.500/dia gratuito (se configurado)
+ * 3. LocationIQ - 5.000/dia gratuito (se configurado)
  */
 
 import 'dotenv/config';
@@ -12,6 +15,29 @@ import * as path from 'path';
 const DADOS_DIR = path.join(process.cwd(), 'public', 'dados');
 const GEOCACHE_PATH = path.join(DADOS_DIR, 'geocache.json');
 const ATUAL_PATH = path.join(DADOS_DIR, 'atual.json');
+
+// API Keys (opcionais - fallbacks)
+const OPENCAGE_API_KEY = process.env.OPENCAGE_API_KEY || '';
+const LOCATIONIQ_API_KEY = process.env.LOCATIONIQ_API_KEY || '';
+
+// Cache de falhas - evita repetir requisições para endereços não encontrados
+// Expira após 24 horas
+const FALHA_CACHE_PATH = path.join(DADOS_DIR, 'geocache-falhas.json');
+const FALHA_EXPIRY_MS = 24 * 60 * 60 * 1000; // 24 horas
+
+// Tipo de resultado de geocodificação
+interface GeoResult {
+  latitude: number;
+  longitude: number;
+  fonte: 'nominatim' | 'opencage' | 'locationiq';
+}
+
+interface FalhaCache {
+  [cnpj: string]: {
+    tentativas: number;
+    ultimaTentativa: string;
+  };
+}
 
 interface PrecoCombustivelResumo {
   cnpj: string;
@@ -45,7 +71,7 @@ interface GeoCache {
   [cnpj: string]: {
     latitude: number;
     longitude: number;
-    fonte: 'sefaz' | 'nominatim';
+    fonte: 'sefaz' | 'nominatim' | 'opencage' | 'locationiq';
     atualizadoEm: string;
   };
 }
@@ -68,6 +94,68 @@ interface ResumoMunicipio {
 
 // Cache de geocodificação em memória
 let geoCache: GeoCache = {};
+let falhaCache: FalhaCache = {};
+
+/**
+ * Carrega o cache de falhas
+ */
+function carregarFalhaCache(): void {
+  if (fs.existsSync(FALHA_CACHE_PATH)) {
+    try {
+      const conteudo = fs.readFileSync(FALHA_CACHE_PATH, 'utf-8');
+      falhaCache = JSON.parse(conteudo);
+      
+      // Remove entradas expiradas
+      const agora = Date.now();
+      let removidas = 0;
+      for (const cnpj of Object.keys(falhaCache)) {
+        const entrada = falhaCache[cnpj];
+        const idade = agora - new Date(entrada.ultimaTentativa).getTime();
+        if (idade > FALHA_EXPIRY_MS) {
+          delete falhaCache[cnpj];
+          removidas++;
+        }
+      }
+      if (removidas > 0) {
+        console.log(`✓ ${removidas} falhas expiradas removidas do cache`);
+      }
+    } catch {
+      falhaCache = {};
+    }
+  }
+}
+
+/**
+ * Salva o cache de falhas
+ */
+function salvarFalhaCache(): void {
+  fs.writeFileSync(FALHA_CACHE_PATH, JSON.stringify(falhaCache, null, 2));
+}
+
+/**
+ * Verifica se deve pular tentativa (muitas falhas recentes)
+ */
+function devePularTentativa(cnpj: string): boolean {
+  const entrada = falhaCache[cnpj];
+  if (!entrada) return false;
+  
+  // Se falhou 3+ vezes nas últimas 24h, pula
+  if (entrada.tentativas >= 3) {
+    return true;
+  }
+  
+  return false;
+}
+
+/**
+ * Registra uma falha de geocodificação
+ */
+function registrarFalha(cnpj: string): void {
+  const entrada = falhaCache[cnpj] || { tentativas: 0, ultimaTentativa: '' };
+  entrada.tentativas++;
+  entrada.ultimaTentativa = new Date().toISOString();
+  falhaCache[cnpj] = entrada;
+}
 
 /**
  * Carrega o cache de geocodificação
@@ -102,12 +190,123 @@ function salvarJSON(caminho: string, dados: unknown): void {
 /**
  * Geocodifica um endereço usando Nominatim (OpenStreetMap)
  */
+async function geocodificarNominatim(
+  query: string
+): Promise<{ latitude: number; longitude: number } | null> {
+  const url = `https://nominatim.openstreetmap.org/search?` + new URLSearchParams({
+    q: query,
+    format: 'json',
+    limit: '1',
+    countrycodes: 'br',
+  });
+
+  try {
+    const response = await fetch(url, {
+      headers: {
+        'User-Agent': 'Litrometro/1.0 (https://litrometro.app)',
+      },
+    });
+
+    if (!response.ok) return null;
+
+    const data = await response.json() as Array<{ lat: string; lon: string }>;
+    
+    if (data.length > 0) {
+      return {
+        latitude: parseFloat(data[0].lat),
+        longitude: parseFloat(data[0].lon),
+      };
+    }
+  } catch (error) {
+    // Silencia erros
+  }
+
+  return null;
+}
+
+/**
+ * Geocodifica um endereço usando OpenCage
+ * Docs: https://opencagedata.com/api
+ */
+async function geocodificarOpenCage(
+  query: string
+): Promise<{ latitude: number; longitude: number } | null> {
+  if (!OPENCAGE_API_KEY) return null;
+
+  const url = `https://api.opencagedata.com/geocode/v1/json?` + new URLSearchParams({
+    q: query,
+    key: OPENCAGE_API_KEY,
+    countrycode: 'br',
+    limit: '1',
+    no_annotations: '1',
+  });
+
+  try {
+    const response = await fetch(url);
+    if (!response.ok) return null;
+
+    const data = await response.json() as {
+      results: Array<{ geometry: { lat: number; lng: number } }>;
+    };
+    
+    if (data.results && data.results.length > 0) {
+      return {
+        latitude: data.results[0].geometry.lat,
+        longitude: data.results[0].geometry.lng,
+      };
+    }
+  } catch (error) {
+    // Silencia erros
+  }
+
+  return null;
+}
+
+/**
+ * Geocodifica um endereço usando LocationIQ
+ * Docs: https://locationiq.com/docs
+ */
+async function geocodificarLocationIQ(
+  query: string
+): Promise<{ latitude: number; longitude: number } | null> {
+  if (!LOCATIONIQ_API_KEY) return null;
+
+  const url = `https://us1.locationiq.com/v1/search?` + new URLSearchParams({
+    q: query,
+    key: LOCATIONIQ_API_KEY,
+    countrycodes: 'br',
+    format: 'json',
+    limit: '1',
+  });
+
+  try {
+    const response = await fetch(url);
+    if (!response.ok) return null;
+
+    const data = await response.json() as Array<{ lat: string; lon: string }>;
+    
+    if (data.length > 0) {
+      return {
+        latitude: parseFloat(data[0].lat),
+        longitude: parseFloat(data[0].lon),
+      };
+    }
+  } catch (error) {
+    // Silencia erros
+  }
+
+  return null;
+}
+
+/**
+ * Geocodifica um endereço usando múltiplos provedores em cascata
+ */
 async function geocodificarEndereco(
   logradouro: string,
   numero: string,
   bairro: string,
   municipio: string
-): Promise<{ latitude: number; longitude: number } | null> {
+): Promise<GeoResult | null> {
   // Monta query de busca
   const partes = [
     logradouro,
@@ -120,35 +319,28 @@ async function geocodificarEndereco(
   
   const query = partes.join(', ');
   
-  // Nominatim API (gratuito, limite de 1 req/segundo)
-  const url = `https://nominatim.openstreetmap.org/search?` + new URLSearchParams({
-    q: query,
-    format: 'json',
-    limit: '1',
-    countrycodes: 'br',
-  });
-
-  try {
-    const response = await fetch(url, {
-      headers: {
-        'User-Agent': 'Litrometro/1.0 (https://litrometro.pages.dev)',
-      },
-    });
-
-    if (!response.ok) {
-      return null;
+  // Tenta Nominatim primeiro (gratuito, sem API key)
+  let coords = await geocodificarNominatim(query);
+  if (coords) {
+    return { ...coords, fonte: 'nominatim' };
+  }
+  
+  // Fallback: OpenCage (se configurado)
+  if (OPENCAGE_API_KEY) {
+    await new Promise(resolve => setTimeout(resolve, 200)); // Rate limit
+    coords = await geocodificarOpenCage(query);
+    if (coords) {
+      return { ...coords, fonte: 'opencage' };
     }
-
-    const data = await response.json() as Array<{ lat: string; lon: string }>;
-    
-    if (data.length > 0) {
-      return {
-        latitude: parseFloat(data[0].lat),
-        longitude: parseFloat(data[0].lon),
-      };
+  }
+  
+  // Fallback: LocationIQ (se configurado)
+  if (LOCATIONIQ_API_KEY) {
+    await new Promise(resolve => setTimeout(resolve, 200)); // Rate limit
+    coords = await geocodificarLocationIQ(query);
+    if (coords) {
+      return { ...coords, fonte: 'locationiq' };
     }
-  } catch (error) {
-    console.error(`  ⚠ Erro geocodificação: ${error}`);
   }
 
   return null;
@@ -175,6 +367,7 @@ async function main(): Promise<void> {
 
   // Carrega cache
   carregarGeoCache();
+  carregarFalhaCache();
 
   // Salva coordenadas da SEFAZ no cache (se ainda não estiverem)
   let novosDoSefaz = 0;
@@ -204,21 +397,41 @@ async function main(): Promise<void> {
     cnpj => semCoordenadas.find(e => e.cnpj === cnpj)!
   );
 
-  if (estabelecimentosUnicos.length === 0) {
+  // Filtra estabelecimentos que já falharam muitas vezes (serão retentados após 24h)
+  const paraGeocodificar = estabelecimentosUnicos.filter(e => !devePularTentativa(e.cnpj));
+  const pulados = estabelecimentosUnicos.length - paraGeocodificar.length;
+
+  if (paraGeocodificar.length === 0 && pulados > 0) {
+    console.log(`\n⏳ ${pulados} estabelecimentos aguardando cooldown (muitas falhas recentes)`);
+    console.log('✓ Todos os estabelecimentos já foram tentados!');
+    salvarGeoCache();
+    salvarFalhaCache();
+    return;
+  }
+
+  if (paraGeocodificar.length === 0) {
     console.log('\n✓ Todos os estabelecimentos já possuem coordenadas!');
     salvarGeoCache();
     return;
   }
 
-  console.log(`\n🗺️ Geocodificando ${estabelecimentosUnicos.length} estabelecimentos sem coordenadas...`);
-  console.log('   (Limite: 1 requisição/segundo - Nominatim)\n');
+  console.log(`\n🗺️ Geocodificando ${paraGeocodificar.length} estabelecimentos sem coordenadas...`);
+  if (pulados > 0) {
+    console.log(`   (${pulados} pulados por falhas recentes - tentativa após 24h)`);
+  }
+  
+  // Mostra provedores disponíveis
+  const provedores = ['Nominatim'];
+  if (OPENCAGE_API_KEY) provedores.push('OpenCage');
+  if (LOCATIONIQ_API_KEY) provedores.push('LocationIQ');
+  console.log(`   Provedores: ${provedores.join(' → ')}\n`);
 
   let sucesso = 0;
   let falha = 0;
 
-  for (let i = 0; i < estabelecimentosUnicos.length; i++) {
-    const est = estabelecimentosUnicos[i];
-    const progresso = `[${i + 1}/${estabelecimentosUnicos.length}]`;
+  for (let i = 0; i < paraGeocodificar.length; i++) {
+    const est = paraGeocodificar[i];
+    const progresso = `[${i + 1}/${paraGeocodificar.length}]`;
     
     // Tenta geocodificar
     const coords = await geocodificarEndereco(
@@ -230,25 +443,28 @@ async function main(): Promise<void> {
 
     if (coords) {
       geoCache[est.cnpj] = {
-        ...coords,
-        fonte: 'nominatim',
+        latitude: coords.latitude,
+        longitude: coords.longitude,
+        fonte: coords.fonte,
         atualizadoEm: new Date().toISOString(),
       };
-      console.log(`${progresso} ✓ ${est.nome_fantasia || est.razao_social} - ${est.municipio}`);
+      console.log(`${progresso} ✓ ${est.nome_fantasia || est.razao_social} - ${est.municipio} [${coords.fonte}]`);
       sucesso++;
     } else {
       console.log(`${progresso} ✗ ${est.nome_fantasia || est.razao_social} - ${est.municipio}`);
+      registrarFalha(est.cnpj);
       falha++;
     }
 
     // Respeita limite de 1 req/segundo do Nominatim
-    if (i < estabelecimentosUnicos.length - 1) {
+    if (i < paraGeocodificar.length - 1) {
       await new Promise(resolve => setTimeout(resolve, 1100));
     }
   }
 
-  // Salva cache atualizado
+  // Salva caches atualizados
   salvarGeoCache();
+  salvarFalhaCache();
   console.log(`\n✓ Cache salvo: ${GEOCACHE_PATH}`);
 
   // Aplica coordenadas do cache aos dados e salva

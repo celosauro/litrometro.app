@@ -1,9 +1,9 @@
 name: Geocodificar Estabelecimentos
 
 on:
-  # Executa a cada hora (30 minutos após a coleta)
+  # Executa a cada 15 minutos para acelerar preenchimento inicial
   schedule:
-    - cron: '30 * * * *'
+    - cron: '*/15 * * * *'
   # Permite execução manual
   workflow_dispatch:
 
@@ -30,6 +30,10 @@ jobs:
         run: npm ci
 
       - name: Executar geocodificação
+        env:
+          # APIs de geocodificação (fallbacks opcionais)
+          OPENCAGE_API_KEY: ${{ secrets.OPENCAGE_API_KEY }}
+          LOCATIONIQ_API_KEY: ${{ secrets.LOCATIONIQ_API_KEY }}
         run: npm run geocode
 
       - name: Verificar mudanças
