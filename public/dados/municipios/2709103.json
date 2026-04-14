@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2709103",
   "municipio": "Taquarana",
-  "atualizadoEm": "2026-04-14T21:21:07.368Z",
+  "atualizadoEm": "2026-04-14T22:17:57.568Z",
   "totalEstabelecimentos": 9,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.689949762243774,
+      "valorMinimo": 6.689830281972471,
       "valorMaximo": 6.9,
-      "valorMedio": 6.829878760873316
+      "valorMedio": 6.828165041551244
     },
     "2": {
       "totalPostos": 1,
@@ -30,9 +30,9 @@
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.399886951606591,
+      "valorMinimo": 7.3991860895301516,
       "valorMaximo": 7.4,
-      "valorMedio": 7.3999249114957495
+      "valorMedio": 7.399683720122655
     }
   },
   "estabelecimentos": [
@@ -50,31 +50,11 @@
       "municipio": "TAQUARANA",
       "latitude": -9.6451013,
       "longitude": -36.4903116,
-      "valor_minimo": 6.689949762243774,
-      "valor_maximo": 6.689949762243774,
-      "valor_medio": 6.689949762243774,
-      "valor_recente": 6.689949762243774,
-      "data_recente": "2026-04-14T17:03:08Z"
-    },
-    {
-      "cnpj": "69999456000103",
-      "tipo_combustivel": 1,
-      "razao_social": "S.A DA SILVA E CIA LTDA",
-      "nome_fantasia": "AUTO POSTO SANTA CRUZ",
-      "telefone": "",
-      "nome_logradouro": "Rua VINTE E UM DE SETEMBRO",
-      "numero_imovel": "83",
-      "bairro": "CENTRO",
-      "cep": "57640000",
-      "codigo_ibge": 2709103,
-      "municipio": "TAQUARANA",
-      "latitude": -9.6468235,
-      "longitude": -36.4910774,
-      "valor_minimo": 6.899686520376176,
-      "valor_maximo": 6.899686520376176,
-      "valor_medio": 6.899686520376176,
-      "valor_recente": 6.899686520376176,
-      "data_recente": "2026-04-14T19:36:24Z"
+      "valor_minimo": 6.689830281972471,
+      "valor_maximo": 6.689830281972471,
+      "valor_medio": 6.689830281972471,
+      "valor_recente": 6.689830281972471,
+      "data_recente": "2026-04-14T20:47:37Z"
     },
     {
       "cnpj": "15706489000199",
@@ -90,11 +70,31 @@
       "municipio": "TAQUARANA",
       "latitude": -9.645102300000001,
       "longitude": -36.4935948,
+      "valor_minimo": 6.894664842681259,
+      "valor_maximo": 6.894664842681259,
+      "valor_medio": 6.894664842681259,
+      "valor_recente": 6.894664842681259,
+      "data_recente": "2026-04-14T21:36:31Z"
+    },
+    {
+      "cnpj": "69999456000103",
+      "tipo_combustivel": 1,
+      "razao_social": "S.A DA SILVA E CIA LTDA",
+      "nome_fantasia": "AUTO POSTO SANTA CRUZ",
+      "telefone": "",
+      "nome_logradouro": "Rua VINTE E UM DE SETEMBRO",
+      "numero_imovel": "83",
+      "bairro": "CENTRO",
+      "cep": "57640000",
+      "codigo_ibge": 2709103,
+      "municipio": "TAQUARANA",
+      "latitude": -9.6468235,
+      "longitude": -36.4910774,
       "valor_minimo": 6.9,
       "valor_maximo": 6.9,
       "valor_medio": 6.9,
       "valor_recente": 6.9,
-      "data_recente": "2026-04-14T18:30:09Z"
+      "data_recente": "2026-04-14T21:27:38Z"
     },
     {
       "cnpj": "20097123000108",
@@ -170,11 +170,11 @@
       "municipio": "TAQUARANA",
       "latitude": -9.6451013,
       "longitude": -36.4903116,
-      "valor_minimo": 7.399886951606591,
-      "valor_maximo": 7.399886951606591,
-      "valor_medio": 7.399886951606591,
-      "valor_recente": 7.399886951606591,
-      "data_recente": "2026-04-14T18:22:18Z"
+      "valor_minimo": 7.3991860895301516,
+      "valor_maximo": 7.3991860895301516,
+      "valor_medio": 7.3991860895301516,
+      "valor_recente": 7.3991860895301516,
+      "data_recente": "2026-04-14T21:10:39Z"
     },
     {
       "cnpj": "69999456000103",
@@ -190,11 +190,11 @@
       "municipio": "TAQUARANA",
       "latitude": -9.6468235,
       "longitude": -36.4910774,
-      "valor_minimo": 7.399887782880655,
-      "valor_maximo": 7.399887782880655,
-      "valor_medio": 7.399887782880655,
-      "valor_recente": 7.399887782880655,
-      "data_recente": "2026-04-14T19:03:22Z"
+      "valor_minimo": 7.39986507083781,
+      "valor_maximo": 7.39986507083781,
+      "valor_medio": 7.39986507083781,
+      "valor_recente": 7.39986507083781,
+      "data_recente": "2026-04-14T21:27:38Z"
     },
     {
       "cnpj": "15706489000199",
@@ -214,7 +214,7 @@
       "valor_maximo": 7.4,
       "valor_medio": 7.4,
       "valor_recente": 7.4,
-      "data_recente": "2026-04-14T16:43:00Z"
+      "data_recente": "2026-04-14T21:15:08Z"
     }
   ]
 }

@@ -1,61 +1,41 @@
 {
   "codigoIBGE": "2707503",
   "municipio": "Porto Real do Colégio",
-  "atualizadoEm": "2026-04-14T21:14:44.096Z",
+  "atualizadoEm": "2026-04-14T22:13:52.950Z",
   "totalEstabelecimentos": 9,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 7.021462987297416,
-      "valorMaximo": 7.42,
-      "valorMedio": 7.220731493648708
+      "valorMinimo": 7.02000702000702,
+      "valorMaximo": 7.02000702000702,
+      "valorMedio": 7.02000702000702
     },
     "2": {
       "totalPostos": 2,
       "valorMinimo": 7.069860802024698,
-      "valorMaximo": 7.0703125,
-      "valorMedio": 7.070086651012349
+      "valorMaximo": 7.069885821343985,
+      "valorMedio": 7.069873311684342
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.04999495000505,
-      "valorMaximo": 5.599731212901781,
-      "valorMedio": 5.324863081453415
+      "valorMinimo": 5.599731212901781,
+      "valorMaximo": 5.649963057933852,
+      "valorMedio": 5.6248471354178164
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 7.459903021260724,
-      "valorMaximo": 7.459903021260724,
-      "valorMedio": 7.459903021260724
+      "valorMinimo": 7.459972584600751,
+      "valorMaximo": 7.459972584600751,
+      "valorMedio": 7.459972584600751
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.3000693506588314,
-      "valorMaximo": 7.3000693506588314,
-      "valorMedio": 7.3000693506588314
+      "valorMinimo": 7.299802905321556,
+      "valorMaximo": 7.299980533385244,
+      "valorMedio": 7.2998917193534005
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "43465775000145",
-      "tipo_combustivel": 1,
-      "razao_social": "LM DERIVADO DE PETROLEO LTDA",
-      "nome_fantasia": "POSTO VELHO CHICO",
-      "telefone": "(79) 98083233",
-      "nome_logradouro": "COND BR 101 KM  245",
-      "numero_imovel": "SN",
-      "bairro": "CENTRO",
-      "cep": "57290000",
-      "codigo_ibge": 2707503,
-      "municipio": "PORTO REAL DO COLEGIO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.021462987297416,
-      "valor_maximo": 7.021462987297416,
-      "valor_medio": 7.021462987297416,
-      "valor_recente": 7.021462987297416,
-      "data_recente": "2026-04-14T19:36:53Z"
-    },
     {
       "cnpj": "07839831000109",
       "tipo_combustivel": 1,
@@ -70,11 +50,31 @@
       "municipio": "PORTO REAL DO COLEGIO",
       "latitude": -10.1870404,
       "longitude": -36.8382112,
-      "valor_minimo": 7.42,
-      "valor_maximo": 7.42,
-      "valor_medio": 7.42,
-      "valor_recente": 7.42,
-      "data_recente": "2026-04-14T19:10:09Z"
+      "valor_minimo": 7.02000702000702,
+      "valor_maximo": 7.02000702000702,
+      "valor_medio": 7.02000702000702,
+      "valor_recente": 7.02000702000702,
+      "data_recente": "2026-04-14T21:34:43Z"
+    },
+    {
+      "cnpj": "43465775000145",
+      "tipo_combustivel": 1,
+      "razao_social": "LM DERIVADO DE PETROLEO LTDA",
+      "nome_fantasia": "POSTO VELHO CHICO",
+      "telefone": "(79) 98083233",
+      "nome_logradouro": "COND BR 101 KM  245",
+      "numero_imovel": "SN",
+      "bairro": "CENTRO",
+      "cep": "57290000",
+      "codigo_ibge": 2707503,
+      "municipio": "PORTO REAL DO COLEGIO",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.02000702000702,
+      "valor_maximo": 7.02000702000702,
+      "valor_medio": 7.02000702000702,
+      "valor_recente": 7.02000702000702,
+      "data_recente": "2026-04-14T20:25:43Z"
     },
     {
       "cnpj": "43465775000145",
@@ -110,31 +110,11 @@
       "municipio": "PORTO REAL DO COLEGIO",
       "latitude": -10.1870404,
       "longitude": -36.8382112,
-      "valor_minimo": 7.0703125,
-      "valor_maximo": 7.0703125,
-      "valor_medio": 7.0703125,
-      "valor_recente": 7.0703125,
-      "data_recente": "2026-04-14T19:06:08Z"
-    },
-    {
-      "cnpj": "07839831000109",
-      "tipo_combustivel": 3,
-      "razao_social": "AUTO POSTO PORTO REAL LTDA",
-      "nome_fantasia": "AUTOPEL PORTO REAL",
-      "telefone": "(82) 35531413",
-      "nome_logradouro": "RDV BR 101 KM 245",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57290000",
-      "codigo_ibge": 2707503,
-      "municipio": "PORTO REAL DO COLEGIO",
-      "latitude": -10.1870404,
-      "longitude": -36.8382112,
-      "valor_minimo": 5.04999495000505,
-      "valor_maximo": 5.04999495000505,
-      "valor_medio": 5.04999495000505,
-      "valor_recente": 5.04999495000505,
-      "data_recente": "2026-04-14T19:05:48Z"
+      "valor_minimo": 7.069885821343985,
+      "valor_maximo": 7.069885821343985,
+      "valor_medio": 7.069885821343985,
+      "valor_recente": 7.069885821343985,
+      "data_recente": "2026-04-14T21:13:38Z"
     },
     {
       "cnpj": "43465775000145",
@@ -154,7 +134,27 @@
       "valor_maximo": 5.599731212901781,
       "valor_medio": 5.599731212901781,
       "valor_recente": 5.599731212901781,
-      "data_recente": "2026-04-14T19:29:38Z"
+      "data_recente": "2026-04-14T21:16:55Z"
+    },
+    {
+      "cnpj": "07839831000109",
+      "tipo_combustivel": 3,
+      "razao_social": "AUTO POSTO PORTO REAL LTDA",
+      "nome_fantasia": "AUTOPEL PORTO REAL",
+      "telefone": "(82) 35531413",
+      "nome_logradouro": "RDV BR 101 KM 245",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57290000",
+      "codigo_ibge": 2707503,
+      "municipio": "PORTO REAL DO COLEGIO",
+      "latitude": -10.1870404,
+      "longitude": -36.8382112,
+      "valor_minimo": 5.649963057933852,
+      "valor_maximo": 5.649963057933852,
+      "valor_medio": 5.649963057933852,
+      "valor_recente": 5.649963057933852,
+      "data_recente": "2026-04-14T21:24:34Z"
     },
     {
       "cnpj": "43465775000145",
@@ -170,11 +170,11 @@
       "municipio": "PORTO REAL DO COLEGIO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.459903021260724,
-      "valor_maximo": 7.459903021260724,
-      "valor_medio": 7.459903021260724,
-      "valor_recente": 7.459903021260724,
-      "data_recente": "2026-04-14T18:12:45Z"
+      "valor_minimo": 7.459972584600751,
+      "valor_maximo": 7.459972584600751,
+      "valor_medio": 7.459972584600751,
+      "valor_recente": 7.459972584600751,
+      "data_recente": "2026-04-14T19:42:54Z"
     },
     {
       "cnpj": "07839831000109",
@@ -190,11 +190,11 @@
       "municipio": "PORTO REAL DO COLEGIO",
       "latitude": -10.1870404,
       "longitude": -36.8382112,
-      "valor_minimo": 7.3000693506588314,
-      "valor_maximo": 7.3000693506588314,
-      "valor_medio": 7.3000693506588314,
-      "valor_recente": 7.3000693506588314,
-      "data_recente": "2026-04-14T19:23:31Z"
+      "valor_minimo": 7.299802905321556,
+      "valor_maximo": 7.299802905321556,
+      "valor_medio": 7.299802905321556,
+      "valor_recente": 7.299802905321556,
+      "data_recente": "2026-04-14T21:19:52Z"
     },
     {
       "cnpj": "43465775000145",
@@ -210,11 +210,11 @@
       "municipio": "PORTO REAL DO COLEGIO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.3000693506588314,
-      "valor_maximo": 7.3000693506588314,
-      "valor_medio": 7.3000693506588314,
-      "valor_recente": 7.3000693506588314,
-      "data_recente": "2026-04-14T19:01:28Z"
+      "valor_minimo": 7.299980533385244,
+      "valor_maximo": 7.299980533385244,
+      "valor_medio": 7.299980533385244,
+      "valor_recente": 7.299980533385244,
+      "data_recente": "2026-04-14T21:26:47Z"
     }
   ]
 }

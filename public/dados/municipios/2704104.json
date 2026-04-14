@@ -1,61 +1,41 @@
 {
   "codigoIBGE": "2704104",
   "municipio": "Lagoa da Canoa",
-  "atualizadoEm": "2026-04-14T20:59:48.219Z",
+  "atualizadoEm": "2026-04-14T21:59:32.860Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.990074094785404,
-      "valorMaximo": 6.990074094785404,
-      "valorMedio": 6.990074094785404
+      "valorMinimo": 6.859923175416133,
+      "valorMaximo": 6.993006993006993,
+      "valorMedio": 6.926465084211563
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.049345417925478,
-      "valorMaximo": 7.049345417925478,
-      "valorMedio": 7.049345417925478
+      "valorMinimo": 7.050528789659224,
+      "valorMaximo": 7.050528789659224,
+      "valorMedio": 7.050528789659224
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 4.990019960079841,
+      "valorMinimo": 4.990403071017274,
       "valorMaximo": 5.08984375,
-      "valorMedio": 5.039931855039921
+      "valorMedio": 5.040123410508637
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 8.188666885031116,
-      "valorMaximo": 8.188666885031116,
-      "valorMedio": 8.188666885031116
+      "valorMinimo": 8.18867924528302,
+      "valorMaximo": 8.18867924528302,
+      "valorMedio": 8.18867924528302
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 6.9799118079372855,
-      "valorMaximo": 7.289879931389366,
-      "valorMedio": 7.134895869663326
+      "valorMinimo": 6.98,
+      "valorMaximo": 7.289942949311508,
+      "valorMedio": 7.134971474655755
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "45859299000172",
-      "tipo_combustivel": 1,
-      "razao_social": "NOSSA SENHORA DO O E CIA LTDA",
-      "nome_fantasia": "AUTO POSTO 3 M",
-      "telefone": "(82) 996164548",
-      "nome_logradouro": "ROD AL 115",
-      "numero_imovel": "SN",
-      "bairro": "KM 19 SITIO OLHO DAGUA",
-      "cep": "57330000",
-      "codigo_ibge": 2704104,
-      "municipio": "LAGOA DA CANOA",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.990074094785404,
-      "valor_maximo": 6.990074094785404,
-      "valor_medio": 6.990074094785404,
-      "valor_recente": 6.990074094785404,
-      "data_recente": "2026-04-14T19:30:49Z"
-    },
     {
       "cnpj": "12451076000201",
       "tipo_combustivel": 1,
@@ -70,11 +50,31 @@
       "municipio": "LAGOA DA CANOA",
       "latitude": -9.8218401,
       "longitude": -36.7376825,
-      "valor_minimo": 6.990074094785404,
-      "valor_maximo": 6.990074094785404,
-      "valor_medio": 6.990074094785404,
-      "valor_recente": 6.990074094785404,
-      "data_recente": "2026-04-14T19:24:10Z"
+      "valor_minimo": 6.859923175416133,
+      "valor_maximo": 6.859923175416133,
+      "valor_medio": 6.859923175416133,
+      "valor_recente": 6.859923175416133,
+      "data_recente": "2026-04-14T21:29:22Z"
+    },
+    {
+      "cnpj": "45859299000172",
+      "tipo_combustivel": 1,
+      "razao_social": "NOSSA SENHORA DO O E CIA LTDA",
+      "nome_fantasia": "AUTO POSTO 3 M",
+      "telefone": "(82) 996164548",
+      "nome_logradouro": "ROD AL 115",
+      "numero_imovel": "SN",
+      "bairro": "KM 19 SITIO OLHO DAGUA",
+      "cep": "57330000",
+      "codigo_ibge": 2704104,
+      "municipio": "LAGOA DA CANOA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.993006993006993,
+      "valor_maximo": 6.993006993006993,
+      "valor_medio": 6.993006993006993,
+      "valor_recente": 6.993006993006993,
+      "data_recente": "2026-04-14T21:36:27Z"
     },
     {
       "cnpj": "45859299000172",
@@ -90,11 +90,11 @@
       "municipio": "LAGOA DA CANOA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.049345417925478,
-      "valor_maximo": 7.049345417925478,
-      "valor_medio": 7.049345417925478,
-      "valor_recente": 7.049345417925478,
-      "data_recente": "2026-04-14T18:51:06Z"
+      "valor_minimo": 7.050528789659224,
+      "valor_maximo": 7.050528789659224,
+      "valor_medio": 7.050528789659224,
+      "valor_recente": 7.050528789659224,
+      "data_recente": "2026-04-14T21:33:17Z"
     },
     {
       "cnpj": "12451076000201",
@@ -110,11 +110,11 @@
       "municipio": "LAGOA DA CANOA",
       "latitude": -9.8218401,
       "longitude": -36.7376825,
-      "valor_minimo": 4.990019960079841,
-      "valor_maximo": 4.990019960079841,
-      "valor_medio": 4.990019960079841,
-      "valor_recente": 4.990019960079841,
-      "data_recente": "2026-04-14T17:57:33Z"
+      "valor_minimo": 4.990403071017274,
+      "valor_maximo": 4.990403071017274,
+      "valor_medio": 4.990403071017274,
+      "valor_recente": 4.990403071017274,
+      "data_recente": "2026-04-14T21:06:50Z"
     },
     {
       "cnpj": "45859299000172",
@@ -150,11 +150,11 @@
       "municipio": "LAGOA DA CANOA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 8.188666885031116,
-      "valor_maximo": 8.188666885031116,
-      "valor_medio": 8.188666885031116,
-      "valor_recente": 8.188666885031116,
-      "data_recente": "2026-04-14T18:26:34Z"
+      "valor_minimo": 8.18867924528302,
+      "valor_maximo": 8.18867924528302,
+      "valor_medio": 8.18867924528302,
+      "valor_recente": 8.18867924528302,
+      "data_recente": "2026-04-14T20:32:00Z"
     },
     {
       "cnpj": "12451076000201",
@@ -170,11 +170,11 @@
       "municipio": "LAGOA DA CANOA",
       "latitude": -9.8218401,
       "longitude": -36.7376825,
-      "valor_minimo": 6.9799118079372855,
-      "valor_maximo": 6.9799118079372855,
-      "valor_medio": 6.9799118079372855,
-      "valor_recente": 6.9799118079372855,
-      "data_recente": "2026-04-14T18:02:16Z"
+      "valor_minimo": 6.98,
+      "valor_maximo": 6.98,
+      "valor_medio": 6.98,
+      "valor_recente": 6.98,
+      "data_recente": "2026-04-14T21:29:51Z"
     },
     {
       "cnpj": "45859299000172",
@@ -190,11 +190,11 @@
       "municipio": "LAGOA DA CANOA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.289879931389366,
-      "valor_maximo": 7.289879931389366,
-      "valor_medio": 7.289879931389366,
-      "valor_recente": 7.289879931389366,
-      "data_recente": "2026-04-14T19:06:08Z"
+      "valor_minimo": 7.289942949311508,
+      "valor_maximo": 7.289942949311508,
+      "valor_medio": 7.289942949311508,
+      "valor_recente": 7.289942949311508,
+      "data_recente": "2026-04-14T21:28:37Z"
     }
   ]
 }

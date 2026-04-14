@@ -1,20 +1,20 @@
 {
   "codigoIBGE": "2703205",
   "municipio": "Igreja Nova",
-  "atualizadoEm": "2026-04-14T20:55:30.106Z",
+  "atualizadoEm": "2026-04-14T21:55:01.248Z",
   "totalEstabelecimentos": 7,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.889978916569855,
-      "valorMaximo": 6.990562740300594,
-      "valorMedio": 6.940270828435224
+      "valorMinimo": 6.289308176100629,
+      "valorMaximo": 6.911764705882353,
+      "valorMedio": 6.600536440991491
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.089361702127659,
-      "valorMaximo": 7.089361702127659,
-      "valorMedio": 7.089361702127659
+      "valorMinimo": 7.092198581560283,
+      "valorMaximo": 7.092198581560283,
+      "valorMedio": 7.092198581560283
     },
     "3": {
       "totalPostos": 2,
@@ -24,32 +24,12 @@
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.48998003992016,
+      "valorMinimo": 7.490045128749668,
       "valorMaximo": 7.989773090444231,
-      "valorMedio": 7.739876565182195
+      "valorMedio": 7.739909109596949
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "55682117000194",
-      "tipo_combustivel": 1,
-      "razao_social": "OLIVEIRA E BARRETO COMERCIO DE COMBUSTIVEIS LTDA",
-      "nome_fantasia": "posto perucaba",
-      "telefone": "(79) 99999999",
-      "nome_logradouro": "ROD AL 110",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57280000",
-      "codigo_ibge": 2703205,
-      "municipio": "IGREJA NOVA",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.889978916569855,
-      "valor_maximo": 6.889978916569855,
-      "valor_medio": 6.889978916569855,
-      "valor_recente": 6.889978916569855,
-      "data_recente": "2026-04-14T13:34:23Z"
-    },
     {
       "cnpj": "19739379000184",
       "tipo_combustivel": 1,
@@ -64,11 +44,31 @@
       "municipio": "IGREJA NOVA",
       "latitude": -10.0830464,
       "longitude": -36.5661908,
-      "valor_minimo": 6.990562740300594,
-      "valor_maximo": 6.990562740300594,
-      "valor_medio": 6.990562740300594,
-      "valor_recente": 6.990562740300594,
-      "data_recente": "2026-04-14T19:33:45Z"
+      "valor_minimo": 6.289308176100629,
+      "valor_maximo": 6.289308176100629,
+      "valor_medio": 6.289308176100629,
+      "valor_recente": 6.289308176100629,
+      "data_recente": "2026-04-14T21:09:49Z"
+    },
+    {
+      "cnpj": "55682117000194",
+      "tipo_combustivel": 1,
+      "razao_social": "OLIVEIRA E BARRETO COMERCIO DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "posto perucaba",
+      "telefone": "(79) 99999999",
+      "nome_logradouro": "ROD AL 110",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57280000",
+      "codigo_ibge": 2703205,
+      "municipio": "IGREJA NOVA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.911764705882353,
+      "valor_maximo": 6.911764705882353,
+      "valor_medio": 6.911764705882353,
+      "valor_recente": 6.911764705882353,
+      "data_recente": "2026-04-14T19:55:33Z"
     },
     {
       "cnpj": "19739379000184",
@@ -84,11 +84,11 @@
       "municipio": "IGREJA NOVA",
       "latitude": -10.0830464,
       "longitude": -36.5661908,
-      "valor_minimo": 7.089361702127659,
-      "valor_maximo": 7.089361702127659,
-      "valor_medio": 7.089361702127659,
-      "valor_recente": 7.089361702127659,
-      "data_recente": "2026-04-14T19:33:25Z"
+      "valor_minimo": 7.092198581560283,
+      "valor_maximo": 7.092198581560283,
+      "valor_medio": 7.092198581560283,
+      "valor_recente": 7.092198581560283,
+      "data_recente": "2026-04-14T20:05:05Z"
     },
     {
       "cnpj": "55682117000194",
@@ -108,7 +108,7 @@
       "valor_maximo": 5.489980785067252,
       "valor_medio": 5.489980785067252,
       "valor_recente": 5.489980785067252,
-      "data_recente": "2026-04-14T02:24:53Z"
+      "data_recente": "2026-04-14T21:34:00Z"
     },
     {
       "cnpj": "19739379000184",
@@ -128,7 +128,7 @@
       "valor_maximo": 5.649717514124294,
       "valor_medio": 5.649717514124294,
       "valor_recente": 5.649717514124294,
-      "data_recente": "2026-04-14T18:51:00Z"
+      "data_recente": "2026-04-14T20:05:05Z"
     },
     {
       "cnpj": "55682117000194",
@@ -145,10 +145,10 @@
       "latitude": 0,
       "longitude": 0,
       "valor_minimo": 7.48998003992016,
-      "valor_maximo": 7.490009648894783,
-      "valor_medio": 7.489994844407471,
-      "valor_recente": 7.48998003992016,
-      "data_recente": "2026-04-14T19:10:01Z"
+      "valor_maximo": 7.490045128749668,
+      "valor_medio": 7.490012584334914,
+      "valor_recente": 7.490045128749668,
+      "data_recente": "2026-04-14T20:58:57Z"
     },
     {
       "cnpj": "19739379000184",
@@ -168,7 +168,7 @@
       "valor_maximo": 7.989773090444231,
       "valor_medio": 7.989773090444231,
       "valor_recente": 7.989773090444231,
-      "data_recente": "2026-04-14T19:33:25Z"
+      "data_recente": "2026-04-14T19:46:36Z"
     }
   ]
 }
