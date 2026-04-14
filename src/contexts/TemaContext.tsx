@@ -30,9 +30,9 @@ function applyTheme(tema: 'light' | 'dark') {
 
 export function TemaProvider({ children }: { children: ReactNode }) {
   const [tema, setTemaState] = useState<Tema>(() => {
-    if (typeof window === 'undefined') return 'system';
+    if (typeof window === 'undefined') return 'light';
     const saved = localStorage.getItem(STORAGE_KEY) as Tema | null;
-    return saved || 'system';
+    return saved || 'light';
   });
 
   const [temaAtual, setTemaAtual] = useState<'light' | 'dark'>(() => {
@@ -71,9 +71,7 @@ export function TemaProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const alternar = useCallback(() => {
-    const ordem: Tema[] = ['light', 'dark', 'system'];
-    const idx = ordem.indexOf(tema);
-    const proximo = ordem[(idx + 1) % ordem.length];
+    const proximo = tema === 'light' ? 'dark' : 'light';
     setTema(proximo);
   }, [tema, setTema]);
 
