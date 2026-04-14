@@ -13,7 +13,7 @@ BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
 # Intervalo entre execuções (em segundos)
-INTERVALO=${1:-300}  # Padrão: 5 minutos
+INTERVALO=${1:-86400}  # Padrão: 24 horas
 
 # Contador de execuções
 EXECUCOES=0
