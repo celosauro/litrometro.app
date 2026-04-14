@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { X } from '@phosphor-icons/react';
+import { trackCookieConsent } from '../utils/analytics';
 
 const COOKIE_CONSENT_KEY = 'litrometro_cookie_consent';
 
@@ -38,12 +39,14 @@ export function CookieBanner() {
     setConsentStatus('accepted');
     setIsVisible(false);
     enableAnalytics();
+    trackCookieConsent(true);
   };
 
   const handleReject = () => {
     localStorage.setItem(COOKIE_CONSENT_KEY, 'rejected');
     setConsentStatus('rejected');
     setIsVisible(false);
+    trackCookieConsent(false);
   };
 
   const handleClose = () => {

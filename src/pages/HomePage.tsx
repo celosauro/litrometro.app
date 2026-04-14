@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect, useRef } from 'react';
+import { useState, useMemo, useEffect, useRef, useCallback } from 'react';
 import { GasPump, MagnifyingGlass, Crosshair, List, X } from '@phosphor-icons/react';
 import { usePrecosCombustiveis } from '../hooks/usePrecosCombustiveis';
 import { useGeolocalizacao } from '../hooks/useGeolocalizacao';
@@ -7,7 +7,9 @@ import { SeletorTipoCombustivel } from '../components/FuelTypeSelector';
 import { SeletorMunicipio } from '../components/MunicipioSelector';
 import { MapaEstabelecimentos } from '../components/MapaEstabelecimentos';
 import { calcularDistanciaKm } from '../utils/distancia';
+import { trackFuelTypeSelect, trackMunicipalitySelect, trackSearch} from '../utils/analytics';
 import type { TipoCombustivel, PrecoCombustivelResumo } from '../types';
+import { TIPOS_COMBUSTIVEL, MUNICIPIOS_AL } from '../types';
 
 // Código IBGE de Maceió (padrão quando não há localização)
 const CODIGO_MACEIO = '2704302';
@@ -227,6 +229,29 @@ export default function HomePage() {
     );
   };
 
+  // Handlers com tracking de analytics
+  const handleTipoCombustivelChange = useCallback((tipo: TipoCombustivel) => {
+    setTipoCombustivelSelecionado(tipo);
+    trackFuelTypeSelect(TIPOS_COMBUSTIVEL[tipo], tipo);
+  }, []);
+
+  const handleMunicipioChange = useCallback((codigo: string) => {
+    setMunicipioSelecionado(codigo);
+    if (codigo) {
+      const nome = MUNICIPIOS_AL[codigo] || codigo;
+      trackMunicipalitySelect(nome, codigo);
+    }
+  }, []);
+
+  // Tracking de busca com debounce
+  useEffect(() => {
+    if (!termoBusca || termoBusca.length < 3) return;
+    const timer = setTimeout(() => {
+      trackSearch(termoBusca, dadosFiltrados?.length || 0);
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, [termoBusca, dadosFiltrados?.length]);
+
   return (
     <div className="flex flex-col flex-1 w-full h-full overflow-hidden">
       {/* Filtros */}
@@ -235,7 +260,7 @@ export default function HomePage() {
           {/* Seletor de combustível */}
           <SeletorTipoCombustivel
             selecionado={tipoCombustivelSelecionado}
-            aoMudar={setTipoCombustivelSelecionado}
+            aoMudar={handleTipoCombustivelChange}
           />
 
           {/* Filtros adicionais */}
@@ -261,7 +286,7 @@ export default function HomePage() {
               <div className="flex-1 sm:flex-none min-w-[120px]">
                 <SeletorMunicipio
                   selecionado={municipioSelecionado}
-                  aoMudar={setMunicipioSelecionado}
+                  aoMudar={handleMunicipioChange}
                 />
               </div>
 

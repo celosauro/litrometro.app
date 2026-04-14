@@ -1,4 +1,5 @@
 import { createContext, useContext, useState, useEffect, useCallback, ReactNode } from 'react';
+import { trackThemeChange } from '../utils/analytics';
 
 type Tema = 'light' | 'dark' | 'system';
 
@@ -66,6 +67,7 @@ export function TemaProvider({ children }: { children: ReactNode }) {
   const setTema = useCallback((novoTema: Tema) => {
     setTemaState(novoTema);
     localStorage.setItem(STORAGE_KEY, novoTema);
+    trackThemeChange(novoTema);
   }, []);
 
   const alternar = useCallback(() => {

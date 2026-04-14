@@ -1,4 +1,5 @@
 import { useState, useCallback, useEffect } from 'react';
+import { trackLocationPermission } from '../utils/analytics';
 
 interface Coordenadas {
   latitude: number;
@@ -44,6 +45,7 @@ export function useGeolocalizacao(): UseGeolocalizacaoReturn {
         setCarregando(false);
         setPermissaoNegada(false);
         setErro(null);
+        trackLocationPermission('dev_mode');
       }, 300);
       return;
     }
@@ -65,6 +67,7 @@ export function useGeolocalizacao(): UseGeolocalizacaoReturn {
         });
         setCarregando(false);
         setPermissaoNegada(false);
+        trackLocationPermission('granted');
       },
       (error) => {
         setCarregando(false);
@@ -73,15 +76,19 @@ export function useGeolocalizacao(): UseGeolocalizacaoReturn {
           case error.PERMISSION_DENIED:
             setErro('Permissão de localização negada');
             setPermissaoNegada(true);
+            trackLocationPermission('denied');
             break;
           case error.POSITION_UNAVAILABLE:
             setErro('Localização indisponível');
+            trackLocationPermission('unavailable');
             break;
           case error.TIMEOUT:
             setErro('Tempo esgotado ao obter localização');
+            trackLocationPermission('unavailable');
             break;
           default:
             setErro('Erro ao obter localização');
+            trackLocationPermission('unavailable');
         }
       },
       {

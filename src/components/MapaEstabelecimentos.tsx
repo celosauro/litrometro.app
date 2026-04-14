@@ -10,6 +10,7 @@ import {
 import type { MapRef } from 'react-map-gl/maplibre';
 
 import PinPreco from './PinPreco';
+import { trackStationView } from '../utils/analytics';
 import type { PrecoCombustivelResumo, TipoCombustivel } from '../types';
 import { TIPOS_COMBUSTIVEL } from '../types';
 import { formatarDistancia } from '../utils/distancia';
@@ -206,7 +207,16 @@ export function MapaEstabelecimentos({
     e.originalEvent.stopPropagation();
     setPopupInfo(item);
     onSelecionarEstabelecimento?.(item);
-  }, [onSelecionarEstabelecimento]);
+    
+    // Track station view
+    trackStationView(
+      item.nome_fantasia || item.razao_social,
+      item.cnpj,
+      TIPOS_COMBUSTIVEL[tipoCombustivel],
+      item.valor_recente,
+      item.distancia
+    );
+  }, [onSelecionarEstabelecimento, tipoCombustivel]);
 
   return (
     <div className={`w-full h-full min-h-[400px] rounded-lg overflow-hidden shadow-lg ${className}`}>
