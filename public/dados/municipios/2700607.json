@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2700607",
   "municipio": "Barra de São Miguel",
-  "atualizadoEm": "2026-04-14T04:49:55.595Z",
+  "atualizadoEm": "2026-04-14T08:23:00.095Z",
   "totalEstabelecimentos": 13,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
       "valorMinimo": 6.75000675000675,
       "valorMaximo": 7.648183556405353,
-      "valorMedio": 6.9941801028610175
+      "valorMedio": 6.994539160476907
     },
     "2": {
       "totalPostos": 2,
       "valorMinimo": 6.789978989920481,
-      "valorMaximo": 6.949894600291876,
-      "valorMedio": 6.869936795106179
+      "valorMaximo": 6.948565776458952,
+      "valorMedio": 6.869272383189717
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 5.1899411449973245,
-      "valorMaximo": 5.389673385792821,
-      "valorMedio": 5.256605419965592
+      "valorMinimo": 5.189952252439277,
+      "valorMaximo": 5.3895870736086176,
+      "valorMedio": 5.256580351718174
     },
     "5": {
       "totalPostos": 4,
-      "valorMinimo": 6.889744824265768,
+      "valorMinimo": 6.889942263438564,
       "valorMaximo": 7.649997322500937,
-      "valorMedio": 7.247194025044744
+      "valorMedio": 7.319704886196142
     }
   },
   "estabelecimentos": [
@@ -51,26 +51,6 @@
       "data_recente": "2026-04-13T21:26:22Z"
     },
     {
-      "cnpj": "07754145000127",
-      "tipo_combustivel": 1,
-      "razao_social": "M L G DA SILVA SIQUEIRA & CIA LTDA - ME",
-      "nome_fantasia": "POSTO SAO FRANCISCO DE ASSIS",
-      "telefone": "(82) 32219131",
-      "nome_logradouro": "ROD AL 101 SUL",
-      "numero_imovel": "2150",
-      "bairro": "BARRA MAR",
-      "cep": "57180000",
-      "codigo_ibge": 2700607,
-      "municipio": "BARRA DE SAO MIGUEL",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.788741946422516,
-      "valor_maximo": 6.788741946422516,
-      "valor_medio": 6.788741946422516,
-      "valor_recente": 6.788741946422516,
-      "data_recente": "2026-04-13T23:37:13Z"
-    },
-    {
       "cnpj": "34036410000104",
       "tipo_combustivel": 1,
       "razao_social": "J C COMBUSTIVEIS E LUBRIFICANTES LTDA",
@@ -84,11 +64,31 @@
       "municipio": "BARRA DE SAO MIGUEL",
       "latitude": -9.8330878,
       "longitude": -35.897083,
-      "valor_minimo": 6.7897881586094515,
-      "valor_maximo": 6.7897881586094515,
-      "valor_medio": 6.7897881586094515,
-      "valor_recente": 6.7897881586094515,
-      "data_recente": "2026-04-13T22:39:05Z"
+      "valor_minimo": 6.789966335495525,
+      "valor_maximo": 6.789966335495525,
+      "valor_medio": 6.789966335495525,
+      "valor_recente": 6.789966335495525,
+      "data_recente": "2026-04-14T02:10:58Z"
+    },
+    {
+      "cnpj": "07754145000127",
+      "tipo_combustivel": 1,
+      "razao_social": "M L G DA SILVA SIQUEIRA & CIA LTDA - ME",
+      "nome_fantasia": "POSTO SAO FRANCISCO DE ASSIS",
+      "telefone": "(82) 32219131",
+      "nome_logradouro": "ROD AL 101 SUL",
+      "numero_imovel": "2150",
+      "bairro": "BARRA MAR",
+      "cep": "57180000",
+      "codigo_ibge": 2700607,
+      "municipio": "BARRA DE SAO MIGUEL",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.79,
+      "valor_maximo": 6.79,
+      "valor_medio": 6.79,
+      "valor_recente": 6.79,
+      "data_recente": "2026-04-14T07:23:36Z"
     },
     {
       "cnpj": "23634984000168",
@@ -144,11 +144,11 @@
       "municipio": "BARRA DE SAO MIGUEL",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.949894600291876,
-      "valor_maximo": 6.949894600291876,
-      "valor_medio": 6.949894600291876,
-      "valor_recente": 6.949894600291876,
-      "data_recente": "2026-04-13T23:13:29Z"
+      "valor_minimo": 6.948565776458952,
+      "valor_maximo": 6.948565776458952,
+      "valor_medio": 6.948565776458952,
+      "valor_recente": 6.948565776458952,
+      "data_recente": "2026-04-14T00:22:22Z"
     },
     {
       "cnpj": "34036410000104",
@@ -164,11 +164,11 @@
       "municipio": "BARRA DE SAO MIGUEL",
       "latitude": -9.8330878,
       "longitude": -35.897083,
-      "valor_minimo": 5.1899411449973245,
-      "valor_maximo": 5.1899411449973245,
-      "valor_medio": 5.1899411449973245,
-      "valor_recente": 5.1899411449973245,
-      "data_recente": "2026-04-13T22:39:05Z"
+      "valor_minimo": 5.189952252439277,
+      "valor_maximo": 5.189952252439277,
+      "valor_medio": 5.189952252439277,
+      "valor_recente": 5.189952252439277,
+      "data_recente": "2026-04-14T02:10:58Z"
     },
     {
       "cnpj": "05875523000103",
@@ -204,11 +204,11 @@
       "municipio": "BARRA DE SAO MIGUEL",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.389673385792821,
-      "valor_maximo": 5.389673385792821,
-      "valor_medio": 5.389673385792821,
-      "valor_recente": 5.389673385792821,
-      "data_recente": "2026-04-13T23:07:02Z"
+      "valor_minimo": 5.3895870736086176,
+      "valor_maximo": 5.3895870736086176,
+      "valor_medio": 5.3895870736086176,
+      "valor_recente": 5.3895870736086176,
+      "data_recente": "2026-04-14T00:33:13Z"
     },
     {
       "cnpj": "07754145000127",
@@ -224,11 +224,11 @@
       "municipio": "BARRA DE SAO MIGUEL",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.889744824265768,
-      "valor_maximo": 6.889744824265768,
-      "valor_medio": 6.889744824265768,
-      "valor_recente": 6.889744824265768,
-      "data_recente": "2026-04-13T23:38:34Z"
+      "valor_minimo": 6.889942263438564,
+      "valor_maximo": 6.889942263438564,
+      "valor_medio": 6.889942263438564,
+      "valor_recente": 6.889942263438564,
+      "data_recente": "2026-04-14T01:41:42Z"
     },
     {
       "cnpj": "34036410000104",
@@ -244,11 +244,11 @@
       "municipio": "BARRA DE SAO MIGUEL",
       "latitude": -9.8330878,
       "longitude": -35.897083,
-      "valor_minimo": 6.8999650052492125,
-      "valor_maximo": 6.8999650052492125,
-      "valor_medio": 6.8999650052492125,
-      "valor_recente": 6.8999650052492125,
-      "data_recente": "2026-04-13T23:25:33Z"
+      "valor_minimo": 7.189811010682005,
+      "valor_maximo": 7.189811010682005,
+      "valor_medio": 7.189811010682005,
+      "valor_recente": 7.189811010682005,
+      "data_recente": "2026-04-14T00:17:49Z"
     },
     {
       "cnpj": "23634984000168",

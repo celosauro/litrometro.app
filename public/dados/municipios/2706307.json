@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2706307",
   "municipio": "Palmeira dos Índios",
-  "atualizadoEm": "2026-04-14T05:44:20.843Z",
+  "atualizadoEm": "2026-04-14T08:48:44.574Z",
   "totalEstabelecimentos": 62,
   "combustiveis": {
     "1": {
       "totalPostos": 17,
       "valorMinimo": 6.389776357827476,
       "valorMaximo": 7.289835164835165,
-      "valorMedio": 6.8155453711469445
+      "valorMedio": 6.81546405241257
     },
     "2": {
       "totalPostos": 11,
@@ -32,7 +32,7 @@
       "totalPostos": 16,
       "valorMinimo": 6.989934494328168,
       "valorMaximo": 7.6,
-      "valorMedio": 7.366433721338219
+      "valorMedio": 7.366393297144949
     },
     "6": {
       "totalPostos": 1,
@@ -223,6 +223,26 @@
       "data_recente": "2026-04-14T00:41:36Z"
     },
     {
+      "cnpj": "07011584000140",
+      "tipo_combustivel": 1,
+      "razao_social": "POSTO FREI DAMIAO LTDA. - ME                EPP",
+      "nome_fantasia": "",
+      "telefone": "(82) 41021750",
+      "nome_logradouro": "RDV AL 115 KM 0,135",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57613000",
+      "codigo_ibge": 2706307,
+      "municipio": "PALMEIRA DOS INDIOS",
+      "latitude": -9.4255713,
+      "longitude": -36.6363597,
+      "valor_minimo": 6.888279643591501,
+      "valor_maximo": 6.888279643591501,
+      "valor_medio": 6.888279643591501,
+      "valor_recente": 6.888279643591501,
+      "data_recente": "2026-04-14T07:33:12Z"
+    },
+    {
       "cnpj": "12018131000185",
       "tipo_combustivel": 1,
       "razao_social": "POSTO ZÉ TAVARES COMÉRCIO DE COMBUSTÍVEIS LTDA",
@@ -241,26 +261,6 @@
       "valor_medio": 6.888950124001102,
       "valor_recente": 6.888950124001102,
       "data_recente": "2026-04-13T23:01:09Z"
-    },
-    {
-      "cnpj": "07011584000140",
-      "tipo_combustivel": 1,
-      "razao_social": "POSTO FREI DAMIAO LTDA. - ME                EPP",
-      "nome_fantasia": "",
-      "telefone": "(82) 41021750",
-      "nome_logradouro": "RDV AL 115 KM 0,135",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57613000",
-      "codigo_ibge": 2706307,
-      "municipio": "PALMEIRA DOS INDIOS",
-      "latitude": -9.4255713,
-      "longitude": -36.6363597,
-      "valor_minimo": 6.889662062075855,
-      "valor_maximo": 6.889662062075855,
-      "valor_medio": 6.889662062075855,
-      "valor_recente": 6.889662062075855,
-      "data_recente": "2026-04-14T03:35:26Z"
     },
     {
       "cnpj": "36429585000107",
@@ -354,8 +354,8 @@
       "cep": "57603280",
       "codigo_ibge": 2706307,
       "municipio": "PALMEIRA DOS INDIOS",
-      "latitude": -9.4218841,
-      "longitude": -36.6275229,
+      "latitude": 0,
+      "longitude": 0,
       "valor_minimo": 6.989873123035735,
       "valor_maximo": 6.989873123035735,
       "valor_medio": 6.989873123035735,
@@ -594,8 +594,8 @@
       "cep": "57603280",
       "codigo_ibge": 2706307,
       "municipio": "PALMEIRA DOS INDIOS",
-      "latitude": -9.4218841,
-      "longitude": -36.6275229,
+      "latitude": 0,
+      "longitude": 0,
       "valor_minimo": 7.2899511768563725,
       "valor_maximo": 7.2899511768563725,
       "valor_medio": 7.2899511768563725,
@@ -794,8 +794,8 @@
       "cep": "57603280",
       "codigo_ibge": 2706307,
       "municipio": "PALMEIRA DOS INDIOS",
-      "latitude": -9.4218841,
-      "longitude": -36.6275229,
+      "latitude": 0,
+      "longitude": 0,
       "valor_minimo": 5.481927710843373,
       "valor_maximo": 5.481927710843373,
       "valor_medio": 5.481927710843373,
@@ -976,11 +976,11 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": -9.4163426,
       "longitude": -36.6347829,
-      "valor_minimo": 7.090045545572155,
-      "valor_maximo": 7.090045545572155,
-      "valor_medio": 7.090045545572155,
-      "valor_recente": 7.090045545572155,
-      "data_recente": "2026-04-13T23:40:45Z"
+      "valor_minimo": 7.08999397440896,
+      "valor_maximo": 7.08999397440896,
+      "valor_medio": 7.08999397440896,
+      "valor_recente": 7.08999397440896,
+      "data_recente": "2026-04-14T06:37:19Z"
     },
     {
       "cnpj": "39805644000192",
@@ -996,11 +996,11 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.1999559847978265,
-      "valor_maximo": 7.1999559847978265,
-      "valor_medio": 7.1999559847978265,
-      "valor_recente": 7.1999559847978265,
-      "data_recente": "2026-04-14T02:39:04Z"
+      "valor_minimo": 7.199556950341518,
+      "valor_maximo": 7.199556950341518,
+      "valor_medio": 7.199556950341518,
+      "valor_recente": 7.199556950341518,
+      "data_recente": "2026-04-14T06:26:36Z"
     },
     {
       "cnpj": "10616401000124",
@@ -1023,6 +1023,26 @@
       "data_recente": "2026-04-14T02:40:47Z"
     },
     {
+      "cnpj": "07011584000140",
+      "tipo_combustivel": 5,
+      "razao_social": "POSTO FREI DAMIAO LTDA. - ME                EPP",
+      "nome_fantasia": "",
+      "telefone": "(82) 41021750",
+      "nome_logradouro": "RDV AL 115 KM 0,135",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57613000",
+      "codigo_ibge": 2706307,
+      "municipio": "PALMEIRA DOS INDIOS",
+      "latitude": -9.4255713,
+      "longitude": -36.6363597,
+      "valor_minimo": 7.319572536963841,
+      "valor_maximo": 7.319572536963841,
+      "valor_medio": 7.319572536963841,
+      "valor_recente": 7.319572536963841,
+      "data_recente": "2026-04-14T07:32:21Z"
+    },
+    {
       "cnpj": "09339805000139",
       "tipo_combustivel": 5,
       "razao_social": "IRMAOS TAVARES LTDA - EPP",
@@ -1041,26 +1061,6 @@
       "valor_medio": 7.319751128461633,
       "valor_recente": 7.319751128461633,
       "data_recente": "2026-04-14T00:41:36Z"
-    },
-    {
-      "cnpj": "07011584000140",
-      "tipo_combustivel": 5,
-      "razao_social": "POSTO FREI DAMIAO LTDA. - ME                EPP",
-      "nome_fantasia": "",
-      "telefone": "(82) 41021750",
-      "nome_logradouro": "RDV AL 115 KM 0,135",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57613000",
-      "codigo_ibge": 2706307,
-      "municipio": "PALMEIRA DOS INDIOS",
-      "latitude": -9.4255713,
-      "longitude": -36.6363597,
-      "valor_minimo": 7.319768718436654,
-      "valor_maximo": 7.319768718436654,
-      "valor_medio": 7.319768718436654,
-      "valor_recente": 7.319768718436654,
-      "data_recente": "2026-04-14T01:51:46Z"
     },
     {
       "cnpj": "05331412000128",
@@ -1134,8 +1134,8 @@
       "cep": "57603280",
       "codigo_ibge": 2706307,
       "municipio": "PALMEIRA DOS INDIOS",
-      "latitude": -9.4218841,
-      "longitude": -36.6275229,
+      "latitude": 0,
+      "longitude": 0,
       "valor_minimo": 7.389890629618682,
       "valor_maximo": 7.389890629618682,
       "valor_medio": 7.389890629618682,

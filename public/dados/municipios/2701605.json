@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2701605",
   "municipio": "Canapi",
-  "atualizadoEm": "2026-04-14T05:13:59.667Z",
+  "atualizadoEm": "2026-04-14T08:27:50.739Z",
   "totalEstabelecimentos": 21,
   "combustiveis": {
     "1": {
       "totalPostos": 6,
       "valorMinimo": 6.263237518910741,
       "valorMaximo": 6.989341254586755,
-      "valorMedio": 6.763272520790448
+      "valorMedio": 6.768510921754577
     },
     "2": {
       "totalPostos": 5,
-      "valorMinimo": 6.409638554216867,
-      "valorMaximo": 7.249456652982372,
-      "valorMedio": 6.89347932989344
+      "valorMinimo": 6.810133478616181,
+      "valorMaximo": 7.250326134222351,
+      "valorMedio": 7.035213059782047
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 5.929203539823009,
-      "valorMaximo": 5.989817310572027,
-      "valorMedio": 5.952421043560025
+      "valorMinimo": 5.9301775147928995,
+      "valorMaximo": 5.989219405070872,
+      "valorMedio": 5.952546400049602
     },
     "5": {
       "totalPostos": 7,
       "valorMinimo": 6.63,
       "valorMaximo": 7.680306905370844,
-      "valorMedio": 7.250136409509062
+      "valorMedio": 7.249832397391151
     }
   },
   "estabelecimentos": [
@@ -84,11 +84,11 @@
       "municipio": "CANAPI",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.747638326585695,
-      "valor_maximo": 6.747638326585695,
-      "valor_medio": 6.747638326585695,
-      "valor_recente": 6.747638326585695,
-      "data_recente": "2026-04-13T23:28:59Z"
+      "valor_minimo": 6.749915626054674,
+      "valor_maximo": 6.749915626054674,
+      "valor_medio": 6.749915626054674,
+      "valor_recente": 6.749915626054674,
+      "data_recente": "2026-04-14T07:32:17Z"
     },
     {
       "cnpj": "27246281000113",
@@ -104,11 +104,11 @@
       "municipio": "CANAPI",
       "latitude": -9.189925,
       "longitude": -37.51899,
-      "valor_minimo": 6.939625260235947,
-      "valor_maximo": 6.939625260235947,
-      "valor_medio": 6.939625260235947,
-      "valor_recente": 6.939625260235947,
-      "data_recente": "2026-04-13T23:18:43Z"
+      "valor_minimo": 6.938020351526364,
+      "valor_maximo": 6.938020351526364,
+      "valor_medio": 6.938020351526364,
+      "valor_recente": 6.938020351526364,
+      "data_recente": "2026-04-14T01:00:32Z"
     },
     {
       "cnpj": "28451142000194",
@@ -124,11 +124,11 @@
       "municipio": "CANAPI",
       "latitude": -9.1176632,
       "longitude": -37.6038522,
-      "valor_minimo": 6.939625260235947,
-      "valor_maximo": 6.969444444444444,
-      "valor_medio": 6.9545348523401955,
-      "valor_recente": 6.939625260235947,
-      "data_recente": "2026-04-13T21:06:24Z"
+      "valor_minimo": 6.939881160433415,
+      "valor_maximo": 6.970383275261324,
+      "valor_medio": 6.955132217847369,
+      "valor_recente": 6.970383275261324,
+      "data_recente": "2026-04-14T00:27:49Z"
     },
     {
       "cnpj": "24296959000184",
@@ -149,26 +149,6 @@
       "valor_medio": 6.989341254586755,
       "valor_recente": 6.989341254586755,
       "data_recente": "2026-04-13T15:41:42Z"
-    },
-    {
-      "cnpj": "07483858000101",
-      "tipo_combustivel": 2,
-      "razao_social": "MARIA SONIELMA SILVA DE SOUZA - ME",
-      "nome_fantasia": "AUTO POSTO SAO PAULO",
-      "telefone": "",
-      "nome_logradouro": "AV JOAQUIM TETE",
-      "numero_imovel": "1011",
-      "bairro": "CENTRO",
-      "cep": "57530000",
-      "codigo_ibge": 2701605,
-      "municipio": "CANAPI",
-      "latitude": -9.1180471,
-      "longitude": -37.6017756,
-      "valor_minimo": 6.409638554216867,
-      "valor_maximo": 6.409638554216867,
-      "valor_medio": 6.409638554216867,
-      "valor_recente": 6.409638554216867,
-      "data_recente": "2026-04-13T23:28:07Z"
     },
     {
       "cnpj": "24938944000172",
@@ -208,7 +188,27 @@
       "valor_maximo": 6.858710562414266,
       "valor_medio": 6.858710562414266,
       "valor_recente": 6.858710562414266,
-      "data_recente": "2026-04-13T22:52:11Z"
+      "data_recente": "2026-04-14T01:24:55Z"
+    },
+    {
+      "cnpj": "07483858000101",
+      "tipo_combustivel": 2,
+      "razao_social": "MARIA SONIELMA SILVA DE SOUZA - ME",
+      "nome_fantasia": "AUTO POSTO SAO PAULO",
+      "telefone": "",
+      "nome_logradouro": "AV JOAQUIM TETE",
+      "numero_imovel": "1011",
+      "bairro": "CENTRO",
+      "cep": "57530000",
+      "codigo_ibge": 2701605,
+      "municipio": "CANAPI",
+      "latitude": -9.1180471,
+      "longitude": -37.6017756,
+      "valor_minimo": 7.117437722419929,
+      "valor_maximo": 7.117437722419929,
+      "valor_medio": 7.117437722419929,
+      "valor_recente": 7.117437722419929,
+      "data_recente": "2026-04-13T23:47:33Z"
     },
     {
       "cnpj": "27246281000113",
@@ -244,11 +244,11 @@
       "municipio": "CANAPI",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.249456652982372,
-      "valor_maximo": 7.249456652982372,
-      "valor_medio": 7.249456652982372,
-      "valor_recente": 7.249456652982372,
-      "data_recente": "2026-04-13T23:26:17Z"
+      "valor_minimo": 7.250326134222351,
+      "valor_maximo": 7.250326134222351,
+      "valor_medio": 7.250326134222351,
+      "valor_recente": 7.250326134222351,
+      "data_recente": "2026-04-13T23:35:41Z"
     },
     {
       "cnpj": "28451142000194",
@@ -264,11 +264,11 @@
       "municipio": "CANAPI",
       "latitude": -9.1176632,
       "longitude": -37.6038522,
-      "valor_minimo": 5.929203539823009,
-      "valor_maximo": 5.929203539823009,
-      "valor_medio": 5.929203539823009,
-      "valor_recente": 5.929203539823009,
-      "data_recente": "2026-04-13T20:52:46Z"
+      "valor_minimo": 5.9301775147928995,
+      "valor_maximo": 5.9301775147928995,
+      "valor_medio": 5.9301775147928995,
+      "valor_recente": 5.9301775147928995,
+      "data_recente": "2026-04-14T00:16:00Z"
     },
     {
       "cnpj": "27246281000113",
@@ -304,11 +304,11 @@
       "municipio": "CANAPI",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.989817310572027,
-      "valor_maximo": 5.989817310572027,
-      "valor_medio": 5.989817310572027,
-      "valor_recente": 5.989817310572027,
-      "data_recente": "2026-04-13T22:38:40Z"
+      "valor_minimo": 5.989219405070872,
+      "valor_maximo": 5.989219405070872,
+      "valor_medio": 5.989219405070872,
+      "valor_recente": 5.989219405070872,
+      "data_recente": "2026-04-14T01:23:03Z"
     },
     {
       "cnpj": "27246281000113",
@@ -364,11 +364,11 @@
       "municipio": "CANAPI",
       "latitude": -9.117225,
       "longitude": -37.604013,
-      "valor_minimo": 7.28,
-      "valor_maximo": 7.28,
-      "valor_medio": 7.28,
-      "valor_recente": 7.28,
-      "data_recente": "2026-04-13T23:13:28Z"
+      "valor_minimo": 7.2800013087316024,
+      "valor_maximo": 7.2800013087316024,
+      "valor_medio": 7.2800013087316024,
+      "valor_recente": 7.2800013087316024,
+      "data_recente": "2026-04-14T00:04:14Z"
     },
     {
       "cnpj": "54983925000129",
@@ -404,11 +404,11 @@
       "municipio": "CANAPI",
       "latitude": -9.1176632,
       "longitude": -37.6038522,
-      "valor_minimo": 7.359879032258065,
-      "valor_maximo": 7.359879032258065,
-      "valor_medio": 7.359879032258065,
-      "valor_recente": 7.359879032258065,
-      "data_recente": "2026-04-13T20:32:40Z"
+      "valor_minimo": 7.357843137254902,
+      "valor_maximo": 7.357843137254902,
+      "valor_medio": 7.357843137254902,
+      "valor_recente": 7.357843137254902,
+      "data_recente": "2026-04-14T00:17:43Z"
     },
     {
       "cnpj": "24296959000184",
@@ -424,11 +424,11 @@
       "municipio": "CANAPI",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.489982148875878,
-      "valor_maximo": 7.489982148875878,
-      "valor_medio": 7.489982148875878,
-      "valor_recente": 7.489982148875878,
-      "data_recente": "2026-04-13T23:31:56Z"
+      "valor_minimo": 7.489888650322065,
+      "valor_maximo": 7.489888650322065,
+      "valor_medio": 7.489888650322065,
+      "valor_recente": 7.489888650322065,
+      "data_recente": "2026-04-14T06:50:44Z"
     },
     {
       "cnpj": "35831352000173",

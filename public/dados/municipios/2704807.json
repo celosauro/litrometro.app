@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2704807",
   "municipio": "Maribondo",
-  "atualizadoEm": "2026-04-14T05:36:37.610Z",
+  "atualizadoEm": "2026-04-14T08:42:31.078Z",
   "totalEstabelecimentos": 10,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
-      "valorMinimo": 6.549684924866699,
-      "valorMaximo": 6.889899407468651,
-      "valorMedio": 6.729864274374832
+      "valorMinimo": 6.549875800758269,
+      "valorMaximo": 6.889763779527559,
+      "valorMedio": 6.7295904865851215
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 4.98936170212766,
-      "valorMaximo": 5.088877602844083,
-      "valorMedio": 5.039119652485871
+      "valorMinimo": 4.990027069383103,
+      "valorMaximo": 5.090085504885994,
+      "valorMedio": 5.040056287134549
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 7.090067101408184,
-      "valorMaximo": 7.090067101408184,
-      "valorMedio": 7.090067101408184
+      "valorMinimo": 7.08999397440896,
+      "valorMaximo": 7.08999397440896,
+      "valorMedio": 7.08999397440896
     },
     "5": {
       "totalPostos": 3,
       "valorMinimo": 7.090007087172219,
       "valorMaximo": 7.289983962676775,
-      "valorMedio": 7.223317424486503
+      "valorMedio": 7.223316377530007
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "MARIBONDO",
       "latitude": -9.5016564,
       "longitude": -36.0282483,
-      "valor_minimo": 6.549684924866699,
-      "valor_maximo": 6.549684924866699,
-      "valor_medio": 6.549684924866699,
-      "valor_recente": 6.549684924866699,
-      "data_recente": "2026-04-13T23:39:04Z"
+      "valor_minimo": 6.549875800758269,
+      "valor_maximo": 6.549875800758269,
+      "valor_medio": 6.549875800758269,
+      "valor_recente": 6.549875800758269,
+      "data_recente": "2026-04-14T07:30:42Z"
     },
     {
       "cnpj": "05408092000400",
@@ -64,31 +64,11 @@
       "municipio": "MARIBONDO",
       "latitude": -9.577282199999999,
       "longitude": -36.3043575,
-      "valor_minimo": 6.59098387627509,
-      "valor_maximo": 6.59098387627509,
-      "valor_medio": 6.59098387627509,
-      "valor_recente": 6.59098387627509,
-      "data_recente": "2026-04-13T23:37:13Z"
-    },
-    {
-      "cnpj": "06964197000165",
-      "tipo_combustivel": 1,
-      "razao_social": "POSTO HOLANDA TEIXEIRA LTDA",
-      "nome_fantasia": "POSTO HOLANDA TEIXEIRA LTDA",
-      "telefone": "(82) 35303442",
-      "nome_logradouro": "AV SENADOR ARNON DE MELLO",
-      "numero_imovel": "2070",
-      "bairro": "CENTRO",
-      "cep": "57670000",
-      "codigo_ibge": 2704807,
-      "municipio": "MARIBONDO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.888888888888889,
-      "valor_maximo": 6.888888888888889,
-      "valor_medio": 6.888888888888889,
-      "valor_recente": 6.888888888888889,
-      "data_recente": "2026-04-13T23:27:30Z"
+      "valor_minimo": 6.590088611749262,
+      "valor_maximo": 6.590088611749262,
+      "valor_medio": 6.590088611749262,
+      "valor_recente": 6.590088611749262,
+      "data_recente": "2026-04-14T07:16:47Z"
     },
     {
       "cnpj": "24466310000164",
@@ -104,11 +84,31 @@
       "municipio": "MARIBONDO",
       "latitude": -9.5780776,
       "longitude": -36.3048503,
-      "valor_minimo": 6.889899407468651,
-      "valor_maximo": 6.889899407468651,
-      "valor_medio": 6.889899407468651,
-      "valor_recente": 6.889899407468651,
-      "data_recente": "2026-04-13T22:52:23Z"
+      "valor_minimo": 6.888633754305396,
+      "valor_maximo": 6.888633754305396,
+      "valor_medio": 6.888633754305396,
+      "valor_recente": 6.888633754305396,
+      "data_recente": "2026-04-13T23:44:00Z"
+    },
+    {
+      "cnpj": "06964197000165",
+      "tipo_combustivel": 1,
+      "razao_social": "POSTO HOLANDA TEIXEIRA LTDA",
+      "nome_fantasia": "POSTO HOLANDA TEIXEIRA LTDA",
+      "telefone": "(82) 35303442",
+      "nome_logradouro": "AV SENADOR ARNON DE MELLO",
+      "numero_imovel": "2070",
+      "bairro": "CENTRO",
+      "cep": "57670000",
+      "codigo_ibge": 2704807,
+      "municipio": "MARIBONDO",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.889763779527559,
+      "valor_maximo": 6.889763779527559,
+      "valor_medio": 6.889763779527559,
+      "valor_recente": 6.889763779527559,
+      "data_recente": "2026-04-13T23:43:19Z"
     },
     {
       "cnpj": "05408092000167",
@@ -124,11 +124,11 @@
       "municipio": "MARIBONDO",
       "latitude": -9.5016564,
       "longitude": -36.0282483,
-      "valor_minimo": 4.98936170212766,
-      "valor_maximo": 4.98936170212766,
-      "valor_medio": 4.98936170212766,
-      "valor_recente": 4.98936170212766,
-      "data_recente": "2026-04-13T22:04:11Z"
+      "valor_minimo": 4.990027069383103,
+      "valor_maximo": 4.990027069383103,
+      "valor_medio": 4.990027069383103,
+      "valor_recente": 4.990027069383103,
+      "data_recente": "2026-04-14T01:43:51Z"
     },
     {
       "cnpj": "05408092000400",
@@ -144,11 +144,11 @@
       "municipio": "MARIBONDO",
       "latitude": -9.577282199999999,
       "longitude": -36.3043575,
-      "valor_minimo": 5.088877602844083,
-      "valor_maximo": 5.088877602844083,
-      "valor_medio": 5.088877602844083,
-      "valor_recente": 5.088877602844083,
-      "data_recente": "2026-04-13T22:50:51Z"
+      "valor_minimo": 5.090085504885994,
+      "valor_maximo": 5.090085504885994,
+      "valor_medio": 5.090085504885994,
+      "valor_recente": 5.090085504885994,
+      "data_recente": "2026-04-14T04:42:31Z"
     },
     {
       "cnpj": "05408092000167",
@@ -164,11 +164,11 @@
       "municipio": "MARIBONDO",
       "latitude": -9.5016564,
       "longitude": -36.0282483,
-      "valor_minimo": 7.090067101408184,
-      "valor_maximo": 7.090067101408184,
-      "valor_medio": 7.090067101408184,
-      "valor_recente": 7.090067101408184,
-      "data_recente": "2026-04-13T21:46:40Z"
+      "valor_minimo": 7.08999397440896,
+      "valor_maximo": 7.08999397440896,
+      "valor_medio": 7.08999397440896,
+      "valor_recente": 7.08999397440896,
+      "data_recente": "2026-04-14T04:45:08Z"
     },
     {
       "cnpj": "05408092000400",
@@ -188,7 +188,7 @@
       "valor_maximo": 7.090007087172219,
       "valor_medio": 7.090007087172219,
       "valor_recente": 7.090007087172219,
-      "data_recente": "2026-04-13T22:05:05Z"
+      "data_recente": "2026-04-14T03:18:47Z"
     },
     {
       "cnpj": "24466310000164",
@@ -204,11 +204,11 @@
       "municipio": "MARIBONDO",
       "latitude": -9.5780776,
       "longitude": -36.3048503,
-      "valor_minimo": 7.289961223610513,
-      "valor_maximo": 7.289961223610513,
-      "valor_medio": 7.289961223610513,
-      "valor_recente": 7.289961223610513,
-      "data_recente": "2026-04-13T22:15:31Z"
+      "valor_minimo": 7.289958082741024,
+      "valor_maximo": 7.289958082741024,
+      "valor_medio": 7.289958082741024,
+      "valor_recente": 7.289958082741024,
+      "data_recente": "2026-04-13T23:50:59Z"
     },
     {
       "cnpj": "06964197000165",

@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2708907",
   "municipio": "Satuba",
-  "atualizadoEm": "2026-04-14T05:59:49.127Z",
+  "atualizadoEm": "2026-04-14T09:02:15.171Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.848153214774282,
+      "valorMinimo": 6.849784231796699,
       "valorMaximo": 6.889424733034792,
-      "valorMedio": 6.868788973904537
+      "valorMedio": 6.869604482415745
     },
     "2": {
       "totalPostos": 2,
@@ -24,9 +24,9 @@
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 6.789981151583811,
-      "valorMaximo": 9.549980311638635,
-      "valorMedio": 8.169980731611222
+      "valorMinimo": 6.789938258933506,
+      "valorMaximo": 6.99,
+      "valorMedio": 6.889969129466753
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "SATUBA",
       "latitude": -9.571623299999999,
       "longitude": -35.8254097,
-      "valor_minimo": 6.848153214774282,
-      "valor_maximo": 6.848153214774282,
-      "valor_medio": 6.848153214774282,
-      "valor_recente": 6.848153214774282,
-      "data_recente": "2026-04-14T02:40:02Z"
+      "valor_minimo": 6.849784231796699,
+      "valor_maximo": 6.849784231796699,
+      "valor_medio": 6.849784231796699,
+      "valor_recente": 6.849784231796699,
+      "data_recente": "2026-04-14T07:32:29Z"
     },
     {
       "cnpj": "48196035000174",
@@ -164,11 +164,11 @@
       "municipio": "SATUBA",
       "latitude": -9.571623299999999,
       "longitude": -35.8254097,
-      "valor_minimo": 6.789981151583811,
-      "valor_maximo": 6.789981151583811,
-      "valor_medio": 6.789981151583811,
-      "valor_recente": 6.789981151583811,
-      "data_recente": "2026-04-14T04:56:18Z"
+      "valor_minimo": 6.789938258933506,
+      "valor_maximo": 6.789938258933506,
+      "valor_medio": 6.789938258933506,
+      "valor_recente": 6.789938258933506,
+      "data_recente": "2026-04-14T07:35:40Z"
     },
     {
       "cnpj": "48196035000174",
@@ -184,11 +184,11 @@
       "municipio": "SATUBA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 9.549980311638635,
-      "valor_maximo": 9.549980311638635,
-      "valor_medio": 9.549980311638635,
-      "valor_recente": 9.549980311638635,
-      "data_recente": "2026-04-14T05:14:32Z"
+      "valor_minimo": 6.99,
+      "valor_maximo": 6.99,
+      "valor_medio": 6.99,
+      "valor_recente": 6.99,
+      "data_recente": "2026-04-14T07:25:30Z"
     }
   ]
 }
