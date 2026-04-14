@@ -1,38 +1,38 @@
 {
   "codigoIBGE": "2702900",
   "municipio": "Girau do Ponciano",
-  "atualizadoEm": "2026-04-14T01:39:16.618Z",
+  "atualizadoEm": "2026-04-14T05:26:43.315Z",
   "totalEstabelecimentos": 16,
   "combustiveis": {
     "1": {
       "totalPostos": 5,
       "valorMinimo": 6.899724011039559,
-      "valorMaximo": 7.989941324392288,
-      "valorMedio": 7.153728763712815
+      "valorMaximo": 6.9904761904761905,
+      "valorMedio": 6.953678898393704
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.399733609590054,
-      "valorMaximo": 7.399733609590054,
-      "valorMedio": 7.399733609590054
+      "valorMinimo": 7,
+      "valorMaximo": 7,
+      "valorMedio": 7
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 5.0900946757609695,
-      "valorMaximo": 5.490514905149052,
-      "valorMedio": 5.2236544534992335
+      "valorMinimo": 5.090307809717629,
+      "valorMaximo": 6.289981972701519,
+      "valorMedio": 5.490200589760953
     },
     "4": {
       "totalPostos": 2,
-      "valorMinimo": 7.461952243505642,
-      "valorMaximo": 8.200680272108844,
-      "valorMedio": 7.831316257807243
+      "valorMinimo": 8.19672131147541,
+      "valorMaximo": 8.198961464881116,
+      "valorMedio": 8.197841388178261
     },
     "5": {
       "totalPostos": 5,
-      "valorMinimo": 7.190106413574921,
-      "valorMaximo": 7.6500642058960135,
-      "valorMedio": 7.376311264818895
+      "valorMinimo": 6.742550569129269,
+      "valorMaximo": 7.6,
+      "valorMedio": 7.1944335938509525
     }
   },
   "estabelecimentos": [
@@ -54,7 +54,7 @@
       "valor_maximo": 6.899724011039559,
       "valor_medio": 6.899724011039559,
       "valor_recente": 6.899724011039559,
-      "data_recente": "2026-04-13T17:53:00Z"
+      "data_recente": "2026-04-13T23:40:00Z"
     },
     {
       "cnpj": "33296262000102",
@@ -70,31 +70,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.901311249137336,
-      "valor_maximo": 6.901311249137336,
-      "valor_medio": 6.901311249137336,
-      "valor_recente": 6.901311249137336,
-      "data_recente": "2026-04-13T18:00:52Z"
-    },
-    {
-      "cnpj": "08422115000348",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTOPEL-AUTO POSTO PROGRESSO LTDA",
-      "nome_fantasia": "AUTOPEL",
-      "telefone": "(82) 35221355",
-      "nome_logradouro": "AV TIRADENTES",
-      "numero_imovel": "SN",
-      "bairro": "CENTRO",
-      "cep": "57360000",
-      "codigo_ibge": 2702900,
-      "municipio": "GIRAU DO PONCIANO",
-      "latitude": -9.883111,
-      "longitude": -36.8272288,
-      "valor_minimo": 6.988120195667365,
-      "valor_maximo": 6.988120195667365,
-      "valor_medio": 6.988120195667365,
-      "valor_recente": 6.988120195667365,
-      "data_recente": "2026-04-13T18:14:52Z"
+      "valor_minimo": 6.9,
+      "valor_maximo": 6.9,
+      "valor_medio": 6.9,
+      "valor_recente": 6.9,
+      "data_recente": "2026-04-13T23:30:40Z"
     },
     {
       "cnpj": "17830342000131",
@@ -110,11 +90,31 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.882830799999999,
       "longitude": -36.8305595,
-      "valor_minimo": 6.989547038327526,
-      "valor_maximo": 6.989547038327526,
-      "valor_medio": 6.989547038327526,
-      "valor_recente": 6.989547038327526,
-      "data_recente": "2026-04-13T17:45:01Z"
+      "valor_minimo": 6.988120195667365,
+      "valor_maximo": 6.988120195667365,
+      "valor_medio": 6.988120195667365,
+      "valor_recente": 6.988120195667365,
+      "data_recente": "2026-04-13T22:35:51Z"
+    },
+    {
+      "cnpj": "08422115000348",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTOPEL-AUTO POSTO PROGRESSO LTDA",
+      "nome_fantasia": "AUTOPEL",
+      "telefone": "(82) 35221355",
+      "nome_logradouro": "AV TIRADENTES",
+      "numero_imovel": "SN",
+      "bairro": "CENTRO",
+      "cep": "57360000",
+      "codigo_ibge": 2702900,
+      "municipio": "GIRAU DO PONCIANO",
+      "latitude": -9.883111,
+      "longitude": -36.8272288,
+      "valor_minimo": 6.990074094785404,
+      "valor_maximo": 6.990074094785404,
+      "valor_medio": 6.990074094785404,
+      "valor_recente": 6.990074094785404,
+      "data_recente": "2026-04-13T22:47:34Z"
     },
     {
       "cnpj": "08422115000186",
@@ -130,11 +130,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.8855612,
       "longitude": -36.8209998,
-      "valor_minimo": 7.989941324392288,
-      "valor_maximo": 7.989941324392288,
-      "valor_medio": 7.989941324392288,
-      "valor_recente": 7.989941324392288,
-      "data_recente": "2026-04-13T18:08:39Z"
+      "valor_minimo": 6.9904761904761905,
+      "valor_maximo": 6.9904761904761905,
+      "valor_medio": 6.9904761904761905,
+      "valor_recente": 6.9904761904761905,
+      "data_recente": "2026-04-13T23:31:46Z"
     },
     {
       "cnpj": "33296262000102",
@@ -150,11 +150,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.399733609590054,
-      "valor_maximo": 7.399733609590054,
-      "valor_medio": 7.399733609590054,
-      "valor_recente": 7.399733609590054,
-      "data_recente": "2026-04-13T17:51:03Z"
+      "valor_minimo": 7,
+      "valor_maximo": 7,
+      "valor_medio": 7,
+      "valor_recente": 7,
+      "data_recente": "2026-04-13T23:23:46Z"
     },
     {
       "cnpj": "09657072000180",
@@ -170,11 +170,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.882258799999999,
       "longitude": -36.8186161,
-      "valor_minimo": 5.0900946757609695,
-      "valor_maximo": 5.0900946757609695,
-      "valor_medio": 5.0900946757609695,
-      "valor_recente": 5.0900946757609695,
-      "data_recente": "2026-04-13T17:49:40Z"
+      "valor_minimo": 5.090307809717629,
+      "valor_maximo": 5.090307809717629,
+      "valor_medio": 5.090307809717629,
+      "valor_recente": 5.090307809717629,
+      "data_recente": "2026-04-13T22:22:57Z"
     },
     {
       "cnpj": "33296262000102",
@@ -190,11 +190,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.090353779587681,
-      "valor_maximo": 5.090353779587681,
-      "valor_medio": 5.090353779587681,
-      "valor_recente": 5.090353779587681,
-      "data_recente": "2026-04-13T16:56:55Z"
+      "valor_minimo": 5.090311986863711,
+      "valor_maximo": 5.090311986863711,
+      "valor_medio": 5.090311986863711,
+      "valor_recente": 5.090311986863711,
+      "data_recente": "2026-04-13T23:30:40Z"
     },
     {
       "cnpj": "08422115000186",
@@ -210,11 +210,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.8855612,
       "longitude": -36.8209998,
-      "valor_minimo": 5.490514905149052,
-      "valor_maximo": 5.490514905149052,
-      "valor_medio": 5.490514905149052,
-      "valor_recente": 5.490514905149052,
-      "data_recente": "2026-04-13T17:55:19Z"
+      "valor_minimo": 6.289981972701519,
+      "valor_maximo": 6.289981972701519,
+      "valor_medio": 6.289981972701519,
+      "valor_recente": 6.289981972701519,
+      "data_recente": "2026-04-13T21:59:52Z"
     },
     {
       "cnpj": "09657072000180",
@@ -230,11 +230,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.882258799999999,
       "longitude": -36.8186161,
-      "valor_minimo": 7.461952243505642,
-      "valor_maximo": 7.461952243505642,
-      "valor_medio": 7.461952243505642,
-      "valor_recente": 7.461952243505642,
-      "data_recente": "2026-04-13T16:35:34Z"
+      "valor_minimo": 8.19672131147541,
+      "valor_maximo": 8.19672131147541,
+      "valor_medio": 8.19672131147541,
+      "valor_recente": 8.19672131147541,
+      "data_recente": "2026-04-13T23:20:11Z"
     },
     {
       "cnpj": "33296262000102",
@@ -250,31 +250,31 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 8.200680272108844,
-      "valor_maximo": 8.200680272108844,
-      "valor_medio": 8.200680272108844,
-      "valor_recente": 8.200680272108844,
-      "data_recente": "2026-04-13T16:56:55Z"
+      "valor_minimo": 8.198961464881116,
+      "valor_maximo": 8.198961464881116,
+      "valor_medio": 8.198961464881116,
+      "valor_recente": 8.198961464881116,
+      "data_recente": "2026-04-13T23:30:40Z"
     },
     {
-      "cnpj": "08422115000186",
+      "cnpj": "09657072000180",
       "tipo_combustivel": 5,
-      "razao_social": "AUTOPEL-AUTO POSTO PROGRESSO LTDA",
-      "nome_fantasia": "AUTOPEL",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 115",
-      "numero_imovel": "SN",
-      "bairro": "PROGRESSO",
+      "razao_social": "AUTO POSTO KILTER LTDA - ME",
+      "nome_fantasia": "AUTO POSTO KILTER LTDA",
+      "telefone": "(82) 35221355",
+      "nome_logradouro": "ROD AL 115",
+      "numero_imovel": "800",
+      "bairro": "DISTRITO INDUSTRIAL",
       "cep": "57360000",
       "codigo_ibge": 2702900,
       "municipio": "GIRAU DO PONCIANO",
-      "latitude": -9.8855612,
-      "longitude": -36.8209998,
-      "valor_minimo": 7.190106413574921,
-      "valor_maximo": 7.190106413574921,
-      "valor_medio": 7.190106413574921,
-      "valor_recente": 7.190106413574921,
-      "data_recente": "2026-04-13T17:55:51Z"
+      "latitude": -9.882258799999999,
+      "longitude": -36.8186161,
+      "valor_minimo": 6.742550569129269,
+      "valor_maximo": 6.742550569129269,
+      "valor_medio": 6.742550569129269,
+      "valor_recente": 6.742550569129269,
+      "data_recente": "2026-04-13T23:21:53Z"
     },
     {
       "cnpj": "08422115000348",
@@ -290,51 +290,31 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.883111,
       "longitude": -36.8272288,
-      "valor_minimo": 7.191489361702128,
-      "valor_maximo": 7.191489361702128,
-      "valor_medio": 7.191489361702128,
-      "valor_recente": 7.191489361702128,
-      "data_recente": "2026-04-13T14:55:41Z"
+      "valor_minimo": 7.1897466116676485,
+      "valor_maximo": 7.1897466116676485,
+      "valor_medio": 7.1897466116676485,
+      "valor_recente": 7.1897466116676485,
+      "data_recente": "2026-04-13T22:47:34Z"
     },
     {
-      "cnpj": "09657072000180",
+      "cnpj": "08422115000186",
       "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO KILTER LTDA - ME",
-      "nome_fantasia": "AUTO POSTO KILTER LTDA",
-      "telefone": "(82) 35221355",
-      "nome_logradouro": "ROD AL 115",
-      "numero_imovel": "800",
-      "bairro": "DISTRITO INDUSTRIAL",
-      "cep": "57360000",
-      "codigo_ibge": 2702900,
-      "municipio": "GIRAU DO PONCIANO",
-      "latitude": -9.882258799999999,
-      "longitude": -36.8186161,
-      "valor_minimo": 7.249969795819742,
-      "valor_maximo": 7.249969795819742,
-      "valor_medio": 7.249969795819742,
-      "valor_recente": 7.249969795819742,
-      "data_recente": "2026-04-13T17:49:10Z"
-    },
-    {
-      "cnpj": "17830342000131",
-      "tipo_combustivel": 5,
-      "razao_social": "JOSE BARBOSA DE CARVALHO & CIA LTDA",
-      "nome_fantasia": "POSTO NOSSA SENHORA DA CONCEICAO",
+      "razao_social": "AUTOPEL-AUTO POSTO PROGRESSO LTDA",
+      "nome_fantasia": "AUTOPEL",
       "telefone": "",
-      "nome_logradouro": "Rua FERNANDO COLLOR DE MELLO",
-      "numero_imovel": "20",
-      "bairro": "CANAFISTULA",
+      "nome_logradouro": "RDV AL 115",
+      "numero_imovel": "SN",
+      "bairro": "PROGRESSO",
       "cep": "57360000",
       "codigo_ibge": 2702900,
       "municipio": "GIRAU DO PONCIANO",
-      "latitude": -9.882830799999999,
-      "longitude": -36.8305595,
-      "valor_minimo": 7.5999265471016715,
-      "valor_maximo": 7.5999265471016715,
-      "valor_medio": 7.5999265471016715,
-      "valor_recente": 7.5999265471016715,
-      "data_recente": "2026-04-13T15:33:09Z"
+      "latitude": -9.8855612,
+      "longitude": -36.8209998,
+      "valor_minimo": 7.1899916197773255,
+      "valor_maximo": 7.1899916197773255,
+      "valor_medio": 7.1899916197773255,
+      "valor_recente": 7.1899916197773255,
+      "data_recente": "2026-04-13T21:39:29Z"
     },
     {
       "cnpj": "33296262000102",
@@ -350,11 +330,31 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.6500642058960135,
-      "valor_maximo": 7.6500642058960135,
-      "valor_medio": 7.6500642058960135,
-      "valor_recente": 7.6500642058960135,
-      "data_recente": "2026-04-13T17:52:50Z"
+      "valor_minimo": 7.249879168680522,
+      "valor_maximo": 7.249879168680522,
+      "valor_medio": 7.249879168680522,
+      "valor_recente": 7.249879168680522,
+      "data_recente": "2026-04-13T22:46:59Z"
+    },
+    {
+      "cnpj": "17830342000131",
+      "tipo_combustivel": 5,
+      "razao_social": "JOSE BARBOSA DE CARVALHO & CIA LTDA",
+      "nome_fantasia": "POSTO NOSSA SENHORA DA CONCEICAO",
+      "telefone": "",
+      "nome_logradouro": "Rua FERNANDO COLLOR DE MELLO",
+      "numero_imovel": "20",
+      "bairro": "CANAFISTULA",
+      "cep": "57360000",
+      "codigo_ibge": 2702900,
+      "municipio": "GIRAU DO PONCIANO",
+      "latitude": -9.882830799999999,
+      "longitude": -36.8305595,
+      "valor_minimo": 7.6,
+      "valor_maximo": 7.6,
+      "valor_medio": 7.6,
+      "valor_recente": 7.6,
+      "data_recente": "2026-04-13T22:35:50Z"
     }
   ]
 }

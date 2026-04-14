@@ -1,49 +1,29 @@
 {
   "codigoIBGE": "2708105",
   "municipio": "Santana do Mundaú",
-  "atualizadoEm": "2026-04-14T02:07:58.617Z",
+  "atualizadoEm": "2026-04-14T05:55:23.488Z",
   "totalEstabelecimentos": 5,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.890034364261169,
-      "valorMaximo": 6.890215893431328,
-      "valorMedio": 6.890125128846249
+      "valorMinimo": 6.888736263736264,
+      "valorMaximo": 6.890160183066362,
+      "valorMedio": 6.889448223401313
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.691519635742743,
-      "valorMaximo": 5.691519635742743,
-      "valorMedio": 5.691519635742743
+      "valorMinimo": 5.690224194833276,
+      "valorMaximo": 5.690224194833276,
+      "valorMedio": 5.690224194833276
     },
     "5": {
       "totalPostos": 2,
       "valorMinimo": 7.049984528905163,
-      "valorMaximo": 7.349830508474576,
-      "valorMedio": 7.199907518689869
+      "valorMaximo": 7.349938750510413,
+      "valorMedio": 7.199961639707787
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "40433057000107",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO LIMA LTDA",
-      "nome_fantasia": "AUTO POSTO SAO JOSE",
-      "telefone": "",
-      "nome_logradouro": "AV DOUTOR MUNIZ FALCAO",
-      "numero_imovel": "S/N",
-      "bairro": "CENTRO",
-      "cep": "57840000",
-      "codigo_ibge": 2708105,
-      "municipio": "SANTANA DO MUNDAU",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.890034364261169,
-      "valor_maximo": 6.890034364261169,
-      "valor_medio": 6.890034364261169,
-      "valor_recente": 6.890034364261169,
-      "data_recente": "2026-04-13T20:38:25Z"
-    },
     {
       "cnpj": "11140617000129",
       "tipo_combustivel": 1,
@@ -58,11 +38,31 @@
       "municipio": "SANTANA DO MUNDAU",
       "latitude": -9.1702427,
       "longitude": -36.2207663,
-      "valor_minimo": 6.890215893431328,
-      "valor_maximo": 6.890215893431328,
-      "valor_medio": 6.890215893431328,
-      "valor_recente": 6.890215893431328,
-      "data_recente": "2026-04-13T20:40:17Z"
+      "valor_minimo": 6.888736263736264,
+      "valor_maximo": 6.888736263736264,
+      "valor_medio": 6.888736263736264,
+      "valor_recente": 6.888736263736264,
+      "data_recente": "2026-04-14T00:53:46Z"
+    },
+    {
+      "cnpj": "40433057000107",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO LIMA LTDA",
+      "nome_fantasia": "AUTO POSTO SAO JOSE",
+      "telefone": "",
+      "nome_logradouro": "AV DOUTOR MUNIZ FALCAO",
+      "numero_imovel": "S/N",
+      "bairro": "CENTRO",
+      "cep": "57840000",
+      "codigo_ibge": 2708105,
+      "municipio": "SANTANA DO MUNDAU",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.890160183066362,
+      "valor_maximo": 6.890160183066362,
+      "valor_medio": 6.890160183066362,
+      "valor_recente": 6.890160183066362,
+      "data_recente": "2026-04-14T00:59:40Z"
     },
     {
       "cnpj": "11140617000129",
@@ -78,11 +78,11 @@
       "municipio": "SANTANA DO MUNDAU",
       "latitude": -9.1702427,
       "longitude": -36.2207663,
-      "valor_minimo": 5.691519635742743,
-      "valor_maximo": 5.691519635742743,
-      "valor_medio": 5.691519635742743,
-      "valor_recente": 5.691519635742743,
-      "data_recente": "2026-04-13T20:40:17Z"
+      "valor_minimo": 5.690224194833276,
+      "valor_maximo": 5.690224194833276,
+      "valor_medio": 5.690224194833276,
+      "valor_recente": 5.690224194833276,
+      "data_recente": "2026-04-14T00:26:15Z"
     },
     {
       "cnpj": "11140617000129",
@@ -118,11 +118,11 @@
       "municipio": "SANTANA DO MUNDAU",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.349830508474576,
-      "valor_maximo": 7.349830508474576,
-      "valor_medio": 7.349830508474576,
-      "valor_recente": 7.349830508474576,
-      "data_recente": "2026-04-13T20:08:59Z"
+      "valor_minimo": 7.349938750510413,
+      "valor_maximo": 7.349938750510413,
+      "valor_medio": 7.349938750510413,
+      "valor_recente": 7.349938750510413,
+      "data_recente": "2026-04-13T20:56:49Z"
     }
   ]
 }

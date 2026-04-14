@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2702504",
   "municipio": "Dois Riachos",
-  "atualizadoEm": "2026-04-14T01:37:22.078Z",
+  "atualizadoEm": "2026-04-14T05:24:04.871Z",
   "totalEstabelecimentos": 7,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.800054351518446,
-      "valorMaximo": 6.890034364261169,
-      "valorMedio": 6.845044357889807
+      "valorMinimo": 6.799806576402321,
+      "valorMaximo": 6.890160183066362,
+      "valorMedio": 6.844983379734341
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 6.80003624994336,
-      "valorMaximo": 6.80003624994336,
-      "valorMedio": 6.80003624994336
+      "valorMinimo": 6.799366659126894,
+      "valorMaximo": 6.799366659126894,
+      "valorMedio": 6.799366659126894
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.299295774647887,
-      "valorMaximo": 5.599731212901781,
-      "valorMedio": 5.449513493774834
+      "valorMinimo": 5.299907149489322,
+      "valorMaximo": 5.600335852225021,
+      "valorMedio": 5.450121500857172
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.260119940029985,
-      "valorMaximo": 7.500468779298706,
-      "valorMedio": 7.3802943596643455
+      "valorMinimo": 7.4998126358390165,
+      "valorMaximo": 7.5,
+      "valorMedio": 7.499906317919509
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "DOIS RIACHOS",
       "latitude": -9.3892335,
       "longitude": -37.09705090000001,
-      "valor_minimo": 6.800054351518446,
-      "valor_maximo": 6.800054351518446,
-      "valor_medio": 6.800054351518446,
-      "valor_recente": 6.800054351518446,
-      "data_recente": "2026-04-12T21:52:26Z"
+      "valor_minimo": 6.799806576402321,
+      "valor_maximo": 6.799806576402321,
+      "valor_medio": 6.799806576402321,
+      "valor_recente": 6.799806576402321,
+      "data_recente": "2026-04-13T23:01:51Z"
     },
     {
       "cnpj": "09418619000195",
@@ -64,11 +64,11 @@
       "municipio": "DOIS RIACHOS",
       "latitude": -9.389135399999999,
       "longitude": -37.0896568,
-      "valor_minimo": 6.890034364261169,
-      "valor_maximo": 6.890034364261169,
-      "valor_medio": 6.890034364261169,
-      "valor_recente": 6.890034364261169,
-      "data_recente": "2026-04-13T15:22:23Z"
+      "valor_minimo": 6.890160183066362,
+      "valor_maximo": 6.890160183066362,
+      "valor_medio": 6.890160183066362,
+      "valor_recente": 6.890160183066362,
+      "data_recente": "2026-04-13T21:11:09Z"
     },
     {
       "cnpj": "10230405000170",
@@ -84,11 +84,11 @@
       "municipio": "DOIS RIACHOS",
       "latitude": -9.3892335,
       "longitude": -37.09705090000001,
-      "valor_minimo": 6.80003624994336,
-      "valor_maximo": 6.80003624994336,
-      "valor_medio": 6.80003624994336,
-      "valor_recente": 6.80003624994336,
-      "data_recente": "2026-04-13T17:54:29Z"
+      "valor_minimo": 6.799366659126894,
+      "valor_maximo": 6.799366659126894,
+      "valor_medio": 6.799366659126894,
+      "valor_recente": 6.799366659126894,
+      "data_recente": "2026-04-13T22:53:37Z"
     },
     {
       "cnpj": "10230405000170",
@@ -104,11 +104,11 @@
       "municipio": "DOIS RIACHOS",
       "latitude": -9.3892335,
       "longitude": -37.09705090000001,
-      "valor_minimo": 5.299295774647887,
-      "valor_maximo": 5.299295774647887,
-      "valor_medio": 5.299295774647887,
-      "valor_recente": 5.299295774647887,
-      "data_recente": "2026-04-13T08:57:33Z"
+      "valor_minimo": 5.299907149489322,
+      "valor_maximo": 5.299907149489322,
+      "valor_medio": 5.299907149489322,
+      "valor_recente": 5.299907149489322,
+      "data_recente": "2026-04-13T22:53:07Z"
     },
     {
       "cnpj": "09418619000195",
@@ -124,31 +124,11 @@
       "municipio": "DOIS RIACHOS",
       "latitude": -9.389135399999999,
       "longitude": -37.0896568,
-      "valor_minimo": 5.599731212901781,
-      "valor_maximo": 5.599731212901781,
-      "valor_medio": 5.599731212901781,
-      "valor_recente": 5.599731212901781,
-      "data_recente": "2026-04-13T15:20:35Z"
-    },
-    {
-      "cnpj": "10230405000170",
-      "tipo_combustivel": 5,
-      "razao_social": "ADENILSON OLIVEIRA SILVA - EPP",
-      "nome_fantasia": "AUTO POSTO TANGARA",
-      "telefone": "(82) 36213443",
-      "nome_logradouro": "AV PASTOR MANOEL PEREIRA LIMA",
-      "numero_imovel": "457",
-      "bairro": "PASTOR OZORIO BRAZ",
-      "cep": "57560000",
-      "codigo_ibge": 2702504,
-      "municipio": "DOIS RIACHOS",
-      "latitude": -9.3892335,
-      "longitude": -37.09705090000001,
-      "valor_minimo": 7.260119940029985,
-      "valor_maximo": 7.260119940029985,
-      "valor_medio": 7.260119940029985,
-      "valor_recente": 7.260119940029985,
-      "data_recente": "2026-04-13T17:56:15Z"
+      "valor_minimo": 5.600335852225021,
+      "valor_maximo": 5.600335852225021,
+      "valor_medio": 5.600335852225021,
+      "valor_recente": 5.600335852225021,
+      "data_recente": "2026-04-13T21:10:40Z"
     },
     {
       "cnpj": "09418619000195",
@@ -164,11 +144,31 @@
       "municipio": "DOIS RIACHOS",
       "latitude": -9.389135399999999,
       "longitude": -37.0896568,
-      "valor_minimo": 7.500468779298706,
-      "valor_maximo": 7.500468779298706,
-      "valor_medio": 7.500468779298706,
-      "valor_recente": 7.500468779298706,
-      "data_recente": "2026-04-13T15:17:43Z"
+      "valor_minimo": 7.4998126358390165,
+      "valor_maximo": 7.4998126358390165,
+      "valor_medio": 7.4998126358390165,
+      "valor_recente": 7.4998126358390165,
+      "data_recente": "2026-04-13T21:10:40Z"
+    },
+    {
+      "cnpj": "10230405000170",
+      "tipo_combustivel": 5,
+      "razao_social": "ADENILSON OLIVEIRA SILVA - EPP",
+      "nome_fantasia": "AUTO POSTO TANGARA",
+      "telefone": "(82) 36213443",
+      "nome_logradouro": "AV PASTOR MANOEL PEREIRA LIMA",
+      "numero_imovel": "457",
+      "bairro": "PASTOR OZORIO BRAZ",
+      "cep": "57560000",
+      "codigo_ibge": 2702504,
+      "municipio": "DOIS RIACHOS",
+      "latitude": -9.3892335,
+      "longitude": -37.09705090000001,
+      "valor_minimo": 7.5,
+      "valor_maximo": 7.5,
+      "valor_medio": 7.5,
+      "valor_recente": 7.5,
+      "data_recente": "2026-04-13T22:54:39Z"
     }
   ]
 }

@@ -1,14 +1,20 @@
 {
   "codigoIBGE": "2701902",
   "municipio": "Chã Preta",
-  "atualizadoEm": "2026-04-14T01:34:21.132Z",
-  "totalEstabelecimentos": 2,
+  "atualizadoEm": "2026-04-14T05:19:12.567Z",
+  "totalEstabelecimentos": 3,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 7.288629737609329,
-      "valorMaximo": 7.389617587289858,
-      "valorMedio": 7.339123662449594
+      "valorMinimo": 7.289492841543315,
+      "valorMaximo": 7.389890629618682,
+      "valorMedio": 7.339691735580999
+    },
+    "5": {
+      "totalPostos": 1,
+      "valorMinimo": 7.390087929656275,
+      "valorMaximo": 7.390087929656275,
+      "valorMedio": 7.390087929656275
     }
   },
   "estabelecimentos": [
@@ -26,11 +32,11 @@
       "municipio": "CHA PRETA",
       "latitude": -9.2571423,
       "longitude": -36.2987092,
-      "valor_minimo": 7.288629737609329,
-      "valor_maximo": 7.288629737609329,
-      "valor_medio": 7.288629737609329,
-      "valor_recente": 7.288629737609329,
-      "data_recente": "2026-04-13T14:52:04Z"
+      "valor_minimo": 7.289492841543315,
+      "valor_maximo": 7.289492841543315,
+      "valor_medio": 7.289492841543315,
+      "valor_recente": 7.289492841543315,
+      "data_recente": "2026-04-13T22:03:57Z"
     },
     {
       "cnpj": "15598179000106",
@@ -46,11 +52,31 @@
       "municipio": "CHA PRETA",
       "latitude": -9.256988,
       "longitude": -36.2990104,
-      "valor_minimo": 7.389617587289858,
-      "valor_maximo": 7.389617587289858,
-      "valor_medio": 7.389617587289858,
-      "valor_recente": 7.389617587289858,
-      "data_recente": "2026-04-13T18:15:52Z"
+      "valor_minimo": 7.389890629618682,
+      "valor_maximo": 7.389890629618682,
+      "valor_medio": 7.389890629618682,
+      "valor_recente": 7.389890629618682,
+      "data_recente": "2026-04-13T20:37:12Z"
+    },
+    {
+      "cnpj": "08515249000141",
+      "tipo_combustivel": 5,
+      "razao_social": "POSBRAL - POSTO BRANDAO EIRELI ME",
+      "nome_fantasia": "",
+      "telefone": "(82) 32041114",
+      "nome_logradouro": "Rua OTHON CORREIA",
+      "numero_imovel": "03",
+      "bairro": "CENTRO",
+      "cep": "57760000",
+      "codigo_ibge": 2701902,
+      "municipio": "CHA PRETA",
+      "latitude": -9.2571423,
+      "longitude": -36.2987092,
+      "valor_minimo": 7.390087929656275,
+      "valor_maximo": 7.390087929656275,
+      "valor_medio": 7.390087929656275,
+      "valor_recente": 7.390087929656275,
+      "data_recente": "2026-04-13T22:10:25Z"
     }
   ]
 }
