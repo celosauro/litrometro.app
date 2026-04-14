@@ -10,7 +10,9 @@
     "preview": "vite preview",
     "collect": "tsx scripts/coletar-precos-json.ts",
     "geocode": "tsx scripts/geocodificar.ts",
-    "geocode:local": "./scripts/geocode-local.sh"
+    "geocode:local": "./scripts/geocode-local.sh",
+    "coord:validate": "tsx scripts/validar-google.ts",
+    "coord:fix": "tsx scripts/validar-google.ts --corrigir"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.7",
