@@ -1,55 +1,35 @@
 {
   "codigoIBGE": "2707602",
   "municipio": "Quebrangulo",
-  "atualizadoEm": "2026-04-14T00:22:34.462Z",
+  "atualizadoEm": "2026-04-14T02:04:47.390Z",
   "totalEstabelecimentos": 5,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.89893066574681,
+      "valorMinimo": 6.899641577060932,
       "valorMaximo": 6.9,
-      "valorMedio": 6.899465332873405
+      "valorMedio": 6.899820788530466
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.099751508697196,
-      "valorMaximo": 7.099751508697196,
-      "valorMedio": 7.099751508697196
+      "valorMinimo": 7.099247479767144,
+      "valorMaximo": 7.099247479767144,
+      "valorMedio": 7.099247479767144
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.819940070825388,
-      "valorMaximo": 5.819940070825388,
-      "valorMedio": 5.819940070825388
+      "valorMinimo": 5.819923371647509,
+      "valorMaximo": 5.819923371647509,
+      "valorMedio": 5.819923371647509
     },
     "5": {
       "totalPostos": 1,
-      "valorMinimo": 7.799703611262772,
-      "valorMaximo": 7.799703611262772,
-      "valorMedio": 7.799703611262772
+      "valorMinimo": 7.799952643507087,
+      "valorMaximo": 7.799952643507087,
+      "valorMedio": 7.799952643507087
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "56268982000151",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO GPL III LTDA",
-      "nome_fantasia": "AUTO POSTO GPL III - CENTRO",
-      "telefone": "(82) 996627581",
-      "nome_logradouro": "Rua DO COMERCIO",
-      "numero_imovel": "73",
-      "bairro": "CENTRO",
-      "cep": "57750000",
-      "codigo_ibge": 2707602,
-      "municipio": "QUEBRANGULO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.89893066574681,
-      "valor_maximo": 6.89893066574681,
-      "valor_medio": 6.89893066574681,
-      "valor_recente": 6.89893066574681,
-      "data_recente": "2026-04-13T14:39:01Z"
-    },
     {
       "cnpj": "51723624000178",
       "tipo_combustivel": 1,
@@ -64,11 +44,31 @@
       "municipio": "QUEBRANGULO",
       "latitude": 0,
       "longitude": 0,
+      "valor_minimo": 6.899641577060932,
+      "valor_maximo": 6.899641577060932,
+      "valor_medio": 6.899641577060932,
+      "valor_recente": 6.899641577060932,
+      "data_recente": "2026-04-13T20:42:07Z"
+    },
+    {
+      "cnpj": "56268982000151",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO GPL III LTDA",
+      "nome_fantasia": "AUTO POSTO GPL III - CENTRO",
+      "telefone": "(82) 996627581",
+      "nome_logradouro": "Rua DO COMERCIO",
+      "numero_imovel": "73",
+      "bairro": "CENTRO",
+      "cep": "57750000",
+      "codigo_ibge": 2707602,
+      "municipio": "QUEBRANGULO",
+      "latitude": 0,
+      "longitude": 0,
       "valor_minimo": 6.9,
       "valor_maximo": 6.9,
       "valor_medio": 6.9,
       "valor_recente": 6.9,
-      "data_recente": "2026-04-13T18:09:35Z"
+      "data_recente": "2026-04-13T19:53:28Z"
     },
     {
       "cnpj": "51723624000178",
@@ -84,11 +84,11 @@
       "municipio": "QUEBRANGULO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.099751508697196,
-      "valor_maximo": 7.099751508697196,
-      "valor_medio": 7.099751508697196,
-      "valor_recente": 7.099751508697196,
-      "data_recente": "2026-04-13T17:20:53Z"
+      "valor_minimo": 7.099247479767144,
+      "valor_maximo": 7.099247479767144,
+      "valor_medio": 7.099247479767144,
+      "valor_recente": 7.099247479767144,
+      "data_recente": "2026-04-13T20:29:18Z"
     },
     {
       "cnpj": "56268982000151",
@@ -104,11 +104,11 @@
       "municipio": "QUEBRANGULO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.819940070825388,
-      "valor_maximo": 5.819940070825388,
-      "valor_medio": 5.819940070825388,
-      "valor_recente": 5.819940070825388,
-      "data_recente": "2026-04-13T17:28:53Z"
+      "valor_minimo": 5.819923371647509,
+      "valor_maximo": 5.819923371647509,
+      "valor_medio": 5.819923371647509,
+      "valor_recente": 5.819923371647509,
+      "data_recente": "2026-04-13T20:37:24Z"
     },
     {
       "cnpj": "51723624000178",
@@ -124,11 +124,11 @@
       "municipio": "QUEBRANGULO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.799703611262772,
-      "valor_maximo": 7.799703611262772,
-      "valor_medio": 7.799703611262772,
-      "valor_recente": 7.799703611262772,
-      "data_recente": "2026-04-13T18:00:17Z"
+      "valor_minimo": 7.799952643507087,
+      "valor_maximo": 7.799952643507087,
+      "valor_medio": 7.799952643507087,
+      "valor_recente": 7.799952643507087,
+      "data_recente": "2026-04-13T20:48:06Z"
     }
   ]
 }

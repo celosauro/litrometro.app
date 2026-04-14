@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2705507",
   "municipio": "Murici",
-  "atualizadoEm": "2026-04-14T00:09:04.023Z",
+  "atualizadoEm": "2026-04-14T01:50:14.642Z",
   "totalEstabelecimentos": 10,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.499133448873484,
+      "valorMinimo": 6.499415052645262,
       "valorMaximo": 6.989762046193088,
-      "valorMedio": 6.6629109997096565
+      "valorMedio": 6.663004867633583
     },
     "2": {
       "totalPostos": 2,
@@ -18,15 +18,15 @@
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.199126546740148,
-      "valorMaximo": 6.599919316389776,
-      "valorMedio": 5.899522931564961
+      "valorMinimo": 5.199946232945763,
+      "valorMaximo": 5.739379817171536,
+      "valorMedio": 5.469663025058649
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.159942002899855,
-      "valorMaximo": 7.5873860182370825,
-      "valorMedio": 7.349132457265256
+      "valorMinimo": 7.299980533385244,
+      "valorMaximo": 7.7,
+      "valorMedio": 7.529930096165182
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "MURICI",
       "latitude": -9.3091641,
       "longitude": -35.9430621,
-      "valor_minimo": 6.499133448873484,
-      "valor_maximo": 6.499133448873484,
-      "valor_medio": 6.499133448873484,
-      "valor_recente": 6.499133448873484,
-      "data_recente": "2026-04-13T17:34:12Z"
+      "valor_minimo": 6.499415052645262,
+      "valor_maximo": 6.499415052645262,
+      "valor_medio": 6.499415052645262,
+      "valor_recente": 6.499415052645262,
+      "data_recente": "2026-04-13T19:58:11Z"
     },
     {
       "cnpj": "04168430000178",
@@ -68,7 +68,7 @@
       "valor_maximo": 6.499837504062398,
       "valor_medio": 6.499837504062398,
       "valor_recente": 6.499837504062398,
-      "data_recente": "2026-04-13T18:08:56Z"
+      "data_recente": "2026-04-13T20:41:01Z"
     },
     {
       "cnpj": "05079209000106",
@@ -144,11 +144,11 @@
       "municipio": "MURICI",
       "latitude": -9.3091641,
       "longitude": -35.9430621,
-      "valor_minimo": 5.199126546740148,
-      "valor_maximo": 5.199126546740148,
-      "valor_medio": 5.199126546740148,
-      "valor_recente": 5.199126546740148,
-      "data_recente": "2026-04-13T14:27:24Z"
+      "valor_minimo": 5.199946232945763,
+      "valor_maximo": 5.199946232945763,
+      "valor_medio": 5.199946232945763,
+      "valor_recente": 5.199946232945763,
+      "data_recente": "2026-04-13T20:10:59Z"
     },
     {
       "cnpj": "05079209000106",
@@ -164,31 +164,11 @@
       "municipio": "MURICI",
       "latitude": -9.307119100000001,
       "longitude": -35.9411649,
-      "valor_minimo": 6.599919316389776,
-      "valor_maximo": 6.599919316389776,
-      "valor_medio": 6.599919316389776,
-      "valor_recente": 6.599919316389776,
-      "data_recente": "2026-04-13T18:11:42Z"
-    },
-    {
-      "cnpj": "35741586000120",
-      "tipo_combustivel": 5,
-      "razao_social": "JOSE CICERO LOPES DOS SANTOS - EPP",
-      "nome_fantasia": "AUTO POSTO PADRE CICERO",
-      "telefone": "",
-      "nome_logradouro": "Rua FIRMINO QUEIROZ",
-      "numero_imovel": "S/N",
-      "bairro": "CENTRO",
-      "cep": "57820000",
-      "codigo_ibge": 2705507,
-      "municipio": "MURICI",
-      "latitude": -9.3091641,
-      "longitude": -35.9430621,
-      "valor_minimo": 7.159942002899855,
-      "valor_maximo": 7.159942002899855,
-      "valor_medio": 7.159942002899855,
-      "valor_recente": 7.159942002899855,
-      "data_recente": "2026-04-13T17:01:42Z"
+      "valor_minimo": 5.739379817171536,
+      "valor_maximo": 5.739379817171536,
+      "valor_medio": 5.739379817171536,
+      "valor_recente": 5.739379817171536,
+      "data_recente": "2026-04-13T20:42:25Z"
     },
     {
       "cnpj": "04168430000178",
@@ -204,11 +184,11 @@
       "municipio": "MURICI",
       "latitude": -9.628416999999999,
       "longitude": -35.7359735,
-      "valor_minimo": 7.3000693506588314,
-      "valor_maximo": 7.3000693506588314,
-      "valor_medio": 7.3000693506588314,
-      "valor_recente": 7.3000693506588314,
-      "data_recente": "2026-04-13T17:48:27Z"
+      "valor_minimo": 7.299980533385244,
+      "valor_maximo": 7.299980533385244,
+      "valor_medio": 7.299980533385244,
+      "valor_recente": 7.299980533385244,
+      "data_recente": "2026-04-13T20:36:46Z"
     },
     {
       "cnpj": "05079209000106",
@@ -224,11 +204,31 @@
       "municipio": "MURICI",
       "latitude": -9.307119100000001,
       "longitude": -35.9411649,
-      "valor_minimo": 7.5873860182370825,
-      "valor_maximo": 7.5873860182370825,
-      "valor_medio": 7.5873860182370825,
-      "valor_recente": 7.5873860182370825,
-      "data_recente": "2026-04-13T17:35:39Z"
+      "valor_minimo": 7.589809755110301,
+      "valor_maximo": 7.589809755110301,
+      "valor_medio": 7.589809755110301,
+      "valor_recente": 7.589809755110301,
+      "data_recente": "2026-04-13T20:29:32Z"
+    },
+    {
+      "cnpj": "35741586000120",
+      "tipo_combustivel": 5,
+      "razao_social": "JOSE CICERO LOPES DOS SANTOS - EPP",
+      "nome_fantasia": "AUTO POSTO PADRE CICERO",
+      "telefone": "",
+      "nome_logradouro": "Rua FIRMINO QUEIROZ",
+      "numero_imovel": "S/N",
+      "bairro": "CENTRO",
+      "cep": "57820000",
+      "codigo_ibge": 2705507,
+      "municipio": "MURICI",
+      "latitude": -9.3091641,
+      "longitude": -35.9430621,
+      "valor_minimo": 7.7,
+      "valor_maximo": 7.7,
+      "valor_medio": 7.7,
+      "valor_recente": 7.7,
+      "data_recente": "2026-04-13T19:47:05Z"
     }
   ]
 }

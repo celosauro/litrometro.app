@@ -1,38 +1,38 @@
 {
   "codigoIBGE": "2700706",
   "municipio": "Batalha",
-  "atualizadoEm": "2026-04-13T23:37:47.479Z",
+  "atualizadoEm": "2026-04-14T01:28:31.855Z",
   "totalEstabelecimentos": 13,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
-      "valorMinimo": 6.746666666666667,
-      "valorMaximo": 7.349698662354843,
-      "valorMedio": 6.968954781544505
+      "valorMinimo": 6.751677852348993,
+      "valorMaximo": 7.348973607038123,
+      "valorMedio": 6.994774892963498
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.978102189781022,
-      "valorMaximo": 7.178181818181818,
-      "valorMedio": 7.078142003981419
+      "valorMinimo": 6.979166666666667,
+      "valorMaximo": 7.178750897343862,
+      "valorMedio": 7.078958782005264
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.2499345721015445,
-      "valorMaximo": 6.179514908079716,
-      "valorMedio": 5.71472474009063
+      "valorMinimo": 5.25,
+      "valorMaximo": 6.179429275302812,
+      "valorMedio": 5.714714637651406
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 8.499151103565366,
-      "valorMaximo": 8.499151103565366,
-      "valorMedio": 8.499151103565366
+      "valorMinimo": 8.500028333427778,
+      "valorMaximo": 8.500028333427778,
+      "valorMedio": 8.500028333427778
     },
     "5": {
       "totalPostos": 4,
-      "valorMinimo": 7.3,
-      "valorMaximo": 7.69,
-      "valorMedio": 7.582461396569517
+      "valorMinimo": 7.299802905321556,
+      "valorMaximo": 7.690238278247502,
+      "valorMedio": 7.5824574587036135
     }
   },
   "estabelecimentos": [
@@ -50,11 +50,11 @@
       "municipio": "BATALHA",
       "latitude": -9.674948,
       "longitude": -37.125839,
-      "valor_minimo": 6.746666666666667,
-      "valor_maximo": 6.746666666666667,
-      "valor_medio": 6.746666666666667,
-      "valor_recente": 6.746666666666667,
-      "data_recente": "2026-04-13T14:04:01Z"
+      "valor_minimo": 6.751677852348993,
+      "valor_maximo": 6.751677852348993,
+      "valor_medio": 6.751677852348993,
+      "valor_recente": 6.751677852348993,
+      "data_recente": "2026-04-13T17:51:04Z"
     },
     {
       "cnpj": "15739214000151",
@@ -70,31 +70,11 @@
       "municipio": "BATALHA",
       "latitude": -9.7734693,
       "longitude": -36.0966998,
-      "valor_minimo": 6.799945600435197,
-      "valor_maximo": 6.799945600435197,
-      "valor_medio": 6.799945600435197,
-      "valor_recente": 6.799945600435197,
-      "data_recente": "2026-04-13T14:32:47Z"
-    },
-    {
-      "cnpj": "12204558000178",
-      "tipo_combustivel": 1,
-      "razao_social": "NELSON VIEIRA DA ROCHA LTDA",
-      "nome_fantasia": "POSTO BATALHA",
-      "telefone": "(82) 99148690",
-      "nome_logradouro": "AV GOVERNADOR MUNIZ FALCAO",
-      "numero_imovel": "11",
-      "bairro": "CENTRO",
-      "cep": "57421765",
-      "codigo_ibge": 2700706,
-      "municipio": "BATALHA",
-      "latitude": -9.674044,
-      "longitude": -37.128221,
-      "valor_minimo": 6.979508196721311,
-      "valor_maximo": 6.979508196721311,
-      "valor_medio": 6.979508196721311,
-      "valor_recente": 6.979508196721311,
-      "data_recente": "2026-04-13T14:23:53Z"
+      "valor_minimo": 6.799637352674524,
+      "valor_maximo": 6.799637352674524,
+      "valor_medio": 6.799637352674524,
+      "valor_recente": 6.799637352674524,
+      "data_recente": "2026-04-13T18:15:17Z"
     },
     {
       "cnpj": "11206098000154",
@@ -110,11 +90,31 @@
       "municipio": "BATALHA",
       "latitude": -9.674948,
       "longitude": -37.125839,
-      "valor_minimo": 7.349698662354843,
-      "valor_maximo": 7.349698662354843,
-      "valor_medio": 7.349698662354843,
-      "valor_recente": 7.349698662354843,
-      "data_recente": "2026-04-13T14:19:18Z"
+      "valor_minimo": 7.078810759792355,
+      "valor_maximo": 7.078810759792355,
+      "valor_medio": 7.078810759792355,
+      "valor_recente": 7.078810759792355,
+      "data_recente": "2026-04-13T18:15:18Z"
+    },
+    {
+      "cnpj": "12204558000178",
+      "tipo_combustivel": 1,
+      "razao_social": "NELSON VIEIRA DA ROCHA LTDA",
+      "nome_fantasia": "POSTO BATALHA",
+      "telefone": "(82) 99148690",
+      "nome_logradouro": "AV GOVERNADOR MUNIZ FALCAO",
+      "numero_imovel": "11",
+      "bairro": "CENTRO",
+      "cep": "57421765",
+      "codigo_ibge": 2700706,
+      "municipio": "BATALHA",
+      "latitude": -9.674044,
+      "longitude": -37.128221,
+      "valor_minimo": 7.348973607038123,
+      "valor_maximo": 7.348973607038123,
+      "valor_medio": 7.348973607038123,
+      "valor_recente": 7.348973607038123,
+      "data_recente": "2026-04-13T18:08:15Z"
     },
     {
       "cnpj": "12204558000178",
@@ -130,11 +130,11 @@
       "municipio": "BATALHA",
       "latitude": -9.674044,
       "longitude": -37.128221,
-      "valor_minimo": 6.978102189781022,
-      "valor_maximo": 6.978102189781022,
-      "valor_medio": 6.978102189781022,
-      "valor_recente": 6.978102189781022,
-      "data_recente": "2026-04-13T14:21:20Z"
+      "valor_minimo": 6.979166666666667,
+      "valor_maximo": 6.979166666666667,
+      "valor_medio": 6.979166666666667,
+      "valor_recente": 6.979166666666667,
+      "data_recente": "2026-04-13T18:10:19Z"
     },
     {
       "cnpj": "11206098000154",
@@ -150,11 +150,11 @@
       "municipio": "BATALHA",
       "latitude": -9.674948,
       "longitude": -37.125839,
-      "valor_minimo": 7.178181818181818,
-      "valor_maximo": 7.178181818181818,
-      "valor_medio": 7.178181818181818,
-      "valor_recente": 7.178181818181818,
-      "data_recente": "2026-04-13T14:09:51Z"
+      "valor_minimo": 7.178750897343862,
+      "valor_maximo": 7.178750897343862,
+      "valor_medio": 7.178750897343862,
+      "valor_recente": 7.178750897343862,
+      "data_recente": "2026-04-13T16:49:16Z"
     },
     {
       "cnpj": "11376961000111",
@@ -170,11 +170,11 @@
       "municipio": "BATALHA",
       "latitude": -9.674948,
       "longitude": -37.125839,
-      "valor_minimo": 5.2499345721015445,
-      "valor_maximo": 5.2499345721015445,
-      "valor_medio": 5.2499345721015445,
-      "valor_recente": 5.2499345721015445,
-      "data_recente": "2026-04-13T14:03:11Z"
+      "valor_minimo": 5.25,
+      "valor_maximo": 5.25,
+      "valor_medio": 5.25,
+      "valor_recente": 5.25,
+      "data_recente": "2026-04-13T16:30:02Z"
     },
     {
       "cnpj": "11206098000154",
@@ -190,11 +190,11 @@
       "municipio": "BATALHA",
       "latitude": -9.674948,
       "longitude": -37.125839,
-      "valor_minimo": 6.179514908079716,
-      "valor_maximo": 6.179514908079716,
-      "valor_medio": 6.179514908079716,
-      "valor_recente": 6.179514908079716,
-      "data_recente": "2026-04-13T14:09:13Z"
+      "valor_minimo": 6.179429275302812,
+      "valor_maximo": 6.179429275302812,
+      "valor_medio": 6.179429275302812,
+      "valor_recente": 6.179429275302812,
+      "data_recente": "2026-04-13T18:00:03Z"
     },
     {
       "cnpj": "15739214000151",
@@ -210,11 +210,11 @@
       "municipio": "BATALHA",
       "latitude": -9.7734693,
       "longitude": -36.0966998,
-      "valor_minimo": 8.499151103565366,
-      "valor_maximo": 8.499151103565366,
-      "valor_medio": 8.499151103565366,
-      "valor_recente": 8.499151103565366,
-      "data_recente": "2026-04-13T11:41:59Z"
+      "valor_minimo": 8.500028333427778,
+      "valor_maximo": 8.500028333427778,
+      "valor_medio": 8.500028333427778,
+      "valor_recente": 8.500028333427778,
+      "data_recente": "2026-04-13T16:49:22Z"
     },
     {
       "cnpj": "15739214000151",
@@ -230,11 +230,11 @@
       "municipio": "BATALHA",
       "latitude": -9.7734693,
       "longitude": -36.0966998,
-      "valor_minimo": 7.3,
-      "valor_maximo": 7.3,
-      "valor_medio": 7.3,
-      "valor_recente": 7.3,
-      "data_recente": "2026-04-13T14:25:21Z"
+      "valor_minimo": 7.299802905321556,
+      "valor_maximo": 7.299802905321556,
+      "valor_medio": 7.299802905321556,
+      "valor_recente": 7.299802905321556,
+      "data_recente": "2026-04-13T18:11:25Z"
     },
     {
       "cnpj": "11376961000111",
@@ -254,7 +254,7 @@
       "valor_maximo": 7.649847094801223,
       "valor_medio": 7.649847094801223,
       "valor_recente": 7.649847094801223,
-      "data_recente": "2026-04-13T14:02:56Z"
+      "data_recente": "2026-04-13T16:10:01Z"
     },
     {
       "cnpj": "11206098000154",
@@ -270,11 +270,11 @@
       "municipio": "BATALHA",
       "latitude": -9.674948,
       "longitude": -37.125839,
-      "valor_minimo": 7.689998491476844,
-      "valor_maximo": 7.689998491476844,
-      "valor_medio": 7.689998491476844,
-      "valor_recente": 7.689998491476844,
-      "data_recente": "2026-04-13T13:56:17Z"
+      "valor_minimo": 7.689941556444171,
+      "valor_maximo": 7.689941556444171,
+      "valor_medio": 7.689941556444171,
+      "valor_recente": 7.689941556444171,
+      "data_recente": "2026-04-13T18:00:51Z"
     },
     {
       "cnpj": "12204558000178",
@@ -290,11 +290,11 @@
       "municipio": "BATALHA",
       "latitude": -9.674044,
       "longitude": -37.128221,
-      "valor_minimo": 7.69,
-      "valor_maximo": 7.69,
-      "valor_medio": 7.69,
-      "valor_recente": 7.69,
-      "data_recente": "2026-04-13T14:09:44Z"
+      "valor_minimo": 7.690238278247502,
+      "valor_maximo": 7.690238278247502,
+      "valor_medio": 7.690238278247502,
+      "valor_recente": 7.690238278247502,
+      "data_recente": "2026-04-13T17:14:56Z"
     }
   ]
 }

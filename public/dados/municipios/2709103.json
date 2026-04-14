@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2709103",
   "municipio": "Taquarana",
-  "atualizadoEm": "2026-04-14T00:32:01.264Z",
+  "atualizadoEm": "2026-04-14T02:14:30.701Z",
   "totalEstabelecimentos": 10,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.689834926151173,
-      "valorMaximo": 6.89981282632253,
-      "valorMedio": 6.829778090949961
+      "valorMinimo": 6.689949842095486,
+      "valorMaximo": 7.0999310820124055,
+      "valorMedio": 6.896006142327373
     },
     "2": {
       "totalPostos": 1,
@@ -30,9 +30,9 @@
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.399497487437186,
-      "valorMaximo": 7.399985005248163,
-      "valorMedio": 7.3998084440956395
+      "valorMinimo": 7.398273736128237,
+      "valorMaximo": 7.399983556688317,
+      "valorMedio": 7.399411232205644
     }
   },
   "estabelecimentos": [
@@ -50,11 +50,11 @@
       "municipio": "TAQUARANA",
       "latitude": -9.6451013,
       "longitude": -36.4903116,
-      "valor_minimo": 6.689834926151173,
-      "valor_maximo": 6.689834926151173,
-      "valor_medio": 6.689834926151173,
-      "valor_recente": 6.689834926151173,
-      "data_recente": "2026-04-13T16:58:05Z"
+      "valor_minimo": 6.689949842095486,
+      "valor_maximo": 6.689949842095486,
+      "valor_medio": 6.689949842095486,
+      "valor_recente": 6.689949842095486,
+      "data_recente": "2026-04-13T20:31:00Z"
     },
     {
       "cnpj": "69999456000103",
@@ -70,11 +70,11 @@
       "municipio": "TAQUARANA",
       "latitude": -9.6468235,
       "longitude": -36.4910774,
-      "valor_minimo": 6.899686520376176,
-      "valor_maximo": 6.899686520376176,
-      "valor_medio": 6.899686520376176,
-      "valor_recente": 6.899686520376176,
-      "data_recente": "2026-04-13T17:08:49Z"
+      "valor_minimo": 6.898137502874224,
+      "valor_maximo": 6.898137502874224,
+      "valor_medio": 6.898137502874224,
+      "valor_recente": 6.898137502874224,
+      "data_recente": "2026-04-13T19:16:53Z"
     },
     {
       "cnpj": "15706489000199",
@@ -90,11 +90,11 @@
       "municipio": "TAQUARANA",
       "latitude": -9.645102300000001,
       "longitude": -36.4935948,
-      "valor_minimo": 6.89981282632253,
-      "valor_maximo": 6.89981282632253,
-      "valor_medio": 6.89981282632253,
-      "valor_recente": 6.89981282632253,
-      "data_recente": "2026-04-13T18:12:01Z"
+      "valor_minimo": 7.0999310820124055,
+      "valor_maximo": 7.0999310820124055,
+      "valor_medio": 7.0999310820124055,
+      "valor_recente": 7.0999310820124055,
+      "data_recente": "2026-04-13T20:48:03Z"
     },
     {
       "cnpj": "20097123000108",
@@ -190,31 +190,11 @@
       "municipio": "TAQUARANA",
       "latitude": -9.6451013,
       "longitude": -36.4903116,
-      "valor_minimo": 7.399497487437186,
-      "valor_maximo": 7.399497487437186,
-      "valor_medio": 7.399497487437186,
-      "valor_recente": 7.399497487437186,
-      "data_recente": "2026-04-13T17:00:21Z"
-    },
-    {
-      "cnpj": "15706489000199",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO MANGUEIRAO EIRELI EPP",
-      "nome_fantasia": "POSTO MANGUEIRAO",
-      "telefone": "",
-      "nome_logradouro": "AV PAI JOAO",
-      "numero_imovel": "526",
-      "bairro": "PAI JOAO",
-      "cep": "57640000",
-      "codigo_ibge": 2709103,
-      "municipio": "TAQUARANA",
-      "latitude": -9.645102300000001,
-      "longitude": -36.4935948,
-      "valor_minimo": 7.399942839601571,
-      "valor_maximo": 7.399942839601571,
-      "valor_medio": 7.399942839601571,
-      "valor_recente": 7.399942839601571,
-      "data_recente": "2026-04-13T18:00:43Z"
+      "valor_minimo": 7.398273736128237,
+      "valor_maximo": 7.398273736128237,
+      "valor_medio": 7.398273736128237,
+      "valor_recente": 7.398273736128237,
+      "data_recente": "2026-04-13T19:04:07Z"
     },
     {
       "cnpj": "69999456000103",
@@ -230,11 +210,31 @@
       "municipio": "TAQUARANA",
       "latitude": -9.6468235,
       "longitude": -36.4910774,
-      "valor_minimo": 7.399985005248163,
-      "valor_maximo": 7.399985005248163,
-      "valor_medio": 7.399985005248163,
-      "valor_recente": 7.399985005248163,
-      "data_recente": "2026-04-13T17:24:16Z"
+      "valor_minimo": 7.399976403800376,
+      "valor_maximo": 7.399976403800376,
+      "valor_medio": 7.399976403800376,
+      "valor_recente": 7.399976403800376,
+      "data_recente": "2026-04-13T19:18:24Z"
+    },
+    {
+      "cnpj": "15706489000199",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO MANGUEIRAO EIRELI EPP",
+      "nome_fantasia": "POSTO MANGUEIRAO",
+      "telefone": "",
+      "nome_logradouro": "AV PAI JOAO",
+      "numero_imovel": "526",
+      "bairro": "PAI JOAO",
+      "cep": "57640000",
+      "codigo_ibge": 2709103,
+      "municipio": "TAQUARANA",
+      "latitude": -9.645102300000001,
+      "longitude": -36.4935948,
+      "valor_minimo": 7.399983556688317,
+      "valor_maximo": 7.399983556688317,
+      "valor_medio": 7.399983556688317,
+      "valor_recente": 7.399983556688317,
+      "data_recente": "2026-04-13T18:37:30Z"
     }
   ]
 }

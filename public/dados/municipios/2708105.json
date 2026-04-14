@@ -1,49 +1,29 @@
 {
   "codigoIBGE": "2708105",
   "municipio": "Santana do Mundaú",
-  "atualizadoEm": "2026-04-14T00:25:31.394Z",
+  "atualizadoEm": "2026-04-14T02:07:58.617Z",
   "totalEstabelecimentos": 5,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.88943488943489,
-      "valorMaximo": 6.890410958904109,
-      "valorMedio": 6.8899229241694995
+      "valorMinimo": 6.890034364261169,
+      "valorMaximo": 6.890215893431328,
+      "valorMedio": 6.890125128846249
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.69004758948893,
-      "valorMaximo": 5.69004758948893,
-      "valorMedio": 5.69004758948893
+      "valorMinimo": 5.691519635742743,
+      "valorMaximo": 5.691519635742743,
+      "valorMedio": 5.691519635742743
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.349698662354843,
-      "valorMaximo": 7.350083022565806,
-      "valorMedio": 7.349890842460324
+      "valorMinimo": 7.049984528905163,
+      "valorMaximo": 7.349830508474576,
+      "valorMedio": 7.199907518689869
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "11140617000129",
-      "tipo_combustivel": 1,
-      "razao_social": "ALMEIDA & VASCONCELOS LTDA",
-      "nome_fantasia": "AUTO POSTO EMANUELLY",
-      "telefone": "",
-      "nome_logradouro": "ROD AL 205",
-      "numero_imovel": "20",
-      "bairro": "ZONA RURAL",
-      "cep": "57840000",
-      "codigo_ibge": 2708105,
-      "municipio": "SANTANA DO MUNDAU",
-      "latitude": -9.1702427,
-      "longitude": -36.2207663,
-      "valor_minimo": 6.88943488943489,
-      "valor_maximo": 6.88943488943489,
-      "valor_medio": 6.88943488943489,
-      "valor_recente": 6.88943488943489,
-      "data_recente": "2026-04-13T16:58:05Z"
-    },
     {
       "cnpj": "40433057000107",
       "tipo_combustivel": 1,
@@ -58,11 +38,31 @@
       "municipio": "SANTANA DO MUNDAU",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.890410958904109,
-      "valor_maximo": 6.890410958904109,
-      "valor_medio": 6.890410958904109,
-      "valor_recente": 6.890410958904109,
-      "data_recente": "2026-04-13T17:47:17Z"
+      "valor_minimo": 6.890034364261169,
+      "valor_maximo": 6.890034364261169,
+      "valor_medio": 6.890034364261169,
+      "valor_recente": 6.890034364261169,
+      "data_recente": "2026-04-13T20:38:25Z"
+    },
+    {
+      "cnpj": "11140617000129",
+      "tipo_combustivel": 1,
+      "razao_social": "ALMEIDA & VASCONCELOS LTDA",
+      "nome_fantasia": "AUTO POSTO EMANUELLY",
+      "telefone": "",
+      "nome_logradouro": "ROD AL 205",
+      "numero_imovel": "20",
+      "bairro": "ZONA RURAL",
+      "cep": "57840000",
+      "codigo_ibge": 2708105,
+      "municipio": "SANTANA DO MUNDAU",
+      "latitude": -9.1702427,
+      "longitude": -36.2207663,
+      "valor_minimo": 6.890215893431328,
+      "valor_maximo": 6.890215893431328,
+      "valor_medio": 6.890215893431328,
+      "valor_recente": 6.890215893431328,
+      "data_recente": "2026-04-13T20:40:17Z"
     },
     {
       "cnpj": "11140617000129",
@@ -78,31 +78,11 @@
       "municipio": "SANTANA DO MUNDAU",
       "latitude": -9.1702427,
       "longitude": -36.2207663,
-      "valor_minimo": 5.69004758948893,
-      "valor_maximo": 5.69004758948893,
-      "valor_medio": 5.69004758948893,
-      "valor_recente": 5.69004758948893,
-      "data_recente": "2026-04-13T16:58:05Z"
-    },
-    {
-      "cnpj": "40433057000107",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO LIMA LTDA",
-      "nome_fantasia": "AUTO POSTO SAO JOSE",
-      "telefone": "",
-      "nome_logradouro": "AV DOUTOR MUNIZ FALCAO",
-      "numero_imovel": "S/N",
-      "bairro": "CENTRO",
-      "cep": "57840000",
-      "codigo_ibge": 2708105,
-      "municipio": "SANTANA DO MUNDAU",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.349698662354843,
-      "valor_maximo": 7.349698662354843,
-      "valor_medio": 7.349698662354843,
-      "valor_recente": 7.349698662354843,
-      "data_recente": "2026-04-13T16:56:52Z"
+      "valor_minimo": 5.691519635742743,
+      "valor_maximo": 5.691519635742743,
+      "valor_medio": 5.691519635742743,
+      "valor_recente": 5.691519635742743,
+      "data_recente": "2026-04-13T20:40:17Z"
     },
     {
       "cnpj": "11140617000129",
@@ -118,11 +98,31 @@
       "municipio": "SANTANA DO MUNDAU",
       "latitude": -9.1702427,
       "longitude": -36.2207663,
-      "valor_minimo": 7.350083022565806,
-      "valor_maximo": 7.350083022565806,
-      "valor_medio": 7.350083022565806,
-      "valor_recente": 7.350083022565806,
-      "data_recente": "2026-04-13T16:03:08Z"
+      "valor_minimo": 7.049984528905163,
+      "valor_maximo": 7.049984528905163,
+      "valor_medio": 7.049984528905163,
+      "valor_recente": 7.049984528905163,
+      "data_recente": "2026-04-13T20:45:48Z"
+    },
+    {
+      "cnpj": "40433057000107",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO LIMA LTDA",
+      "nome_fantasia": "AUTO POSTO SAO JOSE",
+      "telefone": "",
+      "nome_logradouro": "AV DOUTOR MUNIZ FALCAO",
+      "numero_imovel": "S/N",
+      "bairro": "CENTRO",
+      "cep": "57840000",
+      "codigo_ibge": 2708105,
+      "municipio": "SANTANA DO MUNDAU",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.349830508474576,
+      "valor_maximo": 7.349830508474576,
+      "valor_medio": 7.349830508474576,
+      "valor_recente": 7.349830508474576,
+      "data_recente": "2026-04-13T20:08:59Z"
     }
   ]
 }

@@ -1,26 +1,26 @@
 {
   "codigoIBGE": "2705606",
   "municipio": "Novo Lino",
-  "atualizadoEm": "2026-04-14T00:09:42.253Z",
+  "atualizadoEm": "2026-04-14T01:50:39.023Z",
   "totalEstabelecimentos": 6,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.989719532887514,
-      "valorMaximo": 6.989959062302694,
-      "valorMedio": 6.989839297595104
+      "valorMinimo": 6.988202637057599,
+      "valorMaximo": 6.990028211502472,
+      "valorMedio": 6.989115424280035
     },
     "3": {
       "totalPostos": 2,
       "valorMinimo": 5.5874190564292325,
-      "valorMaximo": 5.88,
-      "valorMedio": 5.733709528214616
+      "valorMaximo": 5.880000940800151,
+      "valorMedio": 5.7337099986146915
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.410084033613446,
-      "valorMaximo": 7.8885400313971745,
-      "valorMedio": 7.6493120325053106
+      "valorMinimo": 7.8885400313971745,
+      "valorMaximo": 7.900124326564443,
+      "valorMedio": 7.894332178980809
     }
   },
   "estabelecimentos": [
@@ -38,11 +38,11 @@
       "municipio": "NOVO LINO",
       "latitude": -8.944574,
       "longitude": -35.666326,
-      "valor_minimo": 6.989719532887514,
-      "valor_maximo": 6.989719532887514,
-      "valor_medio": 6.989719532887514,
-      "valor_recente": 6.989719532887514,
-      "data_recente": "2026-04-13T17:05:57Z"
+      "valor_minimo": 6.988202637057599,
+      "valor_maximo": 6.988202637057599,
+      "valor_medio": 6.988202637057599,
+      "valor_recente": 6.988202637057599,
+      "data_recente": "2026-04-13T19:14:32Z"
     },
     {
       "cnpj": "41163486000247",
@@ -58,11 +58,11 @@
       "municipio": "NOVO LINO",
       "latitude": -8.941455699999999,
       "longitude": -35.6627226,
-      "valor_minimo": 6.989959062302694,
-      "valor_maximo": 6.989959062302694,
-      "valor_medio": 6.989959062302694,
-      "valor_recente": 6.989959062302694,
-      "data_recente": "2026-04-13T18:14:15Z"
+      "valor_minimo": 6.990028211502472,
+      "valor_maximo": 6.990028211502472,
+      "valor_medio": 6.990028211502472,
+      "valor_recente": 6.990028211502472,
+      "data_recente": "2026-04-13T20:47:18Z"
     },
     {
       "cnpj": "16674625000179",
@@ -98,31 +98,11 @@
       "municipio": "NOVO LINO",
       "latitude": -8.941455699999999,
       "longitude": -35.6627226,
-      "valor_minimo": 5.88,
-      "valor_maximo": 5.88,
-      "valor_medio": 5.88,
-      "valor_recente": 5.88,
-      "data_recente": "2026-04-13T18:15:57Z"
-    },
-    {
-      "cnpj": "41163486000247",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO NOVO LINO LTDA - EPP",
-      "nome_fantasia": "AUTO POSTO NOVO LINO II",
-      "telefone": "(82) 99835582",
-      "nome_logradouro": "SIT LINO",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57970000",
-      "codigo_ibge": 2705606,
-      "municipio": "NOVO LINO",
-      "latitude": -8.941455699999999,
-      "longitude": -35.6627226,
-      "valor_minimo": 7.410084033613446,
-      "valor_maximo": 7.410084033613446,
-      "valor_medio": 7.410084033613446,
-      "valor_recente": 7.410084033613446,
-      "data_recente": "2026-04-13T17:40:30Z"
+      "valor_minimo": 5.880000940800151,
+      "valor_maximo": 5.880000940800151,
+      "valor_medio": 5.880000940800151,
+      "valor_recente": 5.880000940800151,
+      "data_recente": "2026-04-13T20:47:18Z"
     },
     {
       "cnpj": "16674625000179",
@@ -143,6 +123,26 @@
       "valor_medio": 7.8885400313971745,
       "valor_recente": 7.8885400313971745,
       "data_recente": "2026-04-13T14:47:46Z"
+    },
+    {
+      "cnpj": "41163486000247",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO NOVO LINO LTDA - EPP",
+      "nome_fantasia": "AUTO POSTO NOVO LINO II",
+      "telefone": "(82) 99835582",
+      "nome_logradouro": "SIT LINO",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57970000",
+      "codigo_ibge": 2705606,
+      "municipio": "NOVO LINO",
+      "latitude": -8.941455699999999,
+      "longitude": -35.6627226,
+      "valor_minimo": 7.900124326564443,
+      "valor_maximo": 7.900124326564443,
+      "valor_medio": 7.900124326564443,
+      "valor_recente": 7.900124326564443,
+      "data_recente": "2026-04-13T20:34:50Z"
     }
   ]
 }
