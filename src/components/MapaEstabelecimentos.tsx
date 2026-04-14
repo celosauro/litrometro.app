@@ -302,7 +302,7 @@ export function MapaEstabelecimentos({
       </Map>
       
       {/* Legenda / Info */}
-      <div className="absolute bottom-4 right-4 bg-white/90 backdrop-blur-sm rounded-lg px-3 py-2 shadow text-xs text-gray-600">
+      <div className="absolute bottom-4 right-4 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-lg px-3 py-2 shadow text-xs text-gray-600 dark:text-gray-300 border border-transparent dark:border-gray-700">
         {estabelecimentosComCoordenadas.length} postos no mapa
       </div>
     </div>

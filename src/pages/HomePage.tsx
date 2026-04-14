@@ -230,7 +230,7 @@ export default function HomePage() {
   return (
     <div className="flex flex-col flex-1 w-full h-full overflow-hidden">
       {/* Filtros */}
-      <div className="sticky top-0 bg-white/90 backdrop-blur-md shadow-sm z-40 flex-shrink-0">
+      <div className="sticky top-0 bg-white/90 dark:bg-gray-800/90 backdrop-blur-md shadow-sm dark:shadow-gray-900/20 z-40 flex-shrink-0 border-b border-transparent dark:border-gray-700">
         <div className="max-w-full mx-auto px-3 py-3 sm:px-4 sm:py-4">
           {/* Seletor de combustível */}
           <SeletorTipoCombustivel
@@ -251,7 +251,7 @@ export default function HomePage() {
                 placeholder="Buscar posto, bairro..."
                 value={termoBusca}
                 onChange={(e) => setTermoBusca(e.target.value)}
-                className="w-full pl-9 sm:pl-10 pr-4 py-2 text-sm sm:text-base border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                className="w-full pl-9 sm:pl-10 pr-4 py-2 text-sm sm:text-base border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               />
             </div>
 
@@ -270,7 +270,7 @@ export default function HomePage() {
                 onClick={obterLocalizacao}
                 disabled={carregandoLocalizacao}
                 className={`btn-secondary flex items-center justify-center gap-2 px-3 sm:px-4 ${
-                  localizacao ? 'bg-green-100 text-green-700 border-green-300' : ''
+                  localizacao ? 'bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 border-green-300 dark:border-green-700' : ''
                 }`}
                 aria-label="Obter localização"
                 title={localizacao ? 'Localização obtida' : 'Obter minha localização'}
@@ -291,17 +291,17 @@ export default function HomePage() {
         {(erro || (erroLocalizacao && mostrarStatusLocalizacao) || (localizacao && mostrarStatusLocalizacao)) && (
           <div className="px-3 py-2 sm:px-4 space-y-2 lg:hidden">
             {erro && (
-              <div className="bg-red-50 border border-red-200 rounded-lg p-3">
-                <p className="text-red-700 text-sm">{erro}</p>
+              <div className="bg-red-50 dark:bg-red-900/30 border border-red-200 dark:border-red-800 rounded-lg p-3">
+                <p className="text-red-700 dark:text-red-400 text-sm">{erro}</p>
               </div>
             )}
             {erroLocalizacao && mostrarStatusLocalizacao && (
-              <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3">
-                <p className="text-yellow-700 text-sm">📍 {erroLocalizacao}</p>
+              <div className="bg-yellow-50 dark:bg-yellow-900/30 border border-yellow-200 dark:border-yellow-800 rounded-lg p-3">
+                <p className="text-yellow-700 dark:text-yellow-400 text-sm">📍 {erroLocalizacao}</p>
               </div>
             )}
             {localizacao && mostrarStatusLocalizacao && (
-              <div className="bg-green-50 border border-green-200 rounded-lg p-2 flex items-center gap-2 text-sm text-green-700">
+              <div className="bg-green-50 dark:bg-green-900/30 border border-green-200 dark:border-green-800 rounded-lg p-2 flex items-center gap-2 text-sm text-green-700 dark:text-green-400">
                 <Crosshair size={16} />
                 <span>Localização obtida</span>
               </div>
@@ -312,9 +312,9 @@ export default function HomePage() {
         {/* Loading state */}
         {(carregando || carregandoLocalizacao) && !dadosFiltrados && (
           <div className="flex-1 flex flex-col items-center justify-center py-12">
-            <div className="animate-spin rounded-full h-10 w-10 sm:h-12 sm:w-12 border-4 border-blue-600 border-t-transparent" />
+            <div className="animate-spin rounded-full h-10 w-10 sm:h-12 sm:w-12 border-4 border-blue-600 dark:border-blue-400 border-t-transparent" />
             {carregandoLocalizacao && (
-              <p className="mt-4 text-sm text-gray-500">Obtendo sua localização...</p>
+              <p className="mt-4 text-sm text-gray-500 dark:text-gray-400">Obtendo sua localização...</p>
             )}
           </div>
         )}
@@ -323,15 +323,15 @@ export default function HomePage() {
         {dadosFiltrados && (
           <div className="flex-1 flex flex-col lg:flex-row overflow-hidden min-h-0 relative">
             {/* Sidebar - Lista de postos */}
-            <aside className={`lg:w-[400px] xl:w-[450px] border-r border-gray-200 bg-white flex flex-col overflow-hidden ${mostrarListaMobile ? 'absolute inset-0 z-30 flex' : 'hidden lg:flex'}`}>
+            <aside className={`lg:w-[400px] xl:w-[450px] border-r border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 flex flex-col overflow-hidden ${mostrarListaMobile ? 'absolute inset-0 z-30 flex' : 'hidden lg:flex'}`}>
               {/* Header da lista */}
-              <div className="px-3 py-2 sm:px-4 sm:py-3 border-b border-gray-200 bg-white flex-shrink-0 flex items-center justify-between">
+              <div className="px-3 py-2 sm:px-4 sm:py-3 border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 flex-shrink-0 flex items-center justify-between">
                 <div>
-                  <p className="text-sm sm:text-base text-gray-600 font-medium">
+                  <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300 font-medium">
                     {dadosFiltrados.length} posto{dadosFiltrados.length !== 1 ? 's' : ''} encontrado{dadosFiltrados.length !== 1 ? 's' : ''}
                   </p>
                   {estabelecimentoSelecionado && (
-                    <p className="text-xs text-blue-600 mt-1">
+                    <p className="text-xs text-blue-600 dark:text-blue-400 mt-1">
                       Clique no mapa ou em outro posto para mudar a seleção
                     </p>
                   )}
@@ -339,10 +339,10 @@ export default function HomePage() {
                 {/* Botão fechar lista mobile */}
                 <button
                   onClick={() => setMostrarListaMobile(false)}
-                  className="lg:hidden p-2 rounded-full hover:bg-gray-100"
+                  className="lg:hidden p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700"
                   aria-label="Fechar lista"
                 >
-                  <X size={20} className="text-gray-600" />
+                  <X size={20} className="text-gray-600 dark:text-gray-400" />
                 </button>
               </div>
 
@@ -350,9 +350,9 @@ export default function HomePage() {
               <div className="flex-1 overflow-y-auto px-3 py-3 sm:px-4 sm:py-4 space-y-3">
                 {dadosFiltrados.length === 0 ? (
                   <div className="text-center py-12">
-                    <GasPump size={48} className="mx-auto text-gray-300 mb-4" />
-                    <p className="text-gray-500">Nenhum posto encontrado</p>
-                    <p className="text-sm text-gray-400 mt-1">
+                    <GasPump size={48} className="mx-auto text-gray-300 dark:text-gray-600 mb-4" />
+                    <p className="text-gray-500 dark:text-gray-400">Nenhum posto encontrado</p>
+                    <p className="text-sm text-gray-400 dark:text-gray-500 mt-1">
                       Tente ajustar os filtros
                     </p>
                   </div>

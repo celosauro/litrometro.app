@@ -50,9 +50,9 @@ export function CardCombustivel({ dados, distancia, isSelected, isMelhor, onClic
     <div 
       className={`fuel-card cursor-pointer transition-all border-2 ${
         isMelhor
-          ? 'border-yellow-400 ring-2 ring-yellow-200 shadow-lg'
+          ? 'border-yellow-400 dark:border-yellow-500 ring-2 ring-yellow-200 dark:ring-yellow-500/30 shadow-lg'
           : isSelected 
-            ? 'border-blue-500 shadow-lg scale-[1.02] bg-blue-50/50' 
+            ? 'border-blue-500 shadow-lg scale-[1.02] bg-blue-50/50 dark:bg-blue-900/20' 
             : 'border-transparent hover:shadow-md hover:scale-[1.01]'
       }`}
       onClick={onClick}
@@ -72,21 +72,21 @@ export function CardCombustivel({ dados, distancia, isSelected, isMelhor, onClic
       <div className="px-3 pt-3 pb-1.5 sm:px-4 sm:pt-4 sm:pb-2 flex items-start justify-between gap-2">
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2">
-            <h3 className="font-semibold text-gray-900 truncate text-sm sm:text-base" title={nomeExibicao}>
+            <h3 className="font-semibold text-gray-900 dark:text-white truncate text-sm sm:text-base" title={nomeExibicao}>
               {nomeExibicao}
             </h3>
             {distancia !== undefined && (
-              <span className="flex items-center gap-0.5 text-xs text-blue-600 bg-blue-50 px-1.5 py-0.5 rounded-full flex-shrink-0">
+              <span className="flex items-center gap-0.5 text-xs text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/50 px-1.5 py-0.5 rounded-full flex-shrink-0">
                 <NavigationArrow size={12} />
                 {formatarDistancia(distancia)}
               </span>
             )}
           </div>
-          <p className="text-xs sm:text-sm text-gray-500 truncate flex items-center gap-1" title={dados.municipio}>
+          <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 truncate flex items-center gap-1" title={dados.municipio}>
             <span>{dados.municipio}</span>
             {!temCoordenadas && (
               <span 
-                className="inline-flex items-center gap-0.5 text-[10px] text-orange-600 bg-orange-50 px-1.5 py-0.5 rounded-full"
+                className="inline-flex items-center gap-0.5 text-[10px] text-orange-600 dark:text-orange-400 bg-orange-50 dark:bg-orange-900/30 px-1.5 py-0.5 rounded-full"
                 title="Localização indisponível nos dados da SEFAZ"
               >
                 <MapPinLine size={10} />
@@ -101,19 +101,19 @@ export function CardCombustivel({ dados, distancia, isSelected, isMelhor, onClic
       </div>
 
       {/* Preço principal */}
-      <div className="px-3 py-2 sm:px-4 sm:py-3 bg-gray-50">
+      <div className="px-3 py-2 sm:px-4 sm:py-3 bg-gray-50 dark:bg-gray-700/50">
         <div className="flex items-baseline gap-1 sm:gap-2">
           <span className="price-display">{formatarPreco(dados.valor_recente)}</span>
-          <span className="text-gray-500 text-sm sm:text-base">/litro</span>
+          <span className="text-gray-500 dark:text-gray-400 text-sm sm:text-base">/litro</span>
         </div>
         
         {/* Variação de preço */}
         <div className="mt-1.5 sm:mt-2 flex items-center gap-3 sm:gap-4 text-xs sm:text-sm">
-          <div className="flex items-center gap-1 text-green-600">
+          <div className="flex items-center gap-1 text-green-600 dark:text-green-400">
             <TrendDown size={14} className="sm:w-4 sm:h-4" />
             <span>Mín: {formatarPreco(dados.valor_minimo)}</span>
           </div>
-          <div className="flex items-center gap-1 text-red-600">
+          <div className="flex items-center gap-1 text-red-600 dark:text-red-400">
             <TrendUp size={14} className="sm:w-4 sm:h-4" />
             <span>Máx: {formatarPreco(dados.valor_maximo)}</span>
           </div>
@@ -121,27 +121,27 @@ export function CardCombustivel({ dados, distancia, isSelected, isMelhor, onClic
       </div>
 
       {/* Informações do estabelecimento */}
-      <div className="fuel-card-info px-3 py-2 sm:px-4 sm:py-3 space-y-1.5 sm:space-y-2 text-xs sm:text-sm text-gray-600">
+      <div className="fuel-card-info px-3 py-2 sm:px-4 sm:py-3 space-y-1.5 sm:space-y-2 text-xs sm:text-sm text-gray-600 dark:text-gray-300">
         <div className="flex items-start gap-2">
-          <MapPin size={16} className="flex-shrink-0 mt-0.5 text-gray-400 sm:w-[18px] sm:h-[18px]" />
+          <MapPin size={16} className="flex-shrink-0 mt-0.5 text-gray-400 dark:text-gray-500 sm:w-[18px] sm:h-[18px]" />
           <span className="line-clamp-2">{formatarEndereco() || 'Endereço não informado'}</span>
         </div>
 
         <div className="flex items-center gap-2">
-          <Phone size={16} className="flex-shrink-0 text-gray-400 sm:w-[18px] sm:h-[18px]" />
+          <Phone size={16} className="flex-shrink-0 text-gray-400 dark:text-gray-500 sm:w-[18px] sm:h-[18px]" />
           {dados.telefone ? (
             <a
               href={`tel:${dados.telefone.replace(/\D/g, '')}`}
-              className="text-blue-600 hover:underline active:text-blue-800"
+              className="text-blue-600 dark:text-blue-400 hover:underline active:text-blue-800 dark:active:text-blue-300"
             >
               {dados.telefone}
             </a>
           ) : (
-            <span className="text-gray-400">Não informado</span>
+            <span className="text-gray-400 dark:text-gray-500">Não informado</span>
           )}
         </div>
 
-        <div className="flex items-center gap-2 text-gray-400">
+        <div className="flex items-center gap-2 text-gray-400 dark:text-gray-500">
           <Clock size={16} className="flex-shrink-0 sm:w-[18px] sm:h-[18px]" />
           <span>Atualizado: {formatarData(dados.data_recente)}</span>
         </div>

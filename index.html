@@ -52,6 +52,17 @@
       });
       gtag('config', 'G-XXXXXXXXXX');
     </script>
+    
+    <!-- Tema escuro - aplicar antes de renderizar para evitar flash -->
+    <script>
+      (function() {
+        const saved = localStorage.getItem('litrometro-tema');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (saved === 'dark' || (saved === 'system' && prefersDark) || (!saved && prefersDark)) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
   </head>
   <body>
     <!-- GitHub Pages SPA redirect script -->
