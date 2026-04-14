@@ -14,9 +14,11 @@ interface UsePrecosCombustiveisResultado {
   ultimaAtualizacao: string | null;
 }
 
-// Cache dos dados carregados
+// Cache dos dados carregados (invalidado a cada requisição em dev)
 let cacheAtual: DadosAtuais | null = null;
+let cacheTimestamp: number = 0;
 const cacheMunicipios: Map<string, ResumoMunicipio> = new Map();
+const CACHE_TTL = import.meta.env.DEV ? 0 : 5 * 60 * 1000; // 0 em dev, 5 min em prod
 
 /**
  * Hook para carregar preços de combustíveis do JSON estático
@@ -63,7 +65,10 @@ export function usePrecosCombustiveis({
         atualizadoEm = dadosMunicipio.atualizadoEm;
       } else {
         // Busca todos os dados
-        if (!cacheAtual) {
+        const agora = Date.now();
+        const cacheExpirado = !cacheAtual || (agora - cacheTimestamp > CACHE_TTL);
+        
+        if (cacheExpirado) {
           const resposta = await fetch('/dados/atual.json');
           
           if (!resposta.ok) {
@@ -71,6 +76,7 @@ export function usePrecosCombustiveis({
           }
           
           cacheAtual = await resposta.json() as DadosAtuais;
+          cacheTimestamp = agora;
         }
 
         estabelecimentos = cacheAtual.estabelecimentos;
