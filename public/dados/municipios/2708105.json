@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2708105",
   "municipio": "Santana do Mundaú",
-  "atualizadoEm": "2026-04-15T00:17:42.999Z",
+  "atualizadoEm": "2026-04-15T01:57:06.299Z",
   "totalEstabelecimentos": 5,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.890215893431328,
-      "valorMaximo": 6.891798759476223,
-      "valorMedio": 6.891007326453775
+      "valorMinimo": 6.889424733034792,
+      "valorMaximo": 6.89,
+      "valorMedio": 6.889712366517395
     },
     "3": {
       "totalPostos": 1,
@@ -25,26 +25,6 @@
   },
   "estabelecimentos": [
     {
-      "cnpj": "40433057000107",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO LIMA LTDA",
-      "nome_fantasia": "AUTO POSTO SAO JOSE",
-      "telefone": "",
-      "nome_logradouro": "AV DOUTOR MUNIZ FALCAO",
-      "numero_imovel": "S/N",
-      "bairro": "CENTRO",
-      "cep": "57840000",
-      "codigo_ibge": 2708105,
-      "municipio": "SANTANA DO MUNDAU",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.890215893431328,
-      "valor_maximo": 6.890215893431328,
-      "valor_medio": 6.890215893431328,
-      "valor_recente": 6.890215893431328,
-      "data_recente": "2026-04-14T22:45:42Z"
-    },
-    {
       "cnpj": "11140617000129",
       "tipo_combustivel": 1,
       "razao_social": "ALMEIDA & VASCONCELOS LTDA",
@@ -58,11 +38,31 @@
       "municipio": "SANTANA DO MUNDAU",
       "latitude": -9.1702427,
       "longitude": -36.2207663,
-      "valor_minimo": 6.891798759476223,
-      "valor_maximo": 6.891798759476223,
-      "valor_medio": 6.891798759476223,
-      "valor_recente": 6.891798759476223,
-      "data_recente": "2026-04-14T23:10:31Z"
+      "valor_minimo": 6.889424733034792,
+      "valor_maximo": 6.889424733034792,
+      "valor_medio": 6.889424733034792,
+      "valor_recente": 6.889424733034792,
+      "data_recente": "2026-04-15T00:42:19Z"
+    },
+    {
+      "cnpj": "40433057000107",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO LIMA LTDA",
+      "nome_fantasia": "AUTO POSTO SAO JOSE",
+      "telefone": "",
+      "nome_logradouro": "AV DOUTOR MUNIZ FALCAO",
+      "numero_imovel": "S/N",
+      "bairro": "CENTRO",
+      "cep": "57840000",
+      "codigo_ibge": 2708105,
+      "municipio": "SANTANA DO MUNDAU",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.89,
+      "valor_maximo": 6.89,
+      "valor_medio": 6.89,
+      "valor_recente": 6.89,
+      "data_recente": "2026-04-15T00:43:29Z"
     },
     {
       "cnpj": "11140617000129",

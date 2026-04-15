@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2708402",
   "municipio": "São José da Tapera",
-  "atualizadoEm": "2026-04-15T00:19:15.193Z",
+  "atualizadoEm": "2026-04-15T01:58:33.537Z",
   "totalEstabelecimentos": 11,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
       "valorMinimo": 7,
       "valorMaximo": 7.34,
-      "valorMedio": 7.142948960302458
+      "valorMedio": 7.143060636135924
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 7.189655172413793,
-      "valorMaximo": 7.190106413574921,
-      "valorMedio": 7.189880792994357
+      "valorMinimo": 7.1171818835370235,
+      "valorMaximo": 7.189964157706093,
+      "valorMedio": 7.153573020621558
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 5.3,
-      "valorMaximo": 5.889281507656066,
-      "valorMedio": 5.649939302041166
+      "valorMinimo": 5.44989663801545,
+      "valorMaximo": 5.889777029869584,
+      "valorMedio": 5.700070022117489
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.194244604316546,
+      "valorMinimo": 7.170487106017192,
       "valorMaximo": 7.9,
-      "valorMedio": 7.551388013456304
+      "valorMedio": 7.643422868030515
     }
   },
   "estabelecimentos": [
@@ -48,7 +48,7 @@
       "valor_maximo": 7,
       "valor_medio": 7,
       "valor_recente": 7,
-      "data_recente": "2026-04-14T22:49:10Z"
+      "data_recente": "2026-04-15T00:42:24Z"
     },
     {
       "cnpj": "30434665000174",
@@ -64,11 +64,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": -9.55372,
       "longitude": -37.37467,
-      "valor_minimo": 7.088846880907372,
-      "valor_maximo": 7.088846880907372,
-      "valor_medio": 7.088846880907372,
-      "valor_recente": 7.088846880907372,
-      "data_recente": "2026-04-14T23:33:20Z"
+      "valor_minimo": 7.089181908407769,
+      "valor_maximo": 7.089181908407769,
+      "valor_medio": 7.089181908407769,
+      "valor_recente": 7.089181908407769,
+      "data_recente": "2026-04-15T01:36:10Z"
     },
     {
       "cnpj": "14959471000136",
@@ -88,7 +88,27 @@
       "valor_maximo": 7.34,
       "valor_medio": 7.34,
       "valor_recente": 7.34,
-      "data_recente": "2026-04-14T23:33:42Z"
+      "data_recente": "2026-04-15T00:59:22Z"
+    },
+    {
+      "cnpj": "14959471000136",
+      "tipo_combustivel": 2,
+      "razao_social": "ASHP COMERCIO DE COMBUSTIVEIS E DERIVADOS LTDA.",
+      "nome_fantasia": "AUTO POSTO DOIS IRMAOS - TAPERA",
+      "telefone": "",
+      "nome_logradouro": "ROD AL 220",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57445000",
+      "codigo_ibge": 2708402,
+      "municipio": "SAO JOSE DA TAPERA",
+      "latitude": -9.5309789,
+      "longitude": -37.5115726,
+      "valor_minimo": 7.1171818835370235,
+      "valor_maximo": 7.1171818835370235,
+      "valor_medio": 7.1171818835370235,
+      "valor_recente": 7.1171818835370235,
+      "data_recente": "2026-04-15T00:51:58Z"
     },
     {
       "cnpj": "12512646000137",
@@ -104,31 +124,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.189655172413793,
-      "valor_maximo": 7.189655172413793,
-      "valor_medio": 7.189655172413793,
-      "valor_recente": 7.189655172413793,
-      "data_recente": "2026-04-14T22:20:12Z"
-    },
-    {
-      "cnpj": "14959471000136",
-      "tipo_combustivel": 2,
-      "razao_social": "ASHP COMERCIO DE COMBUSTIVEIS E DERIVADOS LTDA.",
-      "nome_fantasia": "AUTO POSTO DOIS IRMAOS - TAPERA",
-      "telefone": "",
-      "nome_logradouro": "ROD AL 220",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57445000",
-      "codigo_ibge": 2708402,
-      "municipio": "SAO JOSE DA TAPERA",
-      "latitude": -9.5309789,
-      "longitude": -37.5115726,
-      "valor_minimo": 7.190106413574921,
-      "valor_maximo": 7.190106413574921,
-      "valor_medio": 7.190106413574921,
-      "valor_recente": 7.190106413574921,
-      "data_recente": "2026-04-14T23:20:26Z"
+      "valor_minimo": 7.189964157706093,
+      "valor_maximo": 7.189964157706093,
+      "valor_medio": 7.189964157706093,
+      "valor_recente": 7.189964157706093,
+      "data_recente": "2026-04-15T00:55:09Z"
     },
     {
       "cnpj": "14959471000136",
@@ -144,11 +144,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": -9.5309789,
       "longitude": -37.5115726,
-      "valor_minimo": 5.3,
-      "valor_maximo": 5.3,
-      "valor_medio": 5.3,
-      "valor_recente": 5.3,
-      "data_recente": "2026-04-14T22:23:05Z"
+      "valor_minimo": 5.44989663801545,
+      "valor_maximo": 5.44989663801545,
+      "valor_medio": 5.44989663801545,
+      "valor_recente": 5.44989663801545,
+      "data_recente": "2026-04-15T00:45:23Z"
     },
     {
       "cnpj": "12512646000137",
@@ -184,11 +184,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": -9.55372,
       "longitude": -37.37467,
-      "valor_minimo": 5.889281507656066,
-      "valor_maximo": 5.889281507656066,
-      "valor_medio": 5.889281507656066,
-      "valor_recente": 5.889281507656066,
-      "data_recente": "2026-04-14T22:22:21Z"
+      "valor_minimo": 5.889777029869584,
+      "valor_maximo": 5.889777029869584,
+      "valor_medio": 5.889777029869584,
+      "valor_recente": 5.889777029869584,
+      "data_recente": "2026-04-14T23:38:19Z"
     },
     {
       "cnpj": "14959471000136",
@@ -204,11 +204,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": -9.5309789,
       "longitude": -37.5115726,
-      "valor_minimo": 7.194244604316546,
-      "valor_maximo": 7.194244604316546,
-      "valor_medio": 7.194244604316546,
-      "valor_recente": 7.194244604316546,
-      "data_recente": "2026-04-14T23:12:55Z"
+      "valor_minimo": 7.170487106017192,
+      "valor_maximo": 7.170487106017192,
+      "valor_medio": 7.170487106017192,
+      "valor_recente": 7.170487106017192,
+      "data_recente": "2026-04-15T00:50:12Z"
     },
     {
       "cnpj": "12512646000137",
@@ -224,11 +224,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.5599194360523665,
-      "valor_maximo": 7.5599194360523665,
-      "valor_medio": 7.5599194360523665,
-      "valor_recente": 7.5599194360523665,
-      "data_recente": "2026-04-14T22:06:04Z"
+      "valor_minimo": 7.859781498074353,
+      "valor_maximo": 7.859781498074353,
+      "valor_medio": 7.859781498074353,
+      "valor_recente": 7.859781498074353,
+      "data_recente": "2026-04-14T23:52:17Z"
     },
     {
       "cnpj": "30434665000174",
@@ -248,7 +248,7 @@
       "valor_maximo": 7.9,
       "valor_medio": 7.9,
       "valor_recente": 7.9,
-      "data_recente": "2026-04-14T23:03:20Z"
+      "data_recente": "2026-04-14T23:55:50Z"
     }
   ]
 }

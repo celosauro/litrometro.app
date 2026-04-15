@@ -1,20 +1,20 @@
 {
   "codigoIBGE": "2707305",
   "municipio": "Porto Calvo",
-  "atualizadoEm": "2026-04-15T00:13:34.389Z",
+  "atualizadoEm": "2026-04-15T01:52:10.582Z",
   "totalEstabelecimentos": 14,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
-      "valorMinimo": 6.579935092422746,
-      "valorMaximo": 7.100255609201931,
-      "valorMedio": 6.802647860515984
+      "valorMinimo": 6.739989133786581,
+      "valorMaximo": 7.0979020979020975,
+      "valorMedio": 6.854139353008972
     },
     "2": {
       "totalPostos": 2,
       "valorMinimo": 6.889899407468651,
-      "valorMaximo": 6.989130434782608,
-      "valorMedio": 6.93951492112563
+      "valorMaximo": 6.989247311827957,
+      "valorMedio": 6.939573359648303
     },
     "3": {
       "totalPostos": 4,
@@ -31,26 +31,6 @@
   },
   "estabelecimentos": [
     {
-      "cnpj": "34190671000184",
-      "tipo_combustivel": 1,
-      "razao_social": "POSTO FERREIRA E JACINTO LTDA",
-      "nome_fantasia": "POSTO DETH",
-      "telefone": "(82) 88080423",
-      "nome_logradouro": "ROD AL 101 NORTE",
-      "numero_imovel": "S/N",
-      "bairro": "CENTRO",
-      "cep": "57900000",
-      "codigo_ibge": 2707305,
-      "municipio": "PORTO CALVO",
-      "latitude": -8.922867,
-      "longitude": -35.1588491,
-      "valor_minimo": 6.579935092422746,
-      "valor_maximo": 6.579935092422746,
-      "valor_medio": 6.579935092422746,
-      "valor_recente": 6.579935092422746,
-      "data_recente": "2026-04-14T23:29:54Z"
-    },
-    {
       "cnpj": "10673213000138",
       "tipo_combustivel": 1,
       "razao_social": "AUTO POSTO COMANDATUBA LTDA. - ME",
@@ -64,11 +44,31 @@
       "municipio": "PORTO CALVO",
       "latitude": -9.0474879,
       "longitude": -35.4052326,
-      "valor_minimo": 6.73999784320069,
-      "valor_maximo": 6.73999784320069,
-      "valor_medio": 6.73999784320069,
-      "valor_recente": 6.73999784320069,
-      "data_recente": "2026-04-14T23:36:47Z"
+      "valor_minimo": 6.739989133786581,
+      "valor_maximo": 6.739989133786581,
+      "valor_medio": 6.739989133786581,
+      "valor_recente": 6.739989133786581,
+      "data_recente": "2026-04-14T23:53:34Z"
+    },
+    {
+      "cnpj": "34190671000184",
+      "tipo_combustivel": 1,
+      "razao_social": "POSTO FERREIRA E JACINTO LTDA",
+      "nome_fantasia": "POSTO DETH",
+      "telefone": "(82) 88080423",
+      "nome_logradouro": "ROD AL 101 NORTE",
+      "numero_imovel": "S/N",
+      "bairro": "CENTRO",
+      "cep": "57900000",
+      "codigo_ibge": 2707305,
+      "municipio": "PORTO CALVO",
+      "latitude": -8.922867,
+      "longitude": -35.1588491,
+      "valor_minimo": 6.788263283108644,
+      "valor_maximo": 6.788263283108644,
+      "valor_medio": 6.788263283108644,
+      "valor_recente": 6.788263283108644,
+      "data_recente": "2026-04-15T01:04:47Z"
     },
     {
       "cnpj": "50773495000160",
@@ -104,11 +104,11 @@
       "municipio": "PORTO CALVO",
       "latitude": -9.052577,
       "longitude": -35.421595,
-      "valor_minimo": 7.100255609201931,
-      "valor_maximo": 7.100255609201931,
-      "valor_medio": 7.100255609201931,
-      "valor_recente": 7.100255609201931,
-      "data_recente": "2026-04-14T23:35:49Z"
+      "valor_minimo": 7.0979020979020975,
+      "valor_maximo": 7.0979020979020975,
+      "valor_medio": 7.0979020979020975,
+      "valor_recente": 7.0979020979020975,
+      "data_recente": "2026-04-14T23:49:40Z"
     },
     {
       "cnpj": "50773495000160",
@@ -144,11 +144,11 @@
       "municipio": "PORTO CALVO",
       "latitude": -9.0474879,
       "longitude": -35.4052326,
-      "valor_minimo": 6.989130434782608,
-      "valor_maximo": 6.989130434782608,
-      "valor_medio": 6.989130434782608,
-      "valor_recente": 6.989130434782608,
-      "data_recente": "2026-04-14T23:30:03Z"
+      "valor_minimo": 6.989247311827957,
+      "valor_maximo": 6.989247311827957,
+      "valor_medio": 6.989247311827957,
+      "valor_recente": 6.989247311827957,
+      "data_recente": "2026-04-14T23:48:21Z"
     },
     {
       "cnpj": "13074634000130",
@@ -188,7 +188,7 @@
       "valor_maximo": 5.54016620498615,
       "valor_medio": 5.54016620498615,
       "valor_recente": 5.54016620498615,
-      "data_recente": "2026-04-14T23:33:59Z"
+      "data_recente": "2026-04-14T23:41:46Z"
     },
     {
       "cnpj": "34190671000184",

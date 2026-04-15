@@ -1,20 +1,20 @@
 {
   "codigoIBGE": "2701605",
   "municipio": "Canapi",
-  "atualizadoEm": "2026-04-14T23:42:19.248Z",
+  "atualizadoEm": "2026-04-15T01:28:52.571Z",
   "totalEstabelecimentos": 21,
   "combustiveis": {
     "1": {
       "totalPostos": 6,
       "valorMinimo": 6.263048016701461,
       "valorMaximo": 6.98909700866648,
-      "valorMedio": 6.754894372413489
+      "valorMedio": 6.754796584090073
     },
     "2": {
       "totalPostos": 5,
-      "valorMinimo": 6.8583162217659135,
-      "valorMaximo": 7.251071939018581,
-      "valorMedio": 7.0359858781794005
+      "valorMinimo": 6.810133478616181,
+      "valorMaximo": 7.250361794500724,
+      "valorMedio": 7.025776371458862
     },
     "3": {
       "totalPostos": 3,
@@ -24,9 +24,9 @@
     },
     "5": {
       "totalPostos": 7,
-      "valorMinimo": 7.28000728000728,
+      "valorMinimo": 7.279927783116391,
       "valorMaximo": 7.984928027095681,
-      "valorMedio": 7.483530993404905
+      "valorMedio": 7.483403491174461
     }
   },
   "estabelecimentos": [
@@ -64,11 +64,11 @@
       "municipio": "CANAPI",
       "latitude": -9.117225,
       "longitude": -37.604013,
-      "valor_minimo": 6.699994846157811,
-      "valor_maximo": 6.699994846157811,
-      "valor_medio": 6.699994846157811,
-      "valor_recente": 6.699994846157811,
-      "data_recente": "2026-04-14T20:39:03Z"
+      "valor_minimo": 6.6998929622692,
+      "valor_maximo": 6.6998929622692,
+      "valor_medio": 6.6998929622692,
+      "valor_recente": 6.6998929622692,
+      "data_recente": "2026-04-14T23:12:51Z"
     },
     {
       "cnpj": "54983925000129",
@@ -84,11 +84,11 @@
       "municipio": "CANAPI",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.749460043196544,
-      "valor_maximo": 6.749460043196544,
-      "valor_medio": 6.749460043196544,
-      "valor_recente": 6.749460043196544,
-      "data_recente": "2026-04-14T21:20:51Z"
+      "valor_minimo": 6.749385749385749,
+      "valor_maximo": 6.749385749385749,
+      "valor_medio": 6.749385749385749,
+      "valor_recente": 6.749385749385749,
+      "data_recente": "2026-04-14T23:31:10Z"
     },
     {
       "cnpj": "27246281000113",
@@ -104,11 +104,11 @@
       "municipio": "CANAPI",
       "latitude": -9.189925,
       "longitude": -37.51899,
-      "valor_minimo": 6.889835285275882,
-      "valor_maximo": 6.889835285275882,
-      "valor_medio": 6.889835285275882,
-      "valor_recente": 6.889835285275882,
-      "data_recente": "2026-04-14T21:36:12Z"
+      "valor_minimo": 6.889424733034792,
+      "valor_maximo": 6.889424733034792,
+      "valor_medio": 6.889424733034792,
+      "valor_recente": 6.889424733034792,
+      "data_recente": "2026-04-14T23:02:43Z"
     },
     {
       "cnpj": "28451142000194",
@@ -148,27 +148,7 @@
       "valor_maximo": 6.98909700866648,
       "valor_medio": 6.98909700866648,
       "valor_recente": 6.98909700866648,
-      "data_recente": "2026-04-14T21:33:00Z"
-    },
-    {
-      "cnpj": "54983925000129",
-      "tipo_combustivel": 2,
-      "razao_social": "AUTO POSTO GPL II LTDA",
-      "nome_fantasia": "AUTO POSTO GPL II",
-      "telefone": "(82) 99627581",
-      "nome_logradouro": "AV JOAQUIM TETE",
-      "numero_imovel": "1317",
-      "bairro": "TANCREDO NEVES",
-      "cep": "57530000",
-      "codigo_ibge": 2701605,
-      "municipio": "CANAPI",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.8583162217659135,
-      "valor_maximo": 6.8583162217659135,
-      "valor_medio": 6.8583162217659135,
-      "valor_recente": 6.8583162217659135,
-      "data_recente": "2026-04-14T20:48:59Z"
+      "data_recente": "2026-04-14T23:22:58Z"
     },
     {
       "cnpj": "24938944000172",
@@ -184,11 +164,31 @@
       "municipio": "CANAPI",
       "latitude": -9.117225,
       "longitude": -37.604013,
-      "valor_minimo": 6.862745098039215,
-      "valor_maximo": 6.862745098039215,
-      "valor_medio": 6.862745098039215,
-      "valor_recente": 6.862745098039215,
-      "data_recente": "2026-04-14T20:39:03Z"
+      "valor_minimo": 6.810133478616181,
+      "valor_maximo": 6.810133478616181,
+      "valor_medio": 6.810133478616181,
+      "valor_recente": 6.810133478616181,
+      "data_recente": "2026-04-14T23:12:31Z"
+    },
+    {
+      "cnpj": "54983925000129",
+      "tipo_combustivel": 2,
+      "razao_social": "AUTO POSTO GPL II LTDA",
+      "nome_fantasia": "AUTO POSTO GPL II",
+      "telefone": "(82) 99627581",
+      "nome_logradouro": "AV JOAQUIM TETE",
+      "numero_imovel": "1317",
+      "bairro": "TANCREDO NEVES",
+      "cep": "57530000",
+      "codigo_ibge": 2701605,
+      "municipio": "CANAPI",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.859449816918599,
+      "valor_maximo": 6.859449816918599,
+      "valor_medio": 6.859449816918599,
+      "valor_recente": 6.859449816918599,
+      "data_recente": "2026-04-14T23:31:39Z"
     },
     {
       "cnpj": "27246281000113",
@@ -224,11 +224,11 @@
       "municipio": "CANAPI",
       "latitude": -9.1180471,
       "longitude": -37.6017756,
-      "valor_minimo": 7.119464616260857,
-      "valor_maximo": 7.119464616260857,
-      "valor_medio": 7.119464616260857,
-      "valor_recente": 7.119464616260857,
-      "data_recente": "2026-04-14T21:31:05Z"
+      "valor_minimo": 7.120605251446373,
+      "valor_maximo": 7.120605251446373,
+      "valor_medio": 7.120605251446373,
+      "valor_recente": 7.120605251446373,
+      "data_recente": "2026-04-14T23:08:13Z"
     },
     {
       "cnpj": "35831352000173",
@@ -244,11 +244,11 @@
       "municipio": "CANAPI",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.251071939018581,
-      "valor_maximo": 7.251071939018581,
-      "valor_medio": 7.251071939018581,
-      "valor_recente": 7.251071939018581,
-      "data_recente": "2026-04-14T21:35:28Z"
+      "valor_minimo": 7.250361794500724,
+      "valor_maximo": 7.250361794500724,
+      "valor_medio": 7.250361794500724,
+      "valor_recente": 7.250361794500724,
+      "data_recente": "2026-04-14T23:06:43Z"
     },
     {
       "cnpj": "28451142000194",
@@ -308,7 +308,7 @@
       "valor_maximo": 5.989817310572027,
       "valor_medio": 5.989817310572027,
       "valor_recente": 5.989817310572027,
-      "data_recente": "2026-04-14T19:59:05Z"
+      "data_recente": "2026-04-14T22:23:29Z"
     },
     {
       "cnpj": "24938944000172",
@@ -324,11 +324,11 @@
       "municipio": "CANAPI",
       "latitude": -9.117225,
       "longitude": -37.604013,
-      "valor_minimo": 7.28000728000728,
-      "valor_maximo": 7.28000728000728,
-      "valor_medio": 7.28000728000728,
-      "valor_recente": 7.28000728000728,
-      "data_recente": "2026-04-14T13:59:52Z"
+      "valor_minimo": 7.279927783116391,
+      "valor_maximo": 7.279927783116391,
+      "valor_medio": 7.279927783116391,
+      "valor_recente": 7.279927783116391,
+      "data_recente": "2026-04-14T23:12:51Z"
     },
     {
       "cnpj": "27246281000113",
@@ -344,11 +344,11 @@
       "municipio": "CANAPI",
       "latitude": -9.189925,
       "longitude": -37.51899,
-      "valor_minimo": 7.289692374981776,
-      "valor_maximo": 7.289692374981776,
-      "valor_medio": 7.289692374981776,
-      "valor_recente": 7.289692374981776,
-      "data_recente": "2026-04-14T18:44:51Z"
+      "valor_minimo": 7.2896174863387975,
+      "valor_maximo": 7.2896174863387975,
+      "valor_medio": 7.2896174863387975,
+      "valor_recente": 7.2896174863387975,
+      "data_recente": "2026-04-14T23:30:46Z"
     },
     {
       "cnpj": "54983925000129",
@@ -368,7 +368,7 @@
       "valor_maximo": 7.3,
       "valor_medio": 7.3,
       "valor_recente": 7.3,
-      "data_recente": "2026-04-14T20:06:41Z"
+      "data_recente": "2026-04-14T22:24:57Z"
     },
     {
       "cnpj": "28451142000194",
@@ -384,11 +384,11 @@
       "municipio": "CANAPI",
       "latitude": -9.1176632,
       "longitude": -37.6038522,
-      "valor_minimo": 7.360294117647059,
-      "valor_maximo": 7.360294117647059,
-      "valor_medio": 7.360294117647059,
-      "valor_recente": 7.360294117647059,
-      "data_recente": "2026-04-14T20:29:22Z"
+      "valor_minimo": 7.359939839931245,
+      "valor_maximo": 7.359939839931245,
+      "valor_medio": 7.359939839931245,
+      "valor_recente": 7.359939839931245,
+      "data_recente": "2026-04-14T22:05:19Z"
     },
     {
       "cnpj": "24296959000184",
@@ -404,11 +404,11 @@
       "municipio": "CANAPI",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.489795154102535,
-      "valor_maximo": 7.489795154102535,
-      "valor_medio": 7.489795154102535,
-      "valor_recente": 7.489795154102535,
-      "data_recente": "2026-04-14T21:25:47Z"
+      "valor_minimo": 7.489963448978369,
+      "valor_maximo": 7.489963448978369,
+      "valor_medio": 7.489963448978369,
+      "valor_recente": 7.489963448978369,
+      "data_recente": "2026-04-14T23:13:33Z"
     },
     {
       "cnpj": "35831352000173",
@@ -424,11 +424,11 @@
       "municipio": "CANAPI",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.68,
-      "valor_maximo": 7.68,
-      "valor_medio": 7.68,
-      "valor_recente": 7.68,
-      "data_recente": "2026-04-14T20:16:22Z"
+      "valor_minimo": 7.679447852760736,
+      "valor_maximo": 7.679447852760736,
+      "valor_medio": 7.679447852760736,
+      "valor_recente": 7.679447852760736,
+      "data_recente": "2026-04-14T22:24:22Z"
     },
     {
       "cnpj": "07483858000101",

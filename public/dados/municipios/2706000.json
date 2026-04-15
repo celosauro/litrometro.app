@@ -1,7 +1,7 @@
 {
   "codigoIBGE": "2706000",
   "municipio": "Olivença",
-  "atualizadoEm": "2026-04-15T00:05:27.978Z",
+  "atualizadoEm": "2026-04-15T01:46:31.088Z",
   "totalEstabelecimentos": 6,
   "combustiveis": {
     "1": {
@@ -12,9 +12,9 @@
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.949932772726237,
+      "valorMinimo": 6.948976049982645,
       "valorMaximo": 7.089684509039348,
-      "valorMedio": 7.019808640882792
+      "valorMedio": 7.019330279510996
     },
     "3": {
       "totalPostos": 1,
@@ -24,9 +24,9 @@
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.4197736969022445,
-      "valorMaximo": 7.419985690436442,
-      "valorMedio": 7.419879693669343
+      "valorMinimo": 7.419985690436442,
+      "valorMaximo": 7.420048972323217,
+      "valorMedio": 7.42001733137983
     }
   },
   "estabelecimentos": [
@@ -48,7 +48,7 @@
       "valor_maximo": 6.949270326615705,
       "valor_medio": 6.949270326615705,
       "valor_recente": 6.949270326615705,
-      "data_recente": "2026-04-14T23:28:04Z"
+      "data_recente": "2026-04-15T01:02:18Z"
     },
     {
       "cnpj": "27069763000145",
@@ -64,11 +64,11 @@
       "municipio": "OLIVENCA",
       "latitude": -9.519277,
       "longitude": -37.191994,
-      "valor_minimo": 6.949932772726237,
-      "valor_maximo": 6.949932772726237,
-      "valor_medio": 6.949932772726237,
-      "valor_recente": 6.949932772726237,
-      "data_recente": "2026-04-14T23:34:39Z"
+      "valor_minimo": 6.948976049982645,
+      "valor_maximo": 6.948976049982645,
+      "valor_medio": 6.948976049982645,
+      "valor_recente": 6.948976049982645,
+      "data_recente": "2026-04-14T23:48:47Z"
     },
     {
       "cnpj": "30044555000104",
@@ -88,7 +88,7 @@
       "valor_maximo": 7.089684509039348,
       "valor_medio": 7.089684509039348,
       "valor_recente": 7.089684509039348,
-      "data_recente": "2026-04-14T23:27:31Z"
+      "data_recente": "2026-04-15T00:15:50Z"
     },
     {
       "cnpj": "30044555000104",
@@ -111,26 +111,6 @@
       "data_recente": "2026-04-14T23:27:31Z"
     },
     {
-      "cnpj": "30044555000104",
-      "tipo_combustivel": 5,
-      "razao_social": "MELO MENESES COMERCIO DE COMBUSTIVEIS LTDA",
-      "nome_fantasia": "MELO AUTO POSTO",
-      "telefone": "(82) 99490162",
-      "nome_logradouro": "AV CLIMA BOM",
-      "numero_imovel": "1019",
-      "bairro": "CLIMA BOM",
-      "cep": "57550000",
-      "codigo_ibge": 2706000,
-      "municipio": "OLIVENCA",
-      "latitude": -9.565324,
-      "longitude": -35.789666,
-      "valor_minimo": 7.4197736969022445,
-      "valor_maximo": 7.4197736969022445,
-      "valor_medio": 7.4197736969022445,
-      "valor_recente": 7.4197736969022445,
-      "data_recente": "2026-04-14T21:59:41Z"
-    },
-    {
       "cnpj": "27069763000145",
       "tipo_combustivel": 5,
       "razao_social": "MARCELA MARTINS DE LIMA EIRELI - ME",
@@ -149,6 +129,26 @@
       "valor_medio": 7.419985690436442,
       "valor_recente": 7.419985690436442,
       "data_recente": "2026-04-14T23:23:40Z"
+    },
+    {
+      "cnpj": "30044555000104",
+      "tipo_combustivel": 5,
+      "razao_social": "MELO MENESES COMERCIO DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "MELO AUTO POSTO",
+      "telefone": "(82) 99490162",
+      "nome_logradouro": "AV CLIMA BOM",
+      "numero_imovel": "1019",
+      "bairro": "CLIMA BOM",
+      "cep": "57550000",
+      "codigo_ibge": 2706000,
+      "municipio": "OLIVENCA",
+      "latitude": -9.565324,
+      "longitude": -35.789666,
+      "valor_minimo": 7.420048972323217,
+      "valor_maximo": 7.420048972323217,
+      "valor_medio": 7.420048972323217,
+      "valor_recente": 7.420048972323217,
+      "data_recente": "2026-04-15T00:15:50Z"
     }
   ]
 }

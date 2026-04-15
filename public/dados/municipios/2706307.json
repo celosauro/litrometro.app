@@ -1,38 +1,38 @@
 {
   "codigoIBGE": "2706307",
   "municipio": "Palmeira dos Índios",
-  "atualizadoEm": "2026-04-15T00:07:11.022Z",
+  "atualizadoEm": "2026-04-15T01:47:26.291Z",
   "totalEstabelecimentos": 61,
   "combustiveis": {
     "1": {
       "totalPostos": 17,
-      "valorMinimo": 6.111569112393514,
-      "valorMaximo": 7.0098983413590155,
-      "valorMedio": 6.744933250127307
+      "valorMinimo": 6.389912458199323,
+      "valorMaximo": 6.9896719319562575,
+      "valorMedio": 6.783829426731598
     },
     "2": {
       "totalPostos": 11,
-      "valorMinimo": 6.48971380362126,
-      "valorMaximo": 7.289958082741024,
-      "valorMedio": 7.02153113721545
+      "valorMinimo": 6.25,
+      "valorMaximo": 7.289665211062591,
+      "valorMedio": 6.94448392547246
     },
     "3": {
       "totalPostos": 14,
-      "valorMinimo": 4.447211155378486,
-      "valorMaximo": 5.85000585000585,
-      "valorMedio": 5.223908160298724
+      "valorMinimo": 3.3333333333333335,
+      "valorMaximo": 5.849941383352872,
+      "valorMedio": 5.145058669264938
     },
     "4": {
       "totalPostos": 3,
-      "valorMinimo": 7.090175537938845,
-      "valorMaximo": 7.889815232086526,
-      "valorMedio": 7.589996404050105
+      "valorMinimo": 7.089955836856151,
+      "valorMaximo": 7.889756328365271,
+      "valorMedio": 7.58989808275421
     },
     "5": {
       "totalPostos": 15,
-      "valorMinimo": 6.511236366298221,
-      "valorMaximo": 7.589556769884639,
-      "valorMedio": 7.291668705970007
+      "valorMinimo": 6.989985257485639,
+      "valorMaximo": 7.585162755488266,
+      "valorMedio": 7.34538091616773
     },
     "6": {
       "totalPostos": 1,
@@ -42,26 +42,6 @@
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "09339805000139",
-      "tipo_combustivel": 1,
-      "razao_social": "IRMAOS TAVARES LTDA - EPP",
-      "nome_fantasia": "POSTO PE DA SERRA",
-      "telefone": "(82) 96400211",
-      "nome_logradouro": " RD BR 316  KM 147",
-      "numero_imovel": "147",
-      "bairro": "ZONA RURAL",
-      "cep": "57600970",
-      "codigo_ibge": 2706307,
-      "municipio": "PALMEIRA DOS INDIOS",
-      "latitude": -9.4212271,
-      "longitude": -36.6249701,
-      "valor_minimo": 6.111569112393514,
-      "valor_maximo": 6.111569112393514,
-      "valor_medio": 6.111569112393514,
-      "valor_recente": 6.111569112393514,
-      "data_recente": "2026-04-14T21:04:12Z"
-    },
     {
       "cnpj": "59520930000119",
       "tipo_combustivel": 1,
@@ -76,11 +56,11 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.389776357827476,
-      "valor_maximo": 6.389776357827476,
-      "valor_medio": 6.389776357827476,
-      "valor_recente": 6.389776357827476,
-      "data_recente": "2026-04-14T23:02:17Z"
+      "valor_minimo": 6.389912458199323,
+      "valor_maximo": 6.389912458199323,
+      "valor_medio": 6.389912458199323,
+      "valor_recente": 6.389912458199323,
+      "data_recente": "2026-04-15T00:53:59Z"
     },
     {
       "cnpj": "10616401000124",
@@ -96,11 +76,11 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": -9.427225,
       "longitude": -36.618685,
-      "valor_minimo": 6.489981200421844,
-      "valor_maximo": 6.489981200421844,
-      "valor_medio": 6.489981200421844,
-      "valor_recente": 6.489981200421844,
-      "data_recente": "2026-04-14T22:20:05Z"
+      "valor_minimo": 6.489589414282935,
+      "valor_maximo": 6.489589414282935,
+      "valor_medio": 6.489589414282935,
+      "valor_recente": 6.489589414282935,
+      "data_recente": "2026-04-15T00:11:30Z"
     },
     {
       "cnpj": "09259779000139",
@@ -123,6 +103,26 @@
       "data_recente": "2026-04-14T22:03:46Z"
     },
     {
+      "cnpj": "05408092000248",
+      "tipo_combustivel": 1,
+      "razao_social": "SOARES E SOUZA LTDA - EPP",
+      "nome_fantasia": "POSTO PALMEIRA DE FORA",
+      "telefone": "(82) 2238393",
+      "nome_logradouro": "AV ROTARY",
+      "numero_imovel": "490",
+      "bairro": "PALMEIRA DE FORA",
+      "cep": "57608400",
+      "codigo_ibge": 2706307,
+      "municipio": "PALMEIRA DOS INDIOS",
+      "latitude": -9.3996712,
+      "longitude": -36.6651662,
+      "valor_minimo": 6.5900131406044675,
+      "valor_maximo": 6.5900131406044675,
+      "valor_medio": 6.5900131406044675,
+      "valor_recente": 6.5900131406044675,
+      "data_recente": "2026-04-15T01:28:32Z"
+    },
+    {
       "cnpj": "35370972000314",
       "tipo_combustivel": 1,
       "razao_social": "J R SOARES & SOUZA LTDA",
@@ -141,26 +141,6 @@
       "valor_medio": 6.590040837834278,
       "valor_recente": 6.590040837834278,
       "data_recente": "2026-04-14T23:21:49Z"
-    },
-    {
-      "cnpj": "05408092000248",
-      "tipo_combustivel": 1,
-      "razao_social": "SOARES E SOUZA LTDA - EPP",
-      "nome_fantasia": "POSTO PALMEIRA DE FORA",
-      "telefone": "(82) 2238393",
-      "nome_logradouro": "AV ROTARY",
-      "numero_imovel": "490",
-      "bairro": "PALMEIRA DE FORA",
-      "cep": "57608400",
-      "codigo_ibge": 2706307,
-      "municipio": "PALMEIRA DOS INDIOS",
-      "latitude": -9.3996712,
-      "longitude": -36.6651662,
-      "valor_minimo": 6.590225563909774,
-      "valor_maximo": 6.590225563909774,
-      "valor_medio": 6.590225563909774,
-      "valor_recente": 6.590225563909774,
-      "data_recente": "2026-04-14T22:55:01Z"
     },
     {
       "cnpj": "05331412000128",
@@ -200,7 +180,7 @@
       "valor_maximo": 6.799945600435197,
       "valor_medio": 6.799945600435197,
       "valor_recente": 6.799945600435197,
-      "data_recente": "2026-04-14T22:56:50Z"
+      "data_recente": "2026-04-15T00:23:17Z"
     },
     {
       "cnpj": "39805644000192",
@@ -220,7 +200,27 @@
       "valor_maximo": 6.8493150684931505,
       "valor_medio": 6.8493150684931505,
       "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-14T23:17:31Z"
+      "data_recente": "2026-04-15T00:51:15Z"
+    },
+    {
+      "cnpj": "09339805000139",
+      "tipo_combustivel": 1,
+      "razao_social": "IRMAOS TAVARES LTDA - EPP",
+      "nome_fantasia": "POSTO PE DA SERRA",
+      "telefone": "(82) 96400211",
+      "nome_logradouro": " RD BR 316  KM 147",
+      "numero_imovel": "147",
+      "bairro": "ZONA RURAL",
+      "cep": "57600970",
+      "codigo_ibge": 2706307,
+      "municipio": "PALMEIRA DOS INDIOS",
+      "latitude": -9.4212271,
+      "longitude": -36.6249701,
+      "valor_minimo": 6.869704602702083,
+      "valor_maximo": 6.869704602702083,
+      "valor_medio": 6.869704602702083,
+      "valor_recente": 6.869704602702083,
+      "data_recente": "2026-04-15T00:04:12Z"
     },
     {
       "cnpj": "08413304000192",
@@ -236,11 +236,11 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": -9.4091328,
       "longitude": -36.6344312,
-      "valor_minimo": 6.870019236053861,
-      "valor_maximo": 6.870019236053861,
-      "valor_medio": 6.870019236053861,
-      "valor_recente": 6.870019236053861,
-      "data_recente": "2026-04-14T23:25:44Z"
+      "valor_minimo": 6.870229007633588,
+      "valor_maximo": 6.870229007633588,
+      "valor_medio": 6.870229007633588,
+      "valor_recente": 6.870229007633588,
+      "data_recente": "2026-04-15T00:43:14Z"
     },
     {
       "cnpj": "07011584000140",
@@ -256,11 +256,11 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": -9.4255713,
       "longitude": -36.6363597,
-      "valor_minimo": 6.8891340319911745,
-      "valor_maximo": 6.8891340319911745,
-      "valor_medio": 6.8891340319911745,
-      "valor_recente": 6.8891340319911745,
-      "data_recente": "2026-04-14T23:31:06Z"
+      "valor_minimo": 6.8887408394403735,
+      "valor_maximo": 6.8887408394403735,
+      "valor_medio": 6.8887408394403735,
+      "valor_recente": 6.8887408394403735,
+      "data_recente": "2026-04-15T01:24:03Z"
     },
     {
       "cnpj": "12018131000185",
@@ -296,71 +296,11 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.889424733034792,
-      "valor_maximo": 6.889424733034792,
-      "valor_medio": 6.889424733034792,
-      "valor_recente": 6.889424733034792,
-      "data_recente": "2026-04-14T23:32:34Z"
-    },
-    {
-      "cnpj": "08623068000139",
-      "tipo_combustivel": 1,
-      "razao_social": "BALBINO & CIA LTDA",
-      "nome_fantasia": "POSTO BR 26",
-      "telefone": "",
-      "nome_logradouro": "AV MUNIZ FALCAO",
-      "numero_imovel": "1.001",
-      "bairro": "JOSE MAIA COSTA",
-      "cep": "57602490",
-      "codigo_ibge": 2706307,
-      "municipio": "PALMEIRA DOS INDIOS",
-      "latitude": -9.416641499999999,
-      "longitude": -36.6266457,
-      "valor_minimo": 6.949270326615705,
-      "valor_maximo": 6.949270326615705,
-      "valor_medio": 6.949270326615705,
-      "valor_recente": 6.949270326615705,
-      "data_recente": "2026-04-14T23:05:05Z"
-    },
-    {
-      "cnpj": "11994584000184",
-      "tipo_combustivel": 1,
-      "razao_social": "POSTO SOARES & BAZILIO LTDA  - ME",
-      "nome_fantasia": "POSTO SOARES & BAZILIO",
-      "telefone": "(82) 34213777",
-      "nome_logradouro": "Rua GETULIO VARGAS",
-      "numero_imovel": "1385",
-      "bairro": "VILA MARIA",
-      "cep": "57607500",
-      "codigo_ibge": 2706307,
-      "municipio": "PALMEIRA DOS INDIOS",
-      "latitude": -9.4187823,
-      "longitude": -36.6389133,
-      "valor_minimo": 6.968641114982578,
-      "valor_maximo": 6.968641114982578,
-      "valor_medio": 6.968641114982578,
-      "valor_recente": 6.968641114982578,
-      "data_recente": "2026-04-14T22:53:08Z"
-    },
-    {
-      "cnpj": "60257186000190",
-      "tipo_combustivel": 1,
-      "razao_social": "POSTO PRIME LTDA",
-      "nome_fantasia": "POSTO PRIME",
-      "telefone": "(82) 988846722",
-      "nome_logradouro": "Rua Deputado Jota Duarte",
-      "numero_imovel": "95",
-      "bairro": "Juca Sampaio",
-      "cep": "57603280",
-      "codigo_ibge": 2706307,
-      "municipio": "PALMEIRA DOS INDIOS",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.9894982497082845,
-      "valor_maximo": 6.9894982497082845,
-      "valor_medio": 6.9894982497082845,
-      "valor_recente": 6.9894982497082845,
-      "data_recente": "2026-04-14T23:36:51Z"
+      "valor_minimo": 6.890215893431328,
+      "valor_maximo": 6.890215893431328,
+      "valor_medio": 6.890215893431328,
+      "valor_recente": 6.890215893431328,
+      "data_recente": "2026-04-15T01:02:37Z"
     },
     {
       "cnpj": "05562589000135",
@@ -376,11 +316,91 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": -9.4259762,
       "longitude": -36.63621250000001,
-      "valor_minimo": 7.0098983413590155,
-      "valor_maximo": 7.0098983413590155,
-      "valor_medio": 7.0098983413590155,
-      "valor_recente": 7.0098983413590155,
-      "data_recente": "2026-04-14T22:59:49Z"
+      "valor_minimo": 6.910344827586207,
+      "valor_maximo": 6.910344827586207,
+      "valor_medio": 6.910344827586207,
+      "valor_recente": 6.910344827586207,
+      "data_recente": "2026-04-14T23:51:52Z"
+    },
+    {
+      "cnpj": "08623068000139",
+      "tipo_combustivel": 1,
+      "razao_social": "BALBINO & CIA LTDA",
+      "nome_fantasia": "POSTO BR 26",
+      "telefone": "",
+      "nome_logradouro": "AV MUNIZ FALCAO",
+      "numero_imovel": "1.001",
+      "bairro": "JOSE MAIA COSTA",
+      "cep": "57602490",
+      "codigo_ibge": 2706307,
+      "municipio": "PALMEIRA DOS INDIOS",
+      "latitude": -9.416641499999999,
+      "longitude": -36.6266457,
+      "valor_minimo": 6.951501154734411,
+      "valor_maximo": 6.951501154734411,
+      "valor_medio": 6.951501154734411,
+      "valor_recente": 6.951501154734411,
+      "data_recente": "2026-04-15T01:20:55Z"
+    },
+    {
+      "cnpj": "11994584000184",
+      "tipo_combustivel": 1,
+      "razao_social": "POSTO SOARES & BAZILIO LTDA  - ME",
+      "nome_fantasia": "POSTO SOARES & BAZILIO",
+      "telefone": "(82) 34213777",
+      "nome_logradouro": "Rua GETULIO VARGAS",
+      "numero_imovel": "1385",
+      "bairro": "VILA MARIA",
+      "cep": "57607500",
+      "codigo_ibge": 2706307,
+      "municipio": "PALMEIRA DOS INDIOS",
+      "latitude": -9.4187823,
+      "longitude": -36.6389133,
+      "valor_minimo": 6.96875,
+      "valor_maximo": 6.96875,
+      "valor_medio": 6.96875,
+      "valor_recente": 6.96875,
+      "data_recente": "2026-04-15T00:42:02Z"
+    },
+    {
+      "cnpj": "60257186000190",
+      "tipo_combustivel": 1,
+      "razao_social": "POSTO PRIME LTDA",
+      "nome_fantasia": "POSTO PRIME",
+      "telefone": "(82) 988846722",
+      "nome_logradouro": "Rua Deputado Jota Duarte",
+      "numero_imovel": "95",
+      "bairro": "Juca Sampaio",
+      "cep": "57603280",
+      "codigo_ibge": 2706307,
+      "municipio": "PALMEIRA DOS INDIOS",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.9896719319562575,
+      "valor_maximo": 6.9896719319562575,
+      "valor_medio": 6.9896719319562575,
+      "valor_recente": 6.9896719319562575,
+      "data_recente": "2026-04-15T00:39:55Z"
+    },
+    {
+      "cnpj": "07011584000140",
+      "tipo_combustivel": 2,
+      "razao_social": "POSTO FREI DAMIAO LTDA. - ME                EPP",
+      "nome_fantasia": "",
+      "telefone": "(82) 41021750",
+      "nome_logradouro": "RDV AL 115 KM 0,135",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57613000",
+      "codigo_ibge": 2706307,
+      "municipio": "PALMEIRA DOS INDIOS",
+      "latitude": -9.4255713,
+      "longitude": -36.6363597,
+      "valor_minimo": 6.25,
+      "valor_maximo": 6.25,
+      "valor_medio": 6.25,
+      "valor_recente": 6.25,
+      "data_recente": "2026-04-15T01:22:11Z"
     },
     {
       "cnpj": "59520930000119",
@@ -396,11 +416,11 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.48971380362126,
-      "valor_maximo": 6.48971380362126,
-      "valor_medio": 6.48971380362126,
-      "valor_recente": 6.48971380362126,
-      "data_recente": "2026-04-14T23:02:17Z"
+      "valor_minimo": 6.489889503478114,
+      "valor_maximo": 6.489889503478114,
+      "valor_medio": 6.489889503478114,
+      "valor_recente": 6.489889503478114,
+      "data_recente": "2026-04-15T00:49:45Z"
     },
     {
       "cnpj": "39805644000192",
@@ -436,11 +456,11 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.9516857838025725,
-      "valor_maximo": 6.9516857838025725,
-      "valor_medio": 6.9516857838025725,
-      "valor_recente": 6.9516857838025725,
-      "data_recente": "2026-04-14T22:37:49Z"
+      "valor_minimo": 6.950880444856349,
+      "valor_maximo": 6.950880444856349,
+      "valor_medio": 6.950880444856349,
+      "valor_recente": 6.950880444856349,
+      "data_recente": "2026-04-15T00:40:01Z"
     },
     {
       "cnpj": "05562589000135",
@@ -476,11 +496,11 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": -9.423041999999999,
       "longitude": -36.6220447,
-      "valor_minimo": 7.069020866773676,
-      "valor_maximo": 7.069020866773676,
-      "valor_medio": 7.069020866773676,
-      "valor_recente": 7.069020866773676,
-      "data_recente": "2026-04-14T20:32:28Z"
+      "valor_minimo": 7.065923862581244,
+      "valor_maximo": 7.065923862581244,
+      "valor_medio": 7.065923862581244,
+      "valor_recente": 7.065923862581244,
+      "data_recente": "2026-04-15T00:22:08Z"
     },
     {
       "cnpj": "05331412000128",
@@ -503,24 +523,24 @@
       "data_recente": "2026-04-14T22:33:22Z"
     },
     {
-      "cnpj": "07011584000140",
+      "cnpj": "08413304000192",
       "tipo_combustivel": 2,
-      "razao_social": "POSTO FREI DAMIAO LTDA. - ME                EPP",
-      "nome_fantasia": "",
-      "telefone": "(82) 41021750",
-      "nome_logradouro": "RDV AL 115 KM 0,135",
+      "razao_social": "AMORIM & CORREIA LTDA",
+      "nome_fantasia": "POSTO XUCURUS",
+      "telefone": "",
+      "nome_logradouro": "Rua PEDRO BARBOSA",
       "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57613000",
+      "bairro": "CENTRO",
+      "cep": "57601080",
       "codigo_ibge": 2706307,
       "municipio": "PALMEIRA DOS INDIOS",
-      "latitude": -9.4255713,
-      "longitude": -36.6363597,
-      "valor_minimo": 7.089002267573696,
-      "valor_maximo": 7.089002267573696,
-      "valor_medio": 7.089002267573696,
-      "valor_recente": 7.089002267573696,
-      "data_recente": "2026-04-14T23:00:35Z"
+      "latitude": -9.4091328,
+      "longitude": -36.6344312,
+      "valor_minimo": 7.088846880907372,
+      "valor_maximo": 7.088846880907372,
+      "valor_medio": 7.088846880907372,
+      "valor_recente": 7.088846880907372,
+      "data_recente": "2026-04-15T00:43:14Z"
     },
     {
       "cnpj": "12018131000185",
@@ -543,26 +563,6 @@
       "data_recente": "2026-04-14T22:34:40Z"
     },
     {
-      "cnpj": "08413304000192",
-      "tipo_combustivel": 2,
-      "razao_social": "AMORIM & CORREIA LTDA",
-      "nome_fantasia": "POSTO XUCURUS",
-      "telefone": "",
-      "nome_logradouro": "Rua PEDRO BARBOSA",
-      "numero_imovel": "S/N",
-      "bairro": "CENTRO",
-      "cep": "57601080",
-      "codigo_ibge": 2706307,
-      "municipio": "PALMEIRA DOS INDIOS",
-      "latitude": -9.4091328,
-      "longitude": -36.6344312,
-      "valor_minimo": 7.089986103627237,
-      "valor_maximo": 7.089986103627237,
-      "valor_medio": 7.089986103627237,
-      "valor_recente": 7.089986103627237,
-      "data_recente": "2026-04-14T22:49:09Z"
-    },
-    {
       "cnpj": "11994584000184",
       "tipo_combustivel": 2,
       "razao_social": "POSTO SOARES & BAZILIO LTDA  - ME",
@@ -576,11 +576,11 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": -9.4187823,
       "longitude": -36.6389133,
-      "valor_minimo": 7.1890726096333575,
-      "valor_maximo": 7.1890726096333575,
-      "valor_medio": 7.1890726096333575,
-      "valor_recente": 7.1890726096333575,
-      "data_recente": "2026-04-14T22:43:57Z"
+      "valor_minimo": 7.185714285714286,
+      "valor_maximo": 7.185714285714286,
+      "valor_medio": 7.185714285714286,
+      "valor_recente": 7.185714285714286,
+      "data_recente": "2026-04-15T00:18:49Z"
     },
     {
       "cnpj": "60257186000190",
@@ -596,31 +596,31 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.289958082741024,
-      "valor_maximo": 7.289958082741024,
-      "valor_medio": 7.289958082741024,
-      "valor_recente": 7.289958082741024,
-      "data_recente": "2026-04-14T23:32:41Z"
+      "valor_minimo": 7.289665211062591,
+      "valor_maximo": 7.289665211062591,
+      "valor_medio": 7.289665211062591,
+      "valor_recente": 7.289665211062591,
+      "data_recente": "2026-04-14T23:39:16Z"
     },
     {
-      "cnpj": "09339805000139",
+      "cnpj": "07011584000140",
       "tipo_combustivel": 3,
-      "razao_social": "IRMAOS TAVARES LTDA - EPP",
-      "nome_fantasia": "POSTO PE DA SERRA",
-      "telefone": "(82) 96400211",
-      "nome_logradouro": " RD BR 316  KM 147",
-      "numero_imovel": "147",
+      "razao_social": "POSTO FREI DAMIAO LTDA. - ME                EPP",
+      "nome_fantasia": "",
+      "telefone": "(82) 41021750",
+      "nome_logradouro": "RDV AL 115 KM 0,135",
+      "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
-      "cep": "57600970",
+      "cep": "57613000",
       "codigo_ibge": 2706307,
       "municipio": "PALMEIRA DOS INDIOS",
-      "latitude": -9.4212271,
-      "longitude": -36.6249701,
-      "valor_minimo": 4.447211155378486,
-      "valor_maximo": 4.447211155378486,
-      "valor_medio": 4.447211155378486,
-      "valor_recente": 4.447211155378486,
-      "data_recente": "2026-04-14T21:04:12Z"
+      "latitude": -9.4255713,
+      "longitude": -36.6363597,
+      "valor_minimo": 3.3333333333333335,
+      "valor_maximo": 3.3333333333333335,
+      "valor_medio": 3.3333333333333335,
+      "valor_recente": 3.3333333333333335,
+      "data_recente": "2026-04-15T01:23:38Z"
     },
     {
       "cnpj": "10616401000124",
@@ -640,27 +640,7 @@
       "valor_maximo": 4.949514947535142,
       "valor_medio": 4.949514947535142,
       "valor_recente": 4.949514947535142,
-      "data_recente": "2026-04-14T02:40:21Z"
-    },
-    {
-      "cnpj": "07011584000140",
-      "tipo_combustivel": 3,
-      "razao_social": "POSTO FREI DAMIAO LTDA. - ME                EPP",
-      "nome_fantasia": "",
-      "telefone": "(82) 41021750",
-      "nome_logradouro": "RDV AL 115 KM 0,135",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57613000",
-      "codigo_ibge": 2706307,
-      "municipio": "PALMEIRA DOS INDIOS",
-      "latitude": -9.4255713,
-      "longitude": -36.6363597,
-      "valor_minimo": 4.989509441502648,
-      "valor_maximo": 4.989509441502648,
-      "valor_medio": 4.989509441502648,
-      "valor_recente": 4.989509441502648,
-      "data_recente": "2026-04-14T23:29:35Z"
+      "data_recente": "2026-04-15T00:11:30Z"
     },
     {
       "cnpj": "59520930000119",
@@ -676,11 +656,11 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 4.989975050124749,
-      "valor_maximo": 4.989975050124749,
-      "valor_medio": 4.989975050124749,
-      "valor_recente": 4.989975050124749,
-      "data_recente": "2026-04-14T23:02:17Z"
+      "valor_minimo": 4.989972161523034,
+      "valor_maximo": 4.989972161523034,
+      "valor_medio": 4.989972161523034,
+      "valor_recente": 4.989972161523034,
+      "data_recente": "2026-04-15T00:49:45Z"
     },
     {
       "cnpj": "36429585000107",
@@ -696,11 +676,31 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 4.99009105516872,
-      "valor_maximo": 4.99009105516872,
-      "valor_medio": 4.99009105516872,
-      "valor_recente": 4.99009105516872,
-      "data_recente": "2026-04-14T23:08:39Z"
+      "valor_minimo": 4.990019960079841,
+      "valor_maximo": 4.990019960079841,
+      "valor_medio": 4.990019960079841,
+      "valor_recente": 4.990019960079841,
+      "data_recente": "2026-04-15T01:02:37Z"
+    },
+    {
+      "cnpj": "09339805000139",
+      "tipo_combustivel": 3,
+      "razao_social": "IRMAOS TAVARES LTDA - EPP",
+      "nome_fantasia": "POSTO PE DA SERRA",
+      "telefone": "(82) 96400211",
+      "nome_logradouro": " RD BR 316  KM 147",
+      "numero_imovel": "147",
+      "bairro": "ZONA RURAL",
+      "cep": "57600970",
+      "codigo_ibge": 2706307,
+      "municipio": "PALMEIRA DOS INDIOS",
+      "latitude": -9.4212271,
+      "longitude": -36.6249701,
+      "valor_minimo": 5,
+      "valor_maximo": 5,
+      "valor_medio": 5,
+      "valor_recente": 5,
+      "data_recente": "2026-04-15T00:04:12Z"
     },
     {
       "cnpj": "05562589000135",
@@ -836,11 +836,11 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": -9.4187823,
       "longitude": -36.6389133,
-      "valor_minimo": 5.699088145896656,
-      "valor_maximo": 5.699088145896656,
-      "valor_medio": 5.699088145896656,
-      "valor_recente": 5.699088145896656,
-      "data_recente": "2026-04-14T21:41:24Z"
+      "valor_minimo": 5.698720985315017,
+      "valor_maximo": 5.698720985315017,
+      "valor_medio": 5.698720985315017,
+      "valor_recente": 5.698720985315017,
+      "data_recente": "2026-04-15T00:17:29Z"
     },
     {
       "cnpj": "05331412000128",
@@ -876,11 +876,11 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": -9.423041999999999,
       "longitude": -36.6220447,
-      "valor_minimo": 5.85000585000585,
-      "valor_maximo": 5.85000585000585,
-      "valor_medio": 5.85000585000585,
-      "valor_recente": 5.85000585000585,
-      "data_recente": "2026-04-14T22:56:50Z"
+      "valor_minimo": 5.849941383352872,
+      "valor_maximo": 5.849941383352872,
+      "valor_medio": 5.849941383352872,
+      "valor_recente": 5.849941383352872,
+      "data_recente": "2026-04-15T00:22:08Z"
     },
     {
       "cnpj": "05408092000248",
@@ -896,11 +896,11 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": -9.3996712,
       "longitude": -36.6651662,
-      "valor_minimo": 7.090175537938845,
-      "valor_maximo": 7.090175537938845,
-      "valor_medio": 7.090175537938845,
-      "valor_recente": 7.090175537938845,
-      "data_recente": "2026-04-14T22:57:20Z"
+      "valor_minimo": 7.089955836856151,
+      "valor_maximo": 7.089955836856151,
+      "valor_medio": 7.089955836856151,
+      "valor_recente": 7.089955836856151,
+      "data_recente": "2026-04-15T00:28:34Z"
     },
     {
       "cnpj": "36429585000107",
@@ -916,11 +916,11 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.789998442124942,
-      "valor_maximo": 7.789998442124942,
-      "valor_medio": 7.789998442124942,
-      "valor_recente": 7.789998442124942,
-      "data_recente": "2026-04-14T20:45:43Z"
+      "valor_minimo": 7.789982083041209,
+      "valor_maximo": 7.789982083041209,
+      "valor_medio": 7.789982083041209,
+      "valor_recente": 7.789982083041209,
+      "data_recente": "2026-04-15T00:51:18Z"
     },
     {
       "cnpj": "10616401000124",
@@ -936,31 +936,11 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": -9.427225,
       "longitude": -36.618685,
-      "valor_minimo": 7.889815232086526,
-      "valor_maximo": 7.889815232086526,
-      "valor_medio": 7.889815232086526,
-      "valor_recente": 7.889815232086526,
-      "data_recente": "2026-04-14T22:00:37Z"
-    },
-    {
-      "cnpj": "09339805000139",
-      "tipo_combustivel": 5,
-      "razao_social": "IRMAOS TAVARES LTDA - EPP",
-      "nome_fantasia": "POSTO PE DA SERRA",
-      "telefone": "(82) 96400211",
-      "nome_logradouro": " RD BR 316  KM 147",
-      "numero_imovel": "147",
-      "bairro": "ZONA RURAL",
-      "cep": "57600970",
-      "codigo_ibge": 2706307,
-      "municipio": "PALMEIRA DOS INDIOS",
-      "latitude": -9.4212271,
-      "longitude": -36.6249701,
-      "valor_minimo": 6.511236366298221,
-      "valor_maximo": 6.511236366298221,
-      "valor_medio": 6.511236366298221,
-      "valor_recente": 6.511236366298221,
-      "data_recente": "2026-04-14T21:04:12Z"
+      "valor_minimo": 7.889756328365271,
+      "valor_maximo": 7.889756328365271,
+      "valor_medio": 7.889756328365271,
+      "valor_recente": 7.889756328365271,
+      "data_recente": "2026-04-15T00:03:08Z"
     },
     {
       "cnpj": "59520930000119",
@@ -976,11 +956,11 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.989976373879856,
-      "valor_maximo": 6.989976373879856,
-      "valor_medio": 6.989976373879856,
-      "valor_recente": 6.989976373879856,
-      "data_recente": "2026-04-14T22:55:52Z"
+      "valor_minimo": 6.989985257485639,
+      "valor_maximo": 6.989985257485639,
+      "valor_medio": 6.989985257485639,
+      "valor_recente": 6.989985257485639,
+      "data_recente": "2026-04-15T00:53:59Z"
     },
     {
       "cnpj": "35370972000314",
@@ -1016,11 +996,11 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.199889258028793,
-      "valor_maximo": 7.199889258028793,
-      "valor_medio": 7.199889258028793,
-      "valor_recente": 7.199889258028793,
-      "data_recente": "2026-04-14T23:03:47Z"
+      "valor_minimo": 7.199424046076314,
+      "valor_maximo": 7.199424046076314,
+      "valor_medio": 7.199424046076314,
+      "valor_recente": 7.199424046076314,
+      "data_recente": "2026-04-15T00:48:05Z"
     },
     {
       "cnpj": "10616401000124",
@@ -1036,11 +1016,11 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": -9.427225,
       "longitude": -36.618685,
-      "valor_minimo": 7.249420625724218,
-      "valor_maximo": 7.249420625724218,
-      "valor_medio": 7.249420625724218,
-      "valor_recente": 7.249420625724218,
-      "data_recente": "2026-04-14T21:22:55Z"
+      "valor_minimo": 7.249961162032003,
+      "valor_maximo": 7.249961162032003,
+      "valor_medio": 7.249961162032003,
+      "valor_recente": 7.249961162032003,
+      "data_recente": "2026-04-15T01:01:10Z"
     },
     {
       "cnpj": "07011584000140",
@@ -1056,11 +1036,31 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": -9.4255713,
       "longitude": -36.6363597,
-      "valor_minimo": 7.319840427478681,
-      "valor_maximo": 7.319840427478681,
-      "valor_medio": 7.319840427478681,
-      "valor_recente": 7.319840427478681,
-      "data_recente": "2026-04-14T23:32:01Z"
+      "valor_minimo": 7.3198341836734695,
+      "valor_maximo": 7.3198341836734695,
+      "valor_medio": 7.3198341836734695,
+      "valor_recente": 7.3198341836734695,
+      "data_recente": "2026-04-15T01:23:38Z"
+    },
+    {
+      "cnpj": "09339805000139",
+      "tipo_combustivel": 5,
+      "razao_social": "IRMAOS TAVARES LTDA - EPP",
+      "nome_fantasia": "POSTO PE DA SERRA",
+      "telefone": "(82) 96400211",
+      "nome_logradouro": " RD BR 316  KM 147",
+      "numero_imovel": "147",
+      "bairro": "ZONA RURAL",
+      "cep": "57600970",
+      "codigo_ibge": 2706307,
+      "municipio": "PALMEIRA DOS INDIOS",
+      "latitude": -9.4212271,
+      "longitude": -36.6249701,
+      "valor_minimo": 7.319920074386215,
+      "valor_maximo": 7.319920074386215,
+      "valor_medio": 7.319920074386215,
+      "valor_recente": 7.319920074386215,
+      "data_recente": "2026-04-15T00:04:12Z"
     },
     {
       "cnpj": "36429585000107",
@@ -1076,11 +1076,11 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.319994676367508,
-      "valor_maximo": 7.319994676367508,
-      "valor_medio": 7.319994676367508,
-      "valor_recente": 7.319994676367508,
-      "data_recente": "2026-04-14T23:04:27Z"
+      "valor_minimo": 7.320197645336424,
+      "valor_maximo": 7.320197645336424,
+      "valor_medio": 7.320197645336424,
+      "valor_recente": 7.320197645336424,
+      "data_recente": "2026-04-15T01:02:37Z"
     },
     {
       "cnpj": "09259779000139",
@@ -1140,7 +1140,7 @@
       "valor_maximo": 7.389890629618682,
       "valor_medio": 7.389890629618682,
       "valor_recente": 7.389890629618682,
-      "data_recente": "2026-04-14T21:58:06Z"
+      "data_recente": "2026-04-14T23:39:16Z"
     },
     {
       "cnpj": "05331412000209",
@@ -1156,11 +1156,11 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": -9.423041999999999,
       "longitude": -36.6220447,
-      "valor_minimo": 7.4189364461738005,
-      "valor_maximo": 7.5192077855557455,
-      "valor_medio": 7.469072115864773,
-      "valor_recente": 7.4189364461738005,
-      "data_recente": "2026-04-14T22:56:50Z"
+      "valor_minimo": 7.420048972323217,
+      "valor_maximo": 7.519927808693036,
+      "valor_medio": 7.469988390508126,
+      "valor_recente": 7.420048972323217,
+      "data_recente": "2026-04-15T00:23:17Z"
     },
     {
       "cnpj": "12018131000185",
@@ -1236,11 +1236,11 @@
       "municipio": "PALMEIRA DOS INDIOS",
       "latitude": -9.4187823,
       "longitude": -36.6389133,
-      "valor_minimo": 7.589556769884639,
-      "valor_maximo": 7.589556769884639,
-      "valor_medio": 7.589556769884639,
-      "valor_recente": 7.589556769884639,
-      "data_recente": "2026-04-14T21:10:23Z"
+      "valor_minimo": 7.585162755488266,
+      "valor_maximo": 7.585162755488266,
+      "valor_medio": 7.585162755488266,
+      "valor_recente": 7.585162755488266,
+      "data_recente": "2026-04-15T00:17:29Z"
     },
     {
       "cnpj": "12530175000190",
