@@ -11,6 +11,7 @@
     "collect": "tsx scripts/coletar-precos-json.ts",
     "collect:supabase": "tsx scripts/coletar-precos-supabase.ts",
     "process:history": "tsx scripts/processar-historico.ts",
+    "migrate:json": "tsx scripts/migrar-json-supabase.ts",
     "geocode": "tsx scripts/geocodificar.ts",
     "geocode:local": "./scripts/geocode-local.sh",
     "coord:validate": "tsx scripts/validar-google.ts",

@@ -71,6 +71,10 @@ process-history: ## Processa histórico e atualiza min/max/médio
 	@echo "$(CYAN)📈 Processando histórico de preços...$(RESET)"
 	$(NVM_INIT) npm run process:history
 
+migrate-json: ## Migra dados JSON existentes para Supabase
+	@echo "$(CYAN)📦 Migrando JSON → Supabase...$(RESET)"
+	$(NVM_INIT) npm run migrate:json
+
 geocode: ## Geocodifica endereços dos estabelecimentos
 	@echo "$(CYAN)📍 Geocodificando endereços...$(RESET)"
 	$(NVM_INIT) npm run geocode
