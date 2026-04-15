@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2702553",
   "municipio": "Estrela de Alagoas",
-  "atualizadoEm": "2026-04-15T10:18:53.086Z",
+  "atualizadoEm": "2026-04-15T12:00:44.571Z",
   "totalEstabelecimentos": 12,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.28999319264806,
-      "valorMaximo": 6.889862327909888,
-      "valorMedio": 6.688666975073957
+      "valorMinimo": 6.839945280437757,
+      "valorMaximo": 6.889908256880734,
+      "valorMedio": 6.872939605827831
     },
     "2": {
       "totalPostos": 1,
@@ -30,9 +30,9 @@
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.09000567859171,
-      "valorMaximo": 7.319992572595735,
-      "valorMedio": 7.230002814213727
+      "valorMinimo": 7.280010191453738,
+      "valorMaximo": 7.319957668224712,
+      "valorMedio": 7.306600311473434
     }
   },
   "estabelecimentos": [
@@ -50,11 +50,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.3904105,
       "longitude": -36.7592457,
-      "valor_minimo": 6.28999319264806,
-      "valor_maximo": 6.28999319264806,
-      "valor_medio": 6.28999319264806,
-      "valor_recente": 6.28999319264806,
-      "data_recente": "2026-04-15T08:25:10Z"
+      "valor_minimo": 6.839945280437757,
+      "valor_maximo": 6.839945280437757,
+      "valor_medio": 6.839945280437757,
+      "valor_recente": 6.839945280437757,
+      "data_recente": "2026-04-15T10:18:56Z"
     },
     {
       "cnpj": "25359544000175",
@@ -70,11 +70,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.490857100000001,
       "longitude": -36.5661638,
-      "valor_minimo": 6.886145404663923,
-      "valor_maximo": 6.886145404663923,
-      "valor_medio": 6.886145404663923,
-      "valor_recente": 6.886145404663923,
-      "data_recente": "2026-04-15T00:00:31Z"
+      "valor_minimo": 6.888965280165005,
+      "valor_maximo": 6.888965280165005,
+      "valor_medio": 6.888965280165005,
+      "valor_recente": 6.888965280165005,
+      "data_recente": "2026-04-15T11:24:26Z"
     },
     {
       "cnpj": "22727145000121",
@@ -90,11 +90,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.3904417,
       "longitude": -36.7595025,
-      "valor_minimo": 6.889862327909888,
-      "valor_maximo": 6.889862327909888,
-      "valor_medio": 6.889862327909888,
-      "valor_recente": 6.889862327909888,
-      "data_recente": "2026-04-15T09:30:30Z"
+      "valor_minimo": 6.889908256880734,
+      "valor_maximo": 6.889908256880734,
+      "valor_medio": 6.889908256880734,
+      "valor_recente": 6.889908256880734,
+      "data_recente": "2026-04-15T11:35:32Z"
     },
     {
       "cnpj": "29689769000140",
@@ -217,26 +217,6 @@
       "data_recente": "2026-04-15T09:00:03Z"
     },
     {
-      "cnpj": "22727145000121",
-      "tipo_combustivel": 5,
-      "razao_social": "L FERNANDES DOS SANTOS LTDA",
-      "nome_fantasia": "AUTO POSTO ESTRELA DE ALAGOAS",
-      "telefone": "(82) 32219835",
-      "nome_logradouro": "AV ARLINDO GARROTE",
-      "numero_imovel": "111",
-      "bairro": "CENTRO",
-      "cep": "57625000",
-      "codigo_ibge": 2702553,
-      "municipio": "ESTRELA DE ALAGOAS",
-      "latitude": -9.3904417,
-      "longitude": -36.7595025,
-      "valor_minimo": 7.09000567859171,
-      "valor_maximo": 7.992,
-      "valor_medio": 7.541002839295855,
-      "valor_recente": 7.09000567859171,
-      "data_recente": "2026-04-15T09:32:37Z"
-    },
-    {
       "cnpj": "29689769000140",
       "tipo_combustivel": 5,
       "razao_social": "AUTO POSTO TURMALINA LTDA",
@@ -270,11 +250,31 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.490857100000001,
       "longitude": -36.5661638,
-      "valor_minimo": 7.319992572595735,
-      "valor_maximo": 7.319992572595735,
-      "valor_medio": 7.319992572595735,
-      "valor_recente": 7.319992572595735,
-      "data_recente": "2026-04-15T07:46:51Z"
+      "valor_minimo": 7.3198330747418545,
+      "valor_maximo": 7.3198330747418545,
+      "valor_medio": 7.3198330747418545,
+      "valor_recente": 7.3198330747418545,
+      "data_recente": "2026-04-15T11:34:46Z"
+    },
+    {
+      "cnpj": "22727145000121",
+      "tipo_combustivel": 5,
+      "razao_social": "L FERNANDES DOS SANTOS LTDA",
+      "nome_fantasia": "AUTO POSTO ESTRELA DE ALAGOAS",
+      "telefone": "(82) 32219835",
+      "nome_logradouro": "AV ARLINDO GARROTE",
+      "numero_imovel": "111",
+      "bairro": "CENTRO",
+      "cep": "57625000",
+      "codigo_ibge": 2702553,
+      "municipio": "ESTRELA DE ALAGOAS",
+      "latitude": -9.3904417,
+      "longitude": -36.7595025,
+      "valor_minimo": 7.319957668224712,
+      "valor_maximo": 7.992,
+      "valor_medio": 7.655978834112355,
+      "valor_recente": 7.319957668224712,
+      "data_recente": "2026-04-15T10:06:55Z"
     }
   ]
 }

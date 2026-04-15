@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2701407",
   "municipio": "Campo Alegre",
-  "atualizadoEm": "2026-04-15T10:13:39.497Z",
+  "atualizadoEm": "2026-04-15T11:53:48.931Z",
   "totalEstabelecimentos": 14,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
-      "valorMinimo": 6.590220113351786,
-      "valorMaximo": 6.989341254586755,
-      "valorMedio": 6.884461805937433
+      "valorMinimo": 6.589712918660287,
+      "valorMaximo": 6.989585517578807,
+      "valorMedio": 6.88440012135636
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.988120195667365,
-      "valorMaximo": 6.989581177119989,
-      "valorMedio": 6.988850686393677
+      "valorMinimo": 6.989581177119989,
+      "valorMaximo": 6.989748369058714,
+      "valorMedio": 6.989664773089352
     },
     "3": {
       "totalPostos": 4,
-      "valorMinimo": 4.889995722055858,
+      "valorMinimo": 4.889958413158264,
       "valorMaximo": 5.099439061703213,
-      "valorMedio": 5.0421038156155324
+      "valorMedio": 5.042094488391133
     },
     "5": {
       "totalPostos": 4,
       "valorMinimo": 7.288629737609329,
       "valorMaximo": 7.299994297770429,
-      "valorMedio": 7.29221196131268
+      "valorMedio": 7.292145529530195
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "CAMPO ALEGRE",
       "latitude": -10.1172981,
       "longitude": -36.768521,
-      "valor_minimo": 6.590220113351786,
-      "valor_maximo": 6.590220113351786,
-      "valor_medio": 6.590220113351786,
-      "valor_recente": 6.590220113351786,
-      "data_recente": "2026-04-15T09:32:50Z"
+      "valor_minimo": 6.589712918660287,
+      "valor_maximo": 6.589712918660287,
+      "valor_medio": 6.589712918660287,
+      "valor_recente": 6.589712918660287,
+      "data_recente": "2026-04-15T11:36:58Z"
     },
     {
       "cnpj": "09280439000190",
@@ -64,11 +64,11 @@
       "municipio": "CAMPO ALEGRE",
       "latitude": -9.781555599999999,
       "longitude": -36.3440973,
-      "valor_minimo": 6.969936341248084,
-      "valor_maximo": 6.969936341248084,
-      "valor_medio": 6.969936341248084,
-      "valor_recente": 6.969936341248084,
-      "data_recente": "2026-04-15T00:28:03Z"
+      "valor_minimo": 6.969952534623239,
+      "valor_maximo": 6.969952534623239,
+      "valor_medio": 6.969952534623239,
+      "valor_recente": 6.969952534623239,
+      "data_recente": "2026-04-15T11:03:06Z"
     },
     {
       "cnpj": "11968667000107",
@@ -104,31 +104,11 @@
       "municipio": "CAMPO ALEGRE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.989341254586755,
-      "valor_maximo": 6.989341254586755,
-      "valor_medio": 6.989341254586755,
-      "valor_recente": 6.989341254586755,
-      "data_recente": "2026-04-15T09:27:16Z"
-    },
-    {
-      "cnpj": "07583696000175",
-      "tipo_combustivel": 2,
-      "razao_social": "AGRESTE COMBUSTIVEIS E SERVICOS LTDA",
-      "nome_fantasia": "POSTO AGRESTE",
-      "telefone": "(82) 33262347",
-      "nome_logradouro": "ROD AL-220, KM 36",
-      "numero_imovel": "345",
-      "bairro": "SAO FRANCISCO",
-      "cep": "57252004",
-      "codigo_ibge": 2701407,
-      "municipio": "CAMPO ALEGRE",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.988120195667365,
-      "valor_maximo": 6.988120195667365,
-      "valor_medio": 6.988120195667365,
-      "valor_recente": 6.988120195667365,
-      "data_recente": "2026-04-15T08:27:46Z"
+      "valor_minimo": 6.989585517578807,
+      "valor_maximo": 6.989585517578807,
+      "valor_medio": 6.989585517578807,
+      "valor_recente": 6.989585517578807,
+      "data_recente": "2026-04-15T11:35:10Z"
     },
     {
       "cnpj": "09280439000190",
@@ -151,6 +131,26 @@
       "data_recente": "2026-04-15T00:26:02Z"
     },
     {
+      "cnpj": "07583696000175",
+      "tipo_combustivel": 2,
+      "razao_social": "AGRESTE COMBUSTIVEIS E SERVICOS LTDA",
+      "nome_fantasia": "POSTO AGRESTE",
+      "telefone": "(82) 33262347",
+      "nome_logradouro": "ROD AL-220, KM 36",
+      "numero_imovel": "345",
+      "bairro": "SAO FRANCISCO",
+      "cep": "57252004",
+      "codigo_ibge": 2701407,
+      "municipio": "CAMPO ALEGRE",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.989748369058714,
+      "valor_maximo": 6.989748369058714,
+      "valor_medio": 6.989748369058714,
+      "valor_recente": 6.989748369058714,
+      "data_recente": "2026-04-15T10:07:36Z"
+    },
+    {
       "cnpj": "02991589000324",
       "tipo_combustivel": 3,
       "razao_social": "POSTO 4 RODAS LTDA",
@@ -164,11 +164,11 @@
       "municipio": "CAMPO ALEGRE",
       "latitude": -10.1172981,
       "longitude": -36.768521,
-      "valor_minimo": 4.889995722055858,
-      "valor_maximo": 4.889995722055858,
-      "valor_medio": 4.889995722055858,
-      "valor_recente": 4.889995722055858,
-      "data_recente": "2026-04-15T09:11:57Z"
+      "valor_minimo": 4.889958413158264,
+      "valor_maximo": 4.889958413158264,
+      "valor_medio": 4.889958413158264,
+      "valor_recente": 4.889958413158264,
+      "data_recente": "2026-04-15T11:11:13Z"
     },
     {
       "cnpj": "11968667000107",
@@ -271,6 +271,26 @@
       "data_recente": "2026-04-15T00:20:50Z"
     },
     {
+      "cnpj": "02991589000324",
+      "tipo_combustivel": 5,
+      "razao_social": "POSTO 4 RODAS LTDA",
+      "nome_fantasia": "POSTO 4 RODAS II",
+      "telefone": "(82) 32315870",
+      "nome_logradouro": "RDV BR 101",
+      "numero_imovel": "1",
+      "bairro": "LUZIAPOLIS",
+      "cep": "57250000",
+      "codigo_ibge": 2701407,
+      "municipio": "CAMPO ALEGRE",
+      "latitude": -10.1172981,
+      "longitude": -36.768521,
+      "valor_minimo": 7.289958082741024,
+      "valor_maximo": 7.289958082741024,
+      "valor_medio": 7.289958082741024,
+      "valor_recente": 7.289958082741024,
+      "data_recente": "2026-04-15T10:37:29Z"
+    },
+    {
       "cnpj": "07583696000175",
       "tipo_combustivel": 5,
       "razao_social": "AGRESTE COMBUSTIVEIS E SERVICOS LTDA",
@@ -288,27 +308,7 @@
       "valor_maximo": 7.29,
       "valor_medio": 7.29,
       "valor_recente": 7.29,
-      "data_recente": "2026-04-15T09:19:01Z"
-    },
-    {
-      "cnpj": "02991589000324",
-      "tipo_combustivel": 5,
-      "razao_social": "POSTO 4 RODAS LTDA",
-      "nome_fantasia": "POSTO 4 RODAS II",
-      "telefone": "(82) 32315870",
-      "nome_logradouro": "RDV BR 101",
-      "numero_imovel": "1",
-      "bairro": "LUZIAPOLIS",
-      "cep": "57250000",
-      "codigo_ibge": 2701407,
-      "municipio": "CAMPO ALEGRE",
-      "latitude": -10.1172981,
-      "longitude": -36.768521,
-      "valor_minimo": 7.290223809870963,
-      "valor_maximo": 7.290223809870963,
-      "valor_medio": 7.290223809870963,
-      "valor_recente": 7.290223809870963,
-      "data_recente": "2026-04-15T08:18:38Z"
+      "data_recente": "2026-04-15T11:29:40Z"
     }
   ]
 }

@@ -1,26 +1,26 @@
 {
   "codigoIBGE": "2705705",
   "municipio": "Olho d'Água das Flores",
-  "atualizadoEm": "2026-04-15T10:30:41.721Z",
+  "atualizadoEm": "2026-04-15T12:18:29.922Z",
   "totalEstabelecimentos": 13,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
-      "valorMinimo": 6.810074880871341,
+      "valorMinimo": 6.810450401415158,
       "valorMaximo": 6.960065714646784,
-      "valorMedio": 6.890006434102466
+      "valorMedio": 6.889770652432649
     },
     "2": {
       "totalPostos": 2,
       "valorMinimo": 7.0100086910202135,
-      "valorMaximo": 7.190414693643278,
-      "valorMedio": 7.1002116923317455
+      "valorMaximo": 7.189791516894321,
+      "valorMedio": 7.099900103957268
     },
     "3": {
       "totalPostos": 3,
       "valorMinimo": 5.269757639620654,
-      "valorMaximo": 5.441048034934497,
-      "valorMedio": 5.370244560104897
+      "valorMaximo": 5.440217391304348,
+      "valorMedio": 5.369967678894848
     },
     "4": {
       "totalPostos": 1,
@@ -30,9 +30,9 @@
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 6.899843154828591,
-      "valorMaximo": 7.127583749109052,
-      "valorMedio": 6.989113792699565
+      "valorMinimo": 6.93991447416105,
+      "valorMaximo": 7.34,
+      "valorMedio": 7.1799692248045375
     }
   },
   "estabelecimentos": [
@@ -50,11 +50,11 @@
       "municipio": "OLHO D'AGUA DAS FLORES",
       "latitude": -9.5413832,
       "longitude": -37.2894755,
-      "valor_minimo": 6.810074880871341,
-      "valor_maximo": 6.810074880871341,
-      "valor_medio": 6.810074880871341,
-      "valor_recente": 6.810074880871341,
-      "data_recente": "2026-04-15T09:33:30Z"
+      "valor_minimo": 6.810450401415158,
+      "valor_maximo": 6.810450401415158,
+      "valor_medio": 6.810450401415158,
+      "valor_recente": 6.810450401415158,
+      "data_recente": "2026-04-15T11:28:43Z"
     },
     {
       "cnpj": "08886885000180",
@@ -70,11 +70,11 @@
       "municipio": "OLHO D'AGUA DAS FLORES",
       "latitude": -9.5409131,
       "longitude": -37.2929781,
-      "valor_minimo": 6.840909090909091,
-      "valor_maximo": 6.840909090909091,
-      "valor_medio": 6.840909090909091,
-      "valor_recente": 6.840909090909091,
-      "data_recente": "2026-04-15T09:36:36Z"
+      "valor_minimo": 6.839590443686006,
+      "valor_maximo": 6.839590443686006,
+      "valor_medio": 6.839590443686006,
+      "valor_recente": 6.839590443686006,
+      "data_recente": "2026-04-15T11:33:03Z"
     },
     {
       "cnpj": "12261087000130",
@@ -94,7 +94,7 @@
       "valor_maximo": 6.948976049982645,
       "valor_medio": 6.948976049982645,
       "valor_recente": 6.948976049982645,
-      "data_recente": "2026-04-15T00:06:01Z"
+      "data_recente": "2026-04-15T11:15:00Z"
     },
     {
       "cnpj": "08841116000165",
@@ -150,11 +150,11 @@
       "municipio": "OLHO D'AGUA DAS FLORES",
       "latitude": -9.5409131,
       "longitude": -37.2929781,
-      "valor_minimo": 7.190414693643278,
-      "valor_maximo": 7.190414693643278,
-      "valor_medio": 7.190414693643278,
-      "valor_recente": 7.190414693643278,
-      "data_recente": "2026-04-15T00:54:05Z"
+      "valor_minimo": 7.189791516894321,
+      "valor_maximo": 7.189791516894321,
+      "valor_medio": 7.189791516894321,
+      "valor_recente": 7.189791516894321,
+      "data_recente": "2026-04-15T10:36:31Z"
     },
     {
       "cnpj": "12261087000130",
@@ -174,7 +174,7 @@
       "valor_maximo": 5.269757639620654,
       "valor_medio": 5.269757639620654,
       "valor_recente": 5.269757639620654,
-      "data_recente": "2026-04-14T23:08:59Z"
+      "data_recente": "2026-04-15T11:08:11Z"
     },
     {
       "cnpj": "07431049000148",
@@ -210,11 +210,11 @@
       "municipio": "OLHO D'AGUA DAS FLORES",
       "latitude": -9.5409131,
       "longitude": -37.2929781,
-      "valor_minimo": 5.441048034934497,
-      "valor_maximo": 5.441048034934497,
-      "valor_medio": 5.441048034934497,
-      "valor_recente": 5.441048034934497,
-      "data_recente": "2026-04-14T23:17:33Z"
+      "valor_minimo": 5.440217391304348,
+      "valor_maximo": 5.440217391304348,
+      "valor_medio": 5.440217391304348,
+      "valor_recente": 5.440217391304348,
+      "data_recente": "2026-04-15T10:25:57Z"
     },
     {
       "cnpj": "12261087000130",
@@ -235,26 +235,6 @@
       "valor_medio": 6.549019607843137,
       "valor_recente": 6.549019607843137,
       "data_recente": "2026-04-14T15:50:27Z"
-    },
-    {
-      "cnpj": "12261087000130",
-      "tipo_combustivel": 5,
-      "razao_social": "A A MELO LTDA",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "AV 2 DE DEZEMBRO",
-      "numero_imovel": "777",
-      "bairro": "CENTRO",
-      "cep": "57442000",
-      "codigo_ibge": 2705705,
-      "municipio": "OLHO D'AGUA DAS FLORES",
-      "latitude": -9.5301835,
-      "longitude": -37.2953869,
-      "valor_minimo": 6.899843154828591,
-      "valor_maximo": 6.899843154828591,
-      "valor_medio": 6.899843154828591,
-      "valor_recente": 6.899843154828591,
-      "data_recente": "2026-04-15T00:05:14Z"
     },
     {
       "cnpj": "08841116000165",
@@ -290,11 +270,31 @@
       "municipio": "OLHO D'AGUA DAS FLORES",
       "latitude": -9.5409131,
       "longitude": -37.2929781,
-      "valor_minimo": 7.127583749109052,
-      "valor_maximo": 7.127583749109052,
-      "valor_medio": 7.127583749109052,
-      "valor_recente": 7.127583749109052,
-      "data_recente": "2026-04-15T09:08:43Z"
+      "valor_minimo": 7.259993200252562,
+      "valor_maximo": 7.259993200252562,
+      "valor_medio": 7.259993200252562,
+      "valor_recente": 7.259993200252562,
+      "data_recente": "2026-04-15T11:15:00Z"
+    },
+    {
+      "cnpj": "12261087000130",
+      "tipo_combustivel": 5,
+      "razao_social": "A A MELO LTDA",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "AV 2 DE DEZEMBRO",
+      "numero_imovel": "777",
+      "bairro": "CENTRO",
+      "cep": "57442000",
+      "codigo_ibge": 2705705,
+      "municipio": "OLHO D'AGUA DAS FLORES",
+      "latitude": -9.5301835,
+      "longitude": -37.2953869,
+      "valor_minimo": 7.34,
+      "valor_maximo": 7.34,
+      "valor_medio": 7.34,
+      "valor_recente": 7.34,
+      "data_recente": "2026-04-15T11:15:00Z"
     }
   ]
 }

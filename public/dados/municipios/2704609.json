@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2704609",
   "municipio": "Maravilha",
-  "atualizadoEm": "2026-04-15T10:26:53.325Z",
+  "atualizadoEm": "2026-04-15T12:13:15.031Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 1,
-      "valorMinimo": 6.769564040075819,
-      "valorMaximo": 6.769564040075819,
-      "valorMedio": 6.769564040075819
+      "valorMinimo": 6.768189509306261,
+      "valorMaximo": 6.768189509306261,
+      "valorMedio": 6.768189509306261
     },
     "2": {
       "totalPostos": 3,
-      "valorMinimo": 6.757852077001013,
-      "valorMaximo": 6.99953336444237,
-      "valorMedio": 6.839252821608308
+      "valorMinimo": 5.407407407407407,
+      "valorMaximo": 6.7894424170415,
+      "valorMedio": 6.318233967149973
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.609858563226439,
-      "valorMaximo": 5.619871866921434,
-      "valorMedio": 5.614865215073936
+      "valorMinimo": 4.488338355094298,
+      "valorMaximo": 5.61955605507165,
+      "valorMedio": 5.053947205082974
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.289798206278027,
+      "valorMinimo": 5.83175389998542,
       "valorMaximo": 7.299980533385244,
-      "valorMedio": 7.294889369831635
+      "valorMedio": 6.565867216685332
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,31 @@
       "municipio": "MARAVILHA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.769564040075819,
-      "valor_maximo": 6.769564040075819,
-      "valor_medio": 6.769564040075819,
-      "valor_recente": 6.769564040075819,
-      "data_recente": "2026-04-15T09:32:56Z"
+      "valor_minimo": 6.768189509306261,
+      "valor_maximo": 6.768189509306261,
+      "valor_medio": 6.768189509306261,
+      "valor_recente": 6.768189509306261,
+      "data_recente": "2026-04-15T11:28:57Z"
+    },
+    {
+      "cnpj": "08418303000564",
+      "tipo_combustivel": 2,
+      "razao_social": "IRMAOS JOTA PINTO & CIA LTDA",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": " BR 316",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57520000",
+      "codigo_ibge": 2704609,
+      "municipio": "MARAVILHA",
+      "latitude": -9.2772442,
+      "longitude": -37.38293669999999,
+      "valor_minimo": 5.407407407407407,
+      "valor_maximo": 5.407407407407407,
+      "valor_medio": 5.407407407407407,
+      "valor_recente": 5.407407407407407,
+      "data_recente": "2026-04-15T11:05:25Z"
     },
     {
       "cnpj": "14683196000251",
@@ -71,26 +91,6 @@
       "data_recente": "2026-04-14T23:37:12Z"
     },
     {
-      "cnpj": "08418303000564",
-      "tipo_combustivel": 2,
-      "razao_social": "IRMAOS JOTA PINTO & CIA LTDA",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": " BR 316",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57520000",
-      "codigo_ibge": 2704609,
-      "municipio": "MARAVILHA",
-      "latitude": -9.2772442,
-      "longitude": -37.38293669999999,
-      "valor_minimo": 6.760373023381538,
-      "valor_maximo": 6.760373023381538,
-      "valor_medio": 6.760373023381538,
-      "valor_recente": 6.760373023381538,
-      "data_recente": "2026-04-15T09:33:27Z"
-    },
-    {
       "cnpj": "60501647000129",
       "tipo_combustivel": 2,
       "razao_social": "POSTO MALHADOR LTDA",
@@ -104,11 +104,11 @@
       "municipio": "MARAVILHA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.99953336444237,
-      "valor_maximo": 6.99953336444237,
-      "valor_medio": 6.99953336444237,
-      "valor_recente": 6.99953336444237,
-      "data_recente": "2026-04-15T01:03:17Z"
+      "valor_minimo": 6.7894424170415,
+      "valor_maximo": 6.7894424170415,
+      "valor_medio": 6.7894424170415,
+      "valor_recente": 6.7894424170415,
+      "data_recente": "2026-04-15T09:51:47Z"
     },
     {
       "cnpj": "08418303000564",
@@ -124,11 +124,11 @@
       "municipio": "MARAVILHA",
       "latitude": -9.2772442,
       "longitude": -37.38293669999999,
-      "valor_minimo": 5.609858563226439,
-      "valor_maximo": 5.609858563226439,
-      "valor_medio": 5.609858563226439,
-      "valor_recente": 5.609858563226439,
-      "data_recente": "2026-04-14T21:11:19Z"
+      "valor_minimo": 4.488338355094298,
+      "valor_maximo": 4.488338355094298,
+      "valor_medio": 4.488338355094298,
+      "valor_recente": 4.488338355094298,
+      "data_recente": "2026-04-15T10:54:25Z"
     },
     {
       "cnpj": "60501647000129",
@@ -144,11 +144,11 @@
       "municipio": "MARAVILHA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.619871866921434,
-      "valor_maximo": 5.619871866921434,
-      "valor_medio": 5.619871866921434,
-      "valor_recente": 5.619871866921434,
-      "data_recente": "2026-04-15T00:25:58Z"
+      "valor_minimo": 5.61955605507165,
+      "valor_maximo": 5.61955605507165,
+      "valor_medio": 5.61955605507165,
+      "valor_recente": 5.61955605507165,
+      "data_recente": "2026-04-15T10:13:54Z"
     },
     {
       "cnpj": "08418303000564",
@@ -164,11 +164,11 @@
       "municipio": "MARAVILHA",
       "latitude": -9.2772442,
       "longitude": -37.38293669999999,
-      "valor_minimo": 7.289798206278027,
-      "valor_maximo": 7.289798206278027,
-      "valor_medio": 7.289798206278027,
-      "valor_recente": 7.289798206278027,
-      "data_recente": "2026-04-15T09:23:29Z"
+      "valor_minimo": 5.83175389998542,
+      "valor_maximo": 5.83175389998542,
+      "valor_medio": 5.83175389998542,
+      "valor_recente": 5.83175389998542,
+      "data_recente": "2026-04-15T11:05:25Z"
     },
     {
       "cnpj": "60501647000129",

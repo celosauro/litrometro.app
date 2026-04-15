@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2707206",
   "municipio": "Poço das Trincheiras",
-  "atualizadoEm": "2026-04-15T10:49:05.517Z",
+  "atualizadoEm": "2026-04-15T12:25:29.610Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
       "valorMinimo": 6.968641114982578,
-      "valorMaximo": 6.993006993006993,
-      "valorMedio": 6.9770868658450516
+      "valorMaximo": 6.989547038327526,
+      "valorMedio": 6.975961707669025
     },
     "2": {
       "totalPostos": 1,
@@ -24,9 +24,9 @@
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.56000756000756,
-      "valorMaximo": 7.800312012480499,
-      "valorMedio": 7.7134481545298295
+      "valorMinimo": 7.7999469603606695,
+      "valorMaximo": 7.99,
+      "valorMedio": 7.863419657613723
     }
   },
   "estabelecimentos": [
@@ -64,11 +64,11 @@
       "municipio": "POCO DAS TRINCHEIRAS",
       "latitude": -9.3237539,
       "longitude": -37.30406809999999,
-      "valor_minimo": 6.9696124895455815,
-      "valor_maximo": 6.9696124895455815,
-      "valor_medio": 6.9696124895455815,
-      "valor_recente": 6.9696124895455815,
-      "data_recente": "2026-04-15T09:20:25Z"
+      "valor_minimo": 6.96969696969697,
+      "valor_maximo": 6.96969696969697,
+      "valor_medio": 6.96969696969697,
+      "valor_recente": 6.96969696969697,
+      "data_recente": "2026-04-15T11:08:17Z"
     },
     {
       "cnpj": "29720522000140",
@@ -84,11 +84,11 @@
       "municipio": "POCO DAS TRINCHEIRAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.993006993006993,
-      "valor_maximo": 6.993006993006993,
-      "valor_medio": 6.993006993006993,
-      "valor_recente": 6.993006993006993,
-      "data_recente": "2026-04-14T22:58:42Z"
+      "valor_minimo": 6.989547038327526,
+      "valor_maximo": 6.989547038327526,
+      "valor_medio": 6.989547038327526,
+      "valor_recente": 6.989547038327526,
+      "data_recente": "2026-04-15T11:18:12Z"
     },
     {
       "cnpj": "09025340000141",
@@ -144,31 +144,11 @@
       "municipio": "POCO DAS TRINCHEIRAS",
       "latitude": -9.3237539,
       "longitude": -37.30406809999999,
-      "valor_minimo": 7.56000756000756,
-      "valor_maximo": 7.56000756000756,
-      "valor_medio": 7.56000756000756,
-      "valor_recente": 7.56000756000756,
-      "data_recente": "2026-04-15T09:17:44Z"
-    },
-    {
-      "cnpj": "29720522000140",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO DOIS AMIGOS LTDA.",
-      "nome_fantasia": "AUTO POSTO DOIS AMIGOS",
-      "telefone": "(82) 36266524",
-      "nome_logradouro": "SIT PEDRA DA BOLA",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57510000",
-      "codigo_ibge": 2707206,
-      "municipio": "POCO DAS TRINCHEIRAS",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.780024891101431,
-      "valor_maximo": 7.780024891101431,
-      "valor_medio": 7.780024891101431,
-      "valor_recente": 7.780024891101431,
-      "data_recente": "2026-04-14T22:56:11Z"
+      "valor_minimo": 7.7999469603606695,
+      "valor_maximo": 7.7999469603606695,
+      "valor_medio": 7.7999469603606695,
+      "valor_recente": 7.7999469603606695,
+      "data_recente": "2026-04-15T10:14:58Z"
     },
     {
       "cnpj": "09025340000141",
@@ -189,6 +169,26 @@
       "valor_medio": 7.800312012480499,
       "valor_recente": 7.800312012480499,
       "data_recente": "2026-04-14T21:36:04Z"
+    },
+    {
+      "cnpj": "29720522000140",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO DOIS AMIGOS LTDA.",
+      "nome_fantasia": "AUTO POSTO DOIS AMIGOS",
+      "telefone": "(82) 36266524",
+      "nome_logradouro": "SIT PEDRA DA BOLA",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57510000",
+      "codigo_ibge": 2707206,
+      "municipio": "POCO DAS TRINCHEIRAS",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.99,
+      "valor_maximo": 7.99,
+      "valor_medio": 7.99,
+      "valor_recente": 7.99,
+      "data_recente": "2026-04-15T10:13:05Z"
     }
   ]
 }

@@ -1,20 +1,20 @@
 {
   "codigoIBGE": "2705002",
   "municipio": "Mata Grande",
-  "atualizadoEm": "2026-04-15T10:28:14.796Z",
+  "atualizadoEm": "2026-04-15T12:15:12.318Z",
   "totalEstabelecimentos": 14,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.9402467766532645,
-      "valorMaximo": 7.1797817346352675,
-      "valorMedio": 7.082782365119776
+      "valorMinimo": 6.939907763792087,
+      "valorMaximo": 7.483333333333333,
+      "valorMedio": 7.201007610586896
     },
     "2": {
       "totalPostos": 5,
       "valorMinimo": 6.8493150684931505,
-      "valorMaximo": 7.328467153284672,
-      "valorMedio": 7.071406548449943
+      "valorMaximo": 7.329587099926704,
+      "valorMedio": 7.071420772006
     },
     "3": {
       "totalPostos": 1,
@@ -24,9 +24,9 @@
     },
     "5": {
       "totalPostos": 5,
-      "valorMinimo": 7.150004404122258,
-      "valorMaximo": 8.229968843689377,
-      "valorMedio": 7.705940124475982
+      "valorMinimo": 7.380109192858197,
+      "valorMaximo": 8.23,
+      "valorMedio": 7.718029768758612
     }
   },
   "estabelecimentos": [
@@ -44,31 +44,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1179273,
       "longitude": -37.7255414,
-      "valor_minimo": 6.9402467766532645,
-      "valor_maximo": 6.9402467766532645,
-      "valor_medio": 6.9402467766532645,
-      "valor_recente": 6.9402467766532645,
-      "data_recente": "2026-04-15T00:06:32Z"
-    },
-    {
-      "cnpj": "08850457000105",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO SERRANO LTDA EPP",
-      "nome_fantasia": "AUTO POSTO SERRANO",
-      "telefone": "(82) 36421200",
-      "nome_logradouro": "RDV AL 140 DER/AL",
-      "numero_imovel": "140",
-      "bairro": "ZONA RURAL",
-      "cep": "57540000",
-      "codigo_ibge": 2705002,
-      "municipio": "MATA GRANDE",
-      "latitude": -9.1229984,
-      "longitude": -37.7355222,
-      "valor_minimo": 7.128318584070796,
-      "valor_maximo": 7.128318584070796,
-      "valor_medio": 7.128318584070796,
-      "valor_recente": 7.128318584070796,
-      "data_recente": "2026-04-15T09:24:35Z"
+      "valor_minimo": 6.939907763792087,
+      "valor_maximo": 6.939907763792087,
+      "valor_medio": 6.939907763792087,
+      "valor_recente": 6.939907763792087,
+      "data_recente": "2026-04-15T10:29:30Z"
     },
     {
       "cnpj": "09419389000189",
@@ -88,7 +68,27 @@
       "valor_maximo": 7.1797817346352675,
       "valor_medio": 7.1797817346352675,
       "valor_recente": 7.1797817346352675,
-      "data_recente": "2026-04-14T23:03:14Z"
+      "data_recente": "2026-04-15T11:32:16Z"
+    },
+    {
+      "cnpj": "08850457000105",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO SERRANO LTDA EPP",
+      "nome_fantasia": "AUTO POSTO SERRANO",
+      "telefone": "(82) 36421200",
+      "nome_logradouro": "RDV AL 140 DER/AL",
+      "numero_imovel": "140",
+      "bairro": "ZONA RURAL",
+      "cep": "57540000",
+      "codigo_ibge": 2705002,
+      "municipio": "MATA GRANDE",
+      "latitude": -9.1229984,
+      "longitude": -37.7355222,
+      "valor_minimo": 7.483333333333333,
+      "valor_maximo": 7.483333333333333,
+      "valor_medio": 7.483333333333333,
+      "valor_recente": 7.483333333333333,
+      "data_recente": "2026-04-15T10:25:20Z"
     },
     {
       "cnpj": "24250482000104",
@@ -108,7 +108,27 @@
       "valor_maximo": 6.8493150684931505,
       "valor_medio": 6.8493150684931505,
       "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-15T00:16:47Z"
+      "data_recente": "2026-04-15T11:29:09Z"
+    },
+    {
+      "cnpj": "13240923000162",
+      "tipo_combustivel": 2,
+      "razao_social": "AUTO POSTO PRIMOS LTDA",
+      "nome_fantasia": "AUTO POSTO PRIMOS",
+      "telefone": "(82) 88206284",
+      "nome_logradouro": "TV CONEGO GONZAGA",
+      "numero_imovel": "05",
+      "bairro": "CENTRO",
+      "cep": "57540000",
+      "codigo_ibge": 2705002,
+      "municipio": "MATA GRANDE",
+      "latitude": -9.1184121,
+      "longitude": -37.729208,
+      "valor_minimo": 6.9393063583815024,
+      "valor_maximo": 6.9393063583815024,
+      "valor_medio": 6.9393063583815024,
+      "valor_recente": 6.9393063583815024,
+      "data_recente": "2026-04-15T10:29:39Z"
     },
     {
       "cnpj": "08804741000137",
@@ -131,26 +151,6 @@
       "data_recente": "2026-04-14T22:24:57Z"
     },
     {
-      "cnpj": "13240923000162",
-      "tipo_combustivel": 2,
-      "razao_social": "AUTO POSTO PRIMOS LTDA",
-      "nome_fantasia": "AUTO POSTO PRIMOS",
-      "telefone": "(82) 88206284",
-      "nome_logradouro": "TV CONEGO GONZAGA",
-      "numero_imovel": "05",
-      "bairro": "CENTRO",
-      "cep": "57540000",
-      "codigo_ibge": 2705002,
-      "municipio": "MATA GRANDE",
-      "latitude": -9.1184121,
-      "longitude": -37.729208,
-      "valor_minimo": 6.939625260235947,
-      "valor_maximo": 6.939625260235947,
-      "valor_medio": 6.939625260235947,
-      "valor_recente": 6.939625260235947,
-      "data_recente": "2026-04-15T08:29:09Z"
-    },
-    {
       "cnpj": "08850457000105",
       "tipo_combustivel": 2,
       "razao_social": "AUTO POSTO SERRANO LTDA EPP",
@@ -164,11 +164,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1229984,
       "longitude": -37.7355222,
-      "valor_minimo": 7.3,
-      "valor_maximo": 7.3,
-      "valor_medio": 7.3,
-      "valor_recente": 7.3,
-      "data_recente": "2026-04-15T03:03:10Z"
+      "valor_minimo": 7.299270072992701,
+      "valor_maximo": 7.299270072992701,
+      "valor_medio": 7.299270072992701,
+      "valor_recente": 7.299270072992701,
+      "data_recente": "2026-04-15T11:33:07Z"
     },
     {
       "cnpj": "09419389000189",
@@ -184,11 +184,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.118687099999999,
       "longitude": -37.73142,
-      "valor_minimo": 7.328467153284672,
-      "valor_maximo": 7.328467153284672,
-      "valor_medio": 7.328467153284672,
-      "valor_recente": 7.328467153284672,
-      "data_recente": "2026-04-14T20:52:00Z"
+      "valor_minimo": 7.329587099926704,
+      "valor_maximo": 7.329587099926704,
+      "valor_medio": 7.329587099926704,
+      "valor_recente": 7.329587099926704,
+      "data_recente": "2026-04-15T11:05:12Z"
     },
     {
       "cnpj": "13240923000162",
@@ -211,6 +211,26 @@
       "data_recente": "2026-04-14T23:38:36Z"
     },
     {
+      "cnpj": "13240923000162",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO PRIMOS LTDA",
+      "nome_fantasia": "AUTO POSTO PRIMOS",
+      "telefone": "(82) 88206284",
+      "nome_logradouro": "TV CONEGO GONZAGA",
+      "numero_imovel": "05",
+      "bairro": "CENTRO",
+      "cep": "57540000",
+      "codigo_ibge": 2705002,
+      "municipio": "MATA GRANDE",
+      "latitude": -9.1184121,
+      "longitude": -37.729208,
+      "valor_minimo": 7.380109192858197,
+      "valor_maximo": 7.380109192858197,
+      "valor_medio": 7.380109192858197,
+      "valor_recente": 7.380109192858197,
+      "data_recente": "2026-04-15T11:28:18Z"
+    },
+    {
       "cnpj": "24250482000104",
       "tipo_combustivel": 5,
       "razao_social": "T. LOU DE SOUSA LTDA",
@@ -224,11 +244,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1186768,
       "longitude": -37.7313914,
-      "valor_minimo": 7.150004404122258,
+      "valor_minimo": 7.4000074000074,
       "valor_maximo": 7.599939200486396,
-      "valor_medio": 7.374971802304327,
-      "valor_recente": 7.150004404122258,
-      "data_recente": "2026-04-15T08:57:50Z"
+      "valor_medio": 7.499973300246898,
+      "valor_recente": 7.4000074000074,
+      "data_recente": "2026-04-15T11:22:34Z"
     },
     {
       "cnpj": "08804741000137",
@@ -244,31 +264,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1179273,
       "longitude": -37.7255414,
-      "valor_minimo": 7.499625018749063,
-      "valor_maximo": 7.499625018749063,
-      "valor_medio": 7.499625018749063,
-      "valor_recente": 7.499625018749063,
-      "data_recente": "2026-04-13T20:40:58Z"
-    },
-    {
-      "cnpj": "13240923000162",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO PRIMOS LTDA",
-      "nome_fantasia": "AUTO POSTO PRIMOS",
-      "telefone": "(82) 88206284",
-      "nome_logradouro": "TV CONEGO GONZAGA",
-      "numero_imovel": "05",
-      "bairro": "CENTRO",
-      "cep": "57540000",
-      "codigo_ibge": 2705002,
-      "municipio": "MATA GRANDE",
-      "latitude": -9.1184121,
-      "longitude": -37.729208,
-      "valor_minimo": 7.520021055006204,
-      "valor_maximo": 7.520021055006204,
-      "valor_medio": 7.520021055006204,
-      "valor_recente": 7.520021055006204,
-      "data_recente": "2026-04-15T08:26:54Z"
+      "valor_minimo": 7.44995095011445,
+      "valor_maximo": 7.44995095011445,
+      "valor_medio": 7.44995095011445,
+      "valor_recente": 7.44995095011445,
+      "data_recente": "2026-04-15T10:29:45Z"
     },
     {
       "cnpj": "09419389000189",
@@ -288,7 +288,7 @@
       "valor_maximo": 8.130081300813009,
       "valor_medio": 8.130081300813009,
       "valor_recente": 8.130081300813009,
-      "data_recente": "2026-04-14T20:50:13Z"
+      "data_recente": "2026-04-15T11:05:29Z"
     },
     {
       "cnpj": "08850457000105",
@@ -304,11 +304,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1229984,
       "longitude": -37.7355222,
-      "valor_minimo": 8.229968843689377,
-      "valor_maximo": 8.229968843689377,
-      "valor_medio": 8.229968843689377,
-      "valor_recente": 8.229968843689377,
-      "data_recente": "2026-04-15T00:04:19Z"
+      "valor_minimo": 8.23,
+      "valor_maximo": 8.23,
+      "valor_medio": 8.23,
+      "valor_recente": 8.23,
+      "data_recente": "2026-04-15T10:11:18Z"
     }
   ]
 }
