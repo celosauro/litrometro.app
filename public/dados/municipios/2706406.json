@@ -1,38 +1,38 @@
 {
   "codigoIBGE": "2706406",
   "municipio": "Pão de Açúcar",
-  "atualizadoEm": "2026-04-15T01:47:48.060Z",
+  "atualizadoEm": "2026-04-15T08:43:46.563Z",
   "totalEstabelecimentos": 17,
   "combustiveis": {
     "1": {
       "totalPostos": 5,
       "valorMinimo": 6.797297297297297,
-      "valorMaximo": 7.05,
-      "valorMedio": 6.879372240284313
+      "valorMaximo": 6.9499602859412235,
+      "valorMedio": 6.859157774784689
     },
     "2": {
       "totalPostos": 4,
-      "valorMinimo": 6.947368421052632,
-      "valorMaximo": 6.988768051346051,
-      "valorMedio": 6.958709581906204
+      "valorMinimo": 6.948465547191661,
+      "valorMaximo": 6.988120195667365,
+      "valorMedio": 6.959021887739054
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.689997553301052,
-      "valorMaximo": 5.788712011577424,
-      "valorMedio": 5.7393547824392375
+      "valorMinimo": 5.692599620493358,
+      "valorMaximo": 5.789717461787864,
+      "valorMedio": 5.741158541140612
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 5.6892655367231635,
-      "valorMaximo": 5.6892655367231635,
-      "valorMedio": 5.6892655367231635
+      "valorMinimo": 5.689900426742532,
+      "valorMaximo": 5.689900426742532,
+      "valorMedio": 5.689900426742532
     },
     "5": {
       "totalPostos": 5,
       "valorMinimo": 7.429972509101717,
-      "valorMaximo": 7.849997560142488,
-      "valorMedio": 7.549986236783196
+      "valorMaximo": 7.85,
+      "valorMedio": 7.549946783006709
     }
   },
   "estabelecimentos": [
@@ -90,11 +90,11 @@
       "municipio": "PAO DE ACUCAR",
       "latitude": -9.7471217,
       "longitude": -37.4330454,
-      "valor_minimo": 6.849995376253121,
-      "valor_maximo": 6.849995376253121,
-      "valor_medio": 6.849995376253121,
-      "valor_recente": 6.849995376253121,
-      "data_recente": "2026-04-15T00:26:27Z"
+      "valor_minimo": 6.8493150684931505,
+      "valor_maximo": 6.8493150684931505,
+      "valor_medio": 6.8493150684931505,
+      "valor_recente": 6.8493150684931505,
+      "data_recente": "2026-04-15T02:49:29Z"
     },
     {
       "cnpj": "37192386000190",
@@ -110,11 +110,11 @@
       "municipio": "PAO DE ACUCAR",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.850253459377997,
-      "valor_maximo": 6.850253459377997,
-      "valor_medio": 6.850253459377997,
-      "valor_recente": 6.850253459377997,
-      "data_recente": "2026-04-15T01:29:06Z"
+      "valor_minimo": 6.849901153698622,
+      "valor_maximo": 6.849901153698622,
+      "valor_medio": 6.849901153698622,
+      "valor_recente": 6.849901153698622,
+      "data_recente": "2026-04-15T07:19:43Z"
     },
     {
       "cnpj": "40477733000136",
@@ -130,31 +130,11 @@
       "municipio": "PAO DE ACUCAR",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.05,
-      "valor_maximo": 7.05,
-      "valor_medio": 7.05,
-      "valor_recente": 7.05,
-      "data_recente": "2026-04-15T01:06:55Z"
-    },
-    {
-      "cnpj": "37192386000190",
-      "tipo_combustivel": 2,
-      "razao_social": "ALIANÇA AUTO POSTO LTDA.",
-      "nome_fantasia": "AUTO POSTO ALIANCA",
-      "telefone": "(82) 96951708",
-      "nome_logradouro": "Rua ALTO ZEFERINO",
-      "numero_imovel": "101",
-      "bairro": "CENTRO",
-      "cep": "57400000",
-      "codigo_ibge": 2706406,
-      "municipio": "PAO DE ACUCAR",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.947368421052632,
-      "valor_maximo": 6.947368421052632,
-      "valor_medio": 6.947368421052632,
-      "valor_recente": 6.947368421052632,
-      "data_recente": "2026-04-15T01:25:58Z"
+      "valor_minimo": 6.9499602859412235,
+      "valor_maximo": 6.9499602859412235,
+      "valor_medio": 6.9499602859412235,
+      "valor_recente": 6.9499602859412235,
+      "data_recente": "2026-04-15T06:05:56Z"
     },
     {
       "cnpj": "18597376000190",
@@ -177,6 +157,26 @@
       "data_recente": "2026-04-14T22:59:48Z"
     },
     {
+      "cnpj": "37192386000190",
+      "tipo_combustivel": 2,
+      "razao_social": "ALIANÇA AUTO POSTO LTDA.",
+      "nome_fantasia": "AUTO POSTO ALIANCA",
+      "telefone": "(82) 96951708",
+      "nome_logradouro": "Rua ALTO ZEFERINO",
+      "numero_imovel": "101",
+      "bairro": "CENTRO",
+      "cep": "57400000",
+      "codigo_ibge": 2706406,
+      "municipio": "PAO DE ACUCAR",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.949270326615705,
+      "valor_maximo": 6.949270326615705,
+      "valor_medio": 6.949270326615705,
+      "valor_recente": 6.949270326615705,
+      "data_recente": "2026-04-14T15:31:51Z"
+    },
+    {
       "cnpj": "12405197000128",
       "tipo_combustivel": 2,
       "razao_social": "JOSE GENTIL SANTOS",
@@ -190,11 +190,11 @@
       "municipio": "PAO DE ACUCAR",
       "latitude": -9.7471217,
       "longitude": -37.4330454,
-      "valor_minimo": 6.950236308034473,
-      "valor_maximo": 6.950236308034473,
-      "valor_medio": 6.950236308034473,
-      "valor_recente": 6.950236308034473,
-      "data_recente": "2026-04-14T20:55:46Z"
+      "valor_minimo": 6.950231481481482,
+      "valor_maximo": 6.950231481481482,
+      "valor_medio": 6.950231481481482,
+      "valor_recente": 6.950231481481482,
+      "data_recente": "2026-04-15T02:39:31Z"
     },
     {
       "cnpj": "40477733000136",
@@ -210,11 +210,11 @@
       "municipio": "PAO DE ACUCAR",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.988768051346051,
-      "valor_maximo": 6.988768051346051,
-      "valor_medio": 6.988768051346051,
-      "valor_recente": 6.988768051346051,
-      "data_recente": "2026-04-14T23:01:27Z"
+      "valor_minimo": 6.988120195667365,
+      "valor_maximo": 6.988120195667365,
+      "valor_medio": 6.988120195667365,
+      "valor_recente": 6.988120195667365,
+      "data_recente": "2026-04-15T02:49:58Z"
     },
     {
       "cnpj": "12405197000128",
@@ -230,11 +230,11 @@
       "municipio": "PAO DE ACUCAR",
       "latitude": -9.7471217,
       "longitude": -37.4330454,
-      "valor_minimo": 5.689997553301052,
-      "valor_maximo": 5.689997553301052,
-      "valor_medio": 5.689997553301052,
-      "valor_recente": 5.689997553301052,
-      "data_recente": "2026-04-14T20:40:18Z"
+      "valor_minimo": 5.692599620493358,
+      "valor_maximo": 5.692599620493358,
+      "valor_medio": 5.692599620493358,
+      "valor_recente": 5.692599620493358,
+      "data_recente": "2026-04-15T02:46:27Z"
     },
     {
       "cnpj": "40477733000136",
@@ -250,11 +250,11 @@
       "municipio": "PAO DE ACUCAR",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.788712011577424,
-      "valor_maximo": 5.788712011577424,
-      "valor_medio": 5.788712011577424,
-      "valor_recente": 5.788712011577424,
-      "data_recente": "2026-04-14T23:01:27Z"
+      "valor_minimo": 5.789717461787864,
+      "valor_maximo": 5.789717461787864,
+      "valor_medio": 5.789717461787864,
+      "valor_recente": 5.789717461787864,
+      "data_recente": "2026-04-15T02:49:58Z"
     },
     {
       "cnpj": "37192386000190",
@@ -270,11 +270,11 @@
       "municipio": "PAO DE ACUCAR",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.6892655367231635,
-      "valor_maximo": 5.6892655367231635,
-      "valor_medio": 5.6892655367231635,
-      "valor_recente": 5.6892655367231635,
-      "data_recente": "2026-04-15T01:25:58Z"
+      "valor_minimo": 5.689900426742532,
+      "valor_maximo": 5.689900426742532,
+      "valor_medio": 5.689900426742532,
+      "valor_recente": 5.689900426742532,
+      "data_recente": "2026-04-14T15:31:51Z"
     },
     {
       "cnpj": "43375706000140",
@@ -317,26 +317,6 @@
       "data_recente": "2026-04-14T23:11:47Z"
     },
     {
-      "cnpj": "12405197000128",
-      "tipo_combustivel": 5,
-      "razao_social": "JOSE GENTIL SANTOS",
-      "nome_fantasia": "POSTO TEXACO SAO FRANCISCO",
-      "telefone": "",
-      "nome_logradouro": "Rua CONEGO JASSON SOUTO",
-      "numero_imovel": "237",
-      "bairro": "CENTRO",
-      "cep": "57400000",
-      "codigo_ibge": 2706406,
-      "municipio": "PAO DE ACUCAR",
-      "latitude": -9.7471217,
-      "longitude": -37.4330454,
-      "valor_minimo": 7.509950684657171,
-      "valor_maximo": 7.509950684657171,
-      "valor_medio": 7.509950684657171,
-      "valor_recente": 7.509950684657171,
-      "data_recente": "2026-04-15T00:45:59Z"
-    },
-    {
       "cnpj": "37192386000190",
       "tipo_combustivel": 5,
       "razao_social": "ALIANÇA AUTO POSTO LTDA.",
@@ -350,11 +330,31 @@
       "municipio": "PAO DE ACUCAR",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.51,
-      "valor_maximo": 7.51,
-      "valor_medio": 7.51,
-      "valor_recente": 7.51,
-      "data_recente": "2026-04-15T01:25:58Z"
+      "valor_minimo": 7.509762691498949,
+      "valor_maximo": 7.509762691498949,
+      "valor_medio": 7.509762691498949,
+      "valor_recente": 7.509762691498949,
+      "data_recente": "2026-04-15T06:56:12Z"
+    },
+    {
+      "cnpj": "12405197000128",
+      "tipo_combustivel": 5,
+      "razao_social": "JOSE GENTIL SANTOS",
+      "nome_fantasia": "POSTO TEXACO SAO FRANCISCO",
+      "telefone": "",
+      "nome_logradouro": "Rua CONEGO JASSON SOUTO",
+      "numero_imovel": "237",
+      "bairro": "CENTRO",
+      "cep": "57400000",
+      "codigo_ibge": 2706406,
+      "municipio": "PAO DE ACUCAR",
+      "latitude": -9.7471217,
+      "longitude": -37.4330454,
+      "valor_minimo": 7.509988284418276,
+      "valor_maximo": 7.509988284418276,
+      "valor_medio": 7.509988284418276,
+      "valor_recente": 7.509988284418276,
+      "data_recente": "2026-04-15T02:46:27Z"
     },
     {
       "cnpj": "40477733000136",
@@ -370,11 +370,11 @@
       "municipio": "PAO DE ACUCAR",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.849997560142488,
-      "valor_maximo": 7.849997560142488,
-      "valor_medio": 7.849997560142488,
-      "valor_recente": 7.849997560142488,
-      "data_recente": "2026-04-15T00:30:29Z"
+      "valor_minimo": 7.85,
+      "valor_maximo": 7.85,
+      "valor_medio": 7.85,
+      "valor_recente": 7.85,
+      "data_recente": "2026-04-15T06:12:32Z"
     }
   ]
 }

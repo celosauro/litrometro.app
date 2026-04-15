@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2703106",
   "municipio": "Igaci",
-  "atualizadoEm": "2026-04-15T01:36:22.364Z",
+  "atualizadoEm": "2026-04-15T08:31:56.057Z",
   "totalEstabelecimentos": 15,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
       "valorMinimo": 6.6498204548477196,
-      "valorMaximo": 6.890410958904109,
-      "valorMedio": 6.819860012291489
+      "valorMaximo": 6.891156462585034,
+      "valorMedio": 6.8200833699254595
     },
     "2": {
       "totalPostos": 3,
       "valorMinimo": 6.95,
-      "valorMaximo": 6.990003332222592,
-      "valorMedio": 6.964497234771872
+      "valorMaximo": 6.990223463687151,
+      "valorMedio": 6.974487895716947
     },
     "3": {
       "totalPostos": 4,
       "valorMinimo": 4.789036544850498,
       "valorMaximo": 5.388026607538802,
-      "valorMedio": 5.06932872045759
+      "valorMedio": 5.069270778117285
     },
     "5": {
       "totalPostos": 4,
       "valorMinimo": 6.749532615835481,
-      "valorMaximo": 7.650087478130468,
-      "valorMedio": 7.215220161442055
+      "valorMaximo": 7.311594202898551,
+      "valorMedio": 7.100163729697456
     }
   },
   "estabelecimentos": [
@@ -84,11 +84,11 @@
       "municipio": "IGACI",
       "latitude": -9.539441199999999,
       "longitude": -36.6385346,
-      "valor_minimo": 6.889893566920976,
-      "valor_maximo": 6.889893566920976,
-      "valor_medio": 6.889893566920976,
-      "valor_recente": 6.889893566920976,
-      "data_recente": "2026-04-14T23:33:53Z"
+      "valor_minimo": 6.890041493775934,
+      "valor_maximo": 6.890041493775934,
+      "valor_medio": 6.890041493775934,
+      "valor_recente": 6.890041493775934,
+      "data_recente": "2026-04-15T01:17:44Z"
     },
     {
       "cnpj": "05019078000171",
@@ -104,11 +104,11 @@
       "municipio": "IGACI",
       "latitude": -9.543047699999999,
       "longitude": -36.6506562,
-      "valor_minimo": 6.890410958904109,
-      "valor_maximo": 6.890410958904109,
-      "valor_medio": 6.890410958904109,
-      "valor_recente": 6.890410958904109,
-      "data_recente": "2026-04-14T23:19:37Z"
+      "valor_minimo": 6.891156462585034,
+      "valor_maximo": 6.891156462585034,
+      "valor_medio": 6.891156462585034,
+      "valor_recente": 6.891156462585034,
+      "data_recente": "2026-04-15T01:48:39Z"
     },
     {
       "cnpj": "61923139000100",
@@ -144,11 +144,11 @@
       "municipio": "IGACI",
       "latitude": -9.543047699999999,
       "longitude": -36.6506562,
-      "valor_minimo": 6.953488372093023,
-      "valor_maximo": 6.953488372093023,
-      "valor_medio": 6.953488372093023,
-      "valor_recente": 6.953488372093023,
-      "data_recente": "2026-04-14T22:46:32Z"
+      "valor_minimo": 6.983240223463687,
+      "valor_maximo": 6.983240223463687,
+      "valor_medio": 6.983240223463687,
+      "valor_recente": 6.983240223463687,
+      "data_recente": "2026-04-15T01:54:55Z"
     },
     {
       "cnpj": "06209130000115",
@@ -164,11 +164,11 @@
       "municipio": "IGACI",
       "latitude": -9.539441199999999,
       "longitude": -36.6385346,
-      "valor_minimo": 6.990003332222592,
-      "valor_maximo": 6.990003332222592,
-      "valor_medio": 6.990003332222592,
-      "valor_recente": 6.990003332222592,
-      "data_recente": "2026-04-14T22:20:34Z"
+      "valor_minimo": 6.990223463687151,
+      "valor_maximo": 6.990223463687151,
+      "valor_medio": 6.990223463687151,
+      "valor_recente": 6.990223463687151,
+      "data_recente": "2026-04-15T00:42:49Z"
     },
     {
       "cnpj": "22442762000261",
@@ -224,11 +224,11 @@
       "municipio": "IGACI",
       "latitude": -9.539441199999999,
       "longitude": -36.6385346,
-      "valor_minimo": 5.110231769361221,
-      "valor_maximo": 5.110231769361221,
-      "valor_medio": 5.110231769361221,
-      "valor_recente": 5.110231769361221,
-      "data_recente": "2026-04-14T22:16:29Z"
+      "valor_minimo": 5.11,
+      "valor_maximo": 5.11,
+      "valor_medio": 5.11,
+      "valor_recente": 5.11,
+      "data_recente": "2026-04-15T00:42:49Z"
     },
     {
       "cnpj": "05019078000171",
@@ -291,6 +291,26 @@
       "data_recente": "2026-04-14T23:02:39Z"
     },
     {
+      "cnpj": "06209130000115",
+      "tipo_combustivel": 5,
+      "razao_social": "POSTO IGACI LTDA",
+      "nome_fantasia": "POSTO IGACI LTDA",
+      "telefone": "",
+      "nome_logradouro": "Rua JOAO FARIAS",
+      "numero_imovel": "446",
+      "bairro": "CENTRO",
+      "cep": "57620000",
+      "codigo_ibge": 2703106,
+      "municipio": "IGACI",
+      "latitude": -9.539441199999999,
+      "longitude": -36.6385346,
+      "valor_minimo": 7.1898617511520735,
+      "valor_maximo": 7.1898617511520735,
+      "valor_medio": 7.1898617511520735,
+      "valor_recente": 7.1898617511520735,
+      "data_recente": "2026-04-15T00:42:49Z"
+    },
+    {
       "cnpj": "05019078000171",
       "tipo_combustivel": 5,
       "razao_social": "AUTO POSTO JP LTDA - EPP",
@@ -309,26 +329,6 @@
       "valor_medio": 7.311594202898551,
       "valor_recente": 7.311594202898551,
       "data_recente": "2026-04-14T22:46:32Z"
-    },
-    {
-      "cnpj": "06209130000115",
-      "tipo_combustivel": 5,
-      "razao_social": "POSTO IGACI LTDA",
-      "nome_fantasia": "POSTO IGACI LTDA",
-      "telefone": "",
-      "nome_logradouro": "Rua JOAO FARIAS",
-      "numero_imovel": "446",
-      "bairro": "CENTRO",
-      "cep": "57620000",
-      "codigo_ibge": 2703106,
-      "municipio": "IGACI",
-      "latitude": -9.539441199999999,
-      "longitude": -36.6385346,
-      "valor_minimo": 7.650087478130468,
-      "valor_maximo": 7.650087478130468,
-      "valor_medio": 7.650087478130468,
-      "valor_recente": 7.650087478130468,
-      "data_recente": "2026-04-14T22:19:04Z"
     }
   ]
 }

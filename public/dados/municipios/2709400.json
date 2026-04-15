@@ -1,20 +1,20 @@
 {
   "codigoIBGE": "2709400",
   "municipio": "Viçosa",
-  "atualizadoEm": "2026-04-15T02:04:02.189Z",
+  "atualizadoEm": "2026-04-15T08:55:45.571Z",
   "totalEstabelecimentos": 14,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
       "valorMinimo": 7.15,
-      "valorMaximo": 7.790049751243781,
-      "valorMedio": 7.400132368052095
+      "valorMaximo": 7.369782046545992,
+      "valorMedio": 7.274777364643482
     },
     "2": {
       "totalPostos": 4,
       "valorMinimo": 7.15,
-      "valorMaximo": 7.890598290598291,
-      "valorMedio": 7.530619020471658
+      "valorMaximo": 7.6923076923076925,
+      "valorMedio": 7.405185516349629
     },
     "3": {
       "totalPostos": 2,
@@ -25,8 +25,8 @@
     "5": {
       "totalPostos": 4,
       "valorMinimo": 7.349698662354843,
-      "valorMaximo": 7.689946277820415,
-      "valorMedio": 7.579831277369885
+      "valorMaximo": 7.690076335877863,
+      "valorMedio": 7.579963525844399
     }
   },
   "estabelecimentos": [
@@ -49,6 +49,26 @@
       "valor_medio": 7.15,
       "valor_recente": 7.15,
       "data_recente": "2026-04-15T01:02:06Z"
+    },
+    {
+      "cnpj": "07478815000120",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
+      "nome_fantasia": "POSTO SABALANGA",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 210",
+      "numero_imovel": "1",
+      "bairro": "FAZ ALTO CONCEICAO",
+      "cep": "57700000",
+      "codigo_ibge": 2709400,
+      "municipio": "VICOSA",
+      "latitude": -9.3694174,
+      "longitude": -36.2427277,
+      "valor_minimo": 7.288629737609329,
+      "valor_maximo": 7.288629737609329,
+      "valor_medio": 7.288629737609329,
+      "valor_recente": 7.288629737609329,
+      "data_recente": "2026-04-15T07:26:59Z"
     },
     {
       "cnpj": "18527801000175",
@@ -91,26 +111,6 @@
       "data_recente": "2026-04-14T22:29:05Z"
     },
     {
-      "cnpj": "07478815000120",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
-      "nome_fantasia": "POSTO SABALANGA",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 210",
-      "numero_imovel": "1",
-      "bairro": "FAZ ALTO CONCEICAO",
-      "cep": "57700000",
-      "codigo_ibge": 2709400,
-      "municipio": "VICOSA",
-      "latitude": -9.3694174,
-      "longitude": -36.2427277,
-      "valor_minimo": 7.790049751243781,
-      "valor_maximo": 7.790049751243781,
-      "valor_medio": 7.790049751243781,
-      "valor_recente": 7.790049751243781,
-      "data_recente": "2026-04-15T01:33:01Z"
-    },
-    {
       "cnpj": "28463788000191",
       "tipo_combustivel": 2,
       "razao_social": "VANILDO ALBUQUERQUE LTDA",
@@ -129,6 +129,26 @@
       "valor_medio": 7.15,
       "valor_recente": 7.15,
       "data_recente": "2026-04-15T01:01:45Z"
+    },
+    {
+      "cnpj": "07478815000120",
+      "tipo_combustivel": 2,
+      "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
+      "nome_fantasia": "POSTO SABALANGA",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 210",
+      "numero_imovel": "1",
+      "bairro": "FAZ ALTO CONCEICAO",
+      "cep": "57700000",
+      "codigo_ibge": 2709400,
+      "municipio": "VICOSA",
+      "latitude": -9.3694174,
+      "longitude": -36.2427277,
+      "valor_minimo": 7.388864274110175,
+      "valor_maximo": 7.388864274110175,
+      "valor_medio": 7.388864274110175,
+      "valor_recente": 7.388864274110175,
+      "data_recente": "2026-04-15T03:53:40Z"
     },
     {
       "cnpj": "18527801000175",
@@ -169,26 +189,6 @@
       "valor_medio": 7.6923076923076925,
       "valor_recente": 7.6923076923076925,
       "data_recente": "2026-04-14T21:56:40Z"
-    },
-    {
-      "cnpj": "07478815000120",
-      "tipo_combustivel": 2,
-      "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
-      "nome_fantasia": "POSTO SABALANGA",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 210",
-      "numero_imovel": "1",
-      "bairro": "FAZ ALTO CONCEICAO",
-      "cep": "57700000",
-      "codigo_ibge": 2709400,
-      "municipio": "VICOSA",
-      "latitude": -9.3694174,
-      "longitude": -36.2427277,
-      "valor_minimo": 7.890598290598291,
-      "valor_maximo": 7.890598290598291,
-      "valor_medio": 7.890598290598291,
-      "valor_recente": 7.890598290598291,
-      "data_recente": "2026-04-14T23:48:52Z"
     },
     {
       "cnpj": "07478815000120",
@@ -271,26 +271,6 @@
       "data_recente": "2026-04-14T22:17:57Z"
     },
     {
-      "cnpj": "07478815000120",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
-      "nome_fantasia": "POSTO SABALANGA",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 210",
-      "numero_imovel": "1",
-      "bairro": "FAZ ALTO CONCEICAO",
-      "cep": "57700000",
-      "codigo_ibge": 2709400,
-      "municipio": "VICOSA",
-      "latitude": -9.3694174,
-      "longitude": -36.2427277,
-      "valor_minimo": 7.689547341979802,
-      "valor_maximo": 7.689547341979802,
-      "valor_medio": 7.689547341979802,
-      "valor_recente": 7.689547341979802,
-      "data_recente": "2026-04-15T00:59:37Z"
-    },
-    {
       "cnpj": "18527801000175",
       "tipo_combustivel": 5,
       "razao_social": "AUTO POSTO VICOSA EIRELI - EPP",
@@ -309,6 +289,26 @@
       "valor_medio": 7.689946277820415,
       "valor_recente": 7.689946277820415,
       "data_recente": "2026-04-14T21:42:08Z"
+    },
+    {
+      "cnpj": "07478815000120",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
+      "nome_fantasia": "POSTO SABALANGA",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 210",
+      "numero_imovel": "1",
+      "bairro": "FAZ ALTO CONCEICAO",
+      "cep": "57700000",
+      "codigo_ibge": 2709400,
+      "municipio": "VICOSA",
+      "latitude": -9.3694174,
+      "longitude": -36.2427277,
+      "valor_minimo": 7.690076335877863,
+      "valor_maximo": 7.690076335877863,
+      "valor_medio": 7.690076335877863,
+      "valor_recente": 7.690076335877863,
+      "data_recente": "2026-04-15T07:25:45Z"
     }
   ]
 }

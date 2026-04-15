@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2702553",
   "municipio": "Estrela de Alagoas",
-  "atualizadoEm": "2026-04-15T01:33:55.223Z",
+  "atualizadoEm": "2026-04-15T08:30:25.840Z",
   "totalEstabelecimentos": 12,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
       "valorMinimo": 6.2926829268292686,
-      "valorMaximo": 6.889763779527559,
-      "valorMedio": 6.690445198415239
+      "valorMaximo": 6.891891891891892,
+      "valorMedio": 6.690240074461695
     },
     "2": {
       "totalPostos": 1,
@@ -19,20 +19,20 @@
     "3": {
       "totalPostos": 3,
       "valorMinimo": 4.5495049504950495,
-      "valorMaximo": 4.9900249376558605,
-      "valorMedio": 4.843044959251967
+      "valorMaximo": 4.990049751243781,
+      "valorMedio": 4.843108897319952
     },
     "4": {
       "totalPostos": 2,
       "valorMinimo": 7.341499421457926,
-      "valorMaximo": 8.399906956308232,
-      "valorMedio": 7.870703188883079
+      "valorMaximo": 8.3986562150056,
+      "valorMedio": 7.8700778182317634
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.089989235737352,
+      "valorMinimo": 7.279874786153679,
       "valorMaximo": 7.319929728674604,
-      "valorMedio": 7.229931250188545
+      "valorMedio": 7.306573625521259
     }
   },
   "estabelecimentos": [
@@ -70,11 +70,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.490857100000001,
       "longitude": -36.5661638,
-      "valor_minimo": 6.888888888888889,
-      "valor_maximo": 6.888888888888889,
-      "valor_medio": 6.888888888888889,
-      "valor_recente": 6.888888888888889,
-      "data_recente": "2026-04-14T23:20:34Z"
+      "valor_minimo": 6.886145404663923,
+      "valor_maximo": 6.886145404663923,
+      "valor_medio": 6.886145404663923,
+      "valor_recente": 6.886145404663923,
+      "data_recente": "2026-04-15T00:00:31Z"
     },
     {
       "cnpj": "22727145000121",
@@ -90,11 +90,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.3904417,
       "longitude": -36.7595025,
-      "valor_minimo": 6.889763779527559,
-      "valor_maximo": 6.889763779527559,
-      "valor_medio": 6.889763779527559,
-      "valor_recente": 6.889763779527559,
-      "data_recente": "2026-04-14T23:33:21Z"
+      "valor_minimo": 6.891891891891892,
+      "valor_maximo": 6.891891891891892,
+      "valor_medio": 6.891891891891892,
+      "valor_recente": 6.891891891891892,
+      "data_recente": "2026-04-15T01:02:50Z"
     },
     {
       "cnpj": "29689769000140",
@@ -150,11 +150,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.490857100000001,
       "longitude": -36.5661638,
-      "valor_minimo": 4.98960498960499,
-      "valor_maximo": 4.98960498960499,
-      "valor_medio": 4.98960498960499,
-      "valor_recente": 4.98960498960499,
-      "data_recente": "2026-04-14T21:52:44Z"
+      "valor_minimo": 4.9897719902210245,
+      "valor_maximo": 4.9897719902210245,
+      "valor_medio": 4.9897719902210245,
+      "valor_recente": 4.9897719902210245,
+      "data_recente": "2026-04-14T23:38:40Z"
     },
     {
       "cnpj": "22727145000121",
@@ -170,11 +170,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.3904417,
       "longitude": -36.7595025,
-      "valor_minimo": 4.9900249376558605,
-      "valor_maximo": 4.9900249376558605,
-      "valor_medio": 4.9900249376558605,
-      "valor_recente": 4.9900249376558605,
-      "data_recente": "2026-04-14T22:23:49Z"
+      "valor_minimo": 4.990049751243781,
+      "valor_maximo": 4.990049751243781,
+      "valor_medio": 4.990049751243781,
+      "valor_recente": 4.990049751243781,
+      "data_recente": "2026-04-15T00:23:28Z"
     },
     {
       "cnpj": "29689769000140",
@@ -210,31 +210,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.490857100000001,
       "longitude": -36.5661638,
-      "valor_minimo": 8.399906956308232,
-      "valor_maximo": 8.399906956308232,
-      "valor_medio": 8.399906956308232,
-      "valor_recente": 8.399906956308232,
-      "data_recente": "2026-04-14T23:16:31Z"
-    },
-    {
-      "cnpj": "22727145000121",
-      "tipo_combustivel": 5,
-      "razao_social": "L FERNANDES DOS SANTOS LTDA",
-      "nome_fantasia": "AUTO POSTO ESTRELA DE ALAGOAS",
-      "telefone": "(82) 32219835",
-      "nome_logradouro": "AV ARLINDO GARROTE",
-      "numero_imovel": "111",
-      "bairro": "CENTRO",
-      "cep": "57625000",
-      "codigo_ibge": 2702553,
-      "municipio": "ESTRELA DE ALAGOAS",
-      "latitude": -9.3904417,
-      "longitude": -36.7595025,
-      "valor_minimo": 7.089989235737352,
-      "valor_maximo": 7.990013315579228,
-      "valor_medio": 7.54000127565829,
-      "valor_recente": 7.089989235737352,
-      "data_recente": "2026-04-14T23:30:57Z"
+      "valor_minimo": 8.3986562150056,
+      "valor_maximo": 8.3986562150056,
+      "valor_medio": 8.3986562150056,
+      "valor_recente": 8.3986562150056,
+      "data_recente": "2026-04-15T00:00:16Z"
     },
     {
       "cnpj": "29689769000140",
@@ -255,6 +235,26 @@
       "valor_medio": 7.279874786153679,
       "valor_recente": 7.279874786153679,
       "data_recente": "2026-04-14T22:31:23Z"
+    },
+    {
+      "cnpj": "22727145000121",
+      "tipo_combustivel": 5,
+      "razao_social": "L FERNANDES DOS SANTOS LTDA",
+      "nome_fantasia": "AUTO POSTO ESTRELA DE ALAGOAS",
+      "telefone": "(82) 32219835",
+      "nome_logradouro": "AV ARLINDO GARROTE",
+      "numero_imovel": "111",
+      "bairro": "CENTRO",
+      "cep": "57625000",
+      "codigo_ibge": 2702553,
+      "municipio": "ESTRELA DE ALAGOAS",
+      "latitude": -9.3904417,
+      "longitude": -36.7595025,
+      "valor_minimo": 7.319916361735494,
+      "valor_maximo": 7.992,
+      "valor_medio": 7.6559581808677475,
+      "valor_recente": 7.319916361735494,
+      "data_recente": "2026-04-15T00:27:14Z"
     },
     {
       "cnpj": "25359544000175",

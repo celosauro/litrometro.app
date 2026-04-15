@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2708402",
   "municipio": "São José da Tapera",
-  "atualizadoEm": "2026-04-15T01:58:33.537Z",
+  "atualizadoEm": "2026-04-15T08:51:00.141Z",
   "totalEstabelecimentos": 11,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
       "valorMinimo": 7,
       "valorMaximo": 7.34,
-      "valorMedio": 7.143060636135924
+      "valorMedio": 7.143228169679783
     },
     "2": {
       "totalPostos": 2,
@@ -19,14 +19,14 @@
     "3": {
       "totalPostos": 3,
       "valorMinimo": 5.44989663801545,
-      "valorMaximo": 5.889777029869584,
-      "valorMedio": 5.700070022117489
+      "valorMaximo": 5.889281507656066,
+      "valorMedio": 5.699904848046316
     },
     "5": {
       "totalPostos": 3,
       "valorMinimo": 7.170487106017192,
-      "valorMaximo": 7.9,
-      "valorMedio": 7.643422868030515
+      "valorMaximo": 7.859781498074353,
+      "valorMedio": 7.540037797255212
     }
   },
   "estabelecimentos": [
@@ -64,11 +64,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": -9.55372,
       "longitude": -37.37467,
-      "valor_minimo": 7.089181908407769,
-      "valor_maximo": 7.089181908407769,
-      "valor_medio": 7.089181908407769,
-      "valor_recente": 7.089181908407769,
-      "data_recente": "2026-04-15T01:36:10Z"
+      "valor_minimo": 7.089684509039348,
+      "valor_maximo": 7.089684509039348,
+      "valor_medio": 7.089684509039348,
+      "valor_recente": 7.089684509039348,
+      "data_recente": "2026-04-15T07:29:16Z"
     },
     {
       "cnpj": "14959471000136",
@@ -184,11 +184,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": -9.55372,
       "longitude": -37.37467,
-      "valor_minimo": 5.889777029869584,
-      "valor_maximo": 5.889777029869584,
-      "valor_medio": 5.889777029869584,
-      "valor_recente": 5.889777029869584,
-      "data_recente": "2026-04-14T23:38:19Z"
+      "valor_minimo": 5.889281507656066,
+      "valor_maximo": 5.889281507656066,
+      "valor_medio": 5.889281507656066,
+      "valor_recente": 5.889281507656066,
+      "data_recente": "2026-04-15T02:29:09Z"
     },
     {
       "cnpj": "14959471000136",
@@ -211,6 +211,26 @@
       "data_recente": "2026-04-15T00:50:12Z"
     },
     {
+      "cnpj": "30434665000174",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO CONFIANCA LTDA",
+      "nome_fantasia": "AUTO POSTO PAGUE MENOS",
+      "telefone": "(82) 99482210",
+      "nome_logradouro": "AV MANOEL MACIANO",
+      "numero_imovel": "S/N",
+      "bairro": "DEZ",
+      "cep": "57445000",
+      "codigo_ibge": 2708402,
+      "municipio": "SAO JOSE DA TAPERA",
+      "latitude": -9.55372,
+      "longitude": -37.37467,
+      "valor_minimo": 7.589844787674092,
+      "valor_maximo": 7.589844787674092,
+      "valor_medio": 7.589844787674092,
+      "valor_recente": 7.589844787674092,
+      "data_recente": "2026-04-15T02:52:18Z"
+    },
+    {
       "cnpj": "12512646000137",
       "tipo_combustivel": 5,
       "razao_social": "CICERO LISBOA LIMA  LTDA",
@@ -229,26 +249,6 @@
       "valor_medio": 7.859781498074353,
       "valor_recente": 7.859781498074353,
       "data_recente": "2026-04-14T23:52:17Z"
-    },
-    {
-      "cnpj": "30434665000174",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO CONFIANCA LTDA",
-      "nome_fantasia": "AUTO POSTO PAGUE MENOS",
-      "telefone": "(82) 99482210",
-      "nome_logradouro": "AV MANOEL MACIANO",
-      "numero_imovel": "S/N",
-      "bairro": "DEZ",
-      "cep": "57445000",
-      "codigo_ibge": 2708402,
-      "municipio": "SAO JOSE DA TAPERA",
-      "latitude": -9.55372,
-      "longitude": -37.37467,
-      "valor_minimo": 7.9,
-      "valor_maximo": 7.9,
-      "valor_medio": 7.9,
-      "valor_recente": 7.9,
-      "data_recente": "2026-04-14T23:55:50Z"
     }
   ]
 }

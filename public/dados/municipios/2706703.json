@@ -1,26 +1,26 @@
 {
   "codigoIBGE": "2706703",
   "municipio": "Penedo",
-  "atualizadoEm": "2026-04-15T01:49:46.804Z",
+  "atualizadoEm": "2026-04-15T08:45:24.461Z",
   "totalEstabelecimentos": 22,
   "combustiveis": {
     "1": {
       "totalPostos": 6,
       "valorMinimo": 6.988120195667365,
-      "valorMaximo": 7.04,
-      "valorMedio": 7.022591186293062
+      "valorMaximo": 7.040923399790136,
+      "valorMedio": 7.023034294286525
     },
     "2": {
       "totalPostos": 3,
       "valorMinimo": 7.135749822316987,
-      "valorMaximo": 7.14,
-      "valorMedio": 7.138179952634725
+      "valorMaximo": 7.139718804920914,
+      "valorMedio": 7.138086220941697
     },
     "3": {
       "totalPostos": 6,
-      "valorMinimo": 5.489980785067252,
+      "valorMinimo": 5.489408327246165,
       "valorMaximo": 5.690340909090909,
-      "valorMedio": 5.622678547245211
+      "valorMedio": 5.6225472553810105
     },
     "4": {
       "totalPostos": 1,
@@ -32,7 +32,7 @@
       "totalPostos": 6,
       "valorMinimo": 7.349397590361446,
       "valorMaximo": 7.699321778447627,
-      "valorMedio": 7.496527763649598
+      "valorMedio": 7.4965150370235145
     }
   },
   "estabelecimentos": [
@@ -70,31 +70,11 @@
       "municipio": "PENEDO",
       "latitude": -10.2816207,
       "longitude": -36.5625192,
-      "valor_minimo": 6.989322191272052,
-      "valor_maximo": 6.989322191272052,
-      "valor_medio": 6.989322191272052,
-      "valor_recente": 6.989322191272052,
-      "data_recente": "2026-04-15T01:14:14Z"
-    },
-    {
-      "cnpj": "05388025000128",
-      "tipo_combustivel": 1,
-      "razao_social": "BARBOSA & ROCHA LTDA",
-      "nome_fantasia": "POSTO SAO PEDRO",
-      "telefone": "",
-      "nome_logradouro": "AV ANTONIO CANDIDO TOLEDO",
-      "numero_imovel": "528",
-      "bairro": "SANTA LUZIA",
-      "cep": "57200000",
-      "codigo_ibge": 2706703,
-      "municipio": "PENEDO",
-      "latitude": -10.2838306,
-      "longitude": -36.5576656,
-      "valor_minimo": 7.0389488503050215,
-      "valor_maximo": 7.0389488503050215,
-      "valor_medio": 7.0389488503050215,
-      "valor_recente": 7.0389488503050215,
-      "data_recente": "2026-04-15T01:28:22Z"
+      "valor_minimo": 6.990006289747711,
+      "valor_maximo": 6.990006289747711,
+      "valor_medio": 6.990006289747711,
+      "valor_recente": 6.990006289747711,
+      "data_recente": "2026-04-15T07:32:06Z"
     },
     {
       "cnpj": "12396339000308",
@@ -157,6 +137,26 @@
       "data_recente": "2026-04-15T00:00:30Z"
     },
     {
+      "cnpj": "05388025000128",
+      "tipo_combustivel": 1,
+      "razao_social": "BARBOSA & ROCHA LTDA",
+      "nome_fantasia": "POSTO SAO PEDRO",
+      "telefone": "",
+      "nome_logradouro": "AV ANTONIO CANDIDO TOLEDO",
+      "numero_imovel": "528",
+      "bairro": "SANTA LUZIA",
+      "cep": "57200000",
+      "codigo_ibge": 2706703,
+      "municipio": "PENEDO",
+      "latitude": -10.2838306,
+      "longitude": -36.5576656,
+      "valor_minimo": 7.040923399790136,
+      "valor_maximo": 7.040923399790136,
+      "valor_medio": 7.040923399790136,
+      "valor_recente": 7.040923399790136,
+      "data_recente": "2026-04-15T03:03:09Z"
+    },
+    {
       "cnpj": "12396339000308",
       "tipo_combustivel": 2,
       "razao_social": "DISTRIBUIDORA DE VEICULOS CONFIANCA LIMITADA",
@@ -210,11 +210,31 @@
       "municipio": "PENEDO",
       "latitude": -10.2838306,
       "longitude": -36.5576656,
-      "valor_minimo": 7.14,
-      "valor_maximo": 7.14,
-      "valor_medio": 7.14,
-      "valor_recente": 7.14,
-      "data_recente": "2026-04-15T00:23:29Z"
+      "valor_minimo": 7.139718804920914,
+      "valor_maximo": 7.139718804920914,
+      "valor_medio": 7.139718804920914,
+      "valor_recente": 7.139718804920914,
+      "data_recente": "2026-04-15T02:18:09Z"
+    },
+    {
+      "cnpj": "00404850000406",
+      "tipo_combustivel": 3,
+      "razao_social": "MARTA CRISTINA SOBRAL",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "AV WANDERLEY",
+      "numero_imovel": "504",
+      "bairro": "SANTA LUZIA",
+      "cep": "57200000",
+      "codigo_ibge": 2706703,
+      "municipio": "PENEDO",
+      "latitude": -10.2816207,
+      "longitude": -36.5625192,
+      "valor_minimo": 5.489408327246165,
+      "valor_maximo": 5.489408327246165,
+      "valor_medio": 5.489408327246165,
+      "valor_recente": 5.489408327246165,
+      "data_recente": "2026-04-15T02:47:01Z"
     },
     {
       "cnpj": "10800554000127",
@@ -235,26 +255,6 @@
       "valor_medio": 5.489980785067252,
       "valor_recente": 5.489980785067252,
       "data_recente": "2026-04-15T00:59:07Z"
-    },
-    {
-      "cnpj": "00404850000406",
-      "tipo_combustivel": 3,
-      "razao_social": "MARTA CRISTINA SOBRAL",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "AV WANDERLEY",
-      "numero_imovel": "504",
-      "bairro": "SANTA LUZIA",
-      "cep": "57200000",
-      "codigo_ibge": 2706703,
-      "municipio": "PENEDO",
-      "latitude": -10.2816207,
-      "longitude": -36.5625192,
-      "valor_minimo": 5.490196078431373,
-      "valor_maximo": 5.490196078431373,
-      "valor_medio": 5.490196078431373,
-      "valor_recente": 5.490196078431373,
-      "data_recente": "2026-04-15T01:02:20Z"
     },
     {
       "cnpj": "12396339000308",
@@ -334,7 +334,7 @@
       "valor_maximo": 5.690340909090909,
       "valor_medio": 5.690340909090909,
       "valor_recente": 5.690340909090909,
-      "data_recente": "2026-04-15T00:53:16Z"
+      "data_recente": "2026-04-15T04:24:37Z"
     },
     {
       "cnpj": "12396339000561",
@@ -390,11 +390,11 @@
       "municipio": "PENEDO",
       "latitude": -10.2816207,
       "longitude": -36.5625192,
-      "valor_minimo": 7.3501469147894225,
-      "valor_maximo": 7.3501469147894225,
-      "valor_medio": 7.3501469147894225,
-      "valor_recente": 7.3501469147894225,
-      "data_recente": "2026-04-14T22:34:48Z"
+      "valor_minimo": 7.350070555032926,
+      "valor_maximo": 7.350070555032926,
+      "valor_medio": 7.350070555032926,
+      "valor_recente": 7.350070555032926,
+      "data_recente": "2026-04-15T02:06:20Z"
     },
     {
       "cnpj": "12541579000421",

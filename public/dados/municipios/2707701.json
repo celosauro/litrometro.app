@@ -1,26 +1,26 @@
 {
   "codigoIBGE": "2707701",
   "municipio": "Rio Largo",
-  "atualizadoEm": "2026-04-15T01:53:41.269Z",
+  "atualizadoEm": "2026-04-15T08:48:23.388Z",
   "totalEstabelecimentos": 47,
   "combustiveis": {
     "1": {
       "totalPostos": 12,
       "valorMinimo": 6.7598017124831005,
-      "valorMaximo": 7.0888535594417945,
-      "valorMedio": 6.859775701325809
+      "valorMaximo": 7.08969696969697,
+      "valorMedio": 6.877016140466968
     },
     "2": {
       "totalPostos": 9,
       "valorMinimo": 6.791171477079796,
-      "valorMaximo": 7.050814490639436,
-      "valorMedio": 6.946074903259031
+      "valorMaximo": 7.050197405527355,
+      "valorMedio": 6.944870250826505
     },
     "3": {
       "totalPostos": 12,
       "valorMinimo": 5.179982440737489,
-      "valorMaximo": 5.739869130983814,
-      "valorMedio": 5.35226117028358
+      "valorMaximo": 5.739869886211349,
+      "valorMedio": 5.352261229506616
     },
     "4": {
       "totalPostos": 1,
@@ -30,15 +30,15 @@
     },
     "5": {
       "totalPostos": 11,
-      "valorMinimo": 6.78999663645537,
-      "valorMaximo": 7.29,
-      "valorMedio": 7.050130491336386
+      "valorMinimo": 6.989829797644427,
+      "valorMaximo": 7.288263382759487,
+      "valorMedio": 7.095269470653804
     },
     "6": {
       "totalPostos": 2,
-      "valorMinimo": 4.189799870884442,
-      "valorMaximo": 4.1899265477439664,
-      "valorMedio": 4.189863209314204
+      "valorMinimo": 4.189327485380117,
+      "valorMaximo": 4.189863842662632,
+      "valorMedio": 4.1895956640213745
     }
   },
   "estabelecimentos": [
@@ -76,11 +76,11 @@
       "municipio": "RIO LARGO",
       "latitude": -9.4871527,
       "longitude": -35.8530576,
-      "valor_minimo": 6.780084745762712,
-      "valor_maximo": 6.780084745762712,
-      "valor_medio": 6.780084745762712,
-      "valor_recente": 6.780084745762712,
-      "data_recente": "2026-04-15T01:24:25Z"
+      "valor_minimo": 6.7801032889372115,
+      "valor_maximo": 6.7801032889372115,
+      "valor_medio": 6.7801032889372115,
+      "valor_recente": 6.7801032889372115,
+      "data_recente": "2026-04-15T06:18:28Z"
     },
     {
       "cnpj": "43084155000166",
@@ -116,11 +116,11 @@
       "municipio": "RIO LARGO",
       "latitude": -9.4871527,
       "longitude": -35.8530576,
-      "valor_minimo": 6.789637867896379,
-      "valor_maximo": 6.789637867896379,
-      "valor_medio": 6.789637867896379,
-      "valor_recente": 6.789637867896379,
-      "data_recente": "2026-04-15T01:28:20Z"
+      "valor_minimo": 6.789980993755091,
+      "valor_maximo": 6.789980993755091,
+      "valor_medio": 6.789980993755091,
+      "valor_recente": 6.789980993755091,
+      "data_recente": "2026-04-15T07:23:45Z"
     },
     {
       "cnpj": "09178530000107",
@@ -141,26 +141,6 @@
       "valor_medio": 6.85996524284277,
       "valor_recente": 6.85996524284277,
       "data_recente": "2026-04-15T00:35:31Z"
-    },
-    {
-      "cnpj": "12486809000405",
-      "tipo_combustivel": 1,
-      "razao_social": "CDA EMPREENDIMENTOS LTDA",
-      "nome_fantasia": "POSTO MATA DO ROLO",
-      "telefone": "(82) 99710489",
-      "nome_logradouro": "ROD BR 104 AL. KM 86",
-      "numero_imovel": "SN",
-      "bairro": "MATA DO ROLO",
-      "cep": "57100000",
-      "codigo_ibge": 2707701,
-      "municipio": "RIO LARGO",
-      "latitude": -9.4764343,
-      "longitude": -35.8215048,
-      "valor_minimo": 6.863417982155113,
-      "valor_maximo": 6.863417982155113,
-      "valor_medio": 6.863417982155113,
-      "valor_recente": 6.863417982155113,
-      "data_recente": "2026-04-15T01:33:29Z"
     },
     {
       "cnpj": "47961135000187",
@@ -196,11 +176,31 @@
       "municipio": "RIO LARGO",
       "latitude": -9.477877699999999,
       "longitude": -35.8369269,
-      "valor_minimo": 6.869075422448138,
-      "valor_maximo": 6.869075422448138,
-      "valor_medio": 6.869075422448138,
-      "valor_recente": 6.869075422448138,
-      "data_recente": "2026-04-15T00:58:25Z"
+      "valor_minimo": 6.869479882237488,
+      "valor_maximo": 6.869479882237488,
+      "valor_medio": 6.869479882237488,
+      "valor_recente": 6.869479882237488,
+      "data_recente": "2026-04-15T06:59:46Z"
+    },
+    {
+      "cnpj": "12486809000405",
+      "tipo_combustivel": 1,
+      "razao_social": "CDA EMPREENDIMENTOS LTDA",
+      "nome_fantasia": "POSTO MATA DO ROLO",
+      "telefone": "(82) 99710489",
+      "nome_logradouro": "ROD BR 104 AL. KM 86",
+      "numero_imovel": "SN",
+      "bairro": "MATA DO ROLO",
+      "cep": "57100000",
+      "codigo_ibge": 2707701,
+      "municipio": "RIO LARGO",
+      "latitude": -9.4764343,
+      "longitude": -35.8215048,
+      "valor_minimo": 6.86955827142743,
+      "valor_maximo": 6.86955827142743,
+      "valor_medio": 6.86955827142743,
+      "valor_recente": 6.86955827142743,
+      "data_recente": "2026-04-15T07:28:56Z"
     },
     {
       "cnpj": "00740510000103",
@@ -220,27 +220,7 @@
       "valor_maximo": 6.870019236053861,
       "valor_medio": 6.870019236053861,
       "valor_recente": 6.870019236053861,
-      "data_recente": "2026-04-15T01:35:24Z"
-    },
-    {
-      "cnpj": "20266767000174",
-      "tipo_combustivel": 1,
-      "razao_social": "FARIAS E LESSA COMERCIO DE COMBUSTIVEIS LTDA",
-      "nome_fantasia": "POSTO 11",
-      "telefone": "",
-      "nome_logradouro": "LOT PARQUE DOS EUCALIPTOS",
-      "numero_imovel": "S/N",
-      "bairro": "ANTONIO LINS DE SOUZA",
-      "cep": "57100000",
-      "codigo_ibge": 2707701,
-      "municipio": "RIO LARGO",
-      "latitude": -9.591684,
-      "longitude": -35.7720893,
-      "valor_minimo": 6.888950124001102,
-      "valor_maximo": 6.888950124001102,
-      "valor_medio": 6.888950124001102,
-      "valor_recente": 6.888950124001102,
-      "data_recente": "2026-04-15T01:34:21Z"
+      "data_recente": "2026-04-15T02:42:18Z"
     },
     {
       "cnpj": "26427606000100",
@@ -256,11 +236,11 @@
       "municipio": "RIO LARGO",
       "latitude": -9.4953688,
       "longitude": -35.8133999,
-      "valor_minimo": 6.889718118097927,
-      "valor_maximo": 6.889718118097927,
-      "valor_medio": 6.889718118097927,
-      "valor_recente": 6.889718118097927,
-      "data_recente": "2026-04-15T01:31:21Z"
+      "valor_minimo": 6.888950124001102,
+      "valor_maximo": 6.888950124001102,
+      "valor_medio": 6.888950124001102,
+      "valor_recente": 6.888950124001102,
+      "data_recente": "2026-04-15T02:48:45Z"
     },
     {
       "cnpj": "01600494000108",
@@ -281,6 +261,26 @@
       "valor_medio": 7.0888535594417945,
       "valor_recente": 7.0888535594417945,
       "data_recente": "2026-04-15T00:55:40Z"
+    },
+    {
+      "cnpj": "20266767000174",
+      "tipo_combustivel": 1,
+      "razao_social": "FARIAS E LESSA COMERCIO DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "POSTO 11",
+      "telefone": "",
+      "nome_logradouro": "LOT PARQUE DOS EUCALIPTOS",
+      "numero_imovel": "S/N",
+      "bairro": "ANTONIO LINS DE SOUZA",
+      "cep": "57100000",
+      "codigo_ibge": 2707701,
+      "municipio": "RIO LARGO",
+      "latitude": -9.591684,
+      "longitude": -35.7720893,
+      "valor_minimo": 7.08969696969697,
+      "valor_maximo": 7.08969696969697,
+      "valor_medio": 7.08969696969697,
+      "valor_recente": 7.08969696969697,
+      "data_recente": "2026-04-15T07:28:27Z"
     },
     {
       "cnpj": "43084155000166",
@@ -336,31 +336,11 @@
       "municipio": "RIO LARGO",
       "latitude": -9.591684,
       "longitude": -35.7720893,
-      "valor_minimo": 6.888950124001102,
-      "valor_maximo": 6.888950124001102,
-      "valor_medio": 6.888950124001102,
-      "valor_recente": 6.888950124001102,
-      "data_recente": "2026-04-15T00:28:41Z"
-    },
-    {
-      "cnpj": "05459764000163",
-      "tipo_combustivel": 2,
-      "razao_social": "AUTO POSTO FORENE LTDA - ME",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "LOT SAO CAETANO",
-      "numero_imovel": "SN",
-      "bairro": "PREFEITO ANTONIO LINS DE SOUZA",
-      "cep": "57100000",
-      "codigo_ibge": 2707701,
-      "municipio": "RIO LARGO",
-      "latitude": -9.477877699999999,
-      "longitude": -35.8369269,
-      "valor_minimo": 6.968641114982578,
-      "valor_maximo": 6.968641114982578,
-      "valor_medio": 6.968641114982578,
-      "valor_recente": 6.968641114982578,
-      "data_recente": "2026-04-15T00:58:25Z"
+      "valor_minimo": 6.889424733034792,
+      "valor_maximo": 6.889424733034792,
+      "valor_medio": 6.889424733034792,
+      "valor_recente": 6.889424733034792,
+      "data_recente": "2026-04-15T06:42:32Z"
     },
     {
       "cnpj": "47961135000187",
@@ -383,6 +363,26 @@
       "data_recente": "2026-04-14T23:52:02Z"
     },
     {
+      "cnpj": "05459764000163",
+      "tipo_combustivel": 2,
+      "razao_social": "AUTO POSTO FORENE LTDA - ME",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "LOT SAO CAETANO",
+      "numero_imovel": "SN",
+      "bairro": "PREFEITO ANTONIO LINS DE SOUZA",
+      "cep": "57100000",
+      "codigo_ibge": 2707701,
+      "municipio": "RIO LARGO",
+      "latitude": -9.477877699999999,
+      "longitude": -35.8369269,
+      "valor_minimo": 6.969855375500958,
+      "valor_maximo": 6.969855375500958,
+      "valor_medio": 6.969855375500958,
+      "valor_recente": 6.969855375500958,
+      "data_recente": "2026-04-15T02:55:14Z"
+    },
+    {
       "cnpj": "26427606000100",
       "tipo_combustivel": 2,
       "razao_social": "PENIEL REVENDEDORA DE COMBUSTIVEIS LTDA - EPP",
@@ -396,11 +396,11 @@
       "municipio": "RIO LARGO",
       "latitude": -9.4953688,
       "longitude": -35.8133999,
-      "valor_minimo": 6.988120195667365,
-      "valor_maximo": 6.988120195667365,
-      "valor_medio": 6.988120195667365,
-      "valor_recente": 6.988120195667365,
-      "data_recente": "2026-04-15T01:14:01Z"
+      "valor_minimo": 6.983240223463687,
+      "valor_maximo": 6.983240223463687,
+      "valor_medio": 6.983240223463687,
+      "valor_recente": 6.983240223463687,
+      "data_recente": "2026-04-15T02:37:08Z"
     },
     {
       "cnpj": "12486809000405",
@@ -416,11 +416,11 @@
       "municipio": "RIO LARGO",
       "latitude": -9.4764343,
       "longitude": -35.8215048,
-      "valor_minimo": 6.989341254586755,
-      "valor_maximo": 6.989341254586755,
-      "valor_medio": 6.989341254586755,
-      "valor_recente": 6.989341254586755,
-      "data_recente": "2026-04-15T01:25:34Z"
+      "valor_minimo": 6.983758700696056,
+      "valor_maximo": 6.983758700696056,
+      "valor_medio": 6.983758700696056,
+      "valor_recente": 6.983758700696056,
+      "data_recente": "2026-04-15T03:09:37Z"
     },
     {
       "cnpj": "05101388000130",
@@ -436,11 +436,11 @@
       "municipio": "RIO LARGO",
       "latitude": -9.4871527,
       "longitude": -35.8530576,
-      "valor_minimo": 6.989522700814901,
-      "valor_maximo": 6.989522700814901,
-      "valor_medio": 6.989522700814901,
-      "valor_recente": 6.989522700814901,
-      "data_recente": "2026-04-15T00:57:21Z"
+      "valor_minimo": 6.98807157057654,
+      "valor_maximo": 6.98807157057654,
+      "valor_medio": 6.98807157057654,
+      "valor_recente": 6.98807157057654,
+      "data_recente": "2026-04-15T02:26:54Z"
     },
     {
       "cnpj": "00740510000103",
@@ -456,11 +456,11 @@
       "municipio": "RIO LARGO",
       "latitude": -9.477904,
       "longitude": -35.83551,
-      "valor_minimo": 7.050814490639436,
-      "valor_maximo": 7.050814490639436,
-      "valor_medio": 7.050814490639436,
-      "valor_recente": 7.050814490639436,
-      "data_recente": "2026-04-15T01:01:40Z"
+      "valor_minimo": 7.050197405527355,
+      "valor_maximo": 7.050197405527355,
+      "valor_medio": 7.050197405527355,
+      "valor_recente": 7.050197405527355,
+      "data_recente": "2026-04-15T02:13:27Z"
     },
     {
       "cnpj": "09178530000107",
@@ -516,11 +516,11 @@
       "municipio": "RIO LARGO",
       "latitude": -9.4871527,
       "longitude": -35.8530576,
-      "valor_minimo": 5.189990347390163,
-      "valor_maximo": 5.189990347390163,
-      "valor_medio": 5.189990347390163,
-      "valor_recente": 5.189990347390163,
-      "data_recente": "2026-04-15T01:02:06Z"
+      "valor_minimo": 5.189620758483034,
+      "valor_maximo": 5.189620758483034,
+      "valor_medio": 5.189620758483034,
+      "valor_recente": 5.189620758483034,
+      "data_recente": "2026-04-15T03:18:49Z"
     },
     {
       "cnpj": "05459764000163",
@@ -536,31 +536,11 @@
       "municipio": "RIO LARGO",
       "latitude": -9.477877699999999,
       "longitude": -35.8369269,
-      "valor_minimo": 5.3496369889186095,
-      "valor_maximo": 5.3496369889186095,
-      "valor_medio": 5.3496369889186095,
-      "valor_recente": 5.3496369889186095,
-      "data_recente": "2026-04-15T00:58:25Z"
-    },
-    {
-      "cnpj": "00740510000103",
-      "tipo_combustivel": 3,
-      "razao_social": "TULEMON COMERCIO LTDA",
-      "nome_fantasia": "AUTO POSTO MOTORIZADO",
-      "telefone": "",
-      "nome_logradouro": "LOT PALMARES I",
-      "numero_imovel": "17",
-      "bairro": "PREFEITO ANTONIO LINS DE SOUZA",
-      "cep": "57100000",
-      "codigo_ibge": 2707701,
-      "municipio": "RIO LARGO",
-      "latitude": -9.477904,
-      "longitude": -35.83551,
-      "valor_minimo": 5.34973920021399,
-      "valor_maximo": 5.34973920021399,
-      "valor_medio": 5.34973920021399,
-      "valor_recente": 5.34973920021399,
-      "data_recente": "2026-04-15T01:36:01Z"
+      "valor_minimo": 5.349882302589343,
+      "valor_maximo": 5.349882302589343,
+      "valor_medio": 5.349882302589343,
+      "valor_recente": 5.349882302589343,
+      "data_recente": "2026-04-15T06:59:46Z"
     },
     {
       "cnpj": "47961135000187",
@@ -581,6 +561,26 @@
       "valor_medio": 5.349882302589343,
       "valor_recente": 5.349882302589343,
       "data_recente": "2026-04-15T01:08:35Z"
+    },
+    {
+      "cnpj": "00740510000103",
+      "tipo_combustivel": 3,
+      "razao_social": "TULEMON COMERCIO LTDA",
+      "nome_fantasia": "AUTO POSTO MOTORIZADO",
+      "telefone": "",
+      "nome_logradouro": "LOT PALMARES I",
+      "numero_imovel": "17",
+      "bairro": "PREFEITO ANTONIO LINS DE SOUZA",
+      "cep": "57100000",
+      "codigo_ibge": 2707701,
+      "municipio": "RIO LARGO",
+      "latitude": -9.477904,
+      "longitude": -35.83551,
+      "valor_minimo": 5.350454788657036,
+      "valor_maximo": 5.350454788657036,
+      "valor_medio": 5.350454788657036,
+      "valor_recente": 5.350454788657036,
+      "data_recente": "2026-04-15T02:38:21Z"
     },
     {
       "cnpj": "43084155000166",
@@ -623,26 +623,6 @@
       "data_recente": "2026-04-14T23:33:37Z"
     },
     {
-      "cnpj": "12486809000405",
-      "tipo_combustivel": 3,
-      "razao_social": "CDA EMPREENDIMENTOS LTDA",
-      "nome_fantasia": "POSTO MATA DO ROLO",
-      "telefone": "(82) 99710489",
-      "nome_logradouro": "ROD BR 104 AL. KM 86",
-      "numero_imovel": "SN",
-      "bairro": "MATA DO ROLO",
-      "cep": "57100000",
-      "codigo_ibge": 2707701,
-      "municipio": "RIO LARGO",
-      "latitude": -9.4764343,
-      "longitude": -35.8215048,
-      "valor_minimo": 5.3893829156561575,
-      "valor_maximo": 5.3893829156561575,
-      "valor_medio": 5.3893829156561575,
-      "valor_recente": 5.3893829156561575,
-      "data_recente": "2026-04-15T01:27:53Z"
-    },
-    {
       "cnpj": "20266767000174",
       "tipo_combustivel": 3,
       "razao_social": "FARIAS E LESSA COMERCIO DE COMBUSTIVEIS LTDA",
@@ -656,11 +636,11 @@
       "municipio": "RIO LARGO",
       "latitude": -9.591684,
       "longitude": -35.7720893,
-      "valor_minimo": 5.389963887241955,
-      "valor_maximo": 5.389963887241955,
-      "valor_medio": 5.389963887241955,
-      "valor_recente": 5.389963887241955,
-      "data_recente": "2026-04-15T01:18:06Z"
+      "valor_minimo": 5.389092476826902,
+      "valor_maximo": 5.389092476826902,
+      "valor_medio": 5.389092476826902,
+      "valor_recente": 5.389092476826902,
+      "data_recente": "2026-04-15T07:26:37Z"
     },
     {
       "cnpj": "26427606000100",
@@ -676,11 +656,31 @@
       "municipio": "RIO LARGO",
       "latitude": -9.4953688,
       "longitude": -35.8133999,
-      "valor_minimo": 5.39,
-      "valor_maximo": 5.39,
-      "valor_medio": 5.39,
-      "valor_recente": 5.39,
-      "data_recente": "2026-04-15T01:22:44Z"
+      "valor_minimo": 5.389795918367347,
+      "valor_maximo": 5.389795918367347,
+      "valor_medio": 5.389795918367347,
+      "valor_recente": 5.389795918367347,
+      "data_recente": "2026-04-15T02:36:25Z"
+    },
+    {
+      "cnpj": "12486809000405",
+      "tipo_combustivel": 3,
+      "razao_social": "CDA EMPREENDIMENTOS LTDA",
+      "nome_fantasia": "POSTO MATA DO ROLO",
+      "telefone": "(82) 99710489",
+      "nome_logradouro": "ROD BR 104 AL. KM 86",
+      "numero_imovel": "SN",
+      "bairro": "MATA DO ROLO",
+      "cep": "57100000",
+      "codigo_ibge": 2707701,
+      "municipio": "RIO LARGO",
+      "latitude": -9.4764343,
+      "longitude": -35.8215048,
+      "valor_minimo": 5.389867049946101,
+      "valor_maximo": 5.389867049946101,
+      "valor_medio": 5.389867049946101,
+      "valor_recente": 5.389867049946101,
+      "data_recente": "2026-04-15T07:18:18Z"
     },
     {
       "cnpj": "11377428000174",
@@ -696,11 +696,11 @@
       "municipio": "RIO LARGO",
       "latitude": -9.4871527,
       "longitude": -35.8530576,
-      "valor_minimo": 5.739869130983814,
-      "valor_maximo": 5.739869130983814,
-      "valor_medio": 5.739869130983814,
-      "valor_recente": 5.739869130983814,
-      "data_recente": "2026-04-14T23:17:54Z"
+      "valor_minimo": 5.739869886211349,
+      "valor_maximo": 5.739869886211349,
+      "valor_medio": 5.739869886211349,
+      "valor_recente": 5.739869886211349,
+      "data_recente": "2026-04-15T03:24:19Z"
     },
     {
       "cnpj": "11377428000174",
@@ -721,46 +721,6 @@
       "valor_medio": 7.788993813090198,
       "valor_recente": 7.788993813090198,
       "data_recente": "2026-04-14T19:16:55Z"
-    },
-    {
-      "cnpj": "05101388000130",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO PIONEIRO LTDA",
-      "nome_fantasia": "POSTOS DE COMBUSTIVEIS PICHILAU",
-      "telefone": "(82) 2621272",
-      "nome_logradouro": "RDV BR 101 NORTE KM 75",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57100000",
-      "codigo_ibge": 2707701,
-      "municipio": "RIO LARGO",
-      "latitude": -9.4871527,
-      "longitude": -35.8530576,
-      "valor_minimo": 6.78999663645537,
-      "valor_maximo": 6.78999663645537,
-      "valor_medio": 6.78999663645537,
-      "valor_recente": 6.78999663645537,
-      "data_recente": "2026-04-15T01:35:38Z"
-    },
-    {
-      "cnpj": "00740510000103",
-      "tipo_combustivel": 5,
-      "razao_social": "TULEMON COMERCIO LTDA",
-      "nome_fantasia": "AUTO POSTO MOTORIZADO",
-      "telefone": "",
-      "nome_logradouro": "LOT PALMARES I",
-      "numero_imovel": "17",
-      "bairro": "PREFEITO ANTONIO LINS DE SOUZA",
-      "cep": "57100000",
-      "codigo_ibge": 2707701,
-      "municipio": "RIO LARGO",
-      "latitude": -9.477904,
-      "longitude": -35.83551,
-      "valor_minimo": 6.790084276596495,
-      "valor_maximo": 6.790084276596495,
-      "valor_medio": 6.790084276596495,
-      "valor_recente": 6.790084276596495,
-      "data_recente": "2026-04-15T01:34:13Z"
     },
     {
       "cnpj": "26427606000100",
@@ -796,11 +756,11 @@
       "municipio": "RIO LARGO",
       "latitude": -9.4764343,
       "longitude": -35.8215048,
-      "valor_minimo": 6.989515726410384,
-      "valor_maximo": 6.989515726410384,
-      "valor_medio": 6.989515726410384,
-      "valor_recente": 6.989515726410384,
-      "data_recente": "2026-04-15T00:56:30Z"
+      "valor_minimo": 6.989976373879856,
+      "valor_maximo": 6.989976373879856,
+      "valor_medio": 6.989976373879856,
+      "valor_recente": 6.989976373879856,
+      "data_recente": "2026-04-15T06:09:37Z"
     },
     {
       "cnpj": "05459764000163",
@@ -816,11 +776,31 @@
       "municipio": "RIO LARGO",
       "latitude": -9.477877699999999,
       "longitude": -35.8369269,
-      "valor_minimo": 6.989976373879856,
-      "valor_maximo": 6.989976373879856,
-      "valor_medio": 6.989976373879856,
-      "valor_recente": 6.989976373879856,
-      "data_recente": "2026-04-15T00:50:04Z"
+      "valor_minimo": 6.989992660507706,
+      "valor_maximo": 6.989992660507706,
+      "valor_medio": 6.989992660507706,
+      "valor_recente": 6.989992660507706,
+      "data_recente": "2026-04-15T06:59:46Z"
+    },
+    {
+      "cnpj": "00740510000103",
+      "tipo_combustivel": 5,
+      "razao_social": "TULEMON COMERCIO LTDA",
+      "nome_fantasia": "AUTO POSTO MOTORIZADO",
+      "telefone": "",
+      "nome_logradouro": "LOT PALMARES I",
+      "numero_imovel": "17",
+      "bairro": "PREFEITO ANTONIO LINS DE SOUZA",
+      "cep": "57100000",
+      "codigo_ibge": 2707701,
+      "municipio": "RIO LARGO",
+      "latitude": -9.477904,
+      "longitude": -35.83551,
+      "valor_minimo": 6.990074094785404,
+      "valor_maximo": 6.990074094785404,
+      "valor_medio": 6.990074094785404,
+      "valor_recente": 6.990074094785404,
+      "data_recente": "2026-04-15T02:12:44Z"
     },
     {
       "cnpj": "09178530000107",
@@ -843,6 +823,26 @@
       "data_recente": "2026-04-14T20:04:48Z"
     },
     {
+      "cnpj": "05101388000130",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO PIONEIRO LTDA",
+      "nome_fantasia": "POSTOS DE COMBUSTIVEIS PICHILAU",
+      "telefone": "(82) 2621272",
+      "nome_logradouro": "RDV BR 101 NORTE KM 75",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57100000",
+      "codigo_ibge": 2707701,
+      "municipio": "RIO LARGO",
+      "latitude": -9.4871527,
+      "longitude": -35.8530576,
+      "valor_minimo": 7.089993855461549,
+      "valor_maximo": 7.089993855461549,
+      "valor_medio": 7.089993855461549,
+      "valor_recente": 7.089993855461549,
+      "data_recente": "2026-04-15T07:21:16Z"
+    },
+    {
       "cnpj": "11377428000174",
       "tipo_combustivel": 5,
       "razao_social": "POSTO REFORCO 6 LTDA",
@@ -856,11 +856,11 @@
       "municipio": "RIO LARGO",
       "latitude": -9.4871527,
       "longitude": -35.8530576,
-      "valor_minimo": 7.092198581560283,
-      "valor_maximo": 7.092198581560283,
-      "valor_medio": 7.092198581560283,
-      "valor_recente": 7.092198581560283,
-      "data_recente": "2026-04-15T01:22:03Z"
+      "valor_minimo": 7.09,
+      "valor_maximo": 7.09,
+      "valor_medio": 7.09,
+      "valor_recente": 7.09,
+      "data_recente": "2026-04-15T06:43:33Z"
     },
     {
       "cnpj": "26517575000170",
@@ -936,31 +936,11 @@
       "municipio": "RIO LARGO",
       "latitude": -9.591684,
       "longitude": -35.7720893,
-      "valor_minimo": 7.29,
-      "valor_maximo": 7.29,
-      "valor_medio": 7.29,
-      "valor_recente": 7.29,
-      "data_recente": "2026-04-15T01:30:48Z"
-    },
-    {
-      "cnpj": "05459764000163",
-      "tipo_combustivel": 6,
-      "razao_social": "AUTO POSTO FORENE LTDA - ME",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "LOT SAO CAETANO",
-      "numero_imovel": "SN",
-      "bairro": "PREFEITO ANTONIO LINS DE SOUZA",
-      "cep": "57100000",
-      "codigo_ibge": 2707701,
-      "municipio": "RIO LARGO",
-      "latitude": -9.477877699999999,
-      "longitude": -35.8369269,
-      "valor_minimo": 4.189799870884442,
-      "valor_maximo": 4.189799870884442,
-      "valor_medio": 4.189799870884442,
-      "valor_recente": 4.189799870884442,
-      "data_recente": "2026-04-14T22:57:32Z"
+      "valor_minimo": 7.288263382759487,
+      "valor_maximo": 7.288263382759487,
+      "valor_medio": 7.288263382759487,
+      "valor_recente": 7.288263382759487,
+      "data_recente": "2026-04-15T04:05:38Z"
     },
     {
       "cnpj": "12486809000405",
@@ -976,11 +956,31 @@
       "municipio": "RIO LARGO",
       "latitude": -9.4764343,
       "longitude": -35.8215048,
-      "valor_minimo": 4.1899265477439664,
-      "valor_maximo": 4.1899265477439664,
-      "valor_medio": 4.1899265477439664,
-      "valor_recente": 4.1899265477439664,
-      "data_recente": "2026-04-15T01:13:52Z"
+      "valor_minimo": 4.189327485380117,
+      "valor_maximo": 4.189327485380117,
+      "valor_medio": 4.189327485380117,
+      "valor_recente": 4.189327485380117,
+      "data_recente": "2026-04-15T07:30:28Z"
+    },
+    {
+      "cnpj": "05459764000163",
+      "tipo_combustivel": 6,
+      "razao_social": "AUTO POSTO FORENE LTDA - ME",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "LOT SAO CAETANO",
+      "numero_imovel": "SN",
+      "bairro": "PREFEITO ANTONIO LINS DE SOUZA",
+      "cep": "57100000",
+      "codigo_ibge": 2707701,
+      "municipio": "RIO LARGO",
+      "latitude": -9.477877699999999,
+      "longitude": -35.8369269,
+      "valor_minimo": 4.189863842662632,
+      "valor_maximo": 4.189863842662632,
+      "valor_medio": 4.189863842662632,
+      "valor_recente": 4.189863842662632,
+      "data_recente": "2026-04-15T04:43:22Z"
     }
   ]
 }

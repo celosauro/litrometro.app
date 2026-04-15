@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2707206",
   "municipio": "Poço das Trincheiras",
-  "atualizadoEm": "2026-04-15T01:51:46.455Z",
+  "atualizadoEm": "2026-04-15T08:46:53.178Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.67,
+      "valorMinimo": 6.968641114982578,
       "valorMaximo": 6.993006993006993,
-      "valorMedio": 6.877216035996523
+      "valorMedio": 6.9770868658450516
     },
     "2": {
       "totalPostos": 1,
@@ -18,38 +18,18 @@
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.649948822927328,
-      "valorMaximo": 5.649948822927328,
-      "valorMedio": 5.649948822927328
+      "valorMinimo": 5.649717514124294,
+      "valorMaximo": 5.649717514124294,
+      "valorMedio": 5.649717514124294
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.560028964518465,
+      "valorMinimo": 7.560483870967742,
       "valorMaximo": 7.800312012480499,
-      "valorMedio": 7.713455289366799
+      "valorMedio": 7.713606924849891
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "08886737000165",
-      "tipo_combustivel": 1,
-      "razao_social": "COMÉRCIO DE COMBUSTÍVEIS NOSSA SENHORA DE FÁTIMA LTDA.",
-      "nome_fantasia": "AUTO POSTO NOSSA SENHORA DE FATIMA",
-      "telefone": "",
-      "nome_logradouro": "RDV BR 316",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57510000",
-      "codigo_ibge": 2707206,
-      "municipio": "POCO DAS TRINCHEIRAS",
-      "latitude": -9.3237539,
-      "longitude": -37.30406809999999,
-      "valor_minimo": 6.67,
-      "valor_maximo": 6.67,
-      "valor_medio": 6.67,
-      "valor_recente": 6.67,
-      "data_recente": "2026-04-14T23:45:31Z"
-    },
     {
       "cnpj": "09025340000141",
       "tipo_combustivel": 1,
@@ -69,6 +49,26 @@
       "valor_medio": 6.968641114982578,
       "valor_recente": 6.968641114982578,
       "data_recente": "2026-04-14T21:36:04Z"
+    },
+    {
+      "cnpj": "08886737000165",
+      "tipo_combustivel": 1,
+      "razao_social": "COMÉRCIO DE COMBUSTÍVEIS NOSSA SENHORA DE FÁTIMA LTDA.",
+      "nome_fantasia": "AUTO POSTO NOSSA SENHORA DE FATIMA",
+      "telefone": "",
+      "nome_logradouro": "RDV BR 316",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57510000",
+      "codigo_ibge": 2707206,
+      "municipio": "POCO DAS TRINCHEIRAS",
+      "latitude": -9.3237539,
+      "longitude": -37.30406809999999,
+      "valor_minimo": 6.9696124895455815,
+      "valor_maximo": 6.9696124895455815,
+      "valor_medio": 6.9696124895455815,
+      "valor_recente": 6.9696124895455815,
+      "data_recente": "2026-04-15T07:25:09Z"
     },
     {
       "cnpj": "29720522000140",
@@ -124,11 +124,11 @@
       "municipio": "POCO DAS TRINCHEIRAS",
       "latitude": -9.3237539,
       "longitude": -37.30406809999999,
-      "valor_minimo": 5.649948822927328,
-      "valor_maximo": 5.649948822927328,
-      "valor_medio": 5.649948822927328,
-      "valor_recente": 5.649948822927328,
-      "data_recente": "2026-04-14T20:36:05Z"
+      "valor_minimo": 5.649717514124294,
+      "valor_maximo": 5.649717514124294,
+      "valor_medio": 5.649717514124294,
+      "valor_recente": 5.649717514124294,
+      "data_recente": "2026-04-15T07:06:41Z"
     },
     {
       "cnpj": "08886737000165",
@@ -144,11 +144,11 @@
       "municipio": "POCO DAS TRINCHEIRAS",
       "latitude": -9.3237539,
       "longitude": -37.30406809999999,
-      "valor_minimo": 7.560028964518465,
-      "valor_maximo": 7.560028964518465,
-      "valor_medio": 7.560028964518465,
-      "valor_recente": 7.560028964518465,
-      "data_recente": "2026-04-14T23:46:57Z"
+      "valor_minimo": 7.560483870967742,
+      "valor_maximo": 7.560483870967742,
+      "valor_medio": 7.560483870967742,
+      "valor_recente": 7.560483870967742,
+      "data_recente": "2026-04-15T07:06:12Z"
     },
     {
       "cnpj": "29720522000140",
