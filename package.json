@@ -10,6 +10,7 @@
     "preview": "vite preview",
     "collect": "tsx scripts/coletar-precos-json.ts",
     "collect:supabase": "tsx scripts/coletar-precos-supabase.ts",
+    "process:history": "tsx scripts/processar-historico.ts",
     "geocode": "tsx scripts/geocodificar.ts",
     "geocode:local": "./scripts/geocode-local.sh",
     "coord:validate": "tsx scripts/validar-google.ts",

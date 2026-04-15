@@ -67,6 +67,10 @@ collect-supabase: ## Coleta preços e salva no Supabase
 	@echo "$(CYAN)📊 Coletando preços (Supabase)...$(RESET)"
 	$(NVM_INIT) npm run collect:supabase
 
+process-history: ## Processa histórico e atualiza min/max/médio
+	@echo "$(CYAN)📈 Processando histórico de preços...$(RESET)"
+	$(NVM_INIT) npm run process:history
+
 geocode: ## Geocodifica endereços dos estabelecimentos
 	@echo "$(CYAN)📍 Geocodificando endereços...$(RESET)"
 	$(NVM_INIT) npm run geocode
