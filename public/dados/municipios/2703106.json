@@ -1,20 +1,20 @@
 {
   "codigoIBGE": "2703106",
   "municipio": "Igaci",
-  "atualizadoEm": "2026-04-15T13:15:28.674Z",
+  "atualizadoEm": "2026-04-15T14:49:07.247Z",
   "totalEstabelecimentos": 15,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
       "valorMinimo": 6.117021276595745,
-      "valorMaximo": 6.890410958904109,
-      "valorMedio": 6.686715244875274
+      "valorMaximo": 6.88993981083405,
+      "valorMedio": 6.686549145081532
     },
     "2": {
       "totalPostos": 3,
       "valorMinimo": 6.95,
-      "valorMaximo": 6.989547038327526,
-      "valorMedio": 6.974262420597071
+      "valorMaximo": 6.990223463687151,
+      "valorMedio": 6.976590167338226
     },
     "3": {
       "totalPostos": 4,
@@ -24,9 +24,9 @@
     },
     "5": {
       "totalPostos": 4,
-      "valorMinimo": 6.749532615835481,
-      "valorMaximo": 7.650053819474107,
-      "valorMedio": 7.215322193139888
+      "valorMinimo": 6.533466533466534,
+      "valorMaximo": 7.350073493385596,
+      "valorMedio": 7.055630451514748
     }
   },
   "estabelecimentos": [
@@ -48,7 +48,7 @@
       "valor_maximo": 6.117021276595745,
       "valor_medio": 6.117021276595745,
       "valor_recente": 6.117021276595745,
-      "data_recente": "2026-04-15T11:31:23Z"
+      "data_recente": "2026-04-15T13:24:47Z"
     },
     {
       "cnpj": "61923139000100",
@@ -68,7 +68,7 @@
       "valor_maximo": 6.8493150684931505,
       "valor_medio": 6.8493150684931505,
       "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-15T11:15:20Z"
+      "data_recente": "2026-04-15T13:14:13Z"
     },
     {
       "cnpj": "05019078000171",
@@ -84,11 +84,11 @@
       "municipio": "IGACI",
       "latitude": -9.543047699999999,
       "longitude": -36.6506562,
-      "valor_minimo": 6.890113675508095,
-      "valor_maximo": 6.890113675508095,
-      "valor_medio": 6.890113675508095,
-      "valor_recente": 6.890113675508095,
-      "data_recente": "2026-04-15T11:32:12Z"
+      "valor_minimo": 6.889920424403183,
+      "valor_maximo": 6.889920424403183,
+      "valor_medio": 6.889920424403183,
+      "valor_recente": 6.889920424403183,
+      "data_recente": "2026-04-15T13:18:23Z"
     },
     {
       "cnpj": "06209130000115",
@@ -104,11 +104,11 @@
       "municipio": "IGACI",
       "latitude": -9.539441199999999,
       "longitude": -36.6385346,
-      "valor_minimo": 6.890410958904109,
-      "valor_maximo": 6.890410958904109,
-      "valor_medio": 6.890410958904109,
-      "valor_recente": 6.890410958904109,
-      "data_recente": "2026-04-15T11:19:10Z"
+      "valor_minimo": 6.88993981083405,
+      "valor_maximo": 6.88993981083405,
+      "valor_medio": 6.88993981083405,
+      "valor_recente": 6.88993981083405,
+      "data_recente": "2026-04-15T13:09:28Z"
     },
     {
       "cnpj": "61923139000100",
@@ -131,26 +131,6 @@
       "data_recente": "2026-04-14T20:44:41Z"
     },
     {
-      "cnpj": "05019078000171",
-      "tipo_combustivel": 2,
-      "razao_social": "AUTO POSTO JP LTDA - EPP",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 115",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57620000",
-      "codigo_ibge": 2703106,
-      "municipio": "IGACI",
-      "latitude": -9.543047699999999,
-      "longitude": -36.6506562,
-      "valor_minimo": 6.983240223463687,
-      "valor_maximo": 6.983240223463687,
-      "valor_medio": 6.983240223463687,
-      "valor_recente": 6.983240223463687,
-      "data_recente": "2026-04-15T01:54:55Z"
-    },
-    {
       "cnpj": "06209130000115",
       "tipo_combustivel": 2,
       "razao_social": "POSTO IGACI LTDA",
@@ -169,6 +149,26 @@
       "valor_medio": 6.989547038327526,
       "valor_recente": 6.989547038327526,
       "data_recente": "2026-04-15T10:42:24Z"
+    },
+    {
+      "cnpj": "05019078000171",
+      "tipo_combustivel": 2,
+      "razao_social": "AUTO POSTO JP LTDA - EPP",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 115",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57620000",
+      "codigo_ibge": 2703106,
+      "municipio": "IGACI",
+      "latitude": -9.543047699999999,
+      "longitude": -36.6506562,
+      "valor_minimo": 6.990223463687151,
+      "valor_maximo": 6.990223463687151,
+      "valor_medio": 6.990223463687151,
+      "valor_recente": 6.990223463687151,
+      "data_recente": "2026-04-15T12:00:18Z"
     },
     {
       "cnpj": "22442762000261",
@@ -208,7 +208,7 @@
       "valor_maximo": 4.990019960079841,
       "valor_medio": 4.990019960079841,
       "valor_recente": 4.990019960079841,
-      "data_recente": "2026-04-15T11:15:20Z"
+      "data_recente": "2026-04-15T13:14:13Z"
     },
     {
       "cnpj": "06209130000115",
@@ -264,11 +264,11 @@
       "municipio": "IGACI",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.749532615835481,
-      "valor_maximo": 6.749532615835481,
-      "valor_medio": 6.749532615835481,
-      "valor_recente": 6.749532615835481,
-      "data_recente": "2026-04-14T21:22:04Z"
+      "valor_minimo": 6.533466533466534,
+      "valor_maximo": 6.533466533466534,
+      "valor_medio": 6.533466533466534,
+      "valor_recente": 6.533466533466534,
+      "data_recente": "2026-04-15T13:16:33Z"
     },
     {
       "cnpj": "61923139000100",
@@ -284,31 +284,11 @@
       "municipio": "IGACI",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.150108134351415,
-      "valor_maximo": 7.150108134351415,
-      "valor_medio": 7.150108134351415,
-      "valor_recente": 7.150108134351415,
-      "data_recente": "2026-04-15T11:14:42Z"
-    },
-    {
-      "cnpj": "05019078000171",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO JP LTDA - EPP",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 115",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57620000",
-      "codigo_ibge": 2703106,
-      "municipio": "IGACI",
-      "latitude": -9.543047699999999,
-      "longitude": -36.6506562,
-      "valor_minimo": 7.311594202898551,
-      "valor_maximo": 7.311594202898551,
-      "valor_medio": 7.311594202898551,
-      "valor_recente": 7.311594202898551,
-      "data_recente": "2026-04-14T22:46:32Z"
+      "valor_minimo": 7.14898177920686,
+      "valor_maximo": 7.14898177920686,
+      "valor_medio": 7.14898177920686,
+      "valor_recente": 7.14898177920686,
+      "data_recente": "2026-04-15T13:14:13Z"
     },
     {
       "cnpj": "06209130000115",
@@ -324,11 +304,31 @@
       "municipio": "IGACI",
       "latitude": -9.539441199999999,
       "longitude": -36.6385346,
-      "valor_minimo": 7.650053819474107,
-      "valor_maximo": 7.650053819474107,
-      "valor_medio": 7.650053819474107,
-      "valor_recente": 7.650053819474107,
-      "data_recente": "2026-04-15T11:04:57Z"
+      "valor_minimo": 7.19,
+      "valor_maximo": 7.19,
+      "valor_medio": 7.19,
+      "valor_recente": 7.19,
+      "data_recente": "2026-04-15T13:32:35Z"
+    },
+    {
+      "cnpj": "05019078000171",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO JP LTDA - EPP",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 115",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57620000",
+      "codigo_ibge": 2703106,
+      "municipio": "IGACI",
+      "latitude": -9.543047699999999,
+      "longitude": -36.6506562,
+      "valor_minimo": 7.350073493385596,
+      "valor_maximo": 7.350073493385596,
+      "valor_medio": 7.350073493385596,
+      "valor_recente": 7.350073493385596,
+      "data_recente": "2026-04-15T12:47:08Z"
     }
   ]
 }

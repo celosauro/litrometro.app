@@ -1,61 +1,41 @@
 {
   "codigoIBGE": "2706901",
   "municipio": "Pilar",
-  "atualizadoEm": "2026-04-15T13:32:59.427Z",
+  "atualizadoEm": "2026-04-15T15:13:04.640Z",
   "totalEstabelecimentos": 31,
   "combustiveis": {
     "1": {
       "totalPostos": 8,
-      "valorMinimo": 6.739679865206402,
-      "valorMaximo": 6.89,
-      "valorMedio": 6.808208514925884
+      "valorMinimo": 6.739825455802299,
+      "valorMaximo": 6.889899407468651,
+      "valorMedio": 6.808191967644204
     },
     "2": {
       "totalPostos": 7,
       "valorMinimo": 6.739452756436178,
-      "valorMaximo": 7.089684509039348,
-      "valorMedio": 6.92543181250996
+      "valorMaximo": 7.0899834892680245,
+      "valorMedio": 6.925494899125034
     },
     "3": {
       "totalPostos": 7,
-      "valorMinimo": 5.189952252439277,
-      "valorMaximo": 5.599971050854,
-      "valorMedio": 5.358350628270524
+      "valorMinimo": 5.189812590100913,
+      "valorMaximo": 5.599868040027858,
+      "valorMedio": 5.358415187504479
     },
     "5": {
       "totalPostos": 8,
       "valorMinimo": 6.7897881586094515,
-      "valorMaximo": 7.15995173292217,
-      "valorMedio": 6.956059843858071
+      "valorMaximo": 7.159962581852199,
+      "valorMedio": 6.9586420838764935
     },
     "6": {
       "totalPostos": 1,
-      "valorMinimo": 4.189368770764119,
-      "valorMaximo": 4.189368770764119,
-      "valorMedio": 4.189368770764119
+      "valorMinimo": 4.189304812834225,
+      "valorMaximo": 4.189304812834225,
+      "valorMedio": 4.189304812834225
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "35644182000118",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO PILAR LTDA",
-      "nome_fantasia": "POSTO PETROL'S",
-      "telefone": "",
-      "nome_logradouro": "ROD BR 101",
-      "numero_imovel": "SN",
-      "bairro": "CHA DO PILAR",
-      "cep": "57150000",
-      "codigo_ibge": 2706901,
-      "municipio": "PILAR",
-      "latitude": -9.6033053,
-      "longitude": -36.0168602,
-      "valor_minimo": 6.739679865206402,
-      "valor_maximo": 6.739679865206402,
-      "valor_medio": 6.739679865206402,
-      "valor_recente": 6.739679865206402,
-      "data_recente": "2026-04-15T09:05:55Z"
-    },
     {
       "cnpj": "19034367000154",
       "tipo_combustivel": 1,
@@ -75,6 +55,26 @@
       "valor_medio": 6.739825455802299,
       "valor_recente": 6.739825455802299,
       "data_recente": "2026-04-15T10:34:02Z"
+    },
+    {
+      "cnpj": "35644182000118",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO PILAR LTDA",
+      "nome_fantasia": "POSTO PETROL'S",
+      "telefone": "",
+      "nome_logradouro": "ROD BR 101",
+      "numero_imovel": "SN",
+      "bairro": "CHA DO PILAR",
+      "cep": "57150000",
+      "codigo_ibge": 2706901,
+      "municipio": "PILAR",
+      "latitude": -9.6033053,
+      "longitude": -36.0168602,
+      "valor_minimo": 6.7398353704165626,
+      "valor_maximo": 6.7398353704165626,
+      "valor_medio": 6.7398353704165626,
+      "valor_recente": 6.7398353704165626,
+      "data_recente": "2026-04-15T12:53:30Z"
     },
     {
       "cnpj": "27855877000110",
@@ -97,26 +97,6 @@
       "data_recente": "2026-04-15T03:03:13Z"
     },
     {
-      "cnpj": "39567744000128",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO PILAR COMERCIO DE COMBUSTIVEIS LTDA",
-      "nome_fantasia": "TOTAL GIRO",
-      "telefone": "(82) 99505828",
-      "nome_logradouro": "ROD BR 316",
-      "numero_imovel": "SN",
-      "bairro": "CHA DO PILAR",
-      "cep": "57150000",
-      "codigo_ibge": 2706901,
-      "municipio": "PILAR",
-      "latitude": -9.5907833,
-      "longitude": -35.9470215,
-      "valor_minimo": 6.788866259334691,
-      "valor_maximo": 6.788866259334691,
-      "valor_medio": 6.788866259334691,
-      "valor_recente": 6.788866259334691,
-      "data_recente": "2026-04-15T11:26:14Z"
-    },
-    {
       "cnpj": "18301306000143",
       "tipo_combustivel": 1,
       "razao_social": "CARVALHO E MELO COMERCIO DE COMBUSTIVEIS LTDA - ME",
@@ -130,51 +110,31 @@
       "municipio": "PILAR",
       "latitude": -9.390890299999999,
       "longitude": -36.7566724,
-      "valor_minimo": 6.788866259334691,
-      "valor_maximo": 6.788866259334691,
-      "valor_medio": 6.788866259334691,
-      "valor_recente": 6.788866259334691,
-      "data_recente": "2026-04-15T11:25:51Z"
+      "valor_minimo": 6.789524733268671,
+      "valor_maximo": 6.789524733268671,
+      "valor_medio": 6.789524733268671,
+      "valor_recente": 6.789524733268671,
+      "data_recente": "2026-04-15T13:34:42Z"
     },
     {
-      "cnpj": "12486809000316",
+      "cnpj": "39567744000128",
       "tipo_combustivel": 1,
-      "razao_social": "CDA EMPREENDIMENTOS LTDA",
-      "nome_fantasia": "POSTO CHA DO PILAR",
-      "telefone": "",
-      "nome_logradouro": "AV RUBENS CANUTO",
+      "razao_social": "AUTO POSTO PILAR COMERCIO DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "TOTAL GIRO",
+      "telefone": "(82) 99505828",
+      "nome_logradouro": "ROD BR 316",
       "numero_imovel": "SN",
       "bairro": "CHA DO PILAR",
       "cep": "57150000",
       "codigo_ibge": 2706901,
       "municipio": "PILAR",
-      "latitude": -9.590575399999999,
-      "longitude": -35.9489026,
-      "valor_minimo": 6.888633754305396,
-      "valor_maximo": 6.888633754305396,
-      "valor_medio": 6.888633754305396,
-      "valor_recente": 6.888633754305396,
-      "data_recente": "2026-04-15T11:36:00Z"
-    },
-    {
-      "cnpj": "51694482000168",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO JVR LTDA",
-      "nome_fantasia": "AUTO POSTO VIP PILAR",
-      "telefone": "",
-      "nome_logradouro": "AV OTACILIO CAVALCANTE",
-      "numero_imovel": "1000",
-      "bairro": "CHA DO PILAR",
-      "cep": "57150000",
-      "codigo_ibge": 2706901,
-      "municipio": "PILAR",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.889899407468651,
-      "valor_maximo": 6.889899407468651,
-      "valor_medio": 6.889899407468651,
-      "valor_recente": 6.889899407468651,
-      "data_recente": "2026-04-15T11:36:03Z"
+      "latitude": -9.5907833,
+      "longitude": -35.9470215,
+      "valor_minimo": 6.7897881586094515,
+      "valor_maximo": 6.7897881586094515,
+      "valor_medio": 6.7897881586094515,
+      "valor_recente": 6.7897881586094515,
+      "data_recente": "2026-04-15T13:36:42Z"
     },
     {
       "cnpj": "12844510000124",
@@ -190,11 +150,51 @@
       "municipio": "PILAR",
       "latitude": -9.5900495,
       "longitude": -35.9549501,
-      "valor_minimo": 6.89,
-      "valor_maximo": 6.89,
-      "valor_medio": 6.89,
-      "valor_recente": 6.89,
-      "data_recente": "2026-04-15T11:17:15Z"
+      "valor_minimo": 6.888131743327655,
+      "valor_maximo": 6.888131743327655,
+      "valor_medio": 6.888131743327655,
+      "valor_recente": 6.888131743327655,
+      "data_recente": "2026-04-15T13:36:28Z"
+    },
+    {
+      "cnpj": "51694482000168",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO JVR LTDA",
+      "nome_fantasia": "AUTO POSTO VIP PILAR",
+      "telefone": "",
+      "nome_logradouro": "AV OTACILIO CAVALCANTE",
+      "numero_imovel": "1000",
+      "bairro": "CHA DO PILAR",
+      "cep": "57150000",
+      "codigo_ibge": 2706901,
+      "municipio": "PILAR",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.888633754305396,
+      "valor_maximo": 6.888633754305396,
+      "valor_medio": 6.888633754305396,
+      "valor_recente": 6.888633754305396,
+      "data_recente": "2026-04-15T13:34:58Z"
+    },
+    {
+      "cnpj": "12486809000316",
+      "tipo_combustivel": 1,
+      "razao_social": "CDA EMPREENDIMENTOS LTDA",
+      "nome_fantasia": "POSTO CHA DO PILAR",
+      "telefone": "",
+      "nome_logradouro": "AV RUBENS CANUTO",
+      "numero_imovel": "SN",
+      "bairro": "CHA DO PILAR",
+      "cep": "57150000",
+      "codigo_ibge": 2706901,
+      "municipio": "PILAR",
+      "latitude": -9.590575399999999,
+      "longitude": -35.9489026,
+      "valor_minimo": 6.889899407468651,
+      "valor_maximo": 6.889899407468651,
+      "valor_medio": 6.889899407468651,
+      "valor_recente": 6.889899407468651,
+      "data_recente": "2026-04-15T13:36:07Z"
     },
     {
       "cnpj": "19034367000154",
@@ -270,11 +270,11 @@
       "municipio": "PILAR",
       "latitude": -9.590575399999999,
       "longitude": -35.9489026,
-      "valor_minimo": 6.98935258842247,
-      "valor_maximo": 6.98935258842247,
-      "valor_medio": 6.98935258842247,
-      "valor_recente": 6.98935258842247,
-      "data_recente": "2026-04-15T11:32:53Z"
+      "valor_minimo": 6.989748369058714,
+      "valor_maximo": 6.989748369058714,
+      "valor_medio": 6.989748369058714,
+      "valor_recente": 6.989748369058714,
+      "data_recente": "2026-04-15T13:24:30Z"
     },
     {
       "cnpj": "12844510000124",
@@ -290,11 +290,11 @@
       "municipio": "PILAR",
       "latitude": -9.5900495,
       "longitude": -35.9549501,
-      "valor_minimo": 6.9906976744186045,
-      "valor_maximo": 6.9906976744186045,
-      "valor_medio": 6.9906976744186045,
-      "valor_recente": 6.9906976744186045,
-      "data_recente": "2026-04-14T22:25:32Z"
+      "valor_minimo": 6.9907795473595975,
+      "valor_maximo": 6.9907795473595975,
+      "valor_medio": 6.9907795473595975,
+      "valor_recente": 6.9907795473595975,
+      "data_recente": "2026-04-15T13:16:52Z"
     },
     {
       "cnpj": "18301306000143",
@@ -310,11 +310,11 @@
       "municipio": "PILAR",
       "latitude": -9.390890299999999,
       "longitude": -36.7566724,
-      "valor_minimo": 7.089181908407769,
-      "valor_maximo": 7.089181908407769,
-      "valor_medio": 7.089181908407769,
-      "valor_recente": 7.089181908407769,
-      "data_recente": "2026-04-15T00:03:13Z"
+      "valor_minimo": 7.088846880907372,
+      "valor_maximo": 7.088846880907372,
+      "valor_medio": 7.088846880907372,
+      "valor_recente": 7.088846880907372,
+      "data_recente": "2026-04-15T12:27:11Z"
     },
     {
       "cnpj": "39567744000128",
@@ -330,11 +330,11 @@
       "municipio": "PILAR",
       "latitude": -9.5907833,
       "longitude": -35.9470215,
-      "valor_minimo": 7.089684509039348,
-      "valor_maximo": 7.089684509039348,
-      "valor_medio": 7.089684509039348,
-      "valor_recente": 7.089684509039348,
-      "data_recente": "2026-04-15T08:02:33Z"
+      "valor_minimo": 7.0899834892680245,
+      "valor_maximo": 7.0899834892680245,
+      "valor_medio": 7.0899834892680245,
+      "valor_recente": 7.0899834892680245,
+      "data_recente": "2026-04-15T13:04:07Z"
     },
     {
       "cnpj": "18301306000143",
@@ -350,11 +350,11 @@
       "municipio": "PILAR",
       "latitude": -9.390890299999999,
       "longitude": -36.7566724,
-      "valor_minimo": 5.189952252439277,
-      "valor_maximo": 5.189952252439277,
-      "valor_medio": 5.189952252439277,
-      "valor_recente": 5.189952252439277,
-      "data_recente": "2026-04-15T11:10:00Z"
+      "valor_minimo": 5.189812590100913,
+      "valor_maximo": 5.189812590100913,
+      "valor_medio": 5.189812590100913,
+      "valor_recente": 5.189812590100913,
+      "data_recente": "2026-04-15T13:32:56Z"
     },
     {
       "cnpj": "39567744000128",
@@ -374,7 +374,7 @@
       "valor_maximo": 5.189952252439277,
       "valor_medio": 5.189952252439277,
       "valor_recente": 5.189952252439277,
-      "data_recente": "2026-04-15T11:25:26Z"
+      "data_recente": "2026-04-15T13:31:06Z"
     },
     {
       "cnpj": "19034367000154",
@@ -390,11 +390,11 @@
       "municipio": "PILAR",
       "latitude": -9.5904092,
       "longitude": -35.9541273,
-      "valor_minimo": 5.359056806002144,
-      "valor_maximo": 5.359056806002144,
-      "valor_medio": 5.359056806002144,
-      "valor_recente": 5.359056806002144,
-      "data_recente": "2026-04-14T23:29:49Z"
+      "valor_minimo": 5.359631257369493,
+      "valor_maximo": 5.359631257369493,
+      "valor_medio": 5.359631257369493,
+      "valor_recente": 5.359631257369493,
+      "data_recente": "2026-04-15T12:04:59Z"
     },
     {
       "cnpj": "51694482000168",
@@ -414,7 +414,7 @@
       "valor_maximo": 5.389673385792821,
       "valor_medio": 5.389673385792821,
       "valor_recente": 5.389673385792821,
-      "data_recente": "2026-04-15T11:30:09Z"
+      "data_recente": "2026-04-15T12:53:15Z"
     },
     {
       "cnpj": "27855877000110",
@@ -430,11 +430,11 @@
       "municipio": "PILAR",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.3898847631242,
-      "valor_maximo": 5.3898847631242,
-      "valor_medio": 5.3898847631242,
-      "valor_recente": 5.3898847631242,
-      "data_recente": "2026-04-14T20:55:46Z"
+      "valor_minimo": 5.389963887241955,
+      "valor_maximo": 5.389963887241955,
+      "valor_medio": 5.389963887241955,
+      "valor_recente": 5.389963887241955,
+      "data_recente": "2026-04-15T12:58:42Z"
     },
     {
       "cnpj": "12844510000124",
@@ -450,11 +450,11 @@
       "municipio": "PILAR",
       "latitude": -9.5900495,
       "longitude": -35.9549501,
-      "valor_minimo": 5.389963887241955,
-      "valor_maximo": 5.389963887241955,
-      "valor_medio": 5.389963887241955,
-      "valor_recente": 5.389963887241955,
-      "data_recente": "2026-04-15T09:30:41Z"
+      "valor_minimo": 5.39000489955904,
+      "valor_maximo": 5.39000489955904,
+      "valor_medio": 5.39000489955904,
+      "valor_recente": 5.39000489955904,
+      "data_recente": "2026-04-15T12:50:06Z"
     },
     {
       "cnpj": "12486809000316",
@@ -470,11 +470,11 @@
       "municipio": "PILAR",
       "latitude": -9.590575399999999,
       "longitude": -35.9489026,
-      "valor_minimo": 5.599971050854,
-      "valor_maximo": 5.599971050854,
-      "valor_medio": 5.599971050854,
-      "valor_recente": 5.599971050854,
-      "data_recente": "2026-04-15T11:11:45Z"
+      "valor_minimo": 5.599868040027858,
+      "valor_maximo": 5.599868040027858,
+      "valor_medio": 5.599868040027858,
+      "valor_recente": 5.599868040027858,
+      "data_recente": "2026-04-15T13:29:43Z"
     },
     {
       "cnpj": "18301306000143",
@@ -494,7 +494,7 @@
       "valor_maximo": 6.7897881586094515,
       "valor_medio": 6.7897881586094515,
       "valor_recente": 6.7897881586094515,
-      "data_recente": "2026-04-15T11:19:20Z"
+      "data_recente": "2026-04-15T13:31:42Z"
     },
     {
       "cnpj": "39567744000128",
@@ -510,11 +510,11 @@
       "municipio": "PILAR",
       "latitude": -9.5907833,
       "longitude": -35.9470215,
-      "valor_minimo": 6.789994074139104,
-      "valor_maximo": 6.789994074139104,
-      "valor_medio": 6.789994074139104,
-      "valor_recente": 6.789994074139104,
-      "data_recente": "2026-04-15T11:33:30Z"
+      "valor_minimo": 6.789909410081921,
+      "valor_maximo": 6.789909410081921,
+      "valor_medio": 6.789909410081921,
+      "valor_recente": 6.789909410081921,
+      "data_recente": "2026-04-15T13:07:41Z"
     },
     {
       "cnpj": "27855877000110",
@@ -530,11 +530,11 @@
       "municipio": "PILAR",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.889899407468651,
-      "valor_maximo": 7.18999188891893,
-      "valor_medio": 7.03994564819379,
-      "valor_recente": 6.889899407468651,
-      "data_recente": "2026-04-15T11:05:17Z"
+      "valor_minimo": 6.889973185634533,
+      "valor_maximo": 6.889994350204633,
+      "valor_medio": 6.889983767919583,
+      "valor_recente": 6.889994350204633,
+      "data_recente": "2026-04-15T13:33:06Z"
     },
     {
       "cnpj": "35644182000118",
@@ -550,11 +550,11 @@
       "municipio": "PILAR",
       "latitude": -9.6033053,
       "longitude": -36.0168602,
-      "valor_minimo": 6.889994350204633,
-      "valor_maximo": 6.89,
-      "valor_medio": 6.889997175102316,
-      "valor_recente": 6.89,
-      "data_recente": "2026-04-15T11:18:48Z"
+      "valor_minimo": 6.889979400577909,
+      "valor_maximo": 6.889994350204633,
+      "valor_medio": 6.889986875391271,
+      "valor_recente": 6.889979400577909,
+      "data_recente": "2026-04-15T12:45:13Z"
     },
     {
       "cnpj": "51694482000168",
@@ -570,11 +570,11 @@
       "municipio": "PILAR",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.98909700866648,
-      "valor_maximo": 6.98909700866648,
-      "valor_medio": 6.98909700866648,
-      "valor_recente": 6.98909700866648,
-      "data_recente": "2026-04-15T10:54:15Z"
+      "valor_minimo": 6.989515726410384,
+      "valor_maximo": 6.989515726410384,
+      "valor_medio": 6.989515726410384,
+      "valor_recente": 6.989515726410384,
+      "data_recente": "2026-04-15T13:11:29Z"
     },
     {
       "cnpj": "12486809000316",
@@ -590,11 +590,11 @@
       "municipio": "PILAR",
       "latitude": -9.590575399999999,
       "longitude": -35.9489026,
-      "valor_minimo": 6.989748369058714,
-      "valor_maximo": 6.989748369058714,
-      "valor_medio": 6.989748369058714,
-      "valor_recente": 6.989748369058714,
-      "data_recente": "2026-04-15T11:22:30Z"
+      "valor_minimo": 7.01,
+      "valor_maximo": 7.01,
+      "valor_medio": 7.01,
+      "valor_recente": 7.01,
+      "data_recente": "2026-04-15T13:33:27Z"
     },
     {
       "cnpj": "12844510000124",
@@ -610,11 +610,11 @@
       "municipio": "PILAR",
       "latitude": -9.5900495,
       "longitude": -35.9549501,
-      "valor_minimo": 7.0899635985439415,
-      "valor_maximo": 7.15,
-      "valor_medio": 7.1199817992719705,
-      "valor_recente": 7.15,
-      "data_recente": "2026-04-15T11:25:54Z"
+      "valor_minimo": 7.090019615720937,
+      "valor_maximo": 7.14998704327546,
+      "valor_medio": 7.120003329498198,
+      "valor_recente": 7.14998704327546,
+      "data_recente": "2026-04-15T13:28:09Z"
     },
     {
       "cnpj": "19034367000154",
@@ -631,10 +631,10 @@
       "latitude": -9.5904092,
       "longitude": -35.9541273,
       "valor_minimo": 7.15995173292217,
-      "valor_maximo": 7.16,
-      "valor_medio": 7.159975866461085,
-      "valor_recente": 7.15995173292217,
-      "data_recente": "2026-04-15T10:59:29Z"
+      "valor_maximo": 7.159962581852199,
+      "valor_medio": 7.1599571573871845,
+      "valor_recente": 7.159962581852199,
+      "data_recente": "2026-04-15T12:32:17Z"
     },
     {
       "cnpj": "12486809000316",
@@ -650,11 +650,11 @@
       "municipio": "PILAR",
       "latitude": -9.590575399999999,
       "longitude": -35.9489026,
-      "valor_minimo": 4.189368770764119,
-      "valor_maximo": 4.189368770764119,
-      "valor_medio": 4.189368770764119,
-      "valor_recente": 4.189368770764119,
-      "data_recente": "2026-04-15T11:30:23Z"
+      "valor_minimo": 4.189304812834225,
+      "valor_maximo": 4.189304812834225,
+      "valor_medio": 4.189304812834225,
+      "valor_recente": 4.189304812834225,
+      "data_recente": "2026-04-15T13:11:59Z"
     }
   ]
 }

@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2701209",
   "municipio": "Cacimbinhas",
-  "atualizadoEm": "2026-04-15T13:06:44.465Z",
+  "atualizadoEm": "2026-04-15T14:36:49.161Z",
   "totalEstabelecimentos": 12,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
       "valorMinimo": 6.750561797752809,
-      "valorMaximo": 6.988120195667365,
-      "valorMedio": 6.86317648368243
+      "valorMaximo": 6.98535745047373,
+      "valorMedio": 6.862041482194985
     },
     "2": {
       "totalPostos": 2,
       "valorMinimo": 6.800063884642588,
-      "valorMaximo": 6.89,
-      "valorMedio": 6.8450319423212935
+      "valorMaximo": 6.889958734525447,
+      "valorMedio": 6.8450113095840175
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 4.990002499375156,
-      "valorMaximo": 5.9880239520958085,
-      "valorMedio": 5.559339008503958
+      "valorMinimo": 4.990019960079841,
+      "valorMaximo": 5.989746381743115,
+      "valorMedio": 5.5599189719546205
     },
     "5": {
       "totalPostos": 4,
-      "valorMinimo": 7.4901392980178745,
-      "valorMaximo": 7.788161993769471,
-      "valorMedio": 7.67958389369988
+      "valorMinimo": 7.290007491500029,
+      "valorMaximo": 7.94,
+      "valorMedio": 7.617536697379476
     }
   },
   "estabelecimentos": [
@@ -64,11 +64,11 @@
       "municipio": "CACIMBINHAS",
       "latitude": -9.3995816,
       "longitude": -36.9267589,
-      "valor_minimo": 6.850847457627118,
-      "valor_maximo": 6.850847457627118,
-      "valor_medio": 6.850847457627118,
-      "valor_recente": 6.850847457627118,
-      "data_recente": "2026-04-15T11:11:47Z"
+      "valor_minimo": 6.850205198358413,
+      "valor_maximo": 6.850205198358413,
+      "valor_medio": 6.850205198358413,
+      "valor_recente": 6.850205198358413,
+      "data_recente": "2026-04-15T13:27:17Z"
     },
     {
       "cnpj": "34745647000164",
@@ -84,11 +84,11 @@
       "municipio": "CACIMBINHAS",
       "latitude": -9.3994992,
       "longitude": -36.9904045,
-      "valor_minimo": 6.988120195667365,
-      "valor_maximo": 6.988120195667365,
-      "valor_medio": 6.988120195667365,
-      "valor_recente": 6.988120195667365,
-      "data_recente": "2026-04-15T11:26:03Z"
+      "valor_minimo": 6.98535745047373,
+      "valor_maximo": 6.98535745047373,
+      "valor_medio": 6.98535745047373,
+      "valor_recente": 6.98535745047373,
+      "data_recente": "2026-04-15T12:03:03Z"
     },
     {
       "cnpj": "05560272000160",
@@ -124,11 +124,11 @@
       "municipio": "CACIMBINHAS",
       "latitude": -9.3995816,
       "longitude": -36.9267589,
-      "valor_minimo": 6.89,
-      "valor_maximo": 6.89,
-      "valor_medio": 6.89,
-      "valor_recente": 6.89,
-      "data_recente": "2026-04-15T11:10:41Z"
+      "valor_minimo": 6.889958734525447,
+      "valor_maximo": 6.889958734525447,
+      "valor_medio": 6.889958734525447,
+      "valor_recente": 6.889958734525447,
+      "data_recente": "2026-04-15T13:27:17Z"
     },
     {
       "cnpj": "13631547000137",
@@ -144,11 +144,11 @@
       "municipio": "CACIMBINHAS",
       "latitude": -9.3995816,
       "longitude": -36.9267589,
-      "valor_minimo": 4.990002499375156,
-      "valor_maximo": 4.990002499375156,
-      "valor_medio": 4.990002499375156,
-      "valor_recente": 4.990002499375156,
-      "data_recente": "2026-04-15T11:19:10Z"
+      "valor_minimo": 4.990019960079841,
+      "valor_maximo": 4.990019960079841,
+      "valor_medio": 4.990019960079841,
+      "valor_recente": 4.990019960079841,
+      "data_recente": "2026-04-15T13:27:17Z"
     },
     {
       "cnpj": "05560272000160",
@@ -184,11 +184,31 @@
       "municipio": "CACIMBINHAS",
       "latitude": -9.3994992,
       "longitude": -36.9904045,
-      "valor_minimo": 5.9880239520958085,
-      "valor_maximo": 5.9880239520958085,
-      "valor_medio": 5.9880239520958085,
-      "valor_recente": 5.9880239520958085,
-      "data_recente": "2026-04-15T10:33:59Z"
+      "valor_minimo": 5.989746381743115,
+      "valor_maximo": 5.989746381743115,
+      "valor_medio": 5.989746381743115,
+      "valor_recente": 5.989746381743115,
+      "data_recente": "2026-04-15T12:18:21Z"
+    },
+    {
+      "cnpj": "13631547000137",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO MINADOR LTDA",
+      "nome_fantasia": "POSTO MINADOR",
+      "telefone": "(82) 99470142",
+      "nome_logradouro": "ROD POVOADO MINADOR DO LUCIO",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57570000",
+      "codigo_ibge": 2701209,
+      "municipio": "CACIMBINHAS",
+      "latitude": -9.3995816,
+      "longitude": -36.9267589,
+      "valor_minimo": 7.290007491500029,
+      "valor_maximo": 7.290007491500029,
+      "valor_medio": 7.290007491500029,
+      "valor_recente": 7.290007491500029,
+      "data_recente": "2026-04-15T13:36:37Z"
     },
     {
       "cnpj": "05560272000160",
@@ -209,26 +229,6 @@
       "valor_medio": 7.4901392980178745,
       "valor_recente": 7.4901392980178745,
       "data_recente": "2026-04-10T12:19:44Z"
-    },
-    {
-      "cnpj": "13631547000137",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO MINADOR LTDA",
-      "nome_fantasia": "POSTO MINADOR",
-      "telefone": "(82) 99470142",
-      "nome_logradouro": "ROD POVOADO MINADOR DO LUCIO",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57570000",
-      "codigo_ibge": 2701209,
-      "municipio": "CACIMBINHAS",
-      "latitude": -9.3995816,
-      "longitude": -36.9267589,
-      "valor_minimo": 7.690034283012176,
-      "valor_maximo": 7.690034283012176,
-      "valor_medio": 7.690034283012176,
-      "valor_recente": 7.690034283012176,
-      "data_recente": "2026-04-15T10:58:00Z"
     },
     {
       "cnpj": "11910007000167",
@@ -264,11 +264,11 @@
       "municipio": "CACIMBINHAS",
       "latitude": -9.3994992,
       "longitude": -36.9904045,
-      "valor_minimo": 7.788161993769471,
-      "valor_maximo": 7.788161993769471,
-      "valor_medio": 7.788161993769471,
-      "valor_recente": 7.788161993769471,
-      "data_recente": "2026-04-15T11:35:40Z"
+      "valor_minimo": 7.94,
+      "valor_maximo": 7.94,
+      "valor_medio": 7.94,
+      "valor_recente": 7.94,
+      "data_recente": "2026-04-15T11:57:05Z"
     }
   ]
 }

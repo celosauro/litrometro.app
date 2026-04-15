@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2700607",
   "municipio": "Barra de São Miguel",
-  "atualizadoEm": "2026-04-15T13:03:57.924Z",
+  "atualizadoEm": "2026-04-15T14:33:10.471Z",
   "totalEstabelecimentos": 13,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
-      "valorMinimo": 6.75000675000675,
+      "valorMinimo": 6.750067500675007,
       "valorMaximo": 7.648183556405353,
-      "valorMedio": 6.993883450219531
+      "valorMedio": 6.994498775758218
     },
     "2": {
       "totalPostos": 2,
       "valorMinimo": 6.789978989920481,
-      "valorMaximo": 6.949788179734703,
-      "valorMedio": 6.869883584827592
+      "valorMaximo": 6.949971644845526,
+      "valorMedio": 6.869975317383004
     },
     "3": {
       "totalPostos": 3,
       "valorMinimo": 5.189952252439277,
-      "valorMaximo": 5.389905314208001,
-      "valorMedio": 5.256621230284835
+      "valorMaximo": 5.387931034482759,
+      "valorMedio": 5.255963137043087
     },
     "5": {
       "totalPostos": 4,
-      "valorMinimo": 7.199926562017541,
-      "valorMaximo": 7.649997322500937,
-      "valorMedio": 7.3997367724107646
+      "valorMinimo": 6.889845094664372,
+      "valorMaximo": 7.54906894816306,
+      "valorMedio": 7.272218538406579
     }
   },
   "estabelecimentos": [
@@ -44,31 +44,11 @@
       "municipio": "BARRA DE SAO MIGUEL",
       "latitude": -9.823051,
       "longitude": -35.8866186,
-      "valor_minimo": 6.75000675000675,
-      "valor_maximo": 6.75000675000675,
-      "valor_medio": 6.75000675000675,
-      "valor_recente": 6.75000675000675,
-      "data_recente": "2026-04-15T11:33:43Z"
-    },
-    {
-      "cnpj": "07754145000127",
-      "tipo_combustivel": 1,
-      "razao_social": "M L G DA SILVA SIQUEIRA & CIA LTDA - ME",
-      "nome_fantasia": "POSTO SAO FRANCISCO DE ASSIS",
-      "telefone": "(82) 32219131",
-      "nome_logradouro": "ROD AL 101 SUL",
-      "numero_imovel": "2150",
-      "bairro": "BARRA MAR",
-      "cep": "57180000",
-      "codigo_ibge": 2700607,
-      "municipio": "BARRA DE SAO MIGUEL",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.788617886178862,
-      "valor_maximo": 6.788617886178862,
-      "valor_medio": 6.788617886178862,
-      "valor_recente": 6.788617886178862,
-      "data_recente": "2026-04-15T11:31:07Z"
+      "valor_minimo": 6.750067500675007,
+      "valor_maximo": 6.750067500675007,
+      "valor_medio": 6.750067500675007,
+      "valor_recente": 6.750067500675007,
+      "data_recente": "2026-04-15T13:36:40Z"
     },
     {
       "cnpj": "34036410000104",
@@ -84,11 +64,31 @@
       "municipio": "BARRA DE SAO MIGUEL",
       "latitude": -9.8330878,
       "longitude": -35.897083,
-      "valor_minimo": 6.78872560828716,
-      "valor_maximo": 6.78872560828716,
-      "valor_medio": 6.78872560828716,
-      "valor_recente": 6.78872560828716,
-      "data_recente": "2026-04-15T11:28:49Z"
+      "valor_minimo": 6.7897881586094515,
+      "valor_maximo": 6.7897881586094515,
+      "valor_medio": 6.7897881586094515,
+      "valor_recente": 6.7897881586094515,
+      "data_recente": "2026-04-15T11:43:56Z"
+    },
+    {
+      "cnpj": "07754145000127",
+      "tipo_combustivel": 1,
+      "razao_social": "M L G DA SILVA SIQUEIRA & CIA LTDA - ME",
+      "nome_fantasia": "POSTO SAO FRANCISCO DE ASSIS",
+      "telefone": "(82) 32219131",
+      "nome_logradouro": "ROD AL 101 SUL",
+      "numero_imovel": "2150",
+      "bairro": "BARRA MAR",
+      "cep": "57180000",
+      "codigo_ibge": 2700607,
+      "municipio": "BARRA DE SAO MIGUEL",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.78995588734306,
+      "valor_maximo": 6.78995588734306,
+      "valor_medio": 6.78995588734306,
+      "valor_recente": 6.78995588734306,
+      "data_recente": "2026-04-15T13:36:16Z"
     },
     {
       "cnpj": "23634984000168",
@@ -144,11 +144,11 @@
       "municipio": "BARRA DE SAO MIGUEL",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.949788179734703,
-      "valor_maximo": 6.949788179734703,
-      "valor_medio": 6.949788179734703,
-      "valor_recente": 6.949788179734703,
-      "data_recente": "2026-04-15T11:24:00Z"
+      "valor_minimo": 6.949971644845526,
+      "valor_maximo": 6.949971644845526,
+      "valor_medio": 6.949971644845526,
+      "valor_recente": 6.949971644845526,
+      "data_recente": "2026-04-15T12:04:39Z"
     },
     {
       "cnpj": "34036410000104",
@@ -188,7 +188,7 @@
       "valor_maximo": 5.190006124207226,
       "valor_medio": 5.190006124207226,
       "valor_recente": 5.190006124207226,
-      "data_recente": "2026-04-15T11:35:36Z"
+      "data_recente": "2026-04-15T12:39:46Z"
     },
     {
       "cnpj": "07754145000127",
@@ -204,11 +204,11 @@
       "municipio": "BARRA DE SAO MIGUEL",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.389905314208001,
-      "valor_maximo": 5.389905314208001,
-      "valor_medio": 5.389905314208001,
-      "valor_recente": 5.389905314208001,
-      "data_recente": "2026-04-15T10:28:53Z"
+      "valor_minimo": 5.387931034482759,
+      "valor_maximo": 5.387931034482759,
+      "valor_medio": 5.387931034482759,
+      "valor_recente": 5.387931034482759,
+      "data_recente": "2026-04-15T13:14:57Z"
     },
     {
       "cnpj": "07754145000127",
@@ -224,11 +224,11 @@
       "municipio": "BARRA DE SAO MIGUEL",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.199926562017541,
-      "valor_maximo": 7.199926562017541,
-      "valor_medio": 7.199926562017541,
-      "valor_recente": 7.199926562017541,
-      "data_recente": "2026-04-15T11:27:19Z"
+      "valor_minimo": 6.889845094664372,
+      "valor_maximo": 6.889845094664372,
+      "valor_medio": 6.889845094664372,
+      "valor_recente": 6.889845094664372,
+      "data_recente": "2026-04-15T13:32:46Z"
     },
     {
       "cnpj": "34036410000104",
@@ -244,11 +244,31 @@
       "municipio": "BARRA DE SAO MIGUEL",
       "latitude": -9.8330878,
       "longitude": -35.897083,
-      "valor_minimo": 7.199954256961519,
-      "valor_maximo": 7.199954256961519,
-      "valor_medio": 7.199954256961519,
-      "valor_recente": 7.199954256961519,
-      "data_recente": "2026-04-15T11:05:17Z"
+      "valor_minimo": 7.199961656441718,
+      "valor_maximo": 7.199961656441718,
+      "valor_medio": 7.199961656441718,
+      "valor_recente": 7.199961656441718,
+      "data_recente": "2026-04-15T12:17:21Z"
+    },
+    {
+      "cnpj": "05875523000103",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO MARE ALTA LTDA",
+      "nome_fantasia": "POSTO MARE ALTA",
+      "telefone": "",
+      "nome_logradouro": "ROD AL 101 - SUL",
+      "numero_imovel": "205",
+      "bairro": "LOTEAMENTO BARRA MAR",
+      "cep": "57180000",
+      "codigo_ibge": 2700607,
+      "municipio": "BARRA DE SAO MIGUEL",
+      "latitude": -9.823051,
+      "longitude": -35.8866186,
+      "valor_minimo": 7.449998454357167,
+      "valor_maximo": 7.449998454357167,
+      "valor_medio": 7.449998454357167,
+      "valor_recente": 7.449998454357167,
+      "data_recente": "2026-04-15T12:39:10Z"
     },
     {
       "cnpj": "23634984000168",
@@ -269,26 +289,6 @@
       "valor_medio": 7.54906894816306,
       "valor_recente": 7.54906894816306,
       "data_recente": "2026-04-10T18:07:17Z"
-    },
-    {
-      "cnpj": "05875523000103",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO MARE ALTA LTDA",
-      "nome_fantasia": "POSTO MARE ALTA",
-      "telefone": "",
-      "nome_logradouro": "ROD AL 101 - SUL",
-      "numero_imovel": "205",
-      "bairro": "LOTEAMENTO BARRA MAR",
-      "cep": "57180000",
-      "codigo_ibge": 2700607,
-      "municipio": "BARRA DE SAO MIGUEL",
-      "latitude": -9.823051,
-      "longitude": -35.8866186,
-      "valor_minimo": 7.649997322500937,
-      "valor_maximo": 7.649997322500937,
-      "valor_medio": 7.649997322500937,
-      "valor_recente": 7.649997322500937,
-      "data_recente": "2026-04-15T09:09:02Z"
     }
   ]
 }
