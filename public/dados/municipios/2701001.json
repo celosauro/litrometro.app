@@ -1,60 +1,60 @@
 {
   "codigoIBGE": "2701001",
   "municipio": "Boca da Mata",
-  "atualizadoEm": "2026-04-15T19:04:55.212Z",
+  "atualizadoEm": "2026-04-15T20:16:30.693Z",
   "totalEstabelecimentos": 13,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
-      "valorMinimo": 6.64,
-      "valorMaximo": 6.9486623282718725,
-      "valorMedio": 6.791692622500759
+      "valorMinimo": 6.79001867255135,
+      "valorMaximo": 6.949270326615705,
+      "valorMedio": 6.896277762480173
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.02046783625731,
-      "valorMaximo": 7.02046783625731,
-      "valorMedio": 7.02046783625731
+      "valorMinimo": 7.019323671497585,
+      "valorMaximo": 7.019323671497585,
+      "valorMedio": 7.019323671497585
     },
     "3": {
       "totalPostos": 4,
-      "valorMinimo": 5.499793757734085,
-      "valorMaximo": 5.692599620493358,
-      "valorMedio": 5.595559701379992
+      "valorMinimo": 5.499945000549994,
+      "valorMaximo": 5.729564553093965,
+      "valorMedio": 5.653002400219962
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 7.24999130001044,
-      "valorMaximo": 7.24999130001044,
-      "valorMedio": 7.24999130001044
+      "valorMinimo": 7.250001812500453,
+      "valorMaximo": 7.250001812500453,
+      "valorMedio": 7.250001812500453
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.369565217391305,
+      "valorMinimo": 7.37,
       "valorMaximo": 7.739993994630493,
-      "valorMedio": 7.616513958769924
+      "valorMedio": 7.616658886306156
     }
   },
   "estabelecimentos": [
     {
-      "cnpj": "31122428000130",
+      "cnpj": "02970015000108",
       "tipo_combustivel": 1,
-      "razao_social": "C C JATOBA DA ROCHA",
-      "nome_fantasia": "POSTO SANTA RITA",
-      "telefone": "(82) 32211058",
-      "nome_logradouro": "ROD AL 215 KM 11",
-      "numero_imovel": "1717",
+      "razao_social": "DANIELLE TOLEDO GOMES TENORIO COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+      "nome_fantasia": "POSTO SAFRA",
+      "telefone": "(82) 2791366",
+      "nome_logradouro": "RDV AL 215  KM 056",
+      "numero_imovel": "SN",
       "bairro": "ZONA RURAL",
       "cep": "57680000",
       "codigo_ibge": 2701001,
       "municipio": "BOCA DA MATA",
-      "latitude": -9.663338,
-      "longitude": -36.084506,
-      "valor_minimo": 6.64,
-      "valor_maximo": 6.64,
-      "valor_medio": 6.64,
-      "valor_recente": 6.64,
-      "data_recente": "2026-04-15T17:20:20Z"
+      "latitude": -9.637674,
+      "longitude": -36.21101,
+      "valor_minimo": 6.79001867255135,
+      "valor_maximo": 6.79001867255135,
+      "valor_medio": 6.79001867255135,
+      "valor_recente": 6.79001867255135,
+      "data_recente": "2026-04-15T19:16:40Z"
     },
     {
       "cnpj": "02681327000100",
@@ -70,31 +70,31 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.644614,
       "longitude": -36.214373,
-      "valor_minimo": 6.788135593220339,
-      "valor_maximo": 6.788135593220339,
-      "valor_medio": 6.788135593220339,
-      "valor_recente": 6.788135593220339,
-      "data_recente": "2026-04-15T17:34:02Z"
+      "valor_minimo": 6.896551724137931,
+      "valor_maximo": 6.896551724137931,
+      "valor_medio": 6.896551724137931,
+      "valor_recente": 6.896551724137931,
+      "data_recente": "2026-04-15T19:20:23Z"
     },
     {
-      "cnpj": "02970015000108",
+      "cnpj": "31122428000130",
       "tipo_combustivel": 1,
-      "razao_social": "DANIELLE TOLEDO GOMES TENORIO COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
-      "nome_fantasia": "POSTO SAFRA",
-      "telefone": "(82) 2791366",
-      "nome_logradouro": "RDV AL 215  KM 056",
-      "numero_imovel": "SN",
+      "razao_social": "C C JATOBA DA ROCHA",
+      "nome_fantasia": "POSTO SANTA RITA",
+      "telefone": "(82) 32211058",
+      "nome_logradouro": "ROD AL 215 KM 11",
+      "numero_imovel": "1717",
       "bairro": "ZONA RURAL",
       "cep": "57680000",
       "codigo_ibge": 2701001,
       "municipio": "BOCA DA MATA",
-      "latitude": -9.637674,
-      "longitude": -36.21101,
-      "valor_minimo": 6.789972568510823,
-      "valor_maximo": 6.789972568510823,
-      "valor_medio": 6.789972568510823,
-      "valor_recente": 6.789972568510823,
-      "data_recente": "2026-04-15T17:24:44Z"
+      "latitude": -9.663338,
+      "longitude": -36.084506,
+      "valor_minimo": 6.949270326615705,
+      "valor_maximo": 6.949270326615705,
+      "valor_medio": 6.949270326615705,
+      "valor_recente": 6.949270326615705,
+      "data_recente": "2026-04-15T19:32:45Z"
     },
     {
       "cnpj": "23768811000132",
@@ -110,11 +110,11 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.6482528,
       "longitude": -36.2126435,
-      "valor_minimo": 6.9486623282718725,
-      "valor_maximo": 6.9486623282718725,
-      "valor_medio": 6.9486623282718725,
-      "valor_recente": 6.9486623282718725,
-      "data_recente": "2026-04-15T17:35:11Z"
+      "valor_minimo": 6.949270326615705,
+      "valor_maximo": 6.949270326615705,
+      "valor_medio": 6.949270326615705,
+      "valor_recente": 6.949270326615705,
+      "data_recente": "2026-04-15T19:23:20Z"
     },
     {
       "cnpj": "02681327000100",
@@ -130,31 +130,11 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.644614,
       "longitude": -36.214373,
-      "valor_minimo": 7.02046783625731,
-      "valor_maximo": 7.02046783625731,
-      "valor_medio": 7.02046783625731,
-      "valor_recente": 7.02046783625731,
-      "data_recente": "2026-04-15T16:03:22Z"
-    },
-    {
-      "cnpj": "31122428000130",
-      "tipo_combustivel": 3,
-      "razao_social": "C C JATOBA DA ROCHA",
-      "nome_fantasia": "POSTO SANTA RITA",
-      "telefone": "(82) 32211058",
-      "nome_logradouro": "ROD AL 215 KM 11",
-      "numero_imovel": "1717",
-      "bairro": "ZONA RURAL",
-      "cep": "57680000",
-      "codigo_ibge": 2701001,
-      "municipio": "BOCA DA MATA",
-      "latitude": -9.663338,
-      "longitude": -36.084506,
-      "valor_minimo": 5.499793757734085,
-      "valor_maximo": 5.499793757734085,
-      "valor_medio": 5.499793757734085,
-      "valor_recente": 5.499793757734085,
-      "data_recente": "2026-04-15T14:29:37Z"
+      "valor_minimo": 7.019323671497585,
+      "valor_maximo": 7.019323671497585,
+      "valor_medio": 7.019323671497585,
+      "valor_recente": 7.019323671497585,
+      "data_recente": "2026-04-15T18:03:56Z"
     },
     {
       "cnpj": "23768811000132",
@@ -217,6 +197,26 @@
       "data_recente": "2026-04-15T14:48:32Z"
     },
     {
+      "cnpj": "31122428000130",
+      "tipo_combustivel": 3,
+      "razao_social": "C C JATOBA DA ROCHA",
+      "nome_fantasia": "POSTO SANTA RITA",
+      "telefone": "(82) 32211058",
+      "nome_logradouro": "ROD AL 215 KM 11",
+      "numero_imovel": "1717",
+      "bairro": "ZONA RURAL",
+      "cep": "57680000",
+      "codigo_ibge": 2701001,
+      "municipio": "BOCA DA MATA",
+      "latitude": -9.663338,
+      "longitude": -36.084506,
+      "valor_minimo": 5.729564553093965,
+      "valor_maximo": 5.729564553093965,
+      "valor_medio": 5.729564553093965,
+      "valor_recente": 5.729564553093965,
+      "data_recente": "2026-04-15T19:15:32Z"
+    },
+    {
       "cnpj": "02970015000108",
       "tipo_combustivel": 4,
       "razao_social": "DANIELLE TOLEDO GOMES TENORIO COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
@@ -230,11 +230,11 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.637674,
       "longitude": -36.21101,
-      "valor_minimo": 7.24999130001044,
-      "valor_maximo": 7.24999130001044,
-      "valor_medio": 7.24999130001044,
-      "valor_recente": 7.24999130001044,
-      "data_recente": "2026-04-15T14:21:27Z"
+      "valor_minimo": 7.250001812500453,
+      "valor_maximo": 7.250001812500453,
+      "valor_medio": 7.250001812500453,
+      "valor_recente": 7.250001812500453,
+      "data_recente": "2026-04-15T18:07:05Z"
     },
     {
       "cnpj": "02681327000100",
@@ -250,11 +250,11 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.644614,
       "longitude": -36.214373,
-      "valor_minimo": 7.369565217391305,
-      "valor_maximo": 7.369565217391305,
-      "valor_medio": 7.369565217391305,
-      "valor_recente": 7.369565217391305,
-      "data_recente": "2026-04-15T17:14:02Z"
+      "valor_minimo": 7.37,
+      "valor_maximo": 7.37,
+      "valor_medio": 7.37,
+      "valor_recente": 7.37,
+      "data_recente": "2026-04-15T19:36:28Z"
     },
     {
       "cnpj": "23768811000132",

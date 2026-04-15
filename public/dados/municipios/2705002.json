@@ -1,20 +1,20 @@
 {
   "codigoIBGE": "2705002",
   "municipio": "Mata Grande",
-  "atualizadoEm": "2026-04-15T19:24:39.578Z",
+  "atualizadoEm": "2026-04-15T20:34:21.246Z",
   "totalEstabelecimentos": 14,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
       "valorMinimo": 6.9378357636224095,
-      "valorMaximo": 7.483333333333333,
-      "valorMedio": 7.20054607364617
+      "valorMaximo": 7.182761372705507,
+      "valorMedio": 7.083244225094009
     },
     "2": {
       "totalPostos": 5,
-      "valorMinimo": 6.85,
-      "valorMaximo": 7.329587099926704,
-      "valorMedio": 7.071409086422809
+      "valorMinimo": 6.849598990718212,
+      "valorMaximo": 7.329896907216495,
+      "valorMedio": 7.07139084602441
     },
     "3": {
       "totalPostos": 1,
@@ -24,9 +24,9 @@
     },
     "5": {
       "totalPostos": 5,
-      "valorMinimo": 7.150105708245243,
-      "valorMaximo": 8.230032281578673,
-      "valorMedio": 7.696138176113078
+      "valorMinimo": 7.15007215007215,
+      "valorMaximo": 8.130081300813009,
+      "valorMedio": 7.58814656508809
     }
   },
   "estabelecimentos": [
@@ -51,26 +51,6 @@
       "data_recente": "2026-04-15T17:27:15Z"
     },
     {
-      "cnpj": "09419389000189",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO J G LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 36421232",
-      "nome_logradouro": "ROD AL 145, KM 21",
-      "numero_imovel": "159",
-      "bairro": "SITIO TERRA NOVA",
-      "cep": "57540000",
-      "codigo_ibge": 2705002,
-      "municipio": "MATA GRANDE",
-      "latitude": -9.118687099999999,
-      "longitude": -37.73142,
-      "valor_minimo": 7.180469123982767,
-      "valor_maximo": 7.180469123982767,
-      "valor_medio": 7.180469123982767,
-      "valor_recente": 7.180469123982767,
-      "data_recente": "2026-04-15T17:26:43Z"
-    },
-    {
       "cnpj": "08850457000105",
       "tipo_combustivel": 1,
       "razao_social": "AUTO POSTO SERRANO LTDA EPP",
@@ -84,11 +64,31 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1229984,
       "longitude": -37.7355222,
-      "valor_minimo": 7.483333333333333,
-      "valor_maximo": 7.483333333333333,
-      "valor_medio": 7.483333333333333,
-      "valor_recente": 7.483333333333333,
-      "data_recente": "2026-04-15T10:25:20Z"
+      "valor_minimo": 7.129135538954109,
+      "valor_maximo": 7.129135538954109,
+      "valor_medio": 7.129135538954109,
+      "valor_recente": 7.129135538954109,
+      "data_recente": "2026-04-15T19:15:11Z"
+    },
+    {
+      "cnpj": "09419389000189",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO J G LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 36421232",
+      "nome_logradouro": "ROD AL 145, KM 21",
+      "numero_imovel": "159",
+      "bairro": "SITIO TERRA NOVA",
+      "cep": "57540000",
+      "codigo_ibge": 2705002,
+      "municipio": "MATA GRANDE",
+      "latitude": -9.118687099999999,
+      "longitude": -37.73142,
+      "valor_minimo": 7.182761372705507,
+      "valor_maximo": 7.182761372705507,
+      "valor_medio": 7.182761372705507,
+      "valor_recente": 7.182761372705507,
+      "data_recente": "2026-04-15T19:29:05Z"
     },
     {
       "cnpj": "24250482000104",
@@ -104,11 +104,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1186768,
       "longitude": -37.7313914,
-      "valor_minimo": 6.85,
-      "valor_maximo": 6.85,
-      "valor_medio": 6.85,
-      "valor_recente": 6.85,
-      "data_recente": "2026-04-15T16:26:16Z"
+      "valor_minimo": 6.849598990718212,
+      "valor_maximo": 6.849598990718212,
+      "valor_medio": 6.849598990718212,
+      "valor_recente": 6.849598990718212,
+      "data_recente": "2026-04-15T18:55:38Z"
     },
     {
       "cnpj": "13240923000162",
@@ -168,7 +168,7 @@
       "valor_maximo": 7.299270072992701,
       "valor_medio": 7.299270072992701,
       "valor_recente": 7.299270072992701,
-      "data_recente": "2026-04-15T17:06:29Z"
+      "data_recente": "2026-04-15T19:33:51Z"
     },
     {
       "cnpj": "09419389000189",
@@ -184,11 +184,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.118687099999999,
       "longitude": -37.73142,
-      "valor_minimo": 7.329587099926704,
-      "valor_maximo": 7.329587099926704,
-      "valor_medio": 7.329587099926704,
-      "valor_recente": 7.329587099926704,
-      "data_recente": "2026-04-15T11:05:12Z"
+      "valor_minimo": 7.329896907216495,
+      "valor_maximo": 7.329896907216495,
+      "valor_medio": 7.329896907216495,
+      "valor_recente": 7.329896907216495,
+      "data_recente": "2026-04-15T19:25:30Z"
     },
     {
       "cnpj": "13240923000162",
@@ -224,11 +224,31 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1186768,
       "longitude": -37.7313914,
-      "valor_minimo": 7.150105708245243,
+      "valor_minimo": 7.15007215007215,
       "valor_maximo": 7.599939200486396,
-      "valor_medio": 7.375022454365819,
-      "valor_recente": 7.150105708245243,
-      "data_recente": "2026-04-15T12:42:57Z"
+      "valor_medio": 7.375005675279273,
+      "valor_recente": 7.15007215007215,
+      "data_recente": "2026-04-15T19:16:07Z"
+    },
+    {
+      "cnpj": "13240923000162",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO PRIMOS LTDA",
+      "nome_fantasia": "AUTO POSTO PRIMOS",
+      "telefone": "(82) 88206284",
+      "nome_logradouro": "TV CONEGO GONZAGA",
+      "numero_imovel": "05",
+      "bairro": "CENTRO",
+      "cep": "57540000",
+      "codigo_ibge": 2705002,
+      "municipio": "MATA GRANDE",
+      "latitude": -9.1184121,
+      "longitude": -37.729208,
+      "valor_minimo": 7.380162044472999,
+      "valor_maximo": 7.380162044472999,
+      "valor_medio": 7.380162044472999,
+      "valor_recente": 7.380162044472999,
+      "data_recente": "2026-04-15T19:20:37Z"
     },
     {
       "cnpj": "08804741000137",
@@ -251,24 +271,24 @@
       "data_recente": "2026-04-15T11:47:51Z"
     },
     {
-      "cnpj": "13240923000162",
+      "cnpj": "08850457000105",
       "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO PRIMOS LTDA",
-      "nome_fantasia": "AUTO POSTO PRIMOS",
-      "telefone": "(82) 88206284",
-      "nome_logradouro": "TV CONEGO GONZAGA",
-      "numero_imovel": "05",
-      "bairro": "CENTRO",
+      "razao_social": "AUTO POSTO SERRANO LTDA EPP",
+      "nome_fantasia": "AUTO POSTO SERRANO",
+      "telefone": "(82) 36421200",
+      "nome_logradouro": "RDV AL 140 DER/AL",
+      "numero_imovel": "140",
+      "bairro": "ZONA RURAL",
       "cep": "57540000",
       "codigo_ibge": 2705002,
       "municipio": "MATA GRANDE",
-      "latitude": -9.1184121,
-      "longitude": -37.729208,
-      "valor_minimo": 7.5202946482260975,
-      "valor_maximo": 7.5202946482260975,
-      "valor_medio": 7.5202946482260975,
-      "valor_recente": 7.5202946482260975,
-      "data_recente": "2026-04-15T14:39:58Z"
+      "latitude": -9.1229984,
+      "longitude": -37.7355222,
+      "valor_minimo": 7.830240388379924,
+      "valor_maximo": 7.830240388379924,
+      "valor_medio": 7.830240388379924,
+      "valor_recente": 7.830240388379924,
+      "data_recente": "2026-04-15T19:15:22Z"
     },
     {
       "cnpj": "09419389000189",
@@ -288,27 +308,7 @@
       "valor_maximo": 8.130081300813009,
       "valor_medio": 8.130081300813009,
       "valor_recente": 8.130081300813009,
-      "data_recente": "2026-04-15T15:30:11Z"
-    },
-    {
-      "cnpj": "08850457000105",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO SERRANO LTDA EPP",
-      "nome_fantasia": "AUTO POSTO SERRANO",
-      "telefone": "(82) 36421200",
-      "nome_logradouro": "RDV AL 140 DER/AL",
-      "numero_imovel": "140",
-      "bairro": "ZONA RURAL",
-      "cep": "57540000",
-      "codigo_ibge": 2705002,
-      "municipio": "MATA GRANDE",
-      "latitude": -9.1229984,
-      "longitude": -37.7355222,
-      "valor_minimo": 8.230032281578673,
-      "valor_maximo": 8.230032281578673,
-      "valor_medio": 8.230032281578673,
-      "valor_recente": 8.230032281578673,
-      "data_recente": "2026-04-15T17:33:28Z"
+      "data_recente": "2026-04-15T19:28:58Z"
     }
   ]
 }

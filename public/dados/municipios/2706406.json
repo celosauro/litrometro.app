@@ -1,26 +1,26 @@
 {
   "codigoIBGE": "2706406",
   "municipio": "Pão de Açúcar",
-  "atualizadoEm": "2026-04-15T19:30:32.226Z",
+  "atualizadoEm": "2026-04-15T20:39:55.347Z",
   "totalEstabelecimentos": 17,
   "combustiveis": {
     "1": {
       "totalPostos": 5,
       "valorMinimo": 6.802721088435374,
-      "valorMaximo": 6.9465648854961835,
-      "valorMedio": 6.859446235882203
+      "valorMaximo": 6.949270326615705,
+      "valorMedio": 6.860124310407476
     },
     "2": {
       "totalPostos": 4,
       "valorMinimo": 6.944444444444445,
-      "valorMaximo": 6.988120195667365,
-      "valorMedio": 6.957881309202106
+      "valorMaximo": 7.089846404784559,
+      "valorMedio": 6.983312861481404
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.693069306930693,
+      "valorMinimo": 5.690029929557429,
       "valorMaximo": 5.789717461787864,
-      "valorMedio": 5.741393384359279
+      "valorMedio": 5.739873695672647
     },
     "4": {
       "totalPostos": 1,
@@ -31,8 +31,8 @@
     "5": {
       "totalPostos": 5,
       "valorMinimo": 7.4296962879640045,
-      "valorMaximo": 7.85,
-      "valorMedio": 7.549912724425793
+      "valorMaximo": 7.949918126486854,
+      "valorMedio": 7.569896349723164
     }
   },
   "estabelecimentos": [
@@ -57,26 +57,6 @@
       "data_recente": "2026-04-15T15:38:30Z"
     },
     {
-      "cnpj": "12405197000128",
-      "tipo_combustivel": 1,
-      "razao_social": "JOSE GENTIL SANTOS",
-      "nome_fantasia": "POSTO TEXACO SAO FRANCISCO",
-      "telefone": "",
-      "nome_logradouro": "Rua CONEGO JASSON SOUTO",
-      "numero_imovel": "237",
-      "bairro": "CENTRO",
-      "cep": "57400000",
-      "codigo_ibge": 2706406,
-      "municipio": "PAO DE ACUCAR",
-      "latitude": -9.7471217,
-      "longitude": -37.4330454,
-      "valor_minimo": 6.8493150684931505,
-      "valor_maximo": 6.8493150684931505,
-      "valor_medio": 6.8493150684931505,
-      "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-15T17:15:29Z"
-    },
-    {
       "cnpj": "18597376000190",
       "tipo_combustivel": 1,
       "razao_social": "D S GONCALVES COMBUSTIVEIS E LUBRIFICANTES - ME",
@@ -97,6 +77,26 @@
       "data_recente": "2026-04-15T17:07:24Z"
     },
     {
+      "cnpj": "12405197000128",
+      "tipo_combustivel": 1,
+      "razao_social": "JOSE GENTIL SANTOS",
+      "nome_fantasia": "POSTO TEXACO SAO FRANCISCO",
+      "telefone": "",
+      "nome_logradouro": "Rua CONEGO JASSON SOUTO",
+      "numero_imovel": "237",
+      "bairro": "CENTRO",
+      "cep": "57400000",
+      "codigo_ibge": 2706406,
+      "municipio": "PAO DE ACUCAR",
+      "latitude": -9.7471217,
+      "longitude": -37.4330454,
+      "valor_minimo": 6.8493150684931505,
+      "valor_maximo": 6.8493150684931505,
+      "valor_medio": 6.8493150684931505,
+      "valor_recente": 6.8493150684931505,
+      "data_recente": "2026-04-15T19:20:43Z"
+    },
+    {
       "cnpj": "37192386000190",
       "tipo_combustivel": 1,
       "razao_social": "ALIANÇA AUTO POSTO LTDA.",
@@ -110,11 +110,11 @@
       "municipio": "PAO DE ACUCAR",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.8493150684931505,
-      "valor_maximo": 6.8493150684931505,
-      "valor_medio": 6.8493150684931505,
-      "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-15T17:30:39Z"
+      "valor_minimo": 6.85,
+      "valor_maximo": 6.85,
+      "valor_medio": 6.85,
+      "valor_recente": 6.85,
+      "data_recente": "2026-04-15T18:03:23Z"
     },
     {
       "cnpj": "40477733000136",
@@ -130,11 +130,11 @@
       "municipio": "PAO DE ACUCAR",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.9465648854961835,
-      "valor_maximo": 6.9465648854961835,
-      "valor_medio": 6.9465648854961835,
-      "valor_recente": 6.9465648854961835,
-      "data_recente": "2026-04-15T17:27:30Z"
+      "valor_minimo": 6.949270326615705,
+      "valor_maximo": 6.949270326615705,
+      "valor_medio": 6.949270326615705,
+      "valor_recente": 6.949270326615705,
+      "data_recente": "2026-04-15T19:24:22Z"
     },
     {
       "cnpj": "12405197000128",
@@ -154,7 +154,7 @@
       "valor_maximo": 6.944444444444445,
       "valor_medio": 6.944444444444445,
       "valor_recente": 6.944444444444445,
-      "data_recente": "2026-04-15T17:14:16Z"
+      "data_recente": "2026-04-15T19:15:59Z"
     },
     {
       "cnpj": "18597376000190",
@@ -210,11 +210,11 @@
       "municipio": "PAO DE ACUCAR",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.988120195667365,
-      "valor_maximo": 6.988120195667365,
-      "valor_medio": 6.988120195667365,
-      "valor_recente": 6.988120195667365,
-      "data_recente": "2026-04-15T17:27:46Z"
+      "valor_minimo": 7.089846404784559,
+      "valor_maximo": 7.089846404784559,
+      "valor_medio": 7.089846404784559,
+      "valor_recente": 7.089846404784559,
+      "data_recente": "2026-04-15T19:27:26Z"
     },
     {
       "cnpj": "12405197000128",
@@ -230,11 +230,11 @@
       "municipio": "PAO DE ACUCAR",
       "latitude": -9.7471217,
       "longitude": -37.4330454,
-      "valor_minimo": 5.693069306930693,
-      "valor_maximo": 5.693069306930693,
-      "valor_medio": 5.693069306930693,
-      "valor_recente": 5.693069306930693,
-      "data_recente": "2026-04-15T17:14:16Z"
+      "valor_minimo": 5.690029929557429,
+      "valor_maximo": 5.690029929557429,
+      "valor_medio": 5.690029929557429,
+      "valor_recente": 5.690029929557429,
+      "data_recente": "2026-04-15T17:54:21Z"
     },
     {
       "cnpj": "40477733000136",
@@ -370,11 +370,11 @@
       "municipio": "PAO DE ACUCAR",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.85,
-      "valor_maximo": 7.85,
-      "valor_medio": 7.85,
-      "valor_recente": 7.85,
-      "data_recente": "2026-04-15T17:20:52Z"
+      "valor_minimo": 7.949918126486854,
+      "valor_maximo": 7.949918126486854,
+      "valor_medio": 7.949918126486854,
+      "valor_recente": 7.949918126486854,
+      "data_recente": "2026-04-15T18:54:06Z"
     }
   ]
 }

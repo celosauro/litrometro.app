@@ -1,47 +1,67 @@
 {
   "codigoIBGE": "2708808",
   "municipio": "São Sebastião",
-  "atualizadoEm": "2026-04-15T19:41:45.937Z",
+  "atualizadoEm": "2026-04-15T20:47:24.681Z",
   "totalEstabelecimentos": 48,
   "combustiveis": {
     "1": {
       "totalPostos": 13,
-      "valorMinimo": 6.459987397605545,
-      "valorMaximo": 7.289994347088751,
-      "valorMedio": 6.704096766691117
+      "valorMinimo": 6.109979633401222,
+      "valorMaximo": 7.289692374981776,
+      "valorMedio": 6.671887291675121
     },
     "2": {
       "totalPostos": 7,
-      "valorMinimo": 6.589473684210526,
-      "valorMaximo": 7.139797229758675,
-      "valorMedio": 6.828351746651367
+      "valorMinimo": 6.589785831960461,
+      "valorMaximo": 7.139800285306705,
+      "valorMedio": 6.828429338259285
     },
     "3": {
       "totalPostos": 12,
       "valorMinimo": 4.989522003792037,
       "valorMaximo": 5.589697748477569,
-      "valorMedio": 5.190546023802636
+      "valorMedio": 5.177110638555389
     },
     "4": {
       "totalPostos": 3,
       "valorMinimo": 7.010309278350515,
-      "valorMaximo": 7.99000099990001,
-      "valorMedio": 7.416729207618526
+      "valorMaximo": 7.990095582949492,
+      "valorMedio": 7.416801620433336
     },
     "5": {
       "totalPostos": 12,
-      "valorMinimo": 6.64,
+      "valorMinimo": 6.67,
       "valorMaximo": 8.499095840867993,
-      "valorMedio": 7.297366691314594
+      "valorMedio": 7.349809859088091
     },
     "6": {
       "totalPostos": 1,
-      "valorMinimo": 4.290045477513896,
-      "valorMaximo": 4.290045477513896,
-      "valorMedio": 4.290045477513896
+      "valorMinimo": 4.289986781229346,
+      "valorMaximo": 4.289986781229346,
+      "valorMedio": 4.289986781229346
     }
   },
   "estabelecimentos": [
+    {
+      "cnpj": "28028650000164",
+      "tipo_combustivel": 1,
+      "razao_social": "BP COMBUSTIVEIS LTDA - EPP",
+      "nome_fantasia": "",
+      "telefone": "(82) 35300270",
+      "nome_logradouro": "ROD AL 110",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57275000",
+      "codigo_ibge": 2708808,
+      "municipio": "SAO SEBASTIAO",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.109979633401222,
+      "valor_maximo": 6.109979633401222,
+      "valor_medio": 6.109979633401222,
+      "valor_recente": 6.109979633401222,
+      "data_recente": "2026-04-15T19:35:30Z"
+    },
     {
       "cnpj": "12396339000219",
       "tipo_combustivel": 1,
@@ -56,11 +76,11 @@
       "municipio": "SAO SEBASTIAO",
       "latitude": -12.6073526,
       "longitude": -39.0616908,
-      "valor_minimo": 6.459987397605545,
+      "valor_minimo": 6.459948320413437,
       "valor_maximo": 6.70690811535882,
-      "valor_medio": 6.583447756482182,
-      "valor_recente": 6.459987397605545,
-      "data_recente": "2026-04-15T17:08:51Z"
+      "valor_medio": 6.583428217886128,
+      "valor_recente": 6.459948320413437,
+      "data_recente": "2026-04-15T19:26:13Z"
     },
     {
       "cnpj": "14486153001509",
@@ -76,11 +96,11 @@
       "municipio": "SAO SEBASTIAO",
       "latitude": -9.9547702,
       "longitude": -36.5445819,
-      "valor_minimo": 6.489841986455982,
-      "valor_maximo": 6.489841986455982,
-      "valor_medio": 6.489841986455982,
-      "valor_recente": 6.489841986455982,
-      "data_recente": "2026-04-15T17:35:23Z"
+      "valor_minimo": 6.488582507539854,
+      "valor_maximo": 6.488582507539854,
+      "valor_medio": 6.488582507539854,
+      "valor_recente": 6.488582507539854,
+      "data_recente": "2026-04-15T19:31:40Z"
     },
     {
       "cnpj": "13569064006190",
@@ -96,11 +116,11 @@
       "municipio": "SAO SEBASTIAO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.4899415963659965,
-      "valor_maximo": 6.4899415963659965,
-      "valor_medio": 6.4899415963659965,
-      "valor_recente": 6.4899415963659965,
-      "data_recente": "2026-04-15T16:47:49Z"
+      "valor_minimo": 6.490178482401037,
+      "valor_maximo": 6.490178482401037,
+      "valor_medio": 6.490178482401037,
+      "valor_recente": 6.490178482401037,
+      "data_recente": "2026-04-15T18:46:00Z"
     },
     {
       "cnpj": "50792055000150",
@@ -116,11 +136,11 @@
       "municipio": "SAO SEBASTIAO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.499610490781615,
-      "valor_maximo": 6.499610490781615,
-      "valor_medio": 6.499610490781615,
-      "valor_recente": 6.499610490781615,
-      "data_recente": "2026-04-15T16:16:56Z"
+      "valor_minimo": 6.5002600104004165,
+      "valor_maximo": 6.5002600104004165,
+      "valor_medio": 6.5002600104004165,
+      "valor_recente": 6.5002600104004165,
+      "data_recente": "2026-04-15T19:29:16Z"
     },
     {
       "cnpj": "18990675000190",
@@ -136,51 +156,11 @@
       "municipio": "SAO SEBASTIAO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.589351607801793,
-      "valor_maximo": 6.589351607801793,
-      "valor_medio": 6.589351607801793,
-      "valor_recente": 6.589351607801793,
-      "data_recente": "2026-04-15T17:31:23Z"
-    },
-    {
-      "cnpj": "58138623000105",
-      "tipo_combustivel": 1,
-      "razao_social": "POSTO ALEXA LTDA",
-      "nome_fantasia": "",
-      "telefone": "(31) 25130005",
-      "nome_logradouro": "ROD BR 101",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57275000",
-      "codigo_ibge": 2708808,
-      "municipio": "SAO SEBASTIAO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.688963210702341,
-      "valor_maximo": 6.688963210702341,
-      "valor_medio": 6.688963210702341,
-      "valor_recente": 6.688963210702341,
-      "data_recente": "2026-04-15T17:09:40Z"
-    },
-    {
-      "cnpj": "28028650000164",
-      "tipo_combustivel": 1,
-      "razao_social": "BP COMBUSTIVEIS LTDA - EPP",
-      "nome_fantasia": "",
-      "telefone": "(82) 35300270",
-      "nome_logradouro": "ROD AL 110",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57275000",
-      "codigo_ibge": 2708808,
-      "municipio": "SAO SEBASTIAO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.689410662920596,
-      "valor_maximo": 6.689410662920596,
-      "valor_medio": 6.689410662920596,
-      "valor_recente": 6.689410662920596,
-      "data_recente": "2026-04-15T17:33:10Z"
+      "valor_minimo": 6.589840075258702,
+      "valor_maximo": 6.589840075258702,
+      "valor_medio": 6.589840075258702,
+      "valor_recente": 6.589840075258702,
+      "data_recente": "2026-04-15T19:15:50Z"
     },
     {
       "cnpj": "54988633000189",
@@ -196,11 +176,11 @@
       "municipio": "SAO SEBASTIAO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.689853521503578,
-      "valor_maximo": 6.889845094664372,
-      "valor_medio": 6.789849308083975,
-      "valor_recente": 6.689853521503578,
-      "data_recente": "2026-04-15T17:10:28Z"
+      "valor_minimo": 6.6895998931267115,
+      "valor_maximo": 6.889807162534435,
+      "valor_medio": 6.789703527830573,
+      "valor_recente": 6.6895998931267115,
+      "data_recente": "2026-04-15T19:15:30Z"
     },
     {
       "cnpj": "08036869000106",
@@ -216,11 +196,11 @@
       "municipio": "SAO SEBASTIAO",
       "latitude": -9.9383872,
       "longitude": -36.552263,
-      "valor_minimo": 6.788567916410572,
-      "valor_maximo": 6.788567916410572,
-      "valor_medio": 6.788567916410572,
-      "valor_recente": 6.788567916410572,
-      "data_recente": "2026-04-15T14:53:56Z"
+      "valor_minimo": 6.786440677966102,
+      "valor_maximo": 6.786440677966102,
+      "valor_medio": 6.786440677966102,
+      "valor_recente": 6.786440677966102,
+      "data_recente": "2026-04-15T19:11:07Z"
     },
     {
       "cnpj": "35296762000161",
@@ -236,11 +216,11 @@
       "municipio": "SAO SEBASTIAO",
       "latitude": -10.0178387,
       "longitude": -36.5068734,
-      "valor_minimo": 6.788866259334691,
-      "valor_maximo": 6.788866259334691,
-      "valor_medio": 6.788866259334691,
-      "valor_recente": 6.788866259334691,
-      "data_recente": "2026-04-15T17:33:09Z"
+      "valor_minimo": 6.7897881586094515,
+      "valor_maximo": 6.7897881586094515,
+      "valor_medio": 6.7897881586094515,
+      "valor_recente": 6.7897881586094515,
+      "data_recente": "2026-04-15T19:30:00Z"
     },
     {
       "cnpj": "07727179000122",
@@ -256,11 +236,31 @@
       "municipio": "SAO SEBASTIAO",
       "latitude": -9.9325317,
       "longitude": -36.5447008,
-      "valor_minimo": 6.7898305084745765,
-      "valor_maximo": 6.7898305084745765,
-      "valor_medio": 6.7898305084745765,
-      "valor_recente": 6.7898305084745765,
-      "data_recente": "2026-04-15T17:34:29Z"
+      "valor_minimo": 6.7902735562310035,
+      "valor_maximo": 6.7902735562310035,
+      "valor_medio": 6.7902735562310035,
+      "valor_recente": 6.7902735562310035,
+      "data_recente": "2026-04-15T18:33:25Z"
+    },
+    {
+      "cnpj": "58138623000105",
+      "tipo_combustivel": 1,
+      "razao_social": "POSTO ALEXA LTDA",
+      "nome_fantasia": "",
+      "telefone": "(31) 25130005",
+      "nome_logradouro": "ROD BR 101",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57275000",
+      "codigo_ibge": 2708808,
+      "municipio": "SAO SEBASTIAO",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.850068399452804,
+      "valor_maximo": 6.850068399452804,
+      "valor_medio": 6.850068399452804,
+      "valor_recente": 6.850068399452804,
+      "data_recente": "2026-04-15T19:35:34Z"
     },
     {
       "cnpj": "06081417000102",
@@ -276,11 +276,11 @@
       "municipio": "SAO SEBASTIAO",
       "latitude": -9.9578045,
       "longitude": -36.5447775,
-      "valor_minimo": 6.899038461538462,
-      "valor_maximo": 6.899038461538462,
-      "valor_medio": 6.899038461538462,
-      "valor_recente": 6.899038461538462,
-      "data_recente": "2026-04-15T17:32:28Z"
+      "valor_minimo": 6.899882701994066,
+      "valor_maximo": 6.899882701994066,
+      "valor_medio": 6.899882701994066,
+      "valor_recente": 6.899882701994066,
+      "data_recente": "2026-04-15T18:53:03Z"
     },
     {
       "cnpj": "07716281000122",
@@ -296,11 +296,11 @@
       "municipio": "SAO SEBASTIAO",
       "latitude": -9.951252,
       "longitude": -36.542281,
-      "valor_minimo": 7.289994347088751,
-      "valor_maximo": 7.289994347088751,
-      "valor_medio": 7.289994347088751,
-      "valor_recente": 7.289994347088751,
-      "data_recente": "2026-04-15T17:25:43Z"
+      "valor_minimo": 7.289692374981776,
+      "valor_maximo": 7.289692374981776,
+      "valor_medio": 7.289692374981776,
+      "valor_recente": 7.289692374981776,
+      "data_recente": "2026-04-15T19:27:53Z"
     },
     {
       "cnpj": "18990675000190",
@@ -316,11 +316,11 @@
       "municipio": "SAO SEBASTIAO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.589473684210526,
-      "valor_maximo": 6.589473684210526,
-      "valor_medio": 6.589473684210526,
-      "valor_recente": 6.589473684210526,
-      "data_recente": "2026-04-15T17:28:06Z"
+      "valor_minimo": 6.589785831960461,
+      "valor_maximo": 6.589785831960461,
+      "valor_medio": 6.589785831960461,
+      "valor_recente": 6.589785831960461,
+      "data_recente": "2026-04-15T18:06:41Z"
     },
     {
       "cnpj": "13569064006190",
@@ -336,11 +336,11 @@
       "municipio": "SAO SEBASTIAO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.58993599646877,
-      "valor_maximo": 6.58993599646877,
-      "valor_medio": 6.58993599646877,
-      "valor_recente": 6.58993599646877,
-      "data_recente": "2026-04-15T13:45:34Z"
+      "valor_minimo": 6.590163934426229,
+      "valor_maximo": 6.590163934426229,
+      "valor_medio": 6.590163934426229,
+      "valor_recente": 6.590163934426229,
+      "data_recente": "2026-04-15T17:49:50Z"
     },
     {
       "cnpj": "28028650000164",
@@ -436,11 +436,11 @@
       "municipio": "SAO SEBASTIAO",
       "latitude": -9.9578045,
       "longitude": -36.5447775,
-      "valor_minimo": 7.139797229758675,
-      "valor_maximo": 7.139797229758675,
-      "valor_medio": 7.139797229758675,
-      "valor_recente": 7.139797229758675,
-      "data_recente": "2026-04-15T17:11:25Z"
+      "valor_minimo": 7.139800285306705,
+      "valor_maximo": 7.139800285306705,
+      "valor_medio": 7.139800285306705,
+      "valor_recente": 7.139800285306705,
+      "data_recente": "2026-04-15T19:22:35Z"
     },
     {
       "cnpj": "18990675000190",
@@ -463,6 +463,46 @@
       "data_recente": "2026-04-15T16:04:58Z"
     },
     {
+      "cnpj": "28028650000164",
+      "tipo_combustivel": 3,
+      "razao_social": "BP COMBUSTIVEIS LTDA - EPP",
+      "nome_fantasia": "",
+      "telefone": "(82) 35300270",
+      "nome_logradouro": "ROD AL 110",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57275000",
+      "codigo_ibge": 2708808,
+      "municipio": "SAO SEBASTIAO",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 4.989522003792037,
+      "valor_maximo": 4.989522003792037,
+      "valor_medio": 4.989522003792037,
+      "valor_recente": 4.989522003792037,
+      "data_recente": "2026-04-15T19:36:02Z"
+    },
+    {
+      "cnpj": "14486153001509",
+      "tipo_combustivel": 3,
+      "razao_social": "TREVO DERIVADOS DE PETROLEO LTDA",
+      "nome_fantasia": "TREVO - DERIVADOS DE PETROLEO LTDA",
+      "telefone": "(82) 35222702",
+      "nome_logradouro": "ROD BR 101 SUL, KM 206",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57275000",
+      "codigo_ibge": 2708808,
+      "municipio": "SAO SEBASTIAO",
+      "latitude": -9.9547702,
+      "longitude": -36.5445819,
+      "valor_minimo": 4.989559164733179,
+      "valor_maximo": 4.989559164733179,
+      "valor_medio": 4.989559164733179,
+      "valor_recente": 4.989559164733179,
+      "data_recente": "2026-04-15T18:35:08Z"
+    },
+    {
       "cnpj": "07716281000122",
       "tipo_combustivel": 3,
       "razao_social": "AUTO POSTO TREVO DE OURO LTDA",
@@ -481,46 +521,6 @@
       "valor_medio": 4.989933851020995,
       "valor_recente": 4.989933851020995,
       "data_recente": "2026-04-15T17:12:03Z"
-    },
-    {
-      "cnpj": "28028650000164",
-      "tipo_combustivel": 3,
-      "razao_social": "BP COMBUSTIVEIS LTDA - EPP",
-      "nome_fantasia": "",
-      "telefone": "(82) 35300270",
-      "nome_logradouro": "ROD AL 110",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57275000",
-      "codigo_ibge": 2708808,
-      "municipio": "SAO SEBASTIAO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 4.989933851020995,
-      "valor_maximo": 4.989933851020995,
-      "valor_medio": 4.989933851020995,
-      "valor_recente": 4.989933851020995,
-      "data_recente": "2026-04-15T15:23:50Z"
-    },
-    {
-      "cnpj": "14486153001509",
-      "tipo_combustivel": 3,
-      "razao_social": "TREVO DERIVADOS DE PETROLEO LTDA",
-      "nome_fantasia": "TREVO - DERIVADOS DE PETROLEO LTDA",
-      "telefone": "(82) 35222702",
-      "nome_logradouro": "ROD BR 101 SUL, KM 206",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57275000",
-      "codigo_ibge": 2708808,
-      "municipio": "SAO SEBASTIAO",
-      "latitude": -9.9547702,
-      "longitude": -36.5445819,
-      "valor_minimo": 4.9899728431167745,
-      "valor_maximo": 4.9899728431167745,
-      "valor_medio": 4.9899728431167745,
-      "valor_recente": 4.9899728431167745,
-      "data_recente": "2026-04-15T17:34:10Z"
     },
     {
       "cnpj": "50792055000150",
@@ -583,6 +583,26 @@
       "data_recente": "2026-04-15T17:34:29Z"
     },
     {
+      "cnpj": "58138623000105",
+      "tipo_combustivel": 3,
+      "razao_social": "POSTO ALEXA LTDA",
+      "nome_fantasia": "",
+      "telefone": "(31) 25130005",
+      "nome_logradouro": "ROD BR 101",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57275000",
+      "codigo_ibge": 2708808,
+      "municipio": "SAO SEBASTIAO",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 5.289745827712978,
+      "valor_maximo": 5.289745827712978,
+      "valor_medio": 5.289745827712978,
+      "valor_recente": 5.289745827712978,
+      "data_recente": "2026-04-15T18:43:14Z"
+    },
+    {
       "cnpj": "13569064006190",
       "tipo_combustivel": 3,
       "razao_social": "REDE HG COMBUSTIVEIS LTDA.",
@@ -596,11 +616,11 @@
       "municipio": "SAO SEBASTIAO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.289956123941362,
-      "valor_maximo": 5.289956123941362,
-      "valor_medio": 5.289956123941362,
-      "valor_recente": 5.289956123941362,
-      "data_recente": "2026-04-15T15:21:29Z"
+      "valor_minimo": 5.28998699609883,
+      "valor_maximo": 5.28998699609883,
+      "valor_medio": 5.28998699609883,
+      "valor_recente": 5.28998699609883,
+      "data_recente": "2026-04-15T19:07:58Z"
     },
     {
       "cnpj": "12396339000219",
@@ -623,26 +643,6 @@
       "data_recente": "2026-04-15T16:59:06Z"
     },
     {
-      "cnpj": "58138623000105",
-      "tipo_combustivel": 3,
-      "razao_social": "POSTO ALEXA LTDA",
-      "nome_fantasia": "",
-      "telefone": "(31) 25130005",
-      "nome_logradouro": "ROD BR 101",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57275000",
-      "codigo_ibge": 2708808,
-      "municipio": "SAO SEBASTIAO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 5.449668665194068,
-      "valor_maximo": 5.449668665194068,
-      "valor_medio": 5.449668665194068,
-      "valor_recente": 5.449668665194068,
-      "data_recente": "2026-04-15T16:03:42Z"
-    },
-    {
       "cnpj": "06081417000102",
       "tipo_combustivel": 3,
       "razao_social": "POSTO SALOMÉ LTDA",
@@ -656,11 +656,11 @@
       "municipio": "SAO SEBASTIAO",
       "latitude": -9.9578045,
       "longitude": -36.5447775,
-      "valor_minimo": 5.549896699178398,
-      "valor_maximo": 5.549896699178398,
-      "valor_medio": 5.549896699178398,
-      "valor_recente": 5.549896699178398,
-      "data_recente": "2026-04-15T14:05:25Z"
+      "valor_minimo": 5.549389567147614,
+      "valor_maximo": 5.549389567147614,
+      "valor_medio": 5.549389567147614,
+      "valor_recente": 5.549389567147614,
+      "data_recente": "2026-04-15T18:38:38Z"
     },
     {
       "cnpj": "08036869000106",
@@ -716,11 +716,11 @@
       "municipio": "SAO SEBASTIAO",
       "latitude": -9.9547702,
       "longitude": -36.5445819,
-      "valor_minimo": 7.24987734460505,
-      "valor_maximo": 7.24987734460505,
-      "valor_medio": 7.24987734460505,
-      "valor_recente": 7.24987734460505,
-      "data_recente": "2026-04-15T16:59:41Z"
+      "valor_minimo": 7.25,
+      "valor_maximo": 7.25,
+      "valor_medio": 7.25,
+      "valor_recente": 7.25,
+      "data_recente": "2026-04-15T19:36:18Z"
     },
     {
       "cnpj": "13569064006190",
@@ -736,11 +736,11 @@
       "municipio": "SAO SEBASTIAO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.99000099990001,
-      "valor_maximo": 7.99000099990001,
-      "valor_medio": 7.99000099990001,
-      "valor_recente": 7.99000099990001,
-      "data_recente": "2026-04-14T22:18:00Z"
+      "valor_minimo": 7.990095582949492,
+      "valor_maximo": 7.990095582949492,
+      "valor_medio": 7.990095582949492,
+      "valor_recente": 7.990095582949492,
+      "data_recente": "2026-04-15T19:22:55Z"
     },
     {
       "cnpj": "13569064006190",
@@ -756,31 +756,31 @@
       "municipio": "SAO SEBASTIAO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.64,
-      "valor_maximo": 6.64,
-      "valor_medio": 6.64,
-      "valor_recente": 6.64,
-      "data_recente": "2026-04-15T16:53:59Z"
+      "valor_minimo": 6.67,
+      "valor_maximo": 6.67,
+      "valor_medio": 6.67,
+      "valor_recente": 6.67,
+      "data_recente": "2026-04-15T19:22:03Z"
     },
     {
-      "cnpj": "54988633000189",
+      "cnpj": "06081417000102",
       "tipo_combustivel": 5,
-      "razao_social": "LF COMBUSTÍVEIS LTDA",
-      "nome_fantasia": "AGRESTE ENERGIA",
+      "razao_social": "POSTO SALOMÉ LTDA",
+      "nome_fantasia": "POSTO SALOME",
       "telefone": "",
-      "nome_logradouro": "AV AVENIDA ADALBERTO DE ARAUJO LESSA",
-      "numero_imovel": "90",
-      "bairro": "SÃO JOSE",
+      "nome_logradouro": "ROD BR 101",
+      "numero_imovel": "SN",
+      "bairro": "RANCHO ALEGRE",
       "cep": "57275000",
       "codigo_ibge": 2708808,
       "municipio": "SAO SEBASTIAO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.79999278830985,
-      "valor_maximo": 6.79999278830985,
-      "valor_medio": 6.79999278830985,
-      "valor_recente": 6.79999278830985,
-      "data_recente": "2026-04-15T17:33:57Z"
+      "latitude": -9.9578045,
+      "longitude": -36.5447775,
+      "valor_minimo": 6.92,
+      "valor_maximo": 6.92,
+      "valor_medio": 6.92,
+      "valor_recente": 6.92,
+      "data_recente": "2026-04-15T19:33:44Z"
     },
     {
       "cnpj": "12396339000219",
@@ -803,26 +803,6 @@
       "data_recente": "2026-04-15T16:55:43Z"
     },
     {
-      "cnpj": "06081417000102",
-      "tipo_combustivel": 5,
-      "razao_social": "POSTO SALOMÉ LTDA",
-      "nome_fantasia": "POSTO SALOME",
-      "telefone": "",
-      "nome_logradouro": "ROD BR 101",
-      "numero_imovel": "SN",
-      "bairro": "RANCHO ALEGRE",
-      "cep": "57275000",
-      "codigo_ibge": 2708808,
-      "municipio": "SAO SEBASTIAO",
-      "latitude": -9.9578045,
-      "longitude": -36.5447775,
-      "valor_minimo": 7.06,
-      "valor_maximo": 7.06,
-      "valor_medio": 7.06,
-      "valor_recente": 7.06,
-      "data_recente": "2026-04-15T16:54:31Z"
-    },
-    {
       "cnpj": "58138623000105",
       "tipo_combustivel": 5,
       "razao_social": "POSTO ALEXA LTDA",
@@ -836,11 +816,31 @@
       "municipio": "SAO SEBASTIAO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.089785037717657,
-      "valor_maximo": 7.089986103627237,
-      "valor_medio": 7.089885570672447,
-      "valor_recente": 7.089986103627237,
-      "data_recente": "2026-04-15T17:10:59Z"
+      "valor_minimo": 7.089852058420381,
+      "valor_maximo": 7.090007087172219,
+      "valor_medio": 7.0899295727963,
+      "valor_recente": 7.089852058420381,
+      "data_recente": "2026-04-15T19:15:54Z"
+    },
+    {
+      "cnpj": "54988633000189",
+      "tipo_combustivel": 5,
+      "razao_social": "LF COMBUSTÍVEIS LTDA",
+      "nome_fantasia": "AGRESTE ENERGIA",
+      "telefone": "",
+      "nome_logradouro": "AV AVENIDA ADALBERTO DE ARAUJO LESSA",
+      "numero_imovel": "90",
+      "bairro": "SÃO JOSE",
+      "cep": "57275000",
+      "codigo_ibge": 2708808,
+      "municipio": "SAO SEBASTIAO",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.1891891891891895,
+      "valor_maximo": 7.1891891891891895,
+      "valor_medio": 7.1891891891891895,
+      "valor_recente": 7.1891891891891895,
+      "data_recente": "2026-04-15T19:14:20Z"
     },
     {
       "cnpj": "28028650000164",
@@ -896,11 +896,11 @@
       "municipio": "SAO SEBASTIAO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.2,
-      "valor_maximo": 7.2,
-      "valor_medio": 7.2,
-      "valor_recente": 7.2,
-      "data_recente": "2026-04-15T15:50:54Z"
+      "valor_minimo": 7.199942400460796,
+      "valor_maximo": 7.199942400460796,
+      "valor_medio": 7.199942400460796,
+      "valor_recente": 7.199942400460796,
+      "data_recente": "2026-04-15T18:48:27Z"
     },
     {
       "cnpj": "14486153001509",
@@ -916,31 +916,11 @@
       "municipio": "SAO SEBASTIAO",
       "latitude": -9.9547702,
       "longitude": -36.5445819,
-      "valor_minimo": 7.409384033800311,
-      "valor_maximo": 7.559638576991418,
-      "valor_medio": 7.4845113053958645,
-      "valor_recente": 7.559638576991418,
-      "data_recente": "2026-04-15T16:52:40Z"
-    },
-    {
-      "cnpj": "07716281000122",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO TREVO DE OURO LTDA",
-      "nome_fantasia": "POSTO TREVO DE OURO",
-      "telefone": "(82) 33361541",
-      "nome_logradouro": "RDV BR 101 SUL COM A RODOVIA AL 110",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57275000",
-      "codigo_ibge": 2708808,
-      "municipio": "SAO SEBASTIAO",
-      "latitude": -9.951252,
-      "longitude": -36.542281,
-      "valor_minimo": 7.4900532937912,
-      "valor_maximo": 7.4900532937912,
-      "valor_medio": 7.4900532937912,
-      "valor_recente": 7.4900532937912,
-      "data_recente": "2026-04-15T17:14:42Z"
+      "valor_minimo": 7.409966654316413,
+      "valor_maximo": 7.41,
+      "valor_medio": 7.409983327158207,
+      "valor_recente": 7.409966654316413,
+      "data_recente": "2026-04-15T19:16:43Z"
     },
     {
       "cnpj": "50792055000150",
@@ -976,11 +956,31 @@
       "municipio": "SAO SEBASTIAO",
       "latitude": -9.9383872,
       "longitude": -36.552263,
-      "valor_minimo": 7.589726079368693,
-      "valor_maximo": 7.589726079368693,
-      "valor_medio": 7.589726079368693,
-      "valor_recente": 7.589726079368693,
-      "data_recente": "2026-04-15T15:02:40Z"
+      "valor_minimo": 7.589818070631402,
+      "valor_maximo": 7.589818070631402,
+      "valor_medio": 7.589818070631402,
+      "valor_recente": 7.589818070631402,
+      "data_recente": "2026-04-15T19:09:34Z"
+    },
+    {
+      "cnpj": "07716281000122",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO TREVO DE OURO LTDA",
+      "nome_fantasia": "POSTO TREVO DE OURO",
+      "telefone": "(82) 33361541",
+      "nome_logradouro": "RDV BR 101 SUL COM A RODOVIA AL 110",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57275000",
+      "codigo_ibge": 2708808,
+      "municipio": "SAO SEBASTIAO",
+      "latitude": -9.951252,
+      "longitude": -36.542281,
+      "valor_minimo": 7.989946482352177,
+      "valor_maximo": 7.989946482352177,
+      "valor_medio": 7.989946482352177,
+      "valor_recente": 7.989946482352177,
+      "data_recente": "2026-04-15T19:20:43Z"
     },
     {
       "cnpj": "07716281000122",
@@ -996,11 +996,11 @@
       "municipio": "SAO SEBASTIAO",
       "latitude": -9.951252,
       "longitude": -36.542281,
-      "valor_minimo": 4.290045477513896,
-      "valor_maximo": 4.290045477513896,
-      "valor_medio": 4.290045477513896,
-      "valor_recente": 4.290045477513896,
-      "data_recente": "2026-04-15T16:58:35Z"
+      "valor_minimo": 4.289986781229346,
+      "valor_maximo": 4.289986781229346,
+      "valor_medio": 4.289986781229346,
+      "valor_recente": 4.289986781229346,
+      "data_recente": "2026-04-15T17:43:30Z"
     }
   ]
 }

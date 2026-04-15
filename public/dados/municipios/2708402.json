@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2708402",
   "municipio": "São José da Tapera",
-  "atualizadoEm": "2026-04-15T19:40:06.993Z",
+  "atualizadoEm": "2026-04-15T20:47:07.898Z",
   "totalEstabelecimentos": 11,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.990074094785404,
-      "valorMaximo": 7.089852058420381,
-      "valorMedio": 7.026642051068595
+      "valorMinimo": 6.9906976744186045,
+      "valorMaximo": 7.089684509039348,
+      "valorMedio": 7.026794061152651
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 7.189791516894321,
-      "valorMaximo": 7.190016482222745,
-      "valorMedio": 7.189903999558533
+      "valorMinimo": 7.186544342507645,
+      "valorMaximo": 7.190414693643278,
+      "valorMedio": 7.188479518075461
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 5.450090744101633,
+      "valorMinimo": 5.450833616876489,
       "valorMaximo": 5.889281507656066,
-      "valorMedio": 5.699694827324509
+      "valorMedio": 5.6999424515827934
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.409961685823755,
-      "valorMaximo": 7.889940828402366,
-      "valorMedio": 7.625220029994566
+      "valorMinimo": 7.391304347826087,
+      "valorMaximo": 7.589885934857094,
+      "valorMedio": 7.51371750373355
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": -9.5309789,
       "longitude": -37.5115726,
-      "valor_minimo": 6.990074094785404,
-      "valor_maximo": 6.990074094785404,
-      "valor_medio": 6.990074094785404,
-      "valor_recente": 6.990074094785404,
-      "data_recente": "2026-04-15T17:12:20Z"
+      "valor_minimo": 6.9906976744186045,
+      "valor_maximo": 6.9906976744186045,
+      "valor_medio": 6.9906976744186045,
+      "valor_recente": 6.9906976744186045,
+      "data_recente": "2026-04-15T19:31:51Z"
     },
     {
       "cnpj": "12512646000137",
@@ -68,7 +68,7 @@
       "valor_maximo": 7,
       "valor_medio": 7,
       "valor_recente": 7,
-      "data_recente": "2026-04-15T17:31:25Z"
+      "data_recente": "2026-04-15T19:29:30Z"
     },
     {
       "cnpj": "30434665000174",
@@ -84,31 +84,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": -9.55372,
       "longitude": -37.37467,
-      "valor_minimo": 7.089852058420381,
-      "valor_maximo": 7.089852058420381,
-      "valor_medio": 7.089852058420381,
-      "valor_recente": 7.089852058420381,
-      "data_recente": "2026-04-15T17:36:05Z"
-    },
-    {
-      "cnpj": "14959471000136",
-      "tipo_combustivel": 2,
-      "razao_social": "ASHP COMERCIO DE COMBUSTIVEIS E DERIVADOS LTDA.",
-      "nome_fantasia": "AUTO POSTO DOIS IRMAOS - TAPERA",
-      "telefone": "",
-      "nome_logradouro": "ROD AL 220",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57445000",
-      "codigo_ibge": 2708402,
-      "municipio": "SAO JOSE DA TAPERA",
-      "latitude": -9.5309789,
-      "longitude": -37.5115726,
-      "valor_minimo": 7.189791516894321,
-      "valor_maximo": 7.189791516894321,
-      "valor_medio": 7.189791516894321,
-      "valor_recente": 7.189791516894321,
-      "data_recente": "2026-04-15T16:59:13Z"
+      "valor_minimo": 7.089684509039348,
+      "valor_maximo": 7.089684509039348,
+      "valor_medio": 7.089684509039348,
+      "valor_recente": 7.089684509039348,
+      "data_recente": "2026-04-15T19:32:13Z"
     },
     {
       "cnpj": "12512646000137",
@@ -124,11 +104,31 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.190016482222745,
-      "valor_maximo": 7.190016482222745,
-      "valor_medio": 7.190016482222745,
-      "valor_recente": 7.190016482222745,
-      "data_recente": "2026-04-15T17:16:40Z"
+      "valor_minimo": 7.186544342507645,
+      "valor_maximo": 7.186544342507645,
+      "valor_medio": 7.186544342507645,
+      "valor_recente": 7.186544342507645,
+      "data_recente": "2026-04-15T19:32:53Z"
+    },
+    {
+      "cnpj": "14959471000136",
+      "tipo_combustivel": 2,
+      "razao_social": "ASHP COMERCIO DE COMBUSTIVEIS E DERIVADOS LTDA.",
+      "nome_fantasia": "AUTO POSTO DOIS IRMAOS - TAPERA",
+      "telefone": "",
+      "nome_logradouro": "ROD AL 220",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57445000",
+      "codigo_ibge": 2708402,
+      "municipio": "SAO JOSE DA TAPERA",
+      "latitude": -9.5309789,
+      "longitude": -37.5115726,
+      "valor_minimo": 7.190414693643278,
+      "valor_maximo": 7.190414693643278,
+      "valor_medio": 7.190414693643278,
+      "valor_recente": 7.190414693643278,
+      "data_recente": "2026-04-15T19:24:57Z"
     },
     {
       "cnpj": "14959471000136",
@@ -144,11 +144,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": -9.5309789,
       "longitude": -37.5115726,
-      "valor_minimo": 5.450090744101633,
-      "valor_maximo": 5.450090744101633,
-      "valor_medio": 5.450090744101633,
-      "valor_recente": 5.450090744101633,
-      "data_recente": "2026-04-15T16:59:13Z"
+      "valor_minimo": 5.450833616876489,
+      "valor_maximo": 5.450833616876489,
+      "valor_medio": 5.450833616876489,
+      "valor_recente": 5.450833616876489,
+      "data_recente": "2026-04-15T19:19:09Z"
     },
     {
       "cnpj": "12512646000137",
@@ -191,6 +191,26 @@
       "data_recente": "2026-04-15T02:29:09Z"
     },
     {
+      "cnpj": "14959471000136",
+      "tipo_combustivel": 5,
+      "razao_social": "ASHP COMERCIO DE COMBUSTIVEIS E DERIVADOS LTDA.",
+      "nome_fantasia": "AUTO POSTO DOIS IRMAOS - TAPERA",
+      "telefone": "",
+      "nome_logradouro": "ROD AL 220",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57445000",
+      "codigo_ibge": 2708402,
+      "municipio": "SAO JOSE DA TAPERA",
+      "latitude": -9.5309789,
+      "longitude": -37.5115726,
+      "valor_minimo": 7.391304347826087,
+      "valor_maximo": 7.391304347826087,
+      "valor_medio": 7.391304347826087,
+      "valor_recente": 7.391304347826087,
+      "data_recente": "2026-04-15T19:23:01Z"
+    },
+    {
       "cnpj": "12512646000137",
       "tipo_combustivel": 5,
       "razao_social": "CICERO LISBOA LIMA  LTDA",
@@ -204,11 +224,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.409961685823755,
-      "valor_maximo": 7.409961685823755,
-      "valor_medio": 7.409961685823755,
-      "valor_recente": 7.409961685823755,
-      "data_recente": "2026-04-15T17:36:11Z"
+      "valor_minimo": 7.5599622285174695,
+      "valor_maximo": 7.5599622285174695,
+      "valor_medio": 7.5599622285174695,
+      "valor_recente": 7.5599622285174695,
+      "data_recente": "2026-04-15T18:57:59Z"
     },
     {
       "cnpj": "30434665000174",
@@ -224,31 +244,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": -9.55372,
       "longitude": -37.37467,
-      "valor_minimo": 7.575757575757576,
-      "valor_maximo": 7.575757575757576,
-      "valor_medio": 7.575757575757576,
-      "valor_recente": 7.575757575757576,
-      "data_recente": "2026-04-15T17:34:22Z"
-    },
-    {
-      "cnpj": "14959471000136",
-      "tipo_combustivel": 5,
-      "razao_social": "ASHP COMERCIO DE COMBUSTIVEIS E DERIVADOS LTDA.",
-      "nome_fantasia": "AUTO POSTO DOIS IRMAOS - TAPERA",
-      "telefone": "",
-      "nome_logradouro": "ROD AL 220",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57445000",
-      "codigo_ibge": 2708402,
-      "municipio": "SAO JOSE DA TAPERA",
-      "latitude": -9.5309789,
-      "longitude": -37.5115726,
-      "valor_minimo": 7.889940828402366,
-      "valor_maximo": 7.889940828402366,
-      "valor_medio": 7.889940828402366,
-      "valor_recente": 7.889940828402366,
-      "data_recente": "2026-04-15T16:59:13Z"
+      "valor_minimo": 7.589885934857094,
+      "valor_maximo": 7.589885934857094,
+      "valor_medio": 7.589885934857094,
+      "valor_recente": 7.589885934857094,
+      "data_recente": "2026-04-15T19:21:17Z"
     }
   ]
 }
