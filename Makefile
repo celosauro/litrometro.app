@@ -59,9 +59,13 @@ lint: ## Executa linter (ESLint)
 # Dados e Coleta
 # ─────────────────────────────────────────────────────────────
 
-collect: ## Coleta preços da API SEFAZ/AL
+collect: ## Coleta preços da API SEFAZ/AL (salva em JSON)
 	@echo "$(CYAN)📊 Coletando preços de combustíveis...$(RESET)"
 	$(NVM_INIT) npm run collect
+
+collect-supabase: ## Coleta preços e salva no Supabase
+	@echo "$(CYAN)📊 Coletando preços (Supabase)...$(RESET)"
+	$(NVM_INIT) npm run collect:supabase
 
 geocode: ## Geocodifica endereços dos estabelecimentos
 	@echo "$(CYAN)📍 Geocodificando endereços...$(RESET)"

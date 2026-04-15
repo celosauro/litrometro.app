@@ -18,7 +18,7 @@ interface UsePrecosCombustiveisResultado {
 let cacheAtual: DadosAtuais | null = null;
 let cacheTimestamp: number = 0;
 const cacheMunicipios: Map<string, ResumoMunicipio> = new Map();
-const CACHE_TTL = import.meta.env.DEV ? 0 : 5 * 60 * 1000; // 0 em dev, 5 min em prod
+const CACHE_TTL = import.meta.env.DEV ? 0 : 60 * 60 * 1000; // 0 em dev, 1 hora em prod
 
 /**
  * Hook para carregar preços de combustíveis do JSON estático

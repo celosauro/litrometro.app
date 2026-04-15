@@ -14,73 +14,28 @@ Este guia explica como configurar o Supabase para conectar a aplicação Litrôm
 
 ---
 
-## 2. Criar a Tabela de Preços
+## 2. Criar as Tabelas
 
-Após o projeto ser criado:
+O schema v2.0 utiliza 5 tabelas normalizadas:
+
+| Tabela | Descrição | Registros esperados |
+|--------|-----------|---------------------|
+| `municipios` | Municípios de Alagoas | 102 |
+| `estabelecimentos` | Postos de combustível | ~500 |
+| `precos_atuais` | Preços atuais por posto/combustível | ~1.852 |
+| `vendas_historico` | Histórico de vendas | ~10k-50k/dia |
+| `coletas_log` | Log de execuções de coleta | N |
+
+### Passo a passo:
 
 1. No menu lateral, vá em **SQL Editor**
 2. Clique em **New query**
-3. Cole o conteúdo do arquivo `supabase/schema.sql` deste projeto:
+3. Cole o conteúdo do arquivo `supabase/schema.sql` deste projeto
+4. Clique em **Run** para executar
 
-```sql
--- Tabela principal de preços de combustíveis
-CREATE TABLE IF NOT EXISTS precos_combustiveis (
-  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-  cnpj VARCHAR(14) NOT NULL,
-  tipo_combustivel SMALLINT NOT NULL CHECK (tipo_combustivel BETWEEN 1 AND 6),
-  razao_social VARCHAR(150) NOT NULL,
-  nome_fantasia VARCHAR(150),
-  telefone VARCHAR(21),
-  nome_logradouro VARCHAR(80),
-  numero_imovel VARCHAR(7),
-  bairro VARCHAR(50),
-  cep VARCHAR(8),
-  codigo_ibge VARCHAR(7) NOT NULL,
-  municipio VARCHAR(100) NOT NULL,
-  latitude DECIMAL(17, 15),
-  longitude DECIMAL(18, 15),
-  valor_minimo DECIMAL(10, 4) NOT NULL,
-  valor_maximo DECIMAL(10, 4) NOT NULL,
-  valor_medio DECIMAL(10, 4) NOT NULL,
-  valor_recente DECIMAL(10, 4) NOT NULL,
-  data_recente TIMESTAMPTZ NOT NULL,
-  atualizado_em TIMESTAMPTZ DEFAULT NOW(),
-  
-  CONSTRAINT unique_estabelecimento_combustivel UNIQUE (cnpj, tipo_combustivel)
-);
+### Seed dos municípios:
 
--- Índices para consultas rápidas
-CREATE INDEX IF NOT EXISTS idx_precos_tipo_combustivel ON precos_combustiveis(tipo_combustivel);
-CREATE INDEX IF NOT EXISTS idx_precos_municipio ON precos_combustiveis(codigo_ibge);
-CREATE INDEX IF NOT EXISTS idx_precos_valor_recente ON precos_combustiveis(tipo_combustivel, valor_recente);
-
--- Habilitar Row Level Security
-ALTER TABLE precos_combustiveis ENABLE ROW LEVEL SECURITY;
-
--- Política de leitura pública
-CREATE POLICY "Permitir leitura pública" ON precos_combustiveis
-  FOR SELECT USING (true);
-
--- Política de escrita via service role
-CREATE POLICY "Permitir escrita via service role" ON precos_combustiveis
-  FOR ALL USING (auth.role() = 'service_role');
-
--- Trigger para atualizar timestamp
-CREATE OR REPLACE FUNCTION atualizar_coluna_atualizado_em()
-RETURNS TRIGGER AS $$
-BEGIN
-  NEW.atualizado_em = NOW();
-  RETURN NEW;
-END;
-$$ LANGUAGE plpgsql;
-
-CREATE TRIGGER atualizar_precos_combustiveis_atualizado_em
-  BEFORE UPDATE ON precos_combustiveis
-  FOR EACH ROW
-  EXECUTE FUNCTION atualizar_coluna_atualizado_em();
-```
-
-4. Clique em **Run** para executar o SQL
+Após criar as tabelas, execute também o `supabase/seed.sql` para popular os 102 municípios de Alagoas.
 
 ---
 
@@ -95,7 +50,7 @@ CREATE TRIGGER atualizar_precos_combustiveis_atualizado_em
 | Campo | Descrição |
 |-------|-----------|
 | **Project URL** | URL do projeto (ex: `https://xxxxx.supabase.co`) |
-| **anon public** | Chave pública para o frontend |
+| **publishable** | Chave pública para o frontend (prefixo `sb_publishable_`) |
 
 ### 3.2 Para o Script de Coleta (chave privada)
 
@@ -103,7 +58,27 @@ Na mesma página de API, copie também:
 
 | Campo | Descrição |
 |-------|-----------|
-| **service_role** | Chave privada para o backend (⚠️ NUNCA exponha no frontend!) |
+| **secret** | Chave privada para o backend (prefixo `sb_secret_`) |
+
+### 3.3 Sobre as Chaves
+
+| Chave | Variável | Prefixo | Uso | Segurança |
+|-------|----------|---------|-----|-----------|
+| **publishable** | `VITE_SUPABASE_PUBLISHABLE_KEY` | `sb_publishable_` | Frontend React | ✅ Pode ser exposta |
+| **secret** | `SUPABASE_SECRET_KEY` | `sb_secret_` | Scripts backend, GitHub Actions | 🔐 **NUNCA** exponha no frontend |
+
+**Características das API Keys:**
+- ✅ Rotação instantânea
+- ✅ Auditoria de uso
+- ✅ Múltiplas secret keys por projeto
+- ✅ Escopo granular
+
+> ⚠️ **Importante**: A chave `secret` **bypassa** as políticas RLS (Row Level Security), 
+> tendo acesso total ao banco de dados. Use apenas em:
+> - Scripts de coleta (servidor/CI)
+> - Edge Functions
+> - GitHub Actions
+> - Nunca no código do frontend!
 
 ---
 
@@ -114,13 +89,12 @@ Na mesma página de API, copie também:
 Crie um arquivo `.env` na raiz do projeto (copie do `.env.example`):
 
 ```bash
-# Frontend (Vite)
+# Supabase
 VITE_SUPABASE_URL=https://seu-projeto.supabase.co
-VITE_SUPABASE_ANON_KEY=sua-anon-key-aqui
+VITE_SUPABASE_PUBLISHABLE_KEY=sb_publishable_sua_chave_aqui
+SUPABASE_SECRET_KEY=sb_secret_sua_chave_aqui
 
-# Script de coleta (rodar localmente para testes)
-SUPABASE_URL=https://seu-projeto.supabase.co
-SUPABASE_SERVICE_KEY=sua-service-role-key-aqui
+# SEFAZ
 SEFAZ_APP_TOKEN=seu-token-sefaz-aqui
 ```
 
@@ -134,8 +108,8 @@ Configure os **Secrets** no repositório GitHub:
 
 | Secret Name | Valor |
 |-------------|-------|
-| `SUPABASE_URL` | URL do projeto Supabase |
-| `SUPABASE_SERVICE_KEY` | Service role key |
+| `VITE_SUPABASE_URL` | URL do projeto Supabase |
+| `SUPABASE_SECRET_KEY` | Secret key (prefixo `sb_secret_`) |
 | `SEFAZ_APP_TOKEN` | Token da API SEFAZ/AL |
 
 ### 4.3 Deploy do Frontend (Vercel/Netlify)
@@ -145,56 +119,272 @@ Configure as variáveis de ambiente no painel do serviço de deploy:
 | Variável | Valor |
 |----------|-------|
 | `VITE_SUPABASE_URL` | URL do projeto Supabase |
-| `VITE_SUPABASE_ANON_KEY` | Anon key (pública) |
+| `VITE_SUPABASE_PUBLISHABLE_KEY` | Publishable key (prefixo `sb_publishable_`) |
 
 ---
 
-## 5. Estrutura da Tabela
+## 5. Estrutura do Schema (v2.0)
 
-### Campos da tabela `precos_combustiveis`
+### Diagrama ER (Entity-Relationship)
 
+```mermaid
+erDiagram
+    municipios {
+        varchar codigo_ibge PK "7 dígitos"
+        varchar nome "100 chars"
+        char uf "2 chars - AL"
+        timestamptz created_at
+    }
+    
+    estabelecimentos {
+        varchar cnpj PK "14 dígitos"
+        varchar razao_social "150 chars"
+        varchar nome_fantasia "150 chars"
+        varchar telefone "21 chars"
+        varchar nome_logradouro "80 chars"
+        varchar numero_imovel "7 chars"
+        varchar bairro "50 chars"
+        varchar cep "8 chars"
+        varchar codigo_ibge FK
+        decimal latitude "17,15"
+        decimal longitude "18,15"
+        varchar geocode_source "sefaz/google/manual"
+        timestamptz created_at
+        timestamptz updated_at
+    }
+    
+    precos_atuais {
+        uuid id PK
+        varchar cnpj FK "14 dígitos"
+        smallint tipo_combustivel "1-6"
+        decimal valor_minimo "10,4"
+        decimal valor_maximo "10,4"
+        decimal valor_medio "10,4"
+        decimal valor_recente "10,4"
+        timestamptz data_recente
+        timestamptz updated_at
+    }
+    
+    vendas_historico {
+        uuid id PK
+        varchar cnpj FK "14 dígitos"
+        smallint tipo_combustivel "1-6"
+        decimal valor_venda "10,4"
+        timestamptz data_venda
+        timestamptz coletado_em
+    }
+    
+    coletas_log {
+        uuid id PK
+        timestamptz iniciado_em
+        timestamptz finalizado_em
+        integer total_vendas
+        integer total_estabelecimentos
+        integer total_municipios
+        varchar status "running/success/partial/error"
+        text erro
+    }
+    
+    municipios ||--o{ estabelecimentos : "codigo_ibge"
+    estabelecimentos ||--o{ precos_atuais : "cnpj"
+    estabelecimentos ||--o{ vendas_historico : "cnpj"
+```
+
+### Fluxo de Dados
+
+```mermaid
+flowchart TB
+    subgraph SEFAZ["🏛️ API SEFAZ/AL"]
+        API["/combustivel/pesquisa"]
+    end
+    
+    subgraph COLETA["📊 Script de Coleta"]
+        SCRIPT["coletar-precos-supabase.ts"]
+        PROC["Processa vendas:<br/>- Agrupa por CNPJ<br/>- Calcula min/max/avg<br/>- Deduplica histórico"]
+    end
+    
+    subgraph SUPABASE["☁️ Supabase PostgreSQL"]
+        direction TB
+        MUN[(municipios<br/>102 registros)]
+        EST[(estabelecimentos<br/>~500 registros)]
+        PRE[(precos_atuais<br/>~1.852 registros)]
+        HIST[(vendas_historico<br/>~50k/dia)]
+        LOG[(coletas_log)]
+        
+        MUN --> EST
+        EST --> PRE
+        EST --> HIST
+    end
+    
+    subgraph VIEWS["👁️ Views SQL"]
+        V1["v_precos_completos"]
+        V2["v_resumo_municipios"]
+        V3["v_estatisticas"]
+    end
+    
+    subgraph APP["🌐 SPA React"]
+        HOOK["usePrecosCombustiveisSupabase()"]
+        UI["Interface do usuário"]
+    end
+    
+    API -->|"POST /pesquisa<br/>Token SEFAZ"| SCRIPT
+    SCRIPT --> PROC
+    PROC -->|"UPSERT<br/>secret key"| EST
+    PROC -->|"UPSERT"| PRE
+    PROC -->|"INSERT"| HIST
+    PROC -->|"INSERT"| LOG
+    
+    PRE --> V1
+    EST --> V1
+    MUN --> V2
+    PRE --> V2
+    EST --> V3
+    
+    V1 -->|"SELECT<br/>publishable key"| HOOK
+    HOOK --> UI
+```
+
+### Tipos de Combustível
+
+| Código | Nome | Descrição |
+|--------|------|-----------|
+| 1 | Gasolina Comum | Gasolina regular |
+| 2 | Gasolina Aditivada | Gasolina com aditivos |
+| 3 | Etanol | Álcool/Etanol hidratado |
+| 4 | Diesel Comum | Diesel S500 |
+| 5 | Diesel S10 | Diesel com baixo enxofre |
+| 6 | GNV | Gás Natural Veicular |
+
+### Tabela `municipios`
 | Campo | Tipo | Descrição |
 |-------|------|-----------|
-| `id` | UUID | Identificador único (gerado automaticamente) |
-| `cnpj` | VARCHAR(14) | CNPJ do estabelecimento |
-| `tipo_combustivel` | SMALLINT | 1=Gasolina, 2=Gasolina Adit., 3=Álcool, 4=Diesel, 5=Diesel S10, 6=GNV |
-| `razao_social` | VARCHAR(150) | Razão social do estabelecimento |
-| `nome_fantasia` | VARCHAR(150) | Nome fantasia |
-| `telefone` | VARCHAR(21) | Telefone de contato |
-| `nome_logradouro` | VARCHAR(80) | Nome da rua |
-| `numero_imovel` | VARCHAR(7) | Número do imóvel |
-| `bairro` | VARCHAR(50) | Bairro |
-| `cep` | VARCHAR(8) | CEP |
-| `codigo_ibge` | VARCHAR(7) | Código IBGE do município |
-| `municipio` | VARCHAR(100) | Nome do município |
-| `latitude` | DECIMAL | Latitude do estabelecimento |
-| `longitude` | DECIMAL | Longitude do estabelecimento |
-| `valor_minimo` | DECIMAL | Menor preço registrado |
-| `valor_maximo` | DECIMAL | Maior preço registrado |
-| `valor_medio` | DECIMAL | Preço médio |
-| `valor_recente` | DECIMAL | Preço mais recente |
-| `data_recente` | TIMESTAMPTZ | Data/hora do preço mais recente |
-| `atualizado_em` | TIMESTAMPTZ | Última atualização do registro |
+| `codigo_ibge` | VARCHAR(7) | **PK** - Código IBGE |
+| `nome` | VARCHAR(100) | Nome do município |
+| `uf` | CHAR(2) | UF (padrão: AL) |
+
+### Tabela `estabelecimentos`
+| Campo | Tipo | Descrição |
+|-------|------|-----------|
+| `cnpj` | VARCHAR(14) | **PK** - CNPJ do posto |
+| `razao_social` | VARCHAR(150) | Nome oficial |
+| `nome_fantasia` | VARCHAR(150) | Nome comercial |
+| `codigo_ibge` | VARCHAR(7) | **FK** → municipios |
+| `latitude` | DECIMAL(17,15) | Coordenada |
+| `longitude` | DECIMAL(18,15) | Coordenada |
+| `geocode_source` | VARCHAR(20) | sefaz/google/manual |
+
+### Tabela `precos_atuais`
+| Campo | Tipo | Descrição |
+|-------|------|-----------|
+| `id` | UUID | **PK** automático |
+| `cnpj` | VARCHAR(14) | **FK** → estabelecimentos |
+| `tipo_combustivel` | SMALLINT | 1-6 (gasolina, diesel, etc) |
+| `valor_minimo` | DECIMAL(10,4) | Min dos últimos 10 dias |
+| `valor_maximo` | DECIMAL(10,4) | Max dos últimos 10 dias |
+| `valor_medio` | DECIMAL(10,4) | Média dos últimos 10 dias |
+| `valor_recente` | DECIMAL(10,4) | Última venda |
+| `data_recente` | TIMESTAMPTZ | Data da última venda |
+
+### Tabela `vendas_historico`
+| Campo | Tipo | Descrição |
+|-------|------|-----------|
+| `id` | UUID | **PK** automático |
+| `cnpj` | VARCHAR(14) | **FK** → estabelecimentos |
+| `tipo_combustivel` | SMALLINT | Tipo do combustível |
+| `valor_venda` | DECIMAL(10,4) | Valor da venda |
+| `data_venda` | TIMESTAMPTZ | Timestamp exato |
+
+### Tabela `coletas_log`
+| Campo | Tipo | Descrição |
+|-------|------|-----------|
+| `id` | UUID | **PK** |
+| `iniciado_em` | TIMESTAMPTZ | Início da coleta |
+| `finalizado_em` | TIMESTAMPTZ | Fim da coleta |
+| `status` | VARCHAR(20) | running/success/partial/error |
+| `total_vendas` | INTEGER | Vendas processadas |
+
+### Views disponíveis
+
+- `v_precos_completos` - Preços com dados do estabelecimento (substitui atual.json)
+- `v_resumo_municipios` - Resumo por município (substitui municipios/*.json)
+- `v_estatisticas` - Estatísticas gerais
 
 ---
 
 ## 6. Políticas de Segurança (RLS)
 
-A tabela usa Row Level Security com duas políticas:
-
-### Leitura Pública
-```sql
-CREATE POLICY "Permitir leitura pública" ON precos_combustiveis
-  FOR SELECT USING (true);
+```mermaid
+flowchart LR
+    subgraph KEYS["🔑 Chaves de Acesso"]
+        direction TB
+        PUB["VITE_SUPABASE_PUBLISHABLE_KEY<br/>📱 Frontend (sb_publishable_)"]
+        SEC["SUPABASE_SECRET_KEY<br/>🖥️ Backend (sb_secret_)"]
+    end
+    
+    subgraph RLS["🔒 Row Level Security"]
+        direction TB
+        READ["SELECT<br/>✅ Permitido"]
+        WRITE["INSERT/UPDATE/DELETE<br/>🔐 Restrito"]
+    end
+    
+    subgraph TABLES["📊 Tabelas"]
+        T1[(municipios)]
+        T2[(estabelecimentos)]
+        T3[(precos_atuais)]
+        T4[(vendas_historico)]
+        T5[(coletas_log)]
+    end
+    
+    PUB --> READ
+    SEC --> WRITE
+    READ --> TABLES
+    WRITE --> TABLES
 ```
-→ Qualquer pessoa pode ler os dados (necessário para o frontend funcionar)
 
-### Escrita Restrita
+### Como funciona
+
+Todas as tabelas usam Row Level Security (RLS):
+
+- **Com `publishable` key** (frontend): Respeita RLS → só pode SELECT
+- **Com `secret` key** (backend): **Bypassa RLS** → acesso total
+
+### Políticas Criadas
+
+#### Leitura Pública
 ```sql
-CREATE POLICY "Permitir escrita via service role" ON precos_combustiveis
-  FOR ALL USING (auth.role() = 'service_role');
+CREATE POLICY "Leitura pública" ON nome_tabela FOR SELECT USING (true);
 ```
-→ Apenas o script de coleta (usando a service_role key) pode inserir/atualizar dados
+→ Qualquer pessoa pode ler os dados (necessário para o frontend)
+
+#### Escrita Restrita
+```sql
+CREATE POLICY "Escrita restrita" ON nome_tabela FOR ALL 
+  USING (auth.role() = 'service_role');
+```
+→ Apenas o script de coleta (usando `SUPABASE_SECRET_KEY`) pode inserir/atualizar
+
+### Uso no Script de Coleta
+
+```typescript
+// scripts/coletar-precos-supabase.ts
+import { createClient } from '@supabase/supabase-js';
+
+// Usa secret key para bypasser RLS e ter acesso de escrita
+const supabase = createClient(
+  process.env.VITE_SUPABASE_URL!,
+  process.env.SUPABASE_SECRET_KEY!,  // ⚠️ Apenas em backend!
+  {
+    db: { schema: 'public' },
+    auth: { 
+      autoRefreshToken: false,
+      persistSession: false 
+    },
+  }
+);
+
+// Agora pode fazer INSERT/UPDATE
+await supabase.from('estabelecimentos').upsert(dados);
+```
 
 ---
 
@@ -202,15 +392,21 @@ CREATE POLICY "Permitir escrita via service role" ON precos_combustiveis
 
 ### Frontend
 ```bash
-npm run dev
+make dev
 ```
-Abra o navegador e verifique se os dados carregam (inicialmente vazio).
+Abra o navegador e verifique se os dados carregam.
 
-### Script de Coleta
+### Script de Coleta (JSON)
 ```bash
-npm run collect
+make collect
 ```
-Executa a coleta de dados da API SEFAZ/AL e salva no Supabase.
+Coleta dados e salva em arquivos JSON (modo fallback).
+
+### Script de Coleta (Supabase)
+```bash
+make collect-supabase
+```
+Coleta dados e salva diretamente no Supabase.
 
 ---
 
@@ -254,10 +450,10 @@ Para produção com alto volume, considere o plano Pro ($25/mês).
 → Execute o SQL do schema no SQL Editor
 
 ### Erro: "new row violates row-level security policy"
-→ Verifique se está usando a `service_role` key no script de coleta
+→ Verifique se está usando a `SUPABASE_SECRET_KEY` no script de coleta
 
 ### Erro: "Invalid API key"
-→ Confira se as variáveis de ambiente estão corretas
+→ Confira se as variáveis de ambiente estão corretas (prefixo `sb_publishable_` ou `sb_secret_`)
 
 ### Dados não aparecem no frontend
 → Verifique se a política de leitura pública foi criada
