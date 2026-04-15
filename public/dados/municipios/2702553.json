@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2702553",
   "municipio": "Estrela de Alagoas",
-  "atualizadoEm": "2026-04-15T17:17:29.378Z",
+  "atualizadoEm": "2026-04-15T19:13:28.658Z",
   "totalEstabelecimentos": 12,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
       "valorMinimo": 6.84,
-      "valorMaximo": 6.890034364261169,
-      "valorMedio": 6.873254759989115
+      "valorMaximo": 6.889991209343212,
+      "valorMedio": 6.873278768002528
     },
     "2": {
       "totalPostos": 1,
@@ -18,21 +18,21 @@
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 4.553704009239399,
+      "valorMinimo": 4.95000495000495,
       "valorMaximo": 4.990049751243781,
-      "valorMedio": 4.844425951688547
+      "valorMedio": 4.976608897156585
     },
     "4": {
       "totalPostos": 2,
-      "valorMinimo": 7.980022672341882,
-      "valorMaximo": 8.399940003999733,
-      "valorMedio": 8.189981338170806
+      "valorMinimo": 7.97999019928128,
+      "valorMaximo": 8.4,
+      "valorMedio": 8.18999509964064
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.280033779356736,
-      "valorMaximo": 7.989985884358271,
-      "valorMedio": 7.529983130796538
+      "valorMinimo": 7.280006988527168,
+      "valorMaximo": 7.320023048112936,
+      "valorMedio": 7.306676678880034
     }
   },
   "estabelecimentos": [
@@ -54,27 +54,7 @@
       "valor_maximo": 6.84,
       "valor_medio": 6.84,
       "valor_recente": 6.84,
-      "data_recente": "2026-04-15T14:23:27Z"
-    },
-    {
-      "cnpj": "25359544000175",
-      "tipo_combustivel": 1,
-      "razao_social": "LFS COMERCIO DE COMBUSTIVEIS EIRELI - ME",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "ROD BR 316 POVOADO ALTO DA BOA VISTA",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57625000",
-      "codigo_ibge": 2702553,
-      "municipio": "ESTRELA DE ALAGOAS",
-      "latitude": -9.490857100000001,
-      "longitude": -36.5661638,
-      "valor_minimo": 6.889729915706176,
-      "valor_maximo": 6.889729915706176,
-      "valor_medio": 6.889729915706176,
-      "valor_recente": 6.889729915706176,
-      "data_recente": "2026-04-15T15:30:26Z"
+      "data_recente": "2026-04-15T17:19:14Z"
     },
     {
       "cnpj": "22727145000121",
@@ -90,11 +70,31 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.3904417,
       "longitude": -36.7595025,
-      "valor_minimo": 6.890034364261169,
-      "valor_maximo": 6.890034364261169,
-      "valor_medio": 6.890034364261169,
-      "valor_recente": 6.890034364261169,
-      "data_recente": "2026-04-15T15:20:52Z"
+      "valor_minimo": 6.889845094664372,
+      "valor_maximo": 6.889845094664372,
+      "valor_medio": 6.889845094664372,
+      "valor_recente": 6.889845094664372,
+      "data_recente": "2026-04-15T17:24:01Z"
+    },
+    {
+      "cnpj": "25359544000175",
+      "tipo_combustivel": 1,
+      "razao_social": "LFS COMERCIO DE COMBUSTIVEIS EIRELI - ME",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "ROD BR 316 POVOADO ALTO DA BOA VISTA",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57625000",
+      "codigo_ibge": 2702553,
+      "municipio": "ESTRELA DE ALAGOAS",
+      "latitude": -9.490857100000001,
+      "longitude": -36.5661638,
+      "valor_minimo": 6.889991209343212,
+      "valor_maximo": 6.889991209343212,
+      "valor_medio": 6.889991209343212,
+      "valor_recente": 6.889991209343212,
+      "data_recente": "2026-04-15T17:21:42Z"
     },
     {
       "cnpj": "29689769000140",
@@ -130,11 +130,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.3904105,
       "longitude": -36.7592457,
-      "valor_minimo": 4.553704009239399,
-      "valor_maximo": 4.553704009239399,
-      "valor_medio": 4.553704009239399,
-      "valor_recente": 4.553704009239399,
-      "data_recente": "2026-04-15T08:24:34Z"
+      "valor_minimo": 4.95000495000495,
+      "valor_maximo": 4.95000495000495,
+      "valor_medio": 4.95000495000495,
+      "valor_recente": 4.95000495000495,
+      "data_recente": "2026-04-15T17:18:03Z"
     },
     {
       "cnpj": "25359544000175",
@@ -150,11 +150,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.490857100000001,
       "longitude": -36.5661638,
-      "valor_minimo": 4.98952409458246,
-      "valor_maximo": 4.98952409458246,
-      "valor_medio": 4.98952409458246,
-      "valor_recente": 4.98952409458246,
-      "data_recente": "2026-04-15T15:22:14Z"
+      "valor_minimo": 4.9897719902210245,
+      "valor_maximo": 4.9897719902210245,
+      "valor_medio": 4.9897719902210245,
+      "valor_recente": 4.9897719902210245,
+      "data_recente": "2026-04-15T17:32:03Z"
     },
     {
       "cnpj": "22727145000121",
@@ -174,7 +174,7 @@
       "valor_maximo": 4.990049751243781,
       "valor_medio": 4.990049751243781,
       "valor_recente": 4.990049751243781,
-      "data_recente": "2026-04-15T00:23:28Z"
+      "data_recente": "2026-04-15T17:24:01Z"
     },
     {
       "cnpj": "29689769000140",
@@ -190,11 +190,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.3904105,
       "longitude": -36.7592457,
-      "valor_minimo": 7.980022672341882,
-      "valor_maximo": 7.980022672341882,
-      "valor_medio": 7.980022672341882,
-      "valor_recente": 7.980022672341882,
-      "data_recente": "2026-04-15T14:22:30Z"
+      "valor_minimo": 7.97999019928128,
+      "valor_maximo": 7.97999019928128,
+      "valor_medio": 7.97999019928128,
+      "valor_recente": 7.97999019928128,
+      "data_recente": "2026-04-15T17:20:19Z"
     },
     {
       "cnpj": "25359544000175",
@@ -210,11 +210,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.490857100000001,
       "longitude": -36.5661638,
-      "valor_minimo": 8.399940003999733,
-      "valor_maximo": 8.399940003999733,
-      "valor_medio": 8.399940003999733,
-      "valor_recente": 8.399940003999733,
-      "data_recente": "2026-04-15T15:20:18Z"
+      "valor_minimo": 8.4,
+      "valor_maximo": 8.4,
+      "valor_medio": 8.4,
+      "valor_recente": 8.4,
+      "data_recente": "2026-04-15T15:43:15Z"
     },
     {
       "cnpj": "29689769000140",
@@ -230,11 +230,31 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.3904105,
       "longitude": -36.7592457,
-      "valor_minimo": 7.280033779356736,
-      "valor_maximo": 7.280033779356736,
-      "valor_medio": 7.280033779356736,
-      "valor_recente": 7.280033779356736,
-      "data_recente": "2026-04-15T14:18:44Z"
+      "valor_minimo": 7.280006988527168,
+      "valor_maximo": 7.280006988527168,
+      "valor_medio": 7.280006988527168,
+      "valor_recente": 7.280006988527168,
+      "data_recente": "2026-04-15T17:18:03Z"
+    },
+    {
+      "cnpj": "25359544000175",
+      "tipo_combustivel": 5,
+      "razao_social": "LFS COMERCIO DE COMBUSTIVEIS EIRELI - ME",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "ROD BR 316 POVOADO ALTO DA BOA VISTA",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57625000",
+      "codigo_ibge": 2702553,
+      "municipio": "ESTRELA DE ALAGOAS",
+      "latitude": -9.490857100000001,
+      "longitude": -36.5661638,
+      "valor_minimo": 7.32,
+      "valor_maximo": 7.32,
+      "valor_medio": 7.32,
+      "valor_recente": 7.32,
+      "data_recente": "2026-04-15T16:52:18Z"
     },
     {
       "cnpj": "22727145000121",
@@ -250,31 +270,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.3904417,
       "longitude": -36.7595025,
-      "valor_minimo": 7.319678127286028,
-      "valor_maximo": 7.989985884358271,
-      "valor_medio": 7.654832005822149,
-      "valor_recente": 7.989985884358271,
-      "data_recente": "2026-04-15T15:04:34Z"
-    },
-    {
-      "cnpj": "25359544000175",
-      "tipo_combustivel": 5,
-      "razao_social": "LFS COMERCIO DE COMBUSTIVEIS EIRELI - ME",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "ROD BR 316 POVOADO ALTO DA BOA VISTA",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57625000",
-      "codigo_ibge": 2702553,
-      "municipio": "ESTRELA DE ALAGOAS",
-      "latitude": -9.490857100000001,
-      "longitude": -36.5661638,
-      "valor_minimo": 7.319929728674604,
-      "valor_maximo": 7.319929728674604,
-      "valor_medio": 7.319929728674604,
-      "valor_recente": 7.319929728674604,
-      "data_recente": "2026-04-15T15:22:14Z"
+      "valor_minimo": 7.320023048112936,
+      "valor_maximo": 7.99,
+      "valor_medio": 7.655011524056468,
+      "valor_recente": 7.320023048112936,
+      "data_recente": "2026-04-15T17:34:55Z"
     }
   ]
 }

@@ -1,38 +1,38 @@
 {
   "codigoIBGE": "2706406",
   "municipio": "Pão de Açúcar",
-  "atualizadoEm": "2026-04-15T17:36:09.339Z",
+  "atualizadoEm": "2026-04-15T19:30:32.226Z",
   "totalEstabelecimentos": 17,
   "combustiveis": {
     "1": {
       "totalPostos": 5,
-      "valorMinimo": 6.800038080213249,
-      "valorMaximo": 6.98997995991984,
-      "valorMedio": 6.887912154849322
+      "valorMinimo": 6.802721088435374,
+      "valorMaximo": 6.9465648854961835,
+      "valorMedio": 6.859446235882203
     },
     "2": {
       "totalPostos": 4,
-      "valorMinimo": 6.948465547191661,
+      "valorMinimo": 6.944444444444445,
       "valorMaximo": 6.988120195667365,
-      "valorMedio": 6.959007609411103
+      "valorMedio": 6.957881309202106
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.692599620493358,
+      "valorMinimo": 5.693069306930693,
       "valorMaximo": 5.789717461787864,
-      "valorMedio": 5.741158541140612
+      "valorMedio": 5.741393384359279
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 5.690224194833276,
-      "valorMaximo": 5.690224194833276,
-      "valorMedio": 5.690224194833276
+      "valorMinimo": 5.691056910569106,
+      "valorMaximo": 5.691056910569106,
+      "valorMedio": 5.691056910569106
     },
     "5": {
       "totalPostos": 5,
-      "valorMinimo": 7.429972509101717,
-      "valorMaximo": 7.849471830985915,
-      "valorMedio": 7.549892956022449
+      "valorMinimo": 7.4296962879640045,
+      "valorMaximo": 7.85,
+      "valorMedio": 7.549912724425793
     }
   },
   "estabelecimentos": [
@@ -50,11 +50,31 @@
       "municipio": "PAO DE ACUCAR",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.800038080213249,
-      "valor_maximo": 6.800038080213249,
-      "valor_medio": 6.800038080213249,
-      "valor_recente": 6.800038080213249,
-      "data_recente": "2026-04-15T15:20:07Z"
+      "valor_minimo": 6.802721088435374,
+      "valor_maximo": 6.802721088435374,
+      "valor_medio": 6.802721088435374,
+      "valor_recente": 6.802721088435374,
+      "data_recente": "2026-04-15T15:38:30Z"
+    },
+    {
+      "cnpj": "12405197000128",
+      "tipo_combustivel": 1,
+      "razao_social": "JOSE GENTIL SANTOS",
+      "nome_fantasia": "POSTO TEXACO SAO FRANCISCO",
+      "telefone": "",
+      "nome_logradouro": "Rua CONEGO JASSON SOUTO",
+      "numero_imovel": "237",
+      "bairro": "CENTRO",
+      "cep": "57400000",
+      "codigo_ibge": 2706406,
+      "municipio": "PAO DE ACUCAR",
+      "latitude": -9.7471217,
+      "longitude": -37.4330454,
+      "valor_minimo": 6.8493150684931505,
+      "valor_maximo": 6.8493150684931505,
+      "valor_medio": 6.8493150684931505,
+      "valor_recente": 6.8493150684931505,
+      "data_recente": "2026-04-15T17:15:29Z"
     },
     {
       "cnpj": "18597376000190",
@@ -74,7 +94,7 @@
       "valor_maximo": 6.8493150684931505,
       "valor_medio": 6.8493150684931505,
       "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-15T13:56:46Z"
+      "data_recente": "2026-04-15T17:07:24Z"
     },
     {
       "cnpj": "37192386000190",
@@ -90,11 +110,11 @@
       "municipio": "PAO DE ACUCAR",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.850267379679145,
-      "valor_maximo": 6.850267379679145,
-      "valor_medio": 6.850267379679145,
-      "valor_recente": 6.850267379679145,
-      "data_recente": "2026-04-15T15:13:26Z"
+      "valor_minimo": 6.8493150684931505,
+      "valor_maximo": 6.8493150684931505,
+      "valor_medio": 6.8493150684931505,
+      "valor_recente": 6.8493150684931505,
+      "data_recente": "2026-04-15T17:30:39Z"
     },
     {
       "cnpj": "40477733000136",
@@ -110,15 +130,15 @@
       "municipio": "PAO DE ACUCAR",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.9499602859412235,
-      "valor_maximo": 6.9499602859412235,
-      "valor_medio": 6.9499602859412235,
-      "valor_recente": 6.9499602859412235,
-      "data_recente": "2026-04-15T15:31:18Z"
+      "valor_minimo": 6.9465648854961835,
+      "valor_maximo": 6.9465648854961835,
+      "valor_medio": 6.9465648854961835,
+      "valor_recente": 6.9465648854961835,
+      "data_recente": "2026-04-15T17:27:30Z"
     },
     {
       "cnpj": "12405197000128",
-      "tipo_combustivel": 1,
+      "tipo_combustivel": 2,
       "razao_social": "JOSE GENTIL SANTOS",
       "nome_fantasia": "POSTO TEXACO SAO FRANCISCO",
       "telefone": "",
@@ -130,11 +150,11 @@
       "municipio": "PAO DE ACUCAR",
       "latitude": -9.7471217,
       "longitude": -37.4330454,
-      "valor_minimo": 6.98997995991984,
-      "valor_maximo": 6.98997995991984,
-      "valor_medio": 6.98997995991984,
-      "valor_recente": 6.98997995991984,
-      "data_recente": "2026-04-15T15:28:52Z"
+      "valor_minimo": 6.944444444444445,
+      "valor_maximo": 6.944444444444445,
+      "valor_medio": 6.944444444444445,
+      "valor_recente": 6.944444444444445,
+      "data_recente": "2026-04-15T17:14:16Z"
     },
     {
       "cnpj": "18597376000190",
@@ -170,31 +190,11 @@
       "municipio": "PAO DE ACUCAR",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.949369402303052,
-      "valor_maximo": 6.949369402303052,
-      "valor_medio": 6.949369402303052,
-      "valor_recente": 6.949369402303052,
-      "data_recente": "2026-04-15T14:54:52Z"
-    },
-    {
-      "cnpj": "12405197000128",
-      "tipo_combustivel": 2,
-      "razao_social": "JOSE GENTIL SANTOS",
-      "nome_fantasia": "POSTO TEXACO SAO FRANCISCO",
-      "telefone": "",
-      "nome_logradouro": "Rua CONEGO JASSON SOUTO",
-      "numero_imovel": "237",
-      "bairro": "CENTRO",
-      "cep": "57400000",
-      "codigo_ibge": 2706406,
-      "municipio": "PAO DE ACUCAR",
-      "latitude": -9.7471217,
-      "longitude": -37.4330454,
-      "valor_minimo": 6.950075292482335,
-      "valor_maximo": 6.950075292482335,
-      "valor_medio": 6.950075292482335,
-      "valor_recente": 6.950075292482335,
-      "data_recente": "2026-04-15T14:38:27Z"
+      "valor_minimo": 6.9504950495049505,
+      "valor_maximo": 6.9504950495049505,
+      "valor_medio": 6.9504950495049505,
+      "valor_recente": 6.9504950495049505,
+      "data_recente": "2026-04-15T17:30:39Z"
     },
     {
       "cnpj": "40477733000136",
@@ -214,7 +214,7 @@
       "valor_maximo": 6.988120195667365,
       "valor_medio": 6.988120195667365,
       "valor_recente": 6.988120195667365,
-      "data_recente": "2026-04-15T15:31:18Z"
+      "data_recente": "2026-04-15T17:27:46Z"
     },
     {
       "cnpj": "12405197000128",
@@ -230,11 +230,11 @@
       "municipio": "PAO DE ACUCAR",
       "latitude": -9.7471217,
       "longitude": -37.4330454,
-      "valor_minimo": 5.692599620493358,
-      "valor_maximo": 5.692599620493358,
-      "valor_medio": 5.692599620493358,
-      "valor_recente": 5.692599620493358,
-      "data_recente": "2026-04-15T14:17:30Z"
+      "valor_minimo": 5.693069306930693,
+      "valor_maximo": 5.693069306930693,
+      "valor_medio": 5.693069306930693,
+      "valor_recente": 5.693069306930693,
+      "data_recente": "2026-04-15T17:14:16Z"
     },
     {
       "cnpj": "40477733000136",
@@ -270,11 +270,11 @@
       "municipio": "PAO DE ACUCAR",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.690224194833276,
-      "valor_maximo": 5.690224194833276,
-      "valor_medio": 5.690224194833276,
-      "valor_recente": 5.690224194833276,
-      "data_recente": "2026-04-15T14:07:53Z"
+      "valor_minimo": 5.691056910569106,
+      "valor_maximo": 5.691056910569106,
+      "valor_medio": 5.691056910569106,
+      "valor_recente": 5.691056910569106,
+      "data_recente": "2026-04-15T17:28:57Z"
     },
     {
       "cnpj": "43375706000140",
@@ -290,11 +290,11 @@
       "municipio": "PAO DE ACUCAR",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.429972509101717,
-      "valor_maximo": 7.429972509101717,
-      "valor_medio": 7.429972509101717,
-      "valor_recente": 7.429972509101717,
-      "data_recente": "2026-04-15T14:36:57Z"
+      "valor_minimo": 7.4296962879640045,
+      "valor_maximo": 7.4296962879640045,
+      "valor_medio": 7.4296962879640045,
+      "valor_recente": 7.4296962879640045,
+      "data_recente": "2026-04-15T15:38:11Z"
     },
     {
       "cnpj": "18597376000190",
@@ -330,11 +330,11 @@
       "municipio": "PAO DE ACUCAR",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.51,
-      "valor_maximo": 7.51,
-      "valor_medio": 7.51,
-      "valor_recente": 7.51,
-      "data_recente": "2026-04-15T14:43:46Z"
+      "valor_minimo": 7.509762691498949,
+      "valor_maximo": 7.509762691498949,
+      "valor_medio": 7.509762691498949,
+      "valor_recente": 7.509762691498949,
+      "data_recente": "2026-04-15T17:28:57Z"
     },
     {
       "cnpj": "12405197000128",
@@ -350,11 +350,11 @@
       "municipio": "PAO DE ACUCAR",
       "latitude": -9.7471217,
       "longitude": -37.4330454,
-      "valor_minimo": 7.51001001001001,
-      "valor_maximo": 7.51001001001001,
-      "valor_medio": 7.51001001001001,
-      "valor_recente": 7.51001001001001,
-      "data_recente": "2026-04-15T14:38:58Z"
+      "valor_minimo": 7.510094212651413,
+      "valor_maximo": 7.510094212651413,
+      "valor_medio": 7.510094212651413,
+      "valor_recente": 7.510094212651413,
+      "data_recente": "2026-04-15T16:53:04Z"
     },
     {
       "cnpj": "40477733000136",
@@ -370,11 +370,11 @@
       "municipio": "PAO DE ACUCAR",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.849471830985915,
-      "valor_maximo": 7.849471830985915,
-      "valor_medio": 7.849471830985915,
-      "valor_recente": 7.849471830985915,
-      "data_recente": "2026-04-15T15:31:18Z"
+      "valor_minimo": 7.85,
+      "valor_maximo": 7.85,
+      "valor_medio": 7.85,
+      "valor_recente": 7.85,
+      "data_recente": "2026-04-15T17:20:52Z"
     }
   ]
 }

@@ -1,55 +1,35 @@
 {
   "codigoIBGE": "2709152",
   "municipio": "Teotônio Vilela",
-  "atualizadoEm": "2026-04-15T17:47:49.333Z",
+  "atualizadoEm": "2026-04-15T19:43:07.312Z",
   "totalEstabelecimentos": 24,
   "combustiveis": {
     "1": {
       "totalPostos": 6,
-      "valorMinimo": 6.789592760180995,
+      "valorMinimo": 6.789909638554217,
       "valorMaximo": 6.89,
-      "valorMedio": 6.824965750204686
+      "valorMedio": 6.825248058047812
     },
     "2": {
       "totalPostos": 6,
       "valorMinimo": 6.097295617034504,
-      "valorMaximo": 6.990029910269192,
-      "valorMedio": 6.769403762123673
+      "valorMaximo": 6.986666666666666,
+      "valorMedio": 6.7680335111249725
     },
     "3": {
       "totalPostos": 6,
-      "valorMinimo": 4.789924433249371,
-      "valorMaximo": 5.220024012110455,
-      "valorMedio": 5.053275398785401
+      "valorMinimo": 4.990019960079841,
+      "valorMaximo": 5.2200282087447105,
+      "valorMedio": 5.1031254087542
     },
     "5": {
       "totalPostos": 6,
-      "valorMinimo": 6.980023173676937,
+      "valorMinimo": 6.829994383074331,
       "valorMaximo": 7.389890629618682,
-      "valorMedio": 7.156679660518326
+      "valorMedio": 7.148285766450978
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "56412726000196",
-      "tipo_combustivel": 1,
-      "razao_social": "SANTO ANTONIO AUTO POSTO LTDA",
-      "nome_fantasia": "SANTO ANTONIO AUTO POSTO",
-      "telefone": "",
-      "nome_logradouro": "Rua Angêla Maria da Conceição",
-      "numero_imovel": "2397",
-      "bairro": "São Miguel",
-      "cep": "57266170",
-      "codigo_ibge": 2709152,
-      "municipio": "TEOTONIO VILELA",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.789592760180995,
-      "valor_maximo": 6.789592760180995,
-      "valor_medio": 6.789592760180995,
-      "valor_recente": 6.789592760180995,
-      "data_recente": "2026-04-15T16:40:53Z"
-    },
     {
       "cnpj": "59996494000159",
       "tipo_combustivel": 1,
@@ -64,11 +44,31 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.790257104194858,
-      "valor_maximo": 6.790257104194858,
-      "valor_medio": 6.790257104194858,
-      "valor_recente": 6.790257104194858,
-      "data_recente": "2026-04-15T17:14:37Z"
+      "valor_minimo": 6.789909638554217,
+      "valor_maximo": 6.789909638554217,
+      "valor_medio": 6.789909638554217,
+      "valor_recente": 6.789909638554217,
+      "data_recente": "2026-04-15T17:58:32Z"
+    },
+    {
+      "cnpj": "56412726000196",
+      "tipo_combustivel": 1,
+      "razao_social": "SANTO ANTONIO AUTO POSTO LTDA",
+      "nome_fantasia": "SANTO ANTONIO AUTO POSTO",
+      "telefone": "",
+      "nome_logradouro": "Rua Angêla Maria da Conceição",
+      "numero_imovel": "2397",
+      "bairro": "São Miguel",
+      "cep": "57266170",
+      "codigo_ibge": 2709152,
+      "municipio": "TEOTONIO VILELA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.79054054054054,
+      "valor_maximo": 6.79054054054054,
+      "valor_medio": 6.79054054054054,
+      "valor_recente": 6.79054054054054,
+      "data_recente": "2026-04-15T19:31:05Z"
     },
     {
       "cnpj": "09088674000164",
@@ -84,11 +84,11 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.800054075976747,
-      "valor_maximo": 6.800054075976747,
-      "valor_medio": 6.800054075976747,
-      "valor_recente": 6.800054075976747,
-      "data_recente": "2026-04-15T17:35:40Z"
+      "valor_minimo": 6.800884955752212,
+      "valor_maximo": 6.800884955752212,
+      "valor_medio": 6.800884955752212,
+      "valor_recente": 6.800884955752212,
+      "data_recente": "2026-04-15T19:25:46Z"
     },
     {
       "cnpj": "50598305000115",
@@ -104,11 +104,11 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.839945280437757,
-      "valor_maximo": 6.839945280437757,
-      "valor_medio": 6.839945280437757,
-      "valor_recente": 6.839945280437757,
-      "data_recente": "2026-04-15T16:53:07Z"
+      "valor_minimo": 6.839989279013669,
+      "valor_maximo": 6.839989279013669,
+      "valor_medio": 6.839989279013669,
+      "valor_recente": 6.839989279013669,
+      "data_recente": "2026-04-15T17:48:46Z"
     },
     {
       "cnpj": "10635075000283",
@@ -124,11 +124,11 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": -9.9019742,
       "longitude": -36.3601623,
-      "valor_minimo": 6.839945280437757,
-      "valor_maximo": 6.839945280437757,
-      "valor_medio": 6.839945280437757,
-      "valor_recente": 6.839945280437757,
-      "data_recente": "2026-04-15T17:33:44Z"
+      "valor_minimo": 6.840163934426229,
+      "valor_maximo": 6.840163934426229,
+      "valor_medio": 6.840163934426229,
+      "valor_recente": 6.840163934426229,
+      "data_recente": "2026-04-15T18:00:54Z"
     },
     {
       "cnpj": "10635075000100",
@@ -148,7 +148,7 @@
       "valor_maximo": 6.89,
       "valor_medio": 6.89,
       "valor_recente": 6.89,
-      "data_recente": "2026-04-15T17:32:07Z"
+      "data_recente": "2026-04-15T19:10:09Z"
     },
     {
       "cnpj": "59996494000159",
@@ -184,31 +184,11 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.790115075189246,
-      "valor_maximo": 6.790115075189246,
-      "valor_medio": 6.790115075189246,
-      "valor_recente": 6.790115075189246,
-      "data_recente": "2026-04-15T16:22:31Z"
-    },
-    {
-      "cnpj": "09088674000164",
-      "tipo_combustivel": 2,
-      "razao_social": "MARIA JOSINEIDE DUARTE COSTA - ME",
-      "nome_fantasia": "POSTO DUARTE",
-      "telefone": "",
-      "nome_logradouro": "Rua FRANCISCO TIMOTEO",
-      "numero_imovel": "1219",
-      "bairro": "INHUMAS",
-      "cep": "57267440",
-      "codigo_ibge": 2709152,
-      "municipio": "TEOTONIO VILELA",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.9,
-      "valor_maximo": 6.9,
-      "valor_medio": 6.9,
-      "valor_recente": 6.9,
-      "data_recente": "2026-04-15T16:39:45Z"
+      "valor_minimo": 6.788783355947535,
+      "valor_maximo": 6.788783355947535,
+      "valor_medio": 6.788783355947535,
+      "valor_recente": 6.788783355947535,
+      "data_recente": "2026-04-15T18:17:49Z"
     },
     {
       "cnpj": "10635075000100",
@@ -224,11 +204,31 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": -9.914451099999999,
       "longitude": -36.3562508,
-      "valor_minimo": 6.900009660013524,
-      "valor_maximo": 6.900009660013524,
-      "valor_medio": 6.900009660013524,
-      "valor_recente": 6.900009660013524,
-      "data_recente": "2026-04-15T16:47:49Z"
+      "valor_minimo": 6.896551724137931,
+      "valor_maximo": 6.896551724137931,
+      "valor_medio": 6.896551724137931,
+      "valor_recente": 6.896551724137931,
+      "data_recente": "2026-04-15T17:52:36Z"
+    },
+    {
+      "cnpj": "09088674000164",
+      "tipo_combustivel": 2,
+      "razao_social": "MARIA JOSINEIDE DUARTE COSTA - ME",
+      "nome_fantasia": "POSTO DUARTE",
+      "telefone": "",
+      "nome_logradouro": "Rua FRANCISCO TIMOTEO",
+      "numero_imovel": "1219",
+      "bairro": "INHUMAS",
+      "cep": "57267440",
+      "codigo_ibge": 2709152,
+      "municipio": "TEOTONIO VILELA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.89993139272763,
+      "valor_maximo": 6.89993139272763,
+      "valor_medio": 6.89993139272763,
+      "valor_recente": 6.89993139272763,
+      "data_recente": "2026-04-15T18:56:19Z"
     },
     {
       "cnpj": "50598305000115",
@@ -264,31 +264,11 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": -9.9019742,
       "longitude": -36.3601623,
-      "valor_minimo": 6.990029910269192,
-      "valor_maximo": 6.990029910269192,
-      "valor_medio": 6.990029910269192,
-      "valor_recente": 6.990029910269192,
-      "data_recente": "2026-04-15T17:10:24Z"
-    },
-    {
-      "cnpj": "10635075000283",
-      "tipo_combustivel": 3,
-      "razao_social": "SANTANA & BULHOES AUTO POSTO LTDA",
-      "nome_fantasia": "AUTO POSTO 101",
-      "telefone": "(82) 30241100",
-      "nome_logradouro": "ROD BR 101 SUL",
-      "numero_imovel": "1455",
-      "bairro": "SAO MIGUEL",
-      "cep": "57265000",
-      "codigo_ibge": 2709152,
-      "municipio": "TEOTONIO VILELA",
-      "latitude": -9.9019742,
-      "longitude": -36.3601623,
-      "valor_minimo": 4.789924433249371,
-      "valor_maximo": 4.789924433249371,
-      "valor_medio": 4.789924433249371,
-      "valor_recente": 4.789924433249371,
-      "data_recente": "2026-04-15T16:49:20Z"
+      "valor_minimo": 6.986666666666666,
+      "valor_maximo": 6.986666666666666,
+      "valor_medio": 6.986666666666666,
+      "valor_recente": 6.986666666666666,
+      "data_recente": "2026-04-15T18:01:22Z"
     },
     {
       "cnpj": "56412726000196",
@@ -331,6 +311,46 @@
       "data_recente": "2026-04-15T16:18:56Z"
     },
     {
+      "cnpj": "10635075000283",
+      "tipo_combustivel": 3,
+      "razao_social": "SANTANA & BULHOES AUTO POSTO LTDA",
+      "nome_fantasia": "AUTO POSTO 101",
+      "telefone": "(82) 30241100",
+      "nome_logradouro": "ROD BR 101 SUL",
+      "numero_imovel": "1455",
+      "bairro": "SAO MIGUEL",
+      "cep": "57265000",
+      "codigo_ibge": 2709152,
+      "municipio": "TEOTONIO VILELA",
+      "latitude": -9.9019742,
+      "longitude": -36.3601623,
+      "valor_minimo": 5.090269636576788,
+      "valor_maximo": 5.090269636576788,
+      "valor_medio": 5.090269636576788,
+      "valor_recente": 5.090269636576788,
+      "data_recente": "2026-04-15T17:57:27Z"
+    },
+    {
+      "cnpj": "09088674000164",
+      "tipo_combustivel": 3,
+      "razao_social": "MARIA JOSINEIDE DUARTE COSTA - ME",
+      "nome_fantasia": "POSTO DUARTE",
+      "telefone": "",
+      "nome_logradouro": "Rua FRANCISCO TIMOTEO",
+      "numero_imovel": "1219",
+      "bairro": "INHUMAS",
+      "cep": "57267440",
+      "codigo_ibge": 2709152,
+      "municipio": "TEOTONIO VILELA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 5.138817480719794,
+      "valor_maximo": 5.138817480719794,
+      "valor_medio": 5.138817480719794,
+      "valor_recente": 5.138817480719794,
+      "data_recente": "2026-04-15T19:21:17Z"
+    },
+    {
       "cnpj": "50598305000115",
       "tipo_combustivel": 3,
       "razao_social": "SANTANA AUTO POSTO LTDA",
@@ -351,26 +371,6 @@
       "data_recente": "2026-04-15T16:49:11Z"
     },
     {
-      "cnpj": "09088674000164",
-      "tipo_combustivel": 3,
-      "razao_social": "MARIA JOSINEIDE DUARTE COSTA - ME",
-      "nome_fantasia": "POSTO DUARTE",
-      "telefone": "",
-      "nome_logradouro": "Rua FRANCISCO TIMOTEO",
-      "numero_imovel": "1219",
-      "bairro": "INHUMAS",
-      "cep": "57267440",
-      "codigo_ibge": 2709152,
-      "municipio": "TEOTONIO VILELA",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 5.140066820868672,
-      "valor_maximo": 5.140066820868672,
-      "valor_medio": 5.140066820868672,
-      "valor_recente": 5.140066820868672,
-      "data_recente": "2026-04-15T16:36:46Z"
-    },
-    {
       "cnpj": "10635075000100",
       "tipo_combustivel": 3,
       "razao_social": "SANTANA & BULHOES AUTO POSTO LTDA",
@@ -384,11 +384,11 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": -9.914451099999999,
       "longitude": -36.3562508,
-      "valor_minimo": 5.220024012110455,
-      "valor_maximo": 5.220024012110455,
-      "valor_medio": 5.220024012110455,
-      "valor_recente": 5.220024012110455,
-      "data_recente": "2026-04-15T17:29:07Z"
+      "valor_minimo": 5.2200282087447105,
+      "valor_maximo": 5.2200282087447105,
+      "valor_medio": 5.2200282087447105,
+      "valor_recente": 5.2200282087447105,
+      "data_recente": "2026-04-15T19:25:38Z"
     },
     {
       "cnpj": "59996494000159",
@@ -405,10 +405,10 @@
       "latitude": 0,
       "longitude": 0,
       "valor_minimo": 6.749985167103177,
-      "valor_maximo": 7.289806234203875,
-      "valor_medio": 7.019895700653526,
-      "valor_recente": 7.289806234203875,
-      "data_recente": "2026-04-15T15:47:13Z"
+      "valor_maximo": 7.289983706371666,
+      "valor_medio": 7.019984436737422,
+      "valor_recente": 7.289983706371666,
+      "data_recente": "2026-04-15T18:53:33Z"
     },
     {
       "cnpj": "09088674000164",
@@ -424,31 +424,11 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.980023173676937,
-      "valor_maximo": 6.980023173676937,
-      "valor_medio": 6.980023173676937,
-      "valor_recente": 6.980023173676937,
-      "data_recente": "2026-04-15T16:45:56Z"
-    },
-    {
-      "cnpj": "56412726000196",
-      "tipo_combustivel": 5,
-      "razao_social": "SANTO ANTONIO AUTO POSTO LTDA",
-      "nome_fantasia": "SANTO ANTONIO AUTO POSTO",
-      "telefone": "",
-      "nome_logradouro": "Rua Angêla Maria da Conceição",
-      "numero_imovel": "2397",
-      "bairro": "São Miguel",
-      "cep": "57266170",
-      "codigo_ibge": 2709152,
-      "municipio": "TEOTONIO VILELA",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.0005950505792995,
-      "valor_maximo": 7.0005950505792995,
-      "valor_medio": 7.0005950505792995,
-      "valor_recente": 7.0005950505792995,
-      "data_recente": "2026-04-15T17:04:13Z"
+      "valor_minimo": 6.829994383074331,
+      "valor_maximo": 6.829994383074331,
+      "valor_medio": 6.829994383074331,
+      "valor_recente": 6.829994383074331,
+      "data_recente": "2026-04-15T17:50:38Z"
     },
     {
       "cnpj": "10635075000283",
@@ -464,11 +444,31 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": -9.9019742,
       "longitude": -36.3601623,
-      "valor_minimo": 7.089792060491494,
-      "valor_maximo": 7.089792060491494,
-      "valor_medio": 7.089792060491494,
-      "valor_recente": 7.089792060491494,
-      "data_recente": "2026-04-15T16:45:09Z"
+      "valor_minimo": 7.089739466066259,
+      "valor_maximo": 7.089739466066259,
+      "valor_medio": 7.089739466066259,
+      "valor_recente": 7.089739466066259,
+      "data_recente": "2026-04-15T17:51:36Z"
+    },
+    {
+      "cnpj": "56412726000196",
+      "tipo_combustivel": 5,
+      "razao_social": "SANTO ANTONIO AUTO POSTO LTDA",
+      "nome_fantasia": "SANTO ANTONIO AUTO POSTO",
+      "telefone": "",
+      "nome_logradouro": "Rua Angêla Maria da Conceição",
+      "numero_imovel": "2397",
+      "bairro": "São Miguel",
+      "cep": "57266170",
+      "codigo_ibge": 2709152,
+      "municipio": "TEOTONIO VILELA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.1,
+      "valor_maximo": 7.1,
+      "valor_medio": 7.1,
+      "valor_recente": 7.1,
+      "data_recente": "2026-04-15T19:13:44Z"
     },
     {
       "cnpj": "10635075000100",
@@ -484,11 +484,11 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": -9.914451099999999,
       "longitude": -36.3562508,
-      "valor_minimo": 7.189970814539666,
-      "valor_maximo": 7.189970814539666,
-      "valor_medio": 7.189970814539666,
-      "valor_recente": 7.189970814539666,
-      "data_recente": "2026-04-15T16:18:29Z"
+      "valor_minimo": 7.190106413574921,
+      "valor_maximo": 7.190106413574921,
+      "valor_medio": 7.190106413574921,
+      "valor_recente": 7.190106413574921,
+      "data_recente": "2026-04-15T19:17:07Z"
     },
     {
       "cnpj": "50598305000115",

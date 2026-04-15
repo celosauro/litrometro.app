@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2702108",
   "municipio": "Colônia Leopoldina",
-  "atualizadoEm": "2026-04-15T17:14:45.190Z",
+  "atualizadoEm": "2026-04-15T19:10:53.225Z",
   "totalEstabelecimentos": 7,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
       "valorMinimo": 6.8493150684931505,
-      "valorMaximo": 6.849985321460025,
-      "valorMedio": 6.849650194976588
+      "valorMaximo": 6.9,
+      "valorMedio": 6.874657534246575
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 6.845965770171149,
-      "valorMaximo": 6.845965770171149,
-      "valorMedio": 6.845965770171149
+      "valorMinimo": 6.846808510638298,
+      "valorMaximo": 6.846808510638298,
+      "valorMedio": 6.846808510638298
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.448997384481255,
-      "valorMaximo": 5.599626691553897,
-      "valorMedio": 5.524312038017576
+      "valorMinimo": 5.44464609800363,
+      "valorMaximo": 5.600107522064423,
+      "valorMedio": 5.522376810034027
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.449185910396936,
-      "valorMaximo": 7.449980455789177,
-      "valorMedio": 7.449583183093056
+      "valorMinimo": 7.149965478656286,
+      "valorMaximo": 7.449899426357744,
+      "valorMedio": 7.299932452507015
     }
   },
   "estabelecimentos": [
@@ -48,7 +48,7 @@
       "valor_maximo": 6.8493150684931505,
       "valor_medio": 6.8493150684931505,
       "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-15T15:31:28Z"
+      "data_recente": "2026-04-15T16:24:59Z"
     },
     {
       "cnpj": "08560691000190",
@@ -64,11 +64,11 @@
       "municipio": "COLONIA LEOPOLDINA",
       "latitude": -8.911863499999999,
       "longitude": -35.7187274,
-      "valor_minimo": 6.849985321460025,
-      "valor_maximo": 6.849985321460025,
-      "valor_medio": 6.849985321460025,
-      "valor_recente": 6.849985321460025,
-      "data_recente": "2026-04-15T15:36:13Z"
+      "valor_minimo": 6.9,
+      "valor_maximo": 6.9,
+      "valor_medio": 6.9,
+      "valor_recente": 6.9,
+      "data_recente": "2026-04-15T17:35:10Z"
     },
     {
       "cnpj": "14341647000272",
@@ -84,11 +84,11 @@
       "municipio": "COLONIA LEOPOLDINA",
       "latitude": -8.982249399999999,
       "longitude": -35.784354,
-      "valor_minimo": 6.845965770171149,
-      "valor_maximo": 6.845965770171149,
-      "valor_medio": 6.845965770171149,
-      "valor_recente": 6.845965770171149,
-      "data_recente": "2026-04-15T15:31:28Z"
+      "valor_minimo": 6.846808510638298,
+      "valor_maximo": 6.846808510638298,
+      "valor_medio": 6.846808510638298,
+      "valor_recente": 6.846808510638298,
+      "data_recente": "2026-04-15T16:24:59Z"
     },
     {
       "cnpj": "14341647000272",
@@ -104,11 +104,11 @@
       "municipio": "COLONIA LEOPOLDINA",
       "latitude": -8.982249399999999,
       "longitude": -35.784354,
-      "valor_minimo": 5.448997384481255,
-      "valor_maximo": 5.448997384481255,
-      "valor_medio": 5.448997384481255,
-      "valor_recente": 5.448997384481255,
-      "data_recente": "2026-04-15T15:31:28Z"
+      "valor_minimo": 5.44464609800363,
+      "valor_maximo": 5.44464609800363,
+      "valor_medio": 5.44464609800363,
+      "valor_recente": 5.44464609800363,
+      "data_recente": "2026-04-15T16:14:41Z"
     },
     {
       "cnpj": "08560691000190",
@@ -124,31 +124,11 @@
       "municipio": "COLONIA LEOPOLDINA",
       "latitude": -8.911863499999999,
       "longitude": -35.7187274,
-      "valor_minimo": 5.599626691553897,
-      "valor_maximo": 5.599626691553897,
-      "valor_medio": 5.599626691553897,
-      "valor_recente": 5.599626691553897,
-      "data_recente": "2026-04-15T00:06:43Z"
-    },
-    {
-      "cnpj": "14341647000272",
-      "tipo_combustivel": 5,
-      "razao_social": "ANDRESSA PEREIRA ALVES - EPP",
-      "nome_fantasia": "AUTO POSTO CASTELIANO",
-      "telefone": "(82) 88200083",
-      "nome_logradouro": "LOT JARDIM 2",
-      "numero_imovel": "SN",
-      "bairro": "LOTEAMENTO JARDIM",
-      "cep": "57975000",
-      "codigo_ibge": 2702108,
-      "municipio": "COLONIA LEOPOLDINA",
-      "latitude": -8.982249399999999,
-      "longitude": -35.784354,
-      "valor_minimo": 7.449185910396936,
-      "valor_maximo": 7.449185910396936,
-      "valor_medio": 7.449185910396936,
-      "valor_recente": 7.449185910396936,
-      "data_recente": "2026-04-15T15:31:28Z"
+      "valor_minimo": 5.600107522064423,
+      "valor_maximo": 5.600107522064423,
+      "valor_medio": 5.600107522064423,
+      "valor_recente": 5.600107522064423,
+      "data_recente": "2026-04-15T15:46:32Z"
     },
     {
       "cnpj": "08560691000190",
@@ -164,11 +144,31 @@
       "municipio": "COLONIA LEOPOLDINA",
       "latitude": -8.911863499999999,
       "longitude": -35.7187274,
-      "valor_minimo": 7.449980455789177,
-      "valor_maximo": 7.449980455789177,
-      "valor_medio": 7.449980455789177,
-      "valor_recente": 7.449980455789177,
-      "data_recente": "2026-04-15T14:49:11Z"
+      "valor_minimo": 7.149965478656286,
+      "valor_maximo": 7.149965478656286,
+      "valor_medio": 7.149965478656286,
+      "valor_recente": 7.149965478656286,
+      "data_recente": "2026-04-15T17:11:08Z"
+    },
+    {
+      "cnpj": "14341647000272",
+      "tipo_combustivel": 5,
+      "razao_social": "ANDRESSA PEREIRA ALVES - EPP",
+      "nome_fantasia": "AUTO POSTO CASTELIANO",
+      "telefone": "(82) 88200083",
+      "nome_logradouro": "LOT JARDIM 2",
+      "numero_imovel": "SN",
+      "bairro": "LOTEAMENTO JARDIM",
+      "cep": "57975000",
+      "codigo_ibge": 2702108,
+      "municipio": "COLONIA LEOPOLDINA",
+      "latitude": -8.982249399999999,
+      "longitude": -35.784354,
+      "valor_minimo": 7.449899426357744,
+      "valor_maximo": 7.449899426357744,
+      "valor_medio": 7.449899426357744,
+      "valor_recente": 7.449899426357744,
+      "data_recente": "2026-04-15T16:14:41Z"
     }
   ]
 }

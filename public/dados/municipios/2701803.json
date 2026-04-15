@@ -1,55 +1,35 @@
 {
   "codigoIBGE": "2701803",
   "municipio": "Carneiros",
-  "atualizadoEm": "2026-04-15T17:13:20.205Z",
+  "atualizadoEm": "2026-04-15T19:09:25.993Z",
   "totalEstabelecimentos": 6,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.988120195667365,
-      "valorMaximo": 6.990074094785404,
-      "valorMedio": 6.989097145226385
+      "valorMinimo": 6.990562740300594,
+      "valorMaximo": 6.992153443766347,
+      "valorMedio": 6.991358092033471
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.050335570469799,
-      "valorMaximo": 7.050335570469799,
-      "valorMedio": 7.050335570469799
+      "valorMinimo": 7.05123191239734,
+      "valorMaximo": 7.05123191239734,
+      "valorMedio": 7.05123191239734
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.65,
-      "valorMaximo": 5.65,
-      "valorMedio": 5.65
+      "valorMinimo": 5.1894135962636225,
+      "valorMaximo": 5.1894135962636225,
+      "valorMedio": 5.1894135962636225
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.800467653936087,
-      "valorMaximo": 7.889967637540453,
-      "valorMedio": 7.84521764573827
+      "valorMinimo": 7.470024979184013,
+      "valorMaximo": 7.7999378903419485,
+      "valorMedio": 7.634981434762981
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "00994685000139",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO CARNEIROS LTDA.",
-      "nome_fantasia": "AUTO POSTO CARNEIROS",
-      "telefone": "(82) 36213443",
-      "nome_logradouro": "Rua TIRADENTES",
-      "numero_imovel": "210",
-      "bairro": "CENTRO",
-      "cep": "57535000",
-      "codigo_ibge": 2701803,
-      "municipio": "CARNEIROS",
-      "latitude": -9.4828391,
-      "longitude": -37.376628,
-      "valor_minimo": 6.988120195667365,
-      "valor_maximo": 6.988120195667365,
-      "valor_medio": 6.988120195667365,
-      "valor_recente": 6.988120195667365,
-      "data_recente": "2026-04-15T15:24:08Z"
-    },
     {
       "cnpj": "36996902000177",
       "tipo_combustivel": 1,
@@ -64,11 +44,31 @@
       "municipio": "CARNEIROS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.990074094785404,
-      "valor_maximo": 6.990074094785404,
-      "valor_medio": 6.990074094785404,
-      "valor_recente": 6.990074094785404,
-      "data_recente": "2026-04-15T15:33:42Z"
+      "valor_minimo": 6.990562740300594,
+      "valor_maximo": 6.990562740300594,
+      "valor_medio": 6.990562740300594,
+      "valor_recente": 6.990562740300594,
+      "data_recente": "2026-04-15T17:30:01Z"
+    },
+    {
+      "cnpj": "00994685000139",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO CARNEIROS LTDA.",
+      "nome_fantasia": "AUTO POSTO CARNEIROS",
+      "telefone": "(82) 36213443",
+      "nome_logradouro": "Rua TIRADENTES",
+      "numero_imovel": "210",
+      "bairro": "CENTRO",
+      "cep": "57535000",
+      "codigo_ibge": 2701803,
+      "municipio": "CARNEIROS",
+      "latitude": -9.4828391,
+      "longitude": -37.376628,
+      "valor_minimo": 6.992153443766347,
+      "valor_maximo": 6.992153443766347,
+      "valor_medio": 6.992153443766347,
+      "valor_recente": 6.992153443766347,
+      "data_recente": "2026-04-15T15:59:06Z"
     },
     {
       "cnpj": "00994685000139",
@@ -84,11 +84,11 @@
       "municipio": "CARNEIROS",
       "latitude": -9.4828391,
       "longitude": -37.376628,
-      "valor_minimo": 7.050335570469799,
-      "valor_maximo": 7.050335570469799,
-      "valor_medio": 7.050335570469799,
-      "valor_recente": 7.050335570469799,
-      "data_recente": "2026-04-15T15:24:28Z"
+      "valor_minimo": 7.05123191239734,
+      "valor_maximo": 7.05123191239734,
+      "valor_medio": 7.05123191239734,
+      "valor_recente": 7.05123191239734,
+      "data_recente": "2026-04-15T15:59:06Z"
     },
     {
       "cnpj": "36996902000177",
@@ -104,31 +104,11 @@
       "municipio": "CARNEIROS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.65,
-      "valor_maximo": 5.65,
-      "valor_medio": 5.65,
-      "valor_recente": 5.65,
-      "data_recente": "2026-04-15T10:25:04Z"
-    },
-    {
-      "cnpj": "00994685000139",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO CARNEIROS LTDA.",
-      "nome_fantasia": "AUTO POSTO CARNEIROS",
-      "telefone": "(82) 36213443",
-      "nome_logradouro": "Rua TIRADENTES",
-      "numero_imovel": "210",
-      "bairro": "CENTRO",
-      "cep": "57535000",
-      "codigo_ibge": 2701803,
-      "municipio": "CARNEIROS",
-      "latitude": -9.4828391,
-      "longitude": -37.376628,
-      "valor_minimo": 7.800467653936087,
-      "valor_maximo": 7.800467653936087,
-      "valor_medio": 7.800467653936087,
-      "valor_recente": 7.800467653936087,
-      "data_recente": "2026-04-14T20:41:07Z"
+      "valor_minimo": 5.1894135962636225,
+      "valor_maximo": 5.1894135962636225,
+      "valor_medio": 5.1894135962636225,
+      "valor_recente": 5.1894135962636225,
+      "data_recente": "2026-04-15T16:02:50Z"
     },
     {
       "cnpj": "36996902000177",
@@ -144,11 +124,31 @@
       "municipio": "CARNEIROS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.889967637540453,
-      "valor_maximo": 7.99,
-      "valor_medio": 7.9399838187702265,
-      "valor_recente": 7.889967637540453,
-      "data_recente": "2026-04-15T15:23:11Z"
+      "valor_minimo": 7.470024979184013,
+      "valor_maximo": 8.3500334001336,
+      "valor_medio": 7.9100291896588075,
+      "valor_recente": 7.470024979184013,
+      "data_recente": "2026-04-15T17:34:30Z"
+    },
+    {
+      "cnpj": "00994685000139",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO CARNEIROS LTDA.",
+      "nome_fantasia": "AUTO POSTO CARNEIROS",
+      "telefone": "(82) 36213443",
+      "nome_logradouro": "Rua TIRADENTES",
+      "numero_imovel": "210",
+      "bairro": "CENTRO",
+      "cep": "57535000",
+      "codigo_ibge": 2701803,
+      "municipio": "CARNEIROS",
+      "latitude": -9.4828391,
+      "longitude": -37.376628,
+      "valor_minimo": 7.7999378903419485,
+      "valor_maximo": 7.7999378903419485,
+      "valor_medio": 7.7999378903419485,
+      "valor_recente": 7.7999378903419485,
+      "data_recente": "2026-04-15T15:40:45Z"
     }
   ]
 }
