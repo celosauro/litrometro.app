@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2704609",
   "municipio": "Maravilha",
-  "atualizadoEm": "2026-04-15T14:58:40.459Z",
+  "atualizadoEm": "2026-04-15T16:21:47.875Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 1,
-      "valorMinimo": 6.768953068592058,
-      "valorMaximo": 6.768953068592058,
-      "valorMedio": 6.768953068592058
+      "valorMinimo": 6.825938566552901,
+      "valorMaximo": 6.825938566552901,
+      "valorMedio": 6.825938566552901
     },
     "2": {
       "totalPostos": 3,
-      "valorMinimo": 6.757852077001013,
-      "valorMaximo": 6.7897881586094515,
-      "valorMedio": 6.769337752997334
+      "valorMinimo": 5.408653846153846,
+      "valorMaximo": 6.839945280437757,
+      "valorMedio": 6.333337185323377
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 4.488338355094298,
-      "valorMaximo": 5.6191467221644125,
-      "valorMedio": 5.053742538629355
+      "valorMinimo": 5.610335195530726,
+      "valorMaximo": 5.619745537922043,
+      "valorMedio": 5.615040366726385
     },
     "5": {
       "totalPostos": 2,
       "valorMinimo": 7.290087463556851,
-      "valorMaximo": 7.299936125558902,
-      "valorMedio": 7.295011794557876
+      "valorMaximo": 7.299802905321556,
+      "valorMedio": 7.294945184439204
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,31 @@
       "municipio": "MARAVILHA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.768953068592058,
-      "valor_maximo": 6.768953068592058,
-      "valor_medio": 6.768953068592058,
-      "valor_recente": 6.768953068592058,
-      "data_recente": "2026-04-15T13:34:25Z"
+      "valor_minimo": 6.825938566552901,
+      "valor_maximo": 6.825938566552901,
+      "valor_medio": 6.825938566552901,
+      "valor_recente": 6.825938566552901,
+      "data_recente": "2026-04-15T15:26:53Z"
+    },
+    {
+      "cnpj": "08418303000564",
+      "tipo_combustivel": 2,
+      "razao_social": "IRMAOS JOTA PINTO & CIA LTDA",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": " BR 316",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57520000",
+      "codigo_ibge": 2704609,
+      "municipio": "MARAVILHA",
+      "latitude": -9.2772442,
+      "longitude": -37.38293669999999,
+      "valor_minimo": 5.408653846153846,
+      "valor_maximo": 5.408653846153846,
+      "valor_medio": 5.408653846153846,
+      "valor_recente": 5.408653846153846,
+      "data_recente": "2026-04-15T15:28:50Z"
     },
     {
       "cnpj": "14683196000251",
@@ -64,31 +84,11 @@
       "municipio": "MARAVILHA",
       "latitude": -9.233737099999999,
       "longitude": -37.3501512,
-      "valor_minimo": 6.757852077001013,
-      "valor_maximo": 6.757852077001013,
-      "valor_medio": 6.757852077001013,
-      "valor_recente": 6.757852077001013,
-      "data_recente": "2026-04-14T23:37:12Z"
-    },
-    {
-      "cnpj": "08418303000564",
-      "tipo_combustivel": 2,
-      "razao_social": "IRMAOS JOTA PINTO & CIA LTDA",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": " BR 316",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57520000",
-      "codigo_ibge": 2704609,
-      "municipio": "MARAVILHA",
-      "latitude": -9.2772442,
-      "longitude": -37.38293669999999,
-      "valor_minimo": 6.760373023381538,
-      "valor_maximo": 6.760373023381538,
-      "valor_medio": 6.760373023381538,
-      "valor_recente": 6.760373023381538,
-      "data_recente": "2026-04-15T13:20:03Z"
+      "valor_minimo": 6.751412429378531,
+      "valor_maximo": 6.751412429378531,
+      "valor_medio": 6.751412429378531,
+      "valor_recente": 6.751412429378531,
+      "data_recente": "2026-04-15T15:30:13Z"
     },
     {
       "cnpj": "60501647000129",
@@ -104,11 +104,11 @@
       "municipio": "MARAVILHA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.7897881586094515,
-      "valor_maximo": 6.7897881586094515,
-      "valor_medio": 6.7897881586094515,
-      "valor_recente": 6.7897881586094515,
-      "data_recente": "2026-04-15T13:17:25Z"
+      "valor_minimo": 6.839945280437757,
+      "valor_maximo": 6.839945280437757,
+      "valor_medio": 6.839945280437757,
+      "valor_recente": 6.839945280437757,
+      "data_recente": "2026-04-15T15:26:53Z"
     },
     {
       "cnpj": "08418303000564",
@@ -124,11 +124,11 @@
       "municipio": "MARAVILHA",
       "latitude": -9.2772442,
       "longitude": -37.38293669999999,
-      "valor_minimo": 4.488338355094298,
-      "valor_maximo": 4.488338355094298,
-      "valor_medio": 4.488338355094298,
-      "valor_recente": 4.488338355094298,
-      "data_recente": "2026-04-15T10:54:25Z"
+      "valor_minimo": 5.610335195530726,
+      "valor_maximo": 5.610335195530726,
+      "valor_medio": 5.610335195530726,
+      "valor_recente": 5.610335195530726,
+      "data_recente": "2026-04-15T15:27:43Z"
     },
     {
       "cnpj": "60501647000129",
@@ -144,11 +144,11 @@
       "municipio": "MARAVILHA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.6191467221644125,
-      "valor_maximo": 5.6191467221644125,
-      "valor_medio": 5.6191467221644125,
-      "valor_recente": 5.6191467221644125,
-      "data_recente": "2026-04-15T13:29:52Z"
+      "valor_minimo": 5.619745537922043,
+      "valor_maximo": 5.619745537922043,
+      "valor_medio": 5.619745537922043,
+      "valor_recente": 5.619745537922043,
+      "data_recente": "2026-04-15T15:26:53Z"
     },
     {
       "cnpj": "08418303000564",
@@ -184,11 +184,11 @@
       "municipio": "MARAVILHA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.299936125558902,
-      "valor_maximo": 7.299936125558902,
-      "valor_medio": 7.299936125558902,
-      "valor_recente": 7.299936125558902,
-      "data_recente": "2026-04-15T11:49:15Z"
+      "valor_minimo": 7.299802905321556,
+      "valor_maximo": 7.299802905321556,
+      "valor_medio": 7.299802905321556,
+      "valor_recente": 7.299802905321556,
+      "data_recente": "2026-04-15T15:26:53Z"
     }
   ]
 }

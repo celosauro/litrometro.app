@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2704005",
   "municipio": "Junqueiro",
-  "atualizadoEm": "2026-04-15T14:55:22.289Z",
+  "atualizadoEm": "2026-04-15T16:19:13.075Z",
   "totalEstabelecimentos": 15,
   "combustiveis": {
     "1": {
       "totalPostos": 5,
-      "valorMinimo": 6.490696668109043,
-      "valorMaximo": 6.890215893431328,
-      "valorMedio": 6.670663921781238
+      "valorMinimo": 6.489940592082273,
+      "valorMaximo": 6.93,
+      "valorMedio": 6.7336841306700945
     },
     "2": {
       "totalPostos": 2,
@@ -18,15 +18,15 @@
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 5.1,
+      "valorMinimo": 5.109960513584896,
       "valorMaximo": 5.3689839572192515,
-      "valorMedio": 5.219641647849415
+      "valorMedio": 5.223007894963241
     },
     "5": {
       "totalPostos": 5,
-      "valorMinimo": 7.079646017699115,
+      "valorMinimo": 6.890089295557271,
       "valorMaximo": 7.579982488044723,
-      "valorMedio": 7.367823951323669
+      "valorMedio": 7.267912606895299
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "JUNQUEIRO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.490696668109043,
-      "valor_maximo": 6.490696668109043,
-      "valor_medio": 6.490696668109043,
-      "valor_recente": 6.490696668109043,
-      "data_recente": "2026-04-15T13:02:57Z"
+      "valor_minimo": 6.489940592082273,
+      "valor_maximo": 6.489940592082273,
+      "valor_medio": 6.489940592082273,
+      "valor_recente": 6.489940592082273,
+      "data_recente": "2026-04-15T14:08:23Z"
     },
     {
       "cnpj": "33748712000223",
@@ -64,31 +64,11 @@
       "municipio": "JUNQUEIRO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.4935064935064934,
-      "valor_maximo": 6.4935064935064934,
-      "valor_medio": 6.4935064935064934,
-      "valor_recente": 6.4935064935064934,
-      "data_recente": "2026-04-15T13:28:32Z"
-    },
-    {
-      "cnpj": "42337336000194",
-      "tipo_combustivel": 1,
-      "razao_social": "JOSE VALMIR DA SILVA FILHO",
-      "nome_fantasia": "POSTO FREI DAMIAO",
-      "telefone": "(82) 81237200",
-      "nome_logradouro": "Rua JOAO AVELINO DOS SANTOS",
-      "numero_imovel": "714",
-      "bairro": "RETIRO",
-      "cep": "57270000",
-      "codigo_ibge": 2704005,
-      "municipio": "JUNQUEIRO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.629585485366177,
-      "valor_maximo": 6.629585485366177,
-      "valor_medio": 6.629585485366177,
-      "valor_recente": 6.629585485366177,
-      "data_recente": "2026-04-15T13:28:46Z"
+      "valor_minimo": 6.509740259740259,
+      "valor_maximo": 6.509740259740259,
+      "valor_medio": 6.509740259740259,
+      "valor_recente": 6.509740259740259,
+      "data_recente": "2026-04-15T15:05:14Z"
     },
     {
       "cnpj": "07531582000181",
@@ -108,7 +88,7 @@
       "valor_maximo": 6.8493150684931505,
       "valor_medio": 6.8493150684931505,
       "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-15T13:24:45Z"
+      "data_recente": "2026-04-15T15:22:30Z"
     },
     {
       "cnpj": "57214182000110",
@@ -124,11 +104,31 @@
       "municipio": "JUNQUEIRO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.890215893431328,
-      "valor_maximo": 6.890215893431328,
-      "valor_medio": 6.890215893431328,
-      "valor_recente": 6.890215893431328,
-      "data_recente": "2026-04-15T13:32:40Z"
+      "valor_minimo": 6.889424733034792,
+      "valor_maximo": 6.889424733034792,
+      "valor_medio": 6.889424733034792,
+      "valor_recente": 6.889424733034792,
+      "data_recente": "2026-04-15T15:24:38Z"
+    },
+    {
+      "cnpj": "42337336000194",
+      "tipo_combustivel": 1,
+      "razao_social": "JOSE VALMIR DA SILVA FILHO",
+      "nome_fantasia": "POSTO FREI DAMIAO",
+      "telefone": "(82) 81237200",
+      "nome_logradouro": "Rua JOAO AVELINO DOS SANTOS",
+      "numero_imovel": "714",
+      "bairro": "RETIRO",
+      "cep": "57270000",
+      "codigo_ibge": 2704005,
+      "municipio": "JUNQUEIRO",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.93,
+      "valor_maximo": 6.93,
+      "valor_medio": 6.93,
+      "valor_recente": 6.93,
+      "data_recente": "2026-04-15T15:19:51Z"
     },
     {
       "cnpj": "33748712000223",
@@ -184,11 +184,11 @@
       "municipio": "JUNQUEIRO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.1,
-      "valor_maximo": 5.1,
-      "valor_medio": 5.1,
-      "valor_recente": 5.1,
-      "data_recente": "2026-04-15T13:28:32Z"
+      "valor_minimo": 5.109960513584896,
+      "valor_maximo": 5.109960513584896,
+      "valor_medio": 5.109960513584896,
+      "valor_recente": 5.109960513584896,
+      "data_recente": "2026-04-15T15:01:14Z"
     },
     {
       "cnpj": "55668549000140",
@@ -204,11 +204,11 @@
       "municipio": "JUNQUEIRO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.189940986328994,
-      "valor_maximo": 5.189940986328994,
-      "valor_medio": 5.189940986328994,
-      "valor_recente": 5.189940986328994,
-      "data_recente": "2026-04-15T11:24:47Z"
+      "valor_minimo": 5.1900792140855785,
+      "valor_maximo": 5.1900792140855785,
+      "valor_medio": 5.1900792140855785,
+      "valor_recente": 5.1900792140855785,
+      "data_recente": "2026-04-15T14:54:50Z"
     },
     {
       "cnpj": "42337336000194",
@@ -231,6 +231,26 @@
       "data_recente": "2026-04-14T18:38:26Z"
     },
     {
+      "cnpj": "55668549000140",
+      "tipo_combustivel": 5,
+      "razao_social": "MAGUARY AUTO POSTO LTDA",
+      "nome_fantasia": "POSTO MAGUARY",
+      "telefone": "(82) 999560643",
+      "nome_logradouro": "ROD BR 101 SUL",
+      "numero_imovel": "S/N",
+      "bairro": "POVOADO OLHO D'AGUA",
+      "cep": "57270000",
+      "codigo_ibge": 2704005,
+      "municipio": "JUNQUEIRO",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.890089295557271,
+      "valor_maximo": 6.890089295557271,
+      "valor_medio": 6.890089295557271,
+      "valor_recente": 6.890089295557271,
+      "data_recente": "2026-04-15T15:23:21Z"
+    },
+    {
       "cnpj": "33748712000223",
       "tipo_combustivel": 5,
       "razao_social": "CS COMERCIO DE COMBUSTIVEIS LTDA",
@@ -244,11 +264,11 @@
       "municipio": "JUNQUEIRO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.079646017699115,
-      "valor_maximo": 7.079646017699115,
-      "valor_medio": 7.079646017699115,
-      "valor_recente": 7.079646017699115,
-      "data_recente": "2026-04-15T13:28:32Z"
+      "valor_minimo": 7.08,
+      "valor_maximo": 7.08,
+      "valor_medio": 7.08,
+      "valor_recente": 7.08,
+      "data_recente": "2026-04-15T15:12:08Z"
     },
     {
       "cnpj": "57214182000110",
@@ -271,26 +291,6 @@
       "data_recente": "2026-04-15T13:33:26Z"
     },
     {
-      "cnpj": "55668549000140",
-      "tipo_combustivel": 5,
-      "razao_social": "MAGUARY AUTO POSTO LTDA",
-      "nome_fantasia": "POSTO MAGUARY",
-      "telefone": "(82) 999560643",
-      "nome_logradouro": "ROD BR 101 SUL",
-      "numero_imovel": "S/N",
-      "bairro": "POVOADO OLHO D'AGUA",
-      "cep": "57270000",
-      "codigo_ibge": 2704005,
-      "municipio": "JUNQUEIRO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.39,
-      "valor_maximo": 7.39,
-      "valor_medio": 7.39,
-      "valor_recente": 7.39,
-      "data_recente": "2026-04-15T11:28:48Z"
-    },
-    {
       "cnpj": "07531582000181",
       "tipo_combustivel": 5,
       "razao_social": "SILVA COMBUSTIVEL LTDA - EPP",
@@ -308,7 +308,7 @@
       "valor_maximo": 7.399600621255824,
       "valor_medio": 7.399600621255824,
       "valor_recente": 7.399600621255824,
-      "data_recente": "2026-04-15T11:11:11Z"
+      "data_recente": "2026-04-15T14:58:49Z"
     },
     {
       "cnpj": "42337336000194",

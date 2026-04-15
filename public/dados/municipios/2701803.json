@@ -1,20 +1,20 @@
 {
   "codigoIBGE": "2701803",
   "municipio": "Carneiros",
-  "atualizadoEm": "2026-04-15T14:41:00.257Z",
+  "atualizadoEm": "2026-04-15T16:08:41.335Z",
   "totalEstabelecimentos": 6,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.989748369058714,
-      "valorMaximo": 6.990562740300594,
-      "valorMedio": 6.990155554679654
+      "valorMinimo": 6.988120195667365,
+      "valorMaximo": 6.990074094785404,
+      "valorMedio": 6.989097145226385
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.048872180451128,
-      "valorMaximo": 7.048872180451128,
-      "valorMedio": 7.048872180451128
+      "valorMinimo": 7.050335570469799,
+      "valorMaximo": 7.050335570469799,
+      "valorMedio": 7.050335570469799
     },
     "3": {
       "totalPostos": 1,
@@ -25,31 +25,11 @@
     "5": {
       "totalPostos": 2,
       "valorMinimo": 7.800467653936087,
-      "valorMaximo": 7.99,
-      "valorMedio": 7.8952338269680435
+      "valorMaximo": 7.889967637540453,
+      "valorMedio": 7.84521764573827
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "36996902000177",
-      "tipo_combustivel": 1,
-      "razao_social": "POSTO PREMIUM LTDA",
-      "nome_fantasia": "POSTO PREMIUM",
-      "telefone": "(82) 82202866",
-      "nome_logradouro": "Rua PADRE CICERO",
-      "numero_imovel": "584",
-      "bairro": "CENTRO",
-      "cep": "57535000",
-      "codigo_ibge": 2701803,
-      "municipio": "CARNEIROS",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.989748369058714,
-      "valor_maximo": 6.989748369058714,
-      "valor_medio": 6.989748369058714,
-      "valor_recente": 6.989748369058714,
-      "data_recente": "2026-04-15T13:13:48Z"
-    },
     {
       "cnpj": "00994685000139",
       "tipo_combustivel": 1,
@@ -64,11 +44,31 @@
       "municipio": "CARNEIROS",
       "latitude": -9.4828391,
       "longitude": -37.376628,
-      "valor_minimo": 6.990562740300594,
-      "valor_maximo": 6.990562740300594,
-      "valor_medio": 6.990562740300594,
-      "valor_recente": 6.990562740300594,
-      "data_recente": "2026-04-15T12:55:50Z"
+      "valor_minimo": 6.988120195667365,
+      "valor_maximo": 6.988120195667365,
+      "valor_medio": 6.988120195667365,
+      "valor_recente": 6.988120195667365,
+      "data_recente": "2026-04-15T15:24:08Z"
+    },
+    {
+      "cnpj": "36996902000177",
+      "tipo_combustivel": 1,
+      "razao_social": "POSTO PREMIUM LTDA",
+      "nome_fantasia": "POSTO PREMIUM",
+      "telefone": "(82) 82202866",
+      "nome_logradouro": "Rua PADRE CICERO",
+      "numero_imovel": "584",
+      "bairro": "CENTRO",
+      "cep": "57535000",
+      "codigo_ibge": 2701803,
+      "municipio": "CARNEIROS",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.990074094785404,
+      "valor_maximo": 6.990074094785404,
+      "valor_medio": 6.990074094785404,
+      "valor_recente": 6.990074094785404,
+      "data_recente": "2026-04-15T15:33:42Z"
     },
     {
       "cnpj": "00994685000139",
@@ -84,11 +84,11 @@
       "municipio": "CARNEIROS",
       "latitude": -9.4828391,
       "longitude": -37.376628,
-      "valor_minimo": 7.048872180451128,
-      "valor_maximo": 7.048872180451128,
-      "valor_medio": 7.048872180451128,
-      "valor_recente": 7.048872180451128,
-      "data_recente": "2026-04-15T11:24:19Z"
+      "valor_minimo": 7.050335570469799,
+      "valor_maximo": 7.050335570469799,
+      "valor_medio": 7.050335570469799,
+      "valor_recente": 7.050335570469799,
+      "data_recente": "2026-04-15T15:24:28Z"
     },
     {
       "cnpj": "36996902000177",
@@ -144,11 +144,11 @@
       "municipio": "CARNEIROS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.8900246305418715,
+      "valor_minimo": 7.889967637540453,
       "valor_maximo": 7.99,
-      "valor_medio": 7.940012315270936,
-      "valor_recente": 7.99,
-      "data_recente": "2026-04-15T13:11:40Z"
+      "valor_medio": 7.9399838187702265,
+      "valor_recente": 7.889967637540453,
+      "data_recente": "2026-04-15T15:23:11Z"
     }
   ]
 }

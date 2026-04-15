@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2709103",
   "municipio": "Taquarana",
-  "atualizadoEm": "2026-04-15T15:23:29.806Z",
+  "atualizadoEm": "2026-04-15T16:41:25.094Z",
   "totalEstabelecimentos": 9,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.6895110739657335,
-      "valorMaximo": 7.1,
-      "valorMedio": 6.896147246570848
+      "valorMinimo": 6.849870731924757,
+      "valorMaximo": 6.9,
+      "valorMedio": 6.882933799223856
     },
     "2": {
       "totalPostos": 1,
@@ -18,21 +18,21 @@
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.289981420608832,
-      "valorMaximo": 5.289981420608832,
-      "valorMedio": 5.289981420608832
+      "valorMinimo": 5.289988671449832,
+      "valorMaximo": 5.289988671449832,
+      "valorMedio": 5.289988671449832
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 7.9899898833927905,
-      "valorMaximo": 7.9899898833927905,
-      "valorMedio": 7.9899898833927905
+      "valorMinimo": 7.499539227130307,
+      "valorMaximo": 7.499539227130307,
+      "valorMedio": 7.499539227130307
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.380073800738008,
-      "valorMaximo": 7.399733609590054,
-      "valorMedio": 7.3930872251218105
+      "valorMinimo": 7.299817455227195,
+      "valorMaximo": 7.399907535829866,
+      "valorMedio": 7.366441870770962
     }
   },
   "estabelecimentos": [
@@ -50,11 +50,11 @@
       "municipio": "TAQUARANA",
       "latitude": -9.6451013,
       "longitude": -36.4903116,
-      "valor_minimo": 6.6895110739657335,
-      "valor_maximo": 6.6895110739657335,
-      "valor_medio": 6.6895110739657335,
-      "valor_recente": 6.6895110739657335,
-      "data_recente": "2026-04-15T13:13:43Z"
+      "valor_minimo": 6.849870731924757,
+      "valor_maximo": 6.849870731924757,
+      "valor_medio": 6.849870731924757,
+      "valor_recente": 6.849870731924757,
+      "data_recente": "2026-04-15T15:35:35Z"
     },
     {
       "cnpj": "69999456000103",
@@ -74,7 +74,7 @@
       "valor_maximo": 6.89893066574681,
       "valor_medio": 6.89893066574681,
       "valor_recente": 6.89893066574681,
-      "data_recente": "2026-04-15T13:34:55Z"
+      "data_recente": "2026-04-15T15:36:39Z"
     },
     {
       "cnpj": "15706489000199",
@@ -90,11 +90,11 @@
       "municipio": "TAQUARANA",
       "latitude": -9.645102300000001,
       "longitude": -36.4935948,
-      "valor_minimo": 7.1,
-      "valor_maximo": 7.1,
-      "valor_medio": 7.1,
-      "valor_recente": 7.1,
-      "data_recente": "2026-04-15T13:34:20Z"
+      "valor_minimo": 6.9,
+      "valor_maximo": 6.9,
+      "valor_medio": 6.9,
+      "valor_recente": 6.9,
+      "data_recente": "2026-04-15T15:18:01Z"
     },
     {
       "cnpj": "20097123000108",
@@ -130,11 +130,11 @@
       "municipio": "TAQUARANA",
       "latitude": -9.6451013,
       "longitude": -36.4903116,
-      "valor_minimo": 5.289981420608832,
-      "valor_maximo": 5.289981420608832,
-      "valor_medio": 5.289981420608832,
-      "valor_recente": 5.289981420608832,
-      "data_recente": "2026-04-15T10:56:09Z"
+      "valor_minimo": 5.289988671449832,
+      "valor_maximo": 5.289988671449832,
+      "valor_medio": 5.289988671449832,
+      "valor_recente": 5.289988671449832,
+      "data_recente": "2026-04-15T15:17:00Z"
     },
     {
       "cnpj": "20097123000108",
@@ -150,31 +150,11 @@
       "municipio": "TAQUARANA",
       "latitude": -9.6451013,
       "longitude": -36.4903116,
-      "valor_minimo": 7.9899898833927905,
-      "valor_maximo": 7.9899898833927905,
-      "valor_medio": 7.9899898833927905,
-      "valor_recente": 7.9899898833927905,
-      "data_recente": "2026-04-15T00:56:26Z"
-    },
-    {
-      "cnpj": "15706489000199",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO MANGUEIRAO EIRELI EPP",
-      "nome_fantasia": "POSTO MANGUEIRAO",
-      "telefone": "",
-      "nome_logradouro": "AV PAI JOAO",
-      "numero_imovel": "526",
-      "bairro": "PAI JOAO",
-      "cep": "57640000",
-      "codigo_ibge": 2709103,
-      "municipio": "TAQUARANA",
-      "latitude": -9.645102300000001,
-      "longitude": -36.4935948,
-      "valor_minimo": 7.380073800738008,
-      "valor_maximo": 7.380073800738008,
-      "valor_medio": 7.380073800738008,
-      "valor_recente": 7.380073800738008,
-      "data_recente": "2026-04-15T13:19:23Z"
+      "valor_minimo": 7.499539227130307,
+      "valor_maximo": 7.499539227130307,
+      "valor_medio": 7.499539227130307,
+      "valor_recente": 7.499539227130307,
+      "data_recente": "2026-04-15T15:30:05Z"
     },
     {
       "cnpj": "20097123000108",
@@ -190,11 +170,11 @@
       "municipio": "TAQUARANA",
       "latitude": -9.6451013,
       "longitude": -36.4903116,
-      "valor_minimo": 7.399454265037371,
-      "valor_maximo": 7.399454265037371,
-      "valor_medio": 7.399454265037371,
-      "valor_recente": 7.399454265037371,
-      "data_recente": "2026-04-15T00:58:20Z"
+      "valor_minimo": 7.299817455227195,
+      "valor_maximo": 7.299817455227195,
+      "valor_medio": 7.299817455227195,
+      "valor_recente": 7.299817455227195,
+      "data_recente": "2026-04-15T15:35:03Z"
     },
     {
       "cnpj": "69999456000103",
@@ -210,11 +190,31 @@
       "municipio": "TAQUARANA",
       "latitude": -9.6468235,
       "longitude": -36.4910774,
-      "valor_minimo": 7.399733609590054,
-      "valor_maximo": 7.399733609590054,
-      "valor_medio": 7.399733609590054,
-      "valor_recente": 7.399733609590054,
-      "data_recente": "2026-04-15T13:27:30Z"
+      "valor_minimo": 7.399600621255824,
+      "valor_maximo": 7.399600621255824,
+      "valor_medio": 7.399600621255824,
+      "valor_recente": 7.399600621255824,
+      "data_recente": "2026-04-15T15:33:41Z"
+    },
+    {
+      "cnpj": "15706489000199",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO MANGUEIRAO EIRELI EPP",
+      "nome_fantasia": "POSTO MANGUEIRAO",
+      "telefone": "",
+      "nome_logradouro": "AV PAI JOAO",
+      "numero_imovel": "526",
+      "bairro": "PAI JOAO",
+      "cep": "57640000",
+      "codigo_ibge": 2709103,
+      "municipio": "TAQUARANA",
+      "latitude": -9.645102300000001,
+      "longitude": -36.4935948,
+      "valor_minimo": 7.399907535829866,
+      "valor_maximo": 7.399907535829866,
+      "valor_medio": 7.399907535829866,
+      "valor_recente": 7.399907535829866,
+      "data_recente": "2026-04-15T15:18:01Z"
     }
   ]
 }

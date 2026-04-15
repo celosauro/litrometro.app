@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2705002",
   "municipio": "Mata Grande",
-  "atualizadoEm": "2026-04-15T15:01:10.075Z",
+  "atualizadoEm": "2026-04-15T16:23:23.774Z",
   "totalEstabelecimentos": 14,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.9400837257980115,
+      "valorMinimo": 6.941230911614993,
       "valorMaximo": 7.483333333333333,
-      "valorMedio": 7.201228705809103
+      "valorMedio": 7.201749867734592
     },
     "2": {
       "totalPostos": 5,
-      "valorMinimo": 6.850879196163508,
+      "valorMinimo": 6.850253459377997,
       "valorMaximo": 7.329587099926704,
-      "valorMedio": 7.072018311265232
+      "valorMedio": 7.071736444723011
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.625,
-      "valorMaximo": 5.625,
-      "valorMedio": 5.625
+      "valorMinimo": 5.620224719101124,
+      "valorMaximo": 5.620224719101124,
+      "valorMedio": 5.620224719101124
     },
     "5": {
       "totalPostos": 5,
       "valorMinimo": 7.150105708245243,
-      "valorMaximo": 8.129323308270676,
-      "valorMedio": 7.587981762279552
+      "valorMaximo": 8.130081300813009,
+      "valorMedio": 7.616179797473327
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1179273,
       "longitude": -37.7255414,
-      "valor_minimo": 6.9400837257980115,
-      "valor_maximo": 6.9400837257980115,
-      "valor_medio": 6.9400837257980115,
-      "valor_recente": 6.9400837257980115,
-      "data_recente": "2026-04-15T12:20:52Z"
+      "valor_minimo": 6.941230911614993,
+      "valor_maximo": 6.941230911614993,
+      "valor_medio": 6.941230911614993,
+      "valor_recente": 6.941230911614993,
+      "data_recente": "2026-04-15T14:13:16Z"
     },
     {
       "cnpj": "09419389000189",
@@ -64,11 +64,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.118687099999999,
       "longitude": -37.73142,
-      "valor_minimo": 7.1802690582959645,
-      "valor_maximo": 7.1802690582959645,
-      "valor_medio": 7.1802690582959645,
-      "valor_recente": 7.1802690582959645,
-      "data_recente": "2026-04-15T13:22:59Z"
+      "valor_minimo": 7.1806853582554515,
+      "valor_maximo": 7.1806853582554515,
+      "valor_medio": 7.1806853582554515,
+      "valor_recente": 7.1806853582554515,
+      "data_recente": "2026-04-15T15:35:19Z"
     },
     {
       "cnpj": "08850457000105",
@@ -104,31 +104,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1186768,
       "longitude": -37.7313914,
-      "valor_minimo": 6.850879196163508,
-      "valor_maximo": 6.850879196163508,
-      "valor_medio": 6.850879196163508,
-      "valor_recente": 6.850879196163508,
-      "data_recente": "2026-04-15T12:59:10Z"
-    },
-    {
-      "cnpj": "08804741000137",
-      "tipo_combustivel": 2,
-      "razao_social": "POSTO FARIAS LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 36411670",
-      "nome_logradouro": "Rua SIQUEIRA CAMPOS",
-      "numero_imovel": "05",
-      "bairro": "BOM SUCESSO",
-      "cep": "57540000",
-      "codigo_ibge": 2705002,
-      "municipio": "MATA GRANDE",
-      "latitude": -9.1179273,
-      "longitude": -37.7255414,
-      "valor_minimo": 6.939625260235947,
-      "valor_maximo": 6.939625260235947,
-      "valor_medio": 6.939625260235947,
-      "valor_recente": 6.939625260235947,
-      "data_recente": "2026-04-15T11:47:51Z"
+      "valor_minimo": 6.850253459377997,
+      "valor_maximo": 6.850253459377997,
+      "valor_medio": 6.850253459377997,
+      "valor_recente": 6.850253459377997,
+      "data_recente": "2026-04-15T14:46:21Z"
     },
     {
       "cnpj": "13240923000162",
@@ -144,11 +124,31 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1184121,
       "longitude": -37.729208,
-      "valor_minimo": 6.94,
-      "valor_maximo": 6.94,
-      "valor_medio": 6.94,
-      "valor_recente": 6.94,
-      "data_recente": "2026-04-15T13:02:56Z"
+      "valor_minimo": 6.939625260235947,
+      "valor_maximo": 6.939625260235947,
+      "valor_medio": 6.939625260235947,
+      "valor_recente": 6.939625260235947,
+      "data_recente": "2026-04-15T14:39:58Z"
+    },
+    {
+      "cnpj": "08804741000137",
+      "tipo_combustivel": 2,
+      "razao_social": "POSTO FARIAS LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 36411670",
+      "nome_logradouro": "Rua SIQUEIRA CAMPOS",
+      "numero_imovel": "05",
+      "bairro": "BOM SUCESSO",
+      "cep": "57540000",
+      "codigo_ibge": 2705002,
+      "municipio": "MATA GRANDE",
+      "latitude": -9.1179273,
+      "longitude": -37.7255414,
+      "valor_minimo": 6.939946331081706,
+      "valor_maximo": 6.939946331081706,
+      "valor_medio": 6.939946331081706,
+      "valor_recente": 6.939946331081706,
+      "data_recente": "2026-04-15T14:30:23Z"
     },
     {
       "cnpj": "08850457000105",
@@ -164,11 +164,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1229984,
       "longitude": -37.7355222,
-      "valor_minimo": 7.3,
-      "valor_maximo": 7.3,
-      "valor_medio": 7.3,
-      "valor_recente": 7.3,
-      "data_recente": "2026-04-15T13:27:50Z"
+      "valor_minimo": 7.299270072992701,
+      "valor_maximo": 7.299270072992701,
+      "valor_medio": 7.299270072992701,
+      "valor_recente": 7.299270072992701,
+      "data_recente": "2026-04-15T15:17:26Z"
     },
     {
       "cnpj": "09419389000189",
@@ -204,11 +204,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1184121,
       "longitude": -37.729208,
-      "valor_minimo": 5.625,
-      "valor_maximo": 5.625,
-      "valor_medio": 5.625,
-      "valor_recente": 5.625,
-      "data_recente": "2026-04-14T23:38:36Z"
+      "valor_minimo": 5.620224719101124,
+      "valor_maximo": 5.620224719101124,
+      "valor_medio": 5.620224719101124,
+      "valor_recente": 5.620224719101124,
+      "data_recente": "2026-04-15T14:39:58Z"
     },
     {
       "cnpj": "24250482000104",
@@ -231,26 +231,6 @@
       "data_recente": "2026-04-15T12:42:57Z"
     },
     {
-      "cnpj": "13240923000162",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO PRIMOS LTDA",
-      "nome_fantasia": "AUTO POSTO PRIMOS",
-      "telefone": "(82) 88206284",
-      "nome_logradouro": "TV CONEGO GONZAGA",
-      "numero_imovel": "05",
-      "bairro": "CENTRO",
-      "cep": "57540000",
-      "codigo_ibge": 2705002,
-      "municipio": "MATA GRANDE",
-      "latitude": -9.1184121,
-      "longitude": -37.729208,
-      "valor_minimo": 7.38006246479955,
-      "valor_maximo": 7.38006246479955,
-      "valor_medio": 7.38006246479955,
-      "valor_recente": 7.38006246479955,
-      "data_recente": "2026-04-15T12:26:30Z"
-    },
-    {
       "cnpj": "08804741000137",
       "tipo_combustivel": 5,
       "razao_social": "POSTO FARIAS LTDA",
@@ -269,6 +249,26 @@
       "valor_medio": 7.450176941702366,
       "valor_recente": 7.450176941702366,
       "data_recente": "2026-04-15T11:47:51Z"
+    },
+    {
+      "cnpj": "13240923000162",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO PRIMOS LTDA",
+      "nome_fantasia": "AUTO POSTO PRIMOS",
+      "telefone": "(82) 88206284",
+      "nome_logradouro": "TV CONEGO GONZAGA",
+      "numero_imovel": "05",
+      "bairro": "CENTRO",
+      "cep": "57540000",
+      "codigo_ibge": 2705002,
+      "municipio": "MATA GRANDE",
+      "latitude": -9.1184121,
+      "longitude": -37.729208,
+      "valor_minimo": 7.5202946482260975,
+      "valor_maximo": 7.5202946482260975,
+      "valor_medio": 7.5202946482260975,
+      "valor_recente": 7.5202946482260975,
+      "data_recente": "2026-04-15T14:39:58Z"
     },
     {
       "cnpj": "08850457000105",
@@ -304,11 +304,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.118687099999999,
       "longitude": -37.73142,
-      "valor_minimo": 8.129323308270676,
-      "valor_maximo": 8.129323308270676,
-      "valor_medio": 8.129323308270676,
-      "valor_recente": 8.129323308270676,
-      "data_recente": "2026-04-15T12:51:49Z"
+      "valor_minimo": 8.130081300813009,
+      "valor_maximo": 8.130081300813009,
+      "valor_medio": 8.130081300813009,
+      "valor_recente": 8.130081300813009,
+      "data_recente": "2026-04-15T15:30:11Z"
     }
   ]
 }

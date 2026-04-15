@@ -1,38 +1,38 @@
 {
   "codigoIBGE": "2701001",
   "municipio": "Boca da Mata",
-  "atualizadoEm": "2026-04-15T14:35:37.937Z",
+  "atualizadoEm": "2026-04-15T16:03:53.880Z",
   "totalEstabelecimentos": 13,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
       "valorMinimo": 6.669630947087595,
-      "valorMaximo": 6.796610169491525,
-      "valorMedio": 6.73201946281825
+      "valorMaximo": 6.890057646815645,
+      "valorMedio": 6.754162464433229
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.020090978013647,
-      "valorMaximo": 7.020090978013647,
-      "valorMedio": 7.020090978013647
+      "valorMinimo": 7.019842755522276,
+      "valorMaximo": 7.019842755522276,
+      "valorMedio": 7.019842755522276
     },
     "3": {
       "totalPostos": 4,
-      "valorMinimo": 5.499945000549994,
-      "valorMaximo": 5.689981365311029,
-      "valorMedio": 5.594942948288388
+      "valorMinimo": 5.499793757734085,
+      "valorMaximo": 5.692599620493358,
+      "valorMedio": 5.595592077083716
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 7.25,
-      "valorMaximo": 7.25,
-      "valorMedio": 7.25
+      "valorMinimo": 7.24999130001044,
+      "valorMaximo": 7.24999130001044,
+      "valorMedio": 7.24999130001044
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.37,
-      "valorMaximo": 7.739999782189647,
-      "valorMedio": 7.513140095796747
+      "valorMinimo": 7.369972451790634,
+      "valorMaximo": 7.74,
+      "valorMedio": 7.513314986964116
     }
   },
   "estabelecimentos": [
@@ -54,7 +54,7 @@
       "valor_maximo": 6.669630947087595,
       "valor_medio": 6.669630947087595,
       "valor_recente": 6.669630947087595,
-      "data_recente": "2026-04-15T12:39:34Z"
+      "data_recente": "2026-04-15T15:36:29Z"
     },
     {
       "cnpj": "31122428000130",
@@ -70,11 +70,11 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.663338,
       "longitude": -36.084506,
-      "valor_minimo": 6.67,
-      "valor_maximo": 6.67,
-      "valor_medio": 6.67,
-      "valor_recente": 6.67,
-      "data_recente": "2026-04-15T13:35:25Z"
+      "valor_minimo": 6.669630947087595,
+      "valor_maximo": 6.669630947087595,
+      "valor_medio": 6.669630947087595,
+      "valor_recente": 6.669630947087595,
+      "data_recente": "2026-04-15T15:29:06Z"
     },
     {
       "cnpj": "02970015000108",
@@ -90,11 +90,11 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.637674,
       "longitude": -36.21101,
-      "valor_minimo": 6.791836734693877,
-      "valor_maximo": 6.791836734693877,
-      "valor_medio": 6.791836734693877,
-      "valor_recente": 6.791836734693877,
-      "data_recente": "2026-04-15T13:30:35Z"
+      "valor_minimo": 6.787330316742081,
+      "valor_maximo": 6.787330316742081,
+      "valor_medio": 6.787330316742081,
+      "valor_recente": 6.787330316742081,
+      "data_recente": "2026-04-15T15:27:18Z"
     },
     {
       "cnpj": "02681327000100",
@@ -110,11 +110,11 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.644614,
       "longitude": -36.214373,
-      "valor_minimo": 6.796610169491525,
-      "valor_maximo": 6.796610169491525,
-      "valor_medio": 6.796610169491525,
-      "valor_recente": 6.796610169491525,
-      "data_recente": "2026-04-15T13:04:48Z"
+      "valor_minimo": 6.890057646815645,
+      "valor_maximo": 6.890057646815645,
+      "valor_medio": 6.890057646815645,
+      "valor_recente": 6.890057646815645,
+      "data_recente": "2026-04-15T15:26:02Z"
     },
     {
       "cnpj": "02681327000100",
@@ -130,11 +130,31 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.644614,
       "longitude": -36.214373,
-      "valor_minimo": 7.020090978013647,
-      "valor_maximo": 7.020090978013647,
-      "valor_medio": 7.020090978013647,
-      "valor_recente": 7.020090978013647,
-      "data_recente": "2026-04-15T09:25:33Z"
+      "valor_minimo": 7.019842755522276,
+      "valor_maximo": 7.019842755522276,
+      "valor_medio": 7.019842755522276,
+      "valor_recente": 7.019842755522276,
+      "data_recente": "2026-04-15T14:55:43Z"
+    },
+    {
+      "cnpj": "31122428000130",
+      "tipo_combustivel": 3,
+      "razao_social": "C C JATOBA DA ROCHA",
+      "nome_fantasia": "POSTO SANTA RITA",
+      "telefone": "(82) 32211058",
+      "nome_logradouro": "ROD AL 215 KM 11",
+      "numero_imovel": "1717",
+      "bairro": "ZONA RURAL",
+      "cep": "57680000",
+      "codigo_ibge": 2701001,
+      "municipio": "BOCA DA MATA",
+      "latitude": -9.663338,
+      "longitude": -36.084506,
+      "valor_minimo": 5.499793757734085,
+      "valor_maximo": 5.499793757734085,
+      "valor_medio": 5.499793757734085,
+      "valor_recente": 5.499793757734085,
+      "data_recente": "2026-04-15T14:29:37Z"
     },
     {
       "cnpj": "23768811000132",
@@ -157,24 +177,24 @@
       "data_recente": "2026-04-15T10:12:16Z"
     },
     {
-      "cnpj": "31122428000130",
+      "cnpj": "02681327000100",
       "tipo_combustivel": 3,
-      "razao_social": "C C JATOBA DA ROCHA",
-      "nome_fantasia": "POSTO SANTA RITA",
-      "telefone": "(82) 32211058",
-      "nome_logradouro": "ROD AL 215 KM 11",
-      "numero_imovel": "1717",
-      "bairro": "ZONA RURAL",
+      "razao_social": "POSTO PADRE CÍCERO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+      "nome_fantasia": "AUTO POSTO PADRE CICERO",
+      "telefone": "(82) 2791366",
+      "nome_logradouro": "Rua JOSE ROBERTO",
+      "numero_imovel": "24",
+      "bairro": "CENTRO",
       "cep": "57680000",
       "codigo_ibge": 2701001,
       "municipio": "BOCA DA MATA",
-      "latitude": -9.663338,
-      "longitude": -36.084506,
-      "valor_minimo": 5.499945000549994,
-      "valor_maximo": 5.499945000549994,
-      "valor_medio": 5.499945000549994,
-      "valor_recente": 5.499945000549994,
-      "data_recente": "2026-04-15T11:28:31Z"
+      "latitude": -9.644614,
+      "longitude": -36.214373,
+      "valor_minimo": 5.690029929557429,
+      "valor_maximo": 5.690029929557429,
+      "valor_medio": 5.690029929557429,
+      "valor_recente": 5.690029929557429,
+      "data_recente": "2026-04-15T15:25:33Z"
     },
     {
       "cnpj": "02970015000108",
@@ -190,31 +210,11 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.637674,
       "longitude": -36.21101,
-      "valor_minimo": 5.689900426742532,
-      "valor_maximo": 5.689900426742532,
-      "valor_medio": 5.689900426742532,
-      "valor_recente": 5.689900426742532,
-      "data_recente": "2026-04-15T12:35:13Z"
-    },
-    {
-      "cnpj": "02681327000100",
-      "tipo_combustivel": 3,
-      "razao_social": "POSTO PADRE CÍCERO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
-      "nome_fantasia": "AUTO POSTO PADRE CICERO",
-      "telefone": "(82) 2791366",
-      "nome_logradouro": "Rua JOSE ROBERTO",
-      "numero_imovel": "24",
-      "bairro": "CENTRO",
-      "cep": "57680000",
-      "codigo_ibge": 2701001,
-      "municipio": "BOCA DA MATA",
-      "latitude": -9.644614,
-      "longitude": -36.214373,
-      "valor_minimo": 5.689981365311029,
-      "valor_maximo": 5.689981365311029,
-      "valor_medio": 5.689981365311029,
-      "valor_recente": 5.689981365311029,
-      "data_recente": "2026-04-15T12:16:48Z"
+      "valor_minimo": 5.692599620493358,
+      "valor_maximo": 5.692599620493358,
+      "valor_medio": 5.692599620493358,
+      "valor_recente": 5.692599620493358,
+      "data_recente": "2026-04-15T14:48:32Z"
     },
     {
       "cnpj": "02970015000108",
@@ -230,11 +230,11 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.637674,
       "longitude": -36.21101,
-      "valor_minimo": 7.25,
-      "valor_maximo": 7.25,
-      "valor_medio": 7.25,
-      "valor_recente": 7.25,
-      "data_recente": "2026-04-15T12:59:36Z"
+      "valor_minimo": 7.24999130001044,
+      "valor_maximo": 7.24999130001044,
+      "valor_medio": 7.24999130001044,
+      "valor_recente": 7.24999130001044,
+      "data_recente": "2026-04-15T14:21:27Z"
     },
     {
       "cnpj": "02681327000100",
@@ -250,11 +250,11 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.644614,
       "longitude": -36.214373,
-      "valor_minimo": 7.37,
-      "valor_maximo": 7.37,
-      "valor_medio": 7.37,
-      "valor_recente": 7.37,
-      "data_recente": "2026-04-14T23:01:43Z"
+      "valor_minimo": 7.369972451790634,
+      "valor_maximo": 7.369972451790634,
+      "valor_medio": 7.369972451790634,
+      "valor_recente": 7.369972451790634,
+      "data_recente": "2026-04-15T14:15:19Z"
     },
     {
       "cnpj": "31122428000130",
@@ -270,11 +270,11 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.663338,
       "longitude": -36.084506,
-      "valor_minimo": 7.429420505200595,
-      "valor_maximo": 7.429420505200595,
-      "valor_medio": 7.429420505200595,
-      "valor_recente": 7.429420505200595,
-      "data_recente": "2026-04-14T22:55:06Z"
+      "valor_minimo": 7.429972509101717,
+      "valor_maximo": 7.429972509101717,
+      "valor_medio": 7.429972509101717,
+      "valor_recente": 7.429972509101717,
+      "data_recente": "2026-04-15T14:41:36Z"
     },
     {
       "cnpj": "23768811000132",
@@ -290,11 +290,11 @@
       "municipio": "BOCA DA MATA",
       "latitude": -9.6482528,
       "longitude": -36.2126435,
-      "valor_minimo": 7.739999782189647,
-      "valor_maximo": 7.739999782189647,
-      "valor_medio": 7.739999782189647,
-      "valor_recente": 7.739999782189647,
-      "data_recente": "2026-04-15T13:34:41Z"
+      "valor_minimo": 7.74,
+      "valor_maximo": 7.74,
+      "valor_medio": 7.74,
+      "valor_recente": 7.74,
+      "data_recente": "2026-04-15T15:32:45Z"
     }
   ]
 }
