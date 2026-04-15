@@ -6,6 +6,15 @@ on:
     - cron: '0 6 * * *'
   workflow_dispatch:
     # Permite execução manual
+    inputs:
+      dias_historico:
+        description: 'Quantidade de dias de histórico para processar'
+        required: false
+        default: '30'
+        type: string
+
+env:
+  DIAS_HISTORICO: ${{ github.event.inputs.dias_historico || '30' }}
 
 jobs:
   process:
@@ -53,4 +62,5 @@ jobs:
       - name: Log de conclusão
         run: |
           echo "Processamento concluído em $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+          echo "Dias de histórico processados: $DIAS_HISTORICO"
           echo "Mudanças detectadas: ${{ steps.changes.outputs.changed }}"

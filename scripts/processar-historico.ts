@@ -64,7 +64,7 @@ interface VendasAgregadas {
 const DADOS_DIR = path.join(process.cwd(), 'public', 'dados');
 const HISTORICO_DIR = path.join(DADOS_DIR, 'historico');
 const ATUAL_FILE = path.join(DADOS_DIR, 'atual.json');
-const DIAS_HISTORICO = 10;
+const DIAS_HISTORICO = parseInt(process.env.DIAS_HISTORICO || '30', 10);
 
 const NOMES_COMBUSTIVEIS: Record<TipoCombustivel, string> = {
   1: 'Gasolina Comum',
