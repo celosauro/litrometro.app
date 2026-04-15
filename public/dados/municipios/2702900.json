@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2702900",
   "municipio": "Girau do Ponciano",
-  "atualizadoEm": "2026-04-15T08:31:13.702Z",
+  "atualizadoEm": "2026-04-15T10:20:43.809Z",
   "totalEstabelecimentos": 16,
   "combustiveis": {
     "1": {
       "totalPostos": 5,
       "valorMinimo": 6.899882701994066,
-      "valorMaximo": 6.990223463687151,
-      "valorMedio": 6.953943812355428
+      "valorMaximo": 6.99009900990099,
+      "valorMedio": 6.953698825179518
     },
     "2": {
       "totalPostos": 1,
@@ -18,9 +18,9 @@
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 5.088787417554541,
+      "valorMinimo": 5.0900946757609695,
       "valorMaximo": 5.489957524919426,
-      "valorMedio": 5.309733243710334
+      "valorMedio": 5.31016899644581
     },
     "4": {
       "totalPostos": 2,
@@ -31,8 +31,8 @@
     "5": {
       "totalPostos": 5,
       "valorMinimo": 6.742550569129269,
-      "valorMaximo": 7.599939200486396,
-      "valorMedio": 7.194424895982223
+      "valorMaximo": 8.190068493150685,
+      "valorMedio": 7.394535368805909
     }
   },
   "estabelecimentos": [
@@ -70,11 +70,31 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.901311249137336,
-      "valor_maximo": 6.901311249137336,
-      "valor_medio": 6.901311249137336,
-      "valor_recente": 6.901311249137336,
-      "data_recente": "2026-04-15T02:31:47Z"
+      "valor_minimo": 6.9,
+      "valor_maximo": 6.9,
+      "valor_medio": 6.9,
+      "valor_recente": 6.9,
+      "data_recente": "2026-04-15T09:27:23Z"
+    },
+    {
+      "cnpj": "08422115000186",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTOPEL-AUTO POSTO PROGRESSO LTDA",
+      "nome_fantasia": "AUTOPEL",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 115",
+      "numero_imovel": "SN",
+      "bairro": "PROGRESSO",
+      "cep": "57360000",
+      "codigo_ibge": 2702900,
+      "municipio": "GIRAU DO PONCIANO",
+      "latitude": -9.8855612,
+      "longitude": -36.8209998,
+      "valor_minimo": 6.98876404494382,
+      "valor_maximo": 6.98876404494382,
+      "valor_medio": 6.98876404494382,
+      "valor_recente": 6.98876404494382,
+      "data_recente": "2026-04-15T08:43:25Z"
     },
     {
       "cnpj": "17830342000131",
@@ -90,11 +110,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": -9.882830799999999,
       "longitude": -36.8305595,
-      "valor_minimo": 6.988202637057599,
-      "valor_maximo": 6.988202637057599,
-      "valor_medio": 6.988202637057599,
-      "valor_recente": 6.988202637057599,
-      "data_recente": "2026-04-14T22:40:10Z"
+      "valor_minimo": 6.989748369058714,
+      "valor_maximo": 6.989748369058714,
+      "valor_medio": 6.989748369058714,
+      "valor_recente": 6.989748369058714,
+      "data_recente": "2026-04-15T09:18:43Z"
     },
     {
       "cnpj": "08422115000348",
@@ -115,26 +135,6 @@
       "valor_medio": 6.99009900990099,
       "valor_recente": 6.99009900990099,
       "data_recente": "2026-04-14T23:01:19Z"
-    },
-    {
-      "cnpj": "08422115000186",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTOPEL-AUTO POSTO PROGRESSO LTDA",
-      "nome_fantasia": "AUTOPEL",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 115",
-      "numero_imovel": "SN",
-      "bairro": "PROGRESSO",
-      "cep": "57360000",
-      "codigo_ibge": 2702900,
-      "municipio": "GIRAU DO PONCIANO",
-      "latitude": -9.8855612,
-      "longitude": -36.8209998,
-      "valor_minimo": 6.990223463687151,
-      "valor_maximo": 6.990223463687151,
-      "valor_medio": 6.990223463687151,
-      "valor_recente": 6.990223463687151,
-      "data_recente": "2026-04-15T07:32:59Z"
     },
     {
       "cnpj": "33296262000102",
@@ -170,11 +170,11 @@
       "municipio": "GIRAU DO PONCIANO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.088787417554541,
-      "valor_maximo": 5.088787417554541,
-      "valor_medio": 5.088787417554541,
-      "valor_recente": 5.088787417554541,
-      "data_recente": "2026-04-15T02:31:47Z"
+      "valor_minimo": 5.0900946757609695,
+      "valor_maximo": 5.0900946757609695,
+      "valor_medio": 5.0900946757609695,
+      "valor_recente": 5.0900946757609695,
+      "data_recente": "2026-04-15T09:28:29Z"
     },
     {
       "cnpj": "09657072000180",
@@ -254,7 +254,7 @@
       "valor_maximo": 8.200082000820009,
       "valor_medio": 8.200082000820009,
       "valor_recente": 8.200082000820009,
-      "data_recente": "2026-04-14T23:55:06Z"
+      "data_recente": "2026-04-15T09:09:05Z"
     },
     {
       "cnpj": "09657072000180",
@@ -275,26 +275,6 @@
       "valor_medio": 6.742550569129269,
       "valor_recente": 6.742550569129269,
       "data_recente": "2026-04-14T23:25:44Z"
-    },
-    {
-      "cnpj": "08422115000186",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTOPEL-AUTO POSTO PROGRESSO LTDA",
-      "nome_fantasia": "AUTOPEL",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 115",
-      "numero_imovel": "SN",
-      "bairro": "PROGRESSO",
-      "cep": "57360000",
-      "codigo_ibge": 2702900,
-      "municipio": "GIRAU DO PONCIANO",
-      "latitude": -9.8855612,
-      "longitude": -36.8209998,
-      "valor_minimo": 7.189516129032258,
-      "valor_maximo": 7.189516129032258,
-      "valor_medio": 7.189516129032258,
-      "valor_recente": 7.189516129032258,
-      "data_recente": "2026-04-15T07:31:59Z"
     },
     {
       "cnpj": "08422115000348",
@@ -355,6 +335,26 @@
       "valor_medio": 7.599939200486396,
       "valor_recente": 7.599939200486396,
       "data_recente": "2026-04-14T22:40:08Z"
+    },
+    {
+      "cnpj": "08422115000186",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTOPEL-AUTO POSTO PROGRESSO LTDA",
+      "nome_fantasia": "AUTOPEL",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 115",
+      "numero_imovel": "SN",
+      "bairro": "PROGRESSO",
+      "cep": "57360000",
+      "codigo_ibge": 2702900,
+      "municipio": "GIRAU DO PONCIANO",
+      "latitude": -9.8855612,
+      "longitude": -36.8209998,
+      "valor_minimo": 8.190068493150685,
+      "valor_maximo": 8.190068493150685,
+      "valor_medio": 8.190068493150685,
+      "valor_recente": 8.190068493150685,
+      "data_recente": "2026-04-15T09:20:55Z"
     }
   ]
 }

@@ -1,38 +1,38 @@
 {
   "codigoIBGE": "2705200",
   "municipio": "Messias",
-  "atualizadoEm": "2026-04-15T08:39:34.666Z",
+  "atualizadoEm": "2026-04-15T10:29:00.381Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.688874083944038,
-      "valorMaximo": 6.79,
-      "valorMedio": 6.739437041972019
+      "valorMinimo": 6.689655172413793,
+      "valorMaximo": 6.789913891546557,
+      "valorMedio": 6.739784531980175
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 6.989976497254917,
-      "valorMaximo": 6.989976497254917,
-      "valorMedio": 6.989976497254917
+      "valorMinimo": 6.989980396427794,
+      "valorMaximo": 6.989980396427794,
+      "valorMedio": 6.989980396427794
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.18998898306884,
-      "valorMaximo": 5.349882302589343,
-      "valorMedio": 5.2699356428290915
+      "valorMinimo": 5.179813526713039,
+      "valorMaximo": 5.189952252439277,
+      "valorMedio": 5.1848828895761585
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.059986350693055,
+      "valorMinimo": 7.059990504312772,
       "valorMaximo": 7.089986103627237,
-      "valorMedio": 7.074986227160146
+      "valorMedio": 7.074988303970004
     },
     "6": {
       "totalPostos": 1,
-      "valorMinimo": 4.189907899857309,
-      "valorMaximo": 4.189907899857309,
-      "valorMedio": 4.189907899857309
+      "valorMinimo": 4.189980481457384,
+      "valorMaximo": 4.189980481457384,
+      "valorMedio": 4.189980481457384
     }
   },
   "estabelecimentos": [
@@ -50,11 +50,11 @@
       "municipio": "MESSIAS",
       "latitude": -9.3886292,
       "longitude": -35.8392634,
-      "valor_minimo": 6.688874083944038,
-      "valor_maximo": 6.688874083944038,
-      "valor_medio": 6.688874083944038,
-      "valor_recente": 6.688874083944038,
-      "data_recente": "2026-04-15T02:19:18Z"
+      "valor_minimo": 6.689655172413793,
+      "valor_maximo": 6.689655172413793,
+      "valor_medio": 6.689655172413793,
+      "valor_recente": 6.689655172413793,
+      "data_recente": "2026-04-15T09:32:04Z"
     },
     {
       "cnpj": "27806368000106",
@@ -70,11 +70,11 @@
       "municipio": "MESSIAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.79,
-      "valor_maximo": 6.79,
-      "valor_medio": 6.79,
-      "valor_recente": 6.79,
-      "data_recente": "2026-04-15T07:28:49Z"
+      "valor_minimo": 6.789913891546557,
+      "valor_maximo": 6.789913891546557,
+      "valor_medio": 6.789913891546557,
+      "valor_recente": 6.789913891546557,
+      "data_recente": "2026-04-15T09:30:21Z"
     },
     {
       "cnpj": "27806368000106",
@@ -90,11 +90,31 @@
       "municipio": "MESSIAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.989976497254917,
-      "valor_maximo": 6.989976497254917,
-      "valor_medio": 6.989976497254917,
-      "valor_recente": 6.989976497254917,
-      "data_recente": "2026-04-15T05:22:52Z"
+      "valor_minimo": 6.989980396427794,
+      "valor_maximo": 6.989980396427794,
+      "valor_medio": 6.989980396427794,
+      "valor_recente": 6.989980396427794,
+      "data_recente": "2026-04-15T09:35:00Z"
+    },
+    {
+      "cnpj": "11908167000333",
+      "tipo_combustivel": 3,
+      "razao_social": "DIESEL DISTRIBUIDORA E SERVICOS LTDA",
+      "nome_fantasia": "MEGA POSTO VIA NORTE",
+      "telefone": "(82) 2621321",
+      "nome_logradouro": "ROD BR 101 NORTE, KM 33",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA URBANA",
+      "cep": "57990000",
+      "codigo_ibge": 2705200,
+      "municipio": "MESSIAS",
+      "latitude": -9.3886292,
+      "longitude": -35.8392634,
+      "valor_minimo": 5.179813526713039,
+      "valor_maximo": 5.179813526713039,
+      "valor_medio": 5.179813526713039,
+      "valor_recente": 5.179813526713039,
+      "data_recente": "2026-04-15T09:17:17Z"
     },
     {
       "cnpj": "27806368000106",
@@ -110,31 +130,11 @@
       "municipio": "MESSIAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.18998898306884,
-      "valor_maximo": 5.18998898306884,
-      "valor_medio": 5.18998898306884,
-      "valor_recente": 5.18998898306884,
-      "data_recente": "2026-04-15T07:18:43Z"
-    },
-    {
-      "cnpj": "11908167000333",
-      "tipo_combustivel": 3,
-      "razao_social": "DIESEL DISTRIBUIDORA E SERVICOS LTDA",
-      "nome_fantasia": "MEGA POSTO VIA NORTE",
-      "telefone": "(82) 2621321",
-      "nome_logradouro": "ROD BR 101 NORTE, KM 33",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA URBANA",
-      "cep": "57990000",
-      "codigo_ibge": 2705200,
-      "municipio": "MESSIAS",
-      "latitude": -9.3886292,
-      "longitude": -35.8392634,
-      "valor_minimo": 5.349882302589343,
-      "valor_maximo": 5.349882302589343,
-      "valor_medio": 5.349882302589343,
-      "valor_recente": 5.349882302589343,
-      "data_recente": "2026-04-14T11:03:54Z"
+      "valor_minimo": 5.189952252439277,
+      "valor_maximo": 5.189952252439277,
+      "valor_medio": 5.189952252439277,
+      "valor_recente": 5.189952252439277,
+      "data_recente": "2026-04-15T09:36:06Z"
     },
     {
       "cnpj": "11908167000333",
@@ -150,11 +150,11 @@
       "municipio": "MESSIAS",
       "latitude": -9.3886292,
       "longitude": -35.8392634,
-      "valor_minimo": 7.059986350693055,
-      "valor_maximo": 7.059986350693055,
-      "valor_medio": 7.059986350693055,
-      "valor_recente": 7.059986350693055,
-      "data_recente": "2026-04-15T01:04:28Z"
+      "valor_minimo": 7.059990504312772,
+      "valor_maximo": 7.059990504312772,
+      "valor_medio": 7.059990504312772,
+      "valor_recente": 7.059990504312772,
+      "data_recente": "2026-04-15T09:29:35Z"
     },
     {
       "cnpj": "27806368000106",
@@ -174,7 +174,7 @@
       "valor_maximo": 7.089986103627237,
       "valor_medio": 7.089986103627237,
       "valor_recente": 7.089986103627237,
-      "data_recente": "2026-04-15T06:37:33Z"
+      "data_recente": "2026-04-15T09:30:25Z"
     },
     {
       "cnpj": "27806368000106",
@@ -190,11 +190,11 @@
       "municipio": "MESSIAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 4.189907899857309,
-      "valor_maximo": 4.189907899857309,
-      "valor_medio": 4.189907899857309,
-      "valor_recente": 4.189907899857309,
-      "data_recente": "2026-04-15T07:33:10Z"
+      "valor_minimo": 4.189980481457384,
+      "valor_maximo": 4.189980481457384,
+      "valor_medio": 4.189980481457384,
+      "valor_recente": 4.189980481457384,
+      "data_recente": "2026-04-15T09:18:24Z"
     }
   ]
 }

@@ -1,38 +1,38 @@
 {
   "codigoIBGE": "2700706",
   "municipio": "Batalha",
-  "atualizadoEm": "2026-04-15T08:23:57.657Z",
+  "atualizadoEm": "2026-04-15T10:10:20.236Z",
   "totalEstabelecimentos": 13,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
       "valorMinimo": 6.748466257668712,
-      "valorMaximo": 7.149791955617198,
-      "valorMedio": 6.956804824869543
+      "valorMaximo": 7.35,
+      "valorMedio": 6.937089267430309
     },
     "2": {
       "totalPostos": 2,
       "valorMinimo": 6.85,
-      "valorMaximo": 7.178750897343862,
-      "valorMedio": 7.014375448671931
+      "valorMaximo": 7.17921146953405,
+      "valorMedio": 7.014605734767025
     },
     "3": {
       "totalPostos": 2,
       "valorMinimo": 5.2499345721015445,
-      "valorMaximo": 6.176652254478073,
-      "valorMedio": 5.713293413289809
+      "valorMaximo": 6.17970584600173,
+      "valorMedio": 5.714820209051638
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 8.5,
-      "valorMaximo": 8.5,
-      "valorMedio": 8.5
+      "valorMinimo": 8.499151103565366,
+      "valorMaximo": 8.499151103565366,
+      "valorMedio": 8.499151103565366
     },
     "5": {
       "totalPostos": 4,
-      "valorMinimo": 7.3,
+      "valorMinimo": 7.299980533385244,
       "valorMaximo": 7.689955357142857,
-      "valorMedio": 7.582404322603431
+      "valorMedio": 7.582399455949741
     }
   },
   "estabelecimentos": [
@@ -57,6 +57,26 @@
       "data_recente": "2026-04-14T22:30:29Z"
     },
     {
+      "cnpj": "15739214000151",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO AUTO PECAS E POUSADA PAGUE MENOS LTDA - EPP",
+      "nome_fantasia": "AUTO POSTO PAGUEMENOS",
+      "telefone": "(82) 35311131",
+      "nome_logradouro": "ROD AL 220",
+      "numero_imovel": "1500",
+      "bairro": "RODOVIA",
+      "cep": "57420000",
+      "codigo_ibge": 2700706,
+      "municipio": "BATALHA",
+      "latitude": -9.7734693,
+      "longitude": -36.0966998,
+      "valor_minimo": 6.799637352674524,
+      "valor_maximo": 6.799637352674524,
+      "valor_medio": 6.799637352674524,
+      "valor_recente": 6.799637352674524,
+      "data_recente": "2026-04-15T09:05:12Z"
+    },
+    {
       "cnpj": "12204558000178",
       "tipo_combustivel": 1,
       "razao_social": "NELSON VIEIRA DA ROCHA LTDA",
@@ -70,11 +90,11 @@
       "municipio": "BATALHA",
       "latitude": -9.674044,
       "longitude": -37.128221,
-      "valor_minimo": 6.8493150684931505,
-      "valor_maximo": 6.8493150684931505,
-      "valor_medio": 6.8493150684931505,
-      "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-14T22:53:59Z"
+      "valor_minimo": 6.850253459377997,
+      "valor_maximo": 6.850253459377997,
+      "valor_medio": 6.850253459377997,
+      "valor_recente": 6.850253459377997,
+      "data_recente": "2026-04-15T09:36:46Z"
     },
     {
       "cnpj": "11206098000154",
@@ -90,31 +110,11 @@
       "municipio": "BATALHA",
       "latitude": -9.674948,
       "longitude": -37.125839,
-      "valor_minimo": 7.079646017699115,
-      "valor_maximo": 7.079646017699115,
-      "valor_medio": 7.079646017699115,
-      "valor_recente": 7.079646017699115,
-      "data_recente": "2026-04-15T07:28:15Z"
-    },
-    {
-      "cnpj": "15739214000151",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO AUTO PECAS E POUSADA PAGUE MENOS LTDA - EPP",
-      "nome_fantasia": "AUTO POSTO PAGUEMENOS",
-      "telefone": "(82) 35311131",
-      "nome_logradouro": "ROD AL 220",
-      "numero_imovel": "1500",
-      "bairro": "RODOVIA",
-      "cep": "57420000",
-      "codigo_ibge": 2700706,
-      "municipio": "BATALHA",
-      "latitude": -9.7734693,
-      "longitude": -36.0966998,
-      "valor_minimo": 7.149791955617198,
-      "valor_maximo": 7.149791955617198,
-      "valor_medio": 7.149791955617198,
-      "valor_recente": 7.149791955617198,
-      "data_recente": "2026-04-15T02:51:42Z"
+      "valor_minimo": 7.35,
+      "valor_maximo": 7.35,
+      "valor_medio": 7.35,
+      "valor_recente": 7.35,
+      "data_recente": "2026-04-15T09:29:19Z"
     },
     {
       "cnpj": "12204558000178",
@@ -150,11 +150,11 @@
       "municipio": "BATALHA",
       "latitude": -9.674948,
       "longitude": -37.125839,
-      "valor_minimo": 7.178750897343862,
-      "valor_maximo": 7.178750897343862,
-      "valor_medio": 7.178750897343862,
-      "valor_recente": 7.178750897343862,
-      "data_recente": "2026-04-15T06:06:57Z"
+      "valor_minimo": 7.17921146953405,
+      "valor_maximo": 7.17921146953405,
+      "valor_medio": 7.17921146953405,
+      "valor_recente": 7.17921146953405,
+      "data_recente": "2026-04-15T09:15:55Z"
     },
     {
       "cnpj": "11376961000111",
@@ -190,11 +190,11 @@
       "municipio": "BATALHA",
       "latitude": -9.674948,
       "longitude": -37.125839,
-      "valor_minimo": 6.176652254478073,
-      "valor_maximo": 6.176652254478073,
-      "valor_medio": 6.176652254478073,
-      "valor_recente": 6.176652254478073,
-      "data_recente": "2026-04-15T06:06:57Z"
+      "valor_minimo": 6.17970584600173,
+      "valor_maximo": 6.17970584600173,
+      "valor_medio": 6.17970584600173,
+      "valor_recente": 6.17970584600173,
+      "data_recente": "2026-04-15T09:05:46Z"
     },
     {
       "cnpj": "15739214000151",
@@ -210,11 +210,11 @@
       "municipio": "BATALHA",
       "latitude": -9.7734693,
       "longitude": -36.0966998,
-      "valor_minimo": 8.5,
-      "valor_maximo": 8.5,
-      "valor_medio": 8.5,
-      "valor_recente": 8.5,
-      "data_recente": "2026-04-14T23:11:50Z"
+      "valor_minimo": 8.499151103565366,
+      "valor_maximo": 8.499151103565366,
+      "valor_medio": 8.499151103565366,
+      "valor_recente": 8.499151103565366,
+      "data_recente": "2026-04-15T09:05:12Z"
     },
     {
       "cnpj": "15739214000151",
@@ -230,11 +230,11 @@
       "municipio": "BATALHA",
       "latitude": -9.7734693,
       "longitude": -36.0966998,
-      "valor_minimo": 7.3,
-      "valor_maximo": 7.3,
-      "valor_medio": 7.3,
-      "valor_recente": 7.3,
-      "data_recente": "2026-04-15T00:32:24Z"
+      "valor_minimo": 7.299980533385244,
+      "valor_maximo": 7.299980533385244,
+      "valor_medio": 7.299980533385244,
+      "valor_recente": 7.299980533385244,
+      "data_recente": "2026-04-15T09:02:55Z"
     },
     {
       "cnpj": "11376961000111",
@@ -274,7 +274,7 @@
       "valor_maximo": 7.689547341979802,
       "valor_medio": 7.689547341979802,
       "valor_recente": 7.689547341979802,
-      "data_recente": "2026-04-15T06:53:52Z"
+      "data_recente": "2026-04-15T08:26:08Z"
     },
     {
       "cnpj": "12204558000178",

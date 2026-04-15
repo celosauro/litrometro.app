@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2702553",
   "municipio": "Estrela de Alagoas",
-  "atualizadoEm": "2026-04-15T08:30:25.840Z",
+  "atualizadoEm": "2026-04-15T10:18:53.086Z",
   "totalEstabelecimentos": 12,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.2926829268292686,
-      "valorMaximo": 6.891891891891892,
-      "valorMedio": 6.690240074461695
+      "valorMinimo": 6.28999319264806,
+      "valorMaximo": 6.889862327909888,
+      "valorMedio": 6.688666975073957
     },
     "2": {
       "totalPostos": 1,
@@ -18,21 +18,21 @@
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 4.5495049504950495,
+      "valorMinimo": 4.553704009239399,
       "valorMaximo": 4.990049751243781,
-      "valorMedio": 4.843108897319952
+      "valorMedio": 4.844508583568068
     },
     "4": {
       "totalPostos": 2,
       "valorMinimo": 7.341499421457926,
-      "valorMaximo": 8.3986562150056,
-      "valorMedio": 7.8700778182317634
+      "valorMaximo": 8.399520095980805,
+      "valorMedio": 7.870509758719365
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.279874786153679,
-      "valorMaximo": 7.319929728674604,
-      "valorMedio": 7.306573625521259
+      "valorMinimo": 7.09000567859171,
+      "valorMaximo": 7.319992572595735,
+      "valorMedio": 7.230002814213727
     }
   },
   "estabelecimentos": [
@@ -50,11 +50,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.3904105,
       "longitude": -36.7592457,
-      "valor_minimo": 6.2926829268292686,
-      "valor_maximo": 6.2926829268292686,
-      "valor_medio": 6.2926829268292686,
-      "valor_recente": 6.2926829268292686,
-      "data_recente": "2026-04-14T21:45:45Z"
+      "valor_minimo": 6.28999319264806,
+      "valor_maximo": 6.28999319264806,
+      "valor_medio": 6.28999319264806,
+      "valor_recente": 6.28999319264806,
+      "data_recente": "2026-04-15T08:25:10Z"
     },
     {
       "cnpj": "25359544000175",
@@ -90,11 +90,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.3904417,
       "longitude": -36.7595025,
-      "valor_minimo": 6.891891891891892,
-      "valor_maximo": 6.891891891891892,
-      "valor_medio": 6.891891891891892,
-      "valor_recente": 6.891891891891892,
-      "data_recente": "2026-04-15T01:02:50Z"
+      "valor_minimo": 6.889862327909888,
+      "valor_maximo": 6.889862327909888,
+      "valor_medio": 6.889862327909888,
+      "valor_recente": 6.889862327909888,
+      "data_recente": "2026-04-15T09:30:30Z"
     },
     {
       "cnpj": "29689769000140",
@@ -130,11 +130,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.3904105,
       "longitude": -36.7592457,
-      "valor_minimo": 4.5495049504950495,
-      "valor_maximo": 4.5495049504950495,
-      "valor_medio": 4.5495049504950495,
-      "valor_recente": 4.5495049504950495,
-      "data_recente": "2026-04-14T21:45:45Z"
+      "valor_minimo": 4.553704009239399,
+      "valor_maximo": 4.553704009239399,
+      "valor_medio": 4.553704009239399,
+      "valor_recente": 4.553704009239399,
+      "data_recente": "2026-04-15T08:24:34Z"
     },
     {
       "cnpj": "25359544000175",
@@ -210,31 +210,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.490857100000001,
       "longitude": -36.5661638,
-      "valor_minimo": 8.3986562150056,
-      "valor_maximo": 8.3986562150056,
-      "valor_medio": 8.3986562150056,
-      "valor_recente": 8.3986562150056,
-      "data_recente": "2026-04-15T00:00:16Z"
-    },
-    {
-      "cnpj": "29689769000140",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO TURMALINA LTDA",
-      "nome_fantasia": "AUTO POSTO TURMALINA",
-      "telefone": "",
-      "nome_logradouro": "ROD BR 316",
-      "numero_imovel": "KM 136",
-      "bairro": "MATA BURRO",
-      "cep": "57625000",
-      "codigo_ibge": 2702553,
-      "municipio": "ESTRELA DE ALAGOAS",
-      "latitude": -9.3904105,
-      "longitude": -36.7592457,
-      "valor_minimo": 7.279874786153679,
-      "valor_maximo": 7.279874786153679,
-      "valor_medio": 7.279874786153679,
-      "valor_recente": 7.279874786153679,
-      "data_recente": "2026-04-14T22:31:23Z"
+      "valor_minimo": 8.399520095980805,
+      "valor_maximo": 8.399520095980805,
+      "valor_medio": 8.399520095980805,
+      "valor_recente": 8.399520095980805,
+      "data_recente": "2026-04-15T09:00:03Z"
     },
     {
       "cnpj": "22727145000121",
@@ -250,11 +230,31 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.3904417,
       "longitude": -36.7595025,
-      "valor_minimo": 7.319916361735494,
+      "valor_minimo": 7.09000567859171,
       "valor_maximo": 7.992,
-      "valor_medio": 7.6559581808677475,
-      "valor_recente": 7.319916361735494,
-      "data_recente": "2026-04-15T00:27:14Z"
+      "valor_medio": 7.541002839295855,
+      "valor_recente": 7.09000567859171,
+      "data_recente": "2026-04-15T09:32:37Z"
+    },
+    {
+      "cnpj": "29689769000140",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO TURMALINA LTDA",
+      "nome_fantasia": "AUTO POSTO TURMALINA",
+      "telefone": "",
+      "nome_logradouro": "ROD BR 316",
+      "numero_imovel": "KM 136",
+      "bairro": "MATA BURRO",
+      "cep": "57625000",
+      "codigo_ibge": 2702553,
+      "municipio": "ESTRELA DE ALAGOAS",
+      "latitude": -9.3904105,
+      "longitude": -36.7592457,
+      "valor_minimo": 7.280010191453738,
+      "valor_maximo": 7.280010191453738,
+      "valor_medio": 7.280010191453738,
+      "valor_recente": 7.280010191453738,
+      "data_recente": "2026-04-15T09:26:15Z"
     },
     {
       "cnpj": "25359544000175",
@@ -270,11 +270,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.490857100000001,
       "longitude": -36.5661638,
-      "valor_minimo": 7.319929728674604,
-      "valor_maximo": 7.319929728674604,
-      "valor_medio": 7.319929728674604,
-      "valor_recente": 7.319929728674604,
-      "data_recente": "2026-04-14T23:20:34Z"
+      "valor_minimo": 7.319992572595735,
+      "valor_maximo": 7.319992572595735,
+      "valor_medio": 7.319992572595735,
+      "valor_recente": 7.319992572595735,
+      "data_recente": "2026-04-15T07:46:51Z"
     }
   ]
 }
