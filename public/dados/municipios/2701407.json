@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2701407",
   "municipio": "Campo Alegre",
-  "atualizadoEm": "2026-04-15T20:17:45.995Z",
+  "atualizadoEm": "2026-04-15T21:47:41.785Z",
   "totalEstabelecimentos": 14,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
-      "valorMinimo": 6.589785831960461,
+      "valorMinimo": 6.920415224913495,
       "valorMaximo": 6.99,
-      "valorMedio": 6.884220234062186
+      "valorMedio": 6.967201177238696
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.988934187536401,
-      "valorMaximo": 6.98909700866648,
-      "valorMedio": 6.989015598101441
+      "valorMinimo": 6.98909700866648,
+      "valorMaximo": 6.989976373879856,
+      "valorMedio": 6.989536691273168
     },
     "3": {
       "totalPostos": 4,
-      "valorMinimo": 3.1410413101931067,
-      "valorMaximo": 5.099439061703213,
-      "valorMedio": 4.605081070239095
+      "valorMinimo": 4.8899396706342735,
+      "valorMaximo": 5.099947764711878,
+      "valorMedio": 5.042432836101553
     },
     "5": {
       "totalPostos": 4,
-      "valorMinimo": 7.199932811825119,
+      "valorMinimo": 7.1999077399584825,
       "valorMaximo": 7.29,
-      "valorMedio": 7.267395817386979
+      "valorMedio": 7.2671851453150875
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "CAMPO ALEGRE",
       "latitude": -10.1172981,
       "longitude": -36.768521,
-      "valor_minimo": 6.589785831960461,
-      "valor_maximo": 6.589785831960461,
-      "valor_medio": 6.589785831960461,
-      "valor_recente": 6.589785831960461,
-      "data_recente": "2026-04-15T19:31:55Z"
+      "valor_minimo": 6.920415224913495,
+      "valor_maximo": 6.920415224913495,
+      "valor_medio": 6.920415224913495,
+      "valor_recente": 6.920415224913495,
+      "data_recente": "2026-04-15T21:11:43Z"
     },
     {
       "cnpj": "09280439000190",
@@ -64,11 +64,11 @@
       "municipio": "CAMPO ALEGRE",
       "latitude": -9.781555599999999,
       "longitude": -36.3440973,
-      "valor_minimo": 6.9696124895455815,
-      "valor_maximo": 6.9696124895455815,
-      "valor_medio": 6.9696124895455815,
-      "valor_recente": 6.9696124895455815,
-      "data_recente": "2026-04-15T19:03:54Z"
+      "valor_minimo": 6.968641114982578,
+      "valor_maximo": 6.968641114982578,
+      "valor_medio": 6.968641114982578,
+      "valor_recente": 6.968641114982578,
+      "data_recente": "2026-04-15T21:29:20Z"
     },
     {
       "cnpj": "07583696000175",
@@ -84,11 +84,11 @@
       "municipio": "CAMPO ALEGRE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.9874826147426985,
-      "valor_maximo": 6.9874826147426985,
-      "valor_medio": 6.9874826147426985,
-      "valor_recente": 6.9874826147426985,
-      "data_recente": "2026-04-15T18:40:20Z"
+      "valor_minimo": 6.989748369058714,
+      "valor_maximo": 6.989748369058714,
+      "valor_medio": 6.989748369058714,
+      "valor_recente": 6.989748369058714,
+      "data_recente": "2026-04-15T21:21:48Z"
     },
     {
       "cnpj": "11968667000107",
@@ -111,26 +111,6 @@
       "data_recente": "2026-04-15T18:34:52Z"
     },
     {
-      "cnpj": "09280439000190",
-      "tipo_combustivel": 2,
-      "razao_social": "AUTO POSTO CAMPO ALEGRE LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 3264277",
-      "nome_logradouro": "RDV AL 22O KM 36",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57250000",
-      "codigo_ibge": 2701407,
-      "municipio": "CAMPO ALEGRE",
-      "latitude": -9.781555599999999,
-      "longitude": -36.3440973,
-      "valor_minimo": 6.988934187536401,
-      "valor_maximo": 6.988934187536401,
-      "valor_medio": 6.988934187536401,
-      "valor_recente": 6.988934187536401,
-      "data_recente": "2026-04-15T16:59:37Z"
-    },
-    {
       "cnpj": "07583696000175",
       "tipo_combustivel": 2,
       "razao_social": "AGRESTE COMBUSTIVEIS E SERVICOS LTDA",
@@ -148,7 +128,27 @@
       "valor_maximo": 6.98909700866648,
       "valor_medio": 6.98909700866648,
       "valor_recente": 6.98909700866648,
-      "data_recente": "2026-04-15T19:36:24Z"
+      "data_recente": "2026-04-15T21:21:48Z"
+    },
+    {
+      "cnpj": "09280439000190",
+      "tipo_combustivel": 2,
+      "razao_social": "AUTO POSTO CAMPO ALEGRE LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 3264277",
+      "nome_logradouro": "RDV AL 22O KM 36",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57250000",
+      "codigo_ibge": 2701407,
+      "municipio": "CAMPO ALEGRE",
+      "latitude": -9.781555599999999,
+      "longitude": -36.3440973,
+      "valor_minimo": 6.989976373879856,
+      "valor_maximo": 6.989976373879856,
+      "valor_medio": 6.989976373879856,
+      "valor_recente": 6.989976373879856,
+      "data_recente": "2026-04-15T21:29:20Z"
     },
     {
       "cnpj": "02991589000324",
@@ -164,11 +164,11 @@
       "municipio": "CAMPO ALEGRE",
       "latitude": -10.1172981,
       "longitude": -36.768521,
-      "valor_minimo": 3.1410413101931067,
-      "valor_maximo": 3.1410413101931067,
-      "valor_medio": 3.1410413101931067,
-      "valor_recente": 3.1410413101931067,
-      "data_recente": "2026-04-15T18:56:28Z"
+      "valor_minimo": 4.8899396706342735,
+      "valor_maximo": 4.8899396706342735,
+      "valor_medio": 4.8899396706342735,
+      "valor_recente": 4.8899396706342735,
+      "data_recente": "2026-04-15T20:54:52Z"
     },
     {
       "cnpj": "11968667000107",
@@ -224,11 +224,11 @@
       "municipio": "CAMPO ALEGRE",
       "latitude": -9.781555599999999,
       "longitude": -36.3440973,
-      "valor_minimo": 5.099439061703213,
-      "valor_maximo": 5.099439061703213,
-      "valor_medio": 5.099439061703213,
-      "valor_recente": 5.099439061703213,
-      "data_recente": "2026-04-15T17:15:33Z"
+      "valor_minimo": 5.099947764711878,
+      "valor_maximo": 5.099947764711878,
+      "valor_medio": 5.099947764711878,
+      "valor_recente": 5.099947764711878,
+      "data_recente": "2026-04-15T21:29:20Z"
     },
     {
       "cnpj": "09280439000190",
@@ -244,11 +244,11 @@
       "municipio": "CAMPO ALEGRE",
       "latitude": -9.781555599999999,
       "longitude": -36.3440973,
-      "valor_minimo": 7.199932811825119,
+      "valor_minimo": 7.1999077399584825,
       "valor_maximo": 7.297297297297297,
-      "valor_medio": 7.248615054561208,
-      "valor_recente": 7.199932811825119,
-      "data_recente": "2026-04-15T17:15:33Z"
+      "valor_medio": 7.24860251862789,
+      "valor_recente": 7.1999077399584825,
+      "data_recente": "2026-04-15T21:18:14Z"
     },
     {
       "cnpj": "07583696000175",
@@ -264,11 +264,11 @@
       "municipio": "CAMPO ALEGRE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.289692374981776,
-      "valor_maximo": 7.289692374981776,
-      "valor_medio": 7.289692374981776,
-      "valor_recente": 7.289692374981776,
-      "data_recente": "2026-04-15T18:35:14Z"
+      "valor_minimo": 7.288860380585846,
+      "valor_maximo": 7.288860380585846,
+      "valor_medio": 7.288860380585846,
+      "valor_recente": 7.288860380585846,
+      "data_recente": "2026-04-15T21:21:48Z"
     },
     {
       "cnpj": "02991589000324",
@@ -284,11 +284,11 @@
       "municipio": "CAMPO ALEGRE",
       "latitude": -10.1172981,
       "longitude": -36.768521,
-      "valor_minimo": 7.289958082741024,
-      "valor_maximo": 7.289958082741024,
-      "valor_medio": 7.289958082741024,
-      "valor_recente": 7.289958082741024,
-      "data_recente": "2026-04-15T18:21:55Z"
+      "valor_minimo": 7.2899724607160215,
+      "valor_maximo": 7.2899724607160215,
+      "valor_medio": 7.2899724607160215,
+      "valor_recente": 7.2899724607160215,
+      "data_recente": "2026-04-15T20:54:31Z"
     },
     {
       "cnpj": "11968667000107",

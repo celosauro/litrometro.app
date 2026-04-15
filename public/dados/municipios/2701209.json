@@ -1,55 +1,35 @@
 {
   "codigoIBGE": "2701209",
   "municipio": "Cacimbinhas",
-  "atualizadoEm": "2026-04-15T20:16:57.925Z",
+  "atualizadoEm": "2026-04-15T21:46:25.593Z",
   "totalEstabelecimentos": 12,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 5.919618528610354,
-      "valorMaximo": 6.8493150684931505,
-      "valorMedio": 6.506498464952105
+      "valorMinimo": 6.750561797752809,
+      "valorMaximo": 7.050387596899225,
+      "valorMedio": 6.930153294720841
     },
     "2": {
       "totalPostos": 2,
       "valorMinimo": 6.800063884642588,
-      "valorMaximo": 6.89,
-      "valorMedio": 6.8450319423212935
+      "valorMaximo": 6.8899688958009335,
+      "valorMedio": 6.845016390221761
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 4.9900249376558605,
-      "valorMaximo": 5.989458552946814,
-      "valorMedio": 5.559824688214527
+      "valorMinimo": 4.990049751243781,
+      "valorMaximo": 6.14,
+      "valorMedio": 5.610013441761563
     },
     "5": {
       "totalPostos": 4,
-      "valorMinimo": 7.289958082741024,
+      "valorMinimo": 7.4901392980178745,
       "valorMaximo": 7.94,
-      "valorMedio": 7.617524345189725
+      "valorMedio": 7.717542573729546
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "34745647000164",
-      "tipo_combustivel": 1,
-      "razao_social": "P. COSTA & FRANÇA LTDA",
-      "nome_fantasia": "AUTO POSTO KELLY BEZERRA - CACIMBINHAS",
-      "telefone": "(82) 82197711",
-      "nome_logradouro": "LOT OLIVEIROS BATALHA DE ARAUJO",
-      "numero_imovel": "SN",
-      "bairro": "CENTRO",
-      "cep": "57570000",
-      "codigo_ibge": 2701209,
-      "municipio": "CACIMBINHAS",
-      "latitude": -9.3994992,
-      "longitude": -36.9904045,
-      "valor_minimo": 5.919618528610354,
-      "valor_maximo": 5.919618528610354,
-      "valor_medio": 5.919618528610354,
-      "valor_recente": 5.919618528610354,
-      "data_recente": "2026-04-15T18:05:05Z"
-    },
     {
       "cnpj": "11910007000167",
       "tipo_combustivel": 1,
@@ -71,6 +51,26 @@
       "data_recente": "2026-04-12T01:19:17Z"
     },
     {
+      "cnpj": "34745647000164",
+      "tipo_combustivel": 1,
+      "razao_social": "P. COSTA & FRANÇA LTDA",
+      "nome_fantasia": "AUTO POSTO KELLY BEZERRA - CACIMBINHAS",
+      "telefone": "(82) 82197711",
+      "nome_logradouro": "LOT OLIVEIROS BATALHA DE ARAUJO",
+      "numero_imovel": "SN",
+      "bairro": "CENTRO",
+      "cep": "57570000",
+      "codigo_ibge": 2701209,
+      "municipio": "CACIMBINHAS",
+      "latitude": -9.3994992,
+      "longitude": -36.9904045,
+      "valor_minimo": 6.989510489510489,
+      "valor_maximo": 6.989510489510489,
+      "valor_medio": 6.989510489510489,
+      "valor_recente": 6.989510489510489,
+      "data_recente": "2026-04-15T21:28:01Z"
+    },
+    {
       "cnpj": "13631547000137",
       "tipo_combustivel": 1,
       "razao_social": "AUTO POSTO MINADOR LTDA",
@@ -84,11 +84,11 @@
       "municipio": "CACIMBINHAS",
       "latitude": -9.3995816,
       "longitude": -36.9267589,
-      "valor_minimo": 6.8493150684931505,
-      "valor_maximo": 6.8493150684931505,
-      "valor_medio": 6.8493150684931505,
-      "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-15T19:25:44Z"
+      "valor_minimo": 7.050387596899225,
+      "valor_maximo": 7.050387596899225,
+      "valor_medio": 7.050387596899225,
+      "valor_recente": 7.050387596899225,
+      "data_recente": "2026-04-15T21:24:47Z"
     },
     {
       "cnpj": "05560272000160",
@@ -124,11 +124,11 @@
       "municipio": "CACIMBINHAS",
       "latitude": -9.3995816,
       "longitude": -36.9267589,
-      "valor_minimo": 6.89,
-      "valor_maximo": 6.89,
-      "valor_medio": 6.89,
-      "valor_recente": 6.89,
-      "data_recente": "2026-04-15T16:16:40Z"
+      "valor_minimo": 6.8899688958009335,
+      "valor_maximo": 6.8899688958009335,
+      "valor_medio": 6.8899688958009335,
+      "valor_recente": 6.8899688958009335,
+      "data_recente": "2026-04-15T20:35:32Z"
     },
     {
       "cnpj": "13631547000137",
@@ -144,11 +144,11 @@
       "municipio": "CACIMBINHAS",
       "latitude": -9.3995816,
       "longitude": -36.9267589,
-      "valor_minimo": 4.9900249376558605,
-      "valor_maximo": 4.9900249376558605,
-      "valor_medio": 4.9900249376558605,
-      "valor_recente": 4.9900249376558605,
-      "data_recente": "2026-04-15T18:52:20Z"
+      "valor_minimo": 4.990049751243781,
+      "valor_maximo": 4.990049751243781,
+      "valor_medio": 4.990049751243781,
+      "valor_recente": 4.990049751243781,
+      "data_recente": "2026-04-15T21:11:04Z"
     },
     {
       "cnpj": "05560272000160",
@@ -184,31 +184,11 @@
       "municipio": "CACIMBINHAS",
       "latitude": -9.3994992,
       "longitude": -36.9904045,
-      "valor_minimo": 5.989458552946814,
-      "valor_maximo": 5.989458552946814,
-      "valor_medio": 5.989458552946814,
-      "valor_recente": 5.989458552946814,
-      "data_recente": "2026-04-15T19:34:50Z"
-    },
-    {
-      "cnpj": "13631547000137",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO MINADOR LTDA",
-      "nome_fantasia": "POSTO MINADOR",
-      "telefone": "(82) 99470142",
-      "nome_logradouro": "ROD POVOADO MINADOR DO LUCIO",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57570000",
-      "codigo_ibge": 2701209,
-      "municipio": "CACIMBINHAS",
-      "latitude": -9.3995816,
-      "longitude": -36.9267589,
-      "valor_minimo": 7.289958082741024,
-      "valor_maximo": 7.289958082741024,
-      "valor_medio": 7.289958082741024,
-      "valor_recente": 7.289958082741024,
-      "data_recente": "2026-04-15T19:25:44Z"
+      "valor_minimo": 6.14,
+      "valor_maximo": 6.14,
+      "valor_medio": 6.14,
+      "valor_recente": 6.14,
+      "data_recente": "2026-04-15T21:22:07Z"
     },
     {
       "cnpj": "05560272000160",
@@ -229,6 +209,26 @@
       "valor_medio": 7.4901392980178745,
       "valor_recente": 7.4901392980178745,
       "data_recente": "2026-04-10T12:19:44Z"
+    },
+    {
+      "cnpj": "13631547000137",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO MINADOR LTDA",
+      "nome_fantasia": "POSTO MINADOR",
+      "telefone": "(82) 99470142",
+      "nome_logradouro": "ROD POVOADO MINADOR DO LUCIO",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57570000",
+      "codigo_ibge": 2701209,
+      "municipio": "CACIMBINHAS",
+      "latitude": -9.3995816,
+      "longitude": -36.9267589,
+      "valor_minimo": 7.69003099690031,
+      "valor_maximo": 7.69003099690031,
+      "valor_medio": 7.69003099690031,
+      "valor_recente": 7.69003099690031,
+      "data_recente": "2026-04-15T21:23:05Z"
     },
     {
       "cnpj": "11910007000167",
@@ -268,7 +268,7 @@
       "valor_maximo": 7.94,
       "valor_medio": 7.94,
       "valor_recente": 7.94,
-      "data_recente": "2026-04-15T19:32:53Z"
+      "data_recente": "2026-04-15T21:15:47Z"
     }
   ]
 }

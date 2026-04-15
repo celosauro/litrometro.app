@@ -1,20 +1,20 @@
 {
   "codigoIBGE": "2705002",
   "municipio": "Mata Grande",
-  "atualizadoEm": "2026-04-15T20:34:21.246Z",
+  "atualizadoEm": "2026-04-15T22:07:51.007Z",
   "totalEstabelecimentos": 14,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.9378357636224095,
-      "valorMaximo": 7.182761372705507,
-      "valorMedio": 7.083244225094009
+      "valorMinimo": 6.939625260235947,
+      "valorMaximo": 7.178750897343862,
+      "valorMedio": 7.08250389884464
     },
     "2": {
       "totalPostos": 5,
-      "valorMinimo": 6.849598990718212,
+      "valorMinimo": 6.850218128938439,
       "valorMaximo": 7.329896907216495,
-      "valorMedio": 7.07139084602441
+      "valorMedio": 7.071805797802526
     },
     "3": {
       "totalPostos": 1,
@@ -24,9 +24,9 @@
     },
     "5": {
       "totalPostos": 5,
-      "valorMinimo": 7.15007215007215,
+      "valorMinimo": 7.38013698630137,
       "valorMaximo": 8.130081300813009,
-      "valorMedio": 7.58814656508809
+      "valorMedio": 7.637339377268655
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1179273,
       "longitude": -37.7255414,
-      "valor_minimo": 6.9378357636224095,
-      "valor_maximo": 6.9378357636224095,
-      "valor_medio": 6.9378357636224095,
-      "valor_recente": 6.9378357636224095,
-      "data_recente": "2026-04-15T17:27:15Z"
+      "valor_minimo": 6.939625260235947,
+      "valor_maximo": 6.939625260235947,
+      "valor_medio": 6.939625260235947,
+      "valor_recente": 6.939625260235947,
+      "data_recente": "2026-04-15T20:21:12Z"
     },
     {
       "cnpj": "08850457000105",
@@ -84,11 +84,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.118687099999999,
       "longitude": -37.73142,
-      "valor_minimo": 7.182761372705507,
-      "valor_maximo": 7.182761372705507,
-      "valor_medio": 7.182761372705507,
-      "valor_recente": 7.182761372705507,
-      "data_recente": "2026-04-15T19:29:05Z"
+      "valor_minimo": 7.178750897343862,
+      "valor_maximo": 7.178750897343862,
+      "valor_medio": 7.178750897343862,
+      "valor_recente": 7.178750897343862,
+      "data_recente": "2026-04-15T21:21:58Z"
     },
     {
       "cnpj": "24250482000104",
@@ -104,11 +104,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1186768,
       "longitude": -37.7313914,
-      "valor_minimo": 6.849598990718212,
-      "valor_maximo": 6.849598990718212,
-      "valor_medio": 6.849598990718212,
-      "valor_recente": 6.849598990718212,
-      "data_recente": "2026-04-15T18:55:38Z"
+      "valor_minimo": 6.850218128938439,
+      "valor_maximo": 6.850218128938439,
+      "valor_medio": 6.850218128938439,
+      "valor_recente": 6.850218128938439,
+      "data_recente": "2026-04-15T21:04:11Z"
     },
     {
       "cnpj": "13240923000162",
@@ -124,11 +124,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1184121,
       "longitude": -37.729208,
-      "valor_minimo": 6.9385629989586945,
-      "valor_maximo": 6.9385629989586945,
-      "valor_medio": 6.9385629989586945,
-      "valor_recente": 6.9385629989586945,
-      "data_recente": "2026-04-15T16:36:58Z"
+      "valor_minimo": 6.939398141727915,
+      "valor_maximo": 6.939398141727915,
+      "valor_medio": 6.939398141727915,
+      "valor_recente": 6.939398141727915,
+      "data_recente": "2026-04-15T21:09:00Z"
     },
     {
       "cnpj": "08804741000137",
@@ -148,7 +148,7 @@
       "valor_maximo": 6.939625260235947,
       "valor_medio": 6.939625260235947,
       "valor_recente": 6.939625260235947,
-      "data_recente": "2026-04-15T17:26:55Z"
+      "data_recente": "2026-04-15T20:26:56Z"
     },
     {
       "cnpj": "08850457000105",
@@ -164,11 +164,11 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1229984,
       "longitude": -37.7355222,
-      "valor_minimo": 7.299270072992701,
-      "valor_maximo": 7.299270072992701,
-      "valor_medio": 7.299270072992701,
-      "valor_recente": 7.299270072992701,
-      "data_recente": "2026-04-15T19:33:51Z"
+      "valor_minimo": 7.299890550893834,
+      "valor_maximo": 7.299890550893834,
+      "valor_medio": 7.299890550893834,
+      "valor_recente": 7.299890550893834,
+      "data_recente": "2026-04-15T21:29:00Z"
     },
     {
       "cnpj": "09419389000189",
@@ -211,26 +211,6 @@
       "data_recente": "2026-04-15T16:01:35Z"
     },
     {
-      "cnpj": "24250482000104",
-      "tipo_combustivel": 5,
-      "razao_social": "T. LOU DE SOUSA LTDA",
-      "nome_fantasia": "POSTO TEXACO OASIS DO SERTÃO",
-      "telefone": "",
-      "nome_logradouro": " TV PEDRO VIEIRA",
-      "numero_imovel": "15",
-      "bairro": "CENTRO",
-      "cep": "57540000",
-      "codigo_ibge": 2705002,
-      "municipio": "MATA GRANDE",
-      "latitude": -9.1186768,
-      "longitude": -37.7313914,
-      "valor_minimo": 7.15007215007215,
-      "valor_maximo": 7.599939200486396,
-      "valor_medio": 7.375005675279273,
-      "valor_recente": 7.15007215007215,
-      "data_recente": "2026-04-15T19:16:07Z"
-    },
-    {
       "cnpj": "13240923000162",
       "tipo_combustivel": 5,
       "razao_social": "AUTO POSTO PRIMOS LTDA",
@@ -244,11 +224,31 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1184121,
       "longitude": -37.729208,
-      "valor_minimo": 7.380162044472999,
-      "valor_maximo": 7.380162044472999,
-      "valor_medio": 7.380162044472999,
-      "valor_recente": 7.380162044472999,
-      "data_recente": "2026-04-15T19:20:37Z"
+      "valor_minimo": 7.38013698630137,
+      "valor_maximo": 7.38013698630137,
+      "valor_medio": 7.38013698630137,
+      "valor_recente": 7.38013698630137,
+      "data_recente": "2026-04-15T21:09:55Z"
+    },
+    {
+      "cnpj": "24250482000104",
+      "tipo_combustivel": 5,
+      "razao_social": "T. LOU DE SOUSA LTDA",
+      "nome_fantasia": "POSTO TEXACO OASIS DO SERTÃO",
+      "telefone": "",
+      "nome_logradouro": " TV PEDRO VIEIRA",
+      "numero_imovel": "15",
+      "bairro": "CENTRO",
+      "cep": "57540000",
+      "codigo_ibge": 2705002,
+      "municipio": "MATA GRANDE",
+      "latitude": -9.1186768,
+      "longitude": -37.7313914,
+      "valor_minimo": 7.3960612691466086,
+      "valor_maximo": 7.599939200486396,
+      "valor_medio": 7.4980002348165025,
+      "valor_recente": 7.3960612691466086,
+      "data_recente": "2026-04-15T21:02:23Z"
     },
     {
       "cnpj": "08804741000137",
@@ -308,7 +308,7 @@
       "valor_maximo": 8.130081300813009,
       "valor_medio": 8.130081300813009,
       "valor_recente": 8.130081300813009,
-      "data_recente": "2026-04-15T19:28:58Z"
+      "data_recente": "2026-04-15T20:39:34Z"
     }
   ]
 }

@@ -1,62 +1,42 @@
 {
   "codigoIBGE": "2706703",
   "municipio": "Penedo",
-  "atualizadoEm": "2026-04-15T20:41:56.951Z",
+  "atualizadoEm": "2026-04-15T22:16:23.453Z",
   "totalEstabelecimentos": 22,
   "combustiveis": {
     "1": {
       "totalPostos": 6,
-      "valorMinimo": 6.919876694819679,
-      "valorMaximo": 7.041067041067041,
-      "valorMedio": 7.003581056974423
+      "valorMinimo": 6.989831249772205,
+      "valorMaximo": 7.042253521126761,
+      "valorMedio": 7.023676097650225
     },
     "2": {
       "totalPostos": 3,
-      "valorMinimo": 7.139457401237506,
-      "valorMaximo": 7.140307033202427,
-      "valorMedio": 7.139853888066203
+      "valorMinimo": 7.13979348689436,
+      "valorMaximo": 7.140218303946264,
+      "valorMedio": 7.140003930280208
     },
     "3": {
       "totalPostos": 6,
-      "valorMinimo": 5.489478499542543,
-      "valorMaximo": 5.690440060698028,
-      "valorMedio": 5.622862980497011
+      "valorMinimo": 5.489980785067252,
+      "valorMaximo": 5.690224194833276,
+      "valorMedio": 5.6232760541026074
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 7.339302544769086,
-      "valorMaximo": 7.339302544769086,
-      "valorMedio": 7.339302544769086
+      "valorMinimo": 7.69987063389392,
+      "valorMaximo": 7.69987063389392,
+      "valorMedio": 7.69987063389392
     },
     "5": {
       "totalPostos": 6,
-      "valorMinimo": 7.2496837158864995,
+      "valorMinimo": 7.3499933181878925,
       "valorMaximo": 7.539853080805557,
-      "valorMedio": 7.414867333272802
+      "valorMedio": 7.463208625437049
     }
   },
   "estabelecimentos": [
     {
-      "cnpj": "12396339000561",
-      "tipo_combustivel": 1,
-      "razao_social": "DISTRIBUIDORA DE VEICULOS CONFIANCA LIMITADA",
-      "nome_fantasia": "POSTO GRANDE RIO II",
-      "telefone": "(82) 35513115",
-      "nome_logradouro": "ROD AL 110",
-      "numero_imovel": "300",
-      "bairro": "SANTA LUZIA",
-      "cep": "57200000",
-      "codigo_ibge": 2706703,
-      "municipio": "PENEDO",
-      "latitude": -10.2773264,
-      "longitude": -36.5580218,
-      "valor_minimo": 6.919876694819679,
-      "valor_maximo": 7.139343254212274,
-      "valor_medio": 7.029609974515976,
-      "valor_recente": 6.919876694819679,
-      "data_recente": "2026-04-15T19:35:33Z"
-    },
-    {
       "cnpj": "10800554000127",
       "tipo_combustivel": 1,
       "razao_social": "M. A. C. SANTOS MARINHO",
@@ -70,11 +50,11 @@
       "municipio": "PENEDO",
       "latitude": -10.2934696,
       "longitude": -36.5842168,
-      "valor_minimo": 6.9897281811194185,
-      "valor_maximo": 6.9897281811194185,
-      "valor_medio": 6.9897281811194185,
-      "valor_recente": 6.9897281811194185,
-      "data_recente": "2026-04-15T19:12:25Z"
+      "valor_minimo": 6.989831249772205,
+      "valor_maximo": 6.989831249772205,
+      "valor_medio": 6.989831249772205,
+      "valor_recente": 6.989831249772205,
+      "data_recente": "2026-04-15T21:29:31Z"
     },
     {
       "cnpj": "00404850000406",
@@ -90,51 +70,11 @@
       "municipio": "PENEDO",
       "latitude": -10.2816207,
       "longitude": -36.5625192,
-      "valor_minimo": 6.990934449093445,
-      "valor_maximo": 6.990934449093445,
-      "valor_medio": 6.990934449093445,
-      "valor_recente": 6.990934449093445,
-      "data_recente": "2026-04-15T19:31:22Z"
-    },
-    {
-      "cnpj": "12396339000308",
-      "tipo_combustivel": 1,
-      "razao_social": "DISTRIBUIDORA DE VEICULOS CONFIANCA LIMITADA",
-      "nome_fantasia": "POSTO GRANDE RIO I",
-      "telefone": "",
-      "nome_logradouro": "RDV ENGENHEIRO JOAQUIM GONCALVES",
-      "numero_imovel": "1673",
-      "bairro": "DOM CONSTANTINO",
-      "cep": "57200000",
-      "codigo_ibge": 2706703,
-      "municipio": "PENEDO",
-      "latitude": -10.2856336,
-      "longitude": -36.551212,
-      "valor_minimo": 7.039279177812192,
-      "valor_maximo": 7.039279177812192,
-      "valor_medio": 7.039279177812192,
-      "valor_recente": 7.039279177812192,
-      "data_recente": "2026-04-15T19:31:40Z"
-    },
-    {
-      "cnpj": "12541579000421",
-      "tipo_combustivel": 1,
-      "razao_social": "IMPORTADORA BARBOSA LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 35512500",
-      "nome_logradouro": "PC LARGO DE FATIMA",
-      "numero_imovel": "01",
-      "bairro": "CENTRO",
-      "cep": "57200000",
-      "codigo_ibge": 2706703,
-      "municipio": "PENEDO",
-      "latitude": -10.282813,
-      "longitude": -36.56965,
-      "valor_minimo": 7.040600797934757,
-      "valor_maximo": 7.040600797934757,
-      "valor_medio": 7.040600797934757,
-      "valor_recente": 7.040600797934757,
-      "data_recente": "2026-04-15T19:36:38Z"
+      "valor_minimo": 6.9906976744186045,
+      "valor_maximo": 6.9906976744186045,
+      "valor_medio": 6.9906976744186045,
+      "valor_recente": 6.9906976744186045,
+      "data_recente": "2026-04-15T21:30:17Z"
     },
     {
       "cnpj": "05388025000128",
@@ -150,15 +90,15 @@
       "municipio": "PENEDO",
       "latitude": -10.2838306,
       "longitude": -36.5576656,
-      "valor_minimo": 7.041067041067041,
-      "valor_maximo": 7.041067041067041,
-      "valor_medio": 7.041067041067041,
-      "valor_recente": 7.041067041067041,
-      "data_recente": "2026-04-15T19:35:05Z"
+      "valor_minimo": 7.039499413375049,
+      "valor_maximo": 7.039499413375049,
+      "valor_medio": 7.039499413375049,
+      "valor_recente": 7.039499413375049,
+      "data_recente": "2026-04-15T21:30:42Z"
     },
     {
       "cnpj": "12396339000308",
-      "tipo_combustivel": 2,
+      "tipo_combustivel": 1,
       "razao_social": "DISTRIBUIDORA DE VEICULOS CONFIANCA LIMITADA",
       "nome_fantasia": "POSTO GRANDE RIO I",
       "telefone": "",
@@ -170,15 +110,35 @@
       "municipio": "PENEDO",
       "latitude": -10.2856336,
       "longitude": -36.551212,
-      "valor_minimo": 7.139457401237506,
-      "valor_maximo": 7.139457401237506,
-      "valor_medio": 7.139457401237506,
-      "valor_recente": 7.139457401237506,
-      "data_recente": "2026-04-15T18:34:45Z"
+      "valor_minimo": 7.039774727208729,
+      "valor_maximo": 7.039774727208729,
+      "valor_medio": 7.039774727208729,
+      "valor_recente": 7.039774727208729,
+      "data_recente": "2026-04-15T21:30:17Z"
+    },
+    {
+      "cnpj": "12396339000561",
+      "tipo_combustivel": 1,
+      "razao_social": "DISTRIBUIDORA DE VEICULOS CONFIANCA LIMITADA",
+      "nome_fantasia": "POSTO GRANDE RIO II",
+      "telefone": "(82) 35513115",
+      "nome_logradouro": "ROD AL 110",
+      "numero_imovel": "300",
+      "bairro": "SANTA LUZIA",
+      "cep": "57200000",
+      "codigo_ibge": 2706703,
+      "municipio": "PENEDO",
+      "latitude": -10.2773264,
+      "longitude": -36.5580218,
+      "valor_minimo": 7.04,
+      "valor_maximo": 7.139800285306705,
+      "valor_medio": 7.089900142653352,
+      "valor_recente": 7.04,
+      "data_recente": "2026-04-15T21:21:46Z"
     },
     {
       "cnpj": "12541579000421",
-      "tipo_combustivel": 2,
+      "tipo_combustivel": 1,
       "razao_social": "IMPORTADORA BARBOSA LTDA",
       "nome_fantasia": "",
       "telefone": "(82) 35512500",
@@ -190,11 +150,11 @@
       "municipio": "PENEDO",
       "latitude": -10.282813,
       "longitude": -36.56965,
-      "valor_minimo": 7.139797229758675,
-      "valor_maximo": 7.139797229758675,
-      "valor_medio": 7.139797229758675,
-      "valor_recente": 7.139797229758675,
-      "data_recente": "2026-04-15T19:30:52Z"
+      "valor_minimo": 7.042253521126761,
+      "valor_maximo": 7.042253521126761,
+      "valor_medio": 7.042253521126761,
+      "valor_recente": 7.042253521126761,
+      "data_recente": "2026-04-15T21:26:31Z"
     },
     {
       "cnpj": "05388025000128",
@@ -210,11 +170,51 @@
       "municipio": "PENEDO",
       "latitude": -10.2838306,
       "longitude": -36.5576656,
-      "valor_minimo": 7.140307033202427,
-      "valor_maximo": 7.140307033202427,
-      "valor_medio": 7.140307033202427,
-      "valor_recente": 7.140307033202427,
-      "data_recente": "2026-04-15T19:28:46Z"
+      "valor_minimo": 7.13979348689436,
+      "valor_maximo": 7.13979348689436,
+      "valor_medio": 7.13979348689436,
+      "valor_recente": 7.13979348689436,
+      "data_recente": "2026-04-15T21:18:50Z"
+    },
+    {
+      "cnpj": "12396339000308",
+      "tipo_combustivel": 2,
+      "razao_social": "DISTRIBUIDORA DE VEICULOS CONFIANCA LIMITADA",
+      "nome_fantasia": "POSTO GRANDE RIO I",
+      "telefone": "",
+      "nome_logradouro": "RDV ENGENHEIRO JOAQUIM GONCALVES",
+      "numero_imovel": "1673",
+      "bairro": "DOM CONSTANTINO",
+      "cep": "57200000",
+      "codigo_ibge": 2706703,
+      "municipio": "PENEDO",
+      "latitude": -10.2856336,
+      "longitude": -36.551212,
+      "valor_minimo": 7.14,
+      "valor_maximo": 7.14,
+      "valor_medio": 7.14,
+      "valor_recente": 7.14,
+      "data_recente": "2026-04-15T21:19:01Z"
+    },
+    {
+      "cnpj": "12541579000421",
+      "tipo_combustivel": 2,
+      "razao_social": "IMPORTADORA BARBOSA LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 35512500",
+      "nome_logradouro": "PC LARGO DE FATIMA",
+      "numero_imovel": "01",
+      "bairro": "CENTRO",
+      "cep": "57200000",
+      "codigo_ibge": 2706703,
+      "municipio": "PENEDO",
+      "latitude": -10.282813,
+      "longitude": -36.56965,
+      "valor_minimo": 7.140218303946264,
+      "valor_maximo": 7.140218303946264,
+      "valor_medio": 7.140218303946264,
+      "valor_recente": 7.140218303946264,
+      "data_recente": "2026-04-15T20:49:30Z"
     },
     {
       "cnpj": "10800554000127",
@@ -230,11 +230,11 @@
       "municipio": "PENEDO",
       "latitude": -10.2934696,
       "longitude": -36.5842168,
-      "valor_minimo": 5.489478499542543,
-      "valor_maximo": 5.489478499542543,
-      "valor_medio": 5.489478499542543,
-      "valor_recente": 5.489478499542543,
-      "data_recente": "2026-04-15T19:12:25Z"
+      "valor_minimo": 5.489980785067252,
+      "valor_maximo": 5.489980785067252,
+      "valor_medio": 5.489980785067252,
+      "valor_recente": 5.489980785067252,
+      "data_recente": "2026-04-15T20:36:35Z"
     },
     {
       "cnpj": "00404850000406",
@@ -250,11 +250,11 @@
       "municipio": "PENEDO",
       "latitude": -10.2816207,
       "longitude": -36.5625192,
-      "valor_minimo": 5.490282200505106,
-      "valor_maximo": 5.490282200505106,
-      "valor_medio": 5.490282200505106,
-      "valor_recente": 5.490282200505106,
-      "data_recente": "2026-04-15T19:32:07Z"
+      "valor_minimo": 5.4901423877327495,
+      "valor_maximo": 5.4901423877327495,
+      "valor_medio": 5.4901423877327495,
+      "valor_recente": 5.4901423877327495,
+      "data_recente": "2026-04-15T20:38:02Z"
     },
     {
       "cnpj": "12396339000561",
@@ -270,11 +270,11 @@
       "municipio": "PENEDO",
       "latitude": -10.2773264,
       "longitude": -36.5580218,
-      "valor_minimo": 5.6875,
-      "valor_maximo": 5.6875,
-      "valor_medio": 5.6875,
-      "valor_recente": 5.6875,
-      "data_recente": "2026-04-15T17:37:56Z"
+      "valor_minimo": 5.689508103497299,
+      "valor_maximo": 5.689508103497299,
+      "valor_medio": 5.689508103497299,
+      "valor_recente": 5.689508103497299,
+      "data_recente": "2026-04-15T21:14:15Z"
     },
     {
       "cnpj": "12396339000308",
@@ -290,11 +290,11 @@
       "municipio": "PENEDO",
       "latitude": -10.2856336,
       "longitude": -36.551212,
-      "valor_minimo": 5.689576695493855,
-      "valor_maximo": 5.689576695493855,
-      "valor_medio": 5.689576695493855,
-      "valor_recente": 5.689576695493855,
-      "data_recente": "2026-04-15T18:08:18Z"
+      "valor_minimo": 5.689900426742532,
+      "valor_maximo": 5.689900426742532,
+      "valor_medio": 5.689900426742532,
+      "valor_recente": 5.689900426742532,
+      "data_recente": "2026-04-15T21:24:31Z"
     },
     {
       "cnpj": "05388025000128",
@@ -314,7 +314,7 @@
       "valor_maximo": 5.689900426742532,
       "valor_medio": 5.689900426742532,
       "valor_recente": 5.689900426742532,
-      "data_recente": "2026-04-15T19:34:12Z"
+      "data_recente": "2026-04-15T20:54:13Z"
     },
     {
       "cnpj": "12541579000421",
@@ -330,11 +330,11 @@
       "municipio": "PENEDO",
       "latitude": -10.282813,
       "longitude": -36.56965,
-      "valor_minimo": 5.690440060698028,
-      "valor_maximo": 5.690440060698028,
-      "valor_medio": 5.690440060698028,
-      "valor_recente": 5.690440060698028,
-      "data_recente": "2026-04-15T19:25:17Z"
+      "valor_minimo": 5.690224194833276,
+      "valor_maximo": 5.690224194833276,
+      "valor_medio": 5.690224194833276,
+      "valor_recente": 5.690224194833276,
+      "data_recente": "2026-04-15T20:58:27Z"
     },
     {
       "cnpj": "12396339000561",
@@ -350,31 +350,11 @@
       "municipio": "PENEDO",
       "latitude": -10.2773264,
       "longitude": -36.5580218,
-      "valor_minimo": 7.339302544769086,
-      "valor_maximo": 7.339302544769086,
-      "valor_medio": 7.339302544769086,
-      "valor_recente": 7.339302544769086,
-      "data_recente": "2026-04-15T19:05:02Z"
-    },
-    {
-      "cnpj": "12396339000308",
-      "tipo_combustivel": 5,
-      "razao_social": "DISTRIBUIDORA DE VEICULOS CONFIANCA LIMITADA",
-      "nome_fantasia": "POSTO GRANDE RIO I",
-      "telefone": "",
-      "nome_logradouro": "RDV ENGENHEIRO JOAQUIM GONCALVES",
-      "numero_imovel": "1673",
-      "bairro": "DOM CONSTANTINO",
-      "cep": "57200000",
-      "codigo_ibge": 2706703,
-      "municipio": "PENEDO",
-      "latitude": -10.2856336,
-      "longitude": -36.551212,
-      "valor_minimo": 7.2496837158864995,
-      "valor_maximo": 7.2496837158864995,
-      "valor_medio": 7.2496837158864995,
-      "valor_recente": 7.2496837158864995,
-      "data_recente": "2026-04-15T17:15:23Z"
+      "valor_minimo": 7.69987063389392,
+      "valor_maximo": 7.69987063389392,
+      "valor_medio": 7.69987063389392,
+      "valor_recente": 7.69987063389392,
+      "data_recente": "2026-04-15T19:39:04Z"
     },
     {
       "cnpj": "10800554000127",
@@ -390,11 +370,11 @@
       "municipio": "PENEDO",
       "latitude": -10.2934696,
       "longitude": -36.5842168,
-      "valor_minimo": 7.349700975763299,
-      "valor_maximo": 7.349700975763299,
-      "valor_medio": 7.349700975763299,
-      "valor_recente": 7.349700975763299,
-      "data_recente": "2026-04-15T19:12:25Z"
+      "valor_minimo": 7.3499933181878925,
+      "valor_maximo": 7.3499933181878925,
+      "valor_medio": 7.3499933181878925,
+      "valor_recente": 7.3499933181878925,
+      "data_recente": "2026-04-15T20:41:50Z"
     },
     {
       "cnpj": "00404850000406",
@@ -417,6 +397,26 @@
       "data_recente": "2026-04-15T18:33:51Z"
     },
     {
+      "cnpj": "05388025000128",
+      "tipo_combustivel": 5,
+      "razao_social": "BARBOSA & ROCHA LTDA",
+      "nome_fantasia": "POSTO SAO PEDRO",
+      "telefone": "",
+      "nome_logradouro": "AV ANTONIO CANDIDO TOLEDO",
+      "numero_imovel": "528",
+      "bairro": "SANTA LUZIA",
+      "cep": "57200000",
+      "codigo_ibge": 2706703,
+      "municipio": "PENEDO",
+      "latitude": -10.2838306,
+      "longitude": -36.5576656,
+      "valor_minimo": 7.499625018749063,
+      "valor_maximo": 7.499625018749063,
+      "valor_medio": 7.499625018749063,
+      "valor_recente": 7.499625018749063,
+      "data_recente": "2026-04-15T21:26:39Z"
+    },
+    {
       "cnpj": "12541579000421",
       "tipo_combustivel": 5,
       "razao_social": "IMPORTADORA BARBOSA LTDA",
@@ -437,24 +437,24 @@
       "data_recente": "2026-04-15T18:18:24Z"
     },
     {
-      "cnpj": "05388025000128",
+      "cnpj": "12396339000308",
       "tipo_combustivel": 5,
-      "razao_social": "BARBOSA & ROCHA LTDA",
-      "nome_fantasia": "POSTO SAO PEDRO",
+      "razao_social": "DISTRIBUIDORA DE VEICULOS CONFIANCA LIMITADA",
+      "nome_fantasia": "POSTO GRANDE RIO I",
       "telefone": "",
-      "nome_logradouro": "AV ANTONIO CANDIDO TOLEDO",
-      "numero_imovel": "528",
-      "bairro": "SANTA LUZIA",
+      "nome_logradouro": "RDV ENGENHEIRO JOAQUIM GONCALVES",
+      "numero_imovel": "1673",
+      "bairro": "DOM CONSTANTINO",
       "cep": "57200000",
       "codigo_ibge": 2706703,
       "municipio": "PENEDO",
-      "latitude": -10.2838306,
-      "longitude": -36.5576656,
-      "valor_minimo": 7.5,
-      "valor_maximo": 7.5,
-      "valor_medio": 7.5,
-      "valor_recente": 7.5,
-      "data_recente": "2026-04-15T19:27:02Z"
+      "latitude": -10.2856336,
+      "longitude": -36.551212,
+      "valor_minimo": 7.539814107698326,
+      "valor_maximo": 7.539814107698326,
+      "valor_medio": 7.539814107698326,
+      "valor_recente": 7.539814107698326,
+      "data_recente": "2026-04-15T21:03:15Z"
     },
     {
       "cnpj": "12396339000561",

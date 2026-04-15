@@ -1,31 +1,123 @@
 {
   "codigoIBGE": "2702553",
   "municipio": "Estrela de Alagoas",
-  "atualizadoEm": "2026-04-15T20:22:52.786Z",
-  "totalEstabelecimentos": 8,
+  "atualizadoEm": "2026-04-15T21:54:26.176Z",
+  "totalEstabelecimentos": 12,
   "combustiveis": {
+    "1": {
+      "totalPostos": 3,
+      "valorMinimo": 6.839945280437757,
+      "valorMaximo": 6.890410958904109,
+      "valorMedio": 6.873260324125553
+    },
+    "2": {
+      "totalPostos": 1,
+      "valorMinimo": 6.290102389078498,
+      "valorMaximo": 6.290102389078498,
+      "valorMedio": 6.290102389078498
+    },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 4.95000495000495,
-      "valorMaximo": 4.990049751243781,
-      "valorMedio": 4.976608897156585
+      "valorMinimo": 4.553014553014553,
+      "valorMaximo": 4.990033222591362,
+      "valorMedio": 4.84408527048948
     },
     "4": {
       "totalPostos": 2,
-      "valorMinimo": 7.97999019928128,
-      "valorMaximo": 8.4,
-      "valorMedio": 8.18999509964064
+      "valorMinimo": 7.980048936570675,
+      "valorMaximo": 8.399917153771804,
+      "valorMedio": 8.189983045171239
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.279998446933664,
-      "valorMaximo": 7.319969761260273,
-      "valorMedio": 7.3066357751311095
+      "valorMinimo": 7.08999306341499,
+      "valorMaximo": 7.319056654920033,
+      "valorMedio": 7.229678356334467
     }
   },
   "estabelecimentos": [
     {
       "cnpj": "29689769000140",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO TURMALINA LTDA",
+      "nome_fantasia": "AUTO POSTO TURMALINA",
+      "telefone": "",
+      "nome_logradouro": "ROD BR 316",
+      "numero_imovel": "KM 136",
+      "bairro": "MATA BURRO",
+      "cep": "57625000",
+      "codigo_ibge": 2702553,
+      "municipio": "ESTRELA DE ALAGOAS",
+      "latitude": -9.3904105,
+      "longitude": -36.7592457,
+      "valor_minimo": 6.839945280437757,
+      "valor_maximo": 6.839945280437757,
+      "valor_medio": 6.839945280437757,
+      "valor_recente": 6.839945280437757,
+      "data_recente": "2026-04-15T20:19:13Z"
+    },
+    {
+      "cnpj": "25359544000175",
+      "tipo_combustivel": 1,
+      "razao_social": "LFS COMERCIO DE COMBUSTIVEIS EIRELI - ME",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "ROD BR 316 POVOADO ALTO DA BOA VISTA",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57625000",
+      "codigo_ibge": 2702553,
+      "municipio": "ESTRELA DE ALAGOAS",
+      "latitude": -9.490857100000001,
+      "longitude": -36.5661638,
+      "valor_minimo": 6.889424733034792,
+      "valor_maximo": 6.889424733034792,
+      "valor_medio": 6.889424733034792,
+      "valor_recente": 6.889424733034792,
+      "data_recente": "2026-04-15T21:25:21Z"
+    },
+    {
+      "cnpj": "22727145000121",
+      "tipo_combustivel": 1,
+      "razao_social": "L FERNANDES DOS SANTOS LTDA",
+      "nome_fantasia": "AUTO POSTO ESTRELA DE ALAGOAS",
+      "telefone": "(82) 32219835",
+      "nome_logradouro": "AV ARLINDO GARROTE",
+      "numero_imovel": "111",
+      "bairro": "CENTRO",
+      "cep": "57625000",
+      "codigo_ibge": 2702553,
+      "municipio": "ESTRELA DE ALAGOAS",
+      "latitude": -9.3904417,
+      "longitude": -36.7595025,
+      "valor_minimo": 6.890410958904109,
+      "valor_maximo": 6.890410958904109,
+      "valor_medio": 6.890410958904109,
+      "valor_recente": 6.890410958904109,
+      "data_recente": "2026-04-15T21:26:47Z"
+    },
+    {
+      "cnpj": "29689769000140",
+      "tipo_combustivel": 2,
+      "razao_social": "AUTO POSTO TURMALINA LTDA",
+      "nome_fantasia": "AUTO POSTO TURMALINA",
+      "telefone": "",
+      "nome_logradouro": "ROD BR 316",
+      "numero_imovel": "KM 136",
+      "bairro": "MATA BURRO",
+      "cep": "57625000",
+      "codigo_ibge": 2702553,
+      "municipio": "ESTRELA DE ALAGOAS",
+      "latitude": -9.3904105,
+      "longitude": -36.7592457,
+      "valor_minimo": 6.290102389078498,
+      "valor_maximo": 6.290102389078498,
+      "valor_medio": 6.290102389078498,
+      "valor_recente": 6.290102389078498,
+      "data_recente": "2026-04-15T19:55:28Z"
+    },
+    {
+      "cnpj": "29689769000140",
       "tipo_combustivel": 3,
       "razao_social": "AUTO POSTO TURMALINA LTDA",
       "nome_fantasia": "AUTO POSTO TURMALINA",
@@ -38,11 +130,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.3904105,
       "longitude": -36.7592457,
-      "valor_minimo": 4.95000495000495,
-      "valor_maximo": 4.95000495000495,
-      "valor_medio": 4.95000495000495,
-      "valor_recente": 4.95000495000495,
-      "data_recente": "2026-04-15T17:18:03Z"
+      "valor_minimo": 4.553014553014553,
+      "valor_maximo": 4.553014553014553,
+      "valor_medio": 4.553014553014553,
+      "valor_recente": 4.553014553014553,
+      "data_recente": "2026-04-15T19:56:12Z"
     },
     {
       "cnpj": "25359544000175",
@@ -58,11 +150,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.490857100000001,
       "longitude": -36.5661638,
-      "valor_minimo": 4.9897719902210245,
-      "valor_maximo": 4.9897719902210245,
-      "valor_medio": 4.9897719902210245,
-      "valor_recente": 4.9897719902210245,
-      "data_recente": "2026-04-15T17:32:03Z"
+      "valor_minimo": 4.989208035862527,
+      "valor_maximo": 4.989208035862527,
+      "valor_medio": 4.989208035862527,
+      "valor_recente": 4.989208035862527,
+      "data_recente": "2026-04-15T21:23:10Z"
     },
     {
       "cnpj": "22727145000121",
@@ -78,11 +170,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.3904417,
       "longitude": -36.7595025,
-      "valor_minimo": 4.990049751243781,
-      "valor_maximo": 4.990049751243781,
-      "valor_medio": 4.990049751243781,
-      "valor_recente": 4.990049751243781,
-      "data_recente": "2026-04-15T17:24:01Z"
+      "valor_minimo": 4.990033222591362,
+      "valor_maximo": 4.990033222591362,
+      "valor_medio": 4.990033222591362,
+      "valor_recente": 4.990033222591362,
+      "data_recente": "2026-04-15T20:36:11Z"
     },
     {
       "cnpj": "29689769000140",
@@ -98,11 +190,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.3904105,
       "longitude": -36.7592457,
-      "valor_minimo": 7.97999019928128,
-      "valor_maximo": 7.97999019928128,
-      "valor_medio": 7.97999019928128,
-      "valor_recente": 7.97999019928128,
-      "data_recente": "2026-04-15T17:20:19Z"
+      "valor_minimo": 7.980048936570675,
+      "valor_maximo": 7.980048936570675,
+      "valor_medio": 7.980048936570675,
+      "valor_recente": 7.980048936570675,
+      "data_recente": "2026-04-15T20:31:43Z"
     },
     {
       "cnpj": "25359544000175",
@@ -118,31 +210,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.490857100000001,
       "longitude": -36.5661638,
-      "valor_minimo": 8.4,
-      "valor_maximo": 8.4,
-      "valor_medio": 8.4,
-      "valor_recente": 8.4,
-      "data_recente": "2026-04-15T15:43:15Z"
-    },
-    {
-      "cnpj": "29689769000140",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO TURMALINA LTDA",
-      "nome_fantasia": "AUTO POSTO TURMALINA",
-      "telefone": "",
-      "nome_logradouro": "ROD BR 316",
-      "numero_imovel": "KM 136",
-      "bairro": "MATA BURRO",
-      "cep": "57625000",
-      "codigo_ibge": 2702553,
-      "municipio": "ESTRELA DE ALAGOAS",
-      "latitude": -9.3904105,
-      "longitude": -36.7592457,
-      "valor_minimo": 7.279998446933664,
-      "valor_maximo": 7.279998446933664,
-      "valor_medio": 7.279998446933664,
-      "valor_recente": 7.279998446933664,
-      "data_recente": "2026-04-15T19:22:47Z"
+      "valor_minimo": 8.399917153771804,
+      "valor_maximo": 8.399917153771804,
+      "valor_medio": 8.399917153771804,
+      "valor_recente": 8.399917153771804,
+      "data_recente": "2026-04-15T20:19:56Z"
     },
     {
       "cnpj": "22727145000121",
@@ -158,11 +230,31 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.3904417,
       "longitude": -36.7595025,
-      "valor_minimo": 7.319939117199391,
+      "valor_minimo": 7.08999306341499,
       "valor_maximo": 7.99,
-      "valor_medio": 7.654969558599696,
-      "valor_recente": 7.319939117199391,
-      "data_recente": "2026-04-15T18:36:03Z"
+      "valor_medio": 7.539996531707495,
+      "valor_recente": 7.08999306341499,
+      "data_recente": "2026-04-15T20:57:53Z"
+    },
+    {
+      "cnpj": "29689769000140",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO TURMALINA LTDA",
+      "nome_fantasia": "AUTO POSTO TURMALINA",
+      "telefone": "",
+      "nome_logradouro": "ROD BR 316",
+      "numero_imovel": "KM 136",
+      "bairro": "MATA BURRO",
+      "cep": "57625000",
+      "codigo_ibge": 2702553,
+      "municipio": "ESTRELA DE ALAGOAS",
+      "latitude": -9.3904105,
+      "longitude": -36.7592457,
+      "valor_minimo": 7.279985350668376,
+      "valor_maximo": 7.279985350668376,
+      "valor_medio": 7.279985350668376,
+      "valor_recente": 7.279985350668376,
+      "data_recente": "2026-04-15T20:31:10Z"
     },
     {
       "cnpj": "25359544000175",
@@ -178,11 +270,11 @@
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.490857100000001,
       "longitude": -36.5661638,
-      "valor_minimo": 7.319969761260273,
-      "valor_maximo": 7.319969761260273,
-      "valor_medio": 7.319969761260273,
-      "valor_recente": 7.319969761260273,
-      "data_recente": "2026-04-15T18:31:12Z"
+      "valor_minimo": 7.319056654920033,
+      "valor_maximo": 7.319056654920033,
+      "valor_medio": 7.319056654920033,
+      "valor_recente": 7.319056654920033,
+      "data_recente": "2026-04-15T19:56:41Z"
     }
   ]
 }

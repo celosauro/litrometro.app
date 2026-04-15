@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2708402",
   "municipio": "São José da Tapera",
-  "atualizadoEm": "2026-04-15T20:47:07.898Z",
+  "atualizadoEm": "2026-04-15T22:23:22.929Z",
   "totalEstabelecimentos": 11,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.9906976744186045,
+      "valorMinimo": 6.989748369058714,
       "valorMaximo": 7.089684509039348,
-      "valorMedio": 7.026794061152651
+      "valorMedio": 7.026477626032687
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 7.186544342507645,
-      "valorMaximo": 7.190414693643278,
-      "valorMedio": 7.188479518075461
+      "valorMinimo": 7.185714285714286,
+      "valorMaximo": 7.189791516894321,
+      "valorMedio": 7.187752901304304
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 5.450833616876489,
-      "valorMaximo": 5.889281507656066,
-      "valorMedio": 5.6999424515827934
+      "valorMinimo": 5.450086293032973,
+      "valorMaximo": 5.88754783632617,
+      "valorMedio": 5.699115453191657
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.391304347826087,
-      "valorMaximo": 7.589885934857094,
-      "valorMedio": 7.51371750373355
+      "valorMinimo": 7.2,
+      "valorMaximo": 7.587253414264036,
+      "valorMedio": 7.448991738833905
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": -9.5309789,
       "longitude": -37.5115726,
-      "valor_minimo": 6.9906976744186045,
-      "valor_maximo": 6.9906976744186045,
-      "valor_medio": 6.9906976744186045,
-      "valor_recente": 6.9906976744186045,
-      "data_recente": "2026-04-15T19:31:51Z"
+      "valor_minimo": 6.989748369058714,
+      "valor_maximo": 6.989748369058714,
+      "valor_medio": 6.989748369058714,
+      "valor_recente": 6.989748369058714,
+      "data_recente": "2026-04-15T21:24:54Z"
     },
     {
       "cnpj": "12512646000137",
@@ -68,7 +68,7 @@
       "valor_maximo": 7,
       "valor_medio": 7,
       "valor_recente": 7,
-      "data_recente": "2026-04-15T19:29:30Z"
+      "data_recente": "2026-04-15T21:26:54Z"
     },
     {
       "cnpj": "30434665000174",
@@ -88,7 +88,7 @@
       "valor_maximo": 7.089684509039348,
       "valor_medio": 7.089684509039348,
       "valor_recente": 7.089684509039348,
-      "data_recente": "2026-04-15T19:32:13Z"
+      "data_recente": "2026-04-15T21:30:47Z"
     },
     {
       "cnpj": "12512646000137",
@@ -104,11 +104,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.186544342507645,
-      "valor_maximo": 7.186544342507645,
-      "valor_medio": 7.186544342507645,
-      "valor_recente": 7.186544342507645,
-      "data_recente": "2026-04-15T19:32:53Z"
+      "valor_minimo": 7.185714285714286,
+      "valor_maximo": 7.185714285714286,
+      "valor_medio": 7.185714285714286,
+      "valor_recente": 7.185714285714286,
+      "data_recente": "2026-04-15T21:29:15Z"
     },
     {
       "cnpj": "14959471000136",
@@ -124,11 +124,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": -9.5309789,
       "longitude": -37.5115726,
-      "valor_minimo": 7.190414693643278,
-      "valor_maximo": 7.190414693643278,
-      "valor_medio": 7.190414693643278,
-      "valor_recente": 7.190414693643278,
-      "data_recente": "2026-04-15T19:24:57Z"
+      "valor_minimo": 7.189791516894321,
+      "valor_maximo": 7.189791516894321,
+      "valor_medio": 7.189791516894321,
+      "valor_recente": 7.189791516894321,
+      "data_recente": "2026-04-15T20:58:10Z"
     },
     {
       "cnpj": "14959471000136",
@@ -144,11 +144,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": -9.5309789,
       "longitude": -37.5115726,
-      "valor_minimo": 5.450833616876489,
-      "valor_maximo": 5.450833616876489,
-      "valor_medio": 5.450833616876489,
-      "valor_recente": 5.450833616876489,
-      "data_recente": "2026-04-15T19:19:09Z"
+      "valor_minimo": 5.450086293032973,
+      "valor_maximo": 5.450086293032973,
+      "valor_medio": 5.450086293032973,
+      "valor_recente": 5.450086293032973,
+      "data_recente": "2026-04-15T20:58:10Z"
     },
     {
       "cnpj": "12512646000137",
@@ -184,11 +184,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": -9.55372,
       "longitude": -37.37467,
-      "valor_minimo": 5.889281507656066,
-      "valor_maximo": 5.889281507656066,
-      "valor_medio": 5.889281507656066,
-      "valor_recente": 5.889281507656066,
-      "data_recente": "2026-04-15T02:29:09Z"
+      "valor_minimo": 5.88754783632617,
+      "valor_maximo": 5.88754783632617,
+      "valor_medio": 5.88754783632617,
+      "valor_recente": 5.88754783632617,
+      "data_recente": "2026-04-15T21:09:34Z"
     },
     {
       "cnpj": "14959471000136",
@@ -204,11 +204,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": -9.5309789,
       "longitude": -37.5115726,
-      "valor_minimo": 7.391304347826087,
-      "valor_maximo": 7.391304347826087,
-      "valor_medio": 7.391304347826087,
-      "valor_recente": 7.391304347826087,
-      "data_recente": "2026-04-15T19:23:01Z"
+      "valor_minimo": 7.2,
+      "valor_maximo": 7.2,
+      "valor_medio": 7.2,
+      "valor_recente": 7.2,
+      "data_recente": "2026-04-15T21:27:47Z"
     },
     {
       "cnpj": "12512646000137",
@@ -224,11 +224,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.5599622285174695,
-      "valor_maximo": 7.5599622285174695,
-      "valor_medio": 7.5599622285174695,
-      "valor_recente": 7.5599622285174695,
-      "data_recente": "2026-04-15T18:57:59Z"
+      "valor_minimo": 7.559721802237678,
+      "valor_maximo": 7.559721802237678,
+      "valor_medio": 7.559721802237678,
+      "valor_recente": 7.559721802237678,
+      "data_recente": "2026-04-15T20:58:31Z"
     },
     {
       "cnpj": "30434665000174",
@@ -244,11 +244,11 @@
       "municipio": "SAO JOSE DA TAPERA",
       "latitude": -9.55372,
       "longitude": -37.37467,
-      "valor_minimo": 7.589885934857094,
-      "valor_maximo": 7.589885934857094,
-      "valor_medio": 7.589885934857094,
-      "valor_recente": 7.589885934857094,
-      "data_recente": "2026-04-15T19:21:17Z"
+      "valor_minimo": 7.587253414264036,
+      "valor_maximo": 7.587253414264036,
+      "valor_medio": 7.587253414264036,
+      "valor_recente": 7.587253414264036,
+      "data_recente": "2026-04-15T21:20:19Z"
     }
   ]
 }

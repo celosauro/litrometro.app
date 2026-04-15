@@ -1,26 +1,26 @@
 {
   "codigoIBGE": "2702306",
   "municipio": "Coruripe",
-  "atualizadoEm": "2026-04-15T20:21:11.000Z",
+  "atualizadoEm": "2026-04-15T21:52:28.796Z",
   "totalEstabelecimentos": 22,
   "combustiveis": {
     "1": {
       "totalPostos": 7,
-      "valorMinimo": 6.879886424986503,
-      "valorMaximo": 7.121338912133891,
-      "valorMedio": 7.019803495380081
+      "valorMinimo": 6.79001867255135,
+      "valorMaximo": 7.122507122507122,
+      "valorMedio": 7.005434077238605
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.2214285714285715,
-      "valorMaximo": 7.2214285714285715,
-      "valorMedio": 7.2214285714285715
+      "valorMinimo": 7.2202166064981945,
+      "valorMaximo": 7.2202166064981945,
+      "valorMedio": 7.2202166064981945
     },
     "3": {
       "totalPostos": 6,
-      "valorMinimo": 4.249699029813753,
-      "valorMaximo": 5.749770009199632,
-      "valorMedio": 5.263067362313451
+      "valorMinimo": 5.089903181189488,
+      "valorMaximo": 5.75,
+      "valorMedio": 5.423779418401399
     },
     "4": {
       "totalPostos": 1,
@@ -31,30 +31,30 @@
     "5": {
       "totalPostos": 7,
       "valorMinimo": 7.170000717000072,
-      "valorMaximo": 7.45,
-      "valorMedio": 7.349965750860186
+      "valorMaximo": 7.560137457044673,
+      "valorMedio": 7.389979460926848
     }
   },
   "estabelecimentos": [
     {
-      "cnpj": "05848209000123",
+      "cnpj": "55681612000189",
       "tipo_combustivel": 1,
-      "razao_social": "A L C COMERCIO DE COMBUSTIVEIS E SERVICOS LTDA",
-      "nome_fantasia": "POSTO SANTA RITA",
-      "telefone": "",
-      "nome_logradouro": "TR DO CEMITERIO",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
+      "razao_social": "BARRETO E OLIVEIRA COMERCIO DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "POSTO LAGOA",
+      "telefone": "(79) 99999999",
+      "nome_logradouro": "AV L",
+      "numero_imovel": "84",
+      "bairro": "LAGOA DO PAU",
       "cep": "57230000",
       "codigo_ibge": 2702306,
       "municipio": "CORURIPE",
-      "latitude": -10.1230258,
-      "longitude": -36.1760483,
-      "valor_minimo": 6.879886424986503,
-      "valor_maximo": 6.879886424986503,
-      "valor_medio": 6.879886424986503,
-      "valor_recente": 6.879886424986503,
-      "data_recente": "2026-04-15T19:28:01Z"
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.79001867255135,
+      "valor_maximo": 6.79001867255135,
+      "valor_medio": 6.79001867255135,
+      "valor_recente": 6.79001867255135,
+      "data_recente": "2026-04-15T20:00:06Z"
     },
     {
       "cnpj": "56141661000191",
@@ -77,6 +77,26 @@
       "data_recente": "2026-04-15T13:43:58Z"
     },
     {
+      "cnpj": "05848209000123",
+      "tipo_combustivel": 1,
+      "razao_social": "A L C COMERCIO DE COMBUSTIVEIS E SERVICOS LTDA",
+      "nome_fantasia": "POSTO SANTA RITA",
+      "telefone": "",
+      "nome_logradouro": "TR DO CEMITERIO",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57230000",
+      "codigo_ibge": 2702306,
+      "municipio": "CORURIPE",
+      "latitude": -10.1230258,
+      "longitude": -36.1760483,
+      "valor_minimo": 6.979284369114877,
+      "valor_maximo": 6.979284369114877,
+      "valor_medio": 6.979284369114877,
+      "valor_recente": 6.979284369114877,
+      "data_recente": "2026-04-15T21:17:54Z"
+    },
+    {
       "cnpj": "10589833000274",
       "tipo_combustivel": 1,
       "razao_social": "COOPERATIVA AGROINDUSTRIAL DOS PRODUTORES RURAIS DA COLÔNIA PINDORAMA LTDA",
@@ -90,31 +110,11 @@
       "municipio": "CORURIPE",
       "latitude": -10.1457326,
       "longitude": -36.3226082,
-      "valor_minimo": 6.989585517578807,
-      "valor_maximo": 6.989585517578807,
-      "valor_medio": 6.989585517578807,
-      "valor_recente": 6.989585517578807,
-      "data_recente": "2026-04-15T19:28:00Z"
-    },
-    {
-      "cnpj": "55681612000189",
-      "tipo_combustivel": 1,
-      "razao_social": "BARRETO E OLIVEIRA COMERCIO DE COMBUSTIVEIS LTDA",
-      "nome_fantasia": "POSTO LAGOA",
-      "telefone": "(79) 99999999",
-      "nome_logradouro": "AV L",
-      "numero_imovel": "84",
-      "bairro": "LAGOA DO PAU",
-      "cep": "57230000",
-      "codigo_ibge": 2702306,
-      "municipio": "CORURIPE",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.990562740300594,
-      "valor_maximo": 6.990562740300594,
-      "valor_medio": 6.990562740300594,
-      "valor_recente": 6.990562740300594,
-      "data_recente": "2026-04-15T19:25:25Z"
+      "valor_minimo": 6.98909700866648,
+      "valor_maximo": 6.98909700866648,
+      "valor_medio": 6.98909700866648,
+      "valor_recente": 6.98909700866648,
+      "data_recente": "2026-04-15T21:30:22Z"
     },
     {
       "cnpj": "33600518000115",
@@ -130,11 +130,11 @@
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.099885382013363,
-      "valor_maximo": 7.099885382013363,
-      "valor_medio": 7.099885382013363,
-      "valor_recente": 7.099885382013363,
-      "data_recente": "2026-04-15T19:28:46Z"
+      "valor_minimo": 7.097232079488999,
+      "valor_maximo": 7.097232079488999,
+      "valor_medio": 7.097232079488999,
+      "valor_recente": 7.097232079488999,
+      "data_recente": "2026-04-15T21:22:02Z"
     },
     {
       "cnpj": "29853107000164",
@@ -150,11 +150,11 @@
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.117437722419929,
-      "valor_maximo": 7.117437722419929,
-      "valor_medio": 7.117437722419929,
-      "valor_recente": 7.117437722419929,
-      "data_recente": "2026-04-15T18:24:11Z"
+      "valor_minimo": 7.1199715201139195,
+      "valor_maximo": 7.1199715201139195,
+      "valor_medio": 7.1199715201139195,
+      "valor_recente": 7.1199715201139195,
+      "data_recente": "2026-04-15T21:24:56Z"
     },
     {
       "cnpj": "09081895000100",
@@ -170,11 +170,11 @@
       "municipio": "CORURIPE",
       "latitude": -10.139914,
       "longitude": -36.1627961,
-      "valor_minimo": 7.121338912133891,
-      "valor_maximo": 7.121338912133891,
-      "valor_medio": 7.121338912133891,
-      "valor_recente": 7.121338912133891,
-      "data_recente": "2026-04-15T19:35:02Z"
+      "valor_minimo": 7.122507122507122,
+      "valor_maximo": 7.122507122507122,
+      "valor_medio": 7.122507122507122,
+      "valor_recente": 7.122507122507122,
+      "data_recente": "2026-04-15T21:25:17Z"
     },
     {
       "cnpj": "09081895000100",
@@ -190,31 +190,11 @@
       "municipio": "CORURIPE",
       "latitude": -10.139914,
       "longitude": -36.1627961,
-      "valor_minimo": 7.2214285714285715,
-      "valor_maximo": 7.2214285714285715,
-      "valor_medio": 7.2214285714285715,
-      "valor_recente": 7.2214285714285715,
-      "data_recente": "2026-04-15T19:32:52Z"
-    },
-    {
-      "cnpj": "05848209000123",
-      "tipo_combustivel": 3,
-      "razao_social": "A L C COMERCIO DE COMBUSTIVEIS E SERVICOS LTDA",
-      "nome_fantasia": "POSTO SANTA RITA",
-      "telefone": "",
-      "nome_logradouro": "TR DO CEMITERIO",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57230000",
-      "codigo_ibge": 2702306,
-      "municipio": "CORURIPE",
-      "latitude": -10.1230258,
-      "longitude": -36.1760483,
-      "valor_minimo": 4.249699029813753,
-      "valor_maximo": 4.249699029813753,
-      "valor_medio": 4.249699029813753,
-      "valor_recente": 4.249699029813753,
-      "data_recente": "2026-04-15T19:31:47Z"
+      "valor_minimo": 7.2202166064981945,
+      "valor_maximo": 7.2202166064981945,
+      "valor_medio": 7.2202166064981945,
+      "valor_recente": 7.2202166064981945,
+      "data_recente": "2026-04-15T21:29:14Z"
     },
     {
       "cnpj": "56141661000191",
@@ -254,7 +234,7 @@
       "valor_maximo": 5.149860953754248,
       "valor_medio": 5.149860953754248,
       "valor_recente": 5.149860953754248,
-      "data_recente": "2026-04-15T19:30:29Z"
+      "data_recente": "2026-04-15T21:27:14Z"
     },
     {
       "cnpj": "55681612000189",
@@ -270,11 +250,31 @@
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.590062111801243,
-      "valor_maximo": 5.590062111801243,
-      "valor_medio": 5.590062111801243,
-      "valor_recente": 5.590062111801243,
-      "data_recente": "2026-04-15T19:25:25Z"
+      "valor_minimo": 5.399568034557236,
+      "valor_maximo": 5.399568034557236,
+      "valor_medio": 5.399568034557236,
+      "valor_recente": 5.399568034557236,
+      "data_recente": "2026-04-15T20:00:06Z"
+    },
+    {
+      "cnpj": "05848209000123",
+      "tipo_combustivel": 3,
+      "razao_social": "A L C COMERCIO DE COMBUSTIVEIS E SERVICOS LTDA",
+      "nome_fantasia": "POSTO SANTA RITA",
+      "telefone": "",
+      "nome_logradouro": "TR DO CEMITERIO",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57230000",
+      "codigo_ibge": 2702306,
+      "municipio": "CORURIPE",
+      "latitude": -10.1230258,
+      "longitude": -36.1760483,
+      "valor_minimo": 5.404896421845574,
+      "valor_maximo": 5.404896421845574,
+      "valor_medio": 5.404896421845574,
+      "valor_recente": 5.404896421845574,
+      "data_recente": "2026-04-15T21:29:16Z"
     },
     {
       "cnpj": "29853107000164",
@@ -290,11 +290,11 @@
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.749108888122341,
-      "valor_maximo": 5.749108888122341,
-      "valor_medio": 5.749108888122341,
-      "valor_recente": 5.749108888122341,
-      "data_recente": "2026-04-15T18:19:07Z"
+      "valor_minimo": 5.748447919061853,
+      "valor_maximo": 5.748447919061853,
+      "valor_medio": 5.748447919061853,
+      "valor_recente": 5.748447919061853,
+      "data_recente": "2026-04-15T21:30:27Z"
     },
     {
       "cnpj": "09081895000100",
@@ -310,11 +310,11 @@
       "municipio": "CORURIPE",
       "latitude": -10.139914,
       "longitude": -36.1627961,
-      "valor_minimo": 5.749770009199632,
-      "valor_maximo": 5.749770009199632,
-      "valor_medio": 5.749770009199632,
-      "valor_recente": 5.749770009199632,
-      "data_recente": "2026-04-15T19:32:51Z"
+      "valor_minimo": 5.75,
+      "valor_maximo": 5.75,
+      "valor_medio": 5.75,
+      "valor_recente": 5.75,
+      "data_recente": "2026-04-15T21:25:14Z"
     },
     {
       "cnpj": "07824798000488",
@@ -357,26 +357,6 @@
       "data_recente": "2026-04-15T19:25:25Z"
     },
     {
-      "cnpj": "05848209000123",
-      "tipo_combustivel": 5,
-      "razao_social": "A L C COMERCIO DE COMBUSTIVEIS E SERVICOS LTDA",
-      "nome_fantasia": "POSTO SANTA RITA",
-      "telefone": "",
-      "nome_logradouro": "TR DO CEMITERIO",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57230000",
-      "codigo_ibge": 2702306,
-      "municipio": "CORURIPE",
-      "latitude": -10.1230258,
-      "longitude": -36.1760483,
-      "valor_minimo": 7.279977984284317,
-      "valor_maximo": 7.279977984284317,
-      "valor_medio": 7.279977984284317,
-      "valor_recente": 7.279977984284317,
-      "data_recente": "2026-04-15T19:29:11Z"
-    },
-    {
       "cnpj": "33600518000115",
       "tipo_combustivel": 5,
       "razao_social": "RAFAELA JERONIMO DA SILVA",
@@ -390,31 +370,11 @@
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.38,
-      "valor_maximo": 7.38,
-      "valor_medio": 7.38,
-      "valor_recente": 7.38,
-      "data_recente": "2026-04-15T19:11:41Z"
-    },
-    {
-      "cnpj": "29853107000164",
-      "tipo_combustivel": 5,
-      "razao_social": "RL COMERCIO DE COMBUSTIVEIS -",
-      "nome_fantasia": "POSTO CORURIPE",
-      "telefone": "(75) 32217513",
-      "nome_logradouro": "AV COMENDADOR TERCIO WANDERLEY",
-      "numero_imovel": "856",
-      "bairro": "CENTRO",
-      "cep": "57230000",
-      "codigo_ibge": 2702306,
-      "municipio": "CORURIPE",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.389890629618682,
-      "valor_maximo": 7.389890629618682,
-      "valor_medio": 7.389890629618682,
-      "valor_recente": 7.389890629618682,
-      "data_recente": "2026-04-15T18:00:11Z"
+      "valor_minimo": 7.379972014113457,
+      "valor_maximo": 7.379972014113457,
+      "valor_medio": 7.379972014113457,
+      "valor_recente": 7.379972014113457,
+      "data_recente": "2026-04-15T21:26:54Z"
     },
     {
       "cnpj": "09081895000100",
@@ -434,7 +394,27 @@
       "valor_maximo": 7.430209107313448,
       "valor_medio": 7.410049868466065,
       "valor_recente": 7.389890629618682,
-      "data_recente": "2026-04-15T19:32:52Z"
+      "data_recente": "2026-04-15T20:53:30Z"
+    },
+    {
+      "cnpj": "29853107000164",
+      "tipo_combustivel": 5,
+      "razao_social": "RL COMERCIO DE COMBUSTIVEIS -",
+      "nome_fantasia": "POSTO CORURIPE",
+      "telefone": "(75) 32217513",
+      "nome_logradouro": "AV COMENDADOR TERCIO WANDERLEY",
+      "numero_imovel": "856",
+      "bairro": "CENTRO",
+      "cep": "57230000",
+      "codigo_ibge": 2702306,
+      "municipio": "CORURIPE",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.389955686853766,
+      "valor_maximo": 7.389955686853766,
+      "valor_medio": 7.389955686853766,
+      "valor_recente": 7.389955686853766,
+      "data_recente": "2026-04-15T18:39:02Z"
     },
     {
       "cnpj": "56141661000191",
@@ -470,11 +450,31 @@
       "municipio": "CORURIPE",
       "latitude": -10.1457326,
       "longitude": -36.3226082,
-      "valor_minimo": 7.45,
-      "valor_maximo": 7.45,
-      "valor_medio": 7.45,
-      "valor_recente": 7.45,
-      "data_recente": "2026-04-15T19:19:26Z"
+      "valor_minimo": 7.449899426357744,
+      "valor_maximo": 7.449899426357744,
+      "valor_medio": 7.449899426357744,
+      "valor_recente": 7.449899426357744,
+      "data_recente": "2026-04-15T21:18:28Z"
+    },
+    {
+      "cnpj": "05848209000123",
+      "tipo_combustivel": 5,
+      "razao_social": "A L C COMERCIO DE COMBUSTIVEIS E SERVICOS LTDA",
+      "nome_fantasia": "POSTO SANTA RITA",
+      "telefone": "",
+      "nome_logradouro": "TR DO CEMITERIO",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57230000",
+      "codigo_ibge": 2702306,
+      "municipio": "CORURIPE",
+      "latitude": -10.1230258,
+      "longitude": -36.1760483,
+      "valor_minimo": 7.560137457044673,
+      "valor_maximo": 7.560137457044673,
+      "valor_medio": 7.560137457044673,
+      "valor_recente": 7.560137457044673,
+      "data_recente": "2026-04-15T21:06:43Z"
     }
   ]
 }

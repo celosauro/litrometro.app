@@ -1,20 +1,26 @@
 {
   "codigoIBGE": "2703759",
   "municipio": "Jequiá da Praia",
-  "atualizadoEm": "2026-04-15T20:31:06.664Z",
-  "totalEstabelecimentos": 2,
+  "atualizadoEm": "2026-04-15T22:01:17.152Z",
+  "totalEstabelecimentos": 3,
   "combustiveis": {
     "1": {
       "totalPostos": 1,
-      "valorMinimo": 7.099247479767144,
-      "valorMaximo": 7.099247479767144,
-      "valorMedio": 7.099247479767144
+      "valorMinimo": 7.099290780141844,
+      "valorMaximo": 7.099290780141844,
+      "valorMedio": 7.099290780141844
+    },
+    "3": {
+      "totalPostos": 1,
+      "valorMinimo": 5.579790940766551,
+      "valorMaximo": 5.579790940766551,
+      "valorMedio": 5.579790940766551
     },
     "5": {
       "totalPostos": 1,
-      "valorMinimo": 7.389930555555556,
-      "valorMaximo": 7.389930555555556,
-      "valorMedio": 7.389930555555556
+      "valorMinimo": 7.388535031847134,
+      "valorMaximo": 7.388535031847134,
+      "valorMedio": 7.388535031847134
     }
   },
   "estabelecimentos": [
@@ -32,11 +38,31 @@
       "municipio": "JEQUIA DA PRAIA",
       "latitude": -10.0416771,
       "longitude": -36.0331231,
-      "valor_minimo": 7.099247479767144,
-      "valor_maximo": 7.099247479767144,
-      "valor_medio": 7.099247479767144,
-      "valor_recente": 7.099247479767144,
-      "data_recente": "2026-04-15T19:09:20Z"
+      "valor_minimo": 7.099290780141844,
+      "valor_maximo": 7.099290780141844,
+      "valor_medio": 7.099290780141844,
+      "valor_recente": 7.099290780141844,
+      "data_recente": "2026-04-15T21:29:02Z"
+    },
+    {
+      "cnpj": "03538830000165",
+      "tipo_combustivel": 3,
+      "razao_social": "AUTO POSTO SAO JOSE JEQUIA LTDA",
+      "nome_fantasia": "POSTO SAO JOSE JEQUIA",
+      "telefone": "",
+      "nome_logradouro": "AL 101 SUL",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57244000",
+      "codigo_ibge": 2703759,
+      "municipio": "JEQUIA DA PRAIA",
+      "latitude": -10.0416771,
+      "longitude": -36.0331231,
+      "valor_minimo": 5.579790940766551,
+      "valor_maximo": 5.579790940766551,
+      "valor_medio": 5.579790940766551,
+      "valor_recente": 5.579790940766551,
+      "data_recente": "2026-04-15T21:23:18Z"
     },
     {
       "cnpj": "03538830000165",
@@ -52,11 +78,11 @@
       "municipio": "JEQUIA DA PRAIA",
       "latitude": -10.0416771,
       "longitude": -36.0331231,
-      "valor_minimo": 7.389930555555556,
-      "valor_maximo": 7.389930555555556,
-      "valor_medio": 7.389930555555556,
-      "valor_recente": 7.389930555555556,
-      "data_recente": "2026-04-15T16:01:17Z"
+      "valor_minimo": 7.388535031847134,
+      "valor_maximo": 7.388535031847134,
+      "valor_medio": 7.388535031847134,
+      "valor_recente": 7.388535031847134,
+      "data_recente": "2026-04-15T21:23:18Z"
     }
   ]
 }

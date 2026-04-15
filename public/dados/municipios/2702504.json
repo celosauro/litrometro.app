@@ -1,7 +1,7 @@
 {
   "codigoIBGE": "2702504",
   "municipio": "Dois Riachos",
-  "atualizadoEm": "2026-04-15T20:22:24.653Z",
+  "atualizadoEm": "2026-04-15T21:54:00.943Z",
   "totalEstabelecimentos": 7,
   "combustiveis": {
     "1": {
@@ -12,9 +12,9 @@
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.060117054027538,
-      "valorMaximo": 7.060117054027538,
-      "valorMedio": 7.060117054027538
+      "valorMinimo": 6.799594457587022,
+      "valorMaximo": 6.799594457587022,
+      "valorMedio": 6.799594457587022
     },
     "3": {
       "totalPostos": 2,
@@ -24,9 +24,9 @@
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.26,
-      "valorMaximo": 7.4998126358390165,
-      "valorMedio": 7.379906317919508
+      "valorMinimo": 7.4998126358390165,
+      "valorMaximo": 7.500374868795921,
+      "valorMedio": 7.500093752317468
     }
   },
   "estabelecimentos": [
@@ -84,11 +84,11 @@
       "municipio": "DOIS RIACHOS",
       "latitude": -9.3892335,
       "longitude": -37.09705090000001,
-      "valor_minimo": 7.060117054027538,
-      "valor_maximo": 7.060117054027538,
-      "valor_medio": 7.060117054027538,
-      "valor_recente": 7.060117054027538,
-      "data_recente": "2026-04-15T19:31:01Z"
+      "valor_minimo": 6.799594457587022,
+      "valor_maximo": 6.799594457587022,
+      "valor_medio": 6.799594457587022,
+      "valor_recente": 6.799594457587022,
+      "data_recente": "2026-04-15T21:25:05Z"
     },
     {
       "cnpj": "10230405000170",
@@ -131,26 +131,6 @@
       "data_recente": "2026-04-14T00:46:22Z"
     },
     {
-      "cnpj": "10230405000170",
-      "tipo_combustivel": 5,
-      "razao_social": "ADENILSON OLIVEIRA SILVA - EPP",
-      "nome_fantasia": "AUTO POSTO TANGARA",
-      "telefone": "(82) 36213443",
-      "nome_logradouro": "AV PASTOR MANOEL PEREIRA LIMA",
-      "numero_imovel": "457",
-      "bairro": "PASTOR OZORIO BRAZ",
-      "cep": "57560000",
-      "codigo_ibge": 2702504,
-      "municipio": "DOIS RIACHOS",
-      "latitude": -9.3892335,
-      "longitude": -37.09705090000001,
-      "valor_minimo": 7.26,
-      "valor_maximo": 7.26,
-      "valor_medio": 7.26,
-      "valor_recente": 7.26,
-      "data_recente": "2026-04-15T17:10:16Z"
-    },
-    {
       "cnpj": "09418619000195",
       "tipo_combustivel": 5,
       "razao_social": "GIVALDO OLIVEIRA DA ROCHA - ME",
@@ -169,6 +149,26 @@
       "valor_medio": 7.4998126358390165,
       "valor_recente": 7.4998126358390165,
       "data_recente": "2026-04-13T21:10:40Z"
+    },
+    {
+      "cnpj": "10230405000170",
+      "tipo_combustivel": 5,
+      "razao_social": "ADENILSON OLIVEIRA SILVA - EPP",
+      "nome_fantasia": "AUTO POSTO TANGARA",
+      "telefone": "(82) 36213443",
+      "nome_logradouro": "AV PASTOR MANOEL PEREIRA LIMA",
+      "numero_imovel": "457",
+      "bairro": "PASTOR OZORIO BRAZ",
+      "cep": "57560000",
+      "codigo_ibge": 2702504,
+      "municipio": "DOIS RIACHOS",
+      "latitude": -9.3892335,
+      "longitude": -37.09705090000001,
+      "valor_minimo": 7.500374868795921,
+      "valor_maximo": 7.500374868795921,
+      "valor_medio": 7.500374868795921,
+      "valor_recente": 7.500374868795921,
+      "data_recente": "2026-04-15T21:25:05Z"
     }
   ]
 }
