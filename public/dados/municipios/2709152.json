@@ -1,55 +1,35 @@
 {
   "codigoIBGE": "2709152",
   "municipio": "Teotônio Vilela",
-  "atualizadoEm": "2026-04-14T14:32:52.856Z",
+  "atualizadoEm": "2026-04-15T22:26:51.927Z",
   "totalEstabelecimentos": 24,
   "combustiveis": {
     "1": {
       "totalPostos": 6,
-      "valorMinimo": 6.7897881586094515,
-      "valorMaximo": 6.89,
-      "valorMedio": 6.825069773144346
+      "valorMinimo": 6.789687924016282,
+      "valorMaximo": 6.889908256880734,
+      "valorMedio": 6.824751931549329
     },
     "2": {
       "totalPostos": 6,
-      "valorMinimo": 6.097841065686725,
-      "valorMaximo": 6.993006993006993,
-      "valorMedio": 6.769614745736202
+      "valorMinimo": 6.097295617034504,
+      "valorMaximo": 6.990393013100436,
+      "valorMedio": 6.769338593717744
     },
     "3": {
       "totalPostos": 6,
-      "valorMinimo": 4.989830508474577,
-      "valorMaximo": 5.214285714285714,
-      "valorMedio": 5.10227488037853
+      "valorMinimo": 4.9900249376558605,
+      "valorMaximo": 5.220024012110455,
+      "valorMedio": 5.103053884739034
     },
     "5": {
       "totalPostos": 6,
-      "valorMinimo": 6.980023173676937,
+      "valorMinimo": 3.8999999137206336,
       "valorMaximo": 7.389890629618682,
-      "valorMedio": 7.1899698155791265
+      "valorMedio": 6.658414079832635
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "59996494000159",
-      "tipo_combustivel": 1,
-      "razao_social": "REDE DAL TEOTONIO VILELA COMERCIO DE COMBUSTIVEL LTDA",
-      "nome_fantasia": "POSTO VIVA DEUS",
-      "telefone": "(79) 999999999",
-      "nome_logradouro": "Rua Angêla Maria da Conceição",
-      "numero_imovel": "3141",
-      "bairro": "São Miguel",
-      "cep": "57266170",
-      "codigo_ibge": 2709152,
-      "municipio": "TEOTONIO VILELA",
-      "latitude": -9.90528,
-      "longitude": -36.35278,
-      "valor_minimo": 6.7897881586094515,
-      "valor_maximo": 6.7897881586094515,
-      "valor_medio": 6.7897881586094515,
-      "valor_recente": 6.7897881586094515,
-      "data_recente": "2026-04-14T12:32:18Z"
-    },
     {
       "cnpj": "56412726000196",
       "tipo_combustivel": 1,
@@ -62,13 +42,33 @@
       "cep": "57266170",
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
-      "latitude": -9.90528,
-      "longitude": -36.35278,
-      "valor_minimo": 6.7898305084745765,
-      "valor_maximo": 6.7898305084745765,
-      "valor_medio": 6.7898305084745765,
-      "valor_recente": 6.7898305084745765,
-      "data_recente": "2026-04-13T21:37:47Z"
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.789687924016282,
+      "valor_maximo": 6.789687924016282,
+      "valor_medio": 6.789687924016282,
+      "valor_recente": 6.789687924016282,
+      "data_recente": "2026-04-15T21:18:09Z"
+    },
+    {
+      "cnpj": "59996494000159",
+      "tipo_combustivel": 1,
+      "razao_social": "REDE DAL TEOTONIO VILELA COMERCIO DE COMBUSTIVEL LTDA",
+      "nome_fantasia": "POSTO VIVA DEUS",
+      "telefone": "(79) 999999999",
+      "nome_logradouro": "Rua Angêla Maria da Conceição",
+      "numero_imovel": "3141",
+      "bairro": "São Miguel",
+      "cep": "57266170",
+      "codigo_ibge": 2709152,
+      "municipio": "TEOTONIO VILELA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.789985781594134,
+      "valor_maximo": 6.789985781594134,
+      "valor_medio": 6.789985781594134,
+      "valor_recente": 6.789985781594134,
+      "data_recente": "2026-04-15T20:01:43Z"
     },
     {
       "cnpj": "09088674000164",
@@ -82,13 +82,13 @@
       "cep": "57267440",
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
-      "latitude": -9.9094931,
-      "longitude": -36.3597188,
-      "valor_minimo": 6.799945600435197,
-      "valor_maximo": 6.799945600435197,
-      "valor_medio": 6.799945600435197,
-      "valor_recente": 6.799945600435197,
-      "data_recente": "2026-04-14T13:27:16Z"
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.799981902909107,
+      "valor_maximo": 6.799981902909107,
+      "valor_medio": 6.799981902909107,
+      "valor_recente": 6.799981902909107,
+      "data_recente": "2026-04-15T21:27:30Z"
     },
     {
       "cnpj": "50598305000115",
@@ -102,13 +102,13 @@
       "cep": "57268460",
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
-      "latitude": -27.617691,
-      "longitude": -48.638447,
-      "valor_minimo": 6.839945280437757,
-      "valor_maximo": 6.839945280437757,
-      "valor_medio": 6.839945280437757,
-      "valor_recente": 6.839945280437757,
-      "data_recente": "2026-04-14T13:25:49Z"
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.838038632986627,
+      "valor_maximo": 6.838038632986627,
+      "valor_medio": 6.838038632986627,
+      "valor_recente": 6.838038632986627,
+      "data_recente": "2026-04-15T20:56:02Z"
     },
     {
       "cnpj": "10635075000283",
@@ -128,7 +128,7 @@
       "valor_maximo": 6.840909090909091,
       "valor_medio": 6.840909090909091,
       "valor_recente": 6.840909090909091,
-      "data_recente": "2026-04-14T13:35:56Z"
+      "data_recente": "2026-04-15T21:30:42Z"
     },
     {
       "cnpj": "10635075000100",
@@ -144,11 +144,11 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": -9.914451099999999,
       "longitude": -36.3562508,
-      "valor_minimo": 6.89,
-      "valor_maximo": 6.89,
-      "valor_medio": 6.89,
-      "valor_recente": 6.89,
-      "data_recente": "2026-04-14T13:36:51Z"
+      "valor_minimo": 6.889908256880734,
+      "valor_maximo": 6.889908256880734,
+      "valor_medio": 6.889908256880734,
+      "valor_recente": 6.889908256880734,
+      "data_recente": "2026-04-15T21:24:40Z"
     },
     {
       "cnpj": "59996494000159",
@@ -162,13 +162,13 @@
       "cep": "57266170",
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
-      "latitude": -9.90528,
-      "longitude": -36.35278,
-      "valor_minimo": 6.097841065686725,
-      "valor_maximo": 6.097841065686725,
-      "valor_medio": 6.097841065686725,
-      "valor_recente": 6.097841065686725,
-      "data_recente": "2026-04-13T23:42:23Z"
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.097295617034504,
+      "valor_maximo": 6.097295617034504,
+      "valor_medio": 6.097295617034504,
+      "valor_recente": 6.097295617034504,
+      "data_recente": "2026-04-15T00:18:14Z"
     },
     {
       "cnpj": "56412726000196",
@@ -182,33 +182,13 @@
       "cep": "57266170",
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
-      "latitude": -9.90528,
-      "longitude": -36.35278,
-      "valor_minimo": 6.789972899728998,
-      "valor_maximo": 6.789972899728998,
-      "valor_medio": 6.789972899728998,
-      "valor_recente": 6.789972899728998,
-      "data_recente": "2026-04-14T12:27:36Z"
-    },
-    {
-      "cnpj": "09088674000164",
-      "tipo_combustivel": 2,
-      "razao_social": "MARIA JOSINEIDE DUARTE COSTA - ME",
-      "nome_fantasia": "POSTO DUARTE",
-      "telefone": "",
-      "nome_logradouro": "Rua FRANCISCO TIMOTEO",
-      "numero_imovel": "1219",
-      "bairro": "INHUMAS",
-      "cep": "57267440",
-      "codigo_ibge": 2709152,
-      "municipio": "TEOTONIO VILELA",
-      "latitude": -9.9094931,
-      "longitude": -36.3597188,
-      "valor_minimo": 6.899952658986902,
-      "valor_maximo": 6.899952658986902,
-      "valor_medio": 6.899952658986902,
-      "valor_recente": 6.899952658986902,
-      "data_recente": "2026-04-14T12:50:25Z"
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.790322580645161,
+      "valor_maximo": 6.790322580645161,
+      "valor_medio": 6.790322580645161,
+      "valor_recente": 6.790322580645161,
+      "data_recente": "2026-04-15T21:18:44Z"
     },
     {
       "cnpj": "10635075000100",
@@ -224,11 +204,31 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": -9.914451099999999,
       "longitude": -36.3562508,
-      "valor_minimo": 6.899977920070656,
-      "valor_maximo": 6.899977920070656,
-      "valor_medio": 6.899977920070656,
-      "valor_recente": 6.899977920070656,
-      "data_recente": "2026-04-14T12:37:45Z"
+      "valor_minimo": 6.9,
+      "valor_maximo": 6.9,
+      "valor_medio": 6.9,
+      "valor_recente": 6.9,
+      "data_recente": "2026-04-15T21:25:28Z"
+    },
+    {
+      "cnpj": "09088674000164",
+      "tipo_combustivel": 2,
+      "razao_social": "MARIA JOSINEIDE DUARTE COSTA - ME",
+      "nome_fantasia": "POSTO DUARTE",
+      "telefone": "",
+      "nome_logradouro": "Rua FRANCISCO TIMOTEO",
+      "numero_imovel": "1219",
+      "bairro": "INHUMAS",
+      "cep": "57267440",
+      "codigo_ibge": 2709152,
+      "municipio": "TEOTONIO VILELA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.9,
+      "valor_maximo": 6.9,
+      "valor_medio": 6.9,
+      "valor_recente": 6.9,
+      "data_recente": "2026-04-15T20:43:06Z"
     },
     {
       "cnpj": "50598305000115",
@@ -242,13 +242,13 @@
       "cep": "57268460",
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
-      "latitude": -27.617691,
-      "longitude": -48.638447,
-      "valor_minimo": 6.936936936936937,
-      "valor_maximo": 6.936936936936937,
-      "valor_medio": 6.936936936936937,
-      "valor_recente": 6.936936936936937,
-      "data_recente": "2026-04-14T13:10:11Z"
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.938020351526364,
+      "valor_maximo": 6.938020351526364,
+      "valor_medio": 6.938020351526364,
+      "valor_recente": 6.938020351526364,
+      "data_recente": "2026-04-15T20:28:23Z"
     },
     {
       "cnpj": "10635075000283",
@@ -264,11 +264,11 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": -9.9019742,
       "longitude": -36.3601623,
-      "valor_minimo": 6.993006993006993,
-      "valor_maximo": 6.993006993006993,
-      "valor_medio": 6.993006993006993,
-      "valor_recente": 6.993006993006993,
-      "data_recente": "2026-04-14T13:06:09Z"
+      "valor_minimo": 6.990393013100436,
+      "valor_maximo": 6.990393013100436,
+      "valor_medio": 6.990393013100436,
+      "valor_recente": 6.990393013100436,
+      "data_recente": "2026-04-15T21:17:40Z"
     },
     {
       "cnpj": "56412726000196",
@@ -282,13 +282,13 @@
       "cep": "57266170",
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
-      "latitude": -9.90528,
-      "longitude": -36.35278,
-      "valor_minimo": 4.989830508474577,
-      "valor_maximo": 4.989830508474577,
-      "valor_medio": 4.989830508474577,
-      "valor_recente": 4.989830508474577,
-      "data_recente": "2026-04-14T12:27:36Z"
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 4.9900249376558605,
+      "valor_maximo": 4.9900249376558605,
+      "valor_medio": 4.9900249376558605,
+      "valor_recente": 4.9900249376558605,
+      "data_recente": "2026-04-15T21:01:09Z"
     },
     {
       "cnpj": "59996494000159",
@@ -302,13 +302,13 @@
       "cep": "57266170",
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
-      "latitude": -9.90528,
-      "longitude": -36.35278,
-      "valor_minimo": 5.039889004509192,
-      "valor_maximo": 5.039889004509192,
-      "valor_medio": 5.039889004509192,
-      "valor_recente": 5.039889004509192,
-      "data_recente": "2026-04-14T13:27:27Z"
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 5.039814534825118,
+      "valor_maximo": 5.039814534825118,
+      "valor_medio": 5.039814534825118,
+      "valor_recente": 5.039814534825118,
+      "data_recente": "2026-04-15T16:18:56Z"
     },
     {
       "cnpj": "10635075000283",
@@ -324,11 +324,11 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": -9.9019742,
       "longitude": -36.3601623,
-      "valor_minimo": 5.0899067005937235,
-      "valor_maximo": 5.0899067005937235,
-      "valor_medio": 5.0899067005937235,
-      "valor_recente": 5.0899067005937235,
-      "data_recente": "2026-04-14T13:28:33Z"
+      "valor_minimo": 5.089420654911839,
+      "valor_maximo": 5.089420654911839,
+      "valor_medio": 5.089420654911839,
+      "valor_recente": 5.089420654911839,
+      "data_recente": "2026-04-15T21:27:50Z"
     },
     {
       "cnpj": "50598305000115",
@@ -342,13 +342,13 @@
       "cep": "57268460",
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
-      "latitude": -27.617691,
-      "longitude": -48.638447,
-      "valor_minimo": 5.139802631578948,
-      "valor_maximo": 5.139802631578948,
-      "valor_medio": 5.139802631578948,
-      "valor_recente": 5.139802631578948,
-      "data_recente": "2026-04-14T11:29:40Z"
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 5.139025188092901,
+      "valor_maximo": 5.139025188092901,
+      "valor_medio": 5.139025188092901,
+      "valor_recente": 5.139025188092901,
+      "data_recente": "2026-04-15T19:51:23Z"
     },
     {
       "cnpj": "09088674000164",
@@ -362,13 +362,13 @@
       "cep": "57267440",
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
-      "latitude": -9.9094931,
-      "longitude": -36.3597188,
-      "valor_minimo": 5.13993472282902,
-      "valor_maximo": 5.13993472282902,
-      "valor_medio": 5.13993472282902,
-      "valor_recente": 5.13993472282902,
-      "data_recente": "2026-04-14T11:05:05Z"
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 5.140013980838028,
+      "valor_maximo": 5.140013980838028,
+      "valor_medio": 5.140013980838028,
+      "valor_recente": 5.140013980838028,
+      "data_recente": "2026-04-15T20:44:32Z"
     },
     {
       "cnpj": "10635075000100",
@@ -384,31 +384,11 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": -9.914451099999999,
       "longitude": -36.3562508,
-      "valor_minimo": 5.214285714285714,
-      "valor_maximo": 5.214285714285714,
-      "valor_medio": 5.214285714285714,
-      "valor_recente": 5.214285714285714,
-      "data_recente": "2026-04-14T13:17:21Z"
-    },
-    {
-      "cnpj": "09088674000164",
-      "tipo_combustivel": 5,
-      "razao_social": "MARIA JOSINEIDE DUARTE COSTA - ME",
-      "nome_fantasia": "POSTO DUARTE",
-      "telefone": "",
-      "nome_logradouro": "Rua FRANCISCO TIMOTEO",
-      "numero_imovel": "1219",
-      "bairro": "INHUMAS",
-      "cep": "57267440",
-      "codigo_ibge": 2709152,
-      "municipio": "TEOTONIO VILELA",
-      "latitude": -9.9094931,
-      "longitude": -36.3597188,
-      "valor_minimo": 6.980023173676937,
-      "valor_maximo": 6.980023173676937,
-      "valor_medio": 6.980023173676937,
-      "valor_recente": 6.980023173676937,
-      "data_recente": "2026-04-14T07:57:47Z"
+      "valor_minimo": 5.220024012110455,
+      "valor_maximo": 5.220024012110455,
+      "valor_medio": 5.220024012110455,
+      "valor_recente": 5.220024012110455,
+      "data_recente": "2026-04-15T21:25:39Z"
     },
     {
       "cnpj": "10635075000283",
@@ -424,11 +404,51 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": -9.9019742,
       "longitude": -36.3601623,
-      "valor_minimo": 7.089936608557845,
-      "valor_maximo": 7.089936608557845,
-      "valor_medio": 7.089936608557845,
-      "valor_recente": 7.089936608557845,
-      "data_recente": "2026-04-14T13:01:00Z"
+      "valor_minimo": 3.8999999137206336,
+      "valor_maximo": 3.8999999137206336,
+      "valor_medio": 3.8999999137206336,
+      "valor_recente": 3.8999999137206336,
+      "data_recente": "2026-04-15T21:25:49Z"
+    },
+    {
+      "cnpj": "59996494000159",
+      "tipo_combustivel": 5,
+      "razao_social": "REDE DAL TEOTONIO VILELA COMERCIO DE COMBUSTIVEL LTDA",
+      "nome_fantasia": "POSTO VIVA DEUS",
+      "telefone": "(79) 999999999",
+      "nome_logradouro": "Rua Angêla Maria da Conceição",
+      "numero_imovel": "3141",
+      "bairro": "São Miguel",
+      "cep": "57266170",
+      "codigo_ibge": 2709152,
+      "municipio": "TEOTONIO VILELA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.749985167103177,
+      "valor_maximo": 7.29,
+      "valor_medio": 7.019992583551589,
+      "valor_recente": 7.29,
+      "data_recente": "2026-04-15T20:53:21Z"
+    },
+    {
+      "cnpj": "09088674000164",
+      "tipo_combustivel": 5,
+      "razao_social": "MARIA JOSINEIDE DUARTE COSTA - ME",
+      "nome_fantasia": "POSTO DUARTE",
+      "telefone": "",
+      "nome_logradouro": "Rua FRANCISCO TIMOTEO",
+      "numero_imovel": "1219",
+      "bairro": "INHUMAS",
+      "cep": "57267440",
+      "codigo_ibge": 2709152,
+      "municipio": "TEOTONIO VILELA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.9804469273743015,
+      "valor_maximo": 6.9804469273743015,
+      "valor_medio": 6.9804469273743015,
+      "valor_recente": 6.9804469273743015,
+      "data_recente": "2026-04-15T20:09:51Z"
     },
     {
       "cnpj": "10635075000100",
@@ -444,11 +464,11 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": -9.914451099999999,
       "longitude": -36.3562508,
-      "valor_minimo": 7.189977517453555,
-      "valor_maximo": 7.189977517453555,
-      "valor_medio": 7.189977517453555,
-      "valor_recente": 7.189977517453555,
-      "data_recente": "2026-04-14T13:19:44Z"
+      "valor_minimo": 7.190003019801268,
+      "valor_maximo": 7.190003019801268,
+      "valor_medio": 7.190003019801268,
+      "valor_recente": 7.190003019801268,
+      "data_recente": "2026-04-15T21:25:18Z"
     },
     {
       "cnpj": "56412726000196",
@@ -462,33 +482,13 @@
       "cep": "57266170",
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
-      "latitude": -9.90528,
-      "longitude": -36.35278,
-      "valor_minimo": 7.2,
-      "valor_maximo": 7.2,
-      "valor_medio": 7.2,
-      "valor_recente": 7.2,
-      "data_recente": "2026-04-14T13:09:42Z"
-    },
-    {
-      "cnpj": "59996494000159",
-      "tipo_combustivel": 5,
-      "razao_social": "REDE DAL TEOTONIO VILELA COMERCIO DE COMBUSTIVEL LTDA",
-      "nome_fantasia": "POSTO VIVA DEUS",
-      "telefone": "(79) 999999999",
-      "nome_logradouro": "Rua Angêla Maria da Conceição",
-      "numero_imovel": "3141",
-      "bairro": "São Miguel",
-      "cep": "57266170",
-      "codigo_ibge": 2709152,
-      "municipio": "TEOTONIO VILELA",
-      "latitude": -9.90528,
-      "longitude": -36.35278,
-      "valor_minimo": 7.289990964167741,
-      "valor_maximo": 7.289997043780398,
-      "valor_medio": 7.289994003974069,
-      "valor_recente": 7.289990964167741,
-      "data_recente": "2026-04-14T10:31:32Z"
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.200143988480922,
+      "valor_maximo": 7.200143988480922,
+      "valor_medio": 7.200143988480922,
+      "valor_recente": 7.200143988480922,
+      "data_recente": "2026-04-15T20:33:24Z"
     },
     {
       "cnpj": "50598305000115",
@@ -502,13 +502,13 @@
       "cep": "57268460",
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
-      "latitude": -27.617691,
-      "longitude": -48.638447,
+      "latitude": 0,
+      "longitude": 0,
       "valor_minimo": 7.389890629618682,
       "valor_maximo": 7.389890629618682,
       "valor_medio": 7.389890629618682,
       "valor_recente": 7.389890629618682,
-      "data_recente": "2026-04-14T00:02:16Z"
+      "data_recente": "2026-04-15T20:55:26Z"
     }
   ]
 }

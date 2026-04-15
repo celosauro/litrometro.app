@@ -1,38 +1,38 @@
 {
   "codigoIBGE": "2704500",
   "municipio": "Maragogi",
-  "atualizadoEm": "2026-04-14T14:07:57.758Z",
+  "atualizadoEm": "2026-04-15T22:05:26.684Z",
   "totalEstabelecimentos": 21,
   "combustiveis": {
     "1": {
       "totalPostos": 5,
-      "valorMinimo": 6.939203354297694,
+      "valorMinimo": 6.938668530491001,
       "valorMaximo": 7.380073800738008,
-      "valorMedio": 7.0698389966551485
+      "valorMedio": 7.041181714370895
     },
     "2": {
       "totalPostos": 5,
-      "valorMinimo": 6.989793810173134,
-      "valorMaximo": 7.326951399116347,
-      "valorMedio": 7.1048970856230635
+      "valorMinimo": 6.949270326615705,
+      "valorMaximo": 7.529907558455682,
+      "valorMedio": 7.11713222243683
     },
     "3": {
       "totalPostos": 5,
-      "valorMinimo": 5.289885738468049,
-      "valorMaximo": 6.509928344800542,
-      "valorMedio": 5.671894584280035
+      "valorMinimo": 5.29,
+      "valorMaximo": 6.510871774029669,
+      "valorMedio": 5.672121657705894
     },
     "5": {
       "totalPostos": 5,
-      "valorMinimo": 7.288629737609329,
-      "valorMaximo": 7.7,
-      "valorMedio": 7.463434655211129
+      "valorMinimo": 7.289987398891947,
+      "valorMaximo": 7.799906401123186,
+      "valorMedio": 7.514019827764834
     },
     "6": {
       "totalPostos": 1,
-      "valorMinimo": 5.789737925494528,
-      "valorMaximo": 5.789737925494528,
-      "valorMedio": 5.789737925494528
+      "valorMinimo": 5.789838871328348,
+      "valorMaximo": 5.789838871328348,
+      "valorMedio": 5.789838871328348
     }
   },
   "estabelecimentos": [
@@ -50,11 +50,11 @@
       "municipio": "MARAGOGI",
       "latitude": -8.9390015,
       "longitude": -35.1736298,
-      "valor_minimo": 6.939203354297694,
-      "valor_maximo": 6.939203354297694,
-      "valor_medio": 6.939203354297694,
-      "valor_recente": 6.939203354297694,
-      "data_recente": "2026-04-14T13:35:57Z"
+      "valor_minimo": 6.938668530491001,
+      "valor_maximo": 6.938668530491001,
+      "valor_medio": 6.938668530491001,
+      "valor_recente": 6.938668530491001,
+      "data_recente": "2026-04-15T21:11:38Z"
     },
     {
       "cnpj": "27665019000294",
@@ -68,33 +68,13 @@
       "cep": "57955000",
       "codigo_ibge": 2704500,
       "municipio": "MARAGOGI",
-      "latitude": -9.01222,
-      "longitude": -35.2225,
-      "valor_minimo": 6.9897281811194185,
-      "valor_maximo": 6.9897281811194185,
-      "valor_medio": 6.9897281811194185,
-      "valor_recente": 6.9897281811194185,
-      "data_recente": "2026-04-14T13:29:14Z"
-    },
-    {
-      "cnpj": "08801561000282",
-      "tipo_combustivel": 1,
-      "razao_social": "RAC INDUSTRIA DE COMPRESSAO E COMERCIO DE GAS NATURAL",
-      "nome_fantasia": "MASTER GAS",
-      "telefone": "",
-      "nome_logradouro": "ROD AL 101 NORTE",
-      "numero_imovel": "S/N",
-      "bairro": "LOT. CANTO DO MAR",
-      "cep": "57955000",
-      "codigo_ibge": 2704500,
-      "municipio": "MARAGOGI",
-      "latitude": -9.0104746,
-      "longitude": -35.2252908,
-      "valor_minimo": 6.989992241593268,
-      "valor_maximo": 6.989992241593268,
-      "valor_medio": 6.989992241593268,
-      "valor_recente": 6.989992241593268,
-      "data_recente": "2026-04-14T13:36:14Z"
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.9469331495520334,
+      "valor_maximo": 6.9469331495520334,
+      "valor_medio": 6.9469331495520334,
+      "valor_recente": 6.9469331495520334,
+      "data_recente": "2026-04-15T21:28:08Z"
     },
     {
       "cnpj": "12630679000181",
@@ -110,11 +90,31 @@
       "municipio": "MARAGOGI",
       "latitude": -9.010464899999999,
       "longitude": -35.225291,
-      "valor_minimo": 7.050197405527355,
-      "valor_maximo": 7.050197405527355,
-      "valor_medio": 7.050197405527355,
-      "valor_recente": 7.050197405527355,
-      "data_recente": "2026-04-14T13:31:59Z"
+      "valor_minimo": 6.950236308034473,
+      "valor_maximo": 6.950236308034473,
+      "valor_medio": 6.950236308034473,
+      "valor_recente": 6.950236308034473,
+      "data_recente": "2026-04-15T21:22:04Z"
+    },
+    {
+      "cnpj": "08801561000282",
+      "tipo_combustivel": 1,
+      "razao_social": "RAC INDUSTRIA DE COMPRESSAO E COMERCIO DE GAS NATURAL",
+      "nome_fantasia": "MASTER GAS",
+      "telefone": "",
+      "nome_logradouro": "ROD AL 101 NORTE",
+      "numero_imovel": "S/N",
+      "bairro": "LOT. CANTO DO MAR",
+      "cep": "57955000",
+      "codigo_ibge": 2704500,
+      "municipio": "MARAGOGI",
+      "latitude": -9.0104746,
+      "longitude": -35.2252908,
+      "valor_minimo": 6.989996783038956,
+      "valor_maximo": 6.989996783038956,
+      "valor_medio": 6.989996783038956,
+      "valor_recente": 6.989996783038956,
+      "data_recente": "2026-04-15T21:29:46Z"
     },
     {
       "cnpj": "06867470000133",
@@ -134,7 +134,7 @@
       "valor_maximo": 7.380073800738008,
       "valor_medio": 7.380073800738008,
       "valor_recente": 7.380073800738008,
-      "data_recente": "2026-04-14T12:53:21Z"
+      "data_recente": "2026-04-15T21:15:48Z"
     },
     {
       "cnpj": "27665019000294",
@@ -148,13 +148,13 @@
       "cep": "57955000",
       "codigo_ibge": 2704500,
       "municipio": "MARAGOGI",
-      "latitude": -9.01222,
-      "longitude": -35.2225,
-      "valor_minimo": 6.989793810173134,
-      "valor_maximo": 6.989793810173134,
-      "valor_medio": 6.989793810173134,
-      "valor_recente": 6.989793810173134,
-      "data_recente": "2026-04-14T13:31:02Z"
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.949270326615705,
+      "valor_maximo": 6.949270326615705,
+      "valor_medio": 6.949270326615705,
+      "valor_recente": 6.949270326615705,
+      "data_recente": "2026-04-15T21:24:44Z"
     },
     {
       "cnpj": "08801561000282",
@@ -174,7 +174,27 @@
       "valor_maximo": 6.99,
       "valor_medio": 6.99,
       "valor_recente": 6.99,
-      "data_recente": "2026-04-14T12:27:53Z"
+      "data_recente": "2026-04-15T21:21:24Z"
+    },
+    {
+      "cnpj": "12630679000181",
+      "tipo_combustivel": 2,
+      "razao_social": "MARCOL MARAGOGI COMBUSTIVEL LTDA",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 101",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57955000",
+      "codigo_ibge": 2704500,
+      "municipio": "MARAGOGI",
+      "latitude": -9.010464899999999,
+      "longitude": -35.225291,
+      "valor_minimo": 7.049345417925478,
+      "valor_maximo": 7.049345417925478,
+      "valor_medio": 7.049345417925478,
+      "valor_recente": 7.049345417925478,
+      "data_recente": "2026-04-15T21:29:51Z"
     },
     {
       "cnpj": "31036672000261",
@@ -197,26 +217,6 @@
       "data_recente": "2026-04-08T07:16:11Z"
     },
     {
-      "cnpj": "12630679000181",
-      "tipo_combustivel": 2,
-      "razao_social": "MARCOL MARAGOGI COMBUSTIVEL LTDA",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 101",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57955000",
-      "codigo_ibge": 2704500,
-      "municipio": "MARAGOGI",
-      "latitude": -9.010464899999999,
-      "longitude": -35.225291,
-      "valor_minimo": 7.150602409638554,
-      "valor_maximo": 7.150602409638554,
-      "valor_medio": 7.150602409638554,
-      "valor_recente": 7.150602409638554,
-      "data_recente": "2026-04-14T13:36:37Z"
-    },
-    {
       "cnpj": "06867470000133",
       "tipo_combustivel": 2,
       "razao_social": "AUTO POSTO PROGRESSO",
@@ -230,11 +230,11 @@
       "municipio": "MARAGOGI",
       "latitude": -8.9696489,
       "longitude": -35.1878169,
-      "valor_minimo": 7.326951399116347,
-      "valor_maximo": 7.326951399116347,
-      "valor_medio": 7.326951399116347,
-      "valor_recente": 7.326951399116347,
-      "data_recente": "2026-04-14T00:41:48Z"
+      "valor_minimo": 7.529907558455682,
+      "valor_maximo": 7.529907558455682,
+      "valor_medio": 7.529907558455682,
+      "valor_recente": 7.529907558455682,
+      "data_recente": "2026-04-15T20:38:56Z"
     },
     {
       "cnpj": "27665019000294",
@@ -248,13 +248,13 @@
       "cep": "57955000",
       "codigo_ibge": 2704500,
       "municipio": "MARAGOGI",
-      "latitude": -9.01222,
-      "longitude": -35.2225,
-      "valor_minimo": 5.289885738468049,
-      "valor_maximo": 5.289885738468049,
-      "valor_medio": 5.289885738468049,
-      "valor_recente": 5.289885738468049,
-      "data_recente": "2026-04-14T13:17:51Z"
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 5.29,
+      "valor_maximo": 5.29,
+      "valor_medio": 5.29,
+      "valor_recente": 5.29,
+      "data_recente": "2026-04-15T21:26:35Z"
     },
     {
       "cnpj": "08801561000282",
@@ -270,11 +270,11 @@
       "municipio": "MARAGOGI",
       "latitude": -9.0104746,
       "longitude": -35.2252908,
-      "valor_minimo": 5.319993573818432,
-      "valor_maximo": 5.319993573818432,
-      "valor_medio": 5.319993573818432,
-      "valor_recente": 5.319993573818432,
-      "data_recente": "2026-04-14T10:37:52Z"
+      "valor_minimo": 5.319997100819019,
+      "valor_maximo": 5.319997100819019,
+      "valor_medio": 5.319997100819019,
+      "valor_recente": 5.319997100819019,
+      "data_recente": "2026-04-15T19:45:01Z"
     },
     {
       "cnpj": "31036672000261",
@@ -290,11 +290,11 @@
       "municipio": "MARAGOGI",
       "latitude": -8.9390015,
       "longitude": -35.1736298,
-      "valor_minimo": 5.489665264313151,
-      "valor_maximo": 5.489665264313151,
-      "valor_medio": 5.489665264313151,
-      "valor_recente": 5.489665264313151,
-      "data_recente": "2026-04-14T13:35:32Z"
+      "valor_minimo": 5.4397394136807815,
+      "valor_maximo": 5.4397394136807815,
+      "valor_medio": 5.4397394136807815,
+      "valor_recente": 5.4397394136807815,
+      "data_recente": "2026-04-15T20:58:22Z"
     },
     {
       "cnpj": "12630679000181",
@@ -310,11 +310,11 @@
       "municipio": "MARAGOGI",
       "latitude": -9.010464899999999,
       "longitude": -35.225291,
-      "valor_minimo": 5.75,
-      "valor_maximo": 5.75,
-      "valor_medio": 5.75,
-      "valor_recente": 5.75,
-      "data_recente": "2026-04-14T13:08:32Z"
+      "valor_minimo": 5.8,
+      "valor_maximo": 5.8,
+      "valor_medio": 5.8,
+      "valor_recente": 5.8,
+      "data_recente": "2026-04-15T21:27:28Z"
     },
     {
       "cnpj": "06867470000133",
@@ -330,31 +330,11 @@
       "municipio": "MARAGOGI",
       "latitude": -8.9696489,
       "longitude": -35.1878169,
-      "valor_minimo": 6.509928344800542,
-      "valor_maximo": 6.509928344800542,
-      "valor_medio": 6.509928344800542,
-      "valor_recente": 6.509928344800542,
-      "data_recente": "2026-04-14T12:21:58Z"
-    },
-    {
-      "cnpj": "27665019000294",
-      "tipo_combustivel": 5,
-      "razao_social": "SANDIEGO COMÉRCIO DE COMBUSTÍVEIS LTDA",
-      "nome_fantasia": "POSTO PRATAGY",
-      "telefone": "(82) 87532499",
-      "nome_logradouro": "ROD ANGELIM",
-      "numero_imovel": "55",
-      "bairro": "PARQUE DOS COQUEIROS",
-      "cep": "57955000",
-      "codigo_ibge": 2704500,
-      "municipio": "MARAGOGI",
-      "latitude": -9.01222,
-      "longitude": -35.2225,
-      "valor_minimo": 7.288629737609329,
-      "valor_maximo": 7.288629737609329,
-      "valor_medio": 7.288629737609329,
-      "valor_recente": 7.288629737609329,
-      "data_recente": "2026-04-14T12:46:57Z"
+      "valor_minimo": 6.510871774029669,
+      "valor_maximo": 6.510871774029669,
+      "valor_medio": 6.510871774029669,
+      "valor_recente": 6.510871774029669,
+      "data_recente": "2026-04-15T20:57:34Z"
     },
     {
       "cnpj": "08801561000282",
@@ -370,11 +350,31 @@
       "municipio": "MARAGOGI",
       "latitude": -9.0104746,
       "longitude": -35.2252908,
+      "valor_minimo": 7.289987398891947,
+      "valor_maximo": 7.289987398891947,
+      "valor_medio": 7.289987398891947,
+      "valor_recente": 7.289987398891947,
+      "data_recente": "2026-04-15T21:27:00Z"
+    },
+    {
+      "cnpj": "27665019000294",
+      "tipo_combustivel": 5,
+      "razao_social": "SANDIEGO COMÉRCIO DE COMBUSTÍVEIS LTDA",
+      "nome_fantasia": "POSTO PRATAGY",
+      "telefone": "(82) 87532499",
+      "nome_logradouro": "ROD ANGELIM",
+      "numero_imovel": "55",
+      "bairro": "PARQUE DOS COQUEIROS",
+      "cep": "57955000",
+      "codigo_ibge": 2704500,
+      "municipio": "MARAGOGI",
+      "latitude": 0,
+      "longitude": 0,
       "valor_minimo": 7.29,
       "valor_maximo": 7.29,
       "valor_medio": 7.29,
       "valor_recente": 7.29,
-      "data_recente": "2026-04-14T12:56:50Z"
+      "data_recente": "2026-04-15T21:12:03Z"
     },
     {
       "cnpj": "31036672000261",
@@ -390,31 +390,11 @@
       "municipio": "MARAGOGI",
       "latitude": -8.9390015,
       "longitude": -35.1736298,
-      "valor_minimo": 7.439988016327754,
-      "valor_maximo": 7.439988016327754,
-      "valor_medio": 7.439988016327754,
-      "valor_recente": 7.439988016327754,
-      "data_recente": "2026-04-14T12:39:24Z"
-    },
-    {
-      "cnpj": "06867470000133",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO PROGRESSO",
-      "nome_fantasia": "AUTOPEL",
-      "telefone": "(82) 2961616",
-      "nome_logradouro": "LOT GAMELA DA BARRA GRANDE",
-      "numero_imovel": "SN",
-      "bairro": "CENTRO",
-      "cep": "57955000",
-      "codigo_ibge": 2704500,
-      "municipio": "MARAGOGI",
-      "latitude": -8.9696489,
-      "longitude": -35.1878169,
-      "valor_minimo": 7.598555522118567,
-      "valor_maximo": 7.598555522118567,
-      "valor_medio": 7.598555522118567,
-      "valor_recente": 7.598555522118567,
-      "data_recente": "2026-04-14T12:34:45Z"
+      "valor_minimo": 7.49,
+      "valor_maximo": 7.49,
+      "valor_medio": 7.49,
+      "valor_recente": 7.49,
+      "data_recente": "2026-04-15T20:25:05Z"
     },
     {
       "cnpj": "12630679000181",
@@ -430,11 +410,31 @@
       "municipio": "MARAGOGI",
       "latitude": -9.010464899999999,
       "longitude": -35.225291,
-      "valor_minimo": 7.7,
-      "valor_maximo": 7.7,
-      "valor_medio": 7.7,
-      "valor_recente": 7.7,
-      "data_recente": "2026-04-14T13:27:49Z"
+      "valor_minimo": 7.700205338809035,
+      "valor_maximo": 7.700205338809035,
+      "valor_medio": 7.700205338809035,
+      "valor_recente": 7.700205338809035,
+      "data_recente": "2026-04-15T20:38:43Z"
+    },
+    {
+      "cnpj": "06867470000133",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO PROGRESSO",
+      "nome_fantasia": "AUTOPEL",
+      "telefone": "(82) 2961616",
+      "nome_logradouro": "LOT GAMELA DA BARRA GRANDE",
+      "numero_imovel": "SN",
+      "bairro": "CENTRO",
+      "cep": "57955000",
+      "codigo_ibge": 2704500,
+      "municipio": "MARAGOGI",
+      "latitude": -8.9696489,
+      "longitude": -35.1878169,
+      "valor_minimo": 7.799906401123186,
+      "valor_maximo": 7.799906401123186,
+      "valor_medio": 7.799906401123186,
+      "valor_recente": 7.799906401123186,
+      "data_recente": "2026-04-15T20:25:04Z"
     },
     {
       "cnpj": "08801561000282",
@@ -450,11 +450,11 @@
       "municipio": "MARAGOGI",
       "latitude": -9.0104746,
       "longitude": -35.2252908,
-      "valor_minimo": 5.789737925494528,
-      "valor_maximo": 5.789737925494528,
-      "valor_medio": 5.789737925494528,
-      "valor_recente": 5.789737925494528,
-      "data_recente": "2026-04-14T00:43:36Z"
+      "valor_minimo": 5.789838871328348,
+      "valor_maximo": 5.789838871328348,
+      "valor_medio": 5.789838871328348,
+      "valor_recente": 5.789838871328348,
+      "data_recente": "2026-04-15T19:45:01Z"
     }
   ]
 }
