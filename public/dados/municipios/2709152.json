@@ -1,55 +1,35 @@
 {
   "codigoIBGE": "2709152",
   "municipio": "Teotônio Vilela",
-  "atualizadoEm": "2026-04-15T16:41:51.259Z",
+  "atualizadoEm": "2026-04-15T17:47:49.333Z",
   "totalEstabelecimentos": 24,
   "combustiveis": {
     "1": {
       "totalPostos": 6,
-      "valorMinimo": 6.7897881586094515,
-      "valorMaximo": 6.889899407468651,
-      "valorMedio": 6.824408763005079
+      "valorMinimo": 6.789592760180995,
+      "valorMaximo": 6.89,
+      "valorMedio": 6.824965750204686
     },
     "2": {
       "totalPostos": 6,
       "valorMinimo": 6.097295617034504,
-      "valorMaximo": 6.987341772151899,
-      "valorMedio": 6.769061564000496
+      "valorMaximo": 6.990029910269192,
+      "valorMedio": 6.769403762123673
     },
     "3": {
       "totalPostos": 6,
-      "valorMinimo": 4.40012095859688,
-      "valorMaximo": 5.21875,
-      "valorMedio": 4.98792415245925
+      "valorMinimo": 4.789924433249371,
+      "valorMaximo": 5.220024012110455,
+      "valorMedio": 5.053275398785401
     },
     "5": {
       "totalPostos": 6,
-      "valorMinimo": 6.89,
+      "valorMinimo": 6.980023173676937,
       "valorMaximo": 7.389890629618682,
-      "valorMedio": 7.20824116523177
+      "valorMedio": 7.156679660518326
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "59996494000159",
-      "tipo_combustivel": 1,
-      "razao_social": "REDE DAL TEOTONIO VILELA COMERCIO DE COMBUSTIVEL LTDA",
-      "nome_fantasia": "POSTO VIVA DEUS",
-      "telefone": "(79) 999999999",
-      "nome_logradouro": "Rua Angêla Maria da Conceição",
-      "numero_imovel": "3141",
-      "bairro": "São Miguel",
-      "cep": "57266170",
-      "codigo_ibge": 2709152,
-      "municipio": "TEOTONIO VILELA",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.7897881586094515,
-      "valor_maximo": 6.7897881586094515,
-      "valor_medio": 6.7897881586094515,
-      "valor_recente": 6.7897881586094515,
-      "data_recente": "2026-04-15T12:07:41Z"
-    },
     {
       "cnpj": "56412726000196",
       "tipo_combustivel": 1,
@@ -64,11 +44,31 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.789893166016618,
-      "valor_maximo": 6.789893166016618,
-      "valor_medio": 6.789893166016618,
-      "valor_recente": 6.789893166016618,
-      "data_recente": "2026-04-15T15:19:47Z"
+      "valor_minimo": 6.789592760180995,
+      "valor_maximo": 6.789592760180995,
+      "valor_medio": 6.789592760180995,
+      "valor_recente": 6.789592760180995,
+      "data_recente": "2026-04-15T16:40:53Z"
+    },
+    {
+      "cnpj": "59996494000159",
+      "tipo_combustivel": 1,
+      "razao_social": "REDE DAL TEOTONIO VILELA COMERCIO DE COMBUSTIVEL LTDA",
+      "nome_fantasia": "POSTO VIVA DEUS",
+      "telefone": "(79) 999999999",
+      "nome_logradouro": "Rua Angêla Maria da Conceição",
+      "numero_imovel": "3141",
+      "bairro": "São Miguel",
+      "cep": "57266170",
+      "codigo_ibge": 2709152,
+      "municipio": "TEOTONIO VILELA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.790257104194858,
+      "valor_maximo": 6.790257104194858,
+      "valor_medio": 6.790257104194858,
+      "valor_recente": 6.790257104194858,
+      "data_recente": "2026-04-15T17:14:37Z"
     },
     {
       "cnpj": "09088674000164",
@@ -84,31 +84,11 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.799319727891157,
-      "valor_maximo": 6.799319727891157,
-      "valor_medio": 6.799319727891157,
-      "valor_recente": 6.799319727891157,
-      "data_recente": "2026-04-15T15:29:10Z"
-    },
-    {
-      "cnpj": "10635075000283",
-      "tipo_combustivel": 1,
-      "razao_social": "SANTANA & BULHOES AUTO POSTO LTDA",
-      "nome_fantasia": "AUTO POSTO 101",
-      "telefone": "(82) 30241100",
-      "nome_logradouro": "ROD BR 101 SUL",
-      "numero_imovel": "1455",
-      "bairro": "SAO MIGUEL",
-      "cep": "57265000",
-      "codigo_ibge": 2709152,
-      "municipio": "TEOTONIO VILELA",
-      "latitude": -9.9019742,
-      "longitude": -36.3601623,
-      "valor_minimo": 6.837606837606837,
-      "valor_maximo": 6.837606837606837,
-      "valor_medio": 6.837606837606837,
-      "valor_recente": 6.837606837606837,
-      "data_recente": "2026-04-15T15:29:16Z"
+      "valor_minimo": 6.800054075976747,
+      "valor_maximo": 6.800054075976747,
+      "valor_medio": 6.800054075976747,
+      "valor_recente": 6.800054075976747,
+      "data_recente": "2026-04-15T17:35:40Z"
     },
     {
       "cnpj": "50598305000115",
@@ -128,7 +108,27 @@
       "valor_maximo": 6.839945280437757,
       "valor_medio": 6.839945280437757,
       "valor_recente": 6.839945280437757,
-      "data_recente": "2026-04-15T15:36:16Z"
+      "data_recente": "2026-04-15T16:53:07Z"
+    },
+    {
+      "cnpj": "10635075000283",
+      "tipo_combustivel": 1,
+      "razao_social": "SANTANA & BULHOES AUTO POSTO LTDA",
+      "nome_fantasia": "AUTO POSTO 101",
+      "telefone": "(82) 30241100",
+      "nome_logradouro": "ROD BR 101 SUL",
+      "numero_imovel": "1455",
+      "bairro": "SAO MIGUEL",
+      "cep": "57265000",
+      "codigo_ibge": 2709152,
+      "municipio": "TEOTONIO VILELA",
+      "latitude": -9.9019742,
+      "longitude": -36.3601623,
+      "valor_minimo": 6.839945280437757,
+      "valor_maximo": 6.839945280437757,
+      "valor_medio": 6.839945280437757,
+      "valor_recente": 6.839945280437757,
+      "data_recente": "2026-04-15T17:33:44Z"
     },
     {
       "cnpj": "10635075000100",
@@ -144,11 +144,11 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": -9.914451099999999,
       "longitude": -36.3562508,
-      "valor_minimo": 6.889899407468651,
-      "valor_maximo": 6.889899407468651,
-      "valor_medio": 6.889899407468651,
-      "valor_recente": 6.889899407468651,
-      "data_recente": "2026-04-15T15:14:09Z"
+      "valor_minimo": 6.89,
+      "valor_maximo": 6.89,
+      "valor_medio": 6.89,
+      "valor_recente": 6.89,
+      "data_recente": "2026-04-15T17:32:07Z"
     },
     {
       "cnpj": "59996494000159",
@@ -184,11 +184,11 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.790224032586558,
-      "valor_maximo": 6.790224032586558,
-      "valor_medio": 6.790224032586558,
-      "valor_recente": 6.790224032586558,
-      "data_recente": "2026-04-15T15:36:26Z"
+      "valor_minimo": 6.790115075189246,
+      "valor_maximo": 6.790115075189246,
+      "valor_medio": 6.790115075189246,
+      "valor_recente": 6.790115075189246,
+      "data_recente": "2026-04-15T16:22:31Z"
     },
     {
       "cnpj": "09088674000164",
@@ -204,11 +204,11 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.899882701994066,
-      "valor_maximo": 6.899882701994066,
-      "valor_medio": 6.899882701994066,
-      "valor_recente": 6.899882701994066,
-      "data_recente": "2026-04-15T15:24:39Z"
+      "valor_minimo": 6.9,
+      "valor_maximo": 6.9,
+      "valor_medio": 6.9,
+      "valor_recente": 6.9,
+      "data_recente": "2026-04-15T16:39:45Z"
     },
     {
       "cnpj": "10635075000100",
@@ -224,11 +224,11 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": -9.914451099999999,
       "longitude": -36.3562508,
-      "valor_minimo": 6.9,
-      "valor_maximo": 6.9,
-      "valor_medio": 6.9,
-      "valor_recente": 6.9,
-      "data_recente": "2026-04-15T15:09:05Z"
+      "valor_minimo": 6.900009660013524,
+      "valor_maximo": 6.900009660013524,
+      "valor_medio": 6.900009660013524,
+      "valor_recente": 6.900009660013524,
+      "data_recente": "2026-04-15T16:47:49Z"
     },
     {
       "cnpj": "50598305000115",
@@ -244,11 +244,11 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.939625260235947,
-      "valor_maximo": 6.939625260235947,
-      "valor_medio": 6.939625260235947,
-      "valor_recente": 6.939625260235947,
-      "data_recente": "2026-04-15T15:24:32Z"
+      "valor_minimo": 6.938972310235569,
+      "valor_maximo": 6.938972310235569,
+      "valor_medio": 6.938972310235569,
+      "valor_recente": 6.938972310235569,
+      "data_recente": "2026-04-15T16:49:11Z"
     },
     {
       "cnpj": "10635075000283",
@@ -264,31 +264,31 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": -9.9019742,
       "longitude": -36.3601623,
-      "valor_minimo": 6.987341772151899,
-      "valor_maximo": 6.987341772151899,
-      "valor_medio": 6.987341772151899,
-      "valor_recente": 6.987341772151899,
-      "data_recente": "2026-04-15T15:15:33Z"
+      "valor_minimo": 6.990029910269192,
+      "valor_maximo": 6.990029910269192,
+      "valor_medio": 6.990029910269192,
+      "valor_recente": 6.990029910269192,
+      "data_recente": "2026-04-15T17:10:24Z"
     },
     {
-      "cnpj": "59996494000159",
+      "cnpj": "10635075000283",
       "tipo_combustivel": 3,
-      "razao_social": "REDE DAL TEOTONIO VILELA COMERCIO DE COMBUSTIVEL LTDA",
-      "nome_fantasia": "POSTO VIVA DEUS",
-      "telefone": "(79) 999999999",
-      "nome_logradouro": "Rua Angêla Maria da Conceição",
-      "numero_imovel": "3141",
-      "bairro": "São Miguel",
-      "cep": "57266170",
+      "razao_social": "SANTANA & BULHOES AUTO POSTO LTDA",
+      "nome_fantasia": "AUTO POSTO 101",
+      "telefone": "(82) 30241100",
+      "nome_logradouro": "ROD BR 101 SUL",
+      "numero_imovel": "1455",
+      "bairro": "SAO MIGUEL",
+      "cep": "57265000",
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 4.40012095859688,
-      "valor_maximo": 4.40012095859688,
-      "valor_medio": 4.40012095859688,
-      "valor_recente": 4.40012095859688,
-      "data_recente": "2026-04-14T22:56:10Z"
+      "latitude": -9.9019742,
+      "longitude": -36.3601623,
+      "valor_minimo": 4.789924433249371,
+      "valor_maximo": 4.789924433249371,
+      "valor_medio": 4.789924433249371,
+      "valor_recente": 4.789924433249371,
+      "data_recente": "2026-04-15T16:49:20Z"
     },
     {
       "cnpj": "56412726000196",
@@ -308,27 +308,27 @@
       "valor_maximo": 4.990019960079841,
       "valor_medio": 4.990019960079841,
       "valor_recente": 4.990019960079841,
-      "data_recente": "2026-04-15T14:11:44Z"
+      "data_recente": "2026-04-15T16:27:26Z"
     },
     {
-      "cnpj": "10635075000283",
+      "cnpj": "59996494000159",
       "tipo_combustivel": 3,
-      "razao_social": "SANTANA & BULHOES AUTO POSTO LTDA",
-      "nome_fantasia": "AUTO POSTO 101",
-      "telefone": "(82) 30241100",
-      "nome_logradouro": "ROD BR 101 SUL",
-      "numero_imovel": "1455",
-      "bairro": "SAO MIGUEL",
-      "cep": "57265000",
+      "razao_social": "REDE DAL TEOTONIO VILELA COMERCIO DE COMBUSTIVEL LTDA",
+      "nome_fantasia": "POSTO VIVA DEUS",
+      "telefone": "(79) 999999999",
+      "nome_logradouro": "Rua Angêla Maria da Conceição",
+      "numero_imovel": "3141",
+      "bairro": "São Miguel",
+      "cep": "57266170",
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
-      "latitude": -9.9019742,
-      "longitude": -36.3601623,
-      "valor_minimo": 5.039973127309372,
-      "valor_maximo": 5.039973127309372,
-      "valor_medio": 5.039973127309372,
-      "valor_recente": 5.039973127309372,
-      "data_recente": "2026-04-15T14:53:00Z"
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 5.039814534825118,
+      "valor_maximo": 5.039814534825118,
+      "valor_medio": 5.039814534825118,
+      "valor_recente": 5.039814534825118,
+      "data_recente": "2026-04-15T16:18:56Z"
     },
     {
       "cnpj": "50598305000115",
@@ -344,11 +344,11 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.138746145940391,
-      "valor_maximo": 5.138746145940391,
-      "valor_medio": 5.138746145940391,
-      "valor_recente": 5.138746145940391,
-      "data_recente": "2026-04-15T15:24:32Z"
+      "valor_minimo": 5.139802631578948,
+      "valor_maximo": 5.139802631578948,
+      "valor_medio": 5.139802631578948,
+      "valor_recente": 5.139802631578948,
+      "data_recente": "2026-04-15T16:49:11Z"
     },
     {
       "cnpj": "09088674000164",
@@ -364,11 +364,11 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.13993472282902,
-      "valor_maximo": 5.13993472282902,
-      "valor_medio": 5.13993472282902,
-      "valor_recente": 5.13993472282902,
-      "data_recente": "2026-04-15T14:31:47Z"
+      "valor_minimo": 5.140066820868672,
+      "valor_maximo": 5.140066820868672,
+      "valor_medio": 5.140066820868672,
+      "valor_recente": 5.140066820868672,
+      "data_recente": "2026-04-15T16:36:46Z"
     },
     {
       "cnpj": "10635075000100",
@@ -384,11 +384,11 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": -9.914451099999999,
       "longitude": -36.3562508,
-      "valor_minimo": 5.21875,
-      "valor_maximo": 5.21875,
-      "valor_medio": 5.21875,
-      "valor_recente": 5.21875,
-      "data_recente": "2026-04-15T15:14:22Z"
+      "valor_minimo": 5.220024012110455,
+      "valor_maximo": 5.220024012110455,
+      "valor_medio": 5.220024012110455,
+      "valor_recente": 5.220024012110455,
+      "data_recente": "2026-04-15T17:29:07Z"
     },
     {
       "cnpj": "59996494000159",
@@ -405,10 +405,10 @@
       "latitude": 0,
       "longitude": 0,
       "valor_minimo": 6.749985167103177,
-      "valor_maximo": 7.289999471479002,
-      "valor_medio": 7.01999231929109,
-      "valor_recente": 7.289999471479002,
-      "data_recente": "2026-04-14T23:37:01Z"
+      "valor_maximo": 7.289806234203875,
+      "valor_medio": 7.019895700653526,
+      "valor_recente": 7.289806234203875,
+      "data_recente": "2026-04-15T15:47:13Z"
     },
     {
       "cnpj": "09088674000164",
@@ -424,31 +424,11 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.89,
-      "valor_maximo": 6.89,
-      "valor_medio": 6.89,
-      "valor_recente": 6.89,
-      "data_recente": "2026-04-15T13:18:46Z"
-    },
-    {
-      "cnpj": "10635075000100",
-      "tipo_combustivel": 5,
-      "razao_social": "SANTANA & BULHOES AUTO POSTO LTDA",
-      "nome_fantasia": "AUTO POSTO SANTANA E BULHOES",
-      "telefone": "(82) 35433190",
-      "nome_logradouro": "DT INDUSTRIAL IEDA GOMES DE BARROS",
-      "numero_imovel": "1",
-      "bairro": "CENTRO",
-      "cep": "57265000",
-      "codigo_ibge": 2709152,
-      "municipio": "TEOTONIO VILELA",
-      "latitude": -9.914451099999999,
-      "longitude": -36.3562508,
-      "valor_minimo": 7.190054301228923,
-      "valor_maximo": 7.190054301228923,
-      "valor_medio": 7.190054301228923,
-      "valor_recente": 7.190054301228923,
-      "data_recente": "2026-04-15T15:13:55Z"
+      "valor_minimo": 6.980023173676937,
+      "valor_maximo": 6.980023173676937,
+      "valor_medio": 6.980023173676937,
+      "valor_recente": 6.980023173676937,
+      "data_recente": "2026-04-15T16:45:56Z"
     },
     {
       "cnpj": "56412726000196",
@@ -464,11 +444,11 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.200143988480922,
-      "valor_maximo": 7.200143988480922,
-      "valor_medio": 7.200143988480922,
-      "valor_recente": 7.200143988480922,
-      "data_recente": "2026-04-15T14:15:08Z"
+      "valor_minimo": 7.0005950505792995,
+      "valor_maximo": 7.0005950505792995,
+      "valor_medio": 7.0005950505792995,
+      "valor_recente": 7.0005950505792995,
+      "data_recente": "2026-04-15T17:04:13Z"
     },
     {
       "cnpj": "10635075000283",
@@ -484,11 +464,31 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": -9.9019742,
       "longitude": -36.3601623,
-      "valor_minimo": 7.289358600583091,
-      "valor_maximo": 7.289358600583091,
-      "valor_medio": 7.289358600583091,
-      "valor_recente": 7.289358600583091,
-      "data_recente": "2026-04-15T14:48:34Z"
+      "valor_minimo": 7.089792060491494,
+      "valor_maximo": 7.089792060491494,
+      "valor_medio": 7.089792060491494,
+      "valor_recente": 7.089792060491494,
+      "data_recente": "2026-04-15T16:45:09Z"
+    },
+    {
+      "cnpj": "10635075000100",
+      "tipo_combustivel": 5,
+      "razao_social": "SANTANA & BULHOES AUTO POSTO LTDA",
+      "nome_fantasia": "AUTO POSTO SANTANA E BULHOES",
+      "telefone": "(82) 35433190",
+      "nome_logradouro": "DT INDUSTRIAL IEDA GOMES DE BARROS",
+      "numero_imovel": "1",
+      "bairro": "CENTRO",
+      "cep": "57265000",
+      "codigo_ibge": 2709152,
+      "municipio": "TEOTONIO VILELA",
+      "latitude": -9.914451099999999,
+      "longitude": -36.3562508,
+      "valor_minimo": 7.189970814539666,
+      "valor_maximo": 7.189970814539666,
+      "valor_medio": 7.189970814539666,
+      "valor_recente": 7.189970814539666,
+      "data_recente": "2026-04-15T16:18:29Z"
     },
     {
       "cnpj": "50598305000115",
