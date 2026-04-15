@@ -1,61 +1,41 @@
 {
   "codigoIBGE": "2704500",
   "municipio": "Maragogi",
-  "atualizadoEm": "2026-04-14T22:55:23.093Z",
+  "atualizadoEm": "2026-04-14T23:57:07.266Z",
   "totalEstabelecimentos": 21,
   "combustiveis": {
     "1": {
       "totalPostos": 5,
-      "valorMinimo": 6.939577772385343,
-      "valorMaximo": 7.380073800738008,
-      "valorMedio": 7.049583392649251
+      "valorMinimo": 6.949984020453819,
+      "valorMaximo": 7.17978202179782,
+      "valorMedio": 7.019496406035195
     },
     "2": {
       "totalPostos": 5,
-      "valorMinimo": 6.986831913245546,
+      "valorMinimo": 6.989144924776233,
       "valorMaximo": 7.32796486090776,
-      "valorMedio": 7.084357564656356
+      "valorMedio": 7.08483304286891
     },
     "3": {
       "totalPostos": 5,
-      "valorMinimo": 5.289870404654853,
+      "valorMinimo": 5.289805788558906,
       "valorMaximo": 6.509992839007877,
-      "valorMedio": 5.671875717547367
+      "valorMedio": 5.681943369866995
     },
     "5": {
       "totalPostos": 5,
-      "valorMinimo": 7.2898695113357475,
-      "valorMaximo": 8.099968072652453,
-      "valorMedio": 7.573974978543144
+      "valorMinimo": 6.989989242588174,
+      "valorMaximo": 7.800312012480499,
+      "valorMedio": 7.454026843076558
     },
     "6": {
       "totalPostos": 1,
-      "valorMinimo": 5.789866489758687,
-      "valorMaximo": 5.789866489758687,
-      "valorMedio": 5.789866489758687
+      "valorMinimo": 5.789988267500978,
+      "valorMaximo": 5.789988267500978,
+      "valorMedio": 5.789988267500978
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "31036672000261",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO VOVO ZILDA LTDA",
-      "nome_fantasia": "POSTO VOVO ZILDA",
-      "telefone": "",
-      "nome_logradouro": "Rua ARTHUR RAMOS",
-      "numero_imovel": "12",
-      "bairro": "PRAIA DOURADA II",
-      "cep": "57955000",
-      "codigo_ibge": 2704500,
-      "municipio": "MARAGOGI",
-      "latitude": -8.9390015,
-      "longitude": -35.1736298,
-      "valor_minimo": 6.939577772385343,
-      "valor_maximo": 6.939577772385343,
-      "valor_medio": 6.939577772385343,
-      "valor_recente": 6.939577772385343,
-      "data_recente": "2026-04-14T21:27:11Z"
-    },
     {
       "cnpj": "12630679000181",
       "tipo_combustivel": 1,
@@ -70,31 +50,11 @@
       "municipio": "MARAGOGI",
       "latitude": -9.010464899999999,
       "longitude": -35.225291,
-      "valor_minimo": 6.950396825396825,
-      "valor_maximo": 6.950396825396825,
-      "valor_medio": 6.950396825396825,
-      "valor_recente": 6.950396825396825,
-      "data_recente": "2026-04-14T21:35:41Z"
-    },
-    {
-      "cnpj": "08801561000282",
-      "tipo_combustivel": 1,
-      "razao_social": "RAC INDUSTRIA DE COMPRESSAO E COMERCIO DE GAS NATURAL",
-      "nome_fantasia": "MASTER GAS",
-      "telefone": "",
-      "nome_logradouro": "ROD AL 101 NORTE",
-      "numero_imovel": "S/N",
-      "bairro": "LOT. CANTO DO MAR",
-      "cep": "57955000",
-      "codigo_ibge": 2704500,
-      "municipio": "MARAGOGI",
-      "latitude": -9.0104746,
-      "longitude": -35.2252908,
-      "valor_minimo": 6.988120195667365,
-      "valor_maximo": 6.988120195667365,
-      "valor_medio": 6.988120195667365,
-      "valor_recente": 6.988120195667365,
-      "data_recente": "2026-04-14T21:30:21Z"
+      "valor_minimo": 6.949984020453819,
+      "valor_maximo": 6.949984020453819,
+      "valor_medio": 6.949984020453819,
+      "valor_recente": 6.949984020453819,
+      "data_recente": "2026-04-14T23:30:36Z"
     },
     {
       "cnpj": "27665019000294",
@@ -110,11 +70,51 @@
       "municipio": "MARAGOGI",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.989748369058714,
-      "valor_maximo": 6.989748369058714,
-      "valor_medio": 6.989748369058714,
-      "valor_recente": 6.989748369058714,
-      "data_recente": "2026-04-14T21:36:15Z"
+      "valor_minimo": 6.988120195667365,
+      "valor_maximo": 6.988120195667365,
+      "valor_medio": 6.988120195667365,
+      "valor_recente": 6.988120195667365,
+      "data_recente": "2026-04-14T23:12:19Z"
+    },
+    {
+      "cnpj": "31036672000261",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO VOVO ZILDA LTDA",
+      "nome_fantasia": "POSTO VOVO ZILDA",
+      "telefone": "",
+      "nome_logradouro": "Rua ARTHUR RAMOS",
+      "numero_imovel": "12",
+      "bairro": "PRAIA DOURADA II",
+      "cep": "57955000",
+      "codigo_ibge": 2704500,
+      "municipio": "MARAGOGI",
+      "latitude": -8.9390015,
+      "longitude": -35.1736298,
+      "valor_minimo": 6.989619377162629,
+      "valor_maximo": 6.989619377162629,
+      "valor_medio": 6.989619377162629,
+      "valor_recente": 6.989619377162629,
+      "data_recente": "2026-04-14T23:03:15Z"
+    },
+    {
+      "cnpj": "08801561000282",
+      "tipo_combustivel": 1,
+      "razao_social": "RAC INDUSTRIA DE COMPRESSAO E COMERCIO DE GAS NATURAL",
+      "nome_fantasia": "MASTER GAS",
+      "telefone": "",
+      "nome_logradouro": "ROD AL 101 NORTE",
+      "numero_imovel": "S/N",
+      "bairro": "LOT. CANTO DO MAR",
+      "cep": "57955000",
+      "codigo_ibge": 2704500,
+      "municipio": "MARAGOGI",
+      "latitude": -9.0104746,
+      "longitude": -35.2252908,
+      "valor_minimo": 6.98997641509434,
+      "valor_maximo": 6.98997641509434,
+      "valor_medio": 6.98997641509434,
+      "valor_recente": 6.98997641509434,
+      "data_recente": "2026-04-14T22:56:03Z"
     },
     {
       "cnpj": "06867470000133",
@@ -130,11 +130,11 @@
       "municipio": "MARAGOGI",
       "latitude": -8.9696489,
       "longitude": -35.1878169,
-      "valor_minimo": 7.380073800738008,
-      "valor_maximo": 7.380073800738008,
-      "valor_medio": 7.380073800738008,
-      "valor_recente": 7.380073800738008,
-      "data_recente": "2026-04-14T21:24:06Z"
+      "valor_minimo": 7.17978202179782,
+      "valor_maximo": 7.17978202179782,
+      "valor_medio": 7.17978202179782,
+      "valor_recente": 7.17978202179782,
+      "data_recente": "2026-04-14T23:16:30Z"
     },
     {
       "cnpj": "27665019000294",
@@ -150,11 +150,11 @@
       "municipio": "MARAGOGI",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.986831913245546,
-      "valor_maximo": 6.986831913245546,
-      "valor_medio": 6.986831913245546,
-      "valor_recente": 6.986831913245546,
-      "data_recente": "2026-04-14T21:26:19Z"
+      "valor_minimo": 6.989144924776233,
+      "valor_maximo": 6.989144924776233,
+      "valor_medio": 6.989144924776233,
+      "valor_recente": 6.989144924776233,
+      "data_recente": "2026-04-14T23:13:16Z"
     },
     {
       "cnpj": "08801561000282",
@@ -170,11 +170,11 @@
       "municipio": "MARAGOGI",
       "latitude": -9.0104746,
       "longitude": -35.2252908,
-      "valor_minimo": 6.989987187396194,
-      "valor_maximo": 6.989987187396194,
-      "valor_medio": 6.989987187396194,
-      "valor_recente": 6.989987187396194,
-      "data_recente": "2026-04-14T21:33:20Z"
+      "valor_minimo": 6.989976373879856,
+      "valor_maximo": 6.989976373879856,
+      "valor_medio": 6.989976373879856,
+      "valor_recente": 6.989976373879856,
+      "data_recente": "2026-04-14T22:36:58Z"
     },
     {
       "cnpj": "12630679000181",
@@ -190,11 +190,11 @@
       "municipio": "MARAGOGI",
       "latitude": -9.010464899999999,
       "longitude": -35.225291,
-      "valor_minimo": 7.049866052545002,
-      "valor_maximo": 7.049866052545002,
-      "valor_medio": 7.049866052545002,
-      "valor_recente": 7.049866052545002,
-      "data_recente": "2026-04-14T21:29:43Z"
+      "valor_minimo": 7.04994124559342,
+      "valor_maximo": 7.04994124559342,
+      "valor_medio": 7.04994124559342,
+      "valor_recente": 7.04994124559342,
+      "data_recente": "2026-04-14T23:18:09Z"
     },
     {
       "cnpj": "31036672000261",
@@ -250,11 +250,11 @@
       "municipio": "MARAGOGI",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.289870404654853,
-      "valor_maximo": 5.289870404654853,
-      "valor_medio": 5.289870404654853,
-      "valor_recente": 5.289870404654853,
-      "data_recente": "2026-04-14T21:30:08Z"
+      "valor_minimo": 5.289805788558906,
+      "valor_maximo": 5.289805788558906,
+      "valor_medio": 5.289805788558906,
+      "valor_recente": 5.289805788558906,
+      "data_recente": "2026-04-14T23:12:19Z"
     },
     {
       "cnpj": "08801561000282",
@@ -270,11 +270,11 @@
       "municipio": "MARAGOGI",
       "latitude": -9.0104746,
       "longitude": -35.2252908,
-      "valor_minimo": 5.319941267848403,
-      "valor_maximo": 5.319941267848403,
-      "valor_medio": 5.319941267848403,
-      "valor_recente": 5.319941267848403,
-      "data_recente": "2026-04-14T17:00:16Z"
+      "valor_minimo": 5.319958823106941,
+      "valor_maximo": 5.319958823106941,
+      "valor_medio": 5.319958823106941,
+      "valor_recente": 5.319958823106941,
+      "data_recente": "2026-04-14T23:22:33Z"
     },
     {
       "cnpj": "31036672000261",
@@ -290,11 +290,11 @@
       "municipio": "MARAGOGI",
       "latitude": -8.9390015,
       "longitude": -35.1736298,
-      "valor_minimo": 5.439782868709173,
-      "valor_maximo": 5.439782868709173,
-      "valor_medio": 5.439782868709173,
-      "valor_recente": 5.439782868709173,
-      "data_recente": "2026-04-14T21:07:13Z"
+      "valor_minimo": 5.489959398661253,
+      "valor_maximo": 5.489959398661253,
+      "valor_medio": 5.489959398661253,
+      "valor_recente": 5.489959398661253,
+      "data_recente": "2026-04-14T22:54:34Z"
     },
     {
       "cnpj": "12630679000181",
@@ -310,11 +310,11 @@
       "municipio": "MARAGOGI",
       "latitude": -9.010464899999999,
       "longitude": -35.225291,
-      "valor_minimo": 5.799791207516529,
-      "valor_maximo": 5.799791207516529,
-      "valor_medio": 5.799791207516529,
-      "valor_recente": 5.799791207516529,
-      "data_recente": "2026-04-14T21:28:10Z"
+      "valor_minimo": 5.8,
+      "valor_maximo": 5.8,
+      "valor_medio": 5.8,
+      "valor_recente": 5.8,
+      "data_recente": "2026-04-14T23:15:29Z"
     },
     {
       "cnpj": "06867470000133",
@@ -334,7 +334,27 @@
       "valor_maximo": 6.509992839007877,
       "valor_medio": 6.509992839007877,
       "valor_recente": 6.509992839007877,
-      "data_recente": "2026-04-14T21:28:45Z"
+      "data_recente": "2026-04-14T23:16:53Z"
+    },
+    {
+      "cnpj": "08801561000282",
+      "tipo_combustivel": 5,
+      "razao_social": "RAC INDUSTRIA DE COMPRESSAO E COMERCIO DE GAS NATURAL",
+      "nome_fantasia": "MASTER GAS",
+      "telefone": "",
+      "nome_logradouro": "ROD AL 101 NORTE",
+      "numero_imovel": "S/N",
+      "bairro": "LOT. CANTO DO MAR",
+      "cep": "57955000",
+      "codigo_ibge": 2704500,
+      "municipio": "MARAGOGI",
+      "latitude": -9.0104746,
+      "longitude": -35.2252908,
+      "valor_minimo": 6.989989242588174,
+      "valor_maximo": 6.989989242588174,
+      "valor_medio": 6.989989242588174,
+      "valor_recente": 6.989989242588174,
+      "data_recente": "2026-04-14T23:11:34Z"
     },
     {
       "cnpj": "27665019000294",
@@ -355,26 +375,6 @@
       "valor_medio": 7.2898695113357475,
       "valor_recente": 7.2898695113357475,
       "data_recente": "2026-04-14T21:33:33Z"
-    },
-    {
-      "cnpj": "08801561000282",
-      "tipo_combustivel": 5,
-      "razao_social": "RAC INDUSTRIA DE COMPRESSAO E COMERCIO DE GAS NATURAL",
-      "nome_fantasia": "MASTER GAS",
-      "telefone": "",
-      "nome_logradouro": "ROD AL 101 NORTE",
-      "numero_imovel": "S/N",
-      "bairro": "LOT. CANTO DO MAR",
-      "cep": "57955000",
-      "codigo_ibge": 2704500,
-      "municipio": "MARAGOGI",
-      "latitude": -9.0104746,
-      "longitude": -35.2252908,
-      "valor_minimo": 7.289992800575954,
-      "valor_maximo": 7.289992800575954,
-      "valor_medio": 7.289992800575954,
-      "valor_recente": 7.289992800575954,
-      "data_recente": "2026-04-14T21:18:08Z"
     },
     {
       "cnpj": "31036672000261",
@@ -410,11 +410,11 @@
       "municipio": "MARAGOGI",
       "latitude": -9.010464899999999,
       "longitude": -35.225291,
-      "valor_minimo": 7.700081059173196,
-      "valor_maximo": 7.700081059173196,
-      "valor_medio": 7.700081059173196,
-      "valor_recente": 7.700081059173196,
-      "data_recente": "2026-04-14T21:30:33Z"
+      "valor_minimo": 7.7,
+      "valor_maximo": 7.7,
+      "valor_medio": 7.7,
+      "valor_recente": 7.7,
+      "data_recente": "2026-04-14T22:47:40Z"
     },
     {
       "cnpj": "06867470000133",
@@ -430,11 +430,11 @@
       "municipio": "MARAGOGI",
       "latitude": -8.9696489,
       "longitude": -35.1878169,
-      "valor_minimo": 8.099968072652453,
-      "valor_maximo": 8.099968072652453,
-      "valor_medio": 8.099968072652453,
-      "valor_recente": 8.099968072652453,
-      "data_recente": "2026-04-14T19:19:15Z"
+      "valor_minimo": 7.800312012480499,
+      "valor_maximo": 7.800312012480499,
+      "valor_medio": 7.800312012480499,
+      "valor_recente": 7.800312012480499,
+      "data_recente": "2026-04-14T22:18:22Z"
     },
     {
       "cnpj": "08801561000282",
@@ -450,11 +450,11 @@
       "municipio": "MARAGOGI",
       "latitude": -9.0104746,
       "longitude": -35.2252908,
-      "valor_minimo": 5.789866489758687,
-      "valor_maximo": 5.789866489758687,
-      "valor_medio": 5.789866489758687,
-      "valor_recente": 5.789866489758687,
-      "data_recente": "2026-04-14T20:00:40Z"
+      "valor_minimo": 5.789988267500978,
+      "valor_maximo": 5.789988267500978,
+      "valor_medio": 5.789988267500978,
+      "valor_recente": 5.789988267500978,
+      "data_recente": "2026-04-14T23:15:09Z"
     }
   ]
 }

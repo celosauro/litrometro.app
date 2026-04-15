@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2705101",
   "municipio": "Matriz de Camaragibe",
-  "atualizadoEm": "2026-04-14T22:58:48.514Z",
+  "atualizadoEm": "2026-04-15T00:00:22.348Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.429214350006429,
-      "valorMaximo": 6.550218340611353,
-      "valorMedio": 6.486304777362155
+      "valorMinimo": 6.4287623630045445,
+      "valorMaximo": 6.5497494631352895,
+      "valorMedio": 6.485759735607929
     },
     "3": {
       "totalPostos": 2,
@@ -18,15 +18,15 @@
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 7.49990625117186,
-      "valorMaximo": 7.49990625117186,
-      "valorMedio": 7.49990625117186
+      "valorMinimo": 7.49985000299994,
+      "valorMaximo": 7.49985000299994,
+      "valorMedio": 7.49985000299994
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.14971702966901,
-      "valorMaximo": 8.4899550413431,
-      "valorMedio": 7.819836035506055
+      "valorMinimo": 7.019842755522276,
+      "valorMaximo": 7.14971702966901,
+      "valorMedio": 7.084779892595643
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "MATRIZ DE CAMARAGIBE",
       "latitude": -9.1524118,
       "longitude": -35.5261781,
-      "valor_minimo": 6.429214350006429,
-      "valor_maximo": 6.429214350006429,
-      "valor_medio": 6.429214350006429,
-      "valor_recente": 6.429214350006429,
-      "data_recente": "2026-04-14T21:34:01Z"
+      "valor_minimo": 6.4287623630045445,
+      "valor_maximo": 6.4287623630045445,
+      "valor_medio": 6.4287623630045445,
+      "valor_recente": 6.4287623630045445,
+      "data_recente": "2026-04-14T23:36:11Z"
     },
     {
       "cnpj": "14638806000114",
@@ -64,11 +64,11 @@
       "municipio": "MATRIZ DE CAMARAGIBE",
       "latitude": -9.2430177,
       "longitude": -35.4899024,
-      "valor_minimo": 6.479481641468682,
-      "valor_maximo": 6.479481641468682,
-      "valor_medio": 6.479481641468682,
-      "valor_recente": 6.479481641468682,
-      "data_recente": "2026-04-14T21:27:20Z"
+      "valor_minimo": 6.478767380683953,
+      "valor_maximo": 6.478767380683953,
+      "valor_medio": 6.478767380683953,
+      "valor_recente": 6.478767380683953,
+      "data_recente": "2026-04-14T23:19:47Z"
     },
     {
       "cnpj": "05988846000103",
@@ -84,11 +84,11 @@
       "municipio": "MATRIZ DE CAMARAGIBE",
       "latitude": -9.2430177,
       "longitude": -35.4899024,
-      "valor_minimo": 6.550218340611353,
-      "valor_maximo": 6.550218340611353,
-      "valor_medio": 6.550218340611353,
-      "valor_recente": 6.550218340611353,
-      "data_recente": "2026-04-14T21:35:02Z"
+      "valor_minimo": 6.5497494631352895,
+      "valor_maximo": 6.5497494631352895,
+      "valor_medio": 6.5497494631352895,
+      "valor_recente": 6.5497494631352895,
+      "data_recente": "2026-04-14T23:34:56Z"
     },
     {
       "cnpj": "20031527000190",
@@ -145,10 +145,30 @@
       "latitude": -9.2430177,
       "longitude": -35.4899024,
       "valor_minimo": 6.479481641468682,
-      "valor_maximo": 7.49990625117186,
-      "valor_medio": 6.989693946320271,
-      "valor_recente": 7.49990625117186,
-      "data_recente": "2026-04-14T20:18:47Z"
+      "valor_maximo": 7.49985000299994,
+      "valor_medio": 6.989665822234311,
+      "valor_recente": 7.49985000299994,
+      "data_recente": "2026-04-14T23:08:32Z"
+    },
+    {
+      "cnpj": "05988846000103",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO VASCONCELOS LTDA -",
+      "nome_fantasia": "POSTO BOM JESUS",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 101 NORTE",
+      "numero_imovel": "S/N",
+      "bairro": "CENTRO",
+      "cep": "57910000",
+      "codigo_ibge": 2705101,
+      "municipio": "MATRIZ DE CAMARAGIBE",
+      "latitude": -9.2430177,
+      "longitude": -35.4899024,
+      "valor_minimo": 7.019842755522276,
+      "valor_maximo": 7.019842755522276,
+      "valor_medio": 7.019842755522276,
+      "valor_recente": 7.019842755522276,
+      "data_recente": "2026-04-14T23:22:18Z"
     },
     {
       "cnpj": "20031527000190",
@@ -169,26 +189,6 @@
       "valor_medio": 7.14971702966901,
       "valor_recente": 7.14971702966901,
       "data_recente": "2026-04-14T19:56:56Z"
-    },
-    {
-      "cnpj": "05988846000103",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO VASCONCELOS LTDA -",
-      "nome_fantasia": "POSTO BOM JESUS",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 101 NORTE",
-      "numero_imovel": "S/N",
-      "bairro": "CENTRO",
-      "cep": "57910000",
-      "codigo_ibge": 2705101,
-      "municipio": "MATRIZ DE CAMARAGIBE",
-      "latitude": -9.2430177,
-      "longitude": -35.4899024,
-      "valor_minimo": 8.4899550413431,
-      "valor_maximo": 8.4899550413431,
-      "valor_medio": 8.4899550413431,
-      "valor_recente": 8.4899550413431,
-      "data_recente": "2026-04-14T20:26:43Z"
     }
   ]
 }

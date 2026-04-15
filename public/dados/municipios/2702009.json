@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2702009",
   "municipio": "Coité do Nóia",
-  "atualizadoEm": "2026-04-14T22:44:11.562Z",
+  "atualizadoEm": "2026-04-14T23:44:01.404Z",
   "totalEstabelecimentos": 10,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.38,
+      "valorMinimo": 6.749379652605459,
       "valorMaximo": 6.889899407468651,
-      "valorMedio": 6.686655709186315
+      "valorMedio": 6.80993986687155
     },
     "2": {
       "totalPostos": 2,
       "valorMinimo": 6.889640486032819,
-      "valorMaximo": 7.051643192488263,
-      "valorMedio": 6.970641839260541
+      "valorMaximo": 7.04957168936947,
+      "valorMedio": 6.969606087701145
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 4.989853963607332,
-      "valorMaximo": 5.0899219545300305,
-      "valorMedio": 5.039887959068681
+      "valorMinimo": 4.989522003792037,
+      "valorMaximo": 5.089830508474576,
+      "valorMedio": 5.039676256133307
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 6.5,
-      "valorMaximo": 7.2500543754078155,
-      "valorMedio": 6.966720531616758
+      "valorMinimo": 7.15000715000715,
+      "valorMaximo": 7.290223809870963,
+      "valorMedio": 7.230095111761976
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "COITE DO NOIA",
       "latitude": -9.6325553,
       "longitude": -36.5809891,
-      "valor_minimo": 6.38,
-      "valor_maximo": 6.38,
-      "valor_medio": 6.38,
-      "valor_recente": 6.38,
-      "data_recente": "2026-04-14T21:32:40Z"
+      "valor_minimo": 6.749379652605459,
+      "valor_maximo": 6.749379652605459,
+      "valor_medio": 6.749379652605459,
+      "valor_recente": 6.749379652605459,
+      "data_recente": "2026-04-14T23:29:25Z"
     },
     {
       "cnpj": "61964063000152",
@@ -64,11 +64,11 @@
       "municipio": "COITE DO NOIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.790067720090294,
-      "valor_maximo": 6.790067720090294,
-      "valor_medio": 6.790067720090294,
-      "valor_recente": 6.790067720090294,
-      "data_recente": "2026-04-14T21:09:08Z"
+      "valor_minimo": 6.79054054054054,
+      "valor_maximo": 6.79054054054054,
+      "valor_medio": 6.79054054054054,
+      "valor_recente": 6.79054054054054,
+      "data_recente": "2026-04-14T23:02:33Z"
     },
     {
       "cnpj": "42377369000168",
@@ -88,7 +88,7 @@
       "valor_maximo": 6.889899407468651,
       "valor_medio": 6.889899407468651,
       "valor_recente": 6.889899407468651,
-      "data_recente": "2026-04-14T21:30:18Z"
+      "data_recente": "2026-04-14T23:33:54Z"
     },
     {
       "cnpj": "42377369000168",
@@ -124,11 +124,11 @@
       "municipio": "COITE DO NOIA",
       "latitude": -9.6325553,
       "longitude": -36.5809891,
-      "valor_minimo": 7.051643192488263,
-      "valor_maximo": 7.051643192488263,
-      "valor_medio": 7.051643192488263,
-      "valor_recente": 7.051643192488263,
-      "data_recente": "2026-04-14T20:12:53Z"
+      "valor_minimo": 7.04957168936947,
+      "valor_maximo": 7.04957168936947,
+      "valor_medio": 7.04957168936947,
+      "valor_recente": 7.04957168936947,
+      "data_recente": "2026-04-14T23:05:26Z"
     },
     {
       "cnpj": "42377369000168",
@@ -144,11 +144,11 @@
       "municipio": "COITE DO NOIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 4.989853963607332,
-      "valor_maximo": 4.989853963607332,
-      "valor_medio": 4.989853963607332,
-      "valor_recente": 4.989853963607332,
-      "data_recente": "2026-04-14T21:34:47Z"
+      "valor_minimo": 4.989522003792037,
+      "valor_maximo": 4.989522003792037,
+      "valor_medio": 4.989522003792037,
+      "valor_recente": 4.989522003792037,
+      "data_recente": "2026-04-14T22:15:45Z"
     },
     {
       "cnpj": "61964063000152",
@@ -164,31 +164,11 @@
       "municipio": "COITE DO NOIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.0899219545300305,
-      "valor_maximo": 5.0899219545300305,
-      "valor_medio": 5.0899219545300305,
-      "valor_recente": 5.0899219545300305,
-      "data_recente": "2026-04-14T21:08:33Z"
-    },
-    {
-      "cnpj": "08482940000176",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO T H LTDA - EPP",
-      "nome_fantasia": "AUTO POSTO T H",
-      "telefone": "(82) 35221355",
-      "nome_logradouro": "RDV AL 116",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57325000",
-      "codigo_ibge": 2702009,
-      "municipio": "COITE DO NOIA",
-      "latitude": -9.6325553,
-      "longitude": -36.5809891,
-      "valor_minimo": 6.5,
-      "valor_maximo": 7.289981225465096,
-      "valor_medio": 6.894990612732548,
-      "valor_recente": 6.5,
-      "data_recente": "2026-04-14T21:21:07Z"
+      "valor_minimo": 5.089830508474576,
+      "valor_maximo": 5.089830508474576,
+      "valor_medio": 5.089830508474576,
+      "valor_recente": 5.089830508474576,
+      "data_recente": "2026-04-14T23:02:33Z"
     },
     {
       "cnpj": "61964063000152",
@@ -204,11 +184,11 @@
       "municipio": "COITE DO NOIA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.150107219442459,
-      "valor_maximo": 7.150107219442459,
-      "valor_medio": 7.150107219442459,
-      "valor_recente": 7.150107219442459,
-      "data_recente": "2026-04-14T21:09:08Z"
+      "valor_minimo": 7.15000715000715,
+      "valor_maximo": 7.15000715000715,
+      "valor_medio": 7.15000715000715,
+      "valor_recente": 7.15000715000715,
+      "data_recente": "2026-04-14T23:02:33Z"
     },
     {
       "cnpj": "42377369000168",
@@ -228,7 +208,27 @@
       "valor_maximo": 7.2500543754078155,
       "valor_medio": 7.2500543754078155,
       "valor_recente": 7.2500543754078155,
-      "data_recente": "2026-04-14T20:52:05Z"
+      "data_recente": "2026-04-14T22:29:49Z"
+    },
+    {
+      "cnpj": "08482940000176",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO T H LTDA - EPP",
+      "nome_fantasia": "AUTO POSTO T H",
+      "telefone": "(82) 35221355",
+      "nome_logradouro": "RDV AL 116",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57325000",
+      "codigo_ibge": 2702009,
+      "municipio": "COITE DO NOIA",
+      "latitude": -9.6325553,
+      "longitude": -36.5809891,
+      "valor_minimo": 7.290223809870963,
+      "valor_maximo": 7.4400333313493245,
+      "valor_medio": 7.365128570610144,
+      "valor_recente": 7.290223809870963,
+      "data_recente": "2026-04-14T22:25:49Z"
     }
   ]
 }

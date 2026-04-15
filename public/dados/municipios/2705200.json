@@ -1,61 +1,41 @@
 {
   "codigoIBGE": "2705200",
   "municipio": "Messias",
-  "atualizadoEm": "2026-04-14T22:59:15.164Z",
+  "atualizadoEm": "2026-04-15T00:00:53.508Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.6897089976586015,
-      "valorMaximo": 6.7897881586094515,
-      "valorMedio": 6.7397485781340265
+      "valorMinimo": 6.79,
+      "valorMaximo": 6.989720998531571,
+      "valorMedio": 6.889860499265786
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 6.989976373879856,
-      "valorMaximo": 6.989976373879856,
-      "valorMedio": 6.989976373879856
+      "valorMinimo": 6.989868467827942,
+      "valorMaximo": 6.989868467827942,
+      "valorMedio": 6.989868467827942
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.189952252439277,
+      "valorMinimo": 5.1899660818428055,
       "valorMaximo": 5.349882302589343,
-      "valorMedio": 5.26991727751431
+      "valorMedio": 5.269924192216074
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.059953121911271,
+      "valorMinimo": 7.059898829128386,
       "valorMaximo": 7.0899358360806835,
-      "valorMedio": 7.0749444789959774
+      "valorMedio": 7.074917332604535
     },
     "6": {
       "totalPostos": 1,
-      "valorMinimo": 4.189862899875363,
-      "valorMaximo": 4.189862899875363,
-      "valorMedio": 4.189862899875363
+      "valorMinimo": 4.189981107781909,
+      "valorMaximo": 4.189981107781909,
+      "valorMedio": 4.189981107781909
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "11908167000333",
-      "tipo_combustivel": 1,
-      "razao_social": "DIESEL DISTRIBUIDORA E SERVICOS LTDA",
-      "nome_fantasia": "MEGA POSTO VIA NORTE",
-      "telefone": "(82) 2621321",
-      "nome_logradouro": "ROD BR 101 NORTE, KM 33",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA URBANA",
-      "cep": "57990000",
-      "codigo_ibge": 2705200,
-      "municipio": "MESSIAS",
-      "latitude": -9.3886292,
-      "longitude": -35.8392634,
-      "valor_minimo": 6.6897089976586015,
-      "valor_maximo": 6.6897089976586015,
-      "valor_medio": 6.6897089976586015,
-      "valor_recente": 6.6897089976586015,
-      "data_recente": "2026-04-14T21:14:24Z"
-    },
     {
       "cnpj": "27806368000106",
       "tipo_combustivel": 1,
@@ -70,11 +50,31 @@
       "municipio": "MESSIAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.7897881586094515,
-      "valor_maximo": 6.7897881586094515,
-      "valor_medio": 6.7897881586094515,
-      "valor_recente": 6.7897881586094515,
-      "data_recente": "2026-04-14T21:34:28Z"
+      "valor_minimo": 6.79,
+      "valor_maximo": 6.79,
+      "valor_medio": 6.79,
+      "valor_recente": 6.79,
+      "data_recente": "2026-04-14T23:34:16Z"
+    },
+    {
+      "cnpj": "11908167000333",
+      "tipo_combustivel": 1,
+      "razao_social": "DIESEL DISTRIBUIDORA E SERVICOS LTDA",
+      "nome_fantasia": "MEGA POSTO VIA NORTE",
+      "telefone": "(82) 2621321",
+      "nome_logradouro": "ROD BR 101 NORTE, KM 33",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA URBANA",
+      "cep": "57990000",
+      "codigo_ibge": 2705200,
+      "municipio": "MESSIAS",
+      "latitude": -9.3886292,
+      "longitude": -35.8392634,
+      "valor_minimo": 6.989720998531571,
+      "valor_maximo": 6.989720998531571,
+      "valor_medio": 6.989720998531571,
+      "valor_recente": 6.989720998531571,
+      "data_recente": "2026-04-14T23:27:08Z"
     },
     {
       "cnpj": "27806368000106",
@@ -90,11 +90,11 @@
       "municipio": "MESSIAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.989976373879856,
-      "valor_maximo": 6.989976373879856,
-      "valor_medio": 6.989976373879856,
-      "valor_recente": 6.989976373879856,
-      "data_recente": "2026-04-14T21:30:49Z"
+      "valor_minimo": 6.989868467827942,
+      "valor_maximo": 6.989868467827942,
+      "valor_medio": 6.989868467827942,
+      "valor_recente": 6.989868467827942,
+      "data_recente": "2026-04-14T22:36:19Z"
     },
     {
       "cnpj": "27806368000106",
@@ -110,11 +110,11 @@
       "municipio": "MESSIAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.189952252439277,
-      "valor_maximo": 5.189952252439277,
-      "valor_medio": 5.189952252439277,
-      "valor_recente": 5.189952252439277,
-      "data_recente": "2026-04-14T21:32:23Z"
+      "valor_minimo": 5.1899660818428055,
+      "valor_maximo": 5.1899660818428055,
+      "valor_medio": 5.1899660818428055,
+      "valor_recente": 5.1899660818428055,
+      "data_recente": "2026-04-14T23:30:03Z"
     },
     {
       "cnpj": "11908167000333",
@@ -150,11 +150,11 @@
       "municipio": "MESSIAS",
       "latitude": -9.3886292,
       "longitude": -35.8392634,
-      "valor_minimo": 7.059953121911271,
-      "valor_maximo": 7.059953121911271,
-      "valor_medio": 7.059953121911271,
-      "valor_recente": 7.059953121911271,
-      "data_recente": "2026-04-14T20:57:43Z"
+      "valor_minimo": 7.059898829128386,
+      "valor_maximo": 7.059898829128386,
+      "valor_medio": 7.059898829128386,
+      "valor_recente": 7.059898829128386,
+      "data_recente": "2026-04-14T23:29:37Z"
     },
     {
       "cnpj": "27806368000106",
@@ -174,7 +174,7 @@
       "valor_maximo": 7.0899358360806835,
       "valor_medio": 7.0899358360806835,
       "valor_recente": 7.0899358360806835,
-      "data_recente": "2026-04-14T21:32:46Z"
+      "data_recente": "2026-04-14T23:31:27Z"
     },
     {
       "cnpj": "27806368000106",
@@ -190,11 +190,11 @@
       "municipio": "MESSIAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 4.189862899875363,
-      "valor_maximo": 4.189862899875363,
-      "valor_medio": 4.189862899875363,
-      "valor_recente": 4.189862899875363,
-      "data_recente": "2026-04-14T21:23:11Z"
+      "valor_minimo": 4.189981107781909,
+      "valor_maximo": 4.189981107781909,
+      "valor_medio": 4.189981107781909,
+      "valor_recente": 4.189981107781909,
+      "data_recente": "2026-04-14T23:33:09Z"
     }
   ]
 }

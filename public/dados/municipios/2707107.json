@@ -1,32 +1,32 @@
 {
   "codigoIBGE": "2707107",
   "municipio": "Piranhas",
-  "atualizadoEm": "2026-04-14T23:10:13.055Z",
+  "atualizadoEm": "2026-04-15T00:12:31.186Z",
   "totalEstabelecimentos": 18,
   "combustiveis": {
     "1": {
       "totalPostos": 6,
-      "valorMinimo": 7.099953140309274,
-      "valorMaximo": 7.450617283950617,
-      "valorMedio": 7.28187344285205
+      "valorMinimo": 7.100003550001775,
+      "valorMaximo": 7.451564828614009,
+      "valorMedio": 7.282192925778252
     },
     "2": {
       "totalPostos": 3,
-      "valorMinimo": 7.100255609201931,
-      "valorMaximo": 7.589556769884639,
-      "valorMedio": 7.297131135584851
+      "valorMinimo": 7.098591549295775,
+      "valorMaximo": 7.589172780166962,
+      "valorMedio": 7.296448452376907
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 5.882352941176471,
+      "valorMinimo": 5.880047040376323,
       "valorMaximo": 6.190034045187248,
-      "valorMedio": 6.083649127263861
+      "valorMedio": 6.082880493663812
     },
     "5": {
       "totalPostos": 6,
       "valorMinimo": 7.000350017500875,
-      "valorMaximo": 7.989937709631049,
-      "valorMedio": 7.664929219521137
+      "valorMaximo": 7.990198689607415,
+      "valorMedio": 7.664018498259639
     }
   },
   "estabelecimentos": [
@@ -44,11 +44,11 @@
       "municipio": "PIRANHAS",
       "latitude": -9.478838,
       "longitude": -37.6682468,
-      "valor_minimo": 7.099953140309274,
-      "valor_maximo": 7.099953140309274,
-      "valor_medio": 7.099953140309274,
-      "valor_recente": 7.099953140309274,
-      "data_recente": "2026-04-14T21:35:34Z"
+      "valor_minimo": 7.100003550001775,
+      "valor_maximo": 7.100003550001775,
+      "valor_medio": 7.100003550001775,
+      "valor_recente": 7.100003550001775,
+      "data_recente": "2026-04-14T23:25:33Z"
     },
     {
       "cnpj": "70019039000136",
@@ -64,11 +64,11 @@
       "municipio": "PIRANHAS",
       "latitude": -9.381468,
       "longitude": -38.0021811,
-      "valor_minimo": 7.1004243281471,
-      "valor_maximo": 7.1004243281471,
-      "valor_medio": 7.1004243281471,
-      "valor_recente": 7.1004243281471,
-      "data_recente": "2026-04-14T21:13:55Z"
+      "valor_minimo": 7.100255609201931,
+      "valor_maximo": 7.100255609201931,
+      "valor_medio": 7.100255609201931,
+      "valor_recente": 7.100255609201931,
+      "data_recente": "2026-04-14T22:35:07Z"
     },
     {
       "cnpj": "22590658000133",
@@ -104,31 +104,11 @@
       "municipio": "PIRANHAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.4487895716946,
-      "valor_maximo": 7.4487895716946,
-      "valor_medio": 7.4487895716946,
-      "valor_recente": 7.4487895716946,
-      "data_recente": "2026-04-14T21:32:54Z"
-    },
-    {
-      "cnpj": "46715427000177",
-      "tipo_combustivel": 1,
-      "razao_social": "POSTOS PRIME LTDA",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "ROD ALTEMAR DUTRA",
-      "numero_imovel": "01",
-      "bairro": "ZONA RURAL",
-      "cep": "57460000",
-      "codigo_ibge": 2707107,
-      "municipio": "PIRANHAS",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.450454477723141,
-      "valor_maximo": 7.450454477723141,
-      "valor_medio": 7.450454477723141,
-      "valor_recente": 7.450454477723141,
-      "data_recente": "2026-04-14T21:36:35Z"
+      "valor_minimo": 7.449714427613608,
+      "valor_maximo": 7.449714427613608,
+      "valor_medio": 7.449714427613608,
+      "valor_recente": 7.449714427613608,
+      "data_recente": "2026-04-14T23:34:03Z"
     },
     {
       "cnpj": "05767699000214",
@@ -151,6 +131,26 @@
       "data_recente": "2026-04-14T15:55:52Z"
     },
     {
+      "cnpj": "46715427000177",
+      "tipo_combustivel": 1,
+      "razao_social": "POSTOS PRIME LTDA",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "ROD ALTEMAR DUTRA",
+      "numero_imovel": "01",
+      "bairro": "ZONA RURAL",
+      "cep": "57460000",
+      "codigo_ibge": 2707107,
+      "municipio": "PIRANHAS",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.451564828614009,
+      "valor_maximo": 7.451564828614009,
+      "valor_medio": 7.451564828614009,
+      "valor_recente": 7.451564828614009,
+      "data_recente": "2026-04-14T23:24:41Z"
+    },
+    {
       "cnpj": "70019039000136",
       "tipo_combustivel": 2,
       "razao_social": "REMI DA SILVA - ME",
@@ -164,11 +164,11 @@
       "municipio": "PIRANHAS",
       "latitude": -9.381468,
       "longitude": -38.0021811,
-      "valor_minimo": 7.100255609201931,
-      "valor_maximo": 7.100255609201931,
-      "valor_medio": 7.100255609201931,
-      "valor_recente": 7.100255609201931,
-      "data_recente": "2026-04-14T20:16:41Z"
+      "valor_minimo": 7.098591549295775,
+      "valor_maximo": 7.098591549295775,
+      "valor_medio": 7.098591549295775,
+      "valor_recente": 7.098591549295775,
+      "data_recente": "2026-04-14T22:53:25Z"
     },
     {
       "cnpj": "00497402000143",
@@ -204,11 +204,11 @@
       "municipio": "PIRANHAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.589556769884639,
-      "valor_maximo": 7.589556769884639,
-      "valor_medio": 7.589556769884639,
-      "valor_recente": 7.589556769884639,
-      "data_recente": "2026-04-14T21:12:54Z"
+      "valor_minimo": 7.589172780166962,
+      "valor_maximo": 7.589172780166962,
+      "valor_medio": 7.589172780166962,
+      "valor_recente": 7.589172780166962,
+      "data_recente": "2026-04-14T22:02:51Z"
     },
     {
       "cnpj": "00497402000143",
@@ -224,11 +224,11 @@
       "municipio": "PIRANHAS",
       "latitude": -9.478838,
       "longitude": -37.6682468,
-      "valor_minimo": 5.882352941176471,
-      "valor_maximo": 5.882352941176471,
-      "valor_medio": 5.882352941176471,
-      "valor_recente": 5.882352941176471,
-      "data_recente": "2026-04-14T21:26:27Z"
+      "valor_minimo": 5.880047040376323,
+      "valor_maximo": 5.880047040376323,
+      "valor_medio": 5.880047040376323,
+      "valor_recente": 5.880047040376323,
+      "data_recente": "2026-04-14T22:30:01Z"
     },
     {
       "cnpj": "43473530000160",
@@ -248,7 +248,7 @@
       "valor_maximo": 6.178560395427866,
       "valor_medio": 6.178560395427866,
       "valor_recente": 6.178560395427866,
-      "data_recente": "2026-04-14T21:10:09Z"
+      "data_recente": "2026-04-14T23:24:41Z"
     },
     {
       "cnpj": "05767699000214",
@@ -304,11 +304,11 @@
       "municipio": "PIRANHAS",
       "latitude": -9.381468,
       "longitude": -38.0021811,
-      "valor_minimo": 7.51,
-      "valor_maximo": 7.5100431762718225,
-      "valor_medio": 7.510021588135912,
-      "valor_recente": 7.51,
-      "data_recente": "2026-04-14T21:31:44Z"
+      "valor_minimo": 7.509976399914182,
+      "valor_maximo": 7.51,
+      "valor_medio": 7.509988199957091,
+      "valor_recente": 7.509976399914182,
+      "data_recente": "2026-04-14T22:27:52Z"
     },
     {
       "cnpj": "00497402000143",
@@ -324,11 +324,31 @@
       "municipio": "PIRANHAS",
       "latitude": -9.478838,
       "longitude": -37.6682468,
-      "valor_minimo": 7.510062685582316,
-      "valor_maximo": 7.510062685582316,
-      "valor_medio": 7.510062685582316,
-      "valor_recente": 7.510062685582316,
-      "data_recente": "2026-04-14T21:25:44Z"
+      "valor_minimo": 7.510007084440017,
+      "valor_maximo": 7.510007084440017,
+      "valor_medio": 7.510007084440017,
+      "valor_recente": 7.510007084440017,
+      "data_recente": "2026-04-14T23:16:50Z"
+    },
+    {
+      "cnpj": "43473530000160",
+      "tipo_combustivel": 5,
+      "razao_social": "H. SENA PIRANHAS COMERCIO DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "POSTO PARAISO",
+      "telefone": "(75) 991238113",
+      "nome_logradouro": "ROD ALTEMAR DUTRA, KM 14",
+      "numero_imovel": "60",
+      "bairro": "VILA SERGIPE",
+      "cep": "57460000",
+      "codigo_ibge": 2707107,
+      "municipio": "PIRANHAS",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.984126984126984,
+      "valor_maximo": 7.984126984126984,
+      "valor_medio": 7.984126984126984,
+      "valor_recente": 7.984126984126984,
+      "data_recente": "2026-04-14T23:10:36Z"
     },
     {
       "cnpj": "05767699000214",
@@ -364,31 +384,11 @@
       "municipio": "PIRANHAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.989773090444231,
-      "valor_maximo": 7.989773090444231,
-      "valor_medio": 7.989773090444231,
-      "valor_recente": 7.989773090444231,
-      "data_recente": "2026-04-14T21:36:35Z"
-    },
-    {
-      "cnpj": "43473530000160",
-      "tipo_combustivel": 5,
-      "razao_social": "H. SENA PIRANHAS COMERCIO DE COMBUSTIVEIS LTDA",
-      "nome_fantasia": "POSTO PARAISO",
-      "telefone": "(75) 991238113",
-      "nome_logradouro": "ROD ALTEMAR DUTRA, KM 14",
-      "numero_imovel": "60",
-      "bairro": "VILA SERGIPE",
-      "cep": "57460000",
-      "codigo_ibge": 2707107,
-      "municipio": "PIRANHAS",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.989937709631049,
-      "valor_maximo": 7.989937709631049,
-      "valor_medio": 7.989937709631049,
-      "valor_recente": 7.989937709631049,
-      "data_recente": "2026-04-14T20:21:21Z"
+      "valor_minimo": 7.990198689607415,
+      "valor_maximo": 7.990198689607415,
+      "valor_medio": 7.990198689607415,
+      "valor_recente": 7.990198689607415,
+      "data_recente": "2026-04-14T23:24:21Z"
     }
   ]
 }

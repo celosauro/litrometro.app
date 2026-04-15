@@ -1,14 +1,14 @@
 {
   "codigoIBGE": "2703205",
   "municipio": "Igreja Nova",
-  "atualizadoEm": "2026-04-14T22:49:04.335Z",
+  "atualizadoEm": "2026-04-14T23:49:53.337Z",
   "totalEstabelecimentos": 7,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.289308176100629,
-      "valorMaximo": 6.911764705882353,
-      "valorMedio": 6.600536440991491
+      "valorMinimo": 6.911764705882353,
+      "valorMaximo": 6.990562740300594,
+      "valorMedio": 6.951163723091474
     },
     "2": {
       "totalPostos": 1,
@@ -31,26 +31,6 @@
   },
   "estabelecimentos": [
     {
-      "cnpj": "19739379000184",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO OURO VERDE LTDA.",
-      "nome_fantasia": "AUTO POSTO JA",
-      "telefone": "",
-      "nome_logradouro": "ROD AL 225",
-      "numero_imovel": "S/N",
-      "bairro": "CENTRO",
-      "cep": "57280000",
-      "codigo_ibge": 2703205,
-      "municipio": "IGREJA NOVA",
-      "latitude": -10.0830464,
-      "longitude": -36.5661908,
-      "valor_minimo": 6.289308176100629,
-      "valor_maximo": 6.289308176100629,
-      "valor_medio": 6.289308176100629,
-      "valor_recente": 6.289308176100629,
-      "data_recente": "2026-04-14T21:09:49Z"
-    },
-    {
       "cnpj": "55682117000194",
       "tipo_combustivel": 1,
       "razao_social": "OLIVEIRA E BARRETO COMERCIO DE COMBUSTIVEIS LTDA",
@@ -72,6 +52,26 @@
     },
     {
       "cnpj": "19739379000184",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO OURO VERDE LTDA.",
+      "nome_fantasia": "AUTO POSTO JA",
+      "telefone": "",
+      "nome_logradouro": "ROD AL 225",
+      "numero_imovel": "S/N",
+      "bairro": "CENTRO",
+      "cep": "57280000",
+      "codigo_ibge": 2703205,
+      "municipio": "IGREJA NOVA",
+      "latitude": -10.0830464,
+      "longitude": -36.5661908,
+      "valor_minimo": 6.990562740300594,
+      "valor_maximo": 6.990562740300594,
+      "valor_medio": 6.990562740300594,
+      "valor_recente": 6.990562740300594,
+      "data_recente": "2026-04-14T23:24:46Z"
+    },
+    {
+      "cnpj": "19739379000184",
       "tipo_combustivel": 2,
       "razao_social": "AUTO POSTO OURO VERDE LTDA.",
       "nome_fantasia": "AUTO POSTO JA",
@@ -88,7 +88,7 @@
       "valor_maximo": 7.092198581560283,
       "valor_medio": 7.092198581560283,
       "valor_recente": 7.092198581560283,
-      "data_recente": "2026-04-14T20:05:05Z"
+      "data_recente": "2026-04-14T22:56:14Z"
     },
     {
       "cnpj": "55682117000194",
@@ -128,7 +128,7 @@
       "valor_maximo": 5.649717514124294,
       "valor_medio": 5.649717514124294,
       "valor_recente": 5.649717514124294,
-      "data_recente": "2026-04-14T20:05:05Z"
+      "data_recente": "2026-04-14T23:24:46Z"
     },
     {
       "cnpj": "55682117000194",
