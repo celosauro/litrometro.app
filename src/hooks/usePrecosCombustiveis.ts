@@ -67,9 +67,11 @@ export function usePrecosCombustiveis({
       }
 
       // Filtra por município (se especificado) e tipo de combustível
+      // Garante comparação como strings (codigo_ibge no JSON é string)
+      const codigoIBGEStr = codigoIBGE ? String(codigoIBGE) : undefined;
       let filtrados = cacheAtual!.estabelecimentos.filter(e => {
         const matchTipo = e.tipo_combustivel === tipoCombustivel;
-        const matchMunicipio = !codigoIBGE || e.codigo_ibge === codigoIBGE;
+        const matchMunicipio = !codigoIBGEStr || e.codigo_ibge === codigoIBGEStr;
         return matchTipo && matchMunicipio;
       });
 
