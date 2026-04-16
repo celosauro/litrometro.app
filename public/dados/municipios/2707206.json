@@ -1,20 +1,20 @@
 {
   "codigoIBGE": "2707206",
   "municipio": "Poço das Trincheiras",
-  "atualizadoEm": "2026-04-15T23:10:04.212Z",
+  "atualizadoEm": "2026-04-16T00:16:49.259Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
       "valorMinimo": 6.968641114982578,
-      "valorMaximo": 6.990562740300594,
-      "valorMedio": 6.97627470281591
+      "valorMaximo": 6.993006993006993,
+      "valorMedio": 6.977302777012633
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 6.980802792321117,
-      "valorMaximo": 6.980802792321117,
-      "valorMedio": 6.980802792321117
+      "valorMinimo": 6.982758620689655,
+      "valorMaximo": 6.982758620689655,
+      "valorMedio": 6.982758620689655
     },
     "3": {
       "totalPostos": 1,
@@ -24,9 +24,9 @@
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.56000756000756,
-      "valorMaximo": 7.99,
-      "valorMedio": 7.783237057090111
+      "valorMinimo": 7.559721802237678,
+      "valorMaximo": 7.800312012480499,
+      "valorMedio": 7.714044994011117
     }
   },
   "estabelecimentos": [
@@ -48,7 +48,7 @@
       "valor_maximo": 6.968641114982578,
       "valor_medio": 6.968641114982578,
       "valor_recente": 6.968641114982578,
-      "data_recente": "2026-04-15T14:05:24Z"
+      "data_recente": "2026-04-15T21:38:30Z"
     },
     {
       "cnpj": "08886737000165",
@@ -64,11 +64,11 @@
       "municipio": "POCO DAS TRINCHEIRAS",
       "latitude": -9.3237539,
       "longitude": -37.30406809999999,
-      "valor_minimo": 6.969620253164557,
-      "valor_maximo": 6.969620253164557,
-      "valor_medio": 6.969620253164557,
-      "valor_recente": 6.969620253164557,
-      "data_recente": "2026-04-15T21:18:51Z"
+      "valor_minimo": 6.970260223048327,
+      "valor_maximo": 6.970260223048327,
+      "valor_medio": 6.970260223048327,
+      "valor_recente": 6.970260223048327,
+      "data_recente": "2026-04-15T22:48:40Z"
     },
     {
       "cnpj": "29720522000140",
@@ -84,11 +84,11 @@
       "municipio": "POCO DAS TRINCHEIRAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.990562740300594,
-      "valor_maximo": 6.990562740300594,
-      "valor_medio": 6.990562740300594,
-      "valor_recente": 6.990562740300594,
-      "data_recente": "2026-04-15T21:20:00Z"
+      "valor_minimo": 6.993006993006993,
+      "valor_maximo": 6.993006993006993,
+      "valor_medio": 6.993006993006993,
+      "valor_recente": 6.993006993006993,
+      "data_recente": "2026-04-15T22:52:24Z"
     },
     {
       "cnpj": "09025340000141",
@@ -104,11 +104,11 @@
       "municipio": "POCO DAS TRINCHEIRAS",
       "latitude": -9.3063022,
       "longitude": -37.2854321,
-      "valor_minimo": 6.980802792321117,
-      "valor_maximo": 6.980802792321117,
-      "valor_medio": 6.980802792321117,
-      "valor_recente": 6.980802792321117,
-      "data_recente": "2026-04-15T14:05:11Z"
+      "valor_minimo": 6.982758620689655,
+      "valor_maximo": 6.982758620689655,
+      "valor_medio": 6.982758620689655,
+      "valor_recente": 6.982758620689655,
+      "data_recente": "2026-04-15T21:38:11Z"
     },
     {
       "cnpj": "08886737000165",
@@ -144,31 +144,11 @@
       "municipio": "POCO DAS TRINCHEIRAS",
       "latitude": -9.3237539,
       "longitude": -37.30406809999999,
-      "valor_minimo": 7.56000756000756,
-      "valor_maximo": 7.56000756000756,
-      "valor_medio": 7.56000756000756,
-      "valor_recente": 7.56000756000756,
-      "data_recente": "2026-04-15T20:06:34Z"
-    },
-    {
-      "cnpj": "09025340000141",
-      "tipo_combustivel": 5,
-      "razao_social": "FERREIRA E SANTOS AUTO POSTO LTDA - ME",
-      "nome_fantasia": "AUTO POSTO SAO SEBASTIAO",
-      "telefone": "(82) 99925114",
-      "nome_logradouro": "ROD AL 130",
-      "numero_imovel": "S/N",
-      "bairro": "PREFEITO JOSE MEDEIROS",
-      "cep": "57510000",
-      "codigo_ibge": 2707206,
-      "municipio": "POCO DAS TRINCHEIRAS",
-      "latitude": -9.3063022,
-      "longitude": -37.2854321,
-      "valor_minimo": 7.799703611262772,
-      "valor_maximo": 7.799703611262772,
-      "valor_medio": 7.799703611262772,
-      "valor_recente": 7.799703611262772,
-      "data_recente": "2026-04-15T14:04:51Z"
+      "valor_minimo": 7.559721802237678,
+      "valor_maximo": 7.559721802237678,
+      "valor_medio": 7.559721802237678,
+      "valor_recente": 7.559721802237678,
+      "data_recente": "2026-04-15T22:08:59Z"
     },
     {
       "cnpj": "29720522000140",
@@ -184,11 +164,31 @@
       "municipio": "POCO DAS TRINCHEIRAS",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.99,
-      "valor_maximo": 7.99,
-      "valor_medio": 7.99,
-      "valor_recente": 7.99,
-      "data_recente": "2026-04-15T10:13:05Z"
+      "valor_minimo": 7.782101167315175,
+      "valor_maximo": 7.782101167315175,
+      "valor_medio": 7.782101167315175,
+      "valor_recente": 7.782101167315175,
+      "data_recente": "2026-04-15T22:34:28Z"
+    },
+    {
+      "cnpj": "09025340000141",
+      "tipo_combustivel": 5,
+      "razao_social": "FERREIRA E SANTOS AUTO POSTO LTDA - ME",
+      "nome_fantasia": "AUTO POSTO SAO SEBASTIAO",
+      "telefone": "(82) 99925114",
+      "nome_logradouro": "ROD AL 130",
+      "numero_imovel": "S/N",
+      "bairro": "PREFEITO JOSE MEDEIROS",
+      "cep": "57510000",
+      "codigo_ibge": 2707206,
+      "municipio": "POCO DAS TRINCHEIRAS",
+      "latitude": -9.3063022,
+      "longitude": -37.2854321,
+      "valor_minimo": 7.800312012480499,
+      "valor_maximo": 7.800312012480499,
+      "valor_medio": 7.800312012480499,
+      "valor_recente": 7.800312012480499,
+      "data_recente": "2026-04-15T21:38:11Z"
     }
   ]
 }

@@ -1,49 +1,29 @@
 {
   "codigoIBGE": "2708105",
   "municipio": "Santana do Mundaú",
-  "atualizadoEm": "2026-04-15T23:14:55.244Z",
+  "atualizadoEm": "2026-04-16T00:21:50.135Z",
   "totalEstabelecimentos": 5,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.889143511887712,
-      "valorMaximo": 6.889424733034792,
-      "valorMedio": 6.889284122461252
+      "valorMinimo": 6.667777962993832,
+      "valorMaximo": 6.889899407468651,
+      "valorMedio": 6.778838685231241
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.503023639362287,
-      "valorMaximo": 5.503023639362287,
-      "valorMedio": 5.503023639362287
+      "valorMinimo": 5.690224194833276,
+      "valorMaximo": 5.690224194833276,
+      "valorMedio": 5.690224194833276
     },
     "5": {
       "totalPostos": 2,
       "valorMinimo": 7.047878588544848,
-      "valorMaximo": 7.349698662354843,
-      "valorMedio": 7.198788625449845
+      "valorMaximo": 7.35023888276369,
+      "valorMedio": 7.199058735654269
     }
   },
   "estabelecimentos": [
-    {
-      "cnpj": "40433057000107",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO LIMA LTDA",
-      "nome_fantasia": "AUTO POSTO SAO JOSE",
-      "telefone": "",
-      "nome_logradouro": "AV DOUTOR MUNIZ FALCAO",
-      "numero_imovel": "S/N",
-      "bairro": "CENTRO",
-      "cep": "57840000",
-      "codigo_ibge": 2708105,
-      "municipio": "SANTANA DO MUNDAU",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.889143511887712,
-      "valor_maximo": 6.889143511887712,
-      "valor_medio": 6.889143511887712,
-      "valor_recente": 6.889143511887712,
-      "data_recente": "2026-04-15T21:28:20Z"
-    },
     {
       "cnpj": "11140617000129",
       "tipo_combustivel": 1,
@@ -58,11 +38,31 @@
       "municipio": "SANTANA DO MUNDAU",
       "latitude": -9.1702427,
       "longitude": -36.2207663,
-      "valor_minimo": 6.889424733034792,
-      "valor_maximo": 6.889424733034792,
-      "valor_medio": 6.889424733034792,
-      "valor_recente": 6.889424733034792,
-      "data_recente": "2026-04-15T20:34:11Z"
+      "valor_minimo": 6.667777962993832,
+      "valor_maximo": 6.667777962993832,
+      "valor_medio": 6.667777962993832,
+      "valor_recente": 6.667777962993832,
+      "data_recente": "2026-04-15T22:52:45Z"
+    },
+    {
+      "cnpj": "40433057000107",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO LIMA LTDA",
+      "nome_fantasia": "AUTO POSTO SAO JOSE",
+      "telefone": "",
+      "nome_logradouro": "AV DOUTOR MUNIZ FALCAO",
+      "numero_imovel": "S/N",
+      "bairro": "CENTRO",
+      "cep": "57840000",
+      "codigo_ibge": 2708105,
+      "municipio": "SANTANA DO MUNDAU",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.889899407468651,
+      "valor_maximo": 6.889899407468651,
+      "valor_medio": 6.889899407468651,
+      "valor_recente": 6.889899407468651,
+      "data_recente": "2026-04-15T22:28:03Z"
     },
     {
       "cnpj": "11140617000129",
@@ -78,11 +78,11 @@
       "municipio": "SANTANA DO MUNDAU",
       "latitude": -9.1702427,
       "longitude": -36.2207663,
-      "valor_minimo": 5.503023639362287,
-      "valor_maximo": 5.503023639362287,
-      "valor_medio": 5.503023639362287,
-      "valor_recente": 5.503023639362287,
-      "data_recente": "2026-04-15T19:04:15Z"
+      "valor_minimo": 5.690224194833276,
+      "valor_maximo": 5.690224194833276,
+      "valor_medio": 5.690224194833276,
+      "valor_recente": 5.690224194833276,
+      "data_recente": "2026-04-15T22:50:59Z"
     },
     {
       "cnpj": "11140617000129",
@@ -118,11 +118,11 @@
       "municipio": "SANTANA DO MUNDAU",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.349698662354843,
-      "valor_maximo": 7.349698662354843,
-      "valor_medio": 7.349698662354843,
-      "valor_recente": 7.349698662354843,
-      "data_recente": "2026-04-15T20:41:27Z"
+      "valor_minimo": 7.35023888276369,
+      "valor_maximo": 7.35023888276369,
+      "valor_medio": 7.35023888276369,
+      "valor_recente": 7.35023888276369,
+      "data_recente": "2026-04-15T21:44:17Z"
     }
   ]
 }

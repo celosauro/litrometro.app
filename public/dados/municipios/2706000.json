@@ -1,7 +1,7 @@
 {
   "codigoIBGE": "2706000",
   "municipio": "Olivença",
-  "atualizadoEm": "2026-04-15T23:01:57.849Z",
+  "atualizadoEm": "2026-04-16T00:08:24.058Z",
   "totalEstabelecimentos": 6,
   "combustiveis": {
     "1": {
@@ -12,21 +12,21 @@
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.944444444444445,
-      "valorMaximo": 7.092198581560283,
-      "valorMedio": 7.018321513002364
+      "valorMinimo": 6.9495268138801265,
+      "valorMaximo": 7.08502024291498,
+      "valorMedio": 7.017273528397553
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.699954400364797,
-      "valorMaximo": 5.699954400364797,
-      "valorMedio": 5.699954400364797
+      "valorMinimo": 5.699088145896656,
+      "valorMaximo": 5.699088145896656,
+      "valorMedio": 5.699088145896656
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.419983958799443,
-      "valorMaximo": 7.420048972323217,
-      "valorMedio": 7.42001646556133
+      "valorMinimo": 7.420048972323217,
+      "valorMaximo": 7.4202325006183525,
+      "valorMedio": 7.420140736470785
     }
   },
   "estabelecimentos": [
@@ -48,7 +48,7 @@
       "valor_maximo": 6.949270326615705,
       "valor_medio": 6.949270326615705,
       "valor_recente": 6.949270326615705,
-      "data_recente": "2026-04-15T21:02:14Z"
+      "data_recente": "2026-04-15T23:18:55Z"
     },
     {
       "cnpj": "27069763000145",
@@ -64,11 +64,11 @@
       "municipio": "OLIVENCA",
       "latitude": -9.519277,
       "longitude": -37.191994,
-      "valor_minimo": 6.944444444444445,
-      "valor_maximo": 6.944444444444445,
-      "valor_medio": 6.944444444444445,
-      "valor_recente": 6.944444444444445,
-      "data_recente": "2026-04-15T21:30:11Z"
+      "valor_minimo": 6.9495268138801265,
+      "valor_maximo": 6.9495268138801265,
+      "valor_medio": 6.9495268138801265,
+      "valor_recente": 6.9495268138801265,
+      "data_recente": "2026-04-15T22:50:17Z"
     },
     {
       "cnpj": "30044555000104",
@@ -84,11 +84,11 @@
       "municipio": "OLIVENCA",
       "latitude": -9.565324,
       "longitude": -35.789666,
-      "valor_minimo": 7.092198581560283,
-      "valor_maximo": 7.092198581560283,
-      "valor_medio": 7.092198581560283,
-      "valor_recente": 7.092198581560283,
-      "data_recente": "2026-04-15T21:01:18Z"
+      "valor_minimo": 7.08502024291498,
+      "valor_maximo": 7.08502024291498,
+      "valor_medio": 7.08502024291498,
+      "valor_recente": 7.08502024291498,
+      "data_recente": "2026-04-15T22:31:45Z"
     },
     {
       "cnpj": "30044555000104",
@@ -104,31 +104,11 @@
       "municipio": "OLIVENCA",
       "latitude": -9.565324,
       "longitude": -35.789666,
-      "valor_minimo": 5.699954400364797,
-      "valor_maximo": 5.699954400364797,
-      "valor_medio": 5.699954400364797,
-      "valor_recente": 5.699954400364797,
-      "data_recente": "2026-04-15T20:08:00Z"
-    },
-    {
-      "cnpj": "27069763000145",
-      "tipo_combustivel": 5,
-      "razao_social": "MARCELA MARTINS DE LIMA EIRELI - ME",
-      "nome_fantasia": "POSTO NOSSA SENHORA DO CARMO",
-      "telefone": "(82) 96413192",
-      "nome_logradouro": "Rua DR JOSE REBELO TORRES",
-      "numero_imovel": "SN",
-      "bairro": "CENTRO",
-      "cep": "57550000",
-      "codigo_ibge": 2706000,
-      "municipio": "OLIVENCA",
-      "latitude": -9.519277,
-      "longitude": -37.191994,
-      "valor_minimo": 7.419983958799443,
-      "valor_maximo": 7.419983958799443,
-      "valor_medio": 7.419983958799443,
-      "valor_recente": 7.419983958799443,
-      "data_recente": "2026-04-15T19:55:56Z"
+      "valor_minimo": 5.699088145896656,
+      "valor_maximo": 5.699088145896656,
+      "valor_medio": 5.699088145896656,
+      "valor_recente": 5.699088145896656,
+      "data_recente": "2026-04-15T22:46:54Z"
     },
     {
       "cnpj": "30044555000104",
@@ -148,7 +128,27 @@
       "valor_maximo": 7.420048972323217,
       "valor_medio": 7.420048972323217,
       "valor_recente": 7.420048972323217,
-      "data_recente": "2026-04-15T20:53:45Z"
+      "data_recente": "2026-04-15T22:18:41Z"
+    },
+    {
+      "cnpj": "27069763000145",
+      "tipo_combustivel": 5,
+      "razao_social": "MARCELA MARTINS DE LIMA EIRELI - ME",
+      "nome_fantasia": "POSTO NOSSA SENHORA DO CARMO",
+      "telefone": "(82) 96413192",
+      "nome_logradouro": "Rua DR JOSE REBELO TORRES",
+      "numero_imovel": "SN",
+      "bairro": "CENTRO",
+      "cep": "57550000",
+      "codigo_ibge": 2706000,
+      "municipio": "OLIVENCA",
+      "latitude": -9.519277,
+      "longitude": -37.191994,
+      "valor_minimo": 7.4202325006183525,
+      "valor_maximo": 7.4202325006183525,
+      "valor_medio": 7.4202325006183525,
+      "valor_recente": 7.4202325006183525,
+      "data_recente": "2026-04-15T22:10:31Z"
     }
   ]
 }
