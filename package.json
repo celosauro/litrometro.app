@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "collect": "tsx scripts/coletar-precos-supabase.ts",
+    "collect:supabase": "tsx scripts/coletar-precos-supabase.ts",
     "process:history": "tsx scripts/processar-historico.ts",
     "export:json": "tsx scripts/exportar-json.ts",
     "sync:geocache": "tsx scripts/sync-geocache-supabase.ts",
