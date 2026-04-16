@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import type { PrecoCombustivelResumo, TipoCombustivel, DadosAtuais, ResumoMunicipio } from '../types';
+import type { PrecoCombustivelResumo, TipoCombustivel, DadosAtuais } from '../types';
 import { normalizarJSON, type JSONMinificado, type JSONExpandido } from '../utils/dados';
 
 interface UsePrecosCombustiveisOpcoes {
@@ -15,16 +15,14 @@ interface UsePrecosCombustiveisResultado {
   ultimaAtualizacao: string | null;
 }
 
-// Cache dos dados carregados
-// TTL: 0 em dev (sempre recarrega), 30 minutos em produção
+// Cache global - TTL 30min prod, 0 dev
 let cacheAtual: DadosAtuais | null = null;
 let cacheTimestamp: number = 0;
-const cacheMunicipios: Map<string, ResumoMunicipio> = new Map();
-const CACHE_TTL = import.meta.env.DEV ? 0 : 30 * 60 * 1000; // 0 em dev, 30 min em prod
+const CACHE_TTL = import.meta.env.DEV ? 0 : 30 * 60 * 1000;
 
 /**
- * Hook para carregar preços de combustíveis do JSON estático
- * Suporta tanto formato minificado (atual.min.json) quanto expandido (atual.json)
+ * Hook para carregar preços de combustíveis
+ * Usa apenas atual.min.json - filtra por município e tipo no cliente
  */
 export function usePrecosCombustiveis({ 
   tipoCombustivel, 
@@ -40,78 +38,46 @@ export function usePrecosCombustiveis({
     setErro(null);
 
     try {
-      let estabelecimentos: PrecoCombustivelResumo[];
-      let atualizadoEm: string;
-
-      if (codigoIBGE) {
-        // Busca dados de um município específico
-        let dadosMunicipio = cacheMunicipios.get(codigoIBGE);
+      // Carrega dados completos (com cache)
+      const agora = Date.now();
+      const cacheExpirado = !cacheAtual || (agora - cacheTimestamp > CACHE_TTL);
+      
+      if (cacheExpirado) {
+        // Tenta minificado primeiro, fallback expandido
+        let resposta = await fetch('/dados/atual.min.json');
         
-        if (!dadosMunicipio) {
-          const resposta = await fetch(`/dados/municipios/${codigoIBGE}.json`);
-          
-          if (!resposta.ok) {
-            if (resposta.status === 404) {
-              // Município sem dados
-              setDados([]);
-              setUltimaAtualizacao(null);
-              return;
-            }
-            throw new Error(`Erro ao carregar dados do município: ${resposta.status}`);
-          }
-          
-          dadosMunicipio = await resposta.json() as ResumoMunicipio;
-          cacheMunicipios.set(codigoIBGE, dadosMunicipio);
+        if (!resposta.ok) {
+          resposta = await fetch('/dados/atual.json');
         }
-
-        estabelecimentos = dadosMunicipio.estabelecimentos;
-        atualizadoEm = dadosMunicipio.atualizadoEm;
-      } else {
-        // Busca todos os dados
-        const agora = Date.now();
-        const cacheExpirado = !cacheAtual || (agora - cacheTimestamp > CACHE_TTL);
         
-        if (cacheExpirado) {
-          // Tenta carregar o JSON minificado primeiro, fallback para expandido
-          let resposta = await fetch('/dados/atual.min.json');
-          
-          if (!resposta.ok) {
-            // Fallback para JSON expandido (compatibilidade)
-            resposta = await fetch('/dados/atual.json');
-          }
-          
-          if (!resposta.ok) {
-            throw new Error(`Erro ao carregar dados: ${resposta.status}`);
-          }
-          
-          const dadosBrutos = await resposta.json() as JSONMinificado | JSONExpandido;
-          
-          // Normaliza (expande se minificado)
-          const dadosExpandidos = normalizarJSON(dadosBrutos);
-          
-          cacheAtual = {
-            atualizadoEm: dadosExpandidos.atualizadoEm,
-            totalEstabelecimentos: dadosExpandidos.totalEstabelecimentos,
-            totalMunicipios: dadosExpandidos.totalMunicipios,
-            estabelecimentos: dadosExpandidos.estabelecimentos,
-          };
-          cacheTimestamp = agora;
+        if (!resposta.ok) {
+          throw new Error(`Erro ao carregar dados: ${resposta.status}`);
         }
-
-        estabelecimentos = cacheAtual!.estabelecimentos;
-        atualizadoEm = cacheAtual!.atualizadoEm;
+        
+        const dadosBrutos = await resposta.json() as JSONMinificado | JSONExpandido;
+        const dadosExpandidos = normalizarJSON(dadosBrutos);
+        
+        cacheAtual = {
+          atualizadoEm: dadosExpandidos.atualizadoEm,
+          totalEstabelecimentos: dadosExpandidos.totalEstabelecimentos,
+          totalMunicipios: dadosExpandidos.totalMunicipios,
+          estabelecimentos: dadosExpandidos.estabelecimentos,
+        };
+        cacheTimestamp = agora;
       }
 
-      // Filtra por tipo de combustível
-      const filtrados = estabelecimentos.filter(
-        (e) => e.tipo_combustivel === tipoCombustivel
-      );
+      // Filtra por município (se especificado) e tipo de combustível
+      let filtrados = cacheAtual!.estabelecimentos.filter(e => {
+        const matchTipo = e.tipo_combustivel === tipoCombustivel;
+        const matchMunicipio = !codigoIBGE || e.codigo_ibge === codigoIBGE;
+        return matchTipo && matchMunicipio;
+      });
 
       // Ordena por valor recente (menor primeiro)
       filtrados.sort((a, b) => a.valor_recente - b.valor_recente);
 
       setDados(filtrados);
-      setUltimaAtualizacao(atualizadoEm);
+      setUltimaAtualizacao(cacheAtual!.atualizadoEm);
     } catch (err) {
       console.error('Erro ao buscar dados:', err);
       setErro('Erro ao carregar dados. Tente novamente.');
@@ -126,9 +92,7 @@ export function usePrecosCombustiveis({
   }, [buscarDados]);
 
   const recarregar = useCallback(() => {
-    // Limpa cache ao recarregar manualmente
     cacheAtual = null;
-    cacheMunicipios.clear();
     buscarDados();
   }, [buscarDados]);
 

@@ -1,12 +1,11 @@
 /**
- * Script de processamento de histórico de preços
- * Executa diariamente para calcular min/max/médio dos últimos 10 dias
- * Atualiza o arquivo atual.json com os valores agregados
+ * Script de processamento de histórico de preços - Versão Supabase
+ * Executa diariamente para calcular min/max/médio dos últimos N dias
+ * Consulta vendas_historico e atualiza precos_atuais no Supabase
  */
 
 import 'dotenv/config';
-import * as fs from 'fs';
-import * as path from 'path';
+import { createClient, SupabaseClient } from '@supabase/supabase-js';
 
 // Tipos
 type TipoCombustivel = 1 | 2 | 3 | 4 | 5 | 6;
@@ -18,40 +17,14 @@ interface VendaHistorico {
   data_venda: string;
 }
 
-interface HistoricoDiario {
-  data: string;
-  codigoIBGE: string;
-  municipio: string;
-  coletadoEm: string;
-  vendas: VendaHistorico[];
-}
-
-interface PrecoCombustivelResumo {
+interface PrecoAtual {
   cnpj: string;
   tipo_combustivel: TipoCombustivel;
-  razao_social: string;
-  nome_fantasia: string;
-  telefone: string;
-  nome_logradouro: string;
-  numero_imovel: string;
-  bairro: string;
-  cep: string;
-  codigo_ibge: string;
-  municipio: string;
-  latitude: number;
-  longitude: number;
   valor_minimo: number;
   valor_maximo: number;
   valor_medio: number;
   valor_recente: number;
   data_recente: string;
-}
-
-interface DadosAtuais {
-  atualizadoEm: string;
-  totalEstabelecimentos: number;
-  totalMunicipios: number;
-  estabelecimentos: PrecoCombustivelResumo[];
 }
 
 interface VendasAgregadas {
@@ -61,10 +34,16 @@ interface VendasAgregadas {
 }
 
 // Configuração
-const DADOS_DIR = path.join(process.cwd(), 'public', 'dados');
-const HISTORICO_DIR = path.join(DADOS_DIR, 'historico');
-const ATUAL_FILE = path.join(DADOS_DIR, 'atual.json');
+const SUPABASE_URL = process.env.VITE_SUPABASE_URL;
+const SUPABASE_KEY = process.env.SUPABASE_SECRET_KEY;
 const DIAS_HISTORICO = parseInt(process.env.DIAS_HISTORICO || '30', 10);
+
+if (!SUPABASE_URL || !SUPABASE_KEY) {
+  console.error('❌ Variáveis VITE_SUPABASE_URL e SUPABASE_SECRET_KEY são obrigatórias');
+  process.exit(1);
+}
+
+const supabase: SupabaseClient = createClient(SUPABASE_URL, SUPABASE_KEY);
 
 const NOMES_COMBUSTIVEIS: Record<TipoCombustivel, string> = {
   1: 'Gasolina Comum',
@@ -76,79 +55,6 @@ const NOMES_COMBUSTIVEIS: Record<TipoCombustivel, string> = {
 };
 
 /**
- * Obtém as datas dos últimos N dias disponíveis no histórico
- */
-function obterDatasHistorico(dias: number): string[] {
-  const datas: string[] = [];
-  
-  // Lista todas as pastas de data no histórico
-  if (!fs.existsSync(HISTORICO_DIR)) {
-    console.error('❌ Diretório de histórico não encontrado:', HISTORICO_DIR);
-    return datas;
-  }
-
-  const pastas = fs.readdirSync(HISTORICO_DIR)
-    .filter(nome => /^\d{4}-\d{2}-\d{2}$/.test(nome))
-    .sort()
-    .reverse(); // Mais recente primeiro
-
-  return pastas.slice(0, dias);
-}
-
-/**
- * Lê todos os arquivos de histórico de uma data
- */
-function lerHistoricoData(data: string): HistoricoDiario[] {
-  const pastaData = path.join(HISTORICO_DIR, data);
-  
-  if (!fs.existsSync(pastaData)) {
-    return [];
-  }
-
-  const arquivos = fs.readdirSync(pastaData)
-    .filter(nome => nome.endsWith('.json'));
-
-  const historicos: HistoricoDiario[] = [];
-
-  for (const arquivo of arquivos) {
-    try {
-      const conteudo = fs.readFileSync(path.join(pastaData, arquivo), 'utf-8');
-      const historico = JSON.parse(conteudo) as HistoricoDiario;
-      historicos.push(historico);
-    } catch (error) {
-      console.warn(`⚠️ Erro ao ler ${data}/${arquivo}:`, error);
-    }
-  }
-
-  return historicos;
-}
-
-/**
- * Carrega o arquivo atual.json existente
- */
-function carregarAtual(): DadosAtuais | null {
-  if (!fs.existsSync(ATUAL_FILE)) {
-    console.error('❌ Arquivo atual.json não encontrado');
-    return null;
-  }
-
-  try {
-    const conteudo = fs.readFileSync(ATUAL_FILE, 'utf-8');
-    return JSON.parse(conteudo) as DadosAtuais;
-  } catch (error) {
-    console.error('❌ Erro ao ler atual.json:', error);
-    return null;
-  }
-}
-
-/**
- * Salva o arquivo atual.json atualizado
- */
-function salvarAtual(dados: DadosAtuais): void {
-  fs.writeFileSync(ATUAL_FILE, JSON.stringify(dados, null, 2));
-}
-
-/**
  * Gera chave única para CNPJ + tipo combustível
  */
 function gerarChave(cnpj: string, tipoCombustivel: TipoCombustivel): string {
@@ -156,51 +62,71 @@ function gerarChave(cnpj: string, tipoCombustivel: TipoCombustivel): string {
 }
 
 /**
- * Processa o histórico e calcula agregações
+ * Consulta vendas_historico no Supabase dos últimos N dias
+ * Retorna agregações por CNPJ + tipo_combustivel
  */
-function processarHistorico(): Map<string, VendasAgregadas> {
+async function consultarHistoricoSupabase(dias: number): Promise<Map<string, VendasAgregadas>> {
   const agregacoes = new Map<string, VendasAgregadas>();
   
-  // Obtém datas disponíveis
-  const datas = obterDatasHistorico(DIAS_HISTORICO);
-  
-  if (datas.length === 0) {
-    console.warn('⚠️ Nenhuma data de histórico encontrada');
-    return agregacoes;
-  }
+  // Data limite: N dias atrás
+  const dataLimite = new Date();
+  dataLimite.setDate(dataLimite.getDate() - dias);
+  const dataLimiteISO = dataLimite.toISOString();
 
-  console.log(`📅 Processando ${datas.length} dias de histórico: ${datas[datas.length - 1]} a ${datas[0]}`);
+  console.log(`📅 Buscando vendas desde ${dataLimiteISO.split('T')[0]} (últimos ${dias} dias)`);
 
-  // Processa cada dia
-  for (const data of datas) {
-    const historicos = lerHistoricoData(data);
-    
-    for (const historico of historicos) {
-      for (const venda of historico.vendas) {
-        const chave = gerarChave(venda.cnpj, venda.tipo_combustivel);
-        const dataVenda = new Date(venda.data_venda);
+  // Busca todas as vendas com paginação
+  const PAGE_SIZE = 1000;
+  let offset = 0;
+  let totalVendas = 0;
 
-        const existente = agregacoes.get(chave);
+  while (true) {
+    const { data, error } = await supabase
+      .from('vendas_historico')
+      .select('cnpj, tipo_combustivel, valor_venda, data_venda')
+      .gte('data_venda', dataLimiteISO)
+      .order('data_venda', { ascending: false })
+      .range(offset, offset + PAGE_SIZE - 1);
 
-        if (!existente) {
-          agregacoes.set(chave, {
-            valores: [venda.valor_venda],
-            dataRecente: dataVenda,
-            valorRecente: venda.valor_venda,
-          });
-        } else {
-          existente.valores.push(venda.valor_venda);
-          
-          // Atualiza valor mais recente se necessário
-          if (dataVenda > existente.dataRecente) {
-            existente.dataRecente = dataVenda;
-            existente.valorRecente = venda.valor_venda;
-          }
+    if (error) {
+      console.error('❌ Erro ao consultar vendas_historico:', error.message);
+      break;
+    }
+
+    if (!data || data.length === 0) break;
+
+    // Agrega os dados
+    for (const venda of data as VendaHistorico[]) {
+      const chave = gerarChave(venda.cnpj, venda.tipo_combustivel);
+      const dataVenda = new Date(venda.data_venda);
+
+      const existente = agregacoes.get(chave);
+
+      if (!existente) {
+        agregacoes.set(chave, {
+          valores: [venda.valor_venda],
+          dataRecente: dataVenda,
+          valorRecente: venda.valor_venda,
+        });
+      } else {
+        existente.valores.push(venda.valor_venda);
+        
+        // Atualiza valor mais recente se necessário
+        if (dataVenda > existente.dataRecente) {
+          existente.dataRecente = dataVenda;
+          existente.valorRecente = venda.valor_venda;
         }
       }
     }
+
+    totalVendas += data.length;
+    offset += PAGE_SIZE;
+
+    // Se retornou menos que PAGE_SIZE, é a última página
+    if (data.length < PAGE_SIZE) break;
   }
 
+  console.log(`   Total de vendas processadas: ${totalVendas.toLocaleString()}`);
   return agregacoes;
 }
 
@@ -221,79 +147,92 @@ function calcularEstatisticas(valores: number[]): { min: number; max: number; me
 }
 
 /**
- * Atualiza os dados do atual.json com as agregações do histórico
+ * Atualiza precos_atuais no Supabase com as agregações
  */
-function atualizarDadosAtuais(
-  dadosAtuais: DadosAtuais,
-  agregacoes: Map<string, VendasAgregadas>
-): DadosAtuais {
-  let atualizados = 0;
-  let naoEncontrados = 0;
+async function atualizarPrecosAtuais(agregacoes: Map<string, VendasAgregadas>): Promise<number> {
+  const updates: PrecoAtual[] = [];
 
-  for (const estabelecimento of dadosAtuais.estabelecimentos) {
-    const chave = gerarChave(estabelecimento.cnpj, estabelecimento.tipo_combustivel);
-    const agregacao = agregacoes.get(chave);
+  for (const [chave, agregacao] of agregacoes) {
+    const [cnpj, tipoCombustivelStr] = chave.split('-');
+    const tipo_combustivel = parseInt(tipoCombustivelStr, 10) as TipoCombustivel;
+    const stats = calcularEstatisticas(agregacao.valores);
 
-    if (agregacao) {
-      const stats = calcularEstatisticas(agregacao.valores);
-      
-      estabelecimento.valor_minimo = Number(stats.min.toFixed(4));
-      estabelecimento.valor_maximo = Number(stats.max.toFixed(4));
-      estabelecimento.valor_medio = Number(stats.medio.toFixed(4));
-      estabelecimento.valor_recente = Number(agregacao.valorRecente.toFixed(4));
-      estabelecimento.data_recente = agregacao.dataRecente.toISOString();
-      
-      atualizados++;
+    updates.push({
+      cnpj,
+      tipo_combustivel,
+      valor_minimo: Number(stats.min.toFixed(4)),
+      valor_maximo: Number(stats.max.toFixed(4)),
+      valor_medio: Number(stats.medio.toFixed(4)),
+      valor_recente: Number(agregacao.valorRecente.toFixed(4)),
+      data_recente: agregacao.dataRecente.toISOString(),
+    });
+  }
+
+  // Upsert em lotes de 500
+  const BATCH_SIZE = 500;
+  let totalAtualizados = 0;
+
+  for (let i = 0; i < updates.length; i += BATCH_SIZE) {
+    const batch = updates.slice(i, i + BATCH_SIZE);
+    
+    const { error } = await supabase
+      .from('precos_atuais')
+      .upsert(batch, { 
+        onConflict: 'cnpj,tipo_combustivel',
+        ignoreDuplicates: false 
+      });
+
+    if (error) {
+      console.error(`❌ Erro no lote ${Math.floor(i / BATCH_SIZE) + 1}:`, error.message);
     } else {
-      naoEncontrados++;
+      totalAtualizados += batch.length;
     }
   }
 
-  // Atualiza timestamp
-  dadosAtuais.atualizadoEm = new Date().toISOString();
-
-  console.log(`✅ Atualizados: ${atualizados} estabelecimentos`);
-  if (naoEncontrados > 0) {
-    console.log(`⚠️ Sem histórico: ${naoEncontrados} estabelecimentos`);
-  }
-
-  return dadosAtuais;
+  return totalAtualizados;
 }
 
 /**
  * Exibe resumo das estatísticas por tipo de combustível
  */
-function exibirResumo(dadosAtuais: DadosAtuais): void {
+async function exibirResumo(): Promise<void> {
   console.log('\n📊 Resumo por Combustível:');
   console.log('─'.repeat(60));
 
   for (const tipo of [1, 2, 3, 4, 5, 6] as TipoCombustivel[]) {
-    const estabelecimentos = dadosAtuais.estabelecimentos.filter(
-      e => e.tipo_combustivel === tipo
-    );
+    const { data, error } = await supabase
+      .from('precos_atuais')
+      .select('valor_recente')
+      .eq('tipo_combustivel', tipo);
 
-    if (estabelecimentos.length > 0) {
-      const precos = estabelecimentos.map(e => e.valor_recente);
-      const min = Math.min(...precos);
-      const max = Math.max(...precos);
-      const media = precos.reduce((a, b) => a + b, 0) / precos.length;
+    if (error || !data || data.length === 0) continue;
 
-      console.log(`  ${NOMES_COMBUSTIVEIS[tipo]}:`);
-      console.log(`    Postos: ${estabelecimentos.length}`);
-      console.log(`    Preço: R$ ${min.toFixed(3)} - R$ ${max.toFixed(3)} (média: R$ ${media.toFixed(3)})`);
-    }
+    const precos = data.map(p => p.valor_recente);
+    const min = Math.min(...precos);
+    const max = Math.max(...precos);
+    const media = precos.reduce((a, b) => a + b, 0) / precos.length;
+
+    console.log(`  ${NOMES_COMBUSTIVEIS[tipo]}:`);
+    console.log(`    Postos: ${data.length}`);
+    console.log(`    Preço: R$ ${min.toFixed(3)} - R$ ${max.toFixed(3)} (média: R$ ${media.toFixed(3)})`);
   }
 }
 
 /**
  * Verifica se há variação nos valores (para debug)
  */
-function verificarVariacao(dadosAtuais: DadosAtuais): void {
+async function verificarVariacao(): Promise<void> {
+  const { data, error } = await supabase
+    .from('precos_atuais')
+    .select('valor_minimo, valor_maximo');
+
+  if (error || !data) return;
+
   let comVariacao = 0;
   let semVariacao = 0;
 
-  for (const est of dadosAtuais.estabelecimentos) {
-    if (est.valor_minimo !== est.valor_maximo) {
+  for (const preco of data) {
+    if (preco.valor_minimo !== preco.valor_maximo) {
       comVariacao++;
     } else {
       semVariacao++;
@@ -310,36 +249,29 @@ function verificarVariacao(dadosAtuais: DadosAtuais): void {
  */
 async function main(): Promise<void> {
   console.log('═'.repeat(60));
-  console.log('Processamento de Histórico de Preços');
+  console.log('Processamento de Histórico de Preços (Supabase)');
   console.log(`Data/Hora: ${new Date().toISOString()}`);
+  console.log(`Período: últimos ${DIAS_HISTORICO} dias`);
   console.log('═'.repeat(60));
 
-  // Carrega dados atuais
-  const dadosAtuais = carregarAtual();
-  if (!dadosAtuais) {
-    process.exit(1);
-  }
-
-  console.log(`\n📦 Arquivo atual.json carregado:`);
-  console.log(`   Estabelecimentos: ${dadosAtuais.estabelecimentos.length}`);
-  console.log(`   Última atualização: ${dadosAtuais.atualizadoEm}`);
-
-  // Processa histórico
-  console.log('\n🔄 Processando histórico...');
-  const agregacoes = processarHistorico();
+  // Consulta histórico no Supabase
+  console.log('\n🔄 Consultando histórico no Supabase...');
+  const agregacoes = await consultarHistoricoSupabase(DIAS_HISTORICO);
   console.log(`   Total de combinações CNPJ+combustível: ${agregacoes.size}`);
 
-  // Atualiza dados
-  console.log('\n📝 Atualizando valores...');
-  const dadosAtualizados = atualizarDadosAtuais(dadosAtuais, agregacoes);
+  if (agregacoes.size === 0) {
+    console.warn('⚠️ Nenhum dado de histórico encontrado. Saindo.');
+    process.exit(0);
+  }
 
-  // Salva
-  salvarAtual(dadosAtualizados);
-  console.log(`\n💾 Arquivo atual.json salvo`);
+  // Atualiza precos_atuais no Supabase
+  console.log('\n📝 Atualizando precos_atuais no Supabase...');
+  const totalAtualizados = await atualizarPrecosAtuais(agregacoes);
+  console.log(`✅ Atualizados: ${totalAtualizados} registros`);
 
   // Resumo
-  exibirResumo(dadosAtualizados);
-  verificarVariacao(dadosAtualizados);
+  await exibirResumo();
+  await verificarVariacao();
 
   console.log('\n═'.repeat(60));
   console.log('Processamento concluído!');
