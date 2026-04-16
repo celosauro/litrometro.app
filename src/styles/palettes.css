@@ -6,11 +6,42 @@
  */
 
 /* ============================================================================
+   PALETA FIND FUEL (Verde Escuro Premium)
+   Primary: Forest Green | Accent: Amber
+   Inspirado no design Find Fuel App
+   ============================================================================ */
+:root,
+.palette-fuel {
+  /* Brand - Forest Green (#1A4D2E baseado) */
+  --color-brand-50: 240 253 244;   /* #f0fdf4 */
+  --color-brand-100: 220 252 231;  /* #dcfce7 */
+  --color-brand-200: 187 247 208;  /* #bbf7d0 */
+  --color-brand-300: 134 239 172;  /* #86efac */
+  --color-brand-400: 74 222 128;   /* #4ade80 */
+  --color-brand-500: 34 197 94;    /* #22c55e */
+  --color-brand-600: 26 77 46;     /* #1A4D2E - Cor principal */
+  --color-brand-700: 21 63 38;     /* #153F26 */
+  --color-brand-800: 17 51 31;     /* #11331F */
+  --color-brand-900: 12 38 23;     /* #0C2617 */
+  
+  /* Accent - Amber/Gold para destaques */
+  --color-accent-50: 255 251 235;  /* #fffbeb */
+  --color-accent-100: 254 243 199; /* #fef3c7 */
+  --color-accent-200: 253 230 138; /* #fde68a */
+  --color-accent-300: 252 211 77;  /* #fcd34d */
+  --color-accent-400: 251 191 36;  /* #fbbf24 */
+  --color-accent-500: 245 158 11;  /* #f59e0b */
+  --color-accent-600: 217 119 6;   /* #d97706 */
+  --color-accent-700: 180 83 9;    /* #b45309 */
+  --color-accent-800: 146 64 14;   /* #92400e */
+  --color-accent-900: 120 53 15;   /* #78350f */
+}
+
+/* ============================================================================
    PALETA PADRÃO (Azul)
    Primary: Blue | Accent: Emerald
    ============================================================================ */
-:root,
-.palette-default {
+html.palette-default {
   /* Brand - Blue */
   --color-brand-50: 239 246 255;   /* #eff6ff */
   --color-brand-100: 219 234 254;  /* #dbeafe */

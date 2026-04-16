@@ -4,7 +4,6 @@ import {
   Marker,
   Popup,
   NavigationControl,
-  GeolocateControl,
   ScaleControl,
 } from 'react-map-gl/maplibre';
 import type { MapRef } from 'react-map-gl/maplibre';
@@ -12,7 +11,7 @@ import type { MapRef } from 'react-map-gl/maplibre';
 import PinPreco from './PinPreco';
 import { trackStationView } from '../utils/analytics';
 import type { PrecoCombustivelResumo, TipoCombustivel } from '../types';
-import { TIPOS_COMBUSTIVEL, CORES_COMBUSTIVEL } from '../types';
+import { TIPOS_COMBUSTIVEL } from '../types';
 import { formatarDistancia } from '../utils/distancia';
 
 // Tiles gratuitos do CartoCDN
@@ -223,7 +222,7 @@ export function MapaEstabelecimentos({
   }, [onSelecionarEstabelecimento, tipoCombustivel]);
 
   return (
-    <div className={`w-full h-full min-h-[400px] rounded-lg overflow-hidden shadow-lg ${className}`}>
+    <div className={`w-full h-full min-h-[300px] overflow-hidden ${className}`}>
       <Map
         ref={mapRef}
         initialViewState={viewInicial}
@@ -231,9 +230,8 @@ export function MapaEstabelecimentos({
         style={{ width: '100%', height: '100%' }}
         onLoad={handleMapLoad}
       >
-        {/* Controles */}
-        <GeolocateControl position="top-left" />
-        <NavigationControl position="top-left" />
+        {/* Controles - posicionados para não conflitar com overlays */}
+        <NavigationControl position="bottom-right" showCompass={false} />
         <ScaleControl position="bottom-left" />
 
         {/* Marcadores */}
@@ -314,16 +312,8 @@ export function MapaEstabelecimentos({
         )}
       </Map>
       
-      {/* Badge do tipo de combustível */}
-      <div className="absolute top-4 right-14 z-10">
-        <div className={`${CORES_COMBUSTIVEL[tipoCombustivel]} text-white text-sm font-semibold px-3 py-1.5 rounded-full shadow-lg flex items-center gap-2`}>
-          <span className="text-white/80">⛽</span>
-          <span>{TIPOS_COMBUSTIVEL[tipoCombustivel]}</span>
-        </div>
-      </div>
-      
-      {/* Legenda / Info */}
-      <div className="absolute bottom-4 right-4 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-lg px-3 py-2 shadow text-xs text-gray-600 dark:text-gray-300 border border-transparent dark:border-gray-700">
+      {/* Legenda / Info - canto inferior esquerdo para não conflitar */}
+      <div className="absolute bottom-4 left-12 z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm rounded-lg px-3 py-1.5 shadow-md text-xs text-gray-600 dark:text-gray-300 border border-gray-200 dark:border-gray-700">
         {estabelecimentosComCoordenadas.length} postos no mapa
       </div>
     </div>
