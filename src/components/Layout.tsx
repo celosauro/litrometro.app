@@ -3,6 +3,7 @@ import { GasPump } from '@phosphor-icons/react';
 import { Footer } from './Footer';
 import { CookieBanner } from './CookieBanner';
 import { BotaoTema } from './BotaoTema';
+import { LayoutSwitcher } from '../layouts';
 
 export function Layout() {
   const location = useLocation();
@@ -31,6 +32,7 @@ export function Layout() {
                   ← Voltar ao início
                 </Link>
               )}
+              {isHomePage && <LayoutSwitcher />}
               <BotaoTema />
             </div>
           </div>
