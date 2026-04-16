@@ -11,7 +11,7 @@ export function SkeletonCard() {
         <div className="flex-1 min-w-0 space-y-2">
           <div className="flex items-center gap-2">
             <div className="h-5 bg-gray-200 dark:bg-gray-700 rounded w-36 sm:w-48" />
-            <div className="h-5 bg-blue-100 dark:bg-blue-900/50 rounded-full w-14" />
+            <div className="h-5 bg-brand-100 dark:bg-brand-900/50 rounded-full w-14" />
           </div>
           <div className="h-4 bg-gray-200 dark:bg-gray-700 rounded w-24" />
         </div>

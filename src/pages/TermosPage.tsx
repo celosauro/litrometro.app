@@ -7,7 +7,7 @@ export default function TermosPage() {
     <main className="max-w-4xl mx-auto px-4 py-8 sm:py-12 flex-1">
       <article className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 sm:p-8">
         <header className="text-center mb-8 sm:mb-12">
-          <FileText size={64} weight="fill" className="text-blue-600 dark:text-blue-400 mx-auto mb-4" />
+          <FileText size={64} weight="fill" className="text-brand-600 dark:text-brand-400 mx-auto mb-4" />
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
             Termos de Uso
           </h1>
@@ -29,7 +29,7 @@ export default function TermosPage() {
           {/* Aceitação */}
           <section>
             <div className="flex items-center gap-3 mb-4">
-              <Handshake size={28} className="text-blue-600 dark:text-blue-400" />
+              <Handshake size={28} className="text-brand-600 dark:text-brand-400" />
               <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 dark:text-white m-0">
                 Aceitação dos Termos
               </h2>
@@ -108,7 +108,7 @@ export default function TermosPage() {
           {/* Uso adequado */}
           <section>
             <div className="flex items-center gap-3 mb-4">
-              <Scales size={28} className="text-blue-600 dark:text-blue-400" />
+              <Scales size={28} className="text-brand-600 dark:text-brand-400" />
               <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 dark:text-white m-0">
                 Uso Adequado
               </h2>
@@ -128,7 +128,7 @@ export default function TermosPage() {
           {/* Propriedade intelectual */}
           <section>
             <div className="flex items-center gap-3 mb-4">
-              <Copyright size={28} className="text-blue-600 dark:text-blue-400" />
+              <Copyright size={28} className="text-brand-600 dark:text-brand-400" />
               <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 dark:text-white m-0">
                 Propriedade Intelectual
               </h2>
@@ -160,7 +160,7 @@ export default function TermosPage() {
           {/* Limitação de responsabilidade */}
           <section>
             <div className="flex items-center gap-3 mb-4">
-              <Gavel size={28} className="text-blue-600 dark:text-blue-400" />
+              <Gavel size={28} className="text-brand-600 dark:text-brand-400" />
               <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 dark:text-white m-0">
                 Limitação de Responsabilidade
               </h2>
@@ -219,7 +219,7 @@ export default function TermosPage() {
             <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">Dúvidas?</h2>
             <p className="text-gray-600 dark:text-gray-300">
               Se você tiver dúvidas sobre estes Termos de Uso, entre em contato conosco:{' '}
-              <a href="mailto:contato@litrometro.app" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
+              <a href="mailto:contato@litrometro.app" className="text-brand-600 dark:text-brand-400 hover:underline font-medium">
                 contato@litrometro.app
               </a>
             </p>

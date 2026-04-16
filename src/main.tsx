@@ -6,6 +6,9 @@ import { TemaProvider } from './contexts/TemaContext';
 import './index.css';
 import 'maplibre-gl/dist/maplibre-gl.css';
 
+// Aplica a paleta minimalista como padrão
+document.documentElement.classList.add('palette-minimal');
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <TemaProvider>

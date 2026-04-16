@@ -5,7 +5,7 @@ export default function ContatoPage() {
     <main className="max-w-4xl mx-auto px-4 py-8 sm:py-12 flex-1">
       <article className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 sm:p-8">
         <header className="text-center mb-8 sm:mb-12">
-          <Envelope size={64} weight="fill" className="text-blue-600 dark:text-blue-400 mx-auto mb-4" />
+          <Envelope size={64} weight="fill" className="text-brand-600 dark:text-brand-400 mx-auto mb-4" />
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
             Contato
           </h1>
@@ -17,13 +17,13 @@ export default function ContatoPage() {
         <div className="max-w-xl mx-auto space-y-8">
           {/* E-mail */}
           <section className="text-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 dark:bg-blue-900/50 rounded-full mb-4">
-              <Envelope size={32} className="text-blue-600 dark:text-blue-400" />
+            <div className="inline-flex items-center justify-center w-16 h-16 bg-brand-100 dark:bg-brand-900/50 rounded-full mb-4">
+              <Envelope size={32} className="text-brand-600 dark:text-brand-400" />
             </div>
             <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">E-mail</h2>
             <a 
               href="mailto:contato@litrometro.app"
-              className="text-lg text-blue-600 dark:text-blue-400 hover:underline font-medium"
+              className="text-lg text-brand-600 dark:text-brand-400 hover:underline font-medium"
             >
               contato@litrometro.app
             </a>
@@ -51,25 +51,25 @@ export default function ContatoPage() {
             </h2>
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></span>
+                <span className="w-2 h-2 bg-brand-600 rounded-full mt-2 flex-shrink-0"></span>
                 <span className="text-gray-600 dark:text-gray-300">
                   <strong className="dark:text-white">Reportar erros:</strong> Encontrou um preço incorreto ou um posto com informações desatualizadas?
                 </span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></span>
+                <span className="w-2 h-2 bg-brand-600 rounded-full mt-2 flex-shrink-0"></span>
                 <span className="text-gray-600 dark:text-gray-300">
                   <strong className="dark:text-white">Sugestões:</strong> Tem ideias de novas funcionalidades ou melhorias para o site?
                 </span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></span>
+                <span className="w-2 h-2 bg-brand-600 rounded-full mt-2 flex-shrink-0"></span>
                 <span className="text-gray-600 dark:text-gray-300">
                   <strong className="dark:text-white">Parcerias:</strong> Interessado em parcerias comerciais ou institucionais?
                 </span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></span>
+                <span className="w-2 h-2 bg-brand-600 rounded-full mt-2 flex-shrink-0"></span>
                 <span className="text-gray-600 dark:text-gray-300">
                   <strong className="dark:text-white">Imprensa:</strong> Solicitações de entrevistas ou informações para matérias jornalísticas.
                 </span>

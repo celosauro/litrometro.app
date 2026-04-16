@@ -128,7 +128,7 @@ export function ProximidadeBadge({ distancia }: ProximidadeBadgeProps) {
   if (distancia >= 2) return null;
   
   return (
-    <span className="inline-flex items-center gap-1 text-[10px] sm:text-xs font-medium text-blue-700 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/30 px-1.5 sm:px-2 py-0.5 sm:py-1 rounded-full">
+    <span className="inline-flex items-center gap-1 text-[10px] sm:text-xs font-medium text-brand-700 dark:text-brand-400 bg-brand-50 dark:bg-brand-900/30 px-1.5 sm:px-2 py-0.5 sm:py-1 rounded-full">
       <span>📍</span>
       <span>Perto de você</span>
     </span>

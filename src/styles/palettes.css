@@ -1,0 +1,157 @@
+/**
+ * Sistema de Paletas de Cores - Litrômetro
+ * 
+ * Cada paleta define cores brand (primária) e accent (secundária)
+ * Valores em RGB para compatibilidade com Tailwind alpha
+ */
+
+/* ============================================================================
+   PALETA PADRÃO (Azul)
+   Primary: Blue | Accent: Emerald
+   ============================================================================ */
+:root,
+.palette-default {
+  /* Brand - Blue */
+  --color-brand-50: 239 246 255;   /* #eff6ff */
+  --color-brand-100: 219 234 254;  /* #dbeafe */
+  --color-brand-200: 191 219 254;  /* #bfdbfe */
+  --color-brand-300: 147 197 253;  /* #93c5fd */
+  --color-brand-400: 96 165 250;   /* #60a5fa */
+  --color-brand-500: 59 130 246;   /* #3b82f6 */
+  --color-brand-600: 37 99 235;    /* #2563eb */
+  --color-brand-700: 29 78 216;    /* #1d4ed8 */
+  --color-brand-800: 30 64 175;    /* #1e40af */
+  --color-brand-900: 30 58 138;    /* #1e3a8a */
+  
+  /* Accent - Emerald */
+  --color-accent-50: 236 253 245;  /* #ecfdf5 */
+  --color-accent-100: 209 250 229; /* #d1fae5 */
+  --color-accent-200: 167 243 208; /* #a7f3d0 */
+  --color-accent-300: 110 231 183; /* #6ee7b7 */
+  --color-accent-400: 52 211 153;  /* #34d399 */
+  --color-accent-500: 16 185 129;  /* #10b981 */
+  --color-accent-600: 5 150 105;   /* #059669 */
+  --color-accent-700: 4 120 87;    /* #047857 */
+  --color-accent-800: 6 95 70;     /* #065f46 */
+  --color-accent-900: 6 78 59;     /* #064e3b */
+}
+
+/* ============================================================================
+   PALETA VERDE (Combustível)
+   Primary: Emerald | Accent: Amber
+   ============================================================================ */
+html.palette-green {
+  /* Brand - Emerald */
+  --color-brand-50: 236 253 245;   /* #ecfdf5 */
+  --color-brand-100: 209 250 229;  /* #d1fae5 */
+  --color-brand-200: 167 243 208;  /* #a7f3d0 */
+  --color-brand-300: 110 231 183;  /* #6ee7b7 */
+  --color-brand-400: 52 211 153;   /* #34d399 */
+  --color-brand-500: 16 185 129;   /* #10b981 */
+  --color-brand-600: 5 150 105;    /* #059669 */
+  --color-brand-700: 4 120 87;     /* #047857 */
+  --color-brand-800: 6 95 70;      /* #065f46 */
+  --color-brand-900: 6 78 59;      /* #064e3b */
+  
+  /* Accent - Amber */
+  --color-accent-50: 255 251 235;  /* #fffbeb */
+  --color-accent-100: 254 243 199; /* #fef3c7 */
+  --color-accent-200: 253 230 138; /* #fde68a */
+  --color-accent-300: 252 211 77;  /* #fcd34d */
+  --color-accent-400: 251 191 36;  /* #fbbf24 */
+  --color-accent-500: 245 158 11;  /* #f59e0b */
+  --color-accent-600: 217 119 6;   /* #d97706 */
+  --color-accent-700: 180 83 9;    /* #b45309 */
+  --color-accent-800: 146 64 14;   /* #92400e */
+  --color-accent-900: 120 53 15;   /* #78350f */
+}
+
+/* ============================================================================
+   PALETA LARANJA (Energia)
+   Primary: Orange | Accent: Green
+   ============================================================================ */
+html.palette-orange {
+  /* Brand - Orange */
+  --color-brand-50: 255 247 237;   /* #fff7ed */
+  --color-brand-100: 255 237 213;  /* #ffedd5 */
+  --color-brand-200: 254 215 170;  /* #fed7aa */
+  --color-brand-300: 253 186 116;  /* #fdba74 */
+  --color-brand-400: 251 146 60;   /* #fb923c */
+  --color-brand-500: 249 115 22;   /* #f97316 */
+  --color-brand-600: 234 88 12;    /* #ea580c */
+  --color-brand-700: 194 65 12;    /* #c2410c */
+  --color-brand-800: 154 52 18;    /* #9a3412 */
+  --color-brand-900: 124 45 18;    /* #7c2d12 */
+  
+  /* Accent - Green */
+  --color-accent-50: 240 253 244;  /* #f0fdf4 */
+  --color-accent-100: 220 252 231; /* #dcfce7 */
+  --color-accent-200: 187 247 208; /* #bbf7d0 */
+  --color-accent-300: 134 239 172; /* #86efac */
+  --color-accent-400: 74 222 128;  /* #4ade80 */
+  --color-accent-500: 34 197 94;   /* #22c55e */
+  --color-accent-600: 22 163 74;   /* #16a34a */
+  --color-accent-700: 21 128 61;   /* #15803d */
+  --color-accent-800: 22 101 52;   /* #166534 */
+  --color-accent-900: 20 83 45;    /* #14532d */
+}
+
+/* ============================================================================
+   PALETA MINIMALISTA (Premium)
+   Primary: Zinc | Accent: Emerald
+   ============================================================================ */
+html.palette-minimal {
+  /* Brand - Zinc */
+  --color-brand-50: 250 250 250;   /* #fafafa */
+  --color-brand-100: 244 244 245;  /* #f4f4f5 */
+  --color-brand-200: 228 228 231;  /* #e4e4e7 */
+  --color-brand-300: 212 212 216;  /* #d4d4d8 */
+  --color-brand-400: 161 161 170;  /* #a1a1aa */
+  --color-brand-500: 113 113 122;  /* #71717a */
+  --color-brand-600: 82 82 91;     /* #52525b */
+  --color-brand-700: 63 63 70;     /* #3f3f46 */
+  --color-brand-800: 39 39 42;     /* #27272a */
+  --color-brand-900: 24 24 27;     /* #18181b */
+  
+  /* Accent - Emerald */
+  --color-accent-50: 236 253 245;  /* #ecfdf5 */
+  --color-accent-100: 209 250 229; /* #d1fae5 */
+  --color-accent-200: 167 243 208; /* #a7f3d0 */
+  --color-accent-300: 110 231 183; /* #6ee7b7 */
+  --color-accent-400: 52 211 153;  /* #34d399 */
+  --color-accent-500: 16 185 129;  /* #10b981 */
+  --color-accent-600: 5 150 105;   /* #059669 */
+  --color-accent-700: 4 120 87;    /* #047857 */
+  --color-accent-800: 6 95 70;     /* #065f46 */
+  --color-accent-900: 6 78 59;     /* #064e3b */
+}
+
+/* ============================================================================
+   PALETA OCEANO (Azul Petróleo)
+   Primary: Sky | Accent: Yellow
+   ============================================================================ */
+html.palette-ocean {
+  /* Brand - Sky */
+  --color-brand-50: 240 249 255;   /* #f0f9ff */
+  --color-brand-100: 224 242 254;  /* #e0f2fe */
+  --color-brand-200: 186 230 253;  /* #bae6fd */
+  --color-brand-300: 125 211 252;  /* #7dd3fc */
+  --color-brand-400: 56 189 248;   /* #38bdf8 */
+  --color-brand-500: 14 165 233;   /* #0ea5e9 */
+  --color-brand-600: 2 132 199;    /* #0284c7 */
+  --color-brand-700: 3 105 161;    /* #0369a1 */
+  --color-brand-800: 7 89 133;     /* #075985 */
+  --color-brand-900: 12 74 110;    /* #0c4a6e */
+  
+  /* Accent - Yellow */
+  --color-accent-50: 254 252 232;  /* #fefce8 */
+  --color-accent-100: 254 249 195; /* #fef9c3 */
+  --color-accent-200: 254 240 138; /* #fef08a */
+  --color-accent-300: 253 224 71;  /* #fde047 */
+  --color-accent-400: 250 204 21;  /* #facc15 */
+  --color-accent-500: 234 179 8;   /* #eab308 */
+  --color-accent-600: 202 138 4;   /* #ca8a04 */
+  --color-accent-700: 161 98 7;    /* #a16207 */
+  --color-accent-800: 133 77 14;   /* #854d0e */
+  --color-accent-900: 113 63 18;   /* #713f12 */
+}

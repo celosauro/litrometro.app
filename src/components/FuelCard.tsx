@@ -55,7 +55,7 @@ export function CardCombustivel({ dados, distancia, isSelected, isMelhor, priceL
         isMelhor
           ? 'border-yellow-400 dark:border-yellow-500 ring-2 ring-yellow-200 dark:ring-yellow-500/30 shadow-lg'
           : isSelected 
-            ? 'border-blue-500 shadow-lg scale-[1.02] bg-blue-50/50 dark:bg-blue-900/20' 
+            ? 'border-brand-500 shadow-lg scale-[1.02] bg-brand-50/50 dark:bg-brand-900/20' 
             : 'border-transparent hover:shadow-md hover:scale-[1.01]'
       }`}
       onClick={onClick}
@@ -89,7 +89,7 @@ export function CardCombustivel({ dados, distancia, isSelected, isMelhor, priceL
               {nomeExibicao}
             </h3>
             {distancia !== undefined && (
-              <span className="flex items-center gap-0.5 text-xs text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/50 px-1.5 py-0.5 rounded-full flex-shrink-0">
+              <span className="flex items-center gap-0.5 text-xs text-brand-600 dark:text-brand-400 bg-brand-50 dark:bg-brand-900/50 px-1.5 py-0.5 rounded-full flex-shrink-0">
                 <NavigationArrow size={12} />
                 {formatarDistancia(distancia)}
               </span>
@@ -145,7 +145,7 @@ export function CardCombustivel({ dados, distancia, isSelected, isMelhor, priceL
           {dados.telefone ? (
             <a
               href={`tel:${dados.telefone.replace(/\D/g, '')}`}
-              className="text-blue-600 dark:text-blue-400 hover:underline active:text-blue-800 dark:active:text-blue-300"
+              className="text-brand-600 dark:text-brand-400 hover:underline active:text-brand-800 dark:active:text-brand-300"
             >
               {dados.telefone}
             </a>

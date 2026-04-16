@@ -12,7 +12,7 @@ import type { MapRef } from 'react-map-gl/maplibre';
 import PinPreco from './PinPreco';
 import { trackStationView } from '../utils/analytics';
 import type { PrecoCombustivelResumo, TipoCombustivel } from '../types';
-import { TIPOS_COMBUSTIVEL } from '../types';
+import { TIPOS_COMBUSTIVEL, CORES_COMBUSTIVEL } from '../types';
 import { formatarDistancia } from '../utils/distancia';
 
 // Tiles gratuitos do CartoCDN
@@ -247,7 +247,6 @@ export function MapaEstabelecimentos({
           >
             <PinPreco 
               valor={item.valor_recente} 
-              tipoCombustivel={item.tipo_combustivel}
               selecionado={estabelecimentoSelecionado?.cnpj === item.cnpj || popupInfo?.cnpj === item.cnpj}
               isMelhor={item.cnpj === cnpjMelhor}
             />
@@ -291,7 +290,7 @@ export function MapaEstabelecimentos({
               
               {/* Distância */}
               {popupInfo.distancia !== undefined && (
-                <p className="text-xs text-blue-600 font-medium mb-1">
+                <p className="text-xs text-brand-600 font-medium mb-1">
                   📍 {formatarDistancia(popupInfo.distancia)}
                 </p>
               )}
@@ -306,7 +305,7 @@ export function MapaEstabelecimentos({
                 href={`https://www.google.com/maps/search/?api=1&query=${popupInfo.latitude},${popupInfo.longitude}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block mt-2 text-xs text-blue-500 hover:text-blue-700 underline"
+                className="inline-block mt-2 text-xs text-brand-500 hover:text-brand-700 underline"
               >
                 Ver no Google Maps →
               </a>
@@ -314,6 +313,14 @@ export function MapaEstabelecimentos({
           </Popup>
         )}
       </Map>
+      
+      {/* Badge do tipo de combustível */}
+      <div className="absolute top-4 right-14 z-10">
+        <div className={`${CORES_COMBUSTIVEL[tipoCombustivel]} text-white text-sm font-semibold px-3 py-1.5 rounded-full shadow-lg flex items-center gap-2`}>
+          <span className="text-white/80">⛽</span>
+          <span>{TIPOS_COMBUSTIVEL[tipoCombustivel]}</span>
+        </div>
+      </div>
       
       {/* Legenda / Info */}
       <div className="absolute bottom-4 right-4 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-lg px-3 py-2 shadow text-xs text-gray-600 dark:text-gray-300 border border-transparent dark:border-gray-700">

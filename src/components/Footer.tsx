@@ -8,16 +8,16 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-3 sm:px-4 py-6 sm:py-8">
         {/* Links de navegação */}
         <nav className="flex flex-wrap justify-center gap-4 sm:gap-6 mb-4 sm:mb-6 text-sm">
-          <Link to="/sobre" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+          <Link to="/sobre" className="text-gray-600 dark:text-gray-300 hover:text-brand-600 dark:hover:text-brand-400 transition-colors">
             Sobre
           </Link>
-          <Link to="/contato" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+          <Link to="/contato" className="text-gray-600 dark:text-gray-300 hover:text-brand-600 dark:hover:text-brand-400 transition-colors">
             Contato
           </Link>
-          <Link to="/privacidade" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+          <Link to="/privacidade" className="text-gray-600 dark:text-gray-300 hover:text-brand-600 dark:hover:text-brand-400 transition-colors">
             Política de Privacidade
           </Link>
-          <Link to="/termos" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+          <Link to="/termos" className="text-gray-600 dark:text-gray-300 hover:text-brand-600 dark:hover:text-brand-400 transition-colors">
             Termos de Uso
           </Link>
         </nav>
@@ -30,7 +30,7 @@ export function Footer() {
               href="https://economizaalagoas.sefaz.al.gov.br"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 dark:text-blue-400 hover:underline"
+              className="text-brand-600 dark:text-brand-400 hover:underline"
             >
               SEFAZ/AL - Economiza Alagoas
             </a>

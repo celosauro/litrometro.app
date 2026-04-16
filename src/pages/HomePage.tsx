@@ -285,7 +285,7 @@ export default function HomePage() {
                 placeholder="Buscar posto, bairro..."
                 value={termoBusca}
                 onChange={(e) => setTermoBusca(e.target.value)}
-                className="w-full pl-9 sm:pl-10 pr-4 py-2 text-sm sm:text-base border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                className="w-full pl-9 sm:pl-10 pr-4 py-2 text-sm sm:text-base border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 focus:ring-2 focus:ring-brand-500 focus:border-transparent"
               />
             </div>
 
@@ -358,7 +358,7 @@ export default function HomePage() {
             {/* Map placeholder */}
             <div className="flex-1 min-h-0 bg-gray-100 dark:bg-gray-900 flex items-center justify-center">
               <div className="text-center">
-                <div className="animate-spin rounded-full h-10 w-10 border-4 border-blue-600 dark:border-blue-400 border-t-transparent mx-auto" />
+                <div className="animate-spin rounded-full h-10 w-10 border-4 border-brand-600 dark:border-brand-400 border-t-transparent mx-auto" />
                 <p className="mt-4 text-sm text-gray-500 dark:text-gray-400">Carregando mapa...</p>
               </div>
             </div>
@@ -377,7 +377,7 @@ export default function HomePage() {
                     {dadosFiltrados.length} posto{dadosFiltrados.length !== 1 ? 's' : ''} encontrado{dadosFiltrados.length !== 1 ? 's' : ''}
                   </p>
                   {estabelecimentoSelecionado && (
-                    <p className="text-xs text-blue-600 dark:text-blue-400 mt-1">
+                    <p className="text-xs text-brand-600 dark:text-brand-400 mt-1">
                       Clique no mapa ou em outro posto para mudar a seleção
                     </p>
                   )}
@@ -442,7 +442,7 @@ export default function HomePage() {
               {/* Botão flutuante para mostrar lista no mobile */}
               <button
                 onClick={() => setMostrarListaMobile(true)}
-                className="lg:hidden absolute bottom-4 left-1/2 -translate-x-1/2 bg-blue-600 text-white px-4 py-2.5 rounded-full shadow-lg flex items-center gap-2 hover:bg-blue-700 active:bg-blue-800 transition-colors z-20"
+                className="lg:hidden absolute bottom-4 left-1/2 -translate-x-1/2 bg-brand-600 text-white px-4 py-2.5 rounded-full shadow-lg flex items-center gap-2 hover:bg-brand-700 active:bg-brand-800 transition-colors z-20"
               >
                 <List size={20} weight="bold" />
                 <span className="text-sm font-medium">Ver lista ({dadosFiltrados.length})</span>

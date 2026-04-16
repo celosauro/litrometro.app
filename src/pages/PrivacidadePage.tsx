@@ -7,7 +7,7 @@ export default function PrivacidadePage() {
     <main className="max-w-4xl mx-auto px-4 py-8 sm:py-12 flex-1">
       <article className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 sm:p-8">
         <header className="text-center mb-8 sm:mb-12">
-          <Shield size={64} weight="fill" className="text-blue-600 dark:text-blue-400 mx-auto mb-4" />
+          <Shield size={64} weight="fill" className="text-brand-600 dark:text-brand-400 mx-auto mb-4" />
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
             Política de Privacidade
           </h1>
@@ -29,7 +29,7 @@ export default function PrivacidadePage() {
           {/* Dados coletados */}
           <section>
             <div className="flex items-center gap-3 mb-4">
-              <Eye size={28} className="text-blue-600 dark:text-blue-400" />
+              <Eye size={28} className="text-brand-600 dark:text-brand-400" />
               <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 dark:text-white m-0">
                 Dados que Coletamos
               </h2>
@@ -57,7 +57,7 @@ export default function PrivacidadePage() {
           {/* Geolocalização */}
           <section>
             <div className="flex items-center gap-3 mb-4">
-              <MapPin size={28} className="text-blue-600 dark:text-blue-400" />
+              <MapPin size={28} className="text-brand-600 dark:text-brand-400" />
               <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 dark:text-white m-0">
                 Geolocalização
               </h2>
@@ -82,7 +82,7 @@ export default function PrivacidadePage() {
           {/* Cookies */}
           <section>
             <div className="flex items-center gap-3 mb-4">
-              <Cookie size={28} className="text-blue-600 dark:text-blue-400" />
+              <Cookie size={28} className="text-brand-600 dark:text-brand-400" />
               <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 dark:text-white m-0">
                 Cookies e Tecnologias Similares
               </h2>
@@ -120,7 +120,7 @@ export default function PrivacidadePage() {
           {/* Google Analytics e AdSense */}
           <section>
             <div className="flex items-center gap-3 mb-4">
-              <ChartLine size={28} className="text-blue-600 dark:text-blue-400" />
+              <ChartLine size={28} className="text-brand-600 dark:text-brand-400" />
               <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 dark:text-white m-0">
                 Google Analytics e AdSense
               </h2>
@@ -144,7 +144,7 @@ export default function PrivacidadePage() {
                 href="https://policies.google.com/privacy" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-blue-600 dark:text-blue-400 hover:underline"
+                className="text-brand-600 dark:text-brand-400 hover:underline"
               >
                 Política de Privacidade do Google
               </a>
@@ -154,7 +154,7 @@ export default function PrivacidadePage() {
           {/* Seus direitos */}
           <section>
             <div className="flex items-center gap-3 mb-4">
-              <UserCircle size={28} className="text-blue-600 dark:text-blue-400" />
+              <UserCircle size={28} className="text-brand-600 dark:text-brand-400" />
               <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 dark:text-white m-0">
                 Seus Direitos (LGPD)
               </h2>
@@ -172,7 +172,7 @@ export default function PrivacidadePage() {
             </ul>
             <p className="text-gray-600 dark:text-gray-300 text-sm mt-4">
               Para exercer seus direitos, entre em contato pelo e-mail:{' '}
-              <a href="mailto:contato@litrometro.app" className="text-blue-600 dark:text-blue-400 hover:underline">
+              <a href="mailto:contato@litrometro.app" className="text-brand-600 dark:text-brand-400 hover:underline">
                 contato@litrometro.app
               </a>
             </p>
@@ -181,7 +181,7 @@ export default function PrivacidadePage() {
           {/* Retenção de dados */}
           <section>
             <div className="flex items-center gap-3 mb-4">
-              <Trash size={28} className="text-blue-600 dark:text-blue-400" />
+              <Trash size={28} className="text-brand-600 dark:text-brand-400" />
               <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 dark:text-white m-0">
                 Retenção de Dados
               </h2>
@@ -224,7 +224,7 @@ export default function PrivacidadePage() {
             <p className="text-gray-600 dark:text-gray-300">
               Se você tiver dúvidas sobre esta Política de Privacidade ou sobre como 
               tratamos seus dados, entre em contato conosco:{' '}
-              <a href="mailto:contato@litrometro.app" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
+              <a href="mailto:contato@litrometro.app" className="text-brand-600 dark:text-brand-400 hover:underline font-medium">
                 contato@litrometro.app
               </a>
             </p>
