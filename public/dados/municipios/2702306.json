@@ -1,26 +1,30 @@
 {
   "codigoIBGE": "2702306",
   "municipio": "Coruripe",
-  "atualizadoEm": "2026-04-15T21:52:28.796Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+  "totalEstabelecimentos": 22,
+=======
+  "atualizadoEm": "2026-04-15T23:45:10.762Z",
   "totalEstabelecimentos": 22,
   "combustiveis": {
     "1": {
       "totalPostos": 7,
-      "valorMinimo": 6.79001867255135,
-      "valorMaximo": 7.122507122507122,
-      "valorMedio": 7.005434077238605
+      "valorMinimo": 5.784690667598742,
+      "valorMaximo": 7.120253164556962,
+      "valorMedio": 6.69698058884538
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.2202166064981945,
-      "valorMaximo": 7.2202166064981945,
-      "valorMedio": 7.2202166064981945
+      "valorMinimo": 7.217828900071891,
+      "valorMaximo": 7.217828900071891,
+      "valorMedio": 7.217828900071891
     },
     "3": {
       "totalPostos": 6,
-      "valorMinimo": 5.089903181189488,
-      "valorMaximo": 5.75,
-      "valorMedio": 5.423779418401399
+      "valorMinimo": 4.249926492208174,
+      "valorMaximo": 5.750716332378223,
+      "valorMedio": 4.950018364446849
     },
     "4": {
       "totalPostos": 1,
@@ -30,11 +34,12 @@
     },
     "5": {
       "totalPostos": 7,
-      "valorMinimo": 7.170000717000072,
+      "valorMinimo": 6.369175627240144,
       "valorMaximo": 7.560137457044673,
-      "valorMedio": 7.389979460926848
+      "valorMedio": 7.205041531090539
     }
   },
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "estabelecimentos": [
     {
       "cnpj": "55681612000189",
@@ -46,15 +51,27 @@
       "numero_imovel": "84",
       "bairro": "LAGOA DO PAU",
       "cep": "57230000",
+<<<<<<< HEAD
+      "codigo_ibge": "2702306",
+      "municipio": "Coruripe",
+      "latitude": -10.12556,
+      "longitude": -36.17556,
+      "valor_minimo": 5.7836,
+      "valor_maximo": 6.9906,
+      "valor_medio": 6.4398,
+      "valor_recente": 6.79,
+      "data_recente": "2026-04-15T20:00:06+00:00"
+=======
       "codigo_ibge": 2702306,
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.79001867255135,
-      "valor_maximo": 6.79001867255135,
-      "valor_medio": 6.79001867255135,
-      "valor_recente": 6.79001867255135,
-      "data_recente": "2026-04-15T20:00:06Z"
+      "valor_minimo": 5.784690667598742,
+      "valor_maximo": 5.784690667598742,
+      "valor_medio": 5.784690667598742,
+      "valor_recente": 5.784690667598742,
+      "data_recente": "2026-04-15T23:32:51Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "56141661000191",
@@ -66,15 +83,27 @@
       "numero_imovel": "68",
       "bairro": "pindorama",
       "cep": "57230000",
+<<<<<<< HEAD
+      "codigo_ibge": "2702306",
+      "municipio": "Coruripe",
+      "latitude": -10.1184446,
+      "longitude": -36.1666237,
+      "valor_minimo": 5.7807,
+      "valor_maximo": 6.9401,
+      "valor_medio": 6.5445,
+      "valor_recente": 6.9399,
+      "data_recente": "2026-04-15T13:43:58+00:00"
+=======
       "codigo_ibge": 2702306,
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.9399277682274825,
-      "valor_maximo": 6.9399277682274825,
-      "valor_medio": 6.9399277682274825,
-      "valor_recente": 6.9399277682274825,
-      "data_recente": "2026-04-15T13:43:58Z"
+      "valor_minimo": 5.7863089731729875,
+      "valor_maximo": 5.7863089731729875,
+      "valor_medio": 5.7863089731729875,
+      "valor_recente": 5.7863089731729875,
+      "data_recente": "2026-04-15T23:36:43Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "05848209000123",
@@ -86,15 +115,23 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57230000",
-      "codigo_ibge": 2702306,
-      "municipio": "CORURIPE",
+      "codigo_ibge": "2702306",
+      "municipio": "Coruripe",
       "latitude": -10.1230258,
       "longitude": -36.1760483,
-      "valor_minimo": 6.979284369114877,
-      "valor_maximo": 6.979284369114877,
-      "valor_medio": 6.979284369114877,
-      "valor_recente": 6.979284369114877,
-      "data_recente": "2026-04-15T21:17:54Z"
+<<<<<<< HEAD
+      "valor_minimo": 6.0198,
+      "valor_maximo": 6.98,
+      "valor_medio": 6.9072,
+      "valor_recente": 6.9793,
+      "data_recente": "2026-04-15T21:17:54+00:00"
+=======
+      "valor_minimo": 6.979529313466091,
+      "valor_maximo": 6.979529313466091,
+      "valor_medio": 6.979529313466091,
+      "valor_recente": 6.979529313466091,
+      "data_recente": "2026-04-15T21:45:31Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "10589833000274",
@@ -106,15 +143,23 @@
       "numero_imovel": "S/N",
       "bairro": "COLONIA PINDORAMA",
       "cep": "57230000",
-      "codigo_ibge": 2702306,
-      "municipio": "CORURIPE",
+      "codigo_ibge": "2702306",
+      "municipio": "Coruripe",
       "latitude": -10.1457326,
       "longitude": -36.3226082,
-      "valor_minimo": 6.98909700866648,
-      "valor_maximo": 6.98909700866648,
-      "valor_medio": 6.98909700866648,
-      "valor_recente": 6.98909700866648,
-      "data_recente": "2026-04-15T21:30:22Z"
+<<<<<<< HEAD
+      "valor_minimo": 6.9873,
+      "valor_maximo": 6.9897,
+      "valor_medio": 6.9891,
+      "valor_recente": 6.9891,
+      "data_recente": "2026-04-15T21:30:22+00:00"
+=======
+      "valor_minimo": 6.989322422911885,
+      "valor_maximo": 6.989322422911885,
+      "valor_medio": 6.989322422911885,
+      "valor_recente": 6.989322422911885,
+      "data_recente": "2026-04-15T22:56:03Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "33600518000115",
@@ -126,15 +171,27 @@
       "numero_imovel": "2031",
       "bairro": "ALTO DA SAUDADE",
       "cep": "57230000",
+<<<<<<< HEAD
+      "codigo_ibge": "2702306",
+      "municipio": "Coruripe",
+      "latitude": -10.1593843,
+      "longitude": -36.1351076,
+      "valor_minimo": 7.0972,
+      "valor_maximo": 7.1,
+      "valor_medio": 7.0996,
+      "valor_recente": 7.0972,
+      "data_recente": "2026-04-15T21:22:02+00:00"
+=======
       "codigo_ibge": 2702306,
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.097232079488999,
-      "valor_maximo": 7.097232079488999,
-      "valor_medio": 7.097232079488999,
-      "valor_recente": 7.097232079488999,
-      "data_recente": "2026-04-15T21:22:02Z"
+      "valor_minimo": 7.09915014164306,
+      "valor_maximo": 7.09915014164306,
+      "valor_medio": 7.09915014164306,
+      "valor_recente": 7.09915014164306,
+      "data_recente": "2026-04-15T23:32:51Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "29853107000164",
@@ -146,15 +203,27 @@
       "numero_imovel": "856",
       "bairro": "CENTRO",
       "cep": "57230000",
+<<<<<<< HEAD
+      "codigo_ibge": "2702306",
+      "municipio": "Coruripe",
+      "latitude": -10.1320859,
+      "longitude": -36.1756701,
+      "valor_minimo": 6.4795,
+      "valor_maximo": 7.12,
+      "valor_medio": 7.0753,
+      "valor_recente": 7.12,
+      "data_recente": "2026-04-15T21:24:56+00:00"
+=======
       "codigo_ibge": 2702306,
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.1199715201139195,
-      "valor_maximo": 7.1199715201139195,
-      "valor_medio": 7.1199715201139195,
-      "valor_recente": 7.1199715201139195,
-      "data_recente": "2026-04-15T21:24:56Z"
+      "valor_minimo": 7.119609438567942,
+      "valor_maximo": 7.119609438567942,
+      "valor_medio": 7.119609438567942,
+      "valor_recente": 7.119609438567942,
+      "data_recente": "2026-04-15T22:32:14Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "09081895000100",
@@ -166,15 +235,27 @@
       "numero_imovel": "3145/A",
       "bairro": "COMENDADOR TERCIO WANDERLEY",
       "cep": "57230000",
+<<<<<<< HEAD
+      "codigo_ibge": "2702306",
+      "municipio": "Coruripe",
+      "latitude": -10.1320859,
+      "longitude": -36.1756701,
+      "valor_minimo": 7.1174,
+      "valor_maximo": 7.1225,
+      "valor_medio": 7.1201,
+      "valor_recente": 7.1225,
+      "data_recente": "2026-04-15T21:25:17+00:00"
+=======
       "codigo_ibge": 2702306,
       "municipio": "CORURIPE",
       "latitude": -10.139914,
       "longitude": -36.1627961,
-      "valor_minimo": 7.122507122507122,
-      "valor_maximo": 7.122507122507122,
-      "valor_medio": 7.122507122507122,
-      "valor_recente": 7.122507122507122,
-      "data_recente": "2026-04-15T21:25:17Z"
+      "valor_minimo": 7.120253164556962,
+      "valor_maximo": 7.120253164556962,
+      "valor_medio": 7.120253164556962,
+      "valor_recente": 7.120253164556962,
+      "data_recente": "2026-04-15T23:36:36Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "09081895000100",
@@ -186,15 +267,16 @@
       "numero_imovel": "3145/A",
       "bairro": "COMENDADOR TERCIO WANDERLEY",
       "cep": "57230000",
-      "codigo_ibge": 2702306,
-      "municipio": "CORURIPE",
-      "latitude": -10.139914,
-      "longitude": -36.1627961,
-      "valor_minimo": 7.2202166064981945,
-      "valor_maximo": 7.2202166064981945,
-      "valor_medio": 7.2202166064981945,
-      "valor_recente": 7.2202166064981945,
-      "data_recente": "2026-04-15T21:29:14Z"
+<<<<<<< HEAD
+      "codigo_ibge": "2702306",
+      "municipio": "Coruripe",
+      "latitude": -10.1320859,
+      "longitude": -36.1756701,
+      "valor_minimo": 7.2152,
+      "valor_maximo": 7.2273,
+      "valor_medio": 7.2197,
+      "valor_recente": 7.2202,
+      "data_recente": "2026-04-15T21:29:14+00:00"
     },
     {
       "cnpj": "56141661000191",
@@ -206,15 +288,15 @@
       "numero_imovel": "68",
       "bairro": "pindorama",
       "cep": "57230000",
-      "codigo_ibge": 2702306,
-      "municipio": "CORURIPE",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 5.089903181189488,
-      "valor_maximo": 5.089903181189488,
-      "valor_medio": 5.089903181189488,
-      "valor_recente": 5.089903181189488,
-      "data_recente": "2026-04-15T15:03:26Z"
+      "codigo_ibge": "2702306",
+      "municipio": "Coruripe",
+      "latitude": -10.1184446,
+      "longitude": -36.1666237,
+      "valor_minimo": 4.3994,
+      "valor_maximo": 5.09,
+      "valor_medio": 4.7105,
+      "valor_recente": 5.0899,
+      "data_recente": "2026-04-15T15:03:26+00:00"
     },
     {
       "cnpj": "10589833000274",
@@ -226,15 +308,73 @@
       "numero_imovel": "S/N",
       "bairro": "COLONIA PINDORAMA",
       "cep": "57230000",
-      "codigo_ibge": 2702306,
-      "municipio": "CORURIPE",
+      "codigo_ibge": "2702306",
+      "municipio": "Coruripe",
       "latitude": -10.1457326,
       "longitude": -36.3226082,
-      "valor_minimo": 5.149860953754248,
-      "valor_maximo": 5.149860953754248,
-      "valor_medio": 5.149860953754248,
-      "valor_recente": 5.149860953754248,
-      "data_recente": "2026-04-15T21:27:14Z"
+      "valor_minimo": 5.1489,
+      "valor_maximo": 5.15,
+      "valor_medio": 5.1498,
+      "valor_recente": 5.1499,
+      "data_recente": "2026-04-15T21:27:14+00:00"
+    },
+    {
+      "cnpj": "55681612000189",
+      "tipo_combustivel": 3,
+      "razao_social": "BARRETO E OLIVEIRA COMERCIO DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "POSTO LAGOA",
+      "telefone": "(79) 99999999",
+      "nome_logradouro": "AV L",
+      "numero_imovel": "84",
+      "bairro": "LAGOA DO PAU",
+      "cep": "57230000",
+      "codigo_ibge": "2702306",
+      "municipio": "Coruripe",
+      "latitude": -10.12556,
+      "longitude": -36.17556,
+      "valor_minimo": 4.3991,
+      "valor_maximo": 5.7903,
+      "valor_medio": 5.0496,
+      "valor_recente": 5.3996,
+      "data_recente": "2026-04-15T20:00:06+00:00"
+=======
+      "codigo_ibge": 2702306,
+      "municipio": "CORURIPE",
+      "latitude": -10.139914,
+      "longitude": -36.1627961,
+      "valor_minimo": 7.217828900071891,
+      "valor_maximo": 7.217828900071891,
+      "valor_medio": 7.217828900071891,
+      "valor_recente": 7.217828900071891,
+      "data_recente": "2026-04-15T23:20:33Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
+    },
+    {
+      "cnpj": "05848209000123",
+      "tipo_combustivel": 3,
+      "razao_social": "A L C COMERCIO DE COMBUSTIVEIS E SERVICOS LTDA",
+      "nome_fantasia": "POSTO SANTA RITA",
+      "telefone": "",
+      "nome_logradouro": "TR DO CEMITERIO",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57230000",
+      "codigo_ibge": "2702306",
+      "municipio": "Coruripe",
+      "latitude": -10.1230258,
+      "longitude": -36.1760483,
+<<<<<<< HEAD
+      "valor_minimo": 4.2495,
+      "valor_maximo": 5.4049,
+      "valor_medio": 4.2811,
+      "valor_recente": 5.4049,
+      "data_recente": "2026-04-15T21:29:16+00:00"
+=======
+      "valor_minimo": 4.249926492208174,
+      "valor_maximo": 4.249926492208174,
+      "valor_medio": 4.249926492208174,
+      "valor_recente": 4.249926492208174,
+      "data_recente": "2026-04-15T21:44:00Z"
     },
     {
       "cnpj": "55681612000189",
@@ -250,31 +390,52 @@
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.399568034557236,
-      "valor_maximo": 5.399568034557236,
-      "valor_medio": 5.399568034557236,
-      "valor_recente": 5.399568034557236,
-      "data_recente": "2026-04-15T20:00:06Z"
+      "valor_minimo": 4.399989648301028,
+      "valor_maximo": 4.399989648301028,
+      "valor_medio": 4.399989648301028,
+      "valor_recente": 4.399989648301028,
+      "data_recente": "2026-04-15T23:35:30Z"
     },
     {
-      "cnpj": "05848209000123",
+      "cnpj": "56141661000191",
       "tipo_combustivel": 3,
-      "razao_social": "A L C COMERCIO DE COMBUSTIVEIS E SERVICOS LTDA",
-      "nome_fantasia": "POSTO SANTA RITA",
-      "telefone": "",
-      "nome_logradouro": "TR DO CEMITERIO",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
+      "razao_social": "ARAUJO E MORAES COMERCIO DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 32739138",
+      "nome_logradouro": "ROD VEREADOR JORGE VENANCIO dos santos",
+      "numero_imovel": "68",
+      "bairro": "pindorama",
       "cep": "57230000",
       "codigo_ibge": 2702306,
       "municipio": "CORURIPE",
-      "latitude": -10.1230258,
-      "longitude": -36.1760483,
-      "valor_minimo": 5.404896421845574,
-      "valor_maximo": 5.404896421845574,
-      "valor_medio": 5.404896421845574,
-      "valor_recente": 5.404896421845574,
-      "data_recente": "2026-04-15T21:29:16Z"
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 4.400447882736156,
+      "valor_maximo": 4.400447882736156,
+      "valor_medio": 4.400447882736156,
+      "valor_recente": 4.400447882736156,
+      "data_recente": "2026-04-15T23:36:29Z"
+    },
+    {
+      "cnpj": "10589833000274",
+      "tipo_combustivel": 3,
+      "razao_social": "COOPERATIVA AGROINDUSTRIAL DOS PRODUTORES RURAIS DA COLÔNIA PINDORAMA LTDA",
+      "nome_fantasia": "POSTO PINDORAMA",
+      "telefone": "(82) 32746460",
+      "nome_logradouro": "AV VEREADOR VENANCIO ROCHA DOS SANTOS",
+      "numero_imovel": "S/N",
+      "bairro": "COLONIA PINDORAMA",
+      "cep": "57230000",
+      "codigo_ibge": 2702306,
+      "municipio": "CORURIPE",
+      "latitude": -10.1457326,
+      "longitude": -36.3226082,
+      "valor_minimo": 5.149920942935173,
+      "valor_maximo": 5.149920942935173,
+      "valor_medio": 5.149920942935173,
+      "valor_recente": 5.149920942935173,
+      "data_recente": "2026-04-15T22:56:03Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "29853107000164",
@@ -286,15 +447,27 @@
       "numero_imovel": "856",
       "bairro": "CENTRO",
       "cep": "57230000",
+<<<<<<< HEAD
+      "codigo_ibge": "2702306",
+      "municipio": "Coruripe",
+      "latitude": -10.1320859,
+      "longitude": -36.1756701,
+      "valor_minimo": 5.7451,
+      "valor_maximo": 5.75,
+      "valor_medio": 5.7491,
+      "valor_recente": 5.7484,
+      "data_recente": "2026-04-15T21:30:27+00:00"
+=======
       "codigo_ibge": 2702306,
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.748447919061853,
-      "valor_maximo": 5.748447919061853,
-      "valor_medio": 5.748447919061853,
-      "valor_recente": 5.748447919061853,
-      "data_recente": "2026-04-15T21:30:27Z"
+      "valor_minimo": 5.749108888122341,
+      "valor_maximo": 5.749108888122341,
+      "valor_medio": 5.749108888122341,
+      "valor_recente": 5.749108888122341,
+      "data_recente": "2026-04-15T23:28:31Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "09081895000100",
@@ -306,15 +479,27 @@
       "numero_imovel": "3145/A",
       "bairro": "COMENDADOR TERCIO WANDERLEY",
       "cep": "57230000",
+<<<<<<< HEAD
+      "codigo_ibge": "2702306",
+      "municipio": "Coruripe",
+      "latitude": -10.1320859,
+      "longitude": -36.1756701,
+      "valor_minimo": 5.7471,
+      "valor_maximo": 5.7516,
+      "valor_medio": 5.7498,
+      "valor_recente": 5.75,
+      "data_recente": "2026-04-15T21:25:14+00:00"
+=======
       "codigo_ibge": 2702306,
       "municipio": "CORURIPE",
       "latitude": -10.139914,
       "longitude": -36.1627961,
-      "valor_minimo": 5.75,
-      "valor_maximo": 5.75,
-      "valor_medio": 5.75,
-      "valor_recente": 5.75,
-      "data_recente": "2026-04-15T21:25:14Z"
+      "valor_minimo": 5.750716332378223,
+      "valor_maximo": 5.750716332378223,
+      "valor_medio": 5.750716332378223,
+      "valor_recente": 5.750716332378223,
+      "data_recente": "2026-04-15T22:59:55Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "07824798000488",
@@ -326,15 +511,15 @@
       "numero_imovel": "11",
       "bairro": "POVOADO PONTAL DE CORURIPE",
       "cep": "57234000",
-      "codigo_ibge": 2702306,
-      "municipio": "CORURIPE",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.35,
+      "codigo_ibge": "2702306",
+      "municipio": "Coruripe",
+      "latitude": -10.1220172,
+      "longitude": -36.1810928,
+      "valor_minimo": 6.5,
       "valor_maximo": 7.35,
-      "valor_medio": 7.35,
+      "valor_medio": 6.6214,
       "valor_recente": 7.35,
-      "data_recente": "2026-04-15T13:41:10Z"
+      "data_recente": "2026-04-15T13:41:10+00:00"
     },
     {
       "cnpj": "55681612000189",
@@ -346,75 +531,26 @@
       "numero_imovel": "84",
       "bairro": "LAGOA DO PAU",
       "cep": "57230000",
+<<<<<<< HEAD
+      "codigo_ibge": "2702306",
+      "municipio": "Coruripe",
+      "latitude": -10.12556,
+      "longitude": -36.17556,
+      "valor_minimo": 6.3702,
+      "valor_maximo": 7.1702,
+      "valor_medio": 7.0311,
+      "valor_recente": 7.17,
+      "data_recente": "2026-04-15T19:25:25+00:00"
+=======
       "codigo_ibge": 2702306,
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.170000717000072,
-      "valor_maximo": 7.170000717000072,
-      "valor_medio": 7.170000717000072,
-      "valor_recente": 7.170000717000072,
-      "data_recente": "2026-04-15T19:25:25Z"
-    },
-    {
-      "cnpj": "33600518000115",
-      "tipo_combustivel": 5,
-      "razao_social": "RAFAELA JERONIMO DA SILVA",
-      "nome_fantasia": "TOP POSTO CORURIPE",
-      "telefone": "(82) 96967494",
-      "nome_logradouro": "ROD ENGENHEIRO GUTTEMBERG BREDA NETO",
-      "numero_imovel": "2031",
-      "bairro": "ALTO DA SAUDADE",
-      "cep": "57230000",
-      "codigo_ibge": 2702306,
-      "municipio": "CORURIPE",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.379972014113457,
-      "valor_maximo": 7.379972014113457,
-      "valor_medio": 7.379972014113457,
-      "valor_recente": 7.379972014113457,
-      "data_recente": "2026-04-15T21:26:54Z"
-    },
-    {
-      "cnpj": "09081895000100",
-      "tipo_combustivel": 5,
-      "razao_social": "T. DE F. ROCHA & BARBOSA LTDA  - ME",
-      "nome_fantasia": "POSTO SAO PEDRO III",
-      "telefone": "",
-      "nome_logradouro": "ROD GUTTEMBERG BREDA NETO",
-      "numero_imovel": "3145/A",
-      "bairro": "COMENDADOR TERCIO WANDERLEY",
-      "cep": "57230000",
-      "codigo_ibge": 2702306,
-      "municipio": "CORURIPE",
-      "latitude": -10.139914,
-      "longitude": -36.1627961,
-      "valor_minimo": 7.389890629618682,
-      "valor_maximo": 7.430209107313448,
-      "valor_medio": 7.410049868466065,
-      "valor_recente": 7.389890629618682,
-      "data_recente": "2026-04-15T20:53:30Z"
-    },
-    {
-      "cnpj": "29853107000164",
-      "tipo_combustivel": 5,
-      "razao_social": "RL COMERCIO DE COMBUSTIVEIS -",
-      "nome_fantasia": "POSTO CORURIPE",
-      "telefone": "(75) 32217513",
-      "nome_logradouro": "AV COMENDADOR TERCIO WANDERLEY",
-      "numero_imovel": "856",
-      "bairro": "CENTRO",
-      "cep": "57230000",
-      "codigo_ibge": 2702306,
-      "municipio": "CORURIPE",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.389955686853766,
-      "valor_maximo": 7.389955686853766,
-      "valor_medio": 7.389955686853766,
-      "valor_recente": 7.389955686853766,
-      "data_recente": "2026-04-15T18:39:02Z"
+      "valor_minimo": 6.369175627240144,
+      "valor_maximo": 6.369175627240144,
+      "valor_medio": 6.369175627240144,
+      "valor_recente": 6.369175627240144,
+      "data_recente": "2026-04-15T22:31:54Z"
     },
     {
       "cnpj": "56141661000191",
@@ -430,11 +566,136 @@
       "municipio": "CORURIPE",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.390000295499542,
-      "valor_maximo": 7.390000295499542,
-      "valor_medio": 7.390000295499542,
-      "valor_recente": 7.390000295499542,
-      "data_recente": "2026-04-15T17:54:26Z"
+      "valor_minimo": 6.857079515223175,
+      "valor_maximo": 6.857079515223175,
+      "valor_medio": 6.857079515223175,
+      "valor_recente": 6.857079515223175,
+      "data_recente": "2026-04-15T23:31:02Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
+    },
+    {
+      "cnpj": "33600518000115",
+      "tipo_combustivel": 5,
+      "razao_social": "RAFAELA JERONIMO DA SILVA",
+      "nome_fantasia": "TOP POSTO CORURIPE",
+      "telefone": "(82) 96967494",
+      "nome_logradouro": "ROD ENGENHEIRO GUTTEMBERG BREDA NETO",
+      "numero_imovel": "2031",
+      "bairro": "ALTO DA SAUDADE",
+      "cep": "57230000",
+<<<<<<< HEAD
+      "codigo_ibge": "2702306",
+      "municipio": "Coruripe",
+      "latitude": -10.1593843,
+      "longitude": -36.1351076,
+      "valor_minimo": 7.3799,
+      "valor_maximo": 7.6,
+      "valor_medio": 7.4485,
+      "valor_recente": 7.38,
+      "data_recente": "2026-04-15T21:26:54+00:00"
+=======
+      "codigo_ibge": 2702306,
+      "municipio": "CORURIPE",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.379529186037931,
+      "valor_maximo": 7.379529186037931,
+      "valor_medio": 7.379529186037931,
+      "valor_recente": 7.379529186037931,
+      "data_recente": "2026-04-15T22:15:05Z"
+    },
+    {
+      "cnpj": "29853107000164",
+      "tipo_combustivel": 5,
+      "razao_social": "RL COMERCIO DE COMBUSTIVEIS -",
+      "nome_fantasia": "POSTO CORURIPE",
+      "telefone": "(75) 32217513",
+      "nome_logradouro": "AV COMENDADOR TERCIO WANDERLEY",
+      "numero_imovel": "856",
+      "bairro": "CENTRO",
+      "cep": "57230000",
+      "codigo_ibge": 2702306,
+      "municipio": "CORURIPE",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 7.3893129770992365,
+      "valor_maximo": 7.3893129770992365,
+      "valor_medio": 7.3893129770992365,
+      "valor_recente": 7.3893129770992365,
+      "data_recente": "2026-04-15T22:30:26Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
+    },
+    {
+      "cnpj": "09081895000100",
+      "tipo_combustivel": 5,
+      "razao_social": "T. DE F. ROCHA & BARBOSA LTDA  - ME",
+      "nome_fantasia": "POSTO SAO PEDRO III",
+      "telefone": "",
+      "nome_logradouro": "ROD GUTTEMBERG BREDA NETO",
+      "numero_imovel": "3145/A",
+      "bairro": "COMENDADOR TERCIO WANDERLEY",
+      "cep": "57230000",
+<<<<<<< HEAD
+      "codigo_ibge": "2702306",
+      "municipio": "Coruripe",
+      "latitude": -10.1320859,
+      "longitude": -36.1756701,
+      "valor_minimo": 4.55,
+      "valor_maximo": 7.6501,
+      "valor_medio": 7.2934,
+      "valor_recente": 7.3899,
+      "data_recente": "2026-04-15T20:53:30+00:00"
+    },
+    {
+      "cnpj": "56141661000191",
+      "tipo_combustivel": 5,
+      "razao_social": "ARAUJO E MORAES COMERCIO DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 32739138",
+      "nome_logradouro": "ROD VEREADOR JORGE VENANCIO dos santos",
+      "numero_imovel": "68",
+      "bairro": "pindorama",
+      "cep": "57230000",
+      "codigo_ibge": "2702306",
+      "municipio": "Coruripe",
+      "latitude": -10.1184446,
+      "longitude": -36.1666237,
+      "valor_minimo": 6.8563,
+      "valor_maximo": 7.39,
+      "valor_medio": 7.2321,
+      "valor_recente": 7.39,
+      "data_recente": "2026-04-15T17:54:26+00:00"
+    },
+    {
+      "cnpj": "29853107000164",
+      "tipo_combustivel": 5,
+      "razao_social": "RL COMERCIO DE COMBUSTIVEIS -",
+      "nome_fantasia": "POSTO CORURIPE",
+      "telefone": "(75) 32217513",
+      "nome_logradouro": "AV COMENDADOR TERCIO WANDERLEY",
+      "numero_imovel": "856",
+      "bairro": "CENTRO",
+      "cep": "57230000",
+      "codigo_ibge": "2702306",
+      "municipio": "Coruripe",
+      "latitude": -10.1320859,
+      "longitude": -36.1756701,
+      "valor_minimo": 7,
+      "valor_maximo": 7.39,
+      "valor_medio": 7.3016,
+      "valor_recente": 7.39,
+      "data_recente": "2026-04-15T18:39:02+00:00"
+=======
+      "codigo_ibge": 2702306,
+      "municipio": "CORURIPE",
+      "latitude": -10.139914,
+      "longitude": -36.1627961,
+      "valor_minimo": 7.389890629618682,
+      "valor_maximo": 7.43015652863087,
+      "valor_medio": 7.4100235791247755,
+      "valor_recente": 7.43015652863087,
+      "data_recente": "2026-04-15T22:30:13Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "10589833000274",
@@ -446,15 +707,23 @@
       "numero_imovel": "S/N",
       "bairro": "COLONIA PINDORAMA",
       "cep": "57230000",
-      "codigo_ibge": 2702306,
-      "municipio": "CORURIPE",
+      "codigo_ibge": "2702306",
+      "municipio": "Coruripe",
       "latitude": -10.1457326,
       "longitude": -36.3226082,
+<<<<<<< HEAD
+      "valor_minimo": 7.446,
+      "valor_maximo": 7.45,
+      "valor_medio": 7.4496,
+      "valor_recente": 7.4499,
+      "data_recente": "2026-04-15T21:18:28+00:00"
+=======
       "valor_minimo": 7.449899426357744,
       "valor_maximo": 7.449899426357744,
       "valor_medio": 7.449899426357744,
       "valor_recente": 7.449899426357744,
-      "data_recente": "2026-04-15T21:18:28Z"
+      "data_recente": "2026-04-15T22:44:56Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "05848209000123",
@@ -466,15 +735,15 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57230000",
-      "codigo_ibge": 2702306,
-      "municipio": "CORURIPE",
+      "codigo_ibge": "2702306",
+      "municipio": "Coruripe",
       "latitude": -10.1230258,
       "longitude": -36.1760483,
-      "valor_minimo": 7.560137457044673,
-      "valor_maximo": 7.560137457044673,
-      "valor_medio": 7.560137457044673,
-      "valor_recente": 7.560137457044673,
-      "data_recente": "2026-04-15T21:06:43Z"
+      "valor_minimo": 6.6398,
+      "valor_maximo": 7.57,
+      "valor_medio": 7.1008,
+      "valor_recente": 7.5601,
+      "data_recente": "2026-04-15T21:06:43+00:00"
     }
   ]
 }

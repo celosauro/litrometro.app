@@ -5,16 +5,23 @@
  * 1. Nominatim (OpenStreetMap) - gratuito, 1 req/s
  * 2. OpenCage - 2.500/dia gratuito (se configurado)
  * 3. LocationIQ - 5.000/dia gratuito (se configurado)
+ * 
+ * ATUALIZA: geocache.json + Supabase estabelecimentos
  */
 
 import 'dotenv/config';
 import * as fs from 'fs';
 import * as path from 'path';
+import { createClient, SupabaseClient } from '@supabase/supabase-js';
 
 // Configuração
 const DADOS_DIR = path.join(process.cwd(), 'public', 'dados');
 const GEOCACHE_PATH = path.join(DADOS_DIR, 'geocache.json');
 const ATUAL_PATH = path.join(DADOS_DIR, 'atual.json');
+
+// Supabase
+const SUPABASE_URL = process.env.VITE_SUPABASE_URL || '';
+const SUPABASE_SECRET_KEY = process.env.SUPABASE_SECRET_KEY || '';
 
 // API Keys (opcionais - fallbacks)
 const OPENCAGE_API_KEY = process.env.OPENCAGE_API_KEY || '';
@@ -185,6 +192,40 @@ function salvarGeoCache(): void {
  */
 function salvarJSON(caminho: string, dados: unknown): void {
   fs.writeFileSync(caminho, JSON.stringify(dados, null, 2), 'utf-8');
+}
+
+// Supabase client (lazy init)
+let supabase: SupabaseClient | null = null;
+
+function getSupabase(): SupabaseClient | null {
+  if (!SUPABASE_URL || !SUPABASE_SECRET_KEY) return null;
+  if (!supabase) {
+    supabase = createClient(SUPABASE_URL, SUPABASE_SECRET_KEY, {
+      db: { schema: 'public' },
+      auth: { autoRefreshToken: false, persistSession: false },
+    });
+  }
+  return supabase;
+}
+
+/**
+ * Atualiza coordenadas no Supabase
+ */
+async function atualizarSupabase(
+  cnpj: string,
+  latitude: number,
+  longitude: number,
+  fonte: string
+): Promise<boolean> {
+  const client = getSupabase();
+  if (!client) return false;
+
+  const { error } = await client
+    .from('estabelecimentos')
+    .update({ latitude, longitude, geocode_source: fonte })
+    .eq('cnpj', cnpj);
+
+  return !error;
 }
 
 /**
@@ -448,6 +489,10 @@ async function main(): Promise<void> {
         fonte: coords.fonte,
         atualizadoEm: new Date().toISOString(),
       };
+      
+      // Update Supabase too
+      await atualizarSupabase(est.cnpj, coords.latitude, coords.longitude, coords.fonte);
+      
       console.log(`${progresso} ✓ ${est.nome_fantasia || est.razao_social} - ${est.municipio} [${coords.fonte}]`);
       sucesso++;
     } else {

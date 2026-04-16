@@ -1,40 +1,45 @@
 {
   "codigoIBGE": "2705804",
   "municipio": "Olho d'Água do Casado",
-  "atualizadoEm": "2026-04-15T22:11:42.970Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+  "totalEstabelecimentos": 5,
+=======
+  "atualizadoEm": "2026-04-16T00:06:58.396Z",
   "totalEstabelecimentos": 5,
   "combustiveis": {
     "1": {
       "totalPostos": 1,
-      "valorMinimo": 7.449714427613608,
-      "valorMaximo": 7.449714427613608,
-      "valorMedio": 7.449714427613608
+      "valorMinimo": 7.4487895716946,
+      "valorMaximo": 7.4487895716946,
+      "valorMedio": 7.4487895716946
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.447761194029851,
-      "valorMaximo": 7.447761194029851,
-      "valorMedio": 7.447761194029851
+      "valorMinimo": 7.4487895716946,
+      "valorMaximo": 7.4487895716946,
+      "valorMedio": 7.4487895716946
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.459518599562363,
-      "valorMaximo": 5.459518599562363,
-      "valorMedio": 5.459518599562363
+      "valorMinimo": 5.459606986899563,
+      "valorMaximo": 5.459606986899563,
+      "valorMedio": 5.459606986899563
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 8.169741697416974,
-      "valorMaximo": 8.169741697416974,
-      "valorMedio": 8.169741697416974
+      "valorMinimo": 8.169934640522875,
+      "valorMaximo": 8.169934640522875,
+      "valorMedio": 8.169934640522875
     },
     "5": {
       "totalPostos": 1,
-      "valorMinimo": 8.229586382698791,
-      "valorMaximo": 8.229586382698791,
-      "valorMedio": 8.229586382698791
+      "valorMinimo": 8.229921000658328,
+      "valorMaximo": 8.229921000658328,
+      "valorMedio": 8.229921000658328
     }
   },
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "estabelecimentos": [
     {
       "cnpj": "43473879000100",
@@ -46,15 +51,27 @@
       "numero_imovel": "229",
       "bairro": "TREVO",
       "cep": "57470000",
+<<<<<<< HEAD
+      "codigo_ibge": "2705804",
+      "municipio": "Olho d'Água do Casado",
+      "latitude": -9.4994668,
+      "longitude": -37.827866,
+      "valor_minimo": 7.3464,
+      "valor_maximo": 7.45,
+      "valor_medio": 7.391,
+      "valor_recente": 7.4497,
+      "data_recente": "2026-04-15T21:25:12+00:00"
+=======
       "codigo_ibge": 2705804,
       "municipio": "OLHO D'AGUA DO CASADO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.449714427613608,
-      "valor_maximo": 7.449714427613608,
-      "valor_medio": 7.449714427613608,
-      "valor_recente": 7.449714427613608,
-      "data_recente": "2026-04-15T21:25:12Z"
+      "valor_minimo": 7.4487895716946,
+      "valor_maximo": 7.4487895716946,
+      "valor_medio": 7.4487895716946,
+      "valor_recente": 7.4487895716946,
+      "data_recente": "2026-04-15T23:09:39Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "31586899000108",
@@ -66,15 +83,27 @@
       "numero_imovel": "01",
       "bairro": "CENTRO",
       "cep": "57470000",
+<<<<<<< HEAD
+      "codigo_ibge": "2705804",
+      "municipio": "Olho d'Água do Casado",
+      "latitude": -9.502329,
+      "longitude": -37.8317854,
+      "valor_minimo": 7.3475,
+      "valor_maximo": 7.4497,
+      "valor_medio": 7.3886,
+      "valor_recente": 7.4478,
+      "data_recente": "2026-04-15T21:29:53+00:00"
+=======
       "codigo_ibge": 2705804,
       "municipio": "OLHO D'AGUA DO CASADO",
       "latitude": -9.5012558,
       "longitude": -37.8269288,
-      "valor_minimo": 7.447761194029851,
-      "valor_maximo": 7.447761194029851,
-      "valor_medio": 7.447761194029851,
-      "valor_recente": 7.447761194029851,
-      "data_recente": "2026-04-15T21:29:53Z"
+      "valor_minimo": 7.4487895716946,
+      "valor_maximo": 7.4487895716946,
+      "valor_medio": 7.4487895716946,
+      "valor_recente": 7.4487895716946,
+      "data_recente": "2026-04-15T22:32:23Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "43473879000100",
@@ -86,15 +115,27 @@
       "numero_imovel": "229",
       "bairro": "TREVO",
       "cep": "57470000",
+<<<<<<< HEAD
+      "codigo_ibge": "2705804",
+      "municipio": "Olho d'Água do Casado",
+      "latitude": -9.4994668,
+      "longitude": -37.827866,
+      "valor_minimo": 5.4585,
+      "valor_maximo": 5.46,
+      "valor_medio": 5.4596,
+      "valor_recente": 5.4595,
+      "data_recente": "2026-04-15T21:11:27+00:00"
+=======
       "codigo_ibge": 2705804,
       "municipio": "OLHO D'AGUA DO CASADO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.459518599562363,
-      "valor_maximo": 5.459518599562363,
-      "valor_medio": 5.459518599562363,
-      "valor_recente": 5.459518599562363,
-      "data_recente": "2026-04-15T21:11:27Z"
+      "valor_minimo": 5.459606986899563,
+      "valor_maximo": 5.459606986899563,
+      "valor_medio": 5.459606986899563,
+      "valor_recente": 5.459606986899563,
+      "data_recente": "2026-04-15T22:53:41Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "31586899000108",
@@ -106,15 +147,27 @@
       "numero_imovel": "01",
       "bairro": "CENTRO",
       "cep": "57470000",
+<<<<<<< HEAD
+      "codigo_ibge": "2705804",
+      "municipio": "Olho d'Água do Casado",
+      "latitude": -9.502329,
+      "longitude": -37.8317854,
+      "valor_minimo": 7.6768,
+      "valor_maximo": 8.17,
+      "valor_medio": 7.8791,
+      "valor_recente": 8.1697,
+      "data_recente": "2026-04-15T20:12:18+00:00"
+=======
       "codigo_ibge": 2705804,
       "municipio": "OLHO D'AGUA DO CASADO",
       "latitude": -9.5012558,
       "longitude": -37.8269288,
-      "valor_minimo": 8.169741697416974,
-      "valor_maximo": 8.169741697416974,
-      "valor_medio": 8.169741697416974,
-      "valor_recente": 8.169741697416974,
-      "data_recente": "2026-04-15T20:12:18Z"
+      "valor_minimo": 8.169934640522875,
+      "valor_maximo": 8.169934640522875,
+      "valor_medio": 8.169934640522875,
+      "valor_recente": 8.169934640522875,
+      "data_recente": "2026-04-15T22:32:23Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "43473879000100",
@@ -126,15 +179,27 @@
       "numero_imovel": "229",
       "bairro": "TREVO",
       "cep": "57470000",
+<<<<<<< HEAD
+      "codigo_ibge": "2705804",
+      "municipio": "Olho d'Água do Casado",
+      "latitude": -9.4994668,
+      "longitude": -37.827866,
+      "valor_minimo": 7.5486,
+      "valor_maximo": 8.2299,
+      "valor_medio": 7.8095,
+      "valor_recente": 8.2296,
+      "data_recente": "2026-04-15T20:29:58+00:00"
+=======
       "codigo_ibge": 2705804,
       "municipio": "OLHO D'AGUA DO CASADO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 8.229586382698791,
-      "valor_maximo": 8.229586382698791,
-      "valor_medio": 8.229586382698791,
-      "valor_recente": 8.229586382698791,
-      "data_recente": "2026-04-15T20:29:58Z"
+      "valor_minimo": 8.229921000658328,
+      "valor_maximo": 8.229921000658328,
+      "valor_medio": 8.229921000658328,
+      "valor_recente": 8.229921000658328,
+      "data_recente": "2026-04-15T21:37:33Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     }
   ]
 }

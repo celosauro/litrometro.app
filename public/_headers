@@ -1,0 +1,30 @@
+# Cache headers para Cloudflare Pages / Netlify
+# GitHub Pages não suporta _headers (usa CDN próprio com cache)
+
+# JSON de dados - cache de 30 minutos
+/dados/atual.min.json
+  Cache-Control: public, max-age=1800, stale-while-revalidate=3600
+  Content-Type: application/json; charset=utf-8
+
+/dados/atual.json
+  Cache-Control: public, max-age=1800, stale-while-revalidate=3600
+  Content-Type: application/json; charset=utf-8
+
+# JSONs de municípios - cache de 30 minutos
+/dados/municipios/*
+  Cache-Control: public, max-age=1800, stale-while-revalidate=3600
+  Content-Type: application/json; charset=utf-8
+
+# Assets estáticos (JS, CSS, imagens) - cache longo (1 ano)
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# HTML - cache curto (5 min) para permitir atualizações
+/*.html
+  Cache-Control: public, max-age=300
+
+# Default para arquivos não especificados
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block

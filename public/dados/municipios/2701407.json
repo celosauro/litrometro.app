@@ -1,34 +1,12 @@
 {
   "codigoIBGE": "2701407",
   "municipio": "Campo Alegre",
-  "atualizadoEm": "2026-04-15T21:47:41.785Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+=======
+  "atualizadoEm": "2026-04-15T23:40:45.147Z",
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "totalEstabelecimentos": 14,
-  "combustiveis": {
-    "1": {
-      "totalPostos": 4,
-      "valorMinimo": 6.920415224913495,
-      "valorMaximo": 6.99,
-      "valorMedio": 6.967201177238696
-    },
-    "2": {
-      "totalPostos": 2,
-      "valorMinimo": 6.98909700866648,
-      "valorMaximo": 6.989976373879856,
-      "valorMedio": 6.989536691273168
-    },
-    "3": {
-      "totalPostos": 4,
-      "valorMinimo": 4.8899396706342735,
-      "valorMaximo": 5.099947764711878,
-      "valorMedio": 5.042432836101553
-    },
-    "5": {
-      "totalPostos": 4,
-      "valorMinimo": 7.1999077399584825,
-      "valorMaximo": 7.29,
-      "valorMedio": 7.2671851453150875
-    }
-  },
   "estabelecimentos": [
     {
       "cnpj": "02991589000324",
@@ -40,15 +18,15 @@
       "numero_imovel": "1",
       "bairro": "LUZIAPOLIS",
       "cep": "57250000",
-      "codigo_ibge": 2701407,
-      "municipio": "CAMPO ALEGRE",
-      "latitude": -10.1172981,
-      "longitude": -36.768521,
-      "valor_minimo": 6.920415224913495,
-      "valor_maximo": 6.920415224913495,
-      "valor_medio": 6.920415224913495,
-      "valor_recente": 6.920415224913495,
-      "data_recente": "2026-04-15T21:11:43Z"
+      "codigo_ibge": "2701407",
+      "municipio": "Campo Alegre",
+      "latitude": -9.6065836,
+      "longitude": -36.0268827,
+      "valor_minimo": 4.9397,
+      "valor_maximo": 6.9204,
+      "valor_medio": 6.5985,
+      "valor_recente": 6.9204,
+      "data_recente": "2026-04-15T21:11:43+00:00"
     },
     {
       "cnpj": "09280439000190",
@@ -60,15 +38,15 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57250000",
-      "codigo_ibge": 2701407,
-      "municipio": "CAMPO ALEGRE",
-      "latitude": -9.781555599999999,
-      "longitude": -36.3440973,
-      "valor_minimo": 6.968641114982578,
-      "valor_maximo": 6.968641114982578,
-      "valor_medio": 6.968641114982578,
-      "valor_recente": 6.968641114982578,
-      "data_recente": "2026-04-15T21:29:20Z"
+      "codigo_ibge": "2701407",
+      "municipio": "Campo Alegre",
+      "latitude": -9.778120999999999,
+      "longitude": -36.3540945,
+      "valor_minimo": 6.9686,
+      "valor_maximo": 7.05,
+      "valor_medio": 6.974,
+      "valor_recente": 6.9686,
+      "data_recente": "2026-04-15T21:29:20+00:00"
     },
     {
       "cnpj": "07583696000175",
@@ -80,15 +58,15 @@
       "numero_imovel": "345",
       "bairro": "SAO FRANCISCO",
       "cep": "57252004",
-      "codigo_ibge": 2701407,
-      "municipio": "CAMPO ALEGRE",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.989748369058714,
-      "valor_maximo": 6.989748369058714,
-      "valor_medio": 6.989748369058714,
-      "valor_recente": 6.989748369058714,
-      "data_recente": "2026-04-15T21:21:48Z"
+      "codigo_ibge": "2701407",
+      "municipio": "Campo Alegre",
+      "latitude": -9.778120999999999,
+      "longitude": -36.3540945,
+      "valor_minimo": 6.9832,
+      "valor_maximo": 6.99,
+      "valor_medio": 6.9888,
+      "valor_recente": 6.9897,
+      "data_recente": "2026-04-15T21:21:48+00:00"
     },
     {
       "cnpj": "11968667000107",
@@ -100,15 +78,15 @@
       "numero_imovel": "50",
       "bairro": "LUZIAPOLIS",
       "cep": "57250000",
-      "codigo_ibge": 2701407,
-      "municipio": "CAMPO ALEGRE",
-      "latitude": -9.9041795,
-      "longitude": -36.2203955,
-      "valor_minimo": 6.99,
-      "valor_maximo": 6.99,
+      "codigo_ibge": "2701407",
+      "municipio": "Campo Alegre",
+      "latitude": -9.783125499999999,
+      "longitude": -36.3507806,
+      "valor_minimo": 6.9881,
+      "valor_maximo": 6.993,
       "valor_medio": 6.99,
       "valor_recente": 6.99,
-      "data_recente": "2026-04-15T18:34:52Z"
+      "data_recente": "2026-04-15T18:34:52+00:00"
     },
     {
       "cnpj": "07583696000175",
@@ -120,15 +98,15 @@
       "numero_imovel": "345",
       "bairro": "SAO FRANCISCO",
       "cep": "57252004",
-      "codigo_ibge": 2701407,
-      "municipio": "CAMPO ALEGRE",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.98909700866648,
-      "valor_maximo": 6.98909700866648,
-      "valor_medio": 6.98909700866648,
-      "valor_recente": 6.98909700866648,
-      "data_recente": "2026-04-15T21:21:48Z"
+      "codigo_ibge": "2701407",
+      "municipio": "Campo Alegre",
+      "latitude": -9.778120999999999,
+      "longitude": -36.3540945,
+      "valor_minimo": 6.986,
+      "valor_maximo": 6.9899,
+      "valor_medio": 6.9885,
+      "valor_recente": 6.9891,
+      "data_recente": "2026-04-15T21:21:48+00:00"
     },
     {
       "cnpj": "09280439000190",
@@ -140,15 +118,15 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57250000",
-      "codigo_ibge": 2701407,
-      "municipio": "CAMPO ALEGRE",
-      "latitude": -9.781555599999999,
-      "longitude": -36.3440973,
-      "valor_minimo": 6.989976373879856,
-      "valor_maximo": 6.989976373879856,
-      "valor_medio": 6.989976373879856,
-      "valor_recente": 6.989976373879856,
-      "data_recente": "2026-04-15T21:29:20Z"
+      "codigo_ibge": "2701407",
+      "municipio": "Campo Alegre",
+      "latitude": -9.778120999999999,
+      "longitude": -36.3540945,
+      "valor_minimo": 6.9886,
+      "valor_maximo": 6.99,
+      "valor_medio": 6.9897,
+      "valor_recente": 6.99,
+      "data_recente": "2026-04-15T21:29:20+00:00"
     },
     {
       "cnpj": "02991589000324",
@@ -160,6 +138,17 @@
       "numero_imovel": "1",
       "bairro": "LUZIAPOLIS",
       "cep": "57250000",
+<<<<<<< HEAD
+      "codigo_ibge": "2701407",
+      "municipio": "Campo Alegre",
+      "latitude": -9.6065836,
+      "longitude": -36.0268827,
+      "valor_minimo": 3.141,
+      "valor_maximo": 5.1393,
+      "valor_medio": 4.6541,
+      "valor_recente": 4.8899,
+      "data_recente": "2026-04-15T20:54:52+00:00"
+=======
       "codigo_ibge": 2701407,
       "municipio": "CAMPO ALEGRE",
       "latitude": -10.1172981,
@@ -169,6 +158,47 @@
       "valor_medio": 4.8899396706342735,
       "valor_recente": 4.8899396706342735,
       "data_recente": "2026-04-15T20:54:52Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
+    },
+    {
+      "cnpj": "07583696000175",
+      "tipo_combustivel": 3,
+      "razao_social": "AGRESTE COMBUSTIVEIS E SERVICOS LTDA",
+      "nome_fantasia": "POSTO AGRESTE",
+      "telefone": "(82) 33262347",
+      "nome_logradouro": "ROD AL-220, KM 36",
+      "numero_imovel": "345",
+      "bairro": "SAO FRANCISCO",
+      "cep": "57252004",
+      "codigo_ibge": "2701407",
+      "municipio": "Campo Alegre",
+      "latitude": -9.778120999999999,
+      "longitude": -36.3540945,
+      "valor_minimo": 5.0899,
+      "valor_maximo": 5.0899,
+      "valor_medio": 5.0899,
+      "valor_recente": 5.0899,
+      "data_recente": "2026-04-07T23:37:30+00:00"
+    },
+    {
+      "cnpj": "11968667000107",
+      "tipo_combustivel": 3,
+      "razao_social": "AUTO POSTO NOSSA SENHORA APARECIDA LTDA",
+      "nome_fantasia": "POSTO NOSSA SENHORA APARECIDA",
+      "telefone": "(82) 35421119",
+      "nome_logradouro": "AV EUGENIA ALBUQUERQUE",
+      "numero_imovel": "50",
+      "bairro": "LUZIAPOLIS",
+      "cep": "57250000",
+      "codigo_ibge": "2701407",
+      "municipio": "Campo Alegre",
+      "latitude": -9.783125499999999,
+      "longitude": -36.3507806,
+      "valor_minimo": 5.0885,
+      "valor_maximo": 5.102,
+      "valor_medio": 5.0901,
+      "valor_recente": 5.0899,
+      "data_recente": "2026-04-15T18:28:54+00:00"
     },
     {
       "cnpj": "11968667000107",
@@ -191,26 +221,6 @@
       "data_recente": "2026-04-15T18:28:54Z"
     },
     {
-      "cnpj": "07583696000175",
-      "tipo_combustivel": 3,
-      "razao_social": "AGRESTE COMBUSTIVEIS E SERVICOS LTDA",
-      "nome_fantasia": "POSTO AGRESTE",
-      "telefone": "(82) 33262347",
-      "nome_logradouro": "ROD AL-220, KM 36",
-      "numero_imovel": "345",
-      "bairro": "SAO FRANCISCO",
-      "cep": "57252004",
-      "codigo_ibge": 2701407,
-      "municipio": "CAMPO ALEGRE",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 5.0899219545300305,
-      "valor_maximo": 5.0899219545300305,
-      "valor_medio": 5.0899219545300305,
-      "valor_recente": 5.0899219545300305,
-      "data_recente": "2026-04-07T23:37:30Z"
-    },
-    {
       "cnpj": "09280439000190",
       "tipo_combustivel": 3,
       "razao_social": "AUTO POSTO CAMPO ALEGRE LTDA",
@@ -220,15 +230,15 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57250000",
-      "codigo_ibge": 2701407,
-      "municipio": "CAMPO ALEGRE",
-      "latitude": -9.781555599999999,
-      "longitude": -36.3440973,
-      "valor_minimo": 5.099947764711878,
-      "valor_maximo": 5.099947764711878,
-      "valor_medio": 5.099947764711878,
-      "valor_recente": 5.099947764711878,
-      "data_recente": "2026-04-15T21:29:20Z"
+      "codigo_ibge": "2701407",
+      "municipio": "Campo Alegre",
+      "latitude": -9.778120999999999,
+      "longitude": -36.3540945,
+      "valor_minimo": 5.0994,
+      "valor_maximo": 5.18,
+      "valor_medio": 5.1023,
+      "valor_recente": 5.0999,
+      "data_recente": "2026-04-15T21:29:20+00:00"
     },
     {
       "cnpj": "09280439000190",
@@ -240,15 +250,15 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57250000",
-      "codigo_ibge": 2701407,
-      "municipio": "CAMPO ALEGRE",
-      "latitude": -9.781555599999999,
-      "longitude": -36.3440973,
-      "valor_minimo": 7.1999077399584825,
-      "valor_maximo": 7.297297297297297,
-      "valor_medio": 7.24860251862789,
-      "valor_recente": 7.1999077399584825,
-      "data_recente": "2026-04-15T21:18:14Z"
+      "codigo_ibge": "2701407",
+      "municipio": "Campo Alegre",
+      "latitude": -9.778120999999999,
+      "longitude": -36.3540945,
+      "valor_minimo": 7.1971,
+      "valor_maximo": 7.35,
+      "valor_medio": 7.2365,
+      "valor_recente": 7.1999,
+      "data_recente": "2026-04-15T21:18:14+00:00"
     },
     {
       "cnpj": "07583696000175",
@@ -260,15 +270,15 @@
       "numero_imovel": "345",
       "bairro": "SAO FRANCISCO",
       "cep": "57252004",
-      "codigo_ibge": 2701407,
-      "municipio": "CAMPO ALEGRE",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.288860380585846,
-      "valor_maximo": 7.288860380585846,
-      "valor_medio": 7.288860380585846,
-      "valor_recente": 7.288860380585846,
-      "data_recente": "2026-04-15T21:21:48Z"
+      "codigo_ibge": "2701407",
+      "municipio": "Campo Alegre",
+      "latitude": -9.778120999999999,
+      "longitude": -36.3540945,
+      "valor_minimo": 7.286,
+      "valor_maximo": 7.29,
+      "valor_medio": 7.2897,
+      "valor_recente": 7.2889,
+      "data_recente": "2026-04-15T21:21:48+00:00"
     },
     {
       "cnpj": "02991589000324",
@@ -280,15 +290,15 @@
       "numero_imovel": "1",
       "bairro": "LUZIAPOLIS",
       "cep": "57250000",
-      "codigo_ibge": 2701407,
-      "municipio": "CAMPO ALEGRE",
-      "latitude": -10.1172981,
-      "longitude": -36.768521,
-      "valor_minimo": 7.2899724607160215,
-      "valor_maximo": 7.2899724607160215,
-      "valor_medio": 7.2899724607160215,
-      "valor_recente": 7.2899724607160215,
-      "data_recente": "2026-04-15T20:54:31Z"
+      "codigo_ibge": "2701407",
+      "municipio": "Campo Alegre",
+      "latitude": -9.6065836,
+      "longitude": -36.0268827,
+      "valor_minimo": 5.567,
+      "valor_maximo": 8.4799,
+      "valor_medio": 7.2713,
+      "valor_recente": 7.29,
+      "data_recente": "2026-04-15T20:54:31+00:00"
     },
     {
       "cnpj": "11968667000107",
@@ -300,15 +310,15 @@
       "numero_imovel": "50",
       "bairro": "LUZIAPOLIS",
       "cep": "57250000",
-      "codigo_ibge": 2701407,
-      "municipio": "CAMPO ALEGRE",
-      "latitude": -9.9041795,
-      "longitude": -36.2203955,
-      "valor_minimo": 7.29,
-      "valor_maximo": 7.29,
+      "codigo_ibge": "2701407",
+      "municipio": "Campo Alegre",
+      "latitude": -9.783125499999999,
+      "longitude": -36.3507806,
+      "valor_minimo": 7.2886,
+      "valor_maximo": 7.2926,
       "valor_medio": 7.29,
       "valor_recente": 7.29,
-      "data_recente": "2026-04-15T18:20:57Z"
+      "data_recente": "2026-04-15T18:20:57+00:00"
     }
   ]
 }

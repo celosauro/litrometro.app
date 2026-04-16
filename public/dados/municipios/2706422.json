@@ -1,7 +1,11 @@
 {
   "codigoIBGE": "2706422",
   "municipio": "Pariconha",
-  "atualizadoEm": "2026-04-15T22:14:40.747Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+  "totalEstabelecimentos": 6,
+=======
+  "atualizadoEm": "2026-04-16T00:11:38.597Z",
   "totalEstabelecimentos": 6,
   "combustiveis": {
     "1": {
@@ -19,10 +23,11 @@
     "5": {
       "totalPostos": 2,
       "valorMinimo": 7.779679477205539,
-      "valorMaximo": 7.989737742303307,
-      "valorMedio": 7.884708609754423
+      "valorMaximo": 7.990140845070423,
+      "valorMedio": 7.884910161137981
     }
   },
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "estabelecimentos": [
     {
       "cnpj": "04590794000141",
@@ -34,15 +39,15 @@
       "numero_imovel": "01",
       "bairro": "CENTRO",
       "cep": "57475000",
-      "codigo_ibge": 2706422,
-      "municipio": "PARICONHA",
-      "latitude": -9.2554242,
-      "longitude": -38.00267840000001,
-      "valor_minimo": 7.1890726096333575,
-      "valor_maximo": 7.1890726096333575,
-      "valor_medio": 7.1890726096333575,
-      "valor_recente": 7.1890726096333575,
-      "data_recente": "2026-04-15T17:02:40Z"
+      "codigo_ibge": "2706422",
+      "municipio": "Pariconha",
+      "latitude": -3.8779378,
+      "longitude": -38.5296285,
+      "valor_minimo": 7.1891,
+      "valor_maximo": 7.1901,
+      "valor_medio": 7.1899,
+      "valor_recente": 7.1891,
+      "data_recente": "2026-04-15T17:02:40+00:00"
     },
     {
       "cnpj": "27457330000167",
@@ -54,15 +59,15 @@
       "numero_imovel": "417",
       "bairro": "CENTRO",
       "cep": "57475000",
-      "codigo_ibge": 2706422,
-      "municipio": "PARICONHA",
-      "latitude": -9.2554482,
-      "longitude": -38.0027017,
-      "valor_minimo": 7.190106413574921,
-      "valor_maximo": 7.190106413574921,
-      "valor_medio": 7.190106413574921,
-      "valor_recente": 7.190106413574921,
-      "data_recente": "2026-04-15T16:33:34Z"
+      "codigo_ibge": "2706422",
+      "municipio": "Pariconha",
+      "latitude": -9.2602278,
+      "longitude": -37.9981301,
+      "valor_minimo": 7.1869,
+      "valor_maximo": 7.1942,
+      "valor_medio": 7.1901,
+      "valor_recente": 7.1901,
+      "data_recente": "2026-04-15T16:33:34+00:00"
     },
     {
       "cnpj": "04590794000141",
@@ -74,15 +79,15 @@
       "numero_imovel": "01",
       "bairro": "CENTRO",
       "cep": "57475000",
-      "codigo_ibge": 2706422,
-      "municipio": "PARICONHA",
-      "latitude": -9.2554242,
-      "longitude": -38.00267840000001,
+      "codigo_ibge": "2706422",
+      "municipio": "Pariconha",
+      "latitude": -3.8779378,
+      "longitude": -38.5296285,
       "valor_minimo": 7.1875,
-      "valor_maximo": 7.1875,
-      "valor_medio": 7.1875,
+      "valor_maximo": 7.1891,
+      "valor_medio": 7.1889,
       "valor_recente": 7.1875,
-      "data_recente": "2026-04-15T16:59:14Z"
+      "data_recente": "2026-04-15T16:59:14+00:00"
     },
     {
       "cnpj": "27457330000167",
@@ -94,15 +99,15 @@
       "numero_imovel": "417",
       "bairro": "CENTRO",
       "cep": "57475000",
-      "codigo_ibge": 2706422,
-      "municipio": "PARICONHA",
-      "latitude": -9.2554482,
-      "longitude": -38.0027017,
-      "valor_minimo": 7.24009324009324,
-      "valor_maximo": 7.24009324009324,
-      "valor_medio": 7.24009324009324,
-      "valor_recente": 7.24009324009324,
-      "data_recente": "2026-04-15T15:49:12Z"
+      "codigo_ibge": "2706422",
+      "municipio": "Pariconha",
+      "latitude": -9.2602278,
+      "longitude": -37.9981301,
+      "valor_minimo": 7.2394,
+      "valor_maximo": 7.2451,
+      "valor_medio": 7.2405,
+      "valor_recente": 7.2401,
+      "data_recente": "2026-04-15T15:49:12+00:00"
     },
     {
       "cnpj": "04590794000141",
@@ -114,15 +119,15 @@
       "numero_imovel": "01",
       "bairro": "CENTRO",
       "cep": "57475000",
-      "codigo_ibge": 2706422,
-      "municipio": "PARICONHA",
-      "latitude": -9.2554242,
-      "longitude": -38.00267840000001,
-      "valor_minimo": 7.779679477205539,
-      "valor_maximo": 7.779679477205539,
-      "valor_medio": 7.779679477205539,
-      "valor_recente": 7.779679477205539,
-      "data_recente": "2026-04-15T17:00:38Z"
+      "codigo_ibge": "2706422",
+      "municipio": "Pariconha",
+      "latitude": -3.8779378,
+      "longitude": -38.5296285,
+      "valor_minimo": 7.6699,
+      "valor_maximo": 7.7801,
+      "valor_medio": 7.7066,
+      "valor_recente": 7.7797,
+      "data_recente": "2026-04-15T17:00:38+00:00"
     },
     {
       "cnpj": "27457330000167",
@@ -134,15 +139,27 @@
       "numero_imovel": "417",
       "bairro": "CENTRO",
       "cep": "57475000",
+<<<<<<< HEAD
+      "codigo_ibge": "2706422",
+      "municipio": "Pariconha",
+      "latitude": -9.2602278,
+      "longitude": -37.9981301,
+      "valor_minimo": 7.6698,
+      "valor_maximo": 7.9904,
+      "valor_medio": 7.916,
+      "valor_recente": 7.9897,
+      "data_recente": "2026-04-15T15:49:12+00:00"
+=======
       "codigo_ibge": 2706422,
       "municipio": "PARICONHA",
       "latitude": -9.2554482,
       "longitude": -38.0027017,
-      "valor_minimo": 7.989737742303307,
-      "valor_maximo": 7.989737742303307,
-      "valor_medio": 7.989737742303307,
-      "valor_recente": 7.989737742303307,
-      "data_recente": "2026-04-15T15:49:12Z"
+      "valor_minimo": 7.990140845070423,
+      "valor_maximo": 7.990140845070423,
+      "valor_medio": 7.990140845070423,
+      "valor_recente": 7.990140845070423,
+      "data_recente": "2026-04-15T21:43:23Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     }
   ]
 }

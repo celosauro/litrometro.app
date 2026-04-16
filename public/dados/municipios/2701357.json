@@ -1,22 +1,12 @@
 {
   "codigoIBGE": "2701357",
   "municipio": "Campestre",
-  "atualizadoEm": "2026-04-15T21:47:17.560Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+=======
+  "atualizadoEm": "2026-04-15T23:40:13.972Z",
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "totalEstabelecimentos": 2,
-  "combustiveis": {
-    "1": {
-      "totalPostos": 1,
-      "valorMinimo": 7.289692374981776,
-      "valorMaximo": 7.289692374981776,
-      "valorMedio": 7.289692374981776
-    },
-    "5": {
-      "totalPostos": 1,
-      "valorMinimo": 7.688763757358587,
-      "valorMaximo": 7.688763757358587,
-      "valorMedio": 7.688763757358587
-    }
-  },
   "estabelecimentos": [
     {
       "cnpj": "41160201000133",
@@ -28,15 +18,15 @@
       "numero_imovel": "290",
       "bairro": "CENTRO",
       "cep": "57968000",
-      "codigo_ibge": 2701357,
-      "municipio": "CAMPESTRE",
+      "codigo_ibge": "2701357",
+      "municipio": "Campestre",
       "latitude": -8.8490345,
       "longitude": -35.5676693,
-      "valor_minimo": 7.289692374981776,
-      "valor_maximo": 7.289692374981776,
-      "valor_medio": 7.289692374981776,
-      "valor_recente": 7.289692374981776,
-      "data_recente": "2026-04-15T20:16:06Z"
+      "valor_minimo": 7.2883,
+      "valor_maximo": 7.29,
+      "valor_medio": 7.2891,
+      "valor_recente": 7.2897,
+      "data_recente": "2026-04-15T20:16:06+00:00"
     },
     {
       "cnpj": "41160201000133",
@@ -48,15 +38,15 @@
       "numero_imovel": "290",
       "bairro": "CENTRO",
       "cep": "57968000",
-      "codigo_ibge": 2701357,
-      "municipio": "CAMPESTRE",
+      "codigo_ibge": "2701357",
+      "municipio": "Campestre",
       "latitude": -8.8490345,
       "longitude": -35.5676693,
-      "valor_minimo": 7.688763757358587,
-      "valor_maximo": 7.688763757358587,
-      "valor_medio": 7.688763757358587,
-      "valor_recente": 7.688763757358587,
-      "data_recente": "2026-04-15T09:20:43Z"
+      "valor_minimo": 7.6667,
+      "valor_maximo": 7.6899,
+      "valor_medio": 7.6845,
+      "valor_recente": 7.6888,
+      "data_recente": "2026-04-15T09:20:43+00:00"
     }
   ]
 }

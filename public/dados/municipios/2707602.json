@@ -1,34 +1,39 @@
 {
   "codigoIBGE": "2707602",
   "municipio": "Quebrangulo",
-  "atualizadoEm": "2026-04-15T22:20:11.671Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+  "totalEstabelecimentos": 5,
+=======
+  "atualizadoEm": "2026-04-16T00:18:57.492Z",
   "totalEstabelecimentos": 5,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.89893066574681,
+      "valorMinimo": 6.896551724137931,
       "valorMaximo": 6.89893066574681,
-      "valorMedio": 6.89893066574681
+      "valorMedio": 6.89774119494237
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.09692671394799,
-      "valorMaximo": 7.09692671394799,
-      "valorMedio": 7.09692671394799
+      "valorMinimo": 7.099247479767144,
+      "valorMaximo": 7.099247479767144,
+      "valorMedio": 7.099247479767144
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.819865544721963,
-      "valorMaximo": 5.819865544721963,
-      "valorMedio": 5.819865544721963
+      "valorMinimo": 5.819874872690237,
+      "valorMaximo": 5.819874872690237,
+      "valorMedio": 5.819874872690237
     },
     "5": {
       "totalPostos": 1,
-      "valorMinimo": 7.8,
-      "valorMaximo": 7.8,
-      "valorMedio": 7.8
+      "valorMinimo": 7.799703611262772,
+      "valorMaximo": 7.799703611262772,
+      "valorMedio": 7.799703611262772
     }
   },
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "estabelecimentos": [
     {
       "cnpj": "56268982000151",
@@ -40,15 +45,27 @@
       "numero_imovel": "73",
       "bairro": "CENTRO",
       "cep": "57750000",
+<<<<<<< HEAD
+      "codigo_ibge": "2707602",
+      "municipio": "Quebrangulo",
+      "latitude": -9.6648573,
+      "longitude": -35.7376698,
+      "valor_minimo": 6.8966,
+      "valor_maximo": 6.9,
+      "valor_medio": 6.8989,
+      "valor_recente": 6.8989,
+      "data_recente": "2026-04-15T20:34:35+00:00"
+=======
       "codigo_ibge": 2707602,
       "municipio": "QUEBRANGULO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.89893066574681,
-      "valor_maximo": 6.89893066574681,
-      "valor_medio": 6.89893066574681,
-      "valor_recente": 6.89893066574681,
-      "data_recente": "2026-04-15T20:34:35Z"
+      "valor_minimo": 6.896551724137931,
+      "valor_maximo": 6.896551724137931,
+      "valor_medio": 6.896551724137931,
+      "valor_recente": 6.896551724137931,
+      "data_recente": "2026-04-15T22:52:55Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "51723624000178",
@@ -60,6 +77,17 @@
       "numero_imovel": "S/N",
       "bairro": "CENTRO",
       "cep": "57750000",
+<<<<<<< HEAD
+      "codigo_ibge": "2707602",
+      "municipio": "Quebrangulo",
+      "latitude": -9.3232805,
+      "longitude": -36.4760532,
+      "valor_minimo": 6.8966,
+      "valor_maximo": 6.9,
+      "valor_medio": 6.8994,
+      "valor_recente": 6.8989,
+      "data_recente": "2026-04-15T20:37:41+00:00"
+=======
       "codigo_ibge": 2707602,
       "municipio": "QUEBRANGULO",
       "latitude": 0,
@@ -68,7 +96,8 @@
       "valor_maximo": 6.89893066574681,
       "valor_medio": 6.89893066574681,
       "valor_recente": 6.89893066574681,
-      "data_recente": "2026-04-15T20:37:41Z"
+      "data_recente": "2026-04-15T23:24:25Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "51723624000178",
@@ -80,15 +109,27 @@
       "numero_imovel": "S/N",
       "bairro": "CENTRO",
       "cep": "57750000",
+<<<<<<< HEAD
+      "codigo_ibge": "2707602",
+      "municipio": "Quebrangulo",
+      "latitude": -9.3232805,
+      "longitude": -36.4760532,
+      "valor_minimo": 7.0969,
+      "valor_maximo": 7.1,
+      "valor_medio": 7.0992,
+      "valor_recente": 7.0969,
+      "data_recente": "2026-04-15T20:01:35+00:00"
+=======
       "codigo_ibge": 2707602,
       "municipio": "QUEBRANGULO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.09692671394799,
-      "valor_maximo": 7.09692671394799,
-      "valor_medio": 7.09692671394799,
-      "valor_recente": 7.09692671394799,
-      "data_recente": "2026-04-15T20:01:35Z"
+      "valor_minimo": 7.099247479767144,
+      "valor_maximo": 7.099247479767144,
+      "valor_medio": 7.099247479767144,
+      "valor_recente": 7.099247479767144,
+      "data_recente": "2026-04-15T23:08:11Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "56268982000151",
@@ -100,15 +141,27 @@
       "numero_imovel": "73",
       "bairro": "CENTRO",
       "cep": "57750000",
+<<<<<<< HEAD
+      "codigo_ibge": "2707602",
+      "municipio": "Quebrangulo",
+      "latitude": -9.6648573,
+      "longitude": -35.7376698,
+      "valor_minimo": 5.8173,
+      "valor_maximo": 5.82,
+      "valor_medio": 5.8195,
+      "valor_recente": 5.8199,
+      "data_recente": "2026-04-15T21:26:04+00:00"
+=======
       "codigo_ibge": 2707602,
       "municipio": "QUEBRANGULO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.819865544721963,
-      "valor_maximo": 5.819865544721963,
-      "valor_medio": 5.819865544721963,
-      "valor_recente": 5.819865544721963,
-      "data_recente": "2026-04-15T21:26:04Z"
+      "valor_minimo": 5.819874872690237,
+      "valor_maximo": 5.819874872690237,
+      "valor_medio": 5.819874872690237,
+      "valor_recente": 5.819874872690237,
+      "data_recente": "2026-04-15T22:52:55Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "51723624000178",
@@ -120,15 +173,27 @@
       "numero_imovel": "S/N",
       "bairro": "CENTRO",
       "cep": "57750000",
+<<<<<<< HEAD
+      "codigo_ibge": "2707602",
+      "municipio": "Quebrangulo",
+      "latitude": -9.3232805,
+      "longitude": -36.4760532,
+      "valor_minimo": 7.6766,
+      "valor_maximo": 7.8,
+      "valor_medio": 7.7925,
+      "valor_recente": 7.8,
+      "data_recente": "2026-04-15T20:55:09+00:00"
+=======
       "codigo_ibge": 2707602,
       "municipio": "QUEBRANGULO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.8,
-      "valor_maximo": 7.8,
-      "valor_medio": 7.8,
-      "valor_recente": 7.8,
-      "data_recente": "2026-04-15T20:55:09Z"
+      "valor_minimo": 7.799703611262772,
+      "valor_maximo": 7.799703611262772,
+      "valor_medio": 7.799703611262772,
+      "valor_recente": 7.799703611262772,
+      "data_recente": "2026-04-15T23:06:31Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     }
   ]
 }

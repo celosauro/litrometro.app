@@ -1,40 +1,12 @@
 {
   "codigoIBGE": "2700706",
   "municipio": "Batalha",
-  "atualizadoEm": "2026-04-15T21:44:28.430Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+=======
+  "atualizadoEm": "2026-04-15T23:36:44.172Z",
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "totalEstabelecimentos": 13,
-  "combustiveis": {
-    "1": {
-      "totalPostos": 4,
-      "valorMinimo": 6.85,
-      "valorMaximo": 7.148409893992933,
-      "valorMedio": 7.039626116322211
-    },
-    "2": {
-      "totalPostos": 2,
-      "valorMinimo": 6.8493150684931505,
-      "valorMaximo": 7.178750897343862,
-      "valorMedio": 7.014032982918506
-    },
-    "3": {
-      "totalPostos": 2,
-      "valorMinimo": 5.2498687664042,
-      "valorMaximo": 6.179514908079716,
-      "valorMedio": 5.714691837241958
-    },
-    "4": {
-      "totalPostos": 1,
-      "valorMinimo": 8.499575191163975,
-      "valorMaximo": 8.499575191163975,
-      "valorMedio": 8.499575191163975
-    },
-    "5": {
-      "totalPostos": 4,
-      "valorMinimo": 7.299925018745314,
-      "valorMaximo": 7.989957285134227,
-      "valorMedio": 7.657391759013957
-    }
-  },
   "estabelecimentos": [
     {
       "cnpj": "12204558000178",
@@ -46,15 +18,15 @@
       "numero_imovel": "11",
       "bairro": "CENTRO",
       "cep": "57421765",
-      "codigo_ibge": 2700706,
-      "municipio": "BATALHA",
-      "latitude": -9.674044,
-      "longitude": -37.128221,
-      "valor_minimo": 6.85,
-      "valor_maximo": 6.85,
-      "valor_medio": 6.85,
+      "codigo_ibge": "2700706",
+      "municipio": "Batalha",
+      "latitude": -9.672892,
+      "longitude": -37.1357254,
+      "valor_minimo": 6.8493,
+      "valor_maximo": 7.349,
+      "valor_medio": 6.9502,
       "valor_recente": 6.85,
-      "data_recente": "2026-04-15T21:30:10Z"
+      "data_recente": "2026-04-15T21:30:10+00:00"
     },
     {
       "cnpj": "11206098000154",
@@ -66,15 +38,15 @@
       "numero_imovel": "265",
       "bairro": "SAO JOSE",
       "cep": "57420670",
-      "codigo_ibge": 2700706,
-      "municipio": "BATALHA",
+      "codigo_ibge": "2700706",
+      "municipio": "Batalha",
       "latitude": -9.674948,
       "longitude": -37.125839,
-      "valor_minimo": 7.079905892050626,
-      "valor_maximo": 7.079905892050626,
-      "valor_medio": 7.079905892050626,
-      "valor_recente": 7.079905892050626,
-      "data_recente": "2026-04-15T21:25:49Z"
+      "valor_minimo": 5.7499,
+      "valor_maximo": 7.35,
+      "valor_medio": 7.0345,
+      "valor_recente": 7.0799,
+      "data_recente": "2026-04-15T21:25:49+00:00"
     },
     {
       "cnpj": "11376961000111",
@@ -86,15 +58,15 @@
       "numero_imovel": "5",
       "bairro": "CENTRO",
       "cep": "57421715",
-      "codigo_ibge": 2700706,
-      "municipio": "BATALHA",
-      "latitude": -9.674948,
-      "longitude": -37.125839,
-      "valor_minimo": 7.080188679245283,
-      "valor_maximo": 7.080188679245283,
-      "valor_medio": 7.080188679245283,
-      "valor_recente": 7.080188679245283,
-      "data_recente": "2026-04-15T21:30:37Z"
+      "codigo_ibge": "2700706",
+      "municipio": "Batalha",
+      "latitude": -9.675124,
+      "longitude": -37.1326609,
+      "valor_minimo": 6.7368,
+      "valor_maximo": 7.0802,
+      "valor_medio": 6.7716,
+      "valor_recente": 7.0802,
+      "data_recente": "2026-04-15T21:30:37+00:00"
     },
     {
       "cnpj": "15739214000151",
@@ -106,15 +78,15 @@
       "numero_imovel": "1500",
       "bairro": "RODOVIA",
       "cep": "57420000",
-      "codigo_ibge": 2700706,
-      "municipio": "BATALHA",
-      "latitude": -9.7734693,
-      "longitude": -36.0966998,
-      "valor_minimo": 7.148409893992933,
-      "valor_maximo": 7.148409893992933,
-      "valor_medio": 7.148409893992933,
-      "valor_recente": 7.148409893992933,
-      "data_recente": "2026-04-15T21:02:08Z"
+      "codigo_ibge": "2700706",
+      "municipio": "Batalha",
+      "latitude": -9.665694199999999,
+      "longitude": -37.1296186,
+      "valor_minimo": 6.799,
+      "valor_maximo": 7.15,
+      "valor_medio": 6.8295,
+      "valor_recente": 7.1484,
+      "data_recente": "2026-04-15T21:02:08+00:00"
     },
     {
       "cnpj": "12204558000178",
@@ -126,15 +98,15 @@
       "numero_imovel": "11",
       "bairro": "CENTRO",
       "cep": "57421765",
-      "codigo_ibge": 2700706,
-      "municipio": "BATALHA",
-      "latitude": -9.674044,
-      "longitude": -37.128221,
-      "valor_minimo": 6.8493150684931505,
-      "valor_maximo": 6.8493150684931505,
-      "valor_medio": 6.8493150684931505,
-      "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-15T21:30:16Z"
+      "codigo_ibge": "2700706",
+      "municipio": "Batalha",
+      "latitude": -9.672892,
+      "longitude": -37.1357254,
+      "valor_minimo": 6.8493,
+      "valor_maximo": 6.9814,
+      "valor_medio": 6.9451,
+      "valor_recente": 6.8493,
+      "data_recente": "2026-04-15T21:30:16+00:00"
     },
     {
       "cnpj": "11206098000154",
@@ -146,15 +118,15 @@
       "numero_imovel": "265",
       "bairro": "SAO JOSE",
       "cep": "57420670",
-      "codigo_ibge": 2700706,
-      "municipio": "BATALHA",
+      "codigo_ibge": "2700706",
+      "municipio": "Batalha",
       "latitude": -9.674948,
       "longitude": -37.125839,
-      "valor_minimo": 7.178750897343862,
-      "valor_maximo": 7.178750897343862,
-      "valor_medio": 7.178750897343862,
-      "valor_recente": 7.178750897343862,
-      "data_recente": "2026-04-15T21:15:05Z"
+      "valor_minimo": 7.1736,
+      "valor_maximo": 7.4499,
+      "valor_medio": 7.2017,
+      "valor_recente": 7.1788,
+      "data_recente": "2026-04-15T21:15:05+00:00"
     },
     {
       "cnpj": "11376961000111",
@@ -166,15 +138,15 @@
       "numero_imovel": "5",
       "bairro": "CENTRO",
       "cep": "57421715",
-      "codigo_ibge": 2700706,
-      "municipio": "BATALHA",
-      "latitude": -9.674948,
-      "longitude": -37.125839,
-      "valor_minimo": 5.2498687664042,
-      "valor_maximo": 5.2498687664042,
-      "valor_medio": 5.2498687664042,
-      "valor_recente": 5.2498687664042,
-      "data_recente": "2026-04-15T21:25:32Z"
+      "codigo_ibge": "2700706",
+      "municipio": "Batalha",
+      "latitude": -9.675124,
+      "longitude": -37.1326609,
+      "valor_minimo": 5.2474,
+      "valor_maximo": 5.2513,
+      "valor_medio": 5.2498,
+      "valor_recente": 5.2499,
+      "data_recente": "2026-04-15T21:25:32+00:00"
     },
     {
       "cnpj": "11206098000154",
@@ -186,15 +158,15 @@
       "numero_imovel": "265",
       "bairro": "SAO JOSE",
       "cep": "57420670",
-      "codigo_ibge": 2700706,
-      "municipio": "BATALHA",
+      "codigo_ibge": "2700706",
+      "municipio": "Batalha",
       "latitude": -9.674948,
       "longitude": -37.125839,
-      "valor_minimo": 6.179514908079716,
-      "valor_maximo": 6.179514908079716,
-      "valor_medio": 6.179514908079716,
-      "valor_recente": 6.179514908079716,
-      "data_recente": "2026-04-15T21:30:11Z"
+      "valor_minimo": 6.1728,
+      "valor_maximo": 6.39,
+      "valor_medio": 6.2081,
+      "valor_recente": 6.1795,
+      "data_recente": "2026-04-15T21:30:11+00:00"
     },
     {
       "cnpj": "15739214000151",
@@ -206,15 +178,15 @@
       "numero_imovel": "1500",
       "bairro": "RODOVIA",
       "cep": "57420000",
-      "codigo_ibge": 2700706,
-      "municipio": "BATALHA",
-      "latitude": -9.7734693,
-      "longitude": -36.0966998,
-      "valor_minimo": 8.499575191163975,
-      "valor_maximo": 8.499575191163975,
-      "valor_medio": 8.499575191163975,
-      "valor_recente": 8.499575191163975,
-      "data_recente": "2026-04-15T20:56:11Z"
+      "codigo_ibge": "2700706",
+      "municipio": "Batalha",
+      "latitude": -9.665694199999999,
+      "longitude": -37.1296186,
+      "valor_minimo": 8.4988,
+      "valor_maximo": 8.5005,
+      "valor_medio": 8.4997,
+      "valor_recente": 8.4996,
+      "data_recente": "2026-04-15T20:56:11+00:00"
     },
     {
       "cnpj": "15739214000151",
@@ -226,15 +198,15 @@
       "numero_imovel": "1500",
       "bairro": "RODOVIA",
       "cep": "57420000",
-      "codigo_ibge": 2700706,
-      "municipio": "BATALHA",
-      "latitude": -9.7734693,
-      "longitude": -36.0966998,
-      "valor_minimo": 7.299925018745314,
-      "valor_maximo": 7.299925018745314,
-      "valor_medio": 7.299925018745314,
-      "valor_recente": 7.299925018745314,
-      "data_recente": "2026-04-15T21:01:22Z"
+      "codigo_ibge": "2700706",
+      "municipio": "Batalha",
+      "latitude": -9.665694199999999,
+      "longitude": -37.1296186,
+      "valor_minimo": 7.2993,
+      "valor_maximo": 7.3002,
+      "valor_medio": 7.2999,
+      "valor_recente": 7.2999,
+      "data_recente": "2026-04-15T21:01:22+00:00"
     },
     {
       "cnpj": "11376961000111",
@@ -246,15 +218,15 @@
       "numero_imovel": "5",
       "bairro": "CENTRO",
       "cep": "57421715",
-      "codigo_ibge": 2700706,
-      "municipio": "BATALHA",
-      "latitude": -9.674948,
-      "longitude": -37.125839,
-      "valor_minimo": 7.649847094801223,
-      "valor_maximo": 7.649847094801223,
-      "valor_medio": 7.649847094801223,
-      "valor_recente": 7.649847094801223,
-      "data_recente": "2026-04-15T21:27:25Z"
+      "codigo_ibge": "2700706",
+      "municipio": "Batalha",
+      "latitude": -9.675124,
+      "longitude": -37.1326609,
+      "valor_minimo": 7.6498,
+      "valor_maximo": 7.6503,
+      "valor_medio": 7.65,
+      "valor_recente": 7.6498,
+      "data_recente": "2026-04-15T21:27:25+00:00"
     },
     {
       "cnpj": "12204558000178",
@@ -266,15 +238,15 @@
       "numero_imovel": "11",
       "bairro": "CENTRO",
       "cep": "57421765",
-      "codigo_ibge": 2700706,
-      "municipio": "BATALHA",
-      "latitude": -9.674044,
-      "longitude": -37.128221,
-      "valor_minimo": 7.689837637375062,
-      "valor_maximo": 7.689837637375062,
-      "valor_medio": 7.689837637375062,
-      "valor_recente": 7.689837637375062,
-      "data_recente": "2026-04-15T21:07:11Z"
+      "codigo_ibge": "2700706",
+      "municipio": "Batalha",
+      "latitude": -9.672892,
+      "longitude": -37.1357254,
+      "valor_minimo": 7.584,
+      "valor_maximo": 8.1,
+      "valor_medio": 7.6957,
+      "valor_recente": 7.6898,
+      "data_recente": "2026-04-15T21:07:11+00:00"
     },
     {
       "cnpj": "11206098000154",
@@ -286,15 +258,15 @@
       "numero_imovel": "265",
       "bairro": "SAO JOSE",
       "cep": "57420670",
-      "codigo_ibge": 2700706,
-      "municipio": "BATALHA",
+      "codigo_ibge": "2700706",
+      "municipio": "Batalha",
       "latitude": -9.674948,
       "longitude": -37.125839,
-      "valor_minimo": 7.989957285134227,
-      "valor_maximo": 7.989957285134227,
-      "valor_medio": 7.989957285134227,
-      "valor_recente": 7.989957285134227,
-      "data_recente": "2026-04-15T21:26:48Z"
+      "valor_minimo": 7.3998,
+      "valor_maximo": 7.99,
+      "valor_medio": 7.7514,
+      "valor_recente": 7.99,
+      "data_recente": "2026-04-15T21:26:48+00:00"
     }
   ]
 }

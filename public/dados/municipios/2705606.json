@@ -1,28 +1,33 @@
 {
   "codigoIBGE": "2705606",
   "municipio": "Novo Lino",
-  "atualizadoEm": "2026-04-15T22:10:53.678Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+  "totalEstabelecimentos": 6,
+=======
+  "atualizadoEm": "2026-04-16T00:05:35.733Z",
   "totalEstabelecimentos": 6,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
       "valorMinimo": 6.989748369058714,
-      "valorMaximo": 6.99,
-      "valorMedio": 6.9898741845293575
+      "valorMaximo": 7.189519023689878,
+      "valorMedio": 7.089633696374296
     },
     "3": {
       "totalPostos": 2,
       "valorMinimo": 5.789717461787864,
-      "valorMaximo": 5.880001175882647,
-      "valorMedio": 5.834859318835256
+      "valorMaximo": 5.880007889248382,
+      "valorMedio": 5.8348626755181225
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.41,
+      "valorMinimo": 7.41000602727763,
       "valorMaximo": 7.62997400519896,
-      "valorMedio": 7.51998700259948
+      "valorMedio": 7.519990016238295
     }
   },
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "estabelecimentos": [
     {
       "cnpj": "16674625000179",
@@ -34,15 +39,23 @@
       "numero_imovel": "110",
       "bairro": "CENTRO",
       "cep": "57970000",
-      "codigo_ibge": 2705606,
-      "municipio": "NOVO LINO",
+      "codigo_ibge": "2705606",
+      "municipio": "Novo Lino",
       "latitude": -8.944574,
       "longitude": -35.666326,
+<<<<<<< HEAD
+      "valor_minimo": 6.9874,
+      "valor_maximo": 7.34,
+      "valor_medio": 7.059,
+      "valor_recente": 6.9897,
+      "data_recente": "2026-04-15T19:00:48+00:00"
+=======
       "valor_minimo": 6.989748369058714,
       "valor_maximo": 6.989748369058714,
       "valor_medio": 6.989748369058714,
       "valor_recente": 6.989748369058714,
-      "data_recente": "2026-04-15T19:00:48Z"
+      "data_recente": "2026-04-15T23:33:29Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "41163486000247",
@@ -54,15 +67,23 @@
       "numero_imovel": "SN",
       "bairro": "ZONA RURAL",
       "cep": "57970000",
-      "codigo_ibge": 2705606,
-      "municipio": "NOVO LINO",
+      "codigo_ibge": "2705606",
+      "municipio": "Novo Lino",
       "latitude": -8.941455699999999,
       "longitude": -35.6627226,
-      "valor_minimo": 6.99,
-      "valor_maximo": 6.99,
-      "valor_medio": 6.99,
+<<<<<<< HEAD
+      "valor_minimo": 6.8499,
+      "valor_maximo": 7.2601,
+      "valor_medio": 7.0142,
       "valor_recente": 6.99,
-      "data_recente": "2026-04-15T21:28:12Z"
+      "data_recente": "2026-04-15T21:28:12+00:00"
+=======
+      "valor_minimo": 7.189519023689878,
+      "valor_maximo": 7.189519023689878,
+      "valor_medio": 7.189519023689878,
+      "valor_recente": 7.189519023689878,
+      "data_recente": "2026-04-15T23:03:38Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "16674625000179",
@@ -74,15 +95,23 @@
       "numero_imovel": "110",
       "bairro": "CENTRO",
       "cep": "57970000",
-      "codigo_ibge": 2705606,
-      "municipio": "NOVO LINO",
+      "codigo_ibge": "2705606",
+      "municipio": "Novo Lino",
       "latitude": -8.944574,
       "longitude": -35.666326,
+<<<<<<< HEAD
+      "valor_minimo": 5.5866,
+      "valor_maximo": 5.79,
+      "valor_medio": 5.7005,
+      "valor_recente": 5.7897,
+      "data_recente": "2026-04-15T18:59:11+00:00"
+=======
       "valor_minimo": 5.789717461787864,
       "valor_maximo": 5.789717461787864,
       "valor_medio": 5.789717461787864,
       "valor_recente": 5.789717461787864,
-      "data_recente": "2026-04-15T18:59:11Z"
+      "data_recente": "2026-04-15T23:30:25Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "41163486000247",
@@ -94,15 +123,23 @@
       "numero_imovel": "SN",
       "bairro": "ZONA RURAL",
       "cep": "57970000",
-      "codigo_ibge": 2705606,
-      "municipio": "NOVO LINO",
+      "codigo_ibge": "2705606",
+      "municipio": "Novo Lino",
       "latitude": -8.941455699999999,
       "longitude": -35.6627226,
-      "valor_minimo": 5.880001175882647,
-      "valor_maximo": 5.880001175882647,
-      "valor_medio": 5.880001175882647,
-      "valor_recente": 5.880001175882647,
-      "data_recente": "2026-04-15T20:49:08Z"
+<<<<<<< HEAD
+      "valor_minimo": 5.5,
+      "valor_maximo": 6.1098,
+      "valor_medio": 5.8994,
+      "valor_recente": 5.88,
+      "data_recente": "2026-04-15T20:49:08+00:00"
+=======
+      "valor_minimo": 5.880007889248382,
+      "valor_maximo": 5.880007889248382,
+      "valor_medio": 5.880007889248382,
+      "valor_recente": 5.880007889248382,
+      "data_recente": "2026-04-15T22:19:26Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "41163486000247",
@@ -114,15 +151,23 @@
       "numero_imovel": "SN",
       "bairro": "ZONA RURAL",
       "cep": "57970000",
-      "codigo_ibge": 2705606,
-      "municipio": "NOVO LINO",
+      "codigo_ibge": "2705606",
+      "municipio": "Novo Lino",
       "latitude": -8.941455699999999,
       "longitude": -35.6627226,
-      "valor_minimo": 7.41,
-      "valor_maximo": 7.41,
-      "valor_medio": 7.41,
+<<<<<<< HEAD
+      "valor_minimo": 7.4095,
+      "valor_maximo": 7.9001,
+      "valor_medio": 7.5258,
       "valor_recente": 7.41,
-      "data_recente": "2026-04-15T21:09:28Z"
+      "data_recente": "2026-04-15T21:09:28+00:00"
+=======
+      "valor_minimo": 7.41000602727763,
+      "valor_maximo": 7.41000602727763,
+      "valor_medio": 7.41000602727763,
+      "valor_recente": 7.41000602727763,
+      "data_recente": "2026-04-15T22:52:00Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "16674625000179",
@@ -134,15 +179,15 @@
       "numero_imovel": "110",
       "bairro": "CENTRO",
       "cep": "57970000",
-      "codigo_ibge": 2705606,
-      "municipio": "NOVO LINO",
+      "codigo_ibge": "2705606",
+      "municipio": "Novo Lino",
       "latitude": -8.944574,
       "longitude": -35.666326,
-      "valor_minimo": 7.62997400519896,
-      "valor_maximo": 7.62997400519896,
-      "valor_medio": 7.62997400519896,
-      "valor_recente": 7.62997400519896,
-      "data_recente": "2026-04-15T21:25:16Z"
+      "valor_minimo": 7.5897,
+      "valor_maximo": 7.9697,
+      "valor_medio": 7.8097,
+      "valor_recente": 7.63,
+      "data_recente": "2026-04-15T21:25:16+00:00"
     }
   ]
 }

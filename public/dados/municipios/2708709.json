@@ -1,34 +1,39 @@
 {
   "codigoIBGE": "2708709",
   "municipio": "São Miguel dos Milagres",
-  "atualizadoEm": "2026-04-15T22:24:37.907Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+  "totalEstabelecimentos": 10,
+=======
+  "atualizadoEm": "2026-04-16T00:25:18.148Z",
   "totalEstabelecimentos": 10,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 7.090522335145356,
-      "valorMaximo": 7.099290780141844,
-      "valorMedio": 7.094906557643601
+      "valorMinimo": 7.091549295774648,
+      "valorMaximo": 7.099391480730223,
+      "valorMedio": 7.095470388252435
     },
     "2": {
       "totalPostos": 2,
       "valorMinimo": 7.100283822138127,
-      "valorMaximo": 7.199376573552332,
-      "valorMedio": 7.14983019784523
+      "valorMaximo": 7.197802197802198,
+      "valorMedio": 7.149043009970162
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 5.699754901960785,
-      "valorMaximo": 5.85000585000585,
-      "valorMedio": 5.783408263029869
+      "valorMinimo": 5.699850656159639,
+      "valorMaximo": 5.850234009360374,
+      "valorMedio": 5.783516234214328
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.699711260827719,
+      "valorMinimo": 7.699810071351573,
       "valorMaximo": 7.800293294227436,
-      "valorMedio": 7.753354510501126
+      "valorMedio": 7.753387447342409
     }
   },
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "estabelecimentos": [
     {
       "cnpj": "03223071000141",
@@ -40,15 +45,27 @@
       "numero_imovel": "SN",
       "bairro": "POVOADO TOQUE",
       "cep": "57940000",
+<<<<<<< HEAD
+      "codigo_ibge": "2708709",
+      "municipio": "São Miguel dos Milagres",
+      "latitude": -9.2493097,
+      "longitude": -35.3636093,
+      "valor_minimo": 7.0887,
+      "valor_maximo": 7.0922,
+      "valor_medio": 7.0902,
+      "valor_recente": 7.0905,
+      "data_recente": "2026-04-15T21:23:51+00:00"
+=======
       "codigo_ibge": 2708709,
       "municipio": "SAO MIGUEL DOS MILAGRES",
       "latitude": -9.251842,
       "longitude": -35.353021,
-      "valor_minimo": 7.090522335145356,
-      "valor_maximo": 7.090522335145356,
-      "valor_medio": 7.090522335145356,
-      "valor_recente": 7.090522335145356,
-      "data_recente": "2026-04-15T21:23:51Z"
+      "valor_minimo": 7.091549295774648,
+      "valor_maximo": 7.091549295774648,
+      "valor_medio": 7.091549295774648,
+      "valor_recente": 7.091549295774648,
+      "data_recente": "2026-04-15T22:43:56Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "21222600000174",
@@ -60,15 +77,23 @@
       "numero_imovel": "SN",
       "bairro": "ZONA URBANA",
       "cep": "57940000",
-      "codigo_ibge": 2708709,
-      "municipio": "SAO MIGUEL DOS MILAGRES",
+      "codigo_ibge": "2708709",
+      "municipio": "São Miguel dos Milagres",
       "latitude": -9.2686747,
       "longitude": -35.374671,
-      "valor_minimo": 7.099290780141844,
-      "valor_maximo": 7.099290780141844,
-      "valor_medio": 7.099290780141844,
-      "valor_recente": 7.099290780141844,
-      "data_recente": "2026-04-15T20:43:27Z"
+<<<<<<< HEAD
+      "valor_minimo": 7.0972,
+      "valor_maximo": 7.1,
+      "valor_medio": 7.0995,
+      "valor_recente": 7.0993,
+      "data_recente": "2026-04-15T20:43:27+00:00"
+=======
+      "valor_minimo": 7.099391480730223,
+      "valor_maximo": 7.099391480730223,
+      "valor_medio": 7.099391480730223,
+      "valor_recente": 7.099391480730223,
+      "data_recente": "2026-04-15T23:02:08Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "10495659000110",
@@ -80,15 +105,15 @@
       "numero_imovel": "S/N",
       "bairro": "PORTO DA RUA",
       "cep": "57940000",
-      "codigo_ibge": 2708709,
-      "municipio": "SAO MIGUEL DOS MILAGRES",
-      "latitude": -9.3121016,
-      "longitude": -35.4165168,
-      "valor_minimo": 7.100283822138127,
-      "valor_maximo": 7.100283822138127,
-      "valor_medio": 7.100283822138127,
-      "valor_recente": 7.100283822138127,
-      "data_recente": "2026-04-15T19:34:34Z"
+      "codigo_ibge": "2708709",
+      "municipio": "São Miguel dos Milagres",
+      "latitude": -9.2470351,
+      "longitude": -35.4791364,
+      "valor_minimo": 7.0971,
+      "valor_maximo": 7.1023,
+      "valor_medio": 7.0999,
+      "valor_recente": 7.1003,
+      "data_recente": "2026-04-15T19:34:34+00:00"
     },
     {
       "cnpj": "21222600000174",
@@ -100,15 +125,23 @@
       "numero_imovel": "SN",
       "bairro": "ZONA URBANA",
       "cep": "57940000",
-      "codigo_ibge": 2708709,
-      "municipio": "SAO MIGUEL DOS MILAGRES",
+      "codigo_ibge": "2708709",
+      "municipio": "São Miguel dos Milagres",
       "latitude": -9.2686747,
       "longitude": -35.374671,
-      "valor_minimo": 7.199376573552332,
-      "valor_maximo": 7.199376573552332,
-      "valor_medio": 7.199376573552332,
-      "valor_recente": 7.199376573552332,
-      "data_recente": "2026-04-15T18:00:19Z"
+<<<<<<< HEAD
+      "valor_minimo": 7.1976,
+      "valor_maximo": 7.1994,
+      "valor_medio": 7.1992,
+      "valor_recente": 7.1994,
+      "data_recente": "2026-04-15T18:00:19+00:00"
+=======
+      "valor_minimo": 7.197802197802198,
+      "valor_maximo": 7.197802197802198,
+      "valor_medio": 7.197802197802198,
+      "valor_recente": 7.197802197802198,
+      "data_recente": "2026-04-15T23:02:08Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "21222600000174",
@@ -120,15 +153,23 @@
       "numero_imovel": "SN",
       "bairro": "ZONA URBANA",
       "cep": "57940000",
-      "codigo_ibge": 2708709,
-      "municipio": "SAO MIGUEL DOS MILAGRES",
+      "codigo_ibge": "2708709",
+      "municipio": "São Miguel dos Milagres",
       "latitude": -9.2686747,
       "longitude": -35.374671,
-      "valor_minimo": 5.699754901960785,
-      "valor_maximo": 5.699754901960785,
-      "valor_medio": 5.699754901960785,
-      "valor_recente": 5.699754901960785,
-      "data_recente": "2026-04-15T16:42:13Z"
+<<<<<<< HEAD
+      "valor_minimo": 5.6991,
+      "valor_maximo": 5.7,
+      "valor_medio": 5.6997,
+      "valor_recente": 5.6998,
+      "data_recente": "2026-04-15T16:42:13+00:00"
+=======
+      "valor_minimo": 5.699850656159639,
+      "valor_maximo": 5.699850656159639,
+      "valor_medio": 5.699850656159639,
+      "valor_recente": 5.699850656159639,
+      "data_recente": "2026-04-15T23:02:08Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "10495659000110",
@@ -140,15 +181,15 @@
       "numero_imovel": "S/N",
       "bairro": "PORTO DA RUA",
       "cep": "57940000",
-      "codigo_ibge": 2708709,
-      "municipio": "SAO MIGUEL DOS MILAGRES",
-      "latitude": -9.3121016,
-      "longitude": -35.4165168,
-      "valor_minimo": 5.800464037122969,
-      "valor_maximo": 5.800464037122969,
-      "valor_medio": 5.800464037122969,
-      "valor_recente": 5.800464037122969,
-      "data_recente": "2026-04-15T18:44:20Z"
+      "codigo_ibge": "2708709",
+      "municipio": "São Miguel dos Milagres",
+      "latitude": -9.2470351,
+      "longitude": -35.4791364,
+      "valor_minimo": 5.7994,
+      "valor_maximo": 5.8005,
+      "valor_medio": 5.8001,
+      "valor_recente": 5.8005,
+      "data_recente": "2026-04-15T18:44:20+00:00"
     },
     {
       "cnpj": "03223071000141",
@@ -160,15 +201,27 @@
       "numero_imovel": "SN",
       "bairro": "POVOADO TOQUE",
       "cep": "57940000",
+<<<<<<< HEAD
+      "codigo_ibge": "2708709",
+      "municipio": "São Miguel dos Milagres",
+      "latitude": -9.2493097,
+      "longitude": -35.3636093,
+      "valor_minimo": 5.8497,
+      "valor_maximo": 5.8514,
+      "valor_medio": 5.85,
+      "valor_recente": 5.85,
+      "data_recente": "2026-04-15T21:03:19+00:00"
+=======
       "codigo_ibge": 2708709,
       "municipio": "SAO MIGUEL DOS MILAGRES",
       "latitude": -9.251842,
       "longitude": -35.353021,
-      "valor_minimo": 5.85000585000585,
-      "valor_maximo": 5.85000585000585,
-      "valor_medio": 5.85000585000585,
-      "valor_recente": 5.85000585000585,
-      "data_recente": "2026-04-15T21:03:19Z"
+      "valor_minimo": 5.850234009360374,
+      "valor_maximo": 5.850234009360374,
+      "valor_medio": 5.850234009360374,
+      "valor_recente": 5.850234009360374,
+      "data_recente": "2026-04-15T22:43:56Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "21222600000174",
@@ -180,15 +233,23 @@
       "numero_imovel": "SN",
       "bairro": "ZONA URBANA",
       "cep": "57940000",
-      "codigo_ibge": 2708709,
-      "municipio": "SAO MIGUEL DOS MILAGRES",
+      "codigo_ibge": "2708709",
+      "municipio": "São Miguel dos Milagres",
       "latitude": -9.2686747,
       "longitude": -35.374671,
-      "valor_minimo": 7.699711260827719,
-      "valor_maximo": 7.699711260827719,
-      "valor_medio": 7.699711260827719,
-      "valor_recente": 7.699711260827719,
-      "data_recente": "2026-04-15T20:43:27Z"
+<<<<<<< HEAD
+      "valor_minimo": 7.4999,
+      "valor_maximo": 7.7,
+      "valor_medio": 7.6917,
+      "valor_recente": 7.6997,
+      "data_recente": "2026-04-15T20:43:27+00:00"
+=======
+      "valor_minimo": 7.699810071351573,
+      "valor_maximo": 7.699810071351573,
+      "valor_medio": 7.699810071351573,
+      "valor_recente": 7.699810071351573,
+      "data_recente": "2026-04-15T23:02:08Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "03223071000141",
@@ -200,6 +261,17 @@
       "numero_imovel": "SN",
       "bairro": "POVOADO TOQUE",
       "cep": "57940000",
+<<<<<<< HEAD
+      "codigo_ibge": "2708709",
+      "municipio": "São Miguel dos Milagres",
+      "latitude": -9.2493097,
+      "longitude": -35.3636093,
+      "valor_minimo": 7.7597,
+      "valor_maximo": 7.7615,
+      "valor_medio": 7.7601,
+      "valor_recente": 7.7601,
+      "data_recente": "2026-04-15T20:56:58+00:00"
+=======
       "codigo_ibge": 2708709,
       "municipio": "SAO MIGUEL DOS MILAGRES",
       "latitude": -9.251842,
@@ -208,7 +280,8 @@
       "valor_maximo": 7.760058976448221,
       "valor_medio": 7.760058976448221,
       "valor_recente": 7.760058976448221,
-      "data_recente": "2026-04-15T20:56:58Z"
+      "data_recente": "2026-04-15T22:42:25Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "10495659000110",
@@ -220,15 +293,15 @@
       "numero_imovel": "S/N",
       "bairro": "PORTO DA RUA",
       "cep": "57940000",
-      "codigo_ibge": 2708709,
-      "municipio": "SAO MIGUEL DOS MILAGRES",
-      "latitude": -9.3121016,
-      "longitude": -35.4165168,
-      "valor_minimo": 7.800293294227436,
-      "valor_maximo": 7.800293294227436,
-      "valor_medio": 7.800293294227436,
-      "valor_recente": 7.800293294227436,
-      "data_recente": "2026-04-15T18:43:50Z"
+      "codigo_ibge": "2708709",
+      "municipio": "São Miguel dos Milagres",
+      "latitude": -9.2470351,
+      "longitude": -35.4791364,
+      "valor_minimo": 7.795,
+      "valor_maximo": 7.8003,
+      "valor_medio": 7.7996,
+      "valor_recente": 7.8003,
+      "data_recente": "2026-04-15T18:43:50+00:00"
     }
   ]
 }

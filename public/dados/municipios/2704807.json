@@ -1,34 +1,39 @@
 {
   "codigoIBGE": "2704807",
   "municipio": "Maribondo",
-  "atualizadoEm": "2026-04-15T22:06:43.477Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+  "totalEstabelecimentos": 10,
+=======
+  "atualizadoEm": "2026-04-16T00:00:20.511Z",
   "totalEstabelecimentos": 10,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
-      "valorMinimo": 6.549646319098769,
-      "valorMaximo": 6.889899407468651,
-      "valorMedio": 6.729317519219854
+      "valorMinimo": 6.549955791335102,
+      "valorMaximo": 7.190106413574921,
+      "valorMedio": 6.804901262531128
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 4.99002327901563,
-      "valorMaximo": 5.089860969820278,
-      "valorMedio": 5.039942124417954
+      "valorMinimo": 4.990021951706246,
+      "valorMaximo": 5.090018449010751,
+      "valorMedio": 5.040020200358498
     },
     "4": {
       "totalPostos": 1,
-      "valorMinimo": 7.090067101408184,
-      "valorMaximo": 7.090067101408184,
-      "valorMedio": 7.090067101408184
+      "valorMinimo": 7.090163934426229,
+      "valorMaximo": 7.090163934426229,
+      "valorMedio": 7.090163934426229
     },
     "5": {
       "totalPostos": 3,
       "valorMinimo": 7.089700056593095,
-      "valorMaximo": 7.290087463556851,
-      "valorMedio": 7.223159965043908
+      "valorMaximo": 7.289943074003795,
+      "valorMedio": 7.222757622735407
     }
   },
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "estabelecimentos": [
     {
       "cnpj": "05408092000167",
@@ -40,15 +45,27 @@
       "numero_imovel": "011",
       "bairro": "POVOADO LAGEDO",
       "cep": "57670000",
+<<<<<<< HEAD
+      "codigo_ibge": "2704807",
+      "municipio": "Maribondo",
+      "latitude": -9.5796898,
+      "longitude": -36.3065469,
+      "valor_minimo": 6.5492,
+      "valor_maximo": 6.5506,
+      "valor_medio": 6.55,
+      "valor_recente": 6.5496,
+      "data_recente": "2026-04-15T21:09:19+00:00"
+=======
       "codigo_ibge": 2704807,
       "municipio": "MARIBONDO",
       "latitude": -9.5016564,
       "longitude": -36.0282483,
-      "valor_minimo": 6.549646319098769,
-      "valor_maximo": 6.549646319098769,
-      "valor_medio": 6.549646319098769,
-      "valor_recente": 6.549646319098769,
-      "data_recente": "2026-04-15T21:09:19Z"
+      "valor_minimo": 6.549955791335102,
+      "valor_maximo": 6.549955791335102,
+      "valor_medio": 6.549955791335102,
+      "valor_recente": 6.549955791335102,
+      "data_recente": "2026-04-15T23:36:41Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "05408092000400",
@@ -60,15 +77,74 @@
       "numero_imovel": "1324",
       "bairro": "CENTRO",
       "cep": "57670000",
-      "codigo_ibge": 2704807,
-      "municipio": "MARIBONDO",
+      "codigo_ibge": "2704807",
+      "municipio": "Maribondo",
       "latitude": -9.577282199999999,
       "longitude": -36.3043575,
-      "valor_minimo": 6.588299617277201,
-      "valor_maximo": 6.588299617277201,
-      "valor_medio": 6.588299617277201,
-      "valor_recente": 6.588299617277201,
-      "data_recente": "2026-04-15T21:07:25Z"
+<<<<<<< HEAD
+      "valor_minimo": 6.5883,
+      "valor_maximo": 6.591,
+      "valor_medio": 6.5901,
+      "valor_recente": 6.5883,
+      "data_recente": "2026-04-15T21:07:25+00:00"
+    },
+    {
+      "cnpj": "06964197000165",
+      "tipo_combustivel": 1,
+      "razao_social": "POSTO HOLANDA TEIXEIRA LTDA",
+      "nome_fantasia": "POSTO HOLANDA TEIXEIRA LTDA",
+      "telefone": "(82) 35303442",
+      "nome_logradouro": "AV SENADOR ARNON DE MELLO",
+      "numero_imovel": "2070",
+      "bairro": "CENTRO",
+      "cep": "57670000",
+      "codigo_ibge": "2704807",
+      "municipio": "Maribondo",
+      "latitude": -9.57722,
+      "longitude": -36.30528,
+      "valor_minimo": 6.7896,
+      "valor_maximo": 7.1901,
+      "valor_medio": 6.9166,
+      "valor_recente": 6.8894,
+      "data_recente": "2026-04-15T21:22:10+00:00"
+=======
+      "valor_minimo": 6.590909090909091,
+      "valor_maximo": 6.590909090909091,
+      "valor_medio": 6.590909090909091,
+      "valor_recente": 6.590909090909091,
+      "data_recente": "2026-04-15T23:08:22Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
+    },
+    {
+      "cnpj": "24466310000164",
+      "tipo_combustivel": 1,
+      "razao_social": "H C COMBUSTIVEIS E LUBRIFICANTES LTDA. EPP",
+      "nome_fantasia": "AUTO POSTO H C",
+      "telefone": "",
+      "nome_logradouro": "ROD RODOVIA BR 316",
+      "numero_imovel": "6000",
+      "bairro": "CENTRO",
+      "cep": "57670000",
+<<<<<<< HEAD
+      "codigo_ibge": "2704807",
+      "municipio": "Maribondo",
+      "latitude": -5.5553434,
+      "longitude": -42.6118734,
+      "valor_minimo": 6.7843,
+      "valor_maximo": 7.19,
+      "valor_medio": 6.8996,
+      "valor_recente": 6.8899,
+      "data_recente": "2026-04-15T20:58:26+00:00"
+=======
+      "codigo_ibge": 2704807,
+      "municipio": "MARIBONDO",
+      "latitude": -9.5780776,
+      "longitude": -36.3048503,
+      "valor_minimo": 6.888633754305396,
+      "valor_maximo": 6.888633754305396,
+      "valor_medio": 6.888633754305396,
+      "valor_recente": 6.888633754305396,
+      "data_recente": "2026-04-15T23:33:17Z"
     },
     {
       "cnpj": "06964197000165",
@@ -84,31 +160,12 @@
       "municipio": "MARIBONDO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.889424733034792,
-      "valor_maximo": 6.889424733034792,
-      "valor_medio": 6.889424733034792,
-      "valor_recente": 6.889424733034792,
-      "data_recente": "2026-04-15T21:22:10Z"
-    },
-    {
-      "cnpj": "24466310000164",
-      "tipo_combustivel": 1,
-      "razao_social": "H C COMBUSTIVEIS E LUBRIFICANTES LTDA. EPP",
-      "nome_fantasia": "AUTO POSTO H C",
-      "telefone": "",
-      "nome_logradouro": "ROD RODOVIA BR 316",
-      "numero_imovel": "6000",
-      "bairro": "CENTRO",
-      "cep": "57670000",
-      "codigo_ibge": 2704807,
-      "municipio": "MARIBONDO",
-      "latitude": -9.5780776,
-      "longitude": -36.3048503,
-      "valor_minimo": 6.889899407468651,
-      "valor_maximo": 6.889899407468651,
-      "valor_medio": 6.889899407468651,
-      "valor_recente": 6.889899407468651,
-      "data_recente": "2026-04-15T20:58:26Z"
+      "valor_minimo": 7.190106413574921,
+      "valor_maximo": 7.190106413574921,
+      "valor_medio": 7.190106413574921,
+      "valor_recente": 7.190106413574921,
+      "data_recente": "2026-04-15T23:31:09Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "05408092000167",
@@ -120,15 +177,27 @@
       "numero_imovel": "011",
       "bairro": "POVOADO LAGEDO",
       "cep": "57670000",
+<<<<<<< HEAD
+      "codigo_ibge": "2704807",
+      "municipio": "Maribondo",
+      "latitude": -9.5796898,
+      "longitude": -36.3065469,
+      "valor_minimo": 4.9894,
+      "valor_maximo": 4.9906,
+      "valor_medio": 4.99,
+      "valor_recente": 4.99,
+      "data_recente": "2026-04-15T21:05:00+00:00"
+=======
       "codigo_ibge": 2704807,
       "municipio": "MARIBONDO",
       "latitude": -9.5016564,
       "longitude": -36.0282483,
-      "valor_minimo": 4.99002327901563,
-      "valor_maximo": 4.99002327901563,
-      "valor_medio": 4.99002327901563,
-      "valor_recente": 4.99002327901563,
-      "data_recente": "2026-04-15T21:05:00Z"
+      "valor_minimo": 4.990021951706246,
+      "valor_maximo": 4.990021951706246,
+      "valor_medio": 4.990021951706246,
+      "valor_recente": 4.990021951706246,
+      "data_recente": "2026-04-15T22:44:28Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "05408092000400",
@@ -140,15 +209,23 @@
       "numero_imovel": "1324",
       "bairro": "CENTRO",
       "cep": "57670000",
-      "codigo_ibge": 2704807,
-      "municipio": "MARIBONDO",
+      "codigo_ibge": "2704807",
+      "municipio": "Maribondo",
       "latitude": -9.577282199999999,
       "longitude": -36.3043575,
-      "valor_minimo": 5.089860969820278,
-      "valor_maximo": 5.089860969820278,
-      "valor_medio": 5.089860969820278,
-      "valor_recente": 5.089860969820278,
-      "data_recente": "2026-04-15T20:59:58Z"
+<<<<<<< HEAD
+      "valor_minimo": 5.0889,
+      "valor_maximo": 5.0915,
+      "valor_medio": 5.09,
+      "valor_recente": 5.0899,
+      "data_recente": "2026-04-15T20:59:58+00:00"
+=======
+      "valor_minimo": 5.090018449010751,
+      "valor_maximo": 5.090018449010751,
+      "valor_medio": 5.090018449010751,
+      "valor_recente": 5.090018449010751,
+      "data_recente": "2026-04-15T21:47:39Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "05408092000167",
@@ -160,15 +237,27 @@
       "numero_imovel": "011",
       "bairro": "POVOADO LAGEDO",
       "cep": "57670000",
+<<<<<<< HEAD
+      "codigo_ibge": "2704807",
+      "municipio": "Maribondo",
+      "latitude": -9.5796898,
+      "longitude": -36.3065469,
+      "valor_minimo": 7.0892,
+      "valor_maximo": 7.0922,
+      "valor_medio": 7.0901,
+      "valor_recente": 7.0901,
+      "data_recente": "2026-04-15T21:24:55+00:00"
+=======
       "codigo_ibge": 2704807,
       "municipio": "MARIBONDO",
       "latitude": -9.5016564,
       "longitude": -36.0282483,
-      "valor_minimo": 7.090067101408184,
-      "valor_maximo": 7.090067101408184,
-      "valor_medio": 7.090067101408184,
-      "valor_recente": 7.090067101408184,
-      "data_recente": "2026-04-15T21:24:55Z"
+      "valor_minimo": 7.090163934426229,
+      "valor_maximo": 7.090163934426229,
+      "valor_medio": 7.090163934426229,
+      "valor_recente": 7.090163934426229,
+      "data_recente": "2026-04-15T23:09:59Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "05408092000400",
@@ -180,15 +269,15 @@
       "numero_imovel": "1324",
       "bairro": "CENTRO",
       "cep": "57670000",
-      "codigo_ibge": 2704807,
-      "municipio": "MARIBONDO",
+      "codigo_ibge": "2704807",
+      "municipio": "Maribondo",
       "latitude": -9.577282199999999,
       "longitude": -36.3043575,
-      "valor_minimo": 7.089700056593095,
-      "valor_maximo": 7.089700056593095,
-      "valor_medio": 7.089700056593095,
-      "valor_recente": 7.089700056593095,
-      "data_recente": "2026-04-15T20:13:00Z"
+      "valor_minimo": 7.0894,
+      "valor_maximo": 7.0907,
+      "valor_medio": 7.09,
+      "valor_recente": 7.0897,
+      "data_recente": "2026-04-15T20:13:00+00:00"
     },
     {
       "cnpj": "24466310000164",
@@ -200,15 +289,27 @@
       "numero_imovel": "6000",
       "bairro": "CENTRO",
       "cep": "57670000",
+<<<<<<< HEAD
+      "codigo_ibge": "2704807",
+      "municipio": "Maribondo",
+      "latitude": -5.5553434,
+      "longitude": -42.6118734,
+      "valor_minimo": 7.1898,
+      "valor_maximo": 7.5896,
+      "valor_medio": 7.3041,
+      "valor_recente": 7.2897,
+      "data_recente": "2026-04-15T20:58:26+00:00"
+=======
       "codigo_ibge": 2704807,
       "municipio": "MARIBONDO",
       "latitude": -9.5780776,
       "longitude": -36.3048503,
-      "valor_minimo": 7.289692374981776,
-      "valor_maximo": 7.289692374981776,
-      "valor_medio": 7.289692374981776,
-      "valor_recente": 7.289692374981776,
-      "data_recente": "2026-04-15T20:58:26Z"
+      "valor_minimo": 7.288629737609329,
+      "valor_maximo": 7.288629737609329,
+      "valor_medio": 7.288629737609329,
+      "valor_recente": 7.288629737609329,
+      "data_recente": "2026-04-15T22:36:28Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "06964197000165",
@@ -220,15 +321,27 @@
       "numero_imovel": "2070",
       "bairro": "CENTRO",
       "cep": "57670000",
+<<<<<<< HEAD
+      "codigo_ibge": "2704807",
+      "municipio": "Maribondo",
+      "latitude": -9.57722,
+      "longitude": -36.30528,
+      "valor_minimo": 7.2897,
+      "valor_maximo": 7.5901,
+      "valor_medio": 7.3144,
+      "valor_recente": 7.2901,
+      "data_recente": "2026-04-15T21:24:55+00:00"
+=======
       "codigo_ibge": 2704807,
       "municipio": "MARIBONDO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.290087463556851,
-      "valor_maximo": 7.290087463556851,
-      "valor_medio": 7.290087463556851,
-      "valor_recente": 7.290087463556851,
-      "data_recente": "2026-04-15T21:24:55Z"
+      "valor_minimo": 7.289943074003795,
+      "valor_maximo": 7.289943074003795,
+      "valor_medio": 7.289943074003795,
+      "valor_recente": 7.289943074003795,
+      "data_recente": "2026-04-15T23:13:45Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     }
   ]
 }

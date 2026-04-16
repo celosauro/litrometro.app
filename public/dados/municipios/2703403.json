@@ -1,28 +1,33 @@
 {
   "codigoIBGE": "2703403",
   "municipio": "Jacaré dos Homens",
-  "atualizadoEm": "2026-04-15T21:59:23.115Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+  "totalEstabelecimentos": 3,
+=======
+  "atualizadoEm": "2026-04-15T23:51:35.533Z",
   "totalEstabelecimentos": 3,
   "combustiveis": {
     "1": {
       "totalPostos": 1,
-      "valorMinimo": 6.968641114982578,
-      "valorMaximo": 6.968641114982578,
-      "valorMedio": 6.968641114982578
+      "valorMinimo": 6.988202637057599,
+      "valorMaximo": 6.988202637057599,
+      "valorMedio": 6.988202637057599
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.189509306260575,
-      "valorMaximo": 7.189509306260575,
-      "valorMedio": 7.189509306260575
+      "valorMinimo": 7.490075649764063,
+      "valorMaximo": 7.490075649764063,
+      "valorMedio": 7.490075649764063
     },
     "5": {
       "totalPostos": 1,
-      "valorMinimo": 7.271767810026385,
-      "valorMaximo": 7.271767810026385,
-      "valorMedio": 7.271767810026385
+      "valorMinimo": 7.303418681974481,
+      "valorMaximo": 7.303418681974481,
+      "valorMedio": 7.303418681974481
     }
   },
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "estabelecimentos": [
     {
       "cnpj": "28742913000100",
@@ -34,15 +39,27 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57430000",
+<<<<<<< HEAD
+      "codigo_ibge": "2703403",
+      "municipio": "Jacaré dos Homens",
+      "latitude": -9.6164085,
+      "longitude": -37.2194815,
+      "valor_minimo": 6.8847,
+      "valor_maximo": 7.2901,
+      "valor_medio": 7.0018,
+      "valor_recente": 6.9686,
+      "data_recente": "2026-04-15T21:18:47+00:00"
+=======
       "codigo_ibge": 2703403,
       "municipio": "JACARE DOS HOMENS",
       "latitude": -9.6314123,
       "longitude": -37.2046292,
-      "valor_minimo": 6.968641114982578,
-      "valor_maximo": 6.968641114982578,
-      "valor_medio": 6.968641114982578,
-      "valor_recente": 6.968641114982578,
-      "data_recente": "2026-04-15T21:18:47Z"
+      "valor_minimo": 6.988202637057599,
+      "valor_maximo": 6.988202637057599,
+      "valor_medio": 6.988202637057599,
+      "valor_recente": 6.988202637057599,
+      "data_recente": "2026-04-15T23:25:19Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "28742913000100",
@@ -54,15 +71,27 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57430000",
+<<<<<<< HEAD
+      "codigo_ibge": "2703403",
+      "municipio": "Jacaré dos Homens",
+      "latitude": -9.6164085,
+      "longitude": -37.2194815,
+      "valor_minimo": 7.1704,
+      "valor_maximo": 7.1942,
+      "valor_medio": 7.1895,
+      "valor_recente": 7.1895,
+      "data_recente": "2026-04-15T20:59:56+00:00"
+=======
       "codigo_ibge": 2703403,
       "municipio": "JACARE DOS HOMENS",
       "latitude": -9.6314123,
       "longitude": -37.2046292,
-      "valor_minimo": 7.189509306260575,
-      "valor_maximo": 7.189509306260575,
-      "valor_medio": 7.189509306260575,
-      "valor_recente": 7.189509306260575,
-      "data_recente": "2026-04-15T20:59:56Z"
+      "valor_minimo": 7.490075649764063,
+      "valor_maximo": 7.490075649764063,
+      "valor_medio": 7.490075649764063,
+      "valor_recente": 7.490075649764063,
+      "data_recente": "2026-04-15T22:35:06Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "28742913000100",
@@ -74,15 +103,27 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57430000",
+<<<<<<< HEAD
+      "codigo_ibge": "2703403",
+      "municipio": "Jacaré dos Homens",
+      "latitude": -9.6164085,
+      "longitude": -37.2194815,
+      "valor_minimo": 7.2098,
+      "valor_maximo": 7.8899,
+      "valor_medio": 7.3642,
+      "valor_recente": 7.2718,
+      "data_recente": "2026-04-15T18:08:45+00:00"
+=======
       "codigo_ibge": 2703403,
       "municipio": "JACARE DOS HOMENS",
       "latitude": -9.6314123,
       "longitude": -37.2046292,
-      "valor_minimo": 7.271767810026385,
-      "valor_maximo": 7.271767810026385,
-      "valor_medio": 7.271767810026385,
-      "valor_recente": 7.271767810026385,
-      "data_recente": "2026-04-15T18:08:45Z"
+      "valor_minimo": 7.303418681974481,
+      "valor_maximo": 7.303418681974481,
+      "valor_medio": 7.303418681974481,
+      "valor_recente": 7.303418681974481,
+      "data_recente": "2026-04-15T22:43:03Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     }
   ]
 }

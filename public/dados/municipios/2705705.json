@@ -1,26 +1,30 @@
 {
   "codigoIBGE": "2705705",
   "municipio": "Olho d'Água das Flores",
-  "atualizadoEm": "2026-04-15T22:11:20.711Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+  "totalEstabelecimentos": 13,
+=======
+  "atualizadoEm": "2026-04-16T00:06:19.166Z",
   "totalEstabelecimentos": 13,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
       "valorMinimo": 6.810074880871341,
       "valorMaximo": 6.959910913140312,
-      "valorMedio": 6.890109150186504
+      "valorMedio": 6.889807271514686
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 7.009983571338304,
-      "valorMaximo": 7.189285714285714,
-      "valorMedio": 7.099634642812009
+      "valorMinimo": 7.010056414029924,
+      "valorMaximo": 7.188235294117647,
+      "valorMedio": 7.099145854073786
     },
     "3": {
       "totalPostos": 3,
       "valorMinimo": 5.27,
-      "valorMaximo": 5.439959597529233,
-      "valorMedio": 5.370049518967655
+      "valorMaximo": 5.440376948169627,
+      "valorMedio": 5.370188635847787
     },
     "4": {
       "totalPostos": 1,
@@ -30,11 +34,12 @@
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 6.94,
-      "valorMaximo": 7.839946962058535,
-      "valorMedio": 7.371093431797289
+      "valorMinimo": 6.939981075512243,
+      "valorMaximo": 7.339840023482791,
+      "valorMedio": 7.1453227431266795
     }
   },
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "estabelecimentos": [
     {
       "cnpj": "07431049000148",
@@ -46,6 +51,17 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57442000",
+<<<<<<< HEAD
+      "codigo_ibge": "2705705",
+      "municipio": "Olho d'Água das Flores",
+      "latitude": -9.5501683,
+      "longitude": -37.2797114,
+      "valor_minimo": 6.6125,
+      "valor_maximo": 6.9616,
+      "valor_medio": 6.8765,
+      "valor_recente": 6.8101,
+      "data_recente": "2026-04-15T21:18:57+00:00"
+=======
       "codigo_ibge": 2705705,
       "municipio": "OLHO D'AGUA DAS FLORES",
       "latitude": -9.5413832,
@@ -54,7 +70,8 @@
       "valor_maximo": 6.810074880871341,
       "valor_medio": 6.810074880871341,
       "valor_recente": 6.810074880871341,
-      "data_recente": "2026-04-15T21:18:57Z"
+      "data_recente": "2026-04-15T23:33:45Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "08886885000180",
@@ -66,15 +83,23 @@
       "numero_imovel": "718",
       "bairro": "CENTRO",
       "cep": "57442000",
-      "codigo_ibge": 2705705,
-      "municipio": "OLHO D'AGUA DAS FLORES",
+      "codigo_ibge": "2705705",
+      "municipio": "Olho d'Água das Flores",
       "latitude": -9.5409131,
       "longitude": -37.2929781,
-      "valor_minimo": 6.840485553085998,
-      "valor_maximo": 6.840485553085998,
-      "valor_medio": 6.840485553085998,
-      "valor_recente": 6.840485553085998,
-      "data_recente": "2026-04-15T21:24:39Z"
+<<<<<<< HEAD
+      "valor_minimo": 6.7385,
+      "valor_maximo": 7.2405,
+      "valor_medio": 6.8936,
+      "valor_recente": 6.8405,
+      "data_recente": "2026-04-15T21:24:39+00:00"
+=======
+      "valor_minimo": 6.839266450916936,
+      "valor_maximo": 6.839266450916936,
+      "valor_medio": 6.839266450916936,
+      "valor_recente": 6.839266450916936,
+      "data_recente": "2026-04-15T23:34:50Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "12261087000130",
@@ -86,15 +111,23 @@
       "numero_imovel": "777",
       "bairro": "CENTRO",
       "cep": "57442000",
-      "codigo_ibge": 2705705,
-      "municipio": "OLHO D'AGUA DAS FLORES",
+      "codigo_ibge": "2705705",
+      "municipio": "Olho d'Água das Flores",
       "latitude": -9.5301835,
       "longitude": -37.2953869,
-      "valor_minimo": 6.949965253648367,
-      "valor_maximo": 6.949965253648367,
-      "valor_medio": 6.949965253648367,
-      "valor_recente": 6.949965253648367,
-      "data_recente": "2026-04-15T21:27:33Z"
+<<<<<<< HEAD
+      "valor_minimo": 6.7397,
+      "valor_maximo": 6.95,
+      "valor_medio": 6.8864,
+      "valor_recente": 6.95,
+      "data_recente": "2026-04-15T21:27:33+00:00"
+=======
+      "valor_minimo": 6.949976841130153,
+      "valor_maximo": 6.949976841130153,
+      "valor_medio": 6.949976841130153,
+      "valor_recente": 6.949976841130153,
+      "data_recente": "2026-04-15T23:24:32Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "08841116000165",
@@ -106,15 +139,15 @@
       "numero_imovel": "904",
       "bairro": "CENTRO",
       "cep": "57442000",
-      "codigo_ibge": 2705705,
-      "municipio": "OLHO D'AGUA DAS FLORES",
+      "codigo_ibge": "2705705",
+      "municipio": "Olho d'Água das Flores",
       "latitude": -9.5286443,
       "longitude": -37.2953971,
-      "valor_minimo": 6.959910913140312,
-      "valor_maximo": 6.959910913140312,
-      "valor_medio": 6.959910913140312,
-      "valor_recente": 6.959910913140312,
-      "data_recente": "2026-04-15T15:27:19Z"
+      "valor_minimo": 6.9597,
+      "valor_maximo": 6.9604,
+      "valor_medio": 6.96,
+      "valor_recente": 6.9599,
+      "data_recente": "2026-04-15T15:27:19+00:00"
     },
     {
       "cnpj": "08841116000165",
@@ -126,15 +159,23 @@
       "numero_imovel": "904",
       "bairro": "CENTRO",
       "cep": "57442000",
-      "codigo_ibge": 2705705,
-      "municipio": "OLHO D'AGUA DAS FLORES",
+      "codigo_ibge": "2705705",
+      "municipio": "Olho d'Água das Flores",
       "latitude": -9.5286443,
       "longitude": -37.2953971,
-      "valor_minimo": 7.009983571338304,
-      "valor_maximo": 7.009983571338304,
-      "valor_medio": 7.009983571338304,
-      "valor_recente": 7.009983571338304,
-      "data_recente": "2026-04-15T20:36:31Z"
+<<<<<<< HEAD
+      "valor_minimo": 7.01,
+      "valor_maximo": 7.01,
+      "valor_medio": 7.01,
+      "valor_recente": 7.01,
+      "data_recente": "2026-04-15T20:36:31+00:00"
+=======
+      "valor_minimo": 7.010056414029924,
+      "valor_maximo": 7.010056414029924,
+      "valor_medio": 7.010056414029924,
+      "valor_recente": 7.010056414029924,
+      "data_recente": "2026-04-15T22:32:09Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "08886885000180",
@@ -146,15 +187,23 @@
       "numero_imovel": "718",
       "bairro": "CENTRO",
       "cep": "57442000",
-      "codigo_ibge": 2705705,
-      "municipio": "OLHO D'AGUA DAS FLORES",
+      "codigo_ibge": "2705705",
+      "municipio": "Olho d'Água das Flores",
       "latitude": -9.5409131,
       "longitude": -37.2929781,
-      "valor_minimo": 7.189285714285714,
-      "valor_maximo": 7.189285714285714,
-      "valor_medio": 7.189285714285714,
-      "valor_recente": 7.189285714285714,
-      "data_recente": "2026-04-15T21:00:33Z"
+<<<<<<< HEAD
+      "valor_minimo": 6.9789,
+      "valor_maximo": 7.1982,
+      "valor_medio": 7.1782,
+      "valor_recente": 7.1893,
+      "data_recente": "2026-04-15T21:00:33+00:00"
+=======
+      "valor_minimo": 7.188235294117647,
+      "valor_maximo": 7.188235294117647,
+      "valor_medio": 7.188235294117647,
+      "valor_recente": 7.188235294117647,
+      "data_recente": "2026-04-15T23:23:00Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "12261087000130",
@@ -166,15 +215,15 @@
       "numero_imovel": "777",
       "bairro": "CENTRO",
       "cep": "57442000",
-      "codigo_ibge": 2705705,
-      "municipio": "OLHO D'AGUA DAS FLORES",
+      "codigo_ibge": "2705705",
+      "municipio": "Olho d'Água das Flores",
       "latitude": -9.5301835,
       "longitude": -37.2953869,
-      "valor_minimo": 5.27,
+      "valor_minimo": 4.9892,
       "valor_maximo": 5.27,
-      "valor_medio": 5.27,
+      "valor_medio": 5.1113,
       "valor_recente": 5.27,
-      "data_recente": "2026-04-15T21:25:02Z"
+      "data_recente": "2026-04-15T21:25:02+00:00"
     },
     {
       "cnpj": "07431049000148",
@@ -186,15 +235,15 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57442000",
-      "codigo_ibge": 2705705,
-      "municipio": "OLHO D'AGUA DAS FLORES",
-      "latitude": -9.5413832,
-      "longitude": -37.2894755,
-      "valor_minimo": 5.400188959373734,
-      "valor_maximo": 5.400188959373734,
-      "valor_medio": 5.400188959373734,
-      "valor_recente": 5.400188959373734,
-      "data_recente": "2026-04-15T20:08:37Z"
+      "codigo_ibge": "2705705",
+      "municipio": "Olho d'Água das Flores",
+      "latitude": -9.5501683,
+      "longitude": -37.2797114,
+      "valor_minimo": 5.3993,
+      "valor_maximo": 5.4008,
+      "valor_medio": 5.4002,
+      "valor_recente": 5.4002,
+      "data_recente": "2026-04-15T20:08:37+00:00"
     },
     {
       "cnpj": "08886885000180",
@@ -206,15 +255,23 @@
       "numero_imovel": "718",
       "bairro": "CENTRO",
       "cep": "57442000",
-      "codigo_ibge": 2705705,
-      "municipio": "OLHO D'AGUA DAS FLORES",
+      "codigo_ibge": "2705705",
+      "municipio": "Olho d'Água das Flores",
       "latitude": -9.5409131,
       "longitude": -37.2929781,
-      "valor_minimo": 5.439959597529233,
-      "valor_maximo": 5.439959597529233,
-      "valor_medio": 5.439959597529233,
-      "valor_recente": 5.439959597529233,
-      "data_recente": "2026-04-15T21:19:05Z"
+<<<<<<< HEAD
+      "valor_minimo": 4.788,
+      "valor_maximo": 5.7899,
+      "valor_medio": 5.398,
+      "valor_recente": 5.44,
+      "data_recente": "2026-04-15T21:19:05+00:00"
+=======
+      "valor_minimo": 5.440376948169627,
+      "valor_maximo": 5.440376948169627,
+      "valor_medio": 5.440376948169627,
+      "valor_recente": 5.440376948169627,
+      "data_recente": "2026-04-15T23:17:44Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "12261087000130",
@@ -226,15 +283,15 @@
       "numero_imovel": "777",
       "bairro": "CENTRO",
       "cep": "57442000",
-      "codigo_ibge": 2705705,
-      "municipio": "OLHO D'AGUA DAS FLORES",
+      "codigo_ibge": "2705705",
+      "municipio": "Olho d'Água das Flores",
       "latitude": -9.5301835,
       "longitude": -37.2953869,
-      "valor_minimo": 6.549019607843137,
-      "valor_maximo": 6.549019607843137,
-      "valor_medio": 6.549019607843137,
-      "valor_recente": 6.549019607843137,
-      "data_recente": "2026-04-14T15:50:27Z"
+      "valor_minimo": 6.5486,
+      "valor_maximo": 6.55,
+      "valor_medio": 6.5496,
+      "valor_recente": 6.549,
+      "data_recente": "2026-04-14T15:50:27+00:00"
     },
     {
       "cnpj": "08841116000165",
@@ -246,15 +303,70 @@
       "numero_imovel": "904",
       "bairro": "CENTRO",
       "cep": "57442000",
-      "codigo_ibge": 2705705,
-      "municipio": "OLHO D'AGUA DAS FLORES",
+      "codigo_ibge": "2705705",
+      "municipio": "Olho d'Água das Flores",
       "latitude": -9.5286443,
       "longitude": -37.2953971,
-      "valor_minimo": 6.94,
-      "valor_maximo": 6.94,
+<<<<<<< HEAD
+      "valor_minimo": 6.9399,
+      "valor_maximo": 6.9401,
       "valor_medio": 6.94,
       "valor_recente": 6.94,
-      "data_recente": "2026-04-15T21:14:12Z"
+      "data_recente": "2026-04-15T21:14:12+00:00"
+    },
+    {
+      "cnpj": "12261087000130",
+      "tipo_combustivel": 5,
+      "razao_social": "A A MELO LTDA",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "AV 2 DE DEZEMBRO",
+      "numero_imovel": "777",
+      "bairro": "CENTRO",
+      "cep": "57442000",
+      "codigo_ibge": "2705705",
+      "municipio": "Olho d'Água das Flores",
+      "latitude": -9.5301835,
+      "longitude": -37.2953869,
+      "valor_minimo": 6.8997,
+      "valor_maximo": 7.34,
+      "valor_medio": 7.0756,
+      "valor_recente": 7.3333,
+      "data_recente": "2026-04-15T21:22:00+00:00"
+=======
+      "valor_minimo": 6.939981075512243,
+      "valor_maximo": 6.939981075512243,
+      "valor_medio": 6.939981075512243,
+      "valor_recente": 6.939981075512243,
+      "data_recente": "2026-04-15T22:15:09Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
+    },
+    {
+      "cnpj": "08886885000180",
+      "tipo_combustivel": 5,
+      "razao_social": "M A J H COMÉRCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA",
+      "nome_fantasia": "AUTO POSTO DOIS IRMAOS",
+      "telefone": "",
+      "nome_logradouro": "AV RUI BARBOSA",
+      "numero_imovel": "718",
+      "bairro": "CENTRO",
+      "cep": "57442000",
+      "codigo_ibge": "2705705",
+      "municipio": "Olho d'Água das Flores",
+      "latitude": -9.5409131,
+      "longitude": -37.2929781,
+<<<<<<< HEAD
+      "valor_minimo": 7.1276,
+      "valor_maximo": 8.2401,
+      "valor_medio": 7.3999,
+      "valor_recente": 7.8399,
+      "data_recente": "2026-04-15T21:10:26+00:00"
+=======
+      "valor_minimo": 7.156147130385,
+      "valor_maximo": 7.156147130385,
+      "valor_medio": 7.156147130385,
+      "valor_recente": 7.156147130385,
+      "data_recente": "2026-04-15T23:24:10Z"
     },
     {
       "cnpj": "12261087000130",
@@ -270,31 +382,12 @@
       "municipio": "OLHO D'AGUA DAS FLORES",
       "latitude": -9.5301835,
       "longitude": -37.2953869,
-      "valor_minimo": 7.333333333333333,
-      "valor_maximo": 7.333333333333333,
-      "valor_medio": 7.333333333333333,
-      "valor_recente": 7.333333333333333,
-      "data_recente": "2026-04-15T21:22:00Z"
-    },
-    {
-      "cnpj": "08886885000180",
-      "tipo_combustivel": 5,
-      "razao_social": "M A J H COMÉRCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA",
-      "nome_fantasia": "AUTO POSTO DOIS IRMAOS",
-      "telefone": "",
-      "nome_logradouro": "AV RUI BARBOSA",
-      "numero_imovel": "718",
-      "bairro": "CENTRO",
-      "cep": "57442000",
-      "codigo_ibge": 2705705,
-      "municipio": "OLHO D'AGUA DAS FLORES",
-      "latitude": -9.5409131,
-      "longitude": -37.2929781,
-      "valor_minimo": 7.839946962058535,
-      "valor_maximo": 7.839946962058535,
-      "valor_medio": 7.839946962058535,
-      "valor_recente": 7.839946962058535,
-      "data_recente": "2026-04-15T21:10:26Z"
+      "valor_minimo": 7.339840023482791,
+      "valor_maximo": 7.339840023482791,
+      "valor_medio": 7.339840023482791,
+      "valor_recente": 7.339840023482791,
+      "data_recente": "2026-04-15T23:30:55Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     }
   ]
 }

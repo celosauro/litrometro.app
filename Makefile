@@ -8,7 +8,7 @@ NVM_INIT := source ~/.nvm/nvm.sh &&
 # Porta fixa para o servidor de desenvolvimento
 DEV_PORT := 5173
 
-.PHONY: help install dev build preview lint clean collect geocode geocode-local validate fix-coords all stop
+.PHONY: help install dev build preview lint clean collect collect-supabase process-history migrate-json export-json geocode geocode-local all stop
 
 # Cores para output
 CYAN := \033[36m
@@ -75,6 +75,10 @@ migrate-json: ## Migra dados JSON existentes para Supabase
 	@echo "$(CYAN)📦 Migrando JSON → Supabase...$(RESET)"
 	$(NVM_INIT) npm run migrate:json
 
+export-json: ## Exporta dados do Supabase para JSON minificado
+	@echo "$(CYAN)📤 Exportando Supabase → JSON...$(RESET)"
+	$(NVM_INIT) npm run export:json
+
 geocode: ## Geocodifica endereços dos estabelecimentos
 	@echo "$(CYAN)📍 Geocodificando endereços...$(RESET)"
 	$(NVM_INIT) npm run geocode
@@ -84,20 +88,8 @@ geocode-local: ## Executa geocodificação contínua (cronjob local)
 	$(NVM_INIT) npm run geocode:local
 
 # ─────────────────────────────────────────────────────────────
-# Validação de Coordenadas (Google Maps API)
+# Limpeza
 # ─────────────────────────────────────────────────────────────
-
-validate: ## Valida coordenadas com Google Maps (apenas relatório)
-	@echo "$(CYAN)🔍 Validando coordenadas...$(RESET)"
-	$(NVM_INIT) npm run coord:validate
-
-fix-coords: ## Valida e corrige coordenadas incorretas
-	@echo "$(CYAN)🔧 Validando e corrigindo coordenadas...$(RESET)"
-	$(NVM_INIT) npm run coord:fix
-
-validate-limit: ## Valida coordenadas com limite (ex: make validate-limit LIMIT=50)
-	@echo "$(CYAN)🔍 Validando coordenadas (limite: $(LIMIT))...$(RESET)"
-	$(NVM_INIT) npm run coord:validate -- --limite=$(LIMIT)
 
 fix-coords-limit: ## Corrige coordenadas com limite (ex: make fix-coords-limit LIMIT=50)
 	@echo "$(CYAN)🔧 Corrigindo coordenadas (limite: $(LIMIT))...$(RESET)"

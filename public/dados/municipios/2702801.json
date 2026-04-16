@@ -1,28 +1,33 @@
 {
   "codigoIBGE": "2702801",
   "municipio": "Flexeiras",
-  "atualizadoEm": "2026-04-15T21:55:58.356Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+  "totalEstabelecimentos": 3,
+=======
+  "atualizadoEm": "2026-04-15T23:48:25.858Z",
   "totalEstabelecimentos": 3,
   "combustiveis": {
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.199856218547807,
-      "valorMaximo": 7.199856218547807,
-      "valorMedio": 7.199856218547807
+      "valorMinimo": 7.199424046076314,
+      "valorMaximo": 7.199424046076314,
+      "valorMedio": 7.199424046076314
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.4996003197442045,
-      "valorMaximo": 5.4996003197442045,
-      "valorMedio": 5.4996003197442045
+      "valorMinimo": 5.499528746465598,
+      "valorMaximo": 5.499528746465598,
+      "valorMedio": 5.499528746465598
     },
     "5": {
       "totalPostos": 1,
-      "valorMinimo": 7.749741646572511,
-      "valorMaximo": 7.749741646572511,
-      "valorMedio": 7.749741646572511
+      "valorMinimo": 7.7491861726864055,
+      "valorMaximo": 7.7491861726864055,
+      "valorMedio": 7.7491861726864055
     }
   },
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "estabelecimentos": [
     {
       "cnpj": "14959585000186",
@@ -34,15 +39,27 @@
       "numero_imovel": "07",
       "bairro": "RURAL",
       "cep": "57995000",
+<<<<<<< HEAD
+      "codigo_ibge": "2702801",
+      "municipio": "Flexeiras",
+      "latitude": -9.2483162,
+      "longitude": -35.4946045,
+      "valor_minimo": 7.1942,
+      "valor_maximo": 7.2,
+      "valor_medio": 7.1991,
+      "valor_recente": 7.1999,
+      "data_recente": "2026-04-15T21:18:29+00:00"
+=======
       "codigo_ibge": 2702801,
       "municipio": "FLEXEIRAS",
       "latitude": -9.27743,
       "longitude": -35.72368,
-      "valor_minimo": 7.199856218547807,
-      "valor_maximo": 7.199856218547807,
-      "valor_medio": 7.199856218547807,
-      "valor_recente": 7.199856218547807,
-      "data_recente": "2026-04-15T21:18:29Z"
+      "valor_minimo": 7.199424046076314,
+      "valor_maximo": 7.199424046076314,
+      "valor_medio": 7.199424046076314,
+      "valor_recente": 7.199424046076314,
+      "data_recente": "2026-04-15T22:48:34Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "14959585000186",
@@ -54,15 +71,27 @@
       "numero_imovel": "07",
       "bairro": "RURAL",
       "cep": "57995000",
+<<<<<<< HEAD
+      "codigo_ibge": "2702801",
+      "municipio": "Flexeiras",
+      "latitude": -9.2483162,
+      "longitude": -35.4946045,
+      "valor_minimo": 5.4959,
+      "valor_maximo": 5.5,
+      "valor_medio": 5.4995,
+      "valor_recente": 5.4996,
+      "data_recente": "2026-04-15T21:24:15+00:00"
+=======
       "codigo_ibge": 2702801,
       "municipio": "FLEXEIRAS",
       "latitude": -9.27743,
       "longitude": -35.72368,
-      "valor_minimo": 5.4996003197442045,
-      "valor_maximo": 5.4996003197442045,
-      "valor_medio": 5.4996003197442045,
-      "valor_recente": 5.4996003197442045,
-      "data_recente": "2026-04-15T21:24:15Z"
+      "valor_minimo": 5.499528746465598,
+      "valor_maximo": 5.499528746465598,
+      "valor_medio": 5.499528746465598,
+      "valor_recente": 5.499528746465598,
+      "data_recente": "2026-04-15T22:48:34Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "14959585000186",
@@ -74,15 +103,27 @@
       "numero_imovel": "07",
       "bairro": "RURAL",
       "cep": "57995000",
+<<<<<<< HEAD
+      "codigo_ibge": "2702801",
+      "municipio": "Flexeiras",
+      "latitude": -9.2483162,
+      "longitude": -35.4946045,
+      "valor_minimo": 7.7444,
+      "valor_maximo": 7.75,
+      "valor_medio": 7.749,
+      "valor_recente": 7.7497,
+      "data_recente": "2026-04-15T20:34:46+00:00"
+=======
       "codigo_ibge": 2702801,
       "municipio": "FLEXEIRAS",
       "latitude": -9.27743,
       "longitude": -35.72368,
-      "valor_minimo": 7.749741646572511,
-      "valor_maximo": 7.749741646572511,
-      "valor_medio": 7.749741646572511,
-      "valor_recente": 7.749741646572511,
-      "data_recente": "2026-04-15T20:34:46Z"
+      "valor_minimo": 7.7491861726864055,
+      "valor_maximo": 7.7491861726864055,
+      "valor_medio": 7.7491861726864055,
+      "valor_recente": 7.7491861726864055,
+      "data_recente": "2026-04-15T21:46:03Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     }
   ]
 }

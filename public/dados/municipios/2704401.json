@@ -1,14 +1,18 @@
 {
   "codigoIBGE": "2704401",
   "municipio": "Major Isidoro",
-  "atualizadoEm": "2026-04-15T22:04:56.637Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+  "totalEstabelecimentos": 8,
+=======
+  "atualizadoEm": "2026-04-15T23:58:02.022Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.7484044339939535,
-      "valorMaximo": 7.119718309859155,
-      "valorMedio": 6.905812604115419
+      "valorMinimo": 6.747311827956989,
+      "valorMaximo": 7.12,
+      "valorMedio": 6.905542298816713
     },
     "2": {
       "totalPostos": 1,
@@ -25,10 +29,11 @@
     "5": {
       "totalPostos": 3,
       "valorMinimo": 7.540007730962505,
-      "valorMaximo": 7.89,
-      "valorMedio": 7.726667306165308
+      "valorMaximo": 7.889763779527559,
+      "valorMedio": 7.7265885660078295
     }
   },
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "estabelecimentos": [
     {
       "cnpj": "48166691000124",
@@ -40,15 +45,27 @@
       "numero_imovel": "280",
       "bairro": "CENTRO",
       "cep": "57580000",
+<<<<<<< HEAD
+      "codigo_ibge": "2704401",
+      "municipio": "Major Isidoro",
+      "latitude": -9.53222,
+      "longitude": -36.985,
+      "valor_minimo": 6.747,
+      "valor_maximo": 6.7507,
+      "valor_medio": 6.7491,
+      "valor_recente": 6.7484,
+      "data_recente": "2026-04-15T21:08:55+00:00"
+=======
       "codigo_ibge": 2704401,
       "municipio": "MAJOR ISIDORO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.7484044339939535,
-      "valor_maximo": 6.7484044339939535,
-      "valor_medio": 6.7484044339939535,
-      "valor_recente": 6.7484044339939535,
-      "data_recente": "2026-04-15T21:08:55Z"
+      "valor_minimo": 6.747311827956989,
+      "valor_maximo": 6.747311827956989,
+      "valor_medio": 6.747311827956989,
+      "valor_recente": 6.747311827956989,
+      "data_recente": "2026-04-15T23:32:18Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "04439462000160",
@@ -60,15 +77,15 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57580000",
-      "codigo_ibge": 2704401,
-      "municipio": "MAJOR ISIDORO",
-      "latitude": -9.5417588,
-      "longitude": -36.9974256,
-      "valor_minimo": 6.8493150684931505,
-      "valor_maximo": 6.8493150684931505,
-      "valor_medio": 6.8493150684931505,
-      "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-15T17:47:08Z"
+      "codigo_ibge": "2704401",
+      "municipio": "Major Isidoro",
+      "latitude": -9.5531138,
+      "longitude": -37.0074381,
+      "valor_minimo": 6.8493,
+      "valor_maximo": 6.8571,
+      "valor_medio": 6.8507,
+      "valor_recente": 6.8493,
+      "data_recente": "2026-04-15T17:47:08+00:00"
     },
     {
       "cnpj": "42426417000160",
@@ -80,15 +97,23 @@
       "numero_imovel": "01",
       "bairro": "CENTRO",
       "cep": "57580000",
-      "codigo_ibge": 2704401,
-      "municipio": "MAJOR ISIDORO",
+      "codigo_ibge": "2704401",
+      "municipio": "Major Isidoro",
       "latitude": -9.5384059,
       "longitude": -36.9942913,
-      "valor_minimo": 7.119718309859155,
-      "valor_maximo": 7.119718309859155,
-      "valor_medio": 7.119718309859155,
-      "valor_recente": 7.119718309859155,
-      "data_recente": "2026-04-15T21:11:58Z"
+<<<<<<< HEAD
+      "valor_minimo": 7.1181,
+      "valor_maximo": 7.1213,
+      "valor_medio": 7.12,
+      "valor_recente": 7.1197,
+      "data_recente": "2026-04-15T21:11:58+00:00"
+=======
+      "valor_minimo": 7.12,
+      "valor_maximo": 7.12,
+      "valor_medio": 7.12,
+      "valor_recente": 7.12,
+      "data_recente": "2026-04-15T22:39:52Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "48166691000124",
@@ -100,15 +125,15 @@
       "numero_imovel": "280",
       "bairro": "CENTRO",
       "cep": "57580000",
-      "codigo_ibge": 2704401,
-      "municipio": "MAJOR ISIDORO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.7496635262449525,
-      "valor_maximo": 6.7496635262449525,
-      "valor_medio": 6.7496635262449525,
-      "valor_recente": 6.7496635262449525,
-      "data_recente": "2026-04-14T20:22:06Z"
+      "codigo_ibge": "2704401",
+      "municipio": "Major Isidoro",
+      "latitude": -9.53222,
+      "longitude": -36.985,
+      "valor_minimo": 6.7476,
+      "valor_maximo": 6.75,
+      "valor_medio": 6.7492,
+      "valor_recente": 6.7497,
+      "data_recente": "2026-04-14T20:22:06+00:00"
     },
     {
       "cnpj": "04439462000160",
@@ -120,15 +145,15 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57580000",
-      "codigo_ibge": 2704401,
-      "municipio": "MAJOR ISIDORO",
-      "latitude": -9.5417588,
-      "longitude": -36.9974256,
-      "valor_minimo": 5.700065487884741,
-      "valor_maximo": 5.700065487884741,
-      "valor_medio": 5.700065487884741,
-      "valor_recente": 5.700065487884741,
-      "data_recente": "2026-04-15T09:51:29Z"
+      "codigo_ibge": "2704401",
+      "municipio": "Major Isidoro",
+      "latitude": -9.5531138,
+      "longitude": -37.0074381,
+      "valor_minimo": 5.6999,
+      "valor_maximo": 5.7008,
+      "valor_medio": 5.7001,
+      "valor_recente": 5.7001,
+      "data_recente": "2026-04-15T09:51:29+00:00"
     },
     {
       "cnpj": "04439462000160",
@@ -140,15 +165,15 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57580000",
-      "codigo_ibge": 2704401,
-      "municipio": "MAJOR ISIDORO",
-      "latitude": -9.5417588,
-      "longitude": -36.9974256,
-      "valor_minimo": 7.540007730962505,
-      "valor_maximo": 7.540007730962505,
-      "valor_medio": 7.540007730962505,
-      "valor_recente": 7.540007730962505,
-      "data_recente": "2026-04-15T16:58:31Z"
+      "codigo_ibge": "2704401",
+      "municipio": "Major Isidoro",
+      "latitude": -9.5531138,
+      "longitude": -37.0074381,
+      "valor_minimo": 7.54,
+      "valor_maximo": 7.5714,
+      "valor_medio": 7.5453,
+      "valor_recente": 7.54,
+      "data_recente": "2026-04-15T16:58:31+00:00"
     },
     {
       "cnpj": "48166691000124",
@@ -160,15 +185,15 @@
       "numero_imovel": "280",
       "bairro": "CENTRO",
       "cep": "57580000",
-      "codigo_ibge": 2704401,
-      "municipio": "MAJOR ISIDORO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.749994187533422,
-      "valor_maximo": 7.749994187533422,
-      "valor_medio": 7.749994187533422,
-      "valor_recente": 7.749994187533422,
-      "data_recente": "2026-04-15T21:02:58Z"
+      "codigo_ibge": "2704401",
+      "municipio": "Major Isidoro",
+      "latitude": -9.53222,
+      "longitude": -36.985,
+      "valor_minimo": 7.7478,
+      "valor_maximo": 7.7538,
+      "valor_medio": 7.7502,
+      "valor_recente": 7.75,
+      "data_recente": "2026-04-15T21:02:58+00:00"
     },
     {
       "cnpj": "42426417000160",
@@ -180,15 +205,23 @@
       "numero_imovel": "01",
       "bairro": "CENTRO",
       "cep": "57580000",
-      "codigo_ibge": 2704401,
-      "municipio": "MAJOR ISIDORO",
+      "codigo_ibge": "2704401",
+      "municipio": "Major Isidoro",
       "latitude": -9.5384059,
       "longitude": -36.9942913,
-      "valor_minimo": 7.89,
-      "valor_maximo": 7.89,
-      "valor_medio": 7.89,
+<<<<<<< HEAD
+      "valor_minimo": 7.8895,
+      "valor_maximo": 7.8902,
+      "valor_medio": 7.8899,
       "valor_recente": 7.89,
-      "data_recente": "2026-04-15T20:46:54Z"
+      "data_recente": "2026-04-15T20:46:54+00:00"
+=======
+      "valor_minimo": 7.889763779527559,
+      "valor_maximo": 7.889763779527559,
+      "valor_medio": 7.889763779527559,
+      "valor_recente": 7.889763779527559,
+      "data_recente": "2026-04-15T21:43:40Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     }
   ]
 }

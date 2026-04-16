@@ -1,9 +1,9 @@
 name: Geocodificar Estabelecimentos
 
 on:
-  # Executa a cada 15 minutos para acelerar preenchimento inicial
+  # Executa diariamente às 06:30 UTC (03:30 BRT)
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '30 6 * * *'
   # Permite execução manual
   workflow_dispatch:
 
@@ -31,6 +31,9 @@ jobs:
 
       - name: Executar geocodificação
         env:
+          # Supabase (para persistir coordenadas)
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
           # APIs de geocodificação (fallbacks opcionais)
           OPENCAGE_API_KEY: ${{ secrets.OPENCAGE_API_KEY }}
           LOCATIONIQ_API_KEY: ${{ secrets.LOCATIONIQ_API_KEY }}

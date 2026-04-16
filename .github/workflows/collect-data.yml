@@ -29,10 +29,18 @@ jobs:
       - name: Instalar dependências
         run: npm ci
 
-      - name: Executar coleta de dados
+      - name: Coletar dados para Supabase
         env:
           SEFAZ_APP_TOKEN: ${{ secrets.SEFAZ_APP_TOKEN }}
-        run: npm run collect
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: npm run collect:supabase
+
+      - name: Exportar JSON minificado
+        env:
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: npm run export:json
 
       - name: Verificar mudanças
         id: changes

@@ -1,22 +1,12 @@
 {
   "codigoIBGE": "2701902",
   "municipio": "Chã Preta",
-  "atualizadoEm": "2026-04-15T21:50:13.936Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+=======
+  "atualizadoEm": "2026-04-15T23:43:12.648Z",
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "totalEstabelecimentos": 3,
-  "combustiveis": {
-    "1": {
-      "totalPostos": 2,
-      "valorMinimo": 7.289901594485081,
-      "valorMaximo": 7.388798581350672,
-      "valorMedio": 7.339350087917877
-    },
-    "5": {
-      "totalPostos": 1,
-      "valorMinimo": 7.389998354090086,
-      "valorMaximo": 7.389998354090086,
-      "valorMedio": 7.389998354090086
-    }
-  },
   "estabelecimentos": [
     {
       "cnpj": "08515249000141",
@@ -28,15 +18,15 @@
       "numero_imovel": "03",
       "bairro": "CENTRO",
       "cep": "57760000",
-      "codigo_ibge": 2701902,
-      "municipio": "CHA PRETA",
-      "latitude": -9.2571423,
-      "longitude": -36.2987092,
-      "valor_minimo": 7.289901594485081,
-      "valor_maximo": 7.289901594485081,
-      "valor_medio": 7.289901594485081,
-      "valor_recente": 7.289901594485081,
-      "data_recente": "2026-04-15T21:25:10Z"
+      "codigo_ibge": "2701902",
+      "municipio": "Chã Preta",
+      "latitude": -9.2615689,
+      "longitude": -36.2961753,
+      "valor_minimo": 7.286,
+      "valor_maximo": 7.2912,
+      "valor_medio": 7.2893,
+      "valor_recente": 7.2899,
+      "data_recente": "2026-04-15T21:25:10+00:00"
     },
     {
       "cnpj": "15598179000106",
@@ -48,15 +38,15 @@
       "numero_imovel": "SN",
       "bairro": "ZONA RURAL",
       "cep": "57760000",
-      "codigo_ibge": 2701902,
-      "municipio": "CHA PRETA",
-      "latitude": -9.256988,
-      "longitude": -36.2990104,
-      "valor_minimo": 7.388798581350672,
-      "valor_maximo": 7.388798581350672,
-      "valor_medio": 7.388798581350672,
-      "valor_recente": 7.388798581350672,
-      "data_recente": "2026-04-15T20:45:47Z"
+      "codigo_ibge": "2701902",
+      "municipio": "Chã Preta",
+      "latitude": -9.2783675,
+      "longitude": -36.296161,
+      "valor_minimo": 7.384,
+      "valor_maximo": 7.6227,
+      "valor_medio": 7.4381,
+      "valor_recente": 7.3888,
+      "data_recente": "2026-04-15T20:45:47+00:00"
     },
     {
       "cnpj": "08515249000141",
@@ -68,15 +58,15 @@
       "numero_imovel": "03",
       "bairro": "CENTRO",
       "cep": "57760000",
-      "codigo_ibge": 2701902,
-      "municipio": "CHA PRETA",
-      "latitude": -9.2571423,
-      "longitude": -36.2987092,
-      "valor_minimo": 7.389998354090086,
-      "valor_maximo": 7.389998354090086,
-      "valor_medio": 7.389998354090086,
-      "valor_recente": 7.389998354090086,
-      "data_recente": "2026-04-14T19:48:10Z"
+      "codigo_ibge": "2701902",
+      "municipio": "Chã Preta",
+      "latitude": -9.2615689,
+      "longitude": -36.2961753,
+      "valor_minimo": 7.39,
+      "valor_maximo": 7.3901,
+      "valor_medio": 7.39,
+      "valor_recente": 7.39,
+      "data_recente": "2026-04-14T19:48:10+00:00"
     }
   ]
 }

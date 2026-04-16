@@ -1,22 +1,12 @@
 {
   "codigoIBGE": "2700904",
   "municipio": "Belo Monte",
-  "atualizadoEm": "2026-04-15T21:45:19.821Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+=======
+  "atualizadoEm": "2026-04-15T23:37:35.668Z",
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "totalEstabelecimentos": 2,
-  "combustiveis": {
-    "1": {
-      "totalPostos": 1,
-      "valorMinimo": 7.019264448336252,
-      "valorMaximo": 7.019264448336252,
-      "valorMedio": 7.019264448336252
-    },
-    "5": {
-      "totalPostos": 1,
-      "valorMinimo": 7.87996923648129,
-      "valorMaximo": 7.87996923648129,
-      "valorMedio": 7.87996923648129
-    }
-  },
   "estabelecimentos": [
     {
       "cnpj": "29276874000158",
@@ -28,15 +18,15 @@
       "numero_imovel": "1",
       "bairro": "CENTRO",
       "cep": "57435000",
-      "codigo_ibge": 2700904,
-      "municipio": "BELO MONTE",
-      "latitude": -23.4618397,
-      "longitude": -51.8741779,
-      "valor_minimo": 7.019264448336252,
-      "valor_maximo": 7.019264448336252,
-      "valor_medio": 7.019264448336252,
-      "valor_recente": 7.019264448336252,
-      "data_recente": "2026-04-15T21:17:10Z"
+      "codigo_ibge": "2700904",
+      "municipio": "Belo Monte",
+      "latitude": -9.826763999999999,
+      "longitude": -37.275574,
+      "valor_minimo": 6.9466,
+      "valor_maximo": 7.0455,
+      "valor_medio": 6.9815,
+      "valor_recente": 7.0193,
+      "data_recente": "2026-04-15T21:17:10+00:00"
     },
     {
       "cnpj": "29276874000158",
@@ -48,15 +38,15 @@
       "numero_imovel": "1",
       "bairro": "CENTRO",
       "cep": "57435000",
-      "codigo_ibge": 2700904,
-      "municipio": "BELO MONTE",
-      "latitude": -23.4618397,
-      "longitude": -51.8741779,
-      "valor_minimo": 7.87996923648129,
-      "valor_maximo": 7.87996923648129,
-      "valor_medio": 7.87996923648129,
-      "valor_recente": 7.87996923648129,
-      "data_recente": "2026-04-15T19:21:35Z"
+      "codigo_ibge": "2700904",
+      "municipio": "Belo Monte",
+      "latitude": -9.826763999999999,
+      "longitude": -37.275574,
+      "valor_minimo": 7.8695,
+      "valor_maximo": 7.96,
+      "valor_medio": 7.8791,
+      "valor_recente": 7.88,
+      "data_recente": "2026-04-15T19:21:35+00:00"
     }
   ]
 }

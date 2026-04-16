@@ -1,28 +1,12 @@
 {
   "codigoIBGE": "2701506",
   "municipio": "Campo Grande",
-  "atualizadoEm": "2026-04-15T21:48:06.654Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+=======
+  "atualizadoEm": "2026-04-15T23:41:14.225Z",
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "totalEstabelecimentos": 3,
-  "combustiveis": {
-    "1": {
-      "totalPostos": 1,
-      "valorMinimo": 7.289692374981776,
-      "valorMaximo": 7.289692374981776,
-      "valorMedio": 7.289692374981776
-    },
-    "4": {
-      "totalPostos": 1,
-      "valorMinimo": 8.19000819000819,
-      "valorMaximo": 8.19000819000819,
-      "valorMedio": 8.19000819000819
-    },
-    "5": {
-      "totalPostos": 1,
-      "valorMinimo": 7.290087463556851,
-      "valorMaximo": 7.290087463556851,
-      "valorMedio": 7.290087463556851
-    }
-  },
   "estabelecimentos": [
     {
       "cnpj": "09276007000105",
@@ -34,15 +18,15 @@
       "numero_imovel": "S/N",
       "bairro": "CENTRO",
       "cep": "57350000",
-      "codigo_ibge": 2701506,
-      "municipio": "CAMPO GRANDE",
-      "latitude": -9.5713058,
-      "longitude": -36.7819505,
-      "valor_minimo": 7.289692374981776,
-      "valor_maximo": 7.289692374981776,
-      "valor_medio": 7.289692374981776,
-      "valor_recente": 7.289692374981776,
-      "data_recente": "2026-04-15T21:30:27Z"
+      "codigo_ibge": "2701506",
+      "municipio": "Campo Grande",
+      "latitude": -9.9558187,
+      "longitude": -36.7929475,
+      "valor_minimo": 6.9861,
+      "valor_maximo": 7.2897,
+      "valor_medio": 7.008,
+      "valor_recente": 7.2897,
+      "data_recente": "2026-04-15T21:30:27+00:00"
     },
     {
       "cnpj": "09276007000105",
@@ -54,15 +38,15 @@
       "numero_imovel": "S/N",
       "bairro": "CENTRO",
       "cep": "57350000",
-      "codigo_ibge": 2701506,
-      "municipio": "CAMPO GRANDE",
-      "latitude": -9.5713058,
-      "longitude": -36.7819505,
-      "valor_minimo": 8.19000819000819,
-      "valor_maximo": 8.19000819000819,
-      "valor_medio": 8.19000819000819,
-      "valor_recente": 8.19000819000819,
-      "data_recente": "2026-04-15T20:30:42Z"
+      "codigo_ibge": "2701506",
+      "municipio": "Campo Grande",
+      "latitude": -9.9558187,
+      "longitude": -36.7929475,
+      "valor_minimo": 8.187,
+      "valor_maximo": 8.19,
+      "valor_medio": 8.1897,
+      "valor_recente": 8.19,
+      "data_recente": "2026-04-15T20:30:42+00:00"
     },
     {
       "cnpj": "09276007000105",
@@ -74,15 +58,15 @@
       "numero_imovel": "S/N",
       "bairro": "CENTRO",
       "cep": "57350000",
-      "codigo_ibge": 2701506,
-      "municipio": "CAMPO GRANDE",
-      "latitude": -9.5713058,
-      "longitude": -36.7819505,
-      "valor_minimo": 7.290087463556851,
-      "valor_maximo": 7.290087463556851,
-      "valor_medio": 7.290087463556851,
-      "valor_recente": 7.290087463556851,
-      "data_recente": "2026-04-15T21:09:47Z"
+      "codigo_ibge": "2701506",
+      "municipio": "Campo Grande",
+      "latitude": -9.9558187,
+      "longitude": -36.7929475,
+      "valor_minimo": 7.2897,
+      "valor_maximo": 7.5899,
+      "valor_medio": 7.3004,
+      "valor_recente": 7.2901,
+      "data_recente": "2026-04-15T21:09:47+00:00"
     }
   ]
 }

@@ -1,34 +1,39 @@
 {
   "codigoIBGE": "2704609",
   "municipio": "Maravilha",
-  "atualizadoEm": "2026-04-15T22:05:50.059Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+  "totalEstabelecimentos": 8,
+=======
+  "atualizadoEm": "2026-04-15T23:59:04.747Z",
   "totalEstabelecimentos": 8,
   "combustiveis": {
     "1": {
       "totalPostos": 1,
-      "valorMinimo": 6.8296680781314025,
-      "valorMaximo": 6.8296680781314025,
-      "valorMedio": 6.8296680781314025
+      "valorMinimo": 6.828269033799931,
+      "valorMaximo": 6.828269033799931,
+      "valorMedio": 6.828269033799931
     },
     "2": {
       "totalPostos": 3,
       "valorMinimo": 5.408839032301662,
-      "valorMaximo": 7.0588235294117645,
-      "valorMedio": 6.4092208539044755
+      "valorMaximo": 6.839945280437757,
+      "valorMedio": 6.3362614375798065
     },
     "3": {
       "totalPostos": 2,
       "valorMinimo": 4.487689978127979,
-      "valorMaximo": 5.61955605507165,
-      "valorMedio": 5.053623016599815
+      "valorMaximo": 5.617977528089888,
+      "valorMedio": 5.052833753108933
     },
     "5": {
       "totalPostos": 2,
       "valorMinimo": 5.834951456310679,
-      "valorMaximo": 7.298245614035087,
-      "valorMedio": 6.566598535172883
+      "valorMaximo": 7.299802905321556,
+      "valorMedio": 6.567377180816118
     }
   },
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "estabelecimentos": [
     {
       "cnpj": "60501647000129",
@@ -40,15 +45,27 @@
       "numero_imovel": "2240",
       "bairro": "Centro",
       "cep": "57520970",
+<<<<<<< HEAD
+      "codigo_ibge": "2704609",
+      "municipio": "Maravilha",
+      "latitude": -9.3469652,
+      "longitude": -37.2774889,
+      "valor_minimo": 6.7568,
+      "valor_maximo": 6.9798,
+      "valor_medio": 6.7911,
+      "valor_recente": 6.8297,
+      "data_recente": "2026-04-15T21:23:22+00:00"
+=======
       "codigo_ibge": 2704609,
       "municipio": "MARAVILHA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.8296680781314025,
-      "valor_maximo": 6.8296680781314025,
-      "valor_medio": 6.8296680781314025,
-      "valor_recente": 6.8296680781314025,
-      "data_recente": "2026-04-15T21:23:22Z"
+      "valor_minimo": 6.828269033799931,
+      "valor_maximo": 6.828269033799931,
+      "valor_medio": 6.828269033799931,
+      "valor_recente": 6.828269033799931,
+      "data_recente": "2026-04-15T23:18:15Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "08418303000564",
@@ -60,15 +77,15 @@
       "numero_imovel": "SN",
       "bairro": "ZONA RURAL",
       "cep": "57520000",
-      "codigo_ibge": 2704609,
-      "municipio": "MARAVILHA",
-      "latitude": -9.2772442,
-      "longitude": -37.38293669999999,
-      "valor_minimo": 5.408839032301662,
-      "valor_maximo": 5.408839032301662,
-      "valor_medio": 5.408839032301662,
-      "valor_recente": 5.408839032301662,
-      "data_recente": "2026-04-15T21:22:11Z"
+      "codigo_ibge": "2704609",
+      "municipio": "Maravilha",
+      "latitude": -9.3864034,
+      "longitude": -36.7726788,
+      "valor_minimo": 5.4074,
+      "valor_maximo": 6.8204,
+      "valor_medio": 6.3523,
+      "valor_recente": 5.4088,
+      "data_recente": "2026-04-15T21:22:11+00:00"
     },
     {
       "cnpj": "14683196000251",
@@ -80,15 +97,15 @@
       "numero_imovel": "S/N",
       "bairro": "CENTRO",
       "cep": "57520000",
-      "codigo_ibge": 2704609,
-      "municipio": "MARAVILHA",
+      "codigo_ibge": "2704609",
+      "municipio": "Maravilha",
       "latitude": -9.233737099999999,
       "longitude": -37.3501512,
-      "valor_minimo": 6.76,
-      "valor_maximo": 6.76,
-      "valor_medio": 6.76,
+      "valor_minimo": 6.7514,
+      "valor_maximo": 6.8299,
+      "valor_medio": 6.7667,
       "valor_recente": 6.76,
-      "data_recente": "2026-04-15T21:24:29Z"
+      "data_recente": "2026-04-15T21:24:29+00:00"
     },
     {
       "cnpj": "60501647000129",
@@ -100,15 +117,27 @@
       "numero_imovel": "2240",
       "bairro": "Centro",
       "cep": "57520970",
+<<<<<<< HEAD
+      "codigo_ibge": "2704609",
+      "municipio": "Maravilha",
+      "latitude": -9.3469652,
+      "longitude": -37.2774889,
+      "valor_minimo": 6.7879,
+      "valor_maximo": 7.0588,
+      "valor_medio": 6.8177,
+      "valor_recente": 7.0588,
+      "data_recente": "2026-04-15T20:57:00+00:00"
+=======
       "codigo_ibge": 2704609,
       "municipio": "MARAVILHA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.0588235294117645,
-      "valor_maximo": 7.0588235294117645,
-      "valor_medio": 7.0588235294117645,
-      "valor_recente": 7.0588235294117645,
-      "data_recente": "2026-04-15T20:57:00Z"
+      "valor_minimo": 6.839945280437757,
+      "valor_maximo": 6.839945280437757,
+      "valor_medio": 6.839945280437757,
+      "valor_recente": 6.839945280437757,
+      "data_recente": "2026-04-15T23:18:15Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "08418303000564",
@@ -120,15 +149,15 @@
       "numero_imovel": "SN",
       "bairro": "ZONA RURAL",
       "cep": "57520000",
-      "codigo_ibge": 2704609,
-      "municipio": "MARAVILHA",
-      "latitude": -9.2772442,
-      "longitude": -37.38293669999999,
-      "valor_minimo": 4.487689978127979,
-      "valor_maximo": 4.487689978127979,
-      "valor_medio": 4.487689978127979,
-      "valor_recente": 4.487689978127979,
-      "data_recente": "2026-04-15T21:21:15Z"
+      "codigo_ibge": "2704609",
+      "municipio": "Maravilha",
+      "latitude": -9.3864034,
+      "longitude": -36.7726788,
+      "valor_minimo": 4.4238,
+      "valor_maximo": 5.6103,
+      "valor_medio": 5.0904,
+      "valor_recente": 4.4877,
+      "data_recente": "2026-04-15T21:21:15+00:00"
     },
     {
       "cnpj": "60501647000129",
@@ -140,15 +169,27 @@
       "numero_imovel": "2240",
       "bairro": "Centro",
       "cep": "57520970",
+<<<<<<< HEAD
+      "codigo_ibge": "2704609",
+      "municipio": "Maravilha",
+      "latitude": -9.3469652,
+      "longitude": -37.2774889,
+      "valor_minimo": 5.618,
+      "valor_maximo": 5.62,
+      "valor_medio": 5.6195,
+      "valor_recente": 5.6196,
+      "data_recente": "2026-04-15T20:45:18+00:00"
+=======
       "codigo_ibge": 2704609,
       "municipio": "MARAVILHA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.61955605507165,
-      "valor_maximo": 5.61955605507165,
-      "valor_medio": 5.61955605507165,
-      "valor_recente": 5.61955605507165,
-      "data_recente": "2026-04-15T20:45:18Z"
+      "valor_minimo": 5.617977528089888,
+      "valor_maximo": 5.617977528089888,
+      "valor_medio": 5.617977528089888,
+      "valor_recente": 5.617977528089888,
+      "data_recente": "2026-04-15T23:32:31Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "08418303000564",
@@ -160,15 +201,15 @@
       "numero_imovel": "SN",
       "bairro": "ZONA RURAL",
       "cep": "57520000",
-      "codigo_ibge": 2704609,
-      "municipio": "MARAVILHA",
-      "latitude": -9.2772442,
-      "longitude": -37.38293669999999,
-      "valor_minimo": 5.834951456310679,
-      "valor_maximo": 5.834951456310679,
-      "valor_medio": 5.834951456310679,
-      "valor_recente": 5.834951456310679,
-      "data_recente": "2026-04-15T21:22:11Z"
+      "codigo_ibge": "2704609",
+      "municipio": "Maravilha",
+      "latitude": -9.3864034,
+      "longitude": -36.7726788,
+      "valor_minimo": 5.8311,
+      "valor_maximo": 7.2909,
+      "valor_medio": 6.4653,
+      "valor_recente": 5.835,
+      "data_recente": "2026-04-15T21:22:11+00:00"
     },
     {
       "cnpj": "60501647000129",
@@ -180,15 +221,27 @@
       "numero_imovel": "2240",
       "bairro": "Centro",
       "cep": "57520970",
+<<<<<<< HEAD
+      "codigo_ibge": "2704609",
+      "municipio": "Maravilha",
+      "latitude": -9.3469652,
+      "longitude": -37.2774889,
+      "valor_minimo": 7.2982,
+      "valor_maximo": 7.3,
+      "valor_medio": 7.2996,
+      "valor_recente": 7.2982,
+      "data_recente": "2026-04-15T20:53:32+00:00"
+=======
       "codigo_ibge": 2704609,
       "municipio": "MARAVILHA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.298245614035087,
-      "valor_maximo": 7.298245614035087,
-      "valor_medio": 7.298245614035087,
-      "valor_recente": 7.298245614035087,
-      "data_recente": "2026-04-15T20:53:32Z"
+      "valor_minimo": 7.299802905321556,
+      "valor_maximo": 7.299802905321556,
+      "valor_medio": 7.299802905321556,
+      "valor_recente": 7.299802905321556,
+      "data_recente": "2026-04-15T23:18:15Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     }
   ]
 }

@@ -1,7 +1,11 @@
 {
   "codigoIBGE": "2706000",
   "municipio": "Olivença",
-  "atualizadoEm": "2026-04-15T22:12:36.549Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+  "totalEstabelecimentos": 6,
+=======
+  "atualizadoEm": "2026-04-16T00:08:24.058Z",
   "totalEstabelecimentos": 6,
   "combustiveis": {
     "1": {
@@ -12,23 +16,24 @@
     },
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.944444444444445,
-      "valorMaximo": 7.092198581560283,
-      "valorMedio": 7.018321513002364
+      "valorMinimo": 6.9495268138801265,
+      "valorMaximo": 7.08502024291498,
+      "valorMedio": 7.017273528397553
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.699954400364797,
-      "valorMaximo": 5.699954400364797,
-      "valorMedio": 5.699954400364797
+      "valorMinimo": 5.699088145896656,
+      "valorMaximo": 5.699088145896656,
+      "valorMedio": 5.699088145896656
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.419983958799443,
-      "valorMaximo": 7.420048972323217,
-      "valorMedio": 7.42001646556133
+      "valorMinimo": 7.420048972323217,
+      "valorMaximo": 7.4202325006183525,
+      "valorMedio": 7.420140736470785
     }
   },
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "estabelecimentos": [
     {
       "cnpj": "30044555000104",
@@ -40,6 +45,17 @@
       "numero_imovel": "1019",
       "bairro": "CLIMA BOM",
       "cep": "57550000",
+<<<<<<< HEAD
+      "codigo_ibge": "2706000",
+      "municipio": "Olivença",
+      "latitude": -9.5694609,
+      "longitude": -35.785393,
+      "valor_minimo": 6.7409,
+      "valor_maximo": 6.9509,
+      "valor_medio": 6.9415,
+      "valor_recente": 6.9493,
+      "data_recente": "2026-04-15T21:02:14+00:00"
+=======
       "codigo_ibge": 2706000,
       "municipio": "OLIVENCA",
       "latitude": -9.565324,
@@ -48,7 +64,8 @@
       "valor_maximo": 6.949270326615705,
       "valor_medio": 6.949270326615705,
       "valor_recente": 6.949270326615705,
-      "data_recente": "2026-04-15T21:02:14Z"
+      "data_recente": "2026-04-15T23:18:55Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "27069763000145",
@@ -60,15 +77,23 @@
       "numero_imovel": "SN",
       "bairro": "CENTRO",
       "cep": "57550000",
-      "codigo_ibge": 2706000,
-      "municipio": "OLIVENCA",
+      "codigo_ibge": "2706000",
+      "municipio": "Olivença",
       "latitude": -9.519277,
       "longitude": -37.191994,
-      "valor_minimo": 6.944444444444445,
-      "valor_maximo": 6.944444444444445,
-      "valor_medio": 6.944444444444445,
-      "valor_recente": 6.944444444444445,
-      "data_recente": "2026-04-15T21:30:11Z"
+<<<<<<< HEAD
+      "valor_minimo": 6.9444,
+      "valor_maximo": 6.951,
+      "valor_medio": 6.9492,
+      "valor_recente": 6.9444,
+      "data_recente": "2026-04-15T21:30:11+00:00"
+=======
+      "valor_minimo": 6.9495268138801265,
+      "valor_maximo": 6.9495268138801265,
+      "valor_medio": 6.9495268138801265,
+      "valor_recente": 6.9495268138801265,
+      "data_recente": "2026-04-15T22:50:17Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "30044555000104",
@@ -80,15 +105,27 @@
       "numero_imovel": "1019",
       "bairro": "CLIMA BOM",
       "cep": "57550000",
+<<<<<<< HEAD
+      "codigo_ibge": "2706000",
+      "municipio": "Olivença",
+      "latitude": -9.5694609,
+      "longitude": -35.785393,
+      "valor_minimo": 7.088,
+      "valor_maximo": 7.0922,
+      "valor_medio": 7.0899,
+      "valor_recente": 7.0922,
+      "data_recente": "2026-04-15T21:01:18+00:00"
+=======
       "codigo_ibge": 2706000,
       "municipio": "OLIVENCA",
       "latitude": -9.565324,
       "longitude": -35.789666,
-      "valor_minimo": 7.092198581560283,
-      "valor_maximo": 7.092198581560283,
-      "valor_medio": 7.092198581560283,
-      "valor_recente": 7.092198581560283,
-      "data_recente": "2026-04-15T21:01:18Z"
+      "valor_minimo": 7.08502024291498,
+      "valor_maximo": 7.08502024291498,
+      "valor_medio": 7.08502024291498,
+      "valor_recente": 7.08502024291498,
+      "data_recente": "2026-04-15T22:31:45Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "30044555000104",
@@ -100,15 +137,78 @@
       "numero_imovel": "1019",
       "bairro": "CLIMA BOM",
       "cep": "57550000",
+<<<<<<< HEAD
+      "codigo_ibge": "2706000",
+      "municipio": "Olivença",
+      "latitude": -9.5694609,
+      "longitude": -35.785393,
+      "valor_minimo": 5.6948,
+      "valor_maximo": 5.7,
+      "valor_medio": 5.6989,
+      "valor_recente": 5.7,
+      "data_recente": "2026-04-15T20:08:00+00:00"
+    },
+    {
+      "cnpj": "27069763000145",
+      "tipo_combustivel": 5,
+      "razao_social": "MARCELA MARTINS DE LIMA EIRELI - ME",
+      "nome_fantasia": "POSTO NOSSA SENHORA DO CARMO",
+      "telefone": "(82) 96413192",
+      "nome_logradouro": "Rua DR JOSE REBELO TORRES",
+      "numero_imovel": "SN",
+      "bairro": "CENTRO",
+      "cep": "57550000",
+      "codigo_ibge": "2706000",
+      "municipio": "Olivença",
+      "latitude": -9.519277,
+      "longitude": -37.191994,
+      "valor_minimo": 7.4184,
+      "valor_maximo": 7.4201,
+      "valor_medio": 7.4199,
+      "valor_recente": 7.42,
+      "data_recente": "2026-04-15T19:55:56+00:00"
+=======
       "codigo_ibge": 2706000,
       "municipio": "OLIVENCA",
       "latitude": -9.565324,
       "longitude": -35.789666,
-      "valor_minimo": 5.699954400364797,
-      "valor_maximo": 5.699954400364797,
-      "valor_medio": 5.699954400364797,
-      "valor_recente": 5.699954400364797,
-      "data_recente": "2026-04-15T20:08:00Z"
+      "valor_minimo": 5.699088145896656,
+      "valor_maximo": 5.699088145896656,
+      "valor_medio": 5.699088145896656,
+      "valor_recente": 5.699088145896656,
+      "data_recente": "2026-04-15T22:46:54Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
+    },
+    {
+      "cnpj": "30044555000104",
+      "tipo_combustivel": 5,
+      "razao_social": "MELO MENESES COMERCIO DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "MELO AUTO POSTO",
+      "telefone": "(82) 99490162",
+      "nome_logradouro": "AV CLIMA BOM",
+      "numero_imovel": "1019",
+      "bairro": "CLIMA BOM",
+      "cep": "57550000",
+<<<<<<< HEAD
+      "codigo_ibge": "2706000",
+      "municipio": "Olivença",
+      "latitude": -9.5694609,
+      "longitude": -35.785393,
+      "valor_minimo": 7.4184,
+      "valor_maximo": 7.6202,
+      "valor_medio": 7.4371,
+      "valor_recente": 7.42,
+      "data_recente": "2026-04-15T20:53:45+00:00"
+=======
+      "codigo_ibge": 2706000,
+      "municipio": "OLIVENCA",
+      "latitude": -9.565324,
+      "longitude": -35.789666,
+      "valor_minimo": 7.420048972323217,
+      "valor_maximo": 7.420048972323217,
+      "valor_medio": 7.420048972323217,
+      "valor_recente": 7.420048972323217,
+      "data_recente": "2026-04-15T22:18:41Z"
     },
     {
       "cnpj": "27069763000145",
@@ -124,31 +224,12 @@
       "municipio": "OLIVENCA",
       "latitude": -9.519277,
       "longitude": -37.191994,
-      "valor_minimo": 7.419983958799443,
-      "valor_maximo": 7.419983958799443,
-      "valor_medio": 7.419983958799443,
-      "valor_recente": 7.419983958799443,
-      "data_recente": "2026-04-15T19:55:56Z"
-    },
-    {
-      "cnpj": "30044555000104",
-      "tipo_combustivel": 5,
-      "razao_social": "MELO MENESES COMERCIO DE COMBUSTIVEIS LTDA",
-      "nome_fantasia": "MELO AUTO POSTO",
-      "telefone": "(82) 99490162",
-      "nome_logradouro": "AV CLIMA BOM",
-      "numero_imovel": "1019",
-      "bairro": "CLIMA BOM",
-      "cep": "57550000",
-      "codigo_ibge": 2706000,
-      "municipio": "OLIVENCA",
-      "latitude": -9.565324,
-      "longitude": -35.789666,
-      "valor_minimo": 7.420048972323217,
-      "valor_maximo": 7.420048972323217,
-      "valor_medio": 7.420048972323217,
-      "valor_recente": 7.420048972323217,
-      "data_recente": "2026-04-15T20:53:45Z"
+      "valor_minimo": 7.4202325006183525,
+      "valor_maximo": 7.4202325006183525,
+      "valor_medio": 7.4202325006183525,
+      "valor_recente": 7.4202325006183525,
+      "data_recente": "2026-04-15T22:10:31Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     }
   ]
 }

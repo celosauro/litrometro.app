@@ -12,10 +12,10 @@
     "collect:supabase": "tsx scripts/coletar-precos-supabase.ts",
     "process:history": "tsx scripts/processar-historico.ts",
     "migrate:json": "tsx scripts/migrar-json-supabase.ts",
+    "export:json": "tsx scripts/exportar-json.ts",
+    "sync:geocache": "tsx scripts/sync-geocache-supabase.ts",
     "geocode": "tsx scripts/geocodificar.ts",
-    "geocode:local": "./scripts/geocode-local.sh",
-    "coord:validate": "tsx scripts/validar-google.ts",
-    "coord:fix": "tsx scripts/validar-google.ts --corrigir"
+    "geocode:local": "./scripts/geocode-local.sh"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.7",

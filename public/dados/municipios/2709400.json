@@ -1,34 +1,39 @@
 {
   "codigoIBGE": "2709400",
   "municipio": "Viçosa",
-  "atualizadoEm": "2026-04-15T22:27:55.542Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+  "totalEstabelecimentos": 14,
+=======
+  "atualizadoEm": "2026-04-16T00:30:34.921Z",
   "totalEstabelecimentos": 14,
   "combustiveis": {
     "1": {
       "totalPostos": 4,
-      "valorMinimo": 7.15,
-      "valorMaximo": 7.389955686853766,
-      "valorMedio": 7.279469818530353
+      "valorMinimo": 7.14978601997147,
+      "valorMaximo": 7.389162561576355,
+      "valorMedio": 7.2796240072483425
     },
     "2": {
       "totalPostos": 4,
-      "valorMinimo": 7.149643705463183,
+      "valorMinimo": 7.151260504201681,
       "valorMaximo": 7.689941556444171,
-      "valorMedio": 7.405145853551297
+      "valorMedio": 7.404826754728284
     },
     "3": {
       "totalPostos": 2,
-      "valorMinimo": 5.990023023791251,
+      "valorMinimo": 5.9880239520958085,
       "valorMaximo": 6.09,
-      "valorMedio": 6.040011511895625
+      "valorMedio": 6.039011976047904
     },
     "5": {
       "totalPostos": 4,
-      "valorMinimo": 7.35,
-      "valorMaximo": 7.690238278247502,
-      "valorMedio": 7.530017605639006
+      "valorMinimo": 7.219733333333333,
+      "valorMaximo": 7.689469638739431,
+      "valorMedio": 7.462258799548709
     }
   },
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "estabelecimentos": [
     {
       "cnpj": "28463788000191",
@@ -40,15 +45,23 @@
       "numero_imovel": "s/n",
       "bairro": "Centro",
       "cep": "57700000",
-      "codigo_ibge": 2709400,
-      "municipio": "VICOSA",
+      "codigo_ibge": "2709400",
+      "municipio": "Viçosa",
       "latitude": -9.3735369,
       "longitude": -36.2510856,
-      "valor_minimo": 7.15,
-      "valor_maximo": 7.15,
-      "valor_medio": 7.15,
+<<<<<<< HEAD
+      "valor_minimo": 5.8101,
+      "valor_maximo": 7.1509,
+      "valor_medio": 7.1128,
       "valor_recente": 7.15,
-      "data_recente": "2026-04-15T21:29:48Z"
+      "data_recente": "2026-04-15T21:29:48+00:00"
+=======
+      "valor_minimo": 7.14978601997147,
+      "valor_maximo": 7.14978601997147,
+      "valor_medio": 7.14978601997147,
+      "valor_recente": 7.14978601997147,
+      "data_recente": "2026-04-15T23:10:01Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "07478815000120",
@@ -60,15 +73,23 @@
       "numero_imovel": "1",
       "bairro": "FAZ ALTO CONCEICAO",
       "cep": "57700000",
-      "codigo_ibge": 2709400,
-      "municipio": "VICOSA",
+      "codigo_ibge": "2709400",
+      "municipio": "Viçosa",
       "latitude": -9.3694174,
       "longitude": -36.2427277,
-      "valor_minimo": 7.288629737609329,
-      "valor_maximo": 7.288629737609329,
-      "valor_medio": 7.288629737609329,
-      "valor_recente": 7.288629737609329,
-      "data_recente": "2026-04-15T21:23:35Z"
+<<<<<<< HEAD
+      "valor_minimo": 6.9197,
+      "valor_maximo": 7.79,
+      "valor_medio": 7.3051,
+      "valor_recente": 7.2886,
+      "data_recente": "2026-04-15T21:23:35+00:00"
+=======
+      "valor_minimo": 7.289692374981776,
+      "valor_maximo": 7.289692374981776,
+      "valor_medio": 7.289692374981776,
+      "valor_recente": 7.289692374981776,
+      "data_recente": "2026-04-15T23:29:35Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "18527801000175",
@@ -80,15 +101,27 @@
       "numero_imovel": "S/N",
       "bairro": "CENTRO",
       "cep": "57700000",
+<<<<<<< HEAD
+      "codigo_ibge": "2709400",
+      "municipio": "Viçosa",
+      "latitude": -9.373999699999999,
+      "longitude": -36.2421527,
+      "valor_minimo": 7.2885,
+      "valor_maximo": 7.2914,
+      "valor_medio": 7.2901,
+      "valor_recente": 7.2893,
+      "data_recente": "2026-04-15T21:05:15+00:00"
+=======
       "codigo_ibge": 2709400,
       "municipio": "VICOSA",
       "latitude": -9.830609899999999,
       "longitude": -35.8872314,
-      "valor_minimo": 7.289293849658314,
-      "valor_maximo": 7.289293849658314,
-      "valor_medio": 7.289293849658314,
-      "valor_recente": 7.289293849658314,
-      "data_recente": "2026-04-15T21:05:15Z"
+      "valor_minimo": 7.2898550724637685,
+      "valor_maximo": 7.2898550724637685,
+      "valor_medio": 7.2898550724637685,
+      "valor_recente": 7.2898550724637685,
+      "data_recente": "2026-04-15T22:39:43Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "08616112000183",
@@ -100,15 +133,23 @@
       "numero_imovel": "88",
       "bairro": "CENTRO",
       "cep": "57700000",
-      "codigo_ibge": 2709400,
-      "municipio": "VICOSA",
+      "codigo_ibge": "2709400",
+      "municipio": "Viçosa",
       "latitude": -9.371023899999999,
       "longitude": -36.2448909,
-      "valor_minimo": 7.389955686853766,
-      "valor_maximo": 7.389955686853766,
-      "valor_medio": 7.389955686853766,
-      "valor_recente": 7.389955686853766,
-      "data_recente": "2026-04-15T21:10:57Z"
+<<<<<<< HEAD
+      "valor_minimo": 7.3396,
+      "valor_maximo": 7.6108,
+      "valor_medio": 7.4346,
+      "valor_recente": 7.39,
+      "data_recente": "2026-04-15T21:10:57+00:00"
+=======
+      "valor_minimo": 7.389162561576355,
+      "valor_maximo": 7.389162561576355,
+      "valor_medio": 7.389162561576355,
+      "valor_recente": 7.389162561576355,
+      "data_recente": "2026-04-15T22:32:39Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "28463788000191",
@@ -120,15 +161,23 @@
       "numero_imovel": "s/n",
       "bairro": "Centro",
       "cep": "57700000",
-      "codigo_ibge": 2709400,
-      "municipio": "VICOSA",
+      "codigo_ibge": "2709400",
+      "municipio": "Viçosa",
       "latitude": -9.3735369,
       "longitude": -36.2510856,
-      "valor_minimo": 7.149643705463183,
-      "valor_maximo": 7.149643705463183,
-      "valor_medio": 7.149643705463183,
-      "valor_recente": 7.149643705463183,
-      "data_recente": "2026-04-15T21:24:25Z"
+<<<<<<< HEAD
+      "valor_minimo": 7.1479,
+      "valor_maximo": 7.1531,
+      "valor_medio": 7.1501,
+      "valor_recente": 7.1496,
+      "data_recente": "2026-04-15T21:24:25+00:00"
+=======
+      "valor_minimo": 7.151260504201681,
+      "valor_maximo": 7.151260504201681,
+      "valor_medio": 7.151260504201681,
+      "valor_recente": 7.151260504201681,
+      "data_recente": "2026-04-15T23:10:01Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "07478815000120",
@@ -140,15 +189,23 @@
       "numero_imovel": "1",
       "bairro": "FAZ ALTO CONCEICAO",
       "cep": "57700000",
-      "codigo_ibge": 2709400,
-      "municipio": "VICOSA",
+      "codigo_ibge": "2709400",
+      "municipio": "Viçosa",
       "latitude": -9.3694174,
       "longitude": -36.2427277,
-      "valor_minimo": 7.390287769784172,
-      "valor_maximo": 7.390287769784172,
-      "valor_medio": 7.390287769784172,
-      "valor_recente": 7.390287769784172,
-      "data_recente": "2026-04-15T20:51:32Z"
+<<<<<<< HEAD
+      "valor_minimo": 7.3869,
+      "valor_maximo": 7.8906,
+      "valor_medio": 7.4274,
+      "valor_recente": 7.3903,
+      "data_recente": "2026-04-15T20:51:32+00:00"
+=======
+      "valor_minimo": 7.388252678241596,
+      "valor_maximo": 7.388252678241596,
+      "valor_medio": 7.388252678241596,
+      "valor_recente": 7.388252678241596,
+      "data_recente": "2026-04-15T22:54:51Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "18527801000175",
@@ -160,15 +217,27 @@
       "numero_imovel": "S/N",
       "bairro": "CENTRO",
       "cep": "57700000",
+<<<<<<< HEAD
+      "codigo_ibge": "2709400",
+      "municipio": "Viçosa",
+      "latitude": -9.373999699999999,
+      "longitude": -36.2421527,
+      "valor_minimo": 7.3892,
+      "valor_maximo": 7.3913,
+      "valor_medio": 7.3901,
+      "valor_recente": 7.3907,
+      "data_recente": "2026-04-15T21:01:49+00:00"
+=======
       "codigo_ibge": 2709400,
       "municipio": "VICOSA",
       "latitude": -9.830609899999999,
       "longitude": -35.8872314,
-      "valor_minimo": 7.390710382513661,
-      "valor_maximo": 7.390710382513661,
-      "valor_medio": 7.390710382513661,
-      "valor_recente": 7.390710382513661,
-      "data_recente": "2026-04-15T21:01:49Z"
+      "valor_minimo": 7.38985228002569,
+      "valor_maximo": 7.38985228002569,
+      "valor_medio": 7.38985228002569,
+      "valor_recente": 7.38985228002569,
+      "data_recente": "2026-04-15T22:12:00Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "08616112000183",
@@ -180,15 +249,23 @@
       "numero_imovel": "88",
       "bairro": "CENTRO",
       "cep": "57700000",
-      "codigo_ibge": 2709400,
-      "municipio": "VICOSA",
+      "codigo_ibge": "2709400",
+      "municipio": "Viçosa",
       "latitude": -9.371023899999999,
       "longitude": -36.2448909,
+<<<<<<< HEAD
+      "valor_minimo": 7.6701,
+      "valor_maximo": 7.9207,
+      "valor_medio": 7.6972,
+      "valor_recente": 7.6899,
+      "data_recente": "2026-04-15T20:23:06+00:00"
+=======
       "valor_minimo": 7.689941556444171,
       "valor_maximo": 7.689941556444171,
       "valor_medio": 7.689941556444171,
       "valor_recente": 7.689941556444171,
-      "data_recente": "2026-04-15T20:23:06Z"
+      "data_recente": "2026-04-15T21:48:45Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "07478815000120",
@@ -200,15 +277,23 @@
       "numero_imovel": "1",
       "bairro": "FAZ ALTO CONCEICAO",
       "cep": "57700000",
-      "codigo_ibge": 2709400,
-      "municipio": "VICOSA",
+      "codigo_ibge": "2709400",
+      "municipio": "Viçosa",
       "latitude": -9.3694174,
       "longitude": -36.2427277,
-      "valor_minimo": 5.990023023791251,
-      "valor_maximo": 5.990023023791251,
-      "valor_medio": 5.990023023791251,
-      "valor_recente": 5.990023023791251,
-      "data_recente": "2026-04-15T21:09:30Z"
+<<<<<<< HEAD
+      "valor_minimo": 5.0802,
+      "valor_maximo": 5.991,
+      "valor_medio": 5.9622,
+      "valor_recente": 5.99,
+      "data_recente": "2026-04-15T21:09:30+00:00"
+=======
+      "valor_minimo": 5.9880239520958085,
+      "valor_maximo": 5.9880239520958085,
+      "valor_medio": 5.9880239520958085,
+      "valor_recente": 5.9880239520958085,
+      "data_recente": "2026-04-15T23:29:46Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "18527801000175",
@@ -220,15 +305,65 @@
       "numero_imovel": "S/N",
       "bairro": "CENTRO",
       "cep": "57700000",
-      "codigo_ibge": 2709400,
-      "municipio": "VICOSA",
-      "latitude": -9.830609899999999,
-      "longitude": -35.8872314,
-      "valor_minimo": 6.09,
-      "valor_maximo": 6.09,
-      "valor_medio": 6.09,
+      "codigo_ibge": "2709400",
+      "municipio": "Viçosa",
+      "latitude": -9.373999699999999,
+      "longitude": -36.2421527,
+      "valor_minimo": 6.0893,
+      "valor_maximo": 6.0909,
+      "valor_medio": 6.0902,
       "valor_recente": 6.09,
-      "data_recente": "2026-04-13T11:44:05Z"
+      "data_recente": "2026-04-13T11:44:05+00:00"
+    },
+    {
+<<<<<<< HEAD
+      "cnpj": "28463788000191",
+      "tipo_combustivel": 5,
+      "razao_social": "VANILDO ALBUQUERQUE LTDA",
+      "nome_fantasia": "POSTO BOIADEIRO",
+      "telefone": "",
+      "nome_logradouro": "Rua Sen. Ismael Brandao",
+      "numero_imovel": "s/n",
+      "bairro": "Centro",
+      "cep": "57700000",
+      "codigo_ibge": "2709400",
+      "municipio": "Viçosa",
+      "latitude": -9.3735369,
+      "longitude": -36.2510856,
+      "valor_minimo": 7.3486,
+      "valor_maximo": 7.3529,
+      "valor_medio": 7.3502,
+      "valor_recente": 7.35,
+      "data_recente": "2026-04-15T20:28:28+00:00"
+    },
+    {
+=======
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
+      "cnpj": "07478815000120",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
+      "nome_fantasia": "POSTO SABALANGA",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 210",
+      "numero_imovel": "1",
+      "bairro": "FAZ ALTO CONCEICAO",
+      "cep": "57700000",
+      "codigo_ibge": "2709400",
+      "municipio": "Viçosa",
+      "latitude": -9.3694174,
+      "longitude": -36.2427277,
+<<<<<<< HEAD
+      "valor_minimo": 7.0498,
+      "valor_maximo": 7.9901,
+      "valor_medio": 7.6285,
+      "valor_recente": 7.4899,
+      "data_recente": "2026-04-15T21:06:56+00:00"
+=======
+      "valor_minimo": 7.219733333333333,
+      "valor_maximo": 7.219733333333333,
+      "valor_medio": 7.219733333333333,
+      "valor_recente": 7.219733333333333,
+      "data_recente": "2026-04-15T23:28:27Z"
     },
     {
       "cnpj": "28463788000191",
@@ -244,31 +379,12 @@
       "municipio": "VICOSA",
       "latitude": -9.3735369,
       "longitude": -36.2510856,
-      "valor_minimo": 7.35,
-      "valor_maximo": 7.35,
-      "valor_medio": 7.35,
-      "valor_recente": 7.35,
-      "data_recente": "2026-04-15T20:28:28Z"
-    },
-    {
-      "cnpj": "07478815000120",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
-      "nome_fantasia": "POSTO SABALANGA",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 210",
-      "numero_imovel": "1",
-      "bairro": "FAZ ALTO CONCEICAO",
-      "cep": "57700000",
-      "codigo_ibge": 2709400,
-      "municipio": "VICOSA",
-      "latitude": -9.3694174,
-      "longitude": -36.2427277,
-      "valor_minimo": 7.489850169163847,
-      "valor_maximo": 7.489850169163847,
-      "valor_medio": 7.489850169163847,
-      "valor_recente": 7.489850169163847,
-      "data_recente": "2026-04-15T21:06:56Z"
+      "valor_minimo": 7.349699398797595,
+      "valor_maximo": 7.349699398797595,
+      "valor_medio": 7.349699398797595,
+      "valor_recente": 7.349699398797595,
+      "data_recente": "2026-04-15T22:37:16Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "08616112000183",
@@ -280,15 +396,23 @@
       "numero_imovel": "88",
       "bairro": "CENTRO",
       "cep": "57700000",
-      "codigo_ibge": 2709400,
-      "municipio": "VICOSA",
+      "codigo_ibge": "2709400",
+      "municipio": "Viçosa",
       "latitude": -9.371023899999999,
       "longitude": -36.2448909,
-      "valor_minimo": 7.589981975144673,
-      "valor_maximo": 7.589981975144673,
-      "valor_medio": 7.589981975144673,
-      "valor_recente": 7.589981975144673,
-      "data_recente": "2026-04-15T20:47:42Z"
+<<<<<<< HEAD
+      "valor_minimo": 7.5631,
+      "valor_maximo": 7.8099,
+      "valor_medio": 7.5939,
+      "valor_recente": 7.59,
+      "data_recente": "2026-04-15T20:47:42+00:00"
+=======
+      "valor_minimo": 7.590132827324478,
+      "valor_maximo": 7.590132827324478,
+      "valor_medio": 7.590132827324478,
+      "valor_recente": 7.590132827324478,
+      "data_recente": "2026-04-15T21:48:45Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "18527801000175",
@@ -300,15 +424,27 @@
       "numero_imovel": "S/N",
       "bairro": "CENTRO",
       "cep": "57700000",
+<<<<<<< HEAD
+      "codigo_ibge": "2709400",
+      "municipio": "Viçosa",
+      "latitude": -9.373999699999999,
+      "longitude": -36.2421527,
+      "valor_minimo": 7.6897,
+      "valor_maximo": 7.6929,
+      "valor_medio": 7.6905,
+      "valor_recente": 7.6902,
+      "data_recente": "2026-04-15T20:46:48+00:00"
+=======
       "codigo_ibge": 2709400,
       "municipio": "VICOSA",
       "latitude": -9.830609899999999,
       "longitude": -35.8872314,
-      "valor_minimo": 7.690238278247502,
-      "valor_maximo": 7.690238278247502,
-      "valor_medio": 7.690238278247502,
-      "valor_recente": 7.690238278247502,
-      "data_recente": "2026-04-15T20:46:48Z"
+      "valor_minimo": 7.689469638739431,
+      "valor_maximo": 7.689469638739431,
+      "valor_medio": 7.689469638739431,
+      "valor_recente": 7.689469638739431,
+      "data_recente": "2026-04-15T22:50:32Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     }
   ]
 }

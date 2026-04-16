@@ -1,40 +1,12 @@
 {
   "codigoIBGE": "2701001",
   "municipio": "Boca da Mata",
-  "atualizadoEm": "2026-04-15T21:45:36.446Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+=======
+  "atualizadoEm": "2026-04-15T23:38:03.595Z",
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "totalEstabelecimentos": 13,
-  "combustiveis": {
-    "1": {
-      "totalPostos": 4,
-      "valorMinimo": 6.64,
-      "valorMaximo": 6.949270326615705,
-      "valorMedio": 6.7916548289772845
-    },
-    "2": {
-      "totalPostos": 1,
-      "valorMinimo": 7.019277108433735,
-      "valorMaximo": 7.019277108433735,
-      "valorMedio": 7.019277108433735
-    },
-    "3": {
-      "totalPostos": 4,
-      "valorMinimo": 5.499945000549994,
-      "valorMaximo": 5.689900426742532,
-      "valorMedio": 5.594922713646263
-    },
-    "4": {
-      "totalPostos": 1,
-      "valorMinimo": 7.250001812500453,
-      "valorMaximo": 7.250001812500453,
-      "valorMedio": 7.250001812500453
-    },
-    "5": {
-      "totalPostos": 3,
-      "valorMinimo": 7.37,
-      "valorMaximo": 7.74,
-      "valorMedio": 7.616664664876832
-    }
-  },
   "estabelecimentos": [
     {
       "cnpj": "31122428000130",
@@ -46,15 +18,15 @@
       "numero_imovel": "1717",
       "bairro": "ZONA RURAL",
       "cep": "57680000",
-      "codigo_ibge": 2701001,
-      "municipio": "BOCA DA MATA",
-      "latitude": -9.663338,
-      "longitude": -36.084506,
+      "codigo_ibge": "2701001",
+      "municipio": "Boca da Mata",
+      "latitude": -9.6580569,
+      "longitude": -36.1645628,
       "valor_minimo": 6.64,
-      "valor_maximo": 6.64,
-      "valor_medio": 6.64,
+      "valor_maximo": 6.9499,
+      "valor_medio": 6.7299,
       "valor_recente": 6.64,
-      "data_recente": "2026-04-15T21:03:08Z"
+      "data_recente": "2026-04-15T21:03:08+00:00"
     },
     {
       "cnpj": "02970015000108",
@@ -66,15 +38,15 @@
       "numero_imovel": "SN",
       "bairro": "ZONA RURAL",
       "cep": "57680000",
-      "codigo_ibge": 2701001,
-      "municipio": "BOCA DA MATA",
-      "latitude": -9.637674,
-      "longitude": -36.21101,
-      "valor_minimo": 6.787330316742081,
-      "valor_maximo": 6.787330316742081,
-      "valor_medio": 6.787330316742081,
-      "valor_recente": 6.787330316742081,
-      "data_recente": "2026-04-15T19:40:17Z"
+      "codigo_ibge": "2701001",
+      "municipio": "Boca da Mata",
+      "latitude": -9.6580569,
+      "longitude": -36.1645628,
+      "valor_minimo": 6.689,
+      "valor_maximo": 6.9864,
+      "valor_medio": 6.7893,
+      "valor_recente": 6.7873,
+      "data_recente": "2026-04-15T19:40:17+00:00"
     },
     {
       "cnpj": "02681327000100",
@@ -86,15 +58,15 @@
       "numero_imovel": "24",
       "bairro": "CENTRO",
       "cep": "57680000",
-      "codigo_ibge": 2701001,
-      "municipio": "BOCA DA MATA",
+      "codigo_ibge": "2701001",
+      "municipio": "Boca da Mata",
       "latitude": -9.644614,
       "longitude": -36.214373,
-      "valor_minimo": 6.79001867255135,
-      "valor_maximo": 6.79001867255135,
-      "valor_medio": 6.79001867255135,
-      "valor_recente": 6.79001867255135,
-      "data_recente": "2026-04-15T21:27:54Z"
+      "valor_minimo": 6.7838,
+      "valor_maximo": 6.8966,
+      "valor_medio": 6.8245,
+      "valor_recente": 6.79,
+      "data_recente": "2026-04-15T21:27:54+00:00"
     },
     {
       "cnpj": "23768811000132",
@@ -106,15 +78,15 @@
       "numero_imovel": "307",
       "bairro": "VARELA",
       "cep": "57680000",
-      "codigo_ibge": 2701001,
-      "municipio": "BOCA DA MATA",
+      "codigo_ibge": "2701001",
+      "municipio": "Boca da Mata",
       "latitude": -9.6482528,
       "longitude": -36.2126435,
-      "valor_minimo": 6.949270326615705,
-      "valor_maximo": 6.949270326615705,
-      "valor_medio": 6.949270326615705,
-      "valor_recente": 6.949270326615705,
-      "data_recente": "2026-04-15T21:07:02Z"
+      "valor_minimo": 6.6386,
+      "valor_maximo": 6.95,
+      "valor_medio": 6.7618,
+      "valor_recente": 6.9493,
+      "data_recente": "2026-04-15T21:07:02+00:00"
     },
     {
       "cnpj": "02681327000100",
@@ -126,35 +98,15 @@
       "numero_imovel": "24",
       "bairro": "CENTRO",
       "cep": "57680000",
-      "codigo_ibge": 2701001,
-      "municipio": "BOCA DA MATA",
+      "codigo_ibge": "2701001",
+      "municipio": "Boca da Mata",
       "latitude": -9.644614,
       "longitude": -36.214373,
-      "valor_minimo": 7.019277108433735,
-      "valor_maximo": 7.019277108433735,
-      "valor_medio": 7.019277108433735,
-      "valor_recente": 7.019277108433735,
-      "data_recente": "2026-04-15T20:12:07Z"
-    },
-    {
-      "cnpj": "31122428000130",
-      "tipo_combustivel": 3,
-      "razao_social": "C C JATOBA DA ROCHA",
-      "nome_fantasia": "POSTO SANTA RITA",
-      "telefone": "(82) 32211058",
-      "nome_logradouro": "ROD AL 215 KM 11",
-      "numero_imovel": "1717",
-      "bairro": "ZONA RURAL",
-      "cep": "57680000",
-      "codigo_ibge": 2701001,
-      "municipio": "BOCA DA MATA",
-      "latitude": -9.663338,
-      "longitude": -36.084506,
-      "valor_minimo": 5.499945000549994,
-      "valor_maximo": 5.499945000549994,
-      "valor_medio": 5.499945000549994,
-      "valor_recente": 5.499945000549994,
-      "data_recente": "2026-04-15T20:40:13Z"
+      "valor_minimo": 7.0188,
+      "valor_maximo": 7.021,
+      "valor_medio": 7.0199,
+      "valor_recente": 7.0193,
+      "data_recente": "2026-04-15T20:12:07+00:00"
     },
     {
       "cnpj": "23768811000132",
@@ -166,15 +118,78 @@
       "numero_imovel": "307",
       "bairro": "VARELA",
       "cep": "57680000",
-      "codigo_ibge": 2701001,
-      "municipio": "BOCA DA MATA",
+      "codigo_ibge": "2701001",
+      "municipio": "Boca da Mata",
       "latitude": -9.6482528,
       "longitude": -36.2126435,
-      "valor_minimo": 5.499945000549994,
-      "valor_maximo": 5.499945000549994,
-      "valor_medio": 5.499945000549994,
-      "valor_recente": 5.499945000549994,
-      "data_recente": "2026-04-15T15:43:40Z"
+      "valor_minimo": 5.4765,
+      "valor_maximo": 5.7299,
+      "valor_medio": 5.5293,
+      "valor_recente": 5.4999,
+      "data_recente": "2026-04-15T15:43:40+00:00"
+    },
+    {
+      "cnpj": "31122428000130",
+      "tipo_combustivel": 3,
+      "razao_social": "C C JATOBA DA ROCHA",
+      "nome_fantasia": "POSTO SANTA RITA",
+      "telefone": "(82) 32211058",
+      "nome_logradouro": "ROD AL 215 KM 11",
+      "numero_imovel": "1717",
+      "bairro": "ZONA RURAL",
+      "cep": "57680000",
+      "codigo_ibge": "2701001",
+      "municipio": "Boca da Mata",
+      "latitude": -9.6580569,
+      "longitude": -36.1645628,
+      "valor_minimo": 5.4725,
+      "valor_maximo": 5.73,
+      "valor_medio": 5.5183,
+      "valor_recente": 5.4999,
+      "data_recente": "2026-04-15T20:40:13+00:00"
+    },
+    {
+<<<<<<< HEAD
+      "cnpj": "02970015000108",
+      "tipo_combustivel": 3,
+      "razao_social": "DANIELLE TOLEDO GOMES TENORIO COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+      "nome_fantasia": "POSTO SAFRA",
+      "telefone": "(82) 2791366",
+      "nome_logradouro": "RDV AL 215  KM 056",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57680000",
+      "codigo_ibge": "2701001",
+      "municipio": "Boca da Mata",
+      "latitude": -9.6580569,
+      "longitude": -36.1645628,
+      "valor_minimo": 5.3898,
+      "valor_maximo": 5.8597,
+      "valor_medio": 5.7017,
+      "valor_recente": 5.6899,
+      "data_recente": "2026-04-15T20:53:32+00:00"
+    },
+    {
+=======
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
+      "cnpj": "02681327000100",
+      "tipo_combustivel": 3,
+      "razao_social": "POSTO PADRE CÍCERO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+      "nome_fantasia": "AUTO POSTO PADRE CICERO",
+      "telefone": "(82) 2791366",
+      "nome_logradouro": "Rua JOSE ROBERTO",
+      "numero_imovel": "24",
+      "bairro": "CENTRO",
+      "cep": "57680000",
+      "codigo_ibge": "2701001",
+      "municipio": "Boca da Mata",
+      "latitude": -9.644614,
+      "longitude": -36.214373,
+      "valor_minimo": 5.6879,
+      "valor_maximo": 5.6926,
+      "valor_medio": 5.6904,
+      "valor_recente": 5.6899,
+      "data_recente": "2026-04-15T16:02:29+00:00"
     },
     {
       "cnpj": "02970015000108",
@@ -197,26 +212,6 @@
       "data_recente": "2026-04-15T20:53:32Z"
     },
     {
-      "cnpj": "02681327000100",
-      "tipo_combustivel": 3,
-      "razao_social": "POSTO PADRE CÍCERO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
-      "nome_fantasia": "AUTO POSTO PADRE CICERO",
-      "telefone": "(82) 2791366",
-      "nome_logradouro": "Rua JOSE ROBERTO",
-      "numero_imovel": "24",
-      "bairro": "CENTRO",
-      "cep": "57680000",
-      "codigo_ibge": 2701001,
-      "municipio": "BOCA DA MATA",
-      "latitude": -9.644614,
-      "longitude": -36.214373,
-      "valor_minimo": 5.689900426742532,
-      "valor_maximo": 5.689900426742532,
-      "valor_medio": 5.689900426742532,
-      "valor_recente": 5.689900426742532,
-      "data_recente": "2026-04-15T16:02:29Z"
-    },
-    {
       "cnpj": "02970015000108",
       "tipo_combustivel": 4,
       "razao_social": "DANIELLE TOLEDO GOMES TENORIO COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
@@ -226,15 +221,15 @@
       "numero_imovel": "SN",
       "bairro": "ZONA RURAL",
       "cep": "57680000",
-      "codigo_ibge": 2701001,
-      "municipio": "BOCA DA MATA",
-      "latitude": -9.637674,
-      "longitude": -36.21101,
-      "valor_minimo": 7.250001812500453,
-      "valor_maximo": 7.250001812500453,
-      "valor_medio": 7.250001812500453,
-      "valor_recente": 7.250001812500453,
-      "data_recente": "2026-04-15T19:44:36Z"
+      "codigo_ibge": "2701001",
+      "municipio": "Boca da Mata",
+      "latitude": -9.6580569,
+      "longitude": -36.1645628,
+      "valor_minimo": 7.2499,
+      "valor_maximo": 7.4699,
+      "valor_medio": 7.2571,
+      "valor_recente": 7.25,
+      "data_recente": "2026-04-15T19:44:36+00:00"
     },
     {
       "cnpj": "02681327000100",
@@ -246,15 +241,15 @@
       "numero_imovel": "24",
       "bairro": "CENTRO",
       "cep": "57680000",
-      "codigo_ibge": 2701001,
-      "municipio": "BOCA DA MATA",
+      "codigo_ibge": "2701001",
+      "municipio": "Boca da Mata",
       "latitude": -9.644614,
       "longitude": -36.214373,
-      "valor_minimo": 7.37,
-      "valor_maximo": 7.37,
-      "valor_medio": 7.37,
+      "valor_minimo": 7.3696,
+      "valor_maximo": 7.371,
+      "valor_medio": 7.3701,
       "valor_recente": 7.37,
-      "data_recente": "2026-04-15T19:36:28Z"
+      "data_recente": "2026-04-15T19:36:28+00:00"
     },
     {
       "cnpj": "31122428000130",
@@ -266,15 +261,15 @@
       "numero_imovel": "1717",
       "bairro": "ZONA RURAL",
       "cep": "57680000",
-      "codigo_ibge": 2701001,
-      "municipio": "BOCA DA MATA",
-      "latitude": -9.663338,
-      "longitude": -36.084506,
-      "valor_minimo": 7.739993994630493,
-      "valor_maximo": 7.739993994630493,
-      "valor_medio": 7.739993994630493,
-      "valor_recente": 7.739993994630493,
-      "data_recente": "2026-04-15T16:23:57Z"
+      "codigo_ibge": "2701001",
+      "municipio": "Boca da Mata",
+      "latitude": -9.6580569,
+      "longitude": -36.1645628,
+      "valor_minimo": 7.4006,
+      "valor_maximo": 7.74,
+      "valor_medio": 7.5902,
+      "valor_recente": 7.74,
+      "data_recente": "2026-04-15T16:23:57+00:00"
     },
     {
       "cnpj": "23768811000132",
@@ -286,15 +281,15 @@
       "numero_imovel": "307",
       "bairro": "VARELA",
       "cep": "57680000",
-      "codigo_ibge": 2701001,
-      "municipio": "BOCA DA MATA",
+      "codigo_ibge": "2701001",
+      "municipio": "Boca da Mata",
       "latitude": -9.6482528,
       "longitude": -36.2126435,
-      "valor_minimo": 7.74,
+      "valor_minimo": 7.3997,
       "valor_maximo": 7.74,
-      "valor_medio": 7.74,
+      "valor_medio": 7.6359,
       "valor_recente": 7.74,
-      "data_recente": "2026-04-15T21:02:56Z"
+      "data_recente": "2026-04-15T21:02:56+00:00"
     }
   ]
 }

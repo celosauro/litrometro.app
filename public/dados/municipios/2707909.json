@@ -1,34 +1,12 @@
 {
   "codigoIBGE": "2707909",
   "municipio": "Santa Luzia do Norte",
-  "atualizadoEm": "2026-04-15T22:21:17.529Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+=======
+  "atualizadoEm": "2026-04-16T00:20:43.981Z",
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "totalEstabelecimentos": 4,
-  "combustiveis": {
-    "1": {
-      "totalPostos": 1,
-      "valorMinimo": 6.839945280437757,
-      "valorMaximo": 6.839945280437757,
-      "valorMedio": 6.839945280437757
-    },
-    "2": {
-      "totalPostos": 1,
-      "valorMinimo": 6.074374388368517,
-      "valorMaximo": 6.074374388368517,
-      "valorMedio": 6.074374388368517
-    },
-    "3": {
-      "totalPostos": 1,
-      "valorMinimo": 4.400781059311692,
-      "valorMaximo": 4.400781059311692,
-      "valorMedio": 4.400781059311692
-    },
-    "5": {
-      "totalPostos": 1,
-      "valorMinimo": 6.669928701244233,
-      "valorMaximo": 6.669928701244233,
-      "valorMedio": 6.669928701244233
-    }
-  },
   "estabelecimentos": [
     {
       "cnpj": "24874578000135",
@@ -40,15 +18,15 @@
       "numero_imovel": "SN",
       "bairro": "CENTRO",
       "cep": "57130000",
-      "codigo_ibge": 2707909,
-      "municipio": "SANTA LUZIA DO NORTE",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.839945280437757,
-      "valor_maximo": 6.839945280437757,
-      "valor_medio": 6.839945280437757,
-      "valor_recente": 6.839945280437757,
-      "data_recente": "2026-04-15T20:05:02Z"
+      "codigo_ibge": "2707909",
+      "municipio": "Santa Luzia do Norte",
+      "latitude": -9.5984877,
+      "longitude": -35.8227274,
+      "valor_minimo": 5.9738,
+      "valor_maximo": 6.84,
+      "valor_medio": 6.4359,
+      "valor_recente": 6.8399,
+      "data_recente": "2026-04-15T20:05:02+00:00"
     },
     {
       "cnpj": "24874578000135",
@@ -60,15 +38,15 @@
       "numero_imovel": "SN",
       "bairro": "CENTRO",
       "cep": "57130000",
-      "codigo_ibge": 2707909,
-      "municipio": "SANTA LUZIA DO NORTE",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.074374388368517,
-      "valor_maximo": 6.074374388368517,
-      "valor_medio": 6.074374388368517,
-      "valor_recente": 6.074374388368517,
-      "data_recente": "2026-04-15T02:37:12Z"
+      "codigo_ibge": "2707909",
+      "municipio": "Santa Luzia do Norte",
+      "latitude": -9.5984877,
+      "longitude": -35.8227274,
+      "valor_minimo": 6.0736,
+      "valor_maximo": 6.9906,
+      "valor_medio": 6.3795,
+      "valor_recente": 6.0744,
+      "data_recente": "2026-04-15T02:37:12+00:00"
     },
     {
       "cnpj": "24874578000135",
@@ -80,15 +58,15 @@
       "numero_imovel": "SN",
       "bairro": "CENTRO",
       "cep": "57130000",
-      "codigo_ibge": 2707909,
-      "municipio": "SANTA LUZIA DO NORTE",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 4.400781059311692,
-      "valor_maximo": 4.400781059311692,
-      "valor_medio": 4.400781059311692,
-      "valor_recente": 4.400781059311692,
-      "data_recente": "2026-04-15T02:38:54Z"
+      "codigo_ibge": "2707909",
+      "municipio": "Santa Luzia do Norte",
+      "latitude": -9.5984877,
+      "longitude": -35.8227274,
+      "valor_minimo": 4.4,
+      "valor_maximo": 5.37,
+      "valor_medio": 5.0236,
+      "valor_recente": 4.4008,
+      "data_recente": "2026-04-15T02:38:54+00:00"
     },
     {
       "cnpj": "24874578000135",
@@ -100,15 +78,15 @@
       "numero_imovel": "SN",
       "bairro": "CENTRO",
       "cep": "57130000",
-      "codigo_ibge": 2707909,
-      "municipio": "SANTA LUZIA DO NORTE",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.669928701244233,
-      "valor_maximo": 6.669928701244233,
-      "valor_medio": 6.669928701244233,
-      "valor_recente": 6.669928701244233,
-      "data_recente": "2026-04-15T02:37:46Z"
+      "codigo_ibge": "2707909",
+      "municipio": "Santa Luzia do Norte",
+      "latitude": -9.5984877,
+      "longitude": -35.8227274,
+      "valor_minimo": 6.6699,
+      "valor_maximo": 6.9901,
+      "valor_medio": 6.9011,
+      "valor_recente": 6.6699,
+      "data_recente": "2026-04-15T02:37:46+00:00"
     }
   ]
 }

@@ -1,14 +1,18 @@
 {
   "codigoIBGE": "2705507",
   "municipio": "Murici",
-  "atualizadoEm": "2026-04-15T22:10:25.065Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+  "totalEstabelecimentos": 9,
+=======
+  "atualizadoEm": "2026-04-16T00:04:51.086Z",
   "totalEstabelecimentos": 9,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.49937015182656,
-      "valorMaximo": 6.989517819706499,
-      "valorMedio": 6.662962657177687
+      "valorMinimo": 6.4935064935064934,
+      "valorMaximo": 6.989748369058714,
+      "valorMedio": 6.660930203337273
     },
     "2": {
       "totalPostos": 1,
@@ -24,11 +28,12 @@
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.159904534606206,
-      "valorMaximo": 7.5895734597156395,
-      "valorMedio": 7.349808161522826
+      "valorMinimo": 7.159885944780583,
+      "valorMaximo": 7.589868041862582,
+      "valorMedio": 7.366569514023291
     }
   },
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "estabelecimentos": [
     {
       "cnpj": "35741586000120",
@@ -40,15 +45,23 @@
       "numero_imovel": "S/N",
       "bairro": "CENTRO",
       "cep": "57820000",
-      "codigo_ibge": 2705507,
-      "municipio": "MURICI",
+      "codigo_ibge": "2705507",
+      "municipio": "Murici",
       "latitude": -9.3091641,
       "longitude": -35.9430621,
-      "valor_minimo": 6.49937015182656,
-      "valor_maximo": 6.49937015182656,
-      "valor_medio": 6.49937015182656,
-      "valor_recente": 6.49937015182656,
-      "data_recente": "2026-04-15T20:55:41Z"
+<<<<<<< HEAD
+      "valor_minimo": 6.4977,
+      "valor_maximo": 7.15,
+      "valor_medio": 6.5218,
+      "valor_recente": 6.4994,
+      "data_recente": "2026-04-15T20:55:41+00:00"
+=======
+      "valor_minimo": 6.4935064935064934,
+      "valor_maximo": 6.4935064935064934,
+      "valor_medio": 6.4935064935064934,
+      "valor_recente": 6.4935064935064934,
+      "data_recente": "2026-04-15T22:41:11Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "04168430000178",
@@ -60,15 +73,27 @@
       "numero_imovel": "02",
       "bairro": "CIDADE ALTA",
       "cep": "57820000",
+<<<<<<< HEAD
+      "codigo_ibge": "2705507",
+      "municipio": "Murici",
+      "latitude": -9.3067164,
+      "longitude": -35.9406591,
+      "valor_minimo": 6.4977,
+      "valor_maximo": 6.65,
+      "valor_medio": 6.5329,
+      "valor_recente": 6.5,
+      "data_recente": "2026-04-15T21:02:02+00:00"
+=======
       "codigo_ibge": 2705507,
       "municipio": "MURICI",
       "latitude": -9.628416999999999,
       "longitude": -35.7359735,
-      "valor_minimo": 6.5,
-      "valor_maximo": 6.5,
-      "valor_medio": 6.5,
-      "valor_recente": 6.5,
-      "data_recente": "2026-04-15T21:02:02Z"
+      "valor_minimo": 6.499535747446611,
+      "valor_maximo": 6.499535747446611,
+      "valor_medio": 6.499535747446611,
+      "valor_recente": 6.499535747446611,
+      "data_recente": "2026-04-15T23:29:55Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "05079209000106",
@@ -80,15 +105,23 @@
       "numero_imovel": "325",
       "bairro": "CENTRO",
       "cep": "57820000",
-      "codigo_ibge": 2705507,
-      "municipio": "MURICI",
+      "codigo_ibge": "2705507",
+      "municipio": "Murici",
       "latitude": -9.307119100000001,
       "longitude": -35.9411649,
-      "valor_minimo": 6.989517819706499,
-      "valor_maximo": 6.989517819706499,
-      "valor_medio": 6.989517819706499,
-      "valor_recente": 6.989517819706499,
-      "data_recente": "2026-04-15T21:25:32Z"
+<<<<<<< HEAD
+      "valor_minimo": 6.9832,
+      "valor_maximo": 6.99,
+      "valor_medio": 6.9883,
+      "valor_recente": 6.9895,
+      "data_recente": "2026-04-15T21:25:32+00:00"
+=======
+      "valor_minimo": 6.989748369058714,
+      "valor_maximo": 6.989748369058714,
+      "valor_medio": 6.989748369058714,
+      "valor_recente": 6.989748369058714,
+      "data_recente": "2026-04-15T23:29:59Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "35741586000120",
@@ -100,15 +133,15 @@
       "numero_imovel": "S/N",
       "bairro": "CENTRO",
       "cep": "57820000",
-      "codigo_ibge": 2705507,
-      "municipio": "MURICI",
+      "codigo_ibge": "2705507",
+      "municipio": "Murici",
       "latitude": -9.3091641,
       "longitude": -35.9430621,
-      "valor_minimo": 6.544502617801047,
-      "valor_maximo": 6.544502617801047,
-      "valor_medio": 6.544502617801047,
-      "valor_recente": 6.544502617801047,
-      "data_recente": "2026-04-08T00:39:24Z"
+      "valor_minimo": 6.5445,
+      "valor_maximo": 6.5445,
+      "valor_medio": 6.5445,
+      "valor_recente": 6.5445,
+      "data_recente": "2026-04-08T00:39:24+00:00"
     },
     {
       "cnpj": "35741586000120",
@@ -120,15 +153,15 @@
       "numero_imovel": "S/N",
       "bairro": "CENTRO",
       "cep": "57820000",
-      "codigo_ibge": 2705507,
-      "municipio": "MURICI",
+      "codigo_ibge": "2705507",
+      "municipio": "Murici",
       "latitude": -9.3091641,
       "longitude": -35.9430621,
-      "valor_minimo": 5.200208008320333,
-      "valor_maximo": 5.200208008320333,
-      "valor_medio": 5.200208008320333,
-      "valor_recente": 5.200208008320333,
-      "data_recente": "2026-04-15T19:12:04Z"
+      "valor_minimo": 5.1991,
+      "valor_maximo": 5.2002,
+      "valor_medio": 5.1997,
+      "valor_recente": 5.2002,
+      "data_recente": "2026-04-15T19:12:04+00:00"
     },
     {
       "cnpj": "05079209000106",
@@ -140,15 +173,15 @@
       "numero_imovel": "325",
       "bairro": "CENTRO",
       "cep": "57820000",
-      "codigo_ibge": 2705507,
-      "municipio": "MURICI",
+      "codigo_ibge": "2705507",
+      "municipio": "Murici",
       "latitude": -9.307119100000001,
       "longitude": -35.9411649,
-      "valor_minimo": 5.739751909964676,
-      "valor_maximo": 5.739751909964676,
-      "valor_medio": 5.739751909964676,
-      "valor_recente": 5.739751909964676,
-      "data_recente": "2026-04-15T14:26:07Z"
+      "valor_minimo": 5.7339,
+      "valor_maximo": 6.5999,
+      "valor_medio": 5.7639,
+      "valor_recente": 5.7398,
+      "data_recente": "2026-04-15T14:26:07+00:00"
     },
     {
       "cnpj": "35741586000120",
@@ -160,15 +193,23 @@
       "numero_imovel": "S/N",
       "bairro": "CENTRO",
       "cep": "57820000",
-      "codigo_ibge": 2705507,
-      "municipio": "MURICI",
+      "codigo_ibge": "2705507",
+      "municipio": "Murici",
       "latitude": -9.3091641,
       "longitude": -35.9430621,
-      "valor_minimo": 7.159904534606206,
-      "valor_maximo": 7.159904534606206,
-      "valor_medio": 7.159904534606206,
-      "valor_recente": 7.159904534606206,
-      "data_recente": "2026-04-15T21:08:06Z"
+<<<<<<< HEAD
+      "valor_minimo": 7.1531,
+      "valor_maximo": 7.7,
+      "valor_medio": 7.184,
+      "valor_recente": 7.1599,
+      "data_recente": "2026-04-15T21:08:06+00:00"
+=======
+      "valor_minimo": 7.159885944780583,
+      "valor_maximo": 7.159885944780583,
+      "valor_medio": 7.159885944780583,
+      "valor_recente": 7.159885944780583,
+      "data_recente": "2026-04-15T21:45:39Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "04168430000178",
@@ -180,15 +221,27 @@
       "numero_imovel": "02",
       "bairro": "CIDADE ALTA",
       "cep": "57820000",
+<<<<<<< HEAD
+      "codigo_ibge": "2705507",
+      "municipio": "Murici",
+      "latitude": -9.3067164,
+      "longitude": -35.9406591,
+      "valor_minimo": 7.2953,
+      "valor_maximo": 7.35,
+      "valor_medio": 7.3184,
+      "valor_recente": 7.2999,
+      "data_recente": "2026-04-15T20:45:35+00:00"
+=======
       "codigo_ibge": 2705507,
       "municipio": "MURICI",
       "latitude": -9.628416999999999,
       "longitude": -35.7359735,
-      "valor_minimo": 7.299946490246631,
-      "valor_maximo": 7.299946490246631,
-      "valor_medio": 7.299946490246631,
-      "valor_recente": 7.299946490246631,
-      "data_recente": "2026-04-15T20:45:35Z"
+      "valor_minimo": 7.3499545554267085,
+      "valor_maximo": 7.3499545554267085,
+      "valor_medio": 7.3499545554267085,
+      "valor_recente": 7.3499545554267085,
+      "data_recente": "2026-04-15T22:38:39Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "05079209000106",
@@ -200,15 +253,23 @@
       "numero_imovel": "325",
       "bairro": "CENTRO",
       "cep": "57820000",
-      "codigo_ibge": 2705507,
-      "municipio": "MURICI",
+      "codigo_ibge": "2705507",
+      "municipio": "Murici",
       "latitude": -9.307119100000001,
       "longitude": -35.9411649,
-      "valor_minimo": 7.5895734597156395,
-      "valor_maximo": 7.5895734597156395,
-      "valor_medio": 7.5895734597156395,
-      "valor_recente": 7.5895734597156395,
-      "data_recente": "2026-04-15T20:41:11Z"
+<<<<<<< HEAD
+      "valor_minimo": 7.5801,
+      "valor_maximo": 8.73,
+      "valor_medio": 7.7434,
+      "valor_recente": 7.5896,
+      "data_recente": "2026-04-15T20:41:11+00:00"
+=======
+      "valor_minimo": 7.589868041862582,
+      "valor_maximo": 7.589868041862582,
+      "valor_medio": 7.589868041862582,
+      "valor_recente": 7.589868041862582,
+      "data_recente": "2026-04-15T22:48:02Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     }
   ]
 }

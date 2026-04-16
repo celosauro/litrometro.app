@@ -250,7 +250,7 @@ async function migrarPrecos(precos: PrecoAtualInsert[]): Promise<number> {
     const batch = precos.slice(i, i + BATCH_SIZE);
     const batchNum = Math.floor(i / BATCH_SIZE) + 1;
     
-    const { error, count } = await client
+    const { error } = await client
       .from('precos_atuais')
       .upsert(batch, { onConflict: 'cnpj,tipo_combustivel' });
 

@@ -1,34 +1,12 @@
 {
   "codigoIBGE": "2701308",
   "municipio": "Cajueiro",
-  "atualizadoEm": "2026-04-15T21:46:53.975Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+=======
+  "atualizadoEm": "2026-04-15T23:39:41.895Z",
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "totalEstabelecimentos": 7,
-  "combustiveis": {
-    "1": {
-      "totalPostos": 2,
-      "valorMinimo": 7.188311688311688,
-      "valorMaximo": 7.389162561576355,
-      "valorMedio": 7.288737124944022
-    },
-    "2": {
-      "totalPostos": 2,
-      "valorMinimo": 7.2,
-      "valorMaximo": 7.538635506973238,
-      "valorMedio": 7.369317753486619
-    },
-    "3": {
-      "totalPostos": 1,
-      "valorMinimo": 6.2900993835702605,
-      "valorMaximo": 6.2900993835702605,
-      "valorMedio": 6.2900993835702605
-    },
-    "5": {
-      "totalPostos": 2,
-      "valorMinimo": 7.449449895926256,
-      "valorMaximo": 7.89,
-      "valorMedio": 7.669724947963128
-    }
-  },
   "estabelecimentos": [
     {
       "cnpj": "08777265000102",
@@ -40,15 +18,15 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57770000",
-      "codigo_ibge": 2701308,
-      "municipio": "CAJUEIRO",
-      "latitude": -9.371805,
-      "longitude": -36.163776,
-      "valor_minimo": 7.188311688311688,
-      "valor_maximo": 7.188311688311688,
-      "valor_medio": 7.188311688311688,
-      "valor_recente": 7.188311688311688,
-      "data_recente": "2026-04-15T20:25:37Z"
+      "codigo_ibge": "2701308",
+      "municipio": "Cajueiro",
+      "latitude": -10.5085822,
+      "longitude": -40.3224547,
+      "valor_minimo": 7.0888,
+      "valor_maximo": 7.2202,
+      "valor_medio": 7.1413,
+      "valor_recente": 7.1883,
+      "data_recente": "2026-04-15T20:25:37+00:00"
     },
     {
       "cnpj": "44687105000136",
@@ -60,15 +38,15 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57770000",
-      "codigo_ibge": 2701308,
-      "municipio": "CAJUEIRO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.389162561576355,
-      "valor_maximo": 7.389162561576355,
-      "valor_medio": 7.389162561576355,
-      "valor_recente": 7.389162561576355,
-      "data_recente": "2026-04-15T21:29:57Z"
+      "codigo_ibge": "2701308",
+      "municipio": "Cajueiro",
+      "latitude": -9.3817159,
+      "longitude": -36.1640066,
+      "valor_minimo": 7.3885,
+      "valor_maximo": 7.6901,
+      "valor_medio": 7.4214,
+      "valor_recente": 7.3892,
+      "data_recente": "2026-04-15T21:29:57+00:00"
     },
     {
       "cnpj": "08777265000102",
@@ -80,15 +58,15 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57770000",
-      "codigo_ibge": 2701308,
-      "municipio": "CAJUEIRO",
-      "latitude": -9.371805,
-      "longitude": -36.163776,
+      "codigo_ibge": "2701308",
+      "municipio": "Cajueiro",
+      "latitude": -10.5085822,
+      "longitude": -40.3224547,
       "valor_minimo": 7.2,
       "valor_maximo": 7.2,
       "valor_medio": 7.2,
       "valor_recente": 7.2,
-      "data_recente": "2026-04-15T20:26:58Z"
+      "data_recente": "2026-04-15T20:26:58+00:00"
     },
     {
       "cnpj": "44687105000136",
@@ -100,15 +78,15 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57770000",
-      "codigo_ibge": 2701308,
-      "municipio": "CAJUEIRO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.538635506973238,
-      "valor_maximo": 7.538635506973238,
-      "valor_medio": 7.538635506973238,
-      "valor_recente": 7.538635506973238,
-      "data_recente": "2026-04-15T21:27:55Z"
+      "codigo_ibge": "2701308",
+      "municipio": "Cajueiro",
+      "latitude": -9.3817159,
+      "longitude": -36.1640066,
+      "valor_minimo": 7.5373,
+      "valor_maximo": 7.5419,
+      "valor_medio": 7.5401,
+      "valor_recente": 7.5386,
+      "data_recente": "2026-04-15T21:27:55+00:00"
     },
     {
       "cnpj": "44687105000136",
@@ -120,15 +98,15 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57770000",
-      "codigo_ibge": 2701308,
-      "municipio": "CAJUEIRO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.2900993835702605,
-      "valor_maximo": 6.2900993835702605,
-      "valor_medio": 6.2900993835702605,
-      "valor_recente": 6.2900993835702605,
-      "data_recente": "2026-04-15T21:13:53Z"
+      "codigo_ibge": "2701308",
+      "municipio": "Cajueiro",
+      "latitude": -9.3817159,
+      "longitude": -36.1640066,
+      "valor_minimo": 6.2887,
+      "valor_maximo": 6.2906,
+      "valor_medio": 6.2899,
+      "valor_recente": 6.2901,
+      "data_recente": "2026-04-15T21:13:53+00:00"
     },
     {
       "cnpj": "08777265000102",
@@ -140,15 +118,15 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57770000",
-      "codigo_ibge": 2701308,
-      "municipio": "CAJUEIRO",
-      "latitude": -9.371805,
-      "longitude": -36.163776,
-      "valor_minimo": 7.449449895926256,
-      "valor_maximo": 7.449449895926256,
-      "valor_medio": 7.449449895926256,
-      "valor_recente": 7.449449895926256,
-      "data_recente": "2026-04-15T20:25:27Z"
+      "codigo_ibge": "2701308",
+      "municipio": "Cajueiro",
+      "latitude": -10.5085822,
+      "longitude": -40.3224547,
+      "valor_minimo": 7.4461,
+      "valor_maximo": 7.45,
+      "valor_medio": 7.4495,
+      "valor_recente": 7.4494,
+      "data_recente": "2026-04-15T20:25:27+00:00"
     },
     {
       "cnpj": "44687105000136",
@@ -160,15 +138,15 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57770000",
-      "codigo_ibge": 2701308,
-      "municipio": "CAJUEIRO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.89,
-      "valor_maximo": 7.89,
-      "valor_medio": 7.89,
+      "codigo_ibge": "2701308",
+      "municipio": "Cajueiro",
+      "latitude": -9.3817159,
+      "longitude": -36.1640066,
+      "valor_minimo": 7.69,
+      "valor_maximo": 7.9928,
+      "valor_medio": 7.8706,
       "valor_recente": 7.89,
-      "data_recente": "2026-04-15T21:19:13Z"
+      "data_recente": "2026-04-15T21:19:13+00:00"
     }
   ]
 }

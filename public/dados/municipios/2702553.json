@@ -1,14 +1,18 @@
 {
   "codigoIBGE": "2702553",
   "municipio": "Estrela de Alagoas",
-  "atualizadoEm": "2026-04-15T21:54:26.176Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+  "totalEstabelecimentos": 12,
+=======
+  "atualizadoEm": "2026-04-15T23:47:07.175Z",
   "totalEstabelecimentos": 12,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
       "valorMinimo": 6.839945280437757,
-      "valorMaximo": 6.890410958904109,
-      "valorMedio": 6.873260324125553
+      "valorMaximo": 6.889807162534435,
+      "valorMedio": 6.8730590586689955
     },
     "2": {
       "totalPostos": 1,
@@ -18,23 +22,24 @@
     },
     "3": {
       "totalPostos": 3,
-      "valorMinimo": 4.553014553014553,
+      "valorMinimo": 4.95000495000495,
       "valorMaximo": 4.990033222591362,
-      "valorMedio": 4.84408527048948
+      "valorMedio": 4.975889352930422
     },
     "4": {
       "totalPostos": 2,
-      "valorMinimo": 7.980048936570675,
-      "valorMaximo": 8.399917153771804,
-      "valorMedio": 8.189983045171239
+      "valorMinimo": 7.979995504607777,
+      "valorMaximo": 8.399832003359933,
+      "valorMedio": 8.189913753983856
     },
     "5": {
       "totalPostos": 3,
-      "valorMinimo": 7.08999306341499,
-      "valorMaximo": 7.319056654920033,
-      "valorMedio": 7.229678356334467
+      "valorMinimo": 7.089920535340862,
+      "valorMaximo": 7.319572536963841,
+      "valorMedio": 7.229877616996151
     }
   },
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "estabelecimentos": [
     {
       "cnpj": "29689769000140",
@@ -46,6 +51,17 @@
       "numero_imovel": "KM 136",
       "bairro": "MATA BURRO",
       "cep": "57625000",
+<<<<<<< HEAD
+      "codigo_ibge": "2702553",
+      "municipio": "Estrela de Alagoas",
+      "latitude": -9.389841299999999,
+      "longitude": -36.8153286,
+      "valor_minimo": 6.2883,
+      "valor_maximo": 6.84,
+      "valor_medio": 6.613,
+      "valor_recente": 6.8399,
+      "data_recente": "2026-04-15T20:19:13+00:00"
+=======
       "codigo_ibge": 2702553,
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.3904105,
@@ -54,7 +70,8 @@
       "valor_maximo": 6.839945280437757,
       "valor_medio": 6.839945280437757,
       "valor_recente": 6.839945280437757,
-      "data_recente": "2026-04-15T20:19:13Z"
+      "data_recente": "2026-04-15T21:54:16Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "25359544000175",
@@ -66,6 +83,17 @@
       "numero_imovel": "SN",
       "bairro": "ZONA RURAL",
       "cep": "57625000",
+<<<<<<< HEAD
+      "codigo_ibge": "2702553",
+      "municipio": "Estrela de Alagoas",
+      "latitude": -9.3908042,
+      "longitude": -36.7569676,
+      "valor_minimo": 6.8844,
+      "valor_maximo": 6.89,
+      "valor_medio": 6.8891,
+      "valor_recente": 6.8894,
+      "data_recente": "2026-04-15T21:25:21+00:00"
+=======
       "codigo_ibge": 2702553,
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.490857100000001,
@@ -74,7 +102,8 @@
       "valor_maximo": 6.889424733034792,
       "valor_medio": 6.889424733034792,
       "valor_recente": 6.889424733034792,
-      "data_recente": "2026-04-15T21:25:21Z"
+      "data_recente": "2026-04-15T23:36:13Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "22727145000121",
@@ -86,15 +115,23 @@
       "numero_imovel": "111",
       "bairro": "CENTRO",
       "cep": "57625000",
-      "codigo_ibge": 2702553,
-      "municipio": "ESTRELA DE ALAGOAS",
+      "codigo_ibge": "2702553",
+      "municipio": "Estrela de Alagoas",
       "latitude": -9.3904417,
       "longitude": -36.7595025,
-      "valor_minimo": 6.890410958904109,
-      "valor_maximo": 6.890410958904109,
-      "valor_medio": 6.890410958904109,
-      "valor_recente": 6.890410958904109,
-      "data_recente": "2026-04-15T21:26:47Z"
+<<<<<<< HEAD
+      "valor_minimo": 6.8864,
+      "valor_maximo": 6.8919,
+      "valor_medio": 6.89,
+      "valor_recente": 6.8904,
+      "data_recente": "2026-04-15T21:26:47+00:00"
+=======
+      "valor_minimo": 6.889807162534435,
+      "valor_maximo": 6.889807162534435,
+      "valor_medio": 6.889807162534435,
+      "valor_recente": 6.889807162534435,
+      "data_recente": "2026-04-15T22:49:38Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "29689769000140",
@@ -106,15 +143,15 @@
       "numero_imovel": "KM 136",
       "bairro": "MATA BURRO",
       "cep": "57625000",
-      "codigo_ibge": 2702553,
-      "municipio": "ESTRELA DE ALAGOAS",
-      "latitude": -9.3904105,
-      "longitude": -36.7592457,
-      "valor_minimo": 6.290102389078498,
-      "valor_maximo": 6.290102389078498,
-      "valor_medio": 6.290102389078498,
-      "valor_recente": 6.290102389078498,
-      "data_recente": "2026-04-15T19:55:28Z"
+      "codigo_ibge": "2702553",
+      "municipio": "Estrela de Alagoas",
+      "latitude": -9.389841299999999,
+      "longitude": -36.8153286,
+      "valor_minimo": 6.2879,
+      "valor_maximo": 6.8414,
+      "valor_medio": 6.5434,
+      "valor_recente": 6.2901,
+      "data_recente": "2026-04-15T19:55:28+00:00"
     },
     {
       "cnpj": "29689769000140",
@@ -126,15 +163,27 @@
       "numero_imovel": "KM 136",
       "bairro": "MATA BURRO",
       "cep": "57625000",
+<<<<<<< HEAD
+      "codigo_ibge": "2702553",
+      "municipio": "Estrela de Alagoas",
+      "latitude": -9.389841299999999,
+      "longitude": -36.8153286,
+      "valor_minimo": 4.5495,
+      "valor_maximo": 4.9505,
+      "valor_medio": 4.7278,
+      "valor_recente": 4.553,
+      "data_recente": "2026-04-15T19:56:12+00:00"
+=======
       "codigo_ibge": 2702553,
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.3904105,
       "longitude": -36.7592457,
-      "valor_minimo": 4.553014553014553,
-      "valor_maximo": 4.553014553014553,
-      "valor_medio": 4.553014553014553,
-      "valor_recente": 4.553014553014553,
-      "data_recente": "2026-04-15T19:56:12Z"
+      "valor_minimo": 4.95000495000495,
+      "valor_maximo": 4.95000495000495,
+      "valor_medio": 4.95000495000495,
+      "valor_recente": 4.95000495000495,
+      "data_recente": "2026-04-15T21:54:30Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "25359544000175",
@@ -146,15 +195,27 @@
       "numero_imovel": "SN",
       "bairro": "ZONA RURAL",
       "cep": "57625000",
+<<<<<<< HEAD
+      "codigo_ibge": "2702553",
+      "municipio": "Estrela de Alagoas",
+      "latitude": -9.3908042,
+      "longitude": -36.7569676,
+      "valor_minimo": 4.9875,
+      "valor_maximo": 4.99,
+      "valor_medio": 4.9894,
+      "valor_recente": 4.9892,
+      "data_recente": "2026-04-15T21:23:10+00:00"
+=======
       "codigo_ibge": 2702553,
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.490857100000001,
       "longitude": -36.5661638,
-      "valor_minimo": 4.989208035862527,
-      "valor_maximo": 4.989208035862527,
-      "valor_medio": 4.989208035862527,
-      "valor_recente": 4.989208035862527,
-      "data_recente": "2026-04-15T21:23:10Z"
+      "valor_minimo": 4.987629886194953,
+      "valor_maximo": 4.987629886194953,
+      "valor_medio": 4.987629886194953,
+      "valor_recente": 4.987629886194953,
+      "data_recente": "2026-04-15T23:27:43Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "22727145000121",
@@ -166,15 +227,15 @@
       "numero_imovel": "111",
       "bairro": "CENTRO",
       "cep": "57625000",
-      "codigo_ibge": 2702553,
-      "municipio": "ESTRELA DE ALAGOAS",
+      "codigo_ibge": "2702553",
+      "municipio": "Estrela de Alagoas",
       "latitude": -9.3904417,
       "longitude": -36.7595025,
-      "valor_minimo": 4.990033222591362,
-      "valor_maximo": 4.990033222591362,
-      "valor_medio": 4.990033222591362,
-      "valor_recente": 4.990033222591362,
-      "data_recente": "2026-04-15T20:36:11Z"
+      "valor_minimo": 4.99,
+      "valor_maximo": 4.9902,
+      "valor_medio": 4.99,
+      "valor_recente": 4.99,
+      "data_recente": "2026-04-15T20:36:11+00:00"
     },
     {
       "cnpj": "29689769000140",
@@ -186,15 +247,27 @@
       "numero_imovel": "KM 136",
       "bairro": "MATA BURRO",
       "cep": "57625000",
+<<<<<<< HEAD
+      "codigo_ibge": "2702553",
+      "municipio": "Estrela de Alagoas",
+      "latitude": -9.389841299999999,
+      "longitude": -36.8153286,
+      "valor_minimo": 7.341,
+      "valor_maximo": 7.9825,
+      "valor_medio": 7.8369,
+      "valor_recente": 7.98,
+      "data_recente": "2026-04-15T20:31:43+00:00"
+=======
       "codigo_ibge": 2702553,
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.3904105,
       "longitude": -36.7592457,
-      "valor_minimo": 7.980048936570675,
-      "valor_maximo": 7.980048936570675,
-      "valor_medio": 7.980048936570675,
-      "valor_recente": 7.980048936570675,
-      "data_recente": "2026-04-15T20:31:43Z"
+      "valor_minimo": 7.979995504607777,
+      "valor_maximo": 7.979995504607777,
+      "valor_medio": 7.979995504607777,
+      "valor_recente": 7.979995504607777,
+      "data_recente": "2026-04-15T21:53:31Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "25359544000175",
@@ -206,15 +279,27 @@
       "numero_imovel": "SN",
       "bairro": "ZONA RURAL",
       "cep": "57625000",
+<<<<<<< HEAD
+      "codigo_ibge": "2702553",
+      "municipio": "Estrela de Alagoas",
+      "latitude": -9.3908042,
+      "longitude": -36.7569676,
+      "valor_minimo": 8.3857,
+      "valor_maximo": 8.4,
+      "valor_medio": 8.3991,
+      "valor_recente": 8.3999,
+      "data_recente": "2026-04-15T20:19:56+00:00"
+=======
       "codigo_ibge": 2702553,
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.490857100000001,
       "longitude": -36.5661638,
-      "valor_minimo": 8.399917153771804,
-      "valor_maximo": 8.399917153771804,
-      "valor_medio": 8.399917153771804,
-      "valor_recente": 8.399917153771804,
-      "data_recente": "2026-04-15T20:19:56Z"
+      "valor_minimo": 8.399832003359933,
+      "valor_maximo": 8.399832003359933,
+      "valor_medio": 8.399832003359933,
+      "valor_recente": 8.399832003359933,
+      "data_recente": "2026-04-15T23:27:43Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "22727145000121",
@@ -226,15 +311,23 @@
       "numero_imovel": "111",
       "bairro": "CENTRO",
       "cep": "57625000",
-      "codigo_ibge": 2702553,
-      "municipio": "ESTRELA DE ALAGOAS",
+      "codigo_ibge": "2702553",
+      "municipio": "Estrela de Alagoas",
       "latitude": -9.3904417,
       "longitude": -36.7595025,
-      "valor_minimo": 7.08999306341499,
+<<<<<<< HEAD
+      "valor_minimo": 7.0899,
+      "valor_maximo": 7.992,
+      "valor_medio": 7.5682,
+      "valor_recente": 7.09,
+      "data_recente": "2026-04-15T20:57:53+00:00"
+=======
+      "valor_minimo": 7.089920535340862,
       "valor_maximo": 7.99,
-      "valor_medio": 7.539996531707495,
-      "valor_recente": 7.08999306341499,
-      "data_recente": "2026-04-15T20:57:53Z"
+      "valor_medio": 7.5399602676704305,
+      "valor_recente": 7.089920535340862,
+      "data_recente": "2026-04-15T23:10:10Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "29689769000140",
@@ -246,15 +339,27 @@
       "numero_imovel": "KM 136",
       "bairro": "MATA BURRO",
       "cep": "57625000",
+<<<<<<< HEAD
+      "codigo_ibge": "2702553",
+      "municipio": "Estrela de Alagoas",
+      "latitude": -9.389841299999999,
+      "longitude": -36.8153286,
+      "valor_minimo": 6.6967,
+      "valor_maximo": 7.2805,
+      "valor_medio": 7.1635,
+      "valor_recente": 7.28,
+      "data_recente": "2026-04-15T20:31:10+00:00"
+=======
       "codigo_ibge": 2702553,
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.3904105,
       "longitude": -36.7592457,
-      "valor_minimo": 7.279985350668376,
-      "valor_maximo": 7.279985350668376,
-      "valor_medio": 7.279985350668376,
-      "valor_recente": 7.279985350668376,
-      "data_recente": "2026-04-15T20:31:10Z"
+      "valor_minimo": 7.2801397786837505,
+      "valor_maximo": 7.2801397786837505,
+      "valor_medio": 7.2801397786837505,
+      "valor_recente": 7.2801397786837505,
+      "data_recente": "2026-04-15T21:54:42Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "25359544000175",
@@ -266,15 +371,27 @@
       "numero_imovel": "SN",
       "bairro": "ZONA RURAL",
       "cep": "57625000",
+<<<<<<< HEAD
+      "codigo_ibge": "2702553",
+      "municipio": "Estrela de Alagoas",
+      "latitude": -9.3908042,
+      "longitude": -36.7569676,
+      "valor_minimo": 7.3191,
+      "valor_maximo": 7.32,
+      "valor_medio": 7.3198,
+      "valor_recente": 7.3191,
+      "data_recente": "2026-04-15T19:56:41+00:00"
+=======
       "codigo_ibge": 2702553,
       "municipio": "ESTRELA DE ALAGOAS",
       "latitude": -9.490857100000001,
       "longitude": -36.5661638,
-      "valor_minimo": 7.319056654920033,
-      "valor_maximo": 7.319056654920033,
-      "valor_medio": 7.319056654920033,
-      "valor_recente": 7.319056654920033,
-      "data_recente": "2026-04-15T19:56:41Z"
+      "valor_minimo": 7.319572536963841,
+      "valor_maximo": 7.319572536963841,
+      "valor_medio": 7.319572536963841,
+      "valor_recente": 7.319572536963841,
+      "data_recente": "2026-04-15T23:36:13Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     }
   ]
 }

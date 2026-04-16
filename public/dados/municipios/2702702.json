@@ -1,20 +1,24 @@
 {
   "codigoIBGE": "2702702",
   "municipio": "Feliz Deserto",
-  "atualizadoEm": "2026-04-15T21:55:25.721Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+  "totalEstabelecimentos": 5,
+=======
+  "atualizadoEm": "2026-04-15T23:48:02.099Z",
   "totalEstabelecimentos": 5,
   "combustiveis": {
     "1": {
       "totalPostos": 1,
-      "valorMinimo": 7.089622641509434,
-      "valorMaximo": 7.089622641509434,
-      "valorMedio": 7.089622641509434
+      "valorMinimo": 7.087329631499243,
+      "valorMaximo": 7.087329631499243,
+      "valorMedio": 7.087329631499243
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 7.089943342776204,
-      "valorMaximo": 7.089943342776204,
-      "valorMedio": 7.089943342776204
+      "valorMinimo": 7.089792060491494,
+      "valorMaximo": 7.089792060491494,
+      "valorMedio": 7.089792060491494
     },
     "3": {
       "totalPostos": 1,
@@ -30,11 +34,12 @@
     },
     "5": {
       "totalPostos": 1,
-      "valorMinimo": 7.129717455663821,
-      "valorMaximo": 7.129717455663821,
-      "valorMedio": 7.129717455663821
+      "valorMinimo": 7.129816955684007,
+      "valorMaximo": 7.129816955684007,
+      "valorMedio": 7.129816955684007
     }
   },
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "estabelecimentos": [
     {
       "cnpj": "58591986000100",
@@ -46,15 +51,27 @@
       "numero_imovel": "2002",
       "bairro": "ENTROCAMENTO FELIZ DESERTO",
       "cep": "57220000",
+<<<<<<< HEAD
+      "codigo_ibge": "2702702",
+      "municipio": "Feliz Deserto",
+      "latitude": -10.2986188,
+      "longitude": -36.3029858,
+      "valor_minimo": 6.7498,
+      "valor_maximo": 7.1497,
+      "valor_medio": 7.0323,
+      "valor_recente": 7.0896,
+      "data_recente": "2026-04-15T21:25:09+00:00"
+=======
       "codigo_ibge": 2702702,
       "municipio": "FELIZ DESERTO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.089622641509434,
-      "valor_maximo": 7.089622641509434,
-      "valor_medio": 7.089622641509434,
-      "valor_recente": 7.089622641509434,
-      "data_recente": "2026-04-15T21:25:09Z"
+      "valor_minimo": 7.087329631499243,
+      "valor_maximo": 7.087329631499243,
+      "valor_medio": 7.087329631499243,
+      "valor_recente": 7.087329631499243,
+      "data_recente": "2026-04-15T22:33:18Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "58591986000100",
@@ -66,15 +83,27 @@
       "numero_imovel": "2002",
       "bairro": "ENTROCAMENTO FELIZ DESERTO",
       "cep": "57220000",
+<<<<<<< HEAD
+      "codigo_ibge": "2702702",
+      "municipio": "Feliz Deserto",
+      "latitude": -10.2986188,
+      "longitude": -36.3029858,
+      "valor_minimo": 6.9892,
+      "valor_maximo": 7.09,
+      "valor_medio": 7.081,
+      "valor_recente": 7.0899,
+      "data_recente": "2026-04-15T21:27:21+00:00"
+=======
       "codigo_ibge": 2702702,
       "municipio": "FELIZ DESERTO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.089943342776204,
-      "valor_maximo": 7.089943342776204,
-      "valor_medio": 7.089943342776204,
-      "valor_recente": 7.089943342776204,
-      "data_recente": "2026-04-15T21:27:21Z"
+      "valor_minimo": 7.089792060491494,
+      "valor_maximo": 7.089792060491494,
+      "valor_medio": 7.089792060491494,
+      "valor_recente": 7.089792060491494,
+      "data_recente": "2026-04-15T23:08:28Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "58591986000100",
@@ -86,15 +115,15 @@
       "numero_imovel": "2002",
       "bairro": "ENTROCAMENTO FELIZ DESERTO",
       "cep": "57220000",
-      "codigo_ibge": 2702702,
-      "municipio": "FELIZ DESERTO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 5.470007057163021,
-      "valor_maximo": 5.470007057163021,
-      "valor_medio": 5.470007057163021,
-      "valor_recente": 5.470007057163021,
-      "data_recente": "2026-04-15T21:23:03Z"
+      "codigo_ibge": "2702702",
+      "municipio": "Feliz Deserto",
+      "latitude": -10.2986188,
+      "longitude": -36.3029858,
+      "valor_minimo": 5.15,
+      "valor_maximo": 5.4705,
+      "valor_medio": 5.4617,
+      "valor_recente": 5.47,
+      "data_recente": "2026-04-15T21:23:03+00:00"
     },
     {
       "cnpj": "58591986000100",
@@ -106,15 +135,15 @@
       "numero_imovel": "2002",
       "bairro": "ENTROCAMENTO FELIZ DESERTO",
       "cep": "57220000",
-      "codigo_ibge": 2702702,
-      "municipio": "FELIZ DESERTO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 8.07,
+      "codigo_ibge": "2702702",
+      "municipio": "Feliz Deserto",
+      "latitude": -10.2986188,
+      "longitude": -36.3029858,
+      "valor_minimo": 7.5399,
       "valor_maximo": 8.07,
-      "valor_medio": 8.07,
+      "valor_medio": 7.9473,
       "valor_recente": 8.07,
-      "data_recente": "2026-04-15T10:46:11Z"
+      "data_recente": "2026-04-15T10:46:11+00:00"
     },
     {
       "cnpj": "58591986000100",
@@ -126,15 +155,27 @@
       "numero_imovel": "2002",
       "bairro": "ENTROCAMENTO FELIZ DESERTO",
       "cep": "57220000",
+<<<<<<< HEAD
+      "codigo_ibge": "2702702",
+      "municipio": "Feliz Deserto",
+      "latitude": -10.2986188,
+      "longitude": -36.3029858,
+      "valor_minimo": 6.98,
+      "valor_maximo": 7.87,
+      "valor_medio": 7.4252,
+      "valor_recente": 7.1297,
+      "data_recente": "2026-04-15T21:07:50+00:00"
+=======
       "codigo_ibge": 2702702,
       "municipio": "FELIZ DESERTO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.129717455663821,
-      "valor_maximo": 7.129717455663821,
-      "valor_medio": 7.129717455663821,
-      "valor_recente": 7.129717455663821,
-      "data_recente": "2026-04-15T21:07:50Z"
+      "valor_minimo": 7.129816955684007,
+      "valor_maximo": 7.129816955684007,
+      "valor_medio": 7.129816955684007,
+      "valor_recente": 7.129816955684007,
+      "data_recente": "2026-04-15T22:13:55Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     }
   ]
 }

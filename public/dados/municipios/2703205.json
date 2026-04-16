@@ -1,14 +1,18 @@
 {
   "codigoIBGE": "2703205",
   "municipio": "Igreja Nova",
-  "atualizadoEm": "2026-04-15T21:58:24.413Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+  "totalEstabelecimentos": 7,
+=======
+  "atualizadoEm": "2026-04-15T23:50:32.500Z",
   "totalEstabelecimentos": 7,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.89,
-      "valorMaximo": 6.989748369058714,
-      "valorMedio": 6.939874184529357
+      "valorMinimo": 6.889551554077302,
+      "valorMaximo": 6.990074094785404,
+      "valorMedio": 6.939812824431353
     },
     "2": {
       "totalPostos": 1,
@@ -24,11 +28,12 @@
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.48997641509434,
+      "valorMinimo": 7.489994630469801,
       "valorMaximo": 8.290026595744681,
-      "valorMedio": 7.8900015054195105
+      "valorMedio": 7.890010613107242
     }
   },
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "estabelecimentos": [
     {
       "cnpj": "55682117000194",
@@ -40,15 +45,27 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57280000",
+<<<<<<< HEAD
+      "codigo_ibge": "2703205",
+      "municipio": "Igreja Nova",
+      "latitude": -10.1175443,
+      "longitude": -36.5433333,
+      "valor_minimo": 6.889,
+      "valor_maximo": 6.9118,
+      "valor_medio": 6.8916,
+      "valor_recente": 6.89,
+      "data_recente": "2026-04-15T21:15:50+00:00"
+=======
       "codigo_ibge": 2703205,
       "municipio": "IGREJA NOVA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.89,
-      "valor_maximo": 6.89,
-      "valor_medio": 6.89,
-      "valor_recente": 6.89,
-      "data_recente": "2026-04-15T21:15:50Z"
+      "valor_minimo": 6.889551554077302,
+      "valor_maximo": 6.889551554077302,
+      "valor_medio": 6.889551554077302,
+      "valor_recente": 6.889551554077302,
+      "data_recente": "2026-04-15T22:00:11Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "19739379000184",
@@ -60,15 +77,27 @@
       "numero_imovel": "S/N",
       "bairro": "CENTRO",
       "cep": "57280000",
+<<<<<<< HEAD
+      "codigo_ibge": "2703205",
+      "municipio": "Igreja Nova",
+      "latitude": -10.1245358,
+      "longitude": -36.6565863,
+      "valor_minimo": 6.2893,
+      "valor_maximo": 7.29,
+      "valor_medio": 6.9871,
+      "valor_recente": 6.9897,
+      "data_recente": "2026-04-15T20:07:11+00:00"
+=======
       "codigo_ibge": 2703205,
       "municipio": "IGREJA NOVA",
       "latitude": -10.0830464,
       "longitude": -36.5661908,
-      "valor_minimo": 6.989748369058714,
-      "valor_maximo": 6.989748369058714,
-      "valor_medio": 6.989748369058714,
-      "valor_recente": 6.989748369058714,
-      "data_recente": "2026-04-15T20:07:11Z"
+      "valor_minimo": 6.990074094785404,
+      "valor_maximo": 6.990074094785404,
+      "valor_medio": 6.990074094785404,
+      "valor_recente": 6.990074094785404,
+      "data_recente": "2026-04-15T21:56:46Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "19739379000184",
@@ -80,15 +109,15 @@
       "numero_imovel": "S/N",
       "bairro": "CENTRO",
       "cep": "57280000",
-      "codigo_ibge": 2703205,
-      "municipio": "IGREJA NOVA",
-      "latitude": -10.0830464,
-      "longitude": -36.5661908,
-      "valor_minimo": 7.089684509039348,
-      "valor_maximo": 7.089684509039348,
-      "valor_medio": 7.089684509039348,
-      "valor_recente": 7.089684509039348,
-      "data_recente": "2026-04-15T20:02:11Z"
+      "codigo_ibge": "2703205",
+      "municipio": "Igreja Nova",
+      "latitude": -10.1245358,
+      "longitude": -36.6565863,
+      "valor_minimo": 7.0882,
+      "valor_maximo": 7.29,
+      "valor_medio": 7.1119,
+      "valor_recente": 7.0897,
+      "data_recente": "2026-04-15T20:02:11+00:00"
     },
     {
       "cnpj": "55682117000194",
@@ -100,15 +129,15 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57280000",
-      "codigo_ibge": 2703205,
-      "municipio": "IGREJA NOVA",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 5.489679402722881,
-      "valor_maximo": 5.489679402722881,
-      "valor_medio": 5.489679402722881,
-      "valor_recente": 5.489679402722881,
-      "data_recente": "2026-04-15T13:50:36Z"
+      "codigo_ibge": "2703205",
+      "municipio": "Igreja Nova",
+      "latitude": -10.1175443,
+      "longitude": -36.5433333,
+      "valor_minimo": 5.3879,
+      "valor_maximo": 5.49,
+      "valor_medio": 5.4367,
+      "valor_recente": 5.4897,
+      "data_recente": "2026-04-15T13:50:36+00:00"
     },
     {
       "cnpj": "19739379000184",
@@ -120,15 +149,15 @@
       "numero_imovel": "S/N",
       "bairro": "CENTRO",
       "cep": "57280000",
-      "codigo_ibge": 2703205,
-      "municipio": "IGREJA NOVA",
-      "latitude": -10.0830464,
-      "longitude": -36.5661908,
-      "valor_minimo": 5.649717514124294,
-      "valor_maximo": 5.649717514124294,
-      "valor_medio": 5.649717514124294,
-      "valor_recente": 5.649717514124294,
-      "data_recente": "2026-04-15T20:07:11Z"
+      "codigo_ibge": "2703205",
+      "municipio": "Igreja Nova",
+      "latitude": -10.1245358,
+      "longitude": -36.6565863,
+      "valor_minimo": 5.6497,
+      "valor_maximo": 5.6513,
+      "valor_medio": 5.6498,
+      "valor_recente": 5.6497,
+      "data_recente": "2026-04-15T20:07:11+00:00"
     },
     {
       "cnpj": "55682117000194",
@@ -140,15 +169,27 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57280000",
+<<<<<<< HEAD
+      "codigo_ibge": "2703205",
+      "municipio": "Igreja Nova",
+      "latitude": -10.1175443,
+      "longitude": -36.5433333,
+      "valor_minimo": 7.451,
+      "valor_maximo": 7.4901,
+      "valor_medio": 7.489,
+      "valor_recente": 7.49,
+      "data_recente": "2026-04-15T20:45:42+00:00"
+=======
       "codigo_ibge": 2703205,
       "municipio": "IGREJA NOVA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.48997641509434,
+      "valor_minimo": 7.489994630469801,
       "valor_maximo": 7.490075649764063,
-      "valor_medio": 7.490026032429201,
-      "valor_recente": 7.48997641509434,
-      "data_recente": "2026-04-15T20:45:42Z"
+      "valor_medio": 7.490035140116932,
+      "valor_recente": 7.489994630469801,
+      "data_recente": "2026-04-15T23:24:03Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "19739379000184",
@@ -160,15 +201,15 @@
       "numero_imovel": "S/N",
       "bairro": "CENTRO",
       "cep": "57280000",
-      "codigo_ibge": 2703205,
-      "municipio": "IGREJA NOVA",
-      "latitude": -10.0830464,
-      "longitude": -36.5661908,
-      "valor_minimo": 8.290026595744681,
-      "valor_maximo": 8.290026595744681,
-      "valor_medio": 8.290026595744681,
-      "valor_recente": 8.290026595744681,
-      "data_recente": "2026-04-15T19:47:18Z"
+      "codigo_ibge": "2703205",
+      "municipio": "Igreja Nova",
+      "latitude": -10.1245358,
+      "longitude": -36.6565863,
+      "valor_minimo": 7.984,
+      "valor_maximo": 8.29,
+      "valor_medio": 8.0324,
+      "valor_recente": 8.29,
+      "data_recente": "2026-04-15T19:47:18+00:00"
     }
   ]
 }

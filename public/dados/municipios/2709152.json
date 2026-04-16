@@ -1,34 +1,9 @@
 {
   "codigoIBGE": "2709152",
   "municipio": "Teotônio Vilela",
-  "atualizadoEm": "2026-04-15T22:26:51.927Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
   "totalEstabelecimentos": 24,
-  "combustiveis": {
-    "1": {
-      "totalPostos": 6,
-      "valorMinimo": 6.789687924016282,
-      "valorMaximo": 6.889908256880734,
-      "valorMedio": 6.824751931549329
-    },
-    "2": {
-      "totalPostos": 6,
-      "valorMinimo": 6.097295617034504,
-      "valorMaximo": 6.990393013100436,
-      "valorMedio": 6.769338593717744
-    },
-    "3": {
-      "totalPostos": 6,
-      "valorMinimo": 4.9900249376558605,
-      "valorMaximo": 5.220024012110455,
-      "valorMedio": 5.103053884739034
-    },
-    "5": {
-      "totalPostos": 6,
-      "valorMinimo": 3.8999999137206336,
-      "valorMaximo": 7.389890629618682,
-      "valorMedio": 6.658414079832635
-    }
-  },
   "estabelecimentos": [
     {
       "cnpj": "56412726000196",
@@ -40,17 +15,49 @@
       "numero_imovel": "2397",
       "bairro": "São Miguel",
       "cep": "57266170",
-      "codigo_ibge": 2709152,
-      "municipio": "TEOTONIO VILELA",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.789687924016282,
-      "valor_maximo": 6.789687924016282,
-      "valor_medio": 6.789687924016282,
-      "valor_recente": 6.789687924016282,
-      "data_recente": "2026-04-15T21:18:09Z"
+      "codigo_ibge": "2709152",
+      "municipio": "Teotônio Vilela",
+      "latitude": -9.8997429,
+      "longitude": -36.36476500000001,
+      "valor_minimo": 6.7881,
+      "valor_maximo": 6.7907,
+      "valor_medio": 6.79,
+      "valor_recente": 6.7897,
+      "data_recente": "2026-04-15T21:18:09+00:00"
     },
     {
+=======
+  "atualizadoEm": "2026-04-16T00:28:42.947Z",
+  "totalEstabelecimentos": 24,
+  "combustiveis": {
+    "1": {
+      "totalPostos": 6,
+      "valorMinimo": 5.783918173292914,
+      "valorMaximo": 6.889807162534435,
+      "valorMedio": 6.656640107830822
+    },
+    "2": {
+      "totalPostos": 6,
+      "valorMinimo": 6.0975012248897595,
+      "valorMaximo": 6.990223463687151,
+      "valorMedio": 6.770060652312321
+    },
+    "3": {
+      "totalPostos": 6,
+      "valorMinimo": 4.3997580889023284,
+      "valorMaximo": 5.220024012110455,
+      "valorMedio": 4.987961080114057
+    },
+    "5": {
+      "totalPostos": 6,
+      "valorMinimo": 6.369979518866942,
+      "valorMaximo": 7.39,
+      "valorMedio": 7.03925115181644
+    }
+  },
+  "estabelecimentos": [
+    {
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
       "cnpj": "59996494000159",
       "tipo_combustivel": 1,
       "razao_social": "REDE DAL TEOTONIO VILELA COMERCIO DE COMBUSTIVEL LTDA",
@@ -60,15 +67,47 @@
       "numero_imovel": "3141",
       "bairro": "São Miguel",
       "cep": "57266170",
+<<<<<<< HEAD
+      "codigo_ibge": "2709152",
+      "municipio": "Teotônio Vilela",
+      "latitude": -9.8997429,
+      "longitude": -36.36476500000001,
+      "valor_minimo": 5.7823,
+      "valor_maximo": 6.7903,
+      "valor_medio": 6.5818,
+      "valor_recente": 6.79,
+      "data_recente": "2026-04-15T20:01:43+00:00"
+=======
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.789985781594134,
-      "valor_maximo": 6.789985781594134,
-      "valor_medio": 6.789985781594134,
-      "valor_recente": 6.789985781594134,
-      "data_recente": "2026-04-15T20:01:43Z"
+      "valor_minimo": 5.783918173292914,
+      "valor_maximo": 5.783918173292914,
+      "valor_medio": 5.783918173292914,
+      "valor_recente": 5.783918173292914,
+      "data_recente": "2026-04-15T22:56:00Z"
+    },
+    {
+      "cnpj": "56412726000196",
+      "tipo_combustivel": 1,
+      "razao_social": "SANTO ANTONIO AUTO POSTO LTDA",
+      "nome_fantasia": "SANTO ANTONIO AUTO POSTO",
+      "telefone": "",
+      "nome_logradouro": "Rua Angêla Maria da Conceição",
+      "numero_imovel": "2397",
+      "bairro": "São Miguel",
+      "cep": "57266170",
+      "codigo_ibge": 2709152,
+      "municipio": "TEOTONIO VILELA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 6.789487943646709,
+      "valor_maximo": 6.789487943646709,
+      "valor_medio": 6.789487943646709,
+      "valor_recente": 6.789487943646709,
+      "data_recente": "2026-04-15T23:35:08Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "09088674000164",
@@ -80,6 +119,17 @@
       "numero_imovel": "1219",
       "bairro": "INHUMAS",
       "cep": "57267440",
+<<<<<<< HEAD
+      "codigo_ibge": "2709152",
+      "municipio": "Teotônio Vilela",
+      "latitude": -9.915821099999999,
+      "longitude": -36.3591548,
+      "valor_minimo": 6.7989,
+      "valor_maximo": 6.8027,
+      "valor_medio": 6.8001,
+      "valor_recente": 6.8,
+      "data_recente": "2026-04-15T21:27:30+00:00"
+=======
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
@@ -88,7 +138,8 @@
       "valor_maximo": 6.799981902909107,
       "valor_medio": 6.799981902909107,
       "valor_recente": 6.799981902909107,
-      "data_recente": "2026-04-15T21:27:30Z"
+      "data_recente": "2026-04-15T23:36:46Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "50598305000115",
@@ -100,15 +151,27 @@
       "numero_imovel": "937",
       "bairro": "Deputado Benedito de Lira",
       "cep": "57268460",
+<<<<<<< HEAD
+      "codigo_ibge": "2709152",
+      "municipio": "Teotônio Vilela",
+      "latitude": -9.9123373,
+      "longitude": -36.350866,
+      "valor_minimo": 6.8353,
+      "valor_maximo": 6.84,
+      "valor_medio": 6.839,
+      "valor_recente": 6.838,
+      "data_recente": "2026-04-15T20:56:02+00:00"
+=======
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.838038632986627,
-      "valor_maximo": 6.838038632986627,
-      "valor_medio": 6.838038632986627,
-      "valor_recente": 6.838038632986627,
-      "data_recente": "2026-04-15T20:56:02Z"
+      "valor_minimo": 6.8359375,
+      "valor_maximo": 6.8359375,
+      "valor_medio": 6.8359375,
+      "valor_recente": 6.8359375,
+      "data_recente": "2026-04-15T23:21:10Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "10635075000283",
@@ -120,15 +183,27 @@
       "numero_imovel": "1455",
       "bairro": "SAO MIGUEL",
       "cep": "57265000",
+<<<<<<< HEAD
+      "codigo_ibge": "2709152",
+      "municipio": "Teotônio Vilela",
+      "latitude": -27.6661635,
+      "longitude": -48.6740937,
+      "valor_minimo": 6.5796,
+      "valor_maximo": 6.8421,
+      "valor_medio": 6.8262,
+      "valor_recente": 6.8409,
+      "data_recente": "2026-04-15T21:30:42+00:00"
+=======
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
       "latitude": -9.9019742,
       "longitude": -36.3601623,
-      "valor_minimo": 6.840909090909091,
-      "valor_maximo": 6.840909090909091,
-      "valor_medio": 6.840909090909091,
-      "valor_recente": 6.840909090909091,
-      "data_recente": "2026-04-15T21:30:42Z"
+      "valor_minimo": 6.84070796460177,
+      "valor_maximo": 6.84070796460177,
+      "valor_medio": 6.84070796460177,
+      "valor_recente": 6.84070796460177,
+      "data_recente": "2026-04-15T23:36:48Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "10635075000100",
@@ -140,15 +215,27 @@
       "numero_imovel": "1",
       "bairro": "CENTRO",
       "cep": "57265000",
+<<<<<<< HEAD
+      "codigo_ibge": "2709152",
+      "municipio": "Teotônio Vilela",
+      "latitude": -9.910878799999999,
+      "longitude": -36.3628259,
+      "valor_minimo": 6.8499,
+      "valor_maximo": 6.8966,
+      "valor_medio": 6.8829,
+      "valor_recente": 6.8899,
+      "data_recente": "2026-04-15T21:24:40+00:00"
+=======
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
       "latitude": -9.914451099999999,
       "longitude": -36.3562508,
-      "valor_minimo": 6.889908256880734,
-      "valor_maximo": 6.889908256880734,
-      "valor_medio": 6.889908256880734,
-      "valor_recente": 6.889908256880734,
-      "data_recente": "2026-04-15T21:24:40Z"
+      "valor_minimo": 6.889807162534435,
+      "valor_maximo": 6.889807162534435,
+      "valor_medio": 6.889807162534435,
+      "valor_recente": 6.889807162534435,
+      "data_recente": "2026-04-15T23:22:38Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "59996494000159",
@@ -160,15 +247,27 @@
       "numero_imovel": "3141",
       "bairro": "São Miguel",
       "cep": "57266170",
+<<<<<<< HEAD
+      "codigo_ibge": "2709152",
+      "municipio": "Teotônio Vilela",
+      "latitude": -9.8997429,
+      "longitude": -36.36476500000001,
+      "valor_minimo": 6.0969,
+      "valor_maximo": 6.89,
+      "valor_medio": 6.5432,
+      "valor_recente": 6.0973,
+      "data_recente": "2026-04-15T00:18:14+00:00"
+=======
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.097295617034504,
-      "valor_maximo": 6.097295617034504,
-      "valor_medio": 6.097295617034504,
-      "valor_recente": 6.097295617034504,
-      "data_recente": "2026-04-15T00:18:14Z"
+      "valor_minimo": 6.0975012248897595,
+      "valor_maximo": 6.0975012248897595,
+      "valor_medio": 6.0975012248897595,
+      "valor_recente": 6.0975012248897595,
+      "data_recente": "2026-04-15T22:55:34Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "56412726000196",
@@ -180,15 +279,27 @@
       "numero_imovel": "2397",
       "bairro": "São Miguel",
       "cep": "57266170",
+<<<<<<< HEAD
+      "codigo_ibge": "2709152",
+      "municipio": "Teotônio Vilela",
+      "latitude": -9.8997429,
+      "longitude": -36.36476500000001,
+      "valor_minimo": 6.7888,
+      "valor_maximo": 6.793,
+      "valor_medio": 6.7901,
+      "valor_recente": 6.7903,
+      "data_recente": "2026-04-15T21:18:44+00:00"
+=======
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.790322580645161,
-      "valor_maximo": 6.790322580645161,
-      "valor_medio": 6.790322580645161,
-      "valor_recente": 6.790322580645161,
-      "data_recente": "2026-04-15T21:18:44Z"
+      "valor_minimo": 6.7897881586094515,
+      "valor_maximo": 6.7897881586094515,
+      "valor_medio": 6.7897881586094515,
+      "valor_recente": 6.7897881586094515,
+      "data_recente": "2026-04-15T23:28:17Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "10635075000100",
@@ -200,15 +311,19 @@
       "numero_imovel": "1",
       "bairro": "CENTRO",
       "cep": "57265000",
-      "codigo_ibge": 2709152,
-      "municipio": "TEOTONIO VILELA",
-      "latitude": -9.914451099999999,
-      "longitude": -36.3562508,
-      "valor_minimo": 6.9,
-      "valor_maximo": 6.9,
-      "valor_medio": 6.9,
+      "codigo_ibge": "2709152",
+      "municipio": "Teotônio Vilela",
+      "latitude": -9.910878799999999,
+      "longitude": -36.3628259,
+      "valor_minimo": 6.8596,
+      "valor_maximo": 6.9023,
+      "valor_medio": 6.8941,
       "valor_recente": 6.9,
-      "data_recente": "2026-04-15T21:25:28Z"
+<<<<<<< HEAD
+      "data_recente": "2026-04-15T21:25:28+00:00"
+=======
+      "data_recente": "2026-04-15T22:30:11Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "09088674000164",
@@ -220,15 +335,27 @@
       "numero_imovel": "1219",
       "bairro": "INHUMAS",
       "cep": "57267440",
+<<<<<<< HEAD
+      "codigo_ibge": "2709152",
+      "municipio": "Teotônio Vilela",
+      "latitude": -9.915821099999999,
+      "longitude": -36.3591548,
+      "valor_minimo": 6.8973,
+      "valor_maximo": 6.9041,
+      "valor_medio": 6.9,
+      "valor_recente": 6.9,
+      "data_recente": "2026-04-15T20:43:06+00:00"
+=======
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.9,
-      "valor_maximo": 6.9,
-      "valor_medio": 6.9,
-      "valor_recente": 6.9,
-      "data_recente": "2026-04-15T20:43:06Z"
+      "valor_minimo": 6.903225806451613,
+      "valor_maximo": 6.903225806451613,
+      "valor_medio": 6.903225806451613,
+      "valor_recente": 6.903225806451613,
+      "data_recente": "2026-04-15T23:29:11Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "50598305000115",
@@ -240,15 +367,27 @@
       "numero_imovel": "937",
       "bairro": "Deputado Benedito de Lira",
       "cep": "57268460",
+<<<<<<< HEAD
+      "codigo_ibge": "2709152",
+      "municipio": "Teotônio Vilela",
+      "latitude": -9.9123373,
+      "longitude": -36.350866,
+      "valor_minimo": 6.9359,
+      "valor_maximo": 6.9397,
+      "valor_medio": 6.9385,
+      "valor_recente": 6.938,
+      "data_recente": "2026-04-15T20:28:23+00:00"
+=======
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.938020351526364,
-      "valor_maximo": 6.938020351526364,
-      "valor_medio": 6.938020351526364,
-      "valor_recente": 6.938020351526364,
-      "data_recente": "2026-04-15T20:28:23Z"
+      "valor_minimo": 6.939625260235947,
+      "valor_maximo": 6.939625260235947,
+      "valor_medio": 6.939625260235947,
+      "valor_recente": 6.939625260235947,
+      "data_recente": "2026-04-15T23:21:10Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "10635075000283",
@@ -260,15 +399,16 @@
       "numero_imovel": "1455",
       "bairro": "SAO MIGUEL",
       "cep": "57265000",
-      "codigo_ibge": 2709152,
-      "municipio": "TEOTONIO VILELA",
-      "latitude": -9.9019742,
-      "longitude": -36.3601623,
-      "valor_minimo": 6.990393013100436,
-      "valor_maximo": 6.990393013100436,
-      "valor_medio": 6.990393013100436,
-      "valor_recente": 6.990393013100436,
-      "data_recente": "2026-04-15T21:17:40Z"
+<<<<<<< HEAD
+      "codigo_ibge": "2709152",
+      "municipio": "Teotônio Vilela",
+      "latitude": -27.6661635,
+      "longitude": -48.6740937,
+      "valor_minimo": 6.8367,
+      "valor_maximo": 6.993,
+      "valor_medio": 6.932,
+      "valor_recente": 6.9904,
+      "data_recente": "2026-04-15T21:17:40+00:00"
     },
     {
       "cnpj": "56412726000196",
@@ -280,15 +420,26 @@
       "numero_imovel": "2397",
       "bairro": "São Miguel",
       "cep": "57266170",
+      "codigo_ibge": "2709152",
+      "municipio": "Teotônio Vilela",
+      "latitude": -9.8997429,
+      "longitude": -36.36476500000001,
+      "valor_minimo": 4.9898,
+      "valor_maximo": 4.9901,
+      "valor_medio": 4.99,
+      "valor_recente": 4.99,
+      "data_recente": "2026-04-15T21:01:09+00:00"
+=======
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 4.9900249376558605,
-      "valor_maximo": 4.9900249376558605,
-      "valor_medio": 4.9900249376558605,
-      "valor_recente": 4.9900249376558605,
-      "data_recente": "2026-04-15T21:01:09Z"
+      "latitude": -9.9019742,
+      "longitude": -36.3601623,
+      "valor_minimo": 6.990223463687151,
+      "valor_maximo": 6.990223463687151,
+      "valor_medio": 6.990223463687151,
+      "valor_recente": 6.990223463687151,
+      "data_recente": "2026-04-15T22:36:03Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "59996494000159",
@@ -300,15 +451,47 @@
       "numero_imovel": "3141",
       "bairro": "São Miguel",
       "cep": "57266170",
+<<<<<<< HEAD
+      "codigo_ibge": "2709152",
+      "municipio": "Teotônio Vilela",
+      "latitude": -9.8997429,
+      "longitude": -36.36476500000001,
+      "valor_minimo": 4.3998,
+      "valor_maximo": 5.04,
+      "valor_medio": 4.6559,
+      "valor_recente": 5.0398,
+      "data_recente": "2026-04-15T16:18:56+00:00"
+=======
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.039814534825118,
-      "valor_maximo": 5.039814534825118,
-      "valor_medio": 5.039814534825118,
-      "valor_recente": 5.039814534825118,
-      "data_recente": "2026-04-15T16:18:56Z"
+      "valor_minimo": 4.3997580889023284,
+      "valor_maximo": 4.3997580889023284,
+      "valor_medio": 4.3997580889023284,
+      "valor_recente": 4.3997580889023284,
+      "data_recente": "2026-04-15T22:53:24Z"
+    },
+    {
+      "cnpj": "56412726000196",
+      "tipo_combustivel": 3,
+      "razao_social": "SANTO ANTONIO AUTO POSTO LTDA",
+      "nome_fantasia": "SANTO ANTONIO AUTO POSTO",
+      "telefone": "",
+      "nome_logradouro": "Rua Angêla Maria da Conceição",
+      "numero_imovel": "2397",
+      "bairro": "São Miguel",
+      "cep": "57266170",
+      "codigo_ibge": 2709152,
+      "municipio": "TEOTONIO VILELA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 4.990049751243781,
+      "valor_maximo": 4.990049751243781,
+      "valor_medio": 4.990049751243781,
+      "valor_recente": 4.990049751243781,
+      "data_recente": "2026-04-15T23:35:08Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "10635075000283",
@@ -320,15 +503,78 @@
       "numero_imovel": "1455",
       "bairro": "SAO MIGUEL",
       "cep": "57265000",
+<<<<<<< HEAD
+      "codigo_ibge": "2709152",
+      "municipio": "Teotônio Vilela",
+      "latitude": -27.6661635,
+      "longitude": -48.6740937,
+      "valor_minimo": 4.7873,
+      "valor_maximo": 5.0906,
+      "valor_medio": 4.9117,
+      "valor_recente": 5.0894,
+      "data_recente": "2026-04-15T21:27:50+00:00"
+    },
+    {
+      "cnpj": "50598305000115",
+      "tipo_combustivel": 3,
+      "razao_social": "SANTANA AUTO POSTO LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 993694709",
+      "nome_logradouro": "Rua Antônio Jacinto da Silva (ROD AL 104)",
+      "numero_imovel": "937",
+      "bairro": "Deputado Benedito de Lira",
+      "cep": "57268460",
+      "codigo_ibge": "2709152",
+      "municipio": "Teotônio Vilela",
+      "latitude": -9.9123373,
+      "longitude": -36.350866,
+      "valor_minimo": 5.1361,
+      "valor_maximo": 5.14,
+      "valor_medio": 5.1394,
+      "valor_recente": 5.139,
+      "data_recente": "2026-04-15T19:51:23+00:00"
+=======
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
       "latitude": -9.9019742,
       "longitude": -36.3601623,
-      "valor_minimo": 5.089420654911839,
-      "valor_maximo": 5.089420654911839,
-      "valor_medio": 5.089420654911839,
-      "valor_recente": 5.089420654911839,
-      "data_recente": "2026-04-15T21:27:50Z"
+      "valor_minimo": 5.039314516129032,
+      "valor_maximo": 5.039314516129032,
+      "valor_medio": 5.039314516129032,
+      "valor_recente": 5.039314516129032,
+      "data_recente": "2026-04-15T22:35:35Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
+    },
+    {
+      "cnpj": "09088674000164",
+      "tipo_combustivel": 3,
+      "razao_social": "MARIA JOSINEIDE DUARTE COSTA - ME",
+      "nome_fantasia": "POSTO DUARTE",
+      "telefone": "",
+      "nome_logradouro": "Rua FRANCISCO TIMOTEO",
+      "numero_imovel": "1219",
+      "bairro": "INHUMAS",
+      "cep": "57267440",
+<<<<<<< HEAD
+      "codigo_ibge": "2709152",
+      "municipio": "Teotônio Vilela",
+      "latitude": -9.915821099999999,
+      "longitude": -36.3591548,
+      "valor_minimo": 5.1378,
+      "valor_maximo": 5.1429,
+      "valor_medio": 5.14,
+      "valor_recente": 5.14,
+      "data_recente": "2026-04-15T20:44:32+00:00"
+=======
+      "codigo_ibge": 2709152,
+      "municipio": "TEOTONIO VILELA",
+      "latitude": 0,
+      "longitude": 0,
+      "valor_minimo": 5.138817480719794,
+      "valor_maximo": 5.138817480719794,
+      "valor_medio": 5.138817480719794,
+      "valor_recente": 5.138817480719794,
+      "data_recente": "2026-04-15T23:29:11Z"
     },
     {
       "cnpj": "50598305000115",
@@ -344,31 +590,12 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.139025188092901,
-      "valor_maximo": 5.139025188092901,
-      "valor_medio": 5.139025188092901,
-      "valor_recente": 5.139025188092901,
-      "data_recente": "2026-04-15T19:51:23Z"
-    },
-    {
-      "cnpj": "09088674000164",
-      "tipo_combustivel": 3,
-      "razao_social": "MARIA JOSINEIDE DUARTE COSTA - ME",
-      "nome_fantasia": "POSTO DUARTE",
-      "telefone": "",
-      "nome_logradouro": "Rua FRANCISCO TIMOTEO",
-      "numero_imovel": "1219",
-      "bairro": "INHUMAS",
-      "cep": "57267440",
-      "codigo_ibge": 2709152,
-      "municipio": "TEOTONIO VILELA",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 5.140013980838028,
-      "valor_maximo": 5.140013980838028,
-      "valor_medio": 5.140013980838028,
-      "valor_recente": 5.140013980838028,
-      "data_recente": "2026-04-15T20:44:32Z"
+      "valor_minimo": 5.139802631578948,
+      "valor_maximo": 5.139802631578948,
+      "valor_medio": 5.139802631578948,
+      "valor_recente": 5.139802631578948,
+      "data_recente": "2026-04-15T23:21:23Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "10635075000100",
@@ -380,6 +607,97 @@
       "numero_imovel": "1",
       "bairro": "CENTRO",
       "cep": "57265000",
+<<<<<<< HEAD
+      "codigo_ibge": "2709152",
+      "municipio": "Teotônio Vilela",
+      "latitude": -9.910878799999999,
+      "longitude": -36.3628259,
+      "valor_minimo": 5.0697,
+      "valor_maximo": 5.2203,
+      "valor_medio": 5.189,
+      "valor_recente": 5.22,
+      "data_recente": "2026-04-15T21:25:39+00:00"
+    },
+    {
+      "cnpj": "10635075000283",
+      "tipo_combustivel": 5,
+      "razao_social": "SANTANA & BULHOES AUTO POSTO LTDA",
+      "nome_fantasia": "AUTO POSTO 101",
+      "telefone": "(82) 30241100",
+      "nome_logradouro": "ROD BR 101 SUL",
+      "numero_imovel": "1455",
+      "bairro": "SAO MIGUEL",
+      "cep": "57265000",
+      "codigo_ibge": "2709152",
+      "municipio": "Teotônio Vilela",
+      "latitude": -27.6661635,
+      "longitude": -48.6740937,
+      "valor_minimo": 3.9,
+      "valor_maximo": 7.3901,
+      "valor_medio": 7.025,
+      "valor_recente": 3.9,
+      "data_recente": "2026-04-15T21:25:49+00:00"
+    },
+    {
+      "cnpj": "09088674000164",
+      "tipo_combustivel": 5,
+      "razao_social": "MARIA JOSINEIDE DUARTE COSTA - ME",
+      "nome_fantasia": "POSTO DUARTE",
+      "telefone": "",
+      "nome_logradouro": "Rua FRANCISCO TIMOTEO",
+      "numero_imovel": "1219",
+      "bairro": "INHUMAS",
+      "cep": "57267440",
+      "codigo_ibge": "2709152",
+      "municipio": "Teotônio Vilela",
+      "latitude": -9.915821099999999,
+      "longitude": -36.3591548,
+      "valor_minimo": 6.6993,
+      "valor_maximo": 6.9808,
+      "valor_medio": 6.91,
+      "valor_recente": 6.9804,
+      "data_recente": "2026-04-15T20:09:51+00:00"
+    },
+    {
+      "cnpj": "10635075000100",
+      "tipo_combustivel": 5,
+      "razao_social": "SANTANA & BULHOES AUTO POSTO LTDA",
+      "nome_fantasia": "AUTO POSTO SANTANA E BULHOES",
+      "telefone": "(82) 35433190",
+      "nome_logradouro": "DT INDUSTRIAL IEDA GOMES DE BARROS",
+      "numero_imovel": "1",
+      "bairro": "CENTRO",
+      "cep": "57265000",
+      "codigo_ibge": "2709152",
+      "municipio": "Teotônio Vilela",
+      "latitude": -9.910878799999999,
+      "longitude": -36.3628259,
+      "valor_minimo": 7.0393,
+      "valor_maximo": 7.1901,
+      "valor_medio": 7.1608,
+      "valor_recente": 7.19,
+      "data_recente": "2026-04-15T21:25:18+00:00"
+    },
+    {
+      "cnpj": "56412726000196",
+      "tipo_combustivel": 5,
+      "razao_social": "SANTO ANTONIO AUTO POSTO LTDA",
+      "nome_fantasia": "SANTO ANTONIO AUTO POSTO",
+      "telefone": "",
+      "nome_logradouro": "Rua Angêla Maria da Conceição",
+      "numero_imovel": "2397",
+      "bairro": "São Miguel",
+      "cep": "57266170",
+      "codigo_ibge": "2709152",
+      "municipio": "Teotônio Vilela",
+      "latitude": -9.8997429,
+      "longitude": -36.36476500000001,
+      "valor_minimo": 7.0006,
+      "valor_maximo": 7.2014,
+      "valor_medio": 7.1901,
+      "valor_recente": 7.2001,
+      "data_recente": "2026-04-15T20:33:24+00:00"
+=======
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
       "latitude": -9.914451099999999,
@@ -388,27 +706,8 @@
       "valor_maximo": 5.220024012110455,
       "valor_medio": 5.220024012110455,
       "valor_recente": 5.220024012110455,
-      "data_recente": "2026-04-15T21:25:39Z"
-    },
-    {
-      "cnpj": "10635075000283",
-      "tipo_combustivel": 5,
-      "razao_social": "SANTANA & BULHOES AUTO POSTO LTDA",
-      "nome_fantasia": "AUTO POSTO 101",
-      "telefone": "(82) 30241100",
-      "nome_logradouro": "ROD BR 101 SUL",
-      "numero_imovel": "1455",
-      "bairro": "SAO MIGUEL",
-      "cep": "57265000",
-      "codigo_ibge": 2709152,
-      "municipio": "TEOTONIO VILELA",
-      "latitude": -9.9019742,
-      "longitude": -36.3601623,
-      "valor_minimo": 3.8999999137206336,
-      "valor_maximo": 3.8999999137206336,
-      "valor_medio": 3.8999999137206336,
-      "valor_recente": 3.8999999137206336,
-      "data_recente": "2026-04-15T21:25:49Z"
+      "data_recente": "2026-04-15T22:15:38Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "59996494000159",
@@ -420,15 +719,26 @@
       "numero_imovel": "3141",
       "bairro": "São Miguel",
       "cep": "57266170",
+<<<<<<< HEAD
+      "codigo_ibge": "2709152",
+      "municipio": "Teotônio Vilela",
+      "latitude": -9.8997429,
+      "longitude": -36.36476500000001,
+      "valor_minimo": 6.7499,
+      "valor_maximo": 7.29,
+      "valor_medio": 7.0914,
+      "valor_recente": 7.29,
+      "data_recente": "2026-04-15T20:53:21+00:00"
+=======
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.749985167103177,
-      "valor_maximo": 7.29,
-      "valor_medio": 7.019992583551589,
-      "valor_recente": 7.29,
-      "data_recente": "2026-04-15T20:53:21Z"
+      "valor_minimo": 6.369979518866942,
+      "valor_maximo": 6.750255139233125,
+      "valor_medio": 6.560117329050033,
+      "valor_recente": 6.369979518866942,
+      "data_recente": "2026-04-15T22:53:50Z"
     },
     {
       "cnpj": "09088674000164",
@@ -444,11 +754,11 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.9804469273743015,
-      "valor_maximo": 6.9804469273743015,
-      "valor_medio": 6.9804469273743015,
-      "valor_recente": 6.9804469273743015,
-      "data_recente": "2026-04-15T20:09:51Z"
+      "valor_minimo": 6.7,
+      "valor_maximo": 6.7,
+      "valor_medio": 6.7,
+      "valor_recente": 6.7,
+      "data_recente": "2026-04-15T22:20:17Z"
     },
     {
       "cnpj": "10635075000100",
@@ -468,7 +778,7 @@
       "valor_maximo": 7.190003019801268,
       "valor_medio": 7.190003019801268,
       "valor_recente": 7.190003019801268,
-      "data_recente": "2026-04-15T21:25:18Z"
+      "data_recente": "2026-04-15T23:22:03Z"
     },
     {
       "cnpj": "56412726000196",
@@ -484,11 +794,12 @@
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.200143988480922,
-      "valor_maximo": 7.200143988480922,
-      "valor_medio": 7.200143988480922,
-      "valor_recente": 7.200143988480922,
-      "data_recente": "2026-04-15T20:33:24Z"
+      "valor_minimo": 7.2,
+      "valor_maximo": 7.2,
+      "valor_medio": 7.2,
+      "valor_recente": 7.2,
+      "data_recente": "2026-04-15T23:35:29Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "50598305000115",
@@ -500,15 +811,47 @@
       "numero_imovel": "937",
       "bairro": "Deputado Benedito de Lira",
       "cep": "57268460",
+<<<<<<< HEAD
+      "codigo_ibge": "2709152",
+      "municipio": "Teotônio Vilela",
+      "latitude": -9.9123373,
+      "longitude": -36.350866,
+      "valor_minimo": 7.387,
+      "valor_maximo": 7.39,
+      "valor_medio": 7.3894,
+      "valor_recente": 7.3899,
+      "data_recente": "2026-04-15T20:55:26+00:00"
+=======
       "codigo_ibge": 2709152,
       "municipio": "TEOTONIO VILELA",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 7.389890629618682,
-      "valor_maximo": 7.389890629618682,
-      "valor_medio": 7.389890629618682,
-      "valor_recente": 7.389890629618682,
-      "data_recente": "2026-04-15T20:55:26Z"
+      "valor_minimo": 7.385524372230428,
+      "valor_maximo": 7.385524372230428,
+      "valor_medio": 7.385524372230428,
+      "valor_recente": 7.385524372230428,
+      "data_recente": "2026-04-15T23:21:10Z"
+    },
+    {
+      "cnpj": "10635075000283",
+      "tipo_combustivel": 5,
+      "razao_social": "SANTANA & BULHOES AUTO POSTO LTDA",
+      "nome_fantasia": "AUTO POSTO 101",
+      "telefone": "(82) 30241100",
+      "nome_logradouro": "ROD BR 101 SUL",
+      "numero_imovel": "1455",
+      "bairro": "SAO MIGUEL",
+      "cep": "57265000",
+      "codigo_ibge": 2709152,
+      "municipio": "TEOTONIO VILELA",
+      "latitude": -9.9019742,
+      "longitude": -36.3601623,
+      "valor_minimo": 7.39,
+      "valor_maximo": 7.39,
+      "valor_medio": 7.39,
+      "valor_recente": 7.39,
+      "data_recente": "2026-04-15T23:27:59Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     }
   ]
 }

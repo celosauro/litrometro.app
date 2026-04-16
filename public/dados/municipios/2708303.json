@@ -1,20 +1,24 @@
 {
   "codigoIBGE": "2708303",
   "municipio": "São José da Laje",
-  "atualizadoEm": "2026-04-15T22:22:58.142Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+  "totalEstabelecimentos": 4,
+=======
+  "atualizadoEm": "2026-04-16T00:22:58.096Z",
   "totalEstabelecimentos": 4,
   "combustiveis": {
     "1": {
       "totalPostos": 1,
-      "valorMinimo": 6.889994350204633,
-      "valorMaximo": 6.889994350204633,
-      "valorMedio": 6.889994350204633
+      "valorMinimo": 6.889899407468651,
+      "valorMaximo": 6.889899407468651,
+      "valorMedio": 6.889899407468651
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 6.989518160396522,
-      "valorMaximo": 6.989518160396522,
-      "valorMedio": 6.989518160396522
+      "valorMinimo": 6.988120195667365,
+      "valorMaximo": 6.988120195667365,
+      "valorMedio": 6.988120195667365
     },
     "3": {
       "totalPostos": 1,
@@ -29,6 +33,7 @@
       "valorMedio": 7.489514679448772
     }
   },
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "estabelecimentos": [
     {
       "cnpj": "10796852000190",
@@ -40,15 +45,23 @@
       "numero_imovel": "150",
       "bairro": "CENTRO",
       "cep": "57860000",
-      "codigo_ibge": 2708303,
-      "municipio": "SAO JOSE DA LAJE",
+      "codigo_ibge": "2708303",
+      "municipio": "São José da Laje",
       "latitude": -9.0161445,
       "longitude": -36.06307530000001,
-      "valor_minimo": 6.889994350204633,
-      "valor_maximo": 6.889994350204633,
-      "valor_medio": 6.889994350204633,
-      "valor_recente": 6.889994350204633,
-      "data_recente": "2026-04-15T20:07:18Z"
+<<<<<<< HEAD
+      "valor_minimo": 6.8897,
+      "valor_maximo": 6.8966,
+      "valor_medio": 6.8908,
+      "valor_recente": 6.89,
+      "data_recente": "2026-04-15T20:07:18+00:00"
+=======
+      "valor_minimo": 6.889899407468651,
+      "valor_maximo": 6.889899407468651,
+      "valor_medio": 6.889899407468651,
+      "valor_recente": 6.889899407468651,
+      "data_recente": "2026-04-15T23:22:04Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "10856597000124",
@@ -60,15 +73,23 @@
       "numero_imovel": "198",
       "bairro": "CENTRO",
       "cep": "57860000",
-      "codigo_ibge": 2708303,
-      "municipio": "SAO JOSE DA LAJE",
+      "codigo_ibge": "2708303",
+      "municipio": "São José da Laje",
       "latitude": -9.0123626,
       "longitude": -36.0591436,
-      "valor_minimo": 6.989518160396522,
-      "valor_maximo": 6.989518160396522,
-      "valor_medio": 6.989518160396522,
-      "valor_recente": 6.989518160396522,
-      "data_recente": "2026-04-15T21:14:41Z"
+<<<<<<< HEAD
+      "valor_minimo": 6.9865,
+      "valor_maximo": 7.1498,
+      "valor_medio": 6.9995,
+      "valor_recente": 6.9895,
+      "data_recente": "2026-04-15T21:14:41+00:00"
+=======
+      "valor_minimo": 6.988120195667365,
+      "valor_maximo": 6.988120195667365,
+      "valor_medio": 6.988120195667365,
+      "valor_recente": 6.988120195667365,
+      "data_recente": "2026-04-15T23:06:17Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "10856597000124",
@@ -80,15 +101,15 @@
       "numero_imovel": "198",
       "bairro": "CENTRO",
       "cep": "57860000",
-      "codigo_ibge": 2708303,
-      "municipio": "SAO JOSE DA LAJE",
+      "codigo_ibge": "2708303",
+      "municipio": "São José da Laje",
       "latitude": -9.0123626,
       "longitude": -36.0591436,
-      "valor_minimo": 5.399981694201639,
-      "valor_maximo": 5.399981694201639,
-      "valor_medio": 5.399981694201639,
-      "valor_recente": 5.399981694201639,
-      "data_recente": "2026-04-15T14:16:48Z"
+      "valor_minimo": 5.3929,
+      "valor_maximo": 5.4,
+      "valor_medio": 5.3985,
+      "valor_recente": 5.4,
+      "data_recente": "2026-04-15T14:16:48+00:00"
     },
     {
       "cnpj": "10856597000124",
@@ -100,15 +121,15 @@
       "numero_imovel": "198",
       "bairro": "CENTRO",
       "cep": "57860000",
-      "codigo_ibge": 2708303,
-      "municipio": "SAO JOSE DA LAJE",
+      "codigo_ibge": "2708303",
+      "municipio": "São José da Laje",
       "latitude": -9.0123626,
       "longitude": -36.0591436,
-      "valor_minimo": 7.489514679448772,
-      "valor_maximo": 7.489514679448772,
-      "valor_medio": 7.489514679448772,
-      "valor_recente": 7.489514679448772,
-      "data_recente": "2026-04-15T20:15:32Z"
+      "valor_minimo": 7.1891,
+      "valor_maximo": 7.4899,
+      "valor_medio": 7.4595,
+      "valor_recente": 7.4895,
+      "data_recente": "2026-04-15T20:15:32+00:00"
     }
   ]
 }

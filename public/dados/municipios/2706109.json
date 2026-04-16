@@ -1,22 +1,27 @@
 {
   "codigoIBGE": "2706109",
   "municipio": "Ouro Branco",
-  "atualizadoEm": "2026-04-15T22:13:00.840Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+  "totalEstabelecimentos": 4,
+=======
+  "atualizadoEm": "2026-04-16T00:08:59.577Z",
   "totalEstabelecimentos": 4,
   "combustiveis": {
     "2": {
       "totalPostos": 2,
-      "valorMinimo": 6.96983758700696,
-      "valorMaximo": 6.989515726410384,
-      "valorMedio": 6.979676656708673
+      "valorMinimo": 6.967383761276891,
+      "valorMaximo": 6.990562740300594,
+      "valorMedio": 6.9789732507887425
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.689980780479653,
+      "valorMinimo": 7.68990261404408,
       "valorMaximo": 7.699769053117783,
-      "valorMedio": 7.694874916798717
+      "valorMedio": 7.694835833580932
     }
   },
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "estabelecimentos": [
     {
       "cnpj": "14683196000170",
@@ -28,15 +33,23 @@
       "numero_imovel": "425",
       "bairro": "LUIZ GONZAGA DE CARVALHO",
       "cep": "57525000",
-      "codigo_ibge": 2706109,
-      "municipio": "OURO BRANCO",
+      "codigo_ibge": "2706109",
+      "municipio": "Ouro Branco",
       "latitude": -9.164654,
       "longitude": -37.357874,
-      "valor_minimo": 6.96983758700696,
-      "valor_maximo": 6.96983758700696,
-      "valor_medio": 6.96983758700696,
-      "valor_recente": 6.96983758700696,
-      "data_recente": "2026-04-15T21:22:03Z"
+<<<<<<< HEAD
+      "valor_minimo": 6.9626,
+      "valor_maximo": 6.9698,
+      "valor_medio": 6.9674,
+      "valor_recente": 6.9698,
+      "data_recente": "2026-04-15T21:22:03+00:00"
+=======
+      "valor_minimo": 6.967383761276891,
+      "valor_maximo": 6.967383761276891,
+      "valor_medio": 6.967383761276891,
+      "valor_recente": 6.967383761276891,
+      "data_recente": "2026-04-15T22:55:22Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "10523574000106",
@@ -48,15 +61,23 @@
       "numero_imovel": "1040",
       "bairro": "JOAO ALVES DA SILVA",
       "cep": "57525000",
-      "codigo_ibge": 2706109,
-      "municipio": "OURO BRANCO",
+      "codigo_ibge": "2706109",
+      "municipio": "Ouro Branco",
       "latitude": -9.164638799999999,
       "longitude": -37.3579813,
-      "valor_minimo": 6.989515726410384,
-      "valor_maximo": 6.989515726410384,
-      "valor_medio": 6.989515726410384,
-      "valor_recente": 6.989515726410384,
-      "data_recente": "2026-04-15T18:33:29Z"
+<<<<<<< HEAD
+      "valor_minimo": 6.9881,
+      "valor_maximo": 6.9913,
+      "valor_medio": 6.9893,
+      "valor_recente": 6.9895,
+      "data_recente": "2026-04-15T18:33:29+00:00"
+=======
+      "valor_minimo": 6.990562740300594,
+      "valor_maximo": 6.990562740300594,
+      "valor_medio": 6.990562740300594,
+      "valor_recente": 6.990562740300594,
+      "data_recente": "2026-04-15T23:06:58Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "10523574000106",
@@ -68,15 +89,23 @@
       "numero_imovel": "1040",
       "bairro": "JOAO ALVES DA SILVA",
       "cep": "57525000",
-      "codigo_ibge": 2706109,
-      "municipio": "OURO BRANCO",
+      "codigo_ibge": "2706109",
+      "municipio": "Ouro Branco",
       "latitude": -9.164638799999999,
       "longitude": -37.3579813,
-      "valor_minimo": 7.689980780479653,
-      "valor_maximo": 7.689980780479653,
-      "valor_medio": 7.689980780479653,
-      "valor_recente": 7.689980780479653,
-      "data_recente": "2026-04-15T18:17:25Z"
+<<<<<<< HEAD
+      "valor_minimo": 7.6853,
+      "valor_maximo": 7.6912,
+      "valor_medio": 7.6898,
+      "valor_recente": 7.69,
+      "data_recente": "2026-04-15T18:17:25+00:00"
+=======
+      "valor_minimo": 7.68990261404408,
+      "valor_maximo": 7.68990261404408,
+      "valor_medio": 7.68990261404408,
+      "valor_recente": 7.68990261404408,
+      "data_recente": "2026-04-15T23:05:45Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "14683196000170",
@@ -88,15 +117,15 @@
       "numero_imovel": "425",
       "bairro": "LUIZ GONZAGA DE CARVALHO",
       "cep": "57525000",
-      "codigo_ibge": 2706109,
-      "municipio": "OURO BRANCO",
+      "codigo_ibge": "2706109",
+      "municipio": "Ouro Branco",
       "latitude": -9.164654,
       "longitude": -37.357874,
-      "valor_minimo": 7.699769053117783,
-      "valor_maximo": 7.699769053117783,
-      "valor_medio": 7.699769053117783,
-      "valor_recente": 7.699769053117783,
-      "data_recente": "2026-04-15T20:06:50Z"
+      "valor_minimo": 7.6833,
+      "valor_maximo": 7.7,
+      "valor_medio": 7.6965,
+      "valor_recente": 7.6998,
+      "data_recente": "2026-04-15T20:06:50+00:00"
     }
   ]
 }

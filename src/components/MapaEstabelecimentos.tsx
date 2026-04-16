@@ -64,18 +64,22 @@ export function MapaEstabelecimentos({
   }, []);
 
   // Voa para o estabelecimento selecionado
+  // Usa cnpj como dependência para garantir detecção de mudança
+  const estabelecimentoCnpj = estabelecimentoSelecionado?.cnpj;
   useEffect(() => {
     if (!mapCarregado) return;
-    if (estabelecimentoSelecionado && estabelecimentoSelecionado.latitude !== 0 && estabelecimentoSelecionado.longitude !== 0) {
-      mapRef.current?.flyTo({
-        center: [estabelecimentoSelecionado.longitude, estabelecimentoSelecionado.latitude],
-        zoom: 15,
-        duration: 1000,
-        essential: true,
-      });
-      setPopupInfo(estabelecimentoSelecionado);
-    }
-  }, [estabelecimentoSelecionado, mapCarregado]);
+    if (!estabelecimentoSelecionado) return;
+    if (estabelecimentoSelecionado.latitude === 0 && estabelecimentoSelecionado.longitude === 0) return;
+    
+    // Voa para a localização do estabelecimento
+    mapRef.current?.flyTo({
+      center: [estabelecimentoSelecionado.longitude, estabelecimentoSelecionado.latitude],
+      zoom: 16,
+      duration: 800,
+      essential: true,
+    });
+    setPopupInfo(estabelecimentoSelecionado);
+  }, [estabelecimentoCnpj, mapCarregado, estabelecimentoSelecionado]);
 
   // Voa para a localização do usuário quando ela é obtida
   useEffect(() => {

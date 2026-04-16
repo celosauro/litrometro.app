@@ -1,7 +1,11 @@
 {
   "codigoIBGE": "2702207",
   "municipio": "Coqueiro Seco",
-  "atualizadoEm": "2026-04-15T21:51:56.179Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+  "totalEstabelecimentos": 4,
+=======
+  "atualizadoEm": "2026-04-15T23:44:37.995Z",
   "totalEstabelecimentos": 4,
   "combustiveis": {
     "1": {
@@ -12,15 +16,15 @@
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 6.959914572038771,
-      "valorMaximo": 6.959914572038771,
-      "valorMedio": 6.959914572038771
+      "valorMinimo": 6.958942240779401,
+      "valorMaximo": 6.958942240779401,
+      "valorMedio": 6.958942240779401
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.3893829156561575,
-      "valorMaximo": 5.3893829156561575,
-      "valorMedio": 5.3893829156561575
+      "valorMinimo": 5.389718076285241,
+      "valorMaximo": 5.389718076285241,
+      "valorMedio": 5.389718076285241
     },
     "5": {
       "totalPostos": 1,
@@ -29,6 +33,7 @@
       "valorMedio": 7.659998275416056
     }
   },
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "estabelecimentos": [
     {
       "cnpj": "46256235000140",
@@ -40,15 +45,15 @@
       "numero_imovel": "SN",
       "bairro": "urbano",
       "cep": "57140000",
-      "codigo_ibge": 2702207,
-      "municipio": "COQUEIRO SECO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.259877085162423,
-      "valor_maximo": 7.259877085162423,
-      "valor_medio": 7.259877085162423,
-      "valor_recente": 7.259877085162423,
-      "data_recente": "2026-04-15T21:30:06Z"
+      "codigo_ibge": "2702207",
+      "municipio": "Coqueiro Seco",
+      "latitude": -9.63833,
+      "longitude": -35.80306,
+      "valor_minimo": 6.9541,
+      "valor_maximo": 7.2599,
+      "valor_medio": 6.9671,
+      "valor_recente": 7.2599,
+      "data_recente": "2026-04-15T21:30:06+00:00"
     },
     {
       "cnpj": "46256235000140",
@@ -60,15 +65,27 @@
       "numero_imovel": "SN",
       "bairro": "urbano",
       "cep": "57140000",
+<<<<<<< HEAD
+      "codigo_ibge": "2702207",
+      "municipio": "Coqueiro Seco",
+      "latitude": -9.63833,
+      "longitude": -35.80306,
+      "valor_minimo": 6.9573,
+      "valor_maximo": 7.2586,
+      "valor_medio": 6.9676,
+      "valor_recente": 6.9599,
+      "data_recente": "2026-04-15T21:26:35+00:00"
+=======
       "codigo_ibge": 2702207,
       "municipio": "COQUEIRO SECO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 6.959914572038771,
-      "valor_maximo": 6.959914572038771,
-      "valor_medio": 6.959914572038771,
-      "valor_recente": 6.959914572038771,
-      "data_recente": "2026-04-15T21:26:35Z"
+      "valor_minimo": 6.958942240779401,
+      "valor_maximo": 6.958942240779401,
+      "valor_medio": 6.958942240779401,
+      "valor_recente": 6.958942240779401,
+      "data_recente": "2026-04-15T22:02:46Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "46256235000140",
@@ -80,15 +97,27 @@
       "numero_imovel": "SN",
       "bairro": "urbano",
       "cep": "57140000",
+<<<<<<< HEAD
+      "codigo_ibge": "2702207",
+      "municipio": "Coqueiro Seco",
+      "latitude": -9.63833,
+      "longitude": -35.80306,
+      "valor_minimo": 5.3879,
+      "valor_maximo": 5.69,
+      "valor_medio": 5.4084,
+      "valor_recente": 5.3894,
+      "data_recente": "2026-04-15T21:06:22+00:00"
+=======
       "codigo_ibge": 2702207,
       "municipio": "COQUEIRO SECO",
       "latitude": 0,
       "longitude": 0,
-      "valor_minimo": 5.3893829156561575,
-      "valor_maximo": 5.3893829156561575,
-      "valor_medio": 5.3893829156561575,
-      "valor_recente": 5.3893829156561575,
-      "data_recente": "2026-04-15T21:06:22Z"
+      "valor_minimo": 5.389718076285241,
+      "valor_maximo": 5.389718076285241,
+      "valor_medio": 5.389718076285241,
+      "valor_recente": 5.389718076285241,
+      "data_recente": "2026-04-15T21:47:31Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "46256235000140",
@@ -100,15 +129,15 @@
       "numero_imovel": "SN",
       "bairro": "urbano",
       "cep": "57140000",
-      "codigo_ibge": 2702207,
-      "municipio": "COQUEIRO SECO",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.659998275416056,
-      "valor_maximo": 7.659998275416056,
-      "valor_medio": 7.659998275416056,
-      "valor_recente": 7.659998275416056,
-      "data_recente": "2026-04-15T17:02:14Z"
+      "codigo_ibge": "2702207",
+      "municipio": "Coqueiro Seco",
+      "latitude": -9.63833,
+      "longitude": -35.80306,
+      "valor_minimo": 7.3529,
+      "valor_maximo": 7.66,
+      "valor_medio": 7.488,
+      "valor_recente": 7.66,
+      "data_recente": "2026-04-15T17:02:14+00:00"
     }
   ]
 }

@@ -1,34 +1,39 @@
 {
   "codigoIBGE": "2703700",
   "municipio": "Jaramataia",
-  "atualizadoEm": "2026-04-15T22:00:49.030Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+  "totalEstabelecimentos": 6,
+=======
+  "atualizadoEm": "2026-04-15T23:53:19.698Z",
   "totalEstabelecimentos": 6,
   "combustiveis": {
     "1": {
       "totalPostos": 2,
-      "valorMinimo": 6.688963210702341,
-      "valorMaximo": 6.890036654448517,
-      "valorMedio": 6.7894999325754295
+      "valorMinimo": 6.68985817500669,
+      "valorMaximo": 6.890034364261169,
+      "valorMedio": 6.78994626963393
     },
     "2": {
       "totalPostos": 1,
-      "valorMinimo": 6.789487943646709,
-      "valorMaximo": 6.789487943646709,
-      "valorMedio": 6.789487943646709
+      "valorMinimo": 6.788866259334691,
+      "valorMaximo": 6.788866259334691,
+      "valorMedio": 6.788866259334691
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.099959200326397,
-      "valorMaximo": 5.099959200326397,
-      "valorMedio": 5.099959200326397
+      "valorMinimo": 5.099748780848234,
+      "valorMaximo": 5.099748780848234,
+      "valorMedio": 5.099748780848234
     },
     "5": {
       "totalPostos": 2,
-      "valorMinimo": 7.349972722313148,
+      "valorMinimo": 7.3498217664921,
       "valorMaximo": 7.489965052421368,
-      "valorMedio": 7.419968887367258
+      "valorMedio": 7.419893409456734
     }
   },
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "estabelecimentos": [
     {
       "cnpj": "28675655000189",
@@ -40,15 +45,27 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57425000",
+<<<<<<< HEAD
+      "codigo_ibge": "2703700",
+      "municipio": "Jaramataia",
+      "latitude": -9.6498663,
+      "longitude": -37.0025018,
+      "valor_minimo": 6.3002,
+      "valor_maximo": 6.69,
+      "valor_medio": 6.6674,
+      "valor_recente": 6.689,
+      "data_recente": "2026-04-15T20:58:20+00:00"
+=======
       "codigo_ibge": 2703700,
       "municipio": "JARAMATAIA",
       "latitude": -9.6589442,
       "longitude": -37.0512145,
-      "valor_minimo": 6.688963210702341,
-      "valor_maximo": 6.688963210702341,
-      "valor_medio": 6.688963210702341,
-      "valor_recente": 6.688963210702341,
-      "data_recente": "2026-04-15T20:58:20Z"
+      "valor_minimo": 6.68985817500669,
+      "valor_maximo": 6.68985817500669,
+      "valor_medio": 6.68985817500669,
+      "valor_recente": 6.68985817500669,
+      "data_recente": "2026-04-15T23:03:06Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "07779798000160",
@@ -60,15 +77,23 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57425000",
-      "codigo_ibge": 2703700,
-      "municipio": "JARAMATAIA",
+      "codigo_ibge": "2703700",
+      "municipio": "Jaramataia",
       "latitude": -9.650173599999999,
       "longitude": -37.0036647,
-      "valor_minimo": 6.890036654448517,
-      "valor_maximo": 6.890036654448517,
-      "valor_medio": 6.890036654448517,
-      "valor_recente": 6.890036654448517,
-      "data_recente": "2026-04-15T21:12:52Z"
+<<<<<<< HEAD
+      "valor_minimo": 6.8892,
+      "valor_maximo": 6.8904,
+      "valor_medio": 6.89,
+      "valor_recente": 6.89,
+      "data_recente": "2026-04-15T21:12:52+00:00"
+=======
+      "valor_minimo": 6.890034364261169,
+      "valor_maximo": 6.890034364261169,
+      "valor_medio": 6.890034364261169,
+      "valor_recente": 6.890034364261169,
+      "data_recente": "2026-04-15T22:30:50Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "28675655000189",
@@ -80,15 +105,27 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57425000",
+<<<<<<< HEAD
+      "codigo_ibge": "2703700",
+      "municipio": "Jaramataia",
+      "latitude": -9.6498663,
+      "longitude": -37.0025018,
+      "valor_minimo": 6.3001,
+      "valor_maximo": 6.7898,
+      "valor_medio": 6.7511,
+      "valor_recente": 6.7895,
+      "data_recente": "2026-04-15T20:58:20+00:00"
+=======
       "codigo_ibge": 2703700,
       "municipio": "JARAMATAIA",
       "latitude": -9.6589442,
       "longitude": -37.0512145,
-      "valor_minimo": 6.789487943646709,
-      "valor_maximo": 6.789487943646709,
-      "valor_medio": 6.789487943646709,
-      "valor_recente": 6.789487943646709,
-      "data_recente": "2026-04-15T20:58:20Z"
+      "valor_minimo": 6.788866259334691,
+      "valor_maximo": 6.788866259334691,
+      "valor_medio": 6.788866259334691,
+      "valor_recente": 6.788866259334691,
+      "data_recente": "2026-04-15T22:41:19Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "28675655000189",
@@ -100,15 +137,27 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57425000",
+<<<<<<< HEAD
+      "codigo_ibge": "2703700",
+      "municipio": "Jaramataia",
+      "latitude": -9.6498663,
+      "longitude": -37.0025018,
+      "valor_minimo": 4.3994,
+      "valor_maximo": 5.1,
+      "valor_medio": 4.9994,
+      "valor_recente": 5.1,
+      "data_recente": "2026-04-15T20:46:05+00:00"
+=======
       "codigo_ibge": 2703700,
       "municipio": "JARAMATAIA",
       "latitude": -9.6589442,
       "longitude": -37.0512145,
-      "valor_minimo": 5.099959200326397,
-      "valor_maximo": 5.099959200326397,
-      "valor_medio": 5.099959200326397,
-      "valor_recente": 5.099959200326397,
-      "data_recente": "2026-04-15T20:46:05Z"
+      "valor_minimo": 5.099748780848234,
+      "valor_maximo": 5.099748780848234,
+      "valor_medio": 5.099748780848234,
+      "valor_recente": 5.099748780848234,
+      "data_recente": "2026-04-15T22:41:19Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "28675655000189",
@@ -120,15 +169,27 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57425000",
+<<<<<<< HEAD
+      "codigo_ibge": "2703700",
+      "municipio": "Jaramataia",
+      "latitude": -9.6498663,
+      "longitude": -37.0025018,
+      "valor_minimo": 6.8499,
+      "valor_maximo": 7.35,
+      "valor_medio": 7.2996,
+      "valor_recente": 7.35,
+      "data_recente": "2026-04-15T20:58:20+00:00"
+=======
       "codigo_ibge": 2703700,
       "municipio": "JARAMATAIA",
       "latitude": -9.6589442,
       "longitude": -37.0512145,
-      "valor_minimo": 7.349972722313148,
-      "valor_maximo": 7.349972722313148,
-      "valor_medio": 7.349972722313148,
-      "valor_recente": 7.349972722313148,
-      "data_recente": "2026-04-15T20:58:20Z"
+      "valor_minimo": 7.3498217664921,
+      "valor_maximo": 7.3498217664921,
+      "valor_medio": 7.3498217664921,
+      "valor_recente": 7.3498217664921,
+      "data_recente": "2026-04-15T22:41:19Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "07779798000160",
@@ -140,15 +201,15 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57425000",
-      "codigo_ibge": 2703700,
-      "municipio": "JARAMATAIA",
+      "codigo_ibge": "2703700",
+      "municipio": "Jaramataia",
       "latitude": -9.650173599999999,
       "longitude": -37.0036647,
-      "valor_minimo": 7.489965052421368,
-      "valor_maximo": 7.489965052421368,
-      "valor_medio": 7.489965052421368,
-      "valor_recente": 7.489965052421368,
-      "data_recente": "2026-04-15T20:42:17Z"
+      "valor_minimo": 7.4895,
+      "valor_maximo": 7.4925,
+      "valor_medio": 7.4901,
+      "valor_recente": 7.49,
+      "data_recente": "2026-04-15T20:42:17+00:00"
     }
   ]
 }

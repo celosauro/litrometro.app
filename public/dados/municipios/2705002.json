@@ -1,34 +1,39 @@
 {
   "codigoIBGE": "2705002",
   "municipio": "Mata Grande",
-  "atualizadoEm": "2026-04-15T22:07:51.007Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+  "totalEstabelecimentos": 14,
+=======
+  "atualizadoEm": "2026-04-16T00:01:28.873Z",
   "totalEstabelecimentos": 14,
   "combustiveis": {
     "1": {
       "totalPostos": 3,
-      "valorMinimo": 6.939625260235947,
+      "valorMinimo": 6.938493434692467,
       "valorMaximo": 7.178750897343862,
-      "valorMedio": 7.08250389884464
+      "valorMedio": 7.08212662366348
     },
     "2": {
       "totalPostos": 5,
       "valorMinimo": 6.850218128938439,
       "valorMaximo": 7.329896907216495,
-      "valorMedio": 7.071805797802526
+      "valorMedio": 7.071802073876716
     },
     "3": {
       "totalPostos": 1,
-      "valorMinimo": 5.625,
-      "valorMaximo": 5.625,
-      "valorMedio": 5.625
+      "valorMinimo": 5.620224719101124,
+      "valorMaximo": 5.620224719101124,
+      "valorMedio": 5.620224719101124
     },
     "5": {
       "totalPostos": 5,
-      "valorMinimo": 7.38013698630137,
+      "valorMinimo": 7.149622613585911,
       "valorMaximo": 8.130081300813009,
-      "valorMedio": 7.637339377268655
+      "valorMedio": 7.616122044657611
     }
   },
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "estabelecimentos": [
     {
       "cnpj": "08804741000137",
@@ -40,15 +45,23 @@
       "numero_imovel": "05",
       "bairro": "BOM SUCESSO",
       "cep": "57540000",
-      "codigo_ibge": 2705002,
-      "municipio": "MATA GRANDE",
+      "codigo_ibge": "2705002",
+      "municipio": "Mata Grande",
       "latitude": -9.1179273,
       "longitude": -37.7255414,
-      "valor_minimo": 6.939625260235947,
-      "valor_maximo": 6.939625260235947,
-      "valor_medio": 6.939625260235947,
-      "valor_recente": 6.939625260235947,
-      "data_recente": "2026-04-15T20:21:12Z"
+<<<<<<< HEAD
+      "valor_minimo": 6.9368,
+      "valor_maximo": 6.9412,
+      "valor_medio": 6.9397,
+      "valor_recente": 6.9396,
+      "data_recente": "2026-04-15T20:21:12+00:00"
+=======
+      "valor_minimo": 6.938493434692467,
+      "valor_maximo": 6.938493434692467,
+      "valor_medio": 6.938493434692467,
+      "valor_recente": 6.938493434692467,
+      "data_recente": "2026-04-15T22:32:35Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "08850457000105",
@@ -60,15 +73,15 @@
       "numero_imovel": "140",
       "bairro": "ZONA RURAL",
       "cep": "57540000",
-      "codigo_ibge": 2705002,
-      "municipio": "MATA GRANDE",
-      "latitude": -9.1229984,
-      "longitude": -37.7355222,
-      "valor_minimo": 7.129135538954109,
-      "valor_maximo": 7.129135538954109,
-      "valor_medio": 7.129135538954109,
-      "valor_recente": 7.129135538954109,
-      "data_recente": "2026-04-15T19:15:11Z"
+      "codigo_ibge": "2705002",
+      "municipio": "Mata Grande",
+      "latitude": -9.3618511,
+      "longitude": -37.715034,
+      "valor_minimo": 7.1283,
+      "valor_maximo": 7.7203,
+      "valor_medio": 7.4424,
+      "valor_recente": 7.1291,
+      "data_recente": "2026-04-15T19:15:11+00:00"
     },
     {
       "cnpj": "09419389000189",
@@ -80,6 +93,17 @@
       "numero_imovel": "159",
       "bairro": "SITIO TERRA NOVA",
       "cep": "57540000",
+<<<<<<< HEAD
+      "codigo_ibge": "2705002",
+      "municipio": "Mata Grande",
+      "latitude": -9.1360377,
+      "longitude": -37.765179,
+      "valor_minimo": 7.1788,
+      "valor_maximo": 7.4906,
+      "valor_medio": 7.375,
+      "valor_recente": 7.1788,
+      "data_recente": "2026-04-15T21:21:58+00:00"
+=======
       "codigo_ibge": 2705002,
       "municipio": "MATA GRANDE",
       "latitude": -9.118687099999999,
@@ -88,7 +112,8 @@
       "valor_maximo": 7.178750897343862,
       "valor_medio": 7.178750897343862,
       "valor_recente": 7.178750897343862,
-      "data_recente": "2026-04-15T21:21:58Z"
+      "data_recente": "2026-04-15T23:02:14Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "24250482000104",
@@ -100,15 +125,65 @@
       "numero_imovel": "15",
       "bairro": "CENTRO",
       "cep": "57540000",
-      "codigo_ibge": 2705002,
-      "municipio": "MATA GRANDE",
-      "latitude": -9.1186768,
-      "longitude": -37.7313914,
-      "valor_minimo": 6.850218128938439,
-      "valor_maximo": 6.850218128938439,
-      "valor_medio": 6.850218128938439,
-      "valor_recente": 6.850218128938439,
-      "data_recente": "2026-04-15T21:04:11Z"
+      "codigo_ibge": "2705002",
+      "municipio": "Mata Grande",
+      "latitude": -9.0775363,
+      "longitude": -37.7305809,
+      "valor_minimo": 6.8493,
+      "valor_maximo": 6.8517,
+      "valor_medio": 6.8501,
+      "valor_recente": 6.8502,
+      "data_recente": "2026-04-15T21:04:11+00:00"
+    },
+    {
+<<<<<<< HEAD
+      "cnpj": "13240923000162",
+      "tipo_combustivel": 2,
+      "razao_social": "AUTO POSTO PRIMOS LTDA",
+      "nome_fantasia": "AUTO POSTO PRIMOS",
+      "telefone": "(82) 88206284",
+      "nome_logradouro": "TV CONEGO GONZAGA",
+      "numero_imovel": "05",
+      "bairro": "CENTRO",
+      "cep": "57540000",
+      "codigo_ibge": "2705002",
+      "municipio": "Mata Grande",
+      "latitude": -9.1184121,
+      "longitude": -37.729208,
+      "valor_minimo": 6.9379,
+      "valor_maximo": 6.9406,
+      "valor_medio": 6.9396,
+      "valor_recente": 6.9394,
+      "data_recente": "2026-04-15T21:09:00+00:00"
+    },
+    {
+=======
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
+      "cnpj": "08804741000137",
+      "tipo_combustivel": 2,
+      "razao_social": "POSTO FARIAS LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 36411670",
+      "nome_logradouro": "Rua SIQUEIRA CAMPOS",
+      "numero_imovel": "05",
+      "bairro": "BOM SUCESSO",
+      "cep": "57540000",
+      "codigo_ibge": "2705002",
+      "municipio": "Mata Grande",
+      "latitude": -9.1179273,
+      "longitude": -37.7255414,
+<<<<<<< HEAD
+      "valor_minimo": 6.8997,
+      "valor_maximo": 6.9411,
+      "valor_medio": 6.9294,
+      "valor_recente": 6.9396,
+      "data_recente": "2026-04-15T20:26:56+00:00"
+=======
+      "valor_minimo": 6.939625260235947,
+      "valor_maximo": 6.939625260235947,
+      "valor_medio": 6.939625260235947,
+      "valor_recente": 6.939625260235947,
+      "data_recente": "2026-04-15T22:32:35Z"
     },
     {
       "cnpj": "13240923000162",
@@ -124,31 +199,12 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1184121,
       "longitude": -37.729208,
-      "valor_minimo": 6.939398141727915,
-      "valor_maximo": 6.939398141727915,
-      "valor_medio": 6.939398141727915,
-      "valor_recente": 6.939398141727915,
-      "data_recente": "2026-04-15T21:09:00Z"
-    },
-    {
-      "cnpj": "08804741000137",
-      "tipo_combustivel": 2,
-      "razao_social": "POSTO FARIAS LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 36411670",
-      "nome_logradouro": "Rua SIQUEIRA CAMPOS",
-      "numero_imovel": "05",
-      "bairro": "BOM SUCESSO",
-      "cep": "57540000",
-      "codigo_ibge": 2705002,
-      "municipio": "MATA GRANDE",
-      "latitude": -9.1179273,
-      "longitude": -37.7255414,
-      "valor_minimo": 6.939625260235947,
-      "valor_maximo": 6.939625260235947,
-      "valor_medio": 6.939625260235947,
-      "valor_recente": 6.939625260235947,
-      "data_recente": "2026-04-15T20:26:56Z"
+      "valor_minimo": 6.94,
+      "valor_maximo": 6.94,
+      "valor_medio": 6.94,
+      "valor_recente": 6.94,
+      "data_recente": "2026-04-15T23:11:00Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "08850457000105",
@@ -160,15 +216,27 @@
       "numero_imovel": "140",
       "bairro": "ZONA RURAL",
       "cep": "57540000",
+<<<<<<< HEAD
+      "codigo_ibge": "2705002",
+      "municipio": "Mata Grande",
+      "latitude": -9.3618511,
+      "longitude": -37.715034,
+      "valor_minimo": 7.2993,
+      "valor_maximo": 7.4906,
+      "valor_medio": 7.399,
+      "valor_recente": 7.2999,
+      "data_recente": "2026-04-15T21:29:00+00:00"
+=======
       "codigo_ibge": 2705002,
       "municipio": "MATA GRANDE",
       "latitude": -9.1229984,
       "longitude": -37.7355222,
-      "valor_minimo": 7.299890550893834,
-      "valor_maximo": 7.299890550893834,
-      "valor_medio": 7.299890550893834,
-      "valor_recente": 7.299890550893834,
-      "data_recente": "2026-04-15T21:29:00Z"
+      "valor_minimo": 7.299270072992701,
+      "valor_maximo": 7.299270072992701,
+      "valor_medio": 7.299270072992701,
+      "valor_recente": 7.299270072992701,
+      "data_recente": "2026-04-15T22:37:55Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "09419389000189",
@@ -180,15 +248,15 @@
       "numero_imovel": "159",
       "bairro": "SITIO TERRA NOVA",
       "cep": "57540000",
-      "codigo_ibge": 2705002,
-      "municipio": "MATA GRANDE",
-      "latitude": -9.118687099999999,
-      "longitude": -37.73142,
-      "valor_minimo": 7.329896907216495,
-      "valor_maximo": 7.329896907216495,
-      "valor_medio": 7.329896907216495,
-      "valor_recente": 7.329896907216495,
-      "data_recente": "2026-04-15T19:25:30Z"
+      "codigo_ibge": "2705002",
+      "municipio": "Mata Grande",
+      "latitude": -9.1360377,
+      "longitude": -37.765179,
+      "valor_minimo": 7.3285,
+      "valor_maximo": 7.6419,
+      "valor_medio": 7.5453,
+      "valor_recente": 7.3299,
+      "data_recente": "2026-04-15T19:25:30+00:00"
     },
     {
       "cnpj": "13240923000162",
@@ -200,15 +268,102 @@
       "numero_imovel": "05",
       "bairro": "CENTRO",
       "cep": "57540000",
-      "codigo_ibge": 2705002,
-      "municipio": "MATA GRANDE",
+      "codigo_ibge": "2705002",
+      "municipio": "Mata Grande",
       "latitude": -9.1184121,
       "longitude": -37.729208,
-      "valor_minimo": 5.625,
+<<<<<<< HEAD
+      "valor_minimo": 5.389,
       "valor_maximo": 5.625,
-      "valor_medio": 5.625,
+      "valor_medio": 5.5571,
       "valor_recente": 5.625,
-      "data_recente": "2026-04-15T16:01:35Z"
+      "data_recente": "2026-04-15T16:01:35+00:00"
+    },
+    {
+      "cnpj": "13240923000162",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO PRIMOS LTDA",
+      "nome_fantasia": "AUTO POSTO PRIMOS",
+      "telefone": "(82) 88206284",
+      "nome_logradouro": "TV CONEGO GONZAGA",
+      "numero_imovel": "05",
+      "bairro": "CENTRO",
+      "cep": "57540000",
+      "codigo_ibge": "2705002",
+      "municipio": "Mata Grande",
+      "latitude": -9.1184121,
+      "longitude": -37.729208,
+      "valor_minimo": 7.3797,
+      "valor_maximo": 7.6471,
+      "valor_medio": 7.4368,
+      "valor_recente": 7.3801,
+      "data_recente": "2026-04-15T21:09:55+00:00"
+=======
+      "valor_minimo": 5.620224719101124,
+      "valor_maximo": 5.620224719101124,
+      "valor_medio": 5.620224719101124,
+      "valor_recente": 5.620224719101124,
+      "data_recente": "2026-04-15T22:46:03Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
+    },
+    {
+      "cnpj": "24250482000104",
+      "tipo_combustivel": 5,
+      "razao_social": "T. LOU DE SOUSA LTDA",
+      "nome_fantasia": "POSTO TEXACO OASIS DO SERTÃO",
+      "telefone": "",
+      "nome_logradouro": " TV PEDRO VIEIRA",
+      "numero_imovel": "15",
+      "bairro": "CENTRO",
+      "cep": "57540000",
+<<<<<<< HEAD
+      "codigo_ibge": "2705002",
+      "municipio": "Mata Grande",
+      "latitude": -9.0775363,
+      "longitude": -37.7305809,
+      "valor_minimo": 7.1496,
+      "valor_maximo": 7.5999,
+      "valor_medio": 7.3581,
+      "valor_recente": 7.3961,
+      "data_recente": "2026-04-15T21:02:23+00:00"
+=======
+      "codigo_ibge": 2705002,
+      "municipio": "MATA GRANDE",
+      "latitude": -9.1186768,
+      "longitude": -37.7313914,
+      "valor_minimo": 7.149622613585911,
+      "valor_maximo": 7.599939200486396,
+      "valor_medio": 7.374780907036154,
+      "valor_recente": 7.149622613585911,
+      "data_recente": "2026-04-15T22:43:20Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
+    },
+    {
+      "cnpj": "08804741000137",
+      "tipo_combustivel": 5,
+      "razao_social": "POSTO FARIAS LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 36411670",
+      "nome_logradouro": "Rua SIQUEIRA CAMPOS",
+      "numero_imovel": "05",
+      "bairro": "BOM SUCESSO",
+      "cep": "57540000",
+      "codigo_ibge": "2705002",
+      "municipio": "Mata Grande",
+      "latitude": -9.1179273,
+      "longitude": -37.7255414,
+<<<<<<< HEAD
+      "valor_minimo": 7.3988,
+      "valor_maximo": 7.5498,
+      "valor_medio": 7.4796,
+      "valor_recente": 7.4502,
+      "data_recente": "2026-04-15T11:47:51+00:00"
+=======
+      "valor_minimo": 7.450454477723141,
+      "valor_maximo": 7.450454477723141,
+      "valor_medio": 7.450454477723141,
+      "valor_recente": 7.450454477723141,
+      "data_recente": "2026-04-15T22:03:56Z"
     },
     {
       "cnpj": "13240923000162",
@@ -224,51 +379,12 @@
       "municipio": "MATA GRANDE",
       "latitude": -9.1184121,
       "longitude": -37.729208,
-      "valor_minimo": 7.38013698630137,
-      "valor_maximo": 7.38013698630137,
-      "valor_medio": 7.38013698630137,
-      "valor_recente": 7.38013698630137,
-      "data_recente": "2026-04-15T21:09:55Z"
-    },
-    {
-      "cnpj": "24250482000104",
-      "tipo_combustivel": 5,
-      "razao_social": "T. LOU DE SOUSA LTDA",
-      "nome_fantasia": "POSTO TEXACO OASIS DO SERTÃO",
-      "telefone": "",
-      "nome_logradouro": " TV PEDRO VIEIRA",
-      "numero_imovel": "15",
-      "bairro": "CENTRO",
-      "cep": "57540000",
-      "codigo_ibge": 2705002,
-      "municipio": "MATA GRANDE",
-      "latitude": -9.1186768,
-      "longitude": -37.7313914,
-      "valor_minimo": 7.3960612691466086,
-      "valor_maximo": 7.599939200486396,
-      "valor_medio": 7.4980002348165025,
-      "valor_recente": 7.3960612691466086,
-      "data_recente": "2026-04-15T21:02:23Z"
-    },
-    {
-      "cnpj": "08804741000137",
-      "tipo_combustivel": 5,
-      "razao_social": "POSTO FARIAS LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 36411670",
-      "nome_logradouro": "Rua SIQUEIRA CAMPOS",
-      "numero_imovel": "05",
-      "bairro": "BOM SUCESSO",
-      "cep": "57540000",
-      "codigo_ibge": 2705002,
-      "municipio": "MATA GRANDE",
-      "latitude": -9.1179273,
-      "longitude": -37.7255414,
-      "valor_minimo": 7.450176941702366,
-      "valor_maximo": 7.450176941702366,
-      "valor_medio": 7.450176941702366,
-      "valor_recente": 7.450176941702366,
-      "data_recente": "2026-04-15T11:47:51Z"
+      "valor_minimo": 7.52021144278607,
+      "valor_maximo": 7.52021144278607,
+      "valor_medio": 7.52021144278607,
+      "valor_recente": 7.52021144278607,
+      "data_recente": "2026-04-15T22:46:03Z"
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
     },
     {
       "cnpj": "08850457000105",
@@ -280,15 +396,15 @@
       "numero_imovel": "140",
       "bairro": "ZONA RURAL",
       "cep": "57540000",
-      "codigo_ibge": 2705002,
-      "municipio": "MATA GRANDE",
-      "latitude": -9.1229984,
-      "longitude": -37.7355222,
-      "valor_minimo": 7.830240388379924,
-      "valor_maximo": 7.830240388379924,
-      "valor_medio": 7.830240388379924,
-      "valor_recente": 7.830240388379924,
-      "data_recente": "2026-04-15T19:15:22Z"
+      "codigo_ibge": "2705002",
+      "municipio": "Mata Grande",
+      "latitude": -9.3618511,
+      "longitude": -37.715034,
+      "valor_minimo": 7.8298,
+      "valor_maximo": 8.6501,
+      "valor_medio": 8.396,
+      "valor_recente": 7.8302,
+      "data_recente": "2026-04-15T19:15:22+00:00"
     },
     {
       "cnpj": "09419389000189",
@@ -300,15 +416,15 @@
       "numero_imovel": "159",
       "bairro": "SITIO TERRA NOVA",
       "cep": "57540000",
-      "codigo_ibge": 2705002,
-      "municipio": "MATA GRANDE",
-      "latitude": -9.118687099999999,
-      "longitude": -37.73142,
-      "valor_minimo": 8.130081300813009,
-      "valor_maximo": 8.130081300813009,
-      "valor_medio": 8.130081300813009,
-      "valor_recente": 8.130081300813009,
-      "data_recente": "2026-04-15T20:39:34Z"
+      "codigo_ibge": "2705002",
+      "municipio": "Mata Grande",
+      "latitude": -9.1360377,
+      "longitude": -37.765179,
+      "valor_minimo": 8.1293,
+      "valor_maximo": 8.2406,
+      "valor_medio": 8.1991,
+      "valor_recente": 8.1301,
+      "data_recente": "2026-04-15T20:39:34+00:00"
     }
   ]
 }

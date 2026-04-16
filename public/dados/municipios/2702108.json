@@ -1,34 +1,12 @@
 {
   "codigoIBGE": "2702108",
   "municipio": "Colônia Leopoldina",
-  "atualizadoEm": "2026-04-15T21:51:20.876Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+=======
+  "atualizadoEm": "2026-04-15T23:44:07.813Z",
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "totalEstabelecimentos": 7,
-  "combustiveis": {
-    "1": {
-      "totalPostos": 2,
-      "valorMinimo": 6.849901532665468,
-      "valorMaximo": 6.849962336506198,
-      "valorMedio": 6.8499319345858325
-    },
-    "2": {
-      "totalPostos": 1,
-      "valorMinimo": 6.8493150684931505,
-      "valorMaximo": 6.8493150684931505,
-      "valorMedio": 6.8493150684931505
-    },
-    "3": {
-      "totalPostos": 2,
-      "valorMinimo": 5.449591280653951,
-      "valorMaximo": 5.600107522064423,
-      "valorMedio": 5.524849401359187
-    },
-    "5": {
-      "totalPostos": 2,
-      "valorMinimo": 7.45,
-      "valorMaximo": 7.451564828614009,
-      "valorMedio": 7.450782414307005
-    }
-  },
   "estabelecimentos": [
     {
       "cnpj": "08560691000190",
@@ -40,15 +18,15 @@
       "numero_imovel": "S/N",
       "bairro": "CENTRO",
       "cep": "57975000",
-      "codigo_ibge": 2702108,
-      "municipio": "COLONIA LEOPOLDINA",
+      "codigo_ibge": "2702108",
+      "municipio": "Colônia Leopoldina",
       "latitude": -8.911863499999999,
       "longitude": -35.7187274,
-      "valor_minimo": 6.849901532665468,
-      "valor_maximo": 6.849901532665468,
-      "valor_medio": 6.849901532665468,
-      "valor_recente": 6.849901532665468,
-      "data_recente": "2026-04-15T21:20:36Z"
+      "valor_minimo": 6.8493,
+      "valor_maximo": 6.9,
+      "valor_medio": 6.8523,
+      "valor_recente": 6.8499,
+      "data_recente": "2026-04-15T21:20:36+00:00"
     },
     {
       "cnpj": "14341647000272",
@@ -60,15 +38,15 @@
       "numero_imovel": "SN",
       "bairro": "LOTEAMENTO JARDIM",
       "cep": "57975000",
-      "codigo_ibge": 2702108,
-      "municipio": "COLONIA LEOPOLDINA",
-      "latitude": -8.982249399999999,
-      "longitude": -35.784354,
-      "valor_minimo": 6.849962336506198,
-      "valor_maximo": 6.849962336506198,
-      "valor_medio": 6.849962336506198,
-      "valor_recente": 6.849962336506198,
-      "data_recente": "2026-04-15T20:52:25Z"
+      "codigo_ibge": "2702108",
+      "municipio": "Colônia Leopoldina",
+      "latitude": -8.911065599999999,
+      "longitude": -35.7216919,
+      "valor_minimo": 6.8401,
+      "valor_maximo": 6.85,
+      "valor_medio": 6.8491,
+      "valor_recente": 6.85,
+      "data_recente": "2026-04-15T20:52:25+00:00"
     },
     {
       "cnpj": "14341647000272",
@@ -80,15 +58,15 @@
       "numero_imovel": "SN",
       "bairro": "LOTEAMENTO JARDIM",
       "cep": "57975000",
-      "codigo_ibge": 2702108,
-      "municipio": "COLONIA LEOPOLDINA",
-      "latitude": -8.982249399999999,
-      "longitude": -35.784354,
-      "valor_minimo": 6.8493150684931505,
-      "valor_maximo": 6.8493150684931505,
-      "valor_medio": 6.8493150684931505,
-      "valor_recente": 6.8493150684931505,
-      "data_recente": "2026-04-15T20:51:43Z"
+      "codigo_ibge": "2702108",
+      "municipio": "Colônia Leopoldina",
+      "latitude": -8.911065599999999,
+      "longitude": -35.7216919,
+      "valor_minimo": 6.846,
+      "valor_maximo": 6.85,
+      "valor_medio": 6.849,
+      "valor_recente": 6.8493,
+      "data_recente": "2026-04-15T20:51:43+00:00"
     },
     {
       "cnpj": "14341647000272",
@@ -100,15 +78,15 @@
       "numero_imovel": "SN",
       "bairro": "LOTEAMENTO JARDIM",
       "cep": "57975000",
-      "codigo_ibge": 2702108,
-      "municipio": "COLONIA LEOPOLDINA",
-      "latitude": -8.982249399999999,
-      "longitude": -35.784354,
-      "valor_minimo": 5.449591280653951,
-      "valor_maximo": 5.449591280653951,
-      "valor_medio": 5.449591280653951,
-      "valor_recente": 5.449591280653951,
-      "data_recente": "2026-04-15T20:51:43Z"
+      "codigo_ibge": "2702108",
+      "municipio": "Colônia Leopoldina",
+      "latitude": -8.911065599999999,
+      "longitude": -35.7216919,
+      "valor_minimo": 5.4446,
+      "valor_maximo": 5.45,
+      "valor_medio": 5.4492,
+      "valor_recente": 5.4496,
+      "data_recente": "2026-04-15T20:51:43+00:00"
     },
     {
       "cnpj": "08560691000190",
@@ -120,15 +98,15 @@
       "numero_imovel": "S/N",
       "bairro": "CENTRO",
       "cep": "57975000",
-      "codigo_ibge": 2702108,
-      "municipio": "COLONIA LEOPOLDINA",
+      "codigo_ibge": "2702108",
+      "municipio": "Colônia Leopoldina",
       "latitude": -8.911863499999999,
       "longitude": -35.7187274,
-      "valor_minimo": 5.600107522064423,
-      "valor_maximo": 5.600107522064423,
-      "valor_medio": 5.600107522064423,
-      "valor_recente": 5.600107522064423,
-      "data_recente": "2026-04-15T15:46:32Z"
+      "valor_minimo": 5.4496,
+      "valor_maximo": 5.6001,
+      "valor_medio": 5.4969,
+      "valor_recente": 5.6001,
+      "data_recente": "2026-04-15T15:46:32+00:00"
     },
     {
       "cnpj": "08560691000190",
@@ -140,15 +118,15 @@
       "numero_imovel": "S/N",
       "bairro": "CENTRO",
       "cep": "57975000",
-      "codigo_ibge": 2702108,
-      "municipio": "COLONIA LEOPOLDINA",
+      "codigo_ibge": "2702108",
+      "municipio": "Colônia Leopoldina",
       "latitude": -8.911863499999999,
       "longitude": -35.7187274,
-      "valor_minimo": 7.45,
-      "valor_maximo": 7.45,
-      "valor_medio": 7.45,
+      "valor_minimo": 7.15,
+      "valor_maximo": 7.59,
+      "valor_medio": 7.4984,
       "valor_recente": 7.45,
-      "data_recente": "2026-04-15T21:10:50Z"
+      "data_recente": "2026-04-15T21:10:50+00:00"
     },
     {
       "cnpj": "14341647000272",
@@ -160,15 +138,15 @@
       "numero_imovel": "SN",
       "bairro": "LOTEAMENTO JARDIM",
       "cep": "57975000",
-      "codigo_ibge": 2702108,
-      "municipio": "COLONIA LEOPOLDINA",
-      "latitude": -8.982249399999999,
-      "longitude": -35.784354,
-      "valor_minimo": 7.451564828614009,
-      "valor_maximo": 7.451564828614009,
-      "valor_medio": 7.451564828614009,
-      "valor_recente": 7.451564828614009,
-      "data_recente": "2026-04-15T20:51:43Z"
+      "codigo_ibge": "2702108",
+      "municipio": "Colônia Leopoldina",
+      "latitude": -8.911065599999999,
+      "longitude": -35.7216919,
+      "valor_minimo": 7.446,
+      "valor_maximo": 7.4516,
+      "valor_medio": 7.4495,
+      "valor_recente": 7.4516,
+      "data_recente": "2026-04-15T20:51:43+00:00"
     }
   ]
 }

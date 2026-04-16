@@ -1,34 +1,12 @@
 {
   "codigoIBGE": "2701803",
   "municipio": "Carneiros",
-  "atualizadoEm": "2026-04-15T21:49:40.163Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+=======
+  "atualizadoEm": "2026-04-15T23:42:47.240Z",
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "totalEstabelecimentos": 6,
-  "combustiveis": {
-    "1": {
-      "totalPostos": 2,
-      "valorMinimo": 6.989522700814901,
-      "valorMaximo": 6.990562740300594,
-      "valorMedio": 6.990042720557748
-    },
-    "2": {
-      "totalPostos": 1,
-      "valorMinimo": 7.051056338028169,
-      "valorMaximo": 7.051056338028169,
-      "valorMedio": 7.051056338028169
-    },
-    "3": {
-      "totalPostos": 1,
-      "valorMinimo": 5.19,
-      "valorMaximo": 5.19,
-      "valorMedio": 5.19
-    },
-    "5": {
-      "totalPostos": 2,
-      "valorMinimo": 7.320108337603396,
-      "valorMaximo": 7.800046963271959,
-      "valorMedio": 7.560077650437678
-    }
-  },
   "estabelecimentos": [
     {
       "cnpj": "00994685000139",
@@ -40,15 +18,15 @@
       "numero_imovel": "210",
       "bairro": "CENTRO",
       "cep": "57535000",
-      "codigo_ibge": 2701803,
-      "municipio": "CARNEIROS",
-      "latitude": -9.4828391,
-      "longitude": -37.376628,
-      "valor_minimo": 6.989522700814901,
-      "valor_maximo": 6.989522700814901,
-      "valor_medio": 6.989522700814901,
-      "valor_recente": 6.989522700814901,
-      "data_recente": "2026-04-15T19:57:53Z"
+      "codigo_ibge": "2701803",
+      "municipio": "Carneiros",
+      "latitude": -9.663207,
+      "longitude": -35.7542711,
+      "valor_minimo": 6.9861,
+      "valor_maximo": 6.993,
+      "valor_medio": 6.9893,
+      "valor_recente": 6.9895,
+      "data_recente": "2026-04-15T19:57:53+00:00"
     },
     {
       "cnpj": "36996902000177",
@@ -60,15 +38,15 @@
       "numero_imovel": "584",
       "bairro": "CENTRO",
       "cep": "57535000",
-      "codigo_ibge": 2701803,
-      "municipio": "CARNEIROS",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 6.990562740300594,
-      "valor_maximo": 6.990562740300594,
-      "valor_medio": 6.990562740300594,
-      "valor_recente": 6.990562740300594,
-      "data_recente": "2026-04-15T21:30:25Z"
+      "codigo_ibge": "2701803",
+      "municipio": "Carneiros",
+      "latitude": -9.4862714,
+      "longitude": -37.3693366,
+      "valor_minimo": 6.9897,
+      "valor_maximo": 7.65,
+      "valor_medio": 7.0964,
+      "valor_recente": 6.9906,
+      "data_recente": "2026-04-15T21:30:25+00:00"
     },
     {
       "cnpj": "00994685000139",
@@ -80,15 +58,15 @@
       "numero_imovel": "210",
       "bairro": "CENTRO",
       "cep": "57535000",
-      "codigo_ibge": 2701803,
-      "municipio": "CARNEIROS",
-      "latitude": -9.4828391,
-      "longitude": -37.376628,
-      "valor_minimo": 7.051056338028169,
-      "valor_maximo": 7.051056338028169,
-      "valor_medio": 7.051056338028169,
-      "valor_recente": 7.051056338028169,
-      "data_recente": "2026-04-15T19:57:53Z"
+      "codigo_ibge": "2701803",
+      "municipio": "Carneiros",
+      "latitude": -9.663207,
+      "longitude": -35.7542711,
+      "valor_minimo": 7.0485,
+      "valor_maximo": 7.0522,
+      "valor_medio": 7.0502,
+      "valor_recente": 7.0511,
+      "data_recente": "2026-04-15T19:57:53+00:00"
     },
     {
       "cnpj": "36996902000177",
@@ -100,15 +78,15 @@
       "numero_imovel": "584",
       "bairro": "CENTRO",
       "cep": "57535000",
-      "codigo_ibge": 2701803,
-      "municipio": "CARNEIROS",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 5.19,
-      "valor_maximo": 5.19,
-      "valor_medio": 5.19,
+      "codigo_ibge": "2701803",
+      "municipio": "Carneiros",
+      "latitude": -9.4862714,
+      "longitude": -37.3693366,
+      "valor_minimo": 5.1867,
+      "valor_maximo": 5.65,
+      "valor_medio": 5.2715,
       "valor_recente": 5.19,
-      "data_recente": "2026-04-15T20:26:21Z"
+      "data_recente": "2026-04-15T20:26:21+00:00"
     },
     {
       "cnpj": "36996902000177",
@@ -120,15 +98,15 @@
       "numero_imovel": "584",
       "bairro": "CENTRO",
       "cep": "57535000",
-      "codigo_ibge": 2701803,
-      "municipio": "CARNEIROS",
-      "latitude": 0,
-      "longitude": 0,
-      "valor_minimo": 7.320108337603396,
-      "valor_maximo": 8.3500334001336,
-      "valor_medio": 7.835070868868499,
-      "valor_recente": 7.320108337603396,
-      "data_recente": "2026-04-15T20:25:45Z"
+      "codigo_ibge": "2701803",
+      "municipio": "Carneiros",
+      "latitude": -9.4862714,
+      "longitude": -37.3693366,
+      "valor_minimo": 7.3189,
+      "valor_maximo": 8.45,
+      "valor_medio": 7.8712,
+      "valor_recente": 7.3201,
+      "data_recente": "2026-04-15T20:25:45+00:00"
     },
     {
       "cnpj": "00994685000139",
@@ -140,15 +118,15 @@
       "numero_imovel": "210",
       "bairro": "CENTRO",
       "cep": "57535000",
-      "codigo_ibge": 2701803,
-      "municipio": "CARNEIROS",
-      "latitude": -9.4828391,
-      "longitude": -37.376628,
-      "valor_minimo": 7.800046963271959,
-      "valor_maximo": 7.800046963271959,
-      "valor_medio": 7.800046963271959,
-      "valor_recente": 7.800046963271959,
-      "data_recente": "2026-04-15T20:30:03Z"
+      "codigo_ibge": "2701803",
+      "municipio": "Carneiros",
+      "latitude": -9.663207,
+      "longitude": -35.7542711,
+      "valor_minimo": 7.7985,
+      "valor_maximo": 7.8006,
+      "valor_medio": 7.7999,
+      "valor_recente": 7.8,
+      "data_recente": "2026-04-15T20:30:03+00:00"
     }
   ]
 }

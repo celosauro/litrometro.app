@@ -1,34 +1,12 @@
 {
   "codigoIBGE": "2701209",
   "municipio": "Cacimbinhas",
-  "atualizadoEm": "2026-04-15T21:46:25.593Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-16T01:20:57.467Z",
+=======
+  "atualizadoEm": "2026-04-15T23:39:06.777Z",
+>>>>>>> c679fab8e6b327085941180365ef6ce45862bcc2
   "totalEstabelecimentos": 12,
-  "combustiveis": {
-    "1": {
-      "totalPostos": 3,
-      "valorMinimo": 6.750561797752809,
-      "valorMaximo": 7.050387596899225,
-      "valorMedio": 6.930153294720841
-    },
-    "2": {
-      "totalPostos": 2,
-      "valorMinimo": 6.800063884642588,
-      "valorMaximo": 6.8899688958009335,
-      "valorMedio": 6.845016390221761
-    },
-    "3": {
-      "totalPostos": 3,
-      "valorMinimo": 4.990049751243781,
-      "valorMaximo": 6.14,
-      "valorMedio": 5.610013441761563
-    },
-    "5": {
-      "totalPostos": 4,
-      "valorMinimo": 7.4901392980178745,
-      "valorMaximo": 7.94,
-      "valorMedio": 7.717542573729546
-    }
-  },
   "estabelecimentos": [
     {
       "cnpj": "11910007000167",
@@ -40,15 +18,15 @@
       "numero_imovel": "30",
       "bairro": "CENTRO",
       "cep": "57570000",
-      "codigo_ibge": 2701209,
-      "municipio": "CACIMBINHAS",
+      "codigo_ibge": "2701209",
+      "municipio": "Cacimbinhas",
       "latitude": -9.3999701,
       "longitude": -36.992904,
-      "valor_minimo": 6.750561797752809,
-      "valor_maximo": 6.750561797752809,
-      "valor_medio": 6.750561797752809,
-      "valor_recente": 6.750561797752809,
-      "data_recente": "2026-04-12T01:19:17Z"
+      "valor_minimo": 6.7493,
+      "valor_maximo": 6.7568,
+      "valor_medio": 6.7511,
+      "valor_recente": 6.7506,
+      "data_recente": "2026-04-12T01:19:17+00:00"
     },
     {
       "cnpj": "34745647000164",
@@ -60,15 +38,15 @@
       "numero_imovel": "SN",
       "bairro": "CENTRO",
       "cep": "57570000",
-      "codigo_ibge": 2701209,
-      "municipio": "CACIMBINHAS",
+      "codigo_ibge": "2701209",
+      "municipio": "Cacimbinhas",
       "latitude": -9.3994992,
       "longitude": -36.9904045,
-      "valor_minimo": 6.989510489510489,
-      "valor_maximo": 6.989510489510489,
-      "valor_medio": 6.989510489510489,
-      "valor_recente": 6.989510489510489,
-      "data_recente": "2026-04-15T21:28:01Z"
+      "valor_minimo": 5.9196,
+      "valor_maximo": 7.14,
+      "valor_medio": 6.9428,
+      "valor_recente": 6.9895,
+      "data_recente": "2026-04-15T21:28:01+00:00"
     },
     {
       "cnpj": "13631547000137",
@@ -80,15 +58,15 @@
       "numero_imovel": "SN",
       "bairro": "ZONA RURAL",
       "cep": "57570000",
-      "codigo_ibge": 2701209,
-      "municipio": "CACIMBINHAS",
+      "codigo_ibge": "2701209",
+      "municipio": "Cacimbinhas",
       "latitude": -9.3995816,
       "longitude": -36.9267589,
-      "valor_minimo": 7.050387596899225,
-      "valor_maximo": 7.050387596899225,
-      "valor_medio": 7.050387596899225,
-      "valor_recente": 7.050387596899225,
-      "data_recente": "2026-04-15T21:24:47Z"
+      "valor_minimo": 6.8493,
+      "valor_maximo": 7.0504,
+      "valor_medio": 6.8555,
+      "valor_recente": 7.0504,
+      "data_recente": "2026-04-15T21:24:47+00:00"
     },
     {
       "cnpj": "05560272000160",
@@ -100,15 +78,15 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57570000",
-      "codigo_ibge": 2701209,
-      "municipio": "CACIMBINHAS",
-      "latitude": -9.404568099999999,
-      "longitude": -36.9910042,
-      "valor_minimo": 6.800063884642588,
-      "valor_maximo": 6.800063884642588,
-      "valor_medio": 6.800063884642588,
-      "valor_recente": 6.800063884642588,
-      "data_recente": "2026-04-10T12:19:44Z"
+      "codigo_ibge": "2701209",
+      "municipio": "Cacimbinhas",
+      "latitude": -9.3864034,
+      "longitude": -36.7726788,
+      "valor_minimo": 6.0999,
+      "valor_maximo": 6.8001,
+      "valor_medio": 6.7,
+      "valor_recente": 6.8001,
+      "data_recente": "2026-04-10T12:19:44+00:00"
     },
     {
       "cnpj": "13631547000137",
@@ -120,15 +98,15 @@
       "numero_imovel": "SN",
       "bairro": "ZONA RURAL",
       "cep": "57570000",
-      "codigo_ibge": 2701209,
-      "municipio": "CACIMBINHAS",
+      "codigo_ibge": "2701209",
+      "municipio": "Cacimbinhas",
       "latitude": -9.3995816,
       "longitude": -36.9267589,
-      "valor_minimo": 6.8899688958009335,
-      "valor_maximo": 6.8899688958009335,
-      "valor_medio": 6.8899688958009335,
-      "valor_recente": 6.8899688958009335,
-      "data_recente": "2026-04-15T20:35:32Z"
+      "valor_minimo": 6.8899,
+      "valor_maximo": 6.8905,
+      "valor_medio": 6.89,
+      "valor_recente": 6.89,
+      "data_recente": "2026-04-15T20:35:32+00:00"
     },
     {
       "cnpj": "13631547000137",
@@ -140,15 +118,15 @@
       "numero_imovel": "SN",
       "bairro": "ZONA RURAL",
       "cep": "57570000",
-      "codigo_ibge": 2701209,
-      "municipio": "CACIMBINHAS",
+      "codigo_ibge": "2701209",
+      "municipio": "Cacimbinhas",
       "latitude": -9.3995816,
       "longitude": -36.9267589,
-      "valor_minimo": 4.990049751243781,
-      "valor_maximo": 4.990049751243781,
-      "valor_medio": 4.990049751243781,
-      "valor_recente": 4.990049751243781,
-      "data_recente": "2026-04-15T21:11:04Z"
+      "valor_minimo": 4.9898,
+      "valor_maximo": 5.09,
+      "valor_medio": 4.9939,
+      "valor_recente": 4.99,
+      "data_recente": "2026-04-15T21:11:04+00:00"
     },
     {
       "cnpj": "05560272000160",
@@ -160,15 +138,15 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57570000",
-      "codigo_ibge": 2701209,
-      "municipio": "CACIMBINHAS",
-      "latitude": -9.404568099999999,
-      "longitude": -36.9910042,
-      "valor_minimo": 5.699990574040909,
-      "valor_maximo": 5.699990574040909,
-      "valor_medio": 5.699990574040909,
-      "valor_recente": 5.699990574040909,
-      "data_recente": "2026-04-10T12:19:44Z"
+      "codigo_ibge": "2701209",
+      "municipio": "Cacimbinhas",
+      "latitude": -9.3864034,
+      "longitude": -36.7726788,
+      "valor_minimo": 5.7,
+      "valor_maximo": 5.7,
+      "valor_medio": 5.7,
+      "valor_recente": 5.7,
+      "data_recente": "2026-04-10T12:19:44+00:00"
     },
     {
       "cnpj": "34745647000164",
@@ -180,15 +158,15 @@
       "numero_imovel": "SN",
       "bairro": "CENTRO",
       "cep": "57570000",
-      "codigo_ibge": 2701209,
-      "municipio": "CACIMBINHAS",
+      "codigo_ibge": "2701209",
+      "municipio": "Cacimbinhas",
       "latitude": -9.3994992,
       "longitude": -36.9904045,
-      "valor_minimo": 6.14,
+      "valor_minimo": 4.6617,
       "valor_maximo": 6.14,
-      "valor_medio": 6.14,
+      "valor_medio": 5.8739,
       "valor_recente": 6.14,
-      "data_recente": "2026-04-15T21:22:07Z"
+      "data_recente": "2026-04-15T21:22:07+00:00"
     },
     {
       "cnpj": "05560272000160",
@@ -200,15 +178,15 @@
       "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57570000",
-      "codigo_ibge": 2701209,
-      "municipio": "CACIMBINHAS",
-      "latitude": -9.404568099999999,
-      "longitude": -36.9910042,
-      "valor_minimo": 7.4901392980178745,
-      "valor_maximo": 7.4901392980178745,
-      "valor_medio": 7.4901392980178745,
-      "valor_recente": 7.4901392980178745,
-      "data_recente": "2026-04-10T12:19:44Z"
+      "codigo_ibge": "2701209",
+      "municipio": "Cacimbinhas",
+      "latitude": -9.3864034,
+      "longitude": -36.7726788,
+      "valor_minimo": 6.08,
+      "valor_maximo": 7.4901,
+      "valor_medio": 7.2887,
+      "valor_recente": 7.4901,
+      "data_recente": "2026-04-10T12:19:44+00:00"
     },
     {
       "cnpj": "13631547000137",
@@ -220,15 +198,15 @@
       "numero_imovel": "SN",
       "bairro": "ZONA RURAL",
       "cep": "57570000",
-      "codigo_ibge": 2701209,
-      "municipio": "CACIMBINHAS",
+      "codigo_ibge": "2701209",
+      "municipio": "Cacimbinhas",
       "latitude": -9.3995816,
       "longitude": -36.9267589,
-      "valor_minimo": 7.69003099690031,
-      "valor_maximo": 7.69003099690031,
-      "valor_medio": 7.69003099690031,
-      "valor_recente": 7.69003099690031,
-      "data_recente": "2026-04-15T21:23:05Z"
+      "valor_minimo": 7.2896,
+      "valor_maximo": 7.69,
+      "valor_medio": 7.3275,
+      "valor_recente": 7.69,
+      "data_recente": "2026-04-15T21:23:05+00:00"
     },
     {
       "cnpj": "11910007000167",
@@ -240,15 +218,15 @@
       "numero_imovel": "30",
       "bairro": "CENTRO",
       "cep": "57570000",
-      "codigo_ibge": 2701209,
-      "municipio": "CACIMBINHAS",
+      "codigo_ibge": "2701209",
+      "municipio": "Cacimbinhas",
       "latitude": -9.3999701,
       "longitude": -36.992904,
-      "valor_minimo": 7.75,
-      "valor_maximo": 7.75,
-      "valor_medio": 7.75,
+      "valor_minimo": 7.7492,
+      "valor_maximo": 7.7692,
+      "valor_medio": 7.7535,
       "valor_recente": 7.75,
-      "data_recente": "2026-04-14T00:30:07Z"
+      "data_recente": "2026-04-14T00:30:07+00:00"
     },
     {
       "cnpj": "34745647000164",
@@ -260,15 +238,15 @@
       "numero_imovel": "SN",
       "bairro": "CENTRO",
       "cep": "57570000",
-      "codigo_ibge": 2701209,
-      "municipio": "CACIMBINHAS",
+      "codigo_ibge": "2701209",
+      "municipio": "Cacimbinhas",
       "latitude": -9.3994992,
       "longitude": -36.9904045,
-      "valor_minimo": 7.94,
+      "valor_minimo": 6.7537,
       "valor_maximo": 7.94,
-      "valor_medio": 7.94,
+      "valor_medio": 7.8319,
       "valor_recente": 7.94,
-      "data_recente": "2026-04-15T21:15:47Z"
+      "data_recente": "2026-04-15T21:15:47+00:00"
     }
   ]
 }
