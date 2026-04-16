@@ -1,11 +1,14 @@
 import { useState, useMemo, useEffect, useRef, useCallback } from 'react';
-import { GasPump, MagnifyingGlass, Crosshair, List, X } from '@phosphor-icons/react';
+import { MagnifyingGlass, Crosshair, X, List } from '@phosphor-icons/react';
 import { usePrecosCombustiveis } from '../hooks/usePrecosCombustiveis';
 import { useGeolocalizacao } from '../hooks/useGeolocalizacao';
 import { CardCombustivel } from '../components/FuelCard';
 import { SeletorTipoCombustivel } from '../components/FuelTypeSelector';
 import { SeletorMunicipio } from '../components/MunicipioSelector';
 import { MapaEstabelecimentos } from '../components/MapaEstabelecimentos';
+import { SkeletonCardList } from '../components/SkeletonCard';
+import { EmptyState, EmptyStateAction } from '../components/EmptyState';
+import { calcularNivelPreco, calcularEconomia } from '../components/PriceBadge';
 import { calcularDistanciaKm } from '../utils/distancia';
 import { trackFuelTypeSelect, trackMunicipalitySelect, trackSearch} from '../utils/analytics';
 import type { TipoCombustivel, PrecoCombustivelResumo } from '../types';
@@ -223,6 +226,12 @@ export default function HomePage() {
     return [melhor, ...resto];
   }, [dadosFiltradosBase, cnpjMelhorPosto]);
 
+  // Array de preços para cálculo de faixas (nível de preço e economia)
+  const todosPrecos = useMemo(() => {
+    if (!dadosFiltrados) return [];
+    return dadosFiltrados.map(item => item.valor_recente);
+  }, [dadosFiltrados]);
+
   const handleSelecionarEstabelecimento = (item: DadosComDistancia) => {
     setEstabelecimentoSelecionado(prev => 
       prev?.cnpj === item.cnpj ? null : item
@@ -334,18 +343,30 @@ export default function HomePage() {
           </div>
         )}
 
-        {/* Loading state */}
-        {(carregando || carregandoLocalizacao) && !dadosFiltrados && (
-          <div className="flex-1 flex flex-col items-center justify-center py-12">
-            <div className="animate-spin rounded-full h-10 w-10 sm:h-12 sm:w-12 border-4 border-blue-600 dark:border-blue-400 border-t-transparent" />
-            {carregandoLocalizacao && (
-              <p className="mt-4 text-sm text-gray-500 dark:text-gray-400">Obtendo sua localização...</p>
-            )}
+        {/* Loading state - Skeleton Cards */}
+        {carregando && !dadosFiltrados?.length && (
+          <div className="flex-1 flex flex-col lg:flex-row overflow-hidden min-h-0">
+            {/* Sidebar skeleton */}
+            <aside className="lg:w-[400px] xl:w-[450px] border-r border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 flex flex-col overflow-hidden hidden lg:flex">
+              <div className="px-4 py-3 border-b border-gray-200 dark:border-gray-700">
+                <div className="h-5 bg-gray-200 dark:bg-gray-700 rounded w-40 animate-pulse" />
+              </div>
+              <div className="flex-1 overflow-y-auto px-4 py-4">
+                <SkeletonCardList count={4} />
+              </div>
+            </aside>
+            {/* Map placeholder */}
+            <div className="flex-1 min-h-0 bg-gray-100 dark:bg-gray-900 flex items-center justify-center">
+              <div className="text-center">
+                <div className="animate-spin rounded-full h-10 w-10 border-4 border-blue-600 dark:border-blue-400 border-t-transparent mx-auto" />
+                <p className="mt-4 text-sm text-gray-500 dark:text-gray-400">Carregando mapa...</p>
+              </div>
+            </div>
           </div>
         )}
 
         {/* Split View: Lista + Mapa */}
-        {dadosFiltrados && (
+        {dadosFiltrados && dadosFiltrados.length >= 0 && !carregando && (
           <div className="flex-1 flex flex-col lg:flex-row overflow-hidden min-h-0 relative">
             {/* Sidebar - Lista de postos */}
             <aside className={`lg:w-[400px] xl:w-[450px] border-r border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 flex flex-col overflow-hidden ${mostrarListaMobile ? 'absolute inset-0 z-30 flex' : 'hidden lg:flex'}`}>
@@ -374,13 +395,20 @@ export default function HomePage() {
               {/* Lista scrollável */}
               <div className="flex-1 overflow-y-auto px-3 py-3 sm:px-4 sm:py-4 space-y-3">
                 {dadosFiltrados.length === 0 ? (
-                  <div className="text-center py-12">
-                    <GasPump size={48} className="mx-auto text-gray-300 dark:text-gray-600 mb-4" />
-                    <p className="text-gray-500 dark:text-gray-400">Nenhum posto encontrado</p>
-                    <p className="text-sm text-gray-400 dark:text-gray-500 mt-1">
-                      Tente ajustar os filtros
-                    </p>
-                  </div>
+                  <EmptyState 
+                    variant={termoBusca ? 'no-results' : 'empty'}
+                    action={
+                      termoBusca ? (
+                        <EmptyStateAction onClick={() => setTermoBusca('')}>
+                          Limpar busca
+                        </EmptyStateAction>
+                      ) : municipioSelecionado !== '' ? (
+                        <EmptyStateAction onClick={() => setMunicipioSelecionado('')}>
+                          Ver todos os municípios
+                        </EmptyStateAction>
+                      ) : undefined
+                    }
+                  />
                 ) : (
                   dadosFiltrados.map((item) => (
                     <CardCombustivel 
@@ -389,6 +417,8 @@ export default function HomePage() {
                       distancia={item.distancia}
                       isSelected={estabelecimentoSelecionado?.cnpj === item.cnpj}
                       isMelhor={item.cnpj === cnpjMelhorPosto}
+                      priceLevel={calcularNivelPreco(item.valor_recente, todosPrecos)}
+                      economia={calcularEconomia(item.valor_recente, todosPrecos)}
                       onClick={() => handleSelecionarEstabelecimento(item)}
                     />
                   ))

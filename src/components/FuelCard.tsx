@@ -2,16 +2,19 @@ import { MapPin, Phone, Clock, TrendUp, TrendDown, NavigationArrow, Star, MapPin
 import type { PrecoCombustivelResumo, TipoCombustivel } from '../types';
 import { TIPOS_COMBUSTIVEL, CORES_COMBUSTIVEL } from '../types';
 import { formatarDistancia } from '../utils/distancia';
+import { PriceBadge, EconomiaBadge, ProximidadeBadge, type PriceLevel } from './PriceBadge';
 
 interface CardCombustivelProps {
   dados: PrecoCombustivelResumo;
   distancia?: number;
   isSelected?: boolean;
   isMelhor?: boolean;
+  priceLevel?: PriceLevel;
+  economia?: number;
   onClick?: () => void;
 }
 
-export function CardCombustivel({ dados, distancia, isSelected, isMelhor, onClick }: CardCombustivelProps) {
+export function CardCombustivel({ dados, distancia, isSelected, isMelhor, priceLevel, economia, onClick }: CardCombustivelProps) {
   const tipoCombustivel = dados.tipo_combustivel as TipoCombustivel;
   const nomeCombustivel = TIPOS_COMBUSTIVEL[tipoCombustivel];
   const corCombustivel = CORES_COMBUSTIVEL[tipoCombustivel];
@@ -68,8 +71,18 @@ export function CardCombustivel({ dados, distancia, isSelected, isMelhor, onClic
           <Star size={14} weight="fill" />
         </div>
       )}
+      
+      {/* Badges de contexto (preço, proximidade, economia) */}
+      {(priceLevel || (distancia !== undefined && distancia < 2) || (economia !== undefined && economia > 0.05)) && (
+        <div className="px-3 pt-2 sm:px-4 flex flex-wrap items-center gap-1.5">
+          {priceLevel && <PriceBadge level={priceLevel} />}
+          {distancia !== undefined && <ProximidadeBadge distancia={distancia} />}
+          {economia !== undefined && <EconomiaBadge economia={economia} />}
+        </div>
+      )}
+      
       {/* Header com badge */}
-      <div className="px-3 pt-3 pb-1.5 sm:px-4 sm:pt-4 sm:pb-2 flex items-start justify-between gap-2">
+      <div className="px-3 pt-2 pb-1.5 sm:px-4 sm:pt-3 sm:pb-2 flex items-start justify-between gap-2">
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2">
             <h3 className="font-semibold text-gray-900 dark:text-white truncate text-sm sm:text-base" title={nomeExibicao}>
