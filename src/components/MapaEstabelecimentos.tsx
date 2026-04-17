@@ -39,6 +39,22 @@ interface MapaEstabelecimentosProps {
   className?: string;
 }
 
+// Cache dos centros dos municípios (carregado uma vez)
+let centrosMunicipiosCache: Array<{codigo_ibge: string; latitude: number; longitude: number}> | null = null;
+
+async function carregarCentrosMunicipios() {
+  if (centrosMunicipiosCache) return centrosMunicipiosCache;
+  try {
+    const resp = await fetch('/dados/municipios-centro.json');
+    if (resp.ok) {
+      centrosMunicipiosCache = await resp.json();
+    }
+  } catch (e) {
+    console.error('Erro ao carregar centros dos municípios:', e);
+  }
+  return centrosMunicipiosCache;
+}
+
 export function MapaEstabelecimentos({ 
   dados, 
   localizacao, 
@@ -105,7 +121,7 @@ export function MapaEstabelecimentos({
     });
   }, [localizacao, mapCarregado]);
 
-  // Voa para o centro dos dados quando o município muda
+  // Voa para o centro do município quando o município muda
   useEffect(() => {
     if (!mapCarregado) return;
     if (!dados.length) return;
@@ -128,34 +144,57 @@ export function MapaEstabelecimentos({
       return;
     }
     
-    // Usa os dados já filtrados
-    const estabelecimentosValidos = dados.filter(
-      item => item.latitude !== 0 && item.longitude !== 0
-    );
-    
-    if (estabelecimentosValidos.length === 0) return;
-    
-    // Calcula o centro (média das coordenadas)
-    const somaLat = estabelecimentosValidos.reduce((acc, item) => acc + item.latitude, 0);
-    const somaLng = estabelecimentosValidos.reduce((acc, item) => acc + item.longitude, 0);
-    const centroLat = somaLat / estabelecimentosValidos.length;
-    const centroLng = somaLng / estabelecimentosValidos.length;
-    
-    const map = mapRef.current;
-    if (map) {
-      map.flyTo({
-        center: [centroLng, centroLat],
-        zoom: municipioSelecionado ? 12 : 7,
-        duration: 1000,
-        essential: true,
-      });
+    // Função assíncrona para voar para o centro
+    const voarParaCentro = async () => {
+      let centroLat: number;
+      let centroLng: number;
       
-      // Marca que já voamos para este estado
-      ultimoFlyToRef.current = chaveAtual;
-    }
+      // Se tem município selecionado, usa o centro oficial do arquivo
+      if (municipioSelecionado) {
+        const centros = await carregarCentrosMunicipios();
+        const centroMunicipio = centros?.find(c => c.codigo_ibge === municipioSelecionado);
+        
+        if (centroMunicipio) {
+          centroLat = centroMunicipio.latitude;
+          centroLng = centroMunicipio.longitude;
+        } else {
+          // Fallback: primeira coordenada dos dados
+          const primeiro = dados.find(item => item.latitude !== 0 && item.longitude !== 0);
+          if (!primeiro) return;
+          centroLat = primeiro.latitude;
+          centroLng = primeiro.longitude;
+        }
+      } else {
+        // Sem município: calcula média (comportamento original para "todos")
+        const estabelecimentosValidos = dados.filter(
+          item => item.latitude !== 0 && item.longitude !== 0
+        );
+        if (estabelecimentosValidos.length === 0) return;
+        
+        const somaLat = estabelecimentosValidos.reduce((acc, item) => acc + item.latitude, 0);
+        const somaLng = estabelecimentosValidos.reduce((acc, item) => acc + item.longitude, 0);
+        centroLat = somaLat / estabelecimentosValidos.length;
+        centroLng = somaLng / estabelecimentosValidos.length;
+      }
+      
+      const map = mapRef.current;
+      if (map) {
+        map.flyTo({
+          center: [centroLng, centroLat],
+          zoom: municipioSelecionado ? 12 : 7,
+          duration: 1000,
+          essential: true,
+        });
+        
+        // Marca que já voamos para este estado
+        ultimoFlyToRef.current = chaveAtual;
+      }
+      
+      // Fecha popup ao mudar município
+      setPopupInfo(null);
+    };
     
-    // Fecha popup ao mudar município
-    setPopupInfo(null);
+    voarParaCentro();
   }, [dados, mapCarregado, municipioSelecionado]);
 
   // Calcula o centro inicial do mapa
