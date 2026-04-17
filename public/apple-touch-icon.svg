@@ -1,26 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" fill="none">
-  <!-- Fundo iOS style -->
   <rect width="180" height="180" rx="40" fill="#1A4D2E"/>
-  
-  <!-- Pin de localização (outline) -->
-  <path d="M90 20 C60 20 36 44 36 74 C36 110 90 160 90 160 C90 160 144 110 144 74 C144 44 120 20 90 20Z" 
-        fill="none" stroke="#4ade80" stroke-width="5" stroke-linejoin="round"/>
-  
-  <!-- Círculo interno -->
-  <circle cx="90" cy="68" r="34" fill="none" stroke="#4ade80" stroke-width="5"/>
-  
-  <!-- Bomba de combustível (outline style) -->
-  <g stroke="#4ade80" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <!-- Corpo da bomba -->
-    <rect x="72" y="48" width="26" height="40" rx="3"/>
-    
-    <!-- Visor linha 1 -->
-    <line x1="78" y1="58" x2="92" y2="58"/>
-    
-    <!-- Visor linha 2 -->
-    <line x1="78" y1="68" x2="92" y2="68"/>
-    
-    <!-- Mangueira -->
-    <path d="M98 54 L106 54 Q114 54 114 62 L114 82"/>
+  <g fill="#ffffff">
+    <rect x="39" y="45" width="68" height="101" rx="11"/>
+    <rect x="51" y="56" width="45" height="28" rx="6" fill="#1A4D2E"/>
+    <rect x="107" y="56" width="17" height="28" rx="6"/>
+    <path d="M124 68 Q146 68 146 90 L146 124" stroke="#ffffff" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <rect x="135" y="112" width="23" height="34" rx="6"/>
+    <rect x="28" y="135" width="90" height="17" rx="6"/>
   </g>
 </svg>
