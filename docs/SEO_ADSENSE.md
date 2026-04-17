@@ -295,7 +295,7 @@ localStorage.getItem('litrometro_cookie_consent')
 - [x] Atualizar `ADSENSE_CLIENT_ID` em:
   - [x] `src/components/AdBanner.tsx`
   - [x] `src/components/CookieBanner.tsx`
-  - [ ] `index.html` (script placeholder)
+  - [x] `index.html` (script removido - carregamento dinâmico)
 - [x] Criar ícones PWA:
   - [x] `public/icon-192.png`
   - [x] `public/icon-512.png`
