@@ -1,8 +1,9 @@
 import { Outlet, Link, useLocation } from 'react-router-dom';
-import { GasPump, Bell } from '@phosphor-icons/react';
+import { GasPump } from '@phosphor-icons/react';
 import { Footer } from './Footer';
 import { CookieBanner } from './CookieBanner';
 import { BotaoTema } from './BotaoTema';
+import { OfflineIndicator } from './OfflineIndicator';
 
 export function Layout() {
   const location = useLocation();
@@ -36,13 +37,6 @@ export function Layout() {
                 </Link>
               )}
               <BotaoTema variant="header" />
-              <button 
-                className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-white/10 hover:bg-white/20 
-                           flex items-center justify-center text-white transition-colors"
-                aria-label="Notificações"
-              >
-                <Bell size={20} weight="bold" />
-              </button>
             </div>
           </div>
         </div>
@@ -58,6 +52,9 @@ export function Layout() {
 
       {/* Cookie Banner */}
       <CookieBanner />
+
+      {/* Indicador de status offline */}
+      <OfflineIndicator />
     </div>
   );
 }
