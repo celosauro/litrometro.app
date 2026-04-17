@@ -141,12 +141,12 @@ export default function PrivacidadePage() {
             <p className="text-gray-600 dark:text-gray-300 text-sm mt-4">
               Para mais informações sobre como o Google usa seus dados, visite:{' '}
               <a 
-                href="https://policies.google.com/privacy" 
+                href="https://www.google.com/policies/privacy/partners/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-brand-600 dark:text-brand-400 hover:underline"
               >
-                Política de Privacidade do Google
+                Como o Google usa informações de sites ou apps que utilizam nossos serviços
               </a>
             </p>
           </section>
