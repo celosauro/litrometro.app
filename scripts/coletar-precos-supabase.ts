@@ -205,6 +205,18 @@ const NOMES_COMBUSTIVEL: Record<TipoCombustivel, string> = {
   6: 'GNV',
 };
 
+// Municípios com muitos postos (>30) - executar individualmente para evitar timeout
+const MUNICIPIOS_GRANDES = [
+  '2704302', // Maceió (~200+ postos)
+  '2700300', // Arapiraca (~100 postos)
+  '2707701', // Rio Largo (~30 postos)
+  '2704708', // Marechal Deodoro (~25 postos)
+  '2709152', // Teotônio Vilela (~20 postos)
+];
+
+// Número de batches para dividir municípios pequenos
+const TOTAL_BATCHES = 3;
+
 // Cliente Supabase (secret key para escrita)
 // Usando tipagem mais flexível para operações de escrita
 let supabase: SupabaseClient | null = null;
@@ -238,15 +250,76 @@ function getSupabaseClient(): SupabaseClient | null {
 
 /**
  * Processa argumentos de linha de comando
+ * Suporta:
+ *   --batch N      Processa batch N de municípios pequenos (1 a TOTAL_BATCHES)
+ *   --grandes      Lista os municípios grandes (para debug)
+ *   --pequenos     Processa todos os municípios pequenos
+ *   <nome>         Filtra por nome ou código IBGE do município
+ *   (vazio)        Processa TODOS os municípios
  */
 function obterMunicipiosFiltrados(): Record<string, string> {
   const args = process.argv.slice(2);
   
+  // Sem argumentos = todos os municípios
   if (args.length === 0) {
     return MUNICIPIOS_AL;
   }
 
-  const filtro = args[0].toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  const comando = args[0].toLowerCase();
+
+  // --grandes: lista municípios grandes (para uso no workflow)
+  if (comando === '--grandes') {
+    const resultado: Record<string, string> = {};
+    for (const codigo of MUNICIPIOS_GRANDES) {
+      if (MUNICIPIOS_AL[codigo]) {
+        resultado[codigo] = MUNICIPIOS_AL[codigo];
+      }
+    }
+    console.log(`📊 Municípios grandes (${MUNICIPIOS_GRANDES.length}): ${Object.values(resultado).join(', ')}`);
+    return resultado;
+  }
+
+  // --pequenos: todos os municípios pequenos
+  if (comando === '--pequenos') {
+    const resultado: Record<string, string> = {};
+    for (const [codigo, nome] of Object.entries(MUNICIPIOS_AL)) {
+      if (!MUNICIPIOS_GRANDES.includes(codigo)) {
+        resultado[codigo] = nome;
+      }
+    }
+    console.log(`📊 Municípios pequenos: ${Object.keys(resultado).length}`);
+    return resultado;
+  }
+
+  // --batch N: processa batch N de municípios pequenos
+  if (comando === '--batch') {
+    const batchNum = parseInt(args[1], 10);
+    
+    if (isNaN(batchNum) || batchNum < 1 || batchNum > TOTAL_BATCHES) {
+      console.error(`❌ Batch inválido. Use --batch 1 até --batch ${TOTAL_BATCHES}`);
+      process.exit(1);
+    }
+
+    // Filtra apenas municípios pequenos
+    const pequenos = Object.entries(MUNICIPIOS_AL)
+      .filter(([codigo]) => !MUNICIPIOS_GRANDES.includes(codigo))
+      .sort((a, b) => a[1].localeCompare(b[1])); // Ordena por nome para consistência
+
+    const tamanhoGrupo = Math.ceil(pequenos.length / TOTAL_BATCHES);
+    const inicio = (batchNum - 1) * tamanhoGrupo;
+    const fim = Math.min(inicio + tamanhoGrupo, pequenos.length);
+    
+    const batchMunicipios = pequenos.slice(inicio, fim);
+    const resultado = Object.fromEntries(batchMunicipios);
+    
+    console.log(`📊 Batch ${batchNum}/${TOTAL_BATCHES}: ${batchMunicipios.length} municípios`);
+    console.log(`   De "${batchMunicipios[0]?.[1]}" até "${batchMunicipios[batchMunicipios.length - 1]?.[1]}"`);
+    
+    return resultado;
+  }
+
+  // Filtro por nome ou código IBGE (comportamento original)
+  const filtro = comando.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   const resultado: Record<string, string> = {};
 
   for (const [codigo, nome] of Object.entries(MUNICIPIOS_AL)) {

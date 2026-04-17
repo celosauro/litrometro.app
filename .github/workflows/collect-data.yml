@@ -5,36 +5,190 @@ on:
     # Executa a cada hora
     - cron: '0 * * * *'
   workflow_dispatch:
-    # Permite execução manual
+    inputs:
+      municipio:
+        description: 'Município específico (opcional)'
+        required: false
+        type: string
+
+# Garante que apenas uma execução roda por vez
+concurrency:
+  group: coleta-precos
+  cancel-in-progress: false
 
 jobs:
-  collect:
+  # ============================================
+  # MUNICÍPIOS GRANDES (executam em paralelo)
+  # ============================================
+  coletar-maceio:
     runs-on: ubuntu-latest
-    
-    permissions:
-      contents: write
-    
+    timeout-minutes: 25
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: '22'
           cache: 'npm'
-
-      - name: Instalar dependências
-        run: npm ci
-
-      - name: Coletar dados para Supabase
+      - run: npm ci
+      - name: Coletar Maceió
         env:
           SEFAZ_APP_TOKEN: ${{ secrets.SEFAZ_APP_TOKEN }}
           VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
           SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
-        run: npm run collect:supabase
+        run: npx tsx scripts/coletar-precos-supabase.ts maceio
+
+  coletar-arapiraca:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - run: npm ci
+      - name: Coletar Arapiraca
+        env:
+          SEFAZ_APP_TOKEN: ${{ secrets.SEFAZ_APP_TOKEN }}
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: npx tsx scripts/coletar-precos-supabase.ts arapiraca
+
+  coletar-rio-largo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - run: npm ci
+      - name: Coletar Rio Largo
+        env:
+          SEFAZ_APP_TOKEN: ${{ secrets.SEFAZ_APP_TOKEN }}
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: npx tsx scripts/coletar-precos-supabase.ts "rio largo"
+
+  coletar-marechal-deodoro:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - run: npm ci
+      - name: Coletar Marechal Deodoro
+        env:
+          SEFAZ_APP_TOKEN: ${{ secrets.SEFAZ_APP_TOKEN }}
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: npx tsx scripts/coletar-precos-supabase.ts "marechal deodoro"
+
+  coletar-teotonio-vilela:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - run: npm ci
+      - name: Coletar Teotônio Vilela
+        env:
+          SEFAZ_APP_TOKEN: ${{ secrets.SEFAZ_APP_TOKEN }}
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: npx tsx scripts/coletar-precos-supabase.ts "teotonio vilela"
+
+  # ============================================
+  # MUNICÍPIOS PEQUENOS (em 3 batches paralelos)
+  # ============================================
+  coletar-batch-1:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - run: npm ci
+      - name: Coletar Batch 1
+        env:
+          SEFAZ_APP_TOKEN: ${{ secrets.SEFAZ_APP_TOKEN }}
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: npx tsx scripts/coletar-precos-supabase.ts --batch 1
+
+  coletar-batch-2:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - run: npm ci
+      - name: Coletar Batch 2
+        env:
+          SEFAZ_APP_TOKEN: ${{ secrets.SEFAZ_APP_TOKEN }}
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: npx tsx scripts/coletar-precos-supabase.ts --batch 2
+
+  coletar-batch-3:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - run: npm ci
+      - name: Coletar Batch 3
+        env:
+          SEFAZ_APP_TOKEN: ${{ secrets.SEFAZ_APP_TOKEN }}
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: npx tsx scripts/coletar-precos-supabase.ts --batch 3
+
+  # ============================================
+  # EXPORTAR JSON E COMMIT (após todos terminarem)
+  # ============================================
+  exportar-e-commit:
+    needs: 
+      - coletar-maceio
+      - coletar-arapiraca
+      - coletar-rio-largo
+      - coletar-marechal-deodoro
+      - coletar-teotonio-vilela
+      - coletar-batch-1
+      - coletar-batch-2
+      - coletar-batch-3
+    runs-on: ubuntu-latest
+    # Sempre executa mesmo se algum job falhar
+    if: always()
+    permissions:
+      contents: write
+    
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      
+      - run: npm ci
 
       - name: Exportar JSON minificado
         env:
@@ -60,7 +214,19 @@ jobs:
           git commit -m "chore: atualiza dados de preços [$(date -u +"%Y-%m-%d %H:%M UTC")]"
           git push
 
-      - name: Log de conclusão
+      - name: Resumo da execução
         run: |
-          echo "Coleta concluída em $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
-          echo "Mudanças detectadas: ${{ steps.changes.outputs.changed }}"
+          echo "## Resumo da Coleta" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Job | Status |" >> $GITHUB_STEP_SUMMARY
+          echo "|-----|--------|" >> $GITHUB_STEP_SUMMARY
+          echo "| Maceió | ${{ needs.coletar-maceio.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Arapiraca | ${{ needs.coletar-arapiraca.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Rio Largo | ${{ needs.coletar-rio-largo.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Marechal Deodoro | ${{ needs.coletar-marechal-deodoro.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Teotônio Vilela | ${{ needs.coletar-teotonio-vilela.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Batch 1 | ${{ needs.coletar-batch-1.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Batch 2 | ${{ needs.coletar-batch-2.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Batch 3 | ${{ needs.coletar-batch-3.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Mudanças no JSON: ${{ steps.changes.outputs.changed }}" >> $GITHUB_STEP_SUMMARY
