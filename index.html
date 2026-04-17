@@ -19,6 +19,12 @@
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://litrometro.app/" />
     
+    <!-- Geo-targeting para Alagoas, Brasil -->
+    <meta name="geo.region" content="BR-AL" />
+    <meta name="geo.placename" content="Alagoas, Brasil" />
+    <meta name="geo.position" content="-9.5713;-36.782" />
+    <meta name="ICBM" content="-9.5713, -36.782" />
+    
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
@@ -142,13 +148,8 @@
       gtag('config', 'G-W50QD7RD94');
     </script>
     
-    <!-- Google AdSense -->
-    <!-- IMPORTANTE: Substitua ca-pub-XXXXXXXXXXXXXXXX pelo seu ID do AdSense -->
-    <!-- O script só carrega após consentimento do usuário (ver CookieBanner) -->
-    <script id="adsense-script" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX">
-      // AdSense será carregado dinamicamente após consentimento
-      // Ver: src/components/AdBanner.tsx e src/components/CookieBanner.tsx
-    </script>
+    <!-- Google AdSense - Carregado dinamicamente após consentimento -->
+    <!-- Ver: src/components/CookieBanner.tsx e src/components/AdBanner.tsx -->
     
     <!-- Tema escuro - aplicar antes de renderizar para evitar flash -->
     <script>
