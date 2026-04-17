@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
+    <!-- Preconnect para recursos externos (melhora performance) -->
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
+    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin />
+    <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin />
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+    <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
+    
     <!-- SEO básico -->
     <title>Litrômetro - Preços de Combustíveis em Alagoas</title>
     <meta name="description" content="Compare preços de combustíveis em todos os 102 municípios de Alagoas. Gasolina, etanol, diesel e GNV com dados da SEFAZ/AL atualizados diariamente." />
@@ -14,11 +21,16 @@
     
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="apple-touch-icon" href="/og-image.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
     
     <!-- Theme color -->
-    <meta name="theme-color" content="#2563eb" />
-    <meta name="msapplication-TileColor" content="#2563eb" />
+    <meta name="theme-color" content="#1A4D2E" />
+    <meta name="msapplication-TileColor" content="#1A4D2E" />
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
@@ -38,6 +50,83 @@
     <meta name="twitter:description" content="Compare preços de combustíveis em todos os 102 municípios de Alagoas. Dados atualizados da SEFAZ/AL." />
     <meta name="twitter:image" content="https://litrometro.app/og-image.png" />
     
+    <!-- Dados Estruturados JSON-LD (Schema.org) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebApplication",
+          "@id": "https://litrometro.app/#webapp",
+          "name": "Litrômetro",
+          "description": "Compare preços de combustíveis em todos os 102 municípios de Alagoas. Gasolina, etanol, diesel e GNV com dados da SEFAZ/AL atualizados diariamente.",
+          "url": "https://litrometro.app/",
+          "applicationCategory": "UtilitiesApplication",
+          "operatingSystem": "Web",
+          "browserRequirements": "Requires JavaScript",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "BRL"
+          },
+          "author": {
+            "@id": "https://litrometro.app/#organization"
+          },
+          "inLanguage": "pt-BR",
+          "isAccessibleForFree": true,
+          "featureList": [
+            "Comparação de preços de combustíveis",
+            "Mapa interativo de postos",
+            "Filtro por município",
+            "Filtro por tipo de combustível",
+            "Dados atualizados da SEFAZ/AL"
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://litrometro.app/#organization",
+          "name": "Litrômetro",
+          "url": "https://litrometro.app/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://litrometro.app/og-image.png",
+            "width": 1200,
+            "height": 630
+          },
+          "sameAs": [],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "url": "https://litrometro.app/contato"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://litrometro.app/#website",
+          "url": "https://litrometro.app/",
+          "name": "Litrômetro",
+          "description": "Preços de Combustíveis em Alagoas",
+          "publisher": {
+            "@id": "https://litrometro.app/#organization"
+          },
+          "inLanguage": "pt-BR"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://litrometro.app/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Início",
+              "item": "https://litrometro.app/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+    
     <!-- Google Analytics - Adicione seu ID -->
     <!-- O tracking é ativado apenas após consentimento do usuário (ver CookieBanner) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-W50QD7RD94"></script>
@@ -51,6 +140,14 @@
         'ad_storage': 'denied'
       });
       gtag('config', 'G-W50QD7RD94');
+    </script>
+    
+    <!-- Google AdSense -->
+    <!-- IMPORTANTE: Substitua ca-pub-XXXXXXXXXXXXXXXX pelo seu ID do AdSense -->
+    <!-- O script só carrega após consentimento do usuário (ver CookieBanner) -->
+    <script id="adsense-script" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX">
+      // AdSense será carregado dinamicamente após consentimento
+      // Ver: src/components/AdBanner.tsx e src/components/CookieBanner.tsx
     </script>
     
     <!-- Tema escuro - aplicar antes de renderizar para evitar flash -->

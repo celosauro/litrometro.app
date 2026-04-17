@@ -1,0 +1,70 @@
+{
+  "name": "Litrômetro - Preços de Combustíveis em Alagoas",
+  "short_name": "Litrômetro",
+  "description": "Compare preços de combustíveis em todos os 102 municípios de Alagoas. Gasolina, etanol, diesel e GNV com dados da SEFAZ/AL.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1A4D2E",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "pt-BR",
+  "categories": ["utilities", "finance"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/og-image.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Tela inicial do Litrômetro"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Ver preços de Gasolina",
+      "short_name": "Gasolina",
+      "url": "/?combustivel=gasolina",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Ver preços de Etanol",
+      "short_name": "Etanol",
+      "url": "/?combustivel=etanol",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}

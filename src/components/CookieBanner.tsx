@@ -2,9 +2,15 @@ import { useState, useEffect } from 'react';
 import { X } from '@phosphor-icons/react';
 import { trackCookieConsent } from '../utils/analytics';
 
-const COOKIE_CONSENT_KEY = 'litrometro_cookie_consent';
+export const COOKIE_CONSENT_KEY = 'litrometro_cookie_consent';
+
+// ID do Google AdSense - SUBSTITUA pelo seu ID real
+const ADSENSE_CLIENT_ID = 'ca-pub-3884485145925759';
 
 type ConsentStatus = 'accepted' | 'rejected' | null;
+
+// Evento customizado para notificar mudanças no consentimento
+export const CONSENT_CHANGED_EVENT = 'litrometro:consent-changed';
 
 export function CookieBanner() {
   const [consentStatus, setConsentStatus] = useState<ConsentStatus>(null);
@@ -15,7 +21,7 @@ export function CookieBanner() {
     if (savedConsent) {
       setConsentStatus(savedConsent);
       if (savedConsent === 'accepted') {
-        enableAnalytics();
+        enableTrackingAndAds();
       }
     } else {
       // Mostrar banner após um pequeno delay para não atrapalhar o carregamento inicial
@@ -24,21 +30,50 @@ export function CookieBanner() {
     }
   }, []);
 
-  const enableAnalytics = () => {
-    // Ativar Google Analytics apenas após consentimento
-    if (typeof window !== 'undefined' && (window as any).gtag) {
+  /**
+   * Ativa Google Analytics e carrega AdSense após consentimento
+   */
+  const enableTrackingAndAds = () => {
+    if (typeof window === 'undefined') return;
+
+    // 1. Atualizar consentimento do Google Analytics
+    if ((window as any).gtag) {
       (window as any).gtag('consent', 'update', {
         analytics_storage: 'granted',
         ad_storage: 'granted',
       });
     }
+
+    // 2. Carregar script do Google AdSense (apenas em produção)
+    if (window.location.hostname === 'litrometro.app') {
+      loadAdSenseScript();
+    }
+
+    // 3. Disparar evento customizado para outros componentes
+    window.dispatchEvent(new CustomEvent(CONSENT_CHANGED_EVENT, { 
+      detail: { consent: 'accepted' } 
+    }));
+  };
+
+  /**
+   * Carrega o script do Google AdSense dinamicamente
+   */
+  const loadAdSenseScript = () => {
+    // Evitar carregar múltiplas vezes
+    if (document.querySelector('script[src*="adsbygoogle.js"]')) return;
+
+    const script = document.createElement('script');
+    script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT_ID}`;
+    script.async = true;
+    script.crossOrigin = 'anonymous';
+    document.head.appendChild(script);
   };
 
   const handleAccept = () => {
     localStorage.setItem(COOKIE_CONSENT_KEY, 'accepted');
     setConsentStatus('accepted');
     setIsVisible(false);
-    enableAnalytics();
+    enableTrackingAndAds();
     trackCookieConsent(true);
   };
 
@@ -46,6 +81,10 @@ export function CookieBanner() {
     localStorage.setItem(COOKIE_CONSENT_KEY, 'rejected');
     setConsentStatus('rejected');
     setIsVisible(false);
+    // Disparar evento de rejeição
+    window.dispatchEvent(new CustomEvent(CONSENT_CHANGED_EVENT, { 
+      detail: { consent: 'rejected' } 
+    }));
     trackCookieConsent(false);
   };
 

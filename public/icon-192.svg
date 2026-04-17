@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" fill="none">
+  <!-- Fundo com cantos arredondados -->
+  <rect width="192" height="192" rx="40" fill="#1A4D2E"/>
+  
+  <!-- Pin de localização (outline) -->
+  <path d="M96 24 C66 24 42 48 42 78 C42 114 96 168 96 168 C96 168 150 114 150 78 C150 48 126 24 96 24Z" 
+        fill="none" stroke="#4ade80" stroke-width="6" stroke-linejoin="round"/>
+  
+  <!-- Círculo interno -->
+  <circle cx="96" cy="72" r="36" fill="none" stroke="#4ade80" stroke-width="6"/>
+  
+  <!-- Bomba de combustível (outline style) -->
+  <g stroke="#4ade80" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Corpo da bomba -->
+    <rect x="76" y="52" width="28" height="40" rx="3"/>
+    
+    <!-- Visor linha 1 -->
+    <line x1="82" y1="62" x2="98" y2="62"/>
+    
+    <!-- Visor linha 2 -->
+    <line x1="82" y1="72" x2="98" y2="72"/>
+    
+    <!-- Mangueira -->
+    <path d="M104 58 L112 58 Q120 58 120 66 L120 86"/>
+  </g>
+</svg>

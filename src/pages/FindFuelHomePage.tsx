@@ -6,6 +6,7 @@ import { MapaEstabelecimentos } from '../components/MapaEstabelecimentos'
 import { StationCard } from '../components/StationCard'
 import { SkeletonCard } from '../components/SkeletonCard'
 import { EmptyState, EmptyStateAction } from '../components/EmptyState'
+import { AdBanner } from '../components/AdBanner'
 import { calcularDistanciaKm } from '../utils/distancia'
 import { trackFuelTypeSelect, trackMunicipalitySelect, trackSearch } from '../utils/analytics'
 import type { TipoCombustivel, PrecoCombustivelResumo } from '../types'
@@ -333,6 +334,11 @@ export default function FindFuelHomePage() {
       {/* Lista de Postos */}
       <section ref={listRef} className="flex-1 overflow-y-auto bg-gray-100 dark:bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 py-5 sm:px-6 sm:py-6">
+          {/* Banner de Anúncio - Dentro da área scrollável */}
+          <div className="mb-4">
+            <AdBanner slot="horizontal" adSlotId="9777713471" showPlaceholder={true} />
+          </div>
+
           {/* Header da lista */}
           <div className="flex items-center justify-between mb-4">
             <div>

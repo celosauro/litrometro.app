@@ -1,47 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
-  <defs>
-    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  
   <!-- Background -->
-  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  <rect width="1200" height="630" fill="#1A4D2E"/>
   
   <!-- Decorative circles -->
-  <circle cx="100" cy="100" r="200" fill="rgba(255,255,255,0.05)"/>
-  <circle cx="1100" cy="530" r="250" fill="rgba(255,255,255,0.05)"/>
+  <circle cx="100" cy="100" r="200" fill="rgba(74,222,128,0.05)"/>
+  <circle cx="1100" cy="530" r="250" fill="rgba(74,222,128,0.05)"/>
   
-  <!-- Gas Pump Icon (simplified) -->
-  <g transform="translate(480, 160)">
-    <!-- Pump body -->
-    <rect x="40" y="60" width="160" height="200" rx="10" fill="white"/>
-    <!-- Pump display -->
-    <rect x="60" y="80" width="120" height="60" rx="5" fill="#1e40af"/>
-    <!-- Nozzle holder -->
-    <rect x="200" y="100" width="30" height="80" rx="5" fill="white"/>
-    <!-- Nozzle -->
-    <path d="M230 140 L280 140 L280 160 L260 180 L230 180 Z" fill="white"/>
-    <!-- Hose -->
-    <path d="M260 160 Q300 180 280 220 Q260 260 200 260" stroke="white" stroke-width="12" fill="none" stroke-linecap="round"/>
-    <!-- Base -->
-    <rect x="20" y="260" width="200" height="20" rx="5" fill="white"/>
+  <!-- Pin de localização com bomba (estilo lineal/outline) -->
+  <g transform="translate(450, 60)">
+    <!-- Pin de localização (outline) -->
+    <path d="M150 0 C80 0 20 60 20 130 C20 210 150 320 150 320 C150 320 280 210 280 130 C280 60 220 0 150 0Z" 
+          fill="none" stroke="#4ade80" stroke-width="10" stroke-linejoin="round"/>
+    
+    <!-- Círculo interno -->
+    <circle cx="150" cy="115" r="75" fill="none" stroke="#4ade80" stroke-width="10"/>
+    
+    <!-- Bomba de combustível (outline style) -->
+    <g stroke="#4ade80" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Corpo da bomba -->
+      <rect x="110" y="65" width="55" height="100" rx="6"/>
+      
+      <!-- Visor linha 1 -->
+      <line x1="122" y1="90" x2="153" y2="90"/>
+      
+      <!-- Visor linha 2 -->
+      <line x1="122" y1="115" x2="153" y2="115"/>
+      
+      <!-- Mangueira -->
+      <path d="M165 80 L185 80 Q205 80 205 100 L205 150"/>
+    </g>
   </g>
   
   <!-- Title: Litrômetro -->
-  <text x="600" y="440" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="bold" fill="white">
+  <text x="600" y="460" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="80" font-weight="bold" fill="#4ade80">
     Litrômetro
   </text>
   
   <!-- Subtitle -->
-  <text x="600" y="500" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="rgba(255,255,255,0.9)">
+  <text x="600" y="520" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="rgba(74,222,128,0.85)">
     Preços de Combustíveis em Alagoas
-  </text>
-  
-  <!-- Badge: SEFAZ/AL -->
-  <rect x="480" y="540" width="240" height="40" rx="20" fill="rgba(255,255,255,0.2)"/>
-  <text x="600" y="567" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="white">
-    Dados oficiais da SEFAZ/AL
   </text>
 </svg>
