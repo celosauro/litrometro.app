@@ -10,8 +10,8 @@ fi
 
 echo "🔄 Fazendo pull de $BRANCH antes do push..."
 
-if ! git pull --rebase origin "$BRANCH" 2>/dev/null; then
-  echo "❌ Falha no pull --rebase. Resolva conflitos antes de fazer push."
+if ! git pull origin "$BRANCH" 2>/dev/null; then
+  echo "❌ Falha no pull. Resolva conflitos antes de fazer push."
   exit 1
 fi
 
