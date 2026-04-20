@@ -17,7 +17,7 @@ concurrency:
 jobs:
   coletar-sequencial:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 300
     outputs:
       failed_count: ${{ steps.coleta.outputs.failed_count }}
       failed_list: ${{ steps.coleta.outputs.failed_list }}
@@ -54,18 +54,32 @@ jobs:
           success_count=0
           failed_count=0
           failed_list=''
+          total=${#municipios[@]}
+          current=0
 
           for municipio in "${municipios[@]}"; do
-            echo "::group::Coleta ${municipio}"
-            npx tsx scripts/coletar-precos-supabase.ts "$municipio"
-            status=$?
+            current=$((current + 1))
+            echo "::group::[$current/$total] Coleta ${municipio}"
+            
+            # Retry com backoff exponencial (3 tentativas)
+            for attempt in 1 2 3; do
+              npx tsx scripts/coletar-precos-supabase.ts "$municipio"
+              status=$?
+              if [[ $status -eq 0 ]]; then
+                break
+              fi
+              if [[ $attempt -lt 3 ]]; then
+                echo "Tentativa $attempt falhou, aguardando $((attempt * 5))s..."
+                sleep $((attempt * 5))
+              fi
+            done
 
             if [[ $status -eq 0 ]]; then
               success_count=$((success_count + 1))
               echo "✓ ${municipio}"
             else
               failed_count=$((failed_count + 1))
-              echo "✗ ${municipio}"
+              echo "✗ ${municipio} (após 3 tentativas)"
               if [[ -z "$failed_list" ]]; then
                 failed_list="$municipio"
               else
@@ -74,6 +88,9 @@ jobs:
             fi
 
             echo "::endgroup::"
+            
+            # Pequeno delay entre municípios para evitar rate limiting
+            sleep 2
           done
 
           echo "success_count=$success_count" >> "$GITHUB_OUTPUT"
