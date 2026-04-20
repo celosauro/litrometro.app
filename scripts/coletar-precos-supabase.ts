@@ -203,6 +203,10 @@ const MUNICIPIOS_AL: Record<string, string> = {
 
 const TIPOS_COMBUSTIVEL: TipoCombustivel[] = [1, 2, 3, 4, 5, 6];
 
+const BATCH_SIZE_ESTABELECIMENTOS = 1000;
+const BATCH_SIZE_PRECOS = 2000;
+const BATCH_SIZE_HISTORICO = 2000;
+
 const NOMES_COMBUSTIVEL: Record<TipoCombustivel, string> = {
   1: 'Gasolina Comum',
   2: 'Gasolina Aditivada',
@@ -558,40 +562,44 @@ async function salvarNoSupabase(
     // 1. Upsert estabelecimentos
     if (estabelecimentos.length > 0) {
       const estabelecimentosMesclados = await mesclarCoordenadasValidadas(estabelecimentos);
-      const { error: errEstab } = await client
-        .from('estabelecimentos')
-        .upsert(estabelecimentosMesclados, {
-          onConflict: 'cnpj',
-          ignoreDuplicates: false,
-        });
-      
-      if (errEstab) {
-        console.error('Erro ao inserir estabelecimentos:', errEstab);
-        return { sucesso: false, erro: errEstab.message };
+      for (let i = 0; i < estabelecimentosMesclados.length; i += BATCH_SIZE_ESTABELECIMENTOS) {
+        const batch = estabelecimentosMesclados.slice(i, i + BATCH_SIZE_ESTABELECIMENTOS);
+        const { error: errEstab } = await client
+          .from('estabelecimentos')
+          .upsert(batch, {
+            onConflict: 'cnpj',
+            ignoreDuplicates: false,
+          });
+
+        if (errEstab) {
+          console.error('Erro ao inserir estabelecimentos (batch):', errEstab);
+          return { sucesso: false, erro: errEstab.message };
+        }
       }
     }
 
     // 2. Upsert preços atuais
     if (precos.length > 0) {
-      const { error: errPrecos } = await client
-        .from('precos_atuais')
-        .upsert(precos, {
-          onConflict: 'cnpj,tipo_combustivel',
-          ignoreDuplicates: false,
-        });
-      
-      if (errPrecos) {
-        console.error('Erro ao inserir preços:', errPrecos);
-        return { sucesso: false, erro: errPrecos.message };
+      for (let i = 0; i < precos.length; i += BATCH_SIZE_PRECOS) {
+        const batch = precos.slice(i, i + BATCH_SIZE_PRECOS);
+        const { error: errPrecos } = await client
+          .from('precos_atuais')
+          .upsert(batch, {
+            onConflict: 'cnpj,tipo_combustivel',
+            ignoreDuplicates: false,
+          });
+
+        if (errPrecos) {
+          console.error('Erro ao inserir preços (batch):', errPrecos);
+          return { sucesso: false, erro: errPrecos.message };
+        }
       }
     }
 
     // 3. Insert histórico (ignora duplicatas via constraint)
     if (historico.length > 0) {
-      // Batch em grupos de 1000 para evitar timeout
-      const batchSize = 1000;
-      for (let i = 0; i < historico.length; i += batchSize) {
-        const batch = historico.slice(i, i + batchSize);
+      for (let i = 0; i < historico.length; i += BATCH_SIZE_HISTORICO) {
+        const batch = historico.slice(i, i + BATCH_SIZE_HISTORICO);
         const { error: errHist } = await client
           .from('vendas_historico')
           .upsert(batch, {
@@ -761,13 +769,18 @@ async function main(): Promise<void> {
   const municipiosComDados = new Set<string>();
   let erros = 0;
 
+  // Fase 1: coleta completa em memória
+  const estabelecimentosColetados: EstabelecimentoInsert[] = [];
+  const precosColetados: PrecoAtualInsert[] = [];
+  const historicoColetado: VendaHistoricoInsert[] = [];
+
   // Processa cada município
   for (const [codigoIBGE, nomeMunicipio] of Object.entries(municipiosParaProcessar)) {
     console.log(`\n📍 ${nomeMunicipio} (${codigoIBGE})...`);
     
-    const todosEstabelecimentos: EstabelecimentoInsert[] = [];
-    const todosPrecos: PrecoAtualInsert[] = [];
-    const todoHistorico: VendaHistoricoInsert[] = [];
+    const estabelecimentosMunicipio: EstabelecimentoInsert[] = [];
+    const precosMunicipio: PrecoAtualInsert[] = [];
+    const historicoMunicipio: VendaHistoricoInsert[] = [];
 
     // Processa cada tipo de combustível
     for (const tipoCombustivel of TIPOS_COMBUSTIVEL) {
@@ -776,9 +789,9 @@ async function main(): Promise<void> {
       if (vendas.length > 0) {
         const { estabelecimentos, precos, historico } = processarVendas(vendas, tipoCombustivel);
         
-        todosEstabelecimentos.push(...estabelecimentos);
-        todosPrecos.push(...precos);
-        todoHistorico.push(...historico);
+        estabelecimentosMunicipio.push(...estabelecimentos);
+        precosMunicipio.push(...precos);
+        historicoMunicipio.push(...historico);
         
         console.log(`  ⛽ ${NOMES_COMBUSTIVEL[tipoCombustivel]}: ${vendas.length} vendas, ${precos.length} postos`);
       }
@@ -787,32 +800,50 @@ async function main(): Promise<void> {
       await new Promise((resolve) => setTimeout(resolve, 1000));
     }
 
-    // Salva no Supabase
-    if (todosPrecos.length > 0) {
-      // Deduplica estabelecimentos por CNPJ
-      const estabelecimentosUnicos = Array.from(
-        new Map(todosEstabelecimentos.map(e => [e.cnpj, e])).values()
-      );
+    if (precosMunicipio.length > 0) {
+      estabelecimentosColetados.push(...estabelecimentosMunicipio);
+      precosColetados.push(...precosMunicipio);
+      historicoColetado.push(...historicoMunicipio);
+      municipiosComDados.add(codigoIBGE);
 
-      const resultado = await salvarNoSupabase(
-        estabelecimentosUnicos,
-        todosPrecos,
-        todoHistorico
-      );
-
-      if (resultado.sucesso) {
-        totalVendas += todoHistorico.length;
-        totalEstabelecimentos += estabelecimentosUnicos.length;
-        municipiosComDados.add(codigoIBGE);
-        console.log(`  ✓ Salvo: ${estabelecimentosUnicos.length} estabelecimentos, ${todoHistorico.length} vendas`);
-      } else {
-        erros++;
-        console.log(`  ❌ Erro: ${resultado.erro}`);
-      }
+      console.log(`  ✓ Coletado: ${precosMunicipio.length} preços, ${historicoMunicipio.length} vendas`);
+    } else {
+      console.log('  • Sem dados no período para este município');
     }
 
     // Delay entre municípios para não sobrecarregar a API
     await new Promise((resolve) => setTimeout(resolve, 2000));
+  }
+
+  // Fase 2: persistência em lote no Supabase
+  if (precosColetados.length > 0) {
+    const estabelecimentosUnicos = Array.from(
+      new Map(estabelecimentosColetados.map((estabelecimento) => [estabelecimento.cnpj, estabelecimento])).values()
+    );
+
+    const precosUnicos = Array.from(
+      new Map(precosColetados.map((preco) => [`${preco.cnpj}-${preco.tipo_combustivel}`, preco])).values()
+    );
+
+    console.log('\n💾 Persistindo dados em lote no Supabase...');
+    console.log(`  - Estabelecimentos únicos: ${estabelecimentosUnicos.length}`);
+    console.log(`  - Preços únicos: ${precosUnicos.length}`);
+    console.log(`  - Histórico bruto: ${historicoColetado.length}`);
+
+    const resultado = await salvarNoSupabase(
+      estabelecimentosUnicos,
+      precosUnicos,
+      historicoColetado
+    );
+
+    if (resultado.sucesso) {
+      totalVendas = historicoColetado.length;
+      totalEstabelecimentos = estabelecimentosUnicos.length;
+      console.log('  ✓ Persistência em lote concluída');
+    } else {
+      erros++;
+      console.log(`  ❌ Erro na persistência em lote: ${resultado.erro}`);
+    }
   }
 
   // Atualiza log de coleta

@@ -5,7 +5,7 @@ Este documento define o padrao de execucao para alteracoes no projeto.
 ## 1) Validacao obrigatoria apos alteracoes
 
 - Sempre executar `npm run build` apos qualquer alteracao em codigo TypeScript/JavaScript, scripts ou workflows.
-- So commitar e enviar alteracoes quando o build concluir sem erros.
+- Não efetuar commits
 
 ## 2) Politica de Git
 
