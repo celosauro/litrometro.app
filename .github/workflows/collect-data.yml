@@ -105,69 +105,8 @@ jobs:
             echo "- Falhas: $failed_list" >> "$GITHUB_STEP_SUMMARY"
           fi
 
-  exportar-e-commit:
-    needs: coletar-sequencial
-    runs-on: ubuntu-latest
-    if: always()
-    permissions:
-      contents: write
-
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-          cache: 'npm'
-
-      - run: npm ci
-
-      - name: Reaplicar geocache no Supabase
-        env:
-          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
-          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
-        run: npm run sync:geocache
-
-      - name: Exportar JSON minificado
-        env:
-          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
-          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
-        run: npm run export:json
-
-      - name: Verificar mudanças
-        id: changes
-        run: |
-          if [[ -n $(git status --porcelain public/dados/) ]]; then
-            echo "changed=true" >> $GITHUB_OUTPUT
-          else
-            echo "changed=false" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Commit e Push dos dados
-        if: steps.changes.outputs.changed == 'true'
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add public/dados/
-          git commit -m "chore: atualiza dados de preços [$(date -u +'%Y-%m-%d %H:%M UTC')]" || exit 0
-          git push
-
-      - name: Resumo da exportação
-        run: |
-          echo "" >> "$GITHUB_STEP_SUMMARY"
-          echo "## Exportação" >> "$GITHUB_STEP_SUMMARY"
-          echo "" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Mudanças no JSON: ${{ steps.changes.outputs.changed }}" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Sucessos na coleta: ${{ needs.coletar-sequencial.outputs.success_count }}" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Falhas na coleta: ${{ needs.coletar-sequencial.outputs.failed_count }}" >> "$GITHUB_STEP_SUMMARY"
-          if [[ -n "${{ needs.coletar-sequencial.outputs.failed_list }}" ]]; then
-            echo "- Municípios com falha: ${{ needs.coletar-sequencial.outputs.failed_list }}" >> "$GITHUB_STEP_SUMMARY"
-          fi
-
   validar-falhas:
-    needs: [coletar-sequencial, exportar-e-commit]
+    needs: [coletar-sequencial]
     runs-on: ubuntu-latest
     if: always()
 
