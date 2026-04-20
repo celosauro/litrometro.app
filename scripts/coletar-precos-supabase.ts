@@ -338,6 +338,51 @@ function obterMunicipiosFiltrados(): Record<string, string> {
 }
 
 /**
+ * Helper: fetch com timeout e retry
+ */
+async function fetchComRetry(
+  url: string,
+  options: RequestInit,
+  maxRetries: number = 3,
+  timeoutMs: number = 30000
+): Promise<Response> {
+  let lastError: Error | null = null;
+  
+  for (let tentativa = 1; tentativa <= maxRetries; tentativa++) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), timeoutMs);
+    
+    try {
+      const response = await fetch(url, {
+        ...options,
+        signal: controller.signal,
+      });
+      clearTimeout(timeout);
+      return response;
+    } catch (error) {
+      clearTimeout(timeout);
+      lastError = error as Error;
+      
+      const isTimeout = (error as Error).name === 'AbortError' || 
+                        (error as Error).message?.includes('timeout') ||
+                        (error as Error).message?.includes('TIMEOUT') ||
+                        String(error).includes('ConnectTimeoutError');
+      
+      console.warn(`  ⚠️  Tentativa ${tentativa}/${maxRetries} falhou${isTimeout ? ' (timeout)' : ''}`);
+      
+      if (tentativa < maxRetries) {
+        // Espera exponencial: 2s, 4s, 8s...
+        const delay = Math.min(2000 * Math.pow(2, tentativa - 1), 10000);
+        console.log(`     Aguardando ${delay/1000}s antes de retry...`);
+        await new Promise(resolve => setTimeout(resolve, delay));
+      }
+    }
+  }
+  
+  throw lastError || new Error('Fetch failed after retries');
+}
+
+/**
  * Consulta a API SEFAZ
  */
 async function consultarPrecosCombustivel(
@@ -356,14 +401,19 @@ async function consultarPrecosCombustivel(
   };
 
   try {
-    const response = await fetch(SEFAZ_API_URL, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'AppToken': SEFAZ_APP_TOKEN,
+    const response = await fetchComRetry(
+      SEFAZ_API_URL,
+      {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'AppToken': SEFAZ_APP_TOKEN,
+        },
+        body: JSON.stringify(body),
       },
-      body: JSON.stringify(body),
-    });
+      3,  // maxRetries
+      30000  // timeoutMs (30s)
+    );
 
     if (!response.ok) {
       console.error(`Erro API SEFAZ (${codigoIBGE}, tipo ${tipoCombustivel}): ${response.status}`);
@@ -372,7 +422,7 @@ async function consultarPrecosCombustivel(
 
     return await response.json();
   } catch (error) {
-    console.error(`Erro ao consultar API SEFAZ:`, error);
+    console.error(`Erro ao consultar API SEFAZ (${codigoIBGE}, tipo ${tipoCombustivel}):`, (error as Error).message);
     return null;
   }
 }
@@ -398,7 +448,8 @@ async function buscarTodasPaginas(
     todosResultados.push(...resposta.conteudo);
     temMais = !resposta.ultimaPagina;
     pagina++;
-    await new Promise((resolve) => setTimeout(resolve, 100));
+    // Delay entre páginas para não sobrecarregar a API
+    await new Promise((resolve) => setTimeout(resolve, 500));
   }
 
   return todosResultados;
@@ -653,7 +704,8 @@ async function main(): Promise<void> {
         console.log(`  ⛽ ${NOMES_COMBUSTIVEL[tipoCombustivel]}: ${vendas.length} vendas, ${precos.length} postos`);
       }
 
-      await new Promise((resolve) => setTimeout(resolve, 200));
+      // Delay entre tipos de combustível para não sobrecarregar a API
+      await new Promise((resolve) => setTimeout(resolve, 1000));
     }
 
     // Salva no Supabase
@@ -680,7 +732,8 @@ async function main(): Promise<void> {
       }
     }
 
-    await new Promise((resolve) => setTimeout(resolve, 300));
+    // Delay entre municípios para não sobrecarregar a API
+    await new Promise((resolve) => setTimeout(resolve, 2000));
   }
 
   // Atualiza log de coleta
