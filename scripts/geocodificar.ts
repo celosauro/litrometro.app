@@ -18,6 +18,11 @@ import { createClient, SupabaseClient } from '@supabase/supabase-js';
 const DADOS_DIR = path.join(process.cwd(), 'public', 'dados');
 const GEOCACHE_PATH = path.join(DADOS_DIR, 'geocache.json');
 const ATUAL_PATH = path.join(DADOS_DIR, 'atual.json');
+const MUNICIPIOS_CENTRO_PATH = path.join(DADOS_DIR, 'municipios-centro.json');
+
+// Distância máxima aceitável do centro do município (em km)
+// Municípios de Alagoas são pequenos, 50km é razoável
+const DISTANCIA_MAXIMA_KM = 50;
 
 // Supabase
 const SUPABASE_URL = process.env.VITE_SUPABASE_URL || '';
@@ -99,9 +104,91 @@ interface ResumoMunicipio {
   estabelecimentos: PrecoCombustivelResumo[];
 }
 
+interface CentroMunicipio {
+  codigo_ibge: string;
+  municipio: string;
+  latitude: number;
+  longitude: number;
+}
+
 // Cache de geocodificação em memória
 let geoCache: GeoCache = {};
 let falhaCache: FalhaCache = {};
+let centrosMunicipios: Map<string, CentroMunicipio> = new Map();
+
+/**
+ * Calcula distância entre dois pontos usando fórmula de Haversine (em km)
+ */
+function calcularDistanciaKm(
+  lat1: number,
+  lon1: number,
+  lat2: number,
+  lon2: number
+): number {
+  const R = 6371; // Raio da Terra em km
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLon = (lon2 - lon1) * Math.PI / 180;
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+    Math.sin(dLon / 2) * Math.sin(dLon / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  return R * c;
+}
+
+/**
+ * Carrega os centros dos municípios
+ */
+function carregarCentrosMunicipios(): void {
+  if (fs.existsSync(MUNICIPIOS_CENTRO_PATH)) {
+    try {
+      const conteudo: CentroMunicipio[] = JSON.parse(
+        fs.readFileSync(MUNICIPIOS_CENTRO_PATH, 'utf-8')
+      );
+      for (const centro of conteudo) {
+        centrosMunicipios.set(centro.codigo_ibge, centro);
+      }
+      console.log(`✓ Centros de municípios carregados (${centrosMunicipios.size})`);
+    } catch (error) {
+      console.warn('⚠ Erro ao carregar centros de municípios');
+    }
+  }
+}
+
+/**
+ * Valida se as coordenadas estão dentro de uma distância razoável do município
+ * Retorna true se válido, false se muito longe
+ */
+function validarCoordenadas(
+  latitude: number,
+  longitude: number,
+  codigoIBGE: string,
+  nomeMunicipio: string
+): { valido: boolean; distancia: number; motivo?: string } {
+  const centro = centrosMunicipios.get(codigoIBGE);
+  
+  if (!centro) {
+    // Se não temos o centro, aceita mas avisa
+    return { valido: true, distancia: -1, motivo: 'centro não encontrado' };
+  }
+  
+  const distancia = calcularDistanciaKm(
+    latitude,
+    longitude,
+    centro.latitude,
+    centro.longitude
+  );
+  
+  if (distancia > DISTANCIA_MAXIMA_KM) {
+    return {
+      valido: false,
+      distancia,
+      motivo: `${distancia.toFixed(1)}km do centro de ${nomeMunicipio} (máx: ${DISTANCIA_MAXIMA_KM}km)`
+    };
+  }
+  
+  return { valido: true, distancia };
+}
 
 /**
  * Carrega o cache de falhas
@@ -340,26 +427,11 @@ async function geocodificarLocationIQ(
 }
 
 /**
- * Geocodifica um endereço usando múltiplos provedores em cascata
+ * Tenta geocodificar com uma query específica usando todos os provedores
  */
-async function geocodificarEndereco(
-  logradouro: string,
-  numero: string,
-  bairro: string,
-  municipio: string
-): Promise<GeoResult | null> {
-  // Monta query de busca
-  const partes = [
-    logradouro,
-    numero,
-    bairro,
-    municipio,
-    'AL',
-    'Brasil'
-  ].filter(p => p && p.trim());
-  
-  const query = partes.join(', ');
-  
+async function tentarGeocodificar(
+  query: string
+): Promise<{ latitude: number; longitude: number; fonte: 'nominatim' | 'opencage' | 'locationiq' } | null> {
   // Tenta Nominatim primeiro (gratuito, sem API key)
   let coords = await geocodificarNominatim(query);
   if (coords) {
@@ -368,7 +440,7 @@ async function geocodificarEndereco(
   
   // Fallback: OpenCage (se configurado)
   if (OPENCAGE_API_KEY) {
-    await new Promise(resolve => setTimeout(resolve, 200)); // Rate limit
+    await new Promise(resolve => setTimeout(resolve, 200));
     coords = await geocodificarOpenCage(query);
     if (coords) {
       return { ...coords, fonte: 'opencage' };
@@ -377,10 +449,88 @@ async function geocodificarEndereco(
   
   // Fallback: LocationIQ (se configurado)
   if (LOCATIONIQ_API_KEY) {
-    await new Promise(resolve => setTimeout(resolve, 200)); // Rate limit
+    await new Promise(resolve => setTimeout(resolve, 200));
     coords = await geocodificarLocationIQ(query);
     if (coords) {
       return { ...coords, fonte: 'locationiq' };
+    }
+  }
+
+  return null;
+}
+
+/**
+ * Geocodifica um endereço usando múltiplos provedores em cascata
+ * Valida se as coordenadas estão próximas do município esperado
+ */
+async function geocodificarEndereco(
+  logradouro: string,
+  numero: string,
+  bairro: string,
+  municipio: string,
+  codigoIBGE: string
+): Promise<GeoResult | null> {
+  // Estratégias de busca, da mais específica para a mais genérica
+  const estrategias: string[] = [];
+  
+  // 1. Endereço completo
+  const partesCompletas = [logradouro, numero, bairro, municipio, 'AL', 'Brasil']
+    .filter(p => p && p.trim() && p !== 'S/N' && p !== 'SN');
+  if (partesCompletas.length >= 3) {
+    estrategias.push(partesCompletas.join(', '));
+  }
+  
+  // 2. Sem número
+  const semNumero = [logradouro, bairro, municipio, 'AL', 'Brasil']
+    .filter(p => p && p.trim());
+  if (semNumero.length >= 3) {
+    estrategias.push(semNumero.join(', '));
+  }
+  
+  // 3. Só logradouro + município
+  if (logradouro && municipio) {
+    estrategias.push(`${logradouro}, ${municipio}, AL, Brasil`);
+  }
+  
+  // 4. Só bairro + município
+  if (bairro && municipio && bairro.toUpperCase() !== 'ZONA RURAL') {
+    estrategias.push(`${bairro}, ${municipio}, AL, Brasil`);
+  }
+  
+  // 5. Só município (fallback para centro da cidade)
+  if (municipio) {
+    estrategias.push(`${municipio}, Alagoas, Brasil`);
+  }
+  
+  // Remove duplicatas mantendo ordem
+  const estrategiasUnicas = Array.from(new Set(estrategias));
+  
+  // Tenta cada estratégia
+  for (const query of estrategiasUnicas) {
+    const coords = await tentarGeocodificar(query);
+    
+    if (coords) {
+      // Valida se está no município correto
+      const validacao = validarCoordenadas(
+        coords.latitude,
+        coords.longitude,
+        codigoIBGE,
+        municipio
+      );
+      
+      if (validacao.valido) {
+        if (validacao.distancia >= 0) {
+          console.log(`     → Query: "${query.substring(0, 50)}..." → ${validacao.distancia.toFixed(1)}km do centro ✓`);
+        }
+        return coords;
+      } else {
+        console.log(`     → Query: "${query.substring(0, 50)}..." → REJEITADO: ${validacao.motivo}`);
+        // Continua tentando outras estratégias
+        await new Promise(resolve => setTimeout(resolve, 1100)); // Rate limit Nominatim
+      }
+    } else {
+      // Rate limit entre tentativas
+      await new Promise(resolve => setTimeout(resolve, 1100));
     }
   }
 
@@ -406,36 +556,81 @@ async function main(): Promise<void> {
   const dadosAtuais: DadosAtuais = JSON.parse(fs.readFileSync(ATUAL_PATH, 'utf-8'));
   console.log(`✓ ${dadosAtuais.totalEstabelecimentos} estabelecimentos carregados`);
 
-  // Carrega cache
+  // Carrega caches e centros de municípios
   carregarGeoCache();
   carregarFalhaCache();
+  carregarCentrosMunicipios();
 
-  // Salva coordenadas da SEFAZ no cache (se ainda não estiverem)
+  // Valida e remove coordenadas incorretas do cache
+  const estabelecimentosPorCNPJ = new Map<string, { codigo_ibge: string; municipio: string }>();
+  for (const est of dadosAtuais.estabelecimentos) {
+    if (!estabelecimentosPorCNPJ.has(est.cnpj)) {
+      estabelecimentosPorCNPJ.set(est.cnpj, { codigo_ibge: est.codigo_ibge, municipio: est.municipio });
+    }
+  }
+  
+  let coordenadasInvalidas = 0;
+  const cnpjsParaRemover: string[] = [];
+  
+  for (const [cnpj, cache] of Object.entries(geoCache)) {
+    const est = estabelecimentosPorCNPJ.get(cnpj);
+    if (!est) continue;
+    
+    const validacao = validarCoordenadas(cache.latitude, cache.longitude, est.codigo_ibge, est.municipio);
+    if (!validacao.valido) {
+      console.log(`⚠️ Coordenadas inválidas removidas: ${cnpj} (${validacao.motivo}, ${validacao.distancia?.toFixed(1)}km)`);
+      cnpjsParaRemover.push(cnpj);
+      coordenadasInvalidas++;
+    }
+  }
+  
+  for (const cnpj of cnpjsParaRemover) {
+    delete geoCache[cnpj];
+  }
+  
+  if (coordenadasInvalidas > 0) {
+    console.log(`✓ ${coordenadasInvalidas} coordenadas inválidas removidas do cache`);
+    salvarGeoCache();
+  }
+
+  // Salva coordenadas da SEFAZ no cache (se ainda não estiverem e forem válidas)
   let novosDoSefaz = 0;
+  let sefazInvalidos = 0;
   for (const est of dadosAtuais.estabelecimentos) {
     if (est.latitude !== 0 && est.longitude !== 0 && !geoCache[est.cnpj]) {
-      geoCache[est.cnpj] = {
-        latitude: est.latitude,
-        longitude: est.longitude,
-        fonte: 'sefaz',
-        atualizadoEm: new Date().toISOString(),
-      };
-      novosDoSefaz++;
+      // Valida coordenadas da SEFAZ antes de adicionar ao cache
+      const validacao = validarCoordenadas(est.latitude, est.longitude, est.codigo_ibge, est.municipio);
+      if (validacao.valido) {
+        geoCache[est.cnpj] = {
+          latitude: est.latitude,
+          longitude: est.longitude,
+          fonte: 'sefaz',
+          atualizadoEm: new Date().toISOString(),
+        };
+        novosDoSefaz++;
+      } else {
+        sefazInvalidos++;
+      }
     }
   }
   if (novosDoSefaz > 0) {
-    console.log(`✓ ${novosDoSefaz} novos endereços da SEFAZ adicionados ao cache`);
+    console.log(`✓ ${novosDoSefaz} novos endereços válidos da SEFAZ adicionados ao cache`);
+  }
+  if (sefazInvalidos > 0) {
+    console.log(`⚠️ ${sefazInvalidos} endereços da SEFAZ rejeitados (coordenadas fora do município)`);
   }
 
-  // Identifica estabelecimentos sem coordenadas que não estão no cache
-  const semCoordenadas = dadosAtuais.estabelecimentos.filter(
-    e => (e.latitude === 0 || e.longitude === 0) && !geoCache[e.cnpj]
+  // Identifica estabelecimentos que precisam de geocodificação:
+  // - Sem coordenadas (latitude=0 ou longitude=0)
+  // - Ou com coordenadas mas não no cache (coordenadas inválidas foram removidas)
+  const precisaGeocodificar = dadosAtuais.estabelecimentos.filter(
+    e => !geoCache[e.cnpj]
   );
 
   // Agrupa por CNPJ para evitar duplicatas (mesmo posto com diferentes combustíveis)
-  const cnpjsUnicos = Array.from(new Set(semCoordenadas.map(e => e.cnpj)));
+  const cnpjsUnicos = Array.from(new Set(precisaGeocodificar.map(e => e.cnpj)));
   const estabelecimentosUnicos = cnpjsUnicos.map(
-    cnpj => semCoordenadas.find(e => e.cnpj === cnpj)!
+    cnpj => precisaGeocodificar.find(e => e.cnpj === cnpj)!
   );
 
   // Filtra estabelecimentos que já falharam muitas vezes (serão retentados após 24h)
@@ -474,12 +669,15 @@ async function main(): Promise<void> {
     const est = paraGeocodificar[i];
     const progresso = `[${i + 1}/${paraGeocodificar.length}]`;
     
-    // Tenta geocodificar
+    console.log(`${progresso} 🔍 ${est.nome_fantasia || est.razao_social} - ${est.municipio}`);
+    
+    // Tenta geocodificar com validação de município
     const coords = await geocodificarEndereco(
       est.nome_logradouro,
       est.numero_imovel,
       est.bairro,
-      est.municipio
+      est.municipio,
+      est.codigo_ibge
     );
 
     if (coords) {
@@ -493,18 +691,15 @@ async function main(): Promise<void> {
       // Update Supabase too
       await atualizarSupabase(est.cnpj, coords.latitude, coords.longitude, coords.fonte);
       
-      console.log(`${progresso} ✓ ${est.nome_fantasia || est.razao_social} - ${est.municipio} [${coords.fonte}]`);
+      console.log(`${progresso} ✓ Geocodificado com sucesso [${coords.fonte}]`);
       sucesso++;
     } else {
-      console.log(`${progresso} ✗ ${est.nome_fantasia || est.razao_social} - ${est.municipio}`);
+      console.log(`${progresso} ✗ Não foi possível geocodificar (coordenadas inválidas ou não encontradas)`);
       registrarFalha(est.cnpj);
       falha++;
     }
 
-    // Respeita limite de 1 req/segundo do Nominatim
-    if (i < paraGeocodificar.length - 1) {
-      await new Promise(resolve => setTimeout(resolve, 1100));
-    }
+    // Rate limit entre estabelecimentos (já incluso nas tentativas internas)
   }
 
   // Salva caches atualizados
