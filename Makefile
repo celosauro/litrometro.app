@@ -30,6 +30,11 @@ install: ## Instala dependências do projeto
 	@echo "$(CYAN)📦 Instalando dependências...$(RESET)"
 	$(NVM_INIT) npm install
 
+setup: install ## Setup completo (dependências + git hooks)
+	@echo "$(CYAN)🔧 Configurando git hooks...$(RESET)"
+	@git config core.hooksPath .githooks
+	@echo "$(GREEN)✅ Setup concluído$(RESET)"
+
 # ─────────────────────────────────────────────────────────────
 # Desenvolvimento
 # ─────────────────────────────────────────────────────────────

@@ -1,0 +1,19 @@
+#!/bin/bash
+# Pre-push hook: faz pull antes de push para evitar conflitos
+
+BRANCH=$(git symbolic-ref --short HEAD 2>/dev/null)
+
+if [[ -z "$BRANCH" ]]; then
+  echo "⚠️  Detached HEAD, pulando pull automático"
+  exit 0
+fi
+
+echo "🔄 Fazendo pull de $BRANCH antes do push..."
+
+if ! git pull --rebase origin "$BRANCH" 2>/dev/null; then
+  echo "❌ Falha no pull --rebase. Resolva conflitos antes de fazer push."
+  exit 1
+fi
+
+echo "✅ Pull concluído, continuando push..."
+exit 0
