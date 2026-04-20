@@ -65,6 +65,13 @@ interface EstabelecimentoInsert {
   geocode_source: string;
 }
 
+interface EstabelecimentoExistente {
+  cnpj: string;
+  latitude: number | null;
+  longitude: number | null;
+  geocode_source: string | null;
+}
+
 interface PrecoAtualInsert {
   cnpj: string;
   tipo_combustivel: TipoCombustivel;
@@ -550,9 +557,10 @@ async function salvarNoSupabase(
   try {
     // 1. Upsert estabelecimentos
     if (estabelecimentos.length > 0) {
+      const estabelecimentosMesclados = await mesclarCoordenadasValidadas(estabelecimentos);
       const { error: errEstab } = await client
         .from('estabelecimentos')
-        .upsert(estabelecimentos, {
+        .upsert(estabelecimentosMesclados, {
           onConflict: 'cnpj',
           ignoreDuplicates: false,
         });
@@ -602,6 +610,77 @@ async function salvarNoSupabase(
   } catch (error) {
     return { sucesso: false, erro: String(error) };
   }
+}
+
+async function buscarEstabelecimentosExistentes(
+  cnpjs: string[]
+): Promise<Map<string, EstabelecimentoExistente>> {
+  const client = getSupabaseClient();
+  const existentes = new Map<string, EstabelecimentoExistente>();
+
+  if (!client || cnpjs.length === 0) {
+    return existentes;
+  }
+
+  const batchSize = 500;
+
+  for (let i = 0; i < cnpjs.length; i += batchSize) {
+    const batch = cnpjs.slice(i, i + batchSize);
+    const { data, error } = await client
+      .from('estabelecimentos')
+      .select('cnpj, latitude, longitude, geocode_source')
+      .in('cnpj', batch);
+
+    if (error) {
+      throw new Error(`Erro ao buscar estabelecimentos existentes: ${error.message}`);
+    }
+
+    for (const registro of (data || []) as EstabelecimentoExistente[]) {
+      existentes.set(registro.cnpj, registro);
+    }
+  }
+
+  return existentes;
+}
+
+function devePreservarCoordenadasExistentes(existente: EstabelecimentoExistente): boolean {
+  return Boolean(
+    existente.latitude !== null &&
+    existente.longitude !== null &&
+    existente.geocode_source &&
+    existente.geocode_source !== 'sefaz'
+  );
+}
+
+async function mesclarCoordenadasValidadas(
+  estabelecimentos: EstabelecimentoInsert[]
+): Promise<EstabelecimentoInsert[]> {
+  const existentes = await buscarEstabelecimentosExistentes(
+    estabelecimentos.map(estabelecimento => estabelecimento.cnpj)
+  );
+
+  let preservados = 0;
+
+  const mesclados = estabelecimentos.map(estabelecimento => {
+    const existente = existentes.get(estabelecimento.cnpj);
+    if (!existente || !devePreservarCoordenadasExistentes(existente)) {
+      return estabelecimento;
+    }
+
+    preservados++;
+    return {
+      ...estabelecimento,
+      latitude: existente.latitude,
+      longitude: existente.longitude,
+      geocode_source: existente.geocode_source || estabelecimento.geocode_source,
+    };
+  });
+
+  if (preservados > 0) {
+    console.log(`  📍 ${preservados} coordenadas validadas preservadas no Supabase`);
+  }
+
+  return mesclados;
 }
 
 /**

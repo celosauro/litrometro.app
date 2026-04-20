@@ -124,6 +124,12 @@ jobs:
 
       - run: npm ci
 
+      - name: Reaplicar geocache no Supabase
+        env:
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: npm run sync:geocache
+
       - name: Exportar JSON minificado
         env:
           VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
