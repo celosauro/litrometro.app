@@ -35,7 +35,7 @@ export function CompactListLayout() {
 
   const { dados, carregando, erro } = usePrecosCombustiveis({
     tipoCombustivel: tipoCombustivelSelecionado,
-    codigoIBGE: municipioSelecionado || undefined,
+
   })
 
   const { 

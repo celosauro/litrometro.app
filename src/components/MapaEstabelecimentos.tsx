@@ -5,8 +5,11 @@ import {
   Popup,
   NavigationControl,
   ScaleControl,
+  Source,
+  Layer,
 } from 'react-map-gl/maplibre';
-import type { MapRef } from 'react-map-gl/maplibre';
+import type { MapRef, ViewStateChangeEvent } from 'react-map-gl/maplibre';
+import type { LayerProps } from 'react-map-gl/maplibre';
 
 import PinPreco from './PinPreco';
 import { trackStationView } from '../utils/analytics';
@@ -24,6 +27,35 @@ const CENTRO_ALAGOAS = {
   zoom: 7,
 };
 
+// Layers for clustering
+const clusterLayer: LayerProps = {
+  id: 'clusters',
+  type: 'circle',
+  source: 'postos',
+  filter: ['has', 'point_count'],
+  paint: {
+    'circle-color': ['step', ['get', 'point_count'], '#22c55e', 10, '#16a34a', 30, '#15803d'],
+    'circle-radius': ['step', ['get', 'point_count'], 20, 10, 30, 30, 40],
+    'circle-stroke-width': 2,
+    'circle-stroke-color': '#fff',
+  },
+};
+
+const clusterCountLayer: LayerProps = {
+  id: 'cluster-count',
+  type: 'symbol',
+  source: 'postos',
+  filter: ['has', 'point_count'],
+  layout: {
+    'text-field': '{point_count_abbreviated}',
+    'text-font': ['Open Sans Bold'],
+    'text-size': 14,
+  },
+  paint: {
+    'text-color': '#ffffff',
+  },
+};
+
 interface DadosComDistancia extends PrecoCombustivelResumo {
   distancia?: number;
 }
@@ -37,6 +69,8 @@ interface MapaEstabelecimentosProps {
   municipioSelecionado?: string;
   cnpjMelhor?: string | null;
   className?: string;
+  // Callback quando dados visíveis mudam (filtrados por bounds)
+  onDadosVisiveis?: (dados: DadosComDistancia[]) => void;
 }
 
 // Cache dos centros dos municípios (carregado uma vez)
@@ -64,6 +98,7 @@ export function MapaEstabelecimentos({
   municipioSelecionado,
   cnpjMelhor,
   className = '',
+  onDadosVisiveis,
 }: MapaEstabelecimentosProps) {
   const mapRef = useRef<MapRef>(null);
   const [popupInfo, setPopupInfo] = useState<DadosComDistancia | null>(null);
@@ -72,11 +107,56 @@ export function MapaEstabelecimentos({
   const ultimoFlyToRef = useRef<string | null>(null);
   // Guarda o timestamp da última localização processada
   const ultimoTimestampLocRef = useRef<number | null>(null);
+  // Zoom atual para decidir entre clusters e markers individuais
+  const [zoomAtual, setZoomAtual] = useState(7);
+  // Limite de zoom para mostrar markers individuais (acima disso, sem cluster)
+  const ZOOM_PARA_MARKERS = 11;
+  // Contagem de postos visíveis no viewport atual
+  const [contadorVisiveis, setContadorVisiveis] = useState(0);
+
+  // Filtra dados por bounds do mapa e notifica parent
+  const atualizarDadosVisiveis = useCallback(() => {
+    const map = mapRef.current;
+    if (!map || !dados.length) return;
+
+    const bounds = map.getBounds();
+    if (!bounds) return;
+
+    const visiveis = dados.filter(item => {
+      if (item.latitude === 0 && item.longitude === 0) return false;
+      return (
+        item.longitude >= bounds.getWest() &&
+        item.longitude <= bounds.getEast() &&
+        item.latitude >= bounds.getSouth() &&
+        item.latitude <= bounds.getNorth()
+      );
+    });
+
+    setContadorVisiveis(visiveis.length);
+    onDadosVisiveis?.(visiveis);
+  }, [dados, onDadosVisiveis]);
 
   // Callback quando o mapa carrega
   const handleMapLoad = useCallback(() => {
     setMapCarregado(true);
   }, []);
+
+  // Handler para movimento do mapa
+  const handleMoveEnd = useCallback((evt: ViewStateChangeEvent) => {
+    setZoomAtual(evt.viewState.zoom);
+    atualizarDadosVisiveis();
+  }, [atualizarDadosVisiveis]);
+
+  // Atualiza dados visíveis quando dados mudam OU mapa carrega
+  useEffect(() => {
+    if (mapCarregado && dados.length) {
+      // Delay pequeno para garantir que o mapa renderizou
+      const timer = setTimeout(() => {
+        atualizarDadosVisiveis();
+      }, 100);
+      return () => clearTimeout(timer);
+    }
+  }, [dados, mapCarregado, atualizarDadosVisiveis]);
 
   // Voa para o estabelecimento selecionado
   // Usa cnpj como dependência para garantir detecção de mudança
@@ -124,69 +204,35 @@ export function MapaEstabelecimentos({
   // Voa para o centro do município quando o município muda
   useEffect(() => {
     if (!mapCarregado) return;
-    if (!dados.length) return;
     
-    // Identifica o município atual baseado nos dados
-    // Converte para string para comparação consistente
-    const municipioDosDados = String(dados[0]?.codigo_ibge || '');
-    const municipioAlvo = municipioSelecionado || 'todos';
+    // Se não tem município selecionado, não faz nada
+    if (!municipioSelecionado) return;
     
-    // Se os dados não correspondem ao município selecionado, aguarda
-    if (municipioSelecionado && municipioDosDados !== municipioSelecionado) {
-      return;
-    }
+    // Cria uma chave única para este município
+    const chaveAtual = `municipio_${municipioSelecionado}`;
     
-    // Cria uma chave única para este estado
-    const chaveAtual = `${municipioAlvo}_${dados.length}`;
-    
-    // Se já voamos para este estado, não voa novamente
+    // Se já voamos para este município, não voa novamente
     if (ultimoFlyToRef.current === chaveAtual) {
       return;
     }
     
-    // Função assíncrona para voar para o centro
+    // Função assíncrona para voar para o centro do município
     const voarParaCentro = async () => {
-      let centroLat: number;
-      let centroLng: number;
+      const centros = await carregarCentrosMunicipios();
+      const centroMunicipio = centros?.find(c => c.codigo_ibge === municipioSelecionado);
       
-      // Se tem município selecionado, usa o centro oficial do arquivo
-      if (municipioSelecionado) {
-        const centros = await carregarCentrosMunicipios();
-        const centroMunicipio = centros?.find(c => c.codigo_ibge === municipioSelecionado);
-        
-        if (centroMunicipio) {
-          centroLat = centroMunicipio.latitude;
-          centroLng = centroMunicipio.longitude;
-        } else {
-          // Fallback: primeira coordenada dos dados
-          const primeiro = dados.find(item => item.latitude !== 0 && item.longitude !== 0);
-          if (!primeiro) return;
-          centroLat = primeiro.latitude;
-          centroLng = primeiro.longitude;
-        }
-      } else {
-        // Sem município: calcula média (comportamento original para "todos")
-        const estabelecimentosValidos = dados.filter(
-          item => item.latitude !== 0 && item.longitude !== 0
-        );
-        if (estabelecimentosValidos.length === 0) return;
-        
-        const somaLat = estabelecimentosValidos.reduce((acc, item) => acc + item.latitude, 0);
-        const somaLng = estabelecimentosValidos.reduce((acc, item) => acc + item.longitude, 0);
-        centroLat = somaLat / estabelecimentosValidos.length;
-        centroLng = somaLng / estabelecimentosValidos.length;
-      }
+      if (!centroMunicipio) return;
       
       const map = mapRef.current;
       if (map) {
         map.flyTo({
-          center: [centroLng, centroLat],
-          zoom: municipioSelecionado ? 12 : 7,
+          center: [centroMunicipio.longitude, centroMunicipio.latitude],
+          zoom: 12,
           duration: 1000,
           essential: true,
         });
         
-        // Marca que já voamos para este estado
+        // Marca que já voamos para este município
         ultimoFlyToRef.current = chaveAtual;
       }
       
@@ -195,7 +241,7 @@ export function MapaEstabelecimentos({
     };
     
     voarParaCentro();
-  }, [dados, mapCarregado, municipioSelecionado]);
+  }, [mapCarregado, municipioSelecionado]);
 
   // Calcula o centro inicial do mapa
   const viewInicial = useMemo(() => {
@@ -207,20 +253,33 @@ export function MapaEstabelecimentos({
       };
     }
     
-    // Se tiver dados, centraliza no primeiro estabelecimento
-    if (dados.length > 0) {
-      const primeiro = dados[0];
-      if (primeiro.latitude !== 0 && primeiro.longitude !== 0) {
-        return {
-          latitude: primeiro.latitude,
-          longitude: primeiro.longitude,
-          zoom: 12,
-        };
-      }
-    }
-    
+    // Default: centro de Alagoas
     return CENTRO_ALAGOAS;
-  }, [localizacao, dados]);
+  }, [localizacao]);
+
+  // Cria GeoJSON para clustering
+  const geojsonData = useMemo(() => {
+    const features = dados
+      .filter(item => item.latitude !== 0 && item.longitude !== 0)
+      .map(item => ({
+        type: 'Feature' as const,
+        properties: {
+          cnpj: item.cnpj,
+          valor: item.valor_recente,
+          nome: item.nome_fantasia || item.razao_social,
+          isMelhor: item.cnpj === cnpjMelhor,
+        },
+        geometry: {
+          type: 'Point' as const,
+          coordinates: [item.longitude, item.latitude],
+        },
+      }));
+    
+    return {
+      type: 'FeatureCollection' as const,
+      features,
+    };
+  }, [dados, cnpjMelhor]);
 
   // Filtra estabelecimentos com coordenadas válidas
   const estabelecimentosComCoordenadas = useMemo(() => {
@@ -268,13 +327,29 @@ export function MapaEstabelecimentos({
         mapStyle={MAP_STYLE}
         style={{ width: '100%', height: '100%' }}
         onLoad={handleMapLoad}
+        onMoveEnd={handleMoveEnd}
       >
         {/* Controles - posicionados para não conflitar com overlays */}
         <NavigationControl position="bottom-right" showCompass={false} />
         <ScaleControl position="bottom-left" />
 
-        {/* Marcadores */}
-        {estabelecimentosComCoordenadas.map((item) => (
+        {/* Clustering para zoom baixo */}
+        {zoomAtual < ZOOM_PARA_MARKERS && (
+          <Source
+            id="postos"
+            type="geojson"
+            data={geojsonData}
+            cluster={true}
+            clusterMaxZoom={ZOOM_PARA_MARKERS - 1}
+            clusterRadius={50}
+          >
+            <Layer {...clusterLayer} />
+            <Layer {...clusterCountLayer} />
+          </Source>
+        )}
+
+        {/* Marcadores individuais para zoom alto */}
+        {zoomAtual >= ZOOM_PARA_MARKERS && estabelecimentosComCoordenadas.map((item) => (
           <Marker
             key={`${item.cnpj}-${item.tipo_combustivel}`}
             longitude={item.longitude}
@@ -353,7 +428,7 @@ export function MapaEstabelecimentos({
       
       {/* Legenda / Info - canto inferior esquerdo para não conflitar */}
       <div className="absolute bottom-4 left-12 z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm rounded-lg px-3 py-1.5 shadow-md text-xs text-gray-600 dark:text-gray-300 border border-gray-200 dark:border-gray-700">
-        {estabelecimentosComCoordenadas.length} postos no mapa
+        {contadorVisiveis} postos no mapa
       </div>
     </div>
   );

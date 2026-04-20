@@ -4,7 +4,7 @@ import { normalizarJSON, type JSONMinificado, type JSONExpandido } from '../util
 
 interface UsePrecosCombustiveisOpcoes {
   tipoCombustivel: TipoCombustivel;
-  codigoIBGE?: string;
+  // codigoIBGE removido - agora carrega todos e filtra no mapa
 }
 
 interface UsePrecosCombustiveisResultado {
@@ -22,11 +22,11 @@ const CACHE_TTL = import.meta.env.DEV ? 0 : 30 * 60 * 1000;
 
 /**
  * Hook para carregar preços de combustíveis
- * Usa apenas atual.min.json - filtra por município e tipo no cliente
+ * Carrega TODOS os dados e filtra apenas por tipo de combustível
+ * Filtro por município/viewport é feito no mapa
  */
 export function usePrecosCombustiveis({ 
-  tipoCombustivel, 
-  codigoIBGE 
+  tipoCombustivel,
 }: UsePrecosCombustiveisOpcoes): UsePrecosCombustiveisResultado {
   const [dados, setDados] = useState<PrecoCombustivelResumo[] | null>(null);
   const [carregando, setCarregando] = useState(true);
@@ -66,13 +66,9 @@ export function usePrecosCombustiveis({
         cacheTimestamp = agora;
       }
 
-      // Filtra por município (se especificado) e tipo de combustível
-      // Garante comparação como strings (codigo_ibge no JSON é string)
-      const codigoIBGEStr = codigoIBGE ? String(codigoIBGE) : undefined;
+      // Filtra apenas por tipo de combustível (filtro por bounds é feito no mapa)
       let filtrados = cacheAtual!.estabelecimentos.filter(e => {
-        const matchTipo = e.tipo_combustivel === tipoCombustivel;
-        const matchMunicipio = !codigoIBGEStr || e.codigo_ibge === codigoIBGEStr;
-        return matchTipo && matchMunicipio;
+        return e.tipo_combustivel === tipoCombustivel;
       });
 
       // Ordena por valor recente (menor primeiro)
@@ -87,7 +83,7 @@ export function usePrecosCombustiveis({
     } finally {
       setCarregando(false);
     }
-  }, [tipoCombustivel, codigoIBGE]);
+  }, [tipoCombustivel]);
 
   useEffect(() => {
     buscarDados();

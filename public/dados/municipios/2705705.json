@@ -1,7 +1,11 @@
 {
   "codigoIBGE": "2705705",
   "municipio": "Olho d'Água das Flores",
-  "atualizadoEm": "2026-04-19T21:33:36.852Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-20T09:45:02.123Z",
+=======
+  "atualizadoEm": "2026-04-20T08:08:34.233Z",
+>>>>>>> fda3262e6ccb9b96ad803eb3839ab6ed9abfe6ca
   "totalEstabelecimentos": 13,
   "estabelecimentos": [
     {
@@ -16,13 +20,18 @@
       "cep": "57442000",
       "codigo_ibge": "2705705",
       "municipio": "Olho d'Água das Flores",
+<<<<<<< HEAD
+      "latitude": -9.5501683,
+      "longitude": -37.2797114,
+=======
       "latitude": -9.5413832,
       "longitude": -37.2894755,
-      "valor_minimo": 6.8101,
-      "valor_maximo": 6.8101,
-      "valor_medio": 6.8101,
-      "valor_recente": 6.8101,
-      "data_recente": "2026-04-19T19:35:05+00:00"
+>>>>>>> fda3262e6ccb9b96ad803eb3839ab6ed9abfe6ca
+      "valor_minimo": 6.8118,
+      "valor_maximo": 6.8118,
+      "valor_medio": 6.8118,
+      "valor_recente": 6.8118,
+      "data_recente": "2026-04-19T21:58:52+00:00"
     },
     {
       "cnpj": "08886885000180",
@@ -38,11 +47,11 @@
       "municipio": "Olho d'Água das Flores",
       "latitude": -9.5409131,
       "longitude": -37.2929781,
-      "valor_minimo": 6.8393,
-      "valor_maximo": 6.8393,
-      "valor_medio": 6.8393,
-      "valor_recente": 6.8393,
-      "data_recente": "2026-04-19T19:36:30+00:00"
+      "valor_minimo": 6.8403,
+      "valor_maximo": 6.8403,
+      "valor_medio": 6.8403,
+      "valor_recente": 6.8403,
+      "data_recente": "2026-04-19T23:05:31+00:00"
     },
     {
       "cnpj": "12261087000130",
@@ -58,11 +67,11 @@
       "municipio": "Olho d'Água das Flores",
       "latitude": -9.5301835,
       "longitude": -37.2953869,
-      "valor_minimo": 6.9491,
-      "valor_maximo": 6.9491,
-      "valor_medio": 6.9491,
-      "valor_recente": 6.9491,
-      "data_recente": "2026-04-19T18:43:21+00:00"
+      "valor_minimo": 6.949,
+      "valor_maximo": 6.949,
+      "valor_medio": 6.949,
+      "valor_recente": 6.949,
+      "data_recente": "2026-04-19T22:07:19+00:00"
     },
     {
       "cnpj": "08841116000165",
@@ -78,11 +87,31 @@
       "municipio": "Olho d'Água das Flores",
       "latitude": -9.5286443,
       "longitude": -37.2953971,
-      "valor_minimo": 6.9599,
-      "valor_maximo": 6.9599,
-      "valor_medio": 6.9599,
-      "valor_recente": 6.9599,
-      "data_recente": "2026-04-19T19:14:24+00:00"
+      "valor_minimo": 6.9597,
+      "valor_maximo": 6.9597,
+      "valor_medio": 6.9597,
+      "valor_recente": 6.9597,
+      "data_recente": "2026-04-19T22:03:41+00:00"
+    },
+    {
+      "cnpj": "08886885000180",
+      "tipo_combustivel": 2,
+      "razao_social": "M A J H COMÉRCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA",
+      "nome_fantasia": "AUTO POSTO DOIS IRMAOS",
+      "telefone": "",
+      "nome_logradouro": "AV RUI BARBOSA",
+      "numero_imovel": "718",
+      "bairro": "CENTRO",
+      "cep": "57442000",
+      "codigo_ibge": "2705705",
+      "municipio": "Olho d'Água das Flores",
+      "latitude": -9.5409131,
+      "longitude": -37.2929781,
+      "valor_minimo": 6.7601,
+      "valor_maximo": 6.7601,
+      "valor_medio": 6.7601,
+      "valor_recente": 6.7601,
+      "data_recente": "2026-04-19T23:01:36+00:00"
     },
     {
       "cnpj": "08841116000165",
@@ -105,26 +134,6 @@
       "data_recente": "2026-04-17T20:30:24+00:00"
     },
     {
-      "cnpj": "08886885000180",
-      "tipo_combustivel": 2,
-      "razao_social": "M A J H COMÉRCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA",
-      "nome_fantasia": "AUTO POSTO DOIS IRMAOS",
-      "telefone": "",
-      "nome_logradouro": "AV RUI BARBOSA",
-      "numero_imovel": "718",
-      "bairro": "CENTRO",
-      "cep": "57442000",
-      "codigo_ibge": "2705705",
-      "municipio": "Olho d'Água das Flores",
-      "latitude": -9.5409131,
-      "longitude": -37.2929781,
-      "valor_minimo": 7.1904,
-      "valor_maximo": 7.1904,
-      "valor_medio": 7.1904,
-      "valor_recente": 7.1904,
-      "data_recente": "2026-04-19T19:26:10+00:00"
-    },
-    {
       "cnpj": "12261087000130",
       "tipo_combustivel": 3,
       "razao_social": "A A MELO LTDA",
@@ -138,11 +147,11 @@
       "municipio": "Olho d'Água das Flores",
       "latitude": -9.5301835,
       "longitude": -37.2953869,
-      "valor_minimo": 5.2698,
-      "valor_maximo": 5.2698,
-      "valor_medio": 5.2698,
-      "valor_recente": 5.2698,
-      "data_recente": "2026-04-19T18:21:03+00:00"
+      "valor_minimo": 5.2694,
+      "valor_maximo": 5.2694,
+      "valor_medio": 5.2694,
+      "valor_recente": 5.2694,
+      "data_recente": "2026-04-19T21:45:37+00:00"
     },
     {
       "cnpj": "07431049000148",
@@ -156,13 +165,18 @@
       "cep": "57442000",
       "codigo_ibge": "2705705",
       "municipio": "Olho d'Água das Flores",
+<<<<<<< HEAD
+      "latitude": -9.5501683,
+      "longitude": -37.2797114,
+=======
       "latitude": -9.5413832,
       "longitude": -37.2894755,
-      "valor_minimo": 5.3996,
-      "valor_maximo": 5.3996,
-      "valor_medio": 5.3996,
-      "valor_recente": 5.3996,
-      "data_recente": "2026-04-19T18:13:32+00:00"
+>>>>>>> fda3262e6ccb9b96ad803eb3839ab6ed9abfe6ca
+      "valor_minimo": 5.4031,
+      "valor_maximo": 5.4031,
+      "valor_medio": 5.4031,
+      "valor_recente": 5.4031,
+      "data_recente": "2026-04-19T21:58:48+00:00"
     },
     {
       "cnpj": "08886885000180",
@@ -178,11 +192,11 @@
       "municipio": "Olho d'Água das Flores",
       "latitude": -9.5409131,
       "longitude": -37.2929781,
-      "valor_minimo": 5.4399,
-      "valor_maximo": 5.4399,
-      "valor_medio": 5.4399,
-      "valor_recente": 5.4399,
-      "data_recente": "2026-04-19T18:26:40+00:00"
+      "valor_minimo": 5.4402,
+      "valor_maximo": 5.4402,
+      "valor_medio": 5.4402,
+      "valor_recente": 5.4402,
+      "data_recente": "2026-04-19T22:58:08+00:00"
     },
     {
       "cnpj": "12261087000130",
@@ -205,6 +219,26 @@
       "data_recente": "2026-04-14T15:50:27+00:00"
     },
     {
+      "cnpj": "12261087000130",
+      "tipo_combustivel": 5,
+      "razao_social": "A A MELO LTDA",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "AV 2 DE DEZEMBRO",
+      "numero_imovel": "777",
+      "bairro": "CENTRO",
+      "cep": "57442000",
+      "codigo_ibge": "2705705",
+      "municipio": "Olho d'Água das Flores",
+      "latitude": -9.5301835,
+      "longitude": -37.2953869,
+      "valor_minimo": 6.8999,
+      "valor_maximo": 6.8999,
+      "valor_medio": 6.8999,
+      "valor_recente": 6.8999,
+      "data_recente": "2026-04-19T22:05:18+00:00"
+    },
+    {
       "cnpj": "08841116000165",
       "tipo_combustivel": 5,
       "razao_social": "AUTO POSTO SAO JOAO BATISTA LIMITADA - EPP",
@@ -225,26 +259,6 @@
       "data_recente": "2026-04-15T22:15:09+00:00"
     },
     {
-      "cnpj": "12261087000130",
-      "tipo_combustivel": 5,
-      "razao_social": "A A MELO LTDA",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "AV 2 DE DEZEMBRO",
-      "numero_imovel": "777",
-      "bairro": "CENTRO",
-      "cep": "57442000",
-      "codigo_ibge": "2705705",
-      "municipio": "Olho d'Água das Flores",
-      "latitude": -9.5301835,
-      "longitude": -37.2953869,
-      "valor_minimo": 7.339,
-      "valor_maximo": 7.339,
-      "valor_medio": 7.339,
-      "valor_recente": 7.339,
-      "data_recente": "2026-04-19T16:04:16+00:00"
-    },
-    {
       "cnpj": "08886885000180",
       "tipo_combustivel": 5,
       "razao_social": "M A J H COMÉRCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA",
@@ -258,11 +272,11 @@
       "municipio": "Olho d'Água das Flores",
       "latitude": -9.5409131,
       "longitude": -37.2929781,
-      "valor_minimo": 7.84,
-      "valor_maximo": 7.84,
-      "valor_medio": 7.84,
-      "valor_recente": 7.84,
-      "data_recente": "2026-04-19T18:00:33+00:00"
+      "valor_minimo": 7.3497,
+      "valor_maximo": 7.3497,
+      "valor_medio": 7.3497,
+      "valor_recente": 7.3497,
+      "data_recente": "2026-04-19T23:01:36+00:00"
     }
   ]
 }

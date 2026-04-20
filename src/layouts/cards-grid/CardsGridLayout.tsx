@@ -31,7 +31,6 @@ export function CardsGridLayout() {
 
   const { dados, carregando, erro } = usePrecosCombustiveis({
     tipoCombustivel: tipoCombustivelSelecionado,
-    codigoIBGE: municipioSelecionado || undefined,
   })
 
   const { 

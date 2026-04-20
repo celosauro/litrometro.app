@@ -104,9 +104,36 @@ interface PrecoSupabase {
 
 const DADOS_DIR = path.join(process.cwd(), 'public', 'dados');
 const MUNICIPIOS_DIR = path.join(DADOS_DIR, 'municipios');
+const GEOCACHE_PATH = path.join(DADOS_DIR, 'geocache.json');
 
 const SUPABASE_URL = process.env.VITE_SUPABASE_URL!;
 const SUPABASE_SECRET_KEY = process.env.SUPABASE_SECRET_KEY!;
+
+// Tipo do geocache local
+interface GeoCacheEntry {
+  latitude: number;
+  longitude: number;
+  fonte: string;
+  data?: string;
+  atualizadoEm?: string;
+}
+type GeoCache = Record<string, GeoCacheEntry>;
+
+// Geocache carregado em memória
+let geoCache: GeoCache | null = null;
+
+function carregarGeoCache(): GeoCache {
+  if (geoCache) return geoCache;
+  
+  if (fs.existsSync(GEOCACHE_PATH)) {
+    geoCache = JSON.parse(fs.readFileSync(GEOCACHE_PATH, 'utf-8'));
+    console.log(`📍 Geocache carregado: ${Object.keys(geoCache!).length} coordenadas`);
+  } else {
+    geoCache = {};
+    console.log('⚠️  Geocache não encontrado, usando coordenadas do Supabase');
+  }
+  return geoCache;
+}
 
 let supabase: SupabaseClient | null = null;
 
@@ -143,28 +170,38 @@ function timestampCurto(iso: string): string {
 
 /**
  * Converte dados do Supabase para formato expandido
+ * Prioriza coordenadas do geocache local sobre o Supabase
  */
 function converterParaExpandido(dados: PrecoSupabase[]): EstabelecimentoExpandido[] {
-  return dados.map(d => ({
-    cnpj: d.cnpj,
-    tipo_combustivel: d.tipo_combustivel as TipoCombustivel,
-    razao_social: d.razao_social,
-    nome_fantasia: d.nome_fantasia || '',
-    telefone: d.telefone || '',
-    nome_logradouro: d.nome_logradouro || '',
-    numero_imovel: d.numero_imovel || '',
-    bairro: d.bairro || '',
-    cep: d.cep || '',
-    codigo_ibge: d.codigo_ibge,
-    municipio: d.municipio,
-    latitude: d.latitude || 0,
-    longitude: d.longitude || 0,
-    valor_minimo: arredondar(d.valor_minimo),
-    valor_maximo: arredondar(d.valor_maximo),
-    valor_medio: arredondar(d.valor_medio),
-    valor_recente: arredondar(d.valor_recente),
-    data_recente: d.data_recente,
-  }));
+  const cache = carregarGeoCache();
+  
+  return dados.map(d => {
+    // Usa coordenadas do geocache se disponíveis, senão usa do Supabase
+    const geo = cache[d.cnpj];
+    const latitude = geo?.latitude ?? d.latitude ?? 0;
+    const longitude = geo?.longitude ?? d.longitude ?? 0;
+    
+    return {
+      cnpj: d.cnpj,
+      tipo_combustivel: d.tipo_combustivel as TipoCombustivel,
+      razao_social: d.razao_social,
+      nome_fantasia: d.nome_fantasia || '',
+      telefone: d.telefone || '',
+      nome_logradouro: d.nome_logradouro || '',
+      numero_imovel: d.numero_imovel || '',
+      bairro: d.bairro || '',
+      cep: d.cep || '',
+      codigo_ibge: d.codigo_ibge,
+      municipio: d.municipio,
+      latitude,
+      longitude,
+      valor_minimo: arredondar(d.valor_minimo),
+      valor_maximo: arredondar(d.valor_maximo),
+      valor_medio: arredondar(d.valor_medio),
+      valor_recente: arredondar(d.valor_recente),
+      data_recente: d.data_recente,
+    };
+  });
 }
 
 /**

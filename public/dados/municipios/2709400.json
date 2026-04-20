@@ -1,9 +1,33 @@
 {
   "codigoIBGE": "2709400",
   "municipio": "Viçosa",
-  "atualizadoEm": "2026-04-19T21:33:36.852Z",
+<<<<<<< HEAD
+  "atualizadoEm": "2026-04-20T09:45:02.123Z",
+=======
+  "atualizadoEm": "2026-04-20T08:08:34.233Z",
+>>>>>>> fda3262e6ccb9b96ad803eb3839ab6ed9abfe6ca
   "totalEstabelecimentos": 14,
   "estabelecimentos": [
+    {
+      "cnpj": "07478815000120",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
+      "nome_fantasia": "POSTO SABALANGA",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 210",
+      "numero_imovel": "1",
+      "bairro": "FAZ ALTO CONCEICAO",
+      "cep": "57700000",
+      "codigo_ibge": "2709400",
+      "municipio": "Viçosa",
+      "latitude": -9.3694174,
+      "longitude": -36.2427277,
+      "valor_minimo": 6.93,
+      "valor_maximo": 6.93,
+      "valor_medio": 6.93,
+      "valor_recente": 6.93,
+      "data_recente": "2026-04-19T21:33:43+00:00"
+    },
     {
       "cnpj": "28463788000191",
       "tipo_combustivel": 1,
@@ -18,11 +42,11 @@
       "municipio": "Viçosa",
       "latitude": -9.3735369,
       "longitude": -36.2510856,
-      "valor_minimo": 7.1517,
-      "valor_maximo": 7.1517,
-      "valor_medio": 7.1517,
-      "valor_recente": 7.1517,
-      "data_recente": "2026-04-19T19:29:16+00:00"
+      "valor_minimo": 7.15,
+      "valor_maximo": 7.15,
+      "valor_medio": 7.15,
+      "valor_recente": 7.15,
+      "data_recente": "2026-04-19T21:21:20+00:00"
     },
     {
       "cnpj": "18527801000175",
@@ -36,8 +60,8 @@
       "cep": "57700000",
       "codigo_ibge": "2709400",
       "municipio": "Viçosa",
-      "latitude": -9.830609899999999,
-      "longitude": -35.8872314,
+      "latitude": -9.373999699999999,
+      "longitude": -36.2421527,
       "valor_minimo": 7.2904,
       "valor_maximo": 7.2904,
       "valor_medio": 7.2904,
@@ -65,26 +89,6 @@
       "data_recente": "2026-04-18T22:28:43+00:00"
     },
     {
-      "cnpj": "07478815000120",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
-      "nome_fantasia": "POSTO SABALANGA",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 210",
-      "numero_imovel": "1",
-      "bairro": "FAZ ALTO CONCEICAO",
-      "cep": "57700000",
-      "codigo_ibge": "2709400",
-      "municipio": "Viçosa",
-      "latitude": -9.3694174,
-      "longitude": -36.2427277,
-      "valor_minimo": 7.787,
-      "valor_maximo": 7.787,
-      "valor_medio": 7.787,
-      "valor_recente": 7.787,
-      "data_recente": "2026-04-19T19:30:04+00:00"
-    },
-    {
       "cnpj": "28463788000191",
       "tipo_combustivel": 2,
       "razao_social": "VANILDO ALBUQUERQUE LTDA",
@@ -98,11 +102,11 @@
       "municipio": "Viçosa",
       "latitude": -9.3735369,
       "longitude": -36.2510856,
-      "valor_minimo": 7.15,
-      "valor_maximo": 7.15,
-      "valor_medio": 7.15,
-      "valor_recente": 7.15,
-      "data_recente": "2026-04-19T19:29:16+00:00"
+      "valor_minimo": 7.1492,
+      "valor_maximo": 7.1492,
+      "valor_medio": 7.1492,
+      "valor_recente": 7.1492,
+      "data_recente": "2026-04-19T21:17:13+00:00"
     },
     {
       "cnpj": "07478815000120",
@@ -118,11 +122,11 @@
       "municipio": "Viçosa",
       "latitude": -9.3694174,
       "longitude": -36.2427277,
-      "valor_minimo": 7.3894,
-      "valor_maximo": 7.3894,
-      "valor_medio": 7.3894,
-      "valor_recente": 7.3894,
-      "data_recente": "2026-04-19T19:33:57+00:00"
+      "valor_minimo": 7.3893,
+      "valor_maximo": 7.3893,
+      "valor_medio": 7.3893,
+      "valor_recente": 7.3893,
+      "data_recente": "2026-04-19T21:10:10+00:00"
     },
     {
       "cnpj": "18527801000175",
@@ -136,13 +140,18 @@
       "cep": "57700000",
       "codigo_ibge": "2709400",
       "municipio": "Viçosa",
+<<<<<<< HEAD
+      "latitude": -9.373999699999999,
+      "longitude": -36.2421527,
+=======
       "latitude": -9.830609899999999,
       "longitude": -35.8872314,
-      "valor_minimo": 7.39,
-      "valor_maximo": 7.39,
-      "valor_medio": 7.39,
-      "valor_recente": 7.39,
-      "data_recente": "2026-04-19T19:25:38+00:00"
+>>>>>>> fda3262e6ccb9b96ad803eb3839ab6ed9abfe6ca
+      "valor_minimo": 7.3897,
+      "valor_maximo": 7.3897,
+      "valor_medio": 7.3897,
+      "valor_recente": 7.3897,
+      "data_recente": "2026-04-19T20:20:31+00:00"
     },
     {
       "cnpj": "08616112000183",
@@ -182,7 +191,7 @@
       "valor_maximo": 5.9899,
       "valor_medio": 5.9899,
       "valor_recente": 5.9899,
-      "data_recente": "2026-04-19T19:00:32+00:00"
+      "data_recente": "2026-04-19T21:32:47+00:00"
     },
     {
       "cnpj": "18527801000175",
@@ -196,33 +205,13 @@
       "cep": "57700000",
       "codigo_ibge": "2709400",
       "municipio": "Viçosa",
-      "latitude": -9.830609899999999,
-      "longitude": -35.8872314,
+      "latitude": -9.373999699999999,
+      "longitude": -36.2421527,
       "valor_minimo": 6.087,
       "valor_maximo": 6.087,
       "valor_medio": 6.087,
       "valor_recente": 6.087,
       "data_recente": "2026-04-17T20:58:45+00:00"
-    },
-    {
-      "cnpj": "07478815000120",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
-      "nome_fantasia": "POSTO SABALANGA",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 210",
-      "numero_imovel": "1",
-      "bairro": "FAZ ALTO CONCEICAO",
-      "cep": "57700000",
-      "codigo_ibge": "2709400",
-      "municipio": "Viçosa",
-      "latitude": -9.3694174,
-      "longitude": -36.2427277,
-      "valor_minimo": 7.2201,
-      "valor_maximo": 7.2201,
-      "valor_medio": 7.2201,
-      "valor_recente": 7.2201,
-      "data_recente": "2026-04-19T19:29:07+00:00"
     },
     {
       "cnpj": "28463788000191",
@@ -238,11 +227,11 @@
       "municipio": "Viçosa",
       "latitude": -9.3735369,
       "longitude": -36.2510856,
-      "valor_minimo": 7.3495,
-      "valor_maximo": 7.3495,
-      "valor_medio": 7.3495,
-      "valor_recente": 7.3495,
-      "data_recente": "2026-04-19T18:50:22+00:00"
+      "valor_minimo": 7.3475,
+      "valor_maximo": 7.3475,
+      "valor_medio": 7.3475,
+      "valor_recente": 7.3475,
+      "data_recente": "2026-04-19T21:17:13+00:00"
     },
     {
       "cnpj": "08616112000183",
@@ -265,6 +254,26 @@
       "data_recente": "2026-04-18T22:11:45+00:00"
     },
     {
+      "cnpj": "07478815000120",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
+      "nome_fantasia": "POSTO SABALANGA",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 210",
+      "numero_imovel": "1",
+      "bairro": "FAZ ALTO CONCEICAO",
+      "cep": "57700000",
+      "codigo_ibge": "2709400",
+      "municipio": "Viçosa",
+      "latitude": -9.3694174,
+      "longitude": -36.2427277,
+      "valor_minimo": 7.6888,
+      "valor_maximo": 7.6888,
+      "valor_medio": 7.6888,
+      "valor_recente": 7.6888,
+      "data_recente": "2026-04-19T21:17:13+00:00"
+    },
+    {
       "cnpj": "18527801000175",
       "tipo_combustivel": 5,
       "razao_social": "AUTO POSTO VICOSA EIRELI - EPP",
@@ -276,8 +285,8 @@
       "cep": "57700000",
       "codigo_ibge": "2709400",
       "municipio": "Viçosa",
-      "latitude": -9.830609899999999,
-      "longitude": -35.8872314,
+      "latitude": -9.373999699999999,
+      "longitude": -36.2421527,
       "valor_minimo": 7.6901,
       "valor_maximo": 7.6901,
       "valor_medio": 7.6901,

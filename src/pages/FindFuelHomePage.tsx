@@ -34,13 +34,15 @@ export default function FindFuelHomePage() {
   const [termoBusca, setTermoBusca] = useState('')
   const [mostrarFiltros, setMostrarFiltros] = useState(false)
   const [estabelecimentoSelecionado, setEstabelecimentoSelecionado] = useState<DadosComDistancia | null>(null)
+  // Dados visíveis no viewport atual do mapa
+  const [dadosVisiveis, setDadosVisiveis] = useState<DadosComDistancia[]>([])
   
   const centroidesMunicipiosRef = useRef<Array<{codigo_ibge: string; municipio: string; latitude: number; longitude: number}> | null>(null)
   const listRef = useRef<HTMLDivElement>(null)
 
   const { dados, carregando } = usePrecosCombustiveis({
     tipoCombustivel: tipoCombustivelSelecionado,
-    codigoIBGE: municipioSelecionado || undefined,
+
   })
 
   const { 
@@ -115,11 +117,16 @@ export default function FindFuelHomePage() {
     })
   }, [dados, localizacao])
 
-  // Filtra e ordena os dados
+  // Callback quando o mapa atualiza dados visíveis (filtrados por viewport)
+  const handleDadosVisiveis = useCallback((visiveis: DadosComDistancia[]) => {
+    setDadosVisiveis(visiveis)
+  }, [])
+
+  // Filtra e ordena os dados VISÍVEIS no mapa (para a lista)
   const dadosFiltrados = useMemo(() => {
-    if (!dadosComDistancia) return []
+    if (!dadosVisiveis.length) return []
     
-    return dadosComDistancia
+    return dadosVisiveis
       .filter((item) => {
         if (!termoBusca) return true
         const busca = termoBusca.toLowerCase()
@@ -139,7 +146,7 @@ export default function FindFuelHomePage() {
         const distB = b.distancia ?? Infinity
         return distA - distB
       })
-  }, [dadosComDistancia, termoBusca])
+  }, [dadosVisiveis, termoBusca])
 
   // CNPJ do melhor posto
   const cnpjMelhorPosto = useMemo(() => {
@@ -189,13 +196,14 @@ export default function FindFuelHomePage() {
         {/* Mapa */}
         <div className="absolute inset-0">
           <MapaEstabelecimentos
-            dados={dadosFiltrados}
+            dados={dadosComDistancia || []}
             localizacao={localizacao}
             tipoCombustivel={tipoCombustivelSelecionado}
             estabelecimentoSelecionado={estabelecimentoSelecionado}
             onSelecionarEstabelecimento={handleCardClick}
             municipioSelecionado={municipioSelecionado}
             cnpjMelhor={cnpjMelhorPosto}
+            onDadosVisiveis={handleDadosVisiveis}
             className="w-full h-full"
           />
         </div>

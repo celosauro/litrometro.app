@@ -28,13 +28,15 @@ export default function HomePage() {
   const [mostrarStatusLocalizacao, setMostrarStatusLocalizacao] = useState(true);
   const [estabelecimentoSelecionado, setEstabelecimentoSelecionado] = useState<DadosComDistancia | null>(null);
   const [mostrarListaMobile, setMostrarListaMobile] = useState(false);
+  // Dados visíveis no viewport do mapa (filtrados por bounds)
+  const [dadosVisiveis, setDadosVisiveis] = useState<DadosComDistancia[]>([]);
   
   // Cache dos centróides dos municípios
   const centroidesMunicipiosRef = useRef<Array<{codigo_ibge: string; municipio: string; latitude: number; longitude: number}> | null>(null);
 
+  // Carrega TODOS os dados (filtro por município agora é feito pelo mapa)
   const { dados, carregando, erro } = usePrecosCombustiveis({
     tipoCombustivel: tipoCombustivelSelecionado,
-    codigoIBGE: municipioSelecionado || undefined,
   });
 
   const { 
@@ -103,7 +105,7 @@ export default function HomePage() {
     setEstabelecimentoSelecionado(null);
   }, [tipoCombustivelSelecionado, municipioSelecionado, termoBusca]);
 
-  // Calcula distância para cada estabelecimento
+  // Calcula distância para cada estabelecimento (TODOS os dados)
   const dadosComDistancia: DadosComDistancia[] | undefined = useMemo(() => {
     if (!dados) return undefined;
     
@@ -123,11 +125,16 @@ export default function HomePage() {
     });
   }, [dados, localizacao]);
 
-  // Filtra e ordena os dados (base)
+  // Callback quando o mapa atualiza dados visíveis (filtrados por bounds)
+  const handleDadosVisiveis = useCallback((visiveis: DadosComDistancia[]) => {
+    setDadosVisiveis(visiveis);
+  }, []);
+
+  // Filtra e ordena os dados VISÍVEIS no mapa (para a lista)
   const dadosFiltradosBase = useMemo(() => {
-    if (!dadosComDistancia) return [];
+    if (!dadosVisiveis.length) return [];
     
-    return dadosComDistancia
+    return dadosVisiveis
       .filter((item) => {
         if (!termoBusca) return true;
         const busca = termoBusca.toLowerCase();
@@ -146,7 +153,7 @@ export default function HomePage() {
         const distB = b.distancia ?? Infinity;
         return distA - distB;
       });
-  }, [dadosComDistancia, termoBusca]);
+  }, [dadosVisiveis, termoBusca]);
 
   // Identifica o melhor posto (prioriza postos até 5km, depois menor preço)
   const cnpjMelhorPosto = useMemo(() => {
@@ -429,13 +436,14 @@ export default function HomePage() {
             {/* Mapa */}
             <div className="flex-1 min-h-0 relative">
               <MapaEstabelecimentos
-                dados={dadosFiltrados}
+                dados={dadosComDistancia || []}
                 localizacao={localizacao}
                 tipoCombustivel={tipoCombustivelSelecionado}
                 estabelecimentoSelecionado={estabelecimentoSelecionado}
                 onSelecionarEstabelecimento={handleSelecionarEstabelecimento}
                 municipioSelecionado={municipioSelecionado}
                 cnpjMelhor={cnpjMelhorPosto}
+                onDadosVisiveis={handleDadosVisiveis}
                 className="absolute inset-0"
               />
               
