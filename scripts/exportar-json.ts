@@ -125,14 +125,16 @@ let geoCache: GeoCache | null = null;
 function carregarGeoCache(): GeoCache {
   if (geoCache) return geoCache;
   
+  let cache: GeoCache;
   if (fs.existsSync(GEOCACHE_PATH)) {
-    geoCache = JSON.parse(fs.readFileSync(GEOCACHE_PATH, 'utf-8'));
-    console.log(`📍 Geocache carregado: ${Object.keys(geoCache!).length} coordenadas`);
+    cache = JSON.parse(fs.readFileSync(GEOCACHE_PATH, 'utf-8'));
+    console.log(`📍 Geocache carregado: ${Object.keys(cache).length} coordenadas`);
   } else {
-    geoCache = {};
+    cache = {};
     console.log('⚠️  Geocache não encontrado, usando coordenadas do Supabase');
   }
-  return geoCache;
+  geoCache = cache;
+  return cache;
 }
 
 let supabase: SupabaseClient | null = null;
