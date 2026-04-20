@@ -157,7 +157,8 @@ function carregarCentrosMunicipios(): void {
 
 /**
  * Valida se as coordenadas estão dentro de uma distância razoável do município
- * Retorna true se válido, false se muito longe
+ * E se não estão mais perto de outro município
+ * Retorna true se válido, false se muito longe ou mais perto de outra cidade
  */
 function validarCoordenadas(
   latitude: number,
@@ -165,29 +166,52 @@ function validarCoordenadas(
   codigoIBGE: string,
   nomeMunicipio: string
 ): { valido: boolean; distancia: number; motivo?: string } {
-  const centro = centrosMunicipios.get(codigoIBGE);
+  const centroEsperado = centrosMunicipios.get(codigoIBGE);
   
-  if (!centro) {
+  if (!centroEsperado) {
     // Se não temos o centro, aceita mas avisa
     return { valido: true, distancia: -1, motivo: 'centro não encontrado' };
   }
   
-  const distancia = calcularDistanciaKm(
+  const distanciaEsperada = calcularDistanciaKm(
     latitude,
     longitude,
-    centro.latitude,
-    centro.longitude
+    centroEsperado.latitude,
+    centroEsperado.longitude
   );
   
-  if (distancia > DISTANCIA_MAXIMA_KM) {
+  // Verificação 1: distância máxima do centro
+  if (distanciaEsperada > DISTANCIA_MAXIMA_KM) {
     return {
       valido: false,
-      distancia,
-      motivo: `${distancia.toFixed(1)}km do centro de ${nomeMunicipio} (máx: ${DISTANCIA_MAXIMA_KM}km)`
+      distancia: distanciaEsperada,
+      motivo: `${distanciaEsperada.toFixed(1)}km do centro de ${nomeMunicipio} (máx: ${DISTANCIA_MAXIMA_KM}km)`
     };
   }
   
-  return { valido: true, distancia };
+  // Verificação 2: mais perto de outro município?
+  let municipioMaisProximo = centroEsperado;
+  let distanciaMaisProxima = distanciaEsperada;
+  
+  centrosMunicipios.forEach((centro, codigo) => {
+    if (codigo === codigoIBGE) return;
+    
+    const dist = calcularDistanciaKm(latitude, longitude, centro.latitude, centro.longitude);
+    if (dist < distanciaMaisProxima) {
+      distanciaMaisProxima = dist;
+      municipioMaisProximo = centro;
+    }
+  });
+  
+  if (municipioMaisProximo.codigo_ibge !== codigoIBGE) {
+    return {
+      valido: false,
+      distancia: distanciaEsperada,
+      motivo: `mais perto de ${municipioMaisProximo.municipio} (${distanciaMaisProxima.toFixed(1)}km) que de ${nomeMunicipio} (${distanciaEsperada.toFixed(1)}km)`
+    };
+  }
+  
+  return { valido: true, distancia: distanciaEsperada };
 }
 
 /**
