@@ -375,7 +375,7 @@ async function geocodificarOverpass(
   nomeEstabelecimento: string,
   razaoSocial: string,
   codigoIBGE: string,
-  municipio: string,
+  _municipio: string,
   raioKm: number = 15
 ): Promise<{ latitude: number; longitude: number } | null> {
   const centro = centrosMunicipios.get(codigoIBGE);
