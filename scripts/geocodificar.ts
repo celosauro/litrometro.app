@@ -114,7 +114,7 @@ interface CentroMunicipio {
 // Cache de geocodificação em memória
 let geoCache: GeoCache = {};
 let falhaCache: FalhaCache = {};
-let centrosMunicipios: Map<string, CentroMunicipio> = new Map();
+const centrosMunicipios: Map<string, CentroMunicipio> = new Map();
 
 /**
  * Calcula distância entre dois pontos usando fórmula de Haversine (em km)
@@ -340,6 +340,104 @@ async function atualizarSupabase(
 }
 
 /**
+ * Normaliza string para comparação: remove acentos, converte para lowercase,
+ * remove caracteres não-alfanuméricos
+ */
+function normalizarNome(nome: string): string {
+  return nome
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+/**
+ * Calcula similaridade entre dois nomes de estabelecimento (0..1)
+ * Usa índice Jaccard de palavras
+ */
+function similaridadeNomes(a: string, b: string): number {
+  const wordsA = new Set(normalizarNome(a).split(' ').filter(w => w.length > 2));
+  const wordsB = new Set(normalizarNome(b).split(' ').filter(w => w.length > 2));
+  if (wordsA.size === 0 || wordsB.size === 0) return 0;
+  const intersecao = [...wordsA].filter(w => wordsB.has(w)).length;
+  const uniao = new Set([...wordsA, ...wordsB]).size;
+  return intersecao / uniao;
+}
+
+/**
+ * Busca postos de combustível próximos via Overpass API (OSM)
+ * e tenta fazer match pelo nome do estabelecimento.
+ * Útil para postos que estão no OSM mas têm endereço de difícil geocodificação.
+ */
+async function geocodificarOverpass(
+  nomeEstabelecimento: string,
+  razaoSocial: string,
+  codigoIBGE: string,
+  municipio: string,
+  raioKm: number = 15
+): Promise<{ latitude: number; longitude: number } | null> {
+  const centro = centrosMunicipios.get(codigoIBGE);
+  if (!centro) return null;
+
+  const raioMetros = raioKm * 1000;
+  const query = `[out:json][timeout:15];(node[amenity=fuel](around:${raioMetros},${centro.latitude},${centro.longitude});way[amenity=fuel](around:${raioMetros},${centro.latitude},${centro.longitude}););out center tags;`;
+
+  try {
+    const response = await fetch('https://overpass-api.de/api/interpreter', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: `data=${encodeURIComponent(query)}`,
+      signal: AbortSignal.timeout(20000),
+    });
+
+    if (!response.ok) return null;
+
+    interface OverpassElement {
+      lat?: number;
+      lon?: number;
+      center?: { lat: number; lon: number };
+      tags?: { name?: string; brand?: string; operator?: string };
+    }
+    const data = await response.json() as { elements: OverpassElement[] };
+    if (!data.elements || data.elements.length === 0) return null;
+
+    const nomes = [nomeEstabelecimento, razaoSocial].filter(Boolean);
+
+    let melhorMatch: { lat: number; lon: number; score: number } | null = null;
+
+    for (const el of data.elements) {
+      const lat = el.lat ?? el.center?.lat;
+      const lon = el.lon ?? el.center?.lon;
+      if (!lat || !lon) continue;
+
+      const nomesOSM = [el.tags?.name, el.tags?.brand, el.tags?.operator].filter(Boolean) as string[];
+
+      let melhorScore = 0;
+      for (const nomeLocal of nomes) {
+        for (const nomeOSM of nomesOSM) {
+          const score = similaridadeNomes(nomeLocal, nomeOSM);
+          if (score > melhorScore) melhorScore = score;
+        }
+      }
+
+      if (melhorScore >= 0.4 && (!melhorMatch || melhorScore > melhorMatch.score)) {
+        melhorMatch = { lat, lon, score: melhorScore };
+      }
+    }
+
+    if (melhorMatch) {
+      return { latitude: melhorMatch.lat, longitude: melhorMatch.lon };
+    }
+  } catch {
+    // timeout ou erro de rede — silencia
+  }
+
+  return null;
+}
+
+/**
  * Geocodifica um endereço usando Nominatim (OpenStreetMap)
  */
 async function geocodificarNominatim(
@@ -492,9 +590,25 @@ async function geocodificarEndereco(
   numero: string,
   bairro: string,
   municipio: string,
-  codigoIBGE: string
+  codigoIBGE: string,
+  nomeEstabelecimento: string = '',
+  razaoSocial: string = ''
 ): Promise<GeoResult | null> {
-  // Estratégias de busca, da mais específica para a mais genérica
+  // Estratégia 0: Overpass OSM — busca por amenity=fuel + matching de nome
+  // Funciona para postos que estão mapeados no OSM mas têm endereço ruim
+  if (nomeEstabelecimento || razaoSocial) {
+    const overpassCoords = await geocodificarOverpass(nomeEstabelecimento, razaoSocial, codigoIBGE, municipio);
+    if (overpassCoords) {
+      const validacao = validarCoordenadas(overpassCoords.latitude, overpassCoords.longitude, codigoIBGE, municipio);
+      if (validacao.valido) {
+        console.log(`     → Overpass OSM: match por nome → ${validacao.distancia.toFixed(1)}km do centro ✓`);
+        return { ...overpassCoords, fonte: 'nominatim' }; // nominatim como fonte genérica OSM
+      }
+    }
+    await new Promise(resolve => setTimeout(resolve, 1100));
+  }
+
+  // Estratégias de busca por texto (Nominatim/OpenCage/LocationIQ), da mais específica para a mais genérica
   const estrategias: string[] = [];
   
   // 1. Endereço completo
@@ -701,7 +815,9 @@ async function main(): Promise<void> {
       est.numero_imovel,
       est.bairro,
       est.municipio,
-      est.codigo_ibge
+      est.codigo_ibge,
+      est.nome_fantasia,
+      est.razao_social
     );
 
     if (coords) {
