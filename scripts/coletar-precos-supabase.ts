@@ -439,6 +439,62 @@ async function consultarPrecosCombustivel(
 }
 
 /**
+ * Health check da API SEFAZ antes da coleta completa.
+ * Interrompe o script cedo quando a API está indisponível.
+ */
+async function verificarSaudeSefaz(): Promise<{ saudavel: boolean; erro?: string }> {
+  const body = {
+    produto: { tipoCombustivel: 1 },
+    estabelecimento: {
+      municipio: { codigoIBGE: 2704302 },
+    },
+    dias: 1,
+    pagina: 1,
+    registrosPorPagina: 1,
+  };
+
+  try {
+    const response = await fetchComRetry(
+      SEFAZ_API_URL,
+      {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          AppToken: SEFAZ_APP_TOKEN,
+        },
+        body: JSON.stringify(body),
+      },
+      2,
+      15000
+    );
+
+    if (!response.ok) {
+      return {
+        saudavel: false,
+        erro: `SEFAZ respondeu status ${response.status}`,
+      };
+    }
+
+    const data = (await response.json()) as Partial<RespostaSefaz>;
+    const formatoValido = typeof data.totalPaginas === 'number' && Array.isArray(data.conteudo);
+
+    if (!formatoValido) {
+      return {
+        saudavel: false,
+        erro: 'SEFAZ respondeu payload inválido para endpoint de pesquisa',
+      };
+    }
+
+    return { saudavel: true };
+  } catch (error) {
+    return {
+      saudavel: false,
+      erro: `Falha de conectividade com SEFAZ: ${(error as Error).message}`,
+    };
+  }
+}
+
+/**
  * Busca todas as páginas de um município/combustível
  */
 async function buscarTodasPaginas(
@@ -752,6 +808,14 @@ async function main(): Promise<void> {
     console.error('❌ SEFAZ_APP_TOKEN não configurado!');
     process.exit(1);
   }
+
+  console.log('🩺 Verificando saúde da API SEFAZ...');
+  const saudeSefaz = await verificarSaudeSefaz();
+  if (!saudeSefaz.saudavel) {
+    console.error(`❌ API SEFAZ indisponível. Coleta interrompida: ${saudeSefaz.erro}`);
+    process.exit(1);
+  }
+  console.log('✓ API SEFAZ saudável');
 
   const supabaseDisponivel = Boolean(SUPABASE_URL && SUPABASE_SECRET_KEY);
   console.log(`✓ SEFAZ Token configurado`);
