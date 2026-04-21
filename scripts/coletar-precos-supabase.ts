@@ -269,7 +269,9 @@ function getSupabaseClient(): SupabaseClient | null {
  *   (vazio)        Processa TODOS os municípios
  */
 function obterMunicipiosFiltrados(): Record<string, string> {
-  const args = process.argv.slice(2);
+  const args = process.argv
+    .slice(2)
+    .filter((arg) => arg !== '--skip-healthcheck' && arg !== '--healthcheck-only');
   
   // Sem argumentos = todos os municípios
   if (args.length === 0) {
@@ -443,45 +445,13 @@ async function consultarPrecosCombustivel(
  * Interrompe o script cedo quando a API está indisponível.
  */
 async function verificarSaudeSefaz(): Promise<{ saudavel: boolean; erro?: string }> {
-  const body = {
-    produto: { tipoCombustivel: 1 },
-    estabelecimento: {
-      municipio: { codigoIBGE: 2704302 },
-    },
-    dias: 1,
-    pagina: 1,
-    registrosPorPagina: 1,
-  };
-
   try {
-    const response = await fetchComRetry(
-      SEFAZ_API_URL,
-      {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          AppToken: SEFAZ_APP_TOKEN,
-        },
-        body: JSON.stringify(body),
-      },
-      2,
-      15000
-    );
-
-    if (!response.ok) {
+    // Usa a MESMA função de consulta real para evitar falso negativo por payload diferente.
+    const data = await consultarPrecosCombustivel(1, '2704302', 1);
+    if (!data) {
       return {
         saudavel: false,
-        erro: `SEFAZ respondeu status ${response.status}`,
-      };
-    }
-
-    const data = (await response.json()) as Partial<RespostaSefaz>;
-    const formatoValido = typeof data.totalPaginas === 'number' && Array.isArray(data.conteudo);
-
-    if (!formatoValido) {
-      return {
-        saudavel: false,
-        erro: 'SEFAZ respondeu payload inválido para endpoint de pesquisa',
+        erro: 'SEFAZ sem resposta válida na consulta de teste',
       };
     }
 
@@ -794,6 +764,30 @@ async function atualizarLogColeta(
  * Função principal
  */
 async function main(): Promise<void> {
+  const argumentos = process.argv.slice(2);
+  const somenteHealthcheck = argumentos.includes('--healthcheck-only');
+  const ignorarHealthcheck = argumentos.includes('--skip-healthcheck');
+
+  // Valida configurações
+  if (!SEFAZ_APP_TOKEN) {
+    console.error('❌ SEFAZ_APP_TOKEN não configurado!');
+    process.exit(1);
+  }
+
+  if (!ignorarHealthcheck) {
+    console.log('🩺 Verificando saúde da API SEFAZ...');
+    const saudeSefaz = await verificarSaudeSefaz();
+    if (!saudeSefaz.saudavel) {
+      console.error(`❌ API SEFAZ indisponível. Coleta interrompida: ${saudeSefaz.erro}`);
+      process.exit(1);
+    }
+    console.log('✓ API SEFAZ saudável');
+
+    if (somenteHealthcheck) {
+      return;
+    }
+  }
+
   const municipiosParaProcessar = obterMunicipiosFiltrados();
   const totalMunicipios = Object.keys(municipiosParaProcessar).length;
 
@@ -802,20 +796,6 @@ async function main(): Promise<void> {
   console.log(`Data/Hora: ${new Date().toISOString()}`);
   console.log(`Municípios: ${totalMunicipios}`);
   console.log('='.repeat(60));
-
-  // Valida configurações
-  if (!SEFAZ_APP_TOKEN) {
-    console.error('❌ SEFAZ_APP_TOKEN não configurado!');
-    process.exit(1);
-  }
-
-  console.log('🩺 Verificando saúde da API SEFAZ...');
-  const saudeSefaz = await verificarSaudeSefaz();
-  if (!saudeSefaz.saudavel) {
-    console.error(`❌ API SEFAZ indisponível. Coleta interrompida: ${saudeSefaz.erro}`);
-    process.exit(1);
-  }
-  console.log('✓ API SEFAZ saudável');
 
   const supabaseDisponivel = Boolean(SUPABASE_URL && SUPABASE_SECRET_KEY);
   console.log(`✓ SEFAZ Token configurado`);

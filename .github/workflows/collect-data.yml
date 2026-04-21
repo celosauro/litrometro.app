@@ -43,6 +43,18 @@ jobs:
         run: |
           set +e
 
+          echo "🩺 Executando health check único da API SEFAZ..."
+          npx tsx scripts/coletar-precos-supabase.ts --healthcheck-only
+          healthcheck_status=$?
+          if [[ $healthcheck_status -ne 0 ]]; then
+            echo "❌ Health check SEFAZ falhou. Coleta não será iniciada."
+            echo "success_count=0" >> "$GITHUB_OUTPUT"
+            echo "failed_count=1" >> "$GITHUB_OUTPUT"
+            echo "failed_list=healthcheck-sefaz" >> "$GITHUB_OUTPUT"
+            exit 1
+          fi
+          echo "✓ Health check SEFAZ aprovado. Iniciando coleta por município..."
+
           if [[ -n "$MUNICIPIO_INPUT" ]]; then
             municipios_json=$(node -e "console.log(JSON.stringify([process.argv[1]]))" "$MUNICIPIO_INPUT")
           else
@@ -63,7 +75,7 @@ jobs:
             
             # Retry com backoff exponencial (3 tentativas)
             for attempt in 1 2 3; do
-              npx tsx scripts/coletar-precos-supabase.ts "$municipio"
+              npx tsx scripts/coletar-precos-supabase.ts "$municipio" --skip-healthcheck
               status=$?
               if [[ $status -eq 0 ]]; then
                 break
