@@ -18,6 +18,8 @@ jobs:
   coletar-sequencial:
     runs-on: ubuntu-latest
     timeout-minutes: 300
+    permissions:
+      contents: write
     outputs:
       failed_count: ${{ steps.coleta.outputs.failed_count }}
       failed_list: ${{ steps.coleta.outputs.failed_list }}
@@ -25,6 +27,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
@@ -42,6 +47,86 @@ jobs:
           MUNICIPIO_INPUT: ${{ inputs.municipio || '' }}
         run: |
           set +e
+
+          PROGRESS_FILE=".github/state/coleta-progress.json"
+          if [[ -n "$MUNICIPIO_INPUT" ]]; then
+            PROGRESS_SCOPE="$MUNICIPIO_INPUT"
+          else
+            PROGRESS_SCOPE="__ALL__"
+          fi
+
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          commit_progress() {
+            local message="$1"
+
+            git add "$PROGRESS_FILE"
+            git commit -m "$message" >/dev/null 2>&1 || return 0
+
+            for attempt in 1 2 3; do
+              if git push >/dev/null 2>&1; then
+                return 0
+              fi
+
+              if [[ "$attempt" -lt 3 ]]; then
+                git pull --no-rebase origin main >/dev/null 2>&1 || true
+              fi
+            done
+
+            echo "⚠️ Não foi possível publicar checkpoint no git. Seguindo coleta sem interromper execução."
+            return 0
+          }
+
+          municipio_ja_concluido() {
+            local municipio="$1"
+            node -e '
+              const fs = require("fs");
+              const file = process.argv[1];
+              const scope = process.argv[2];
+              const municipio = process.argv[3];
+              if (!fs.existsSync(file)) process.exit(1);
+              const data = JSON.parse(fs.readFileSync(file, "utf8"));
+              if ((data.scope || "") !== scope) process.exit(1);
+              const completed = new Set(data.completed || []);
+              process.exit(completed.has(municipio) ? 0 : 1);
+            ' "$PROGRESS_FILE" "$PROGRESS_SCOPE" "$municipio"
+          }
+
+          marcar_municipio_concluido() {
+            local municipio="$1"
+            node -e '
+              const fs = require("fs");
+              const path = process.argv[1];
+              const scope = process.argv[2];
+              const municipio = process.argv[3];
+              let data = { scope, completed: [], updated_at: new Date().toISOString() };
+              if (fs.existsSync(path)) {
+                try {
+                  const current = JSON.parse(fs.readFileSync(path, "utf8"));
+                  if ((current.scope || "") === scope) data = current;
+                } catch {}
+              }
+              const completed = new Set(data.completed || []);
+              completed.add(municipio);
+              data.scope = scope;
+              data.completed = Array.from(completed).sort((a, b) => a.localeCompare(b));
+              data.updated_at = new Date().toISOString();
+              fs.mkdirSync(require("path").dirname(path), { recursive: true });
+              fs.writeFileSync(path, JSON.stringify(data, null, 2) + "\n");
+            ' "$PROGRESS_FILE" "$PROGRESS_SCOPE" "$municipio"
+          }
+
+          remover_checkpoint() {
+            if [[ -f "$PROGRESS_FILE" ]]; then
+              rm -f "$PROGRESS_FILE"
+              git add "$PROGRESS_FILE"
+              git commit -m "chore: remove checkpoint de coleta [$(date -u +'%Y-%m-%d %H:%M UTC')]" >/dev/null 2>&1 || true
+              git push >/dev/null 2>&1 || true
+            fi
+          }
+
+          git pull --no-rebase origin main >/dev/null 2>&1 || true
 
           echo "🩺 Executando health check único da API SEFAZ..."
           npx tsx scripts/coletar-precos-supabase.ts --healthcheck-only
@@ -66,12 +151,22 @@ jobs:
           success_count=0
           failed_count=0
           failed_list=''
+          resumed_count=0
           total=${#municipios[@]}
           current=0
 
           for municipio in "${municipios[@]}"; do
             current=$((current + 1))
             echo "::group::[$current/$total] Coleta ${municipio}"
+
+            if municipio_ja_concluido "$municipio"; then
+              resumed_count=$((resumed_count + 1))
+              success_count=$((success_count + 1))
+              echo "↷ ${municipio} já concluído em checkpoint anterior; pulando"
+              echo "::endgroup::"
+              sleep 1
+              continue
+            fi
             
             # Retry com backoff exponencial (3 tentativas)
             for attempt in 1 2 3; do
@@ -88,6 +183,8 @@ jobs:
 
             if [[ $status -eq 0 ]]; then
               success_count=$((success_count + 1))
+              marcar_municipio_concluido "$municipio"
+              commit_progress "chore: checkpoint coleta ${municipio} [$(date -u +'%Y-%m-%d %H:%M UTC')]"
               echo "✓ ${municipio}"
             else
               failed_count=$((failed_count + 1))
@@ -112,9 +209,14 @@ jobs:
           echo "## Resumo da Coleta" >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
           echo "- Municípios com sucesso: $success_count" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Municípios retomados de checkpoint: $resumed_count" >> "$GITHUB_STEP_SUMMARY"
           echo "- Municípios com falha: $failed_count" >> "$GITHUB_STEP_SUMMARY"
           if [[ -n "$failed_list" ]]; then
             echo "- Falhas: $failed_list" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+          if [[ "$failed_count" -eq 0 ]]; then
+            remover_checkpoint
           fi
 
   validar-falhas:
