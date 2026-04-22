@@ -1,9 +1,29 @@
 {
   "codigoIBGE": "2706901",
   "municipio": "Pilar",
-  "atualizadoEm": "2026-04-22T06:16:37.443Z",
+  "atualizadoEm": "2026-04-22T07:29:08.372Z",
   "totalEstabelecimentos": 31,
   "estabelecimentos": [
+    {
+      "cnpj": "35644182000118",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO PILAR LTDA",
+      "nome_fantasia": "POSTO PETROL'S",
+      "telefone": "",
+      "nome_logradouro": "ROD BR 101",
+      "numero_imovel": "SN",
+      "bairro": "CHA DO PILAR",
+      "cep": "57150000",
+      "codigo_ibge": "2706901",
+      "municipio": "Pilar",
+      "latitude": -9.6065836,
+      "longitude": -36.0268827,
+      "valor_minimo": 6.68,
+      "valor_maximo": 6.68,
+      "valor_medio": 6.68,
+      "valor_recente": 6.68,
+      "data_recente": "2026-04-22T04:07:18+00:00"
+    },
     {
       "cnpj": "27855877000110",
       "tipo_combustivel": 1,
@@ -23,26 +43,6 @@
       "valor_medio": 6.68,
       "valor_recente": 6.68,
       "data_recente": "2026-04-22T03:15:40+00:00"
-    },
-    {
-      "cnpj": "35644182000118",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO PILAR LTDA",
-      "nome_fantasia": "POSTO PETROL'S",
-      "telefone": "",
-      "nome_logradouro": "ROD BR 101",
-      "numero_imovel": "SN",
-      "bairro": "CHA DO PILAR",
-      "cep": "57150000",
-      "codigo_ibge": "2706901",
-      "municipio": "Pilar",
-      "latitude": -9.6065836,
-      "longitude": -36.0268827,
-      "valor_minimo": 6.68,
-      "valor_maximo": 6.68,
-      "valor_medio": 6.68,
-      "valor_recente": 6.68,
-      "data_recente": "2026-04-22T02:03:35+00:00"
     },
     {
       "cnpj": "19034367000154",
@@ -78,11 +78,11 @@
       "municipio": "Pilar",
       "latitude": -9.59722,
       "longitude": -35.95667,
-      "valor_minimo": 6.7898,
-      "valor_maximo": 6.7898,
-      "valor_medio": 6.7898,
-      "valor_recente": 6.7898,
-      "data_recente": "2026-04-22T03:03:27+00:00"
+      "valor_minimo": 6.7889,
+      "valor_maximo": 6.7889,
+      "valor_medio": 6.7889,
+      "valor_recente": 6.7889,
+      "data_recente": "2026-04-22T04:51:17+00:00"
     },
     {
       "cnpj": "18301306000143",
@@ -102,27 +102,7 @@
       "valor_maximo": 6.7898,
       "valor_medio": 6.7898,
       "valor_recente": 6.7898,
-      "data_recente": "2026-04-22T02:32:57+00:00"
-    },
-    {
-      "cnpj": "12486809000316",
-      "tipo_combustivel": 1,
-      "razao_social": "CDA EMPREENDIMENTOS LTDA",
-      "nome_fantasia": "POSTO CHA DO PILAR",
-      "telefone": "",
-      "nome_logradouro": "AV RUBENS CANUTO",
-      "numero_imovel": "SN",
-      "bairro": "CHA DO PILAR",
-      "cep": "57150000",
-      "codigo_ibge": "2706901",
-      "municipio": "Pilar",
-      "latitude": -9.590575399999999,
-      "longitude": -35.9489026,
-      "valor_minimo": 6.8899,
-      "valor_maximo": 6.8899,
-      "valor_medio": 6.8899,
-      "valor_recente": 6.8899,
-      "data_recente": "2026-04-22T00:49:47+00:00"
+      "data_recente": "2026-04-22T03:53:37+00:00"
     },
     {
       "cnpj": "51694482000168",
@@ -163,6 +143,26 @@
       "valor_medio": 6.8899,
       "valor_recente": 6.8899,
       "data_recente": "2026-04-22T00:50:24+00:00"
+    },
+    {
+      "cnpj": "12486809000316",
+      "tipo_combustivel": 1,
+      "razao_social": "CDA EMPREENDIMENTOS LTDA",
+      "nome_fantasia": "POSTO CHA DO PILAR",
+      "telefone": "",
+      "nome_logradouro": "AV RUBENS CANUTO",
+      "numero_imovel": "SN",
+      "bairro": "CHA DO PILAR",
+      "cep": "57150000",
+      "codigo_ibge": "2706901",
+      "municipio": "Pilar",
+      "latitude": -9.590575399999999,
+      "longitude": -35.9489026,
+      "valor_minimo": 6.8899,
+      "valor_maximo": 6.8899,
+      "valor_medio": 6.8899,
+      "valor_recente": 6.8899,
+      "data_recente": "2026-04-22T00:49:47+00:00"
     },
     {
       "cnpj": "19034367000154",
@@ -305,26 +305,6 @@
       "data_recente": "2026-04-22T02:59:58+00:00"
     },
     {
-      "cnpj": "18301306000143",
-      "tipo_combustivel": 3,
-      "razao_social": "CARVALHO E MELO COMERCIO DE COMBUSTIVEIS LTDA - ME",
-      "nome_fantasia": "CARVALHO E MELO COMERCIO DE COMBUSTIVEIS LTDA",
-      "telefone": "",
-      "nome_logradouro": "ROD BR 316",
-      "numero_imovel": "210",
-      "bairro": "ZONA RURAL",
-      "cep": "57150000",
-      "codigo_ibge": "2706901",
-      "municipio": "Pilar",
-      "latitude": -9.6016711,
-      "longitude": -35.9511275,
-      "valor_minimo": 5.19,
-      "valor_maximo": 5.19,
-      "valor_medio": 5.19,
-      "valor_recente": 5.19,
-      "data_recente": "2026-04-22T02:59:51+00:00"
-    },
-    {
       "cnpj": "39567744000128",
       "tipo_combustivel": 3,
       "razao_social": "AUTO POSTO PILAR COMERCIO DE COMBUSTIVEIS LTDA",
@@ -343,6 +323,26 @@
       "valor_medio": 5.19,
       "valor_recente": 5.19,
       "data_recente": "2026-04-22T02:57:39+00:00"
+    },
+    {
+      "cnpj": "18301306000143",
+      "tipo_combustivel": 3,
+      "razao_social": "CARVALHO E MELO COMERCIO DE COMBUSTIVEIS LTDA - ME",
+      "nome_fantasia": "CARVALHO E MELO COMERCIO DE COMBUSTIVEIS LTDA",
+      "telefone": "",
+      "nome_logradouro": "ROD BR 316",
+      "numero_imovel": "210",
+      "bairro": "ZONA RURAL",
+      "cep": "57150000",
+      "codigo_ibge": "2706901",
+      "municipio": "Pilar",
+      "latitude": -9.6016711,
+      "longitude": -35.9511275,
+      "valor_minimo": 5.19,
+      "valor_maximo": 5.19,
+      "valor_medio": 5.19,
+      "valor_recente": 5.19,
+      "data_recente": "2026-04-22T02:59:51+00:00"
     },
     {
       "cnpj": "19034367000154",
@@ -385,26 +385,6 @@
       "data_recente": "2026-04-22T00:50:07+00:00"
     },
     {
-      "cnpj": "12486809000316",
-      "tipo_combustivel": 3,
-      "razao_social": "CDA EMPREENDIMENTOS LTDA",
-      "nome_fantasia": "POSTO CHA DO PILAR",
-      "telefone": "",
-      "nome_logradouro": "AV RUBENS CANUTO",
-      "numero_imovel": "SN",
-      "bairro": "CHA DO PILAR",
-      "cep": "57150000",
-      "codigo_ibge": "2706901",
-      "municipio": "Pilar",
-      "latitude": -9.590575399999999,
-      "longitude": -35.9489026,
-      "valor_minimo": 5.3897,
-      "valor_maximo": 5.3897,
-      "valor_medio": 5.3897,
-      "valor_recente": 5.3897,
-      "data_recente": "2026-04-22T00:49:47+00:00"
-    },
-    {
       "cnpj": "51694482000168",
       "tipo_combustivel": 3,
       "razao_social": "AUTO POSTO JVR LTDA",
@@ -423,6 +403,26 @@
       "valor_medio": 5.3897,
       "valor_recente": 5.3897,
       "data_recente": "2026-04-22T00:57:26+00:00"
+    },
+    {
+      "cnpj": "12486809000316",
+      "tipo_combustivel": 3,
+      "razao_social": "CDA EMPREENDIMENTOS LTDA",
+      "nome_fantasia": "POSTO CHA DO PILAR",
+      "telefone": "",
+      "nome_logradouro": "AV RUBENS CANUTO",
+      "numero_imovel": "SN",
+      "bairro": "CHA DO PILAR",
+      "cep": "57150000",
+      "codigo_ibge": "2706901",
+      "municipio": "Pilar",
+      "latitude": -9.590575399999999,
+      "longitude": -35.9489026,
+      "valor_minimo": 5.3897,
+      "valor_maximo": 5.3897,
+      "valor_medio": 5.3897,
+      "valor_recente": 5.3897,
+      "data_recente": "2026-04-22T00:49:47+00:00"
     },
     {
       "cnpj": "27855877000110",
@@ -458,11 +458,11 @@
       "municipio": "Pilar",
       "latitude": -9.6065836,
       "longitude": -36.0268827,
-      "valor_minimo": 6.7799,
+      "valor_minimo": 6.78,
       "valor_maximo": 6.78,
       "valor_medio": 6.78,
-      "valor_recente": 6.7799,
-      "data_recente": "2026-04-22T02:03:08+00:00"
+      "valor_recente": 6.78,
+      "data_recente": "2026-04-22T04:55:26+00:00"
     },
     {
       "cnpj": "27855877000110",
