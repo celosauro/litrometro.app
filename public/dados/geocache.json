@@ -1661,12 +1661,6 @@
     "data": "2026-04-14T17:21:38.005Z",
     "endereco_formatado": "Rodovia Edvaldo Lemos - Taperagua, Mal. Deodoro - AL, 57160-000, Brasil"
   },
-  "34193732000167": {
-    "latitude": -9.7663547,
-    "longitude": -35.8509055,
-    "fonte": "nominatim",
-    "atualizadoEm": "2026-04-20T21:52:29.416Z"
-  },
   "05408092000167": {
     "latitude": -9.5796898,
     "longitude": -36.3065469,
@@ -2969,12 +2963,6 @@
     "data": "2026-04-14T17:21:35.919Z",
     "endereco_formatado": "BR-424, Mal. Deodoro - AL, Brasil"
   },
-  "50763348000109": {
-    "latitude": -9.7669741,
-    "longitude": -35.8505358,
-    "fonte": "nominatim",
-    "atualizadoEm": "2026-04-20T21:52:29.416Z"
-  },
   "06964197000165": {
     "latitude": -9.57722,
     "longitude": -36.30528,
@@ -3446,5 +3434,23 @@
     "fonte": "manual",
     "atualizadoEm": "2026-04-20T11:09:35.598Z",
     "observacao": "Corrigido manualmente - estava mostrando em Marechal Deodoro"
+  },
+  "57837918000107": {
+    "latitude": -9.6625728,
+    "longitude": -35.7285904,
+    "fonte": "nominatim",
+    "atualizadoEm": "2026-04-21T08:16:34.868Z"
+  },
+  "34193732000167": {
+    "latitude": -9.73333,
+    "longitude": -35.81667,
+    "fonte": "opencage",
+    "atualizadoEm": "2026-04-21T08:16:37.915Z"
+  },
+  "50763348000109": {
+    "latitude": -9.73333,
+    "longitude": -35.81667,
+    "fonte": "opencage",
+    "atualizadoEm": "2026-04-21T08:16:40.678Z"
   }
 }
