@@ -2,7 +2,7 @@ name: Coletar Preços de Combustíveis
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 */3 * * *'
   workflow_dispatch:
     inputs:
       municipio:

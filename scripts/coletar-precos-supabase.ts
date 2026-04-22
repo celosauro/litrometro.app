@@ -1,6 +1,6 @@
 /**
  * Script de coleta de preços de combustíveis - Versão Supabase
- * Executa via GitHub Actions a cada hora
+ * Executa via GitHub Actions a cada 3 horas
  * Consulta a API SEFAZ/AL e salva no Supabase + JSON (fallback)
  */
 

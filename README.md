@@ -57,7 +57,7 @@ O Litrômetro é uma aplicação web gratuita que permite aos consumidores alago
 │  │ API SEFAZ/AL │───▶│   Supabase   │───▶│ atual.min.json   │  │
 │  │   (fonte)    │    │ (PostgreSQL) │    │   (84KB gzip)    │  │
 │  └──────────────┘    └──────────────┘    └──────────────────┘  │
-│        ↑ a cada hora       ↑ persiste         ↑ exporta        │
+│       ↑ a cada 3 horas     ↑ persiste         ↑ exporta        │
 └─────────────────────────────────────────────────────────────────┘
                                                       │
                                                       ▼
@@ -169,7 +169,7 @@ LOCATIONIQ_API_KEY=xxx
 
 | Workflow | Schedule | Descrição |
 |----------|----------|-----------|
-| **collect-data.yml** | A cada hora | Coleta preços da SEFAZ, salva no Supabase e exporta JSON |
+| **collect-data.yml** | A cada 3 horas | Coleta preços da SEFAZ e salva no Supabase |
 | **process-history.yml** | 06:00 UTC | Processa histórico dos últimos 30 dias |
 | **geocode-data.yml** | 06:30 UTC | Geocodifica novos estabelecimentos |
 | **deploy.yml** | Push na main | Build e deploy para GitHub Pages |
@@ -181,7 +181,7 @@ LOCATIONIQ_API_KEY=xxx
 ```
 litrometro/
 ├── .github/workflows/       # GitHub Actions
-│   ├── collect-data.yml     # Coleta horária
+│   ├── collect-data.yml     # Coleta a cada 3 horas
 │   ├── deploy.yml           # Deploy automático
 │   ├── geocode-data.yml     # Geocodificação diária
 │   └── process-history.yml  # Processamento de histórico

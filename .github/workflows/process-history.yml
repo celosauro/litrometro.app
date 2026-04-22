@@ -39,6 +39,10 @@ jobs:
         run: npm ci
 
       - name: Processar histórico de preços
+        env:
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+          DIAS_HISTORICO: ${{ env.DIAS_HISTORICO }}
         run: npm run process:history
 
       - name: Verificar mudanças
