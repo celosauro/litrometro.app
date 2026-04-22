@@ -3,7 +3,7 @@
  * Exporta dados do Supabase para JSON minificado
  * 
  * Executa: npm run export:json
- * Schedule: A cada hora, 15min após coleta (via GitHub Actions)
+ * Schedule: Executado após cada coleta de 3 em 3 horas (via GitHub Actions)
  */
 
 import 'dotenv/config';
