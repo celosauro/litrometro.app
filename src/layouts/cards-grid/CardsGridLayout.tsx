@@ -1,20 +1,31 @@
 import { useState, useMemo, useEffect, useRef, useCallback } from 'react'
-import { MagnifyingGlass, Crosshair, MapTrifold } from '@phosphor-icons/react'
+import { Crosshair, MapTrifold } from '@phosphor-icons/react'
 import { usePrecosCombustiveis } from '../../hooks/usePrecosCombustiveis'
 import { useGeolocalizacao } from '../../hooks/useGeolocalizacao'
-import { SeletorTipoCombustivel } from '../../components/FuelTypeSelector'
-import { SeletorMunicipio } from '../../components/MunicipioSelector'
 import { SkeletonCard } from '../../components/SkeletonCard'
 import { EmptyState, EmptyStateAction } from '../../components/EmptyState'
 import { calcularNivelPreco } from '../../components/PriceBadge'
 import { calcularDistanciaKm } from '../../utils/distancia'
-import { trackFuelTypeSelect, trackMunicipalitySelect, trackSearch } from '../../utils/analytics'
+import { trackFuelTypeSelect, trackMunicipalitySelect } from '../../utils/analytics'
 import type { TipoCombustivel, PrecoCombustivelResumo } from '../../types'
 import { TIPOS_COMBUSTIVEL, MUNICIPIOS_AL } from '../../types'
 import { FuelCardGrid } from './FuelCardGrid'
 import { MapModal } from './MapModal'
+import { LayoutSwitcher } from '../LayoutSwitcher'
 
 const CODIGO_MACEIO = '2704302'
+
+const FUEL_CHIPS: { id: TipoCombustivel; label: string }[] = [
+  { id: 1, label: 'Gasolina' },
+  { id: 2, label: 'Gasolina Ad.' },
+  { id: 3, label: 'Etanol' },
+  { id: 4, label: 'Diesel' },
+  { id: 5, label: 'Diesel S10' },
+  { id: 6, label: 'GNV' },
+]
+
+const FUEL_CHIP_INACTIVE_CLASSES = 'border-gray-200 bg-gray-50 text-gray-700 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-200'
+const FUEL_CHIP_ACTIVE_CLASSES = 'bg-brand-600 text-white border-brand-600 shadow-sm shadow-brand-600/25'
 
 interface DadosComDistancia extends PrecoCombustivelResumo {
   distancia?: number
@@ -23,7 +34,6 @@ interface DadosComDistancia extends PrecoCombustivelResumo {
 export function CardsGridLayout() {
   const [tipoCombustivelSelecionado, setTipoCombustivelSelecionado] = useState<TipoCombustivel>(1)
   const [municipioSelecionado, setMunicipioSelecionado] = useState<string>(CODIGO_MACEIO)
-  const [termoBusca, setTermoBusca] = useState('')
   const [mostrarStatusLocalizacao, setMostrarStatusLocalizacao] = useState(true)
   const [estabelecimentoNoMapa, setEstabelecimentoNoMapa] = useState<DadosComDistancia | null>(null)
   
@@ -35,9 +45,7 @@ export function CardsGridLayout() {
 
   const { 
     localizacao, 
-    carregando: carregandoLocalizacao, 
     erro: erroLocalizacao,
-    obterLocalizacao 
   } = useGeolocalizacao()
 
   // Oculta tooltips de status após 3 segundos
@@ -115,15 +123,6 @@ export function CardsGridLayout() {
     if (!dadosComDistancia) return []
     
     return dadosComDistancia
-      .filter((item) => {
-        if (!termoBusca) return true
-        const busca = termoBusca.toLowerCase()
-        return (
-          item.nome_fantasia.toLowerCase().includes(busca) ||
-          item.razao_social.toLowerCase().includes(busca) ||
-          item.bairro.toLowerCase().includes(busca)
-        )
-      })
       .sort((a, b) => {
         if (a.valor_recente !== b.valor_recente) {
           return a.valor_recente - b.valor_recente
@@ -132,7 +131,7 @@ export function CardsGridLayout() {
         const distB = b.distancia ?? Infinity
         return distA - distB
       })
-  }, [dadosComDistancia, termoBusca])
+  }, [dadosComDistancia])
 
   // CNPJ do melhor posto (menor preço)
   const cnpjMelhorPosto = useMemo(() => {
@@ -160,75 +159,59 @@ export function CardsGridLayout() {
     }
   }, [])
 
-  // Tracking de busca com debounce
-  useEffect(() => {
-    if (!termoBusca || termoBusca.length < 3) return
-    const timer = setTimeout(() => {
-      trackSearch(termoBusca, dadosFiltrados?.length || 0)
-    }, 1000)
-    return () => clearTimeout(timer)
-  }, [termoBusca, dadosFiltrados?.length])
-
   return (
     <div className="flex flex-col flex-1 w-full min-h-0">
       {/* Filtros */}
-      <div className="sticky top-0 bg-white/90 dark:bg-gray-800/90 backdrop-blur-md shadow-sm 
-                      dark:shadow-gray-900/20 z-40 flex-shrink-0 border-b border-transparent dark:border-gray-700">
-        <div className="max-w-7xl mx-auto px-3 py-3 sm:px-4 sm:py-4">
-          {/* Seletor de combustível */}
-          <SeletorTipoCombustivel
-            selecionado={tipoCombustivelSelecionado}
-            aoMudar={handleTipoCombustivelChange}
-          />
+      <div className="sticky top-0 bg-white/90 dark:bg-gray-800/90 backdrop-blur-md shadow-sm dark:shadow-gray-900/20 z-40 flex-shrink-0 border-b border-transparent dark:border-gray-700">
+        <div className="max-w-7xl mx-auto px-3 py-2 sm:px-4 sm:py-3 grid grid-cols-2 sm:flex sm:items-center gap-2 sm:gap-3">
+          <select
+            value={municipioSelecionado}
+            onChange={(e) => handleMunicipioChange(e.target.value)}
+            className="w-full min-w-0 sm:w-auto sm:min-w-[180px] appearance-none px-2.5 py-2 rounded-lg sm:rounded-xl bg-gray-50 dark:bg-gray-700 text-xs sm:text-sm text-gray-900 dark:text-white border border-gray-200 dark:border-gray-600 focus:ring-2 focus:ring-brand-500"
+            aria-label="Filtrar por município"
+          >
+            <option value="">Município</option>
+            {Object.entries(MUNICIPIOS_AL).map(([codigo, nome]) => (
+              <option key={codigo} value={codigo}>{nome}</option>
+            ))}
+          </select>
 
-          {/* Filtros adicionais */}
-          <div className="mt-3 sm:mt-4 space-y-2 sm:space-y-0 sm:flex sm:flex-wrap sm:gap-3">
-            {/* Busca */}
-            <div className="relative w-full sm:flex-1 sm:min-w-[200px]">
-              <MagnifyingGlass
-                size={18}
-                className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 sm:w-5 sm:h-5"
-              />
-              <input
-                type="text"
-                placeholder="Buscar posto, bairro..."
-                value={termoBusca}
-                onChange={(e) => setTermoBusca(e.target.value)}
-                className="w-full pl-9 sm:pl-10 pr-4 py-2 text-sm sm:text-base border border-gray-300 
-                           dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 
-                           text-gray-900 dark:text-gray-100 placeholder-gray-400 
-                           dark:placeholder-gray-500 focus:ring-2 focus:ring-brand-500 focus:border-transparent"
-              />
-            </div>
+          <div className="w-full min-w-0 sm:w-auto sm:min-w-[190px]">
+            <LayoutSwitcher fullWidth />
+          </div>
+        </div>
 
-            {/* Linha com selects e botões */}
-            <div className="flex gap-2 sm:gap-3 flex-wrap">
-              {/* Município */}
-              <div className="flex-1 sm:flex-none min-w-[120px]">
-                <SeletorMunicipio
-                  selecionado={municipioSelecionado}
-                  aoMudar={handleMunicipioChange}
-                />
-              </div>
-
-              {/* Botão localização */}
+        <div className="sm:hidden border-t border-gray-100 dark:border-gray-700 px-3 py-2">
+          <div className="flex gap-2 overflow-x-auto scrollbar-hide">
+            {FUEL_CHIPS.map(fuel => (
               <button
-                onClick={obterLocalizacao}
-                disabled={carregandoLocalizacao}
-                className={`btn-secondary flex items-center justify-center gap-2 px-3 sm:px-4 ${
-                  localizacao 
-                    ? 'bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 border-green-300 dark:border-green-700' 
-                    : ''
+                key={fuel.id}
+                onClick={() => handleTipoCombustivelChange(fuel.id)}
+                className={`inline-flex items-center rounded-full border px-3 py-2 text-xs font-semibold whitespace-nowrap transition-all ${
+                  tipoCombustivelSelecionado === fuel.id ? FUEL_CHIP_ACTIVE_CLASSES : FUEL_CHIP_INACTIVE_CLASSES
                 }`}
-                aria-label="Obter localização"
-                title={localizacao ? 'Localização obtida' : 'Obter minha localização'}
               >
-                <Crosshair
-                  size={18}
-                  className={`sm:w-5 sm:h-5 ${carregandoLocalizacao ? 'animate-pulse' : ''}`}
-                />
+                {fuel.label}
               </button>
-            </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="hidden sm:block border-t border-gray-100 dark:border-gray-700 px-4 py-3">
+          <div className="flex gap-2 overflow-x-auto scrollbar-hide max-w-7xl mx-auto">
+            {FUEL_CHIPS.map(fuel => (
+              <button
+                key={fuel.id}
+                onClick={() => handleTipoCombustivelChange(fuel.id)}
+                className={`px-4 py-2 rounded-full text-xs font-semibold whitespace-nowrap transition-all ${
+                  tipoCombustivelSelecionado === fuel.id
+                    ? 'bg-brand-600 text-white shadow-md'
+                    : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                }`}
+              >
+                {fuel.label}
+              </button>
+            ))}
           </div>
         </div>
       </div>
@@ -285,13 +268,9 @@ export function CardsGridLayout() {
           {/* Empty state */}
           {!carregando && dadosFiltrados.length === 0 && (
             <EmptyState 
-              variant={termoBusca ? 'no-results' : 'empty'}
+              variant="empty"
               action={
-                termoBusca ? (
-                  <EmptyStateAction onClick={() => setTermoBusca('')}>
-                    Limpar busca
-                  </EmptyStateAction>
-                ) : municipioSelecionado !== '' ? (
+                municipioSelecionado !== '' ? (
                   <EmptyStateAction onClick={() => setMunicipioSelecionado('')}>
                     Ver todos os municípios
                   </EmptyStateAction>

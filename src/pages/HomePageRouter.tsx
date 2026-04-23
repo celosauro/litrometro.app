@@ -1,5 +1,5 @@
 import { useLayout, CardsGridLayout, CompactListLayout } from '../layouts'
-import HomePageDefault from './HomePage'
+import FindFuelHomePage from './FindFuelHomePage'
 
 /**
  * HomePageRouter - Renderiza o layout selecionado
@@ -15,6 +15,6 @@ export default function HomePageRouter() {
       return <CompactListLayout />
     case 'default':
     default:
-      return <HomePageDefault />
+      return <FindFuelHomePage />
   }
 }

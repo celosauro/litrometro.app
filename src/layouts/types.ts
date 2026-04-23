@@ -15,9 +15,9 @@ export interface LayoutInfo {
 export const LAYOUTS: LayoutInfo[] = [
   { 
     id: 'default', 
-    nome: 'Padrão', 
-    descricao: 'Lista + Mapa lado a lado', 
-    icone: '📋' 
+    nome: 'Mapa', 
+    descricao: 'Mapa interativo com filtros', 
+    icone: '🗺️' 
   },
   { 
     id: 'cards-grid', 
