@@ -406,6 +406,7 @@ export default function FindFuelHomePage() {
                   dados={item}
                   distancia={item.distancia}
                   isMelhor={item.cnpj === cnpjMelhorPosto}
+                  localizacaoUsuario={localizacao}
                   onClick={() => handleCardClick(item)}
                 />
               ))}

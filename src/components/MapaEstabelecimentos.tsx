@@ -16,6 +16,7 @@ import { trackStationView } from '../utils/analytics';
 import type { PrecoCombustivelResumo, TipoCombustivel } from '../types';
 import { TIPOS_COMBUSTIVEL } from '../types';
 import { formatarDistancia } from '../utils/distancia';
+import { criarLinkGoogleDirections } from '../utils/directions';
 
 // Tiles gratuitos do CartoCDN
 const MAP_STYLE = 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json';
@@ -304,6 +305,13 @@ export function MapaEstabelecimentos({
     });
   };
 
+  const criarLinkRota = useCallback((item: DadosComDistancia) => {
+    return criarLinkGoogleDirections(
+      { latitude: item.latitude, longitude: item.longitude },
+      localizacao
+    );
+  }, [localizacao]);
+
   const handleMarkerClick = useCallback((e: any, item: DadosComDistancia) => {
     e.originalEvent.stopPropagation();
     setPopupInfo(item);
@@ -412,14 +420,13 @@ export function MapaEstabelecimentos({
                 Atualizado: {formatarData(popupInfo.data_recente)}
               </p>
               
-              {/* Link Google Maps */}
               <a
-                href={`https://www.google.com/maps/search/?api=1&query=${popupInfo.latitude},${popupInfo.longitude}`}
+                href={criarLinkRota(popupInfo)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block mt-2 text-xs text-brand-500 hover:text-brand-700 underline"
+                className="inline-flex mt-2 w-full items-center justify-center rounded-lg bg-brand-600 px-3 py-2 text-xs font-semibold text-white hover:bg-brand-700 transition-colors"
               >
-                Ver no Google Maps →
+                Como chegar
               </a>
             </div>
           </Popup>

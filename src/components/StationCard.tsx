@@ -2,12 +2,14 @@ import { GasPump, MapPin, Phone, NavigationArrow, Star, Clock } from '@phosphor-
 import type { PrecoCombustivelResumo, TipoCombustivel } from '../types'
 import { TIPOS_COMBUSTIVEL } from '../types'
 import { formatarDistancia } from '../utils/distancia'
+import { criarLinkGoogleDirections } from '../utils/directions'
 
 interface StationCardProps {
   dados: PrecoCombustivelResumo
   distancia?: number
   isMelhor?: boolean
   onClick?: () => void
+  localizacaoUsuario?: { latitude: number; longitude: number } | null
 }
 
 // Cores mais vibrantes para os tipos de combustível
@@ -20,7 +22,7 @@ const FUEL_COLORS: Record<TipoCombustivel, { bg: string; text: string; icon: str
   6: { bg: 'bg-blue-100', text: 'text-blue-700', icon: 'text-blue-500' },         // GNV
 }
 
-export function StationCard({ dados, distancia, isMelhor, onClick }: StationCardProps) {
+export function StationCard({ dados, distancia, isMelhor, onClick, localizacaoUsuario }: StationCardProps) {
   const tipoCombustivel = dados.tipo_combustivel as TipoCombustivel
   const nomeCombustivel = TIPOS_COMBUSTIVEL[tipoCombustivel]
   const cores = FUEL_COLORS[tipoCombustivel] || FUEL_COLORS[1]
@@ -34,6 +36,13 @@ export function StationCard({ dados, distancia, isMelhor, onClick }: StationCard
 
   const nomeExibicao = dados.nome_fantasia || dados.razao_social
   const enderecoCurto = `${dados.bairro}${dados.municipio ? `, ${dados.municipio}` : ''}`
+  const possuiCoordenadasValidas = dados.latitude !== 0 && dados.longitude !== 0
+  const linkRota = possuiCoordenadasValidas
+    ? criarLinkGoogleDirections(
+        { latitude: dados.latitude, longitude: dados.longitude },
+        localizacaoUsuario
+      )
+    : null
 
   return (
     <article 
@@ -142,6 +151,18 @@ export function StationCard({ dados, distancia, isMelhor, onClick }: StationCard
             </a>
           )}
         </div>
+
+        {linkRota && (
+          <a
+            href={linkRota}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={(e) => e.stopPropagation()}
+            className="mt-3 inline-flex items-center justify-center w-full rounded-lg bg-brand-600 px-3 py-2 text-xs font-semibold text-white hover:bg-brand-700 transition-colors"
+          >
+            Como chegar
+          </a>
+        )}
       </div>
     </article>
   )
