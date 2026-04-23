@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect, useRef, useCallback } from 'react'
-import { MagnifyingGlass, Crosshair, List, CaretDown, X, GasPump } from '@phosphor-icons/react'
+import { GasPump } from '@phosphor-icons/react'
 import { usePrecosCombustiveis } from '../hooks/usePrecosCombustiveis'
 import { useGeolocalizacao } from '../hooks/useGeolocalizacao'
 import { MapaEstabelecimentos } from '../components/MapaEstabelecimentos'
@@ -8,7 +8,7 @@ import { SkeletonCard } from '../components/SkeletonCard'
 import { EmptyState, EmptyStateAction } from '../components/EmptyState'
 import { AdBanner } from '../components/AdBanner'
 import { calcularDistanciaKm } from '../utils/distancia'
-import { trackFuelTypeSelect, trackMunicipalitySelect, trackSearch } from '../utils/analytics'
+import { trackFuelTypeSelect, trackMunicipalitySelect } from '../utils/analytics'
 import type { TipoCombustivel, PrecoCombustivelResumo } from '../types'
 import { TIPOS_COMBUSTIVEL, MUNICIPIOS_AL } from '../types'
 import { LayoutSwitcher } from '../layouts'
@@ -35,8 +35,6 @@ interface DadosComDistancia extends PrecoCombustivelResumo {
 export default function FindFuelHomePage() {
   const [tipoCombustivelSelecionado, setTipoCombustivelSelecionado] = useState<TipoCombustivel>(1)
   const [municipioSelecionado, setMunicipioSelecionado] = useState<string>(CODIGO_MACEIO)
-  const [termoBusca, setTermoBusca] = useState('')
-  const [mostrarFiltros, setMostrarFiltros] = useState(false)
   const [estabelecimentoSelecionado, setEstabelecimentoSelecionado] = useState<DadosComDistancia | null>(null)
   // Dados visíveis no viewport atual do mapa
   const [dadosVisiveis, setDadosVisiveis] = useState<DadosComDistancia[]>([])
@@ -51,8 +49,6 @@ export default function FindFuelHomePage() {
 
   const { 
     localizacao, 
-    carregando: carregandoLocalizacao, 
-    obterLocalizacao 
   } = useGeolocalizacao()
 
   // Atualiza município baseado na localização do usuário
@@ -99,7 +95,7 @@ export default function FindFuelHomePage() {
   // Limpa seleção quando filtros mudam
   useEffect(() => {
     setEstabelecimentoSelecionado(null)
-  }, [tipoCombustivelSelecionado, municipioSelecionado, termoBusca])
+  }, [tipoCombustivelSelecionado, municipioSelecionado])
 
   // Calcula distância para cada estabelecimento
   const dadosComDistancia: DadosComDistancia[] | undefined = useMemo(() => {
@@ -131,15 +127,6 @@ export default function FindFuelHomePage() {
     if (!dadosVisiveis.length) return []
     
     return dadosVisiveis
-      .filter((item) => {
-        if (!termoBusca) return true
-        const busca = termoBusca.toLowerCase()
-        return (
-          item.nome_fantasia.toLowerCase().includes(busca) ||
-          item.razao_social.toLowerCase().includes(busca) ||
-          item.bairro.toLowerCase().includes(busca)
-        )
-      })
       .sort((a, b) => {
         // Ordena por menor preço primeiro
         if (a.valor_recente !== b.valor_recente) {
@@ -150,7 +137,7 @@ export default function FindFuelHomePage() {
         const distB = b.distancia ?? Infinity
         return distA - distB
       })
-  }, [dadosVisiveis, termoBusca])
+  }, [dadosVisiveis])
 
   // CNPJ do melhor posto
   const cnpjMelhorPosto = useMemo(() => {
@@ -161,13 +148,11 @@ export default function FindFuelHomePage() {
   // Handlers
   const handleTipoCombustivelChange = useCallback((tipo: TipoCombustivel) => {
     setTipoCombustivelSelecionado(tipo)
-    setMostrarFiltros(false) // Fecha o painel de filtros
     trackFuelTypeSelect(TIPOS_COMBUSTIVEL[tipo], tipo)
   }, [])
 
   const handleMunicipioChange = useCallback((codigo: string) => {
     setMunicipioSelecionado(codigo)
-    setMostrarFiltros(false) // Fecha o painel de filtros
     if (codigo) {
       const nome = MUNICIPIOS_AL[codigo] || codigo
       trackMunicipalitySelect(nome, codigo)
@@ -182,19 +167,35 @@ export default function FindFuelHomePage() {
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
-  // Tracking de busca com debounce
-  useEffect(() => {
-    if (!termoBusca || termoBusca.length < 3) return
-    const timer = setTimeout(() => {
-      trackSearch(termoBusca, dadosFiltrados?.length || 0)
-    }, 1000)
-    return () => clearTimeout(timer)
-  }, [termoBusca, dadosFiltrados?.length])
-
   const municipioNome = MUNICIPIOS_AL[municipioSelecionado] || 'Alagoas'
 
   return (
     <div className="flex flex-col flex-1 w-full overflow-hidden">
+      {/* Barra superior de filtros - fora do mapa */}
+      <section className="relative z-40 flex-shrink-0 border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 px-3 py-2 sm:px-4 sm:py-3">
+        <div className="max-w-7xl mx-auto grid grid-cols-2 sm:flex sm:items-center gap-2 sm:gap-3 overflow-visible">
+          {/* Município */}
+          <select
+            value={municipioSelecionado}
+            onChange={(e) => handleMunicipioChange(e.target.value)}
+            className="w-full min-w-0 sm:w-auto sm:min-w-[180px] appearance-none px-2.5 py-2 rounded-lg sm:rounded-xl bg-gray-50 dark:bg-gray-700
+                       text-xs sm:text-sm text-gray-900 dark:text-white border border-gray-200 dark:border-gray-600
+                       focus:ring-2 focus:ring-brand-500"
+            aria-label="Filtrar por município"
+          >
+            <option value="">Município</option>
+            {Object.entries(MUNICIPIOS_AL).map(([codigo, nome]) => (
+              <option key={codigo} value={codigo}>{nome}</option>
+            ))}
+          </select>
+
+          {/* Tipo de visualização */}
+          <div className="w-full min-w-0 sm:w-auto sm:min-w-[190px]">
+            <LayoutSwitcher fullWidth />
+          </div>
+        </div>
+      </section>
+
       {/* Seção do Mapa com Filtros sobrepostos */}
       <section className="relative flex-1 min-h-0 sm:h-[45vh] sm:flex-none sm:min-h-[45vh] flex-shrink-0 z-10 overflow-hidden">
         {/* Mapa */}
@@ -211,126 +212,6 @@ export default function FindFuelHomePage() {
             className="w-full h-full"
           />
         </div>
-
-        {/* Overlays do mapa */}
-        <div className="absolute inset-x-0 top-0 p-3 sm:p-4 z-20 pointer-events-none">
-          <div className="flex items-center gap-2 pointer-events-auto">
-            {/* Barra de busca */}
-            <div className="flex-1 relative">
-              <MagnifyingGlass 
-                size={18} 
-                className="absolute left-3.5 top-1/2 -translate-y-1/2 text-gray-400" 
-              />
-              <input
-                type="text"
-                placeholder="Buscar posto ou bairro..."
-                value={termoBusca}
-                onChange={(e) => setTermoBusca(e.target.value)}
-                className="w-full pl-10 pr-10 py-3 rounded-2xl bg-white dark:bg-gray-800 
-                           text-sm text-gray-900 dark:text-white placeholder-gray-400
-                           shadow-lg border-0 focus:ring-2 focus:ring-brand-500 focus:outline-none"
-              />
-              {termoBusca && (
-                <button 
-                  onClick={() => setTermoBusca('')}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 p-1 rounded-full text-gray-400 hover:text-gray-600 hover:bg-gray-100 transition-colors"
-                >
-                  <X size={18} />
-                </button>
-              )}
-            </div>
-
-            {/* Botão filtros */}
-            <button
-              onClick={() => setMostrarFiltros(!mostrarFiltros)}
-              aria-label="Abrir menu de filtros"
-              className={`p-3 rounded-2xl shadow-lg transition-all
-                         ${mostrarFiltros 
-                           ? 'bg-brand-600 text-white' 
-                           : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-50'
-                         }`}
-            >
-              <List size={20} weight="bold" />
-            </button>
-
-            {/* Botão localização */}
-            <button
-              onClick={obterLocalizacao}
-              disabled={carregandoLocalizacao}
-              className={`p-3 rounded-2xl shadow-lg transition-all
-                         ${localizacao 
-                           ? 'bg-brand-600 text-white' 
-                           : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-50'
-                         }`}
-            >
-              <Crosshair size={20} weight="bold" className={carregandoLocalizacao ? 'animate-pulse' : ''} />
-            </button>
-          </div>
-        </div>
-
-        {/* Painel de filtros expandido */}
-        {mostrarFiltros && (
-          <div className="absolute inset-x-0 top-[68px] sm:top-[76px] p-3 z-30 pointer-events-none">
-            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-2xl p-4 pointer-events-auto border border-gray-100 dark:border-gray-700">
-              {/* Visualização */}
-              <div className="mb-3">
-                <label className="text-xs font-medium text-gray-500 dark:text-gray-400 mb-1.5 block">
-                  Tipo de visualização
-                </label>
-                <LayoutSwitcher fullWidth />
-              </div>
-
-              {/* Município */}
-              <div className="mb-3">
-                <label className="text-xs font-medium text-gray-500 dark:text-gray-400 mb-1.5 block">
-                  Município
-                </label>
-                <div className="relative">
-                  <select
-                    value={municipioSelecionado}
-                    onChange={(e) => {
-                      handleMunicipioChange(e.target.value)
-                      setMostrarFiltros(false)
-                    }}
-                    className="w-full appearance-none pl-3 pr-10 py-2 rounded-lg bg-gray-50 dark:bg-gray-700 
-                               text-sm text-gray-900 dark:text-white border-0 focus:ring-2 focus:ring-brand-500"
-                  >
-                    <option value="">Todos os municípios</option>
-                    {Object.entries(MUNICIPIOS_AL).map(([codigo, nome]) => (
-                      <option key={codigo} value={codigo}>{nome}</option>
-                    ))}
-                  </select>
-                  <CaretDown size={16} className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
-                </div>
-              </div>
-
-              {/* Chips de combustível */}
-              <div>
-                <label className="text-xs font-medium text-gray-500 dark:text-gray-400 mb-1.5 block">
-                  Tipo de Combustível
-                </label>
-                <div className="flex flex-wrap gap-2">
-                  {FUEL_CHIPS.map(fuel => (
-                    <button
-                      key={fuel.id}
-                      onClick={() => {
-                        handleTipoCombustivelChange(fuel.id)
-                        setMostrarFiltros(false)
-                      }}
-                      className={`px-3 py-1.5 rounded-full text-xs font-medium transition-all
-                                 ${tipoCombustivelSelecionado === fuel.id
-                                   ? 'bg-brand-600 text-white shadow-md'
-                                   : 'bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
-                                 }`}
-                    >
-                      {fuel.label}
-                    </button>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
-        )}
 
       </section>
 
@@ -415,13 +296,9 @@ export default function FindFuelHomePage() {
           {/* Empty state */}
           {!carregando && dadosFiltrados.length === 0 && (
             <EmptyState 
-              variant={termoBusca ? 'no-results' : 'empty'}
+              variant="empty"
               action={
-                termoBusca ? (
-                  <EmptyStateAction onClick={() => setTermoBusca('')}>
-                    Limpar busca
-                  </EmptyStateAction>
-                ) : municipioSelecionado !== '' ? (
+                municipioSelecionado !== '' ? (
                   <EmptyStateAction onClick={() => setMunicipioSelecionado('')}>
                     Ver todos os municípios
                   </EmptyStateAction>
