@@ -67,7 +67,7 @@ export function usePrecosCombustiveis({
       }
 
       // Filtra apenas por tipo de combustível (filtro por bounds é feito no mapa)
-      let filtrados = cacheAtual!.estabelecimentos.filter(e => {
+      const filtrados = cacheAtual!.estabelecimentos.filter(e => {
         return e.tipo_combustivel === tipoCombustivel;
       });
 

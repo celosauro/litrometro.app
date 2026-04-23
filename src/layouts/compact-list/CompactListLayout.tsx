@@ -140,11 +140,12 @@ export function CompactListLayout() {
         case 'preco':
           comparison = a.valor_recente - b.valor_recente
           break
-        case 'distancia':
+        case 'distancia': {
           const distA = a.distancia ?? Infinity
           const distB = b.distancia ?? Infinity
           comparison = distA - distB
           break
+        }
       }
       
       return sortOrder === 'asc' ? comparison : -comparison

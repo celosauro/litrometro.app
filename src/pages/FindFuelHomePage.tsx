@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect, useRef, useCallback } from 'react'
-import { GasPump } from '@phosphor-icons/react'
+import { GasPump, Crosshair } from '@phosphor-icons/react'
 import { usePrecosCombustiveis } from '../hooks/usePrecosCombustiveis'
 import { useGeolocalizacao } from '../hooks/useGeolocalizacao'
 import { MapaEstabelecimentos } from '../components/MapaEstabelecimentos'
@@ -36,6 +36,7 @@ export default function FindFuelHomePage() {
   const [tipoCombustivelSelecionado, setTipoCombustivelSelecionado] = useState<TipoCombustivel>(1)
   const [municipioSelecionado, setMunicipioSelecionado] = useState<string>(CODIGO_MACEIO)
   const [estabelecimentoSelecionado, setEstabelecimentoSelecionado] = useState<DadosComDistancia | null>(null)
+  const [recentralizarToken, setRecentralizarToken] = useState(0)
   // Dados visíveis no viewport atual do mapa
   const [dadosVisiveis, setDadosVisiveis] = useState<DadosComDistancia[]>([])
   
@@ -49,6 +50,8 @@ export default function FindFuelHomePage() {
 
   const { 
     localizacao, 
+    carregando: carregandoLocalizacao,
+    obterLocalizacao,
   } = useGeolocalizacao()
 
   // Atualiza município baseado na localização do usuário
@@ -167,13 +170,18 @@ export default function FindFuelHomePage() {
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
+  const handleLocalizacaoClick = useCallback(() => {
+    setRecentralizarToken((valorAtual) => valorAtual + 1)
+    obterLocalizacao()
+  }, [obterLocalizacao])
+
   const municipioNome = MUNICIPIOS_AL[municipioSelecionado] || 'Alagoas'
 
   return (
     <div className="flex flex-col flex-1 w-full overflow-hidden">
       {/* Barra superior de filtros - fora do mapa */}
       <section className="relative z-40 flex-shrink-0 border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 px-3 py-2 sm:px-4 sm:py-3">
-        <div className="max-w-7xl mx-auto grid grid-cols-2 sm:flex sm:items-center gap-2 sm:gap-3 overflow-visible">
+        <div className="max-w-7xl mx-auto grid grid-cols-[1fr_1fr_auto] sm:flex sm:items-center gap-2 sm:gap-3 overflow-visible">
           {/* Município */}
           <select
             value={municipioSelecionado}
@@ -193,6 +201,20 @@ export default function FindFuelHomePage() {
           <div className="w-full min-w-0 sm:w-auto sm:min-w-[190px]">
             <LayoutSwitcher fullWidth />
           </div>
+
+          {/* Localização */}
+          <button
+            type="button"
+            onClick={handleLocalizacaoClick}
+            disabled={carregandoLocalizacao}
+            className={`btn-secondary inline-flex h-10 w-10 items-center justify-center rounded-lg sm:rounded-xl
+              ${localizacao ? 'bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 border-green-300 dark:border-green-700' : ''}
+              ${carregandoLocalizacao ? 'opacity-70 cursor-wait' : ''}`}
+            aria-label="Centralizar mapa na minha localização"
+            title={localizacao ? 'Recentralizar mapa na minha localização' : 'Obter minha localização'}
+          >
+            <Crosshair size={18} className={`sm:w-5 sm:h-5 ${carregandoLocalizacao ? 'animate-pulse' : ''}`} />
+          </button>
         </div>
       </section>
 
@@ -203,6 +225,7 @@ export default function FindFuelHomePage() {
           <MapaEstabelecimentos
             dados={dadosComDistancia || []}
             localizacao={localizacao}
+            recentralizarToken={recentralizarToken}
             tipoCombustivel={tipoCombustivelSelecionado}
             estabelecimentoSelecionado={estabelecimentoSelecionado}
             onSelecionarEstabelecimento={handleCardClick}

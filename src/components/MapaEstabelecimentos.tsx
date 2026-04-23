@@ -62,6 +62,7 @@ interface DadosComDistancia extends PrecoCombustivelResumo {
 interface MapaEstabelecimentosProps {
   dados: DadosComDistancia[];
   localizacao?: { latitude: number; longitude: number } | null;
+  recentralizarToken?: number;
   tipoCombustivel: TipoCombustivel;
   estabelecimentoSelecionado?: DadosComDistancia | null;
   onSelecionarEstabelecimento?: (item: DadosComDistancia) => void;
@@ -91,6 +92,7 @@ async function carregarCentrosMunicipios() {
 export function MapaEstabelecimentos({ 
   dados, 
   localizacao, 
+  recentralizarToken,
   tipoCombustivel,
   estabelecimentoSelecionado,
   onSelecionarEstabelecimento,
@@ -199,6 +201,18 @@ export function MapaEstabelecimentos({
       essential: true,
     });
   }, [localizacao, mapCarregado]);
+
+  // Recentraliza explicitamente quando solicitado pelo botão de localização.
+  useEffect(() => {
+    if (!mapCarregado || !localizacao) return;
+
+    mapRef.current?.flyTo({
+      center: [localizacao.longitude, localizacao.latitude],
+      zoom: 13,
+      duration: 900,
+      essential: true,
+    });
+  }, [recentralizarToken, localizacao, mapCarregado]);
 
   // Voa para o centro do município quando o município muda
   useEffect(() => {
