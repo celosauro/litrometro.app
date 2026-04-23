@@ -24,6 +24,9 @@ const FUEL_CHIPS: { id: TipoCombustivel; label: string; shortLabel: string }[] =
   { id: 6, label: 'GNV', shortLabel: 'GNV' },
 ]
 
+const FUEL_CHIP_INACTIVE_CLASSES = 'border-gray-200 bg-gray-50 text-gray-700 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-200'
+const FUEL_CHIP_ACTIVE_CLASSES = 'bg-brand-600 text-white border-brand-600 shadow-sm shadow-brand-600/25'
+
 interface DadosComDistancia extends PrecoCombustivelResumo {
   distancia?: number
 }
@@ -192,7 +195,7 @@ export default function FindFuelHomePage() {
   return (
     <div className="flex flex-col flex-1 w-full overflow-hidden">
       {/* Seção do Mapa com Filtros sobrepostos */}
-      <section className="relative h-[40vh] sm:h-[45vh] flex-shrink-0 z-10 overflow-hidden">
+      <section className="relative flex-1 min-h-0 sm:h-[45vh] sm:flex-none sm:min-h-[45vh] flex-shrink-0 z-10 overflow-hidden">
         {/* Mapa */}
         <div className="absolute inset-0">
           <MapaEstabelecimentos
@@ -318,10 +321,30 @@ export default function FindFuelHomePage() {
             </div>
           </div>
         )}
+
       </section>
 
+        {/* Tipos de combustível - mobile fora do mapa */}
+        <section className="sm:hidden flex-shrink-0 border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 px-4 py-3">
+          <div className="flex gap-2 overflow-x-auto scrollbar-hide">
+            {FUEL_CHIPS.map(fuel => (
+              <button
+                key={fuel.id}
+                onClick={() => handleTipoCombustivelChange(fuel.id)}
+                className={`inline-flex items-center rounded-full border px-3 py-2 text-xs font-semibold whitespace-nowrap transition-all
+                           ${tipoCombustivelSelecionado === fuel.id
+                             ? FUEL_CHIP_ACTIVE_CLASSES
+                             : FUEL_CHIP_INACTIVE_CLASSES
+                           }`}
+              >
+                {fuel.label}
+              </button>
+            ))}
+          </div>
+        </section>
+
       {/* Barra de Chips de Combustível - Separada do mapa */}
-      <div className="flex-shrink-0 bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 px-4 py-3 overflow-x-auto relative z-30">
+      <div className="hidden sm:block flex-shrink-0 bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 px-4 py-3 overflow-x-auto relative z-30">
         <div className="flex gap-2 scrollbar-hide max-w-7xl mx-auto">
           {FUEL_CHIPS.map(fuel => (
             <button
@@ -339,8 +362,8 @@ export default function FindFuelHomePage() {
         </div>
       </div>
 
-      {/* Lista de Postos */}
-      <section ref={listRef} className="flex-1 overflow-y-auto bg-gray-100 dark:bg-gray-900">
+      {/* Lista de Postos (somente desktop/tablet) */}
+      <section ref={listRef} className="hidden sm:block flex-1 overflow-y-auto bg-gray-100 dark:bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 py-5 sm:px-6 sm:py-6">
           {/* Banner de Anúncio - Oculto no mobile, placeholder só em desktop */}
           <div className="hidden sm:block mb-4">
@@ -372,7 +395,7 @@ export default function FindFuelHomePage() {
 
           {/* Loading */}
           {carregando && (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-4">
               {Array.from({ length: 6 }).map((_, i) => (
                 <SkeletonCard key={i} />
               ))}
@@ -399,7 +422,7 @@ export default function FindFuelHomePage() {
 
           {/* Grid de cards */}
           {!carregando && dadosFiltrados.length > 0 && (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-4">
               {dadosFiltrados.map((item) => (
                 <StationCard
                   key={`${item.cnpj}-${item.tipo_combustivel}`}
