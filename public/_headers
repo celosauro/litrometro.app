@@ -19,9 +19,20 @@
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
 
-# HTML - cache curto (5 min) para permitir atualizações
+# HTML - sem cache, sempre busca a versão mais recente no deploy
 /*.html
-  Cache-Control: public, max-age=300
+  Cache-Control: no-cache, no-store, must-revalidate
+  Pragma: no-cache
+  Expires: 0
+
+# Service Worker - nunca cacheado pelo CDN (deve sempre ser buscado)
+/sw.js
+  Cache-Control: no-cache, no-store, must-revalidate
+  Pragma: no-cache
+  Expires: 0
+
+/registerSW.js
+  Cache-Control: no-cache, no-store, must-revalidate
 
 # Default para arquivos não especificados
 /*

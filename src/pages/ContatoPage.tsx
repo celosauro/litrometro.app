@@ -1,4 +1,7 @@
-import { Envelope, MapPin, Clock } from '@phosphor-icons/react';
+import { Envelope, MapPin } from '@phosphor-icons/react';
+
+const GOOGLE_FORMS_URL =
+  'https://docs.google.com/forms/d/e/1FAIpQLSdWE5d9524uLMi16LDqGw7PJVKMUf78MNS_b7oETonLk7lHtA/viewform?embedded=true';
 
 export default function ContatoPage() {
   return (
@@ -10,71 +13,50 @@ export default function ContatoPage() {
             Contato
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Tem dúvidas, sugestões ou encontrou algum problema? Entre em contato conosco!
+            Tem dúvidas, sugestões ou encontrou algum problema? Preencha o formulário abaixo!
           </p>
         </header>
 
-        <div className="max-w-xl mx-auto space-y-8">
-          {/* E-mail */}
-          <section className="text-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-brand-100 dark:bg-brand-900/50 rounded-full mb-4">
-              <Envelope size={32} className="text-brand-600 dark:text-brand-400" />
-            </div>
-            <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">E-mail</h2>
-            <a 
-              href="mailto:contato@litrometro.app"
-              className="text-lg text-brand-600 dark:text-brand-400 hover:underline font-medium"
-            >
-              contato@litrometro.app
-            </a>
-            <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
-              Responderemos o mais breve possível.
-            </p>
-          </section>
-
-          {/* Tempo de resposta */}
-          <section className="bg-gray-50 dark:bg-gray-700/50 rounded-lg p-6">
-            <div className="flex items-center gap-3 mb-3">
-              <Clock size={24} className="text-gray-600 dark:text-gray-300" />
-              <h3 className="font-semibold text-gray-900 dark:text-white">Tempo de Resposta</h3>
-            </div>
-            <p className="text-gray-600 dark:text-gray-300 text-sm">
-              Procuramos responder todas as mensagens em até 48 horas úteis. 
-              Para questões urgentes, por favor indique no assunto do e-mail.
-            </p>
-          </section>
-
-          {/* O que podemos ajudar */}
+        <div className="max-w-2xl mx-auto space-y-8">
+          {/* Formulário Google Forms */}
           <section>
-            <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">
-              Como podemos ajudar?
-            </h2>
-            <ul className="space-y-3">
-              <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-brand-600 rounded-full mt-2 flex-shrink-0"></span>
-                <span className="text-gray-600 dark:text-gray-300">
-                  <strong className="dark:text-white">Reportar erros:</strong> Encontrou um preço incorreto ou um posto com informações desatualizadas?
-                </span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-brand-600 rounded-full mt-2 flex-shrink-0"></span>
-                <span className="text-gray-600 dark:text-gray-300">
-                  <strong className="dark:text-white">Sugestões:</strong> Tem ideias de novas funcionalidades ou melhorias para o site?
-                </span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-brand-600 rounded-full mt-2 flex-shrink-0"></span>
-                <span className="text-gray-600 dark:text-gray-300">
-                  <strong className="dark:text-white">Parcerias:</strong> Interessado em parcerias comerciais ou institucionais?
-                </span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-brand-600 rounded-full mt-2 flex-shrink-0"></span>
-                <span className="text-gray-600 dark:text-gray-300">
-                  <strong className="dark:text-white">Imprensa:</strong> Solicitações de entrevistas ou informações para matérias jornalísticas.
-                </span>
-              </li>
-            </ul>
+            <div className="rounded-xl overflow-hidden border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900">
+              <iframe
+                src={GOOGLE_FORMS_URL}
+                title="Formulário de Contato"
+                width="100%"
+                height="700"
+                frameBorder="0"
+                marginHeight={0}
+                marginWidth={0}
+                className="block"
+              >
+                Carregando formulário...
+              </iframe>
+            </div>
+            <p className="text-xs text-gray-400 dark:text-gray-500 text-center mt-2">
+              Formulário seguro fornecido pelo Google Forms
+            </p>
+          </section>
+
+          {/* Alternativa por e-mail */}
+          <section className="bg-gray-50 dark:bg-gray-700/50 rounded-lg p-5 flex items-center gap-4">
+            <div className="flex-shrink-0">
+              <div className="w-12 h-12 bg-brand-100 dark:bg-brand-900/50 rounded-full flex items-center justify-center">
+                <Envelope size={24} className="text-brand-600 dark:text-brand-400" />
+              </div>
+            </div>
+            <div>
+              <p className="text-sm text-gray-600 dark:text-gray-300">
+                Prefere enviar um e-mail diretamente?
+              </p>
+              <a
+                href="mailto:contato@litrometro.app"
+                className="text-brand-600 dark:text-brand-400 font-medium hover:underline text-sm"
+              >
+                contato@litrometro.app
+              </a>
+            </div>
           </section>
 
           {/* Aviso sobre preços */}
@@ -84,9 +66,9 @@ export default function ContatoPage() {
               <div>
                 <h3 className="font-semibold text-yellow-800 dark:text-yellow-200 mb-1">Sobre os Preços</h3>
                 <p className="text-sm text-yellow-700 dark:text-yellow-300">
-                  Os preços exibidos são obtidos da SEFAZ/AL e baseados em vendas reais. 
-                  Se você encontrou uma divergência significativa, pode ser que o posto 
-                  tenha alterado o preço após a última venda registrada. De qualquer forma, 
+                  Os preços exibidos são obtidos da SEFAZ/AL e baseados em vendas reais.
+                  Se você encontrou uma divergência significativa, pode ser que o posto
+                  tenha alterado o preço após a última venda registrada. De qualquer forma,
                   agradecemos seu feedback!
                 </p>
               </div>
