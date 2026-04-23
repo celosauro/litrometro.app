@@ -8,7 +8,7 @@ NVM_INIT := source ~/.nvm/nvm.sh &&
 # Porta fixa para o servidor de desenvolvimento
 DEV_PORT := 5173
 
-.PHONY: help install dev build preview lint clean collect collect-supabase process-history migrate-json export-json geocode geocode-local all stop
+.PHONY: help install dev build preview lint clean collect collect-supabase process-history migrate-json export-json geocode geocode-local push all stop
 
 # Cores para output
 CYAN := \033[36m
@@ -33,6 +33,7 @@ install: ## Instala dependências do projeto
 setup: install ## Setup completo (dependências + git hooks)
 	@echo "$(CYAN)🔧 Configurando git hooks...$(RESET)"
 	@git config core.hooksPath .githooks
+	@git config alias.spush '!./scripts/safe-push.sh'
 	@echo "$(GREEN)✅ Setup concluído$(RESET)"
 
 # ─────────────────────────────────────────────────────────────
@@ -111,6 +112,15 @@ clean: ## Remove arquivos de build e cache
 clean-all: ## Remove todos os arquivos gerados (incluindo node_modules)
 	@echo "$(YELLOW)⚠️  Removendo node_modules e arquivos de build...$(RESET)"
 	rm -rf dist node_modules
+
+push: ## Publica branch atual com retry seguro
+	@echo "$(CYAN)🚀 Publicando branch atual com safe-push...$(RESET)"
+	@./scripts/safe-push.sh
+
+push-setup: ## Configura alias git spush para safe-push
+	@echo "$(CYAN)🔧 Configurando alias git spush...$(RESET)"
+	@git config alias.spush '!./scripts/safe-push.sh'
+	@echo "$(GREEN)✅ Alias git spush configurado$(RESET)"
 
 # ─────────────────────────────────────────────────────────────
 # Fluxos Completos

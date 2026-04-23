@@ -337,7 +337,7 @@ function obterMunicipiosFiltrados(): Record<string, string> {
 
   for (const [codigo, nome] of Object.entries(MUNICIPIOS_AL)) {
     const nomeNormalizado = nome.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-    if (codigo === args[0] || nomeNormalizado.includes(filtro)) {
+    if (codigo === args[0] || nomeNormalizado === filtro) {
       resultado[codigo] = nome;
     }
   }

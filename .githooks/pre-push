@@ -1,19 +1,35 @@
 #!/bin/bash
-# Pre-push hook: faz pull antes de push para evitar conflitos
+# Pre-push hook: bloqueia push direto na main e orienta uso do safe-push.
 
-BRANCH=$(git symbolic-ref --short HEAD 2>/dev/null)
+set -u
 
-if [[ -z "$BRANCH" ]]; then
-  echo "⚠️  Detached HEAD, pulando pull automático"
+if [[ "${SAFE_PUSH_WRAPPER_ACTIVE:-0}" == "1" ]]; then
   exit 0
 fi
 
-echo "🔄 Fazendo pull de $BRANCH antes do push..."
+REMOTE_NAME="${1:-origin}"
+BRANCH=$(git symbolic-ref --short HEAD 2>/dev/null)
 
-if ! git pull origin "$BRANCH" 2>/dev/null; then
+if [[ -z "$BRANCH" ]]; then
+  echo "⚠️  Detached HEAD, pulando sincronização automática"
+  exit 0
+fi
+
+if [[ "$REMOTE_NAME" == "origin" && "$BRANCH" == "main" ]]; then
+  echo "❌ Push direto na main bloqueado neste repositório."
+  echo "   Use um destes comandos:"
+  echo "   - ./scripts/safe-push.sh"
+  echo "   - make push"
+  echo "   - git spush"
+  exit 1
+fi
+
+echo "🔄 Fazendo pull preventivo de $BRANCH antes do push..."
+
+if ! git pull --no-rebase "$REMOTE_NAME" "$BRANCH"; then
   echo "❌ Falha no pull. Resolva conflitos antes de fazer push."
   exit 1
 fi
 
-echo "✅ Pull concluído, continuando push..."
+echo "✅ Pull concluído. Para retry automático de push, use ./scripts/safe-push.sh"
 exit 0

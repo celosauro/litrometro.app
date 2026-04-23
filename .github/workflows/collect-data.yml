@@ -138,39 +138,46 @@ jobs:
             echo "failed_list=healthcheck-sefaz" >> "$GITHUB_OUTPUT"
             exit 1
           fi
-          echo "✓ Health check SEFAZ aprovado. Iniciando coleta por município..."
-
-          if [[ -n "$MUNICIPIO_INPUT" ]]; then
-            municipios_json=$(node -e "console.log(JSON.stringify([process.argv[1]]))" "$MUNICIPIO_INPUT")
-          else
-            municipios_json=$(npx tsx -e "import { MUNICIPIOS_AL } from './src/types/index.ts'; console.log(JSON.stringify(Object.values(MUNICIPIOS_AL)))")
-          fi
-
-          mapfile -t municipios < <(node -e "for (const item of JSON.parse(process.argv[1])) console.log(item)" "$municipios_json")
+          echo "✓ Health check SEFAZ aprovado. Iniciando coleta em batches..."
 
           success_count=0
           failed_count=0
           failed_list=''
           resumed_count=0
-          total=${#municipios[@]}
+
+          # Define batches: municípios grandes + 3 batches de pequenos
+          # Quando MUNICIPIO_INPUT está definido, coleta apenas aquele município diretamente
+          if [[ -n "$MUNICIPIO_INPUT" ]]; then
+            batches=("$MUNICIPIO_INPUT")
+            batch_labels=("$MUNICIPIO_INPUT")
+          else
+            batches=("--grandes" "--batch 1" "--batch 2" "--batch 3")
+            batch_labels=("__GRANDES__" "__BATCH_1__" "__BATCH_2__" "__BATCH_3__")
+          fi
+
+          total=${#batches[@]}
           current=0
 
-          for municipio in "${municipios[@]}"; do
+          for i in "${!batches[@]}"; do
             current=$((current + 1))
-            echo "::group::[$current/$total] Coleta ${municipio}"
+            batch_args="${batches[$i]}"
+            batch_label="${batch_labels[$i]}"
 
-            if municipio_ja_concluido "$municipio"; then
+            echo "::group::[$current/$total] Coleta batch: ${batch_label}"
+
+            if municipio_ja_concluido "$batch_label"; then
               resumed_count=$((resumed_count + 1))
               success_count=$((success_count + 1))
-              echo "↷ ${municipio} já concluído em checkpoint anterior; pulando"
+              echo "↷ Batch ${batch_label} já concluído em checkpoint anterior; pulando"
               echo "::endgroup::"
-              sleep 1
               continue
             fi
-            
+
             # Retry com backoff exponencial (3 tentativas)
+            status=1
             for attempt in 1 2 3; do
-              npx tsx scripts/coletar-precos-supabase.ts "$municipio" --skip-healthcheck
+              # shellcheck disable=SC2086
+              npx tsx scripts/coletar-precos-supabase.ts $batch_args --skip-healthcheck
               status=$?
               if [[ $status -eq 0 ]]; then
                 break
@@ -183,23 +190,20 @@ jobs:
 
             if [[ $status -eq 0 ]]; then
               success_count=$((success_count + 1))
-              marcar_municipio_concluido "$municipio"
-              commit_progress "chore: checkpoint coleta ${municipio} [$(date -u +'%Y-%m-%d %H:%M UTC')]"
-              echo "✓ ${municipio}"
+              marcar_municipio_concluido "$batch_label"
+              commit_progress "chore: checkpoint coleta ${batch_label} [$(date -u +'%Y-%m-%d %H:%M UTC')]"
+              echo "✓ Batch ${batch_label} concluído"
             else
               failed_count=$((failed_count + 1))
-              echo "✗ ${municipio} (após 3 tentativas)"
+              echo "✗ Batch ${batch_label} falhou (após 3 tentativas)"
               if [[ -z "$failed_list" ]]; then
-                failed_list="$municipio"
+                failed_list="$batch_label"
               else
-                failed_list="$failed_list, $municipio"
+                failed_list="$failed_list, $batch_label"
               fi
             fi
 
             echo "::endgroup::"
-            
-            # Pequeno delay entre municípios para evitar rate limiting
-            sleep 2
           done
 
           echo "success_count=$success_count" >> "$GITHUB_OUTPUT"
@@ -208,9 +212,9 @@ jobs:
 
           echo "## Resumo da Coleta" >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Municípios com sucesso: $success_count" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Municípios retomados de checkpoint: $resumed_count" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Municípios com falha: $failed_count" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Batches com sucesso: $success_count" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Batches retomados de checkpoint: $resumed_count" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Batches com falha: $failed_count" >> "$GITHUB_STEP_SUMMARY"
           if [[ -n "$failed_list" ]]; then
             echo "- Falhas: $failed_list" >> "$GITHUB_STEP_SUMMARY"
           fi
