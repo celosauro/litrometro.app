@@ -1,13 +1,30 @@
 import { useState, useRef, useEffect } from 'react'
+import { ListBullets, MapTrifold, SquaresFour } from '@phosphor-icons/react'
 import { useLayout } from './LayoutContext'
 import { LAYOUTS } from './types'
 
-export function LayoutSwitcher() {
+interface LayoutSwitcherProps {
+  fullWidth?: boolean
+}
+
+export function LayoutSwitcher({ fullWidth = false }: LayoutSwitcherProps) {
   const { layoutAtual, alterarLayout } = useLayout()
   const [aberto, setAberto] = useState(false)
   const menuRef = useRef<HTMLDivElement>(null)
 
   const layoutSelecionado = LAYOUTS.find(l => l.id === layoutAtual) ?? LAYOUTS[0]
+
+  const renderIcone = (layoutId: string, className = 'w-5 h-5') => {
+    switch (layoutId) {
+      case 'cards-grid':
+        return <SquaresFour className={className} weight="fill" />
+      case 'compact-list':
+        return <ListBullets className={className} weight="bold" />
+      case 'default':
+      default:
+        return <MapTrifold className={className} weight="fill" />
+    }
+  }
 
   useEffect(() => {
     function handleClickFora(e: MouseEvent) {
@@ -24,18 +41,20 @@ export function LayoutSwitcher() {
   }, [aberto])
 
   return (
-    <div ref={menuRef} className="relative">
+    <div ref={menuRef} className={`relative ${fullWidth ? 'w-full' : ''}`}>
       <button
         onClick={() => setAberto(!aberto)}
-        className="flex items-center gap-1.5 px-2 py-1.5 rounded-lg text-sm font-medium
+        className={`flex items-center gap-1.5 rounded-lg text-sm font-medium
                    text-brand-700 dark:text-brand-300
                    hover:bg-brand-100 dark:hover:bg-brand-800/50
-                   transition-colors"
+                   transition-colors ${fullWidth ? 'w-full justify-between px-3 py-2 bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600' : 'px-2 py-1.5'}`}
         aria-label="Alterar visualização"
         aria-expanded={aberto}
       >
-        <span className="text-lg">{layoutSelecionado.icone}</span>
-        <span className="hidden sm:inline">{layoutSelecionado.nome}</span>
+        <span className="flex items-center gap-2">
+          <span className="text-brand-600 dark:text-brand-300">{renderIcone(layoutSelecionado.id, 'w-5 h-5')}</span>
+          <span className={fullWidth ? '' : 'hidden sm:inline'}>{layoutSelecionado.nome}</span>
+        </span>
         <svg
           className={`w-4 h-4 transition-transform ${aberto ? 'rotate-180' : ''}`}
           fill="none"
@@ -47,8 +66,8 @@ export function LayoutSwitcher() {
       </button>
 
       {aberto && (
-        <div className="absolute right-0 mt-2 w-56 rounded-xl bg-white dark:bg-gray-800 
-                        shadow-lg ring-1 ring-black/5 dark:ring-white/10 z-50 overflow-hidden">
+        <div className={`absolute mt-2 rounded-xl bg-white dark:bg-gray-800 
+                        shadow-lg ring-1 ring-black/5 dark:ring-white/10 z-50 overflow-hidden ${fullWidth ? 'left-0 w-full' : 'right-0 w-56'}`}>
           <div className="p-1">
             {LAYOUTS.map((layout) => (
               <button
@@ -64,7 +83,7 @@ export function LayoutSwitcher() {
                              : 'hover:bg-gray-100 dark:hover:bg-gray-700/50 text-gray-700 dark:text-gray-300'
                            }`}
               >
-                <span className="text-xl">{layout.icone}</span>
+                <span className="text-brand-600 dark:text-brand-300">{renderIcone(layout.id)}</span>
                 <div className="flex-1 min-w-0">
                   <div className="font-medium text-sm">{layout.nome}</div>
                   <div className="text-xs text-gray-500 dark:text-gray-400 mt-0.5">

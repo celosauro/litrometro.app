@@ -13,6 +13,7 @@ import type { TipoCombustivel, PrecoCombustivelResumo } from '../../types'
 import { TIPOS_COMBUSTIVEL, MUNICIPIOS_AL } from '../../types'
 import { FuelCardGrid } from './FuelCardGrid'
 import { MapModal } from './MapModal'
+import { LayoutSwitcher } from '../LayoutSwitcher'
 
 const CODIGO_MACEIO = '2704302'
 
@@ -210,6 +211,8 @@ export function CardsGridLayout() {
                   aoMudar={handleMunicipioChange}
                 />
               </div>
+
+              <LayoutSwitcher />
 
               {/* Botão localização */}
               <button

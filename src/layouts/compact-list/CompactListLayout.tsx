@@ -12,6 +12,7 @@ import type { TipoCombustivel, PrecoCombustivelResumo } from '../../types'
 import { TIPOS_COMBUSTIVEL, MUNICIPIOS_AL } from '../../types'
 import { CompactRow } from './CompactRow'
 import { MapModal } from '../cards-grid/MapModal'
+import { LayoutSwitcher } from '../LayoutSwitcher'
 
 const CODIGO_MACEIO = '2704302'
 
@@ -259,6 +260,8 @@ export function CompactListLayout() {
                   aoMudar={handleMunicipioChange}
                 />
               </div>
+
+              <LayoutSwitcher />
 
               {/* Botão localização */}
               <button

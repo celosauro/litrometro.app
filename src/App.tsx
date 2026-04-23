@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { Layout } from './components/Layout';
-import FindFuelHomePage from './pages/FindFuelHomePage';
+import HomePageRouter from './pages/HomePageRouter';
 import SobrePage from './pages/SobrePage';
 import ContatoPage from './pages/ContatoPage';
 import PrivacidadePage from './pages/PrivacidadePage';
@@ -19,7 +19,7 @@ export default function App() {
   return (
     <Routes>
       <Route element={<Layout />}>
-        <Route path="/" element={<FindFuelHomePage />} />
+        <Route path="/" element={<HomePageRouter />} />
         <Route path="/sobre" element={<SobrePage />} />
         <Route path="/contato" element={<ContatoPage />} />
         <Route path="/privacidade" element={<PrivacidadePage />} />

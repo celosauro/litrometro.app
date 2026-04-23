@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect, useRef, useCallback } from 'react'
-import { MagnifyingGlass, Crosshair, FunnelSimple, CaretDown, X, GasPump } from '@phosphor-icons/react'
+import { MagnifyingGlass, Crosshair, List, CaretDown, X, GasPump } from '@phosphor-icons/react'
 import { usePrecosCombustiveis } from '../hooks/usePrecosCombustiveis'
 import { useGeolocalizacao } from '../hooks/useGeolocalizacao'
 import { MapaEstabelecimentos } from '../components/MapaEstabelecimentos'
@@ -11,6 +11,7 @@ import { calcularDistanciaKm } from '../utils/distancia'
 import { trackFuelTypeSelect, trackMunicipalitySelect, trackSearch } from '../utils/analytics'
 import type { TipoCombustivel, PrecoCombustivelResumo } from '../types'
 import { TIPOS_COMBUSTIVEL, MUNICIPIOS_AL } from '../types'
+import { LayoutSwitcher } from '../layouts'
 
 const CODIGO_MACEIO = '2704302'
 
@@ -242,13 +243,14 @@ export default function FindFuelHomePage() {
             {/* Botão filtros */}
             <button
               onClick={() => setMostrarFiltros(!mostrarFiltros)}
+              aria-label="Abrir menu de filtros"
               className={`p-3 rounded-2xl shadow-lg transition-all
                          ${mostrarFiltros 
                            ? 'bg-brand-600 text-white' 
                            : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-50'
                          }`}
             >
-              <FunnelSimple size={20} weight="bold" />
+              <List size={20} weight="bold" />
             </button>
 
             {/* Botão localização */}
@@ -270,6 +272,14 @@ export default function FindFuelHomePage() {
         {mostrarFiltros && (
           <div className="absolute inset-x-0 top-[68px] sm:top-[76px] p-3 z-30 pointer-events-none">
             <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-2xl p-4 pointer-events-auto border border-gray-100 dark:border-gray-700">
+              {/* Visualização */}
+              <div className="mb-3">
+                <label className="text-xs font-medium text-gray-500 dark:text-gray-400 mb-1.5 block">
+                  Tipo de visualização
+                </label>
+                <LayoutSwitcher fullWidth />
+              </div>
+
               {/* Município */}
               <div className="mb-3">
                 <label className="text-xs font-medium text-gray-500 dark:text-gray-400 mb-1.5 block">
