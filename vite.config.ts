@@ -12,6 +12,11 @@ export default defineConfig(({ mode }) => ({
             includeAssets: ['favicon.svg', 'favicon-32.png', 'favicon-16.png', 'apple-touch-icon.png'],
             manifest: false, // Usar manifest.json existente em public/
             workbox: {
+              // Força o novo SW a assumir o controle imediatamente após o deploy
+              skipWaiting: true,
+              clientsClaim: true,
+              // Remove caches de versões antigas automaticamente
+              cleanupOutdatedCaches: true,
               globPatterns: ['**/*.{js,css,html,ico,png,svg,woff2}'],
               runtimeCaching: [
                 {
