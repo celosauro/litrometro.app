@@ -2,7 +2,6 @@ import { useState, useMemo, useCallback, useRef, useEffect } from 'react';
 import {
   Map,
   Marker,
-  Popup,
   NavigationControl,
   ScaleControl,
   Source,
@@ -12,11 +11,10 @@ import type { MapRef, ViewStateChangeEvent } from 'react-map-gl/maplibre';
 import type { LayerProps } from 'react-map-gl/maplibre';
 
 import PinPreco from './PinPreco';
+import { StationCard } from './StationCard';
 import { trackStationView } from '../utils/analytics';
 import type { PrecoCombustivelResumo, TipoCombustivel } from '../types';
 import { TIPOS_COMBUSTIVEL } from '../types';
-import { formatarDistancia } from '../utils/distancia';
-import { criarLinkGoogleDirections } from '../utils/directions';
 
 // Tiles gratuitos do CartoCDN
 const MAP_STYLE = 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json';
@@ -287,31 +285,6 @@ export function MapaEstabelecimentos({
     return dados.filter(item => item.latitude !== 0 && item.longitude !== 0);
   }, [dados]);
 
-  const formatarPreco = (valor: number) => {
-    return valor.toLocaleString('pt-BR', {
-      style: 'currency',
-      currency: 'BRL',
-      minimumFractionDigits: 3,
-    });
-  };
-
-  const formatarData = (dataStr: string) => {
-    const data = new Date(dataStr);
-    return data.toLocaleString('pt-BR', {
-      day: '2-digit',
-      month: '2-digit',
-      hour: '2-digit',
-      minute: '2-digit',
-    });
-  };
-
-  const criarLinkRota = useCallback((item: DadosComDistancia) => {
-    return criarLinkGoogleDirections(
-      { latitude: item.latitude, longitude: item.longitude },
-      localizacao
-    );
-  }, [localizacao]);
-
   const handleMarkerClick = useCallback((e: any, item: DadosComDistancia) => {
     e.originalEvent.stopPropagation();
     setPopupInfo(item);
@@ -328,7 +301,7 @@ export function MapaEstabelecimentos({
   }, [onSelecionarEstabelecimento, tipoCombustivel]);
 
   return (
-    <div className={`w-full h-full min-h-[300px] overflow-hidden ${className}`}>
+    <div className={`relative w-full h-full min-h-[300px] overflow-hidden ${className}`}>
       <Map
         ref={mapRef}
         initialViewState={viewInicial}
@@ -336,6 +309,7 @@ export function MapaEstabelecimentos({
         style={{ width: '100%', height: '100%' }}
         onLoad={handleMapLoad}
         onMoveEnd={handleMoveEnd}
+        onClick={() => setPopupInfo(null)}
       >
         {/* Controles - posicionados para não conflitar com overlays */}
         <NavigationControl position="bottom-right" showCompass={false} />
@@ -373,65 +347,29 @@ export function MapaEstabelecimentos({
           </Marker>
         ))}
 
-        {/* Popup */}
-        {popupInfo && (
-          <Popup
-            anchor="top"
-            longitude={popupInfo.longitude}
-            latitude={popupInfo.latitude}
-            onClose={() => setPopupInfo(null)}
-            closeOnClick={false}
-            maxWidth="280px"
-          >
-            <div className="p-1">
-              {/* Nome do posto */}
-              <h3 className="font-bold text-gray-900 text-sm leading-tight mb-1">
-                {popupInfo.nome_fantasia || popupInfo.razao_social}
-              </h3>
-              
-              {/* Tipo de combustível */}
-              <span className="inline-block text-xs bg-gray-100 text-gray-600 px-1.5 py-0.5 rounded mb-2">
-                {TIPOS_COMBUSTIVEL[tipoCombustivel]}
-              </span>
-              
-              {/* Preço */}
-              <div className="text-lg font-bold text-green-600 mb-1">
-                {formatarPreco(popupInfo.valor_recente)}
-              </div>
-              
-              {/* Endereço */}
-              <p className="text-xs text-gray-600 mb-1">
-                {[
-                  popupInfo.nome_logradouro,
-                  popupInfo.numero_imovel ? `nº ${popupInfo.numero_imovel}` : null,
-                  popupInfo.bairro,
-                ].filter(Boolean).join(', ')}
-              </p>
-              
-              {/* Distância */}
-              {popupInfo.distancia !== undefined && (
-                <p className="text-xs text-brand-600 font-medium mb-1">
-                  📍 {formatarDistancia(popupInfo.distancia)}
-                </p>
-              )}
-              
-              {/* Data */}
-              <p className="text-xs text-gray-400">
-                Atualizado: {formatarData(popupInfo.data_recente)}
-              </p>
-              
-              <a
-                href={criarLinkRota(popupInfo)}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex mt-2 w-full items-center justify-center rounded-lg bg-brand-600 px-3 py-2 text-xs font-semibold text-white hover:bg-brand-700 transition-colors"
-              >
-                Como chegar
-              </a>
-            </div>
-          </Popup>
-        )}
       </Map>
+
+      {popupInfo && (
+        <div className="pointer-events-none absolute inset-0 z-30 flex items-center justify-center p-3 sm:p-4">
+          <div className="pointer-events-auto relative w-[320px] max-w-[94vw] sm:w-[360px]">
+            <button
+              type="button"
+              onClick={() => setPopupInfo(null)}
+              className="absolute -right-3 -top-3 z-40 inline-flex h-8 w-8 items-center justify-center rounded-full border border-gray-200 bg-white text-gray-700 shadow-md transition-colors hover:bg-gray-50 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-700"
+              aria-label="Fechar detalhes do posto"
+            >
+              <span aria-hidden="true">X</span>
+            </button>
+
+            <StationCard
+              dados={popupInfo}
+              distancia={popupInfo.distancia}
+              isMelhor={popupInfo.cnpj === cnpjMelhor}
+              localizacaoUsuario={localizacao}
+            />
+          </div>
+        </div>
+      )}
       
       {/* Legenda / Info - canto inferior esquerdo para não conflitar */}
       <div className="absolute bottom-4 left-12 z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm rounded-lg px-3 py-1.5 shadow-md text-xs text-gray-600 dark:text-gray-300 border border-gray-200 dark:border-gray-700">

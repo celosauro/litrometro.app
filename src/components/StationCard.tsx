@@ -48,13 +48,13 @@ export function StationCard({ dados, distancia, isMelhor, onClick, localizacaoUs
     <article 
       onClick={onClick}
       className={`relative bg-white dark:bg-gray-800 rounded-xl sm:rounded-2xl overflow-hidden shadow-sm 
-                  hover:shadow-lg transition-all duration-300 cursor-pointer group
+                  ${onClick ? 'hover:shadow-lg cursor-pointer' : 'cursor-default'} transition-all duration-300 group
                   border border-gray-100 dark:border-gray-700
                   ${isMelhor ? 'ring-2 ring-amber-400 ring-offset-2 dark:ring-offset-gray-900' : ''}`}
     >
       {/* Badge Melhor Preço */}
       {isMelhor && (
-        <div className="absolute top-2 right-2 sm:top-3 sm:right-3 z-10">
+        <div className="absolute top-3 right-12 sm:top-3 sm:right-14 z-10">
           <div className="flex items-center gap-1 px-2 py-0.5 sm:py-1 rounded-full bg-amber-400 text-amber-900 text-[9px] sm:text-[10px] font-bold">
             <Star size={12} weight="fill" />
             <span>Melhor</span>
