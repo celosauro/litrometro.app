@@ -1,12 +1,8 @@
 import { useState, useMemo, useEffect, useRef, useCallback } from 'react'
-import { GasPump, Crosshair } from '@phosphor-icons/react'
 import { usePrecosCombustiveis } from '../hooks/usePrecosCombustiveis'
 import { useGeolocalizacao } from '../hooks/useGeolocalizacao'
 import { MapaEstabelecimentos } from '../components/MapaEstabelecimentos'
-import { StationCard } from '../components/StationCard'
-import { SkeletonCard } from '../components/SkeletonCard'
-import { EmptyState, EmptyStateAction } from '../components/EmptyState'
-import { AdBanner } from '../components/AdBanner'
+import { LocationIcon } from '../components/LocationIcon'
 import { calcularDistanciaKm } from '../utils/distancia'
 import { trackFuelTypeSelect, trackMunicipalitySelect } from '../utils/analytics'
 import type { TipoCombustivel, PrecoCombustivelResumo } from '../types'
@@ -41,9 +37,8 @@ export default function FindFuelHomePage() {
   const [dadosVisiveis, setDadosVisiveis] = useState<DadosComDistancia[]>([])
   
   const centroidesMunicipiosRef = useRef<Array<{codigo_ibge: string; municipio: string; latitude: number; longitude: number}> | null>(null)
-  const listRef = useRef<HTMLDivElement>(null)
 
-  const { dados, carregando } = usePrecosCombustiveis({
+  const { dados } = usePrecosCombustiveis({
     tipoCombustivel: tipoCombustivelSelecionado,
 
   })
@@ -175,18 +170,16 @@ export default function FindFuelHomePage() {
     obterLocalizacao()
   }, [obterLocalizacao])
 
-  const municipioNome = MUNICIPIOS_AL[municipioSelecionado] || 'Alagoas'
-
   return (
     <div className="flex flex-col flex-1 w-full overflow-hidden">
       {/* Barra superior de filtros - fora do mapa */}
       <section className="relative z-40 flex-shrink-0 border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 px-3 py-2 sm:px-4 sm:py-3">
-        <div className="max-w-7xl mx-auto grid grid-cols-[1fr_1fr_auto] sm:flex sm:items-center gap-2 sm:gap-3 overflow-visible">
+        <div className="max-w-7xl mx-auto grid grid-cols-[1fr_1fr_auto] sm:flex sm:items-center sm:gap-3 lg:gap-4 overflow-visible">
           {/* Município */}
           <select
             value={municipioSelecionado}
             onChange={(e) => handleMunicipioChange(e.target.value)}
-            className="w-full min-w-0 sm:w-auto sm:min-w-[180px] appearance-none px-2.5 py-2 rounded-lg sm:rounded-xl bg-gray-50 dark:bg-gray-700
+            className="w-full min-w-0 sm:flex-none sm:w-[240px] lg:w-[280px] appearance-none px-2.5 py-2 rounded-lg sm:rounded-xl bg-gray-50 dark:bg-gray-700
                        text-xs sm:text-sm text-gray-900 dark:text-white border border-gray-200 dark:border-gray-600
                        focus:ring-2 focus:ring-brand-500"
             aria-label="Filtrar por município"
@@ -198,7 +191,7 @@ export default function FindFuelHomePage() {
           </select>
 
           {/* Tipo de visualização */}
-          <div className="w-full min-w-0 sm:w-auto sm:min-w-[190px]">
+          <div className="w-full min-w-0 sm:flex-none sm:w-[200px] lg:w-[220px]">
             <LayoutSwitcher fullWidth />
           </div>
 
@@ -207,19 +200,19 @@ export default function FindFuelHomePage() {
             type="button"
             onClick={handleLocalizacaoClick}
             disabled={carregandoLocalizacao}
-            className={`btn-secondary inline-flex h-10 w-10 items-center justify-center rounded-lg sm:rounded-xl
+            className={`btn-secondary inline-flex h-10 w-10 items-center justify-center rounded-lg sm:rounded-xl sm:ml-auto
               ${localizacao ? 'bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 border-green-300 dark:border-green-700' : ''}
               ${carregandoLocalizacao ? 'opacity-70 cursor-wait' : ''}`}
             aria-label="Centralizar mapa na minha localização"
             title={localizacao ? 'Recentralizar mapa na minha localização' : 'Obter minha localização'}
           >
-            <Crosshair size={18} className={`sm:w-5 sm:h-5 ${carregandoLocalizacao ? 'animate-pulse' : ''}`} />
+            <LocationIcon size={18} className={carregandoLocalizacao ? 'animate-pulse' : ''} />
           </button>
         </div>
       </section>
 
       {/* Seção do Mapa com Filtros sobrepostos */}
-      <section className="relative flex-1 min-h-0 sm:h-[45vh] sm:flex-none sm:min-h-[45vh] flex-shrink-0 z-10 overflow-hidden">
+      <section className="relative flex-1 min-h-0 z-10 overflow-hidden">
         {/* Mapa */}
         <div className="absolute inset-0">
           <MapaEstabelecimentos
@@ -275,78 +268,6 @@ export default function FindFuelHomePage() {
           ))}
         </div>
       </div>
-
-      {/* Lista de Postos (somente desktop/tablet) */}
-      <section ref={listRef} className="hidden sm:block flex-1 overflow-y-auto bg-gray-100 dark:bg-gray-900">
-        <div className="max-w-7xl mx-auto px-4 py-5 sm:px-6 sm:py-6">
-          {/* Banner de Anúncio - Oculto no mobile, placeholder só em desktop */}
-          <div className="hidden sm:block mb-4">
-            <AdBanner slot="horizontal" adSlotId="9777713471" showPlaceholder={false} />
-          </div>
-
-          {/* Header da lista */}
-          <div className="flex items-center justify-between mb-4">
-            <div>
-              <h2 className="text-lg font-bold text-gray-900 dark:text-white">
-                Postos em {municipioNome}
-              </h2>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
-                {carregando 
-                  ? 'Carregando...' 
-                  : `${dadosFiltrados.length} resultado${dadosFiltrados.length !== 1 ? 's' : ''}`
-                }
-              </p>
-            </div>
-
-            {/* Ícone do combustível selecionado */}
-            <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-100 dark:bg-brand-900/30">
-              <GasPump size={16} weight="fill" className="text-brand-600 dark:text-brand-400" />
-              <span className="text-xs font-medium text-brand-700 dark:text-brand-300">
-                {TIPOS_COMBUSTIVEL[tipoCombustivelSelecionado]}
-              </span>
-            </div>
-          </div>
-
-          {/* Loading */}
-          {carregando && (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-4">
-              {Array.from({ length: 6 }).map((_, i) => (
-                <SkeletonCard key={i} />
-              ))}
-            </div>
-          )}
-
-          {/* Empty state */}
-          {!carregando && dadosFiltrados.length === 0 && (
-            <EmptyState 
-              variant="empty"
-              action={
-                municipioSelecionado !== '' ? (
-                  <EmptyStateAction onClick={() => setMunicipioSelecionado('')}>
-                    Ver todos os municípios
-                  </EmptyStateAction>
-                ) : undefined
-              }
-            />
-          )}
-
-          {/* Grid de cards */}
-          {!carregando && dadosFiltrados.length > 0 && (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-4">
-              {dadosFiltrados.map((item) => (
-                <StationCard
-                  key={`${item.cnpj}-${item.tipo_combustivel}`}
-                  dados={item}
-                  distancia={item.distancia}
-                  isMelhor={item.cnpj === cnpjMelhorPosto}
-                  localizacaoUsuario={localizacao}
-                  onClick={() => handleCardClick(item)}
-                />
-              ))}
-            </div>
-          )}
-        </div>
-      </section>
     </div>
   )
 }

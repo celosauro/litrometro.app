@@ -1,7 +1,8 @@
 import { useState, useMemo, useEffect, useRef, useCallback } from 'react'
-import { Crosshair, MapTrifold } from '@phosphor-icons/react'
+import { MapTrifold } from '@phosphor-icons/react'
 import { usePrecosCombustiveis } from '../../hooks/usePrecosCombustiveis'
 import { useGeolocalizacao } from '../../hooks/useGeolocalizacao'
+import { LocationIcon } from '../../components/LocationIcon'
 import { SkeletonCard } from '../../components/SkeletonCard'
 import { EmptyState, EmptyStateAction } from '../../components/EmptyState'
 import { calcularNivelPreco } from '../../components/PriceBadge'
@@ -234,7 +235,7 @@ export function CardsGridLayout() {
               )}
               {localizacao && mostrarStatusLocalizacao && (
                 <div className="bg-green-50 dark:bg-green-900/30 border border-green-200 dark:border-green-800 rounded-lg p-2 flex items-center gap-2 text-sm text-green-700 dark:text-green-400">
-                  <Crosshair size={16} />
+                  <LocationIcon size={16} />
                   <span>Localização obtida</span>
                 </div>
               )}

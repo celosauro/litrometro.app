@@ -1,7 +1,8 @@
 import { useState, useMemo, useEffect, useRef, useCallback } from 'react';
-import { MagnifyingGlass, Crosshair, X, List } from '@phosphor-icons/react';
+import { MagnifyingGlass, X, List } from '@phosphor-icons/react';
 import { usePrecosCombustiveis } from '../hooks/usePrecosCombustiveis';
 import { useGeolocalizacao } from '../hooks/useGeolocalizacao';
+import { LocationIcon } from '../components/LocationIcon';
 import { CardCombustivel } from '../components/FuelCard';
 import { SeletorTipoCombustivel } from '../components/FuelTypeSelector';
 import { SeletorMunicipio } from '../components/MunicipioSelector';
@@ -316,10 +317,7 @@ export default function HomePage() {
                 aria-label="Obter localização"
                 title={localizacao ? 'Localização obtida' : 'Obter minha localização'}
               >
-                <Crosshair
-                  size={18}
-                  className={`sm:w-5 sm:h-5 ${carregandoLocalizacao ? 'animate-pulse' : ''}`}
-                />
+                <LocationIcon size={18} className={carregandoLocalizacao ? 'animate-pulse' : ''} />
               </button>
             </div>
           </div>
@@ -343,7 +341,7 @@ export default function HomePage() {
             )}
             {localizacao && mostrarStatusLocalizacao && (
               <div className="bg-green-50 dark:bg-green-900/30 border border-green-200 dark:border-green-800 rounded-lg p-2 flex items-center gap-2 text-sm text-green-700 dark:text-green-400">
-                <Crosshair size={16} />
+                <LocationIcon size={16} />
                 <span>Localização obtida</span>
               </div>
             )}
