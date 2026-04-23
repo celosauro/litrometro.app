@@ -63,19 +63,31 @@ async function main(): Promise<void> {
     const cnpj = cnpjs[i];
     const coords = geoCache[cnpj];
 
-    const { error, count } = await client
+    // Nunca sincronizar coords de fonte 'sefaz' — já são gerenciadas pela coleta.
+    // O sync serve exclusivamente para propagar coords validadas (nominatim/opencage/locationiq)
+    // de volta ao Supabase, sem sobrescrever coordenadas já corrigidas.
+    if (coords.fonte === 'sefaz') {
+      skipped++;
+      if ((i + 1) % 50 === 0 || i === cnpjs.length - 1) {
+        process.stdout.write(`\r   Progress: ${i+1}/${cnpjs.length} (updated: ${updated})`);
+      }
+      continue;
+    }
+
+    // Só atualiza se o Supabase ainda tiver geocode_source nulo ou 'sefaz'
+    // (preserva coords já validadas por outras fontes)
+    const { error } = await client
       .from('estabelecimentos')
       .update({
         latitude: coords.latitude,
         longitude: coords.longitude,
         geocode_source: coords.fonte,
       })
-      .eq('cnpj', cnpj);
+      .eq('cnpj', cnpj)
+      .or('geocode_source.is.null,geocode_source.eq.sefaz');
 
     if (error) {
       errors++;
-    } else if (count === 0) {
-      skipped++; // CNPJ not in Supabase
     } else {
       updated++;
     }
