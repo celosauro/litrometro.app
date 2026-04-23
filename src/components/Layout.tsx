@@ -4,6 +4,7 @@ import { Footer } from './Footer';
 import { CookieBanner } from './CookieBanner';
 import { BotaoTema } from './BotaoTema';
 import { OfflineIndicator } from './OfflineIndicator';
+import { HamburgerMenu } from './HamburgerMenu';
 
 export function Layout() {
   const location = useLocation();
@@ -22,7 +23,7 @@ export function Layout() {
               </div>
               <div>
                 <h1 className="text-lg sm:text-xl font-bold text-white tracking-tight">Litrômetro</h1>
-                <p className="text-[10px] sm:text-xs text-white/70 font-medium">Preços de Alagoas</p>
+                <p className="text-[10px] sm:text-xs text-white/70 font-medium">Preços de combustíves em Alagoas</p>
               </div>
             </Link>
             
@@ -36,6 +37,7 @@ export function Layout() {
                   ← Voltar
                 </Link>
               )}
+              <HamburgerMenu />
               <BotaoTema variant="header" />
             </div>
           </div>
