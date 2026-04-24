@@ -2,7 +2,6 @@ import { useState, useMemo, useEffect, useRef, useCallback } from 'react'
 import { usePrecosCombustiveis } from '../hooks/usePrecosCombustiveis'
 import { useGeolocalizacao } from '../hooks/useGeolocalizacao'
 import { MapaEstabelecimentos } from '../components/MapaEstabelecimentos'
-import { LocationIcon } from '../components/LocationIcon'
 import { calcularDistanciaKm } from '../utils/distancia'
 import { trackFuelTypeSelect, trackMunicipalitySelect } from '../utils/analytics'
 import type { TipoCombustivel, PrecoCombustivelResumo } from '../types'
@@ -196,18 +195,7 @@ export default function FindFuelHomePage() {
           </div>
 
           {/* Localização */}
-          <button
-            type="button"
-            onClick={handleLocalizacaoClick}
-            disabled={carregandoLocalizacao}
-            className={`btn-secondary inline-flex h-10 w-10 items-center justify-center rounded-lg sm:rounded-xl sm:ml-auto
-              ${localizacao ? 'bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 border-green-300 dark:border-green-700' : ''}
-              ${carregandoLocalizacao ? 'opacity-70 cursor-wait' : ''}`}
-            aria-label="Centralizar mapa na minha localização"
-            title={localizacao ? 'Recentralizar mapa na minha localização' : 'Obter minha localização'}
-          >
-            <LocationIcon size={18} className={carregandoLocalizacao ? 'animate-pulse' : ''} />
-          </button>
+          {/* Removido: botão agora fica dentro do mapa no canto inferior direito */}
         </div>
       </section>
 
@@ -225,6 +213,8 @@ export default function FindFuelHomePage() {
             municipioSelecionado={municipioSelecionado}
             cnpjMelhor={cnpjMelhorPosto}
             onDadosVisiveis={handleDadosVisiveis}
+            carregandoLocalizacao={carregandoLocalizacao}
+            onLocalizacaoClick={handleLocalizacaoClick}
             className="w-full h-full"
           />
         </div>
