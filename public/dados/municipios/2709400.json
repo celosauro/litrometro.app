@@ -1,7 +1,7 @@
 {
   "codigoIBGE": "2709400",
   "municipio": "Viçosa",
-  "atualizadoEm": "2026-04-24T03:24:15.671Z",
+  "atualizadoEm": "2026-04-24T06:35:52.617Z",
   "totalEstabelecimentos": 14,
   "estabelecimentos": [
     {
@@ -25,26 +25,6 @@
       "data_recente": "2026-04-24T01:01:01+00:00"
     },
     {
-      "cnpj": "07478815000120",
-      "tipo_combustivel": 1,
-      "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
-      "nome_fantasia": "POSTO SABALANGA",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 210",
-      "numero_imovel": "1",
-      "bairro": "FAZ ALTO CONCEICAO",
-      "cep": "57700000",
-      "codigo_ibge": "2709400",
-      "municipio": "Viçosa",
-      "latitude": -9.3694174,
-      "longitude": -36.2427277,
-      "valor_minimo": 7.2886,
-      "valor_maximo": 7.2886,
-      "valor_medio": 7.2886,
-      "valor_recente": 7.2886,
-      "data_recente": "2026-04-24T01:35:11+00:00"
-    },
-    {
       "cnpj": "18527801000175",
       "tipo_combustivel": 1,
       "razao_social": "AUTO POSTO VICOSA EIRELI - EPP",
@@ -62,7 +42,27 @@
       "valor_maximo": 7.2899,
       "valor_medio": 7.2899,
       "valor_recente": 7.2899,
-      "data_recente": "2026-04-23T22:41:38+00:00"
+      "data_recente": "2026-04-23T22:14:30+00:00"
+    },
+    {
+      "cnpj": "07478815000120",
+      "tipo_combustivel": 1,
+      "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
+      "nome_fantasia": "POSTO SABALANGA",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 210",
+      "numero_imovel": "1",
+      "bairro": "FAZ ALTO CONCEICAO",
+      "cep": "57700000",
+      "codigo_ibge": "2709400",
+      "municipio": "Viçosa",
+      "latitude": -9.3694174,
+      "longitude": -36.2427277,
+      "valor_minimo": 7.29,
+      "valor_maximo": 7.29,
+      "valor_medio": 7.29,
+      "valor_recente": 7.29,
+      "data_recente": "2026-04-24T04:28:58+00:00"
     },
     {
       "cnpj": "08616112000183",
@@ -105,26 +105,6 @@
       "data_recente": "2026-04-24T00:52:20+00:00"
     },
     {
-      "cnpj": "18527801000175",
-      "tipo_combustivel": 2,
-      "razao_social": "AUTO POSTO VICOSA EIRELI - EPP",
-      "nome_fantasia": "POSTO VICOSA",
-      "telefone": "",
-      "nome_logradouro": "LOT BREJO",
-      "numero_imovel": "S/N",
-      "bairro": "CENTRO",
-      "cep": "57700000",
-      "codigo_ibge": "2709400",
-      "municipio": "Viçosa",
-      "latitude": -9.373999699999999,
-      "longitude": -36.2421527,
-      "valor_minimo": 7.3923,
-      "valor_maximo": 7.3923,
-      "valor_medio": 7.3923,
-      "valor_recente": 7.3923,
-      "data_recente": "2026-04-23T22:29:20+00:00"
-    },
-    {
       "cnpj": "07478815000120",
       "tipo_combustivel": 2,
       "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
@@ -138,11 +118,31 @@
       "municipio": "Viçosa",
       "latitude": -9.3694174,
       "longitude": -36.2427277,
-      "valor_minimo": 7.3934,
-      "valor_maximo": 7.3934,
-      "valor_medio": 7.3934,
-      "valor_recente": 7.3934,
-      "data_recente": "2026-04-23T23:52:16+00:00"
+      "valor_minimo": 7.3899,
+      "valor_maximo": 7.3899,
+      "valor_medio": 7.3899,
+      "valor_recente": 7.3899,
+      "data_recente": "2026-04-24T03:49:51+00:00"
+    },
+    {
+      "cnpj": "18527801000175",
+      "tipo_combustivel": 2,
+      "razao_social": "AUTO POSTO VICOSA EIRELI - EPP",
+      "nome_fantasia": "POSTO VICOSA",
+      "telefone": "",
+      "nome_logradouro": "LOT BREJO",
+      "numero_imovel": "S/N",
+      "bairro": "CENTRO",
+      "cep": "57700000",
+      "codigo_ibge": "2709400",
+      "municipio": "Viçosa",
+      "latitude": -9.373999699999999,
+      "longitude": -36.2421527,
+      "valor_minimo": 7.3911,
+      "valor_maximo": 7.3911,
+      "valor_medio": 7.3911,
+      "valor_recente": 7.3911,
+      "data_recente": "2026-04-23T21:12:27+00:00"
     },
     {
       "cnpj": "08616112000183",
@@ -198,11 +198,31 @@
       "municipio": "Viçosa",
       "latitude": -9.373999699999999,
       "longitude": -36.2421527,
-      "valor_minimo": 6.0893,
-      "valor_maximo": 6.0893,
-      "valor_medio": 6.0893,
-      "valor_recente": 6.0893,
-      "data_recente": "2026-04-23T14:57:33+00:00"
+      "valor_minimo": 6.0909,
+      "valor_maximo": 6.0909,
+      "valor_medio": 6.0909,
+      "valor_recente": 6.0909,
+      "data_recente": "2026-04-23T22:14:30+00:00"
+    },
+    {
+      "cnpj": "07478815000120",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
+      "nome_fantasia": "POSTO SABALANGA",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 210",
+      "numero_imovel": "1",
+      "bairro": "FAZ ALTO CONCEICAO",
+      "cep": "57700000",
+      "codigo_ibge": "2709400",
+      "municipio": "Viçosa",
+      "latitude": -9.3694174,
+      "longitude": -36.2427277,
+      "valor_minimo": 7.22,
+      "valor_maximo": 7.22,
+      "valor_medio": 7.22,
+      "valor_recente": 7.22,
+      "data_recente": "2026-04-24T04:58:46+00:00"
     },
     {
       "cnpj": "28463788000191",
@@ -223,26 +243,6 @@
       "valor_medio": 7.3529,
       "valor_recente": 7.3529,
       "data_recente": "2026-04-23T20:41:53+00:00"
-    },
-    {
-      "cnpj": "07478815000120",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
-      "nome_fantasia": "POSTO SABALANGA",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 210",
-      "numero_imovel": "1",
-      "bairro": "FAZ ALTO CONCEICAO",
-      "cep": "57700000",
-      "codigo_ibge": "2709400",
-      "municipio": "Viçosa",
-      "latitude": -9.3694174,
-      "longitude": -36.2427277,
-      "valor_minimo": 7.4899,
-      "valor_maximo": 7.4899,
-      "valor_medio": 7.4899,
-      "valor_recente": 7.4899,
-      "data_recente": "2026-04-24T00:41:00+00:00"
     },
     {
       "cnpj": "08616112000183",
@@ -278,11 +278,11 @@
       "municipio": "Viçosa",
       "latitude": -9.373999699999999,
       "longitude": -36.2421527,
-      "valor_minimo": 7.6897,
-      "valor_maximo": 7.6897,
-      "valor_medio": 7.6897,
-      "valor_recente": 7.6897,
-      "data_recente": "2026-04-23T22:50:15+00:00"
+      "valor_minimo": 7.6923,
+      "valor_maximo": 7.6923,
+      "valor_medio": 7.6923,
+      "valor_recente": 7.6923,
+      "data_recente": "2026-04-23T20:31:14+00:00"
     }
   ]
 }
