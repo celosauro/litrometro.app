@@ -76,6 +76,44 @@ interface JSONExpandido {
   estabelecimentos: EstabelecimentoExpandido[];
 }
 
+interface EstabelecimentoCatalogo {
+  cnpj: string;
+  razao_social: string;
+  nome_fantasia: string;
+  telefone: string;
+  nome_logradouro: string;
+  numero_imovel: string;
+  bairro: string;
+  cep: string;
+  codigo_ibge: string;
+  municipio: string;
+  latitude: number;
+  longitude: number;
+  geocode_source: string;
+}
+
+interface JSONEstabelecimentos {
+  atualizadoEm: string;
+  totalEstabelecimentos: number;
+  estabelecimentos: EstabelecimentoCatalogo[];
+}
+
+interface PrecoAtualRegistro {
+  cnpj: string;
+  tipo_combustivel: TipoCombustivel;
+  valor_minimo: number;
+  valor_maximo: number;
+  valor_medio: number;
+  valor_recente: number;
+  data_recente: string;
+}
+
+interface JSONPrecosAtuais {
+  atualizadoEm: string;
+  totalRegistros: number;
+  precos: PrecoAtualRegistro[];
+}
+
 interface PrecoSupabase {
   cnpj: string;
   tipo_combustivel: number;
@@ -108,6 +146,7 @@ const GEOCACHE_PATH = path.join(DADOS_DIR, 'geocache.json');
 
 const SUPABASE_URL = process.env.VITE_SUPABASE_URL!;
 const SUPABASE_SECRET_KEY = process.env.SUPABASE_SECRET_KEY!;
+const VIEW_PRECOS = 'v_precos_completos_v2';
 
 // Tipo do geocache local
 interface GeoCacheEntry {
@@ -251,12 +290,12 @@ async function buscarDadosSupabase(): Promise<PrecoSupabase[]> {
   const BATCH_SIZE = 1000;
   const todosRegistros: PrecoSupabase[] = [];
   let offset = 0;
-  
-  console.log('📊 Buscando dados do Supabase...');
-  
+
+  console.log(`📊 Buscando dados do Supabase via ${VIEW_PRECOS}...`);
+
   while (true) {
     const { data, error } = await client
-      .from('v_precos_completos')
+      .from(VIEW_PRECOS)
       .select('*')
       .order('codigo_ibge')
       .order('tipo_combustivel')
@@ -264,7 +303,7 @@ async function buscarDadosSupabase(): Promise<PrecoSupabase[]> {
       .range(offset, offset + BATCH_SIZE - 1);
 
     if (error) {
-      throw new Error(`Erro ao buscar dados: ${error.message}`);
+      throw new Error(`Erro ao buscar dados em ${VIEW_PRECOS}: ${error.message}`);
     }
 
     if (!data || data.length === 0) {
@@ -326,6 +365,67 @@ function gerarJSONMinificado(
     n: estabelecimentos.length,
     m: municipiosUnicos.size,
     d: minificados,
+  };
+}
+
+/**
+ * Gera catálogo de estabelecimentos (1 registro por CNPJ)
+ */
+function gerarJSONEstabelecimentos(
+  estabelecimentos: EstabelecimentoExpandido[],
+  atualizadoEm: string
+): JSONEstabelecimentos {
+  const cache = carregarGeoCache();
+  const porCnpj = new Map<string, EstabelecimentoCatalogo>();
+
+  for (const est of estabelecimentos) {
+    if (porCnpj.has(est.cnpj)) continue;
+
+    porCnpj.set(est.cnpj, {
+      cnpj: est.cnpj,
+      razao_social: est.razao_social,
+      nome_fantasia: est.nome_fantasia,
+      telefone: est.telefone,
+      nome_logradouro: est.nome_logradouro,
+      numero_imovel: est.numero_imovel,
+      bairro: est.bairro,
+      cep: est.cep,
+      codigo_ibge: est.codigo_ibge,
+      municipio: est.municipio,
+      latitude: est.latitude,
+      longitude: est.longitude,
+      geocode_source: cache[est.cnpj]?.fonte || 'supabase',
+    });
+  }
+
+  return {
+    atualizadoEm,
+    totalEstabelecimentos: porCnpj.size,
+    estabelecimentos: Array.from(porCnpj.values()),
+  };
+}
+
+/**
+ * Gera estrutura de preços atuais isolada do cadastro
+ */
+function gerarJSONPrecosAtuais(
+  estabelecimentos: EstabelecimentoExpandido[],
+  atualizadoEm: string
+): JSONPrecosAtuais {
+  const precos = estabelecimentos.map(est => ({
+    cnpj: est.cnpj,
+    tipo_combustivel: est.tipo_combustivel,
+    valor_minimo: est.valor_minimo,
+    valor_maximo: est.valor_maximo,
+    valor_medio: est.valor_medio,
+    valor_recente: est.valor_recente,
+    data_recente: est.data_recente,
+  }));
+
+  return {
+    atualizadoEm,
+    totalRegistros: precos.length,
+    precos,
   };
 }
 
@@ -431,6 +531,23 @@ async function main(): Promise<void> {
   }
   console.log(`   municipios/: ${municipiosGerados} arquivos`);
 
+  // Gera artefatos separados por domínio
+  const jsonEstabelecimentos = gerarJSONEstabelecimentos(estabelecimentos, atualizadoEm);
+  const tamanhoEstabelecimentos = salvarJSON(
+    path.join(DADOS_DIR, 'estabelecimentos.json'),
+    jsonEstabelecimentos,
+    false
+  );
+  console.log(`   estabelecimentos.json: ${(tamanhoEstabelecimentos / 1024).toFixed(1)} KB`);
+
+  const jsonPrecosAtuais = gerarJSONPrecosAtuais(estabelecimentos, atualizadoEm);
+  const tamanhoPrecosAtuais = salvarJSON(
+    path.join(DADOS_DIR, 'precos-atuais.json'),
+    jsonPrecosAtuais,
+    false
+  );
+  console.log(`   precos-atuais.json: ${(tamanhoPrecosAtuais / 1024).toFixed(1)} KB`);
+
   // Resumo
   console.log('\n═'.repeat(60));
   console.log('Exportação concluída!');
@@ -439,6 +556,8 @@ async function main(): Promise<void> {
   console.log(`  Municípios: ${jsonExpandido.totalMunicipios}`);
   console.log(`  atual.json: ${(tamanhoExpandido / 1024).toFixed(1)} KB`);
   console.log(`  atual.min.json: ${(tamanhoMinificado / 1024).toFixed(1)} KB`);
+  console.log(`  estabelecimentos.json: ${(tamanhoEstabelecimentos / 1024).toFixed(1)} KB`);
+  console.log(`  precos-atuais.json: ${(tamanhoPrecosAtuais / 1024).toFixed(1)} KB`);
   console.log(`  Economia: ${((1 - tamanhoMinificado / tamanhoExpandido) * 100).toFixed(1)}%`);
 }
 

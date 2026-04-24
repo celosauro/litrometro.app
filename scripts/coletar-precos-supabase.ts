@@ -679,10 +679,9 @@ async function buscarEstabelecimentosExistentes(
 
 function devePreservarCoordenadasExistentes(existente: EstabelecimentoExistente): boolean {
   return Boolean(
-    existente.latitude !== null &&
-    existente.longitude !== null &&
-    existente.geocode_source &&
-    existente.geocode_source !== 'sefaz'
+    existente.latitude !== null ||
+    existente.longitude !== null ||
+    existente.geocode_source
   );
 }
 
@@ -711,7 +710,7 @@ async function mesclarCoordenadasValidadas(
   });
 
   if (preservados > 0) {
-    console.log(`  📍 ${preservados} coordenadas validadas preservadas no Supabase`);
+    console.log(`  📍 ${preservados} coordenadas existentes preservadas no Supabase`);
   }
 
   return mesclados;

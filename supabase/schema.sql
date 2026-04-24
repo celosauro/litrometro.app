@@ -47,6 +47,42 @@ CREATE INDEX IF NOT EXISTS idx_estabelecimentos_municipio ON estabelecimentos(co
 CREATE INDEX IF NOT EXISTS idx_estabelecimentos_geo ON estabelecimentos(latitude, longitude);
 
 -- ============================================================================
+-- 2.1 TABELAS: geocoding separado do cadastro
+-- Camada oficial de geografia para reduzir conflitos com coleta de preço
+-- ============================================================================
+CREATE TABLE IF NOT EXISTS estabelecimento_geo_current (
+  cnpj VARCHAR(14) PRIMARY KEY REFERENCES estabelecimentos(cnpj) ON DELETE CASCADE,
+  latitude DECIMAL(17, 15) NOT NULL,
+  longitude DECIMAL(18, 15) NOT NULL,
+  geocode_source VARCHAR(30) NOT NULL,
+  prioridade_fonte SMALLINT NOT NULL DEFAULT 0,
+  confianca NUMERIC(5, 4),
+  validado_manual BOOLEAN NOT NULL DEFAULT FALSE,
+  observacao TEXT,
+  atualizado_em TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+
+COMMENT ON TABLE estabelecimento_geo_current IS 'Coordenada atual consolidada por CNPJ (fonte oficial de geografia)';
+COMMENT ON COLUMN estabelecimento_geo_current.prioridade_fonte IS 'Prioridade da fonte para evitar sobrescrita por origem menos confiável';
+
+CREATE INDEX IF NOT EXISTS idx_geo_current_source ON estabelecimento_geo_current(geocode_source);
+
+CREATE TABLE IF NOT EXISTS estabelecimento_geo_event (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  cnpj VARCHAR(14) NOT NULL REFERENCES estabelecimentos(cnpj) ON DELETE CASCADE,
+  latitude DECIMAL(17, 15) NOT NULL,
+  longitude DECIMAL(18, 15) NOT NULL,
+  geocode_source VARCHAR(30) NOT NULL,
+  confianca NUMERIC(5, 4),
+  observacao TEXT,
+  registrado_em TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+
+COMMENT ON TABLE estabelecimento_geo_event IS 'Histórico de alterações de geocoding por CNPJ';
+
+CREATE INDEX IF NOT EXISTS idx_geo_event_cnpj_data ON estabelecimento_geo_event(cnpj, registrado_em DESC);
+
+-- ============================================================================
 -- 3. TABELA: precos_atuais
 -- Snapshot atual de preços (substitui atual.json)
 -- ============================================================================
@@ -128,6 +164,8 @@ CREATE INDEX IF NOT EXISTS idx_coletas_iniciado ON coletas_log(iniciado_em DESC)
 -- Habilitar RLS em todas as tabelas
 ALTER TABLE municipios ENABLE ROW LEVEL SECURITY;
 ALTER TABLE estabelecimentos ENABLE ROW LEVEL SECURITY;
+ALTER TABLE estabelecimento_geo_current ENABLE ROW LEVEL SECURITY;
+ALTER TABLE estabelecimento_geo_event ENABLE ROW LEVEL SECURITY;
 ALTER TABLE precos_atuais ENABLE ROW LEVEL SECURITY;
 ALTER TABLE vendas_historico ENABLE ROW LEVEL SECURITY;
 ALTER TABLE coletas_log ENABLE ROW LEVEL SECURITY;
@@ -135,6 +173,8 @@ ALTER TABLE coletas_log ENABLE ROW LEVEL SECURITY;
 -- Políticas de leitura pública (SELECT)
 CREATE POLICY "Leitura pública municipios" ON municipios FOR SELECT USING (true);
 CREATE POLICY "Leitura pública estabelecimentos" ON estabelecimentos FOR SELECT USING (true);
+CREATE POLICY "Leitura pública geocurrent" ON estabelecimento_geo_current FOR SELECT USING (true);
+CREATE POLICY "Leitura pública geoevent" ON estabelecimento_geo_event FOR SELECT USING (true);
 CREATE POLICY "Leitura pública precos" ON precos_atuais FOR SELECT USING (true);
 CREATE POLICY "Leitura pública historico" ON vendas_historico FOR SELECT USING (true);
 CREATE POLICY "Leitura pública coletas" ON coletas_log FOR SELECT USING (true);
@@ -142,6 +182,8 @@ CREATE POLICY "Leitura pública coletas" ON coletas_log FOR SELECT USING (true);
 -- Políticas de escrita apenas para service_role
 CREATE POLICY "Escrita service_role municipios" ON municipios FOR ALL USING (auth.role() = 'service_role');
 CREATE POLICY "Escrita service_role estabelecimentos" ON estabelecimentos FOR ALL USING (auth.role() = 'service_role');
+CREATE POLICY "Escrita service_role geocurrent" ON estabelecimento_geo_current FOR ALL USING (auth.role() = 'service_role');
+CREATE POLICY "Escrita service_role geoevent" ON estabelecimento_geo_event FOR ALL USING (auth.role() = 'service_role');
 CREATE POLICY "Escrita service_role precos" ON precos_atuais FOR ALL USING (auth.role() = 'service_role');
 CREATE POLICY "Escrita service_role historico" ON vendas_historico FOR ALL USING (auth.role() = 'service_role');
 CREATE POLICY "Escrita service_role coletas" ON coletas_log FOR ALL USING (auth.role() = 'service_role');
@@ -155,6 +197,65 @@ RETURNS TRIGGER AS $$
 BEGIN
   NEW.updated_at = NOW();
   RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+-- Upsert de geocoding com proteção por prioridade de fonte
+CREATE OR REPLACE FUNCTION upsert_estabelecimento_geo(
+  p_cnpj VARCHAR(14),
+  p_lat DECIMAL(17, 15),
+  p_lng DECIMAL(18, 15),
+  p_source VARCHAR(30),
+  p_prioridade SMALLINT,
+  p_confianca NUMERIC(5, 4),
+  p_obs TEXT
+)
+RETURNS VOID AS $$
+BEGIN
+  INSERT INTO estabelecimento_geo_event (
+    cnpj,
+    latitude,
+    longitude,
+    geocode_source,
+    confianca,
+    observacao
+  ) VALUES (
+    p_cnpj,
+    p_lat,
+    p_lng,
+    p_source,
+    p_confianca,
+    p_obs
+  );
+
+  INSERT INTO estabelecimento_geo_current (
+    cnpj,
+    latitude,
+    longitude,
+    geocode_source,
+    prioridade_fonte,
+    confianca,
+    observacao,
+    atualizado_em
+  ) VALUES (
+    p_cnpj,
+    p_lat,
+    p_lng,
+    p_source,
+    p_prioridade,
+    p_confianca,
+    p_obs,
+    NOW()
+  )
+  ON CONFLICT (cnpj) DO UPDATE
+  SET latitude = EXCLUDED.latitude,
+      longitude = EXCLUDED.longitude,
+      geocode_source = EXCLUDED.geocode_source,
+      prioridade_fonte = EXCLUDED.prioridade_fonte,
+      confianca = EXCLUDED.confianca,
+      observacao = EXCLUDED.observacao,
+      atualizado_em = EXCLUDED.atualizado_em
+  WHERE EXCLUDED.prioridade_fonte >= estabelecimento_geo_current.prioridade_fonte;
 END;
 $$ LANGUAGE plpgsql;
 
@@ -199,6 +300,36 @@ JOIN estabelecimentos e ON p.cnpj = e.cnpj
 JOIN municipios m ON e.codigo_ibge = m.codigo_ibge;
 
 COMMENT ON VIEW v_precos_completos IS 'Preços com dados completos do estabelecimento (compatível com atual.json)';
+
+-- View v2: prioriza camada separada de geocoding quando disponível
+CREATE OR REPLACE VIEW v_precos_completos_v2 AS
+SELECT
+  e.cnpj,
+  p.tipo_combustivel,
+  e.razao_social,
+  e.nome_fantasia,
+  e.telefone,
+  e.nome_logradouro,
+  e.numero_imovel,
+  e.bairro,
+  e.cep,
+  e.codigo_ibge,
+  m.nome as municipio,
+  COALESCE(g.latitude, e.latitude) as latitude,
+  COALESCE(g.longitude, e.longitude) as longitude,
+  COALESCE(g.geocode_source, e.geocode_source) as geocode_source,
+  p.valor_minimo,
+  p.valor_maximo,
+  p.valor_medio,
+  p.valor_recente,
+  p.data_recente,
+  p.updated_at
+FROM precos_atuais p
+JOIN estabelecimentos e ON p.cnpj = e.cnpj
+JOIN municipios m ON e.codigo_ibge = m.codigo_ibge
+LEFT JOIN estabelecimento_geo_current g ON g.cnpj = e.cnpj;
+
+COMMENT ON VIEW v_precos_completos_v2 IS 'Preços com coordenadas da camada geo separada (fallback para estabelecimentos)';
 
 -- View: Resumo por município (substitui municipios/*.json)
 CREATE OR REPLACE VIEW v_resumo_municipios AS
