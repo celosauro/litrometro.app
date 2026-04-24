@@ -2,7 +2,6 @@ import { useState, useMemo, useCallback, useRef, useEffect } from 'react';
 import {
   Map,
   Marker,
-  NavigationControl,
   ScaleControl,
   Source,
   Layer,
@@ -13,11 +12,16 @@ import type { LayerProps } from 'react-map-gl/maplibre';
 import PinPreco from './PinPreco';
 import { StationCard } from './StationCard';
 import { trackStationView } from '../utils/analytics';
+import { LocationIcon } from './LocationIcon';
 import type { PrecoCombustivelResumo, TipoCombustivel } from '../types';
 import { TIPOS_COMBUSTIVEL } from '../types';
+import { useTema } from '../contexts/TemaContext';
 
-// Tiles gratuitos do CartoCDN
-const MAP_STYLE = 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json';
+// Tiles gratuitos do CartoCDN - suporta tema escuro
+const MAP_STYLES = {
+  light: 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json',
+  dark: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
+} as const;
 
 // Centro de Alagoas (fallback quando não há localização)
 const CENTRO_ALAGOAS = {
@@ -71,6 +75,9 @@ interface MapaEstabelecimentosProps {
   className?: string;
   // Callback quando dados visíveis mudam (filtrados por bounds)
   onDadosVisiveis?: (dados: DadosComDistancia[]) => void;
+  // Props para botão de geolocalização
+  carregandoLocalizacao?: boolean;
+  onLocalizacaoClick?: () => void;
 }
 
 // Cache dos centros dos municípios (carregado uma vez)
@@ -100,7 +107,10 @@ export function MapaEstabelecimentos({
   cnpjMelhor,
   className = '',
   onDadosVisiveis,
+  carregandoLocalizacao = false,
+  onLocalizacaoClick,
 }: MapaEstabelecimentosProps) {
+  const { temaAtual } = useTema();
   const mapRef = useRef<MapRef>(null);
   const [popupInfo, setPopupInfo] = useState<DadosComDistancia | null>(null);
   const [mapCarregado, setMapCarregado] = useState(false);
@@ -319,14 +329,13 @@ export function MapaEstabelecimentos({
       <Map
         ref={mapRef}
         initialViewState={viewInicial}
-        mapStyle={MAP_STYLE}
+        mapStyle={MAP_STYLES[temaAtual]}
         style={{ width: '100%', height: '100%' }}
         onLoad={handleMapLoad}
         onMoveEnd={handleMoveEnd}
         onClick={() => setPopupInfo(null)}
       >
         {/* Controles - posicionados para não conflitar com overlays */}
-        <NavigationControl position="bottom-right" showCompass={false} />
         <ScaleControl position="bottom-left" />
 
         {/* Clustering para zoom baixo */}
@@ -385,10 +394,28 @@ export function MapaEstabelecimentos({
         </div>
       )}
       
-      {/* Legenda / Info - canto inferior esquerdo para não conflitar */}
-      <div className="absolute bottom-4 left-12 z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm rounded-lg px-3 py-1.5 shadow-md text-xs text-gray-600 dark:text-gray-300 border border-gray-200 dark:border-gray-700">
+      {/* Legenda / Info - canto superior esquerdo */}
+      <div className="absolute top-4 left-4 z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm rounded-lg px-3 py-1.5 shadow-md text-xs text-gray-600 dark:text-gray-300 border border-gray-200 dark:border-gray-700">
         {contadorVisiveis} postos no mapa
       </div>
+
+      {/* Botão de Geolocalização - canto inferior direito */}
+      {onLocalizacaoClick && (
+        <button
+          type="button"
+          onClick={onLocalizacaoClick}
+          disabled={carregandoLocalizacao}
+          className={`absolute bottom-14 right-4 z-20 inline-flex h-10 w-10 items-center justify-center rounded-lg border shadow-md transition-all ${
+            localizacao
+              ? 'bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 border-green-300 dark:border-green-700 hover:bg-green-200 dark:hover:bg-green-900/50'
+              : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700'
+          } ${carregandoLocalizacao ? 'opacity-70 cursor-wait' : ''}`}
+          aria-label="Obter minha localização"
+          title={localizacao ? 'Recentralizar mapa na minha localização' : 'Obter minha localização'}
+        >
+          <LocationIcon size={18} className={carregandoLocalizacao ? 'animate-pulse' : ''} />
+        </button>
+      )}
     </div>
   );
 }
