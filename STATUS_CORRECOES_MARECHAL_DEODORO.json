@@ -1,0 +1,67 @@
+{
+  "corrigidos": [
+    {
+      "cnpj": "07886068000169",
+      "nome": "AUTO POSTO LAGOA CAFE",
+      "coordsAntigas": "-9.7255, -35.8162 (incorreta)",
+      "coordsNovas": "-9.7476613, -35.8390402",
+      "fonte": "manual-triangulado",
+      "metodo": "Google Maps + Nominatim reverso validation",
+      "status": "✓ COMPLETO"
+    },
+    {
+      "cnpj": "50763348000109",
+      "nome": "PRATAGY FRANCÊS",
+      "coordsAntigas": "-9.7103, -35.8950 (OpenCage incorreto)",
+      "coordsNovas": "-9.76696, -35.850576",
+      "fonte": "manual-triangulado",
+      "metodo": "Triangulação com 4 fontes de dados",
+      "status": "✓ COMPLETO"
+    }
+  ],
+  "pendentes": [
+    {
+      "cnpj": "52191678000100",
+      "nome": "AUTO POSTO POLO",
+      "bairro": "POLO CLOROQUIMICO"
+    },
+    {
+      "cnpj": "00404850000236",
+      "nome": "POSTO LUAR DO FRANCES",
+      "bairro": "POVOADO DO FRANCES"
+    },
+    {
+      "cnpj": "34193732000167",
+      "nome": "AUTO POSTO TREVO DO FRANCES",
+      "bairro": "FRANCES"
+    },
+    {
+      "cnpj": "35370972000233",
+      "nome": "POSTO TREIS IRMAOS",
+      "bairro": "TAPERAGUA"
+    },
+    {
+      "cnpj": "20838676000166",
+      "nome": "POSTO ECOLOGICO",
+      "bairro": "ILHA DE SANTA RITA"
+    },
+    {
+      "cnpj": "03853241000171",
+      "nome": "MAXI POSTO ECOLOGICO",
+      "bairro": "AL 101"
+    },
+    {
+      "cnpj": "27190674000152",
+      "nome": "AUTO POSTO MANGUABA LTDA",
+      "bairro": "POVOADO PEDRAS"
+    }
+  ],
+  "nota": "Estes 7 postos precisam revisão manual via Google Maps para extração de coordenadas precisas. Nominatim/OpenCage não conseguiram resolver endereços com \"S/N\" ou rodovia sem número.",
+  "proximos_passos": [
+    "1. Abrir Google Maps para cada um dos 7 postos",
+    "2. Extrair coordenadas da posição PIN do Maps",
+    "3. Adicionar ao geocache.json com fonte=\"manual-google-maps\"",
+    "4. Sincronizar com Supabase via npm run sync:geocache",
+    "5. Reexportar JSON via npm run export:json"
+  ]
+}
