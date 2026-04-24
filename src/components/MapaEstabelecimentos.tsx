@@ -15,9 +15,13 @@ import { StationCard } from './StationCard';
 import { trackStationView } from '../utils/analytics';
 import type { PrecoCombustivelResumo, TipoCombustivel } from '../types';
 import { TIPOS_COMBUSTIVEL } from '../types';
+import { useTema } from '../contexts/TemaContext';
 
-// Tiles gratuitos do CartoCDN
-const MAP_STYLE = 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json';
+// Tiles gratuitos do CartoCDN - suporta tema escuro
+const MAP_STYLES = {
+  light: 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json',
+  dark: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
+} as const;
 
 // Centro de Alagoas (fallback quando não há localização)
 const CENTRO_ALAGOAS = {
@@ -101,6 +105,7 @@ export function MapaEstabelecimentos({
   className = '',
   onDadosVisiveis,
 }: MapaEstabelecimentosProps) {
+  const { temaAtual } = useTema();
   const mapRef = useRef<MapRef>(null);
   const [popupInfo, setPopupInfo] = useState<DadosComDistancia | null>(null);
   const [mapCarregado, setMapCarregado] = useState(false);
@@ -319,7 +324,7 @@ export function MapaEstabelecimentos({
       <Map
         ref={mapRef}
         initialViewState={viewInicial}
-        mapStyle={MAP_STYLE}
+        mapStyle={MAP_STYLES[temaAtual]}
         style={{ width: '100%', height: '100%' }}
         onLoad={handleMapLoad}
         onMoveEnd={handleMoveEnd}
