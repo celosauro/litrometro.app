@@ -171,10 +171,10 @@ export default function FindFuelHomePage() {
   }, [obterLocalizacao])
 
   return (
-    <div className="flex flex-col flex-1 w-full overflow-hidden">
+    <div className="flex flex-col flex-1 w-full overflow-hidden pb-[calc(84px+env(safe-area-inset-bottom))] sm:pb-0">
       {/* Barra superior de filtros - fora do mapa */}
-      <section className="relative z-40 flex-shrink-0 border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 px-3 py-2 sm:px-4 sm:py-3">
-        <div className="max-w-7xl mx-auto grid grid-cols-[1fr_1fr_auto] sm:flex sm:items-center sm:gap-3 lg:gap-4 overflow-visible">
+      <section className="relative z-40 flex-shrink-0 border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 px-3 py-3 sm:px-4 sm:py-4">
+        <div className="max-w-7xl mx-auto grid grid-cols-[1fr_1fr_auto] items-center gap-2.5 sm:flex sm:items-center sm:gap-4 lg:gap-5 overflow-visible">
           {/* Município */}
           <select
             value={municipioSelecionado}
@@ -231,8 +231,8 @@ export default function FindFuelHomePage() {
 
       </section>
 
-        {/* Tipos de combustível - mobile fora do mapa */}
-        <section className="sm:hidden flex-shrink-0 border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 px-4 py-3">
+        {/* Tipos de combustível - mobile fixo no rodapé */}
+        <section className="sm:hidden fixed bottom-0 left-0 right-0 z-50 min-h-[72px] flex-shrink-0 border-t border-gray-200 dark:border-gray-700 bg-white/95 dark:bg-gray-800/95 backdrop-blur-md px-4 pt-2.5 pb-[calc(0.625rem+env(safe-area-inset-bottom))] shadow-[0_-6px_20px_rgba(0,0,0,0.08)]">
           <div className="flex gap-2 overflow-x-auto scrollbar-hide">
             {FUEL_CHIPS.map(fuel => (
               <button
