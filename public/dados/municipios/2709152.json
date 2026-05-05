@@ -1,7 +1,7 @@
 {
   "codigoIBGE": "2709152",
   "municipio": "Teotônio Vilela",
-  "atualizadoEm": "2026-05-05T06:50:31.107Z",
+  "atualizadoEm": "2026-05-05T09:06:02.800Z",
   "totalEstabelecimentos": 24,
   "estabelecimentos": [
     {
@@ -25,6 +25,26 @@
       "data_recente": "2026-05-05T00:16:45+00:00"
     },
     {
+      "cnpj": "10635075000283",
+      "tipo_combustivel": 1,
+      "razao_social": "SANTANA & BULHOES AUTO POSTO LTDA",
+      "nome_fantasia": "AUTO POSTO 101",
+      "telefone": "(82) 30241100",
+      "nome_logradouro": "ROD BR 101 SUL",
+      "numero_imovel": "1455",
+      "bairro": "SAO MIGUEL",
+      "cep": "57265000",
+      "codigo_ibge": "2709152",
+      "municipio": "Teotônio Vilela",
+      "latitude": -9.90528,
+      "longitude": -36.35278,
+      "valor_minimo": 6.58,
+      "valor_maximo": 6.58,
+      "valor_medio": 6.58,
+      "valor_recente": 6.58,
+      "data_recente": "2026-05-05T07:29:41+00:00"
+    },
+    {
       "cnpj": "10635075000100",
       "tipo_combustivel": 1,
       "razao_social": "SANTANA & BULHOES AUTO POSTO LTDA",
@@ -42,27 +62,7 @@
       "valor_maximo": 6.7315,
       "valor_medio": 6.7315,
       "valor_recente": 6.7315,
-      "data_recente": "2026-05-05T03:04:42+00:00"
-    },
-    {
-      "cnpj": "10635075000283",
-      "tipo_combustivel": 1,
-      "razao_social": "SANTANA & BULHOES AUTO POSTO LTDA",
-      "nome_fantasia": "AUTO POSTO 101",
-      "telefone": "(82) 30241100",
-      "nome_logradouro": "ROD BR 101 SUL",
-      "numero_imovel": "1455",
-      "bairro": "SAO MIGUEL",
-      "cep": "57265000",
-      "codigo_ibge": "2709152",
-      "municipio": "Teotônio Vilela",
-      "latitude": -9.90528,
-      "longitude": -36.35278,
-      "valor_minimo": 6.7399,
-      "valor_maximo": 6.7399,
-      "valor_medio": 6.7399,
-      "valor_recente": 6.7399,
-      "data_recente": "2026-05-05T03:34:28+00:00"
+      "data_recente": "2026-05-05T07:23:15+00:00"
     },
     {
       "cnpj": "56412726000196",
@@ -102,7 +102,7 @@
       "valor_maximo": 6.8,
       "valor_medio": 6.8,
       "valor_recente": 6.8,
-      "data_recente": "2026-05-05T03:33:45+00:00"
+      "data_recente": "2026-05-05T03:51:20+00:00"
     },
     {
       "cnpj": "50598305000115",
@@ -178,11 +178,11 @@
       "municipio": "Teotônio Vilela",
       "latitude": -9.90528,
       "longitude": -36.35278,
-      "valor_minimo": 6.7397,
-      "valor_maximo": 6.7397,
-      "valor_medio": 6.7397,
-      "valor_recente": 6.7397,
-      "data_recente": "2026-05-05T02:41:22+00:00"
+      "valor_minimo": 6.7692,
+      "valor_maximo": 6.7692,
+      "valor_medio": 6.7692,
+      "valor_recente": 6.7692,
+      "data_recente": "2026-05-05T07:29:54+00:00"
     },
     {
       "cnpj": "56412726000196",
@@ -265,26 +265,6 @@
       "data_recente": "2026-05-04T23:04:59+00:00"
     },
     {
-      "cnpj": "10635075000283",
-      "tipo_combustivel": 3,
-      "razao_social": "SANTANA & BULHOES AUTO POSTO LTDA",
-      "nome_fantasia": "AUTO POSTO 101",
-      "telefone": "(82) 30241100",
-      "nome_logradouro": "ROD BR 101 SUL",
-      "numero_imovel": "1455",
-      "bairro": "SAO MIGUEL",
-      "cep": "57265000",
-      "codigo_ibge": "2709152",
-      "municipio": "Teotônio Vilela",
-      "latitude": -9.90528,
-      "longitude": -36.35278,
-      "valor_minimo": 4.7884,
-      "valor_maximo": 4.7884,
-      "valor_medio": 4.7884,
-      "valor_recente": 4.7884,
-      "data_recente": "2026-05-05T03:34:13+00:00"
-    },
-    {
       "cnpj": "56412726000196",
       "tipo_combustivel": 3,
       "razao_social": "SANTO ANTONIO AUTO POSTO LTDA",
@@ -303,6 +283,26 @@
       "valor_medio": 4.99,
       "valor_recente": 4.99,
       "data_recente": "2026-05-04T22:49:16+00:00"
+    },
+    {
+      "cnpj": "10635075000283",
+      "tipo_combustivel": 3,
+      "razao_social": "SANTANA & BULHOES AUTO POSTO LTDA",
+      "nome_fantasia": "AUTO POSTO 101",
+      "telefone": "(82) 30241100",
+      "nome_logradouro": "ROD BR 101 SUL",
+      "numero_imovel": "1455",
+      "bairro": "SAO MIGUEL",
+      "cep": "57265000",
+      "codigo_ibge": "2709152",
+      "municipio": "Teotônio Vilela",
+      "latitude": -9.90528,
+      "longitude": -36.35278,
+      "valor_minimo": 5,
+      "valor_maximo": 5,
+      "valor_medio": 5,
+      "valor_recente": 5,
+      "data_recente": "2026-05-05T07:29:08+00:00"
     },
     {
       "cnpj": "50598305000115",
@@ -358,11 +358,11 @@
       "municipio": "Teotônio Vilela",
       "latitude": -9.910878799999999,
       "longitude": -36.3628259,
-      "valor_minimo": 5.3387,
-      "valor_maximo": 5.3387,
-      "valor_medio": 5.3387,
-      "valor_recente": 5.3387,
-      "data_recente": "2026-05-05T00:45:10+00:00"
+      "valor_minimo": 5.339,
+      "valor_maximo": 5.339,
+      "valor_medio": 5.339,
+      "valor_recente": 5.339,
+      "data_recente": "2026-05-05T07:23:15+00:00"
     },
     {
       "cnpj": "10635075000283",
@@ -378,11 +378,11 @@
       "municipio": "Teotônio Vilela",
       "latitude": -9.90528,
       "longitude": -36.35278,
-      "valor_minimo": 6.6895,
-      "valor_maximo": 6.6895,
-      "valor_medio": 6.6895,
-      "valor_recente": 6.6895,
-      "data_recente": "2026-05-05T02:16:27+00:00"
+      "valor_minimo": 6.79,
+      "valor_maximo": 6.79,
+      "valor_medio": 6.79,
+      "valor_recente": 6.79,
+      "data_recente": "2026-05-05T07:15:32+00:00"
     },
     {
       "cnpj": "09088674000164",
