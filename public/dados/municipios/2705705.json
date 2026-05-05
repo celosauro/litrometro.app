@@ -1,9 +1,29 @@
 {
   "codigoIBGE": "2705705",
   "municipio": "Olho d'Água das Flores",
-  "atualizadoEm": "2026-05-05T09:06:02.800Z",
+  "atualizadoEm": "2026-05-05T12:03:49.234Z",
   "totalEstabelecimentos": 13,
   "estabelecimentos": [
+    {
+      "cnpj": "07431049000148",
+      "tipo_combustivel": 1,
+      "razao_social": "SILVA MELO & CIA. LTDA.",
+      "nome_fantasia": "POSTO SAO PEDRO",
+      "telefone": "(82) 6231787",
+      "nome_logradouro": "RDV AL 220",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57442000",
+      "codigo_ibge": "2705705",
+      "municipio": "Olho d'Água das Flores",
+      "latitude": -9.5501683,
+      "longitude": -37.2797114,
+      "valor_minimo": 6.71,
+      "valor_maximo": 6.71,
+      "valor_medio": 6.71,
+      "valor_recente": 6.71,
+      "data_recente": "2026-05-05T09:36:21+00:00"
+    },
     {
       "cnpj": "08841116000165",
       "tipo_combustivel": 1,
@@ -45,26 +65,6 @@
       "data_recente": "2026-05-04T23:45:32+00:00"
     },
     {
-      "cnpj": "07431049000148",
-      "tipo_combustivel": 1,
-      "razao_social": "SILVA MELO & CIA. LTDA.",
-      "nome_fantasia": "POSTO SAO PEDRO",
-      "telefone": "(82) 6231787",
-      "nome_logradouro": "RDV AL 220",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57442000",
-      "codigo_ibge": "2705705",
-      "municipio": "Olho d'Água das Flores",
-      "latitude": -9.5501683,
-      "longitude": -37.2797114,
-      "valor_minimo": 7.028,
-      "valor_maximo": 7.028,
-      "valor_medio": 7.028,
-      "valor_recente": 7.028,
-      "data_recente": "2026-05-04T23:26:50+00:00"
-    },
-    {
       "cnpj": "08886885000180",
       "tipo_combustivel": 1,
       "razao_social": "M A J H COMÉRCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA",
@@ -78,11 +78,11 @@
       "municipio": "Olho d'Água das Flores",
       "latitude": -9.5409131,
       "longitude": -37.2929781,
-      "valor_minimo": 7.06,
-      "valor_maximo": 7.06,
-      "valor_medio": 7.06,
-      "valor_recente": 7.06,
-      "data_recente": "2026-05-03T17:40:11+00:00"
+      "valor_minimo": 7.0599,
+      "valor_maximo": 7.0599,
+      "valor_medio": 7.0599,
+      "valor_recente": 7.0599,
+      "data_recente": "2026-05-05T09:35:08+00:00"
     },
     {
       "cnpj": "08841116000165",
@@ -225,6 +225,26 @@
       "data_recente": "2026-05-04T13:22:46+00:00"
     },
     {
+      "cnpj": "08886885000180",
+      "tipo_combustivel": 5,
+      "razao_social": "M A J H COMÉRCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA",
+      "nome_fantasia": "AUTO POSTO DOIS IRMAOS",
+      "telefone": "",
+      "nome_logradouro": "AV RUI BARBOSA",
+      "numero_imovel": "718",
+      "bairro": "CENTRO",
+      "cep": "57442000",
+      "codigo_ibge": "2705705",
+      "municipio": "Olho d'Água das Flores",
+      "latitude": -9.5409131,
+      "longitude": -37.2929781,
+      "valor_minimo": 7.2895,
+      "valor_maximo": 7.2895,
+      "valor_medio": 7.2895,
+      "valor_recente": 7.2895,
+      "data_recente": "2026-05-05T09:22:44+00:00"
+    },
+    {
       "cnpj": "12261087000130",
       "tipo_combustivel": 5,
       "razao_social": "A A MELO LTDA",
@@ -243,26 +263,6 @@
       "valor_medio": 7.3377,
       "valor_recente": 7.3377,
       "data_recente": "2026-05-04T23:46:44+00:00"
-    },
-    {
-      "cnpj": "08886885000180",
-      "tipo_combustivel": 5,
-      "razao_social": "M A J H COMÉRCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA",
-      "nome_fantasia": "AUTO POSTO DOIS IRMAOS",
-      "telefone": "",
-      "nome_logradouro": "AV RUI BARBOSA",
-      "numero_imovel": "718",
-      "bairro": "CENTRO",
-      "cep": "57442000",
-      "codigo_ibge": "2705705",
-      "municipio": "Olho d'Água das Flores",
-      "latitude": -9.5409131,
-      "longitude": -37.2929781,
-      "valor_minimo": 7.9799,
-      "valor_maximo": 7.9799,
-      "valor_medio": 7.9799,
-      "valor_recente": 7.9799,
-      "data_recente": "2026-05-05T01:04:59+00:00"
     }
   ]
 }
