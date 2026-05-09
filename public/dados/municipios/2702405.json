@@ -1,7 +1,7 @@
 {
   "codigoIBGE": "2702405",
   "municipio": "Delmiro Gouveia",
-  "atualizadoEm": "2026-05-09T06:54:28.002Z",
+  "atualizadoEm": "2026-05-09T08:56:36.981Z",
   "totalEstabelecimentos": 51,
   "estabelecimentos": [
     {
@@ -65,6 +65,26 @@
       "data_recente": "2026-04-28T12:48:13+00:00"
     },
     {
+      "cnpj": "04431113000100",
+      "tipo_combustivel": 1,
+      "razao_social": "COMERCIO DE COMBUSTIVEIS NENZITA LTDA - EPP",
+      "nome_fantasia": "POSTO NENZITA",
+      "telefone": "",
+      "nome_logradouro": "AV CAXANGA",
+      "numero_imovel": "126",
+      "bairro": "PEDRA VELHA",
+      "cep": "57480000",
+      "codigo_ibge": "2702405",
+      "municipio": "Delmiro Gouveia",
+      "latitude": -9.3868928,
+      "longitude": -37.9911577,
+      "valor_minimo": 7.4794,
+      "valor_maximo": 7.4794,
+      "valor_medio": 7.4794,
+      "valor_recente": 7.4794,
+      "data_recente": "2026-05-09T07:26:25+00:00"
+    },
+    {
       "cnpj": "26937274000103",
       "tipo_combustivel": 1,
       "razao_social": "JOAO ARTHUR DE ALMEIDA GONCALVES LTDA",
@@ -83,26 +103,6 @@
       "valor_medio": 7.4802,
       "valor_recente": 7.4802,
       "data_recente": "2026-05-09T00:28:41+00:00"
-    },
-    {
-      "cnpj": "04431113000100",
-      "tipo_combustivel": 1,
-      "razao_social": "COMERCIO DE COMBUSTIVEIS NENZITA LTDA - EPP",
-      "nome_fantasia": "POSTO NENZITA",
-      "telefone": "",
-      "nome_logradouro": "AV CAXANGA",
-      "numero_imovel": "126",
-      "bairro": "PEDRA VELHA",
-      "cep": "57480000",
-      "codigo_ibge": "2702405",
-      "municipio": "Delmiro Gouveia",
-      "latitude": -9.3868928,
-      "longitude": -37.9911577,
-      "valor_minimo": 7.4813,
-      "valor_maximo": 7.4813,
-      "valor_medio": 7.4813,
-      "valor_recente": 7.4813,
-      "data_recente": "2026-05-09T01:04:14+00:00"
     },
     {
       "cnpj": "17348259000120",
@@ -198,11 +198,11 @@
       "municipio": "Delmiro Gouveia",
       "latitude": -9.3759976,
       "longitude": -37.9963113,
-      "valor_minimo": 7.51,
-      "valor_maximo": 7.51,
-      "valor_medio": 7.51,
-      "valor_recente": 7.51,
-      "data_recente": "2026-05-09T03:22:04+00:00"
+      "valor_minimo": 7.5103,
+      "valor_maximo": 7.5103,
+      "valor_medio": 7.5103,
+      "valor_recente": 7.5103,
+      "data_recente": "2026-05-09T07:34:16+00:00"
     },
     {
       "cnpj": "05518639000420",
@@ -402,7 +402,7 @@
       "valor_maximo": 7.6511,
       "valor_medio": 7.6511,
       "valor_recente": 7.6511,
-      "data_recente": "2026-05-09T02:53:22+00:00"
+      "data_recente": "2026-05-09T07:31:50+00:00"
     },
     {
       "cnpj": "17348259000120",
@@ -605,26 +605,6 @@
       "data_recente": "2026-05-08T22:58:04+00:00"
     },
     {
-      "cnpj": "12436978000180",
-      "tipo_combustivel": 3,
-      "razao_social": "AUTO POSTO FREITAS & MAIA LTDA - EPP",
-      "nome_fantasia": "POSTO ALDO",
-      "telefone": "",
-      "nome_logradouro": "Rua FLORIANO PEIXOTO",
-      "numero_imovel": "247",
-      "bairro": "CENTRO",
-      "cep": "57480000",
-      "codigo_ibge": "2702405",
-      "municipio": "Delmiro Gouveia",
-      "latitude": -9.3759976,
-      "longitude": -37.9963113,
-      "valor_minimo": 5.4893,
-      "valor_maximo": 5.4893,
-      "valor_medio": 5.4893,
-      "valor_recente": 5.4893,
-      "data_recente": "2026-05-09T00:14:00+00:00"
-    },
-    {
       "cnpj": "05518639000268",
       "tipo_combustivel": 3,
       "razao_social": "AUTO POSTO DA PEDRA LTDA",
@@ -645,24 +625,24 @@
       "data_recente": "2026-05-08T21:07:33+00:00"
     },
     {
-      "cnpj": "10427868000126",
+      "cnpj": "12436978000180",
       "tipo_combustivel": 3,
-      "razao_social": "LOURENCO ARAUJO FORTES E FILHOS LTDA  - ME",
-      "nome_fantasia": "POSTO DA PEDRA 3",
-      "telefone": "(82) 32214052",
-      "nome_logradouro": "AV CAXANGA",
-      "numero_imovel": "623",
-      "bairro": "PEDRA VELHA",
+      "razao_social": "AUTO POSTO FREITAS & MAIA LTDA - EPP",
+      "nome_fantasia": "POSTO ALDO",
+      "telefone": "",
+      "nome_logradouro": "Rua FLORIANO PEIXOTO",
+      "numero_imovel": "247",
+      "bairro": "CENTRO",
       "cep": "57480000",
       "codigo_ibge": "2702405",
       "municipio": "Delmiro Gouveia",
-      "latitude": -9.3893472,
-      "longitude": -37.9860696,
+      "latitude": -9.3759976,
+      "longitude": -37.9963113,
       "valor_minimo": 5.4905,
       "valor_maximo": 5.4905,
       "valor_medio": 5.4905,
       "valor_recente": 5.4905,
-      "data_recente": "2026-05-08T22:16:27+00:00"
+      "data_recente": "2026-05-09T07:30:48+00:00"
     },
     {
       "cnpj": "05518639000420",
@@ -683,6 +663,26 @@
       "valor_medio": 5.4905,
       "valor_recente": 5.4905,
       "data_recente": "2026-05-09T00:02:45+00:00"
+    },
+    {
+      "cnpj": "10427868000126",
+      "tipo_combustivel": 3,
+      "razao_social": "LOURENCO ARAUJO FORTES E FILHOS LTDA  - ME",
+      "nome_fantasia": "POSTO DA PEDRA 3",
+      "telefone": "(82) 32214052",
+      "nome_logradouro": "AV CAXANGA",
+      "numero_imovel": "623",
+      "bairro": "PEDRA VELHA",
+      "cep": "57480000",
+      "codigo_ibge": "2702405",
+      "municipio": "Delmiro Gouveia",
+      "latitude": -9.3893472,
+      "longitude": -37.9860696,
+      "valor_minimo": 5.4905,
+      "valor_maximo": 5.4905,
+      "valor_medio": 5.4905,
+      "valor_recente": 5.4905,
+      "data_recente": "2026-05-08T22:16:27+00:00"
     },
     {
       "cnpj": "05518639000187",
@@ -725,26 +725,6 @@
       "data_recente": "2026-05-08T22:28:12+00:00"
     },
     {
-      "cnpj": "05518639000349",
-      "tipo_combustivel": 4,
-      "razao_social": "AUTO POSTO DA PEDRA LTDA",
-      "nome_fantasia": "POSTO DA PEDRA 4",
-      "telefone": "(82) 36411765",
-      "nome_logradouro": "Rua FREITAS CAVALCANTE",
-      "numero_imovel": "10",
-      "bairro": "CENTRO",
-      "cep": "57480000",
-      "codigo_ibge": "2702405",
-      "municipio": "Delmiro Gouveia",
-      "latitude": -9.383075,
-      "longitude": -38.00085199999999,
-      "valor_minimo": 8.9888,
-      "valor_maximo": 8.9888,
-      "valor_medio": 8.9888,
-      "valor_recente": 8.9888,
-      "data_recente": "2026-05-08T22:57:36+00:00"
-    },
-    {
       "cnpj": "05518639000420",
       "tipo_combustivel": 4,
       "razao_social": "AUTO POSTO DA PEDRA LTDA",
@@ -763,6 +743,26 @@
       "valor_medio": 8.9888,
       "valor_recente": 8.9888,
       "data_recente": "2026-05-09T00:02:45+00:00"
+    },
+    {
+      "cnpj": "05518639000349",
+      "tipo_combustivel": 4,
+      "razao_social": "AUTO POSTO DA PEDRA LTDA",
+      "nome_fantasia": "POSTO DA PEDRA 4",
+      "telefone": "(82) 36411765",
+      "nome_logradouro": "Rua FREITAS CAVALCANTE",
+      "numero_imovel": "10",
+      "bairro": "CENTRO",
+      "cep": "57480000",
+      "codigo_ibge": "2702405",
+      "municipio": "Delmiro Gouveia",
+      "latitude": -9.383075,
+      "longitude": -38.00085199999999,
+      "valor_minimo": 8.9888,
+      "valor_maximo": 8.9888,
+      "valor_medio": 8.9888,
+      "valor_recente": 8.9888,
+      "data_recente": "2026-05-08T22:57:36+00:00"
     },
     {
       "cnpj": "43472899000158",
@@ -845,26 +845,6 @@
       "data_recente": "2026-05-09T01:04:14+00:00"
     },
     {
-      "cnpj": "17348259000201",
-      "tipo_combustivel": 5,
-      "razao_social": "POSTO ALINE LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 36415660",
-      "nome_logradouro": "AV ANTONIO JOSE DA COSTA",
-      "numero_imovel": "59",
-      "bairro": "CENTRO",
-      "cep": "57480000",
-      "codigo_ibge": "2702405",
-      "municipio": "Delmiro Gouveia",
-      "latitude": -9.3804252,
-      "longitude": -38.0044369,
-      "valor_minimo": 8.2495,
-      "valor_maximo": 8.2495,
-      "valor_medio": 8.2495,
-      "valor_recente": 8.2495,
-      "data_recente": "2026-05-09T01:48:05+00:00"
-    },
-    {
       "cnpj": "10427868000126",
       "tipo_combustivel": 5,
       "razao_social": "LOURENCO ARAUJO FORTES E FILHOS LTDA  - ME",
@@ -883,6 +863,26 @@
       "valor_medio": 8.2495,
       "valor_recente": 8.2495,
       "data_recente": "2026-05-08T15:27:11+00:00"
+    },
+    {
+      "cnpj": "17348259000201",
+      "tipo_combustivel": 5,
+      "razao_social": "POSTO ALINE LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 36415660",
+      "nome_logradouro": "AV ANTONIO JOSE DA COSTA",
+      "numero_imovel": "59",
+      "bairro": "CENTRO",
+      "cep": "57480000",
+      "codigo_ibge": "2702405",
+      "municipio": "Delmiro Gouveia",
+      "latitude": -9.3804252,
+      "longitude": -38.0044369,
+      "valor_minimo": 8.2495,
+      "valor_maximo": 8.2495,
+      "valor_medio": 8.2495,
+      "valor_recente": 8.2495,
+      "data_recente": "2026-05-09T01:48:05+00:00"
     },
     {
       "cnpj": "17348259000120",
@@ -925,26 +925,6 @@
       "data_recente": "2026-05-09T00:02:45+00:00"
     },
     {
-      "cnpj": "12436978000180",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO FREITAS & MAIA LTDA - EPP",
-      "nome_fantasia": "POSTO ALDO",
-      "telefone": "",
-      "nome_logradouro": "Rua FLORIANO PEIXOTO",
-      "numero_imovel": "247",
-      "bairro": "CENTRO",
-      "cep": "57480000",
-      "codigo_ibge": "2702405",
-      "municipio": "Delmiro Gouveia",
-      "latitude": -9.3759976,
-      "longitude": -37.9963113,
-      "valor_minimo": 8.2599,
-      "valor_maximo": 8.3304,
-      "valor_medio": 8.2952,
-      "valor_recente": 8.2599,
-      "data_recente": "2026-05-09T05:08:43+00:00"
-    },
-    {
       "cnpj": "05518639000349",
       "tipo_combustivel": 5,
       "razao_social": "AUTO POSTO DA PEDRA LTDA",
@@ -963,6 +943,26 @@
       "valor_medio": 8.26,
       "valor_recente": 8.26,
       "data_recente": "2026-05-08T11:29:05+00:00"
+    },
+    {
+      "cnpj": "12436978000180",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO FREITAS & MAIA LTDA - EPP",
+      "nome_fantasia": "POSTO ALDO",
+      "telefone": "",
+      "nome_logradouro": "Rua FLORIANO PEIXOTO",
+      "numero_imovel": "247",
+      "bairro": "CENTRO",
+      "cep": "57480000",
+      "codigo_ibge": "2702405",
+      "municipio": "Delmiro Gouveia",
+      "latitude": -9.3759976,
+      "longitude": -37.9963113,
+      "valor_minimo": 8.261,
+      "valor_maximo": 8.3304,
+      "valor_medio": 8.2957,
+      "valor_recente": 8.261,
+      "data_recente": "2026-05-09T07:32:41+00:00"
     },
     {
       "cnpj": "05518639000268",

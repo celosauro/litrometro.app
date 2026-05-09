@@ -1,7 +1,7 @@
 {
   "codigoIBGE": "2709400",
   "municipio": "Viçosa",
-  "atualizadoEm": "2026-05-09T06:54:28.002Z",
+  "atualizadoEm": "2026-05-09T08:56:36.981Z",
   "totalEstabelecimentos": 14,
   "estabelecimentos": [
     {
@@ -18,11 +18,11 @@
       "municipio": "Viçosa",
       "latitude": -9.3694174,
       "longitude": -36.2427277,
-      "valor_minimo": 6.7695,
-      "valor_maximo": 6.7695,
-      "valor_medio": 6.7695,
-      "valor_recente": 6.7695,
-      "data_recente": "2026-05-09T03:35:59+00:00"
+      "valor_minimo": 7,
+      "valor_maximo": 7,
+      "valor_medio": 7,
+      "valor_recente": 7,
+      "data_recente": "2026-05-09T06:12:12+00:00"
     },
     {
       "cnpj": "28463788000191",
@@ -205,26 +205,6 @@
       "data_recente": "2026-05-07T22:44:47+00:00"
     },
     {
-      "cnpj": "07478815000120",
-      "tipo_combustivel": 5,
-      "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
-      "nome_fantasia": "POSTO SABALANGA",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 210",
-      "numero_imovel": "1",
-      "bairro": "FAZ ALTO CONCEICAO",
-      "cep": "57700000",
-      "codigo_ibge": "2709400",
-      "municipio": "Viçosa",
-      "latitude": -9.3694174,
-      "longitude": -36.2427277,
-      "valor_minimo": 7.23,
-      "valor_maximo": 7.23,
-      "valor_medio": 7.23,
-      "valor_recente": 7.23,
-      "data_recente": "2026-05-09T03:10:31+00:00"
-    },
-    {
       "cnpj": "28463788000191",
       "tipo_combustivel": 5,
       "razao_social": "VANILDO ALBUQUERQUE LTDA",
@@ -283,6 +263,26 @@
       "valor_medio": 7.6897,
       "valor_recente": 7.6897,
       "data_recente": "2026-05-07T19:18:14+00:00"
+    },
+    {
+      "cnpj": "07478815000120",
+      "tipo_combustivel": 5,
+      "razao_social": "AUTO POSTO SABALANGA LTDA - EPP",
+      "nome_fantasia": "POSTO SABALANGA",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 210",
+      "numero_imovel": "1",
+      "bairro": "FAZ ALTO CONCEICAO",
+      "cep": "57700000",
+      "codigo_ibge": "2709400",
+      "municipio": "Viçosa",
+      "latitude": -9.3694174,
+      "longitude": -36.2427277,
+      "valor_minimo": 7.69,
+      "valor_maximo": 7.69,
+      "valor_medio": 7.69,
+      "valor_recente": 7.69,
+      "data_recente": "2026-05-09T06:11:15+00:00"
     }
   ]
 }
