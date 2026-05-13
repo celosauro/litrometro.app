@@ -9,7 +9,14 @@ export default defineConfig(({ mode }) => ({
       ? [
           VitePWA({
             registerType: 'autoUpdate',
-            includeAssets: ['favicon.svg', 'favicon-32.png', 'favicon-16.png', 'apple-touch-icon.png'],
+            includeAssets: [
+              'favicon.svg',
+              'favicon-32.png',
+              'favicon-16.png',
+              'apple-touch-icon.png',
+              'icon-192.png',
+              'icon-512.png',
+            ],
             manifest: false, // Usar manifest.json existente em public/
             workbox: {
               // Força o novo SW a assumir o controle imediatamente após o deploy

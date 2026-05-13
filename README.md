@@ -46,6 +46,12 @@ O Litrômetro é uma aplicação web gratuita que permite aos consumidores alago
 - Lista de postos retrátil no mobile
 - Navegação otimizada por touch
 
+### 📲 PWA Instalável
+- Instalável no navegador (desktop e Android) via botão de instalação
+- Ícones dedicados para atalho/tela inicial (`192x192` e `512x512`)
+- Modo standalone (abre como app, sem barra tradicional do navegador)
+- Service Worker com atualização automática em produção
+
 ---
 
 ## 🏗️ Arquitetura
@@ -153,6 +159,22 @@ LOCATIONIQ_API_KEY=xxx
 | `npm run build` | Build de produção |
 | `npm run preview` | Preview do build local |
 | `npm run lint` | Verificar código (ESLint) |
+
+### Validar Instalação PWA
+
+```bash
+# gerar build de produção (inclui service worker)
+npm run build
+
+# servir build localmente
+npm run preview
+```
+
+Checklist rápido no navegador:
+- Abrir o site em HTTPS (ou `localhost` no preview)
+- Confirmar em DevTools > Application > Manifest que não há erros
+- Confirmar em DevTools > Application > Service Workers que o SW está ativo
+- Verificar se o botão/opção "Instalar app" aparece no navegador
 
 ### Coleta e Processamento
 | Comando | Descrição |
