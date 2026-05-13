@@ -2,6 +2,7 @@ import { MapPin, Phone, Clock, TrendUp, TrendDown, NavigationArrow, Star, MapPin
 import type { PrecoCombustivelResumo, TipoCombustivel } from '../types';
 import { TIPOS_COMBUSTIVEL, CORES_COMBUSTIVEL } from '../types';
 import { formatarDistancia } from '../utils/distancia';
+import { obterPrecoEfetivo24h } from '../utils/preco';
 import { PriceBadge, EconomiaBadge, ProximidadeBadge, type PriceLevel } from './PriceBadge';
 
 interface CardCombustivelProps {
@@ -116,7 +117,7 @@ export function CardCombustivel({ dados, distancia, isSelected, isMelhor, priceL
       {/* Preço principal */}
       <div className="px-3 py-2 sm:px-4 sm:py-3 bg-gray-50 dark:bg-gray-700/50">
         <div className="flex items-baseline gap-1 sm:gap-2">
-          <span className="price-display">{formatarPreco(dados.valor_recente)}</span>
+          <span className="price-display">{formatarPreco(obterPrecoEfetivo24h(dados))}</span>
           <span className="text-gray-500 dark:text-gray-400 text-sm sm:text-base">/litro</span>
         </div>
         
@@ -124,11 +125,11 @@ export function CardCombustivel({ dados, distancia, isSelected, isMelhor, priceL
         <div className="mt-1.5 sm:mt-2 flex items-center gap-3 sm:gap-4 text-xs sm:text-sm">
           <div className="flex items-center gap-1 text-green-600 dark:text-green-400">
             <TrendDown size={14} className="sm:w-4 sm:h-4" />
-            <span>Mín: {formatarPreco(dados.valor_minimo)}</span>
+            <span>Mín 24h: {formatarPreco(obterPrecoEfetivo24h(dados))}</span>
           </div>
           <div className="flex items-center gap-1 text-red-600 dark:text-red-400">
             <TrendUp size={14} className="sm:w-4 sm:h-4" />
-            <span>Máx: {formatarPreco(dados.valor_maximo)}</span>
+            <span>Máx 24h: {formatarPreco(dados.valor_maximo_24h ?? dados.valor_recente)}</span>
           </div>
         </div>
       </div>
@@ -156,7 +157,7 @@ export function CardCombustivel({ dados, distancia, isSelected, isMelhor, priceL
 
         <div className="flex items-center gap-2 text-gray-400 dark:text-gray-500">
           <Clock size={16} className="flex-shrink-0 sm:w-[18px] sm:h-[18px]" />
-          <span>Atualizado: {formatarData(dados.data_recente)}</span>
+          <span>Janela 24h: {formatarData(dados.data_fim_janela_24h ?? dados.data_recente)}</span>
         </div>
       </div>
 

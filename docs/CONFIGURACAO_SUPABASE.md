@@ -283,6 +283,14 @@ flowchart TB
 | `valor_maximo` | DECIMAL(10,4) | Max dos últimos 10 dias |
 | `valor_medio` | DECIMAL(10,4) | Média dos últimos 10 dias |
 | `valor_recente` | DECIMAL(10,4) | Última venda |
+| `valor_minimo_24h` | DECIMAL(10,4) | Menor preço na janela móvel das últimas 24h |
+| `valor_maximo_24h` | DECIMAL(10,4) | Maior preço na janela móvel das últimas 24h |
+| `valor_medio_24h` | DECIMAL(10,4) | Média na janela móvel das últimas 24h |
+| `data_minimo_24h` | TIMESTAMPTZ | Data/hora em que ocorreu o menor preço da janela |
+| `data_inicio_janela_24h` | TIMESTAMPTZ | Início da janela móvel considerada |
+| `data_fim_janela_24h` | TIMESTAMPTZ | Fim da janela móvel considerada |
+| `contagem_vendas_24h` | INTEGER | Quantidade de vendas usadas no cálculo da janela |
+| `atualizado_24h_em` | TIMESTAMPTZ | Data/hora do último processamento da janela 24h |
 | `data_recente` | TIMESTAMPTZ | Data da última venda |
 
 ### Tabela `vendas_historico`

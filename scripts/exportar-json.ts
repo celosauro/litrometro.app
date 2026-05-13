@@ -36,6 +36,14 @@ interface EstabelecimentoExpandido {
   valor_maximo: number;
   valor_medio: number;
   valor_recente: number;
+  valor_minimo_24h: number;
+  valor_maximo_24h: number;
+  valor_medio_24h: number;
+  data_minimo_24h: string;
+  data_inicio_janela_24h: string | null;
+  data_fim_janela_24h: string | null;
+  contagem_vendas_24h: number;
+  atualizado_24h_em: string | null;
   data_recente: string;
 }
 
@@ -58,6 +66,14 @@ interface EstabelecimentoMinificado {
   vx: number;     // valor_maximo
   vm: number;     // valor_medio
   vr: number;     // valor_recente
+  v24: number;    // valor_minimo_24h
+  x24: number;    // valor_maximo_24h
+  m24: number;    // valor_medio_24h
+  d24: string;    // data_minimo_24h
+  c24?: number;   // contagem_vendas_24h (omitido se 0)
+  j24i?: string;  // data_inicio_janela_24h (omitido se vazio)
+  j24f?: string;  // data_fim_janela_24h (omitido se vazio)
+  u24?: string;   // atualizado_24h_em (omitido se vazio)
   dr: string;     // data_recente
 }
 
@@ -105,6 +121,14 @@ interface PrecoAtualRegistro {
   valor_maximo: number;
   valor_medio: number;
   valor_recente: number;
+  valor_minimo_24h: number;
+  valor_maximo_24h: number;
+  valor_medio_24h: number;
+  data_minimo_24h: string;
+  data_inicio_janela_24h: string | null;
+  data_fim_janela_24h: string | null;
+  contagem_vendas_24h: number;
+  atualizado_24h_em: string | null;
   data_recente: string;
 }
 
@@ -132,6 +156,14 @@ interface PrecoSupabase {
   valor_maximo: number;
   valor_medio: number;
   valor_recente: number;
+  valor_minimo_24h: number | null;
+  valor_maximo_24h: number | null;
+  valor_medio_24h: number | null;
+  data_minimo_24h: string | null;
+  data_inicio_janela_24h: string | null;
+  data_fim_janela_24h: string | null;
+  contagem_vendas_24h: number | null;
+  atualizado_24h_em: string | null;
   data_recente: string;
   updated_at: string;
 }
@@ -240,6 +272,14 @@ function converterParaExpandido(dados: PrecoSupabase[]): EstabelecimentoExpandid
       valor_maximo: arredondar(d.valor_maximo),
       valor_medio: arredondar(d.valor_medio),
       valor_recente: arredondar(d.valor_recente),
+      valor_minimo_24h: arredondar(d.valor_minimo_24h ?? d.valor_recente),
+      valor_maximo_24h: arredondar(d.valor_maximo_24h ?? d.valor_recente),
+      valor_medio_24h: arredondar(d.valor_medio_24h ?? d.valor_recente),
+      data_minimo_24h: d.data_minimo_24h ?? d.data_recente,
+      data_inicio_janela_24h: d.data_inicio_janela_24h,
+      data_fim_janela_24h: d.data_fim_janela_24h,
+      contagem_vendas_24h: d.contagem_vendas_24h ?? 0,
+      atualizado_24h_em: d.atualizado_24h_em,
       data_recente: d.data_recente,
     };
   });
@@ -262,6 +302,10 @@ function converterParaMinificado(dados: EstabelecimentoExpandido[]): Estabelecim
       vx: arredondar(d.valor_maximo, 4),
       vm: arredondar(d.valor_medio, 4),
       vr: arredondar(d.valor_recente, 4),
+      v24: arredondar(d.valor_minimo_24h, 4),
+      x24: arredondar(d.valor_maximo_24h, 4),
+      m24: arredondar(d.valor_medio_24h, 4),
+      d24: timestampCurto(d.data_minimo_24h),
       dr: timestampCurto(d.data_recente),
     };
 
@@ -272,6 +316,10 @@ function converterParaMinificado(dados: EstabelecimentoExpandido[]): Estabelecim
     if (d.numero_imovel) min.num = d.numero_imovel;
     if (d.bairro) min.ba = d.bairro;
     if (d.cep) min.cep = d.cep;
+    if (d.contagem_vendas_24h > 0) min.c24 = d.contagem_vendas_24h;
+    if (d.data_inicio_janela_24h) min.j24i = timestampCurto(d.data_inicio_janela_24h);
+    if (d.data_fim_janela_24h) min.j24f = timestampCurto(d.data_fim_janela_24h);
+    if (d.atualizado_24h_em) min.u24 = timestampCurto(d.atualizado_24h_em);
 
     return min;
   });
@@ -299,6 +347,7 @@ async function buscarDadosSupabase(): Promise<PrecoSupabase[]> {
       .select('*')
       .order('codigo_ibge')
       .order('tipo_combustivel')
+      .order('valor_minimo_24h', { nullsFirst: false })
       .order('valor_recente')
       .range(offset, offset + BATCH_SIZE - 1);
 
@@ -360,7 +409,7 @@ function gerarJSONMinificado(
   const minificados = converterParaMinificado(estabelecimentos);
   
   return {
-    v: 1,
+    v: 2,
     t: timestampCurto(atualizadoEm),
     n: estabelecimentos.length,
     m: municipiosUnicos.size,
@@ -419,6 +468,14 @@ function gerarJSONPrecosAtuais(
     valor_maximo: est.valor_maximo,
     valor_medio: est.valor_medio,
     valor_recente: est.valor_recente,
+    valor_minimo_24h: est.valor_minimo_24h,
+    valor_maximo_24h: est.valor_maximo_24h,
+    valor_medio_24h: est.valor_medio_24h,
+    data_minimo_24h: est.data_minimo_24h,
+    data_inicio_janela_24h: est.data_inicio_janela_24h,
+    data_fim_janela_24h: est.data_fim_janela_24h,
+    contagem_vendas_24h: est.contagem_vendas_24h,
+    atualizado_24h_em: est.atualizado_24h_em,
     data_recente: est.data_recente,
   }));
 

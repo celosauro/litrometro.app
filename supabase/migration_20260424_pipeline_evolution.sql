@@ -5,6 +5,26 @@
 
 BEGIN;
 
+-- 0) Janela móvel de 24h em precos_atuais
+ALTER TABLE precos_atuais
+  ADD COLUMN IF NOT EXISTS valor_minimo_24h DECIMAL(10, 4),
+  ADD COLUMN IF NOT EXISTS valor_maximo_24h DECIMAL(10, 4),
+  ADD COLUMN IF NOT EXISTS valor_medio_24h DECIMAL(10, 4),
+  ADD COLUMN IF NOT EXISTS data_minimo_24h TIMESTAMPTZ,
+  ADD COLUMN IF NOT EXISTS data_inicio_janela_24h TIMESTAMPTZ,
+  ADD COLUMN IF NOT EXISTS data_fim_janela_24h TIMESTAMPTZ,
+  ADD COLUMN IF NOT EXISTS contagem_vendas_24h INTEGER,
+  ADD COLUMN IF NOT EXISTS atualizado_24h_em TIMESTAMPTZ;
+
+CREATE INDEX IF NOT EXISTS idx_precos_24h_tipo_valor
+  ON precos_atuais(tipo_combustivel, valor_minimo_24h);
+
+CREATE INDEX IF NOT EXISTS idx_precos_24h_janela_fim
+  ON precos_atuais(data_fim_janela_24h DESC);
+
+CREATE INDEX IF NOT EXISTS idx_historico_24h_lookup
+  ON vendas_historico(cnpj, tipo_combustivel, data_venda DESC);
+
 -- 1) Camada de geografia consolidada
 CREATE TABLE IF NOT EXISTS estabelecimento_geo_current (
   cnpj VARCHAR(14) PRIMARY KEY REFERENCES estabelecimentos(cnpj) ON DELETE CASCADE,
@@ -210,6 +230,14 @@ SELECT
   p.valor_maximo,
   p.valor_medio,
   p.valor_recente,
+  p.valor_minimo_24h,
+  p.valor_maximo_24h,
+  p.valor_medio_24h,
+  p.data_minimo_24h,
+  p.data_inicio_janela_24h,
+  p.data_fim_janela_24h,
+  p.contagem_vendas_24h,
+  p.atualizado_24h_em,
   p.data_recente,
   p.updated_at
 FROM precos_atuais p

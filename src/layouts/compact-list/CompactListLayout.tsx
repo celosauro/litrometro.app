@@ -6,6 +6,7 @@ import { LocationIcon } from '../../components/LocationIcon'
 import { EmptyState, EmptyStateAction } from '../../components/EmptyState'
 import { calcularNivelPreco } from '../../components/PriceBadge'
 import { calcularDistanciaKm } from '../../utils/distancia'
+import { obterPrecoEfetivo24h } from '../../utils/preco'
 import { trackFuelTypeSelect, trackMunicipalitySelect } from '../../utils/analytics'
 import type { TipoCombustivel, PrecoCombustivelResumo } from '../../types'
 import { TIPOS_COMBUSTIVEL, MUNICIPIOS_AL } from '../../types'
@@ -139,7 +140,7 @@ export function CompactListLayout() {
           comparison = (a.nome_fantasia || a.razao_social).localeCompare(b.nome_fantasia || b.razao_social)
           break
         case 'preco':
-          comparison = a.valor_recente - b.valor_recente
+          comparison = obterPrecoEfetivo24h(a) - obterPrecoEfetivo24h(b)
           break
         case 'distancia': {
           const distA = a.distancia ?? Infinity
@@ -158,14 +159,14 @@ export function CompactListLayout() {
   // CNPJ do melhor posto (menor preço)
   const cnpjMelhorPosto = useMemo(() => {
     if (!dadosFiltrados || dadosFiltrados.length === 0) return null
-    const ordenadoPorPreco = [...dadosFiltrados].sort((a, b) => a.valor_recente - b.valor_recente)
+    const ordenadoPorPreco = [...dadosFiltrados].sort((a, b) => obterPrecoEfetivo24h(a) - obterPrecoEfetivo24h(b))
     return ordenadoPorPreco[0].cnpj
   }, [dadosFiltrados])
 
   // Array de preços para cálculo de faixas
   const todosPrecos = useMemo(() => {
     if (!dadosFiltrados) return []
-    return dadosFiltrados.map(item => item.valor_recente)
+    return dadosFiltrados.map(item => obterPrecoEfetivo24h(item))
   }, [dadosFiltrados])
 
   // Handlers com tracking de analytics
@@ -359,7 +360,7 @@ export function CompactListLayout() {
                         dados={item}
                         distancia={item.distancia}
                         isMelhor={item.cnpj === cnpjMelhorPosto}
-                        priceLevel={calcularNivelPreco(item.valor_recente, todosPrecos)}
+                        priceLevel={calcularNivelPreco(obterPrecoEfetivo24h(item), todosPrecos)}
                         onAbrirMapa={() => setEstabelecimentoNoMapa(item)}
                       />
                     ))}

@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import type { PrecoCombustivelResumo, TipoCombustivel, DadosAtuais } from '../types';
 import { normalizarJSON, type JSONMinificado, type JSONExpandido } from '../utils/dados';
+import { obterPrecoEfetivo24h } from '../utils/preco';
 
 interface UsePrecosCombustiveisOpcoes {
   tipoCombustivel: TipoCombustivel;
@@ -71,8 +72,8 @@ export function usePrecosCombustiveis({
         return e.tipo_combustivel === tipoCombustivel;
       });
 
-      // Ordena por valor recente (menor primeiro)
-      filtrados.sort((a, b) => a.valor_recente - b.valor_recente);
+      // Ordena por menor preço efetivo das últimas 24h (fallback no recente)
+      filtrados.sort((a, b) => obterPrecoEfetivo24h(a) - obterPrecoEfetivo24h(b));
 
       setDados(filtrados);
       setUltimaAtualizacao(cacheAtual!.atualizadoEm);

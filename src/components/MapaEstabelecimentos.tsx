@@ -16,6 +16,7 @@ import { LocationIcon } from './LocationIcon';
 import type { PrecoCombustivelResumo, TipoCombustivel } from '../types';
 import { TIPOS_COMBUSTIVEL } from '../types';
 import { useTema } from '../contexts/TemaContext';
+import { obterPrecoEfetivo24h } from '../utils/preco';
 
 // Tiles gratuitos do CartoCDN - suporta tema escuro
 const MAP_STYLES = {
@@ -288,7 +289,7 @@ export function MapaEstabelecimentos({
         type: 'Feature' as const,
         properties: {
           cnpj: item.cnpj,
-          valor: item.valor_recente,
+          valor: obterPrecoEfetivo24h(item),
           nome: item.nome_fantasia || item.razao_social,
           isMelhor: item.cnpj === cnpjMelhor,
         },
@@ -319,7 +320,7 @@ export function MapaEstabelecimentos({
       item.nome_fantasia || item.razao_social,
       item.cnpj,
       TIPOS_COMBUSTIVEL[tipoCombustivel],
-      item.valor_recente,
+      obterPrecoEfetivo24h(item),
       item.distancia
     );
   }, [onSelecionarEstabelecimento, tipoCombustivel]);
@@ -363,7 +364,7 @@ export function MapaEstabelecimentos({
             onClick={(e) => handleMarkerClick(e, item)}
           >
             <PinPreco 
-              valor={item.valor_recente} 
+              valor={obterPrecoEfetivo24h(item)} 
               selecionado={estabelecimentoSelecionado?.cnpj === item.cnpj || popupInfo?.cnpj === item.cnpj}
               isMelhor={item.cnpj === cnpjMelhor}
             />

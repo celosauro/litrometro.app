@@ -24,6 +24,14 @@ interface PrecoAtual {
   valor_maximo: number;
   valor_medio: number;
   valor_recente: number;
+  valor_minimo_24h: number | null;
+  valor_maximo_24h: number | null;
+  valor_medio_24h: number | null;
+  data_minimo_24h: string | null;
+  data_inicio_janela_24h: string;
+  data_fim_janela_24h: string;
+  contagem_vendas_24h: number;
+  atualizado_24h_em: string;
   data_recente: string;
 }
 
@@ -31,6 +39,8 @@ interface VendasAgregadas {
   valores: number[];
   dataRecente: Date;
   valorRecente: number;
+  dataMinimo: Date;
+  valorMinimo: number;
 }
 
 // Configuração
@@ -107,6 +117,8 @@ async function consultarHistoricoSupabase(dias: number): Promise<Map<string, Ven
           valores: [venda.valor_venda],
           dataRecente: dataVenda,
           valorRecente: venda.valor_venda,
+          dataMinimo: dataVenda,
+          valorMinimo: venda.valor_venda,
         });
       } else {
         existente.valores.push(venda.valor_venda);
@@ -115,6 +127,11 @@ async function consultarHistoricoSupabase(dias: number): Promise<Map<string, Ven
         if (dataVenda > existente.dataRecente) {
           existente.dataRecente = dataVenda;
           existente.valorRecente = venda.valor_venda;
+        }
+
+        if (venda.valor_venda < existente.valorMinimo) {
+          existente.valorMinimo = venda.valor_venda;
+          existente.dataMinimo = dataVenda;
         }
       }
     }
@@ -127,6 +144,65 @@ async function consultarHistoricoSupabase(dias: number): Promise<Map<string, Ven
   }
 
   console.log(`   Total de vendas processadas: ${totalVendas.toLocaleString()}`);
+  return agregacoes;
+}
+
+async function consultarHistorico24h(
+  dataLimiteISO: string,
+  dataFimISO: string
+): Promise<Map<string, VendasAgregadas>> {
+  const agregacoes = new Map<string, VendasAgregadas>();
+  const PAGE_SIZE = 1000;
+  let offset = 0;
+
+  while (true) {
+    const { data, error } = await supabase
+      .from('vendas_historico')
+      .select('cnpj, tipo_combustivel, valor_venda, data_venda')
+      .gte('data_venda', dataLimiteISO)
+      .lte('data_venda', dataFimISO)
+      .order('data_venda', { ascending: false })
+      .range(offset, offset + PAGE_SIZE - 1);
+
+    if (error) {
+      console.error('❌ Erro ao consultar janela 24h:', error.message);
+      break;
+    }
+
+    if (!data || data.length === 0) break;
+
+    for (const venda of data as VendaHistorico[]) {
+      const chave = gerarChave(venda.cnpj, venda.tipo_combustivel);
+      const dataVenda = new Date(venda.data_venda);
+
+      const existente = agregacoes.get(chave);
+
+      if (!existente) {
+        agregacoes.set(chave, {
+          valores: [venda.valor_venda],
+          dataRecente: dataVenda,
+          valorRecente: venda.valor_venda,
+          dataMinimo: dataVenda,
+          valorMinimo: venda.valor_venda,
+        });
+      } else {
+        existente.valores.push(venda.valor_venda);
+        if (dataVenda > existente.dataRecente) {
+          existente.dataRecente = dataVenda;
+          existente.valorRecente = venda.valor_venda;
+        }
+
+        if (venda.valor_venda < existente.valorMinimo) {
+          existente.valorMinimo = venda.valor_venda;
+          existente.dataMinimo = dataVenda;
+        }
+      }
+    }
+
+    offset += PAGE_SIZE;
+    if (data.length < PAGE_SIZE) break;
+  }
+
   return agregacoes;
 }
 
@@ -149,13 +225,23 @@ function calcularEstatisticas(valores: number[]): { min: number; max: number; me
 /**
  * Atualiza precos_atuais no Supabase com as agregações
  */
-async function atualizarPrecosAtuais(agregacoes: Map<string, VendasAgregadas>): Promise<number> {
+async function atualizarPrecosAtuais(
+  agregacoesHistorico: Map<string, VendasAgregadas>,
+  agregacoes24h: Map<string, VendasAgregadas>,
+  inicioJanela24hISO: string,
+  fimJanela24hISO: string
+): Promise<number> {
   const updates: PrecoAtual[] = [];
+  const agoraISO = new Date().toISOString();
 
-  for (const [chave, agregacao] of agregacoes) {
+  for (const [chave, agregacao] of agregacoesHistorico) {
     const [cnpj, tipoCombustivelStr] = chave.split('-');
     const tipo_combustivel = parseInt(tipoCombustivelStr, 10) as TipoCombustivel;
     const stats = calcularEstatisticas(agregacao.valores);
+    const stats24hBase = agregacoes24h.get(chave);
+    const stats24h = stats24hBase ? calcularEstatisticas(stats24hBase.valores) : null;
+
+    const dataMinimo24h = stats24hBase ? stats24hBase.dataMinimo.toISOString() : null;
 
     updates.push({
       cnpj,
@@ -164,6 +250,14 @@ async function atualizarPrecosAtuais(agregacoes: Map<string, VendasAgregadas>): 
       valor_maximo: Number(stats.max.toFixed(4)),
       valor_medio: Number(stats.medio.toFixed(4)),
       valor_recente: Number(agregacao.valorRecente.toFixed(4)),
+      valor_minimo_24h: stats24h ? Number(stats24h.min.toFixed(4)) : null,
+      valor_maximo_24h: stats24h ? Number(stats24h.max.toFixed(4)) : null,
+      valor_medio_24h: stats24h ? Number(stats24h.medio.toFixed(4)) : null,
+      data_minimo_24h: dataMinimo24h,
+      data_inicio_janela_24h: inicioJanela24hISO,
+      data_fim_janela_24h: fimJanela24hISO,
+      contagem_vendas_24h: stats24hBase ? stats24hBase.valores.length : 0,
+      atualizado_24h_em: agoraISO,
       data_recente: agregacao.dataRecente.toISOString(),
     });
   }
@@ -202,12 +296,12 @@ async function exibirResumo(): Promise<void> {
   for (const tipo of [1, 2, 3, 4, 5, 6] as TipoCombustivel[]) {
     const { data, error } = await supabase
       .from('precos_atuais')
-      .select('valor_recente')
+      .select('valor_recente, valor_minimo_24h')
       .eq('tipo_combustivel', tipo);
 
     if (error || !data || data.length === 0) continue;
 
-    const precos = data.map(p => p.valor_recente);
+    const precos = data.map(p => p.valor_minimo_24h ?? p.valor_recente);
     const min = Math.min(...precos);
     const max = Math.max(...precos);
     const media = precos.reduce((a, b) => a + b, 0) / precos.length;
@@ -254,19 +348,33 @@ async function main(): Promise<void> {
   console.log(`Período: últimos ${DIAS_HISTORICO} dias`);
   console.log('═'.repeat(60));
 
+  const fimJanela24h = new Date();
+  const inicioJanela24h = new Date(fimJanela24h.getTime() - (24 * 60 * 60 * 1000));
+  const inicioJanela24hISO = inicioJanela24h.toISOString();
+  const fimJanela24hISO = fimJanela24h.toISOString();
+
   // Consulta histórico no Supabase
   console.log('\n🔄 Consultando histórico no Supabase...');
-  const agregacoes = await consultarHistoricoSupabase(DIAS_HISTORICO);
-  console.log(`   Total de combinações CNPJ+combustível: ${agregacoes.size}`);
+  const agregacoesHistorico = await consultarHistoricoSupabase(DIAS_HISTORICO);
+  console.log(`   Total de combinações CNPJ+combustível: ${agregacoesHistorico.size}`);
 
-  if (agregacoes.size === 0) {
+  console.log(`\n🕒 Calculando janela móvel 24h: ${inicioJanela24hISO} -> ${fimJanela24hISO}`);
+  const agregacoes24h = await consultarHistorico24h(inicioJanela24hISO, fimJanela24hISO);
+  console.log(`   Combinações com vendas na janela 24h: ${agregacoes24h.size}`);
+
+  if (agregacoesHistorico.size === 0) {
     console.warn('⚠️ Nenhum dado de histórico encontrado. Saindo.');
     process.exit(0);
   }
 
   // Atualiza precos_atuais no Supabase
   console.log('\n📝 Atualizando precos_atuais no Supabase...');
-  const totalAtualizados = await atualizarPrecosAtuais(agregacoes);
+  const totalAtualizados = await atualizarPrecosAtuais(
+    agregacoesHistorico,
+    agregacoes24h,
+    inicioJanela24hISO,
+    fimJanela24hISO
+  );
   console.log(`✅ Atualizados: ${totalAtualizados} registros`);
 
   // Resumo

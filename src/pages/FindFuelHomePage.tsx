@@ -3,6 +3,7 @@ import { usePrecosCombustiveis } from '../hooks/usePrecosCombustiveis'
 import { useGeolocalizacao } from '../hooks/useGeolocalizacao'
 import { MapaEstabelecimentos } from '../components/MapaEstabelecimentos'
 import { calcularDistanciaKm } from '../utils/distancia'
+import { obterPrecoEfetivo24h } from '../utils/preco'
 import { trackFuelTypeSelect, trackMunicipalitySelect } from '../utils/analytics'
 import type { TipoCombustivel, PrecoCombustivelResumo } from '../types'
 import { TIPOS_COMBUSTIVEL, MUNICIPIOS_AL } from '../types'
@@ -126,8 +127,10 @@ export default function FindFuelHomePage() {
     return dadosVisiveis
       .sort((a, b) => {
         // Ordena por menor preço primeiro
-        if (a.valor_recente !== b.valor_recente) {
-          return a.valor_recente - b.valor_recente
+        const precoA = obterPrecoEfetivo24h(a)
+        const precoB = obterPrecoEfetivo24h(b)
+        if (precoA !== precoB) {
+          return precoA - precoB
         }
         // Desempata por distância
         const distA = a.distancia ?? Infinity

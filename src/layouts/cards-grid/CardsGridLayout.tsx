@@ -7,6 +7,7 @@ import { SkeletonCard } from '../../components/SkeletonCard'
 import { EmptyState, EmptyStateAction } from '../../components/EmptyState'
 import { calcularNivelPreco } from '../../components/PriceBadge'
 import { calcularDistanciaKm } from '../../utils/distancia'
+import { obterPrecoEfetivo24h } from '../../utils/preco'
 import { trackFuelTypeSelect, trackMunicipalitySelect } from '../../utils/analytics'
 import type { TipoCombustivel, PrecoCombustivelResumo } from '../../types'
 import { TIPOS_COMBUSTIVEL, MUNICIPIOS_AL } from '../../types'
@@ -125,8 +126,10 @@ export function CardsGridLayout() {
     
     return dadosComDistancia
       .sort((a, b) => {
-        if (a.valor_recente !== b.valor_recente) {
-          return a.valor_recente - b.valor_recente
+        const precoA = obterPrecoEfetivo24h(a)
+        const precoB = obterPrecoEfetivo24h(b)
+        if (precoA !== precoB) {
+          return precoA - precoB
         }
         const distA = a.distancia ?? Infinity
         const distB = b.distancia ?? Infinity
@@ -143,7 +146,7 @@ export function CardsGridLayout() {
   // Array de preços para cálculo de faixas
   const todosPrecos = useMemo(() => {
     if (!dadosFiltrados) return []
-    return dadosFiltrados.map(item => item.valor_recente)
+    return dadosFiltrados.map(item => obterPrecoEfetivo24h(item))
   }, [dadosFiltrados])
 
   // Handlers com tracking de analytics
@@ -289,7 +292,7 @@ export function CardsGridLayout() {
                   dados={item}
                   distancia={item.distancia}
                   isMelhor={item.cnpj === cnpjMelhorPosto}
-                  priceLevel={calcularNivelPreco(item.valor_recente, todosPrecos)}
+                  priceLevel={calcularNivelPreco(obterPrecoEfetivo24h(item), todosPrecos)}
                   onAbrirMapa={() => setEstabelecimentoNoMapa(item)}
                 />
               ))}

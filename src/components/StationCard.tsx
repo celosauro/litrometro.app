@@ -3,6 +3,7 @@ import type { PrecoCombustivelResumo, TipoCombustivel } from '../types'
 import { TIPOS_COMBUSTIVEL } from '../types'
 import { formatarDistancia } from '../utils/distancia'
 import { criarLinkGoogleDirections } from '../utils/directions'
+import { obterPrecoEfetivo24h } from '../utils/preco'
 
 interface StationCardProps {
   dados: PrecoCombustivelResumo
@@ -100,7 +101,7 @@ export function StationCard({ dados, distancia, isMelhor, onClick, localizacaoUs
               <div className="flex items-baseline gap-1">
                 <span className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">R$</span>
                 <span className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white tracking-tight">
-                  {formatarPreco(dados.valor_recente)}
+                  {formatarPreco(obterPrecoEfetivo24h(dados))}
                 </span>
               </div>
             </div>
@@ -116,13 +117,13 @@ export function StationCard({ dados, distancia, isMelhor, onClick, localizacaoUs
             <div className="flex-1">
               <span className="text-[10px] text-gray-400 dark:text-gray-500 block">Mínimo</span>
               <span className="text-xs font-medium text-green-600 dark:text-green-400">
-                R$ {formatarPreco(dados.valor_minimo)}
+                R$ {formatarPreco(obterPrecoEfetivo24h(dados))}
               </span>
             </div>
             <div className="flex-1 text-right">
               <span className="text-[10px] text-gray-400 dark:text-gray-500 block">Máximo</span>
               <span className="text-xs font-medium text-red-500 dark:text-red-400">
-                R$ {formatarPreco(dados.valor_maximo)}
+                R$ {formatarPreco(dados.valor_maximo_24h ?? dados.valor_recente)}
               </span>
             </div>
           </div>
@@ -133,7 +134,7 @@ export function StationCard({ dados, distancia, isMelhor, onClick, localizacaoUs
           <div className="flex items-center gap-1">
             <Clock size={12} />
             <span>
-              {new Date(dados.data_recente).toLocaleDateString('pt-BR', { 
+              {new Date(dados.data_fim_janela_24h ?? dados.data_recente).toLocaleDateString('pt-BR', { 
                 day: '2-digit', 
                 month: 'short' 
               })}

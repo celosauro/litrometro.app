@@ -94,6 +94,14 @@ CREATE TABLE IF NOT EXISTS precos_atuais (
   valor_maximo DECIMAL(10, 4) NOT NULL,
   valor_medio DECIMAL(10, 4) NOT NULL,
   valor_recente DECIMAL(10, 4) NOT NULL,
+  valor_minimo_24h DECIMAL(10, 4),
+  valor_maximo_24h DECIMAL(10, 4),
+  valor_medio_24h DECIMAL(10, 4),
+  data_minimo_24h TIMESTAMPTZ,
+  data_inicio_janela_24h TIMESTAMPTZ,
+  data_fim_janela_24h TIMESTAMPTZ,
+  contagem_vendas_24h INTEGER,
+  atualizado_24h_em TIMESTAMPTZ,
   data_recente TIMESTAMPTZ NOT NULL,
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
   
@@ -106,11 +114,16 @@ COMMENT ON COLUMN precos_atuais.valor_minimo IS 'Menor valor dos últimos 10 dia
 COMMENT ON COLUMN precos_atuais.valor_maximo IS 'Maior valor dos últimos 10 dias';
 COMMENT ON COLUMN precos_atuais.valor_medio IS 'Média dos últimos 10 dias';
 COMMENT ON COLUMN precos_atuais.valor_recente IS 'Valor da venda mais recente';
+COMMENT ON COLUMN precos_atuais.valor_minimo_24h IS 'Menor valor na janela móvel de últimas 24 horas';
+COMMENT ON COLUMN precos_atuais.valor_maximo_24h IS 'Maior valor na janela móvel de últimas 24 horas';
+COMMENT ON COLUMN precos_atuais.valor_medio_24h IS 'Média na janela móvel de últimas 24 horas';
 
 -- Índices para precos_atuais
 CREATE INDEX IF NOT EXISTS idx_precos_tipo ON precos_atuais(tipo_combustivel);
 CREATE INDEX IF NOT EXISTS idx_precos_valor ON precos_atuais(tipo_combustivel, valor_recente);
 CREATE INDEX IF NOT EXISTS idx_precos_cnpj ON precos_atuais(cnpj);
+CREATE INDEX IF NOT EXISTS idx_precos_24h_tipo_valor ON precos_atuais(tipo_combustivel, valor_minimo_24h);
+CREATE INDEX IF NOT EXISTS idx_precos_24h_janela_fim ON precos_atuais(data_fim_janela_24h DESC);
 
 -- ============================================================================
 -- 4. TABELA: vendas_historico
@@ -136,6 +149,7 @@ COMMENT ON COLUMN vendas_historico.data_venda IS 'Timestamp exato da venda (da A
 CREATE INDEX IF NOT EXISTS idx_historico_data ON vendas_historico(data_venda DESC);
 CREATE INDEX IF NOT EXISTS idx_historico_cnpj_tipo ON vendas_historico(cnpj, tipo_combustivel);
 CREATE INDEX IF NOT EXISTS idx_historico_coletado ON vendas_historico(coletado_em DESC);
+CREATE INDEX IF NOT EXISTS idx_historico_24h_lookup ON vendas_historico(cnpj, tipo_combustivel, data_venda DESC);
 
 -- ============================================================================
 -- 5. TABELA: coletas_log
@@ -293,6 +307,14 @@ SELECT
   p.valor_maximo,
   p.valor_medio,
   p.valor_recente,
+  p.valor_minimo_24h,
+  p.valor_maximo_24h,
+  p.valor_medio_24h,
+  p.data_minimo_24h,
+  p.data_inicio_janela_24h,
+  p.data_fim_janela_24h,
+  p.contagem_vendas_24h,
+  p.atualizado_24h_em,
   p.data_recente,
   p.updated_at
 FROM precos_atuais p

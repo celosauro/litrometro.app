@@ -2,6 +2,7 @@ import { MapPin, Phone, NavigationArrow, Star, MapPinSimple } from '@phosphor-ic
 import type { PrecoCombustivelResumo, TipoCombustivel } from '../../types'
 import { TIPOS_COMBUSTIVEL, CORES_COMBUSTIVEL } from '../../types'
 import { formatarDistancia } from '../../utils/distancia'
+import { obterPrecoEfetivo24h } from '../../utils/preco'
 import { PriceBadge, type PriceLevel } from '../../components/PriceBadge'
 
 interface FuelCardGridProps {
@@ -87,7 +88,7 @@ export function FuelCardGrid({ dados, distancia, isMelhor, priceLevel, onAbrirMa
           <div className="flex items-baseline justify-between">
             <div>
               <span className="text-2xl font-bold text-gray-900 dark:text-white tracking-tight">
-                {formatarPreco(dados.valor_recente)}
+                {formatarPreco(obterPrecoEfetivo24h(dados))}
               </span>
               <span className="text-sm text-gray-500 dark:text-gray-400 ml-1">/L</span>
             </div>
@@ -98,8 +99,8 @@ export function FuelCardGrid({ dados, distancia, isMelhor, priceLevel, onAbrirMa
 
           {/* Min/Max discreto */}
           <div className="flex items-center gap-3 mt-2 text-[10px] text-gray-500 dark:text-gray-400">
-            <span>Mín: {formatarPreco(dados.valor_minimo)}</span>
-            <span>Máx: {formatarPreco(dados.valor_maximo)}</span>
+            <span>Mín 24h: {formatarPreco(obterPrecoEfetivo24h(dados))}</span>
+            <span>Máx 24h: {formatarPreco(dados.valor_maximo_24h ?? dados.valor_recente)}</span>
           </div>
         </div>
 

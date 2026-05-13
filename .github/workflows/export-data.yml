@@ -4,6 +4,8 @@ on:
   workflow_run:
     workflows: ['Coletar Preços de Combustíveis']
     types: [completed]
+  schedule:
+    - cron: '15 * * * *'
   workflow_dispatch:
 
 concurrency:
@@ -12,7 +14,7 @@ concurrency:
 
 jobs:
   exportar-e-commit:
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -29,6 +31,12 @@ jobs:
           cache: 'npm'
 
       - run: npm ci
+
+      - name: Processar janela móvel 24h
+        env:
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: npm run process:history
 
       - name: Reaplicar geocache no Supabase
         env:

@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react'
 import { X, MapPin } from '@phosphor-icons/react'
 import maplibregl from 'maplibre-gl'
 import type { PrecoCombustivelResumo } from '../../types'
+import { obterPrecoEfetivo24h } from '../../utils/preco'
 
 interface MapModalProps {
   estabelecimento: PrecoCombustivelResumo | null
@@ -101,7 +102,7 @@ export function MapModal({ estabelecimento, onClose }: MapModalProps) {
             <div className="flex items-center gap-3">
               <div className="text-right">
                 <span className="text-xl font-bold text-brand-600 dark:text-brand-400">
-                  {formatarPreco(estabelecimento.valor_recente)}
+                  {formatarPreco(obterPrecoEfetivo24h(estabelecimento))}
                 </span>
                 <span className="text-sm text-gray-500">/L</span>
               </div>

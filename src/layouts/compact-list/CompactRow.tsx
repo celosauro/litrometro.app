@@ -2,6 +2,7 @@ import { NavigationArrow, MapPin, Star, Phone } from '@phosphor-icons/react'
 import type { PrecoCombustivelResumo, TipoCombustivel } from '../../types'
 import { TIPOS_COMBUSTIVEL, CORES_COMBUSTIVEL } from '../../types'
 import { formatarDistancia } from '../../utils/distancia'
+import { obterPrecoEfetivo24h } from '../../utils/preco'
 import { PriceBadge, type PriceLevel } from '../../components/PriceBadge'
 
 interface CompactRowProps {
@@ -61,7 +62,7 @@ export function CompactRow({ dados, distancia, isMelhor, priceLevel, onAbrirMapa
       <td className="px-3 py-2.5 text-right">
         <div className="flex items-center justify-end gap-2">
           <span className="font-bold text-gray-900 dark:text-white text-base tabular-nums">
-            {formatarPreco(dados.valor_recente)}
+            {formatarPreco(obterPrecoEfetivo24h(dados))}
           </span>
           {priceLevel && <PriceBadge level={priceLevel} size="sm" showIcon={false} />}
         </div>
@@ -70,8 +71,8 @@ export function CompactRow({ dados, distancia, isMelhor, priceLevel, onAbrirMapa
       {/* Variação min/max */}
       <td className="px-3 py-2.5 text-xs text-gray-500 dark:text-gray-400 hidden md:table-cell">
         <div className="flex flex-col items-end tabular-nums">
-          <span className="text-green-600 dark:text-green-400">{formatarPreco(dados.valor_minimo)}</span>
-          <span className="text-red-600 dark:text-red-400">{formatarPreco(dados.valor_maximo)}</span>
+          <span className="text-green-600 dark:text-green-400">{formatarPreco(obterPrecoEfetivo24h(dados))}</span>
+          <span className="text-red-600 dark:text-red-400">{formatarPreco(dados.valor_maximo_24h ?? dados.valor_recente)}</span>
         </div>
       </td>
 

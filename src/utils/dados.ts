@@ -28,6 +28,14 @@ export interface EstabelecimentoMinificado {
   vx: number;     // valor_maximo
   vm: number;     // valor_medio
   vr: number;     // valor_recente
+  v24?: number;   // valor_minimo_24h
+  x24?: number;   // valor_maximo_24h
+  m24?: number;   // valor_medio_24h
+  d24?: string;   // data_minimo_24h
+  c24?: number;   // contagem_vendas_24h
+  j24i?: string;  // data_inicio_janela_24h
+  j24f?: string;  // data_fim_janela_24h
+  u24?: string;   // atualizado_24h_em
   dr: string;     // data_recente
 }
 
@@ -74,6 +82,14 @@ export function expandirEstabelecimento(min: EstabelecimentoMinificado): PrecoCo
     valor_maximo: min.vx,
     valor_medio: min.vm,
     valor_recente: min.vr,
+    valor_minimo_24h: min.v24 ?? min.vr,
+    valor_maximo_24h: min.x24 ?? min.vr,
+    valor_medio_24h: min.m24 ?? min.vr,
+    data_minimo_24h: min.d24 ?? min.dr,
+    data_inicio_janela_24h: min.j24i ?? null,
+    data_fim_janela_24h: min.j24f ?? null,
+    contagem_vendas_24h: min.c24 ?? 0,
+    atualizado_24h_em: min.u24 ?? null,
     data_recente: min.dr,
   };
 }
@@ -139,6 +155,14 @@ export const MAPEAMENTO_CAMPOS = {
   vx: 'valor_maximo',
   vm: 'valor_medio',
   vr: 'valor_recente',
+  v24: 'valor_minimo_24h',
+  x24: 'valor_maximo_24h',
+  m24: 'valor_medio_24h',
+  d24: 'data_minimo_24h',
+  c24: 'contagem_vendas_24h',
+  j24i: 'data_inicio_janela_24h',
+  j24f: 'data_fim_janela_24h',
+  u24: 'atualizado_24h_em',
   dr: 'data_recente',
 } as const;
 

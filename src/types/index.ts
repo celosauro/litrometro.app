@@ -83,6 +83,14 @@ export interface PrecoCombustivelResumo {
   valor_maximo: number;
   valor_medio: number;
   valor_recente: number;
+  valor_minimo_24h?: number | null;
+  valor_maximo_24h?: number | null;
+  valor_medio_24h?: number | null;
+  data_minimo_24h?: string | null;
+  data_inicio_janela_24h?: string | null;
+  data_fim_janela_24h?: string | null;
+  contagem_vendas_24h?: number | null;
+  atualizado_24h_em?: string | null;
   data_recente: string;
 }
 

@@ -179,8 +179,8 @@ Checklist rápido no navegador:
 ### Coleta e Processamento
 | Comando | Descrição |
 |---------|-----------|
-| `npm run collect` | Coleta preços da API SEFAZ → Supabase |
-| `npm run process:history` | Calcula min/max/médio dos últimos 30 dias |
+| `npm run collect:supabase` | Coleta preços da API SEFAZ → Supabase |
+| `npm run process:history` | Atualiza snapshot e menor preço da janela móvel de 24h |
 | `npm run export:json` | Exporta Supabase → `atual.min.json` |
 | `npm run geocode` | Geocodifica endereços sem coordenadas |
 | `npm run sync:geocache` | Sincroniza geocache local → Supabase |
@@ -192,8 +192,7 @@ Checklist rápido no navegador:
 | Workflow | Schedule | Descrição |
 |----------|----------|-----------|
 | **collect-data.yml** | A cada 3 horas | Coleta preços da SEFAZ e salva no Supabase |
-| **process-history.yml** | 06:00 UTC | Processa histórico dos últimos 30 dias |
-| **geocode-data.yml** | 06:30 UTC | Geocodifica novos estabelecimentos |
+| **export-data.yml** | A cada hora (`15 * * * *`) | Processa janela móvel de 24h, sincroniza geocache e exporta JSON |
 | **deploy.yml** | Push na main | Build e deploy para GitHub Pages |
 
 ---
@@ -204,9 +203,8 @@ Checklist rápido no navegador:
 litrometro/
 ├── .github/workflows/       # GitHub Actions
 │   ├── collect-data.yml     # Coleta a cada 3 horas
+│   ├── export-data.yml      # Processa 24h e exporta JSON
 │   ├── deploy.yml           # Deploy automático
-│   ├── geocode-data.yml     # Geocodificação diária
-│   └── process-history.yml  # Processamento de histórico
 ├── docs/                    # Documentação
 │   ├── ANALYTICS.md         # Configuração GA4
 │   ├── CONFIGURACAO_SUPABASE.md
@@ -266,7 +264,7 @@ O JSON de produção é minificado para reduzir tamanho (~580KB → ~84KB gzip):
 
 ```json
 {
-  "v": 1,           // versão do schema
+  "v": 2,           // versão do schema
   "t": "2026-04-15T12:00:00Z",  // timestamp
   "n": 1852,        // total de registros
   "m": 98,          // total de municípios
@@ -283,6 +281,14 @@ O JSON de produção é minificado para reduzir tamanho (~580KB → ~84KB gzip):
     "vx": 6.29,               // valor_maximo
     "vm": 6.05,               // valor_medio
     "vr": 5.99,               // valor_recente
+    "v24": 5.87,              // valor_minimo_24h (ou fallback em vr)
+    "x24": 6.01,              // valor_maximo_24h
+    "m24": 5.93,              // valor_medio_24h
+    "d24": "2026-04-15T17:12:00Z", // data_minimo_24h
+    "c24": 12,                // contagem_vendas_24h
+    "j24i": "2026-04-14T18:00:00Z", // inicio da janela móvel
+    "j24f": "2026-04-15T18:00:00Z", // fim da janela móvel
+    "u24": "2026-04-15T18:05:00Z",  // processamento 24h
     "dr": "2026-04-15T18:00:00Z"  // data_recente
   }]
 }

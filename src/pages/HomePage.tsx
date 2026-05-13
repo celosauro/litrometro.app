@@ -11,6 +11,7 @@ import { SkeletonCardList } from '../components/SkeletonCard';
 import { EmptyState, EmptyStateAction } from '../components/EmptyState';
 import { calcularNivelPreco, calcularEconomia } from '../components/PriceBadge';
 import { calcularDistanciaKm } from '../utils/distancia';
+import { obterPrecoEfetivo24h } from '../utils/preco';
 import { trackFuelTypeSelect, trackMunicipalitySelect, trackSearch} from '../utils/analytics';
 import type { TipoCombustivel, PrecoCombustivelResumo } from '../types';
 import { TIPOS_COMBUSTIVEL, MUNICIPIOS_AL } from '../types';
@@ -147,8 +148,10 @@ export default function HomePage() {
       })
       .sort((a, b) => {
         // Ordena por menor preço, desempata por distância
-        if (a.valor_recente !== b.valor_recente) {
-          return a.valor_recente - b.valor_recente;
+        const precoA = obterPrecoEfetivo24h(a);
+        const precoB = obterPrecoEfetivo24h(b);
+        if (precoA !== precoB) {
+          return precoA - precoB;
         }
         const distA = a.distancia ?? Infinity;
         const distB = b.distancia ?? Infinity;
@@ -174,12 +177,12 @@ export default function HomePage() {
       if (postosProximos.length > 0) {
         // Se há postos dentro de 5km, pega o de menor preço entre eles
         const melhor = postosProximos.reduce((melhor, atual) => 
-          atual.valor_recente < melhor.valor_recente ? atual : melhor
+          obterPrecoEfetivo24h(atual) < obterPrecoEfetivo24h(melhor) ? atual : melhor
         );
         return melhor.cnpj;
       } else {
         // Se não há postos dentro de 5km, usa score combinado para todos
-        const precos = comDistancia.map(i => i.valor_recente);
+        const precos = comDistancia.map(i => obterPrecoEfetivo24h(i));
         const distancias = comDistancia.map(i => i.distancia!);
         
         const minPreco = Math.min(...precos);
@@ -195,7 +198,7 @@ export default function HomePage() {
         
         for (const item of comDistancia) {
           // Score normalizado com peso maior para distância
-          const precoNorm = (item.valor_recente - minPreco) / rangePreco;
+          const precoNorm = (obterPrecoEfetivo24h(item) - minPreco) / rangePreco;
           const distNorm = (item.distancia! - minDist) / rangeDist;
           const score = precoNorm + (distNorm * 1.5); // Distância com peso 1.5x
           
@@ -210,7 +213,7 @@ export default function HomePage() {
     } else {
       // Sem localização: apenas menor preço
       const menorPreco = dadosFiltradosBase.reduce((melhor, atual) => 
-        atual.valor_recente < melhor.valor_recente ? atual : melhor
+        obterPrecoEfetivo24h(atual) < obterPrecoEfetivo24h(melhor) ? atual : melhor
       );
       return menorPreco.cnpj;
     }
@@ -237,7 +240,7 @@ export default function HomePage() {
   // Array de preços para cálculo de faixas (nível de preço e economia)
   const todosPrecos = useMemo(() => {
     if (!dadosFiltrados) return [];
-    return dadosFiltrados.map(item => item.valor_recente);
+    return dadosFiltrados.map(item => obterPrecoEfetivo24h(item));
   }, [dadosFiltrados]);
 
   const handleSelecionarEstabelecimento = (item: DadosComDistancia) => {
@@ -422,8 +425,8 @@ export default function HomePage() {
                       distancia={item.distancia}
                       isSelected={estabelecimentoSelecionado?.cnpj === item.cnpj}
                       isMelhor={item.cnpj === cnpjMelhorPosto}
-                      priceLevel={calcularNivelPreco(item.valor_recente, todosPrecos)}
-                      economia={calcularEconomia(item.valor_recente, todosPrecos)}
+                      priceLevel={calcularNivelPreco(obterPrecoEfetivo24h(item), todosPrecos)}
+                      economia={calcularEconomia(obterPrecoEfetivo24h(item), todosPrecos)}
                       onClick={() => handleSelecionarEstabelecimento(item)}
                     />
                   ))
