@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-05-18T22:15:59.275Z",
+  "atualizadoEm": "2026-05-18T22:19:24.154Z",
   "totalEstabelecimentos": 533,
   "estabelecimentos": [
     {
@@ -378,21 +378,6 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "57516491000145",
-      "razao_social": "POSTO UNIAO LTDA",
-      "nome_fantasia": "CARANGO 2",
-      "telefone": "(75) 32217513",
-      "nome_logradouro": "AV VENTURA DE FARIAS",
-      "numero_imovel": "S/N",
-      "bairro": "CAVACO",
-      "cep": "57306010",
-      "codigo_ibge": "2700300",
-      "municipio": "Arapiraca",
-      "latitude": -9.7431816,
-      "longitude": -36.6747291,
-      "geocode_source": "nominatim"
-    },
-    {
       "cnpj": "37120587000182",
       "razao_social": "PETRO POSTO LTDA",
       "nome_fantasia": "AUTO POSTO 30 DE OUTUBRO",
@@ -406,6 +391,21 @@
       "latitude": -9.748378,
       "longitude": -36.6637349,
       "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "57516491000145",
+      "razao_social": "POSTO UNIAO LTDA",
+      "nome_fantasia": "CARANGO 2",
+      "telefone": "(75) 32217513",
+      "nome_logradouro": "AV VENTURA DE FARIAS",
+      "numero_imovel": "S/N",
+      "bairro": "CAVACO",
+      "cep": "57306010",
+      "codigo_ibge": "2700300",
+      "municipio": "Arapiraca",
+      "latitude": -9.7431816,
+      "longitude": -36.6747291,
+      "geocode_source": "nominatim"
     },
     {
       "cnpj": "29736718000122",
@@ -3603,36 +3603,6 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "08203497000157",
-      "razao_social": "M H DA COSTA E CIA LTDA - EPP",
-      "nome_fantasia": "POSTO FORUM",
-      "telefone": "(82) 33361435",
-      "nome_logradouro": "AV JUCA SAMPAIO",
-      "numero_imovel": "1550 E",
-      "bairro": "BARRO DURO",
-      "cep": "57045365",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6223463,
-      "longitude": -35.7161224,
-      "geocode_source": "sefaz"
-    },
-    {
-      "cnpj": "03496743000192",
-      "razao_social": "AUTO POSTO CLEAN CAR LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 88124555",
-      "nome_logradouro": "AV MENINO MARCELO",
-      "numero_imovel": "10601",
-      "bairro": "SERRARIA",
-      "cep": "57046000",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6113731,
-      "longitude": -35.7187183,
-      "geocode_source": "google"
-    },
-    {
       "cnpj": "27665019000375",
       "razao_social": "SANDIEGO COMÉRCIO DE COMBUSTÍVEIS LTDA",
       "nome_fantasia": "POSTO PRATAGY",
@@ -3660,6 +3630,36 @@
       "municipio": "Maceió",
       "latitude": -9.6693114,
       "longitude": -35.7417223,
+      "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "03496743000192",
+      "razao_social": "AUTO POSTO CLEAN CAR LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 88124555",
+      "nome_logradouro": "AV MENINO MARCELO",
+      "numero_imovel": "10601",
+      "bairro": "SERRARIA",
+      "cep": "57046000",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6113731,
+      "longitude": -35.7187183,
+      "geocode_source": "google"
+    },
+    {
+      "cnpj": "08203497000157",
+      "razao_social": "M H DA COSTA E CIA LTDA - EPP",
+      "nome_fantasia": "POSTO FORUM",
+      "telefone": "(82) 33361435",
+      "nome_logradouro": "AV JUCA SAMPAIO",
+      "numero_imovel": "1550 E",
+      "bairro": "BARRO DURO",
+      "cep": "57045365",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6223463,
+      "longitude": -35.7161224,
       "geocode_source": "sefaz"
     },
     {
@@ -3693,21 +3693,6 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "60066994000332",
-      "razao_social": "K & P COMÉRCIO DE COMBUSTÍVEIS LTDA",
-      "nome_fantasia": "PRATAGY & EXTRA",
-      "telefone": "(82) 41021750",
-      "nome_logradouro": "AV GOVERNADOR AFRANIO LAGES",
-      "numero_imovel": "117",
-      "bairro": "BOM PARTO",
-      "cep": "57017225",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6536522,
-      "longitude": -35.7402716,
-      "geocode_source": "nominatim"
-    },
-    {
       "cnpj": "60066994000170",
       "razao_social": "K & P COMÉRCIO DE COMBUSTÍVEIS LTDA",
       "nome_fantasia": "PRATAGY & EXTRA",
@@ -3721,6 +3706,21 @@
       "latitude": -9.6449691,
       "longitude": -35.7134084,
       "geocode_source": "manual"
+    },
+    {
+      "cnpj": "60066994000332",
+      "razao_social": "K & P COMÉRCIO DE COMBUSTÍVEIS LTDA",
+      "nome_fantasia": "PRATAGY & EXTRA",
+      "telefone": "(82) 41021750",
+      "nome_logradouro": "AV GOVERNADOR AFRANIO LAGES",
+      "numero_imovel": "117",
+      "bairro": "BOM PARTO",
+      "cep": "57017225",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6536522,
+      "longitude": -35.7402716,
+      "geocode_source": "nominatim"
     },
     {
       "cnpj": "04264431000116",
@@ -4338,19 +4338,19 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "08950629000104",
-      "razao_social": "TARGINO COMERCIO DE COMBUSTIVEIS LTDA",
-      "nome_fantasia": "POSTO PRATAGY",
-      "telefone": "(82) 33286434",
-      "nome_logradouro": "AV TOMAS ESPINDOLA",
-      "numero_imovel": "278",
-      "bairro": "FAROL",
-      "cep": "57051000",
+      "cnpj": "04667909000159",
+      "razao_social": "HOLANDA COMERCIO COMBUSTIVEIS LTDA - EPP",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "AV DR. FERNANDO DO COUTO MALTA",
+      "numero_imovel": "469",
+      "bairro": "CIDADE UNIVERSITARIA",
+      "cep": "57073030",
       "codigo_ibge": "2704302",
       "municipio": "Maceió",
-      "latitude": -9.656932,
-      "longitude": -35.7330954,
-      "geocode_source": "sefaz"
+      "latitude": -9.6476843,
+      "longitude": -35.7339264,
+      "geocode_source": "manual"
     },
     {
       "cnpj": "02488031000169",
@@ -4368,34 +4368,19 @@
       "geocode_source": "nominatim"
     },
     {
-      "cnpj": "04667909000159",
-      "razao_social": "HOLANDA COMERCIO COMBUSTIVEIS LTDA - EPP",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "AV DR. FERNANDO DO COUTO MALTA",
-      "numero_imovel": "469",
-      "bairro": "CIDADE UNIVERSITARIA",
-      "cep": "57073030",
+      "cnpj": "08950629000104",
+      "razao_social": "TARGINO COMERCIO DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "POSTO PRATAGY",
+      "telefone": "(82) 33286434",
+      "nome_logradouro": "AV TOMAS ESPINDOLA",
+      "numero_imovel": "278",
+      "bairro": "FAROL",
+      "cep": "57051000",
       "codigo_ibge": "2704302",
       "municipio": "Maceió",
-      "latitude": -9.6476843,
-      "longitude": -35.7339264,
-      "geocode_source": "manual"
-    },
-    {
-      "cnpj": "15747618000197",
-      "razao_social": "OMENA & VIEIRA LTDA",
-      "nome_fantasia": "POSTO VIA EXPRESSA",
-      "telefone": "",
-      "nome_logradouro": "Rua T",
-      "numero_imovel": "1137",
-      "bairro": "CIDADE UNIVERSITARIA",
-      "cep": "57062971",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.5714279,
-      "longitude": -35.7381505,
-      "geocode_source": "google"
+      "latitude": -9.656932,
+      "longitude": -35.7330954,
+      "geocode_source": "sefaz"
     },
     {
       "cnpj": "09347041000123",
@@ -4411,6 +4396,21 @@
       "latitude": -9.6054283,
       "longitude": -35.7570413,
       "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "15747618000197",
+      "razao_social": "OMENA & VIEIRA LTDA",
+      "nome_fantasia": "POSTO VIA EXPRESSA",
+      "telefone": "",
+      "nome_logradouro": "Rua T",
+      "numero_imovel": "1137",
+      "bairro": "CIDADE UNIVERSITARIA",
+      "cep": "57062971",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.5714279,
+      "longitude": -35.7381505,
+      "geocode_source": "google"
     },
     {
       "cnpj": "09231306000123",
@@ -4488,6 +4488,21 @@
       "geocode_source": "sefaz"
     },
     {
+      "cnpj": "04077577000152",
+      "razao_social": "POSTO QUARTO DE MILHA LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 3222716",
+      "nome_logradouro": "Rua GENERAL HERMES",
+      "numero_imovel": "719",
+      "bairro": "BOM PARTO",
+      "cep": "57017201",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6538945,
+      "longitude": -35.7405728,
+      "geocode_source": "nominatim"
+    },
+    {
       "cnpj": "41964710000119",
       "razao_social": "POSTO JOTA PINTO VIA EXPRESSA LTDA",
       "nome_fantasia": "POSTO VIA EXPRESSA",
@@ -4516,21 +4531,6 @@
       "latitude": -9.6476843,
       "longitude": -35.7339264,
       "geocode_source": "manual"
-    },
-    {
-      "cnpj": "04077577000152",
-      "razao_social": "POSTO QUARTO DE MILHA LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 3222716",
-      "nome_logradouro": "Rua GENERAL HERMES",
-      "numero_imovel": "719",
-      "bairro": "BOM PARTO",
-      "cep": "57017201",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6538945,
-      "longitude": -35.7405728,
-      "geocode_source": "nominatim"
     },
     {
       "cnpj": "00404850000317",
@@ -4638,21 +4638,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "04077577000314",
-      "razao_social": "POSTO QUARTO DE MILHA LTDA",
-      "nome_fantasia": "POSTOS DE COMBUSTIVEIS PICHILAU",
-      "telefone": "(82) 3222716",
-      "nome_logradouro": "AV DURVAL DE GOES MONTEIRO",
-      "numero_imovel": "S/N",
-      "bairro": "TAB DOS MARTINS",
-      "cep": "57080000",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6476843,
-      "longitude": -35.7339264,
-      "geocode_source": "manual"
-    },
-    {
       "cnpj": "27752571000139",
       "razao_social": "GMA AUTO POSTO LTDA",
       "nome_fantasia": "AUTO POSTO GRUTA",
@@ -4666,6 +4651,21 @@
       "latitude": -9.6176359,
       "longitude": -35.7389408,
       "geocode_source": "google"
+    },
+    {
+      "cnpj": "04077577000314",
+      "razao_social": "POSTO QUARTO DE MILHA LTDA",
+      "nome_fantasia": "POSTOS DE COMBUSTIVEIS PICHILAU",
+      "telefone": "(82) 3222716",
+      "nome_logradouro": "AV DURVAL DE GOES MONTEIRO",
+      "numero_imovel": "S/N",
+      "bairro": "TAB DOS MARTINS",
+      "cep": "57080000",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6476843,
+      "longitude": -35.7339264,
+      "geocode_source": "manual"
     },
     {
       "cnpj": "12442315000178",
@@ -6228,6 +6228,21 @@
       "geocode_source": "opencage"
     },
     {
+      "cnpj": "12486809000316",
+      "razao_social": "CDA EMPREENDIMENTOS LTDA",
+      "nome_fantasia": "POSTO CHA DO PILAR",
+      "telefone": "",
+      "nome_logradouro": "AV RUBENS CANUTO",
+      "numero_imovel": "SN",
+      "bairro": "CHA DO PILAR",
+      "cep": "57150000",
+      "codigo_ibge": "2706901",
+      "municipio": "Pilar",
+      "latitude": -9.590575399999999,
+      "longitude": -35.9489026,
+      "geocode_source": "sefaz"
+    },
+    {
       "cnpj": "35644182000118",
       "razao_social": "AUTO POSTO PILAR LTDA",
       "nome_fantasia": "POSTO PETROL'S",
@@ -6316,21 +6331,6 @@
       "latitude": -9.6016711,
       "longitude": -35.9511275,
       "geocode_source": "manual"
-    },
-    {
-      "cnpj": "12486809000316",
-      "razao_social": "CDA EMPREENDIMENTOS LTDA",
-      "nome_fantasia": "POSTO CHA DO PILAR",
-      "telefone": "",
-      "nome_logradouro": "AV RUBENS CANUTO",
-      "numero_imovel": "SN",
-      "bairro": "CHA DO PILAR",
-      "cep": "57150000",
-      "codigo_ibge": "2706901",
-      "municipio": "Pilar",
-      "latitude": -9.590575399999999,
-      "longitude": -35.9489026,
-      "geocode_source": "sefaz"
     },
     {
       "cnpj": "51694482000168",
@@ -6468,21 +6468,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "08886737000165",
-      "razao_social": "COMÉRCIO DE COMBUSTÍVEIS NOSSA SENHORA DE FÁTIMA LTDA.",
-      "nome_fantasia": "AUTO POSTO NOSSA SENHORA DE FATIMA",
-      "telefone": "",
-      "nome_logradouro": "RDV BR 316",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57510000",
-      "codigo_ibge": "2707206",
-      "municipio": "Poço das Trincheiras",
-      "latitude": -9.3125,
-      "longitude": -37.28556,
-      "geocode_source": "opencage"
-    },
-    {
       "cnpj": "09025340000141",
       "razao_social": "FERREIRA E SANTOS AUTO POSTO LTDA - ME",
       "nome_fantasia": "AUTO POSTO SAO SEBASTIAO",
@@ -6496,6 +6481,21 @@
       "latitude": -9.3063022,
       "longitude": -37.2854321,
       "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "08886737000165",
+      "razao_social": "COMÉRCIO DE COMBUSTÍVEIS NOSSA SENHORA DE FÁTIMA LTDA.",
+      "nome_fantasia": "AUTO POSTO NOSSA SENHORA DE FATIMA",
+      "telefone": "",
+      "nome_logradouro": "RDV BR 316",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57510000",
+      "codigo_ibge": "2707206",
+      "municipio": "Poço das Trincheiras",
+      "latitude": -9.3125,
+      "longitude": -37.28556,
+      "geocode_source": "opencage"
     },
     {
       "cnpj": "29720522000140",
@@ -6513,21 +6513,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "34190671000184",
-      "razao_social": "POSTO FERREIRA E JACINTO LTDA",
-      "nome_fantasia": "POSTO DETH",
-      "telefone": "(82) 88080423",
-      "nome_logradouro": "ROD AL 101 NORTE",
-      "numero_imovel": "S/N",
-      "bairro": "CENTRO",
-      "cep": "57900000",
-      "codigo_ibge": "2707305",
-      "municipio": "Porto Calvo",
-      "latitude": -9.045,
-      "longitude": -35.39833,
-      "geocode_source": "opencage"
-    },
-    {
       "cnpj": "50773495000160",
       "razao_social": "AUTO POSTO PORTO CALVO LTDA",
       "nome_fantasia": "AUTO POSTO PORTO CALVO",
@@ -6541,6 +6526,21 @@
       "latitude": -9.051948,
       "longitude": -35.398653,
       "geocode_source": "manual"
+    },
+    {
+      "cnpj": "34190671000184",
+      "razao_social": "POSTO FERREIRA E JACINTO LTDA",
+      "nome_fantasia": "POSTO DETH",
+      "telefone": "(82) 88080423",
+      "nome_logradouro": "ROD AL 101 NORTE",
+      "numero_imovel": "S/N",
+      "bairro": "CENTRO",
+      "cep": "57900000",
+      "codigo_ibge": "2707305",
+      "municipio": "Porto Calvo",
+      "latitude": -9.045,
+      "longitude": -35.39833,
+      "geocode_source": "opencage"
     },
     {
       "cnpj": "10673213000138",
@@ -6918,6 +6918,21 @@
       "geocode_source": "google"
     },
     {
+      "cnpj": "05885727000117",
+      "razao_social": "AUTO POSTO SANTANA LTDA",
+      "nome_fantasia": "AUTO POSTO SANTANA",
+      "telefone": "",
+      "nome_logradouro": "AV DR. ARSENIO MOREIRA",
+      "numero_imovel": "552",
+      "bairro": "MONUMENTO",
+      "cep": "57500000",
+      "codigo_ibge": "2708006",
+      "municipio": "Santana do Ipanema",
+      "latitude": -9.371188499999999,
+      "longitude": -37.2394206,
+      "geocode_source": "sefaz"
+    },
+    {
       "cnpj": "12688818000128",
       "razao_social": "JOSE CARLOS MORONI VALENCA & CIA LTDA",
       "nome_fantasia": "POSTO SANTO ANTONIO",
@@ -6990,21 +7005,6 @@
       "municipio": "Santana do Ipanema",
       "latitude": -9.367818,
       "longitude": -37.248427,
-      "geocode_source": "sefaz"
-    },
-    {
-      "cnpj": "05885727000117",
-      "razao_social": "AUTO POSTO SANTANA LTDA",
-      "nome_fantasia": "AUTO POSTO SANTANA",
-      "telefone": "",
-      "nome_logradouro": "AV DR. ARSENIO MOREIRA",
-      "numero_imovel": "552",
-      "bairro": "MONUMENTO",
-      "cep": "57500000",
-      "codigo_ibge": "2708006",
-      "municipio": "Santana do Ipanema",
-      "latitude": -9.371188499999999,
-      "longitude": -37.2394206,
       "geocode_source": "sefaz"
     },
     {
@@ -7173,6 +7173,21 @@
       "geocode_source": "google"
     },
     {
+      "cnpj": "11908167000503",
+      "razao_social": "DIESEL DISTRIBUIDORA E SERVICOS LTDA",
+      "nome_fantasia": "POSTO PRISMEL",
+      "telefone": "(82) 32719999",
+      "nome_logradouro": "ROD BR 101 SUL, KM 65",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA URBANA",
+      "cep": "57240198",
+      "codigo_ibge": "2708600",
+      "municipio": "São Miguel dos Campos",
+      "latitude": -9.78111,
+      "longitude": -36.09361,
+      "geocode_source": "opencage"
+    },
+    {
       "cnpj": "23817031000135",
       "razao_social": "AUTO POSTO SÃO JOSÉ LTDA - EPP",
       "nome_fantasia": "POSTO SAO JOSE",
@@ -7233,14 +7248,14 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "11908167000503",
+      "cnpj": "11908167000171",
       "razao_social": "DIESEL DISTRIBUIDORA E SERVICOS LTDA",
-      "nome_fantasia": "POSTO PRISMEL",
-      "telefone": "(82) 32719999",
-      "nome_logradouro": "ROD BR 101 SUL, KM 65",
+      "nome_fantasia": "POSTO VIA SUL",
+      "telefone": "(82) 2712215",
+      "nome_logradouro": "ROD BR 101 SUL, KM 137",
       "numero_imovel": "S/N",
-      "bairro": "ZONA URBANA",
-      "cep": "57240198",
+      "bairro": "HELIO JATOBA",
+      "cep": "57246370",
       "codigo_ibge": "2708600",
       "municipio": "São Miguel dos Campos",
       "latitude": -9.78111,
@@ -7276,21 +7291,6 @@
       "latitude": -9.7784547,
       "longitude": -36.0920727,
       "geocode_source": "sefaz"
-    },
-    {
-      "cnpj": "11908167000171",
-      "razao_social": "DIESEL DISTRIBUIDORA E SERVICOS LTDA",
-      "nome_fantasia": "POSTO VIA SUL",
-      "telefone": "(82) 2712215",
-      "nome_logradouro": "ROD BR 101 SUL, KM 137",
-      "numero_imovel": "S/N",
-      "bairro": "HELIO JATOBA",
-      "cep": "57246370",
-      "codigo_ibge": "2708600",
-      "municipio": "São Miguel dos Campos",
-      "latitude": -9.78111,
-      "longitude": -36.09361,
-      "geocode_source": "opencage"
     },
     {
       "cnpj": "03223071000141",
@@ -7893,21 +7893,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "06053479000100",
-      "razao_social": "M DA SILVA LIMA FILHO POSTO",
-      "nome_fantasia": "AUTO POSTO E POUSADA SANTO EDUARDO",
-      "telefone": "(82) 32811449",
-      "nome_logradouro": "Rua JUVENAL MENDONCA",
-      "numero_imovel": "930",
-      "bairro": "CENTRO",
-      "cep": "57800000",
-      "codigo_ibge": "2709301",
-      "municipio": "União dos Palmares",
-      "latitude": -9.1533729,
-      "longitude": -36.0171661,
-      "geocode_source": "sefaz"
-    },
-    {
       "cnpj": "12810280000182",
       "razao_social": "POSTO SERRA DA LAGE LTDA",
       "nome_fantasia": "POSTO SERRA DA LAGE",
@@ -7920,6 +7905,21 @@
       "municipio": "União dos Palmares",
       "latitude": -9.1508135,
       "longitude": -36.0137151,
+      "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "06053479000100",
+      "razao_social": "M DA SILVA LIMA FILHO POSTO",
+      "nome_fantasia": "AUTO POSTO E POUSADA SANTO EDUARDO",
+      "telefone": "(82) 32811449",
+      "nome_logradouro": "Rua JUVENAL MENDONCA",
+      "numero_imovel": "930",
+      "bairro": "CENTRO",
+      "cep": "57800000",
+      "codigo_ibge": "2709301",
+      "municipio": "União dos Palmares",
+      "latitude": -9.1533729,
+      "longitude": -36.0171661,
       "geocode_source": "sefaz"
     },
     {
