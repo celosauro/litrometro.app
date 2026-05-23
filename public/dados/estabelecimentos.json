@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-05-23T14:04:27.333Z",
+  "atualizadoEm": "2026-05-23T14:08:07.444Z",
   "totalEstabelecimentos": 535,
   "estabelecimentos": [
     {
@@ -363,21 +363,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "57516491000145",
-      "razao_social": "POSTO UNIAO LTDA",
-      "nome_fantasia": "CARANGO 2",
-      "telefone": "(75) 32217513",
-      "nome_logradouro": "AV VENTURA DE FARIAS",
-      "numero_imovel": "S/N",
-      "bairro": "CAVACO",
-      "cep": "57306010",
-      "codigo_ibge": "2700300",
-      "municipio": "Arapiraca",
-      "latitude": -9.7431816,
-      "longitude": -36.6747291,
-      "geocode_source": "nominatim"
-    },
-    {
       "cnpj": "23800197000149",
       "razao_social": "AUTO POSTO CIDADE LTDA - EPP",
       "nome_fantasia": "",
@@ -391,6 +376,21 @@
       "latitude": -9.7644916,
       "longitude": -36.65569869999999,
       "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "57516491000145",
+      "razao_social": "POSTO UNIAO LTDA",
+      "nome_fantasia": "CARANGO 2",
+      "telefone": "(75) 32217513",
+      "nome_logradouro": "AV VENTURA DE FARIAS",
+      "numero_imovel": "S/N",
+      "bairro": "CAVACO",
+      "cep": "57306010",
+      "codigo_ibge": "2700300",
+      "municipio": "Arapiraca",
+      "latitude": -9.7431816,
+      "longitude": -36.6747291,
+      "geocode_source": "nominatim"
     },
     {
       "cnpj": "37120587000182",
@@ -3723,21 +3723,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "17344224000113",
-      "razao_social": "AUTO POSTO MARES DO NORTE LTDA",
-      "nome_fantasia": "MARES DO NORTE EMPREENDIMENTOS",
-      "telefone": "(82) 33261313",
-      "nome_logradouro": "ROD GUNTHER FRANS OLIVEIRA",
-      "numero_imovel": "15645",
-      "bairro": "IPIOCA",
-      "cep": "57039700",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6476843,
-      "longitude": -35.7339264,
-      "geocode_source": "manual"
-    },
-    {
       "cnpj": "07603051000157",
       "razao_social": "REYAUTO COMERCIO DE COMBUSTIVEIS LTDA",
       "nome_fantasia": "REYAUTO POSTO",
@@ -3750,6 +3735,21 @@
       "municipio": "Maceió",
       "latitude": -9.6125779,
       "longitude": -35.7013686,
+      "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "09077197000131",
+      "razao_social": "AUTO POSTO TRAPICHAO LTDA",
+      "nome_fantasia": "POSTO TRAPICHAO",
+      "telefone": "(82) 33560530",
+      "nome_logradouro": "AV SIQUEIRA CAMPOS",
+      "numero_imovel": "1801",
+      "bairro": "TRAPICHE DA BARRA",
+      "cep": "57010405",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6715693,
+      "longitude": -35.7565066,
       "geocode_source": "sefaz"
     },
     {
@@ -3768,19 +3768,34 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "69990182000191",
-      "razao_social": "MAXI POSTO BR LTDA",
-      "nome_fantasia": "POSTO MAXI",
+      "cnpj": "09164951000251",
+      "razao_social": "AAMM COMERCIAL DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "",
       "telefone": "",
-      "nome_logradouro": "AV JUCA SAMPAIO",
-      "numero_imovel": "2179",
-      "bairro": "FEITOSA",
-      "cep": "57040600",
+      "nome_logradouro": "AV DURVAL DE GOES MONTEIRO",
+      "numero_imovel": "9110",
+      "bairro": "TABULEIRO DOS MARTINS",
+      "cep": "57080000",
       "codigo_ibge": "2704302",
       "municipio": "Maceió",
-      "latitude": -9.6269171,
-      "longitude": -35.7166074,
-      "geocode_source": "sefaz"
+      "latitude": -9.6476843,
+      "longitude": -35.7339264,
+      "geocode_source": "manual"
+    },
+    {
+      "cnpj": "17344224000113",
+      "razao_social": "AUTO POSTO MARES DO NORTE LTDA",
+      "nome_fantasia": "MARES DO NORTE EMPREENDIMENTOS",
+      "telefone": "(82) 33261313",
+      "nome_logradouro": "ROD GUNTHER FRANS OLIVEIRA",
+      "numero_imovel": "15645",
+      "bairro": "IPIOCA",
+      "cep": "57039700",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6476843,
+      "longitude": -35.7339264,
+      "geocode_source": "manual"
     },
     {
       "cnpj": "08158788000170",
@@ -3798,33 +3813,18 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "09164951000251",
-      "razao_social": "AAMM COMERCIAL DE COMBUSTIVEIS LTDA",
-      "nome_fantasia": "",
+      "cnpj": "69990182000191",
+      "razao_social": "MAXI POSTO BR LTDA",
+      "nome_fantasia": "POSTO MAXI",
       "telefone": "",
-      "nome_logradouro": "AV DURVAL DE GOES MONTEIRO",
-      "numero_imovel": "9110",
-      "bairro": "TABULEIRO DOS MARTINS",
-      "cep": "57080000",
+      "nome_logradouro": "AV JUCA SAMPAIO",
+      "numero_imovel": "2179",
+      "bairro": "FEITOSA",
+      "cep": "57040600",
       "codigo_ibge": "2704302",
       "municipio": "Maceió",
-      "latitude": -9.6476843,
-      "longitude": -35.7339264,
-      "geocode_source": "manual"
-    },
-    {
-      "cnpj": "09077197000131",
-      "razao_social": "AUTO POSTO TRAPICHAO LTDA",
-      "nome_fantasia": "POSTO TRAPICHAO",
-      "telefone": "(82) 33560530",
-      "nome_logradouro": "AV SIQUEIRA CAMPOS",
-      "numero_imovel": "1801",
-      "bairro": "TRAPICHE DA BARRA",
-      "cep": "57010405",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6715693,
-      "longitude": -35.7565066,
+      "latitude": -9.6269171,
+      "longitude": -35.7166074,
       "geocode_source": "sefaz"
     },
     {
@@ -3888,21 +3888,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "05760532000140",
-      "razao_social": "TARGINO E COSTA LTDA",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "Rua VEREADOR JOSE RAIMUNDO DOS SANTOS",
-      "numero_imovel": "760",
-      "bairro": "ANTARES",
-      "cep": "57083040",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.5628902,
-      "longitude": -35.7391296,
-      "geocode_source": "nominatim"
-    },
-    {
       "cnpj": "29078822000177",
       "razao_social": "POSTO GAMA LTDA",
       "nome_fantasia": "POSTO GAMA",
@@ -3916,6 +3901,21 @@
       "latitude": -9.645916,
       "longitude": -35.734552,
       "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "05760532000140",
+      "razao_social": "TARGINO E COSTA LTDA",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "Rua VEREADOR JOSE RAIMUNDO DOS SANTOS",
+      "numero_imovel": "760",
+      "bairro": "ANTARES",
+      "cep": "57083040",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.5628902,
+      "longitude": -35.7391296,
+      "geocode_source": "nominatim"
     },
     {
       "cnpj": "41964710000119",
@@ -3933,21 +3933,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "34801633000110",
-      "razao_social": "AUTO POSTO HANNAH EXPRESS LTDA",
-      "nome_fantasia": "HANNAH EXPRESS",
-      "telefone": "",
-      "nome_logradouro": "AV JUCA SAMPAIO",
-      "numero_imovel": "322",
-      "bairro": "BARRO DURO",
-      "cep": "57045365",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.615943399999999,
-      "longitude": -35.7171183,
-      "geocode_source": "google"
-    },
-    {
       "cnpj": "60066994000170",
       "razao_social": "K & P COMÉRCIO DE COMBUSTÍVEIS LTDA",
       "nome_fantasia": "PRATAGY & EXTRA",
@@ -3961,6 +3946,21 @@
       "latitude": -9.6449691,
       "longitude": -35.7134084,
       "geocode_source": "manual"
+    },
+    {
+      "cnpj": "34801633000110",
+      "razao_social": "AUTO POSTO HANNAH EXPRESS LTDA",
+      "nome_fantasia": "HANNAH EXPRESS",
+      "telefone": "",
+      "nome_logradouro": "AV JUCA SAMPAIO",
+      "numero_imovel": "322",
+      "bairro": "BARRO DURO",
+      "cep": "57045365",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.615943399999999,
+      "longitude": -35.7171183,
+      "geocode_source": "google"
     },
     {
       "cnpj": "08950629000104",
@@ -4593,21 +4593,6 @@
       "geocode_source": "manual"
     },
     {
-      "cnpj": "10795540000162",
-      "razao_social": "AUTO POSTO SAO LUIZ LTDA - EPP",
-      "nome_fantasia": "POSTO UNO",
-      "telefone": "",
-      "nome_logradouro": "AV ANTONIO LISBOA DE AMORIM",
-      "numero_imovel": "SN",
-      "bairro": "BENEDITO BENTES",
-      "cep": "57085160",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6476843,
-      "longitude": -35.7339264,
-      "geocode_source": "manual"
-    },
-    {
       "cnpj": "32876089000140",
       "razao_social": "AUTO POSTO TIGRE JANGADEIROS LTDA",
       "nome_fantasia": "POSTO TIGRE JANGADEIROS LTDA",
@@ -4621,6 +4606,21 @@
       "latitude": -9.6703269,
       "longitude": -35.7163724,
       "geocode_source": "google"
+    },
+    {
+      "cnpj": "10795540000162",
+      "razao_social": "AUTO POSTO SAO LUIZ LTDA - EPP",
+      "nome_fantasia": "POSTO UNO",
+      "telefone": "",
+      "nome_logradouro": "AV ANTONIO LISBOA DE AMORIM",
+      "numero_imovel": "SN",
+      "bairro": "BENEDITO BENTES",
+      "cep": "57085160",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6476843,
+      "longitude": -35.7339264,
+      "geocode_source": "manual"
     },
     {
       "cnpj": "00404850000317",
@@ -6108,21 +6108,6 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "00404850000406",
-      "razao_social": "MARTA CRISTINA SOBRAL",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "AV WANDERLEY",
-      "numero_imovel": "504",
-      "bairro": "SANTA LUZIA",
-      "cep": "57200000",
-      "codigo_ibge": "2706703",
-      "municipio": "Penedo",
-      "latitude": -10.2816207,
-      "longitude": -36.5625192,
-      "geocode_source": "sefaz"
-    },
-    {
       "cnpj": "10800554000127",
       "razao_social": "M. A. C. SANTOS MARINHO",
       "nome_fantasia": "POSTO MARINHO",
@@ -6135,6 +6120,21 @@
       "municipio": "Penedo",
       "latitude": -10.2934696,
       "longitude": -36.5842168,
+      "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "00404850000406",
+      "razao_social": "MARTA CRISTINA SOBRAL",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "AV WANDERLEY",
+      "numero_imovel": "504",
+      "bairro": "SANTA LUZIA",
+      "cep": "57200000",
+      "codigo_ibge": "2706703",
+      "municipio": "Penedo",
+      "latitude": -10.2816207,
+      "longitude": -36.5625192,
       "geocode_source": "sefaz"
     },
     {
@@ -6378,6 +6378,21 @@
       "geocode_source": "manual"
     },
     {
+      "cnpj": "46715427000177",
+      "razao_social": "POSTOS PRIME LTDA",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "ROD ALTEMAR DUTRA",
+      "numero_imovel": "01",
+      "bairro": "ZONA RURAL",
+      "cep": "57460000",
+      "codigo_ibge": "2707107",
+      "municipio": "Piranhas",
+      "latitude": -9.6565005,
+      "longitude": -37.6661284,
+      "geocode_source": "google"
+    },
+    {
       "cnpj": "22590658000133",
       "razao_social": "AUTO POSTO CENTER DIVINA LUZ EIRELI - EPP",
       "nome_fantasia": "AUTO POSTO DIVINA LUZ",
@@ -6406,21 +6421,6 @@
       "latitude": 0,
       "longitude": 0,
       "geocode_source": "supabase"
-    },
-    {
-      "cnpj": "46715427000177",
-      "razao_social": "POSTOS PRIME LTDA",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "ROD ALTEMAR DUTRA",
-      "numero_imovel": "01",
-      "bairro": "ZONA RURAL",
-      "cep": "57460000",
-      "codigo_ibge": "2707107",
-      "municipio": "Piranhas",
-      "latitude": -9.6565005,
-      "longitude": -37.6661284,
-      "geocode_source": "google"
     },
     {
       "cnpj": "05767699000214",
@@ -6618,13 +6618,13 @@
       "geocode_source": "supabase"
     },
     {
-      "cnpj": "07839831000109",
-      "razao_social": "AUTO POSTO PORTO REAL LTDA",
-      "nome_fantasia": "AUTOPEL PORTO REAL",
-      "telefone": "(82) 35531413",
-      "nome_logradouro": "RDV BR 101 KM 245",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
+      "cnpj": "43465775000145",
+      "razao_social": "LM DERIVADO DE PETROLEO LTDA",
+      "nome_fantasia": "POSTO VELHO CHICO",
+      "telefone": "(79) 98083233",
+      "nome_logradouro": "COND BR 101 KM  245",
+      "numero_imovel": "SN",
+      "bairro": "CENTRO",
       "cep": "57290000",
       "codigo_ibge": "2707503",
       "municipio": "Porto Real do Colégio",
@@ -6633,13 +6633,13 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "43465775000145",
-      "razao_social": "LM DERIVADO DE PETROLEO LTDA",
-      "nome_fantasia": "POSTO VELHO CHICO",
-      "telefone": "(79) 98083233",
-      "nome_logradouro": "COND BR 101 KM  245",
-      "numero_imovel": "SN",
-      "bairro": "CENTRO",
+      "cnpj": "07839831000109",
+      "razao_social": "AUTO POSTO PORTO REAL LTDA",
+      "nome_fantasia": "AUTOPEL PORTO REAL",
+      "telefone": "(82) 35531413",
+      "nome_logradouro": "RDV BR 101 KM 245",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
       "cep": "57290000",
       "codigo_ibge": "2707503",
       "municipio": "Porto Real do Colégio",
@@ -6993,21 +6993,6 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "26362482000113",
-      "razao_social": "NOBRE COMERCIO DE COMBUSTIVEIS - EIRELI - EPP",
-      "nome_fantasia": "AUTO POSTO NOBRE",
-      "telefone": "",
-      "nome_logradouro": "AV GOVERNADOR GERALDO BULHOES BARROS",
-      "numero_imovel": "1212",
-      "bairro": "DOMINGOS ACACIO",
-      "cep": "57500000",
-      "codigo_ibge": "2708006",
-      "municipio": "Santana do Ipanema",
-      "latitude": -9.37833,
-      "longitude": -37.24528,
-      "geocode_source": "opencage"
-    },
-    {
       "cnpj": "01332922000169",
       "razao_social": "POSTO MARACANA LTDA",
       "nome_fantasia": "POSTO MARACANA",
@@ -7021,6 +7006,21 @@
       "latitude": -9.367818,
       "longitude": -37.248427,
       "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "26362482000113",
+      "razao_social": "NOBRE COMERCIO DE COMBUSTIVEIS - EIRELI - EPP",
+      "nome_fantasia": "AUTO POSTO NOBRE",
+      "telefone": "",
+      "nome_logradouro": "AV GOVERNADOR GERALDO BULHOES BARROS",
+      "numero_imovel": "1212",
+      "bairro": "DOMINGOS ACACIO",
+      "cep": "57500000",
+      "codigo_ibge": "2708006",
+      "municipio": "Santana do Ipanema",
+      "latitude": -9.37833,
+      "longitude": -37.24528,
+      "geocode_source": "opencage"
     },
     {
       "cnpj": "05738409000123",
@@ -7458,21 +7458,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "14486153001509",
-      "razao_social": "TREVO DERIVADOS DE PETROLEO LTDA",
-      "nome_fantasia": "TREVO - DERIVADOS DE PETROLEO LTDA",
-      "telefone": "(82) 35222702",
-      "nome_logradouro": "ROD BR 101 SUL, KM 206",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57275000",
-      "codigo_ibge": "2708808",
-      "municipio": "São Sebastião",
-      "latitude": -9.93361,
-      "longitude": -36.55417,
-      "geocode_source": "opencage"
-    },
-    {
       "cnpj": "54988633000189",
       "razao_social": "LF COMBUSTÍVEIS LTDA",
       "nome_fantasia": "AGRESTE ENERGIA",
@@ -7494,6 +7479,21 @@
       "telefone": "",
       "nome_logradouro": "ROD BR 101",
       "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57275000",
+      "codigo_ibge": "2708808",
+      "municipio": "São Sebastião",
+      "latitude": -9.93361,
+      "longitude": -36.55417,
+      "geocode_source": "opencage"
+    },
+    {
+      "cnpj": "14486153001509",
+      "razao_social": "TREVO DERIVADOS DE PETROLEO LTDA",
+      "nome_fantasia": "TREVO - DERIVADOS DE PETROLEO LTDA",
+      "telefone": "(82) 35222702",
+      "nome_logradouro": "ROD BR 101 SUL, KM 206",
+      "numero_imovel": "S/N",
       "bairro": "ZONA RURAL",
       "cep": "57275000",
       "codigo_ibge": "2708808",
@@ -7788,21 +7788,6 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "25294255000135",
-      "razao_social": "AUTO POSTO GLOBO II LTDA - EPP",
-      "nome_fantasia": "AUTO POSTO GLOBO II",
-      "telefone": "",
-      "nome_logradouro": "AV AV. JOAO LYRA FILHO",
-      "numero_imovel": "409",
-      "bairro": "ROBERTO CORREIA DE ARAUJO",
-      "cep": "57800000",
-      "codigo_ibge": "2709301",
-      "municipio": "União dos Palmares",
-      "latitude": -9.1653066,
-      "longitude": -36.0251397,
-      "geocode_source": "sefaz"
-    },
-    {
       "cnpj": "30934089000124",
       "razao_social": "AUTO POSTO GLOBO IV",
       "nome_fantasia": "POSTO GLOBO IV",
@@ -7816,6 +7801,21 @@
       "latitude": -9.1620269,
       "longitude": -36.0307468,
       "geocode_source": "google"
+    },
+    {
+      "cnpj": "25294255000135",
+      "razao_social": "AUTO POSTO GLOBO II LTDA - EPP",
+      "nome_fantasia": "AUTO POSTO GLOBO II",
+      "telefone": "",
+      "nome_logradouro": "AV AV. JOAO LYRA FILHO",
+      "numero_imovel": "409",
+      "bairro": "ROBERTO CORREIA DE ARAUJO",
+      "cep": "57800000",
+      "codigo_ibge": "2709301",
+      "municipio": "União dos Palmares",
+      "latitude": -9.1653066,
+      "longitude": -36.0251397,
+      "geocode_source": "sefaz"
     },
     {
       "cnpj": "35736818000151",
@@ -7863,21 +7863,6 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "15696129000153",
-      "razao_social": "AUTO POSTO GLOBO LTDA",
-      "nome_fantasia": "AUTO POSTO GLOBO",
-      "telefone": "(82) 32811265",
-      "nome_logradouro": "FAZ FRIOS",
-      "numero_imovel": "SN",
-      "bairro": "ZONA RURAL",
-      "cep": "57800000",
-      "codigo_ibge": "2709301",
-      "municipio": "União dos Palmares",
-      "latitude": -9.157435699999999,
-      "longitude": -36.0323426,
-      "geocode_source": "google"
-    },
-    {
       "cnpj": "28343707000110",
       "razao_social": "AUTO POSTO COMERCIO DE COMBUSTÍVEL UNIÃO LTDA",
       "nome_fantasia": "AUTO POSTO UNIAO",
@@ -7891,6 +7876,21 @@
       "latitude": -9.1595809,
       "longitude": -36.0317783,
       "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "15696129000153",
+      "razao_social": "AUTO POSTO GLOBO LTDA",
+      "nome_fantasia": "AUTO POSTO GLOBO",
+      "telefone": "(82) 32811265",
+      "nome_logradouro": "FAZ FRIOS",
+      "numero_imovel": "SN",
+      "bairro": "ZONA RURAL",
+      "cep": "57800000",
+      "codigo_ibge": "2709301",
+      "municipio": "União dos Palmares",
+      "latitude": -9.157435699999999,
+      "longitude": -36.0323426,
+      "geocode_source": "google"
     },
     {
       "cnpj": "13745004000140",
