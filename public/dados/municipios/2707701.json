@@ -1,7 +1,7 @@
 {
   "codigoIBGE": "2707701",
   "municipio": "Rio Largo",
-  "atualizadoEm": "2026-06-08T23:39:50.099Z",
+  "atualizadoEm": "2026-06-08T23:53:14.323Z",
   "totalEstabelecimentos": 48,
   "estabelecimentos": [
     {
@@ -26,10 +26,10 @@
       "valor_maximo_24h": 6.5912,
       "valor_medio_24h": 6.5525,
       "data_minimo_24h": "2026-06-08T19:26:35+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:25:22+00:00"
     },
     {
@@ -54,39 +54,11 @@
       "valor_maximo_24h": 6.4795,
       "valor_medio_24h": 6.479,
       "data_minimo_24h": "2026-06-08T18:27:40+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 3,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T18:27:40+00:00"
-    },
-    {
-      "cnpj": "26427606000100",
-      "tipo_combustivel": 1,
-      "razao_social": "PENIEL REVENDEDORA DE COMBUSTIVEIS LTDA - EPP",
-      "nome_fantasia": "PENIEL AUTO POSTO",
-      "telefone": "(82) 11111111",
-      "nome_logradouro": "ROD BR 104",
-      "numero_imovel": "304",
-      "bairro": "ANTONIO LINS DE SOUZA",
-      "cep": "57100000",
-      "codigo_ibge": "2707701",
-      "municipio": "Rio Largo",
-      "latitude": -9.4850835,
-      "longitude": -35.8577308,
-      "valor_minimo": 6.4841,
-      "valor_maximo": 6.7899,
-      "valor_medio": 6.6234,
-      "valor_recente": 6.4893,
-      "valor_minimo_24h": 6.4893,
-      "valor_maximo_24h": 6.4897,
-      "valor_medio_24h": 6.4894,
-      "data_minimo_24h": "2026-06-08T21:21:50+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
-      "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
-      "data_recente": "2026-06-08T21:21:50+00:00"
     },
     {
       "cnpj": "12486809000405",
@@ -110,11 +82,39 @@
       "valor_maximo_24h": 6.49,
       "valor_medio_24h": 6.4896,
       "data_minimo_24h": "2026-06-08T21:24:31+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:24:31+00:00"
+    },
+    {
+      "cnpj": "26427606000100",
+      "tipo_combustivel": 1,
+      "razao_social": "PENIEL REVENDEDORA DE COMBUSTIVEIS LTDA - EPP",
+      "nome_fantasia": "PENIEL AUTO POSTO",
+      "telefone": "(82) 11111111",
+      "nome_logradouro": "ROD BR 104",
+      "numero_imovel": "304",
+      "bairro": "ANTONIO LINS DE SOUZA",
+      "cep": "57100000",
+      "codigo_ibge": "2707701",
+      "municipio": "Rio Largo",
+      "latitude": -9.4850835,
+      "longitude": -35.8577308,
+      "valor_minimo": 6.4841,
+      "valor_maximo": 6.7899,
+      "valor_medio": 6.6234,
+      "valor_recente": 6.4893,
+      "valor_minimo_24h": 6.4893,
+      "valor_maximo_24h": 6.4897,
+      "valor_medio_24h": 6.4894,
+      "data_minimo_24h": "2026-06-08T21:21:50+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
+      "contagem_vendas_24h": 4,
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
+      "data_recente": "2026-06-08T21:21:50+00:00"
     },
     {
       "cnpj": "00740510000103",
@@ -138,10 +138,10 @@
       "valor_maximo_24h": 6.4901,
       "valor_medio_24h": 6.4899,
       "data_minimo_24h": "2026-06-08T19:27:48+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:20:40+00:00"
     },
     {
@@ -166,10 +166,10 @@
       "valor_maximo_24h": 6.9898,
       "valor_medio_24h": 6.6149,
       "data_minimo_24h": "2026-06-08T21:27:56+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:27:56+00:00"
     },
     {
@@ -194,10 +194,10 @@
       "valor_maximo_24h": 6.5,
       "valor_medio_24h": 6.5,
       "data_minimo_24h": "2026-06-08T09:10:52+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 1,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T09:10:52+00:00"
     },
     {
@@ -222,10 +222,10 @@
       "valor_maximo_24h": 6.59,
       "valor_medio_24h": 6.5895,
       "data_minimo_24h": "2026-06-08T21:27:18+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:27:18+00:00"
     },
     {
@@ -250,10 +250,10 @@
       "valor_maximo_24h": 7.5898,
       "valor_medio_24h": 6.8396,
       "data_minimo_24h": "2026-06-08T01:32:42+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:25:12+00:00"
     },
     {
@@ -278,10 +278,10 @@
       "valor_maximo_24h": 6.5902,
       "valor_medio_24h": 6.5899,
       "data_minimo_24h": "2026-06-08T21:24:13+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:24:13+00:00"
     },
     {
@@ -306,10 +306,10 @@
       "valor_maximo_24h": 6.5898,
       "valor_medio_24h": 6.5896,
       "data_minimo_24h": "2026-06-08T19:26:57+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:18:38+00:00"
     },
     {
@@ -334,10 +334,10 @@
       "valor_maximo_24h": 6.9881,
       "valor_medio_24h": 6.9881,
       "data_minimo_24h": "2026-06-08T10:51:22+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 2,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T10:51:22+00:00"
     },
     {
@@ -362,10 +362,10 @@
       "valor_maximo_24h": 6.5899,
       "valor_medio_24h": 6.5897,
       "data_minimo_24h": "2026-06-08T00:58:34+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:09:51+00:00"
     },
     {
@@ -390,10 +390,10 @@
       "valor_maximo_24h": 6.591,
       "valor_medio_24h": 6.5903,
       "data_minimo_24h": "2026-06-08T11:25:56+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:16:04+00:00"
     },
     {
@@ -418,10 +418,10 @@
       "valor_maximo_24h": 7.2899,
       "valor_medio_24h": 6.9888,
       "data_minimo_24h": "2026-06-08T21:18:50+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:18:50+00:00"
     },
     {
@@ -446,10 +446,10 @@
       "valor_maximo_24h": 6.6899,
       "valor_medio_24h": 6.6892,
       "data_minimo_24h": "2026-06-08T21:08:09+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:08:09+00:00"
     },
     {
@@ -474,10 +474,10 @@
       "valor_maximo_24h": 6.7568,
       "valor_medio_24h": 6.7521,
       "data_minimo_24h": "2026-06-08T21:08:10+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 3,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:08:10+00:00"
     },
     {
@@ -502,10 +502,10 @@
       "valor_maximo_24h": 6.7904,
       "valor_medio_24h": 6.7896,
       "data_minimo_24h": "2026-06-08T00:48:34+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T20:41:16+00:00"
     },
     {
@@ -530,10 +530,10 @@
       "valor_maximo_24h": 6.79,
       "valor_medio_24h": 6.7898,
       "data_minimo_24h": "2026-06-08T20:08:03+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 3,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T20:08:03+00:00"
     },
     {
@@ -558,10 +558,10 @@
       "valor_maximo_24h": 6.8899,
       "valor_medio_24h": 6.8898,
       "data_minimo_24h": "2026-06-08T10:50:33+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:20:44+00:00"
     },
     {
@@ -586,10 +586,10 @@
       "valor_maximo_24h": 6.99,
       "valor_medio_24h": 6.9885,
       "data_minimo_24h": "2026-06-08T19:12:56+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:27:56+00:00"
     },
     {
@@ -642,10 +642,10 @@
       "valor_maximo_24h": 4.89,
       "valor_medio_24h": 4.8526,
       "data_minimo_24h": "2026-06-08T21:27:41+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:27:41+00:00"
     },
     {
@@ -670,10 +670,10 @@
       "valor_maximo_24h": 4.79,
       "valor_medio_24h": 4.7897,
       "data_minimo_24h": "2026-06-08T19:13:31+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:27:56+00:00"
     },
     {
@@ -698,10 +698,10 @@
       "valor_maximo_24h": 4.7902,
       "valor_medio_24h": 4.7901,
       "data_minimo_24h": "2026-06-08T10:52:03+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:27:07+00:00"
     },
     {
@@ -726,10 +726,10 @@
       "valor_maximo_24h": 4.89,
       "valor_medio_24h": 4.8899,
       "data_minimo_24h": "2026-06-08T19:16:32+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:23:44+00:00"
     },
     {
@@ -754,10 +754,10 @@
       "valor_maximo_24h": 4.89,
       "valor_medio_24h": 4.89,
       "data_minimo_24h": "2026-06-08T21:18:38+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:18:38+00:00"
     },
     {
@@ -782,10 +782,10 @@
       "valor_maximo_24h": 5.1898,
       "valor_medio_24h": 4.9649,
       "data_minimo_24h": "2026-06-08T19:25:36+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:19:28+00:00"
     },
     {
@@ -810,10 +810,10 @@
       "valor_maximo_24h": 4.99,
       "valor_medio_24h": 4.97,
       "data_minimo_24h": "2026-06-08T21:24:53+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 3,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:24:53+00:00"
     },
     {
@@ -834,14 +834,14 @@
       "valor_maximo": 5.14,
       "valor_medio": 5.0979,
       "valor_recente": 5.0398,
-      "valor_minimo_24h": 5.0395,
+      "valor_minimo_24h": 5.0397,
       "valor_maximo_24h": 5.0398,
       "valor_medio_24h": 5.0397,
-      "data_minimo_24h": "2026-06-07T23:46:58+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
-      "contagem_vendas_24h": 3,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "data_minimo_24h": "2026-06-08T14:44:10+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
+      "contagem_vendas_24h": 2,
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T20:28:47+00:00"
     },
     {
@@ -866,10 +866,10 @@
       "valor_maximo_24h": 5.2747,
       "valor_medio_24h": 5.2747,
       "data_minimo_24h": "2026-06-08T10:21:23+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 1,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T10:21:23+00:00"
     },
     {
@@ -894,10 +894,10 @@
       "valor_maximo_24h": 5.2899,
       "valor_medio_24h": 5.2895,
       "data_minimo_24h": "2026-06-08T19:28:13+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:21:52+00:00"
     },
     {
@@ -922,10 +922,10 @@
       "valor_maximo_24h": 5.29,
       "valor_medio_24h": 5.29,
       "data_minimo_24h": "2026-06-08T18:59:43+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 3,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:27:18+00:00"
     },
     {
@@ -950,10 +950,10 @@
       "valor_maximo_24h": 5.7399,
       "valor_medio_24h": 5.7399,
       "data_minimo_24h": "2026-06-08T20:38:32+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 3,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T20:38:32+00:00"
     },
     {
@@ -978,10 +978,10 @@
       "valor_maximo_24h": 7.4791,
       "valor_medio_24h": 7.4204,
       "data_minimo_24h": "2026-06-08T19:42:55+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 3,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T19:42:55+00:00"
     },
     {
@@ -1006,10 +1006,10 @@
       "valor_maximo_24h": 6.7901,
       "valor_medio_24h": 6.7495,
       "data_minimo_24h": "2026-06-08T10:56:15+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 5,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T19:40:00+00:00"
     },
     {
@@ -1034,10 +1034,10 @@
       "valor_maximo_24h": 6.8599,
       "valor_medio_24h": 6.83,
       "data_minimo_24h": "2026-06-08T19:03:14+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 2,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T19:03:14+00:00"
     },
     {
@@ -1062,10 +1062,10 @@
       "valor_maximo_24h": 6.89,
       "valor_medio_24h": 6.8775,
       "data_minimo_24h": "2026-06-08T01:13:21+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:27:14+00:00"
     },
     {
@@ -1090,10 +1090,10 @@
       "valor_maximo_24h": 6.9898,
       "valor_medio_24h": 6.9324,
       "data_minimo_24h": "2026-06-08T00:58:34+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 7,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:16:52+00:00"
     },
     {
@@ -1118,10 +1118,10 @@
       "valor_maximo_24h": 6.89,
       "valor_medio_24h": 6.89,
       "data_minimo_24h": "2026-06-08T12:07:52+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 1,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T12:07:52+00:00"
     },
     {
@@ -1146,10 +1146,10 @@
       "valor_maximo_24h": 7.3899,
       "valor_medio_24h": 7.0889,
       "data_minimo_24h": "2026-06-08T11:30:35+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:08:40+00:00"
     },
     {
@@ -1174,10 +1174,10 @@
       "valor_maximo_24h": 6.99,
       "valor_medio_24h": 6.9898,
       "data_minimo_24h": "2026-06-08T01:33:54+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T20:45:18+00:00"
     },
     {
@@ -1202,10 +1202,10 @@
       "valor_maximo_24h": 7.0896,
       "valor_medio_24h": 7.0156,
       "data_minimo_24h": "2026-06-08T11:32:36+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:23:40+00:00"
     },
     {
@@ -1230,10 +1230,10 @@
       "valor_maximo_24h": 6.99,
       "valor_medio_24h": 6.99,
       "data_minimo_24h": "2026-06-08T21:24:24+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 2,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:24:24+00:00"
     },
     {
@@ -1258,10 +1258,10 @@
       "valor_maximo_24h": 7.0897,
       "valor_medio_24h": 7.0893,
       "data_minimo_24h": "2026-06-07T23:54:26+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:20:44+00:00"
     },
     {
@@ -1286,10 +1286,10 @@
       "valor_maximo_24h": 7.2,
       "valor_medio_24h": 7.1966,
       "data_minimo_24h": "2026-06-08T11:19:51+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 3,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:24:33+00:00"
     },
     {
@@ -1314,10 +1314,10 @@
       "valor_maximo_24h": 4.1897,
       "valor_medio_24h": 4.1892,
       "data_minimo_24h": "2026-06-08T21:11:40+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T21:11:40+00:00"
     },
     {
@@ -1342,10 +1342,10 @@
       "valor_maximo_24h": 4.1899,
       "valor_medio_24h": 4.1898,
       "data_minimo_24h": "2026-06-08T11:06:22+00:00",
-      "data_inicio_janela_24h": "2026-06-07T23:38:21.073+00:00",
-      "data_fim_janela_24h": "2026-06-08T23:38:21.073+00:00",
+      "data_inicio_janela_24h": "2026-06-07T23:52:20.509+00:00",
+      "data_fim_janela_24h": "2026-06-08T23:52:20.509+00:00",
       "contagem_vendas_24h": 4,
-      "atualizado_24h_em": "2026-06-08T23:39:12.423+00:00",
+      "atualizado_24h_em": "2026-06-08T23:52:47.458+00:00",
       "data_recente": "2026-06-08T20:16:52+00:00"
     }
   ]
