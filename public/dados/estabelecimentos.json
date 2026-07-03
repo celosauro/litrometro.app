@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-07-03T06:41:54.550Z",
+  "atualizadoEm": "2026-07-03T07:39:29.556Z",
   "totalEstabelecimentos": 541,
   "estabelecimentos": [
     {
@@ -588,21 +588,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "17057051000152",
-      "razao_social": "D L COMBUSTIVEIS LTDA",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "Rua ZEFERINO MAGALHAES",
-      "numero_imovel": "300",
-      "bairro": "CENTRO",
-      "cep": "57300410",
-      "codigo_ibge": "2700300",
-      "municipio": "Arapiraca",
-      "latitude": -9.7493363,
-      "longitude": -36.6649755,
-      "geocode_source": "sefaz"
-    },
-    {
       "cnpj": "07248398000129",
       "razao_social": "AUTO POSTO MASSARANDUBA LTDA - ME",
       "nome_fantasia": "POSTO MASSARANDUBA",
@@ -615,6 +600,21 @@
       "municipio": "Arapiraca",
       "latitude": -9.7282495,
       "longitude": -36.6674871,
+      "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "17057051000152",
+      "razao_social": "D L COMBUSTIVEIS LTDA",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "Rua ZEFERINO MAGALHAES",
+      "numero_imovel": "300",
+      "bairro": "CENTRO",
+      "cep": "57300410",
+      "codigo_ibge": "2700300",
+      "municipio": "Arapiraca",
+      "latitude": -9.7493363,
+      "longitude": -36.6649755,
       "geocode_source": "sefaz"
     },
     {
@@ -2448,21 +2448,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "05769126000149",
-      "razao_social": "MANOEL A DE ALMEIDA JUNIOR  - EPP",
-      "nome_fantasia": "AUTO POSTO MASSAPE",
-      "telefone": "",
-      "nome_logradouro": "DT MASSAPE",
-      "numero_imovel": "6",
-      "bairro": "MASSAPE",
-      "cep": "57340000",
-      "codigo_ibge": "2702603",
-      "municipio": "Feira Grande",
-      "latitude": -9.8511321,
-      "longitude": -36.673818,
-      "geocode_source": "sefaz"
-    },
-    {
       "cnpj": "07826783000106",
       "razao_social": "OLIVEIRA & GOMES LTDA EPP",
       "nome_fantasia": "AUTO POSTO NOSSA SENHORA DE FATIMA",
@@ -2475,6 +2460,21 @@
       "municipio": "Feira Grande",
       "latitude": -9.8986249,
       "longitude": -36.6776837,
+      "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "05769126000149",
+      "razao_social": "MANOEL A DE ALMEIDA JUNIOR  - EPP",
+      "nome_fantasia": "AUTO POSTO MASSAPE",
+      "telefone": "",
+      "nome_logradouro": "DT MASSAPE",
+      "numero_imovel": "6",
+      "bairro": "MASSAPE",
+      "cep": "57340000",
+      "codigo_ibge": "2702603",
+      "municipio": "Feira Grande",
+      "latitude": -9.8511321,
+      "longitude": -36.673818,
       "geocode_source": "sefaz"
     },
     {
@@ -3663,6 +3663,21 @@
       "geocode_source": "manual"
     },
     {
+      "cnpj": "60066994000332",
+      "razao_social": "K & P COMÉRCIO DE COMBUSTÍVEIS LTDA",
+      "nome_fantasia": "PRATAGY & EXTRA",
+      "telefone": "(82) 41021750",
+      "nome_logradouro": "AV GOVERNADOR AFRANIO LAGES",
+      "numero_imovel": "117",
+      "bairro": "BOM PARTO",
+      "cep": "57017225",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6536522,
+      "longitude": -35.7402716,
+      "geocode_source": "nominatim"
+    },
+    {
       "cnpj": "11123433000150",
       "razao_social": "COMERCIAL TRES IRMAOS LTDA - ME",
       "nome_fantasia": "TOTAL GIRO",
@@ -3693,21 +3708,6 @@
       "geocode_source": "nominatim"
     },
     {
-      "cnpj": "60066994000332",
-      "razao_social": "K & P COMÉRCIO DE COMBUSTÍVEIS LTDA",
-      "nome_fantasia": "PRATAGY & EXTRA",
-      "telefone": "(82) 41021750",
-      "nome_logradouro": "AV GOVERNADOR AFRANIO LAGES",
-      "numero_imovel": "117",
-      "bairro": "BOM PARTO",
-      "cep": "57017225",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6536522,
-      "longitude": -35.7402716,
-      "geocode_source": "nominatim"
-    },
-    {
       "cnpj": "34801633000110",
       "razao_social": "AUTO POSTO HANNAH EXPRESS LTDA",
       "nome_fantasia": "HANNAH EXPRESS",
@@ -3721,6 +3721,21 @@
       "latitude": -9.615943399999999,
       "longitude": -35.7171183,
       "geocode_source": "google"
+    },
+    {
+      "cnpj": "05900895000134",
+      "razao_social": "AUTO POSTO VIA NORTE LTDA",
+      "nome_fantasia": "POSTO VIA NORTE",
+      "telefone": "",
+      "nome_logradouro": "AV COMENDADOR GUSTAVO PAIVA",
+      "numero_imovel": "2603",
+      "bairro": "JACARECICA",
+      "cep": "57038635",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6131053,
+      "longitude": -35.6886629,
+      "geocode_source": "nominatim"
     },
     {
       "cnpj": "09347041000123",
@@ -3753,21 +3768,6 @@
       "geocode_source": "manual"
     },
     {
-      "cnpj": "05900895000134",
-      "razao_social": "AUTO POSTO VIA NORTE LTDA",
-      "nome_fantasia": "POSTO VIA NORTE",
-      "telefone": "",
-      "nome_logradouro": "AV COMENDADOR GUSTAVO PAIVA",
-      "numero_imovel": "2603",
-      "bairro": "JACARECICA",
-      "cep": "57038635",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6131053,
-      "longitude": -35.6886629,
-      "geocode_source": "nominatim"
-    },
-    {
       "cnpj": "17577641000106",
       "razao_social": "AUTO POSTO VALPARAÍSO LTDA. - EPP",
       "nome_fantasia": "POSTO VALPARAISO",
@@ -3783,21 +3783,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "08203497000157",
-      "razao_social": "M H DA COSTA E CIA LTDA - EPP",
-      "nome_fantasia": "POSTO FORUM",
-      "telefone": "(82) 33361435",
-      "nome_logradouro": "AV JUCA SAMPAIO",
-      "numero_imovel": "1550 E",
-      "bairro": "BARRO DURO",
-      "cep": "57045365",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6223463,
-      "longitude": -35.7161224,
-      "geocode_source": "sefaz"
-    },
-    {
       "cnpj": "12156279000186",
       "razao_social": "J AQUINO",
       "nome_fantasia": "POSTO FRANCISCO LIMA",
@@ -3811,6 +3796,21 @@
       "latitude": -9.6476843,
       "longitude": -35.7339264,
       "geocode_source": "manual"
+    },
+    {
+      "cnpj": "08203497000157",
+      "razao_social": "M H DA COSTA E CIA LTDA - EPP",
+      "nome_fantasia": "POSTO FORUM",
+      "telefone": "(82) 33361435",
+      "nome_logradouro": "AV JUCA SAMPAIO",
+      "numero_imovel": "1550 E",
+      "bairro": "BARRO DURO",
+      "cep": "57045365",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6223463,
+      "longitude": -35.7161224,
+      "geocode_source": "sefaz"
     },
     {
       "cnpj": "64620116000106",
@@ -3978,21 +3978,6 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "07120479000149",
-      "razao_social": "AUTO POSTO VIA MARE LTDA",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "AV ALMIRANTE ALVARO CALHEIROS",
-      "numero_imovel": "944",
-      "bairro": "JATIUCA",
-      "cep": "57035558",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.644791099999999,
-      "longitude": -35.7084855,
-      "geocode_source": "sefaz"
-    },
-    {
       "cnpj": "03522014000163",
       "razao_social": "SOBRAL COMERCIO E SERVICOS LTDA",
       "nome_fantasia": "POSTO SOBRAL",
@@ -4005,6 +3990,21 @@
       "municipio": "Maceió",
       "latitude": -9.6693114,
       "longitude": -35.7417223,
+      "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "07120479000149",
+      "razao_social": "AUTO POSTO VIA MARE LTDA",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "AV ALMIRANTE ALVARO CALHEIROS",
+      "numero_imovel": "944",
+      "bairro": "JATIUCA",
+      "cep": "57035558",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.644791099999999,
+      "longitude": -35.7084855,
       "geocode_source": "sefaz"
     },
     {
@@ -4038,6 +4038,21 @@
       "geocode_source": "nominatim"
     },
     {
+      "cnpj": "29078822000177",
+      "razao_social": "POSTO GAMA LTDA",
+      "nome_fantasia": "POSTO GAMA",
+      "telefone": "",
+      "nome_logradouro": "AV FERNANDES LIMA",
+      "numero_imovel": "533",
+      "bairro": "FAROL",
+      "cep": "57055000",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.645916,
+      "longitude": -35.734552,
+      "geocode_source": "sefaz"
+    },
+    {
       "cnpj": "35362367000130",
       "razao_social": "MV COMERCIO E REPRESENTACAO DE COMBUSTIVEIS LTDA",
       "nome_fantasia": "POSTO DAS ACACIAS",
@@ -4053,94 +4068,19 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "40562806000198",
-      "razao_social": "COTRIM E MELO COMBUSTIVEIS LTDA",
-      "nome_fantasia": "POSTO SERRARIA",
-      "telefone": "(82) 33383738",
-      "nome_logradouro": "AV PRESIDENTE GETULIO VARGAS",
-      "numero_imovel": "210",
-      "bairro": "SERRARIA",
-      "cep": "57046140",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.61395505,
-      "longitude": -35.7295247028936,
-      "geocode_source": "sefaz"
-    },
-    {
-      "cnpj": "31560876000116",
-      "razao_social": "AUTO POSTO MANGABEIRAS LTDA",
-      "nome_fantasia": "AUTO POSTO MANGABEIRAS",
-      "telefone": "(82) 33137404",
+      "cnpj": "35567213000184",
+      "razao_social": "POSTO VIPS LTDA",
+      "nome_fantasia": "",
+      "telefone": "",
       "nome_logradouro": "AV COMENDADOR GUSTAVO PAIVA",
-      "numero_imovel": "2",
-      "bairro": "MANGABEIRAS",
-      "cep": "57037285",
+      "numero_imovel": "5820",
+      "bairro": "CRUZ DAS ALMAS",
+      "cep": "57035360",
       "codigo_ibge": "2704302",
       "municipio": "Maceió",
-      "latitude": -9.6465085,
-      "longitude": -35.7146978,
+      "latitude": -9.6307121,
+      "longitude": -35.6994924,
       "geocode_source": "google"
-    },
-    {
-      "cnpj": "00404850000317",
-      "razao_social": "MARTA CRISTINA SOBRAL",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "AV DR FERNANDO DO C MALTA",
-      "numero_imovel": "21",
-      "bairro": "TAB DOS MARTINS",
-      "cep": "57073350",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6476843,
-      "longitude": -35.7339264,
-      "geocode_source": "manual"
-    },
-    {
-      "cnpj": "05901009000197",
-      "razao_social": "COMERCIO DE COMBUSTIVEIS MELO DOS ANJOS LTDA",
-      "nome_fantasia": "POSTO NENO",
-      "telefone": "",
-      "nome_logradouro": "Rua FORMOSA",
-      "numero_imovel": "1985",
-      "bairro": "PONTA GROSSA",
-      "cep": "57014000",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6638142,
-      "longitude": -35.7559347,
-      "geocode_source": "google"
-    },
-    {
-      "cnpj": "09231306000123",
-      "razao_social": "CAVALCANTE & LEITE LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 32215374",
-      "nome_logradouro": "AV DEPUTADO SERZEDELO DE BARROS CORREIA",
-      "numero_imovel": "1351",
-      "bairro": "CLIMA BOM",
-      "cep": "57071230",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6476843,
-      "longitude": -35.7339264,
-      "geocode_source": "manual"
-    },
-    {
-      "cnpj": "09077197000131",
-      "razao_social": "AUTO POSTO TRAPICHAO LTDA",
-      "nome_fantasia": "POSTO TRAPICHAO",
-      "telefone": "(82) 33560530",
-      "nome_logradouro": "AV SIQUEIRA CAMPOS",
-      "numero_imovel": "1801",
-      "bairro": "TRAPICHE DA BARRA",
-      "cep": "57010405",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6715693,
-      "longitude": -35.7565066,
-      "geocode_source": "sefaz"
     },
     {
       "cnpj": "12605987000157",
@@ -4173,34 +4113,49 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "29078822000177",
-      "razao_social": "POSTO GAMA LTDA",
-      "nome_fantasia": "POSTO GAMA",
-      "telefone": "",
-      "nome_logradouro": "AV FERNANDES LIMA",
-      "numero_imovel": "533",
-      "bairro": "FAROL",
-      "cep": "57055000",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.645916,
-      "longitude": -35.734552,
-      "geocode_source": "sefaz"
-    },
-    {
-      "cnpj": "35567213000184",
-      "razao_social": "POSTO VIPS LTDA",
+      "cnpj": "00404850000317",
+      "razao_social": "MARTA CRISTINA SOBRAL",
       "nome_fantasia": "",
       "telefone": "",
-      "nome_logradouro": "AV COMENDADOR GUSTAVO PAIVA",
-      "numero_imovel": "5820",
-      "bairro": "CRUZ DAS ALMAS",
-      "cep": "57035360",
+      "nome_logradouro": "AV DR FERNANDO DO C MALTA",
+      "numero_imovel": "21",
+      "bairro": "TAB DOS MARTINS",
+      "cep": "57073350",
       "codigo_ibge": "2704302",
       "municipio": "Maceió",
-      "latitude": -9.6307121,
-      "longitude": -35.6994924,
+      "latitude": -9.6476843,
+      "longitude": -35.7339264,
+      "geocode_source": "manual"
+    },
+    {
+      "cnpj": "31560876000116",
+      "razao_social": "AUTO POSTO MANGABEIRAS LTDA",
+      "nome_fantasia": "AUTO POSTO MANGABEIRAS",
+      "telefone": "(82) 33137404",
+      "nome_logradouro": "AV COMENDADOR GUSTAVO PAIVA",
+      "numero_imovel": "2",
+      "bairro": "MANGABEIRAS",
+      "cep": "57037285",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6465085,
+      "longitude": -35.7146978,
       "geocode_source": "google"
+    },
+    {
+      "cnpj": "40562806000198",
+      "razao_social": "COTRIM E MELO COMBUSTIVEIS LTDA",
+      "nome_fantasia": "POSTO SERRARIA",
+      "telefone": "(82) 33383738",
+      "nome_logradouro": "AV PRESIDENTE GETULIO VARGAS",
+      "numero_imovel": "210",
+      "bairro": "SERRARIA",
+      "cep": "57046140",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.61395505,
+      "longitude": -35.7295247028936,
+      "geocode_source": "sefaz"
     },
     {
       "cnpj": "05453620000108",
@@ -4248,6 +4203,51 @@
       "geocode_source": "sefaz"
     },
     {
+      "cnpj": "05901009000197",
+      "razao_social": "COMERCIO DE COMBUSTIVEIS MELO DOS ANJOS LTDA",
+      "nome_fantasia": "POSTO NENO",
+      "telefone": "",
+      "nome_logradouro": "Rua FORMOSA",
+      "numero_imovel": "1985",
+      "bairro": "PONTA GROSSA",
+      "cep": "57014000",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6638142,
+      "longitude": -35.7559347,
+      "geocode_source": "google"
+    },
+    {
+      "cnpj": "09077197000131",
+      "razao_social": "AUTO POSTO TRAPICHAO LTDA",
+      "nome_fantasia": "POSTO TRAPICHAO",
+      "telefone": "(82) 33560530",
+      "nome_logradouro": "AV SIQUEIRA CAMPOS",
+      "numero_imovel": "1801",
+      "bairro": "TRAPICHE DA BARRA",
+      "cep": "57010405",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6715693,
+      "longitude": -35.7565066,
+      "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "09231306000123",
+      "razao_social": "CAVALCANTE & LEITE LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 32215374",
+      "nome_logradouro": "AV DEPUTADO SERZEDELO DE BARROS CORREIA",
+      "numero_imovel": "1351",
+      "bairro": "CLIMA BOM",
+      "cep": "57071230",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6476843,
+      "longitude": -35.7339264,
+      "geocode_source": "manual"
+    },
+    {
       "cnpj": "02488031000169",
       "razao_social": "CDG COMBUSTIVEIS LTDA",
       "nome_fantasia": "AUTO POSTO STELLA MARES",
@@ -4263,18 +4263,48 @@
       "geocode_source": "nominatim"
     },
     {
-      "cnpj": "08158788000170",
-      "razao_social": "MW COMERCIO DE COMBUSTIVEIS LTDA - EPP",
-      "nome_fantasia": "POSTO CABO REIS",
-      "telefone": "",
-      "nome_logradouro": "Rua BOA VISTA",
-      "numero_imovel": "398",
-      "bairro": "PRADO",
-      "cep": "57020973",
+      "cnpj": "08797955000123",
+      "razao_social": "AUTO POSTO LUMAR VADO LTDA",
+      "nome_fantasia": "POSTO LUMAR VADO",
+      "telefone": "(82) 32351381",
+      "nome_logradouro": "AV FERNANDES LIMA",
+      "numero_imovel": "195",
+      "bairro": "FAROL",
+      "cep": "57055000",
       "codigo_ibge": "2704302",
       "municipio": "Maceió",
-      "latitude": -9.6678231,
-      "longitude": -35.7575611,
+      "latitude": -9.6474838,
+      "longitude": -35.7340693,
+      "geocode_source": "nominatim"
+    },
+    {
+      "cnpj": "02804864000191",
+      "razao_social": "BELUMA COMERCIO DE COMBUSTIVEIS LTDA",
+      "nome_fantasia": "POSTO SARANDI",
+      "telefone": "",
+      "nome_logradouro": "AV WALTER ANANIAS",
+      "numero_imovel": "1165",
+      "bairro": "JARAGUÁ",
+      "cep": "57025510",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6670929,
+      "longitude": -35.7273019,
+      "geocode_source": "nominatim"
+    },
+    {
+      "cnpj": "09609009000179",
+      "razao_social": "POSTO NOBRE CONFIANCA LTDA",
+      "nome_fantasia": "POSTO NOBRE",
+      "telefone": "",
+      "nome_logradouro": "AV FERNANDES LIMA",
+      "numero_imovel": "1130",
+      "bairro": "FAROL",
+      "cep": "57050000",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6406602,
+      "longitude": -35.7350399,
       "geocode_source": "google"
     },
     {
@@ -4293,21 +4323,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "05900875000163",
-      "razao_social": "FERREIRA COMERCIO DE COMBUSTIVEIS LTDA - ME",
-      "nome_fantasia": "POSTO SANTO ANTONIO",
-      "telefone": "",
-      "nome_logradouro": "AV MENDONCA JUNIOR",
-      "numero_imovel": "340",
-      "bairro": "GRUTA DE LOURDES",
-      "cep": "57052480",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6251039,
-      "longitude": -35.7299139,
-      "geocode_source": "google"
-    },
-    {
       "cnpj": "09153616000177",
       "razao_social": "AUTO POSTO ANDA LUZ LTDA - EPP",
       "nome_fantasia": "POSTO PONTO CERTO II",
@@ -4321,6 +4336,21 @@
       "latitude": -9.668519400000001,
       "longitude": -35.7363587,
       "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "05900875000163",
+      "razao_social": "FERREIRA COMERCIO DE COMBUSTIVEIS LTDA - ME",
+      "nome_fantasia": "POSTO SANTO ANTONIO",
+      "telefone": "",
+      "nome_logradouro": "AV MENDONCA JUNIOR",
+      "numero_imovel": "340",
+      "bairro": "GRUTA DE LOURDES",
+      "cep": "57052480",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6251039,
+      "longitude": -35.7299139,
+      "geocode_source": "google"
     },
     {
       "cnpj": "07042809000125",
@@ -4338,18 +4368,33 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "09609009000179",
-      "razao_social": "POSTO NOBRE CONFIANCA LTDA",
-      "nome_fantasia": "POSTO NOBRE",
+      "cnpj": "27752571000139",
+      "razao_social": "GMA AUTO POSTO LTDA",
+      "nome_fantasia": "AUTO POSTO GRUTA",
       "telefone": "",
       "nome_logradouro": "AV FERNANDES LIMA",
-      "numero_imovel": "1130",
-      "bairro": "FAROL",
-      "cep": "57050000",
+      "numero_imovel": "3564",
+      "bairro": "GRUTA DE LOURDES",
+      "cep": "57052400",
       "codigo_ibge": "2704302",
       "municipio": "Maceió",
-      "latitude": -9.6406602,
-      "longitude": -35.7350399,
+      "latitude": -9.6176359,
+      "longitude": -35.7389408,
+      "geocode_source": "google"
+    },
+    {
+      "cnpj": "08158788000170",
+      "razao_social": "MW COMERCIO DE COMBUSTIVEIS LTDA - EPP",
+      "nome_fantasia": "POSTO CABO REIS",
+      "telefone": "",
+      "nome_logradouro": "Rua BOA VISTA",
+      "numero_imovel": "398",
+      "bairro": "PRADO",
+      "cep": "57020973",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6678231,
+      "longitude": -35.7575611,
       "geocode_source": "google"
     },
     {
@@ -4366,51 +4411,6 @@
       "latitude": -9.6626625,
       "longitude": -35.7469086,
       "geocode_source": "google"
-    },
-    {
-      "cnpj": "27752571000139",
-      "razao_social": "GMA AUTO POSTO LTDA",
-      "nome_fantasia": "AUTO POSTO GRUTA",
-      "telefone": "",
-      "nome_logradouro": "AV FERNANDES LIMA",
-      "numero_imovel": "3564",
-      "bairro": "GRUTA DE LOURDES",
-      "cep": "57052400",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6176359,
-      "longitude": -35.7389408,
-      "geocode_source": "google"
-    },
-    {
-      "cnpj": "02804864000191",
-      "razao_social": "BELUMA COMERCIO DE COMBUSTIVEIS LTDA",
-      "nome_fantasia": "POSTO SARANDI",
-      "telefone": "",
-      "nome_logradouro": "AV WALTER ANANIAS",
-      "numero_imovel": "1165",
-      "bairro": "JARAGUÁ",
-      "cep": "57025510",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6670929,
-      "longitude": -35.7273019,
-      "geocode_source": "nominatim"
-    },
-    {
-      "cnpj": "08797955000123",
-      "razao_social": "AUTO POSTO LUMAR VADO LTDA",
-      "nome_fantasia": "POSTO LUMAR VADO",
-      "telefone": "(82) 32351381",
-      "nome_logradouro": "AV FERNANDES LIMA",
-      "numero_imovel": "195",
-      "bairro": "FAROL",
-      "cep": "57055000",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6474838,
-      "longitude": -35.7340693,
-      "geocode_source": "nominatim"
     },
     {
       "cnpj": "31585795000170",
@@ -6873,21 +6873,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "12486809000405",
-      "razao_social": "CDA EMPREENDIMENTOS LTDA",
-      "nome_fantasia": "POSTO MATA DO ROLO",
-      "telefone": "(82) 99710489",
-      "nome_logradouro": "ROD BR 104 AL. KM 86",
-      "numero_imovel": "SN",
-      "bairro": "MATA DO ROLO",
-      "cep": "57100000",
-      "codigo_ibge": "2707701",
-      "municipio": "Rio Largo",
-      "latitude": -9.4764343,
-      "longitude": -35.8215048,
-      "geocode_source": "sefaz"
-    },
-    {
       "cnpj": "47961135000187",
       "razao_social": "POSTO SANTA RITA LTDA",
       "nome_fantasia": "POSTO SANTA RITA",
@@ -6901,6 +6886,21 @@
       "latitude": -9.477829,
       "longitude": -35.839435,
       "geocode_source": "manual"
+    },
+    {
+      "cnpj": "12486809000405",
+      "razao_social": "CDA EMPREENDIMENTOS LTDA",
+      "nome_fantasia": "POSTO MATA DO ROLO",
+      "telefone": "(82) 99710489",
+      "nome_logradouro": "ROD BR 104 AL. KM 86",
+      "numero_imovel": "SN",
+      "bairro": "MATA DO ROLO",
+      "cep": "57100000",
+      "codigo_ibge": "2707701",
+      "municipio": "Rio Largo",
+      "latitude": -9.4764343,
+      "longitude": -35.8215048,
+      "geocode_source": "sefaz"
     },
     {
       "cnpj": "43084155000166",
@@ -7053,21 +7053,6 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "08529008000232",
-      "razao_social": "LEMOS E DAMASCENO COMBUSTIVEIS LTDA",
-      "nome_fantasia": "LEMOS AUTO POSTO",
-      "telefone": "(82) 36213926",
-      "nome_logradouro": "AV PRESIDENTE DUTRA",
-      "numero_imovel": "816",
-      "bairro": "MONUMENTO",
-      "cep": "57500000",
-      "codigo_ibge": "2708006",
-      "municipio": "Santana do Ipanema",
-      "latitude": -9.3699579,
-      "longitude": -37.2474336,
-      "geocode_source": "sefaz"
-    },
-    {
       "cnpj": "08529008000151",
       "razao_social": "LEMOS E DAMASCENO COMBUSTIVEIS LTDA",
       "nome_fantasia": "LEMOS AUTO POSTO",
@@ -7081,6 +7066,21 @@
       "latitude": -9.37833,
       "longitude": -37.24528,
       "geocode_source": "opencage"
+    },
+    {
+      "cnpj": "08529008000232",
+      "razao_social": "LEMOS E DAMASCENO COMBUSTIVEIS LTDA",
+      "nome_fantasia": "LEMOS AUTO POSTO",
+      "telefone": "(82) 36213926",
+      "nome_logradouro": "AV PRESIDENTE DUTRA",
+      "numero_imovel": "816",
+      "bairro": "MONUMENTO",
+      "cep": "57500000",
+      "codigo_ibge": "2708006",
+      "municipio": "Santana do Ipanema",
+      "latitude": -9.3699579,
+      "longitude": -37.2474336,
+      "geocode_source": "sefaz"
     },
     {
       "cnpj": "01332922000169",
@@ -7308,21 +7308,6 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "29709059000135",
-      "razao_social": "POSTO SM LTDA",
-      "nome_fantasia": "POSTO SM",
-      "telefone": "",
-      "nome_logradouro": "Q Y-1",
-      "numero_imovel": "SN",
-      "bairro": "HELIO JATOBA",
-      "cep": "57246200",
-      "codigo_ibge": "2708600",
-      "municipio": "São Miguel dos Campos",
-      "latitude": -9.7942906,
-      "longitude": -36.0999771,
-      "geocode_source": "google"
-    },
-    {
       "cnpj": "04735992000156",
       "razao_social": "MAXI POSTO LUB LTDA",
       "nome_fantasia": "MAXI POSTO II",
@@ -7336,6 +7321,21 @@
       "latitude": -9.7763051,
       "longitude": -36.1056368,
       "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "29709059000135",
+      "razao_social": "POSTO SM LTDA",
+      "nome_fantasia": "POSTO SM",
+      "telefone": "",
+      "nome_logradouro": "Q Y-1",
+      "numero_imovel": "SN",
+      "bairro": "HELIO JATOBA",
+      "cep": "57246200",
+      "codigo_ibge": "2708600",
+      "municipio": "São Miguel dos Campos",
+      "latitude": -9.7942906,
+      "longitude": -36.0999771,
+      "geocode_source": "google"
     },
     {
       "cnpj": "11908167000414",
@@ -7728,21 +7728,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "69999456000103",
-      "razao_social": "S.A DA SILVA E CIA LTDA",
-      "nome_fantasia": "AUTO POSTO SANTA CRUZ",
-      "telefone": "",
-      "nome_logradouro": "Rua VINTE E UM DE SETEMBRO",
-      "numero_imovel": "83",
-      "bairro": "CENTRO",
-      "cep": "57640000",
-      "codigo_ibge": "2709103",
-      "municipio": "Taquarana",
-      "latitude": -9.6468235,
-      "longitude": -36.4910774,
-      "geocode_source": "sefaz"
-    },
-    {
       "cnpj": "15706489000199",
       "razao_social": "AUTO POSTO MANGUEIRAO EIRELI EPP",
       "nome_fantasia": "POSTO MANGUEIRAO",
@@ -7756,6 +7741,21 @@
       "latitude": -9.6403304,
       "longitude": -36.4772236,
       "geocode_source": "google"
+    },
+    {
+      "cnpj": "69999456000103",
+      "razao_social": "S.A DA SILVA E CIA LTDA",
+      "nome_fantasia": "AUTO POSTO SANTA CRUZ",
+      "telefone": "",
+      "nome_logradouro": "Rua VINTE E UM DE SETEMBRO",
+      "numero_imovel": "83",
+      "bairro": "CENTRO",
+      "cep": "57640000",
+      "codigo_ibge": "2709103",
+      "municipio": "Taquarana",
+      "latitude": -9.6468235,
+      "longitude": -36.4910774,
+      "geocode_source": "sefaz"
     },
     {
       "cnpj": "59996494000159",
