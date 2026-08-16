@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-08-16T07:00:52.552Z",
+  "atualizadoEm": "2026-08-16T07:48:24.529Z",
   "totalEstabelecimentos": 545,
   "estabelecimentos": [
     {
@@ -3858,21 +3858,6 @@
       "geocode_source": "nominatim"
     },
     {
-      "cnpj": "08695024000114",
-      "razao_social": "POSTO RESERVA DO VALE LTDA - EPP",
-      "nome_fantasia": "POSTO RESERVA DO VALE",
-      "telefone": "(82) 32312148",
-      "nome_logradouro": "AV MENINO MARCELO",
-      "numero_imovel": "8551",
-      "bairro": "SERRARIA",
-      "cep": "57046000",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.5941259,
-      "longitude": -35.7241317,
-      "geocode_source": "nominatim"
-    },
-    {
       "cnpj": "31585795000170",
       "razao_social": "T. C. COMBUSTIVEIS LTDA",
       "nome_fantasia": "AUTO POSTO SANTO ANTONIO",
@@ -3933,34 +3918,49 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "04077577000314",
-      "razao_social": "POSTO QUARTO DE MILHA LTDA",
-      "nome_fantasia": "POSTOS DE COMBUSTIVEIS PICHILAU",
-      "telefone": "(82) 3222716",
-      "nome_logradouro": "AV DURVAL DE GOES MONTEIRO",
-      "numero_imovel": "S/N",
-      "bairro": "TAB DOS MARTINS",
-      "cep": "57080000",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6476843,
-      "longitude": -35.7339264,
-      "geocode_source": "manual"
-    },
-    {
-      "cnpj": "03496743000192",
-      "razao_social": "AUTO POSTO CLEAN CAR LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 88124555",
+      "cnpj": "08695024000114",
+      "razao_social": "POSTO RESERVA DO VALE LTDA - EPP",
+      "nome_fantasia": "POSTO RESERVA DO VALE",
+      "telefone": "(82) 32312148",
       "nome_logradouro": "AV MENINO MARCELO",
-      "numero_imovel": "10601",
+      "numero_imovel": "8551",
       "bairro": "SERRARIA",
       "cep": "57046000",
       "codigo_ibge": "2704302",
       "municipio": "Maceió",
-      "latitude": -9.6113731,
-      "longitude": -35.7187183,
-      "geocode_source": "google"
+      "latitude": -9.5941259,
+      "longitude": -35.7241317,
+      "geocode_source": "nominatim"
+    },
+    {
+      "cnpj": "64620116000106",
+      "razao_social": "AUTO POSTO CLIMA BOM I LTDA",
+      "nome_fantasia": "AUTO POSTO CLIMA BOM I LTDA",
+      "telefone": "(82) 41021750",
+      "nome_logradouro": "Rua Doutor João Crisóstomo de Farias",
+      "numero_imovel": "294",
+      "bairro": "Clima Bom",
+      "cep": "57071090",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.574372,
+      "longitude": -35.778067,
+      "geocode_source": "supabase"
+    },
+    {
+      "cnpj": "01242690000310",
+      "razao_social": "IBN PINTO E SILVA & CIA LTDA",
+      "nome_fantasia": "POSTO JOTA PINTO ARAPIRACA",
+      "telefone": "",
+      "nome_logradouro": "AV CORONEL SALUSTIANO SARMENTO",
+      "numero_imovel": "425",
+      "bairro": "SAO JORGE",
+      "cep": "57044060",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6183034,
+      "longitude": -35.71307609999999,
+      "geocode_source": "sefaz"
     },
     {
       "cnpj": "17336019000106",
@@ -3993,34 +3993,19 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "64620116000106",
-      "razao_social": "AUTO POSTO CLIMA BOM I LTDA",
-      "nome_fantasia": "AUTO POSTO CLIMA BOM I LTDA",
-      "telefone": "(82) 41021750",
-      "nome_logradouro": "Rua Doutor João Crisóstomo de Farias",
-      "numero_imovel": "294",
-      "bairro": "Clima Bom",
-      "cep": "57071090",
+      "cnpj": "04077577000314",
+      "razao_social": "POSTO QUARTO DE MILHA LTDA",
+      "nome_fantasia": "POSTOS DE COMBUSTIVEIS PICHILAU",
+      "telefone": "(82) 3222716",
+      "nome_logradouro": "AV DURVAL DE GOES MONTEIRO",
+      "numero_imovel": "S/N",
+      "bairro": "TAB DOS MARTINS",
+      "cep": "57080000",
       "codigo_ibge": "2704302",
       "municipio": "Maceió",
-      "latitude": -9.574372,
-      "longitude": -35.778067,
-      "geocode_source": "supabase"
-    },
-    {
-      "cnpj": "07694838000171",
-      "razao_social": "POSTO JARAGUA LTDA",
-      "nome_fantasia": "POSTO JARAGUA",
-      "telefone": "(82) 33361364",
-      "nome_logradouro": "Rua SA E ALBUQUERQUE",
-      "numero_imovel": "844",
-      "bairro": "JARAGUA",
-      "cep": "57022180",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6706257,
-      "longitude": -35.7269057,
-      "geocode_source": "sefaz"
+      "latitude": -9.6476843,
+      "longitude": -35.7339264,
+      "geocode_source": "manual"
     },
     {
       "cnpj": "60066994000332",
@@ -4083,19 +4068,19 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "01242690000310",
-      "razao_social": "IBN PINTO E SILVA & CIA LTDA",
-      "nome_fantasia": "POSTO JOTA PINTO ARAPIRACA",
-      "telefone": "",
-      "nome_logradouro": "AV CORONEL SALUSTIANO SARMENTO",
-      "numero_imovel": "425",
-      "bairro": "SAO JORGE",
-      "cep": "57044060",
+      "cnpj": "03496743000192",
+      "razao_social": "AUTO POSTO CLEAN CAR LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 88124555",
+      "nome_logradouro": "AV MENINO MARCELO",
+      "numero_imovel": "10601",
+      "bairro": "SERRARIA",
+      "cep": "57046000",
       "codigo_ibge": "2704302",
       "municipio": "Maceió",
-      "latitude": -9.6183034,
-      "longitude": -35.71307609999999,
-      "geocode_source": "sefaz"
+      "latitude": -9.6113731,
+      "longitude": -35.7187183,
+      "geocode_source": "google"
     },
     {
       "cnpj": "40562806000198",
@@ -4110,6 +4095,21 @@
       "municipio": "Maceió",
       "latitude": -9.61395505,
       "longitude": -35.7295247028936,
+      "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "07694838000171",
+      "razao_social": "POSTO JARAGUA LTDA",
+      "nome_fantasia": "POSTO JARAGUA",
+      "telefone": "(82) 33361364",
+      "nome_logradouro": "Rua SA E ALBUQUERQUE",
+      "numero_imovel": "844",
+      "bairro": "JARAGUA",
+      "cep": "57022180",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6706257,
+      "longitude": -35.7269057,
       "geocode_source": "sefaz"
     },
     {
