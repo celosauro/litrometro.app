@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-08-18T07:56:34.041Z",
+  "atualizadoEm": "2026-08-18T08:55:01.562Z",
   "totalEstabelecimentos": 546,
   "estabelecimentos": [
     {
@@ -286,21 +286,6 @@
       "latitude": -9.7590058,
       "longitude": -36.6507001,
       "geocode_source": "sefaz"
-    },
-    {
-      "cnpj": "12451076000465",
-      "razao_social": "POSTO ARAPIRACA LTDA",
-      "nome_fantasia": "POSTO TREVO",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 220",
-      "numero_imovel": "105",
-      "bairro": "CANAFISTULA",
-      "cep": "57302605",
-      "codigo_ibge": "2700300",
-      "municipio": "Arapiraca",
-      "latitude": -9.747849,
-      "longitude": -36.6318151,
-      "geocode_source": "google"
     },
     {
       "cnpj": "01242690000239",
@@ -678,6 +663,21 @@
       "geocode_source": "sefaz"
     },
     {
+      "cnpj": "12451076000465",
+      "razao_social": "POSTO ARAPIRACA LTDA",
+      "nome_fantasia": "POSTO TREVO",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 220",
+      "numero_imovel": "105",
+      "bairro": "CANAFISTULA",
+      "cep": "57302605",
+      "codigo_ibge": "2700300",
+      "municipio": "Arapiraca",
+      "latitude": -9.747849,
+      "longitude": -36.6318151,
+      "geocode_source": "google"
+    },
+    {
       "cnpj": "45605930000107",
       "razao_social": "J P DA SILVA AUTO POSTO LTDA",
       "nome_fantasia": "AUTO POSTO BOA VISTA",
@@ -858,21 +858,6 @@
       "geocode_source": "supabase"
     },
     {
-      "cnpj": "35782528000144",
-      "razao_social": "AUTO POSTO SANTA IZABEL LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 35300270",
-      "nome_logradouro": "Rua ANTONIO FELICIANO",
-      "numero_imovel": "696",
-      "bairro": "CANAFISTULA",
-      "cep": "57302200",
-      "codigo_ibge": "2700300",
-      "municipio": "Arapiraca",
-      "latitude": -9.7614614,
-      "longitude": -36.6333286,
-      "geocode_source": "google"
-    },
-    {
       "cnpj": "07783800000175",
       "razao_social": "AUTO POSTO BLUE LTDA.",
       "nome_fantasia": "",
@@ -886,6 +871,21 @@
       "latitude": -9.728761500000001,
       "longitude": -36.664519,
       "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "35782528000144",
+      "razao_social": "AUTO POSTO SANTA IZABEL LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 35300270",
+      "nome_logradouro": "Rua ANTONIO FELICIANO",
+      "numero_imovel": "696",
+      "bairro": "CANAFISTULA",
+      "cep": "57302200",
+      "codigo_ibge": "2700300",
+      "municipio": "Arapiraca",
+      "latitude": -9.7614614,
+      "longitude": -36.6333286,
+      "geocode_source": "google"
     },
     {
       "cnpj": "21309025000141",
@@ -2088,21 +2088,6 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "17652161000162",
-      "razao_social": "W W SILVA COMBUSTIVEIS LTDA",
-      "nome_fantasia": "AUTO POSTO MIX II",
-      "telefone": "",
-      "nome_logradouro": "ROD AL 220 KM 22",
-      "numero_imovel": "45",
-      "bairro": "FOLHA MIUDA",
-      "cep": "57320000",
-      "codigo_ibge": "2702355",
-      "municipio": "Craíbas",
-      "latitude": -9.702018,
-      "longitude": -36.794719,
-      "geocode_source": "sefaz"
-    },
-    {
       "cnpj": "16986565000120",
       "razao_social": "AUTO POSTO ALIANCA LTDA.",
       "nome_fantasia": "POSTO ALIANÇA",
@@ -2115,6 +2100,21 @@
       "municipio": "Craíbas",
       "latitude": -9.618775,
       "longitude": -36.7690264,
+      "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "11984917000194",
+      "razao_social": "MIX COMBUSTÍVEIS LTDA",
+      "nome_fantasia": "AUTO POSTO MIX",
+      "telefone": "(82) 91229517",
+      "nome_logradouro": "Rua PEDRO GAMA",
+      "numero_imovel": "303",
+      "bairro": "CENTRO",
+      "cep": "57320000",
+      "codigo_ibge": "2702355",
+      "municipio": "Craíbas",
+      "latitude": -9.614823,
+      "longitude": -36.7690849,
       "geocode_source": "sefaz"
     },
     {
@@ -2133,18 +2133,18 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "11984917000194",
-      "razao_social": "MIX COMBUSTÍVEIS LTDA",
-      "nome_fantasia": "AUTO POSTO MIX",
-      "telefone": "(82) 91229517",
-      "nome_logradouro": "Rua PEDRO GAMA",
-      "numero_imovel": "303",
-      "bairro": "CENTRO",
+      "cnpj": "17652161000162",
+      "razao_social": "W W SILVA COMBUSTIVEIS LTDA",
+      "nome_fantasia": "AUTO POSTO MIX II",
+      "telefone": "",
+      "nome_logradouro": "ROD AL 220 KM 22",
+      "numero_imovel": "45",
+      "bairro": "FOLHA MIUDA",
       "cep": "57320000",
       "codigo_ibge": "2702355",
       "municipio": "Craíbas",
-      "latitude": -9.614823,
-      "longitude": -36.7690849,
+      "latitude": -9.702018,
+      "longitude": -36.794719,
       "geocode_source": "sefaz"
     },
     {
@@ -4128,21 +4128,6 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "60066994000170",
-      "razao_social": "K & P COMÉRCIO DE COMBUSTÍVEIS LTDA",
-      "nome_fantasia": "PRATAGY & EXTRA",
-      "telefone": "(82) 41021750",
-      "nome_logradouro": "AV Comendador Gustavo Paiva",
-      "numero_imovel": "3393",
-      "bairro": "Cruz das Almas",
-      "cep": "57038000",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6449691,
-      "longitude": -35.7134084,
-      "geocode_source": "manual"
-    },
-    {
       "cnpj": "11123433000150",
       "razao_social": "COMERCIAL TRES IRMAOS LTDA - ME",
       "nome_fantasia": "TOTAL GIRO",
@@ -4155,6 +4140,21 @@
       "municipio": "Maceió",
       "latitude": -9.6476843,
       "longitude": -35.7339264,
+      "geocode_source": "manual"
+    },
+    {
+      "cnpj": "60066994000170",
+      "razao_social": "K & P COMÉRCIO DE COMBUSTÍVEIS LTDA",
+      "nome_fantasia": "PRATAGY & EXTRA",
+      "telefone": "(82) 41021750",
+      "nome_logradouro": "AV Comendador Gustavo Paiva",
+      "numero_imovel": "3393",
+      "bairro": "Cruz das Almas",
+      "cep": "57038000",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6449691,
+      "longitude": -35.7134084,
       "geocode_source": "manual"
     },
     {
@@ -4908,21 +4908,6 @@
       "geocode_source": "opencage"
     },
     {
-      "cnpj": "04439462000160",
-      "razao_social": "S VITORINO DA SILVA DIESEL - EPP",
-      "nome_fantasia": "POSTO VITORINO",
-      "telefone": "",
-      "nome_logradouro": "RDV AL 120",
-      "numero_imovel": "S/N",
-      "bairro": "ZONA RURAL",
-      "cep": "57580000",
-      "codigo_ibge": "2704401",
-      "municipio": "Major Isidoro",
-      "latitude": -9.5531138,
-      "longitude": -37.0074381,
-      "geocode_source": "google"
-    },
-    {
       "cnpj": "42426417000160",
       "razao_social": "REDE COMERCIAL AQUARELA LTDA",
       "nome_fantasia": "POSTOS E HOTEIS TERRA DO LEITE",
@@ -4936,6 +4921,21 @@
       "latitude": -9.5384059,
       "longitude": -36.9942913,
       "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "04439462000160",
+      "razao_social": "S VITORINO DA SILVA DIESEL - EPP",
+      "nome_fantasia": "POSTO VITORINO",
+      "telefone": "",
+      "nome_logradouro": "RDV AL 120",
+      "numero_imovel": "S/N",
+      "bairro": "ZONA RURAL",
+      "cep": "57580000",
+      "codigo_ibge": "2704401",
+      "municipio": "Major Isidoro",
+      "latitude": -9.5531138,
+      "longitude": -37.0074381,
+      "geocode_source": "google"
     },
     {
       "cnpj": "27665019000294",
@@ -7113,21 +7113,6 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "08529008000151",
-      "razao_social": "LEMOS E DAMASCENO COMBUSTIVEIS LTDA",
-      "nome_fantasia": "LEMOS AUTO POSTO",
-      "telefone": "(82) 36213926",
-      "nome_logradouro": "AV GOVERNADOR GERALDO BULHOES BARROS",
-      "numero_imovel": "1683",
-      "bairro": "DOMINGOS ACACIO",
-      "cep": "57500000",
-      "codigo_ibge": "2708006",
-      "municipio": "Santana do Ipanema",
-      "latitude": -9.37833,
-      "longitude": -37.24528,
-      "geocode_source": "opencage"
-    },
-    {
       "cnpj": "08529008000232",
       "razao_social": "LEMOS E DAMASCENO COMBUSTIVEIS LTDA",
       "nome_fantasia": "LEMOS AUTO POSTO",
@@ -7141,6 +7126,21 @@
       "latitude": -9.3699579,
       "longitude": -37.2474336,
       "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "08529008000151",
+      "razao_social": "LEMOS E DAMASCENO COMBUSTIVEIS LTDA",
+      "nome_fantasia": "LEMOS AUTO POSTO",
+      "telefone": "(82) 36213926",
+      "nome_logradouro": "AV GOVERNADOR GERALDO BULHOES BARROS",
+      "numero_imovel": "1683",
+      "bairro": "DOMINGOS ACACIO",
+      "cep": "57500000",
+      "codigo_ibge": "2708006",
+      "municipio": "Santana do Ipanema",
+      "latitude": -9.37833,
+      "longitude": -37.24528,
+      "geocode_source": "opencage"
     },
     {
       "cnpj": "05738409000123",
@@ -7998,21 +7998,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "29766200000131",
-      "razao_social": "AUTO POSTO GLOBO III LTDA",
-      "nome_fantasia": "POSTO GLOBO III",
-      "telefone": "",
-      "nome_logradouro": "AV JOAO LYRA FILHO",
-      "numero_imovel": "304",
-      "bairro": "ROBERTO CORREIA DE ARAUJO",
-      "cep": "57800000",
-      "codigo_ibge": "2709301",
-      "municipio": "União dos Palmares",
-      "latitude": -9.1651025,
-      "longitude": -36.0241759,
-      "geocode_source": "sefaz"
-    },
-    {
       "cnpj": "35736818000151",
       "razao_social": "C G DE J PEDROSA",
       "nome_fantasia": "",
@@ -8026,6 +8011,21 @@
       "latitude": -9.1630544,
       "longitude": -36.0181155,
       "geocode_source": "google"
+    },
+    {
+      "cnpj": "29766200000131",
+      "razao_social": "AUTO POSTO GLOBO III LTDA",
+      "nome_fantasia": "POSTO GLOBO III",
+      "telefone": "",
+      "nome_logradouro": "AV JOAO LYRA FILHO",
+      "numero_imovel": "304",
+      "bairro": "ROBERTO CORREIA DE ARAUJO",
+      "cep": "57800000",
+      "codigo_ibge": "2709301",
+      "municipio": "União dos Palmares",
+      "latitude": -9.1651025,
+      "longitude": -36.0241759,
+      "geocode_source": "sefaz"
     },
     {
       "cnpj": "26718857000135",
