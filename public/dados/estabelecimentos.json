@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-08-25T18:49:01.196Z",
+  "atualizadoEm": "2026-08-25T19:00:01.080Z",
   "totalEstabelecimentos": 550,
   "estabelecimentos": [
     {
@@ -3903,36 +3903,6 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "03496743000192",
-      "razao_social": "AUTO POSTO CLEAN CAR LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 88124555",
-      "nome_logradouro": "AV MENINO MARCELO",
-      "numero_imovel": "10601",
-      "bairro": "SERRARIA",
-      "cep": "57046000",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6113731,
-      "longitude": -35.7187183,
-      "geocode_source": "google"
-    },
-    {
-      "cnpj": "09231306000123",
-      "razao_social": "CAVALCANTE & LEITE LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 32215374",
-      "nome_logradouro": "AV DEPUTADO SERZEDELO DE BARROS CORREIA",
-      "numero_imovel": "1351",
-      "bairro": "CLIMA BOM",
-      "cep": "57071230",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6476843,
-      "longitude": -35.7339264,
-      "geocode_source": "manual"
-    },
-    {
       "cnpj": "04667909000159",
       "razao_social": "HOLANDA COMERCIO COMBUSTIVEIS LTDA - EPP",
       "nome_fantasia": "",
@@ -3961,6 +3931,36 @@
       "latitude": -9.6476843,
       "longitude": -35.7339264,
       "geocode_source": "manual"
+    },
+    {
+      "cnpj": "09231306000123",
+      "razao_social": "CAVALCANTE & LEITE LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 32215374",
+      "nome_logradouro": "AV DEPUTADO SERZEDELO DE BARROS CORREIA",
+      "numero_imovel": "1351",
+      "bairro": "CLIMA BOM",
+      "cep": "57071230",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6476843,
+      "longitude": -35.7339264,
+      "geocode_source": "manual"
+    },
+    {
+      "cnpj": "03496743000192",
+      "razao_social": "AUTO POSTO CLEAN CAR LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 88124555",
+      "nome_logradouro": "AV MENINO MARCELO",
+      "numero_imovel": "10601",
+      "bairro": "SERRARIA",
+      "cep": "57046000",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6113731,
+      "longitude": -35.7187183,
+      "geocode_source": "google"
     },
     {
       "cnpj": "20528778000185",
@@ -4158,19 +4158,34 @@
       "geocode_source": "nominatim"
     },
     {
-      "cnpj": "34801633000110",
-      "razao_social": "AUTO POSTO HANNAH EXPRESS LTDA",
-      "nome_fantasia": "HANNAH EXPRESS",
+      "cnpj": "28343707000209",
+      "razao_social": "AUTO POSTO COMERCIO DE COMBUSTÍVEL UNIÃO LTDA",
+      "nome_fantasia": "REYAUTO POSTO",
       "telefone": "",
       "nome_logradouro": "AV JUCA SAMPAIO",
-      "numero_imovel": "322",
-      "bairro": "BARRO DURO",
-      "cep": "57045365",
+      "numero_imovel": "92",
+      "bairro": "JACINTINHO",
+      "cep": "57040600",
       "codigo_ibge": "2704302",
       "municipio": "Maceió",
-      "latitude": -9.615943399999999,
-      "longitude": -35.7171183,
+      "latitude": -9.6356568,
+      "longitude": -35.7153743,
       "geocode_source": "google"
+    },
+    {
+      "cnpj": "42908642000133",
+      "razao_social": "CERQUEIRA AUTO POSTO LTDA",
+      "nome_fantasia": "POSTO LAFAIETE PACHECO",
+      "telefone": "(82) 99143425",
+      "nome_logradouro": "Rua LAFAYETE PACHECO",
+      "numero_imovel": "59",
+      "bairro": "POCO",
+      "cep": "57025026",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6622768,
+      "longitude": -35.7157142,
+      "geocode_source": "nominatim"
     },
     {
       "cnpj": "60066994000170",
@@ -4203,33 +4218,18 @@
       "geocode_source": "supabase"
     },
     {
-      "cnpj": "42908642000133",
-      "razao_social": "CERQUEIRA AUTO POSTO LTDA",
-      "nome_fantasia": "POSTO LAFAIETE PACHECO",
-      "telefone": "(82) 99143425",
-      "nome_logradouro": "Rua LAFAYETE PACHECO",
-      "numero_imovel": "59",
-      "bairro": "POCO",
-      "cep": "57025026",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6622768,
-      "longitude": -35.7157142,
-      "geocode_source": "nominatim"
-    },
-    {
-      "cnpj": "28343707000209",
-      "razao_social": "AUTO POSTO COMERCIO DE COMBUSTÍVEL UNIÃO LTDA",
-      "nome_fantasia": "REYAUTO POSTO",
+      "cnpj": "34801633000110",
+      "razao_social": "AUTO POSTO HANNAH EXPRESS LTDA",
+      "nome_fantasia": "HANNAH EXPRESS",
       "telefone": "",
       "nome_logradouro": "AV JUCA SAMPAIO",
-      "numero_imovel": "92",
-      "bairro": "JACINTINHO",
-      "cep": "57040600",
+      "numero_imovel": "322",
+      "bairro": "BARRO DURO",
+      "cep": "57045365",
       "codigo_ibge": "2704302",
       "municipio": "Maceió",
-      "latitude": -9.6356568,
-      "longitude": -35.7153743,
+      "latitude": -9.615943399999999,
+      "longitude": -35.7171183,
       "geocode_source": "google"
     },
     {
@@ -5148,21 +5148,6 @@
       "geocode_source": "google-maps-poi"
     },
     {
-      "cnpj": "50763348000109",
-      "razao_social": "PRATAGY FRANCES LTDA",
-      "nome_fantasia": "PRATAGY FRANCÊS",
-      "telefone": "(82) 981560184",
-      "nome_logradouro": "ROD IB GATTO FALCAO  - AR COMERCIAL",
-      "numero_imovel": "S/N",
-      "bairro": "FRANCES",
-      "cep": "57160000",
-      "codigo_ibge": "2704708",
-      "municipio": "Marechal Deodoro",
-      "latitude": -9.76696,
-      "longitude": -35.850576,
-      "geocode_source": "google-maps-poi"
-    },
-    {
       "cnpj": "20838676000166",
       "razao_social": "POSTO ECOLOGICO COMERCIO DE COMBUSTIVEIS LTDA - EPP",
       "nome_fantasia": "",
@@ -5178,18 +5163,18 @@
       "geocode_source": "google-maps-search"
     },
     {
-      "cnpj": "03853241000171",
-      "razao_social": "MAXI POSTO ECOLOGICO LTDA",
-      "nome_fantasia": "MAXI POSTO ECOLOGICO",
-      "telefone": "(82) 3203548",
-      "nome_logradouro": "AL 101 SUL KM 10.7 RODOVIA DIVALDO SURUA",
+      "cnpj": "50763348000109",
+      "razao_social": "PRATAGY FRANCES LTDA",
+      "nome_fantasia": "PRATAGY FRANCÊS",
+      "telefone": "(82) 981560184",
+      "nome_logradouro": "ROD IB GATTO FALCAO  - AR COMERCIAL",
       "numero_imovel": "S/N",
-      "bairro": "AL 101",
+      "bairro": "FRANCES",
       "cep": "57160000",
       "codigo_ibge": "2704708",
       "municipio": "Marechal Deodoro",
-      "latitude": -9.761674,
-      "longitude": -35.8441236,
+      "latitude": -9.76696,
+      "longitude": -35.850576,
       "geocode_source": "google-maps-poi"
     },
     {
@@ -5205,6 +5190,21 @@
       "municipio": "Marechal Deodoro",
       "latitude": -9.7476613,
       "longitude": -35.8390402,
+      "geocode_source": "google-maps-poi"
+    },
+    {
+      "cnpj": "03853241000171",
+      "razao_social": "MAXI POSTO ECOLOGICO LTDA",
+      "nome_fantasia": "MAXI POSTO ECOLOGICO",
+      "telefone": "(82) 3203548",
+      "nome_logradouro": "AL 101 SUL KM 10.7 RODOVIA DIVALDO SURUA",
+      "numero_imovel": "S/N",
+      "bairro": "AL 101",
+      "cep": "57160000",
+      "codigo_ibge": "2704708",
+      "municipio": "Marechal Deodoro",
+      "latitude": -9.761674,
+      "longitude": -35.8441236,
       "geocode_source": "google-maps-poi"
     },
     {
