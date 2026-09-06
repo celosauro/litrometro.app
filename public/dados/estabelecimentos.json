@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-09-06T12:50:06.159Z",
+  "atualizadoEm": "2026-09-06T13:42:44.158Z",
   "totalEstabelecimentos": 551,
   "estabelecimentos": [
     {
@@ -408,6 +408,21 @@
       "geocode_source": "sefaz"
     },
     {
+      "cnpj": "29790416000485",
+      "razao_social": "MG PETRO COMBUSTIVEIS LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 41021750",
+      "nome_logradouro": "Rua PAULA MAGALHAES",
+      "numero_imovel": "293",
+      "bairro": "OURO PRETO",
+      "cep": "57301095",
+      "codigo_ibge": "2700300",
+      "municipio": "Arapiraca",
+      "latitude": -9.756758699999999,
+      "longitude": -36.6574486,
+      "geocode_source": "google"
+    },
+    {
       "cnpj": "30960497000150",
       "razao_social": "AUTO POSTO CARANGO LTDA",
       "nome_fantasia": "AUTO POSTO CARANGO",
@@ -438,21 +453,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "29790416000485",
-      "razao_social": "MG PETRO COMBUSTIVEIS LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 41021750",
-      "nome_logradouro": "Rua PAULA MAGALHAES",
-      "numero_imovel": "293",
-      "bairro": "OURO PRETO",
-      "cep": "57301095",
-      "codigo_ibge": "2700300",
-      "municipio": "Arapiraca",
-      "latitude": -9.756758699999999,
-      "longitude": -36.6574486,
-      "geocode_source": "google"
-    },
-    {
       "cnpj": "24083322000100",
       "razao_social": "AUTO POSTO AL LTDA",
       "nome_fantasia": "AUTO POSTO AL EXPRESS",
@@ -468,21 +468,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "13460056000170",
-      "razao_social": "AUTO POSTO PREMIUM LTDA EPP",
-      "nome_fantasia": "AUTO POSTO LOURINHO",
-      "telefone": "",
-      "nome_logradouro": "Rua EXPEDICIONARIO BRASILEIRO",
-      "numero_imovel": "1747",
-      "bairro": "CAVACO",
-      "cep": "57306415",
-      "codigo_ibge": "2700300",
-      "municipio": "Arapiraca",
-      "latitude": -9.736405099999999,
-      "longitude": -36.6740855,
-      "geocode_source": "sefaz"
-    },
-    {
       "cnpj": "15080185000169",
       "razao_social": "MJ COMBUSTIVEIS LTDA - ME",
       "nome_fantasia": "POSTO AVENIDA",
@@ -495,6 +480,21 @@
       "municipio": "Arapiraca",
       "latitude": -9.7451275,
       "longitude": -36.6681255,
+      "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "13460056000170",
+      "razao_social": "AUTO POSTO PREMIUM LTDA EPP",
+      "nome_fantasia": "AUTO POSTO LOURINHO",
+      "telefone": "",
+      "nome_logradouro": "Rua EXPEDICIONARIO BRASILEIRO",
+      "numero_imovel": "1747",
+      "bairro": "CAVACO",
+      "cep": "57306415",
+      "codigo_ibge": "2700300",
+      "municipio": "Arapiraca",
+      "latitude": -9.736405099999999,
+      "longitude": -36.6740855,
       "geocode_source": "sefaz"
     },
     {
@@ -633,14 +633,14 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "29790416000302",
-      "razao_social": "MG PETRO COMBUSTIVEIS LTDA",
-      "nome_fantasia": "AUTO POSTO OURO VERDE",
-      "telefone": "(82) 41021750",
-      "nome_logradouro": "AV JOAO CRISOSTOMO RAMALHO",
-      "numero_imovel": "1740",
-      "bairro": "ITAPOA",
-      "cep": "57314200",
+      "cnpj": "52255525000171",
+      "razao_social": "AUTOPEL ARAPIRACA LTDA",
+      "nome_fantasia": "AUTOPEL ARAPIRACA",
+      "telefone": "(82) 99777779",
+      "nome_logradouro": "ROD AL-220",
+      "numero_imovel": "576",
+      "bairro": "Jardim Esperança",
+      "cep": "57307610",
       "codigo_ibge": "2700300",
       "municipio": "Arapiraca",
       "latitude": 0,
@@ -663,34 +663,19 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "52255525000171",
-      "razao_social": "AUTOPEL ARAPIRACA LTDA",
-      "nome_fantasia": "AUTOPEL ARAPIRACA",
-      "telefone": "(82) 99777779",
-      "nome_logradouro": "ROD AL-220",
-      "numero_imovel": "576",
-      "bairro": "Jardim Esperança",
-      "cep": "57307610",
+      "cnpj": "29790416000302",
+      "razao_social": "MG PETRO COMBUSTIVEIS LTDA",
+      "nome_fantasia": "AUTO POSTO OURO VERDE",
+      "telefone": "(82) 41021750",
+      "nome_logradouro": "AV JOAO CRISOSTOMO RAMALHO",
+      "numero_imovel": "1740",
+      "bairro": "ITAPOA",
+      "cep": "57314200",
       "codigo_ibge": "2700300",
       "municipio": "Arapiraca",
       "latitude": 0,
       "longitude": 0,
       "geocode_source": "supabase"
-    },
-    {
-      "cnpj": "35370972000152",
-      "razao_social": "J R SOARES & SOUZA LTDA",
-      "nome_fantasia": "POSTO TREIS IRMAOS",
-      "telefone": "",
-      "nome_logradouro": "Rua BENJAMIM FREIRE DE AMORIM",
-      "numero_imovel": "2135",
-      "bairro": "BRASILIANA",
-      "cep": "57310540",
-      "codigo_ibge": "2700300",
-      "municipio": "Arapiraca",
-      "latitude": -9.7277019,
-      "longitude": -36.669787,
-      "geocode_source": "google"
     },
     {
       "cnpj": "61812873000193",
@@ -706,6 +691,21 @@
       "latitude": -9.747084,
       "longitude": -36.645892,
       "geocode_source": "nominatim"
+    },
+    {
+      "cnpj": "35370972000152",
+      "razao_social": "J R SOARES & SOUZA LTDA",
+      "nome_fantasia": "POSTO TREIS IRMAOS",
+      "telefone": "",
+      "nome_logradouro": "Rua BENJAMIM FREIRE DE AMORIM",
+      "numero_imovel": "2135",
+      "bairro": "BRASILIANA",
+      "cep": "57310540",
+      "codigo_ibge": "2700300",
+      "municipio": "Arapiraca",
+      "latitude": -9.7277019,
+      "longitude": -36.669787,
+      "geocode_source": "google"
     },
     {
       "cnpj": "37765274000181",
@@ -963,21 +963,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "40921967000120",
-      "razao_social": "RODO CENTER AUTO POSTO LTDA",
-      "nome_fantasia": "RODO CENTER AUTO POSTO",
-      "telefone": "(82) 35226837",
-      "nome_logradouro": "ROD AL-220",
-      "numero_imovel": "6145",
-      "bairro": "JARDIM ESPERANCA",
-      "cep": "57307610",
-      "codigo_ibge": "2700300",
-      "municipio": "Arapiraca",
-      "latitude": -9.7239151,
-      "longitude": -36.6809005,
-      "geocode_source": "google"
-    },
-    {
       "cnpj": "07248398000129",
       "razao_social": "AUTO POSTO MASSARANDUBA LTDA - ME",
       "nome_fantasia": "POSTO MASSARANDUBA",
@@ -991,6 +976,21 @@
       "latitude": -9.7282495,
       "longitude": -36.6674871,
       "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "40921967000120",
+      "razao_social": "RODO CENTER AUTO POSTO LTDA",
+      "nome_fantasia": "RODO CENTER AUTO POSTO",
+      "telefone": "(82) 35226837",
+      "nome_logradouro": "ROD AL-220",
+      "numero_imovel": "6145",
+      "bairro": "JARDIM ESPERANCA",
+      "cep": "57307610",
+      "codigo_ibge": "2700300",
+      "municipio": "Arapiraca",
+      "latitude": -9.7239151,
+      "longitude": -36.6809005,
+      "geocode_source": "google"
     },
     {
       "cnpj": "43269122000190",
