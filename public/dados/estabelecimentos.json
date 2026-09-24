@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-09-24T03:11:21.401Z",
+  "atualizadoEm": "2026-09-24T04:56:11.496Z",
   "totalEstabelecimentos": 553,
   "estabelecimentos": [
     {
@@ -918,21 +918,6 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "61017230000158",
-      "razao_social": "VILA BANANEIRA COMBUSTIVEIS LTDA",
-      "nome_fantasia": "AUTO POSTO JG",
-      "telefone": "(82) 41021750",
-      "nome_logradouro": "Rua SEVERINO JOSE DA SILVA",
-      "numero_imovel": "s/n",
-      "bairro": "ZONA RURAL",
-      "cep": "57318450",
-      "codigo_ibge": "2700300",
-      "municipio": "Arapiraca",
-      "latitude": -9.754866,
-      "longitude": -36.661471,
-      "geocode_source": "manual"
-    },
-    {
       "cnpj": "25155712000100",
       "razao_social": "AUTO POSTO LIDER LTDA",
       "nome_fantasia": "AUTO POSTO LIDER",
@@ -946,6 +931,21 @@
       "latitude": -9.7128207,
       "longitude": -36.7124082,
       "geocode_source": "google"
+    },
+    {
+      "cnpj": "61017230000158",
+      "razao_social": "VILA BANANEIRA COMBUSTIVEIS LTDA",
+      "nome_fantasia": "AUTO POSTO JG",
+      "telefone": "(82) 41021750",
+      "nome_logradouro": "Rua SEVERINO JOSE DA SILVA",
+      "numero_imovel": "s/n",
+      "bairro": "ZONA RURAL",
+      "cep": "57318450",
+      "codigo_ibge": "2700300",
+      "municipio": "Arapiraca",
+      "latitude": -9.754866,
+      "longitude": -36.661471,
+      "geocode_source": "manual"
     },
     {
       "cnpj": "15138057000129",
@@ -4008,19 +4008,19 @@
       "geocode_source": "manual"
     },
     {
-      "cnpj": "03705157000100",
-      "razao_social": "NOSSO POSTO COMERCIO E REPRESENTACAO LTDA",
-      "nome_fantasia": "NOSSO POSTO",
-      "telefone": "",
-      "nome_logradouro": "Rua FIRMO CORREIA DE ARAUJO",
-      "numero_imovel": "364",
-      "bairro": "CLIMA BOM",
-      "cep": "57071012",
+      "cnpj": "48558782000105",
+      "razao_social": "MAXI POSTO X LTDA",
+      "nome_fantasia": "MAXI POSTO X",
+      "telefone": "(82) 33204492",
+      "nome_logradouro": "AV Lourival Melo Mota",
+      "numero_imovel": "17160",
+      "bairro": "Cidade Universitária",
+      "cep": "57072000",
       "codigo_ibge": "2704302",
       "municipio": "Maceió",
-      "latitude": -9.6476843,
-      "longitude": -35.7339264,
-      "geocode_source": "manual"
+      "latitude": 0,
+      "longitude": 0,
+      "geocode_source": "supabase"
     },
     {
       "cnpj": "10795540000162",
@@ -4128,19 +4128,19 @@
       "geocode_source": "nominatim"
     },
     {
-      "cnpj": "48558782000105",
-      "razao_social": "MAXI POSTO X LTDA",
-      "nome_fantasia": "MAXI POSTO X",
-      "telefone": "(82) 33204492",
-      "nome_logradouro": "AV Lourival Melo Mota",
-      "numero_imovel": "17160",
-      "bairro": "Cidade Universitária",
-      "cep": "57072000",
+      "cnpj": "03705157000100",
+      "razao_social": "NOSSO POSTO COMERCIO E REPRESENTACAO LTDA",
+      "nome_fantasia": "NOSSO POSTO",
+      "telefone": "",
+      "nome_logradouro": "Rua FIRMO CORREIA DE ARAUJO",
+      "numero_imovel": "364",
+      "bairro": "CLIMA BOM",
+      "cep": "57071012",
       "codigo_ibge": "2704302",
       "municipio": "Maceió",
-      "latitude": 0,
-      "longitude": 0,
-      "geocode_source": "supabase"
+      "latitude": -9.6476843,
+      "longitude": -35.7339264,
+      "geocode_source": "manual"
     },
     {
       "cnpj": "08695024000114",
@@ -4173,6 +4173,21 @@
       "geocode_source": "sefaz"
     },
     {
+      "cnpj": "09231306000123",
+      "razao_social": "CAVALCANTE & LEITE LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 32215374",
+      "nome_logradouro": "AV DEPUTADO SERZEDELO DE BARROS CORREIA",
+      "numero_imovel": "1351",
+      "bairro": "CLIMA BOM",
+      "cep": "57071230",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6476843,
+      "longitude": -35.7339264,
+      "geocode_source": "manual"
+    },
+    {
       "cnpj": "39482221000189",
       "razao_social": "POSTO LAGOA MAR COMBUSTIVEIS LTDA",
       "nome_fantasia": "TOTAL GIRO",
@@ -4201,21 +4216,6 @@
       "latitude": -9.6570248,
       "longitude": -35.710103,
       "geocode_source": "sefaz"
-    },
-    {
-      "cnpj": "09231306000123",
-      "razao_social": "CAVALCANTE & LEITE LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 32215374",
-      "nome_logradouro": "AV DEPUTADO SERZEDELO DE BARROS CORREIA",
-      "numero_imovel": "1351",
-      "bairro": "CLIMA BOM",
-      "cep": "57071230",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6476843,
-      "longitude": -35.7339264,
-      "geocode_source": "manual"
     },
     {
       "cnpj": "31585795000170",
@@ -4728,21 +4728,6 @@
       "geocode_source": "nominatim"
     },
     {
-      "cnpj": "32876089000140",
-      "razao_social": "AUTO POSTO TIGRE JANGADEIROS LTDA",
-      "nome_fantasia": "POSTO TIGRE JANGADEIROS LTDA",
-      "telefone": "(82) 32211058",
-      "nome_logradouro": "Rua JANGADEIROS ALAGOANOS",
-      "numero_imovel": "460",
-      "bairro": "PAJUCARA",
-      "cep": "57030000",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6703269,
-      "longitude": -35.7163724,
-      "geocode_source": "google"
-    },
-    {
       "cnpj": "05072232000179",
       "razao_social": "AUTO POSTO MILLENIUM LTDA",
       "nome_fantasia": "POSTO MILLENIUM",
@@ -4756,6 +4741,21 @@
       "latitude": -9.65364,
       "longitude": -35.7048606,
       "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "32876089000140",
+      "razao_social": "AUTO POSTO TIGRE JANGADEIROS LTDA",
+      "nome_fantasia": "POSTO TIGRE JANGADEIROS LTDA",
+      "telefone": "(82) 32211058",
+      "nome_logradouro": "Rua JANGADEIROS ALAGOANOS",
+      "numero_imovel": "460",
+      "bairro": "PAJUCARA",
+      "cep": "57030000",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6703269,
+      "longitude": -35.7163724,
+      "geocode_source": "google"
     },
     {
       "cnpj": "16920293000165",
@@ -5193,21 +5193,6 @@
       "geocode_source": "google-maps-poi"
     },
     {
-      "cnpj": "20838676000166",
-      "razao_social": "POSTO ECOLOGICO COMERCIO DE COMBUSTIVEIS LTDA - EPP",
-      "nome_fantasia": "",
-      "telefone": "(82) 33118380",
-      "nome_logradouro": "LOT SANTA RITA - I QD, A",
-      "numero_imovel": "S/N",
-      "bairro": "ILHA DE SANTA RITA",
-      "cep": "57160000",
-      "codigo_ibge": "2704708",
-      "municipio": "Marechal Deodoro",
-      "latitude": -9.7,
-      "longitude": -35.8167,
-      "geocode_source": "google-maps-search"
-    },
-    {
       "cnpj": "34193732000167",
       "razao_social": "AUTO POSTO TREVO DO FRANCES LTDA",
       "nome_fantasia": "AUTO POSTO TREVO DO FRANCES",
@@ -5221,6 +5206,21 @@
       "latitude": -9.7663547,
       "longitude": -35.8509055,
       "geocode_source": "google-maps-poi"
+    },
+    {
+      "cnpj": "20838676000166",
+      "razao_social": "POSTO ECOLOGICO COMERCIO DE COMBUSTIVEIS LTDA - EPP",
+      "nome_fantasia": "",
+      "telefone": "(82) 33118380",
+      "nome_logradouro": "LOT SANTA RITA - I QD, A",
+      "numero_imovel": "S/N",
+      "bairro": "ILHA DE SANTA RITA",
+      "cep": "57160000",
+      "codigo_ibge": "2704708",
+      "municipio": "Marechal Deodoro",
+      "latitude": -9.7,
+      "longitude": -35.8167,
+      "geocode_source": "google-maps-search"
     },
     {
       "cnpj": "07886068000169",
@@ -5283,12 +5283,12 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "24466310000164",
-      "razao_social": "H C COMBUSTIVEIS E LUBRIFICANTES LTDA. EPP",
-      "nome_fantasia": "AUTO POSTO H C",
-      "telefone": "",
-      "nome_logradouro": "ROD RODOVIA BR 316",
-      "numero_imovel": "6000",
+      "cnpj": "06964197000165",
+      "razao_social": "POSTO HOLANDA TEIXEIRA LTDA",
+      "nome_fantasia": "POSTO HOLANDA TEIXEIRA LTDA",
+      "telefone": "(82) 35303442",
+      "nome_logradouro": "AV SENADOR ARNON DE MELLO",
+      "numero_imovel": "2070",
       "bairro": "CENTRO",
       "cep": "57670000",
       "codigo_ibge": "2704807",
@@ -5298,12 +5298,12 @@
       "geocode_source": "opencage"
     },
     {
-      "cnpj": "06964197000165",
-      "razao_social": "POSTO HOLANDA TEIXEIRA LTDA",
-      "nome_fantasia": "POSTO HOLANDA TEIXEIRA LTDA",
-      "telefone": "(82) 35303442",
-      "nome_logradouro": "AV SENADOR ARNON DE MELLO",
-      "numero_imovel": "2070",
+      "cnpj": "24466310000164",
+      "razao_social": "H C COMBUSTIVEIS E LUBRIFICANTES LTDA. EPP",
+      "nome_fantasia": "AUTO POSTO H C",
+      "telefone": "",
+      "nome_logradouro": "ROD RODOVIA BR 316",
+      "numero_imovel": "6000",
       "bairro": "CENTRO",
       "cep": "57670000",
       "codigo_ibge": "2704807",
@@ -8073,21 +8073,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "30934089000124",
-      "razao_social": "AUTO POSTO GLOBO IV",
-      "nome_fantasia": "POSTO GLOBO IV",
-      "telefone": "",
-      "nome_logradouro": "Rua COR. JOSE BEZERRA MONTENEGRO",
-      "numero_imovel": "75",
-      "bairro": "CENTRO",
-      "cep": "57800000",
-      "codigo_ibge": "2709301",
-      "municipio": "União dos Palmares",
-      "latitude": -9.1620269,
-      "longitude": -36.0307468,
-      "geocode_source": "google"
-    },
-    {
       "cnpj": "14296183000149",
       "razao_social": "POSTO SANTA CLARA LTDA - EPP",
       "nome_fantasia": "",
@@ -8100,6 +8085,21 @@
       "municipio": "União dos Palmares",
       "latitude": -9.2465189,
       "longitude": -36.0173937,
+      "geocode_source": "google"
+    },
+    {
+      "cnpj": "30934089000124",
+      "razao_social": "AUTO POSTO GLOBO IV",
+      "nome_fantasia": "POSTO GLOBO IV",
+      "telefone": "",
+      "nome_logradouro": "Rua COR. JOSE BEZERRA MONTENEGRO",
+      "numero_imovel": "75",
+      "bairro": "CENTRO",
+      "cep": "57800000",
+      "codigo_ibge": "2709301",
+      "municipio": "União dos Palmares",
+      "latitude": -9.1620269,
+      "longitude": -36.0307468,
       "geocode_source": "google"
     },
     {
@@ -8178,21 +8178,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "29766200000131",
-      "razao_social": "AUTO POSTO GLOBO III LTDA",
-      "nome_fantasia": "POSTO GLOBO III",
-      "telefone": "",
-      "nome_logradouro": "AV JOAO LYRA FILHO",
-      "numero_imovel": "304",
-      "bairro": "ROBERTO CORREIA DE ARAUJO",
-      "cep": "57800000",
-      "codigo_ibge": "2709301",
-      "municipio": "União dos Palmares",
-      "latitude": -9.1651025,
-      "longitude": -36.0241759,
-      "geocode_source": "sefaz"
-    },
-    {
       "cnpj": "35736818000151",
       "razao_social": "C G DE J PEDROSA",
       "nome_fantasia": "",
@@ -8206,6 +8191,21 @@
       "latitude": -9.1630544,
       "longitude": -36.0181155,
       "geocode_source": "google"
+    },
+    {
+      "cnpj": "29766200000131",
+      "razao_social": "AUTO POSTO GLOBO III LTDA",
+      "nome_fantasia": "POSTO GLOBO III",
+      "telefone": "",
+      "nome_logradouro": "AV JOAO LYRA FILHO",
+      "numero_imovel": "304",
+      "bairro": "ROBERTO CORREIA DE ARAUJO",
+      "cep": "57800000",
+      "codigo_ibge": "2709301",
+      "municipio": "União dos Palmares",
+      "latitude": -9.1651025,
+      "longitude": -36.0241759,
+      "geocode_source": "sefaz"
     },
     {
       "cnpj": "06053479000100",
