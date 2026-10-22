@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-10-22T20:04:22.841Z",
+  "atualizadoEm": "2026-10-22T20:11:36.263Z",
   "totalEstabelecimentos": 556,
   "estabelecimentos": [
     {
@@ -2328,21 +2328,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "17348259000201",
-      "razao_social": "POSTO ALINE LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 36415660",
-      "nome_logradouro": "AV ANTONIO JOSE DA COSTA",
-      "numero_imovel": "59",
-      "bairro": "CENTRO",
-      "cep": "57480000",
-      "codigo_ibge": "2702405",
-      "municipio": "Delmiro Gouveia",
-      "latitude": -9.3804252,
-      "longitude": -38.0044369,
-      "geocode_source": "google"
-    },
-    {
       "cnpj": "17348259000392",
       "razao_social": "POSTO ALINE LTDA",
       "nome_fantasia": "",
@@ -2356,6 +2341,21 @@
       "latitude": -9.394143,
       "longitude": -37.9968955,
       "geocode_source": "opencage"
+    },
+    {
+      "cnpj": "17348259000201",
+      "razao_social": "POSTO ALINE LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 36415660",
+      "nome_logradouro": "AV ANTONIO JOSE DA COSTA",
+      "numero_imovel": "59",
+      "bairro": "CENTRO",
+      "cep": "57480000",
+      "codigo_ibge": "2702405",
+      "municipio": "Delmiro Gouveia",
+      "latitude": -9.3804252,
+      "longitude": -38.0044369,
+      "geocode_source": "google"
     },
     {
       "cnpj": "17348259000120",
@@ -3543,21 +3543,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "09077197000131",
-      "razao_social": "AUTO POSTO TRAPICHAO LTDA",
-      "nome_fantasia": "POSTO TRAPICHAO",
-      "telefone": "(82) 33560530",
-      "nome_logradouro": "AV SIQUEIRA CAMPOS",
-      "numero_imovel": "1801",
-      "bairro": "TRAPICHE DA BARRA",
-      "cep": "57010405",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6715693,
-      "longitude": -35.7565066,
-      "geocode_source": "sefaz"
-    },
-    {
       "cnpj": "69990182000191",
       "razao_social": "MAXI POSTO BR LTDA",
       "nome_fantasia": "POSTO MAXI",
@@ -3570,6 +3555,21 @@
       "municipio": "Maceió",
       "latitude": -9.6269171,
       "longitude": -35.7166074,
+      "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "09077197000131",
+      "razao_social": "AUTO POSTO TRAPICHAO LTDA",
+      "nome_fantasia": "POSTO TRAPICHAO",
+      "telefone": "(82) 33560530",
+      "nome_logradouro": "AV SIQUEIRA CAMPOS",
+      "numero_imovel": "1801",
+      "bairro": "TRAPICHE DA BARRA",
+      "cep": "57010405",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6715693,
+      "longitude": -35.7565066,
       "geocode_source": "sefaz"
     },
     {
@@ -7518,21 +7518,6 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "11908167000171",
-      "razao_social": "DIESEL DISTRIBUIDORA E SERVICOS LTDA",
-      "nome_fantasia": "POSTO VIA SUL",
-      "telefone": "(82) 2712215",
-      "nome_logradouro": "ROD BR 101 SUL, KM 137",
-      "numero_imovel": "S/N",
-      "bairro": "HELIO JATOBA",
-      "cep": "57246370",
-      "codigo_ibge": "2708600",
-      "municipio": "São Miguel dos Campos",
-      "latitude": -9.78111,
-      "longitude": -36.09361,
-      "geocode_source": "opencage"
-    },
-    {
       "cnpj": "29709059000135",
       "razao_social": "POSTO SM LTDA",
       "nome_fantasia": "POSTO SM",
@@ -7561,6 +7546,21 @@
       "latitude": -9.7763051,
       "longitude": -36.1056368,
       "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "11908167000171",
+      "razao_social": "DIESEL DISTRIBUIDORA E SERVICOS LTDA",
+      "nome_fantasia": "POSTO VIA SUL",
+      "telefone": "(82) 2712215",
+      "nome_logradouro": "ROD BR 101 SUL, KM 137",
+      "numero_imovel": "S/N",
+      "bairro": "HELIO JATOBA",
+      "cep": "57246370",
+      "codigo_ibge": "2708600",
+      "municipio": "São Miguel dos Campos",
+      "latitude": -9.78111,
+      "longitude": -36.09361,
+      "geocode_source": "opencage"
     },
     {
       "cnpj": "11908167000414",
@@ -8133,18 +8133,18 @@
       "geocode_source": "supabase"
     },
     {
-      "cnpj": "14296183000149",
-      "razao_social": "POSTO SANTA CLARA LTDA - EPP",
+      "cnpj": "35736818000151",
+      "razao_social": "C G DE J PEDROSA",
       "nome_fantasia": "",
-      "telefone": "(82) 99330079",
-      "nome_logradouro": "PC BENON MAIA GOMES",
-      "numero_imovel": "239",
-      "bairro": "CENTRO",
+      "telefone": "",
+      "nome_logradouro": "RDV BR 104",
+      "numero_imovel": "SN",
+      "bairro": "ROBERTO C DE ARAUJO",
       "cep": "57800000",
       "codigo_ibge": "2709301",
       "municipio": "União dos Palmares",
-      "latitude": -9.2465189,
-      "longitude": -36.0173937,
+      "latitude": -9.1630544,
+      "longitude": -36.0181155,
       "geocode_source": "google"
     },
     {
@@ -8163,18 +8163,18 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "35736818000151",
-      "razao_social": "C G DE J PEDROSA",
+      "cnpj": "14296183000149",
+      "razao_social": "POSTO SANTA CLARA LTDA - EPP",
       "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "RDV BR 104",
-      "numero_imovel": "SN",
-      "bairro": "ROBERTO C DE ARAUJO",
+      "telefone": "(82) 99330079",
+      "nome_logradouro": "PC BENON MAIA GOMES",
+      "numero_imovel": "239",
+      "bairro": "CENTRO",
       "cep": "57800000",
       "codigo_ibge": "2709301",
       "municipio": "União dos Palmares",
-      "latitude": -9.1630544,
-      "longitude": -36.0181155,
+      "latitude": -9.2465189,
+      "longitude": -36.0173937,
       "geocode_source": "google"
     },
     {
