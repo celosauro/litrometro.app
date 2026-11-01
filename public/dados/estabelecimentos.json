@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-01T04:13:58.016Z",
+  "atualizadoEm": "2026-11-01T07:38:44.892Z",
   "totalEstabelecimentos": 558,
   "estabelecimentos": [
     {
@@ -348,21 +348,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "23800197000149",
-      "razao_social": "AUTO POSTO CIDADE LTDA - EPP",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "Rua DOM JONAS BATINGA",
-      "numero_imovel": "650",
-      "bairro": "SAO LUIZ II",
-      "cep": "57301714",
-      "codigo_ibge": "2700300",
-      "municipio": "Arapiraca",
-      "latitude": -9.7644916,
-      "longitude": -36.65569869999999,
-      "geocode_source": "sefaz"
-    },
-    {
       "cnpj": "21309025000141",
       "razao_social": "AUTO POSTO BRISA DO LAGO COMBUSTIVEIS E TRANSPORTES LTDA",
       "nome_fantasia": "",
@@ -375,6 +360,21 @@
       "municipio": "Arapiraca",
       "latitude": -9.7667916,
       "longitude": -36.6710844,
+      "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "23800197000149",
+      "razao_social": "AUTO POSTO CIDADE LTDA - EPP",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "Rua DOM JONAS BATINGA",
+      "numero_imovel": "650",
+      "bairro": "SAO LUIZ II",
+      "cep": "57301714",
+      "codigo_ibge": "2700300",
+      "municipio": "Arapiraca",
+      "latitude": -9.7644916,
+      "longitude": -36.65569869999999,
       "geocode_source": "sefaz"
     },
     {
@@ -963,21 +963,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "29790416000302",
-      "razao_social": "MG PETRO COMBUSTIVEIS LTDA",
-      "nome_fantasia": "AUTO POSTO OURO VERDE",
-      "telefone": "",
-      "nome_logradouro": "AV JOAO CRISOSTOMO RAMALHO",
-      "numero_imovel": "1740",
-      "bairro": "ITAPOA",
-      "cep": "57314200",
-      "codigo_ibge": "2700300",
-      "municipio": "Arapiraca",
-      "latitude": 0,
-      "longitude": 0,
-      "geocode_source": "supabase"
-    },
-    {
       "cnpj": "29790416000485",
       "razao_social": "MG PETRO COMBUSTIVEIS LTDA",
       "nome_fantasia": "",
@@ -991,6 +976,21 @@
       "latitude": -9.756758699999999,
       "longitude": -36.6574486,
       "geocode_source": "google"
+    },
+    {
+      "cnpj": "29790416000302",
+      "razao_social": "MG PETRO COMBUSTIVEIS LTDA",
+      "nome_fantasia": "AUTO POSTO OURO VERDE",
+      "telefone": "",
+      "nome_logradouro": "AV JOAO CRISOSTOMO RAMALHO",
+      "numero_imovel": "1740",
+      "bairro": "ITAPOA",
+      "cep": "57314200",
+      "codigo_ibge": "2700300",
+      "municipio": "Arapiraca",
+      "latitude": 0,
+      "longitude": 0,
+      "geocode_source": "supabase"
     },
     {
       "cnpj": "29790416000213",
@@ -4713,21 +4713,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "09347041000476",
-      "razao_social": "VIEIRA & OMENA LTDA",
-      "nome_fantasia": "",
-      "telefone": "(82) 32215374",
-      "nome_logradouro": "AV VEREADOR DARIO MARSIGLIA",
-      "numero_imovel": "1164",
-      "bairro": "TABULEIRO DOS MARTINS",
-      "cep": "57081015",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6476843,
-      "longitude": -35.7339264,
-      "geocode_source": "manual"
-    },
-    {
       "cnpj": "02488031000169",
       "razao_social": "CDG COMBUSTIVEIS LTDA",
       "nome_fantasia": "AUTO POSTO STELLA MARES",
@@ -4741,6 +4726,21 @@
       "latitude": -9.648919,
       "longitude": -35.700827,
       "geocode_source": "nominatim"
+    },
+    {
+      "cnpj": "09347041000476",
+      "razao_social": "VIEIRA & OMENA LTDA",
+      "nome_fantasia": "",
+      "telefone": "(82) 32215374",
+      "nome_logradouro": "AV VEREADOR DARIO MARSIGLIA",
+      "numero_imovel": "1164",
+      "bairro": "TABULEIRO DOS MARTINS",
+      "cep": "57081015",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6476843,
+      "longitude": -35.7339264,
+      "geocode_source": "manual"
     },
     {
       "cnpj": "05072232000179",
@@ -5343,12 +5343,12 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "24466310000164",
-      "razao_social": "H C COMBUSTIVEIS E LUBRIFICANTES LTDA. EPP",
-      "nome_fantasia": "AUTO POSTO H C",
-      "telefone": "",
-      "nome_logradouro": "ROD RODOVIA BR 316",
-      "numero_imovel": "6000",
+      "cnpj": "06964197000165",
+      "razao_social": "POSTO HOLANDA TEIXEIRA LTDA",
+      "nome_fantasia": "POSTO HOLANDA TEIXEIRA LTDA",
+      "telefone": "(82) 35303442",
+      "nome_logradouro": "AV SENADOR ARNON DE MELLO",
+      "numero_imovel": "2070",
       "bairro": "CENTRO",
       "cep": "57670000",
       "codigo_ibge": "2704807",
@@ -5358,12 +5358,12 @@
       "geocode_source": "opencage"
     },
     {
-      "cnpj": "06964197000165",
-      "razao_social": "POSTO HOLANDA TEIXEIRA LTDA",
-      "nome_fantasia": "POSTO HOLANDA TEIXEIRA LTDA",
-      "telefone": "(82) 35303442",
-      "nome_logradouro": "AV SENADOR ARNON DE MELLO",
-      "numero_imovel": "2070",
+      "cnpj": "24466310000164",
+      "razao_social": "H C COMBUSTIVEIS E LUBRIFICANTES LTDA. EPP",
+      "nome_fantasia": "AUTO POSTO H C",
+      "telefone": "",
+      "nome_logradouro": "ROD RODOVIA BR 316",
+      "numero_imovel": "6000",
       "bairro": "CENTRO",
       "cep": "57670000",
       "codigo_ibge": "2704807",
@@ -7578,21 +7578,6 @@
       "geocode_source": "opencage"
     },
     {
-      "cnpj": "41585759000160",
-      "razao_social": "POSTO DE COMBUSTIVEL MOURA LTDA",
-      "nome_fantasia": "POSTO DUARTE II",
-      "telefone": "(82) 91362534",
-      "nome_logradouro": "Rua DOUTOR FRANCISCO DUARTE",
-      "numero_imovel": "90",
-      "bairro": "CENTRO",
-      "cep": "57240040",
-      "codigo_ibge": "2708600",
-      "municipio": "São Miguel dos Campos",
-      "latitude": -9.7784547,
-      "longitude": -36.0920727,
-      "geocode_source": "sefaz"
-    },
-    {
       "cnpj": "11908167000414",
       "razao_social": "DIESEL DISTRIBUIDORA E SERVICOS LTDA",
       "nome_fantasia": "POSTO CINEMA",
@@ -7605,6 +7590,21 @@
       "municipio": "São Miguel dos Campos",
       "latitude": -9.7803427,
       "longitude": -36.0971704,
+      "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "41585759000160",
+      "razao_social": "POSTO DE COMBUSTIVEL MOURA LTDA",
+      "nome_fantasia": "POSTO DUARTE II",
+      "telefone": "(82) 91362534",
+      "nome_logradouro": "Rua DOUTOR FRANCISCO DUARTE",
+      "numero_imovel": "90",
+      "bairro": "CENTRO",
+      "cep": "57240040",
+      "codigo_ibge": "2708600",
+      "municipio": "São Miguel dos Campos",
+      "latitude": -9.7784547,
+      "longitude": -36.0920727,
       "geocode_source": "sefaz"
     },
     {
