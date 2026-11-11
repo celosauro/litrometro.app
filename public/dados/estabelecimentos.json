@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-11T04:54:55.927Z",
+  "atualizadoEm": "2026-11-11T06:29:38.668Z",
   "totalEstabelecimentos": 561,
   "estabelecimentos": [
     {
@@ -1053,6 +1053,21 @@
       "geocode_source": "google"
     },
     {
+      "cnpj": "55378874000179",
+      "razao_social": "TN COMBUSTÍVEIS - UNIDADE BRASILIANA LTDA",
+      "nome_fantasia": "POSTO TERRA NOSSA - UNIDADE BRASILIANA",
+      "telefone": "(82) 41021750",
+      "nome_logradouro": "Rua Benjamim Freire de Amorim",
+      "numero_imovel": "1032",
+      "bairro": "Brasiliana",
+      "cep": "57310540",
+      "codigo_ibge": "2700300",
+      "municipio": "Arapiraca",
+      "latitude": -9.739425299999999,
+      "longitude": -36.6660151,
+      "geocode_source": "google"
+    },
+    {
       "cnpj": "29540082000149",
       "razao_social": "AB COMBUSTIVEIS LTDA",
       "nome_fantasia": "",
@@ -1081,21 +1096,6 @@
       "latitude": -9.754866,
       "longitude": -36.661471,
       "geocode_source": "manual"
-    },
-    {
-      "cnpj": "55378874000179",
-      "razao_social": "TN COMBUSTÍVEIS - UNIDADE BRASILIANA LTDA",
-      "nome_fantasia": "POSTO TERRA NOSSA - UNIDADE BRASILIANA",
-      "telefone": "(82) 41021750",
-      "nome_logradouro": "Rua Benjamim Freire de Amorim",
-      "numero_imovel": "1032",
-      "bairro": "Brasiliana",
-      "cep": "57310540",
-      "codigo_ibge": "2700300",
-      "municipio": "Arapiraca",
-      "latitude": -9.739425299999999,
-      "longitude": -36.6660151,
-      "geocode_source": "google"
     },
     {
       "cnpj": "21909741000160",
@@ -3603,21 +3603,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "48558782000105",
-      "razao_social": "MAXI POSTO X LTDA",
-      "nome_fantasia": "MAXI POSTO X",
-      "telefone": "(82) 33204492",
-      "nome_logradouro": "AV Lourival Melo Mota",
-      "numero_imovel": "17160",
-      "bairro": "Cidade Universitária",
-      "cep": "57072000",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": 0,
-      "longitude": 0,
-      "geocode_source": "supabase"
-    },
-    {
       "cnpj": "17698076000135",
       "razao_social": "SOUZA & AMARAL AUTO POSTO LTDA  - ME",
       "nome_fantasia": "AUTO POSTO ESTRELA",
@@ -3631,6 +3616,21 @@
       "latitude": -9.5906085,
       "longitude": -35.7587075,
       "geocode_source": "google"
+    },
+    {
+      "cnpj": "48558782000105",
+      "razao_social": "MAXI POSTO X LTDA",
+      "nome_fantasia": "MAXI POSTO X",
+      "telefone": "(82) 33204492",
+      "nome_logradouro": "AV Lourival Melo Mota",
+      "numero_imovel": "17160",
+      "bairro": "Cidade Universitária",
+      "cep": "57072000",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": 0,
+      "longitude": 0,
+      "geocode_source": "supabase"
     },
     {
       "cnpj": "40562806000198",
@@ -4338,6 +4338,21 @@
       "geocode_source": "nominatim"
     },
     {
+      "cnpj": "43639775000114",
+      "razao_social": "AUTO POSTO ULTRA LTDA",
+      "nome_fantasia": "AUTO POSTO ULTRA",
+      "telefone": "(82) 21211800",
+      "nome_logradouro": "Rua JOAO JOSE PEREIRA FILHO",
+      "numero_imovel": "1696",
+      "bairro": "TABULEIRO DO MARTINS",
+      "cep": "57081000",
+      "codigo_ibge": "2704302",
+      "municipio": "Maceió",
+      "latitude": -9.6476843,
+      "longitude": -35.7339264,
+      "geocode_source": "manual"
+    },
+    {
       "cnpj": "29078822000177",
       "razao_social": "POSTO GAMA LTDA",
       "nome_fantasia": "POSTO GAMA",
@@ -4361,21 +4376,6 @@
       "numero_imovel": "469",
       "bairro": "CIDADE UNIVERSITARIA",
       "cep": "57073030",
-      "codigo_ibge": "2704302",
-      "municipio": "Maceió",
-      "latitude": -9.6476843,
-      "longitude": -35.7339264,
-      "geocode_source": "manual"
-    },
-    {
-      "cnpj": "43639775000114",
-      "razao_social": "AUTO POSTO ULTRA LTDA",
-      "nome_fantasia": "AUTO POSTO ULTRA",
-      "telefone": "(82) 21211800",
-      "nome_logradouro": "Rua JOAO JOSE PEREIRA FILHO",
-      "numero_imovel": "1696",
-      "bairro": "TABULEIRO DO MARTINS",
-      "cep": "57081000",
       "codigo_ibge": "2704302",
       "municipio": "Maceió",
       "latitude": -9.6476843,
@@ -7038,21 +7038,6 @@
       "geocode_source": "manual"
     },
     {
-      "cnpj": "00740510000103",
-      "razao_social": "TULEMON COMERCIO LTDA",
-      "nome_fantasia": "AUTO POSTO MOTORIZADO",
-      "telefone": "",
-      "nome_logradouro": "LOT PALMARES I",
-      "numero_imovel": "17",
-      "bairro": "PREFEITO ANTONIO LINS DE SOUZA",
-      "cep": "57100000",
-      "codigo_ibge": "2707701",
-      "municipio": "Rio Largo",
-      "latitude": -9.477829,
-      "longitude": -35.839435,
-      "geocode_source": "manual"
-    },
-    {
       "cnpj": "26517575000170",
       "razao_social": "MUNDAU AUTO POSTO LTDA",
       "nome_fantasia": "MUNDAU AUTO POSTO",
@@ -7066,6 +7051,21 @@
       "latitude": -9.4972869,
       "longitude": -35.8124054,
       "geocode_source": "google"
+    },
+    {
+      "cnpj": "00740510000103",
+      "razao_social": "TULEMON COMERCIO LTDA",
+      "nome_fantasia": "AUTO POSTO MOTORIZADO",
+      "telefone": "",
+      "nome_logradouro": "LOT PALMARES I",
+      "numero_imovel": "17",
+      "bairro": "PREFEITO ANTONIO LINS DE SOUZA",
+      "cep": "57100000",
+      "codigo_ibge": "2707701",
+      "municipio": "Rio Largo",
+      "latitude": -9.477829,
+      "longitude": -35.839435,
+      "geocode_source": "manual"
     },
     {
       "cnpj": "12486809000405",
@@ -7593,21 +7593,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "41585759000160",
-      "razao_social": "POSTO DE COMBUSTIVEL MOURA LTDA",
-      "nome_fantasia": "POSTO DUARTE II",
-      "telefone": "(82) 91362534",
-      "nome_logradouro": "Rua DOUTOR FRANCISCO DUARTE",
-      "numero_imovel": "90",
-      "bairro": "CENTRO",
-      "cep": "57240040",
-      "codigo_ibge": "2708600",
-      "municipio": "São Miguel dos Campos",
-      "latitude": -9.7784547,
-      "longitude": -36.0920727,
-      "geocode_source": "sefaz"
-    },
-    {
       "cnpj": "11908167000503",
       "razao_social": "DIESEL DISTRIBUIDORA E SERVICOS LTDA",
       "nome_fantasia": "POSTO PRISMEL",
@@ -7635,6 +7620,21 @@
       "municipio": "São Miguel dos Campos",
       "latitude": -9.7803427,
       "longitude": -36.0971704,
+      "geocode_source": "sefaz"
+    },
+    {
+      "cnpj": "41585759000160",
+      "razao_social": "POSTO DE COMBUSTIVEL MOURA LTDA",
+      "nome_fantasia": "POSTO DUARTE II",
+      "telefone": "(82) 91362534",
+      "nome_logradouro": "Rua DOUTOR FRANCISCO DUARTE",
+      "numero_imovel": "90",
+      "bairro": "CENTRO",
+      "cep": "57240040",
+      "codigo_ibge": "2708600",
+      "municipio": "São Miguel dos Campos",
+      "latitude": -9.7784547,
+      "longitude": -36.0920727,
       "geocode_source": "sefaz"
     },
     {
@@ -7833,21 +7833,6 @@
       "geocode_source": "sefaz"
     },
     {
-      "cnpj": "06081417000102",
-      "razao_social": "POSTO SALOMÉ LTDA",
-      "nome_fantasia": "POSTO SALOME",
-      "telefone": "",
-      "nome_logradouro": "ROD BR 101",
-      "numero_imovel": "SN",
-      "bairro": "RANCHO ALEGRE",
-      "cep": "57275000",
-      "codigo_ibge": "2708808",
-      "municipio": "São Sebastião",
-      "latitude": -9.9522715,
-      "longitude": -36.544499,
-      "geocode_source": "google"
-    },
-    {
       "cnpj": "12396339000219",
       "razao_social": "DISTRIBUIDORA DE VEICULOS CONFIANCA LIMITADA",
       "nome_fantasia": "POSTO RANCHO ALEGRE",
@@ -7861,6 +7846,21 @@
       "latitude": -9.93361,
       "longitude": -36.55417,
       "geocode_source": "opencage"
+    },
+    {
+      "cnpj": "06081417000102",
+      "razao_social": "POSTO SALOMÉ LTDA",
+      "nome_fantasia": "POSTO SALOME",
+      "telefone": "",
+      "nome_logradouro": "ROD BR 101",
+      "numero_imovel": "SN",
+      "bairro": "RANCHO ALEGRE",
+      "cep": "57275000",
+      "codigo_ibge": "2708808",
+      "municipio": "São Sebastião",
+      "latitude": -9.9522715,
+      "longitude": -36.544499,
+      "geocode_source": "google"
     },
     {
       "cnpj": "14486153001509",
@@ -8223,21 +8223,6 @@
       "geocode_source": "google"
     },
     {
-      "cnpj": "35736818000151",
-      "razao_social": "C G DE J PEDROSA",
-      "nome_fantasia": "",
-      "telefone": "",
-      "nome_logradouro": "RDV BR 104",
-      "numero_imovel": "SN",
-      "bairro": "ROBERTO C DE ARAUJO",
-      "cep": "57800000",
-      "codigo_ibge": "2709301",
-      "municipio": "União dos Palmares",
-      "latitude": -9.1630544,
-      "longitude": -36.0181155,
-      "geocode_source": "google"
-    },
-    {
       "cnpj": "14296183000149",
       "razao_social": "POSTO SANTA CLARA LTDA - EPP",
       "nome_fantasia": "",
@@ -8250,6 +8235,21 @@
       "municipio": "União dos Palmares",
       "latitude": -9.2465189,
       "longitude": -36.0173937,
+      "geocode_source": "google"
+    },
+    {
+      "cnpj": "35736818000151",
+      "razao_social": "C G DE J PEDROSA",
+      "nome_fantasia": "",
+      "telefone": "",
+      "nome_logradouro": "RDV BR 104",
+      "numero_imovel": "SN",
+      "bairro": "ROBERTO C DE ARAUJO",
+      "cep": "57800000",
+      "codigo_ibge": "2709301",
+      "municipio": "União dos Palmares",
+      "latitude": -9.1630544,
+      "longitude": -36.0181155,
       "geocode_source": "google"
     },
     {
