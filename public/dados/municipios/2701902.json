@@ -1,7 +1,7 @@
 {
   "codigoIBGE": "2701902",
   "municipio": "Chã Preta",
-  "atualizadoEm": "2026-11-12T19:58:24.346Z",
+  "atualizadoEm": "2026-11-13T01:07:58.907Z",
   "totalEstabelecimentos": 5,
   "estabelecimentos": [
     {
@@ -26,10 +26,10 @@
       "valor_maximo_24h": 7.1891,
       "valor_medio_24h": 7.1891,
       "data_minimo_24h": "2026-11-12T10:53:49+00:00",
-      "data_inicio_janela_24h": "2026-11-11T19:57:23.266+00:00",
-      "data_fim_janela_24h": "2026-11-12T19:57:23.266+00:00",
+      "data_inicio_janela_24h": "2026-11-12T01:07:00.657+00:00",
+      "data_fim_janela_24h": "2026-11-13T01:07:00.657+00:00",
       "contagem_vendas_24h": 1,
-      "atualizado_24h_em": "2026-11-12T19:57:51.167+00:00",
+      "atualizado_24h_em": "2026-11-13T01:07:24.803+00:00",
       "data_recente": "2026-11-12T10:53:49+00:00"
     },
     {
@@ -54,10 +54,10 @@
       "valor_maximo_24h": 7.19,
       "valor_medio_24h": 7.19,
       "data_minimo_24h": "2026-11-11T21:05:09+00:00",
-      "data_inicio_janela_24h": "2026-11-11T19:57:23.266+00:00",
-      "data_fim_janela_24h": "2026-11-12T19:57:23.266+00:00",
-      "contagem_vendas_24h": 1,
-      "atualizado_24h_em": "2026-11-12T19:57:51.167+00:00",
+      "data_inicio_janela_24h": "2026-11-12T01:07:00.657+00:00",
+      "data_fim_janela_24h": "2026-11-13T01:07:00.657+00:00",
+      "contagem_vendas_24h": 0,
+      "atualizado_24h_em": "2026-11-13T01:07:24.803+00:00",
       "data_recente": "2026-11-11T21:05:09+00:00"
     },
     {
@@ -89,34 +89,6 @@
       "data_recente": "2026-07-15T11:10:17+00:00"
     },
     {
-      "cnpj": "08515249000141",
-      "tipo_combustivel": 5,
-      "razao_social": "POSBRAL - POSTO BRANDAO EIRELI ME",
-      "nome_fantasia": "",
-      "telefone": "(82) 32041114",
-      "nome_logradouro": "Rua OTHON CORREIA",
-      "numero_imovel": "03",
-      "bairro": "CENTRO",
-      "cep": "57760000",
-      "codigo_ibge": "2701902",
-      "municipio": "Chã Preta",
-      "latitude": -9.2615689,
-      "longitude": -36.2961753,
-      "valor_minimo": 7.6829,
-      "valor_maximo": 7.6923,
-      "valor_medio": 7.6897,
-      "valor_recente": 7.6908,
-      "valor_minimo_24h": 7.6908,
-      "valor_maximo_24h": 7.6908,
-      "valor_medio_24h": 7.6908,
-      "data_minimo_24h": "2026-11-11T21:12:02+00:00",
-      "data_inicio_janela_24h": "2026-11-11T19:57:23.266+00:00",
-      "data_fim_janela_24h": "2026-11-12T19:57:23.266+00:00",
-      "contagem_vendas_24h": 1,
-      "atualizado_24h_em": "2026-11-12T19:57:51.167+00:00",
-      "data_recente": "2026-11-11T21:12:02+00:00"
-    },
-    {
       "cnpj": "15598179000106",
       "tipo_combustivel": 5,
       "razao_social": "AUTO POSTO AS LTDA",
@@ -143,6 +115,34 @@
       "contagem_vendas_24h": 0,
       "atualizado_24h_em": "2026-11-04T18:01:35.13+00:00",
       "data_recente": "2026-10-05T19:39:18+00:00"
+    },
+    {
+      "cnpj": "08515249000141",
+      "tipo_combustivel": 5,
+      "razao_social": "POSBRAL - POSTO BRANDAO EIRELI ME",
+      "nome_fantasia": "",
+      "telefone": "(82) 32041114",
+      "nome_logradouro": "Rua OTHON CORREIA",
+      "numero_imovel": "03",
+      "bairro": "CENTRO",
+      "cep": "57760000",
+      "codigo_ibge": "2701902",
+      "municipio": "Chã Preta",
+      "latitude": -9.2615689,
+      "longitude": -36.2961753,
+      "valor_minimo": 7.6829,
+      "valor_maximo": 7.6923,
+      "valor_medio": 7.6897,
+      "valor_recente": 7.6908,
+      "valor_minimo_24h": 7.6908,
+      "valor_maximo_24h": 7.6908,
+      "valor_medio_24h": 7.6908,
+      "data_minimo_24h": "2026-11-11T21:12:02+00:00",
+      "data_inicio_janela_24h": "2026-11-12T01:07:00.657+00:00",
+      "data_fim_janela_24h": "2026-11-13T01:07:00.657+00:00",
+      "contagem_vendas_24h": 0,
+      "atualizado_24h_em": "2026-11-13T01:07:24.803+00:00",
+      "data_recente": "2026-11-11T21:12:02+00:00"
     }
   ]
 }
